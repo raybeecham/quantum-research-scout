@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-09-28T02:58:03.521796+00:00_
+_Updated 2026-09-29T03:38:05.351699+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **4791**
-- Authoritative claims: **4589**
+- Active claims: **4795**
+- Authoritative claims: **4593**
 - Analytical claims: **198**
 - Conflicted claims: **38**
-- Evidence items / URLs: **4899 / 1327**
+- Evidence items / URLs: **4903 / 1328**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,10 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | 15--PANEL,STRUCTURAL,AI | opportunity status | awarded | authoritative / high | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view) |
+| active | 15--PANEL,STRUCTURAL,AI | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION | authoritative / high | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view) |
+| active | 15--PANEL,STRUCTURAL,AI | reported amount | 328866.0 | authoritative / high | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view) |
+| active | 15--PANEL,STRUCTURAL,AI | reported recipient | AERO COMPONENTS, LLC | authoritative / high | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view) |
 | active | ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5. | opportunity status | awarded | authoritative / high | [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.](https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100) |
 | active | ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5. | awarding agency | Department of Education | authoritative / high | [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.](https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100) |
 | active | ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5. | reported amount | 1819257.2 | authoritative / high | [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.](https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100) |
@@ -260,10 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027 | reported recipient | FOUR POINTS TECHNOLOGY, L.L.C. | authoritative / high | [NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80332_7571_NNG15SD22B_8000) |
 | active | DSD LABORATORIES INC | legal business name | DSD LABORATORIES INC | authoritative / high | [DSD LABORATORIES INC](https://sam.gov/entity/MBMHMGJMQFC7/coreData) |
 | active | DSD LABORATORIES INC | uei | MBMHMGJMQFC7 | authoritative / high | [DSD LABORATORIES INC](https://sam.gov/entity/MBMHMGJMQFC7/coreData) |
-| active | DSD LABORATORIES INC | cage code | 0ABU8 | authoritative / high | [DSD LABORATORIES INC](https://sam.gov/entity/MBMHMGJMQFC7/coreData) |
-| active | DSD LABORATORIES INC | registration status | Active | authoritative / high | [DSD LABORATORIES INC](https://sam.gov/entity/MBMHMGJMQFC7/coreData) |
-| active | PURPOSE:THE PURPOSE OF THIS GRANT IS TO ENABLE UC SAN FRANCISCO TO INVEST IN HIGH-PERFORMANCE COMPUTING (HPC) INFRASTRUCTURE THAT WILL SERVE AS A FOUNDATIONAL RESOURCE FOR AI RESE... | opportunity status | awarded | authoritative / high | [PURPOSE:THE PURPOSE OF THIS GRANT IS TO ENABLE UC SAN FRANCISCO TO INVEST IN HIGH-PERFORMANCE COMPUTING (HPC) INFRASTRUCTURE THAT WILL SERVE AS A FOUNDATIONAL RESOURCE FOR AI RESE...](https://www.usaspending.gov/award/ASST_NON_60NANB26D305_013) |
-| active | PURPOSE:THE PURPOSE OF THIS GRANT IS TO ENABLE UC SAN FRANCISCO TO INVEST IN HIGH-PERFORMANCE COMPUTING (HPC) INFRASTRUCTURE THAT WILL SERVE AS A FOUNDATIONAL RESOURCE FOR AI RESE... | awarding agency | Department of Commerce | authoritative / high | [PURPOSE:THE PURPOSE OF THIS GRANT IS TO ENABLE UC SAN FRANCISCO TO INVEST IN HIGH-PERFORMANCE COMPUTING (HPC) INFRASTRUCTURE THAT WILL SERVE AS A FOUNDATIONAL RESOURCE FOR AI RESE...](https://www.usaspending.gov/award/ASST_NON_60NANB26D305_013) |
 
 ## Method
 

@@ -2,12 +2,12 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-09-28T02:58:03.521796+00:00_
+_Updated 2026-09-29T03:38:05.351699+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
 - Active forecasts: **7**
-- Due within 30 days: **2**
+- Due within 30 days: **4**
 - Resolved forecasts: **4**
 - Withdrawn without scoring: **2**
 - Calibration: **Needs calibration**
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 86% · Genesis Mission
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-27?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-28?
 
 **Horizon:** 2026-10-29
 
@@ -42,9 +42,9 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 - The horizon closes with no additional linked opportunity.
 - Execution moves entirely through existing vehicles without a new public notice.
 
-### 74% · Golden Dome for America
+### 62% · Golden Dome for America
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-27?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-28?
 
 **Horizon:** 2026-10-29
 
@@ -53,7 +53,6 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 **Evidence**
 
 - [Department reports initial architecture, command-and-control consortium, and active contracts](https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html) — official funding announcement · 2026-04-23
-- [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) — official award · 2026-04-01
 - [Golden Dome for America](https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/) — official mission · date not reported
 
 **Confirming indicators**
@@ -70,7 +69,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 46% · AI Forge
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-27?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-28?
 
 **Horizon:** 2026-11-21
 
@@ -94,7 +93,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 46% · Quantum Genesis
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2026-12-27?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2026-12-28?
 
 **Horizon:** 2026-12-17
 
@@ -141,7 +140,7 @@ Will authoritative evidence confirm “Advance selected NSF NQVL projects from d
 
 ### 57% · AI Forge
 
-Will authoritative evidence confirm “Launch the AI Forge university-industry-government forum” by 2026-10-28?
+Will authoritative evidence confirm “Launch the AI Forge university-industry-government forum” by 2026-10-29?
 
 **Horizon:** 2026-09-29
 

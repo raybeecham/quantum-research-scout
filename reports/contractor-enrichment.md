@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-09-28T02:58:03.521796+00:00_
+_Updated 2026-09-29T03:38:05.351699+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
@@ -59,6 +59,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF NEW MEXICO | [University Of New Mexico](https://sam.gov/entity/F6XLTRUQJEN4/coreData) | F6XLTRUQJEN4 | 6T086 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
 | THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | [THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/JJ6CN5Y5A2R5/coreData) | JJ6CN5Y5A2R5 | 07069 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | THE PENNSYLVANIA STATE UNIVERSITY | [THE PENNSYLVANIA STATE UNIVERSITY](https://sam.gov/entity/NPM2J7MSCF61/coreData) | NPM2J7MSCF61 | 7A720 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
+| SHOREPOINT LLC | [SHOREPOINT LLC](https://sam.gov/entity/KNJHHF1GWLF3/coreData) | KNJHHF1GWLF3 | 7WWJ6 | Active | Business or Organization, For Profit Organization, Subchapter S Corporation |
 | NEW MEXICO STATE UNIVERSITY | [NEW MEXICO STATE UNIVERSITY](https://sam.gov/entity/J3M5GZAT8N85/coreData) | J3M5GZAT8N85 | 3X352 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | GEORGIA TECH RESEARCH CORP | [GEORGIA TECH RESEARCH CORP](https://sam.gov/entity/EMW9FC8J3HN4/coreData) | EMW9FC8J3HN4 | 1G474 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF TEXAS AT DALLAS | [UNIVERSITY OF TEXAS AT DALLAS](https://sam.gov/entity/EJCVPNN1WFS5/coreData) | EJCVPNN1WFS5 | 0W921 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
@@ -88,7 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF NOTRE DAME DU LAC | [UNIVERSITY OF NOTRE DAME DU LAC](https://sam.gov/entity/FPU6XGFXMBE9/coreData) | FPU6XGFXMBE9 | 5B002 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | THE JOHNS HOPKINS UNIVERSITY | [THE JOHNS HOPKINS UNIVERSITY](https://sam.gov/entity/FTMTDMBR29C7/coreData) | FTMTDMBR29C7 | 5L406 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | NEVADA SYSTEM OF HIGHER EDUCATION | [NEVADA SYSTEM OF HIGHER EDUCATION](https://sam.gov/entity/MV1JFXA4S621/coreData) | MV1JFXA4S621 | 0K5F8 | Active | Business or Organization, Non-Profit Organization |
-| KANSAS STATE UNIVERSITY | [KANSAS STATE UNIVERSITY](https://sam.gov/entity/CFMMM5JM7HJ9/coreData) | CFMMM5JM7HJ9 | 4B817 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |
 
 ## Method
 

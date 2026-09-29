@@ -1103,9 +1103,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 7,
+      "evidence_count": 8,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-09-22",
+      "latest_evidence_at": "2026-09-28",
       "name": "Cisco",
       "priority": "high",
       "source_count": 2,
@@ -1113,6 +1113,21 @@
       "stage_label": "Awareness",
       "stage_rank": 1,
       "supporting_evidence": [
+        {
+          "date": "2026-09-28",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Automating Post-Quantum IPsec on Cisco Routers \u2013 IPsec Series, Part 12",
+          "url": "https://blogs.cisco.com/developer/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12"
+        },
         {
           "date": "2026-09-22",
           "date_confidence": "unknown",
@@ -1981,6 +1996,6 @@
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-09-28T03:03:10.406414+00:00",
+  "updated_at": "2026-09-29T03:44:43.608298+00:00",
   "version": 1
 }

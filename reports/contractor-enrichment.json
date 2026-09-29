@@ -384,7 +384,7 @@
         "Educational Institution",
         "U.S. State Government"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "4E756",
       "checked_at": "2026-09-28T02:58:03.521796+00:00",
       "contractor_name": "MISSISSIPPI STATE UNIVERSITY",
@@ -1268,7 +1268,7 @@
         "Non-Profit Organization",
         "Private University or College"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "23242",
       "checked_at": "2026-09-28T02:58:03.521796+00:00",
       "contractor_name": "BROWN UNIVERSITY",
@@ -2839,9 +2839,9 @@
         "U.S. State Government",
         "Veterinary College"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "5J949",
-      "checked_at": "2026-08-29T05:05:39.790622+00:00",
+      "checked_at": "2026-09-29T03:38:05.351699+00:00",
       "contractor_name": "IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY",
       "contractor_score": 37,
       "dba_name": null,
@@ -4275,7 +4275,7 @@
         "Business or Organization",
         "For Profit Organization"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "1TTG5",
       "checked_at": "2026-09-28T02:58:03.521796+00:00",
       "contractor_name": "DELOITTE CONSULTING LLP",
@@ -4474,9 +4474,9 @@
         "Other Not For Profit Organization",
         "State Controlled Institution of Higher Learning"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "6T086",
-      "checked_at": "2026-08-29T05:05:39.790622+00:00",
+      "checked_at": "2026-09-29T03:38:05.351699+00:00",
       "contractor_name": "UNIVERSITY OF NEW MEXICO",
       "contractor_score": 31,
       "dba_name": null,
@@ -4696,6 +4696,94 @@
       "sba_business_types": [],
       "source_url": "https://sam.gov/entity/NPM2J7MSCF61/coreData",
       "uei": "NPM2J7MSCF61",
+      "ultimate_parent": {
+        "name": null,
+        "uei": null
+      }
+    },
+    {
+      "aliases": [
+        "SHOREPOINT LLC"
+      ],
+      "business_types": [
+        "Business or Organization",
+        "For Profit Organization",
+        "Subchapter S Corporation"
+      ],
+      "cache_status": "refreshed",
+      "cage_code": "7WWJ6",
+      "checked_at": "2026-09-29T03:38:05.351699+00:00",
+      "contractor_name": "SHOREPOINT LLC",
+      "contractor_score": 31,
+      "dba_name": "SHOREPOINT CYBERSECURITY",
+      "entity_structure": "Corporate Entity (Not Tax Exempt)",
+      "exclusion_status": "N",
+      "identity_id": "uei:KNJHHF1GWLF3",
+      "immediate_parent": {
+        "name": null,
+        "uei": null
+      },
+      "legal_business_name": "SHOREPOINT LLC",
+      "naics": [
+        {
+          "code": "541511",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541512",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541513",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541519",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541611",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541990",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "561990",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        }
+      ],
+      "organization_structure": "Subchapter S Corporation",
+      "psc": [
+        {
+          "code": null,
+          "name": null
+        }
+      ],
+      "purpose_of_registration": "All Awards",
+      "registration_expiration_date": "2027-08-04",
+      "registration_status": "Active",
+      "resolution_basis": "exact UEI match",
+      "resolution_confidence": "high",
+      "resolution_status": "resolved",
+      "sba_business_types": [],
+      "source_url": "https://sam.gov/entity/KNJHHF1GWLF3/coreData",
+      "uei": "KNJHHF1GWLF3",
       "ultimate_parent": {
         "name": null,
         "uei": null
@@ -8789,94 +8877,6 @@
       "sba_business_types": [],
       "source_url": "https://sam.gov/entity/RR2VC8Y3MK47/coreData",
       "uei": "RR2VC8Y3MK47",
-      "ultimate_parent": {
-        "name": null,
-        "uei": null
-      }
-    },
-    {
-      "aliases": [
-        "SHOREPOINT LLC"
-      ],
-      "business_types": [
-        "Business or Organization",
-        "For Profit Organization",
-        "Subchapter S Corporation"
-      ],
-      "cache_status": "retained",
-      "cage_code": "7WWJ6",
-      "checked_at": "2026-08-19T00:50:32.420067+00:00",
-      "contractor_name": "SHOREPOINT LLC",
-      "contractor_score": 24,
-      "dba_name": "SHOREPOINT CYBERSECURITY",
-      "entity_structure": "Corporate Entity (Not Tax Exempt)",
-      "exclusion_status": "N",
-      "identity_id": "uei:KNJHHF1GWLF3",
-      "immediate_parent": {
-        "name": null,
-        "uei": null
-      },
-      "legal_business_name": "SHOREPOINT LLC",
-      "naics": [
-        {
-          "code": "541511",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541512",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541513",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541519",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541611",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541990",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "561990",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        }
-      ],
-      "organization_structure": "Subchapter S Corporation",
-      "psc": [
-        {
-          "code": null,
-          "name": null
-        }
-      ],
-      "purpose_of_registration": "All Awards",
-      "registration_expiration_date": "2027-08-04",
-      "registration_status": "Active",
-      "resolution_basis": "exact UEI match",
-      "resolution_confidence": "high",
-      "resolution_status": "resolved",
-      "sba_business_types": [],
-      "source_url": "https://sam.gov/entity/KNJHHF1GWLF3/coreData",
-      "uei": "KNJHHF1GWLF3",
       "ultimate_parent": {
         "name": null,
         "uei": null
@@ -13050,6 +13050,6 @@
     "tracked_contractors": 75,
     "uei_coverage_percent": 132.0
   },
-  "updated_at": "2026-09-28T02:58:03.521796+00:00",
+  "updated_at": "2026-09-29T03:38:05.351699+00:00",
   "version": 1
 }

@@ -282,11 +282,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-e8dfe4cbaf606c54",
+      "claim_id": "claim-0474ca39653b3ff7",
       "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-09-29T03:38:05.351699+00:00",
+      "last_observed_at": "2026-09-29T03:38:05.351699+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -294,29 +294,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-73068f9ea1c94af8",
+          "evidence_id": "evidence-b25e3722480b6097",
           "locator": "opportunity_status:awarded",
-          "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:91990026F0124",
-        "label": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
-        "node_id": "award:usaspending:91990026F0124",
-        "node_type": "award"
+        "identifier": "sam_gov:SPE4A726T347G",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T347G",
+        "node_type": "award_notice"
       },
       "value": "awarded"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-153c914067b194b6",
+      "claim_id": "claim-167b2ea8a358d5ac",
       "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-09-29T03:38:05.351699+00:00",
+      "last_observed_at": "2026-09-29T03:38:05.351699+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -324,29 +324,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a6940cacb36eb29a",
-          "locator": "awarding_agency:department of education",
-          "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100",
+          "evidence_id": "evidence-70e81fa09de0b63e",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:91990026F0124",
-        "label": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
-        "node_id": "award:usaspending:91990026F0124",
-        "node_type": "award"
+        "identifier": "sam_gov:SPE4A726T347G",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T347G",
+        "node_type": "award_notice"
       },
-      "value": "Department of Education"
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-e8900e0b258af382",
+      "claim_id": "claim-a8c709f55fa0e671",
       "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-09-29T03:38:05.351699+00:00",
+      "last_observed_at": "2026-09-29T03:38:05.351699+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -354,33 +354,33 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3c5bbb973df8ecb4",
-          "locator": "reported_amount:1819257.2",
-          "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100",
+          "evidence_id": "evidence-7a1652990131e252",
+          "locator": "reported_amount:328866.0",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:91990026F0124",
-        "label": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
-        "node_id": "award:usaspending:91990026F0124",
-        "node_type": "award"
+        "identifier": "sam_gov:SPE4A726T347G",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T347G",
+        "node_type": "award_notice"
       },
-      "value": 1819257.2
+      "value": 328866.0
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-bf90b29a5e160e31",
+      "claim_id": "claim-47c966b3de7acc93",
       "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-09-29T03:38:05.351699+00:00",
+      "last_observed_at": "2026-09-29T03:38:05.351699+00:00",
       "object": {
-        "identifier": "uei:KNJHHF1GWLF3",
-        "label": "SHOREPOINT LLC",
-        "node_id": "recipient_or_contractor:uei:KNJHHF1GWLF3",
+        "identifier": "name:aero components",
+        "label": "AERO COMPONENTS, LLC",
+        "node_id": "recipient_or_contractor:name:aero components",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -389,1268 +389,18 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ca3bec61fc2e0748",
-          "locator": "reported_recipient:recipient_or_contractor:uei:KNJHHF1GWLF3",
-          "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100",
+          "evidence_id": "evidence-93ed8ec10d0584d2",
+          "locator": "reported_recipient:recipient_or_contractor:name:aero components",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:91990026F0124",
-        "label": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
-        "node_id": "award:usaspending:91990026F0124",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a64c4b5ae0d49982",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5a12058a44b459f5",
-          "locator": "opportunity_status:awarded",
-          "title": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75R60226F80061",
-        "label": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
-        "node_id": "award:usaspending:75R60226F80061",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-43f86c3738f01167",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-aeb6a67c35017a76",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75R60226F80061",
-        "label": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
-        "node_id": "award:usaspending:75R60226F80061",
-        "node_type": "award"
-      },
-      "value": "Department of Health and Human Services"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-86b74fa5210f0d3d",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f7bfc553183989ad",
-          "locator": "reported_amount:1999705.7",
-          "title": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75R60226F80061",
-        "label": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
-        "node_id": "award:usaspending:75R60226F80061",
-        "node_type": "award"
-      },
-      "value": 1999705.7
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f1351fa073bf795d",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": {
-        "identifier": "uei:CKV2L9GZKJK3",
-        "label": "DELOITTE CONSULTING LLP",
-        "node_id": "recipient_or_contractor:uei:CKV2L9GZKJK3",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6d6d5fd45413a68f",
-          "locator": "reported_recipient:recipient_or_contractor:uei:CKV2L9GZKJK3",
-          "title": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75R60226F80061",
-        "label": "OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT",
-        "node_id": "award:usaspending:75R60226F80061",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f8328a897142cbec",
-      "confidence": "high",
-      "effective_date": "2026-09-25",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d84c926f358440e2",
-          "locator": "opportunity_status:awarded",
-          "title": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_47QTCX26F0010_4732_47QTCA24D00CA_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:47QTCX26F0010",
-        "label": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
-        "node_id": "award:usaspending:47QTCX26F0010",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-299f58975904e06e",
-      "confidence": "high",
-      "effective_date": "2026-09-25",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-918e3b9ae05bc72b",
-          "locator": "awarding_agency:general services administration",
-          "title": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_47QTCX26F0010_4732_47QTCA24D00CA_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:47QTCX26F0010",
-        "label": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
-        "node_id": "award:usaspending:47QTCX26F0010",
-        "node_type": "award"
-      },
-      "value": "General Services Administration"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1b9eee61650d349f",
-      "confidence": "high",
-      "effective_date": "2026-09-25",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c8f8dde51a9498d6",
-          "locator": "reported_amount:194300.0",
-          "title": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_47QTCX26F0010_4732_47QTCA24D00CA_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:47QTCX26F0010",
-        "label": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
-        "node_id": "award:usaspending:47QTCX26F0010",
-        "node_type": "award"
-      },
-      "value": 194300.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2abadfcfeb368337",
-      "confidence": "high",
-      "effective_date": "2026-09-25",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": {
-        "identifier": "uei:H8UVK64KWLQ3",
-        "label": "DUNU TECH, LLC",
-        "node_id": "recipient_or_contractor:uei:H8UVK64KWLQ3",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-19b1c0b1704ec417",
-          "locator": "reported_recipient:recipient_or_contractor:uei:H8UVK64KWLQ3",
-          "title": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_47QTCX26F0010_4732_47QTCA24D00CA_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:47QTCX26F0010",
-        "label": "THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).",
-        "node_id": "award:usaspending:47QTCX26F0010",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c5601f99f135b9a6",
-      "confidence": "high",
-      "effective_date": "2026-09-25",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-068ff80fc5d49c49",
-          "locator": "opportunity_status:awarded",
-          "title": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:1232SA26P0484",
-        "label": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
-        "node_id": "award:usaspending:1232SA26P0484",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4b0178b857137b59",
-      "confidence": "high",
-      "effective_date": "2026-09-25",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6abfdb4119a0b8fd",
-          "locator": "awarding_agency:department of agriculture",
-          "title": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:1232SA26P0484",
-        "label": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
-        "node_id": "award:usaspending:1232SA26P0484",
-        "node_type": "award"
-      },
-      "value": "Department of Agriculture"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b044fa100b0267ec",
-      "confidence": "high",
-      "effective_date": "2026-09-25",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9eb8e1294e003f0a",
-          "locator": "reported_amount:393222.0",
-          "title": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:1232SA26P0484",
-        "label": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
-        "node_id": "award:usaspending:1232SA26P0484",
-        "node_type": "award"
-      },
-      "value": 393222.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-076ff7ed97d8bca1",
-      "confidence": "high",
-      "effective_date": "2026-09-25",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": {
-        "identifier": "uei:CG78ATJ18YX5",
-        "label": "BOSTON DYNAMICS, INC.",
-        "node_id": "recipient_or_contractor:uei:CG78ATJ18YX5",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9d1816712fabc251",
-          "locator": "reported_recipient:recipient_or_contractor:uei:CG78ATJ18YX5",
-          "title": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:1232SA26P0484",
-        "label": "THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...",
-        "node_id": "award:usaspending:1232SA26P0484",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-41a76bc19a6c0397",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-46548c9d2dadf974",
-          "locator": "opportunity_status:awarded",
-          "title": "CYBERSECURITY SUPPORT SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70Z02326FOES30001",
-        "label": "CYBERSECURITY SUPPORT SERVICES",
-        "node_id": "award:usaspending:70Z02326FOES30001",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-8330c543bdb31879",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-00b9d2a803904fb7",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "CYBERSECURITY SUPPORT SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70Z02326FOES30001",
-        "label": "CYBERSECURITY SUPPORT SERVICES",
-        "node_id": "award:usaspending:70Z02326FOES30001",
-        "node_type": "award"
-      },
-      "value": "Department of Homeland Security"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-39df4bd47e67b487",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bc7e9a69a72adf16",
-          "locator": "reported_amount:2998805.69",
-          "title": "CYBERSECURITY SUPPORT SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70Z02326FOES30001",
-        "label": "CYBERSECURITY SUPPORT SERVICES",
-        "node_id": "award:usaspending:70Z02326FOES30001",
-        "node_type": "award"
-      },
-      "value": 2998805.69
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7c7817724d84d608",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": {
-        "identifier": "uei:X42HKHSX66U1",
-        "label": "ONEOMEGA LLC",
-        "node_id": "recipient_or_contractor:uei:X42HKHSX66U1",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a6583a3981a1b533",
-          "locator": "reported_recipient:recipient_or_contractor:uei:X42HKHSX66U1",
-          "title": "CYBERSECURITY SUPPORT SERVICES",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70Z02326FOES30001",
-        "label": "CYBERSECURITY SUPPORT SERVICES",
-        "node_id": "award:usaspending:70Z02326FOES30001",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c9a70e4812618107",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cf076a17a40c0af9",
-          "locator": "opportunity_status:awarded",
-          "title": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00003_7529_75N91023A00008_7529",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026F00003",
-        "label": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
-        "node_id": "award:usaspending:75N98026F00003",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a13a235bad376d74",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c3e31a48854b84b1",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00003_7529_75N91023A00008_7529",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026F00003",
-        "label": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
-        "node_id": "award:usaspending:75N98026F00003",
-        "node_type": "award"
-      },
-      "value": "Department of Health and Human Services"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5c8d0e564b1f50db",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ea020085dfdfe4e9",
-          "locator": "reported_amount:3029648.38",
-          "title": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00003_7529_75N91023A00008_7529",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026F00003",
-        "label": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
-        "node_id": "award:usaspending:75N98026F00003",
-        "node_type": "award"
-      },
-      "value": 3029648.38
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5f33b8d558cd5c34",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": {
-        "identifier": "uei:NQL3JEME2443",
-        "label": "DLH, LLC",
-        "node_id": "recipient_or_contractor:uei:NQL3JEME2443",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1c1cc65dc67f6c9e",
-          "locator": "reported_recipient:recipient_or_contractor:uei:NQL3JEME2443",
-          "title": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00003_7529_75N91023A00008_7529",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026F00003",
-        "label": "TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)",
-        "node_id": "award:usaspending:75N98026F00003",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f969b73323c428aa",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c9ee065a7ca9ea57",
-          "locator": "opportunity_status:awarded",
-          "title": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000060_7001_47QRCA24DV361_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70RCSJ26FR0000060",
-        "label": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
-        "node_id": "award:usaspending:70RCSJ26FR0000060",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-26e33a89352e1e4e",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-35d0a41927fb37cb",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000060_7001_47QRCA24DV361_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70RCSJ26FR0000060",
-        "label": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
-        "node_id": "award:usaspending:70RCSJ26FR0000060",
-        "node_type": "award"
-      },
-      "value": "Department of Homeland Security"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5f699f8ef70b20e9",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-26a240299920d341",
-          "locator": "reported_amount:936632.48",
-          "title": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000060_7001_47QRCA24DV361_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70RCSJ26FR0000060",
-        "label": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
-        "node_id": "award:usaspending:70RCSJ26FR0000060",
-        "node_type": "award"
-      },
-      "value": 936632.48
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7eee0643779e3b1e",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": {
-        "identifier": "uei:K6BVRM8LQ4Q8",
-        "label": "ARROW ARC LLC",
-        "node_id": "recipient_or_contractor:uei:K6BVRM8LQ4Q8",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bb0437c72c9fb27b",
-          "locator": "reported_recipient:recipient_or_contractor:uei:K6BVRM8LQ4Q8",
-          "title": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000060_7001_47QRCA24DV361_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70RCSJ26FR0000060",
-        "label": "TASK ORDER FOR COMMUNICATIONS SUPPORT TO ENHANCE STATE, LOCAL, TRIBAL AND TERRITORIAL CRITICAL INFRASTRUCTURE AND CYBERSECURITY RESILIENCE FOR CYBERSECURITY AND INFRASTRUCTURE SEC...",
-        "node_id": "award:usaspending:70RCSJ26FR0000060",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-52298faa665af8b8",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c3c43d6b7c5f3492",
-          "locator": "opportunity_status:awarded",
-          "title": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_6913G626F50023N_6901_75N98119D00077_7529",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:6913G626F50023N",
-        "label": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
-        "node_id": "award:usaspending:6913G626F50023N",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-0aeac024361a9303",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ab47bab776143014",
-          "locator": "awarding_agency:department of transportation",
-          "title": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_6913G626F50023N_6901_75N98119D00077_7529",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:6913G626F50023N",
-        "label": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
-        "node_id": "award:usaspending:6913G626F50023N",
-        "node_type": "award"
-      },
-      "value": "Department of Transportation"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-78cd279e7ade9967",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cce4142a90c46a75",
-          "locator": "reported_amount:501022.48",
-          "title": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_6913G626F50023N_6901_75N98119D00077_7529",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:6913G626F50023N",
-        "label": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
-        "node_id": "award:usaspending:6913G626F50023N",
-        "node_type": "award"
-      },
-      "value": 501022.48
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e5085ac98b5e8687",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": {
-        "identifier": "uei:JSDBBMD7H323",
-        "label": "VERSATECH INC",
-        "node_id": "recipient_or_contractor:uei:JSDBBMD7H323",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-05d51378517b4491",
-          "locator": "reported_recipient:recipient_or_contractor:uei:JSDBBMD7H323",
-          "title": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_6913G626F50023N_6901_75N98119D00077_7529",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:6913G626F50023N",
-        "label": "PROVIDE COMPREHENSIVE CYBERSECURITY ASSESSMENT SERVICES AND SYSTEM COMPLIANCE SUPPORT FOR THE VOLPE NATIONAL TRANSPORTATION SYSTEMS CENTER'S CYBERSECURITY PROGRAM",
-        "node_id": "award:usaspending:6913G626F50023N",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a98a8fdace39013b",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8ea1f22957e98660",
-          "locator": "opportunity_status:awarded",
-          "title": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3163_7009_70US0926D70092069_7009",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70US0926F3OTH3163",
-        "label": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
-        "node_id": "award:usaspending:70US0926F3OTH3163",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-27fd983493b4477d",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e85f5acb8a2205ad",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3163_7009_70US0926D70092069_7009",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70US0926F3OTH3163",
-        "label": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
-        "node_id": "award:usaspending:70US0926F3OTH3163",
-        "node_type": "award"
-      },
-      "value": "Department of Homeland Security"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3d2d4f035acf412b",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e21bb21a9d634bd5",
-          "locator": "reported_amount:363242.62",
-          "title": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3163_7009_70US0926D70092069_7009",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70US0926F3OTH3163",
-        "label": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
-        "node_id": "award:usaspending:70US0926F3OTH3163",
-        "node_type": "award"
-      },
-      "value": 363242.62
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7930c02ddd728edb",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": {
-        "identifier": "uei:JV4XG6EEQMP7",
-        "label": "BUCKEYE TECHNOLOGY SOLUTIONS, LLC",
-        "node_id": "recipient_or_contractor:uei:JV4XG6EEQMP7",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ff169834485dba9e",
-          "locator": "reported_recipient:recipient_or_contractor:uei:JV4XG6EEQMP7",
-          "title": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3163_7009_70US0926D70092069_7009",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70US0926F3OTH3163",
-        "label": "THIS IS A FFP ORDER AGAINST IDIQ 70US0926D70092069 FOR VIDEO WALL SERVICES-G20 SUMMIT. ALL CLAUSES FLOW DOWN FROM IDIQ.",
-        "node_id": "award:usaspending:70US0926F3OTH3163",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e9ec2fbcbdc5612c",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-afba5bf88d371151",
-          "locator": "opportunity_status:awarded",
-          "title": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0192",
-        "label": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
-        "node_id": "award:usaspending:80NSSC26C0192",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e02486c1275f0631",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e50e9b63d74bae8c",
-          "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0192",
-        "label": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
-        "node_id": "award:usaspending:80NSSC26C0192",
-        "node_type": "award"
-      },
-      "value": "National Aeronautics and Space Administration"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-ac94c7d93040be08",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-225ba1193783bcc8",
-          "locator": "reported_amount:224961.0",
-          "title": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0192",
-        "label": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
-        "node_id": "award:usaspending:80NSSC26C0192",
-        "node_type": "award"
-      },
-      "value": 224961.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-bd12c375e813b352",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": {
-        "identifier": "uei:HDXFHZTWJBU7",
-        "label": "ADVENT INNOVATIONS LTD CO",
-        "node_id": "recipient_or_contractor:uei:HDXFHZTWJBU7",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f35651a9d97b11bb",
-          "locator": "reported_recipient:recipient_or_contractor:uei:HDXFHZTWJBU7",
-          "title": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26C0192",
-        "label": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
-        "node_id": "award:usaspending:80NSSC26C0192",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3d8b92ac3ddc81b4",
-      "confidence": "high",
-      "effective_date": "2026-09-29",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d8d74ffad62c2e71",
-          "locator": "opportunity_status:awarded",
-          "title": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00159N_6925_693JJ323D000034_6925",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:693JJ326F00159N",
-        "label": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
-        "node_id": "award:usaspending:693JJ326F00159N",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-388320cc1738c008",
-      "confidence": "high",
-      "effective_date": "2026-09-29",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-871bf4f9cba400c7",
-          "locator": "awarding_agency:department of transportation",
-          "title": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00159N_6925_693JJ323D000034_6925",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:693JJ326F00159N",
-        "label": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
-        "node_id": "award:usaspending:693JJ326F00159N",
-        "node_type": "award"
-      },
-      "value": "Department of Transportation"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-092ff380a8c8c7cf",
-      "confidence": "high",
-      "effective_date": "2026-09-29",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5ce3d6d0bfd3bdc0",
-          "locator": "reported_amount:299877.0",
-          "title": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00159N_6925_693JJ323D000034_6925",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:693JJ326F00159N",
-        "label": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
-        "node_id": "award:usaspending:693JJ326F00159N",
-        "node_type": "award"
-      },
-      "value": 299877.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-adcd6a03a3993de2",
-      "confidence": "high",
-      "effective_date": "2026-09-29",
-      "first_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "last_observed_at": "2026-09-28T02:58:03.521796+00:00",
-      "object": {
-        "identifier": "uei:DGKHQAGH9CF5",
-        "label": "SYNTEK TECHNOLOGIES, INC.",
-        "node_id": "recipient_or_contractor:uei:DGKHQAGH9CF5",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1fecbde1179df1a2",
-          "locator": "reported_recipient:recipient_or_contractor:uei:DGKHQAGH9CF5",
-          "title": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00159N_6925_693JJ323D000034_6925",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:693JJ326F00159N",
-        "label": "THIS IS A FIRM-FIXED PRICE TASK ORDER ISSUED FOR THE PROJECT TITLE ARTIFICIAL INTELLIGENCE (AI) SYSTEMS AND AUTOMATED VEHICLE BEHAVIOR USING FHWA'S HIGHWAY DRIVING SIMULATOR.",
-        "node_id": "award:usaspending:693JJ326F00159N",
-        "node_type": "award"
+        "identifier": "sam_gov:SPE4A726T347G",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T347G",
+        "node_type": "award_notice"
       },
       "value": null
     }
@@ -1658,8 +408,8 @@
   "baseline_initialized": false,
   "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-09-28T02:58:03.521796+00:00",
-  "comparison_started_at": "2026-09-27T08:50:22.626232+00:00",
+  "comparison_ended_at": "2026-09-29T03:38:05.351699+00:00",
+  "comparison_started_at": "2026-09-28T02:58:03.521796+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -2575,19 +1325,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-09-27T08:50:22.626232+00:00",
+  "since": "2026-09-28T02:58:03.521796+00:00",
   "summary": {
-    "active_claims": 4791,
-    "added": 44,
+    "active_claims": 4795,
+    "added": 4,
     "changed": 0,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 71,
+    "material_changes": 31,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-09-28T02:58:03.521796+00:00",
+  "updated_at": "2026-09-29T03:38:05.351699+00:00",
   "version": 1
 }

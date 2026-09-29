@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-09-28",
+  "as_of_date": "2026-09-29",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-0474ca39653b3ff7",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-b25e3722480b6097"
+      ],
+      "first_seen_at": "2026-09-29T03:38:05.351699+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-29T03:38:05.351699+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b25e3722480b6097",
+          "locator": "opportunity_status:awarded",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T347G",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T347G",
+        "node_type": "award_notice"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "b2249d042f8d1d16"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-167b2ea8a358d5ac",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-70e81fa09de0b63e"
+      ],
+      "first_seen_at": "2026-09-29T03:38:05.351699+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-29T03:38:05.351699+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-70e81fa09de0b63e",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T347G",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T347G",
+        "node_type": "award_notice"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8ec630c6323df884"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-a8c709f55fa0e671",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-7a1652990131e252"
+      ],
+      "first_seen_at": "2026-09-29T03:38:05.351699+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-29T03:38:05.351699+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7a1652990131e252",
+          "locator": "reported_amount:328866.0",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T347G",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T347G",
+        "node_type": "award_notice"
+      },
+      "value": 328866.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e70b82864a6ed9b7"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-47c966b3de7acc93",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-28",
+      "evidence_ids": [
+        "evidence-93ed8ec10d0584d2"
+      ],
+      "first_seen_at": "2026-09-29T03:38:05.351699+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-29T03:38:05.351699+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "name:aero components",
+        "label": "AERO COMPONENTS, LLC",
+        "node_id": "recipient_or_contractor:name:aero components",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-93ed8ec10d0584d2",
+          "locator": "reported_recipient:recipient_or_contractor:name:aero components",
+          "title": "15--PANEL,STRUCTURAL,AI",
+          "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPE4A726T347G",
+        "label": "15--PANEL,STRUCTURAL,AI",
+        "node_id": "award_notice:sam_gov:SPE4A726T347G",
+        "node_type": "award_notice"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ccb0de1cb4ced1b3"
     },
     {
       "authority": "authoritative",
@@ -130231,9 +130416,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -130276,9 +130461,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -130321,9 +130506,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -130366,14 +130551,14 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:LQMPASTC8RM8",
         "label": "BLUEFORS INC",
         "node_id": "recipient_or_contractor:uei:LQMPASTC8RM8",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -238772,7 +238957,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -238819,7 +239004,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -238866,7 +239051,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -238913,7 +239098,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -238960,7 +239145,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239007,7 +239192,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239054,7 +239239,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239101,7 +239286,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239148,7 +239333,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239195,7 +239380,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239242,7 +239427,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239289,7 +239474,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239336,7 +239521,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239383,7 +239568,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239430,7 +239615,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239477,7 +239662,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239524,7 +239709,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239571,7 +239756,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239623,7 +239808,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239675,7 +239860,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239727,7 +239912,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239779,7 +239964,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239831,7 +240016,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239883,7 +240068,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239935,7 +240120,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -239987,7 +240172,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -240039,7 +240224,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-09-28T02:58:03.521796+00:00",
+      "retracted_at": "2026-09-29T03:38:05.351699+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -261342,6 +261527,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-70e81fa09de0b63e",
+      "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
+      "title": "15--PANEL,STRUCTURAL,AI",
+      "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-70ef7f3ce7235d1b",
       "locator": "reported_recipient:recipient_or_contractor:uei:KA6QJ7CECP13",
       "title": "ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO...",
@@ -263066,6 +263261,16 @@
       "locator": "opportunity_status:awarded",
       "title": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2605836_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7a1652990131e252",
+      "locator": "reported_amount:328866.0",
+      "title": "15--PANEL,STRUCTURAL,AI",
+      "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
       "verification_status": "source_reported"
     },
     {
@@ -267846,6 +268051,16 @@
       "locator": "qualification_gate",
       "title": "High-Performance Quantum Scalar Magnetometers",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/432541717fe64745afa8e105f8203abb/download",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-93ed8ec10d0584d2",
+      "locator": "reported_recipient:recipient_or_contractor:name:aero components",
+      "title": "15--PANEL,STRUCTURAL,AI",
+      "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
       "verification_status": "source_reported"
     },
     {
@@ -273716,6 +273931,16 @@
       "locator": "deadline:2027-02-15t17:00:00-07:00",
       "title": "Autonomous Ion Mass Spectrometer Sentry (AIMSS)",
       "url": "https://sam.gov/workspace/contract/opp/933b39dfb3474dc8914ea781eefd3cca/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-b25e3722480b6097",
+      "locator": "opportunity_status:awarded",
+      "title": "15--PANEL,STRUCTURAL,AI",
+      "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
       "verification_status": "source_reported"
     },
     {
@@ -289062,16 +289287,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4791,
-    "authoritative_claims": 4589,
+    "active_claims": 4795,
+    "authoritative_claims": 4593,
     "conflicted_claims": 38,
     "derived_claims": 198,
-    "evidence_items": 4899,
-    "source_urls": 1327,
-    "subjects": 978,
+    "evidence_items": 4903,
+    "source_urls": 1328,
+    "subjects": 979,
     "superseded_claims": 0,
-    "total_claims": 4818
+    "total_claims": 4822
   },
-  "updated_at": "2026-09-28T02:58:03.521796+00:00",
+  "updated_at": "2026-09-29T03:38:05.351699+00:00",
   "version": 1
 }

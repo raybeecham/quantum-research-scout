@@ -116,7 +116,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.86,
-      "last_evaluated_at": "2026-09-28T02:58:03.521796+00:00",
+      "last_evaluated_at": "2026-09-29T03:38:05.351699+00:00",
       "outcome": null,
       "probability": 0.86,
       "probability_factors": [
@@ -156,7 +156,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-27?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-28?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:genesis-mission:2026-Q3",
       "resolution_rule": {
@@ -256,13 +256,6 @@
         },
         {
           "authority": "authoritative",
-          "date": "2026-04-01",
-          "role": "official award",
-          "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-"
-        },
-        {
-          "authority": "authoritative",
           "date": null,
           "role": "official mission",
           "title": "Golden Dome for America",
@@ -274,9 +267,9 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.74,
-      "last_evaluated_at": "2026-09-28T02:58:03.521796+00:00",
+      "last_evaluated_at": "2026-09-29T03:38:05.351699+00:00",
       "outcome": null,
-      "probability": 0.74,
+      "probability": 0.62,
       "probability_factors": [
         {
           "factor": "base rate",
@@ -291,10 +284,6 @@
           "points": 0.18
         },
         {
-          "factor": "recent award execution",
-          "points": 0.12
-        },
-        {
           "factor": "multi-record execution trail",
           "points": 0.06
         }
@@ -304,9 +293,14 @@
           "at": "2026-07-31T16:06:07.673432+00:00",
           "probability": 0.74,
           "reason": "Forecast opened"
+        },
+        {
+          "at": "2026-09-29T03:38:05.351699+00:00",
+          "probability": 0.62,
+          "reason": "Evidence factors changed"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-27?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-28?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:golden-dome:2026-Q3",
       "resolution_rule": {
@@ -415,7 +409,7 @@
       "horizon_end": "2026-11-21",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-09-28T02:58:03.521796+00:00",
+      "last_evaluated_at": "2026-09-29T03:38:05.351699+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -439,7 +433,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-27?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-28?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:ai-forge:2026-Q3",
       "resolution_rule": {
@@ -554,7 +548,7 @@
       "horizon_end": "2026-12-17",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-09-28T02:58:03.521796+00:00",
+      "last_evaluated_at": "2026-09-29T03:38:05.351699+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -578,7 +572,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2026-12-27?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2026-12-28?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:quantum-genesis:2026-Q3",
       "resolution_rule": {
@@ -697,7 +691,7 @@
       "horizon_end": "2027-01-07",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-09-28T02:58:03.521796+00:00",
+      "last_evaluated_at": "2026-09-29T03:38:05.351699+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -835,7 +829,7 @@
       "horizon_end": "2026-09-29",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-09-28T02:58:03.521796+00:00",
+      "last_evaluated_at": "2026-09-29T03:38:05.351699+00:00",
       "outcome": null,
       "probability": 0.57,
       "probability_factors": [
@@ -864,7 +858,7 @@
           "reason": "Evidence factors changed"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cLaunch the AI Forge university-industry-government forum\u201d by 2026-10-28?",
+      "question": "Will authoritative evidence confirm \u201cLaunch the AI Forge university-industry-government forum\u201d by 2026-10-29?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:ai-forge:ai-forge-forum",
       "resolution_rule": {
@@ -978,7 +972,7 @@
       "horizon_end": "2026-09-30",
       "impact": "critical",
       "initial_probability": 0.5,
-      "last_evaluated_at": "2026-09-28T02:58:03.521796+00:00",
+      "last_evaluated_at": "2026-09-29T03:38:05.351699+00:00",
       "outcome": null,
       "probability": 0.45,
       "probability_factors": [
@@ -1172,7 +1166,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.86,
-      "last_evaluated_at": "2026-09-28T02:58:03.521796+00:00",
+      "last_evaluated_at": "2026-09-29T03:38:05.351699+00:00",
       "outcome": null,
       "probability": 0.86,
       "probability_factors": [
@@ -1212,7 +1206,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-27?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-28?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:genesis-mission:2026-Q3",
       "resolution_rule": {
@@ -1312,13 +1306,6 @@
         },
         {
           "authority": "authoritative",
-          "date": "2026-04-01",
-          "role": "official award",
-          "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-"
-        },
-        {
-          "authority": "authoritative",
           "date": null,
           "role": "official mission",
           "title": "Golden Dome for America",
@@ -1330,9 +1317,9 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.74,
-      "last_evaluated_at": "2026-09-28T02:58:03.521796+00:00",
+      "last_evaluated_at": "2026-09-29T03:38:05.351699+00:00",
       "outcome": null,
-      "probability": 0.74,
+      "probability": 0.62,
       "probability_factors": [
         {
           "factor": "base rate",
@@ -1347,10 +1334,6 @@
           "points": 0.18
         },
         {
-          "factor": "recent award execution",
-          "points": 0.12
-        },
-        {
           "factor": "multi-record execution trail",
           "points": 0.06
         }
@@ -1360,9 +1343,14 @@
           "at": "2026-07-31T16:06:07.673432+00:00",
           "probability": 0.74,
           "reason": "Forecast opened"
+        },
+        {
+          "at": "2026-09-29T03:38:05.351699+00:00",
+          "probability": 0.62,
+          "reason": "Evidence factors changed"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-27?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-28?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:golden-dome:2026-Q3",
       "resolution_rule": {
@@ -1471,7 +1459,7 @@
       "horizon_end": "2026-11-21",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-09-28T02:58:03.521796+00:00",
+      "last_evaluated_at": "2026-09-29T03:38:05.351699+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -1495,7 +1483,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-27?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-28?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:ai-forge:2026-Q3",
       "resolution_rule": {
@@ -1610,7 +1598,7 @@
       "horizon_end": "2026-12-17",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-09-28T02:58:03.521796+00:00",
+      "last_evaluated_at": "2026-09-29T03:38:05.351699+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -1634,7 +1622,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2026-12-27?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2026-12-28?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:quantum-genesis:2026-Q3",
       "resolution_rule": {
@@ -1753,7 +1741,7 @@
       "horizon_end": "2027-01-07",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-09-28T02:58:03.521796+00:00",
+      "last_evaluated_at": "2026-09-29T03:38:05.351699+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -1891,7 +1879,7 @@
       "horizon_end": "2026-09-29",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-09-28T02:58:03.521796+00:00",
+      "last_evaluated_at": "2026-09-29T03:38:05.351699+00:00",
       "outcome": null,
       "probability": 0.57,
       "probability_factors": [
@@ -1920,7 +1908,7 @@
           "reason": "Evidence factors changed"
         }
       ],
-      "question": "Will authoritative evidence confirm \u201cLaunch the AI Forge university-industry-government forum\u201d by 2026-10-28?",
+      "question": "Will authoritative evidence confirm \u201cLaunch the AI Forge university-industry-government forum\u201d by 2026-10-29?",
       "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
       "registry_key": "mission_milestone:ai-forge:ai-forge-forum",
       "resolution_rule": {
@@ -2034,7 +2022,7 @@
       "horizon_end": "2026-09-30",
       "impact": "critical",
       "initial_probability": 0.5,
-      "last_evaluated_at": "2026-09-28T02:58:03.521796+00:00",
+      "last_evaluated_at": "2026-09-29T03:38:05.351699+00:00",
       "outcome": null,
       "probability": 0.45,
       "probability_factors": [
@@ -3995,16 +3983,16 @@
     "accuracy_rate": 0.0,
     "active": 7,
     "calibration_label": "Needs calibration",
-    "due_within_30_days": 2,
+    "due_within_30_days": 4,
     "invalidated": 2,
     "mean_brier_score": 0.3361,
     "observed_triggers": 0,
     "resolved": 4
   },
   "temporal_context": {
-    "comparison_started_at": "2026-09-27T08:50:22.626232+00:00",
+    "comparison_started_at": "2026-09-28T02:58:03.521796+00:00",
     "historical_discoveries": 0
   },
-  "updated_at": "2026-09-28T02:58:03.521796+00:00",
+  "updated_at": "2026-09-29T03:38:05.351699+00:00",
   "version": 1
 }
