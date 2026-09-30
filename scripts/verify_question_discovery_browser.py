@@ -34,6 +34,7 @@ def main():
                             "authors": ["Fixture Author"],
                             "date": "2026",
                             "index": "Crossref",
+                            "relevance_group": "direct" if i < 5 else "background",
                             "abstract": "A benchmark evaluates inventory coverage."
                             if i < 5
                             else "",
@@ -41,6 +42,14 @@ def main():
                         for i in range(6)
                     ],
                     "warnings": ["arXiv temporarily unavailable"],
+                    "indexes": [
+                        {"name": "Crossref", "status": "ok"},
+                        {"name": "arXiv", "status": "unavailable"},
+                    ],
+                    "search_phrases": [
+                        "AI cybersecurity",
+                        "artificial intelligence cyber security",
+                    ],
                     "searched_at": "2026-09-16T12:00:00Z",
                 }
             )
@@ -84,7 +93,38 @@ def main():
         page.route("**/api/lab/papers", papers)
         page.route("**/api/lab/generate", generate)
         page.goto(args.url + "/#questions")
+        expect(page.locator("#lab-editor")).to_be_hidden()
+        expect(page.locator("#lab-backup-tools")).not_to_have_attribute("open", "")
+        page.locator("#lab-interest").fill("AI Cybersecurity")
+        expect(page.locator("#lab-topic-directions")).to_be_visible()
+        page.locator("#lab-consent").check()
+        page.get_by_role("button", name="AI for defense", exact=True).click()
+        expect(page.locator("#lab-interest")).to_have_value("AI cybersecurity threat detection")
+        expect(page.locator("#lab-consent")).not_to_be_checked()
+        assert not calls
+        page.get_by_role("button", name="Explore both", exact=True).click()
+        expect(page.locator("#lab-interest")).to_have_value(
+            "Artificial intelligence and cybersecurity"
+        )
+        output = Path("site/verification")
+        output.mkdir(exist_ok=True)
+        page.evaluate("window.scrollTo(0, 0)")
+        page.screenshot(path=str(output / "question-lab-start-desktop.png"))
+        page.locator("#lab-discover").click()
+        expect(page.locator("#lab-discovery-status")).to_contain_text(
+            "5 strong topic matches · 1 background"
+        )
+        expect(page.locator("#lab-discovery-health")).to_contain_text("arXiv: unavailable")
+        page.locator("#lab-discovery-heading").scroll_into_view_if_needed()
+        page.screenshot(path=str(output / "question-lab-results-desktop.png"))
+        expect(page.locator('[data-discovery-select="5"]')).not_to_be_visible()
+        page.locator(".lab-background-results > summary").click()
+        expect(page.locator('[data-discovery-select="5"]')).to_be_visible()
+        assert calls[-1][1]["query"] == "Artificial intelligence and cybersecurity"
+        assert [c[0] for c in calls] == ["search"]
+        calls.clear()
         page.locator("#lab-interest").fill("PQC inventory coverage")
+        expect(page.locator("#lab-topic-directions")).to_be_hidden()
         page.locator("#lab-suggest").click()
         expect(page.locator("#lab-discovery-results article")).to_have_count(6)
         assert [x[0] for x in calls] == ["search"]
@@ -118,14 +158,24 @@ def main():
         page.reload()
         page.locator("#lab-list button").first.click()
         expect(page.locator('#lab-editor [name="prior"]')).to_have_value(saved[0]["prior"])
+        page.locator("#lab-close-editor").click()
+        expect(page.locator("#lab-editor")).to_be_hidden()
+        assert (
+            page.evaluate("JSON.parse(localStorage.getItem('quantum-scout:question-lab:v1'))")[0][
+                "prior"
+            ]
+            == saved[0]["prior"]
+        )
         page.locator("#lab-interest").fill("Another topic")
         expect(page.locator("#lab-discovery-results article")).to_have_count(0)
         page.unroute("**/api/lab/papers")
         page.route(
-            "**/api/lab/papers", lambda route: route.fulfill(json={"papers": [], "warnings": []})
+            "**/api/lab/papers",
+            lambda route: route.fulfill(json={"papers": [], "warnings": ["arXiv unavailable"]}),
         )
         page.locator("#lab-suggest").click()
         expect(page.locator("#lab-discovery-status")).to_contain_text("No usable matches")
+        expect(page.locator("#lab-discovery-status")).to_contain_text("arXiv unavailable")
         assert len([c for c in calls if c[0] == "ai"]) == 1
         page.unroute("**/api/lab/papers")
         page.route("**/api/lab/papers", lambda route: route.abort())

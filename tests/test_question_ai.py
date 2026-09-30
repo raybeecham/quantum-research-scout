@@ -36,6 +36,7 @@ def test_groq_draft_and_critique_contract(monkeypatch):
             if len(calls) == 2:
                 for row in value["candidates"]:
                     row["critique"] = dict.fromkeys(REVIEW_FIELDS, "Needs evidence")
+                    row["critique"]["revision_needed"] = False
             return {
                 "choices": [{"finish_reason": "stop", "message": {"content": json.dumps(value)}}]
             }
@@ -160,6 +161,7 @@ def test_provider_contract_and_failure_redaction(monkeypatch):
             if self.reviewed:
                 for row in value["candidates"]:
                     row["critique"] = dict.fromkeys(REVIEW_FIELDS, "Check this assumption")
+                    row["critique"]["revision_needed"] = False
             return {
                 "candidates": [
                     {

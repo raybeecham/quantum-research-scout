@@ -176,6 +176,9 @@ class PaperSearch:
         plan = search_plan(query)
         keywords = plan["terms"]
         records, warnings = [], []
+        indexes = {
+            name: {"name": name, "completed": 0, "failed": 0} for name in ("Crossref", "arXiv")
+        }
         searches = [
             (
                 "Crossref",
@@ -205,6 +208,7 @@ class PaperSearch:
             for name, parse, job in jobs:
                 try:
                     records.extend(parse(job.result()))
+                    indexes[name]["completed"] += 1
                 except (
                     requests.RequestException,
                     ValueError,
@@ -213,6 +217,7 @@ class PaperSearch:
                     TypeError,
                     IndexError,
                 ):
+                    indexes[name]["failed"] += 1
                     warning = f"{name} could not be fully searched. Results may be incomplete; this is not evidence that no papers exist."
                     if warning not in warnings:
                         warnings.append(warning)
@@ -222,6 +227,17 @@ class PaperSearch:
             "search_phrases": plan["phrases"],
             "papers": rank_papers(records, plan),
             "warnings": warnings,
+            "indexes": [
+                {
+                    **index,
+                    "status": "partial"
+                    if index["completed"] and index["failed"]
+                    else "unavailable"
+                    if index["failed"]
+                    else "ok",
+                }
+                for index in indexes.values()
+            ],
             "searched_at": datetime.now(timezone.utc).isoformat(),
             "cached": False,
         }

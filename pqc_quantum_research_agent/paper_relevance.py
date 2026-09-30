@@ -4,6 +4,36 @@ import re
 import unicodedata
 
 CONCEPTS = {
+    "AI / machine learning": [
+        "artificial intelligence",
+        "machine learning",
+        "ai",
+        "ml",
+        "deep learning",
+        "large language model",
+        "large language models",
+        "llm",
+        "llms",
+        "neural network",
+        "neural networks",
+    ],
+    "cybersecurity": [
+        "cybersecurity",
+        "cyber security",
+        "information security",
+        "computer security",
+        "network security",
+        "intrusion detection",
+        "malware",
+        "phishing",
+        "adversarial attacks",
+        "model security",
+        "security of ai",
+        "prompt injection",
+        "security for machine learning",
+        "security of machine learning",
+        "ai security",
+    ],
     "cryptographic inventory": [
         "cryptographic inventory",
         "cryptographic inventories",
@@ -44,6 +74,15 @@ CONCEPTS = {
         "quantum computing",
     ],
 }
+# Query variants are deliberately bounded; aliases within a facet are alternatives,
+# while different facets must be present together in a strong metadata match.
+QUERY_ALIASES = {
+    "cryptographic inventory": [
+        "cryptographic inventory",
+        "cryptographic bill of materials",
+        "cryptographic discovery",
+    ],
+}
 METHODS = {
     "static analysis": ["static analysis", "static code analysis", "sast", "taint analysis"],
     "software dependencies": [
@@ -56,6 +95,7 @@ METHODS = {
     "benchmarking": ["benchmark", "benchmarks", "benchmarking", "precision", "recall"],
 }
 STOP = {
+    "we",
     "how",
     "what",
     "which",
@@ -134,33 +174,54 @@ def search_plan(query):
     text = normalize(query)
     concepts = [k for k, v in CONCEPTS.items() if hits(text, v)]
     methods = [k for k, v in METHODS.items() if hits(text, v)]
-    terms = list(dict.fromkeys(t for t in text.split() if len(t) > 2 and t not in STOP))[:10]
+    terms = list(
+        dict.fromkeys(
+            t
+            for t in text.split()
+            if (len(t) > 2 or t in {"ai", "ml", "qc", "vr", "xr", "5g", "6g"}) and t not in STOP
+        )
+    )[:10]
     if not terms:
         raise ValueError("Include specific topic words in the question")
-    if "cryptographic inventory" in concepts:
-        phrases = [
-            "cryptographic inventory",
-            "cryptographic bill of materials",
-            "cryptographic discovery",
-        ]
-    elif concepts:
-        phrases = [normalize(CONCEPTS[c][0]) for c in concepts][:3]
-        if methods:
-            phrases.append(phrases[0] + " " + methods[0])
-    else:
-        phrases = [" ".join(terms[:6])]
-    phrases = list(dict.fromkeys(phrases))[:3]
-    # One arXiv request containing focused phrases, not an OR of generic words.
-    if concepts:
-        arxiv = " OR ".join(f'(ti:"{p}" OR abs:"{p}")' for p in phrases)
-    else:
-        arxiv = " AND ".join(f"(ti:{t} OR abs:{t})" for t in terms[:4])
+    covered = {
+        word
+        for key in concepts + methods
+        for alias in (CONCEPTS | METHODS)[key]
+        for word in normalize(alias).split()
+    }
+    remaining = [t for t in terms if t not in covered]
+    # Short topics keep every qualifier. Long natural-language questions use these
+    # terms for ranking, without requiring every incidental word to match.
+    qualifiers = remaining if len(terms) <= 6 else []
+    groups = [
+        QUERY_ALIASES.get(c, list(dict.fromkeys(hits(text, CONCEPTS[c]) + CONCEPTS[c][:3])))
+        for c in concepts
+    ]
+    groups += [[m] for m in methods]
+    groups += [[t] for t in remaining[:4]]
+    variants = 3 if len(concepts) > 1 or "cryptographic inventory" in concepts else 1
+    phrases = list(
+        dict.fromkeys(
+            " ".join(group[min(i, len(group) - 1)] for group in groups) for i in range(variants)
+        )
+    )
+    # One bounded arXiv request: synonym alternatives inside each topic facet,
+    # AND between facets. Generic cybersecurity alone cannot replace AI + cyber.
+    arxiv_groups = [
+        list(dict.fromkeys(hits(text, CONCEPTS[c]) + CONCEPTS[c][:6]))[:8] for c in concepts
+    ] + [[t] for t in remaining[:4]]
+    if not arxiv_groups:
+        arxiv_groups = [[m] for m in methods]
+    arxiv = " AND ".join(
+        "(" + " OR ".join(f'(ti:"{p}" OR abs:"{p}")' for p in group) + ")" for group in arxiv_groups
+    )
     return {
         "concepts": concepts,
         "methods": methods,
         "terms": terms,
         "phrases": phrases,
         "arxiv": arxiv,
+        "qualifiers": qualifiers,
     }
 
 
@@ -189,6 +250,11 @@ def rank_papers(records, plan):
     for paper in unique:
         title = normalize(paper["title"])
         abstract = normalize(paper.get("abstract", ""))
+        if re.search(
+            r"\b(?:a new (?:open access )?journal|call for papers|editorial board|inaugural issue)\b|^welcome to\b",
+            title,
+        ):
+            continue
         evidence = []
         matched = []
         title_matches = []
@@ -209,20 +275,28 @@ def rank_papers(records, plan):
                 score += 3 if th else 1
                 evidence.append(f'{method}: "{(th or ah)[0]}" in {"title" if th else "abstract"}')
         if plan["concepts"]:
-            # Inventory questions need inventory evidence to enter the direct group.
-            direct = bool(matched) and (
-                "cryptographic inventory" not in plan["concepts"]
-                or "cryptographic inventory" in matched
+            qualifier_hits = hits(title + " " + abstract, plan["qualifiers"])
+            direct = len(matched) == len(plan["concepts"]) and len(qualifier_hits) == len(
+                plan["qualifiers"]
             )
+            score += len(qualifier_hits) * 2
+            if qualifier_hits:
+                evidence.append("Topic qualifiers: " + ", ".join(qualifier_hits))
+            missing = [c for c in plan["concepts"] if c not in matched] + [
+                t for t in plan["qualifiers"] if t not in qualifier_hits
+            ]
+            if missing:
+                evidence.append("Not found in available metadata: " + ", ".join(missing))
             if not direct and not (title_matches or method_hits):
                 continue
         else:
             overlap = hits(title + " " + abstract, plan["terms"])
             if len(overlap) < min(3, len(plan["terms"])):
                 continue
-            direct = False
+            direct = len(overlap) == len(plan["terms"])
             score = len(overlap)
             evidence = ["Title/abstract terms: " + ", ".join(overlap)]
+        score += bool(abstract)  # Prefer usable abstracts among otherwise equal metadata matches.
         ranked.append(
             {
                 **{k: v for k, v in paper.items() if not k.startswith("_")},

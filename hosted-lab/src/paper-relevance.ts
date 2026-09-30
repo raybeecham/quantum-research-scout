@@ -2,6 +2,36 @@ import type { Paper } from "./papers";
 
 // Keep the Python private lab and hosted lab aligned; both have regression fixtures.
 const concepts: Record<string, string[]> = {
+  "AI / machine learning": [
+    "artificial intelligence",
+    "machine learning",
+    "ai",
+    "ml",
+    "deep learning",
+    "large language model",
+    "large language models",
+    "llm",
+    "llms",
+    "neural network",
+    "neural networks",
+  ],
+  cybersecurity: [
+    "cybersecurity",
+    "cyber security",
+    "information security",
+    "computer security",
+    "network security",
+    "intrusion detection",
+    "malware",
+    "phishing",
+    "adversarial attacks",
+    "model security",
+    "security of ai",
+    "prompt injection",
+    "security for machine learning",
+    "security of machine learning",
+    "ai security",
+  ],
   "cryptographic inventory": [
     "cryptographic inventory",
     "cryptographic inventories",
@@ -42,6 +72,13 @@ const concepts: Record<string, string[]> = {
     "quantum computing",
   ],
 };
+const queryAliases: Record<string, string[]> = {
+  "cryptographic inventory": [
+    "cryptographic inventory",
+    "cryptographic bill of materials",
+    "cryptographic discovery",
+  ],
+};
 const methods: Record<string, string[]> = {
   "static analysis": ["static analysis", "static code analysis", "sast", "taint analysis"],
   "software dependencies": [
@@ -58,6 +95,7 @@ const stop = new Set(
     " ",
   ),
 );
+stop.add("we");
 const norm = (s: string) =>
   s
     .normalize("NFKD")
@@ -70,29 +108,51 @@ export function searchPlan(query: string) {
   const text = norm(query);
   const selected = Object.keys(concepts).filter(k => hits(text, concepts[k]).length);
   const selectedMethods = Object.keys(methods).filter(k => hits(text, methods[k]).length);
-  const terms = [...new Set(text.split(" ").filter(t => t.length > 2 && !stop.has(t)))].slice(
-    0,
-    10,
+  const terms = [
+    ...new Set(
+      text
+        .split(" ")
+        .filter(
+          t =>
+            (t.length > 2 || ["ai", "ml", "qc", "vr", "xr", "5g", "6g"].includes(t)) &&
+            !stop.has(t),
+        ),
+    ),
+  ].slice(0, 10);
+  const covered = new Set(
+    [...selected, ...selectedMethods].flatMap(k =>
+      ({ ...concepts, ...methods })[k].flatMap(alias => norm(alias).split(" ")),
+    ),
   );
-  let phrases: string[];
-  if (selected.includes("cryptographic inventory")) {
-    phrases = [
-      "cryptographic inventory",
-      "cryptographic bill of materials",
-      "cryptographic discovery",
-    ];
-  } else if (selected.length) {
-    phrases = selected.map(c => norm(concepts[c][0]));
-    if (selectedMethods.length) phrases.push(phrases[0] + " " + selectedMethods[0]);
-  } else phrases = [terms.slice(0, 6).join(" ")];
-  phrases = [...new Set(phrases)].slice(0, 3);
-  const arxiv = selected.length
-    ? phrases.map(p => `(ti:"${p}" OR abs:"${p}")`).join(" OR ")
-    : terms
-        .slice(0, 4)
-        .map(t => `(ti:${t} OR abs:${t})`)
-        .join(" AND ");
-  return { concepts: selected, methods: selectedMethods, terms, phrases, arxiv };
+  const remaining = terms.filter(t => !covered.has(t));
+  const qualifiers = terms.length <= 6 ? remaining : [];
+  const groups = [
+    ...selected.map(
+      c =>
+        queryAliases[c] || [...new Set([...hits(text, concepts[c]), ...concepts[c].slice(0, 3)])],
+    ),
+    ...selectedMethods.map(m => [m]),
+    ...remaining.slice(0, 4).map(t => [t]),
+  ];
+  const variants = selected.length > 1 || selected.includes("cryptographic inventory") ? 3 : 1;
+  const phrases = [
+    ...new Set(
+      Array.from({ length: variants }, (_, i) =>
+        groups.map(g => g[Math.min(i, g.length - 1)]).join(" "),
+      ),
+    ),
+  ];
+  let arxivGroups = [
+    ...selected.map(c =>
+      [...new Set([...hits(text, concepts[c]), ...concepts[c].slice(0, 6)])].slice(0, 8),
+    ),
+    ...remaining.slice(0, 4).map(t => [t]),
+  ];
+  if (!arxivGroups.length) arxivGroups = selectedMethods.map(m => [m]);
+  const arxiv = arxivGroups
+    .map(g => "(" + g.map(p => `(ti:"${p}" OR abs:"${p}")`).join(" OR ") + ")")
+    .join(" AND ");
+  return { concepts: selected, methods: selectedMethods, terms, phrases, arxiv, qualifiers };
 }
 export function rankPapers(records: Paper[], plan: ReturnType<typeof searchPlan>) {
   const unique: { paper: Paper; title: string; doi: string; url: string }[] = [];
@@ -106,6 +166,12 @@ export function rankPapers(records: Paper[], plan: ReturnType<typeof searchPlan>
     } else unique.push({ paper: { ...paper }, title, doi, url });
   }
   const ranked = unique.flatMap(({ paper, title }) => {
+    if (
+      /\b(?:a new (?:open access )?journal|call for papers|editorial board|inaugural issue)\b|^welcome to\b/.test(
+        title,
+      )
+    )
+      return [];
     const abstract = norm(paper.abstract),
       evidence: string[] = [],
       matched: string[] = [],
@@ -137,17 +203,25 @@ export function rankPapers(records: Paper[], plan: ReturnType<typeof searchPlan>
     }
     let direct = false;
     if (plan.concepts.length) {
+      const qualifierHits = hits(title + " " + abstract, plan.qualifiers);
       direct =
-        matched.length > 0 &&
-        (!plan.concepts.includes("cryptographic inventory") ||
-          matched.includes("cryptographic inventory"));
+        matched.length === plan.concepts.length && qualifierHits.length === plan.qualifiers.length;
+      score += qualifierHits.length * 2;
+      if (qualifierHits.length) evidence.push("Topic qualifiers: " + qualifierHits.join(", "));
+      const missing = [
+        ...plan.concepts.filter(c => !matched.includes(c)),
+        ...plan.qualifiers.filter(t => !qualifierHits.includes(t)),
+      ];
+      if (missing.length) evidence.push("Not found in available metadata: " + missing.join(", "));
       if (!direct && !titleMatches.length && !methodHits.length) return [];
     } else {
       const overlap = hits(title + " " + abstract, plan.terms);
       if (!plan.terms.length || overlap.length < Math.min(3, plan.terms.length)) return [];
       score = overlap.length;
+      direct = overlap.length === plan.terms.length;
       evidence.push("Title/abstract terms: " + overlap.join(", "));
     }
+    score += abstract ? 1 : 0;
     return [
       {
         ...paper,

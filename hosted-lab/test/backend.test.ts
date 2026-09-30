@@ -40,6 +40,9 @@ const candidate = {
     ground_truth: "Seeded reference",
     alignment: "Recall by artifact",
     remaining_concerns: "Synthetic suite limits",
+    scope_alignment: "Matches the interest",
+    technical_validity: "Mechanism and data representation specified",
+    revision_needed: false,
   },
 };
 const answer = { candidates: [candidate, candidate, candidate] };
@@ -136,11 +139,18 @@ describe("paper relevance", () => {
     expect(papers.map(p => p.title)).toEqual(titles.slice(0, 2));
     expect(papers.map(p => p.relevance_group)).toEqual(["direct", "background"]);
     expect(papers[0].match_note).toContain("title");
-    expect(plan.phrases).toContain("cryptographic inventory");
+    expect(
+      plan.phrases.every(p =>
+        ["pqc", "post quantum", "postquantum"].some(alias => p.includes(alias)),
+      ),
+    ).toBe(true);
+    expect(plan.phrases.some(p => p.includes("cryptographic inventory"))).toBe(true);
     expect(plan.arxiv).not.toContain("all:open");
-    expect(searchPlan("Architecture-derived CBOMs for cryptographic migration").phrases).toContain(
-      "cryptographic bill of materials",
-    );
+    expect(
+      searchPlan("Architecture-derived CBOMs for cryptographic migration").phrases.some(p =>
+        p.includes("cryptographic bill of materials"),
+      ),
+    ).toBe(true);
     expect(searchPlan("neutrino oscillation detection").arxiv).toContain(" AND ");
   });
 });

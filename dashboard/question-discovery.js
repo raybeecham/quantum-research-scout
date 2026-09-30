@@ -28,8 +28,39 @@
   const message = text => {
     $("lab-discovery-status").textContent = text;
   };
+  function stage(number) {
+    document.querySelectorAll("[data-lab-step]").forEach(item => {
+      if (Number(item.dataset.labStep) === number) item.setAttribute("aria-current", "step");
+      else item.removeAttribute("aria-current");
+    });
+  }
+  function directions() {
+    const value = $("lab-interest").value.toLowerCase();
+    const relevant =
+      /\b(ai|ml|artificial intelligence|machine learning)\b/.test(value) &&
+      /\b(cybersecurity|cyber security|security)\b/.test(value);
+    $("lab-topic-directions").hidden = !relevant;
+    document.querySelectorAll("[data-lab-direction]").forEach(button => {
+      button.disabled = generating;
+      button.setAttribute(
+        "aria-pressed",
+        String(button.dataset.labDirection.toLowerCase() === value),
+      );
+    });
+  }
+  const resultSummary = papers => {
+    const strong = papers.filter(p => p.relevance_group === "direct").length;
+    const background = papers.filter(p => p.relevance_group === "background").length;
+    const unclassified = papers.length - strong - background;
+    return `${strong} strong topic matches · ${background} background readings${unclassified ? ` · ${unclassified} unclassified results (update the lab server)` : ""}`;
+  };
   function sync() {
     $("lab-discover").disabled = !ready || busy || generating;
+    $("lab-discover").textContent = busy
+      ? "Searching…"
+      : topic
+        ? "Search again"
+        : "Find relevant papers";
     $("lab-discovery-mode").disabled = generating;
     $("lab-discovery-results")
       .querySelectorAll("input")
@@ -39,7 +70,18 @@
           generating || (i !== undefined && !String(papers[Number(i)]?.abstract || "").trim());
       });
     $("lab-discovery-panel").hidden = $("lab-discovery-mode").value !== "papers";
-    $("lab-discovery-count").textContent = `${selected.size} / 4 papers selected for AI comparison`;
+    $("lab-discovery-count").textContent =
+      `${selected.size} / 4 abstracts selected${selected.size ? " · ready to generate questions" : " · review papers and choose what to use"}`;
+    directions();
+    stage(
+      !$("lab-editor").hidden
+        ? 4
+        : selected.size || $("lab-discovery-mode").value === "brainstorm"
+          ? 3
+          : topic
+            ? 2
+            : 1,
+    );
   }
   function invalidate() {
     epoch++;
@@ -49,6 +91,10 @@
     reviewed.clear();
     busy = false;
     $("lab-discovery-results").replaceChildren();
+    $("lab-discovery-health").hidden = true;
+    $("lab-discovery-query-details").hidden = true;
+    $("lab-consent").checked = false;
+    $("lab-backup-consent").checked = false;
     message("Find papers for this interest, review the results, then choose what the AI may use.");
     sync();
   }
@@ -96,20 +142,45 @@
         .slice(0, 15);
       topic = query;
       searchAt = String(data.searched_at || "Time unavailable");
+      const warnings = Array.isArray(data.warnings) ? data.warnings.join(" ") : "";
       message(
-        `${papers.length} papers found. ${(data.warnings || []).join(" ")} ${data.search_phrases?.length ? "Queries: " + data.search_phrases.join("; ") + ". " : ""}Search coverage is limited; missing results do not prove a research gap. Select up to four abstracts below, then generate questions.`,
+        `${resultSummary(papers)}. ${warnings} Review the matches and choose up to four abstracts. Missing results do not prove a research gap.`,
       );
       if (!papers.length)
         message(
-          "No usable matches returned. Try a more specific interest or explicitly choose General brainstorming. No AI request was made; this is not evidence that the topic is novel.",
+          `No usable matches returned. ${warnings} Try different wording or explicitly choose General brainstorming. No AI request was made; this is not evidence that the topic is novel.`,
         );
+      const health = (data.indexes || []).map(
+        index =>
+          `${index.name}: ${{ ok: "searched", partial: "partially searched", unavailable: "unavailable" }[index.status] || "status unknown"}`,
+      );
+      $("lab-discovery-health").textContent =
+        health.join(" · ") +
+        (warnings ? " · You can retry with Search again; nothing retries automatically." : "");
+      $("lab-discovery-health").hidden = !health.length && !warnings;
+      $("lab-discovery-query-details").hidden = false;
+      $("lab-discovery-queries").textContent =
+        `Interest: ${query}. Queries: ${(data.search_phrases || []).join("; ") || "Not supplied by this server"}. Searched: ${searchAt}.`;
+      const strongHeading = document.createElement("h4");
+      strongHeading.className = "lab-results-heading";
+      strongHeading.textContent = papers.some(p => p.relevance_group === "direct")
+        ? "Strong topic matches · review relevance"
+        : "No strong topic matches returned";
+      if (papers.length) $("lab-discovery-results").append(strongHeading);
+      const background = document.createElement("details");
+      background.className = "lab-background-results";
+      const backgroundCount = papers.filter(p => p.relevance_group !== "direct").length;
+      const backgroundSummary = document.createElement("summary");
+      backgroundSummary.textContent = `Background & other results (${backgroundCount}) · partial topic matches, not direct evidence`;
+      background.append(backgroundSummary);
       papers.forEach((paper, i) => {
         const card = document.createElement("article");
         card.className = "lab-evidence";
         const hasAbstract = typeof paper.abstract === "string" && paper.abstract.trim();
         card.innerHTML = `<h4><a href="${esc(paper.url)}" target="_blank" rel="noopener noreferrer">${esc(paper.title)} ↗</a></h4><p>${esc((paper.authors || []).join(", "))} · ${esc(paper.date || "Date unavailable")} · ${esc(paper.index || "Index unavailable")}</p><p>${esc(paper.match_note || "Search match; relevance needs your review.")}</p><details><summary>Read index abstract</summary><p>${esc(paper.abstract || "No abstract available. Open the paper; it cannot support an automatic comparison yet.")}</p></details><label class="lab-consent-row"><input type="checkbox" data-discovery-select="${i}" ${hasAbstract ? "" : "disabled"}/><span>Use this abstract in question development</span></label><label class="lab-consent-row"><input type="checkbox" data-discovery-reviewed="${i}"/><span>I have reviewed this paper (optional; not independent verification)</span></label>`;
-        $("lab-discovery-results").append(card);
+        (paper.relevance_group === "direct" ? $("lab-discovery-results") : background).append(card);
       });
+      if (backgroundCount) $("lab-discovery-results").append(background);
       $("lab-discovery-results")
         .querySelectorAll("[data-discovery-select]")
         .forEach(input => {
@@ -122,6 +193,8 @@
             }
             if (input.checked) selected.add(i);
             else selected.delete(i);
+            $("lab-consent").checked = false;
+            $("lab-backup-consent").checked = false;
             sync();
           };
         });
@@ -151,8 +224,18 @@
   $("lab-lens").addEventListener("change", invalidate);
   $("lab-discovery-mode").addEventListener("change", sync);
   $("lab-discover").onclick = search;
+  document.querySelectorAll("[data-lab-direction]").forEach(button => {
+    button.onclick = () => {
+      if (generating) return;
+      $("lab-interest").value = button.dataset.labDirection;
+      $("lab-interest").dispatchEvent(new Event("input", { bubbles: true }));
+      $("lab-interest").focus();
+    };
+  });
   window.addEventListener("scout-lab-auth", invalidate);
   window.ScoutDiscovery = {
+    stage,
+    resultSummary,
     configure(options) {
       config = options.config;
       refresh = options.refresh;

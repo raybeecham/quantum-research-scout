@@ -262,12 +262,24 @@
             first test.
           </p>
         </div>
-        <p class="notebook-caveat">
-          Saved questions stay in this browser. AI assistance sends only your topic, refinement request and selected
-          source excerpts to your explicitly selected provider, Gemini or Groq. Google's free-tier content may be used
-          to improve Google's products. It does not search the literature or establish novelty. Do not submit sensitive
-          research.
-        </p>
+        <ol class="lab-workflow" aria-label="Question development steps">
+          <li data-lab-step="1" aria-current="step">
+            <span>01</span>
+            Enter an interest
+          </li>
+          <li data-lab-step="2">
+            <span>02</span>
+            Review papers
+          </li>
+          <li data-lab-step="3">
+            <span>03</span>
+            Generate questions
+          </li>
+          <li data-lab-step="4">
+            <span>04</span>
+            Develop one
+          </li>
+        </ol>
         <section class="lab-connection" aria-labelledby="lab-connection-heading">
           <h2 id="lab-connection-heading">Lab connection</h2>
           <p id="lab-connection-status" role="status">Checking the private lab connection…</p>
@@ -286,77 +298,110 @@
             </a>
           </div>
           <p id="lab-usage" hidden></p>
-          <p id="lab-hosted-note" hidden>
-            Invited accounts only: a GitHub account alone does not grant access. The research page is public; AI and
-            paper search require operator approval. Sign-in lasts up to one hour in this tab; refreshing requires
-            sign-in again. Only your explicitly submitted topic and excerpts leave this browser, not notebook notes.
-            Usage limits are shared across providers. Provider billing and data-use terms still apply.
-          </p>
-          <details id="lab-connection-help">
-            <summary>How to use the private lab</summary>
+          <details id="lab-connection-options">
+            <summary>Privacy, access &amp; setup details</summary>
             <p>
-              On the computer with this repository, run
-              <code>python scripts/serve_question_lab.py</code>
-              from the project folder. Then open the private lab link above. Keep API keys in the ignored
-              <code>.env.local</code>
-              file, never in this page.
+              Saved questions stay in this browser. AI assistance sends only your topic, refinement request and selected
+              excerpts to your chosen provider. Google's free-tier content may be used to improve Google's products. AI
+              does not establish novelty. Do not submit sensitive research.
             </p>
-            <p>
-              The public site and private lab have separate browser storage. Export your lab backup and notebook backup
-              before switching if you want to bring saved work with you. Nothing transfers automatically.
+            <p id="lab-hosted-note" hidden>
+              Invited accounts only: a GitHub account alone does not grant access. The research page is public; AI and
+              paper search require operator approval. Sign-in lasts up to one hour in this tab; refreshing requires
+              sign-in again. Only your explicitly submitted topic and excerpts leave this browser, not notebook notes.
+              Usage limits are shared across providers. Provider billing and data-use terms still apply.
             </p>
-            <p>
-              GitHub Pages does not host the AI service. Public AI access needs a separately deployed, authenticated
-              backend. Groq is a provider backup, not a backup server.
-            </p>
+            <details id="lab-connection-help">
+              <summary>How to use the private lab</summary>
+              <p>
+                On the computer with this repository, run
+                <code>python scripts/serve_question_lab.py</code>
+                from the project folder. Then open the private lab link above. Keep API keys in the ignored
+                <code>.env.local</code>
+                file, never in this page.
+              </p>
+              <p>
+                The public site and private lab have separate browser storage. Export your lab backup and notebook
+                backup before switching if you want to bring saved work with you. Nothing transfers automatically.
+              </p>
+              <p>
+                GitHub Pages does not host the AI service. Public AI access needs a separately deployed, authenticated
+                backend. Groq is a provider backup, not a backup server.
+              </p>
+            </details>
           </details>
         </section>
-        <div class="lab-layout">
-          <aside class="lab-panel">
-            <h2>Your questions</h2>
-            <button id="lab-new" class="desk-button" type="button">+ New question</button>
-            <div id="lab-list"></div>
-            <button id="lab-export" class="desk-button" type="button">Export lab backup</button>
-            <label>
-              Restore backup (adds new questions only)
-              <input id="lab-import" type="file" accept=".json,application/json" />
-            </label>
-          </aside>
+        <div class="lab-start-layout">
           <div class="lab-panel">
-            <h2>Help me find a research question</h2>
+            <span class="desk-kicker">START WITH YOUR CURIOSITY</span>
+            <h2>What would you like to investigate?</h2>
             <label>
               Research interest
               <textarea
                 id="lab-interest"
-                rows="3"
+                rows="2"
                 maxlength="500"
                 placeholder="e.g. PQC migration in cloud services"
               ></textarea>
             </label>
-            <label>
-              Starting lens
-              <select id="lab-lens">
-                <option value="pqc">Cybersecurity / PQC</option>
-                <option value="quantum">Quantum computing</option>
-                <option value="custom">My own topic</option>
-              </select>
-            </label>
-            <label>
-              How to start
-              <select id="lab-discovery-mode">
-                <option value="papers">Find papers first + check related work</option>
-                <option value="brainstorm">General brainstorming (no search required)</option>
-              </select>
-            </label>
+            <fieldset id="lab-topic-directions" class="lab-topic-directions" hidden>
+              <legend>AI + cybersecurity can mean two different things</legend>
+              <p>Optional: choose a direction, or keep your own wording. This only edits the interest above.</p>
+              <div>
+                <button type="button" class="desk-button" data-lab-direction="AI cybersecurity threat detection">
+                  AI for defense
+                </button>
+                <button type="button" class="desk-button" data-lab-direction="AI cybersecurity model robustness">
+                  Security of AI systems
+                </button>
+                <button
+                  type="button"
+                  class="desk-button"
+                  data-lab-direction="Artificial intelligence and cybersecurity"
+                >
+                  Explore both
+                </button>
+              </div>
+            </fieldset>
+            <div class="lab-start-options">
+              <label>
+                Optional background lens
+                <select id="lab-lens" aria-describedby="lab-scope-note">
+                  <option value="custom">Follow my interest (default)</option>
+                  <option value="pqc">Cybersecurity / PQC</option>
+                  <option value="quantum">Quantum computing</option>
+                </select>
+              </label>
+              <label>
+                How to start
+                <select id="lab-discovery-mode">
+                  <option value="papers">Find papers first + check related work</option>
+                  <option value="brainstorm">General brainstorming (no search required)</option>
+                </select>
+              </label>
+            </div>
+            <p id="lab-scope-note">
+              Your interest sets the scope. A lens does not add extra topics. Name PQC or quantum explicitly if you want
+              it included.
+            </p>
             <section id="lab-discovery-panel" class="lab-discovery-panel" aria-labelledby="lab-discovery-heading">
-              <h3 id="lab-discovery-heading">Start with the literature</h3>
-              <p>1. Find papers. 2. Choose up to four abstracts. 3. Generate questions and check potential overlap.</p>
+              <h3 id="lab-discovery-heading">Find a useful starting point</h3>
               <p>
                 Searching sends your research interest to Crossref and arXiv. No AI calls or private notes are used.
                 Only abstracts you select will be sent to the AI provider after consent.
               </p>
               <button id="lab-discover" type="button" class="desk-button" disabled>Find relevant papers</button>
               <p id="lab-discovery-status" role="status"></p>
+              <p id="lab-discovery-health" class="lab-search-health" hidden></p>
+              <details id="lab-discovery-query-details" hidden>
+                <summary>How this search was matched</summary>
+                <p id="lab-discovery-queries"></p>
+                <p>
+                  Strong matches cover the recognized topic facets and short-topic qualifiers in titles or abstracts.
+                  Background reading only covers part of the topic. These are metadata rules—not an AI appraisal,
+                  quality rating, or proof of novelty. Up to 12 strong and 3 background matches are shown.
+                </p>
+              </details>
               <p id="lab-discovery-count"></p>
               <div id="lab-discovery-results" role="region" aria-label="Discovered papers" tabindex="0"></div>
             </section>
@@ -405,14 +450,38 @@
               </label>
               <button id="lab-backup" class="desk-button" type="button" disabled>Try Groq backup</button>
             </details>
+            <section id="lab-attempts" class="lab-attempts" aria-labelledby="lab-attempt-heading" hidden>
+              <h3 id="lab-attempt-heading">Recent generation attempts</h3>
+              <p>
+                Last five attempts in this tab. A backup result does not erase earlier failures. No topics, excerpts,
+                notes, or keys are stored here. Clears on refresh or sign-out.
+              </p>
+              <ol id="lab-attempt-list" aria-live="polite"></ol>
+              <button id="lab-clear-attempts" class="desk-button" type="button">Clear attempt history</button>
+            </section>
             <div id="lab-prompts"></div>
           </div>
+          <aside class="lab-panel lab-saved-questions">
+            <h2>Your questions</h2>
+            <p>Develop an AI suggestion, or start a question yourself.</p>
+            <button id="lab-new" class="desk-button" type="button">+ New question</button>
+            <div id="lab-list"></div>
+            <details id="lab-backup-tools">
+              <summary>Back up or restore questions</summary>
+              <button id="lab-export" class="desk-button" type="button">Export lab backup</button>
+              <label>
+                Restore backup (adds new questions only)
+                <input id="lab-import" type="file" accept=".json,application/json" />
+              </label>
+            </details>
+          </aside>
         </div>
         <p id="lab-status" role="status" aria-live="polite"></p>
         <form id="lab-editor" class="lab-panel" hidden>
           <div class="workspace-heading">
             <span class="desk-kicker">WORKING QUESTION · NOVELTY NOT ESTABLISHED</span>
             <h2>Shape the investigation</h2>
+            <button id="lab-close-editor" class="desk-button" type="button">Back to exploring</button>
           </div>
           <label>
             Research question

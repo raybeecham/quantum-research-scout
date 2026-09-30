@@ -234,7 +234,8 @@
   function list() {
     $("lab-list").replaceChildren();
     if (!rows.length)
-      $("lab-list").textContent = "No questions yet. Start from a prompt or write your own.";
+      $("lab-list").textContent =
+        "No saved questions yet. Explore an interest, then choose a question to develop.";
     for (const row of rows) {
       const b = document.createElement("button");
       b.type = "button";
@@ -277,6 +278,7 @@
     if (!row) return;
     for (const f of fields) $("lab-editor").elements.namedItem(f).value = row[f];
     $("lab-editor").hidden = false;
+    window.ScoutDiscovery.stage(4);
     dirty = false;
     list();
     sources();
@@ -413,6 +415,18 @@
     }
   }
   $("lab-new").onclick = () => create();
+  $("lab-close-editor").onclick = () => {
+    if (!canLeave()) return;
+    paperRequest++;
+    paperBusy = false;
+    $("lab-editor").hidden = true;
+    dirty = false;
+    active = null;
+    list();
+    window.ScoutDiscovery.sync(connected, generating);
+    status("Editor closed. Your saved question is still in Your questions.");
+    $("lab-interest").focus();
+  };
   $("lab-editor").addEventListener("input", e => {
     if (fields.includes(e.target.name)) dirty = true;
     if (e.target.name === "question") search();
@@ -496,12 +510,12 @@
       if (!response.ok) throw Error(data.error || "Paper search failed.");
       if (request !== paperRequest) return;
       if (!Array.isArray(data.papers)) throw Error("Unexpected search response.");
-      output.textContent = `${data.papers.length} retained matches for “${query}”. ${(data.warnings || []).join(" ")} ${data.search_phrases?.length ? "Search phrases: " + data.search_phrases.join("; ") + ". " : ""}Weak matches are omitted; fewer results do not mean no prior work exists. Metadata matching is not a literature review or proof of novelty.`;
+      output.textContent = `${window.ScoutDiscovery.resultSummary(data.papers)} for “${query}”. ${(data.warnings || []).join(" ")} ${data.search_phrases?.length ? "Search phrases: " + data.search_phrases.join("; ") + ". " : ""}Weak matches are omitted; fewer results do not mean no prior work exists. Metadata matching is not a literature review or proof of novelty.`;
       let previousGroup = "";
       for (const paper of data.papers) {
         const group =
           paper.relevance_group === "direct"
-            ? "Direct topic matches"
+            ? "Strong topic matches · review relevance"
             : "Background methods / related context";
         if (group !== previousGroup) {
           const heading = document.createElement("h4");
@@ -596,6 +610,73 @@
   refreshAiSources();
   let generating = false;
   let lastRefinement = "";
+  const attempts = [];
+  function renderAttempts() {
+    $("lab-attempts").hidden = !attempts.length;
+    $("lab-clear-attempts").disabled = generating;
+    $("lab-attempt-list").replaceChildren();
+    for (const attempt of attempts) {
+      const row = document.createElement("li");
+      row.dataset.state = attempt.state;
+      const heading = document.createElement("strong");
+      heading.textContent = `${attempt.provider === "gemini" ? "Gemini" : "Groq"} · ${attempt.state} · ${attempt.time}`;
+      const detail = document.createElement("p");
+      detail.textContent = attempt.detail;
+      row.append(heading, detail);
+      $("lab-attempt-list").append(row);
+    }
+  }
+  function failureDiagnostic(error) {
+    // Keep only classified diagnostics, never arbitrary server/provider text.
+    const message = String(error.message || "");
+    const upstream = message.match(/(?:returned|provider|upstream) HTTP (\d{3})/i)?.[1];
+    const code = upstream ? Number(upstream) : null;
+    const statusCode = Number(error.requestStatus);
+    let reason =
+      "Generation did not complete. The exact cause was not supplied; no automatic retry was made.";
+    if (/unrequested quantum\/PQC|unresolved scope or technical/.test(message))
+      reason =
+        "Scope or technical review failed. Candidates were withheld; no automatic retry was made.";
+    else if (/not configured/i.test(message))
+      reason =
+        "This provider is not configured on the lab server. Contact the operator; never paste a key into this page.";
+    else if (code === 429)
+      reason =
+        "The provider rate-limited the request or its quota is exhausted. Check provider quota or try later.";
+    else if (code === 401 || code === 403)
+      reason =
+        "The provider rejected authentication or access. Check the server-side key and project access.";
+    else if (code === 404)
+      reason =
+        "The requested provider model or endpoint was not found or is unavailable to this project.";
+    else if (code && code >= 500)
+      reason =
+        "The provider reported a service error. Try later, or explicitly choose the backup with fresh consent.";
+    else if (code === 400)
+      reason =
+        "The provider rejected the request format or configuration; the server operator should check compatibility.";
+    else if (/daily|limit|wait|already running/i.test(message) && !code)
+      reason =
+        "A lab usage or concurrency limit blocked this attempt. Switching providers does not bypass shared limits.";
+    else if (error.name === "TimeoutError")
+      reason =
+        "The request timed out; provider completion is unknown. No automatic retry was made.";
+    else if (error.name === "TypeError")
+      reason = "The lab connection failed; whether the provider received the request is unknown.";
+    else if (/invalid|incomplete|refused|critique|response|comparison|cited/i.test(message))
+      reason =
+        "The response was incomplete, refused, or failed validation. No unchecked candidates were accepted.";
+    return `${code ? `Provider HTTP ${code}. ` : ""}${Number.isInteger(statusCode) && statusCode >= 400 ? `Lab HTTP ${statusCode}. ` : ""}${reason} Submitted attempts may count toward usage.`;
+  }
+  $("lab-clear-attempts").onclick = () => {
+    if (generating) return;
+    attempts.length = 0;
+    renderAttempts();
+  };
+  window.addEventListener("scout-lab-auth", () => {
+    attempts.length = 0;
+    renderAttempts();
+  });
   async function generateQuestions(refinement = "", provider = "gemini") {
     if (generating) return;
     if (!connected) {
@@ -659,12 +740,23 @@
     status(
       `Drafting and critically reviewing questions with ${provider} (two AI calls)… Your saved questions will not be changed.`,
     );
+    let attempt;
     try {
       const config = await labConfig();
       if (comparing && config.features?.related_work !== true)
         throw Error(
           "Update/restart the lab server to enable related-work comparisons. No AI calls were made. General brainstorming remains available.",
         );
+      attempt = {
+        provider,
+        state: "pending",
+        time: new Date().toLocaleTimeString(),
+        detail:
+          "Draft + critique requested. This is one generation attempt, reserving two AI call slots.",
+      };
+      attempts.push(attempt);
+      if (attempts.length > 5) attempts.shift();
+      renderAttempts();
       const response = await window.ScoutLab.request(
         config,
         "generate",
@@ -683,12 +775,17 @@
       const data = await response.json();
       if (!response.ok)
         throw Object.assign(Error(data.error || "AI generation failed."), {
+          requestStatus: response.status,
           providerFailure:
             response.status === 502 ||
             (response.status === 503 && /is not configured/.test(data.error || "")),
         });
       if (!Array.isArray(data.candidates) || data.candidates.length !== 3)
         throw Error("Invalid AI response.");
+      if (data.candidates.some(c => c.critique?.revision_needed === true))
+        throw Error(
+          "AI review flagged unresolved scope or technical problems; candidates withheld.",
+        );
       if (
         comparing &&
         data.candidates.some(
@@ -732,9 +829,14 @@
               ground_truth: "Ground truth",
               alignment: "Question–experiment alignment",
               remaining_concerns: "Still needs checking",
+              scope_alignment: "Fit to your interest",
+              technical_validity: "Technical coherence",
             },
           )
-            .map(([f, label]) => `<p><strong>${label}:</strong> ${esc(candidate.critique[f])}</p>`)
+            .map(
+              ([f, label]) =>
+                `<p><strong>${label}:</strong> ${esc(candidate.critique[f] || "Not recorded by this server; update the backend for this check.")}</p>`,
+            )
             .join(
               "",
             )}<p>This second pass uses the same model. It is not independent validation or a literature review.</p>`;
@@ -816,7 +918,14 @@
       status(
         "Three AI-generated candidates ready. Choose one to save the drafted plan; no form-filling required.",
       );
+      attempt.state = "succeeded";
+      attempt.detail =
+        "Three candidates returned. AI self-review is not independent validation. Earlier failures remain below their provider names.";
     } catch (error) {
+      if (attempt) {
+        attempt.state = "failed";
+        attempt.detail = failureDiagnostic(error);
+      }
       status(
         error.name === "TimeoutError"
           ? "The request timed out; it may still count toward usage. No automatic retry was made."
@@ -826,6 +935,7 @@
       );
     } finally {
       generating = false;
+      renderAttempts();
       window.ScoutDiscovery.sync(connected, false);
       $("lab-suggest").disabled = !connected || providers?.gemini === false;
       $("lab-backup").disabled = !connected || providers?.groq === false;

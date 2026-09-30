@@ -32,6 +32,9 @@ const review = {
   ground_truth: "Seeded corpus",
   alignment: "Compare recall",
   remaining_concerns: "Generalization",
+  scope_alignment: "Matches the interest",
+  technical_validity: "Mechanism and data representation specified",
+  revision_needed: false,
 };
 afterEach(() => vi.unstubAllGlobals());
 describe("related-work comparison", () => {

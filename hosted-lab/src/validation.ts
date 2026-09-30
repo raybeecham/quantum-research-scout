@@ -59,6 +59,9 @@ export const critiqueSchema = z.object({
   ground_truth: nonempty(1000),
   alignment: nonempty(1000),
   remaining_concerns: nonempty(1000),
+  scope_alignment: nonempty(1000),
+  technical_validity: nonempty(1000),
+  revision_needed: z.boolean(),
 });
 export const draftSchema = z.object({ candidates: z.array(candidateSchema).length(3) });
 export const revisedSchema = z.object({

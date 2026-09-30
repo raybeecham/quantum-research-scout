@@ -37,7 +37,10 @@ def response(review=False):
                 "source_ids": ["S1"],
                 **(
                     {
-                        "critique": dict.fromkeys(REVIEW_FIELDS, "Check assumptions"),
+                        "critique": {
+                            **dict.fromkeys(REVIEW_FIELDS, "Check assumptions"),
+                            "revision_needed": False,
+                        },
                         "prior_work": comparison(),
                     }
                     if review

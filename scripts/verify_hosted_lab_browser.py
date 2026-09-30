@@ -176,7 +176,9 @@ def main():
         page.locator("#lab-find-papers").click()
         expect(page.locator("#lab-paper-status")).to_contain_text("Mock index outage")
         assert calls[-1][0] == "/api/lab/papers"
-        expect(page.get_by_role("heading", name="Direct topic matches", exact=True)).to_be_visible()
+        expect(
+            page.get_by_role("heading", name="Strong topic matches · review relevance", exact=True)
+        ).to_be_visible()
         page.get_by_role("button", name="Attach to question", exact=True).click()
         page.locator("#lab-paper-seed").select_option("0")
         page.locator("#lab-find-papers").click()

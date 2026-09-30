@@ -2425,6 +2425,92 @@ body:has(.profile-hero) > footer {
   }
 }
 /* Question lab: focused writing surfaces, not another metrics dashboard. */
+.lab-workflow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding: 0;
+  margin: 1.5rem 0;
+  list-style: none;
+  gap: 0.5rem;
+}
+.lab-workflow li {
+  padding: 0.85rem;
+  border-bottom: 3px solid #bdc4b7;
+  background: #fffdf5;
+  font-weight: 600;
+}
+.lab-workflow span {
+  display: block;
+  color: #007583;
+  font-size: 0.8rem;
+}
+.lab-workflow [aria-current="step"] {
+  border-color: #007583;
+  background: #e1efeb;
+}
+.lab-start-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(14rem, 0.32fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+.lab-start-layout > .lab-panel {
+  background: #fffdf5;
+}
+.lab-start-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.lab-topic-directions {
+  border: 1px solid #708482;
+  padding: 1rem;
+  margin: 1rem 0;
+  min-width: 0;
+  background: #e1efeb;
+}
+.lab-topic-directions legend {
+  font-weight: 700;
+  padding-inline: 0.4rem;
+}
+.lab-topic-directions p {
+  margin-top: 0;
+}
+.lab-topic-directions [aria-pressed="true"] {
+  background: #18313a;
+  color: #fffdf5;
+}
+.lab-search-health {
+  font-weight: 600;
+  border-left: 3px solid #ba7215;
+  padding: 0.6rem;
+  background: #fbf0d9;
+}
+.lab-results-heading {
+  margin-top: 1.2rem;
+}
+.lab-background-results {
+  border-top: 1px solid #708482;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+.lab-background-results .lab-evidence {
+  border-left-color: #856d43;
+}
+@media (max-width: 1080px) {
+  .lab-start-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .lab-workflow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .lab-start-options {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+}
 .lab-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
@@ -3233,6 +3319,61 @@ body:has(.profile-hero) > footer {
 }
 .lab-connection code {
   overflow-wrap: anywhere;
+}
+.lab-attempts {
+  margin-block: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #708482;
+  background: #fffaf0;
+}
+.lab-attempts h3 {
+  margin-top: 0;
+}
+.lab-attempts ol {
+  list-style: none;
+  padding: 0;
+}
+.lab-attempts li {
+  margin-block: 0.75rem;
+  padding: 0.75rem;
+  border-left: 3px solid #708482;
+}
+.lab-attempts li[data-state="failed"] {
+  border-color: #a44330;
+  background: #fbede6;
+}
+.lab-attempts li[data-state="succeeded"] {
+  border-color: #007583;
+  background: #e1efeb;
+}
+.lab-attempts li p {
+  margin-bottom: 0;
+}
+#questions .lab-connection {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.5rem 1rem;
+}
+#questions .lab-connection p {
+  margin-block: 0.35rem;
+}
+#questions .lab-connection-actions {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: start;
+  margin: 0;
+}
+#lab-usage,
+#lab-connection-options {
+  grid-column: 1 / -1;
+}
+@media (max-width: 760px) {
+  #questions .lab-connection {
+    display: block;
+  }
+  #questions .lab-connection-actions {
+    margin-block: 1rem;
+  }
 }
 .lab-panel .lab-consent-row {
   display: grid;

@@ -151,12 +151,19 @@ export async function searchPapers(query: string) {
   ]);
   const warnings: string[] = [],
     records: Paper[] = [];
+  const indexes = [
+    { name: "Crossref", completed: 0, failed: 0, status: "ok" },
+    { name: "arXiv", completed: 0, failed: 0, status: "ok" },
+  ];
   results.forEach((r, i) => {
+    const index = indexes[i === plan.phrases.length ? 1 : 0];
     if (r.status === "rejected") {
+      index.failed++;
       const warning = `${i === plan.phrases.length ? "arXiv" : "Crossref"} unavailable; results may be incomplete.`;
       if (!warnings.includes(warning)) warnings.push(warning);
       return;
     }
+    index.completed++;
     for (const paper of r.value) {
       try {
         const u = new URL(paper.url);
@@ -168,6 +175,16 @@ export async function searchPapers(query: string) {
       records.push(paper);
     }
   });
+  indexes.forEach(index => {
+    index.status = index.failed ? (index.completed ? "partial" : "unavailable") : "ok";
+  });
   const papers = rankPapers(records, plan);
-  return { papers, warnings, search_phrases: plan.phrases, searched_at: new Date().toISOString() };
+  return {
+    papers,
+    warnings,
+    indexes,
+    search_terms: plan.terms,
+    search_phrases: plan.phrases,
+    searched_at: new Date().toISOString(),
+  };
 }

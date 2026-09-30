@@ -146,6 +146,7 @@ def main() -> None:
         lab.locator(".lab-question").first.click()
         expect(question).to_have_value("Which network conditions change hybrid TLS tail latency?")
         expect(lab.locator("#lab-history")).to_contain_text("tail connection latency")
+        lab.locator("#lab-backup-tools summary").click()
         with lab.expect_download() as lab_download:
             lab.locator("#lab-export").click()
         lab_backup = Path(lab_download.value.path()).read_text(encoding="utf-8")
