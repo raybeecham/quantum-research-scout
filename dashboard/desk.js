@@ -138,9 +138,18 @@
   );
   const ui = {
     data: null,
-    lens: ["core", "all", "security", "quantum", "ai", "government"].includes(prefs.lens)
+    briefingMode: prefs.briefingMode === "research" ? "research" : "decisions",
+    researchLens: ["emerging", "core", "all", "security", "quantum", "ai", "government"].includes(
+      prefs.lens,
+    )
       ? prefs.lens
       : "core",
+    decisionLens: ["emerging", "core", "all", "security", "quantum", "ai", "government"].includes(
+      prefs.decisionLens,
+    )
+      ? prefs.decisionLens
+      : "emerging",
+    lens: "emerging",
     sourceKind: ["preprint", "official", "industry", "other"].includes(prefs.sourceKind)
       ? prefs.sourceKind
       : "all",
@@ -151,12 +160,21 @@
     comfort: prefs.comfort === true,
     searchKind: "all",
     searchLimit: 30,
-    readingOrder: ["government", "recent"].includes(prefs.readingOrder)
+    researchOrder: ["research", "government", "recent"].includes(prefs.readingOrder)
       ? prefs.readingOrder
       : "research",
+    decisionOrder: ["decision", "government", "recent"].includes(prefs.decisionOrder)
+      ? prefs.decisionOrder
+      : "decision",
+    readingOrder: "decision",
+    collectionStale: false,
   };
+  ui.lens = ui.briefingMode === "decisions" ? ui.decisionLens : ui.researchLens;
+  ui.readingOrder = ui.briefingMode === "decisions" ? ui.decisionOrder : ui.researchOrder;
   const snapshot = () => ({
-    lens: ui.lens,
+    lens: ui.briefingMode === "research" ? ui.lens : ui.researchLens,
+    decisionLens: ui.briefingMode === "decisions" ? ui.lens : ui.decisionLens,
+    briefingMode: ui.briefingMode,
     saved: [...saved],
     stories: [...archive.values()].filter(x => saved.has(x.id)),
     read: [...read].slice(-2000),
@@ -164,7 +182,8 @@
     unreadOnly: ui.unreadOnly,
     comfort: ui.comfort,
     sourceKind: ui.sourceKind,
-    readingOrder: ui.readingOrder,
+    readingOrder: ui.briefingMode === "research" ? ui.readingOrder : ui.researchOrder,
+    decisionOrder: ui.briefingMode === "decisions" ? ui.readingOrder : ui.decisionOrder,
     notebook: [...notebook].map(([id, note]) => ({ id, ...note })),
   });
   const persist = () => {
@@ -185,7 +204,7 @@
   mobileReading.addEventListener("change", adaptReadingControls);
   adaptReadingControls();
   const views = {
-    briefing: ["Research briefing", []],
+    briefing: ["Technology briefing", []],
     federal: ["Federal landscape", ["funding", "missions"]],
     patents: ["Patent watch", ["patents"]],
     research: [
@@ -200,11 +219,11 @@
   };
   const descriptions = {
     federal:
-      "Find what could support or inform your research, then trace it to the agency announcement and mission.",
+      "Follow government priorities into missions, funding, partnerships, and requirements—then check what applies to your plans.",
     patents:
-      "Explore inventions related to your research—without mistaking a filing for a demonstrated result.",
+      "Explore emerging inventions and potential technology directions—without mistaking a filing for a demonstrated result.",
     research:
-      "Find your next research direction in cybersecurity, PQC and quantum computing—grounded in the sources we actually collected.",
+      "Explore technology trends, organizations, and research directions—grounded in the sources we actually collected.",
     decisions: "Review changes, amendments, and conflicts that could affect your next step.",
     library:
       "Daily readings, weekly perspective, and monthly synthesis. Keep the full evidence trail.",
@@ -348,9 +367,13 @@
     const lenses = Array.isArray(item.lenses) ? item.lenses : [];
     return (
       (ui.lens === "all" ||
-        (ui.lens === "core"
-          ? lenses.some(x => ["security", "quantum"].includes(x))
-          : lenses.includes(ui.lens))) &&
+        (ui.lens === "emerging"
+          ? (Array.isArray(item.decision_brief?.topics) ? item.decision_brief.topics : lenses).some(
+              x => ["security", "quantum", "ai", "cloud"].includes(x),
+            )
+          : ui.lens === "core"
+            ? lenses.some(x => ["security", "quantum"].includes(x))
+            : lenses.includes(ui.lens))) &&
       (ui.sourceKind === "all" || (item.source_kind || "other") === ui.sourceKind)
     );
   }
@@ -401,6 +424,7 @@
     const basis =
       item.research_priority?.label || "Matches your selected interest and source filters";
     const order = {
+      decision: "Decision-relevance order",
       research: "Research-first order",
       government: "Report date, then government priority",
       recent: "Latest report first",
@@ -450,7 +474,68 @@
     </article>`;
   }
 
+  function decisionCard(item, index, lead = false, compact = false) {
+    const d = item.decision_brief?.version === 1 ? item.decision_brief : null;
+    const action = ["prepare", "investigate", "test", "monitor"].includes(d?.action)
+      ? d.action
+      : "monitor";
+    const horizon = ui.collectionStale
+      ? "Verify collection freshness first"
+      : d?.horizon || "Assessment unavailable";
+    const related = Array.isArray(item.related) ? item.related : [];
+    const hasExcerpt =
+      Array.isArray(item.key_points) &&
+      item.key_points.some(x => typeof x === "string" && x.trim());
+    return `<article class="${lead ? "lead-story" : compact ? "briefing-short-card" : "reading-card"} decision-card${read.has(item.id) ? " is-read" : ""}" data-story="${esc(item.id)}">
+      <div class="decision-card-top"><span class="desk-kicker">${String(index + 1).padStart(2, "0")} / ${esc(d?.kind_label || "Unassessed source")}</span><span class="decision-action ${action}">${esc(d?.action_label || "Verify source")}</span></div>
+      <${lead ? "h2" : "h3"}><a href="${esc(link(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)} <span aria-hidden="true">↗</span></a></${lead ? "h2" : "h3"}>
+      <p class="decision-source">${esc(item.source)} · ${esc(item.date_label)} ${esc(day(item.date || item.report_date))}</p>
+      ${editionBadge(item)}
+      ${!compact ? `<div class="decision-reported"><span class="desk-kicker">${hasExcerpt ? "WHAT THE SOURCE REPORTS" : "SOURCE EXCERPT UNAVAILABLE"}</span><p class="story-summary">${hasExcerpt ? esc(item.summary) : "Only headline-level context was collected. Open the source before interpreting its significance."}</p></div>` : ""}
+      <dl class="decision-implications">${compact ? "" : `<div><dt>What it could affect</dt><dd>${esc(d?.impact || "This snapshot has no decision assessment. Open the source to establish relevance; no practical impact has been inferred.")}</dd></div>`}<div class="decision-next"><dt>Suggested next step</dt><dd>${esc(d?.next_step || "Read the original source and check the date, scope, and supporting evidence before acting.")}</dd></div></dl>
+      <p class="decision-timing"><span>REVIEW TIMING</span>${esc(horizon)}</p>
+      <details class="story-evidence decision-reasoning"><summary>Why prioritized &amp; what to verify</summary><div>
+      <p><strong>${esc(d?.priority_label || "Not assessed")}</strong> · ${esc({ decision: "Decision relevance, then report date. Stable ties are not a significance ranking.", government: "Latest report date, then government priority.", recent: "Latest report first." }[ui.readingOrder] || "Your selected order.")}</p>
+      <ul>${(Array.isArray(d?.basis) ? d.basis : ["Decision cues were not included in this snapshot. Rebuild the dashboard to assess this source."]).map(reason => `<li>${esc(reason)}</li>`).join("")}</ul>
+      <p><strong>Evidence limits:</strong> ${esc(d?.uncertainty || item.source_kind_note || "Publication type and technical claims are unverified.")}</p>
+      ${compact ? `<p><strong>What it could affect:</strong> ${esc(d?.impact || "Practical relevance not assessed.")}</p><p><strong>Source excerpt:</strong> ${hasExcerpt ? esc(item.summary) : "Unavailable; open the original source."}</p>` : ""}
+      ${ui.collectionStale ? "<p>Collection freshness needs verification. Confirm current source status before using any suggested follow-up.</p>" : ""}
+      <p>${esc(d?.method || "No full-document analysis or independent verification has been performed.")} Suggested review timing is not a deadline or a prediction of technology maturity.</p>
+      ${related.length ? `<p>Related coverage—not independent confirmation:</p><ul>${related.map(r => `<li><a href="${esc(link(r.url))}" target="_blank" rel="noopener noreferrer">${esc(r.title)} ↗</a></li>`).join("")}</ul>` : ""}
+      ${lead ? `<button type="button" class="desk-button" data-briefing-question="${esc(item.id)}">Investigate in Question Lab →</button><p class="patent-small">Loads the title only. No AI call or automatic source attachment.</p>` : ""}</div></details>
+      <div class="decision-card-actions"><a href="${esc(link(item.url))}" target="_blank" rel="noopener noreferrer">Verify at source ↗</a><div>${readButton(item)}${saveButton(item)}</div></div>
+      </article>`;
+  }
+
   function renderStories() {
+    const decisions = ui.briefingMode === "decisions";
+    $("briefing").classList.toggle("decision-view", decisions);
+    document
+      .querySelectorAll("[data-briefing-mode]")
+      .forEach(b =>
+        b.setAttribute("aria-pressed", String(b.dataset.briefingMode === ui.briefingMode)),
+      );
+    $("briefing-title").textContent = decisions
+      ? "What matters. What to do next."
+      : "What’s worth a deeper read?";
+    $("briefing-intro-text").textContent = decisions
+      ? "Emerging-tech developments that could change your plans—not just add to your reading list."
+      : "Read the evidence, examine assumptions, and follow a research question.";
+    $("briefing-mode-note").textContent = decisions
+      ? "Suggested follow-ups, not automatic conclusions. Review timing is not a technology adoption forecast."
+      : "Research-first reading remains available. Your saved sources, notes, and questions are shared between views.";
+    $("briefing-shortlist-kicker").textContent = decisions
+      ? "YOUR DECISION SHORTLIST"
+      : "A SMALL READING PLAN";
+    $("briefing-selection-note").textContent = decisions
+      ? "A few developments worth assessing. Priority is not scientific quality or proven impact."
+      : "Next in your chosen order. A reading suggestion, not a quality rating.";
+    $("briefing-feed-title").textContent = decisions
+      ? "More developments to assess"
+      : "More from this reading window";
+    $("desk-more").textContent = decisions ? "Show more developments ↓" : "Show more readings ↓";
+    $("reading-order").querySelector('[value="research"]').hidden = decisions;
+    $("reading-order").querySelector('[value="decision"]').hidden = !decisions;
     const openIds = [...$("briefing").querySelectorAll(".story-evidence[open]")].map(
       el => el.closest("[data-story]").dataset.story,
     );
@@ -470,6 +555,7 @@
     $("unread-only").checked = ui.unreadOnly;
     $("reading-progress").textContent = `${completed} of ${topical.length} marked read`;
     const lensName = {
+      emerging: "Emerging tech",
       core: "Cyber / PQC + quantum",
       all: "All sources",
       security: "Cyber & PQC",
@@ -483,7 +569,7 @@
       .querySelectorAll("[data-lens]")
       .forEach(b => b.setAttribute("aria-pressed", String(b.dataset.lens === ui.lens)));
     $("desk-result-count").textContent =
-      `${filtered.length} ${ui.unreadOnly ? "unread " : ""}reading${filtered.length === 1 ? "" : "s"} · ${ui.period === "week" ? "7-day report window" : "latest edition"}`;
+      `${filtered.length} ${ui.unreadOnly ? "unread " : ""}${decisions ? "development" : "reading"}${filtered.length === 1 ? "" : "s"} · ${ui.period === "week" ? "7-day report window" : "latest edition"}`;
     const emptyTitle =
       topical.length && ui.unreadOnly
         ? "You’re caught up on this view."
@@ -494,24 +580,31 @@
         ? '<button type="button" class="desk-button" data-reset-reading="week">Explore the past 7 days →</button>'
         : '<button type="button" class="desk-button" data-reset-reading="all">Show all interests and source types →</button>';
     $("desk-lead").innerHTML = filtered.length
-      ? card(filtered[0], 0, true)
+      ? decisions
+        ? decisionCard(filtered[0], 0, true)
+        : card(filtered[0], 0, true)
       : `<article class="lead-story"><h2>${emptyTitle}</h2><p>Filters change what you see, not the underlying evidence.</p>${emptyAction}</article>`;
     $("desk-stories").innerHTML =
       filtered
         .slice(3, ui.limit + 3)
-        .map((x, i) => card(x, i + 3))
+        .map((x, i) => (decisions ? decisionCard(x, i + 3) : card(x, i + 3)))
         .join("") ||
       '<div class="desk-empty">No additional readings in this view. The shortlist above contains the available matches.</div>';
     $("briefing-shortlist").innerHTML =
-      filtered.slice(1, 3).map(shortlistCard).join("") ||
+      filtered
+        .slice(1, 3)
+        .map((x, i) => (decisions ? decisionCard(x, i + 1, false, true) : shortlistCard(x, i)))
+        .join("") ||
       '<p class="desk-empty">No additional matches to suggest. Broaden the reading window or change your filters.</p>';
     if (
       filtered.length < 3 &&
-      (ui.period !== "week" || ui.sourceKind !== "all" || ui.lens !== "core")
+      (ui.period !== "week" ||
+        ui.sourceKind !== "all" ||
+        ui.lens !== (decisions ? "emerging" : "core"))
     )
       $("briefing-shortlist").insertAdjacentHTML(
         "beforeend",
-        '<button type="button" class="desk-button briefing-broaden" data-reset-reading="research">Browse core research · past 7 days →</button>',
+        `<button type="button" class="desk-button briefing-broaden" data-reset-reading="research">${decisions ? "Browse emerging tech" : "Browse core research"} · past 7 days →</button>`,
       );
     $("desk-more").hidden = filtered.length <= ui.limit + 3;
     $("saved-count").textContent = saved.size;
@@ -883,6 +976,7 @@
       : "No published edition";
     const elapsed = Date.now() - new Date(brief.collected_at || "").getTime();
     const stale = !Number.isFinite(elapsed) || elapsed > 36 * 3600000 || elapsed < -5 * 60000;
+    ui.collectionStale = stale;
     const health = data.source_health?.operational_summary || {};
     $("desk-health").textContent = stale
       ? "Collection needs a refresh"
@@ -1254,6 +1348,23 @@
     search();
   });
   document.addEventListener("click", e => {
+    const mode = e.target.closest("[data-briefing-mode]");
+    if (mode && ui.data) {
+      if (ui.briefingMode === "research") {
+        ui.researchLens = ui.lens;
+        ui.researchOrder = ui.readingOrder;
+      } else {
+        ui.decisionLens = ui.lens;
+        ui.decisionOrder = ui.readingOrder;
+      }
+      ui.briefingMode = mode.dataset.briefingMode === "research" ? "research" : "decisions";
+      ui.lens = ui.briefingMode === "research" ? ui.researchLens : ui.decisionLens;
+      ui.readingOrder = ui.briefingMode === "research" ? ui.researchOrder : ui.decisionOrder;
+      ui.limit = 6;
+      persist();
+      renderStories();
+      return;
+    }
     const explore = e.target.closest("[data-briefing-question]");
     if (explore && ui.data) {
       const item = ui.data.reading_brief?.stories?.find(
@@ -1269,9 +1380,9 @@
       else if (reset.dataset.resetReading === "week") ui.period = "week";
       else if (reset.dataset.resetReading === "research") {
         ui.period = "week";
-        ui.lens = "core";
+        ui.lens = ui.briefingMode === "decisions" ? "emerging" : "core";
         ui.sourceKind = "all";
-        ui.readingOrder = "research";
+        ui.readingOrder = ui.briefingMode === "decisions" ? "decision" : "research";
       } else {
         ui.lens = "all";
         ui.sourceKind = "all";

@@ -3,6 +3,7 @@ import { authenticate, startLogin, finishLogin } from "./auth";
 import { assist, generate, comparePapers, selectedProvider } from "./providers";
 import { comparisonSchema } from "./comparison";
 import { searchPapers } from "./papers";
+import { fetchPatent, patentSchema } from "./patents";
 import { questionSchema, readingSchema, providerSchema, searchSchema } from "./validation";
 import { AppEnv, LabError, boundedText, day, fail, hash, httpsOrigin, limits } from "./support";
 export { AuthRecord, DailyBudget } from "./storage";
@@ -64,7 +65,12 @@ async function route(request: Request, env: AppEnv): Promise<Response> {
   if (request.method === "GET" && path === "/api/lab/config")
     return Response.json({
       hosted: true,
-      features: { related_work: true, paper_comparison: true, comparison_evidence_version: 3 },
+      features: {
+        related_work: true,
+        paper_comparison: true,
+        comparison_evidence_version: 3,
+        patent_evidence: true,
+      },
       user: user.login,
       providers: { gemini: Boolean(env.GEMINI_API_KEY), groq: Boolean(env.GROQ_API_KEY) },
       usage: await budget.usage(user.id),
@@ -76,10 +82,29 @@ async function route(request: Request, env: AppEnv): Promise<Response> {
     await record.revoke();
     return Response.json({ signed_out: true });
   }
-  if (!["/api/lab/generate", "/api/lab/read", "/api/lab/papers", "/api/lab/compare"].includes(path))
+  if (
+    ![
+      "/api/lab/generate",
+      "/api/lab/read",
+      "/api/lab/papers",
+      "/api/lab/compare",
+      "/api/lab/patent",
+    ].includes(path)
+  )
     fail(404, "not_found", "Not found.");
   // Stream cap applies even to absent or forged Content-Length headers.
   const raw: unknown = JSON.parse(await boundedText(request, 24000));
+  if (path === "/api/lab/patent") {
+    const data = patentSchema.parse(raw);
+    // Public evidence lookups share search limits, never AI call slots.
+    const reservation = await budget.reserve(user.id, "search", 0);
+    if (!reservation.ok) fail(429, "limit", reservation.error);
+    try {
+      return Response.json(await fetchPatent(data.publication_id));
+    } finally {
+      await budget.finish(user.id, "search", reservation.lease!);
+    }
+  }
   const search = path.endsWith("/papers"),
     read = path.endsWith("/read"),
     comparison = path.endsWith("/compare");

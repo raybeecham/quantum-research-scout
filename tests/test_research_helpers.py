@@ -53,6 +53,24 @@ def test_notebook_review_fields_survive_backup_validation():
     assert result["appraisal"] == "Preserve old notes"
 
 
+def test_decision_order_is_separate_from_research_order_and_handles_legacy():
+    rows = [
+        {"id": "paper", "research_priority": {"tier": 4}, "decision_brief": {"priority": 1}},
+        {"id": "policy", "research_priority": {"tier": 3}, "decision_brief": {"priority": 3}},
+        {"id": "cloud", "research_priority": {"tier": 0}, "decision_brief": {"priority": 2}},
+        {"id": "legacy", "score": 999},
+    ]
+    assert js_check(
+        'console.log(JSON.stringify(r.sortReadings(value,"decision").map(x=>x.id)));', rows
+    ) == ["policy", "cloud", "paper", "legacy"]
+    assert (
+        js_check(
+            'console.log(JSON.stringify(r.sortReadings(value,"research").map(x=>x.id)));', rows
+        )[0]
+        == "paper"
+    )
+
+
 @pytest.mark.parametrize(
     "mode", ["public", "offline", "html", "missing_token", "empty_token", "404", "timeout", "ready"]
 )

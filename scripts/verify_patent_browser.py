@@ -22,8 +22,8 @@ def main():
             "title": "Post-quantum authentication <img src=x onerror=window.injected=true>",
             "assignee": "Example Laboratory",
             "url": "https://example.org/patent",
-            "publication_number": "US100A1",
-            "patent_number": "200",
+            "publication_number": "US20260000100A1",
+            "patent_number": "12000000",
             "application_number": "300",
             "document_type": "grant",
             "legal_status": "Patented Case",
@@ -85,7 +85,7 @@ def main():
         expect(page.locator("#patent-summary")).not_to_contain_text("9999")
         expect(page.locator("#patent-coverage")).to_contain_text("freshness needs review")
         expect(page.locator("#patent-detail")).to_contain_text("Technical text not collected")
-        expect(page.locator("#patent-detail")).to_contain_text("US100A1")
+        expect(page.locator("#patent-detail")).to_contain_text("US20260000100A1")
         expect(page.locator("#patent-detail")).to_contain_text("Grant recorded")
         expect(page.locator("#patent-detail")).to_contain_text("not patent citations")
         assert page.evaluate("window.injected === undefined")
@@ -114,6 +114,77 @@ def main():
         expect(page.locator("#lab-consent")).not_to_be_checked()
         assert not posts
         page.goto(args.url + "/#patents")
+        page.route(
+            "**/api/lab/config",
+            lambda route: route.fulfill(json={"token": "fixture-only", "features": {}}),
+        )
+        page.locator("#patent-enrich").click()
+        expect(page.locator("#patent-evidence-status")).to_contain_text("server needs an update")
+        assert not posts
+        page.unroute("**/api/lab/config")
+        page.route(
+            "**/api/lab/config",
+            lambda route: route.fulfill(
+                json={"token": "fixture-only", "features": {"patent_evidence": True}}
+            ),
+        )
+        patent_calls = []
+
+        def patent_response(route):
+            data = route.request.post_data_json
+            patent_calls.append(data)
+            assert set(data) == {"publication_id"}
+            if data["publication_id"] == "US20260000100A1":
+                route.fulfill(
+                    status=502,
+                    json={
+                        "error": "Google Patents returned HTTP 503. No text was attached; no automatic retry was made."
+                    },
+                )
+                return
+            route.fulfill(
+                json={
+                    "requested_id": "US12000000",
+                    "publication_id": "US12000000B1",
+                    "source_url": "https://patents.google.com/patent/US12000000B1/en",
+                    "document_stage": "grant",
+                    "retrieved_at": "2026-09-28T20:00:00Z",
+                    "abstract": "Source abstract <img src=x onerror=window.injected=true>",
+                    "claims": [{"number": "1", "text": "1. A fixture system."}],
+                    "claims_found": 12,
+                    "claims_limited": True,
+                }
+            )
+
+        page.route("**/api/lab/patent", patent_response)
+        expect(page.locator("#patent-enrich")).to_be_enabled()
+        page.locator("#patent-enrich").click()
+        expect(page.locator(".patent-retrieved")).to_contain_text("Source abstract <img")
+        expect(page.locator(".patent-retrieved")).to_contain_text("US12000000B1")
+        expect(page.locator("#patent-enrich")).to_be_disabled()
+        assert page.locator("#patent-detail img").count() == 0
+        page.locator(".patent-claims summary").click()
+        expect(page.locator(".patent-claims")).to_contain_text(
+            "not a selection of independent claims"
+        )
+        expect(page.locator(".patent-claims")).to_contain_text("1. A fixture system.")
+        for width in (1440, 390):
+            page.set_viewport_size({"width": width, "height": 1050})
+            assert page.evaluate("document.documentElement.scrollWidth <= innerWidth + 1")
+            page.locator("#patent-source-evidence").screenshot(
+                path=str(output / f"patent-evidence-{width}.png")
+            )
+        page.locator("#patent-document").select_option("US20260000100A1")
+        expect(page.locator(".patent-retrieved")).to_have_count(0)
+        page.locator("#patent-enrich").click()
+        expect(page.locator("#patent-evidence-status")).to_contain_text("HTTP 503")
+        assert len(patent_calls) == 2
+        page.locator("#patent-document").select_option("US12000000")
+        expect(page.locator(".patent-retrieved")).to_be_visible()
+        assert len(patent_calls) == 2
+        # No live provider calls: only the two explicitly mocked patent lookups above.
+        assert len(posts) == 2 and all(url.endswith("/api/lab/patent") for url in posts)
+        posts.clear()
         records.clear()
         page.reload()
         expect(page.locator("#patent-grid")).to_contain_text("No patents match")

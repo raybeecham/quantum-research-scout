@@ -3536,6 +3536,276 @@ body:has(.profile-hero) > footer {
   }
 }
 
+/* Technology briefing: decision cues separate from source-reported developments. */
+#briefing.decision-view .edition-line {
+  margin-bottom: 0.5rem;
+}
+#briefing.decision-view .briefing-intro {
+  margin: 0.85rem 0;
+}
+#briefing.decision-view .briefing-intro h1 {
+  font-size: clamp(1.8rem, 2.5vw, 2.35rem);
+}
+#briefing.decision-view .briefing-edition-note {
+  padding: 0.6rem 0.85rem;
+  margin: 0.65rem 0;
+  font-size: 0.82rem;
+}
+#briefing.decision-view .briefing-edition-note details {
+  flex-basis: auto;
+}
+#briefing.decision-view .briefing-edition-note details[open] {
+  flex-basis: 100%;
+}
+#briefing.decision-view .freshness-notice {
+  margin: 0.65rem 0;
+  padding: 0.6rem 0.85rem;
+}
+#briefing.decision-view .lead-story h2 {
+  font-size: clamp(1.3rem, 1.75vw, 1.65rem);
+  line-height: 1.4;
+}
+#briefing.decision-view .reading-toolbar {
+  margin-bottom: 1.1rem;
+}
+#briefing.decision-view .desk-overview {
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 1.5rem;
+}
+#briefing.decision-view #briefing-shortlist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 25rem), 1fr));
+  gap: 1.25rem;
+  align-items: start;
+  margin-top: 1.25rem;
+}
+#briefing.decision-view .briefing-short-card {
+  min-width: 0;
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+#briefing.decision-view .briefing-short-card .decision-card-actions {
+  gap: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+#briefing.decision-view .briefing-short-card .decision-reasoning summary {
+  gap: 0.75rem;
+}
+@media (max-width: 1360px) {
+  #briefing.decision-view .desk-overview {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.briefing-mode-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem 1.5rem;
+  margin: 1.25rem 0;
+}
+.briefing-mode-bar > p {
+  color: var(--muted);
+  font-size: 0.9rem;
+  max-width: 65ch;
+  margin: 0;
+}
+.briefing-modes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.briefing-modes button {
+  border: 1px solid var(--line-strong);
+  background: var(--surface-high);
+  color: var(--text);
+  font: inherit;
+  font-weight: 650;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+}
+.briefing-modes button[aria-pressed="true"] {
+  color: var(--retro-cream);
+  background: var(--retro-navy);
+  box-shadow: inset 0 -3px var(--retro-orange);
+}
+#briefing.decision-view .lead-story {
+  color: var(--text);
+  background: var(--surface-high);
+  border: 1px solid var(--line-strong);
+  border-top: 5px solid var(--retro-orange);
+}
+.decision-card-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.decision-card .desk-kicker {
+  color: var(--accent);
+  font-size: 0.75rem;
+  line-height: 1.6;
+}
+.decision-card :is(h2, h3) a {
+  color: var(--text);
+  text-decoration: none;
+}
+.decision-card :is(h2, h3) a:hover {
+  text-decoration: underline;
+}
+.decision-card .decision-source {
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.65;
+}
+.decision-card .briefing-edition-badge {
+  color: var(--accent);
+}
+.decision-action {
+  font-size: 0.75rem;
+  padding: 0.3rem 0.6rem;
+  font-weight: 700;
+  border: 1px solid currentColor;
+}
+.decision-action.prepare {
+  color: #805015;
+  background: #fff0cd;
+}
+.decision-action.investigate {
+  color: #7a354c;
+  background: #f9e3eb;
+}
+.decision-action.test {
+  color: #076664;
+  background: #dcefe9;
+}
+.decision-action.monitor {
+  color: #505980;
+  background: #eaecf9;
+}
+.decision-reported {
+  margin: 1rem 0;
+}
+.decision-reported p {
+  margin: 0.4rem 0;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+#briefing.decision-view .decision-reported .story-summary {
+  color: var(--text);
+}
+.decision-implications {
+  margin: 1.1rem 0;
+}
+.decision-implications > div {
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--line);
+}
+.decision-implications dt {
+  font-size: 0.9rem;
+  font-weight: 750;
+  margin-bottom: 0.45rem;
+}
+.decision-implications dd {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+.decision-implications .decision-next {
+  padding: 0.85rem;
+  background: #e9eee4;
+  border-left: 3px solid var(--accent);
+}
+.decision-timing {
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+.decision-timing span {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  color: var(--muted);
+}
+.decision-card .decision-reasoning {
+  color: var(--text);
+  border-color: var(--line);
+}
+.decision-card .decision-reasoning summary {
+  color: var(--accent);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.decision-card .decision-reasoning p,
+.decision-card .decision-reasoning li {
+  color: var(--text);
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+.decision-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+.decision-card-actions > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.decision-card a {
+  color: var(--accent);
+}
+.decision-card-actions a {
+  font-size: 0.9rem;
+}
+.decision-card :is(.story-read, .story-save) {
+  background: var(--surface-high);
+  color: var(--text);
+  border: 1px solid var(--line-strong);
+  font-size: 0.85rem;
+  min-height: 36px;
+  margin: 0;
+}
+.decision-card .story-save.is-saved,
+.decision-card .story-read.is-read {
+  background: #dcefe9;
+  color: #076664;
+}
+.briefing-short-card.decision-card .decision-implications {
+  margin: 0.7rem 0;
+}
+.briefing-short-card.decision-card .decision-implications dd {
+  font-size: 0.9rem;
+}
+@media (max-width: 640px) {
+  #briefing.decision-view .briefing-shortlist {
+    padding: 1rem 0.75rem;
+  }
+  #briefing.decision-view .briefing-short-card {
+    padding: 1rem;
+  }
+  .briefing-modes {
+    width: 100%;
+  }
+  .briefing-modes button {
+    flex: 1;
+    padding: 0.7rem 0.6rem;
+    font-size: 0.9rem;
+  }
+  .decision-card-actions {
+    align-items: start;
+  }
+  .decision-card-top {
+    align-items: start;
+  }
+}
+
 /* Patent Watch: a browse-and-inspect research workspace. */
 #patents-workspace > .workspace-jumps {
   display: none;
@@ -3802,6 +4072,67 @@ body:has(.profile-hero) > footer {
   padding: 0.75rem 1rem;
   background: #edf2ee;
   margin: 1.25rem 0;
+}
+
+.patent-source-evidence {
+  margin: 1.4rem 0;
+  padding: 1.1rem;
+  border: 1px solid var(--line);
+  border-left: 4px solid #087d80;
+  background: rgba(8, 125, 128, 0.04);
+}
+.patent-source-evidence label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+.patent-source-evidence a {
+  color: var(--accent);
+}
+.patent-source-evidence select {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  padding: 0.65rem;
+}
+.patent-enrich-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin: 1rem 0;
+}
+.patent-enrich-actions button:disabled {
+  opacity: 0.65;
+  cursor: default;
+}
+#patent-evidence-status {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.patent-retrieved {
+  margin-top: 1rem;
+  border-top: 1px solid var(--line);
+  padding-top: 0.7rem;
+  overflow-wrap: anywhere;
+}
+.patent-retrieved h5 {
+  font-size: 1rem;
+  margin: 0.8rem 0 0.4rem;
+}
+.patent-evidence-provenance {
+  font-size: 0.85rem;
+}
+.patent-claims {
+  margin-top: 1rem;
+}
+.patent-claims summary {
+  font-weight: 700;
+  cursor: pointer;
+}
+.patent-claims article {
+  border-top: 1px solid var(--line);
+  padding: 0.6rem 0;
 }
 .patent-facts {
   display: grid;

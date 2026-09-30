@@ -86,6 +86,111 @@
       stage(item)
     ];
   const domains = item => areas.filter(a => list(item.strategic_domains).includes(a.domain));
+  const fullPublication = /^US[0-9]{6,11}[AB][129]$/;
+  function documentOptions(item) {
+    const options = [];
+    const publication = String(item.publication_number || "")
+      .trim()
+      .toUpperCase();
+    if (fullPublication.test(publication))
+      options.push({
+        id: publication,
+        label: `${/B[129]$/.test(publication) ? "Grant" : "Application publication"} · ${publication}`,
+      });
+    const grant = String(item.patent_number || "")
+      .trim()
+      .toUpperCase()
+      .replace(/^US/, "");
+    if (/^[0-9]{6,11}(?:B[129])?$/.test(grant)) {
+      const id = "US" + grant;
+      if (!options.some(o => o.id.replace(/B[129]$/, "") === id.replace(/B[129]$/, "")))
+        options.unshift({
+          id,
+          label: `Grant · ${id}${/B[129]$/.test(id) ? "" : " (version checked at source)"}`,
+        });
+    }
+    return options;
+  }
+  const evidence = new Map(),
+    documentChoices = new Map();
+  let evidenceBusy = false;
+  function evidenceHTML(data) {
+    if (!data) return "";
+    const claims = list(data.claims);
+    return `<div class="patent-retrieved"><p class="patent-evidence-provenance">${sourceLink(data.source_url, `Google Patents · ${data.publication_id}`)}<br>Retrieved ${esc(data.retrieved_at)}${data.cached ? " · server cache" : ""}</p>
+      <p class="patent-small">Source-reproduced text, not an AI summary. This ${esc(data.document_stage)} version only; verify the complete document and current status at the patent office. Plain-text extraction may omit figures, formula layout, or formatting.</p>
+      <h5>Abstract</h5><p>${esc(data.abstract || "No abstract was found in this source page. This does not mean the document has no abstract.")}</p>${data.abstract_truncated ? '<p class="patent-small">Abstract shortened at 8,000 characters. Open the source for the complete text.</p>' : ""}
+      <details class="patent-claims"><summary>Claims text · ${claims.length} shown / ${Number(data.claims_found) || 0} numbered claims found</summary>
+      <p class="patent-small">First numbered claims in source order, up to 10; not a selection of independent claims. ${data.claims_limited ? "This is a limited extract. " : ""}Read all claims in context before interpreting scope.</p>
+      ${claims.map(c => `<article><h5>Claim ${esc(c.number)}</h5><p>${esc(c.text)}</p>${c.truncated ? '<p class="patent-small">Shortened at 5,000 characters. Continue at the source.</p>' : ""}</article>`).join("") || "<p>No numbered claims could be extracted. Open the source to check.</p>"}</details></div>`;
+  }
+  function paintEvidence(item) {
+    const panel = $("patent-source-evidence");
+    if (!panel) return;
+    const options = documentOptions(item);
+    const id = documentChoices.get(item._id) || options[0]?.id;
+    const current = evidence.get(id) || {};
+    panel.innerHTML = `<h4>Read the source text</h4><p class="patent-small">On demand: retrieve an abstract and available claims from Google Patents. Only the selected public identifier is sent. No AI or private notes. Hosted lookups share the paper-search allowance.</p>
+      ${
+        options.length
+          ? `<label for="patent-document">Document version</label><select id="patent-document">${options.map(o => `<option value="${o.id}" ${id === o.id ? "selected" : ""}>${esc(o.label)}</option>`).join("")}</select>
+      <div class="patent-enrich-actions"><button class="desk-button" id="patent-enrich" type="button" ${evidenceBusy || current.data ? "disabled" : ""}>${current.busy ? "Retrieving source text…" : current.data ? "Source text loaded" : current.error ? "Try lookup again" : "Enrich this record"}</button>${sourceLink(`https://patents.google.com/patent/${id}/en`, "Read on Google Patents")}</div>
+      <div id="patent-evidence-status" role="status" aria-live="polite">${esc(current.busy ? "Checking the document identifier and extracting source text…" : current.error || (current.data ? "Source lookup complete. Kept in this tab until reload; the public ledger and notebook are unchanged." : "Requires the private lab or a signed-in hosted lab. Nothing is fetched automatically."))}</div>
+      ${current.connection ? '<p><a href="#questions">Open lab connection controls →</a></p>' : ""}${evidenceHTML(current.data)}`
+          : "<p>No supported US publication or grant identifier is recorded. An application filing number is not a publication identifier. Use the original source record above.</p>"
+      }`;
+    $("patent-document")?.addEventListener("change", e => {
+      documentChoices.set(item._id, e.target.value);
+      paintEvidence(item);
+    });
+    $("patent-enrich")?.addEventListener("click", async () => {
+      if (evidenceBusy || current.data) return;
+      evidenceBusy = true;
+      evidence.set(id, { busy: true });
+      paintEvidence(item);
+      try {
+        const config = await window.ScoutResearch.labConfig();
+        if (!config.features?.patent_evidence)
+          throw new Error(
+            "This lab server needs an update before patent enrichment is available. Restart the updated private server, or ask the hosted operator to deploy it.",
+          );
+        const response = await window.ScoutLab.request(
+          config,
+          "patent",
+          { publication_id: id },
+          40000,
+        );
+        const data = await response.json();
+        if (!response.ok)
+          throw new Error(data.error || "Patent source lookup failed. No text was attached.");
+        if (
+          data.requested_id !== id ||
+          !fullPublication.test(data.publication_id || "") ||
+          data.source_url !== `https://patents.google.com/patent/${data.publication_id}/en` ||
+          (fullPublication.test(id)
+            ? id !== data.publication_id
+            : id !== data.publication_id.replace(/[AB][129]$/, ""))
+        )
+          throw new Error(
+            "The returned document did not match this identifier. No text was attached.",
+          );
+        evidence.set(id, { data });
+      } catch (e) {
+        evidence.set(id, {
+          error: ["LabConnectionError", "LabSignInError"].includes(e.name)
+            ? "Patent lookup needs a connected lab. Open Question Lab to sign in or start the private server, then return here."
+            : e.name === "TimeoutError" || e instanceof TypeError
+              ? "The patent lookup could not finish. Check the lab connection or open the source directly. No automatic retry was made."
+              : e.message,
+          connection: ["LabConnectionError", "LabSignInError"].includes(e.name),
+        });
+      } finally {
+        evidenceBusy = false;
+        const active = records.find(r => r._id === selected);
+        if (active) paintEvidence(active);
+      }
+    });
+  }
   const relevance = item => Math.max(0, ...domains(item).map(a => a.weight));
   const number = item =>
     item.publication_number ||
@@ -209,10 +314,11 @@
       <div class="patent-topic-tags">${tags(item)}</div>
       <div class="patent-detail-actions">${sourceLink(item.url, "Open source record")}<button type="button" id="patent-explore" class="desk-button">Explore in Question Lab →</button></div>
       <p class="patent-small">Question Lab receives the title as an interest only. No automatic attachment, search, or AI call.</p>
-      <section class="patent-evidence-block"><h4>${technical ? "Recorded technical summary" : "Technical text not collected"}</h4>
-      <p>${technical ? esc(item.summary) : "This record contains filing metadata, not an abstract or claims text. Open the source and read the independent claims before judging the mechanism or contribution."}</p>
+      <section class="patent-evidence-block"><h4>${technical ? "Recorded technical summary" : "Technical text not collected in snapshot"}</h4>
+      <p>${technical ? esc(item.summary) : "The published snapshot contains filing metadata, not an abstract or claims text. Retrieve source text below or open the original record before judging the mechanism or contribution."}</p>
       ${technical ? '<p class="patent-small">Collector-provided summary, not a verified interpretation of the claims or evidence of implementation.</p>' : ""}
       ${item.assessment ? `<details class="patent-assessment"><summary>Curated assessment · interpretation to check</summary><p>${esc(item.assessment)}</p></details>` : ""}</section>
+      <section id="patent-source-evidence" class="patent-source-evidence" aria-label="Patent source text"></section>
       <dl class="patent-facts">${field("Publication identifier", item.publication_number)}${field("Grant number", item.patent_number)}${field("Application number", item.application_number)}${field("Published", validDate(item.publication_date) ? dateText(item.publication_date) : "Not supplied / invalid")}${field("Grant date", validDate(item.grant_date) ? dateText(item.grant_date) : "Not supplied / invalid")}${field("Filed", validDate(item.filing_date) ? dateText(item.filing_date) : "Not supplied / invalid")}</dl>
       <p class="patent-status-note"><strong>Source-reported status:</strong> ${esc(item.legal_status || item.legal_status_normalized || "Unknown")}. Not a current legal-status determination. A case may have both an application publication and a later grant.</p>
       <details class="patent-inspector-section"><summary>Recorded family &amp; continuity</summary><p>Grouping basis: ${esc(item.family_basis || "Not supplied")}. ${group.members.length} matching ledger record${group.members.length === 1 ? "" : "s"} in this view. The list below may also include references outside this ledger.</p>
@@ -228,6 +334,7 @@
       <section class="patent-reading-leads"><h4>Related reading leads</h4><p class="patent-small">Shared phrases in the current Scout reading window—not patent citations or established prior art.</p>
       ${related.map(r => `<article>${sourceLink(r.url, r.title)}<p>Shared phrases: ${esc(r.shared.join(", "))} · ${esc(r.source_kind_label || "Source type unverified")}</p></article>`).join("") || "<p>No shared-phrase matches in the current reading window. This is not evidence that related literature does not exist.</p>"}</section>
       <details class="patent-inspector-section"><summary>Questions to guide your reading</summary><ul><li>What mechanism do the independent claims describe, and under which assumptions?</li><li>Which published method is the closest comparison? Check dates and versions.</li><li>What experiment would test the proposed benefit against that baseline?</li></ul><p>Reading prompts, not extracted findings or established research gaps.</p></details>`;
+    paintEvidence(item);
     $("patent-explore").onclick = () =>
       window.dispatchEvent(
         new CustomEvent("scout-research-interest", {
@@ -333,7 +440,17 @@
       safeUrl(`${repository}/blob/main/reports/patents.md`) || "#library";
     render();
   }
-  const api = { select, relatedReadings, hasTechnicalText, eventDate, safeUrl, stage, init };
+  const api = {
+    select,
+    relatedReadings,
+    hasTechnicalText,
+    eventDate,
+    safeUrl,
+    stage,
+    documentOptions,
+    evidenceHTML,
+    init,
+  };
   if (typeof module !== "undefined") module.exports = api;
   else window.ScoutPatentWatch = api;
 })();

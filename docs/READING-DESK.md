@@ -1,10 +1,20 @@
-# Using the research desk
+# Using the intelligence desk
 
-Start with **Research briefing**. It contains actual excerpts from the retained daily reports, not generated descriptions of dashboard widgets. Open a headline to read the source. Expand **Appraise this source** to see its provenance caveat, critical reading prompt, topic context, and related coverage. The focus is cybersecurity/PQC and quantum computing; policy, funding, missions, and patents remain supporting context.
+Start with **Technology briefing**. The default **Decision briefing** covers cybersecurity/PQC, quantum computing, AI, and cloud. It shows what the source reports, what the development could affect, a suggested next step, and suggested review timing. Open a headline to read the evidence. **Research reading** keeps the paper-first workflow, source appraisal, and Question Lab handoff available.
 
-## A focused reading routine
+## A decision-focused start
 
-The briefing starts with a **three-item reading plan**: one lead source and up to two more in your selected order. Each explains its selection through the existing relevance rules and matched terms, not an AI endorsement or academic quality score. The shortlist respects the same interest, source-type, date-window, sort and unread controls as the rest of the feed; sources are not duplicated below it. Save and mark-read actions retain their existing browser-local behavior.
+The shortlist contains one lead and up to two other developments, followed by more matches without duplicate cards. **Why prioritized & what to verify** exposes the topic and signal cues, provenance, limits, and ranking basis. These are rule-based suggestions from collected titles and excerpts, not AI-generated analysis, verified impacts, full-document review, or personalized advice.
+
+Decision relevance favors dated, relevant official policy/security signals, then releases, evaluations and potentially relevant opportunity context, then research, roadmaps and background. Publication dates that are unavailable, future-dated relative to the edition, or more than 30 days old reduce priority and require a freshness check. Corporate financing is not treated as a technical result, and USAspending awards are treated as past-award context rather than open solicitations. Rank ties use report date and a stable identifier—not claimed precision about importance. Original report scores remain unchanged.
+
+**Review timing** means when it may be useful to examine a signal, not when a technology will mature, a binding deadline, or an instruction to deploy. Stale collection replaces this timing with a freshness warning. Draft/proposed policy is not presented as a settled obligation; research attacks are not operational incidents. Verify scope and current evidence before taking action.
+
+The new default decision view does not overwrite existing research interests or ordering. Each mode keeps those preferences separately; date-window, source-type and unread filters are shared and visible. Saved readings, notes, read state and questions are unchanged. This view does not send anything to an AI service. If decision metadata is missing from an older snapshot, assessment is shown as unavailable instead of inferred in the browser.
+
+## Research reading: a focused routine
+
+The research view starts with a **three-item reading plan**: one lead source and up to two more in your selected order. Each explains its selection through the existing relevance rules and matched terms, not an AI endorsement or academic quality score. The shortlist respects the same interest, source-type, date-window, sort and unread controls as the rest of the feed; sources are not duplicated below it. Save and mark-read actions retain their existing browser-local behavior.
 
 **Added source links** compares unique URLs in the latest report with the previous available report, even when dates are not consecutive. It counts all topics before related-coverage grouping. Added does not mean newly published, never seen before, or new to the field. Without two reports the comparison is unavailable, not zero. Publication dates remain separate from report dates.
 
@@ -184,3 +194,13 @@ Only the topic, selected lens, refinement question and explicitly selected sourc
 Each question records motivation, a candidate gap, prior-work checks, a testable hypothesis, method, feasibility, and a next step. Manual Scholar/arXiv search links help begin prior-work checking but do not search automatically or certify originality. Attach saved readings or public source URLs with a role (background, supports, challenges, method, or closest prior work), an exact passage/location, and your interpretation. These are analyst assessments, not machine-verified conclusions.
 
 Use **Save question & revision** explicitly. Changes to the question wording retain up to 50 earlier versions; other fields keep their latest saved value. Park questions instead of deleting them. Export a Markdown research brief for discussion or a JSON lab backup for restoration. Lab backups are separate from reading-notebook backups. Imports validate the entire file, ask for confirmation, and add new question IDs without overwriting existing ones. Limits: 200 questions, 100 evidence entries per question, and a 5 MB import. Data stays in this browser under `quantum-scout:question-lab:v1`; there is no automatic sync or encryption. Do not store sensitive research here.
+
+## On-demand patent source text
+
+In **Patent Watch**, select a record and choose **Enrich this record**. If the ledger has both an application publication and a grant number, the document-version selector keeps them separate. The server checks the returned publication identifier before attaching any text; it never guesses a kind code or uses an application filing number as a publication number.
+
+The lookup retrieves explicitly marked abstracts and numbered claims from the English Google Patents page. It shows the resolved document identifier, source link, and retrieval time. Claims are a bounded extract in source order (first 10, up to 5,000 characters each), **not automatically identified independent claims**. Abstracts are capped at 8,000 characters. Truncation and unavailable fields are visible. Text extraction can lose figures, formula layout, and formatting; verify the complete document and current legal status at the patent office. Collector summaries and curated interpretations remain separate and unchanged.
+
+Only a public US publication/grant identifier leaves the browser. This is not an AI call and sends no private notebook data or credentials to Google Patents. There is no automatic batch collection, retry, or notebook attachment. Results remain in the current tab until reload, not in notebook backups or the public ledger. The local server caches up to 20 lookups for 15 minutes and spaces new lookups by four seconds. Authenticated hosted lookups share the existing paper-search allowance, not the AI-call budget. A hosted server must be updated separately before its feature flag enables enrichment; GitHub Pages alone cannot serve this endpoint.
+
+Manual check: open the private lab at `http://127.0.0.1:8765/#patents`, use **All topics**, search `US11354666B1`, and choose **Enrich this record**. Confirm the identifier, retrieval time, abstract, and expandable claims. Try switching between an application and grant on another record: text must not carry over between versions. Missing IDs and upstream errors should show an explanation and source link, without inventing evidence.

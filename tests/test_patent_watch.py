@@ -162,6 +162,45 @@ def test_link_safety_rejects_credentials_and_scripts():
         assert run_js("console.log(JSON.stringify(p.safeUrl(v)))", url) == ""
 
 
+def test_document_options_keep_application_and_grant_versions_separate():
+    options = run_js(
+        "console.log(JSON.stringify(p.documentOptions(v)))",
+        {
+            "publication_number": "US20260149567A1",
+            "patent_number": "12665747",
+            "application_number": "19366133",
+        },
+    )
+    assert [o["id"] for o in options] == ["US12665747", "US20260149567A1"]
+    assert "Application publication" in options[1]["label"]
+    assert (
+        run_js(
+            "console.log(JSON.stringify(p.documentOptions(v)))", {"application_number": "19366133"}
+        )
+        == []
+    )
+    options = run_js(
+        "console.log(JSON.stringify(p.documentOptions(v)))",
+        {"publication_number": "US11354666B1", "patent_number": "11354666"},
+    )
+    assert len(options) == 1
+
+
+def test_evidence_is_escaped_and_missing_claims_are_explicit():
+    result = run_js(
+        "console.log(JSON.stringify(p.evidenceHTML(v)))",
+        {
+            "publication_id": "US11354666B1",
+            "abstract": "<img onerror=evil()>",
+            "claims": [],
+            "source_url": "javascript:evil()",
+        },
+    )
+    assert "&lt;img" in result and "<img" not in result
+    assert "No numbered claims could be extracted" in result
+    assert 'href="javascript:' not in result
+
+
 def test_dashboard_family_evidence_is_bounded_without_false_completeness():
     from scripts.build_dashboard import _dashboard_patents
 

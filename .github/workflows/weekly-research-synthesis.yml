@@ -2,11 +2,29 @@ name: Weekly PQC Quantum Research Synthesis
 
 on:
   schedule:
-    # GitHub cron is UTC. Keep separate triggers for 8:00 AM CDT and CST so the
-    # schedule gate can select the correct event even when GitHub starts it late.
-    - cron: "0 13 * * 5"
-    - cron: "0 14 * * 5"
+    # Native timezone scheduling keeps the 8 AM start across DST changes.
+    - cron: "0 8 * * 5"
+      timezone: America/Chicago
+    # Best-effort catch-ups; never regenerate an already-published week.
+    - cron: "17 8,10,12 * * 5"
+      timezone: America/Chicago
   workflow_dispatch:
+    inputs:
+      report_date:
+        description: "Optional Friday cutoff date (YYYY-MM-DD); defaults to the most recent completed Friday 8 AM cutoff"
+        type: string
+        required: false
+      force:
+        description: "Regenerate an already-published week"
+        type: boolean
+        default: false
+
+concurrency:
+  group: weekly-report-publication
+  cancel-in-progress: false
+
+permissions:
+  contents: read
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -14,36 +32,36 @@ env:
 
 jobs:
   schedule-gate:
-    name: Select Friday 8 AM Central schedule
+    name: Check whether the weekly report is due
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     outputs:
       should_run: ${{ steps.window.outputs.should_run }}
+      report_date: ${{ steps.window.outputs.report_date }}
+      week_start: ${{ steps.window.outputs.week_start }}
     steps:
-      - name: Resolve local schedule window
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Resolve cutoff and check publication receipt
         id: window
         env:
-          EVENT_NAME: ${{ github.event_name }}
-          EVENT_SCHEDULE: ${{ github.event.schedule }}
-        run: |
-          should_run=false
-          central_offset="$(date +%z)"
-
-          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
-            should_run=true
-          elif [ "$central_offset" = "-0500" ] && [ "$EVENT_SCHEDULE" = "0 13 * * 5" ]; then
-            should_run=true
-          elif [ "$central_offset" = "-0600" ] && [ "$EVENT_SCHEDULE" = "0 14 * * 5" ]; then
-            should_run=true
-          fi
-
-          echo "event=$EVENT_NAME schedule=$EVENT_SCHEDULE central_offset=$central_offset should_run=$should_run"
-          echo "should_run=$should_run" >> "$GITHUB_OUTPUT"
+          REPORT_DATE: ${{ inputs.report_date || '' }}
+          FORCE_REPORT: ${{ inputs.force || false }}
+        run: python scripts/report_schedule.py plan --kind weekly --github-output "$GITHUB_OUTPUT"
 
   weekly-synthesis:
     name: Generate weekly synthesis
     needs: schedule-gate
     if: needs.schedule-gate.outputs.should_run == 'true'
     runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      REPORT_DATE: ${{ needs.schedule-gate.outputs.report_date }}
+      WEEK_START: ${{ needs.schedule-gate.outputs.week_start }}
     permissions:
       contents: write
 
@@ -70,9 +88,14 @@ jobs:
       - name: Install agent
         run: python -m pip install .
 
+      - name: Stage weekly inputs without changing published daily reports
+        run: >-
+          python scripts/weekly_snapshot.py stage --date "$REPORT_DATE"
+          --snapshot-dir "$RUNNER_TEMP/weekly-inputs"
+
       - name: Capture Friday morning intelligence
         env:
-          REPORTS_DIR: ${{ github.workspace }}/reports
+          REPORTS_DIR: ${{ runner.temp }}/weekly-inputs
           USPTO_ODP_API_KEY: ${{ secrets.USPTO_ODP_API_KEY }}
           SAM_GOV_API_KEY: ${{ secrets.SAM_GOV_API_KEY }}
         run: |
@@ -81,23 +104,31 @@ jobs:
             --config sources.yaml \
             --db data/research_items.sqlite \
             --reports-dir "$REPORTS_DIR" \
-            --date "$(date +%F)" \
+            --date "$REPORT_DATE" \
             --coverage-end-time "08:00"
 
       - name: Sanitize generated reports
         run: |
-          python scripts/sanitize_report_secrets.py reports --write
-          python scripts/sanitize_report_secrets.py reports
+          python scripts/sanitize_report_secrets.py "$RUNNER_TEMP/weekly-inputs" --write
+          python scripts/sanitize_report_secrets.py "$RUNNER_TEMP/weekly-inputs"
 
       - name: Generate weekly synthesis
         env:
-          REPORTS_DIR: ${{ github.workspace }}/reports
+          REPORTS_DIR: ${{ runner.temp }}/weekly-inputs
         run: |
           mkdir -p "$REPORTS_DIR/weekly"
           pqc-quantum-research-agent \
             --reports-dir "$REPORTS_DIR" \
             --weekly \
-            --update-report-index
+            --week-start "$WEEK_START" \
+            --week-end "$REPORT_DATE"
+
+      - name: Validate and publish only the weekly synthesis and morning snapshot
+        run: |
+          python scripts/weekly_snapshot.py publish --date "$REPORT_DATE" --snapshot-dir "$RUNNER_TEMP/weekly-inputs"
+          python scripts/sanitize_report_secrets.py reports
+          python scripts/build_dashboard.py --output "$RUNNER_TEMP/weekly-dashboard-check"
+          python scripts/report_schedule.py record --kind weekly
 
       - name: Commit generated weekly reports
         run: |
@@ -107,8 +138,9 @@ jobs:
           if git diff --cached --quiet; then
             echo "No weekly report changes to commit"
           else
-            git commit -m "Weekly PQC synthesis $(date +%F)"
-            git push
+            git commit -m "Weekly PQC synthesis $REPORT_DATE"
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
 
       - name: Upload weekly synthesis

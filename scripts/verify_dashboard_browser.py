@@ -351,6 +351,12 @@ def main() -> None:
         assert not public_api_calls, public_api_calls
         public_context.close()
         assert page.locator(".desk-workspace:visible").count() == 1
+        expect(page.locator('[data-briefing-mode="decisions"]')).to_have_attribute(
+            "aria-pressed", "true"
+        )
+        expect(page.locator('[data-lens="emerging"]')).to_have_attribute("aria-pressed", "true")
+        expect(page.locator("#desk-lead")).to_contain_text("Suggested next step")
+        page.locator('[data-briefing-mode="research"]').click()
         expect(page.locator('[data-lens="core"]')).to_have_attribute("aria-pressed", "true")
         core_count = sum(
             bool(set(s["lenses"]) & {"security", "quantum"})
@@ -816,6 +822,8 @@ def main() -> None:
         expect(math_page.locator(".story-summary math mfrac")).to_have_count(1)
         expect(math_page.locator(".story-summary math mover")).to_have_count(1)
         assert math_page.locator(".math-fallback").count() == 0
+        math_page.locator('[data-briefing-mode="research"]').click()
+        expect(math_page.locator(".story-summary math mfrac")).to_have_count(1)
         if (
             payload.get("citation_records", {})
             .get("https://eprint.iacr.org/2026/2014", {})

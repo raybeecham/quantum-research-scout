@@ -52,11 +52,27 @@ Public bibliographic records are cached in `reports/citations.json` and committe
 
 | Workflow | Schedule | Result |
 |---|---|---|
-| **Daily research scout** | Daily at `00:00 UTC` | Collects evidence, writes the digest, refreshes ledgers and alerts, and prunes daily reports older than 30 days |
-| **Weekly synthesis** | Friday at `08:00 America/Chicago` | Consolidates Monday through Friday morning into a deterministic weekly briefing |
+| **Daily research scout** | Primary: `00:00 UTC` (7 p.m. CDT / 6 p.m. CST); catch-up checks: `00:17`, `02:17`, `04:17 UTC` | Collects evidence once per successfully published period, refreshes ledgers and alerts, and prunes daily reports older than 30 days |
+| **Weekly synthesis** | Primary: Friday `08:00 America/Chicago`; catch-up checks: Friday `08:17`, `10:17`, `12:17` in the same zone | Consolidates Monday through the fixed Friday 8 a.m. cutoff; adjusts automatically for daylight saving time |
 | **Monthly synthesis** | First day of each month | Consolidates the completed operational month |
 | **Historical backfill** | Sunday at `03:00 UTC` | Refreshes bounded official-source history and readiness evidence without triggering retroactive alerts |
 | **Pages deployment** | After intelligence workflows and relevant pushes | Rebuilds the static dashboard with versioned assets |
+
+### Publication reliability and recovery
+
+These are **requested start times, not publication deadlines**. Collection, validation and Pages deployment take additional time. GitHub can delay or drop scheduled events; the off-peak catch-ups reduce dependence on a single event, but use the same scheduler and are not an independent uptime guarantee. See [GitHub's scheduling limitations](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule). No external scheduler, paid service, or additional secret is required for this setup.
+
+- Each daily/weekly workflow serializes its gate and collection without cancelling a running publication. A catch-up checks `reports/automation/{daily,weekly}/YYYY-MM-DD.json` against the report's SHA-256 before running. A partial report or a Friday morning snapshot is not a successful daily publication. Completed periods skip collection, API usage and notifications. Each schedule has one primary and three catch-up opportunities; GitHub can coalesce pending runs.
+- Daily scheduled runs pin the Central report date to the latest UTC-midnight due period, even if execution crosses Central midnight. Weekly runs pin explicit Monday/Friday dates to the most recent elapsed Friday 8 a.m. cutoff. They cannot drift to the wrong week merely because execution was delayed. Delays exceeding an entire daily/weekly period require an explicit historical backfill; the gate chooses the latest due period.
+- A receipt is validated locally and committed **with** the report, never when a run merely starts. Daily critical collection checks and a static dashboard build run before the publication commit and before notifications. Failed validation does not publish a new receipt; a later check may retry collection, so failed attempts can still consume upstream quotas. Low-signal days and noncritical source warnings remain valid and visible, not disguised as complete evidence coverage.
+- Weekly collection uses an isolated runner-temporary directory and requires valid Monday–Thursday reports. It validates Friday's exact 8 a.m. cutoff before copying only the weekly synthesis and `reports/weekly/snapshots/YYYY/YYYY-MM-DD-morning.md` back. A delayed retry never overwrites Friday's evening digest. Missing daily inputs fail with the date requiring backfill rather than silently publishing the wrong week.
+- The Actions summary records the due period, nominal start, gate time and delay. Public receipts record validation time and content hash, **not** a claimed Pages publication timestamp. Deployment status remains in the Pages workflow.
+- A successful no-op catch-up also rebuilds Pages, allowing recovery from a failed deployment without another collection. Pages does not cancel an in-progress deployment. If notification/artifact steps fail after the report was successfully pushed, Pages may still deploy that validated commit. Validation or push failures do not qualify. Optional notifications are best effort and are not independently retried after a successful report receipt.
+- Report pushes use a normal rebase onto current `main`, then a normal push; no force-push or automatic conflict resolution. A conflicting publication fails visibly and can retry at the next catch-up.
+
+To recover manually, open **Actions → Daily PQC Quantum Research Scout** or **Weekly PQC Quantum Research Synthesis → Run workflow**. An optional `report_date` selects a historical date (Friday for weekly). Set `force` only when intentionally regenerating an already-published period; otherwise a valid receipt makes the request a no-op. A manual daily preview before its evening schedule does not receive a completion receipt and cannot suppress that evening's collection. Manual weekly runs before Friday's cutoff default to the previous completed Friday. Backfill missing daily dates first, then run the weekly workflow. Only run from `main`; receipts become durable when the workflow pushes its report commit.
+
+For a genuinely independent punctual trigger, a separately authorized scheduler would need to dispatch these workflows. Even then, GitHub runner availability and collection time prevent an exact 8:00 a.m. delivery guarantee. No such external service is configured here.
 
 Core collection requires no paid AI service. Optional repository secrets unlock additional official data:
 

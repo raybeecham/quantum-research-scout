@@ -200,6 +200,23 @@ def test_distinct_releases_are_not_grouped_just_for_shared_brand(tmp_path):
     assert len(result["stories"]) == 2
 
 
+def test_equivalent_pqc_release_headlines_keep_one_card_with_both_sources(tmp_path):
+    result = build(
+        tmp_path,
+        entry(
+            "DigiCert Announces General Availability of Quantum Central Platform for PQC Migration Management",
+            "https://news.test/one",
+        )
+        + entry(
+            "DigiCert Launches Quantum Central for Post-Quantum Cryptography Readiness",
+            "https://news.test/two",
+        ),
+    )
+    assert len(result["stories"]) == 1
+    assert len(result["stories"][0]["related"]) == 1
+    assert result["stories"][0]["decision_brief"]["kind"] == "release"
+
+
 def test_prefers_specific_source_excerpt_and_keeps_all_points(tmp_path):
     text = entry("NVIDIA CUDA-Q Logical launch", "https://news.test/one").replace(
         "- The source reports a new technical capability.",

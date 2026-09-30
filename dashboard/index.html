@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="A source-linked research desk for cybersecurity, post-quantum cryptography, and quantum computing."
+      content="Emerging-technology intelligence for practical decisions across cybersecurity, PQC, quantum computing, AI, and cloud—with research tools for deeper investigation."
     />
     <meta name="theme-color" content="#182f3a" />
     <title>Quantum Research Scout</title>
@@ -13,7 +13,7 @@
     <meta property="og:title" content="Quantum Research Scout" />
     <meta
       property="og:description"
-      content="A research desk for cybersecurity, post-quantum cryptography, and quantum computing. Read critically, trace sources, and build your research notebook."
+      content="What matters in emerging technology, what it could affect, and what to investigate next. Source-linked intelligence with research tools when you need them."
     />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="desk.css?v=__ASSET_VERSION__" />
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to research</a>
+    <a class="skip-link" href="#main">Skip to briefing</a>
     <aside class="desk-rail">
       <a class="desk-brand" href="#briefing" aria-label="Quantum Research Scout home">
         <img src="favicon.svg" width="36" height="36" alt="" />
@@ -33,11 +33,11 @@
           <b>RESEARCH SCOUT</b>
         </span>
       </a>
-      <span class="rail-caption">RESEARCH WORKSPACE</span>
+      <span class="rail-caption">INTELLIGENCE WORKSPACE</span>
       <nav class="desk-nav" aria-label="Primary navigation">
         <a href="#briefing" data-workspace="briefing">
           <span aria-hidden="true">◈</span>
-          Research briefing
+          Technology briefing
         </a>
         <a href="#questions" data-workspace="questions">
           <span aria-hidden="true">◇</span>
@@ -87,11 +87,11 @@
     </aside>
     <header class="desk-topbar">
       <span class="workspace-label">
-        RESEARCH /
-        <b id="workspace-name">RESEARCH BRIEFING</b>
+        SCOUT /
+        <b id="workspace-name">TECHNOLOGY BRIEFING</b>
       </span>
       <button class="search-launch" id="open-search" type="button">
-        <span>Search the research desk</span>
+        <span>Search the intelligence desk</span>
         <kbd>/</kbd>
       </button>
       <a class="collection-pill" id="desk-health" href="#operations">Checking collection</a>
@@ -116,14 +116,16 @@
         <div class="edition-line">
           <span>
             <i></i>
-            CYBERSECURITY / PQC / QUANTUM COMPUTING
+            CYBER / PQC · QUANTUM · AI · CLOUD
           </span>
           <time id="edition-date">Loading edition…</time>
         </div>
         <div class="desk-intro briefing-intro">
           <div>
-            <h1>What’s worth your time?</h1>
-            <p>A focused start to your research day. Read the evidence, then follow a question.</p>
+            <h1 id="briefing-title">What matters. What to do next.</h1>
+            <p id="briefing-intro-text">
+              Emerging-tech developments that could change your plans—not just add to your reading list.
+            </p>
           </div>
           <a id="hero-report-link" class="desk-button" href="#library">
             Read the latest digest
@@ -133,10 +135,18 @@
         <p id="freshness-notice" class="freshness-notice" hidden></p>
         <div id="briefing-edition-note" class="briefing-edition-note" hidden></div>
         <div id="desk-loading" class="desk-loading" role="status">Preparing your briefing…</div>
+        <div class="briefing-mode-bar">
+          <div class="briefing-modes" role="group" aria-label="Briefing purpose">
+            <button type="button" data-briefing-mode="decisions" aria-pressed="true">Decision briefing</button>
+            <button type="button" data-briefing-mode="research" aria-pressed="false">Research reading</button>
+          </div>
+          <p id="briefing-mode-note">Suggested follow-ups, not automatic conclusions. Open a source before acting.</p>
+        </div>
         <details class="reading-toolbar" id="reading-controls" open>
           <summary id="reading-controls-label">Customize your reading view</summary>
-          <div class="desk-lenses" id="desk-lenses" role="group" aria-label="Filter research by interest">
-            <button type="button" data-lens="core" aria-pressed="true">Cyber / PQC + quantum</button>
+          <div class="desk-lenses" id="desk-lenses" role="group" aria-label="Filter intelligence by interest">
+            <button type="button" data-lens="emerging" aria-pressed="true">Emerging tech</button>
+            <button type="button" data-lens="core" aria-pressed="false">Cyber / PQC + quantum</button>
             <button type="button" data-lens="all" aria-pressed="false">All sources</button>
             <button type="button" data-lens="security" aria-pressed="false">Cyber &amp; PQC</button>
             <button type="button" data-lens="quantum" aria-pressed="false">Quantum</button>
@@ -159,6 +169,7 @@
             </select>
             <label for="reading-order">Order</label>
             <select id="reading-order">
+              <option value="decision">Decision relevance</option>
               <option value="research">Research first</option>
               <option value="government">Government priority</option>
               <option value="recent">Latest report first</option>
@@ -173,10 +184,10 @@
         <div class="desk-overview" id="desk-overview" hidden>
           <div class="desk-lead" id="desk-lead"></div>
           <aside class="briefing-shortlist" aria-labelledby="briefing-shortlist-title">
-            <span class="desk-kicker">A SMALL READING PLAN</span>
+            <span class="desk-kicker" id="briefing-shortlist-kicker">YOUR DECISION SHORTLIST</span>
             <h2 id="briefing-shortlist-title">Then consider</h2>
-            <p class="briefing-selection-note">
-              Next in your chosen order. A reading suggestion, not a quality rating.
+            <p class="briefing-selection-note" id="briefing-selection-note">
+              A few developments worth assessing. Priority is not a measure of scientific quality or proven impact.
             </p>
             <div id="briefing-shortlist"></div>
           </aside>
@@ -198,14 +209,14 @@
         <div class="desk-feed-heading">
           <div>
             <span class="desk-kicker">KEEP EXPLORING</span>
-            <h2>More from this reading window</h2>
+            <h2 id="briefing-feed-title">More developments to assess</h2>
           </div>
           <span id="desk-result-count"></span>
         </div>
         <div class="desk-columns">
           <div>
             <div id="desk-stories" class="desk-stories" aria-live="polite"></div>
-            <button type="button" class="desk-more" id="desk-more" hidden>Show more readings ↓</button>
+            <button type="button" class="desk-more" id="desk-more" hidden>Show more developments ↓</button>
           </div>
           <aside class="desk-context">
             <section class="desk-agenda">
@@ -224,8 +235,9 @@
             <section class="desk-method">
               <span class="desk-kicker">HOW TO READ THIS</span>
               <p>
-                Source excerpts are not critical appraisals. Preprints are not automatically peer reviewed. Source-type
-                labels describe provenance, not quality. Related coverage is not independent verification.
+                Source reports and suggested actions are separate. Decision cues use visible rules, not AI or a
+                full-document review. A release is not proof of readiness, a preprint is not proof of deployment, and
+                related coverage is not independent verification.
               </p>
               <a href="#guide">Understand the labels →</a>
             </section>

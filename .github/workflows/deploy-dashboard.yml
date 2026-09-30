@@ -8,6 +8,7 @@ on:
       - "reports/**"
       - "scripts/build_dashboard.py"
       - "pqc_quantum_research_agent/briefing.py"
+      - "pqc_quantum_research_agent/technology_briefing.py"
       - "pqc_quantum_research_agent/citations.py"
       - "readiness.yaml"
       - "standards.yaml"
@@ -24,16 +25,47 @@ on:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 
 jobs:
+  publication-check:
+    name: Check for a publishable report run
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      actions: read
+    outputs:
+      deploy: ${{ steps.check.outputs.deploy }}
+    steps:
+      - uses: actions/github-script@v8
+        id: check
+        with:
+          script: |
+            const run = context.payload.workflow_run;
+            // Successful catch-up no-ops also rebuild Pages: they can recover a
+            // failed deployment without collecting evidence or sending alerts.
+            let deploy = !run || run.conclusion === 'success';
+            if (run && !deploy && ['Daily PQC Quantum Research Scout', 'Weekly PQC Quantum Research Synthesis'].includes(run.name)) {
+              const jobs = await github.paginate(github.rest.actions.listJobsForWorkflowRun, {
+                ...context.repo, run_id: run.id, per_page: 100
+              });
+              // A later notification/artifact failure must not strand a report
+              // that passed validation and was successfully committed/pushed.
+              const published = new Set(['Commit generated reports and publication receipt', 'Commit generated weekly reports']);
+              deploy = jobs.some(job => (job.steps || []).some(step => published.has(step.name) && step.conclusion === 'success'));
+            }
+            core.setOutput('deploy', String(deploy));
+
   build-and-deploy:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    needs: publication-check
+    if: needs.publication-check.outputs.deploy == 'true'
     name: Build and deploy dashboard
     runs-on: ubuntu-latest
     environment:

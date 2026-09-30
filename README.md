@@ -1,21 +1,21 @@
 # Quantum Research Scout
 
-### Follow the question. Examine the evidence.
+### Know what matters. Decide what to investigate next.
 
-A research desk for **cybersecurity, post-quantum cryptography, and quantum computing**.
-Read new work, question its assumptions, and develop your own source-linked research notebook. Keep policy, missions, funding, organizations, and patents in view as supporting context.
+An emerging-technology intelligence desk for **cybersecurity, PQC, quantum computing, AI, and cloud**.
+Follow consequential developments, see what they could affect, and choose a useful next step. Research tools remain available when you want to dig deeper—not as a prerequisite for using the briefing.
 
-**[Open the research desk →](https://raybeecham.github.io/quantum-research-scout/)** · [Browse reports](reports/README.md) · [How it works](docs/METHODOLOGY.md)
+**[Open the intelligence desk →](https://raybeecham.github.io/quantum-research-scout/)** · [Browse reports](reports/README.md) · [How it works](docs/METHODOLOGY.md)
 
 [![The Scout briefing: a source-linked lead story, reading filters, evidence activity, and a focused reading list.](docs/assets/scout-reading-desk.png)](https://raybeecham.github.io/quantum-research-scout/)
 
-*An actual published-data snapshot, not a mockup. The live desk changes as new reports arrive.*
+*An earlier published-data snapshot, not a mockup. The current briefing adds a decision-focused view alongside research reading.*
 
-## Start with a question
+## Start with a decision—or a question
 
 | What you want to know | Where to go |
 |---|---|
-| What is worth reading? | **[Research briefing](https://raybeecham.github.io/quantum-research-scout/#briefing)** — cyber/PQC and quantum focus, source-type filters, excerpts, and critical reading prompts |
+| What matters, and what should I investigate next? | **[Technology briefing](https://raybeecham.github.io/quantum-research-scout/#briefing)** — a focused decision shortlist, reported developments, possible implications, and suggested follow-ups |
 | How does this inform my research? | **[Research notebook](https://raybeecham.github.io/quantum-research-scout/#saved)** — your question, critical appraisal, next step, and portable exports |
 | Where is government moving? | **[Federal landscape](https://raybeecham.github.io/quantum-research-scout/#federal)** — missions, grants, acquisition notices, awards, and contractors |
 | Who is investing in the technology? | **[Patent watch](https://raybeecham.github.io/quantum-research-scout/#patents)** — searchable applications and grants, family evidence, and strategic relevance |
@@ -23,13 +23,15 @@ Read new work, question its assumptions, and develop your own source-linked rese
 | What needs a second look? | **[Review desk](https://raybeecham.github.io/quantum-research-scout/#decisions)** — evidence changes, amendments, conflicts, and testable forecasts |
 | Can I trust the coverage? | **[Sources & methods](https://raybeecham.github.io/quantum-research-scout/#operations)** — source health, collection gaps, evidence admission, and label definitions |
 
-Start with the **latest edition**, or widen the view to **Past 7 days**. **Research first** prioritizes core papers and technical findings with visible match reasons; government-priority and chronological views remain available. Search with **/**, save sources to annotate, and use **Aa** for larger text. Notes stay in your browser: export a JSON backup and restore it with a non-overwriting import preview. Citation exports include retrieved repository metadata where available, with missing fields and peer-review uncertainty kept explicit.
+Start with **Decision briefing**, **Emerging tech**, and the **Past 7 days**. Each item separates what the source reports from what it could affect and a suggested next step. Switch to **Research reading** for the paper-first view; its interest and ordering preferences are preserved separately. Government-priority and chronological orders remain available. Search with **/**, save sources to annotate, and use **Aa** for larger text. Notes stay in your browser: export a JSON backup and restore it with a non-overwriting import preview.
 
 ## What makes it useful
 
 **Evidence, then interpretation.** Original links and publication dates stay attached. Review prompts are labeled separately from source excerpts. Related headlines are grouped for reading—not counted as independent confirmation.
 
-**Critical reading, not automatic conclusions.** Preprints are explicitly labeled; peer review is not inferred. Prompts ask about threat models, baselines, assumptions, and reproducibility. Your appraisal stays separate from the source. This is a discovery aid, not an exhaustive literature review or a novelty assessment.
+**Practical triage, not automatic conclusions.** Decision cues use explainable rules over collected titles, excerpts, source provenance, and dates—not AI analysis or a full-document review. Readiness, exposure, and obligations remain things to verify. Financing is not technical validation; a past award is not an open opportunity. Review timing is a suggested workflow, not an adoption forecast.
+
+**Research when you need it.** The Question Lab, paper discovery, notebook, and comparisons support deeper investigation. Preprints remain labeled and your appraisal stays separate from the source. This is not an exhaustive literature review or a novelty assessment.
 
 **Context beyond the headline.** Follow a government initiative into funding, procurement, technical requirements, and patent activity. Exact matches and inferred relationships remain distinguishable.
 
@@ -51,7 +53,7 @@ python -m http.server 8765 --bind 127.0.0.1 --directory site
 
 Open [localhost:8765](http://localhost:8765). The dashboard is static HTML, CSS, and JavaScript—no frontend build system or paid AI service required.
 
-Collection runs daily. Weekly synthesis covers Monday through **Friday at 8:00 a.m. America/Chicago**; monthly reports provide the longer view. The page shows the report edition separately from collection health and site build time.
+Collection starts daily at **7 p.m. CDT / 6 p.m. CST** (`00:00 UTC`). Weekly synthesis is requested on **Friday at 8:00 a.m. America/Chicago**, covering Monday through that cutoff; monthly reports provide the longer view. Both daily and weekly runs have three off-peak catch-up checks that skip already-published reports. These are best-effort start times, not guaranteed publication deadlines. The page shows the report edition separately from collection health and site build time. See [schedules and recovery](docs/OPERATIONS.md#publication-reliability-and-recovery).
 
 [Collection, schedules & API keys](docs/OPERATIONS.md) · [Reading-desk guide](docs/READING-DESK.md) · [Development & tests](CONTRIBUTING.md)
 
@@ -65,4 +67,4 @@ Public evidence powers the site. Private capability profiles, pursuit notes, and
 
 ---
 
-[MIT License](LICENSE) · [Report an issue](https://github.com/raybeecham/quantum-research-scout/issues) · Built for curious researchers who want the source, not just the score.
+[MIT License](LICENSE) · [Report an issue](https://github.com/raybeecham/quantum-research-scout/issues) · Built for people who want useful intelligence—and the evidence behind it.

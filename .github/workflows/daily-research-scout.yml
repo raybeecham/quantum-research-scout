@@ -3,23 +3,60 @@ name: Daily PQC Quantum Research Scout
 on:
   schedule:
     # UTC schedule: 00:00 daily.
-    # Intended local schedule: 7:00 PM US Central Time during daylight saving time (CDT, UTC-5).
+    # 7 PM CDT / 6 PM CST. Off-peak catch-up checks skip completed periods.
     - cron: "0 0 * * *"
+    - cron: "17 0,2,4 * * *"
   workflow_dispatch:
     inputs:
       report_date:
         description: "Optional America/Chicago report date to regenerate (YYYY-MM-DD)"
         required: false
         type: string
+      force:
+        description: "Regenerate even if this period already has a validated publication receipt"
+        type: boolean
+        default: false
+
+# Serialize the gate AND collection so a late primary cannot race its catch-up.
+concurrency:
+  group: daily-report-publication
+  cancel-in-progress: false
+
+permissions:
+  contents: read
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   TZ: America/Chicago
 
 jobs:
+  publication-gate:
+    name: Check whether the daily report is due
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      should_run: ${{ steps.period.outputs.should_run }}
+      report_date: ${{ steps.period.outputs.report_date }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Resolve due period and check publication receipt
+        id: period
+        env:
+          REPORT_DATE: ${{ inputs.report_date || '' }}
+          FORCE_REPORT: ${{ inputs.force || false }}
+        run: python scripts/report_schedule.py plan --kind daily --github-output "$GITHUB_OUTPUT"
+
   scout:
     name: Collect and report
+    needs: publication-gate
+    if: needs.publication-gate.outputs.should_run == 'true'
     runs-on: ubuntu-latest
+    timeout-minutes: 50
     permissions:
       contents: write
       issues: write
@@ -50,16 +87,12 @@ jobs:
       - name: Run research scout in default Central day coverage mode
         env:
           REPORTS_DIR: ${{ github.workspace }}/reports
-          REPORT_DATE: ${{ inputs.report_date || '' }}
+          REPORT_DATE: ${{ needs.publication-gate.outputs.report_date }}
           USPTO_ODP_API_KEY: ${{ secrets.USPTO_ODP_API_KEY }}
           SAM_GOV_API_KEY: ${{ secrets.SAM_GOV_API_KEY }}
         run: |
           mkdir -p "$REPORTS_DIR"
           RETENTION_DAYS=30
-          DATE_ARGS=()
-          if [ -n "$REPORT_DATE" ]; then
-            DATE_ARGS=(--date "$REPORT_DATE")
-          fi
           # On the UTC first of a month, retain one extra day until the monthly synthesis has consumed it.
           if [ "$(date -u +%d)" = "01" ]; then
             RETENTION_DAYS=31
@@ -68,7 +101,7 @@ jobs:
             --config sources.yaml \
             --db data/research_items.sqlite \
             --reports-dir "$REPORTS_DIR" \
-            "${DATE_ARGS[@]}" \
+            --date "$REPORT_DATE" \
             --prune-daily-reports \
             --retention-days "$RETENTION_DAYS" \
             --update-intelligence-tracking \
@@ -84,6 +117,32 @@ jobs:
           python scripts/sanitize_report_secrets.py reports --write
           python scripts/sanitize_report_secrets.py reports
 
+      - name: Enforce critical collection coverage before publication
+        run: python scripts/check_collection_health.py reports/source-health.json --fail-on-degraded
+
+      - name: Validate dashboard build before publication
+        run: python scripts/build_dashboard.py --output "$RUNNER_TEMP/daily-dashboard-check"
+
+      - name: Record validated daily completion
+        env:
+          REPORT_DATE: ${{ needs.publication-gate.outputs.report_date }}
+        run: python scripts/report_schedule.py record --kind daily
+
+      - name: Commit generated reports and publication receipt
+        env:
+          REPORT_DATE: ${{ needs.publication-gate.outputs.report_date }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A reports
+          if git diff --cached --quiet; then
+            echo "No report changes to commit"
+          else
+            git commit -m "Daily PQC digest $REPORT_DATE"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
       - name: Publish intelligence alerts to workflow summary
         run: |
           if [ -f reports/alerts.md ]; then
@@ -96,6 +155,7 @@ jobs:
 
       - name: Deliver new alerts as a GitHub Issue
         if: vars.ALERT_DELIVERY_GITHUB_ISSUES == 'true' && steps.alert-issue.outputs.should_create == 'true'
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ALERT_ISSUE_TITLE: ${{ steps.alert-issue.outputs.title }}
@@ -191,30 +251,6 @@ jobs:
             -H "Idempotency-Key: qrs-${GITHUB_RUN_ID}-digest" \
             --data-binary @.notifications/email-digest.json
 
-      - name: Announce report commit
-        run: echo "Checking generated reports for repository commit"
-
-      - name: Debug generated reports
-        run: |
-          pwd
-          ls -la
-          ls -la reports
-          find reports -maxdepth 3 -type f -name "*.md" -print
-          git status --short
-          git ls-files reports
-
-      - name: Commit generated reports
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A reports
-          if git diff --cached --quiet; then
-            echo "No report changes to commit"
-          else
-            git commit -m "Daily PQC digest $(date +%F)"
-            git push
-          fi
-
       - name: Upload Markdown digest
         uses: actions/upload-artifact@v7
         with:
@@ -230,6 +266,3 @@ jobs:
           name: pqc-quantum-research-db
           path: data/research_items.sqlite
           if-no-files-found: error
-
-      - name: Enforce critical collection coverage
-        run: python scripts/check_collection_health.py reports/source-health.json --fail-on-degraded

@@ -142,7 +142,7 @@
       );
   }
   async function request(config, path, data, timeout) {
-    if (!["generate", "papers", "read", "compare"].includes(path))
+    if (!["generate", "papers", "read", "compare", "patent"].includes(path))
       throw error("Unsupported lab request.");
     // Refuse a stale in-flight configuration after sign-out or account change.
     if (config.hosted && (!session || config.token !== session || config.apiBase !== backend))

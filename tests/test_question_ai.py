@@ -303,6 +303,25 @@ def test_private_endpoint_and_static_boundaries(tmp_path, monkeypatch):
         assert paper_response.status_code == 200
         assert paper_response.json()["query"] == "TLS"
         assert not (tmp_path / "usage.json").exists()
+        monkeypatch.setattr(
+            "scripts.serve_question_lab.PatentEvidence.retrieve",
+            lambda self, raw: {"publication_id": raw["publication_id"]},
+        )
+        assert (
+            requests.post(
+                base + "/api/lab/patent", json={"publication_id": "US11354666B1"}, timeout=3
+            ).status_code
+            == 403
+        )
+        patent_response = requests.post(
+            base + "/api/lab/patent",
+            headers=headers,
+            json={"publication_id": "US11354666B1"},
+            timeout=3,
+        )
+        assert patent_response.status_code == 200
+        assert patent_response.json()["publication_id"] == "US11354666B1"
+        assert not (tmp_path / "usage.json").exists()
         assert (
             requests.post(
                 base + "/api/lab/generate", json={"interest": "PQC"}, timeout=3

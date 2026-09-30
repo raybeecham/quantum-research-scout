@@ -109,6 +109,12 @@
   function sortReadings(stories, order) {
     return [...stories].sort((a, b) => {
       const dateOrder = String(b.report_date || "").localeCompare(String(a.report_date || ""));
+      if (order === "decision")
+        return (
+          (b.decision_brief?.priority || 0) - (a.decision_brief?.priority || 0) ||
+          dateOrder ||
+          String(a.id || "").localeCompare(String(b.id || ""))
+        );
       if (order === "government")
         return (
           dateOrder ||

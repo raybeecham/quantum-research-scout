@@ -146,6 +146,30 @@ describe("paper relevance", () => {
 });
 
 describe("authentication and boundaries", () => {
+  it("protects patent lookups and charges search allowance, not AI", async () => {
+    expect((await request("/api/lab/patent", "", { publication_id: "US11354666B1" })).status).toBe(
+      401,
+    );
+    const t = await session();
+    expect(
+      (await request("/api/lab/patent", t, { publication_id: "https://evil.test" })).status,
+    ).toBe(400);
+    expect(fetch).not.toHaveBeenCalled();
+    vi.mocked(fetch).mockResolvedValueOnce(
+      new Response('<dd itemprop="publicationNumber">US11354666B1</dd>', {
+        headers: { "Content-Type": "text/html" },
+      }),
+    );
+    const result = await request("/api/lab/patent", t, { publication_id: "US11354666B1" });
+    expect(result.status).toBe(200);
+    expect(((await result.json()) as { status: string }).status).toBe("unavailable");
+    const usage = await env.BUDGET.getByName(day()).usage("123");
+    expect(usage.user_calls).toBe(0);
+    expect(usage.user_searches).toBe(1);
+    expect((await request("/api/lab/patent", t, { publication_id: "US11354666B1" })).status).toBe(
+      429,
+    );
+  });
   it("requires authentication and never leaks token/config secrets", async () => {
     const r = await request("/api/lab/config");
     expect(r.status).toBe(401);

@@ -14,6 +14,7 @@ from urllib.parse import unquote, urlsplit
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from pqc_quantum_research_agent.paper_comparison import clean_comparison, compare_papers
 from pqc_quantum_research_agent.paper_search import PaperSearch
+from pqc_quantum_research_agent.patent_evidence import PatentEvidence
 from pqc_quantum_research_agent.question_ai import clean_input, generate
 from pqc_quantum_research_agent.reading_ai import assist_reading, clean_reading
 
@@ -64,6 +65,7 @@ def handler(site, key, port, budget, backup_key=""):
     origin = f"http://127.0.0.1:{port}"
     busy = threading.Lock()
     papers = PaperSearch()
+    patents = PatentEvidence()
 
     class Handler(SimpleHTTPRequestHandler):
         def __init__(self, *args, **kwargs):
@@ -98,6 +100,7 @@ def handler(site, key, port, budget, backup_key=""):
                             "related_work": True,
                             "paper_comparison": True,
                             "comparison_evidence_version": 3,
+                            "patent_evidence": True,
                         },
                     },
                 )
@@ -117,7 +120,13 @@ def handler(site, key, port, budget, backup_key=""):
             if (
                 not self.allowed()
                 or self.path
-                not in {"/api/lab/generate", "/api/lab/papers", "/api/lab/read", "/api/lab/compare"}
+                not in {
+                    "/api/lab/generate",
+                    "/api/lab/papers",
+                    "/api/lab/read",
+                    "/api/lab/compare",
+                    "/api/lab/patent",
+                }
                 or self.headers.get("Origin") != origin
                 or not secrets.compare_digest(self.headers.get("X-Scout-Token", ""), token)
                 or self.headers.get("Content-Type") != "application/json"
@@ -131,6 +140,8 @@ def handler(site, key, port, budget, backup_key=""):
                     return self.reply(400, {"error": "Input exceeds the pilot size limit"})
                 self.connection.settimeout(180)
                 raw = json.loads(self.rfile.read(size))
+                if self.path == "/api/lab/patent":
+                    return self.reply(200, patents.retrieve(raw))
                 if self.path == "/api/lab/papers":
                     if not isinstance(raw, dict):
                         raise ValueError("Invalid search request")

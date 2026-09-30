@@ -14,6 +14,7 @@ from urllib.parse import urlsplit
 
 from .citations import metadata_url
 from .redaction import redact_text, redact_url
+from .technology_briefing import decision_brief
 
 _ENTRY = re.compile(r"^### ([^\n]+)\n_([^\n]+)_\n(.*?)(?=^### |^## |\Z)", re.M | re.S)
 _WORDS = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
@@ -226,8 +227,16 @@ def _related(left: dict, right: dict) -> bool:
         return False  # Similar titles do not establish that two papers are one work.
     if not left["date"] or left["date"] != right["date"]:
         return False
-    a = set(_WORDS.findall(left["title"].lower())) - _STOP
-    b = set(_WORDS.findall(right["title"].lower())) - _STOP
+
+    def words(title):
+        text = re.sub(r"post.quantum", "pqc", title.lower())
+        return (
+            set(_WORDS.findall(text))
+            - _STOP
+            - {"launch", "launches", "announces", "announced", "general", "availability"}
+        )
+
+    a, b = words(left["title"]), words(right["title"])
     if len(a & b) >= 3 and len(a & b) / max(1, min(len(a), len(b))) >= 0.6:
         return True
     return False
@@ -336,6 +345,9 @@ def build_reading_brief(
                 "related": [],
             }
             candidates[url]["research_priority"] = _research_priority(candidates[url])
+            candidates[url]["decision_brief"] = decision_brief(
+                candidates[url], latest.isoformat() if latest else None
+            )
             candidates[url]["citation"] = (
                 (citations or {}).get("records", {}).get(metadata_url(url), {})
             )
