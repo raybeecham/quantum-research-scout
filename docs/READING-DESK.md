@@ -31,6 +31,37 @@ Use **Aa** in the top bar for larger reading text. The desk remembers your text 
 
 The visual language is **1950s Atompunk**: warm ivory, midnight navy, oxidized teal, and signal orange; geometric display headings, monospaced instrument labels, squared panels, and technical-grid margins. Reading cards stay opaque, body text stays in a conventional sans-serif, and decorative geometry does not clip controls or focus outlines. System fonts require no external font service. The same palette carries through the report library and organization profiles, with reduced-motion and print styles retained.
 
+## Beyond the headline and following through
+
+Relevant **Decision briefing** cards now include **Beyond the headline**. Expand it for the attached, attributed source excerpt (or a clearly labeled headline when no excerpt was collected), three review questions tailored to the signal type, the limits of that evidence, and a suggested next check. Policy, security, research, release, evaluation, roadmap, and business signals get different prompts. These are rules, not an AI fact-check or a full-document assessment. The interface does not claim that a benchmark, independent evaluation, or contrary evidence is absent merely because it was not attached.
+
+Below the shortlist, **Whatever happened to…?** provides archive follow-ups independent of the reading filters. Its date is the latest report edition, not today's browser clock or the site rebuild time. Expand a card's timeline to inspect the original announcement/target and any stored updates, with each time role labeled.
+
+The initial review queue uses two bounded sources:
+
+- **Mission registry:** one most recently elapsed exact-date target per mission that remains configured as planned or monitoring. Targets on the edition date or later, approximate dates, completed, cancelled, and superseded milestones are excluded. Accepted or curated program updates are context, never automatic milestone resolution.
+- **Historical evidence archive:** high-confidence published announcements, pilots, or roadmaps 30–730 days old with a tracked-technology cue. Thirty days is an editorial review threshold, not a promised delivery date. At least three non-generic title words must overlap before a later archived/current reading is offered as possible related coverage. Such overlap does not establish the same project, independent replication, or progress. Unknown discovery dates are not substituted for publication dates.
+
+The queue alternates mission and archive leads, includes at most 12 cards, and initially displays two. Excluded or missing evidence does not imply success or failure. This is snapshot review, not a live web search; confirm freshness and read original sources before deciding what happened.
+
+**Follow locally** is a bookmark in this browser, separate from notebook storage. Use **Followed only** to narrow the displayed queue. It enables no notifications, background service, or cross-device sync. Followed items can leave the bounded snapshot without being resolved. Storage errors are shown, and unreadable stored data is not overwritten. These IDs are not included in notebook exports.
+
+## Explore the technology and try it
+
+**Coverage at a glance** in the briefing compares topic counts for your current filters. Counts are distinct source URLs, not independent findings, market share, or maturity scores; one source can match multiple topics. Expand **Report timeline** to see report dates and an example source for each populated day. Publication dates remain on the source cards. Missing days are not filled with invented zero-activity observations.
+
+Open **Research landscape** for the **Emerging-tech map**, or click a topic in the briefing's visual summary. The map uses the complete stored reading window, not the briefing's unread or source-type filters. Choose cybersecurity/PQC, quantum computing, AI, or cloud:
+
+- Organizations require a name/alias and topic term in the same stored evidence title or excerpt.
+- Government programs match their curated name or objective and link to the official program page. They are background context, not new announcements.
+- Research and reporting matches source titles/excerpts from the displayed report window. Organization evidence can be older; dates remain visible.
+
+Every connection has an inspectable explanation and supporting link. Lexical associations are not partnerships, endorsements, or independently verified capabilities. PQC-only mentions are excluded from the quantum-computing topic unless another quantum term appears. These deliberately simple rules can miss synonyms or surface incidental mentions.
+
+Select **Try this topic** to open **Hands-on discovery**. Choose **All technologies** for the complete initial catalogue: liboqs, IBM's quantum hello-world demo, PennyLane circuits and datasets, garak, and kind. Each resource includes a suggested exercise, expected learning outcome, prerequisites, and access/safety notes. Browsing executes nothing and sends no notebook data. Check upstream requirements before installing software or using paid hardware/model services.
+
+The resource catalogue lives in `dashboard/exploration.js`; its review dates are editorial checks, not automated uptime guarantees. Daily collection refreshes map evidence and briefing counts, but does not automatically add or re-review tutorials. No extra API key or backend is required for these views.
+
 ## Patent Watch: inspect an invention
 
 Patent Watch uses a record list and a focused research inspector. **Core research** includes collector-tagged PQC, quantum, cybersecurity, AI and cloud records; **All topics** retains everything, including unclassified and sensing records. Search titles, assignees, identifiers or tags, filter the recorded case stage, and sort by research relevance, latest recorded publication/grant date, or collector score. Research relevance prioritizes those domains in the order above; it does not assess novelty or scientific quality. Latest-event ordering uses the later valid publication/grant date, not the collection date.

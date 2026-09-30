@@ -254,6 +254,10 @@
   const landscape = document.createElement("section");
   landscape.id = "landscape-explorer";
   elements.research.querySelector(".workspace-jumps").before(landscape);
+  const technologyMap = document.createElement("section");
+  technologyMap.id = "technology-map";
+  technologyMap.className = "scout-exploration";
+  landscape.before(technologyMap);
   for (const id of views.research[1]) {
     const node = $(id);
     if (!node) continue;
@@ -494,6 +498,7 @@
       ${!compact ? `<div class="decision-reported"><span class="desk-kicker">${hasExcerpt ? "WHAT THE SOURCE REPORTS" : "SOURCE EXCERPT UNAVAILABLE"}</span><p class="story-summary">${hasExcerpt ? esc(item.summary) : "Only headline-level context was collected. Open the source before interpreting its significance."}</p></div>` : ""}
       <dl class="decision-implications">${compact ? "" : `<div><dt>What it could affect</dt><dd>${esc(d?.impact || "This snapshot has no decision assessment. Open the source to establish relevance; no practical impact has been inferred.")}</dd></div>`}<div class="decision-next"><dt>Suggested next step</dt><dd>${esc(d?.next_step || "Read the original source and check the date, scope, and supporting evidence before acting.")}</dd></div></dl>
       <p class="decision-timing"><span>REVIEW TIMING</span>${esc(horizon)}</p>
+      ${window.ScoutEvidenceReview.headlineMarkup(item)}
       <details class="story-evidence decision-reasoning"><summary>Why prioritized &amp; what to verify</summary><div>
       <p><strong>${esc(d?.priority_label || "Not assessed")}</strong> · ${esc({ decision: "Decision relevance, then report date. Stable ties are not a significance ranking.", government: "Latest report date, then government priority.", recent: "Latest report first." }[ui.readingOrder] || "Your selected order.")}</p>
       <ul>${(Array.isArray(d?.basis) ? d.basis : ["Decision cues were not included in this snapshot. Rebuild the dashboard to assess this source."]).map(reason => `<li>${esc(reason)}</li>`).join("")}</ul>
@@ -536,9 +541,12 @@
     $("desk-more").textContent = decisions ? "Show more developments ↓" : "Show more readings ↓";
     $("reading-order").querySelector('[value="research"]').hidden = decisions;
     $("reading-order").querySelector('[value="decision"]').hidden = !decisions;
-    const openIds = [...$("briefing").querySelectorAll(".story-evidence[open]")].map(
-      el => el.closest("[data-story]").dataset.story,
-    );
+    const openIds = [
+      ...$("briefing").querySelectorAll(".story-evidence[open], .headline-review[open]"),
+    ].map(el => ({
+      id: el.closest("[data-story]").dataset.story,
+      selector: el.classList.contains("headline-review") ? ".headline-review" : ".story-evidence",
+    }));
     const all = ui.data.reading_brief?.stories || [];
     const stories = all.filter(
       x => ui.period === "week" || x.report_date === ui.data.reading_brief?.edition_date,
@@ -548,6 +556,7 @@
       topical.filter(x => !ui.unreadOnly || !read.has(x.id)),
       ui.readingOrder,
     );
+    window.ScoutExploration.renderBriefing(filtered, ui.data.reading_brief || {});
     const completed = topical.filter(x => read.has(x.id)).length;
     $("reading-window").value = ui.period;
     $("source-kind").value = ui.sourceKind;
@@ -608,9 +617,9 @@
       );
     $("desk-more").hidden = filtered.length <= ui.limit + 3;
     $("saved-count").textContent = saved.size;
-    openIds.forEach(id =>
+    openIds.forEach(({ id, selector }) =>
       $("briefing")
-        .querySelector(`[data-story="${CSS.escape(id)}"] .story-evidence`)
+        .querySelector(`[data-story="${CSS.escape(id)}"] ${selector}`)
         ?.setAttribute("open", ""),
     );
     renderSaved();
@@ -962,6 +971,8 @@
   function init(data) {
     ui.data = data;
     window.ScoutLandscape.init(data, saveButton);
+    window.ScoutExploration.init(data);
+    window.ScoutEvidenceReview.init(data.evidence_review || {});
     window.ScoutFederalResearch.init(data.federal_funding || {});
     (data.reading_brief?.stories || []).forEach(x => {
       // Notes refer to the excerpt the researcher saved, not a silently replaced version.

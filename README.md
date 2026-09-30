@@ -35,7 +35,11 @@ Start with **Decision briefing**, **Emerging tech**, and the **Past 7 days**. Ea
 
 **Context beyond the headline.** Follow a government initiative into funding, procurement, technical requirements, and patent activity. Exact matches and inferred relationships remain distinguishable.
 
+**Explore, then try it.** The briefing’s topic counts and report timeline follow your filters. In **Research landscape**, the emerging-tech map explains connections to organizations, government programs, and readings, with supporting links. Expand **Hands-on discovery** for curated tools, tutorials, a quantum demo, and a dataset—with suggested exercises and access cautions. Topic co-mentions are not partnerships; a successful tutorial is not production readiness.
+
 **A visible record of uncertainty.** Old discoveries are not fresh events. Passed milestone dates are not proof of completion. Forecasts remain hypotheses, and patent filings are not evidence of deployment.
+
+**Beyond the announcement.** Expand **Beyond the headline** on decision cards to distinguish the attached source claim from the checks still needed. **Whatever happened to…?** revisits older announcements and elapsed government targets with dated, source-linked timelines. Follow a lead locally; related coverage is never treated as automatic proof of delivery.
 
 [Read the evidence rules and limitations →](docs/METHODOLOGY.md)
 

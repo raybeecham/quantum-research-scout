@@ -9,6 +9,7 @@ on:
       - "scripts/build_dashboard.py"
       - "pqc_quantum_research_agent/briefing.py"
       - "pqc_quantum_research_agent/technology_briefing.py"
+      - "pqc_quantum_research_agent/evidence_review.py"
       - "pqc_quantum_research_agent/citations.py"
       - "readiness.yaml"
       - "standards.yaml"

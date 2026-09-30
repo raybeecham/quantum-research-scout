@@ -83,6 +83,8 @@ With the preview server running in a separate terminal:
 python -m pip install -e ".[browser]"
 python -m playwright install chromium
 python scripts/verify_dashboard_browser.py --channel chromium
+python scripts/verify_exploration_browser.py --channel chromium
+python scripts/verify_evidence_review_browser.py --channel chromium
 ```
 
 On Windows, `--channel msedge` can use an installed Microsoft Edge instead. The check

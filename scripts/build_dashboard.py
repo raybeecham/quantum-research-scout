@@ -14,6 +14,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from pqc_quantum_research_agent.briefing import build_reading_brief  # noqa: E402
 from pqc_quantum_research_agent.decision_center import build_decision_center  # noqa: E402
+from pqc_quantum_research_agent.evidence_review import build_evidence_review  # noqa: E402
 
 
 def build_dashboard(
@@ -196,6 +197,9 @@ def build_dashboard(
         "patents": _dashboard_patents(patents),
         "reports": _report_links(reports, repo_url.rstrip("/")),
     }
+    payload["evidence_review"] = build_evidence_review(
+        payload["reading_brief"], federal_missions, historical
+    )
     asset_names = (
         "index.html",
         "entity.html",
@@ -215,6 +219,8 @@ def build_dashboard(
         "questions.js",
         "question-discovery.js",
         "landscape.js",
+        "exploration.js",
+        "evidence-review.js",
         "federal-research.js",
         "patent-watch.js",
         "math.js",

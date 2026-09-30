@@ -55,6 +55,8 @@ class DashboardBuildTests(unittest.TestCase):
                 "questions.js",
                 "question-discovery.js",
                 "landscape.js",
+                "exploration.js",
+                "evidence-review.js",
                 "federal-research.js",
                 "patent-watch.js",
                 "math.js",
