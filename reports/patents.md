@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-09-29T03:38:05.351699+00:00_
+_Updated 2026-09-30T03:25:02.178606+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -13,9 +13,9 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Tracked publications: **250**
 - Curated notable patents: **2**
 - Automated recent discoveries: **248**
-- Published in the last 30 days: **56**
+- Published in the last 30 days: **57**
 - Unique named assignees: **150**
-- Patent families: **271**
+- Patent families: **272**
 - Applications / grants: **240 / 10**
 - Known legal status: **215 of 250**
 - Publications with citation evidence: **0**
@@ -96,6 +96,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [SCALABLE QUANTUM ERROR CORRECTION ARCHITECTURE USING DUAL-FUNCTION TRANSMON COUPLERS IN A FLUXONIUM QUBIT ARRAY](https://data.uspto.gov/patent-file-wrapper/search/details/19464062/application-data)<br><small>12699915</small> | Grant · Granted | QpiAI India Private Limited | 1 member(s) · 0 citation(s) | **67 · HIGH** |
 | [POST-QUANTUM CONSTANT-TIME KEY ROTATION VERIFICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19343419/application-data)<br><small>US20260031987A1</small> | Application · Unknown | Circle Internet Group, Inc. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [QUBIT SURFACE ALLOCATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19689193/application-data)<br><small>US20260289367A1</small> | Application · Pending | Google LLC | 1 member(s) · 0 citation(s) | **65 · HIGH** |
+| [QUBIT ARRAY, QUANTUM COMPUTER, AND QUANTUM ERROR DETECTION METHOD](https://data.uspto.gov/patent-file-wrapper/search/details/19456833/application-data)<br><small>US20260289380A1</small> | Application · Pending | Hitachi, Ltd. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [QUANTUM SENSOR AND QUANTUM SENSING APPARATUS](https://data.uspto.gov/patent-file-wrapper/search/details/19087311/application-data)<br><small>US20260293222A1</small> | Application · Pending | Toyota Motor Engineering & Manufacturing North America, Inc. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [EXECUTION OF QUBIT GATES](https://data.uspto.gov/patent-file-wrapper/search/details/19691398/application-data)<br><small>US20260289377A1</small> | Application · Pending | Microsoft Technology Licensing, LLC | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [DYNAMICAL DECOUPLING OF WELLS FOR AN ENERGY GAP PROTECTED QUBIT](https://data.uspto.gov/patent-file-wrapper/search/details/19685924/application-data)<br><small>US20260287972A1</small> | Application · Pending | Amazon Technologies, Inc. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
@@ -309,4 +310,3 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [QUANTUM COMPUTING SYSTEMS WITH SUPERCONDUCTING QUANTUM BIT CIRCUITRY AND SPATIALLY DISTRIBUTED HYBRID CRYOGENIC ELECTRONIC CONTROL ARCHITECTURE](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010670/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | SEEQC, INC. | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [MULTICORE OPTICAL FIBERS SUITABLE FOR SIMULTANEOUS DATA TRANSMISSION AND QUANTUM COMMUNICATION](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2024050681/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CORNING INCORPORATED | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [HIGH-PRECISION CHEMICAL QUANTUM SENSING IN FLOWING MONODISPERSE MICRODROPLETS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025026280/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | THE REGENTS OF THE UNIVERSITY OF CALIFORNIA | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
-| [HIGH PEAK POWER AND CONTINUOUS WAVE TUNABLE GAN LASERS FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS](https://data.uspto.gov/patent-file-wrapper/search/details/63750272/application-data)<br><small>Publication number unavailable</small> | Application · Expired | Gallium Enterprises Pty Ltd | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |

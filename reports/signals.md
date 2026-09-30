@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-29 03:44 UTC_
+_Updated 2026-09-30 03:30 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-09-17 | 21 |
-| Quantum Sensing | ↗️ rising (4 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-28 | 49 |
+| Quantum Sensing | ↗️ rising (5 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-29 | 50 |
 | Quantum Software / Tooling | ↗️ rising (4 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-28 | 92 |
-| PQC / Crypto Agility | ↘️ declining (14 vs 21) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-28 | 236 |
-| QEC / Fault Tolerance | ↘️ declining (5 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-09-24 | 70 |
+| PQC / Crypto Agility | ➡️ stable (17 vs 18) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-29 | 242 |
+| QEC / Fault Tolerance | ↘️ declining (2 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-09-29 | 71 |
 | Quantum Hardware | ➡️ stable (11 vs 14) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-28 | 306 |
 | Quantum Networking | ➡️ stable (9 vs 10) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-28 | 136 |
-| Standards / Government | ➡️ stable (5 vs 7) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-09-25 | 58 |
+| Standards / Government | ➡️ stable (5 vs 6) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-09-29 | 61 |
 
 ## AI Security
 
@@ -35,11 +35,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: QuantumNews.ai, The Quantum Insider, Quantum Zeitgeist, Department of War Strategic Technology News, Quantum Computing Report
 - Recommended follow-up: Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.
 - Recent supporting evidence:
+  - 2026-09-29 — [STTR PHASE I NON-HERMITIAN COUPLED LASER ARRAY READOUT FOR QUANTUM SENSORS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0291_8000_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
   - 2026-09-28 — [Quantum Cyber's Strategic Focus Includes Quantum Navigation](https://thequantuminsider.com/2026/09/28/quantum-cybers-strategic-focus-includes-quantum-navigation) (The Quantum Insider, score 12)
   - 2026-09-25 — [Mesa Quantum Raises $11.8M to Scale Chip-Scale Quantum Sensors and Alternative PNT Infrastructure](https://quantumcomputingreport.com/mesa-quantum-raises-11-8m-to-scale-chip-scale-quantum-sensors-and-alternative-pnt-infrastructure) (Quantum Computing Report, score 33)
   - 2026-09-25 — [Chinese Scientists Say Compact Quantum Magnetometer Tracks Hidden Targets in Field Tests](https://thequantuminsider.com/2026/09/25/chinese-scientists-say-compact-quantum-magnetometer-tracks-hidden-targets-in-field-tests) (The Quantum Insider, score 17)
   - 2026-09-24 — [Infleqtion Achieves 30 Entangled Logical Qubits on Its Sqale Quantum Computer](https://thequantuminsider.com/2026/09/24/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer) (The Quantum Insider, score 93)
-  - 2026-09-10 — [NIST-Developed Quantum Sensors Improve Nuclear Monitoring](https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring) (QuantumNews.ai, score 100)
 
 ## Quantum Software / Tooling
 
@@ -57,22 +57,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
-  - 2026-09-28 — [Automating Post-Quantum IPsec on Cisco Routers – IPsec Series, Part 12](https://blogs.cisco.com/developer/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12) (Cisco Quantum-Safe Updates, score 158)
-  - 2026-09-27 — [OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT](https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732) (USAspending · Post-Quantum Cybersecurity, score 100)
-  - 2026-09-25 — [DigiCert Announces General Availability of Quantum Central Platform for PQC Migration Management](https://quantumcomputingreport.com/digicert-announces-general-availability-of-quantum-central-platform-for-pqc-migration-management) (Quantum Computing Report, score 67)
-  - 2026-09-25 — [DigiCert Launches Quantum Central for Post-Quantum Cryptography Readiness](https://thequantuminsider.com/2026/09/25/digicert-quantum-central-pqc-plans-action) (The Quantum Insider, score 67)
-  - 2026-09-25 — [Guest Post: Quantum Investment May Start With Post-Quantum Security](https://thequantuminsider.com/2026/09/25/quantum-investment-post-quantum-security) (The Quantum Insider, score 55)
+  - 2026-09-29 — [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.](https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100) (USAspending · Quantum Technologies, score 100)
+  - 2026-09-29 — [Building a post-quantum certificate authority with Merkle Tree Certificates](https://blog.cloudflare.com/pq-ca-with-mtcs) (Cloudflare Blog, score 69)
+  - 2026-09-29 — [HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next](https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks) (Thales Cybersecurity Blog, score 67)
+  - 2026-09-29 — [Project Eleven Acquires Riva Labs for Post-Quantum Security](https://thequantuminsider.com/2026/09/29/project-eleven-acquires-riva-labs-post-quantum-security) (The Quantum Insider, score 55)
+  - 2026-09-29 — [Building a certificate authority for the whole Internet](https://blog.cloudflare.com/cloudflare-certificate-authority) (Cloudflare Blog, score 47)
 
 ## QEC / Fault Tolerance
 
-- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, Quantum Computing Report, arXiv RSS quant-ph
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
 - Recent supporting evidence:
+  - 2026-09-29 — [Infleqtion and Riverlane Partner on Quantum Error Correction](https://thequantuminsider.com/2026/09/29/infleqtion-riverlane-quantum-error-correction) (The Quantum Insider, score 52)
   - 2026-09-24 — [Patenting Quantum Computing Innovations – Part 3: Implementing a Logical Qubit in a Surface Code](https://quantumcomputingreport.com/patenting-quantum-computing-innovations-part-3-implementing-a-logical-qubit-in-a-surface-code) (Quantum Computing Report, score 128)
   - 2026-09-22 — [IonQ Demonstrates Real-Time QEC Decoding at MegaQuOp Scale on Single Commodity CPU](https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu) (Quantum Computing Report, score 125)
   - 2026-09-18 — [DOE Launches $215 Million Quantum Genesis Q Competition](https://thequantuminsider.com/2026/09/18/doe-215-million-quantum-genesis-q-competition) (The Quantum Insider, score 114)
   - 2026-09-18 — [Riverlane Establishes U.S. Headquarters in Maryland’s Discovery District to Scale Real-Time QEC Deployments](https://quantumcomputingreport.com/riverlane-establishes-u-s-headquarters-in-marylands-discovery-district-to-scale-real-time-qec-deployments) (Quantum Computing Report, score 100)
-  - 2026-09-18 — [USC and Quantum Elements Demonstrate Surface Code Scaling on IBM Heavy-Hex Processors](https://quantumcomputingreport.com/usc-and-quantum-elements-demonstrate-surface-code-scaling-on-ibm-heavy-hex-processors) (Quantum Computing Report, score 46)
 
 ## Quantum Hardware
 
@@ -101,8 +101,8 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, QuantumNews.ai, Quantum Zeitgeist, USAspending · Quantum Technologies, USAspending · Advanced Computing
 - Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
 - Recent supporting evidence:
+  - 2026-09-29 — [SBIR PHASE I QUANTUM CAMERA FOR HIGH RESOLUTION ORBITAL DEBRIS TRACKING](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0324_8000_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
+  - 2026-09-29 — [STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
+  - 2026-09-29 — [STTR PHASE I QUANTUM-ENGINEERED MULTISPECTRAL ARRAY PLATFORM FOR TRACE NEUTRAL GAS MONITORING](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0278_8000_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
   - 2026-09-25 — [CGI Federal, DLA and UT Knoxville Study Quantum Computing for Logistics](https://thequantuminsider.com/2026/09/25/dla-ut-knoxville-applied-research-agreement) (The Quantum Insider, score 100)
   - 2026-09-23 — [German Government Selects QUDORA-Led Consortium For €122 Million Project](https://thequantuminsider.com/2026/09/23/german-government-selects-qudora-led-consortium-for-e122-million-project) (The Quantum Insider, score 100)
-  - 2026-09-22 — [Microsoft Gives DARPA Access to Majorana System, Opens Maryland Quantum Research Center](https://thequantuminsider.com/2026/09/22/microsoft-gives-darpa-access-to-majorana-system-opens-maryland-quantum-research-center) (The Quantum Insider, score 100)
-  - 2026-09-22 — [The Government Just Set a Quantum Computing Deadline. Here's What It Actually Means for You.](https://www.keyfactor.com/blog/the-government-just-set-a-quantum-computing-deadline-heres-what-it-actually-means-for-you) (Keyfactor Quantum and Crypto-Agility, score 100)
-  - 2026-09-20 — [CGC VINCENT DANZ - FIN TECH SUPPORT SERVICES](https://www.usaspending.gov/award/CONT_AWD_70Z08026PPBPL0111_7008_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)

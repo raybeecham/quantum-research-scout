@@ -7,9 +7,9 @@
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 93.8,
+      "acceptance_rate": 93.5,
       "accepted": 500,
-      "quarantined": 33,
+      "quarantined": 35,
       "scope": "Federal funding"
     }
   ],
@@ -2173,6 +2173,51 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-01",
+      "key": "https://www.grants.gov/search-results-detail/362629",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "F26AS00062: Great Lakes Fish and Wildlife Restoration Act FY 2026",
+      "url": "https://www.grants.gov/search-results-detail/362629"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-06-01",
+      "key": "grants_gov:F26AS00062",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "F26AS00062: Great Lakes Fish and Wildlife Restoration Act FY 2026",
+      "url": "https://www.grants.gov/search-results-detail/362629"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "Quantum Benchmarking Initiative",
         "reason_codes": [
           "official_source",
@@ -2237,68 +2282,22 @@
       "stage": "mission evidence admission",
       "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
       "url": "https://www.grants.gov/search-results-detail/362498"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Project Triad",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-05-20",
-      "key": "https://www.grants.gov/search-results-detail/362498",
-      "mission_id": "project-triad",
-      "mission_name": "Project Triad",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "mission evidence admission",
-      "title": "F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
-      "url": "https://www.grants.gov/search-results-detail/362498"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "AI Forge",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-05-07",
-      "key": "https://www.grants.gov/search-results-detail/362303",
-      "mission_id": "ai-forge",
-      "mission_name": "AI Forge",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 AI Forge",
-      "stage": "mission evidence admission",
-      "title": "F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative",
-      "url": "https://www.grants.gov/search-results-detail/362303"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 130,
+      "count": 132,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 130,
+      "count": 132,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 109,
+      "count": 111,
       "label": "Official government source"
     },
     {
@@ -2314,14 +2313,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 80.0,
+    "acceptance_rate": 79.8,
     "accepted": 533,
-    "decisions": 666,
-    "funding_quarantine": 30,
+    "decisions": 668,
+    "funding_quarantine": 32,
     "mission_quarantine": 100,
-    "quarantined": 133,
+    "quarantined": 135,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-09-29T03:38:05.351699+00:00",
+  "updated_at": "2026-09-30T03:25:02.178606+00:00",
   "version": 1
 }

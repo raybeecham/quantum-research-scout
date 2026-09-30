@@ -2,13 +2,13 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-09-29T03:38:05.351699+00:00_
+_Updated 2026-09-30T03:25:02.178606+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
-- Active forecasts: **7**
-- Due within 30 days: **4**
-- Resolved forecasts: **4**
+- Active forecasts: **6**
+- Due within 30 days: **3**
+- Resolved forecasts: **5**
 - Withdrawn without scoring: **2**
 - Calibration: **Needs calibration**
 
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 86% · Genesis Mission
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-28?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-29?
 
 **Horizon:** 2026-10-29
 
@@ -44,7 +44,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 62% · Golden Dome for America
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-28?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-29?
 
 **Horizon:** 2026-10-29
 
@@ -69,7 +69,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 46% · AI Forge
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-28?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-29?
 
 **Horizon:** 2026-11-21
 
@@ -93,7 +93,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 46% · Quantum Genesis
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2026-12-28?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2026-12-29?
 
 **Horizon:** 2026-12-17
 
@@ -138,28 +138,6 @@ Will authoritative evidence confirm “Advance selected NSF NQVL projects from d
 - An official source delays, cancels, or materially rescopes the milestone.
 - The confirmation horizon passes without authoritative completion evidence.
 
-### 57% · AI Forge
-
-Will authoritative evidence confirm “Launch the AI Forge university-industry-government forum” by 2026-10-29?
-
-**Horizon:** 2026-09-29
-
-**Why:** The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.
-
-**Evidence**
-
-- [Launch the AI Forge university-industry-government forum](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security) — official milestone · 2026-09-22
-
-**Confirming indicators**
-
-- An official update states that the milestone was completed or delivered.
-- A resulting award, demonstration, report, or implementation artifact is published.
-
-**Disconfirming indicators**
-
-- An official source delays, cancels, or materially rescopes the milestone.
-- The confirmation horizon passes without authoritative completion evidence.
-
 ### 45% · Federal Post-Quantum Cryptography Transition
 
 Will authoritative evidence confirm “Agencies identify and report their PQC migration leads” by 2026-10-20?
@@ -184,6 +162,7 @@ Will authoritative evidence confirm “Agencies identify and report their PQC mi
 
 ## Resolved and scored
 
+- **Did not occur** · Will authoritative evidence confirm “Launch the AI Forge university-industry-government forum” by 2026-10-30? · closing probability 57% · Brier 0.3249
 - **Did not occur** · Will authoritative evidence confirm “Publish a summary of QC-ADDS technical specifications” by 2026-10-28? · closing probability 59% · Brier 0.3481
 - **Did not occur** · Will authoritative evidence confirm “Review federal robotic and AI-directed laboratory capabilities” by 2026-09-30? · closing probability 56% · Brier 0.3136
 - **Did not occur** · Will authoritative evidence confirm “Conduct initial Pace-Setting Project demonstrations with transition-partner users” by 2026-09-30? · closing probability 51% · Brier 0.2601

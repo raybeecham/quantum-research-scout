@@ -2122,15 +2122,6 @@
         },
         {
           "date": "2026-09-18",
-          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-09/2026-09-18-digest.md",
-          "score": 67,
-          "source": "Thales Cybersecurity Blog",
-          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
-        },
-        {
-          "date": "2026-09-18",
           "key": "https://quantumcomputingreport.com/eigenq-and-silicon-valley-acquisition-corp-secure-45m-committed-convertible-financing-ahead-of-3b-spac-merger",
           "report": "2026-09/2026-09-18-digest.md",
           "score": 100,
@@ -2335,13 +2326,76 @@
           "source": "Cisco Quantum-Safe Updates",
           "title": "Automating Post-Quantum IPsec on Cisco Routers \u2013 IPsec Series, Part 12",
           "url": "https://blogs.cisco.com/developer/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://blog.cloudflare.com/cloudflare-certificate-authority",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 47,
+          "source": "Cloudflare Blog",
+          "title": "Building a certificate authority for the whole Internet",
+          "url": "https://blog.cloudflare.com/cloudflare-certificate-authority"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://blog.cloudflare.com/ipsec-downgrade-protection",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 47,
+          "source": "Cloudflare Blog",
+          "title": "Preventing quantum downgrade attacks against IPsec",
+          "url": "https://blog.cloudflare.com/ipsec-downgrade-protection"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://thequantuminsider.com/2026/09/29/rbc-quantum-strategy-director-university-partnerships",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 47,
+          "source": "The Quantum Insider",
+          "title": "Royal Bank of Canada Expands Quantum Strategy With New Director and University Partnerships",
+          "url": "https://thequantuminsider.com/2026/09/29/rbc-quantum-strategy-director-university-partnerships"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://thequantuminsider.com/2026/09/29/project-eleven-acquires-riva-labs-post-quantum-security",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 55,
+          "source": "The Quantum Insider",
+          "title": "Project Eleven Acquires Riva Labs for Post-Quantum Security",
+          "url": "https://thequantuminsider.com/2026/09/29/project-eleven-acquires-riva-labs-post-quantum-security"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 67,
+          "source": "Thales Cybersecurity Blog",
+          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://blog.cloudflare.com/pq-ca-with-mtcs",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 69,
+          "source": "Cloudflare Blog",
+          "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+          "url": "https://blog.cloudflare.com/pq-ca-with-mtcs"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-09-28",
-      "momentum": "declining",
+      "latest_seen": "2026-09-29",
+      "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
@@ -2349,8 +2403,8 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 21,
-      "recent_count": 14,
+      "prior_count": 18,
+      "recent_count": 17,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -2985,22 +3039,31 @@
           "source": "Quantum Computing Report",
           "title": "Patenting Quantum Computing Innovations \u2013 Part 3: Implementing a Logical Qubit in a Surface Code",
           "url": "https://quantumcomputingreport.com/patenting-quantum-computing-innovations-part-3-implementing-a-logical-qubit-in-a-surface-code"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://thequantuminsider.com/2026/09/29/infleqtion-riverlane-quantum-error-correction",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 52,
+          "source": "The Quantum Insider",
+          "title": "Infleqtion and Riverlane Partner on Quantum Error Correction",
+          "url": "https://thequantuminsider.com/2026/09/29/infleqtion-riverlane-quantum-error-correction"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-09-24",
+      "latest_seen": "2026-09-29",
       "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
-        "QuantumNews.ai",
         "The Quantum Insider",
+        "QuantumNews.ai",
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 9,
-      "recent_count": 5,
+      "prior_count": 5,
+      "recent_count": 2,
       "status": "watching"
     },
     "Quantum Hardware": {
@@ -7464,12 +7527,21 @@
           "source": "The Quantum Insider",
           "title": "Quantum Cyber's Strategic Focus Includes Quantum Navigation",
           "url": "https://thequantuminsider.com/2026/09/28/quantum-cybers-strategic-focus-includes-quantum-navigation"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0291_8000_-NONE-_-NONE-",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "title": "STTR PHASE I NON-HERMITIAN COUPLED LASER ARRAY READOUT FOR QUANTUM SENSORS",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0291_8000_-NONE-_-NONE-"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.",
       "importance": "critical",
-      "latest_seen": "2026-09-28",
+      "latest_seen": "2026-09-29",
       "momentum": "rising",
       "organizations": [
         "QuantumNews.ai",
@@ -7479,7 +7551,7 @@
         "Quantum Computing Report"
       ],
       "prior_count": 0,
-      "recent_count": 4,
+      "recent_count": 5,
       "status": "actionable"
     },
     "Quantum Software / Tooling": {
@@ -8854,12 +8926,39 @@
           "source": "The Quantum Insider",
           "title": "CGI Federal, DLA and UT Knoxville Study Quantum Computing for Logistics",
           "url": "https://thequantuminsider.com/2026/09/25/dla-ut-knoxville-applied-research-agreement"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0324_8000_-NONE-_-NONE-",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "title": "SBIR PHASE I QUANTUM CAMERA FOR HIGH RESOLUTION ORBITAL DEBRIS TRACKING",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0324_8000_-NONE-_-NONE-"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "title": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0278_8000_-NONE-_-NONE-",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "title": "STTR PHASE I QUANTUM-ENGINEERED MULTISPECTRAL ARRAY PLATFORM FOR TRACE NEUTRAL GAS MONITORING",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0278_8000_-NONE-_-NONE-"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-09-25",
+      "latest_seen": "2026-09-29",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -8868,11 +8967,11 @@
         "USAspending \u00b7 Quantum Technologies",
         "USAspending \u00b7 Advanced Computing"
       ],
-      "prior_count": 7,
+      "prior_count": 6,
       "recent_count": 5,
       "status": "watching"
     }
   },
-  "updated_at": "2026-09-29T03:44:42.911755+00:00",
+  "updated_at": "2026-09-30T03:30:03.929942+00:00",
   "version": 1
 }

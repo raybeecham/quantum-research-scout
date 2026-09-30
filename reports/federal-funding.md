@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-09-29 03:38 UTC_
+_Updated 2026-09-30 03:25 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -16,8 +16,8 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Opportunity radar: **2 mission-linked**, **1 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **15**
 - Missions with activity: **5 of 10**
-- Named recipients and contractors: **330**
-- Known reported award value: **$760.7M**
+- Named recipients and contractors: **331**
+- Known reported award value: **$762.7M**
 
 ## Opportunity Radar
 
@@ -99,7 +99,7 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | UEI QDE5UHE5XD16 | **48 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $2.6M | Department of Transportation, National Science Foundation | Not linked | 0 |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | UEI LMCJKRFW5R81 | **48 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.1M | National Science Foundation | Not linked | 1 |
 | BOOZ ALLEN HAMILTON INC | UEI JCBMLGPE6Z71 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $35.4M | Department of Homeland Security, Department of the Interior, General Services Administration | Not linked | 0 |
-| ARIZONA STATE UNIVERSITY | UEI NTLHJXM55KZ6 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 7 | $2.0M | National Science Foundation | Not linked | 0 |
+| ARIZONA STATE UNIVERSITY | UEI NTLHJXM55KZ6 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $1.9M | National Science Foundation | Not linked | 0 |
 | PURDUE UNIVERSITY | UEI YRXVL4JYCEF5 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $1.6M | National Science Foundation | Not linked | 0 |
 | FOUR POINTS TECHNOLOGY, L.L.C. | UEI H1KHJPJH9R51 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $15.6M | Department of Commerce, Department of Health and Human Services | Not linked | 0 |
 | UNIVERSITY OF WASHINGTON | UEI HD1WMN6945W6 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $13.2M | Department of Commerce, National Science Foundation | Not linked | 0 |
@@ -128,9 +128,9 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | PARAGON MICRO INC | UEI E41LV9AJGHQ1 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.0M | Department of Health and Human Services | Not linked | 0 |
 | UNIVERSITY OF NORTH TEXAS | UEI G47WN1XZNWX9 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | Department of Health and Human Services, National Science Foundation | Not linked | 0 |
 | MORGAN STATE UNIVERSITY | UEI KULSKCCZJT27 | **32 · DEVELOPING** | Emerging Entrant | New Entrant | 1 | $10.0M | Department of Defense | Not linked | 1 |
-| DELOITTE CONSULTING LLP | UEI CKV2L9GZKJK3 | **32 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $4.3M | Department of Health and Human Services | Not linked | 0 |
 | SHOREPOINT LLC | UEI KNJHHF1GWLF3 | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $3.6M | Department of Education | Not linked | 0 |
 | DUKE UNIVERSITY | UEI TP7EK8DZV6N5 | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $3.4M | National Science Foundation | Not linked | 0 |
+| UNIVERSITY OF NEW MEXICO | UEI F6XLTRUQJEN4 | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $1.0M | National Science Foundation | Not linked | 0 |
 
 ## Recipient and Contractor Patent Connections
 
@@ -151,3 +151,4 @@ These are assignee-name matches, not proof that an award funded a patent.
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE | 2 | $110.0K | 1 | Not linked |
 | THE UNIVERSITY OF CHICAGO | 1 | $737.1K | 1 | Not linked |
 | NEW YORK UNIVERSITY | 1 | $640.0K | 1 | Not linked |
+| HITACHI HIGH-TECH AMERICA, INC. | 1 | $31.1K | 1 | Not linked |

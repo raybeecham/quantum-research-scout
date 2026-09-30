@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-09-29 03:44 UTC_
+_Updated 2026-09-30 03:30 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
@@ -25,7 +25,7 @@ Assessed **25 of 43** configured organizations.
 | CISA | Planning | low | 1 | 1 | 0 | 2026-09-03 |
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
 | Cisco | Awareness | high | 8 | 2 | 0 | 2026-09-28 |
-| Cloudflare | Awareness | high | 6 | 3 | 0 | 2026-09-10 |
+| Cloudflare | Awareness | high | 7 | 3 | 0 | 2026-09-29 |
 | ANSSI | Awareness | medium | 2 | 1 | 0 | 2026-09-03 |
 | IETF | Awareness | medium | 2 | 2 | 1 | 2026-08-28 |
 | ISO/IEC | Awareness | medium | 2 | 2 | 0 | 2026-07-15 |

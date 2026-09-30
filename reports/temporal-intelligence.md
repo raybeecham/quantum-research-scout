@@ -2,19 +2,25 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-09-29T03:38:05.351699+00:00_
+_Updated 2026-09-30T03:25:02.178606+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **4**
+- Actual or recent changes: **13**
 - Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **15**
 
 ## Priority timeline
 
-- **Published today** · 15--PANEL,STRUCTURAL,AI — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view))
+- **Published today** · 17--RESETTING DEVICE,AI — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view))
   - The source publication date is today or within the prior day.
+- **Published today** · 66--SENSOR,AMBIENT TEMPERATURE — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view))
+  - The source publication date is today or within the prior day.
+- **Published today** · Cybersecurity Managment Support Services — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view))
+  - The source publication date is today or within the prior day.
+- **Published 6 days ago** · HITACHI HIGH-TECH AMERICA, INC. — has related patent ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/19456833/application-data))
+  - A recently published source was newly incorporated into the ledger.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-09-29T03:38:05.351699+00:00_
+_Updated 2026-09-30T03:25:02.178606+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **4795**
-- Authoritative claims: **4593**
-- Analytical claims: **198**
+- Active claims: **4808**
+- Authoritative claims: **4605**
+- Analytical claims: **199**
 - Conflicted claims: **38**
-- Evidence items / URLs: **4903 / 1328**
+- Evidence items / URLs: **4916 / 1332**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,22 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS | opportunity status | awarded | authoritative / high | [SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1420_8000_-NONE-_-NONE-) |
+| active | SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS | awarding agency | National Aeronautics and Space Administration | authoritative / high | [SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1420_8000_-NONE-_-NONE-) |
+| active | SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS | reported amount | 31099.2 | authoritative / high | [SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1420_8000_-NONE-_-NONE-) |
+| active | SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS | reported recipient | HITACHI HIGH-TECH AMERICA, INC. | authoritative / high | [SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1420_8000_-NONE-_-NONE-) |
+| active | 17--RESETTING DEVICE,AI | opportunity status | awarded | authoritative / high | [17--RESETTING DEVICE,AI](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view) |
+| active | 17--RESETTING DEVICE,AI | awarding agency | DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT | authoritative / high | [17--RESETTING DEVICE,AI](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view) |
+| active | 17--RESETTING DEVICE,AI | reported amount | 1741398.0 | authoritative / high | [17--RESETTING DEVICE,AI](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view) |
+| active | 17--RESETTING DEVICE,AI | reported recipient | NORTHROP GRUMMAN SYSTEMS CORPORATION | authoritative / high | [17--RESETTING DEVICE,AI](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view) |
+| active | Cybersecurity Managment Support Services | opportunity status | awarded | authoritative / high | [Cybersecurity Managment Support Services](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view) |
+| active | Cybersecurity Managment Support Services | awarding agency | TRANSPORTATION, DEPARTMENT OF.FEDERAL HIGHWAY ADMINISTRATION.693JJ3 ACQUISITION AND GRANTS MGT | authoritative / high | [Cybersecurity Managment Support Services](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view) |
+| active | Cybersecurity Managment Support Services | reported amount | 758088.88 | authoritative / high | [Cybersecurity Managment Support Services](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view) |
+| active | Cybersecurity Managment Support Services | reported recipient | CRITERION SYSTEMS, L.L.C. | authoritative / high | [Cybersecurity Managment Support Services](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view) |
+| active | 66--SENSOR,AMBIENT TEMPERATURE | opportunity status | awarded | authoritative / high | [66--SENSOR,AMBIENT TEMPERATURE](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view) |
+| active | 66--SENSOR,AMBIENT TEMPERATURE | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION | authoritative / high | [66--SENSOR,AMBIENT TEMPERATURE](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view) |
+| active | 66--SENSOR,AMBIENT TEMPERATURE | reported amount | 329313.6 | authoritative / high | [66--SENSOR,AMBIENT TEMPERATURE](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view) |
+| active | 66--SENSOR,AMBIENT TEMPERATURE | reported recipient | INTERTRADE LIMITED | authoritative / high | [66--SENSOR,AMBIENT TEMPERATURE](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view) |
 | active | 15--PANEL,STRUCTURAL,AI | opportunity status | awarded | authoritative / high | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view) |
 | active | 15--PANEL,STRUCTURAL,AI | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION | authoritative / high | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view) |
 | active | 15--PANEL,STRUCTURAL,AI | reported amount | 328866.0 | authoritative / high | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view) |
@@ -248,22 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | EDUSA AI & QUANTUM TECHNOLOGIES | awarding agency | Department of State | authoritative / high | [EDUSA AI & QUANTUM TECHNOLOGIES](https://www.usaspending.gov/award/CONT_AWD_19AS2026P1012_1900_-NONE-_-NONE-) |
 | active | EDUSA AI & QUANTUM TECHNOLOGIES | reported amount | 268201.0 | authoritative / high | [EDUSA AI & QUANTUM TECHNOLOGIES](https://www.usaspending.gov/award/CONT_AWD_19AS2026P1012_1900_-NONE-_-NONE-) |
 | active | EDUSA AI & QUANTUM TECHNOLOGIES | reported recipient | EDUCATION DEVELOPMENT CENTER, INC. | authoritative / high | [EDUSA AI & QUANTUM TECHNOLOGIES](https://www.usaspending.gov/award/CONT_AWD_19AS2026P1012_1900_-NONE-_-NONE-) |
-| active | SUBJECT MATTER EXPERTISE SERVICES TO ESTABLISH NEW ROBOTICS AND AUTONOMOUS SYSTEMS DOMAIN FOR "DRONE" AND COUNTER-UNMANNED AUTONOMOUS SYSTEMS. | reported amount | 4432225.82 | authoritative / high | [SUBJECT MATTER EXPERTISE SERVICES TO ESTABLISH NEW ROBOTICS AND AUTONOMOUS SYSTEMS DOMAIN FOR "DRONE" AND COUNTER-UNMANNED AUTONOMOUS SYSTEMS.](https://www.usaspending.gov/award/CONT_AWD_70Z02325F71100013_7008_47QRCA25DA145_4732) |
-| active | AN13--Miniaturized CO2 Sensor Prototype Development | opportunity status | awarded | authoritative / high | [AN13--Miniaturized CO2 Sensor Prototype Development](https://sam.gov/workspace/contract/opp/bfe559b589684232916e4bb0afe058ec/view) |
-| active | AN13--Miniaturized CO2 Sensor Prototype Development | set aside | Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) | authoritative / high | [AN13--Miniaturized CO2 Sensor Prototype Development](https://sam.gov/workspace/contract/opp/bfe559b589684232916e4bb0afe058ec/view) |
-| active | AN13--Miniaturized CO2 Sensor Prototype Development | awarding agency | VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.RPO EAST (36C24E) | authoritative / high | [AN13--Miniaturized CO2 Sensor Prototype Development](https://sam.gov/workspace/contract/opp/bfe559b589684232916e4bb0afe058ec/view) |
-| active | AN13--Miniaturized CO2 Sensor Prototype Development | reported amount | 1499888.0 | authoritative / high | [AN13--Miniaturized CO2 Sensor Prototype Development](https://sam.gov/workspace/contract/opp/bfe559b589684232916e4bb0afe058ec/view) |
-| active | AN13--Miniaturized CO2 Sensor Prototype Development | reported recipient | Red Duke Strategies LLC | authoritative / high | [AN13--Miniaturized CO2 Sensor Prototype Development](https://sam.gov/workspace/contract/opp/bfe559b589684232916e4bb0afe058ec/view) |
-| active | ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO... | opportunity status | awarded | authoritative / high | [ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO...](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0372_3600_47QTCA25D00AX_4732) |
-| active | ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO... | awarding agency | Department of Veterans Affairs | authoritative / high | [ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO...](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0372_3600_47QTCA25D00AX_4732) |
-| active | ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO... | reported amount | 2926310.46 | authoritative / high | [ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO...](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0372_3600_47QTCA25D00AX_4732) |
-| active | ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO... | reported recipient | WILCORE TECHNOLOGIES INC | authoritative / high | [ARTIFICIAL INTELLIGENCE VETERAN-CENTERED SUBMISSION ECOSYSTEM SUPPORT FOR THE DESIGN, DEVELOPMENT, AND DEPLOYMENT OF SECURE, ACCESSIBLE, AND INTEROPERABLE DIGITAL WORKFLOW SOLUTIO...](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0372_3600_47QTCA25D00AX_4732) |
-| active | NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027 | opportunity status | awarded | authoritative / high | [NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80332_7571_NNG15SD22B_8000) |
-| active | NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027 | awarding agency | Department of Health and Human Services | authoritative / high | [NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80332_7571_NNG15SD22B_8000) |
-| active | NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027 | reported amount | 268868.52 | authoritative / high | [NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80332_7571_NNG15SD22B_8000) |
-| active | NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027 | reported recipient | FOUR POINTS TECHNOLOGY, L.L.C. | authoritative / high | [NASA SEWP DELIVERY ORDER FOR NOK NOK CYBERSECURITY SOFTWARE SUBSCRIPTIONS AND SUPPORT FOR FDA PERIOD OF PERFORMANCE 09/29/2026 THROUGH 09/28/2027](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80332_7571_NNG15SD22B_8000) |
-| active | DSD LABORATORIES INC | legal business name | DSD LABORATORIES INC | authoritative / high | [DSD LABORATORIES INC](https://sam.gov/entity/MBMHMGJMQFC7/coreData) |
-| active | DSD LABORATORIES INC | uei | MBMHMGJMQFC7 | authoritative / high | [DSD LABORATORIES INC](https://sam.gov/entity/MBMHMGJMQFC7/coreData) |
 
 ## Method
 

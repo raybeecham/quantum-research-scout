@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-29 03:44 UTC_
+_Updated 2026-09-30 03:30 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 6 | 11 | 11 | 28 |
+| 50 | 3 | 10 | 12 | 28 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -21,7 +21,7 @@ _Updated 2026-09-29 03:44 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 PQC / Crypto Agility has critical strategic importance and declining momentum.
+- 🔴 PQC / Crypto Agility has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: QEC / Fault Tolerance
@@ -66,25 +66,18 @@ _Updated 2026-09-29 03:44 UTC_
 - 🔴 Standards / Government has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Source failing: ETSI Quantum Standards News 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 94.8% reliability with 1 warning day(s).
-- [Open supporting view](source-health.md)
-
 ## 🔴 Source failing: Quantum Computing Report
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 64.3% reliability with 5 warning day(s).
+- 🔴 60.0% reliability with 6 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: White House Science and Technology Missions
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 83.3% reliability with 11 warning day(s).
+- 🔴 82.1% reliability with 12 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -101,7 +94,7 @@ _Updated 2026-09-29 03:44 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Software / Tooling 🆕
+## 🟠 Actionable signal: Quantum Software / Tooling
 
 - Severity: **high**
 - Status: **actionable**
@@ -119,15 +112,22 @@ _Updated 2026-09-29 03:44 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 4 versus 0 in the prior period.
+- ↗️ Recent evidence is 5 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Quantum Software / Tooling 🆕
+## 🟠 Rising momentum: Quantum Software / Tooling
 
 - Severity: **high**
 - Status: **rising**
 - ↗️ Recent evidence is 4 versus 2 in the prior period.
 - [Open supporting view](signals.md)
+
+## 🟠 Source degraded: ETSI Quantum Standards News 🆕
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 94.9% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Lockheed Martin Quantum Technology
 
@@ -140,21 +140,21 @@ _Updated 2026-09-29 03:44 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.8% reliability with 2 warning day(s).
+- 🟠 93.9% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Journal
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 92.9% reliability with 1 warning day(s).
+- 🟠 93.3% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 95.2% reliability with 1 warning day(s).
+- 🟠 95.3% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
@@ -176,20 +176,6 @@ _Updated 2026-09-29 03:44 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-17; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Booz Allen Quantum and PQC
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2025-09-11; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Cloudflare Post-Quantum Blog
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-10; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Distributed Sensing and Smart Dust Patents
@@ -262,7 +248,7 @@ _Updated 2026-09-29 03:44 UTC_
 - The latest dated item is from 2026-09-02; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Quantum Benchmarking Initiative 🆕
+## 🟡 Source stale: Grants.gov · Quantum Benchmarking Initiative
 
 - Severity: **medium**
 - Status: **stale**
@@ -274,6 +260,13 @@ _Updated 2026-09-29 03:44 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-30; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: IBM Quantum Blog 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-09-15; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Lockheed Martin Quantum Technology
@@ -346,16 +339,23 @@ _Updated 2026-09-29 03:44 UTC_
 - The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: USAspending · Golden Dome 🆕
+## 🟡 Source stale: USAspending · Golden Dome
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-04-01; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: USAspending · Quantum Benchmarking Initiative 🆕
+## 🟡 Source stale: USAspending · Quantum Benchmarking Initiative
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2025-10-06; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: White House Science and Technology Missions 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-06-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

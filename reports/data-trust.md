@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-09-29T03:38:05.351699+00:00_
+_Updated 2026-09-30T03:25:02.178606+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **533**
-- Quarantined evidence or relationships: **133**
-- Acceptance rate: **80.0%**
+- Quarantined evidence or relationships: **135**
+- Acceptance rate: **79.8%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
 | Federal missions | 33 | 100 | 24.8% |
-| Federal funding | 500 | 33 | 93.8% |
+| Federal funding | 500 | 35 | 93.5% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 130
-- **No relevant term in the evidence itself**: 130
-- **Official government source**: 109
+- **Match appears only in collector query metadata**: 132
+- **No relevant term in the evidence itself**: 132
+- **Official government source**: 111
 - **Source is not an official .gov or .mil domain**: 21
 - **Agency and technology inference only**: 3
 
@@ -690,6 +690,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
+### [F26AS00062: Great Lakes Fish and Wildlife Restoration Act FY 2026](https://www.grants.gov/search-results-detail/362629)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [F26AS00062: Great Lakes Fish and Wildlife Restoration Act FY 2026](https://www.grants.gov/search-results-detail/362629)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
 ### [BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/356205)
 
 - Scope: Federal missions
@@ -705,20 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362498)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362498)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [F26AS00084 Aquatic Invasive Species Grants to Great Lakes Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362303)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

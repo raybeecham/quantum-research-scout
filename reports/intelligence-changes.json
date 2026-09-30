@@ -280,13 +280,48 @@
   ],
   "added": [
     {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-eb1672f5867fb180",
+      "confidence": "high",
+      "effective_date": null,
+      "first_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "last_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "object": {
+        "identifier": "US20260289380A1",
+        "label": "QUBIT ARRAY, QUANTUM COMPUTER, AND QUANTUM ERROR DETECTION METHOD",
+        "node_id": "patent:US20260289380A1",
+        "node_type": "patent"
+      },
+      "predicate": "has_related_patent",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-40bacb36268ca675",
+          "locator": "has_related_patent:patent:US20260289380A1",
+          "title": "QUBIT ARRAY, QUANTUM COMPUTER, AND QUANTUM ERROR DETECTION METHOD",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19456833/application-data",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:PVQBNRS3N6J4",
+        "label": "HITACHI HIGH-TECH AMERICA, INC.",
+        "node_id": "recipient_or_contractor:uei:PVQBNRS3N6J4",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": null
+    },
+    {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-0474ca39653b3ff7",
+      "claim_id": "claim-d0c8de41b976a924",
       "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-29T03:38:05.351699+00:00",
-      "last_observed_at": "2026-09-29T03:38:05.351699+00:00",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "last_observed_at": "2026-09-30T03:25:02.178606+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -294,17 +329,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b25e3722480b6097",
+          "evidence_id": "evidence-a836e70bccb589b4",
           "locator": "opportunity_status:awarded",
-          "title": "15--PANEL,STRUCTURAL,AI",
-          "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
+          "title": "17--RESETTING DEVICE,AI",
+          "url": "https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A726T347G",
-        "label": "15--PANEL,STRUCTURAL,AI",
-        "node_id": "award_notice:sam_gov:SPE4A726T347G",
+        "identifier": "sam_gov:N0038325RP307",
+        "label": "17--RESETTING DEVICE,AI",
+        "node_id": "award_notice:sam_gov:N0038325RP307",
         "node_type": "award_notice"
       },
       "value": "awarded"
@@ -312,11 +347,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-167b2ea8a358d5ac",
+      "claim_id": "claim-d29d46d2f6680970",
       "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-29T03:38:05.351699+00:00",
-      "last_observed_at": "2026-09-29T03:38:05.351699+00:00",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "last_observed_at": "2026-09-30T03:25:02.178606+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -324,29 +359,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-70e81fa09de0b63e",
-          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
-          "title": "15--PANEL,STRUCTURAL,AI",
-          "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
+          "evidence_id": "evidence-798d3fa9e16b3daf",
+          "locator": "awarding_agency:dept of defense.dept of the navy.navsup.navsup weapon systems support.navsup wss philadelphia.navsup weapon systems support",
+          "title": "17--RESETTING DEVICE,AI",
+          "url": "https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A726T347G",
-        "label": "15--PANEL,STRUCTURAL,AI",
-        "node_id": "award_notice:sam_gov:SPE4A726T347G",
+        "identifier": "sam_gov:N0038325RP307",
+        "label": "17--RESETTING DEVICE,AI",
+        "node_id": "award_notice:sam_gov:N0038325RP307",
         "node_type": "award_notice"
       },
-      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
+      "value": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-a8c709f55fa0e671",
+      "claim_id": "claim-f8eb7ffb067102a9",
       "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-29T03:38:05.351699+00:00",
-      "last_observed_at": "2026-09-29T03:38:05.351699+00:00",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "last_observed_at": "2026-09-30T03:25:02.178606+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -354,33 +389,33 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7a1652990131e252",
-          "locator": "reported_amount:328866.0",
-          "title": "15--PANEL,STRUCTURAL,AI",
-          "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
+          "evidence_id": "evidence-476b034fe32f752f",
+          "locator": "reported_amount:1741398.0",
+          "title": "17--RESETTING DEVICE,AI",
+          "url": "https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A726T347G",
-        "label": "15--PANEL,STRUCTURAL,AI",
-        "node_id": "award_notice:sam_gov:SPE4A726T347G",
+        "identifier": "sam_gov:N0038325RP307",
+        "label": "17--RESETTING DEVICE,AI",
+        "node_id": "award_notice:sam_gov:N0038325RP307",
         "node_type": "award_notice"
       },
-      "value": 328866.0
+      "value": 1741398.0
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-47c966b3de7acc93",
+      "claim_id": "claim-588bce1260b5cf2c",
       "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-09-29T03:38:05.351699+00:00",
-      "last_observed_at": "2026-09-29T03:38:05.351699+00:00",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "last_observed_at": "2026-09-30T03:25:02.178606+00:00",
       "object": {
-        "identifier": "name:aero components",
-        "label": "AERO COMPONENTS, LLC",
-        "node_id": "recipient_or_contractor:name:aero components",
+        "identifier": "name:northrop grumman systems",
+        "label": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "node_id": "recipient_or_contractor:name:northrop grumman systems",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -389,17 +424,267 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-93ed8ec10d0584d2",
-          "locator": "reported_recipient:recipient_or_contractor:name:aero components",
-          "title": "15--PANEL,STRUCTURAL,AI",
-          "url": "https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view",
+          "evidence_id": "evidence-fa27797ae0d68d77",
+          "locator": "reported_recipient:recipient_or_contractor:name:northrop grumman systems",
+          "title": "17--RESETTING DEVICE,AI",
+          "url": "https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:SPE4A726T347G",
-        "label": "15--PANEL,STRUCTURAL,AI",
-        "node_id": "award_notice:sam_gov:SPE4A726T347G",
+        "identifier": "sam_gov:N0038325RP307",
+        "label": "17--RESETTING DEVICE,AI",
+        "node_id": "award_notice:sam_gov:N0038325RP307",
+        "node_type": "award_notice"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-f3a863b0085f1574",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "last_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-25ba74948290abeb",
+          "locator": "opportunity_status:awarded",
+          "title": "Cybersecurity Managment Support Services",
+          "url": "https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:693JJ126F00118N",
+        "label": "Cybersecurity Managment Support Services",
+        "node_id": "award_notice:sam_gov:693JJ126F00118N",
+        "node_type": "award_notice"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-b6d14070a15fdd1d",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "last_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-937050cc00dc11d6",
+          "locator": "awarding_agency:transportation, department of.federal highway administration.693jj3 acquisition and grants mgt",
+          "title": "Cybersecurity Managment Support Services",
+          "url": "https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:693JJ126F00118N",
+        "label": "Cybersecurity Managment Support Services",
+        "node_id": "award_notice:sam_gov:693JJ126F00118N",
+        "node_type": "award_notice"
+      },
+      "value": "TRANSPORTATION, DEPARTMENT OF.FEDERAL HIGHWAY ADMINISTRATION.693JJ3 ACQUISITION AND GRANTS MGT"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-0ff2626184f263ff",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "last_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-dfb13a57ff8da24d",
+          "locator": "reported_amount:758088.88",
+          "title": "Cybersecurity Managment Support Services",
+          "url": "https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:693JJ126F00118N",
+        "label": "Cybersecurity Managment Support Services",
+        "node_id": "award_notice:sam_gov:693JJ126F00118N",
+        "node_type": "award_notice"
+      },
+      "value": 758088.88
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-34e187cb9609832e",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "last_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "object": {
+        "identifier": "name:criterion systems l l c",
+        "label": "CRITERION SYSTEMS, L.L.C.",
+        "node_id": "recipient_or_contractor:name:criterion systems l l c",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fd1dcc5c5230811d",
+          "locator": "reported_recipient:recipient_or_contractor:name:criterion systems l l c",
+          "title": "Cybersecurity Managment Support Services",
+          "url": "https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:693JJ126F00118N",
+        "label": "Cybersecurity Managment Support Services",
+        "node_id": "award_notice:sam_gov:693JJ126F00118N",
+        "node_type": "award_notice"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-4480b80a617e8570",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "last_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1a45f315117e81e3",
+          "locator": "opportunity_status:awarded",
+          "title": "66--SENSOR,AMBIENT TEMPERATURE",
+          "url": "https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526Q0748",
+        "label": "66--SENSOR,AMBIENT TEMPERATURE",
+        "node_id": "award_notice:sam_gov:SPE4A526Q0748",
+        "node_type": "award_notice"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-7933b038a1436220",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "last_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-07194f6546ce8b25",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla av richmond.dla aviation",
+          "title": "66--SENSOR,AMBIENT TEMPERATURE",
+          "url": "https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526Q0748",
+        "label": "66--SENSOR,AMBIENT TEMPERATURE",
+        "node_id": "award_notice:sam_gov:SPE4A526Q0748",
+        "node_type": "award_notice"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-9f3fa4c1f0415254",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "last_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fae8e684d352bbd7",
+          "locator": "reported_amount:329313.6",
+          "title": "66--SENSOR,AMBIENT TEMPERATURE",
+          "url": "https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526Q0748",
+        "label": "66--SENSOR,AMBIENT TEMPERATURE",
+        "node_id": "award_notice:sam_gov:SPE4A526Q0748",
+        "node_type": "award_notice"
+      },
+      "value": 329313.6
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6919eaf4831dcff7",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "last_observed_at": "2026-09-30T03:25:02.178606+00:00",
+      "object": {
+        "identifier": "name:intertrade",
+        "label": "INTERTRADE LIMITED",
+        "node_id": "recipient_or_contractor:name:intertrade",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-95b4ebb379f3c270",
+          "locator": "reported_recipient:recipient_or_contractor:name:intertrade",
+          "title": "66--SENSOR,AMBIENT TEMPERATURE",
+          "url": "https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE4A526Q0748",
+        "label": "66--SENSOR,AMBIENT TEMPERATURE",
+        "node_id": "award_notice:sam_gov:SPE4A526Q0748",
         "node_type": "award_notice"
       },
       "value": null
@@ -408,8 +693,8 @@
   "baseline_initialized": false,
   "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-09-29T03:38:05.351699+00:00",
-  "comparison_started_at": "2026-09-28T02:58:03.521796+00:00",
+  "comparison_ended_at": "2026-09-30T03:25:02.178606+00:00",
+  "comparison_started_at": "2026-09-29T03:38:05.351699+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1325,19 +1610,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-09-28T02:58:03.521796+00:00",
+  "since": "2026-09-29T03:38:05.351699+00:00",
   "summary": {
-    "active_claims": 4795,
-    "added": 4,
+    "active_claims": 4808,
+    "added": 13,
     "changed": 0,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 31,
+    "material_changes": 40,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-09-29T03:38:05.351699+00:00",
+  "updated_at": "2026-09-30T03:25:02.178606+00:00",
   "version": 1
 }

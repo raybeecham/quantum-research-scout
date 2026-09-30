@@ -1835,6 +1835,28 @@
       "title": "SIMULATING QUANTUM COMPUTING CIRCUITS USING KRONECKER FACTORIZATION"
     },
     {
+      "application_count": 1,
+      "assignee": "Hitachi, Ltd.",
+      "citation_count": 0,
+      "family_basis": "priority application",
+      "family_key": "priority:2025030468",
+      "grant_count": 0,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "19456833",
+          "document_type": "application",
+          "publication_number": "US20260289380A1",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19456833/application-data"
+        }
+      ],
+      "primary_publication_number": "US20260289380A1",
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19456833/application-data",
+      "significance_label": "high",
+      "strategic_significance_score": 65,
+      "title": "QUBIT ARRAY, QUANTUM COMPUTER, AND QUANTUM ERROR DETECTION METHOD"
+    },
+    {
       "application_count": 0,
       "assignee": "Wiz, Inc.",
       "citation_count": 0,
@@ -8542,6 +8564,71 @@
       "title": "QUBIT SURFACE ALLOCATION SYSTEM",
       "tracking_type": "automated",
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19689193/application-data"
+    },
+    {
+      "application_number": "19456833",
+      "application_type": "Utility",
+      "assessment": null,
+      "assignee": "Hitachi, Ltd.",
+      "backward_citation_count": 0,
+      "child_applications": [],
+      "citation_count": 0,
+      "cited_patents": [],
+      "continuation_type": null,
+      "document_type": "application",
+      "family_basis": "priority application",
+      "family_id": "",
+      "family_key": "priority:2025030468",
+      "family_members": [
+        {
+          "application_number": "19456833",
+          "document_type": "application",
+          "publication_number": "US20260289380A1",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19456833/application-data"
+        }
+      ],
+      "family_size": 1,
+      "filing_date": "2026-01-22",
+      "forward_citation_count": 0,
+      "grant_date": "",
+      "inventors": "Tatsuya TOMARU, Satoru AKIYAMA, Takashi TAKEMOTO",
+      "is_continuation": false,
+      "key": "US20260289380A1",
+      "kind_code": "A1",
+      "legal_status": "Docketed New Case - Ready for Examination",
+      "legal_status_normalized": "pending",
+      "matched_keywords": [
+        "qubit"
+      ],
+      "parent_applications": [],
+      "patent_number": null,
+      "priority": "critical",
+      "priority_date": "",
+      "priority_numbers": [
+        "2025030468"
+      ],
+      "publication_date": "2026-09-24",
+      "publication_number": "US20260289380A1",
+      "query": "Quantum Computing Patents",
+      "score": 100,
+      "significance_factors": [
+        "strategic domain relevance +44",
+        "application stage +5",
+        "pending legal status +8",
+        "recent publication +5",
+        "named assignee +3"
+      ],
+      "significance_label": "high",
+      "source": "Quantum Computing Patents",
+      "strategic_domains": [
+        "Quantum technology"
+      ],
+      "strategic_relevance_score": 110,
+      "strategic_significance_score": 65,
+      "summary": "Applicant: Hitachi, Ltd. \u00b7 USPTO publication US20260289380A1",
+      "title": "QUBIT ARRAY, QUANTUM COMPUTER, AND QUANTUM ERROR DETECTION METHOD",
+      "tracking_type": "automated",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19456833/application-data"
     },
     {
       "application_number": "19087311",
@@ -22805,86 +22892,25 @@
       "title": "HIGH-PRECISION CHEMICAL QUANTUM SENSING IN FLOWING MONODISPERSE MICRODROPLETS",
       "tracking_type": "automated",
       "url": "https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025026280/application-data"
-    },
-    {
-      "application_number": "63750272",
-      "application_type": "Provisional",
-      "assessment": null,
-      "assignee": "Gallium Enterprises Pty Ltd",
-      "backward_citation_count": 0,
-      "child_applications": [],
-      "citation_count": 0,
-      "cited_patents": [],
-      "continuation_type": null,
-      "document_type": "application",
-      "family_basis": "application number",
-      "family_id": "",
-      "family_key": "application:63750272",
-      "family_members": [
-        {
-          "application_number": "63750272",
-          "document_type": "application",
-          "publication_number": null,
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/63750272/application-data"
-        }
-      ],
-      "family_size": 1,
-      "filing_date": "2025-01-27",
-      "forward_citation_count": 0,
-      "grant_date": "",
-      "inventors": "JOSHUA DAVID BROWN, RYAN ANDERSON, SEUNGGEUN LEE, BRAD SISKAVICH, IAN MANN, JIM HADEN",
-      "is_continuation": false,
-      "key": "https://data.uspto.gov/patent-file-wrapper/search/details/63750272/application-data",
-      "kind_code": null,
-      "legal_status": "Provisional Application Expired",
-      "legal_status_normalized": "expired",
-      "matched_keywords": [
-        "quantum sensing"
-      ],
-      "parent_applications": [],
-      "patent_number": null,
-      "priority": "critical",
-      "priority_date": "",
-      "priority_numbers": [],
-      "publication_date": null,
-      "publication_number": null,
-      "query": "Quantum Networking and Sensing Patents",
-      "score": 100,
-      "significance_factors": [
-        "strategic domain relevance +44",
-        "application stage +5",
-        "named assignee +3"
-      ],
-      "significance_label": "notable",
-      "source": "Quantum Networking and Sensing Patents",
-      "strategic_domains": [
-        "Quantum technology"
-      ],
-      "strategic_relevance_score": 110,
-      "strategic_significance_score": 52,
-      "summary": "Applicant: Gallium Enterprises Pty Ltd",
-      "title": "HIGH PEAK POWER AND CONTINUOUS WAVE TUNABLE GAN LASERS FOR QUANTUM COMPUTING AND QUANTUM SENSING APPLICATIONS",
-      "tracking_type": "automated",
-      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/63750272/application-data"
     }
   ],
   "ranking": "Strategic significance first, combining domain relevance, document stage, legal status, citation evidence, family depth, recency, and assignee attribution. Evidence score and publication date break ties.",
   "source": "Curated patent portfolio and USPTO Open Data Portal Patent File Wrapper metadata",
   "source_note": "Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.",
   "summary": {
-    "active_or_pending": 213,
+    "active_or_pending": 214,
     "applications": 240,
     "automated_total": 248,
     "curated_total": 2,
-    "families": 271,
+    "families": 272,
     "grants": 10,
-    "last_30_days": 56,
+    "last_30_days": 57,
     "latest_publication_date": "2026-09-24",
     "status_known": 215,
     "total": 250,
     "unique_assignees": 150,
     "with_citations": 0
   },
-  "updated_at": "2026-09-29T03:38:05.351699+00:00",
+  "updated_at": "2026-09-30T03:25:02.178606+00:00",
   "version": 4
 }

@@ -83,7 +83,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 29,
+      "evidence_count": 30,
       "first_party_evidence_count": 0,
       "name": "Infleqtion",
       "priority": "medium",
@@ -236,8 +236,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 9,
-      "first_party_evidence_count": 7,
+      "evidence_count": 12,
+      "first_party_evidence_count": 10,
       "name": "Cloudflare",
       "priority": "high",
       "status": "covered",
@@ -894,7 +894,7 @@
       "prior_count": 1,
       "priority": "critical",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware",
@@ -1504,11 +1504,11 @@
       "first_seen": "2026-07-07",
       "historical_evidence_count": 20,
       "latest_seen": "2026-09-22",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "QuSecure",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -1881,7 +1881,7 @@
       "latest_seen": "2026-09-19",
       "momentum": "declining",
       "name": "IBM",
-      "prior_count": 4,
+      "prior_count": 3,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -2336,11 +2336,11 @@
       "first_seen": "2025-07-24",
       "historical_evidence_count": 12,
       "latest_seen": "2026-09-22",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Keyfactor",
-      "prior_count": 0,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2634,11 +2634,11 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-24",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "IonQ",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -3350,14 +3350,181 @@
       "latest_seen": "2026-09-28",
       "momentum": "rising",
       "name": "Cisco",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware",
         "Quantum Networking"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 12,
+      "evidence": [
+        {
+          "date": "2026-09-29",
+          "key": "https://blog.cloudflare.com/pq-ca-with-mtcs",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 69,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+          "url": "https://blog.cloudflare.com/pq-ca-with-mtcs"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://blog.cloudflare.com/cloudflare-certificate-authority",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 47,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Building a certificate authority for the whole Internet",
+          "url": "https://blog.cloudflare.com/cloudflare-certificate-authority"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://blog.cloudflare.com/ipsec-downgrade-protection",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 47,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Preventing quantum downgrade attacks against IPsec",
+          "url": "https://blog.cloudflare.com/ipsec-downgrade-protection"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://blog.cloudflare.com/post-quantum-dnssec-1111",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 144,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+          "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://blog.cloudflare.com/automatic-key-exchange-for-origins",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 69,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+          "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins"
+        },
+        {
+          "date": "2026-08-11",
+          "key": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government",
+          "report": "2026-08/2026-08-11-digest.md",
+          "score": 100,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "Cloudflare achieves quantum-secure FedRAMP High for U.S. government work",
+          "url": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government"
+        },
+        {
+          "date": "2026-08-10",
+          "key": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high",
+          "report": "2026-08/2026-08-10-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Cloudflare Expands Quantum-Safe Government Security Platform With FedRAMP High Authorization",
+          "url": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high"
+        },
+        {
+          "date": "2026-08-06",
+          "key": "https://blog.cloudflare.com/mcp-v2",
+          "report": "2026-08/2026-08-06-digest.md",
+          "score": 26,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The next generation of MCP",
+          "url": "https://blog.cloudflare.com/mcp-v2"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://blog.cloudflare.com/smaller-faster-safer-models",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 22,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+          "url": "https://blog.cloudflare.com/smaller-faster-safer-models"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 55,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post-quantum authentication to origins is now supported",
+          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
+        },
+        {
+          "date": "2026-07-09",
+          "key": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
+          "report": "2026-07/2026-07-09-digest.md",
+          "score": 139,
+          "source": "Cloudflare Post-Quantum Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why we cannot wait for better post-quantum signature algorithms",
+          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://blog.cloudflare.com/post-quantum-eo-2026",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 50,
+          "source": "Cloudflare Post-Quantum Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
+          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
+        }
+      ],
+      "evidence_count": 12,
+      "first_seen": "2026-06-23",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-09-29",
+      "momentum": "rising",
+      "name": "Cloudflare",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 3,
+      "status": "active",
+      "themes": [
+        "AI Security",
+        "PQC / Crypto Agility",
+        "Standards / Government"
       ],
       "type": "company"
     },
@@ -3491,9 +3658,9 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-15",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Quantinuum",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -3501,137 +3668,6 @@
         "PQC / Crypto Agility",
         "QEC / Fault Tolerance",
         "Quantum Hardware"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 9,
-      "evidence": [
-        {
-          "date": "2026-09-10",
-          "key": "https://blog.cloudflare.com/post-quantum-dnssec-1111",
-          "report": "2026-09/2026-09-10-digest.md",
-          "score": 144,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
-          "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111"
-        },
-        {
-          "date": "2026-09-08",
-          "key": "https://blog.cloudflare.com/automatic-key-exchange-for-origins",
-          "report": "2026-09/2026-09-08-digest.md",
-          "score": 69,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
-          "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins"
-        },
-        {
-          "date": "2026-08-11",
-          "key": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government",
-          "report": "2026-08/2026-08-11-digest.md",
-          "score": 100,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Standards / Government"
-          ],
-          "title": "Cloudflare achieves quantum-secure FedRAMP High for U.S. government work",
-          "url": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government"
-        },
-        {
-          "date": "2026-08-10",
-          "key": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high",
-          "report": "2026-08/2026-08-10-digest.md",
-          "score": 100,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Cloudflare Expands Quantum-Safe Government Security Platform With FedRAMP High Authorization",
-          "url": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high"
-        },
-        {
-          "date": "2026-08-06",
-          "key": "https://blog.cloudflare.com/mcp-v2",
-          "report": "2026-08/2026-08-06-digest.md",
-          "score": 26,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The next generation of MCP",
-          "url": "https://blog.cloudflare.com/mcp-v2"
-        },
-        {
-          "date": "2026-08-03",
-          "key": "https://blog.cloudflare.com/smaller-faster-safer-models",
-          "report": "2026-08/2026-08-03-digest.md",
-          "score": 22,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "AI Security"
-          ],
-          "title": "Smaller, faster, safer: running Kimi and GLM at scale",
-          "url": "https://blog.cloudflare.com/smaller-faster-safer-models"
-        },
-        {
-          "date": "2026-07-29",
-          "key": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
-          "report": "2026-07/2026-07-29-digest.md",
-          "score": 55,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Post-quantum authentication to origins is now supported",
-          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
-        },
-        {
-          "date": "2026-07-09",
-          "key": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
-          "report": "2026-07/2026-07-09-digest.md",
-          "score": 139,
-          "source": "Cloudflare Post-Quantum Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Why we cannot wait for better post-quantum signature algorithms",
-          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
-        },
-        {
-          "date": "2026-06-23",
-          "key": "https://blog.cloudflare.com/post-quantum-eo-2026",
-          "report": "2026-06/2026-06-23-digest.md",
-          "score": 50,
-          "source": "Cloudflare Post-Quantum Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
-          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
-        }
-      ],
-      "evidence_count": 9,
-      "first_seen": "2026-06-23",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-09-10",
-      "momentum": "stable",
-      "name": "Cloudflare",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
-      "themes": [
-        "AI Security",
-        "PQC / Crypto Agility",
-        "Standards / Government"
       ],
       "type": "company"
     },
@@ -3827,11 +3863,11 @@
       "first_seen": "2025-06-04",
       "historical_evidence_count": 6,
       "latest_seen": "2026-09-22",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "QuEra",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "Quantum Hardware",
@@ -4065,7 +4101,7 @@
       "latest_seen": "2026-09-17",
       "momentum": "declining",
       "name": "PQShield",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5066,9 +5102,9 @@
       "current_evidence_count": 3,
       "evidence": [
         {
-          "date": "2026-09-18",
+          "date": "2026-09-29",
           "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-09/2026-09-18-digest.md",
+          "report": "2026-09/2026-09-29-digest.md",
           "score": 67,
           "source": "Thales Cybersecurity Blog",
           "themes": [
@@ -5105,13 +5141,13 @@
       "evidence_count": 3,
       "first_seen": "2026-08-04",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-18",
-      "momentum": "declining",
+      "latest_seen": "2026-09-29",
+      "momentum": "rising",
       "name": "Thales",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -5574,11 +5610,11 @@
       "first_seen": "2026-09-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-22",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Microsoft Quantum",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "Quantum Software / Tooling"
@@ -5626,8 +5662,20 @@
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 29,
+      "current_evidence_count": 30,
       "evidence": [
+        {
+          "date": "2026-09-29",
+          "key": "https://thequantuminsider.com/2026/09/29/infleqtion-riverlane-quantum-error-correction",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 52,
+          "source": "The Quantum Insider",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Infleqtion and Riverlane Partner on Quantum Error Correction",
+          "url": "https://thequantuminsider.com/2026/09/29/infleqtion-riverlane-quantum-error-correction"
+        },
         {
           "date": "2026-09-24",
           "key": "https://thequantuminsider.com/2026/09/24/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer",
@@ -5977,15 +6025,15 @@
           "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
         }
       ],
-      "evidence_count": 29,
+      "evidence_count": 30,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-24",
+      "latest_seen": "2026-09-29",
       "momentum": "rising",
       "name": "Infleqtion",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -6630,9 +6678,9 @@
       "first_seen": "2026-09-15",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-15",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Entrust",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "medium",
       "recent_count": 0,
       "status": "quiet",
@@ -7462,11 +7510,11 @@
       "first_seen": "2025-07-24",
       "historical_evidence_count": 27,
       "latest_seen": "2026-09-22",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Crypto-agility",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -7481,8 +7529,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 32,
+      "current_evidence_count": 33,
       "evidence": [
+        {
+          "date": "2026-09-29",
+          "key": "https://thequantuminsider.com/2026/09/29/infleqtion-riverlane-quantum-error-correction",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 52,
+          "source": "The Quantum Insider",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Infleqtion and Riverlane Partner on Quantum Error Correction",
+          "url": "https://thequantuminsider.com/2026/09/29/infleqtion-riverlane-quantum-error-correction"
+        },
         {
           "date": "2026-09-24",
           "key": "https://quantumcomputingreport.com/patenting-quantum-computing-innovations-part-3-implementing-a-logical-qubit-in-a-surface-code",
@@ -7892,13 +7952,13 @@
           "url": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/"
         }
       ],
-      "evidence_count": 33,
+      "evidence_count": 34,
       "first_seen": "2026-01-13",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-09-24",
+      "latest_seen": "2026-09-29",
       "momentum": "declining",
       "name": "Quantum error correction",
-      "prior_count": 4,
+      "prior_count": 3,
       "priority": "critical",
       "recent_count": 2,
       "status": "active",
@@ -8282,11 +8342,11 @@
       "first_seen": "2025-09-10",
       "historical_evidence_count": 2,
       "latest_seen": "2026-09-24",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Logical qubits",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 4,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -8387,7 +8447,7 @@
       "prior_count": 1,
       "priority": "critical",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -8833,7 +8893,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Networking"
       ],
@@ -9174,6 +9234,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-09-29T03:44:42.922939+00:00",
+  "updated_at": "2026-09-30T03:30:03.937461+00:00",
   "version": 2
 }

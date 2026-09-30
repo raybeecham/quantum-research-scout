@@ -2,12 +2,12 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-29T03:38:05.351699+00:00_
+_Updated 2026-09-30T03:25:02.178606+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **31**
-- Added / changed / resolved: **4 / 0 / 27**
+- Material changes: **40**
+- Added / changed / resolved: **13 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
@@ -18,10 +18,19 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- **15--PANEL,STRUCTURAL,AI** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view))
-- **15--PANEL,STRUCTURAL,AI** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION ([evidence](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view))
-- **15--PANEL,STRUCTURAL,AI** — reported amount: 328866.0 ([evidence](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view))
-- **15--PANEL,STRUCTURAL,AI** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view))
+- **HITACHI HIGH-TECH AMERICA, INC.** — has related patent: — ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/19456833/application-data))
+- **17--RESETTING DEVICE,AI** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view))
+- **17--RESETTING DEVICE,AI** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT ([evidence](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view))
+- **17--RESETTING DEVICE,AI** — reported amount: 1741398.0 ([evidence](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view))
+- **17--RESETTING DEVICE,AI** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view))
+- **Cybersecurity Managment Support Services** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view))
+- **Cybersecurity Managment Support Services** — awarding agency: TRANSPORTATION, DEPARTMENT OF.FEDERAL HIGHWAY ADMINISTRATION.693JJ3 ACQUISITION AND GRANTS MGT ([evidence](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view))
+- **Cybersecurity Managment Support Services** — reported amount: 758088.88 ([evidence](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view))
+- **Cybersecurity Managment Support Services** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view))
+- **66--SENSOR,AMBIENT TEMPERATURE** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view))
+- **66--SENSOR,AMBIENT TEMPERATURE** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION ([evidence](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view))
+- **66--SENSOR,AMBIENT TEMPERATURE** — reported amount: 329313.6 ([evidence](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view))
+- **66--SENSOR,AMBIENT TEMPERATURE** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view))
 
 ## Superseded claims
 

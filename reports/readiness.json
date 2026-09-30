@@ -1238,9 +1238,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 6,
+      "evidence_count": 7,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-09-10",
+      "latest_evidence_at": "2026-09-29",
       "name": "Cloudflare",
       "priority": "high",
       "source_count": 3,
@@ -1248,6 +1248,21 @@
       "stage_label": "Awareness",
       "stage_rank": 1,
       "supporting_evidence": [
+        {
+          "date": "2026-09-29",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cloudflare Blog",
+          "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+          "url": "https://blog.cloudflare.com/pq-ca-with-mtcs"
+        },
         {
           "date": "2026-09-10",
           "date_confidence": "unknown",
@@ -1996,6 +2011,6 @@
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-09-29T03:44:43.608298+00:00",
+  "updated_at": "2026-09-30T03:30:04.321911+00:00",
   "version": 1
 }
