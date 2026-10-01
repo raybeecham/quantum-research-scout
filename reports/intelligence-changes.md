@@ -2,12 +2,12 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-09-30T03:25:02.178606+00:00_
+_Updated 2026-10-01T03:31:08.575959+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **40**
-- Added / changed / resolved: **13 / 0 / 27**
+- Material changes: **90**
+- Added / changed / resolved: **63 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
@@ -18,19 +18,56 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- **HITACHI HIGH-TECH AMERICA, INC.** — has related patent: — ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/19456833/application-data))
-- **17--RESETTING DEVICE,AI** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view))
-- **17--RESETTING DEVICE,AI** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT ([evidence](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view))
-- **17--RESETTING DEVICE,AI** — reported amount: 1741398.0 ([evidence](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view))
-- **17--RESETTING DEVICE,AI** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view))
-- **Cybersecurity Managment Support Services** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view))
-- **Cybersecurity Managment Support Services** — awarding agency: TRANSPORTATION, DEPARTMENT OF.FEDERAL HIGHWAY ADMINISTRATION.693JJ3 ACQUISITION AND GRANTS MGT ([evidence](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view))
-- **Cybersecurity Managment Support Services** — reported amount: 758088.88 ([evidence](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view))
-- **Cybersecurity Managment Support Services** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view))
-- **66--SENSOR,AMBIENT TEMPERATURE** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view))
-- **66--SENSOR,AMBIENT TEMPERATURE** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION ([evidence](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view))
-- **66--SENSOR,AMBIENT TEMPERATURE** — reported amount: 329313.6 ([evidence](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view))
-- **66--SENSOR,AMBIENT TEMPERATURE** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view))
+- **AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-))
+- **AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT** — awarding agency: Department of Health and Human Services ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-))
+- **AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT** — reported amount: 250000.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-))
+- **AI Forge** — executes through: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-))
+- **AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-))
+- **AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-))
+- **AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT** — awarding agency: USAspending · AI Forge ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-))
+- **AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT** — reported amount: 250.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-))
+- **AI Forge** — executes through: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-))
+- **PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_70NANB26H385_013))
+- **PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/ASST_NON_70NANB26H385_013))
+- **PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...** — reported amount: 200000.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_70NANB26H385_013))
+- **PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_70NANB26H385_013))
+- **PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D142_013))
+- **PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D142_013))
+- **PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...** — reported amount: 4000000.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D142_013))
+- **PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D142_013))
+- **PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013))
+- **PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013))
+- **PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...** — reported amount: 1031000.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013))
+- **PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013))
+- **New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view))
+- **New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK** — set aside: No Set aside used ([evidence](https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view))
+- **New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK ([evidence](https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view))
+- **New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK** — reported amount: 47762021.56 ([evidence](https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view))
+- **New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view))
+- **TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732))
+- **TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...** — awarding agency: Department of Homeland Security ([evidence](https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732))
+- **TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...** — reported amount: 26688060.78 ([evidence](https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732))
+- **TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732))
+- **PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D230_013))
+- **PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D230_013))
+- **PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...** — reported amount: 1600000.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D230_013))
+- **PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D230_013))
+- **ACCELERATE ARTIFICIAL INTELLIGENCE (AI) ADOPTION IN HEALTHCARE** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571MN26C00041_7571_-NONE-_-NONE-))
+- **ACCELERATE ARTIFICIAL INTELLIGENCE (AI) ADOPTION IN HEALTHCARE** — awarding agency: Department of Health and Human Services ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571MN26C00041_7571_-NONE-_-NONE-))
+- **ACCELERATE ARTIFICIAL INTELLIGENCE (AI) ADOPTION IN HEALTHCARE** — reported amount: 1999717.4 ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571MN26C00041_7571_-NONE-_-NONE-))
+- **ACCELERATE ARTIFICIAL INTELLIGENCE (AI) ADOPTION IN HEALTHCARE** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571MN26C00041_7571_-NONE-_-NONE-))
+- **PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ENHANCE THE SECURE HIGH-PERFORMANCE COMPUTING (HPC) AND RESEARCH COMPUTING INFRASTRUCTURE AT MISSISSIPPI STATE UNIVERSITY (MSU). THE PRO...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D144_013))
+- **PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ENHANCE THE SECURE HIGH-PERFORMANCE COMPUTING (HPC) AND RESEARCH COMPUTING INFRASTRUCTURE AT MISSISSIPPI STATE UNIVERSITY (MSU). THE PRO...** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D144_013))
+- **PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ENHANCE THE SECURE HIGH-PERFORMANCE COMPUTING (HPC) AND RESEARCH COMPUTING INFRASTRUCTURE AT MISSISSIPPI STATE UNIVERSITY (MSU). THE PRO...** — reported amount: 1000000.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D144_013))
+- **PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ENHANCE THE SECURE HIGH-PERFORMANCE COMPUTING (HPC) AND RESEARCH COMPUTING INFRASTRUCTURE AT MISSISSIPPI STATE UNIVERSITY (MSU). THE PRO...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_60NANB26D144_013))
+- **Quantum Laser Communication Terminals** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/31fc7c1ef3df4cbca9f09ea4dfb7e88a/view))
+- **Quantum Laser Communication Terminals** — awarding agency: DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE RESEARCH LABORATORY.FA8750 AFRL RIK ([evidence](https://sam.gov/workspace/contract/opp/31fc7c1ef3df4cbca9f09ea4dfb7e88a/view))
+- **Quantum Laser Communication Terminals** — reported amount: 1294896.0 ([evidence](https://sam.gov/workspace/contract/opp/31fc7c1ef3df4cbca9f09ea4dfb7e88a/view))
+- **Quantum Laser Communication Terminals** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/31fc7c1ef3df4cbca9f09ea4dfb7e88a/view))
+- **PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_70NANB26H386_013))
+- **PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,...** — awarding agency: Department of Commerce ([evidence](https://www.usaspending.gov/award/ASST_NON_70NANB26H386_013))
+- **PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,...** — reported amount: 199889.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_70NANB26H386_013))
+- **PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_70NANB26H386_013))
 
 ## Superseded claims
 

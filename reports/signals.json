@@ -2365,15 +2365,6 @@
         },
         {
           "date": "2026-09-29",
-          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-09/2026-09-29-digest.md",
-          "score": 67,
-          "source": "Thales Cybersecurity Blog",
-          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
-        },
-        {
-          "date": "2026-09-29",
           "key": "https://blog.cloudflare.com/pq-ca-with-mtcs",
           "report": "2026-09/2026-09-29-digest.md",
           "score": 69,
@@ -2389,12 +2380,75 @@
           "source": "USAspending \u00b7 Quantum Technologies",
           "title": "ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.",
           "url": "https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://pqshield.com/meet-the-team-morgane-guearreau",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 47,
+          "source": "PQShield",
+          "title": "Meet the Team \u2013 Morgane Guerreau",
+          "url": "https://pqshield.com/meet-the-team-morgane-guearreau"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 67,
+          "source": "Thales Cybersecurity Blog",
+          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://www.usaspending.gov/award/ASST_NON_2548947_049",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Post-Quantum Cybersecurity",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1:QUANTUM-READY AND AI-ENABLED BY DESIGN: RESILIENT AND DEPLOYABLE NEXT-GEN CELLULAR NETWORKS -THIS COLLABORATIVE PROJECT AIMS TO IMPROVE THE...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2548947_049"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://www.usaspending.gov/award/ASST_NON_2629633_049",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Post-Quantum Cybersecurity",
+          "title": "CONFERENCE: QUANTUM ARTIFICIAL INTELLIGENCE FOR ENGINEERING EDUCATION -THIS PROJECT SERVES THE NATIONAL INTEREST BY BUILDING A COMMUNITY OF EDUCATORS AND RESEARCHERS IN ENGINEERIN...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2629633_049"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Post-Quantum Cybersecurity",
+          "title": "PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://www.usaspending.gov/award/ASST_NON_60NANB26D083_013",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Post-Quantum Cybersecurity",
+          "title": "PURPOSE:THE BUSINESS DEVELOPMENT BOARD FOUNDATION OF PALM BEACH COUNTY (BDBF) PROPOSES A COORDINATED 12-MONTH INITIATIVE TO STRENGTHEN PALM BEACH COUNTY'S EMERGING QUANTUM TECHNOL...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D083_013"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://www.usaspending.gov/award/ASST_NON_2628847_049",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Post-Quantum Cybersecurity",
+          "title": "TRAVEL: NSF STUDENT TRAVEL GRANT FOR THE 2026 ACM CONFERENCE ON POST-QUANTUM AND QUANTUM-BASED SECURITY (PQQS 2026) -THE TRANSITION TO SECURITY TECHNOLOGIES THAT REMAIN TRUSTWORTH...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2628847_049"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-09-29",
+      "latest_seen": "2026-09-30",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -2403,8 +2457,8 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 18,
-      "recent_count": 17,
+      "prior_count": 19,
+      "recent_count": 21,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -3048,12 +3102,21 @@
           "source": "The Quantum Insider",
           "title": "Infleqtion and Riverlane Partner on Quantum Error Correction",
           "url": "https://thequantuminsider.com/2026/09/29/infleqtion-riverlane-quantum-error-correction"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://quantum-journal.org/papers/q-2026-09-30-2219",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 74,
+          "source": "Quantum Journal",
+          "title": "Performance of the spin qubit shuttling architecture for a surface code implementation",
+          "url": "https://quantum-journal.org/papers/q-2026-09-30-2219"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-09-29",
+      "latest_seen": "2026-09-30",
       "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
@@ -3063,7 +3126,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 5,
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "watching"
     },
     "Quantum Hardware": {
@@ -5822,12 +5885,21 @@
           "source": "The Quantum Insider",
           "title": "Quandela Seeks South Korean Partners for Photonic Quantum Computing",
           "url": "https://thequantuminsider.com/2026/09/28/quandela-south-korea-photonic-quantum-computing"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://thequantuminsider.com/2026/09/30/quantlase-tests-photonic-computing-platform-on-financial-market-data",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 28,
+          "source": "The Quantum Insider",
+          "title": "QuantLase Tests Photonic Computing Platform on Financial Market Data",
+          "url": "https://thequantuminsider.com/2026/09/30/quantlase-tests-photonic-computing-platform-on-financial-market-data"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-09-28",
+      "latest_seen": "2026-09-30",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -5836,8 +5908,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 14,
-      "recent_count": 11,
+      "prior_count": 8,
+      "recent_count": 10,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -8384,23 +8456,41 @@
           "source": "USAspending \u00b7 Quantum Technologies",
           "title": "QUANTUM SOFTWARE LICENSES AND SUPPORT FOR BEP VIDEO MANAGEMENT SYSTEM.",
           "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB26F00054_2041_47QTCA23D001S_4732"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_47PH5426P0010_4740_-NONE-_-NONE-",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "title": "LUTRON QUANTUM SOFTWARE UPGRADE",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_47PH5426P0010_4740_-NONE-_-NONE-"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_W911S625CA006_9700_-NONE-_-NONE-",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "title": "QUANTUM SCALAR SOFTWARE FOR TAPE STORAGE LIBRARY",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_W911S625CA006_9700_-NONE-_-NONE-"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-09-28",
-      "momentum": "rising",
+      "latest_seen": "2026-09-30",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
         "The Quantum Insider",
-        "AWS Quantum Technologies Blog",
-        "Quantum Computing Report"
+        "USAspending \u00b7 Quantum Technologies",
+        "AWS Quantum Technologies Blog"
       ],
-      "prior_count": 2,
+      "prior_count": 4,
       "recent_count": 4,
-      "status": "actionable"
+      "status": "watching"
     },
     "Standards / Government": {
       "confidence": "high",
@@ -8953,25 +9043,61 @@
           "source": "USAspending \u00b7 Quantum Technologies",
           "title": "STTR PHASE I QUANTUM-ENGINEERED MULTISPECTRAL ARRAY PLATFORM FOR TRACE NEUTRAL GAS MONITORING",
           "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0278_8000_-NONE-_-NONE-"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_15BH0N26P00000061_1540_-NONE-_-NONE-",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "title": "1ST AND 2ND QUARTER SUBSISTENCE FDC HONOLULU EO 14398",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_15BH0N26P00000061_1540_-NONE-_-NONE-"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://www.usaspending.gov/award/ASST_NON_2628842_049",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Autonomy and Sensing",
+          "title": "CONFERENCE: NSF WORKSHOP ON QUANTUM TECHNOLOGIES FOR CYBER-PHYSICAL SYSTEMS -THIS PROPOSAL FOCUSES ON THE INTERSECTION OF CYBER-PHYSICAL SYSTEMS (CPS) AND QUANTUM INFORMATION SCIE...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2628842_049"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://www.usaspending.gov/award/ASST_NON_60NANB26D142_013",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Advanced Computing",
+          "title": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D142_013"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://www.usaspending.gov/award/ASST_NON_70NANB26H385_013",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Cybersecurity",
+          "title": "PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H385_013"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-09-29",
+      "latest_seen": "2026-09-30",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
         "QuantumNews.ai",
-        "Quantum Zeitgeist",
         "USAspending \u00b7 Quantum Technologies",
+        "Quantum Zeitgeist",
         "USAspending \u00b7 Advanced Computing"
       ],
       "prior_count": 6,
-      "recent_count": 5,
+      "recent_count": 8,
       "status": "watching"
     }
   },
-  "updated_at": "2026-09-30T03:30:03.929942+00:00",
+  "updated_at": "2026-10-01T03:39:12.628689+00:00",
   "version": 1
 }

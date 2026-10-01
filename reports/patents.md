@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-09-30T03:25:02.178606+00:00_
+_Updated 2026-10-01T03:31:08.575959+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -14,10 +14,10 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Curated notable patents: **2**
 - Automated recent discoveries: **248**
 - Published in the last 30 days: **57**
-- Unique named assignees: **150**
-- Patent families: **272**
+- Unique named assignees: **148**
+- Patent families: **271**
 - Applications / grants: **240 / 10**
-- Known legal status: **215 of 250**
+- Known legal status: **217 of 250**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -202,7 +202,9 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [QUBIT INITIALISATION METHOD AND DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19497230/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Diraq Pty Ltd | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [Large-scale multi-qubit trapped-ion gates](https://data.uspto.gov/patent-file-wrapper/search/details/19489905/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Quantum Art Ltd., YEDA RESEARCH AND DEVELOPMENT CO. LTD. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
+| [DEVICE AND METHOD FOR UPDATING NETWORK INFORMATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147505/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [DEVICE AND METHOD FOR CARRYING OUT LINK SET CONFIGURATION-BASED QUANTUM RESOURCE ALLOCATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147275/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
+| [APPARATUS AND METHOD FOR PERFORMING QUANTUM STATE MODULATION ON BASIS OF QUANTUM SECURE DIRECT COMMUNICATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19128044/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [JOINT MODULAR MULTIPLICATIVE INVERSE OPERATIONS FOR ACTIVE VOLUME QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19489704/application-data)<br><small>Publication number unavailable</small> | Application · Pending | PsiQuantum, Corp. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [METHOD AND SYSTEM FOR UNLEARNING OF LARGE LANGUAGE MODEL, AND METHOD FOR CONTROLLING UNLEARNING SYSTEM OF LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19546288/application-data)<br><small>US20260187416A1</small> | Application · Pending | LG MANAGEMENT DEVELOPMENT INSTITUTE CO., LTD. | 2 member(s) · 0 citation(s) | **60 · HIGH** |
 | [METHOD AND SYSTEM FOR UNLEARNING OF LARGE LANGUAGE MODEL, AND METHOD FOR CONTROLLING UNLEARNING SYSTEM OF LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19543874/application-data)<br><small>US20260186688A1</small> | Application · Pending | LG MANAGEMENT DEVELOPMENT INSTITUTE CO., LTD. | 2 member(s) · 0 citation(s) | **60 · HIGH** |
@@ -308,5 +310,3 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [SUPERCONDUCTING QUBIT DEVICES AND METHODS FOR FABRICATING SUPERCONDUCTING QUBIT DEVICES](https://data.uspto.gov/patent-file-wrapper/search/details/19495471/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [QUANTUM PROCESSOR CHIP AND MULTI-LAYER PHOTONIC ROUTING NETWORK](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010838/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | HOMATCH.AI | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
 | [QUANTUM COMPUTING SYSTEMS WITH SUPERCONDUCTING QUANTUM BIT CIRCUITRY AND SPATIALLY DISTRIBUTED HYBRID CRYOGENIC ELECTRONIC CONTROL ARCHITECTURE](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026010670/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | SEEQC, INC. | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
-| [MULTICORE OPTICAL FIBERS SUITABLE FOR SIMULTANEOUS DATA TRANSMISSION AND QUANTUM COMMUNICATION](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2024050681/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CORNING INCORPORATED | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |
-| [HIGH-PRECISION CHEMICAL QUANTUM SENSING IN FLOWING MONODISPERSE MICRODROPLETS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025026280/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | THE REGENTS OF THE UNIVERSITY OF CALIFORNIA | 1 member(s) · 0 citation(s) | **52 · NOTABLE** |

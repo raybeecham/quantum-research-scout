@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-09-30 03:30 UTC_
+_Updated 2026-10-01 03:39 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
@@ -12,12 +12,12 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-09-17 | 21 |
 | Quantum Sensing | ↗️ rising (5 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-29 | 50 |
-| Quantum Software / Tooling | ↗️ rising (4 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-09-28 | 92 |
-| PQC / Crypto Agility | ➡️ stable (17 vs 18) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-29 | 242 |
-| QEC / Fault Tolerance | ↘️ declining (2 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-09-29 | 71 |
-| Quantum Hardware | ➡️ stable (11 vs 14) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-28 | 306 |
+| PQC / Crypto Agility | ➡️ stable (21 vs 19) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-09-30 | 248 |
+| QEC / Fault Tolerance | ↘️ declining (3 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-09-30 | 72 |
+| Quantum Hardware | ➡️ stable (10 vs 8) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-30 | 307 |
 | Quantum Networking | ➡️ stable (9 vs 10) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-28 | 136 |
-| Standards / Government | ➡️ stable (5 vs 6) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-09-29 | 61 |
+| Quantum Software / Tooling | ➡️ stable (4 vs 4) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-09-30 | 94 |
+| Standards / Government | ➡️ stable (8 vs 6) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-09-30 | 65 |
 
 ## AI Security
 
@@ -41,49 +41,38 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-09-25 — [Chinese Scientists Say Compact Quantum Magnetometer Tracks Hidden Targets in Field Tests](https://thequantuminsider.com/2026/09/25/chinese-scientists-say-compact-quantum-magnetometer-tracks-hidden-targets-in-field-tests) (The Quantum Insider, score 17)
   - 2026-09-24 — [Infleqtion Achieves 30 Entangled Logical Qubits on Its Sqale Quantum Computer](https://thequantuminsider.com/2026/09/24/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer) (The Quantum Insider, score 93)
 
-## Quantum Software / Tooling
-
-- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, AWS Quantum Technologies Blog, Quantum Computing Report
-- Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
-- Recent supporting evidence:
-  - 2026-09-28 — [QUANTUM SOFTWARE LICENSES AND SUPPORT FOR BEP VIDEO MANAGEMENT SYSTEM.](https://www.usaspending.gov/award/CONT_AWD_2031ZB26F00054_2041_47QTCA23D001S_4732) (USAspending · Quantum Technologies, score 100)
-  - 2026-09-26 — [ETSI Identifies Technical Limitations and Implementation Vulnerabilities in Quantum Random Number Generators (ETSI TR 104 171)](https://quantumcomputingreport.com/etsi-identifies-technical-limitations-and-implementation-vulnerabilities-in-quantum-random-number-generators-etsi-tr-104-171) (Quantum Computing Report, score 92)
-  - 2026-09-23 — [Demonstrating genuine multipartite non-locality on quantum processors using Amazon Braket](https://aws.amazon.com/blogs/quantum-computing/demonstrating-genuine-multipartite-non-locality-on-quantum-processors-using-amazon-braket) (AWS Quantum Technologies Blog, score 33)
-  - 2026-09-22 — [Microsoft Quantum, QOLAB Propose Higher Bar For ‘Scalable’ Logical Qubits](https://thequantuminsider.com/2026/09/22/microsoft-quantum-qolab-propose-higher-bar-for-scalable-logical-qubits) (The Quantum Insider, score 92)
-  - 2026-09-19 — [IBM Research Demonstrates Hybrid Spacetime PEC to Reduce Error-Mitigation Sampling Overhead by 63×](https://quantumcomputingreport.com/ibm-research-demonstrates-hybrid-spacetime-pec-to-reduce-error-mitigation-sampling-overhead-by-63x) (Quantum Computing Report, score 46)
-
 ## PQC / Crypto Agility
 
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
-  - 2026-09-29 — [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.](https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100) (USAspending · Quantum Technologies, score 100)
-  - 2026-09-29 — [Building a post-quantum certificate authority with Merkle Tree Certificates](https://blog.cloudflare.com/pq-ca-with-mtcs) (Cloudflare Blog, score 69)
-  - 2026-09-29 — [HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next](https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks) (Thales Cybersecurity Blog, score 67)
-  - 2026-09-29 — [Project Eleven Acquires Riva Labs for Post-Quantum Security](https://thequantuminsider.com/2026/09/29/project-eleven-acquires-riva-labs-post-quantum-security) (The Quantum Insider, score 55)
-  - 2026-09-29 — [Building a certificate authority for the whole Internet](https://blog.cloudflare.com/cloudflare-certificate-authority) (Cloudflare Blog, score 47)
+  - 2026-09-30 — [COLLABORATIVE RESEARCH: VINES: TRACK 1:QUANTUM-READY AND AI-ENABLED BY DESIGN: RESILIENT AND DEPLOYABLE NEXT-GEN CELLULAR NETWORKS -THIS COLLABORATIVE PROJECT AIMS TO IMPROVE THE...](https://www.usaspending.gov/award/ASST_NON_2548947_049) (USAspending · Post-Quantum Cybersecurity, score 100)
+  - 2026-09-30 — [CONFERENCE: QUANTUM ARTIFICIAL INTELLIGENCE FOR ENGINEERING EDUCATION -THIS PROJECT SERVES THE NATIONAL INTEREST BY BUILDING A COMMUNITY OF EDUCATORS AND RESEARCHERS IN ENGINEERIN...](https://www.usaspending.gov/award/ASST_NON_2629633_049) (USAspending · Post-Quantum Cybersecurity, score 100)
+  - 2026-09-30 — [PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...](https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013) (USAspending · Post-Quantum Cybersecurity, score 100)
+  - 2026-09-30 — [PURPOSE:THE BUSINESS DEVELOPMENT BOARD FOUNDATION OF PALM BEACH COUNTY (BDBF) PROPOSES A COORDINATED 12-MONTH INITIATIVE TO STRENGTHEN PALM BEACH COUNTY'S EMERGING QUANTUM TECHNOL...](https://www.usaspending.gov/award/ASST_NON_60NANB26D083_013) (USAspending · Post-Quantum Cybersecurity, score 100)
+  - 2026-09-30 — [TRAVEL: NSF STUDENT TRAVEL GRANT FOR THE 2026 ACM CONFERENCE ON POST-QUANTUM AND QUANTUM-BASED SECURITY (PQQS 2026) -THE TRANSITION TO SECURITY TECHNOLOGIES THAT REMAIN TRUSTWORTH...](https://www.usaspending.gov/award/ASST_NON_2628847_049) (USAspending · Post-Quantum Cybersecurity, score 100)
 
 ## QEC / Fault Tolerance
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
 - Recent supporting evidence:
+  - 2026-09-30 — [Performance of the spin qubit shuttling architecture for a surface code implementation](https://quantum-journal.org/papers/q-2026-09-30-2219) (Quantum Journal, score 74)
   - 2026-09-29 — [Infleqtion and Riverlane Partner on Quantum Error Correction](https://thequantuminsider.com/2026/09/29/infleqtion-riverlane-quantum-error-correction) (The Quantum Insider, score 52)
   - 2026-09-24 — [Patenting Quantum Computing Innovations – Part 3: Implementing a Logical Qubit in a Surface Code](https://quantumcomputingreport.com/patenting-quantum-computing-innovations-part-3-implementing-a-logical-qubit-in-a-surface-code) (Quantum Computing Report, score 128)
   - 2026-09-22 — [IonQ Demonstrates Real-Time QEC Decoding at MegaQuOp Scale on Single Commodity CPU](https://quantumcomputingreport.com/ionq-demonstrates-real-time-qec-decoding-at-megaquop-scale-on-single-commodity-cpu) (Quantum Computing Report, score 125)
   - 2026-09-18 — [DOE Launches $215 Million Quantum Genesis Q Competition](https://thequantuminsider.com/2026/09/18/doe-215-million-quantum-genesis-q-competition) (The Quantum Insider, score 114)
-  - 2026-09-18 — [Riverlane Establishes U.S. Headquarters in Maryland’s Discovery District to Scale Real-Time QEC Deployments](https://quantumcomputingreport.com/riverlane-establishes-u-s-headquarters-in-marylands-discovery-district-to-scale-real-time-qec-deployments) (Quantum Computing Report, score 100)
 
 ## Quantum Hardware
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-09-30 — [QuantLase Tests Photonic Computing Platform on Financial Market Data](https://thequantuminsider.com/2026/09/30/quantlase-tests-photonic-computing-platform-on-financial-market-data) (The Quantum Insider, score 28)
   - 2026-09-28 — [Quandela Seeks South Korean Partners for Photonic Quantum Computing](https://thequantuminsider.com/2026/09/28/quandela-south-korea-photonic-quantum-computing) (The Quantum Insider, score 30)
   - 2026-09-28 — [Combating quantum noise with AWS: University of Washington Capstone Project](https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project) (AWS Quantum Technologies Blog, score 17)
   - 2026-09-26 — [Pasqal Reports H1 2026 Financial Results: €312.9M Post-SPAC Cash Balance, 14% Revenue Growth, and 1,000-Atom Scale](https://quantumcomputingreport.com/pasqal-reports-h1-2026-financial-results-e312-9m-post-spac-cash-balance-14-revenue-growth-and-1000-atom-scale) (Quantum Computing Report, score 44)
   - 2026-09-26 — [Sebastian Hassinger (The New Quantum Era): why neutral atoms lead the qubit race for now](https://thequantuminsider.com/2026/09/26/sebastian-hassinger-the-new-quantum-era-why-neutral-atoms-lead-the-qubit-race-for-now) (The Quantum Insider, score 40)
-  - 2026-09-26 — [MANA Reveals Atomic-Scale Rails for Guiding Superconducting Vortices](https://thequantuminsider.com/2026/09/26/mana-reveals-atomic-scale-rails-for-guiding-superconducting-vortices) (The Quantum Insider, score 28)
 
 ## Quantum Networking
 
@@ -96,13 +85,24 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-09-25 — [European Commission Approves eCAUSIS Results as Creotech Quantum Prepares QKD System for Commercial Rollout](https://quantumcomputingreport.com/european-commission-approves-ecausis-results-as-creotech-quantum-prepares-qkd-system-for-commercial-rollout) (Quantum Computing Report, score 27)
   - 2026-09-24 — [memQ Releases Open-Source Distributed Quantum Compiler](https://thequantuminsider.com/2026/09/24/memq-open-source-distributed-quantum-compiler) (The Quantum Insider, score 98)
 
+## Quantum Software / Tooling
+
+- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, USAspending · Quantum Technologies, AWS Quantum Technologies Blog
+- Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
+- Recent supporting evidence:
+  - 2026-09-30 — [LUTRON QUANTUM SOFTWARE UPGRADE](https://www.usaspending.gov/award/CONT_AWD_47PH5426P0010_4740_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
+  - 2026-09-30 — [QUANTUM SCALAR SOFTWARE FOR TAPE STORAGE LIBRARY](https://www.usaspending.gov/award/CONT_AWD_W911S625CA006_9700_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
+  - 2026-09-28 — [QUANTUM SOFTWARE LICENSES AND SUPPORT FOR BEP VIDEO MANAGEMENT SYSTEM.](https://www.usaspending.gov/award/CONT_AWD_2031ZB26F00054_2041_47QTCA23D001S_4732) (USAspending · Quantum Technologies, score 100)
+  - 2026-09-26 — [ETSI Identifies Technical Limitations and Implementation Vulnerabilities in Quantum Random Number Generators (ETSI TR 104 171)](https://quantumcomputingreport.com/etsi-identifies-technical-limitations-and-implementation-vulnerabilities-in-quantum-random-number-generators-etsi-tr-104-171) (Quantum Computing Report, score 92)
+  - 2026-09-23 — [Demonstrating genuine multipartite non-locality on quantum processors using Amazon Braket](https://aws.amazon.com/blogs/quantum-computing/demonstrating-genuine-multipartite-non-locality-on-quantum-processors-using-amazon-braket) (AWS Quantum Technologies Blog, score 33)
+
 ## Standards / Government
 
-- Organizations/sources: The Quantum Insider, QuantumNews.ai, Quantum Zeitgeist, USAspending · Quantum Technologies, USAspending · Advanced Computing
+- Organizations/sources: The Quantum Insider, QuantumNews.ai, USAspending · Quantum Technologies, Quantum Zeitgeist, USAspending · Advanced Computing
 - Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
 - Recent supporting evidence:
+  - 2026-09-30 — [1ST AND 2ND QUARTER SUBSISTENCE FDC HONOLULU EO 14398](https://www.usaspending.gov/award/CONT_AWD_15BH0N26P00000061_1540_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
+  - 2026-09-30 — [CONFERENCE: NSF WORKSHOP ON QUANTUM TECHNOLOGIES FOR CYBER-PHYSICAL SYSTEMS -THIS PROPOSAL FOCUSES ON THE INTERSECTION OF CYBER-PHYSICAL SYSTEMS (CPS) AND QUANTUM INFORMATION SCIE...](https://www.usaspending.gov/award/ASST_NON_2628842_049) (USAspending · Autonomy and Sensing, score 100)
+  - 2026-09-30 — [PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...](https://www.usaspending.gov/award/ASST_NON_60NANB26D142_013) (USAspending · Advanced Computing, score 100)
+  - 2026-09-30 — [PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...](https://www.usaspending.gov/award/ASST_NON_70NANB26H385_013) (USAspending · Cybersecurity, score 100)
   - 2026-09-29 — [SBIR PHASE I QUANTUM CAMERA FOR HIGH RESOLUTION ORBITAL DEBRIS TRACKING](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0324_8000_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
-  - 2026-09-29 — [STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0192_8000_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
-  - 2026-09-29 — [STTR PHASE I QUANTUM-ENGINEERED MULTISPECTRAL ARRAY PLATFORM FOR TRACE NEUTRAL GAS MONITORING](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0278_8000_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
-  - 2026-09-25 — [CGI Federal, DLA and UT Knoxville Study Quantum Computing for Logistics](https://thequantuminsider.com/2026/09/25/dla-ut-knoxville-applied-research-agreement) (The Quantum Insider, score 100)
-  - 2026-09-23 — [German Government Selects QUDORA-Led Consortium For €122 Million Project](https://thequantuminsider.com/2026/09/23/german-government-selects-qudora-led-consortium-for-e122-million-project) (The Quantum Insider, score 100)
