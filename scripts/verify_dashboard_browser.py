@@ -579,6 +579,11 @@ def main() -> None:
 
         page.route("**/api/lab/generate", federal_ai_reply)
         page.locator("[data-federal-question]").first.click()
+        # Earlier page loads used the static server without a lab API. Restore the
+        # connection explicitly now that the mock is installed, as a user would.
+        expect(page.locator("#lab-suggest")).to_be_disabled()
+        page.locator("#lab-reconnect").click()
+        expect(page.locator("#lab-suggest")).to_be_enabled()
         page.locator("#lab-discovery-mode").select_option("brainstorm")
         expect(page.locator("#lab-federal-context")).to_be_visible()
         assert not page.locator("#lab-consent").is_checked()
