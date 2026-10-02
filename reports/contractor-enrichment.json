@@ -1997,7 +1997,7 @@
         "Subchapter S Corporation",
         "Veteran-Owned Business"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "1M6B0",
       "checked_at": "2026-10-01T03:31:08.575959+00:00",
       "contractor_name": "REGENCY CONSULTING INC",
@@ -6020,9 +6020,9 @@
         "Non-Profit Organization",
         "Private University or College"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "1B053",
-      "checked_at": "2026-08-28T08:24:42.158568+00:00",
+      "checked_at": "2026-10-02T03:30:50.857708+00:00",
       "contractor_name": "THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK",
       "contractor_score": 29,
       "dba_name": null,
@@ -6447,9 +6447,9 @@
         "Business or Organization",
         "Non-Profit Organization"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "1D969",
-      "checked_at": "2026-09-01T02:58:55.591634+00:00",
+      "checked_at": "2026-10-02T03:30:50.857708+00:00",
       "contractor_name": "NATIONAL ACADEMY OF SCIENCES",
       "contractor_score": 29,
       "dba_name": "NATIONAL ACADEMY OF SCIENCES",
@@ -6550,7 +6550,7 @@
         "Other Not For Profit Organization",
         "State Controlled Institution of Higher Learning"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "314S6",
       "checked_at": "2026-10-01T03:31:08.575959+00:00",
       "contractor_name": "KEAN UNIVERSITY",
@@ -6604,9 +6604,9 @@
         "State Controlled Institution of Higher Learning",
         "U.S. State Government"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "1JHM5",
-      "checked_at": "2026-08-31T02:49:14.453701+00:00",
+      "checked_at": "2026-10-02T03:30:50.857708+00:00",
       "contractor_name": "FLORIDA INTERNATIONAL UNIVERSITY",
       "contractor_score": 29,
       "dba_name": null,
@@ -11647,7 +11647,7 @@
       "aliases": [
         "GENERAL ELECTRIC COMPANY"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "candidates": [
         {
           "cage_code": "28339",
@@ -11891,6 +11891,19 @@
     },
     {
       "aliases": [
+        "AUGUST SCHELL ENTERPRISES, INC."
+      ],
+      "cache_status": "run_budget_exhausted",
+      "checked_at": null,
+      "contractor_name": "AUGUST SCHELL ENTERPRISES, INC.",
+      "contractor_score": 28,
+      "identity_id": "uei:PPMBFPRXNAJ9",
+      "resolution_basis": "Queued for a future bounded enrichment batch",
+      "resolution_confidence": "unknown",
+      "resolution_status": "pending"
+    },
+    {
+      "aliases": [
         "WOODWARD, INC."
       ],
       "cache_status": "fresh",
@@ -12099,7 +12112,7 @@
       "aliases": [
         "HYPERION TECHNOLOGIES LLC"
       ],
-      "cache_status": "run_budget_exhausted",
+      "cache_status": "retained",
       "checked_at": null,
       "contractor_name": "HYPERION TECHNOLOGIES LLC",
       "contractor_score": 26,
@@ -13323,15 +13336,15 @@
   "summary": {
     "ambiguous": 7,
     "api_key_configured": true,
-    "name_only": 123,
-    "newly_resolved": 1,
+    "name_only": 124,
+    "newly_resolved": 0,
     "no_match": 1,
-    "pending": 115,
+    "pending": 116,
     "queries_remaining": 0,
     "resolved": 100,
     "tracked_contractors": 75,
     "uei_coverage_percent": 133.3
   },
-  "updated_at": "2026-10-01T03:31:08.575959+00:00",
+  "updated_at": "2026-10-02T03:30:50.857708+00:00",
   "version": 1
 }

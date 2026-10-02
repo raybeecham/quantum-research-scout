@@ -280,1078 +280,48 @@
   ],
   "added": [
     {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-83e092db8d23ecd8",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-76efce4a37b2dbd5",
-          "locator": "opportunity_status:awarded",
-          "title": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026P01822",
-        "label": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-        "node_id": "award:usaspending:75N98026P01822",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b707fcdaf2a9578c",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-838122dabb4c7241",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026P01822",
-        "label": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-        "node_id": "award:usaspending:75N98026P01822",
-        "node_type": "award"
-      },
-      "value": "Department of Health and Human Services"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-db673e3388ac42f2",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e9bae7ec0416e66c",
-          "locator": "reported_amount:250000.0",
-          "title": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026P01822",
-        "label": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-        "node_id": "award:usaspending:75N98026P01822",
-        "node_type": "award"
-      },
-      "value": 250000.0
-    },
-    {
       "authority": "analytical",
       "change_type": "added",
-      "claim_id": "claim-d590899223a9c77a",
+      "claim_id": "claim-9fb7b4c68deceea5",
       "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
+      "effective_date": null,
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
       "object": {
-        "identifier": "usaspending:75N98026P01822",
-        "label": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-        "node_id": "award:usaspending:75N98026P01822",
-        "node_type": "award"
+        "identifier": "US20260303214A1",
+        "label": "Telecom-Photon Insensitive Superconducting Qubit to Transducer Module",
+        "node_id": "patent:US20260303214A1",
+        "node_type": "patent"
       },
-      "predicate": "executes_through",
+      "predicate": "has_related_patent",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d4f3a0c27bfc9e14",
-          "locator": "executes_through:award:usaspending:75N98026P01822",
-          "title": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
+          "evidence_id": "evidence-8947423f47b74624",
+          "locator": "has_related_patent:patent:US20260303214A1",
+          "title": "Telecom-Photon Insensitive Superconducting Qubit to Transducer Module",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19631083/application-data",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "ai-forge",
-        "label": "AI Forge",
-        "node_id": "mission:ai-forge",
-        "node_type": "mission"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1eb02c909b9bd454",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": {
-        "identifier": "uei:SC8LMLWA6H51",
-        "label": "REGENCY CONSULTING INC",
-        "node_id": "recipient_or_contractor:uei:SC8LMLWA6H51",
+        "identifier": "uei:JCBMLGPE6Z71",
+        "label": "BOOZ ALLEN HAMILTON INC",
+        "node_id": "recipient_or_contractor:uei:JCBMLGPE6Z71",
         "node_type": "recipient_or_contractor"
       },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-04d5b8a5405f44bb",
-          "locator": "reported_recipient:recipient_or_contractor:uei:SC8LMLWA6H51",
-          "title": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:75N98026P01822",
-        "label": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-        "node_id": "award:usaspending:75N98026P01822",
-        "node_type": "award"
-      },
       "value": null
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-f70c2714b780a2fd",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-76efce4a37b2dbd5",
-          "locator": "opportunity_status:awarded",
-          "title": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-        "label": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-        "node_id": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-        "node_type": "award_notice"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2b43918afd73e2e1",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-25e42c22be1b8df2",
-          "locator": "awarding_agency:usaspending \u00b7 ai forge",
-          "title": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-        "label": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-        "node_id": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-        "node_type": "award_notice"
-      },
-      "value": "USAspending \u00b7 AI Forge"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3414c1348eecda15",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-04390e6023cb1c38",
-          "locator": "reported_amount:250.0",
-          "title": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-        "label": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-        "node_id": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-        "node_type": "award_notice"
-      },
-      "value": 250.0
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-c9257a762254267f",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": {
-        "identifier": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-        "label": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-        "node_id": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-        "node_type": "award_notice"
-      },
-      "predicate": "executes_through",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-38a5273ded9c9368",
-          "locator": "executes_through:award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-          "title": "AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "ai-forge",
-        "label": "AI Forge",
-        "node_id": "mission:ai-forge",
-        "node_type": "mission"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-5d34bebd346e907a",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c6b8bfbc83f5e2f2",
-          "locator": "opportunity_status:awarded",
-          "title": "PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H385_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H385",
-        "label": "PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...",
-        "node_id": "award:usaspending:70NANB26H385",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-00e193b74917118e",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5bdaf9531355a4f8",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H385_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H385",
-        "label": "PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...",
-        "node_id": "award:usaspending:70NANB26H385",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-d32303f75628eb4a",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-86eb8e2c44dc0d93",
-          "locator": "reported_amount:200000.0",
-          "title": "PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H385_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H385",
-        "label": "PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...",
-        "node_id": "award:usaspending:70NANB26H385",
-        "node_type": "award"
-      },
-      "value": 200000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a4b5be35ca89dba2",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": {
-        "identifier": "uei:Q266L2NDAVP1",
-        "label": "FLORIDA ATLANTIC UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:Q266L2NDAVP1",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8852010aeb8f2a3c",
-          "locator": "reported_recipient:recipient_or_contractor:uei:Q266L2NDAVP1",
-          "title": "PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H385_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H385",
-        "label": "PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...",
-        "node_id": "award:usaspending:70NANB26H385",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7e322a13987fd888",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c5b9213b01fbcd2b",
-          "locator": "opportunity_status:awarded",
-          "title": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D142_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D142",
-        "label": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...",
-        "node_id": "award:usaspending:60NANB26D142",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-130ef95b1f3db2d2",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b9a9000a74ac29c9",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D142_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D142",
-        "label": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...",
-        "node_id": "award:usaspending:60NANB26D142",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-cafbb8274e4756a9",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8576d88cdb6b796d",
-          "locator": "reported_amount:4000000.0",
-          "title": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D142_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D142",
-        "label": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...",
-        "node_id": "award:usaspending:60NANB26D142",
-        "node_type": "award"
-      },
-      "value": 4000000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1ca261350712eda4",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": {
-        "identifier": "uei:VMWUDBTMF4C9",
-        "label": "MIDDLE TENNESSEE STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:VMWUDBTMF4C9",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-51c1eb9bb82a85a5",
-          "locator": "reported_recipient:recipient_or_contractor:uei:VMWUDBTMF4C9",
-          "title": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D142_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D142",
-        "label": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...",
-        "node_id": "award:usaspending:60NANB26D142",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c78f7e378c84f15b",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-86d58f97f6885cec",
-          "locator": "opportunity_status:awarded",
-          "title": "PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D161",
-        "label": "PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...",
-        "node_id": "award:usaspending:60NANB26D161",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-14cbbc5e6e39abba",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1839133ac1d75f60",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D161",
-        "label": "PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...",
-        "node_id": "award:usaspending:60NANB26D161",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-794a4afbbe814ea6",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c231bd1f93ce17f4",
-          "locator": "reported_amount:1031000.0",
-          "title": "PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D161",
-        "label": "PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...",
-        "node_id": "award:usaspending:60NANB26D161",
-        "node_type": "award"
-      },
-      "value": 1031000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-8942ec1aec286932",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": {
-        "identifier": "uei:YDTVUWXQAZK9",
-        "label": "OREGON INSTITUTE OF TECHNOLOGY",
-        "node_id": "recipient_or_contractor:uei:YDTVUWXQAZK9",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d8147e6a2cfe49f9",
-          "locator": "reported_recipient:recipient_or_contractor:uei:YDTVUWXQAZK9",
-          "title": "PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D161",
-        "label": "PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...",
-        "node_id": "award:usaspending:60NANB26D161",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-1e985f350763a9ab",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fa43050bebebb82a",
-          "locator": "opportunity_status:awarded",
-          "title": "New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK",
-          "url": "https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE4A122G0010_SPRTA126F0547",
-        "label": "New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK",
-        "node_id": "award_notice:sam_gov:SPE4A122G0010_SPRTA126F0547",
-        "node_type": "award_notice"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b96e4106cb3e79a9",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "set_aside",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0a0750bdd8175534",
-          "locator": "set_aside:no set aside used",
-          "title": "New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK",
-          "url": "https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE4A122G0010_SPRTA126F0547",
-        "label": "New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK",
-        "node_id": "award_notice:sam_gov:SPE4A122G0010_SPRTA126F0547",
-        "node_type": "award_notice"
-      },
-      "value": "No Set aside used"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-289b29071ba42157",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-384b13fd95dbd04c",
-          "locator": "awarding_agency:dept of defense.defense logistics agency.dla aviation.dla aviation oklahoma city.dla aviation at oklahoma city, ok",
-          "title": "New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK",
-          "url": "https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE4A122G0010_SPRTA126F0547",
-        "label": "New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK",
-        "node_id": "award_notice:sam_gov:SPE4A122G0010_SPRTA126F0547",
-        "node_type": "award_notice"
-      },
-      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-18088bb7e4c0babd",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3ce4e85aab41e438",
-          "locator": "reported_amount:47762021.56",
-          "title": "New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK",
-          "url": "https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE4A122G0010_SPRTA126F0547",
-        "label": "New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK",
-        "node_id": "award_notice:sam_gov:SPE4A122G0010_SPRTA126F0547",
-        "node_type": "award_notice"
-      },
-      "value": 47762021.56
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f37d918a1fb83c91",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": {
-        "identifier": "name:general electric",
-        "label": "GENERAL ELECTRIC COMPANY",
-        "node_id": "recipient_or_contractor:name:general electric",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f072f920303ef3bd",
-          "locator": "reported_recipient:recipient_or_contractor:name:general electric",
-          "title": "New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK",
-          "url": "https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:SPE4A122G0010_SPRTA126F0547",
-        "label": "New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK",
-        "node_id": "award_notice:sam_gov:SPE4A122G0010_SPRTA126F0547",
-        "node_type": "award_notice"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-daccb7a17affdf65",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-41e85d271bfc71df",
-          "locator": "opportunity_status:awarded",
-          "title": "TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70T03026F7667N105",
-        "label": "TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...",
-        "node_id": "award:usaspending:70T03026F7667N105",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-520834f1ddb305e1",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-30f3a50e9030d3ba",
-          "locator": "awarding_agency:department of homeland security",
-          "title": "TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70T03026F7667N105",
-        "label": "TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...",
-        "node_id": "award:usaspending:70T03026F7667N105",
-        "node_type": "award"
-      },
-      "value": "Department of Homeland Security"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-d7ff500dc491a48c",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4996cc8ab0c6f22a",
-          "locator": "reported_amount:26688060.78",
-          "title": "TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70T03026F7667N105",
-        "label": "TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...",
-        "node_id": "award:usaspending:70T03026F7667N105",
-        "node_type": "award"
-      },
-      "value": 26688060.78
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-ed4b85159f8ba797",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": {
-        "identifier": "uei:QT2VZ9L1VPQ1",
-        "label": "22ND CENTURY TECHNOLOGIES, INC.",
-        "node_id": "recipient_or_contractor:uei:QT2VZ9L1VPQ1",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2845f42f0cc5c85a",
-          "locator": "reported_recipient:recipient_or_contractor:uei:QT2VZ9L1VPQ1",
-          "title": "TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70T03026F7667N105",
-        "label": "TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...",
-        "node_id": "award:usaspending:70T03026F7667N105",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-773264603702624d",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3a56b208ce772cd7",
-          "locator": "opportunity_status:awarded",
-          "title": "PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D230_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D230",
-        "label": "PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...",
-        "node_id": "award:usaspending:60NANB26D230",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e2d1b050caded972",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cc9e7ba13729f28d",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D230_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D230",
-        "label": "PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...",
-        "node_id": "award:usaspending:60NANB26D230",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-74185a8f9dc78408",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3e906cd137140571",
-          "locator": "reported_amount:1600000.0",
-          "title": "PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D230_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D230",
-        "label": "PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...",
-        "node_id": "award:usaspending:60NANB26D230",
-        "node_type": "award"
-      },
-      "value": 1600000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-0a20222f008f1be5",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": {
-        "identifier": "uei:XGE9T6KCMSR4",
-        "label": "VIRGINIA INSTITUTE OF MARINE SCIENCE",
-        "node_id": "recipient_or_contractor:uei:XGE9T6KCMSR4",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6e912993a7d30a28",
-          "locator": "reported_recipient:recipient_or_contractor:uei:XGE9T6KCMSR4",
-          "title": "PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D230_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D230",
-        "label": "PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...",
-        "node_id": "award:usaspending:60NANB26D230",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-be9a928faa4d3203",
+      "claim_id": "claim-d93e0c7084236270",
       "confidence": "high",
       "effective_date": "2026-09-29",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -1359,17 +329,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b6838be7bb89acc1",
+          "evidence_id": "evidence-1b7e4a5787333b69",
           "locator": "opportunity_status:awarded",
-          "title": "ACCELERATE ARTIFICIAL INTELLIGENCE (AI) ADOPTION IN HEALTHCARE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571MN26C00041_7571_-NONE-_-NONE-",
+          "title": "FEDERALLY FUNDED RESEARCH AND DEVELOPMENT CENTER SERVICES TO THE VETERANS HEALTH ADMINISTRATION, CENTER FOR DATA AND COMPUTATIONAL SCIENCES FOR ARTIFICIAL INTELLIGENCE-ENABLED SEC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26N0060_3600_36C10B25D0015_3600",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:7571MN26C00041",
-        "label": "ACCELERATE ARTIFICIAL INTELLIGENCE (AI) ADOPTION IN HEALTHCARE",
-        "node_id": "award:usaspending:7571MN26C00041",
+        "identifier": "usaspending:36C10B26N0060",
+        "label": "FEDERALLY FUNDED RESEARCH AND DEVELOPMENT CENTER SERVICES TO THE VETERANS HEALTH ADMINISTRATION, CENTER FOR DATA AND COMPUTATIONAL SCIENCES FOR ARTIFICIAL INTELLIGENCE-ENABLED SEC...",
+        "node_id": "award:usaspending:36C10B26N0060",
         "node_type": "award"
       },
       "value": "awarded"
@@ -1377,11 +347,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-a2b9c67f330c4108",
+      "claim_id": "claim-0de392f00b89b30f",
       "confidence": "high",
       "effective_date": "2026-09-29",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -1389,672 +359,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-11e56c6e34b8be91",
-          "locator": "awarding_agency:department of health and human services",
-          "title": "ACCELERATE ARTIFICIAL INTELLIGENCE (AI) ADOPTION IN HEALTHCARE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571MN26C00041_7571_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571MN26C00041",
-        "label": "ACCELERATE ARTIFICIAL INTELLIGENCE (AI) ADOPTION IN HEALTHCARE",
-        "node_id": "award:usaspending:7571MN26C00041",
-        "node_type": "award"
-      },
-      "value": "Department of Health and Human Services"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4ec5b7846439ab5a",
-      "confidence": "high",
-      "effective_date": "2026-09-29",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-db9bbdeace9a5882",
-          "locator": "reported_amount:1999717.4",
-          "title": "ACCELERATE ARTIFICIAL INTELLIGENCE (AI) ADOPTION IN HEALTHCARE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571MN26C00041_7571_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571MN26C00041",
-        "label": "ACCELERATE ARTIFICIAL INTELLIGENCE (AI) ADOPTION IN HEALTHCARE",
-        "node_id": "award:usaspending:7571MN26C00041",
-        "node_type": "award"
-      },
-      "value": 1999717.4
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-cb6c9d66960fd564",
-      "confidence": "high",
-      "effective_date": "2026-09-29",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": {
-        "identifier": "uei:CAMXRD5CHVN6",
-        "label": "CHICKASAW FEDERAL HEALTH, LLC",
-        "node_id": "recipient_or_contractor:uei:CAMXRD5CHVN6",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-553a1532837b13ab",
-          "locator": "reported_recipient:recipient_or_contractor:uei:CAMXRD5CHVN6",
-          "title": "ACCELERATE ARTIFICIAL INTELLIGENCE (AI) ADOPTION IN HEALTHCARE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_7571MN26C00041_7571_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:7571MN26C00041",
-        "label": "ACCELERATE ARTIFICIAL INTELLIGENCE (AI) ADOPTION IN HEALTHCARE",
-        "node_id": "award:usaspending:7571MN26C00041",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-32cd66b3072847d6",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-deed295e15e8e865",
-          "locator": "opportunity_status:awarded",
-          "title": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ENHANCE THE SECURE HIGH-PERFORMANCE COMPUTING (HPC) AND RESEARCH COMPUTING INFRASTRUCTURE AT MISSISSIPPI STATE UNIVERSITY (MSU). THE PRO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D144_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D144",
-        "label": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ENHANCE THE SECURE HIGH-PERFORMANCE COMPUTING (HPC) AND RESEARCH COMPUTING INFRASTRUCTURE AT MISSISSIPPI STATE UNIVERSITY (MSU). THE PRO...",
-        "node_id": "award:usaspending:60NANB26D144",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-748197aad90df00b",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-89ba31281664a1f4",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ENHANCE THE SECURE HIGH-PERFORMANCE COMPUTING (HPC) AND RESEARCH COMPUTING INFRASTRUCTURE AT MISSISSIPPI STATE UNIVERSITY (MSU). THE PRO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D144_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D144",
-        "label": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ENHANCE THE SECURE HIGH-PERFORMANCE COMPUTING (HPC) AND RESEARCH COMPUTING INFRASTRUCTURE AT MISSISSIPPI STATE UNIVERSITY (MSU). THE PRO...",
-        "node_id": "award:usaspending:60NANB26D144",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-889ec1d6be6d0988",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-07e9aa43618fb420",
-          "locator": "reported_amount:1000000.0",
-          "title": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ENHANCE THE SECURE HIGH-PERFORMANCE COMPUTING (HPC) AND RESEARCH COMPUTING INFRASTRUCTURE AT MISSISSIPPI STATE UNIVERSITY (MSU). THE PRO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D144_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D144",
-        "label": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ENHANCE THE SECURE HIGH-PERFORMANCE COMPUTING (HPC) AND RESEARCH COMPUTING INFRASTRUCTURE AT MISSISSIPPI STATE UNIVERSITY (MSU). THE PRO...",
-        "node_id": "award:usaspending:60NANB26D144",
-        "node_type": "award"
-      },
-      "value": 1000000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f29368c34633528a",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": {
-        "identifier": "uei:NTXJM52SHKS7",
-        "label": "MISSISSIPPI STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:NTXJM52SHKS7",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2c647e3d838143cf",
-          "locator": "reported_recipient:recipient_or_contractor:uei:NTXJM52SHKS7",
-          "title": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ENHANCE THE SECURE HIGH-PERFORMANCE COMPUTING (HPC) AND RESEARCH COMPUTING INFRASTRUCTURE AT MISSISSIPPI STATE UNIVERSITY (MSU). THE PRO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D144_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:60NANB26D144",
-        "label": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ENHANCE THE SECURE HIGH-PERFORMANCE COMPUTING (HPC) AND RESEARCH COMPUTING INFRASTRUCTURE AT MISSISSIPPI STATE UNIVERSITY (MSU). THE PRO...",
-        "node_id": "award:usaspending:60NANB26D144",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-81c0d79876941ce7",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9f84f7f9d8d4ae94",
-          "locator": "opportunity_status:awarded",
-          "title": "Quantum Laser Communication Terminals",
-          "url": "https://sam.gov/workspace/contract/opp/31fc7c1ef3df4cbca9f09ea4dfb7e88a/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA8750-26-C-B051",
-        "label": "Quantum Laser Communication Terminals",
-        "node_id": "award_notice:sam_gov:FA8750-26-C-B051",
-        "node_type": "award_notice"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-241455033dd47f60",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d0e1f3452994fcdb",
-          "locator": "awarding_agency:dept of defense.dept of the air force.air force materiel command.air force research laboratory.fa8750 afrl rik",
-          "title": "Quantum Laser Communication Terminals",
-          "url": "https://sam.gov/workspace/contract/opp/31fc7c1ef3df4cbca9f09ea4dfb7e88a/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA8750-26-C-B051",
-        "label": "Quantum Laser Communication Terminals",
-        "node_id": "award_notice:sam_gov:FA8750-26-C-B051",
-        "node_type": "award_notice"
-      },
-      "value": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE RESEARCH LABORATORY.FA8750 AFRL RIK"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c83a4cc83521a9de",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-796761684357bc5c",
-          "locator": "reported_amount:1294896.0",
-          "title": "Quantum Laser Communication Terminals",
-          "url": "https://sam.gov/workspace/contract/opp/31fc7c1ef3df4cbca9f09ea4dfb7e88a/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA8750-26-C-B051",
-        "label": "Quantum Laser Communication Terminals",
-        "node_id": "award_notice:sam_gov:FA8750-26-C-B051",
-        "node_type": "award_notice"
-      },
-      "value": 1294896.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-989de624ea5a4507",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": {
-        "identifier": "name:general atomics aeronautical systems",
-        "label": "GENERAL ATOMICS AERONAUTICAL SYSTEMS, INC.",
-        "node_id": "recipient_or_contractor:name:general atomics aeronautical systems",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a37b4cd97570a682",
-          "locator": "reported_recipient:recipient_or_contractor:name:general atomics aeronautical systems",
-          "title": "Quantum Laser Communication Terminals",
-          "url": "https://sam.gov/workspace/contract/opp/31fc7c1ef3df4cbca9f09ea4dfb7e88a/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA8750-26-C-B051",
-        "label": "Quantum Laser Communication Terminals",
-        "node_id": "award_notice:sam_gov:FA8750-26-C-B051",
-        "node_type": "award_notice"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b37f763fb0da14fe",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8ec463e7da4a84ff",
-          "locator": "opportunity_status:awarded",
-          "title": "PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H386_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H386",
-        "label": "PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,...",
-        "node_id": "award:usaspending:70NANB26H386",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-459069d4d97b0b61",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-dcae6350e8c3e458",
-          "locator": "awarding_agency:department of commerce",
-          "title": "PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H386_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H386",
-        "label": "PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,...",
-        "node_id": "award:usaspending:70NANB26H386",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2383a6e76addabb8",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d38f68e0e66e0541",
-          "locator": "reported_amount:199889.0",
-          "title": "PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H386_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H386",
-        "label": "PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,...",
-        "node_id": "award:usaspending:70NANB26H386",
-        "node_type": "award"
-      },
-      "value": 199889.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b85f1c6c077638aa",
-      "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": {
-        "identifier": "uei:NPT2UNTNHJZ1",
-        "label": "WRIGHT STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:NPT2UNTNHJZ1",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-489f0007aa49bce1",
-          "locator": "reported_recipient:recipient_or_contractor:uei:NPT2UNTNHJZ1",
-          "title": "PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H386_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:70NANB26H386",
-        "label": "PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,...",
-        "node_id": "award:usaspending:70NANB26H386",
-        "node_type": "award"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-bfe0e4ef44a54ac2",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-91ef146b09685886",
-          "locator": "opportunity_status:awarded",
-          "title": "Notice of Award - HADEAN AI TRL7 & TRL9 Software",
-          "url": "https://sam.gov/workspace/contract/opp/9679e6ddf1b9463086b47ef80d841564/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA480126F0146",
-        "label": "Notice of Award - HADEAN AI TRL7 & TRL9 Software",
-        "node_id": "award_notice:sam_gov:FA480126F0146",
-        "node_type": "award_notice"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-8522eb048d4d3c3e",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "set_aside",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-73aed1229cc21128",
-          "locator": "set_aside:no set aside used",
-          "title": "Notice of Award - HADEAN AI TRL7 & TRL9 Software",
-          "url": "https://sam.gov/workspace/contract/opp/9679e6ddf1b9463086b47ef80d841564/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA480126F0146",
-        "label": "Notice of Award - HADEAN AI TRL7 & TRL9 Software",
-        "node_id": "award_notice:sam_gov:FA480126F0146",
-        "node_type": "award_notice"
-      },
-      "value": "No Set aside used"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b030018f0a8fbd80",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-355d22b72214a7af",
-          "locator": "awarding_agency:dept of defense.dept of the air force.air combat command.fa4801 49 cons pk",
-          "title": "Notice of Award - HADEAN AI TRL7 & TRL9 Software",
-          "url": "https://sam.gov/workspace/contract/opp/9679e6ddf1b9463086b47ef80d841564/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA480126F0146",
-        "label": "Notice of Award - HADEAN AI TRL7 & TRL9 Software",
-        "node_id": "award_notice:sam_gov:FA480126F0146",
-        "node_type": "award_notice"
-      },
-      "value": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR COMBAT COMMAND.FA4801 49 CONS PK"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-fbcacac26018a3ae",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-30484d7ed3460710",
-          "locator": "reported_amount:262187.5",
-          "title": "Notice of Award - HADEAN AI TRL7 & TRL9 Software",
-          "url": "https://sam.gov/workspace/contract/opp/9679e6ddf1b9463086b47ef80d841564/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA480126F0146",
-        "label": "Notice of Award - HADEAN AI TRL7 & TRL9 Software",
-        "node_id": "award_notice:sam_gov:FA480126F0146",
-        "node_type": "award_notice"
-      },
-      "value": 262187.5
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-bc4ed204ce0d572d",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": {
-        "identifier": "uei:DT8KJHZXVJH5",
-        "label": "CARAHSOFT TECHNOLOGY CORP",
-        "node_id": "recipient_or_contractor:uei:DT8KJHZXVJH5",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3f65d29e8b512100",
-          "locator": "reported_recipient:recipient_or_contractor:uei:DT8KJHZXVJH5",
-          "title": "Notice of Award - HADEAN AI TRL7 & TRL9 Software",
-          "url": "https://sam.gov/workspace/contract/opp/9679e6ddf1b9463086b47ef80d841564/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:FA480126F0146",
-        "label": "Notice of Award - HADEAN AI TRL7 & TRL9 Software",
-        "node_id": "award_notice:sam_gov:FA480126F0146",
-        "node_type": "award_notice"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6710b1710ad6d3b7",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2b2665b967f995c7",
-          "locator": "opportunity_status:awarded",
-          "title": "NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0456_3600_NNG15SD22B_8000",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:36C10B26F0456",
-        "label": "NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)",
-        "node_id": "award:usaspending:36C10B26F0456",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6131b1aa4a4f77ab",
-      "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7851c9f07414ff37",
+          "evidence_id": "evidence-f5a05288426510a8",
           "locator": "awarding_agency:department of veterans affairs",
-          "title": "NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0456_3600_NNG15SD22B_8000",
+          "title": "FEDERALLY FUNDED RESEARCH AND DEVELOPMENT CENTER SERVICES TO THE VETERANS HEALTH ADMINISTRATION, CENTER FOR DATA AND COMPUTATIONAL SCIENCES FOR ARTIFICIAL INTELLIGENCE-ENABLED SEC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26N0060_3600_36C10B25D0015_3600",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:36C10B26F0456",
-        "label": "NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)",
-        "node_id": "award:usaspending:36C10B26F0456",
+        "identifier": "usaspending:36C10B26N0060",
+        "label": "FEDERALLY FUNDED RESEARCH AND DEVELOPMENT CENTER SERVICES TO THE VETERANS HEALTH ADMINISTRATION, CENTER FOR DATA AND COMPUTATIONAL SCIENCES FOR ARTIFICIAL INTELLIGENCE-ENABLED SEC...",
+        "node_id": "award:usaspending:36C10B26N0060",
         "node_type": "award"
       },
       "value": "Department of Veterans Affairs"
@@ -2062,11 +377,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-b88a344f927ea123",
+      "claim_id": "claim-dd2a7f4cb5333d97",
       "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
       "object": null,
       "predicate": "reported_amount",
       "sources": [
@@ -2074,33 +389,33 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0f6d48beb4367a27",
-          "locator": "reported_amount:238088.09",
-          "title": "NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0456_3600_NNG15SD22B_8000",
+          "evidence_id": "evidence-600fcdb3a1461e63",
+          "locator": "reported_amount:3996951.18",
+          "title": "FEDERALLY FUNDED RESEARCH AND DEVELOPMENT CENTER SERVICES TO THE VETERANS HEALTH ADMINISTRATION, CENTER FOR DATA AND COMPUTATIONAL SCIENCES FOR ARTIFICIAL INTELLIGENCE-ENABLED SEC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26N0060_3600_36C10B25D0015_3600",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:36C10B26F0456",
-        "label": "NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)",
-        "node_id": "award:usaspending:36C10B26F0456",
+        "identifier": "usaspending:36C10B26N0060",
+        "label": "FEDERALLY FUNDED RESEARCH AND DEVELOPMENT CENTER SERVICES TO THE VETERANS HEALTH ADMINISTRATION, CENTER FOR DATA AND COMPUTATIONAL SCIENCES FOR ARTIFICIAL INTELLIGENCE-ENABLED SEC...",
+        "node_id": "award:usaspending:36C10B26N0060",
         "node_type": "award"
       },
-      "value": 238088.09
+      "value": 3996951.18
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-2c93155215638376",
+      "claim_id": "claim-c6c1cbb0d6c4fcfa",
       "confidence": "high",
-      "effective_date": "2026-09-28",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
       "object": {
-        "identifier": "uei:H1KHJPJH9R51",
-        "label": "FOUR POINTS TECHNOLOGY, L.L.C.",
-        "node_id": "recipient_or_contractor:uei:H1KHJPJH9R51",
+        "identifier": "uei:DMHDNDCPWUD1",
+        "label": "THE MITRE CORPORATION",
+        "node_id": "recipient_or_contractor:uei:DMHDNDCPWUD1",
         "node_type": "recipient_or_contractor"
       },
       "predicate": "reported_recipient",
@@ -2109,17 +424,17 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a1962927eba32adf",
-          "locator": "reported_recipient:recipient_or_contractor:uei:H1KHJPJH9R51",
-          "title": "NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0456_3600_NNG15SD22B_8000",
+          "evidence_id": "evidence-1946ba26a110b7f1",
+          "locator": "reported_recipient:recipient_or_contractor:uei:DMHDNDCPWUD1",
+          "title": "FEDERALLY FUNDED RESEARCH AND DEVELOPMENT CENTER SERVICES TO THE VETERANS HEALTH ADMINISTRATION, CENTER FOR DATA AND COMPUTATIONAL SCIENCES FOR ARTIFICIAL INTELLIGENCE-ENABLED SEC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26N0060_3600_36C10B25D0015_3600",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:36C10B26F0456",
-        "label": "NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)",
-        "node_id": "award:usaspending:36C10B26F0456",
+        "identifier": "usaspending:36C10B26N0060",
+        "label": "FEDERALLY FUNDED RESEARCH AND DEVELOPMENT CENTER SERVICES TO THE VETERANS HEALTH ADMINISTRATION, CENTER FOR DATA AND COMPUTATIONAL SCIENCES FOR ARTIFICIAL INTELLIGENCE-ENABLED SEC...",
+        "node_id": "award:usaspending:36C10B26N0060",
         "node_type": "award"
       },
       "value": null
@@ -2127,129 +442,1134 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-f2acbee89ec9ff64",
+      "claim_id": "claim-80b469dc456d9643",
       "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
       "object": null,
-      "predicate": "legal_business_name",
+      "predicate": "opportunity_status",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c82efd609c79b5b0",
-          "locator": "legal_business_name:regency consulting inc",
-          "title": "REGENCY CONSULTING INC",
-          "url": "https://sam.gov/entity/SC8LMLWA6H51/coreData",
+          "evidence_id": "evidence-0b20f7debd0cdbba",
+          "locator": "opportunity_status:awarded",
+          "title": "THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70FA3126F00000065_7022_47QTCB21D0332_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:SC8LMLWA6H51",
-        "label": "REGENCY CONSULTING INC",
-        "node_id": "recipient_or_contractor:uei:SC8LMLWA6H51",
-        "node_type": "recipient_or_contractor"
+        "identifier": "usaspending:70FA3126F00000065",
+        "label": "THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC...",
+        "node_id": "award:usaspending:70FA3126F00000065",
+        "node_type": "award"
       },
-      "value": "REGENCY CONSULTING INC"
+      "value": "awarded"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-781a3236e583b8cb",
+      "claim_id": "claim-521a1cac6d248397",
       "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
       "object": null,
-      "predicate": "uei",
+      "predicate": "awarding_agency",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ac28cc0784e5f2e4",
-          "locator": "uei:sc8lmlwa6h51",
-          "title": "REGENCY CONSULTING INC",
-          "url": "https://sam.gov/entity/SC8LMLWA6H51/coreData",
+          "evidence_id": "evidence-5e43af24f6600dcf",
+          "locator": "awarding_agency:department of homeland security",
+          "title": "THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70FA3126F00000065_7022_47QTCB21D0332_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:SC8LMLWA6H51",
-        "label": "REGENCY CONSULTING INC",
-        "node_id": "recipient_or_contractor:uei:SC8LMLWA6H51",
-        "node_type": "recipient_or_contractor"
+        "identifier": "usaspending:70FA3126F00000065",
+        "label": "THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC...",
+        "node_id": "award:usaspending:70FA3126F00000065",
+        "node_type": "award"
       },
-      "value": "SC8LMLWA6H51"
+      "value": "Department of Homeland Security"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-c1d95cd7fb094f4c",
+      "claim_id": "claim-4502785724336e32",
       "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
       "object": null,
-      "predicate": "cage_code",
+      "predicate": "reported_amount",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-00ac16b22dec7e2e",
-          "locator": "cage_code:1m6b0",
-          "title": "REGENCY CONSULTING INC",
-          "url": "https://sam.gov/entity/SC8LMLWA6H51/coreData",
+          "evidence_id": "evidence-5c42b5b1bc9948d4",
+          "locator": "reported_amount:3451680.0",
+          "title": "THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70FA3126F00000065_7022_47QTCB21D0332_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:SC8LMLWA6H51",
-        "label": "REGENCY CONSULTING INC",
-        "node_id": "recipient_or_contractor:uei:SC8LMLWA6H51",
-        "node_type": "recipient_or_contractor"
+        "identifier": "usaspending:70FA3126F00000065",
+        "label": "THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC...",
+        "node_id": "award:usaspending:70FA3126F00000065",
+        "node_type": "award"
       },
-      "value": "1M6B0"
+      "value": 3451680.0
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-9a064b3032221d9a",
+      "claim_id": "claim-4911306cc497ad05",
       "confidence": "high",
-      "effective_date": "2026-10-01",
-      "first_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "last_observed_at": "2026-10-01T03:31:08.575959+00:00",
-      "object": null,
-      "predicate": "registration_status",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": {
+        "identifier": "uei:Q4LLTZ956H64",
+        "label": "NEEVSYS INC.",
+        "node_id": "recipient_or_contractor:uei:Q4LLTZ956H64",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ad6e633f296a047f",
-          "locator": "registration_status:active",
-          "title": "REGENCY CONSULTING INC",
-          "url": "https://sam.gov/entity/SC8LMLWA6H51/coreData",
+          "evidence_id": "evidence-1855b164cba5d4ba",
+          "locator": "reported_recipient:recipient_or_contractor:uei:Q4LLTZ956H64",
+          "title": "THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70FA3126F00000065_7022_47QTCB21D0332_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "uei:SC8LMLWA6H51",
-        "label": "REGENCY CONSULTING INC",
-        "node_id": "recipient_or_contractor:uei:SC8LMLWA6H51",
+        "identifier": "usaspending:70FA3126F00000065",
+        "label": "THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC...",
+        "node_id": "award:usaspending:70FA3126F00000065",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-78c0bf77a19acf4f",
+      "confidence": "high",
+      "effective_date": "2026-10-01",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-28dc83b2a08d1804",
+          "locator": "opportunity_status:awarded",
+          "title": "AI OSINT ECHO Software Support Services",
+          "url": "https://sam.gov/workspace/contract/opp/a0449fb119644aa6a87707cd6fe723be/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:HQ003426CE097",
+        "label": "AI OSINT ECHO Software Support Services",
+        "node_id": "award_notice:sam_gov:HQ003426CE097",
+        "node_type": "award_notice"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-7aaa3f0c0a9578a2",
+      "confidence": "high",
+      "effective_date": "2026-10-01",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-36ca06eb07ae72ec",
+          "locator": "awarding_agency:dept of defense.washington headquarters services (whs).washington headquarters services",
+          "title": "AI OSINT ECHO Software Support Services",
+          "url": "https://sam.gov/workspace/contract/opp/a0449fb119644aa6a87707cd6fe723be/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:HQ003426CE097",
+        "label": "AI OSINT ECHO Software Support Services",
+        "node_id": "award_notice:sam_gov:HQ003426CE097",
+        "node_type": "award_notice"
+      },
+      "value": "DEPT OF DEFENSE.WASHINGTON HEADQUARTERS SERVICES (WHS).WASHINGTON HEADQUARTERS SERVICES"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3392a3fb979788c1",
+      "confidence": "high",
+      "effective_date": "2026-10-01",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9592885dfba4f03a",
+          "locator": "reported_amount:15473420.22",
+          "title": "AI OSINT ECHO Software Support Services",
+          "url": "https://sam.gov/workspace/contract/opp/a0449fb119644aa6a87707cd6fe723be/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:HQ003426CE097",
+        "label": "AI OSINT ECHO Software Support Services",
+        "node_id": "award_notice:sam_gov:HQ003426CE097",
+        "node_type": "award_notice"
+      },
+      "value": 15473420.22
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-bf7e91d42460bbe0",
+      "confidence": "high",
+      "effective_date": "2026-10-01",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": {
+        "identifier": "name:agility consulting",
+        "label": "Agility Consulting, LLC",
+        "node_id": "recipient_or_contractor:name:agility consulting",
         "node_type": "recipient_or_contractor"
       },
-      "value": "Active"
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8e23bc608751970a",
+          "locator": "reported_recipient:recipient_or_contractor:name:agility consulting",
+          "title": "AI OSINT ECHO Software Support Services",
+          "url": "https://sam.gov/workspace/contract/opp/a0449fb119644aa6a87707cd6fe723be/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:HQ003426CE097",
+        "label": "AI OSINT ECHO Software Support Services",
+        "node_id": "award_notice:sam_gov:HQ003426CE097",
+        "node_type": "award_notice"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8449f6e008ec011f",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fae33fdad661558f",
+          "locator": "opportunity_status:awarded",
+          "title": "THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70FA3126C00000003_7022_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:70FA3126C00000003",
+        "label": "THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.",
+        "node_id": "award:usaspending:70FA3126C00000003",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-35621c21bdf62ca1",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-62c1fece386f9658",
+          "locator": "awarding_agency:department of homeland security",
+          "title": "THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70FA3126C00000003_7022_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:70FA3126C00000003",
+        "label": "THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.",
+        "node_id": "award:usaspending:70FA3126C00000003",
+        "node_type": "award"
+      },
+      "value": "Department of Homeland Security"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-803f1b2061542cfb",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-342b924e1859b0c6",
+          "locator": "reported_amount:7533121.0",
+          "title": "THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70FA3126C00000003_7022_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:70FA3126C00000003",
+        "label": "THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.",
+        "node_id": "award:usaspending:70FA3126C00000003",
+        "node_type": "award"
+      },
+      "value": 7533121.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-af3dabe8fc0af0a9",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": {
+        "identifier": "uei:FCZRM3WLW5M5",
+        "label": "SEMPRE, INC.",
+        "node_id": "recipient_or_contractor:uei:FCZRM3WLW5M5",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9068d244d83f895a",
+          "locator": "reported_recipient:recipient_or_contractor:uei:FCZRM3WLW5M5",
+          "title": "THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70FA3126C00000003_7022_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:70FA3126C00000003",
+        "label": "THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.",
+        "node_id": "award:usaspending:70FA3126C00000003",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-72d5cbb1d754fb41",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9cc6526775cd1160",
+          "locator": "opportunity_status:awarded",
+          "title": "SAMHSA CYBERSECURITY AND MANAGEMENT SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75S20326F80005_7522_HHSN316201500002W_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75S20326F80005",
+        "label": "SAMHSA CYBERSECURITY AND MANAGEMENT SUPPORT",
+        "node_id": "award:usaspending:75S20326F80005",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-cb16d030919a9581",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ec69c2dadfbb6f3f",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "SAMHSA CYBERSECURITY AND MANAGEMENT SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75S20326F80005_7522_HHSN316201500002W_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75S20326F80005",
+        "label": "SAMHSA CYBERSECURITY AND MANAGEMENT SUPPORT",
+        "node_id": "award:usaspending:75S20326F80005",
+        "node_type": "award"
+      },
+      "value": "Department of Health and Human Services"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-e0cb6ee649646790",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6bf2de10f6297bab",
+          "locator": "reported_amount:2628430.15",
+          "title": "SAMHSA CYBERSECURITY AND MANAGEMENT SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75S20326F80005_7522_HHSN316201500002W_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75S20326F80005",
+        "label": "SAMHSA CYBERSECURITY AND MANAGEMENT SUPPORT",
+        "node_id": "award:usaspending:75S20326F80005",
+        "node_type": "award"
+      },
+      "value": 2628430.15
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1714e89c55cdfc50",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": {
+        "identifier": "uei:ZS8KXYANHJK4",
+        "label": "EMAGINE IT INC",
+        "node_id": "recipient_or_contractor:uei:ZS8KXYANHJK4",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a6b9e5dea2f07b30",
+          "locator": "reported_recipient:recipient_or_contractor:uei:ZS8KXYANHJK4",
+          "title": "SAMHSA CYBERSECURITY AND MANAGEMENT SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75S20326F80005_7522_HHSN316201500002W_7529",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75S20326F80005",
+        "label": "SAMHSA CYBERSECURITY AND MANAGEMENT SUPPORT",
+        "node_id": "award:usaspending:75S20326F80005",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8503f747e76b35c8",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ef4328efa6488042",
+          "locator": "opportunity_status:awarded",
+          "title": "TASK ORDER TO PROVIDE OPERATIONAL MODEL TRANSFORMATION SUPPORT SERVICES TO CYBERSECURITY & INFRASTRUCTURE SECURITY AGENCY.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000053_7001_47QRCA24DW135_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:70RCSJ26FR0000053",
+        "label": "TASK ORDER TO PROVIDE OPERATIONAL MODEL TRANSFORMATION SUPPORT SERVICES TO CYBERSECURITY & INFRASTRUCTURE SECURITY AGENCY.",
+        "node_id": "award:usaspending:70RCSJ26FR0000053",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-542ee7327757055d",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fee22c391684bff2",
+          "locator": "awarding_agency:department of homeland security",
+          "title": "TASK ORDER TO PROVIDE OPERATIONAL MODEL TRANSFORMATION SUPPORT SERVICES TO CYBERSECURITY & INFRASTRUCTURE SECURITY AGENCY.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000053_7001_47QRCA24DW135_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:70RCSJ26FR0000053",
+        "label": "TASK ORDER TO PROVIDE OPERATIONAL MODEL TRANSFORMATION SUPPORT SERVICES TO CYBERSECURITY & INFRASTRUCTURE SECURITY AGENCY.",
+        "node_id": "award:usaspending:70RCSJ26FR0000053",
+        "node_type": "award"
+      },
+      "value": "Department of Homeland Security"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3170866c03f72950",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-027110ea11cb95e2",
+          "locator": "reported_amount:2353028.38",
+          "title": "TASK ORDER TO PROVIDE OPERATIONAL MODEL TRANSFORMATION SUPPORT SERVICES TO CYBERSECURITY & INFRASTRUCTURE SECURITY AGENCY.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000053_7001_47QRCA24DW135_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:70RCSJ26FR0000053",
+        "label": "TASK ORDER TO PROVIDE OPERATIONAL MODEL TRANSFORMATION SUPPORT SERVICES TO CYBERSECURITY & INFRASTRUCTURE SECURITY AGENCY.",
+        "node_id": "award:usaspending:70RCSJ26FR0000053",
+        "node_type": "award"
+      },
+      "value": 2353028.38
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-987bf58931601373",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": {
+        "identifier": "uei:WM5MB479LXD3",
+        "label": "SALIENSE CONSULTING LLC",
+        "node_id": "recipient_or_contractor:uei:WM5MB479LXD3",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-563f03989fe96aa3",
+          "locator": "reported_recipient:recipient_or_contractor:uei:WM5MB479LXD3",
+          "title": "TASK ORDER TO PROVIDE OPERATIONAL MODEL TRANSFORMATION SUPPORT SERVICES TO CYBERSECURITY & INFRASTRUCTURE SECURITY AGENCY.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000053_7001_47QRCA24DW135_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:70RCSJ26FR0000053",
+        "label": "TASK ORDER TO PROVIDE OPERATIONAL MODEL TRANSFORMATION SUPPORT SERVICES TO CYBERSECURITY & INFRASTRUCTURE SECURITY AGENCY.",
+        "node_id": "award:usaspending:70RCSJ26FR0000053",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-d189ce52248392b8",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fe9820f016756152",
+          "locator": "opportunity_status:awarded",
+          "title": "CYBERSECURITY ARCHITECTURE AND ENGINEERING SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0458_3600_GS35F330BA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:36C10B26F0458",
+        "label": "CYBERSECURITY ARCHITECTURE AND ENGINEERING SERVICES",
+        "node_id": "award:usaspending:36C10B26F0458",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-f209dd5b1043214d",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-46561fb241725f4f",
+          "locator": "awarding_agency:department of veterans affairs",
+          "title": "CYBERSECURITY ARCHITECTURE AND ENGINEERING SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0458_3600_GS35F330BA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:36C10B26F0458",
+        "label": "CYBERSECURITY ARCHITECTURE AND ENGINEERING SERVICES",
+        "node_id": "award:usaspending:36C10B26F0458",
+        "node_type": "award"
+      },
+      "value": "Department of Veterans Affairs"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1a7245a3425c4ffe",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-277556fdeaddd4e0",
+          "locator": "reported_amount:1377100.74",
+          "title": "CYBERSECURITY ARCHITECTURE AND ENGINEERING SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0458_3600_GS35F330BA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:36C10B26F0458",
+        "label": "CYBERSECURITY ARCHITECTURE AND ENGINEERING SERVICES",
+        "node_id": "award:usaspending:36C10B26F0458",
+        "node_type": "award"
+      },
+      "value": 1377100.74
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-2d737b1548eadfa4",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": {
+        "identifier": "uei:HHK2BC47LN24",
+        "label": "TRIUMPH ENTERPRISES INCORPORATED",
+        "node_id": "recipient_or_contractor:uei:HHK2BC47LN24",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d330d6cad64bccbe",
+          "locator": "reported_recipient:recipient_or_contractor:uei:HHK2BC47LN24",
+          "title": "CYBERSECURITY ARCHITECTURE AND ENGINEERING SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0458_3600_GS35F330BA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:36C10B26F0458",
+        "label": "CYBERSECURITY ARCHITECTURE AND ENGINEERING SERVICES",
+        "node_id": "award:usaspending:36C10B26F0458",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-01757cfbce7ac81a",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-db6983f9e2b85d4e",
+          "locator": "opportunity_status:awarded",
+          "title": "THE PURPOSE OF THIS TASK ORDER (TO) IS TO PROVIDE CLMS TRIAGE PROCESS AUTOMATION AND ARTIFICIAL INTELLIGENCE (AI) ENHANCEMENTS",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_16PBGC26T0014_1665_16PBGC19D0021_1665",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:16PBGC26T0014",
+        "label": "THE PURPOSE OF THIS TASK ORDER (TO) IS TO PROVIDE CLMS TRIAGE PROCESS AUTOMATION AND ARTIFICIAL INTELLIGENCE (AI) ENHANCEMENTS",
+        "node_id": "award:usaspending:16PBGC26T0014",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-0a1165b9c39b16ba",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6de10ca01439c486",
+          "locator": "awarding_agency:pension benefit guaranty corporation",
+          "title": "THE PURPOSE OF THIS TASK ORDER (TO) IS TO PROVIDE CLMS TRIAGE PROCESS AUTOMATION AND ARTIFICIAL INTELLIGENCE (AI) ENHANCEMENTS",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_16PBGC26T0014_1665_16PBGC19D0021_1665",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:16PBGC26T0014",
+        "label": "THE PURPOSE OF THIS TASK ORDER (TO) IS TO PROVIDE CLMS TRIAGE PROCESS AUTOMATION AND ARTIFICIAL INTELLIGENCE (AI) ENHANCEMENTS",
+        "node_id": "award:usaspending:16PBGC26T0014",
+        "node_type": "award"
+      },
+      "value": "Pension Benefit Guaranty Corporation"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-0ed0be9efec657db",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c622b1649c1d7843",
+          "locator": "reported_amount:779241.54",
+          "title": "THE PURPOSE OF THIS TASK ORDER (TO) IS TO PROVIDE CLMS TRIAGE PROCESS AUTOMATION AND ARTIFICIAL INTELLIGENCE (AI) ENHANCEMENTS",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_16PBGC26T0014_1665_16PBGC19D0021_1665",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:16PBGC26T0014",
+        "label": "THE PURPOSE OF THIS TASK ORDER (TO) IS TO PROVIDE CLMS TRIAGE PROCESS AUTOMATION AND ARTIFICIAL INTELLIGENCE (AI) ENHANCEMENTS",
+        "node_id": "award:usaspending:16PBGC26T0014",
+        "node_type": "award"
+      },
+      "value": 779241.54
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-33c942f5aa4717b6",
+      "confidence": "high",
+      "effective_date": "2026-09-29",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": {
+        "identifier": "uei:CKV2L9GZKJK3",
+        "label": "DELOITTE CONSULTING LLP",
+        "node_id": "recipient_or_contractor:uei:CKV2L9GZKJK3",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cf7915329607a58b",
+          "locator": "reported_recipient:recipient_or_contractor:uei:CKV2L9GZKJK3",
+          "title": "THE PURPOSE OF THIS TASK ORDER (TO) IS TO PROVIDE CLMS TRIAGE PROCESS AUTOMATION AND ARTIFICIAL INTELLIGENCE (AI) ENHANCEMENTS",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_16PBGC26T0014_1665_16PBGC19D0021_1665",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:16PBGC26T0014",
+        "label": "THE PURPOSE OF THIS TASK ORDER (TO) IS TO PROVIDE CLMS TRIAGE PROCESS AUTOMATION AND ARTIFICIAL INTELLIGENCE (AI) ENHANCEMENTS",
+        "node_id": "award:usaspending:16PBGC26T0014",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3c6b9cef660e33f3",
+      "confidence": "high",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7607305a12ef40b1",
+          "locator": "opportunity_status:awarded",
+          "title": "ENTERPRISE CYBERSECURITY MONITORING PLATFORM",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_95170026F0410_9568_NNG15SD80B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:95170026F0410",
+        "label": "ENTERPRISE CYBERSECURITY MONITORING PLATFORM",
+        "node_id": "award:usaspending:95170026F0410",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-afa827c92d2867a6",
+      "confidence": "high",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f0f25a08dfdfa049",
+          "locator": "awarding_agency:u.s. agency for global media",
+          "title": "ENTERPRISE CYBERSECURITY MONITORING PLATFORM",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_95170026F0410_9568_NNG15SD80B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:95170026F0410",
+        "label": "ENTERPRISE CYBERSECURITY MONITORING PLATFORM",
+        "node_id": "award:usaspending:95170026F0410",
+        "node_type": "award"
+      },
+      "value": "U.S. Agency for Global Media"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-d16ceda74155b18b",
+      "confidence": "high",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-548328e2e6024990",
+          "locator": "reported_amount:332653.29",
+          "title": "ENTERPRISE CYBERSECURITY MONITORING PLATFORM",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_95170026F0410_9568_NNG15SD80B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:95170026F0410",
+        "label": "ENTERPRISE CYBERSECURITY MONITORING PLATFORM",
+        "node_id": "award:usaspending:95170026F0410",
+        "node_type": "award"
+      },
+      "value": 332653.29
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-bcdab553ef8fce6a",
+      "confidence": "high",
+      "effective_date": "2026-09-28",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": {
+        "identifier": "uei:PPMBFPRXNAJ9",
+        "label": "AUGUST SCHELL ENTERPRISES, INC.",
+        "node_id": "recipient_or_contractor:uei:PPMBFPRXNAJ9",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9fc913af4faaff8f",
+          "locator": "reported_recipient:recipient_or_contractor:uei:PPMBFPRXNAJ9",
+          "title": "ENTERPRISE CYBERSECURITY MONITORING PLATFORM",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_95170026F0410_9568_NNG15SD80B_8000",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:95170026F0410",
+        "label": "ENTERPRISE CYBERSECURITY MONITORING PLATFORM",
+        "node_id": "award:usaspending:95170026F0410",
+        "node_type": "award"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-e5e64ac6d5ee3ca9",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a7c599d51be3196e",
+          "locator": "opportunity_status:awarded",
+          "title": "BPA ORDER #2: ARTIFICIAL INTELLIGENCE (AI) ENTERPRISE APPLICATIONS PROFESSIONAL SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_9531BM26F0060_9508_9531BM26A0013_9508",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:9531BM26F0060",
+        "label": "BPA ORDER #2: ARTIFICIAL INTELLIGENCE (AI) ENTERPRISE APPLICATIONS PROFESSIONAL SERVICES",
+        "node_id": "award:usaspending:9531BM26F0060",
+        "node_type": "award"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-5118ff53aa07a4eb",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-96198e49dc94ae2b",
+          "locator": "awarding_agency:national transportation safety board",
+          "title": "BPA ORDER #2: ARTIFICIAL INTELLIGENCE (AI) ENTERPRISE APPLICATIONS PROFESSIONAL SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_9531BM26F0060_9508_9531BM26A0013_9508",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:9531BM26F0060",
+        "label": "BPA ORDER #2: ARTIFICIAL INTELLIGENCE (AI) ENTERPRISE APPLICATIONS PROFESSIONAL SERVICES",
+        "node_id": "award:usaspending:9531BM26F0060",
+        "node_type": "award"
+      },
+      "value": "National Transportation Safety Board"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-f2a572e4825ec73c",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6408e7e0254de1e4",
+          "locator": "reported_amount:262652.26",
+          "title": "BPA ORDER #2: ARTIFICIAL INTELLIGENCE (AI) ENTERPRISE APPLICATIONS PROFESSIONAL SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_9531BM26F0060_9508_9531BM26A0013_9508",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:9531BM26F0060",
+        "label": "BPA ORDER #2: ARTIFICIAL INTELLIGENCE (AI) ENTERPRISE APPLICATIONS PROFESSIONAL SERVICES",
+        "node_id": "award:usaspending:9531BM26F0060",
+        "node_type": "award"
+      },
+      "value": 262652.26
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-81e4fc0b6aea3b5b",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "first_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "last_observed_at": "2026-10-02T03:30:50.857708+00:00",
+      "object": {
+        "identifier": "uei:CKV2L9GZKJK3",
+        "label": "DELOITTE CONSULTING LLP",
+        "node_id": "recipient_or_contractor:uei:CKV2L9GZKJK3",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6133957fdd17c5a3",
+          "locator": "reported_recipient:recipient_or_contractor:uei:CKV2L9GZKJK3",
+          "title": "BPA ORDER #2: ARTIFICIAL INTELLIGENCE (AI) ENTERPRISE APPLICATIONS PROFESSIONAL SERVICES",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_9531BM26F0060_9508_9531BM26A0013_9508",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:9531BM26F0060",
+        "label": "BPA ORDER #2: ARTIFICIAL INTELLIGENCE (AI) ENTERPRISE APPLICATIONS PROFESSIONAL SERVICES",
+        "node_id": "award:usaspending:9531BM26F0060",
+        "node_type": "award"
+      },
+      "value": null
     }
   ],
   "baseline_initialized": false,
   "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-10-01T03:31:08.575959+00:00",
-  "comparison_started_at": "2026-09-30T03:25:02.178606+00:00",
+  "comparison_ended_at": "2026-10-02T03:30:50.857708+00:00",
+  "comparison_started_at": "2026-10-01T03:31:08.575959+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -3165,19 +2485,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-09-30T03:25:02.178606+00:00",
+  "since": "2026-10-01T03:31:08.575959+00:00",
   "summary": {
-    "active_claims": 4871,
-    "added": 63,
+    "active_claims": 4912,
+    "added": 41,
     "changed": 0,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 90,
+    "material_changes": 68,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-10-01T03:31:08.575959+00:00",
+  "updated_at": "2026-10-02T03:30:50.857708+00:00",
   "version": 1
 }

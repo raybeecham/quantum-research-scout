@@ -207,7 +207,7 @@
       ],
       "prior_count": 0,
       "recent_count": 2,
-      "status": "actionable"
+      "status": "stale"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -2443,12 +2443,30 @@
           "source": "USAspending \u00b7 Post-Quantum Cybersecurity",
           "title": "TRAVEL: NSF STUDENT TRAVEL GRANT FOR THE 2026 ACM CONFERENCE ON POST-QUANTUM AND QUANTUM-BASED SECURITY (PQQS 2026) -THE TRANSITION TO SECURITY TECHNOLOGIES THAT REMAIN TRUSTWORTH...",
           "url": "https://www.usaspending.gov/award/ASST_NON_2628847_049"
+        },
+        {
+          "date": "2026-10-01",
+          "key": "https://www.keyfactor.com/blog/iso-iec-270012022-for-manufacturers-cryptography-pki-and-audit-ready-key-management",
+          "report": "2026-10/2026-10-01-digest.md",
+          "score": 34,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "ISO/IEC 27001:2022 for Manufacturers: Cryptography, PKI, and Audit-Ready Key Management",
+          "url": "https://www.keyfactor.com/blog/iso-iec-270012022-for-manufacturers-cryptography-pki-and-audit-ready-key-management"
+        },
+        {
+          "date": "2026-10-01",
+          "key": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support",
+          "report": "2026-10/2026-10-01-digest.md",
+          "score": 169,
+          "source": "Cloudflare Blog",
+          "title": "Support for modern cryptographic algorithms in Workers",
+          "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-09-30",
+      "latest_seen": "2026-10-01",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -2458,7 +2476,7 @@
         "Cisco Quantum-Safe Updates"
       ],
       "prior_count": 19,
-      "recent_count": 21,
+      "recent_count": 20,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -3111,12 +3129,21 @@
           "source": "Quantum Journal",
           "title": "Performance of the spin qubit shuttling architecture for a surface code implementation",
           "url": "https://quantum-journal.org/papers/q-2026-09-30-2219"
+        },
+        {
+          "date": "2026-10-01",
+          "key": "https://quantumcomputingreport.com/classiq-launches-fault-tolerance-engine-for-hardware-aware-quantum-application-synthesis",
+          "report": "2026-10/2026-10-01-digest.md",
+          "score": 136,
+          "source": "Quantum Computing Report",
+          "title": "Classiq Launches Fault Tolerance Engine for Hardware-Aware Quantum Application Synthesis",
+          "url": "https://quantumcomputingreport.com/classiq-launches-fault-tolerance-engine-for-hardware-aware-quantum-application-synthesis"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-09-30",
+      "latest_seen": "2026-10-01",
       "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
@@ -5894,12 +5921,30 @@
           "source": "The Quantum Insider",
           "title": "QuantLase Tests Photonic Computing Platform on Financial Market Data",
           "url": "https://thequantuminsider.com/2026/09/30/quantlase-tests-photonic-computing-platform-on-financial-market-data"
+        },
+        {
+          "date": "2026-10-01",
+          "key": "https://thequantuminsider.com/2026/10/01/pasqal-appoints-florence-lao-chief-legal-officer",
+          "report": "2026-10/2026-10-01-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "title": "Pasqal Appoints Florence Lao as Chief Legal Officer",
+          "url": "https://thequantuminsider.com/2026/10/01/pasqal-appoints-florence-lao-chief-legal-officer"
+        },
+        {
+          "date": "2026-10-01",
+          "key": "https://thequantuminsider.com/2026/10/01/alice-bob-demonstrates-new-approach-to-stabilising-cat-with-dc-voltage-bias",
+          "report": "2026-10/2026-10-01-digest.md",
+          "score": 70,
+          "source": "The Quantum Insider",
+          "title": "Alice & Bob Demonstrates New Approach to Stabilizing Cat With DC Voltage Bias",
+          "url": "https://thequantuminsider.com/2026/10/01/alice-bob-demonstrates-new-approach-to-stabilising-cat-with-dc-voltage-bias"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-09-30",
+      "latest_seen": "2026-10-01",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -5908,7 +5953,7 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 8,
+      "prior_count": 10,
       "recent_count": 10,
       "status": "watching"
     },
@@ -7138,13 +7183,22 @@
           "source": "The Quantum Insider",
           "title": "FSU Receives $2.1 Million for Quantum Communication Testbed",
           "url": "https://thequantuminsider.com/2026/09/28/fsu-2-1-million-quantum-communication-testbed"
+        },
+        {
+          "date": "2026-10-01",
+          "key": "https://thequantuminsider.com/2026/10/01/choi-next-generation-quantum-sensors",
+          "report": "2026-10/2026-10-01-digest.md",
+          "score": 48,
+          "source": "The Quantum Insider",
+          "title": "Choi Co-Leads Research on Quantum Intelligent Sensor Networks",
+          "url": "https://thequantuminsider.com/2026/10/01/choi-next-generation-quantum-sensors"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-09-28",
-      "momentum": "stable",
+      "latest_seen": "2026-10-01",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -7152,8 +7206,8 @@
         "arXiv RSS quant-ph",
         "Quantum Computing Report"
       ],
-      "prior_count": 10,
-      "recent_count": 9,
+      "prior_count": 12,
+      "recent_count": 5,
       "status": "watching"
     },
     "Quantum Sensing": {
@@ -7608,21 +7662,30 @@
           "source": "USAspending \u00b7 Quantum Technologies",
           "title": "STTR PHASE I NON-HERMITIAN COUPLED LASER ARRAY READOUT FOR QUANTUM SENSORS",
           "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0291_8000_-NONE-_-NONE-"
+        },
+        {
+          "date": "2026-10-01",
+          "key": "https://quantumcomputingreport.com/nato-releases-official-quantum-technology-roadmap-establishing-operational-timelines-and-standardization-frameworks",
+          "report": "2026-10/2026-10-01-digest.md",
+          "score": 27,
+          "source": "Quantum Computing Report",
+          "title": "NATO Releases Official Quantum Technology Roadmap Establishing Operational Timelines and Standardization Frameworks",
+          "url": "https://quantumcomputingreport.com/nato-releases-official-quantum-technology-roadmap-establishing-operational-timelines-and-standardization-frameworks"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.",
       "importance": "critical",
-      "latest_seen": "2026-09-29",
+      "latest_seen": "2026-10-01",
       "momentum": "rising",
       "organizations": [
         "QuantumNews.ai",
         "The Quantum Insider",
         "Quantum Zeitgeist",
-        "Department of War Strategic Technology News",
-        "Quantum Computing Report"
+        "Quantum Computing Report",
+        "Department of War Strategic Technology News"
       ],
-      "prior_count": 0,
+      "prior_count": 1,
       "recent_count": 5,
       "status": "actionable"
     },
@@ -8474,23 +8537,41 @@
           "source": "USAspending \u00b7 Quantum Technologies",
           "title": "QUANTUM SCALAR SOFTWARE FOR TAPE STORAGE LIBRARY",
           "url": "https://www.usaspending.gov/award/CONT_AWD_W911S625CA006_9700_-NONE-_-NONE-"
+        },
+        {
+          "date": "2026-10-01",
+          "key": "https://thequantuminsider.com/2026/10/01/d-wave-gate-model-quantum-simulator-beta",
+          "report": "2026-10/2026-10-01-digest.md",
+          "score": 24,
+          "source": "The Quantum Insider",
+          "title": "D-Wave Launches Gate-Model Quantum Simulator Beta",
+          "url": "https://thequantuminsider.com/2026/10/01/d-wave-gate-model-quantum-simulator-beta"
+        },
+        {
+          "date": "2026-10-01",
+          "key": "https://quantumcomputingreport.com/d-wave-launches-gate-model-simulator-beta-program-featuring-21-qubit-dual-rail-erasure-emulation",
+          "report": "2026-10/2026-10-01-digest.md",
+          "score": 42,
+          "source": "Quantum Computing Report",
+          "title": "D-Wave Launches Gate-Model Simulator Beta Program Featuring 21-Qubit Dual-Rail Erasure Emulation",
+          "url": "https://quantumcomputingreport.com/d-wave-launches-gate-model-simulator-beta-program-featuring-21-qubit-dual-rail-erasure-emulation"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-09-30",
-      "momentum": "stable",
+      "latest_seen": "2026-10-01",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
         "The Quantum Insider",
-        "USAspending \u00b7 Quantum Technologies",
-        "AWS Quantum Technologies Blog"
+        "Quantum Computing Report",
+        "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 4,
-      "recent_count": 4,
-      "status": "watching"
+      "prior_count": 3,
+      "recent_count": 6,
+      "status": "actionable"
     },
     "Standards / Government": {
       "confidence": "high",
@@ -9079,13 +9160,22 @@
           "source": "USAspending \u00b7 Cybersecurity",
           "title": "PURPOSE: THIS AWARD WILL SUPPORT DEVELOPMENT OF A REGIONAL QUANTUM CYBERSECURITY WORKFORCE BY EXPANDING EDUCATION, EMPLOYER PARTNERSHIPS, AND HANDS-ON TRAINING IN THE PALM BEACH A...",
           "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H385_013"
+        },
+        {
+          "date": "2026-10-01",
+          "key": "https://thequantuminsider.com/2026/10/01/quantum-renaissance-to-convene-global-quantum-leaders-in-florence-in-april-2027",
+          "report": "2026-10/2026-10-01-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "Quantum Renaissance to Convene Global Quantum Leaders in Florence in April 2027",
+          "url": "https://thequantuminsider.com/2026/10/01/quantum-renaissance-to-convene-global-quantum-leaders-in-florence-in-april-2027"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-09-30",
-      "momentum": "stable",
+      "latest_seen": "2026-10-01",
+      "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
         "QuantumNews.ai",
@@ -9093,11 +9183,11 @@
         "Quantum Zeitgeist",
         "USAspending \u00b7 Advanced Computing"
       ],
-      "prior_count": 6,
-      "recent_count": 8,
-      "status": "watching"
+      "prior_count": 5,
+      "recent_count": 9,
+      "status": "actionable"
     }
   },
-  "updated_at": "2026-10-01T03:39:12.628689+00:00",
+  "updated_at": "2026-10-02T03:39:14.657631+00:00",
   "version": 1
 }

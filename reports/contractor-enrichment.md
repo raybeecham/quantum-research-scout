@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-10-01T03:31:08.575959+00:00_
+_Updated 2026-10-02T03:30:50.857708+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
 - SAM.gov-resolved entities: **100** (**133.3%** coverage)
-- Newly resolved this run: **1**
-- Pending bounded enrichment: **115**
+- Newly resolved this run: **0**
+- Pending bounded enrichment: **116**
 - Ambiguous / no match: **7 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |

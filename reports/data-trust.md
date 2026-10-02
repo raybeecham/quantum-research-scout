@@ -1,6 +1,6 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-10-01T03:31:08.575959+00:00_
+_Updated 2026-10-02T03:30:50.857708+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
@@ -19,8 +19,8 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - **Match appears only in collector query metadata**: 132
 - **No relevant term in the evidence itself**: 132
-- **Official government source**: 111
-- **Source is not an official .gov or .mil domain**: 21
+- **Official government source**: 109
+- **Source is not an official .gov or .mil domain**: 23
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -45,6 +45,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [Diraq Expands U.S. Footprint with New Mexico Quantum R&D Laboratory to Advance DARPA QBI Milestones](https://quantumcomputingreport.com/diraq-expands-u-s-footprint-with-new-mexico-quantum-rd-laboratory-to-advance-darpa-qbi-milestones)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [Post-Quantum Readiness: The Timeline Is Now Written Down](https://www.keyfactor.com/blog/post-quantum-readiness-the-timeline-is-now-written-down)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [Field Initiated Projects Program (Development)](https://www.grants.gov/search-results-detail/363971)
 
@@ -705,20 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/356205)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Integrated Specific Pathogen Free Research Models and Human New Approach Methodologies to Advance HIV/AIDS Research (U42 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/362488)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362498)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
