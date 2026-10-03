@@ -2461,12 +2461,30 @@
           "source": "Cloudflare Blog",
           "title": "Support for modern cryptographic algorithms in Workers",
           "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support"
+        },
+        {
+          "date": "2026-10-02",
+          "key": "https://www.keyfactor.com/blog/iso-sae-21434-how-cryptography-and-pki-keep-connected-vehicles-road-legal",
+          "report": "2026-10/2026-10-02-digest.md",
+          "score": 34,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "ISO/SAE 21434: How Cryptography and PKI Keep Connected Vehicles Road Legal",
+          "url": "https://www.keyfactor.com/blog/iso-sae-21434-how-cryptography-and-pki-keep-connected-vehicles-road-legal"
+        },
+        {
+          "date": "2026-10-02",
+          "key": "https://pqshield.com/how-ai-can-help-defend-against-future-quantum-attacks-forbes-tech-council",
+          "report": "2026-10/2026-10-02-digest.md",
+          "score": 47,
+          "source": "PQShield",
+          "title": "How AI can help defend against future quantum attacks",
+          "url": "https://pqshield.com/how-ai-can-help-defend-against-future-quantum-attacks-forbes-tech-council"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-10-01",
+      "latest_seen": "2026-10-02",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -2475,8 +2493,8 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 19,
-      "recent_count": 20,
+      "prior_count": 20,
+      "recent_count": 19,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -5939,12 +5957,21 @@
           "source": "The Quantum Insider",
           "title": "Alice & Bob Demonstrates New Approach to Stabilizing Cat With DC Voltage Bias",
           "url": "https://thequantuminsider.com/2026/10/01/alice-bob-demonstrates-new-approach-to-stabilising-cat-with-dc-voltage-bias"
+        },
+        {
+          "date": "2026-10-02",
+          "key": "https://quantumcomputingreport.com/fermilab-sqms-center-identifies-microscopic-origins-of-qubit-performance-variance-across-superconducting-transmons",
+          "report": "2026-10/2026-10-02-digest.md",
+          "score": 41,
+          "source": "Quantum Computing Report",
+          "title": "Fermilab SQMS Center Identifies Microscopic Origins of Qubit Performance Variance Across Superconducting Transmons",
+          "url": "https://quantumcomputingreport.com/fermilab-sqms-center-identifies-microscopic-origins-of-qubit-performance-variance-across-superconducting-transmons"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-10-01",
+      "latest_seen": "2026-10-02",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -5953,7 +5980,7 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 10,
+      "prior_count": 11,
       "recent_count": 10,
       "status": "watching"
     },
@@ -7192,12 +7219,21 @@
           "source": "The Quantum Insider",
           "title": "Choi Co-Leads Research on Quantum Intelligent Sensor Networks",
           "url": "https://thequantuminsider.com/2026/10/01/choi-next-generation-quantum-sensors"
+        },
+        {
+          "date": "2026-10-02",
+          "key": "https://thequantuminsider.com/2026/10/02/new-method-generates-photons-that-are-virtually-indistinguishable",
+          "report": "2026-10/2026-10-02-digest.md",
+          "score": 33,
+          "source": "The Quantum Insider",
+          "title": "New Method Generates Photons That Are Virtually Indistinguishable",
+          "url": "https://thequantuminsider.com/2026/10/02/new-method-generates-photons-that-are-virtually-indistinguishable"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-10-01",
+      "latest_seen": "2026-10-02",
       "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
@@ -7207,7 +7243,7 @@
         "Quantum Computing Report"
       ],
       "prior_count": 12,
-      "recent_count": 5,
+      "recent_count": 3,
       "status": "watching"
     },
     "Quantum Sensing": {
@@ -8555,12 +8591,21 @@
           "source": "Quantum Computing Report",
           "title": "D-Wave Launches Gate-Model Simulator Beta Program Featuring 21-Qubit Dual-Rail Erasure Emulation",
           "url": "https://quantumcomputingreport.com/d-wave-launches-gate-model-simulator-beta-program-featuring-21-qubit-dual-rail-erasure-emulation"
+        },
+        {
+          "date": "2026-10-02",
+          "key": "https://quantumcomputingreport.com/us-department-of-energy-releases-national-quantum-roadmap-establishing-2028-fault-tolerance-milestones",
+          "report": "2026-10/2026-10-02-digest.md",
+          "score": 55,
+          "source": "Quantum Computing Report",
+          "title": "US Department of Energy Releases National Quantum Roadmap Establishing 2028 Fault-Tolerance Milestones",
+          "url": "https://quantumcomputingreport.com/us-department-of-energy-releases-national-quantum-roadmap-establishing-2028-fault-tolerance-milestones"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-10-01",
+      "latest_seen": "2026-10-02",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -8570,7 +8615,7 @@
         "USAspending \u00b7 Quantum Technologies"
       ],
       "prior_count": 3,
-      "recent_count": 6,
+      "recent_count": 7,
       "status": "actionable"
     },
     "Standards / Government": {
@@ -9169,12 +9214,21 @@
           "source": "The Quantum Insider",
           "title": "Quantum Renaissance to Convene Global Quantum Leaders in Florence in April 2027",
           "url": "https://thequantuminsider.com/2026/10/01/quantum-renaissance-to-convene-global-quantum-leaders-in-florence-in-april-2027"
+        },
+        {
+          "date": "2026-10-02",
+          "key": "https://thequantuminsider.com/2026/10/02/sqc-schneider-electric-quantum-energy-forecasting",
+          "report": "2026-10/2026-10-02-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "SQC and Schneider Electric Advance Quantum-Enhanced Energy Forecasting",
+          "url": "https://thequantuminsider.com/2026/10/02/sqc-schneider-electric-quantum-energy-forecasting"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-10-01",
+      "latest_seen": "2026-10-02",
       "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
@@ -9188,6 +9242,6 @@
       "status": "actionable"
     }
   },
-  "updated_at": "2026-10-02T03:39:14.657631+00:00",
+  "updated_at": "2026-10-03T03:18:56.347720+00:00",
   "version": 1
 }

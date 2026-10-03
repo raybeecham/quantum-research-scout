@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 76,
+      "days_to_close": 75,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -88,6 +88,14 @@
           "basis": [
             "shared specialties: artificial intelligence"
           ],
+          "name": "ALVAREZ LLC",
+          "score": 5,
+          "uei": "Y928UVG75CT6"
+        },
+        {
+          "basis": [
+            "shared specialties: artificial intelligence"
+          ],
           "name": "ZCORE GROUP LLC",
           "score": 2,
           "uei": "FJ58SNSJTV68"
@@ -99,14 +107,6 @@
           "name": "YALE UNIV",
           "score": 2,
           "uei": "FL6GV84CKN57"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
         }
       ],
       "mission_fit": [
@@ -192,7 +192,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 17,
+      "days_to_close": 16,
       "deadline": "10/19/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -301,6 +301,6 @@
     "qualify": 2,
     "targeted_review": 0
   },
-  "updated_at": "2026-10-02T03:30:50.857708+00:00",
+  "updated_at": "2026-10-03T03:15:07.917249+00:00",
   "version": 1
 }

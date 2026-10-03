@@ -2,38 +2,46 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-10-02T03:30:50.857708+00:00_
+_Updated 2026-10-03T03:15:07.917249+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **41**
+- Actual or recent changes: **57**
 - Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **15**
 
 ## Priority timeline
 
-- **Published today** · AI OSINT ECHO Software Support Services — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/a0449fb119644aa6a87707cd6fe723be/view))
+- **Changed since prior run** · VISN 1 RADIOLOGY ARTIFICIAL INTELLIGENCE PLATFORM — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_36C24126P0730_3600_-NONE-_-NONE-))
+  - The assertion changed relative to the prior successful ledger build.
+- **Published today** · 29--SENSOR,DETONATION — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/8d2d4cdad8f14b76b50394dfb4381e53/view))
   - The source publication date is today or within the prior day.
-- **Published today** · BOOZ ALLEN HAMILTON INC — has related patent ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/19631083/application-data))
-  - The source publication date is today or within the prior day.
-- **Occurred 2 days ago** · BPA ORDER #2: ARTIFICIAL INTELLIGENCE (AI) ENTERPRISE APPLICATIONS PROFESSIONAL SERVICES — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_9531BM26F0060_9508_9531BM26A0013_9508))
+- **Occurred 3 days ago** · 70B04C26F00001201 CTO/TECHNOLOGY ROADMAP FOR ARTIFICIAL INTELLIGENCE AND NEXT-GENERATION COMPUTING (TRAIN-C) AND CSPD/TRADE IT MODERNIZATION PROJECTS. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70B04C26F00001201_7014_47QREA21D0001_4732))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 3 days ago** · CYBERSECURITY ARCHITECTURE AND ENGINEERING SERVICES — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0458_3600_GS35F330BA_4732))
+- **Occurred 3 days ago** · ARTIFICIAL INTELLIGENCE (AI) COMPUTE INFRASTRUCTURE HARDWARE & SUPPORT — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_2099AC26F00077_2099_NNG15SD19B_8000))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 4 days ago** · ENTERPRISE CYBERSECURITY MONITORING PLATFORM — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_95170026F0410_9568_NNG15SD80B_8000))
+- **Occurred 3 days ago** · CLOUD-BASED, ARTIFICIAL INTELLIGENCE-ENABLED CALL CENTER SEC. 4(A). — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70VT1526F00043_7004_GS35F271GA_4732))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 3 days ago** · FEDERALLY FUNDED RESEARCH AND DEVELOPMENT CENTER SERVICES TO THE VETERANS HEALTH ADMINISTRATION, CENTER FOR DATA AND COMPUTATIONAL SCIENCES FOR ARTIFICIAL INTELLIGENCE-ENABLED SEC... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_36C10B26N0060_3600_36C10B25D0015_3600))
+- **Occurred 3 days ago** · CYBERSECURITY EXERCISE SUPPORT SERVICES — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000046_7001_47QRCA25DU144_4732))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 2 days ago** · SAMHSA CYBERSECURITY AND MANAGEMENT SUPPORT — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_75S20326F80005_7522_HHSN316201500002W_7529))
+- **Occurred 3 days ago** · DELIVERY ORDER UNDER THE NASA SEWP CONTRACT VEHICLE FOR ADVANCED CYBERSECURITY NETWORK ANALYZER (ACNA) FLY-AWAY KIT AND SOFTWARE MAINTENANCE & SUPPORT — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70T05026F5900N033_7013_NNG15SD71B_8000))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 2 days ago** · TASK ORDER TO PROVIDE OPERATIONAL MODEL TRANSFORMATION SUPPORT SERVICES TO CYBERSECURITY & INFRASTRUCTURE SECURITY AGENCY. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000053_7001_47QRCA24DW135_4732))
+- **Occurred 3 days ago** · MAINTAIN CONTINUITY, COMPLIANCE, & OPERATIONAL INTEGRITY OF EXECUTIVE ORDER & OPM MEMOS; FACILITATE DATA ENGAGEMENT & ARTIFICIAL INTELLIGENCE (AI) DISCOVERABILITY IMPROVEMENT FOR... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571MN26F80153_7571_47QTCB26D0019_4732))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 4 days ago** · THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70FA3126F00000065_7022_47QTCB21D0332_4732))
+- **Occurred 3 days ago** · POST-QUANTUM CRYPTOGRAPHY AND FEDERAL IDENTITY MANAGEMENT SUPPORT SERVICES — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_47QACB26C0005_4732_-NONE-_-NONE-))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 3 days ago** · THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70FA3126C00000003_7022_-NONE-_-NONE-))
+- **Occurred 3 days ago** · PROVIDES IT, CYBERSECURITY, AND SERVICENOW DEVELOPMENT SERVICES FOR THE NAVAL REACTORS LABORATORY FIELD OFFICES. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_89233026FNR400155_8900_47QTCA23D00C1_4732))
   - A recent source-reported event was newly incorporated into the ledger.
-- **Occurred 3 days ago** · THE PURPOSE OF THIS TASK ORDER (TO) IS TO PROVIDE CLMS TRIAGE PROCESS AUTOMATION AND ARTIFICIAL INTELLIGENCE (AI) ENHANCEMENTS — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_16PBGC26T0014_1665_16PBGC19D0021_1665))
+- **Occurred 3 days ago** · TASK ORDER FOR EXTERNAL AFFAIRS OFFICE COMMUNICATIONS & SUPPORT SERVICES FOR CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FR0000052_7001_47QRCA24DW280_4732))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Occurred 3 days ago** · TECHNICAL SUPPORT FOR ONTOLOGY, KNOWLEDGE GRAPH, MISSION ARCHITECTURE, AND MULTI-DOMAIN ARTIFICIAL INTELLIGENCE SUPPORT — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70B06C26F00001261_7014_47QTCK18D0001_4732))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Occurred 3 days ago** · THE PURPOSE OF THIS CONTRACT IS TO SUPPORT ANALYTICAL AI DEVELOPMENT OF THE SECURSAIL SOLUTION, INCLUDING ARTIFICIAL INTELLIGENCE AND AUTOMATIC TARGET RECOGNITION ALGORITHMS TO IM... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_70T04026C7573N007_7013_-NONE-_-NONE-))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Occurred 3 days ago** · THIS REQUIREMENT WORKSPACE SUPPORTS THE ACQUISITION OF IT MODERNIZATION SERVICES FOR ORI, INCLUDING LEGACY SYSTEM MODERNIZATION, CLOUD MIGRATION, CYBERSECURITY, DATA MIGRATION, AN... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_7571MN26F80168_7571_NNG15SC98B_8000))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Occurred 3 days ago** · TO#1 OF THE TREASURY ENTERPRISE ARTIFICIAL INTELLIGENCE MODELS (TEAM) BPA WILL ESTABLISH TREASURY'S CHATGPT LICENSE FOOTPRINT AS WELL AS PURCHASE TOKENS FOR CONSUMPTION USE. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_2099AC26F00078_2099_2099AC26A00001_2099))
   - A recent source-reported event was newly incorporated into the ledger.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.

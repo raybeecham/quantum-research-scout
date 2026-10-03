@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-02 03:39 UTC_
+_Updated 2026-10-03 03:18 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 9 | 12 | 13 | 25 |
+| 50 | 3 | 11 | 15 | 24 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -66,32 +66,25 @@ _Updated 2026-10-02 03:39 UTC_
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Source failing: ETSI Quantum Standards News 🆕
+## 🔴 Source failing: ETSI Quantum Standards News
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 93.8% reliability with 2 warning day(s).
+- 🔴 92.6% reliability with 3 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Quantum Computing Report
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 58.8% reliability with 7 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🔴 Source failing: Quantum Journal 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 88.2% reliability with 2 warning day(s).
+- 🔴 61.1% reliability with 7 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: White House Science and Technology Missions
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 79.7% reliability with 14 warning day(s).
+- 🔴 78.6% reliability with 15 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: Quantum Sensing
@@ -101,21 +94,29 @@ _Updated 2026-10-02 03:39 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Software / Tooling 🆕
+## 🟠 Actionable signal: Quantum Software / Tooling
 
 - Severity: **high**
 - Status: **actionable**
 - 🎯 Quantum Software / Tooling is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Standards / Government 🆕
+## 🟠 Actionable signal: Standards / Government
 
 - Severity: **high**
 - Status: **actionable**
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Product Launch: D-Wave 🆕
+## 🟠 Changed: VISN 1 RADIOLOGY ARTIFICIAL INTELLIGENCE PLATFORM 🆕
+
+- Severity: **high**
+- Status: **changed**
+- reported amount · authority authoritative · 745500.0
+- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_36C24126P0730_3600_-NONE-_-NONE-)
+- [Open supporting view](intelligence-changes.md)
+
+## 🟠 Product Launch: D-Wave
 
 - Severity: **high**
 - Status: **product-launch**
@@ -123,7 +124,7 @@ _Updated 2026-10-02 03:39 UTC_
 - [Open direct evidence](https://quantumcomputingreport.com/d-wave-launches-gate-model-simulator-beta-program-featuring-21-qubit-dual-rail-erasure-emulation)
 - [Open supporting view](entity-watch.md)
 
-## 🟠 Product Launch: D-Wave 🆕
+## 🟠 Product Launch: D-Wave
 
 - Severity: **high**
 - Status: **product-launch**
@@ -145,14 +146,14 @@ _Updated 2026-10-02 03:39 UTC_
 - ↗️ Recent evidence is 5 versus 1 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Quantum Software / Tooling 🆕
+## 🟠 Rising momentum: Quantum Software / Tooling
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 6 versus 3 in the prior period.
+- ↗️ Recent evidence is 7 versus 3 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Standards / Government 🆕
+## 🟠 Rising momentum: Standards / Government
 
 - Severity: **high**
 - Status: **rising**
@@ -170,7 +171,14 @@ _Updated 2026-10-02 03:39 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.1% reliability with 2 warning day(s).
+- 🟠 94.2% reliability with 2 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Source degraded: Quantum Journal 🆕
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 88.9% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
@@ -184,7 +192,7 @@ _Updated 2026-10-02 03:39 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 95.4% reliability with 1 warning day(s).
+- 🟠 95.5% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -278,7 +286,7 @@ _Updated 2026-10-02 03:39 UTC_
 - The latest dated item is from 2026-09-15; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: InfoQ Quantum Computing 🆕
+## 🟡 Source stale: InfoQ Quantum Computing
 
 - Severity: **medium**
 - Status: **stale**
@@ -297,6 +305,13 @@ _Updated 2026-10-02 03:39 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-02; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: NCSC UK Guidance 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-09-17; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: NCSC UK Reports
@@ -346,18 +361,4 @@ _Updated 2026-10-02 03:39 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Golden Dome
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-04-01; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Quantum Benchmarking Initiative
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2025-10-06; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

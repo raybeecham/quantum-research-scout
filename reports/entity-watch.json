@@ -73,7 +73,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 3,
+      "evidence_count": 4,
       "first_party_evidence_count": 0,
       "name": "ISO/IEC",
       "priority": "high",
@@ -407,8 +407,8 @@
           "type": "rss"
         }
       ],
-      "evidence_count": 25,
-      "first_party_evidence_count": 21,
+      "evidence_count": 26,
+      "first_party_evidence_count": 22,
       "name": "Keyfactor",
       "priority": "high",
       "status": "covered",
@@ -492,8 +492,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 9,
-      "first_party_evidence_count": 9,
+      "evidence_count": 10,
+      "first_party_evidence_count": 10,
       "name": "PQShield",
       "priority": "high",
       "status": "covered",
@@ -1881,7 +1881,7 @@
       "latest_seen": "2026-09-19",
       "momentum": "declining",
       "name": "IBM",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -1897,8 +1897,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 13,
+      "current_evidence_count": 14,
       "evidence": [
+        {
+          "date": "2026-10-02",
+          "key": "https://www.keyfactor.com/blog/iso-sae-21434-how-cryptography-and-pki-keep-connected-vehicles-road-legal",
+          "report": "2026-10/2026-10-02-digest.md",
+          "score": 34,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "ISO/SAE 21434: How Cryptography and PKI Keep Connected Vehicles Road Legal",
+          "url": "https://www.keyfactor.com/blog/iso-sae-21434-how-cryptography-and-pki-keep-connected-vehicles-road-legal"
+        },
         {
           "date": "2026-10-01",
           "key": "https://www.keyfactor.com/blog/iso-iec-270012022-for-manufacturers-cryptography-pki-and-audit-ready-key-management",
@@ -2344,15 +2356,15 @@
           "url": "https://www.keyfactor.com/blog_categories/post-quantum-cryptography/"
         }
       ],
-      "evidence_count": 25,
+      "evidence_count": 26,
       "first_seen": "2025-07-24",
       "historical_evidence_count": 12,
-      "latest_seen": "2026-10-01",
-      "momentum": "declining",
+      "latest_seen": "2026-10-02",
+      "momentum": "stable",
       "name": "Keyfactor",
       "prior_count": 2,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2651,7 +2663,7 @@
       "prior_count": 4,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "QEC / Fault Tolerance",
@@ -3558,6 +3570,148 @@
       "current_evidence_count": 10,
       "evidence": [
         {
+          "date": "2026-10-02",
+          "key": "https://pqshield.com/how-ai-can-help-defend-against-future-quantum-attacks-forbes-tech-council",
+          "report": "2026-10/2026-10-02-digest.md",
+          "score": 47,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "How AI can help defend against future quantum attacks",
+          "url": "https://pqshield.com/how-ai-can-help-defend-against-future-quantum-attacks-forbes-tech-council"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://pqshield.com/meet-the-team-morgane-guearreau",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 47,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Meet the Team \u2013 Morgane Guerreau",
+          "url": "https://pqshield.com/meet-the-team-morgane-guearreau"
+        },
+        {
+          "date": "2026-09-17",
+          "key": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026",
+          "report": "2026-09/2026-09-17-digest.md",
+          "score": 67,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why the energy sector must plan for post-quantum cyber security now, WEF, Sep 2026",
+          "url": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://pqshield.com/events/we-are-attending-jaif-2026",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 100,
+          "source": "PQShield",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "We are attending JAIF 2026 Montpellier, France 01 Oct, 2026 JAIF 2026 focuses on fault injection prevention - an increasingly complex technique used by attackers. We'll be attending in Montpellier, France, along with experts from industry, government and academia.",
+          "url": "https://pqshield.com/events/we-are-attending-jaif-2026"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://pqshield.com/reframing-quantum-risk-for-board-governance",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 50,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Reframing quantum risk for board governance Top security leaders from HSBC, Microsoft, Citi, and industry experts break down the executive mandate for post-quantum security. Learn how to reframe cryptographic risk for the C-suite, bridge governance gaps, and execute enterprise migration.",
+          "url": "https://pqshield.com/reframing-quantum-risk-for-board-governance"
+        },
+        {
+          "date": "2026-09-07",
+          "key": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026",
+          "report": "2026-09/2026-09-07-digest.md",
+          "score": 66,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "We are presenting at GSA PQC Summit 2026 Washington DC 16 - 16 Sep, 2026 We're attending and presenting this year at the 2026 GSA Post-Quantum Cryptography Summit.",
+          "url": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026"
+        },
+        {
+          "date": "2026-08-28",
+          "key": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca",
+          "report": "2026-08/2026-08-28-digest.md",
+          "score": 42,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "We are attending, Embedded World North America, Anaheim, CA Anaheim, CA 22 - 24 Sep, 2026 We'll be back at eWNA, 22-24 September 2026, Anaheim, CA. It's always a great opportunity to catch up with the latest developments in hardware, software, IoT and embedded solutions.",
+          "url": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca"
+        },
+        {
+          "date": "2026-08-28",
+          "key": "https://pqshield.com/events/we-are-speaking-cybersweden-2026",
+          "report": "2026-08/2026-08-28-digest.md",
+          "score": 32,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "We are speaking, CyberSweden 2026, Stockholm Stockholm, Sweden 15 - 17 Sep, 2026 CTO, Graeme Hickey is speaking at CyberSweden 2026 in Stockholm. He\u2019ll present \"Beyond Quantum Safe: Building Systems that Can Survive the Next Cryptographic Transition\". CyberSweden runs Sept 15\u201317.",
+          "url": "https://pqshield.com/events/we-are-speaking-cybersweden-2026"
+        },
+        {
+          "date": "2026-07-23",
+          "key": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 50,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.",
+          "url": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness"
+        },
+        {
+          "date": "2026-07-03",
+          "key": "https://pqshield.com/why-crypto-agility-requires-real-governance",
+          "report": "2026-07/2026-07-03-digest.md",
+          "score": 108,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why crypto-agility requires real governance Eric Amador explains how pqctoday.com uses AI and WebAssembly to remove friction from testing quantum-safe algorithms. Learn how different organizational personas can map out global migration timelines and prepare for upcoming compliance mandates.",
+          "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
+        }
+      ],
+      "evidence_count": 10,
+      "first_seen": "2026-07-03",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-10-02",
+      "momentum": "rising",
+      "name": "PQShield",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 10,
+      "evidence": [
+        {
           "date": "2026-09-15",
           "key": "https://quantumzeitgeist.com/quops-quantum-benchmark-quantinuum-sandia-labs",
           "report": "2026-09/2026-09-15-digest.md",
@@ -3692,136 +3846,6 @@
         "PQC / Crypto Agility",
         "QEC / Fault Tolerance",
         "Quantum Hardware"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 9,
-      "evidence": [
-        {
-          "date": "2026-09-30",
-          "key": "https://pqshield.com/meet-the-team-morgane-guearreau",
-          "report": "2026-09/2026-09-30-digest.md",
-          "score": 47,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Meet the Team \u2013 Morgane Guerreau",
-          "url": "https://pqshield.com/meet-the-team-morgane-guearreau"
-        },
-        {
-          "date": "2026-09-17",
-          "key": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026",
-          "report": "2026-09/2026-09-17-digest.md",
-          "score": 67,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Why the energy sector must plan for post-quantum cyber security now, WEF, Sep 2026",
-          "url": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026"
-        },
-        {
-          "date": "2026-09-15",
-          "key": "https://pqshield.com/events/we-are-attending-jaif-2026",
-          "report": "2026-09/2026-09-15-digest.md",
-          "score": 100,
-          "source": "PQShield",
-          "themes": [
-            "Standards / Government"
-          ],
-          "title": "We are attending JAIF 2026 Montpellier, France 01 Oct, 2026 JAIF 2026 focuses on fault injection prevention - an increasingly complex technique used by attackers. We'll be attending in Montpellier, France, along with experts from industry, government and academia.",
-          "url": "https://pqshield.com/events/we-are-attending-jaif-2026"
-        },
-        {
-          "date": "2026-09-10",
-          "key": "https://pqshield.com/reframing-quantum-risk-for-board-governance",
-          "report": "2026-09/2026-09-10-digest.md",
-          "score": 50,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Reframing quantum risk for board governance Top security leaders from HSBC, Microsoft, Citi, and industry experts break down the executive mandate for post-quantum security. Learn how to reframe cryptographic risk for the C-suite, bridge governance gaps, and execute enterprise migration.",
-          "url": "https://pqshield.com/reframing-quantum-risk-for-board-governance"
-        },
-        {
-          "date": "2026-09-07",
-          "key": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026",
-          "report": "2026-09/2026-09-07-digest.md",
-          "score": 66,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "We are presenting at GSA PQC Summit 2026 Washington DC 16 - 16 Sep, 2026 We're attending and presenting this year at the 2026 GSA Post-Quantum Cryptography Summit.",
-          "url": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026"
-        },
-        {
-          "date": "2026-08-28",
-          "key": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca",
-          "report": "2026-08/2026-08-28-digest.md",
-          "score": 42,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "We are attending, Embedded World North America, Anaheim, CA Anaheim, CA 22 - 24 Sep, 2026 We'll be back at eWNA, 22-24 September 2026, Anaheim, CA. It's always a great opportunity to catch up with the latest developments in hardware, software, IoT and embedded solutions.",
-          "url": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca"
-        },
-        {
-          "date": "2026-08-28",
-          "key": "https://pqshield.com/events/we-are-speaking-cybersweden-2026",
-          "report": "2026-08/2026-08-28-digest.md",
-          "score": 32,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "We are speaking, CyberSweden 2026, Stockholm Stockholm, Sweden 15 - 17 Sep, 2026 CTO, Graeme Hickey is speaking at CyberSweden 2026 in Stockholm. He\u2019ll present \"Beyond Quantum Safe: Building Systems that Can Survive the Next Cryptographic Transition\". CyberSweden runs Sept 15\u201317.",
-          "url": "https://pqshield.com/events/we-are-speaking-cybersweden-2026"
-        },
-        {
-          "date": "2026-07-23",
-          "key": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 50,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.",
-          "url": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness"
-        },
-        {
-          "date": "2026-07-03",
-          "key": "https://pqshield.com/why-crypto-agility-requires-real-governance",
-          "report": "2026-07/2026-07-03-digest.md",
-          "score": 108,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Why crypto-agility requires real governance Eric Amador explains how pqctoday.com uses AI and WebAssembly to remove friction from testing quantum-safe algorithms. Learn how different organizational personas can map out global migration timelines and prepare for upcoming compliance mandates.",
-          "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
-        }
-      ],
-      "evidence_count": 9,
-      "first_seen": "2026-07-03",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-09-30",
-      "momentum": "rising",
-      "name": "PQShield",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility",
-        "Standards / Government"
       ],
       "type": "company"
     },
@@ -4138,9 +4162,9 @@
       "latest_seen": "2026-09-25",
       "momentum": "declining",
       "name": "DigiCert",
-      "prior_count": 5,
+      "prior_count": 7,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -4795,6 +4819,79 @@
     },
     {
       "aliases": [
+        "ISO",
+        "International Organization for Standardization",
+        "International Electrotechnical Commission"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 4,
+      "evidence": [
+        {
+          "date": "2026-10-02",
+          "key": "https://www.keyfactor.com/blog/iso-sae-21434-how-cryptography-and-pki-keep-connected-vehicles-road-legal",
+          "report": "2026-10/2026-10-02-digest.md",
+          "score": 34,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "ISO/SAE 21434: How Cryptography and PKI Keep Connected Vehicles Road Legal",
+          "url": "https://www.keyfactor.com/blog/iso-sae-21434-how-cryptography-and-pki-keep-connected-vehicles-road-legal"
+        },
+        {
+          "date": "2026-10-01",
+          "key": "https://www.keyfactor.com/blog/iso-iec-270012022-for-manufacturers-cryptography-pki-and-audit-ready-key-management",
+          "report": "2026-10/2026-10-01-digest.md",
+          "score": 34,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "ISO/IEC 27001:2022 for Manufacturers: Cryptography, PKI, and Audit-Ready Key Management",
+          "url": "https://www.keyfactor.com/blog/iso-iec-270012022-for-manufacturers-cryptography-pki-and-audit-ready-key-management"
+        },
+        {
+          "date": "2026-07-15",
+          "key": "https://thequantuminsider.com/2026/07/15/classic-mceliece-iso-standard-post-quantum-cryptography",
+          "report": "2026-07/2026-07-15-digest.md",
+          "score": 62,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "ISO Standardizes Classic McEliece for Quantum-Resistant Encryption",
+          "url": "https://thequantuminsider.com/2026/07/15/classic-mceliece-iso-standard-post-quantum-cryptography"
+        },
+        {
+          "date": "2026-06-25",
+          "key": "https://quantumzeitgeist.com/quantum-resistant-standard-iso-adopts-co",
+          "report": "2026-06/2026-06-25-digest.md",
+          "score": 39,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "ISO Adopts Quantum-Resistant Standard Co-Designed by Warwick Team",
+          "url": "https://quantumzeitgeist.com/quantum-resistant-standard-iso-adopts-co"
+        }
+      ],
+      "evidence_count": 4,
+      "first_seen": "2026-06-25",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-10-02",
+      "momentum": "rising",
+      "name": "ISO/IEC",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "standards"
+    },
+    {
+      "aliases": [
         "Lockheed",
         "Lockheed Martin Corporation"
       ],
@@ -5095,67 +5192,6 @@
         "Quantum Software / Tooling"
       ],
       "type": "company"
-    },
-    {
-      "aliases": [
-        "ISO",
-        "International Organization for Standardization",
-        "International Electrotechnical Commission"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 3,
-      "evidence": [
-        {
-          "date": "2026-10-01",
-          "key": "https://www.keyfactor.com/blog/iso-iec-270012022-for-manufacturers-cryptography-pki-and-audit-ready-key-management",
-          "report": "2026-10/2026-10-01-digest.md",
-          "score": 34,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "ISO/IEC 27001:2022 for Manufacturers: Cryptography, PKI, and Audit-Ready Key Management",
-          "url": "https://www.keyfactor.com/blog/iso-iec-270012022-for-manufacturers-cryptography-pki-and-audit-ready-key-management"
-        },
-        {
-          "date": "2026-07-15",
-          "key": "https://thequantuminsider.com/2026/07/15/classic-mceliece-iso-standard-post-quantum-cryptography",
-          "report": "2026-07/2026-07-15-digest.md",
-          "score": 62,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "ISO Standardizes Classic McEliece for Quantum-Resistant Encryption",
-          "url": "https://thequantuminsider.com/2026/07/15/classic-mceliece-iso-standard-post-quantum-cryptography"
-        },
-        {
-          "date": "2026-06-25",
-          "key": "https://quantumzeitgeist.com/quantum-resistant-standard-iso-adopts-co",
-          "report": "2026-06/2026-06-25-digest.md",
-          "score": 39,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "ISO Adopts Quantum-Resistant Standard Co-Designed by Warwick Team",
-          "url": "https://quantumzeitgeist.com/quantum-resistant-standard-iso-adopts-co"
-        }
-      ],
-      "evidence_count": 3,
-      "first_seen": "2026-06-25",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-10-01",
-      "momentum": "rising",
-      "name": "ISO/IEC",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "type": "standards"
     },
     {
       "aliases": [
@@ -6784,8 +6820,20 @@
         "cryptographic inventory"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 14,
+      "current_evidence_count": 15,
       "evidence": [
+        {
+          "date": "2026-10-02",
+          "key": "https://www.keyfactor.com/blog/iso-sae-21434-how-cryptography-and-pki-keep-connected-vehicles-road-legal",
+          "report": "2026-10/2026-10-02-digest.md",
+          "score": 34,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "ISO/SAE 21434: How Cryptography and PKI Keep Connected Vehicles Road Legal",
+          "url": "https://www.keyfactor.com/blog/iso-sae-21434-how-cryptography-and-pki-keep-connected-vehicles-road-legal"
+        },
         {
           "date": "2026-10-01",
           "key": "https://www.keyfactor.com/blog/iso-iec-270012022-for-manufacturers-cryptography-pki-and-audit-ready-key-management",
@@ -7553,41 +7601,17 @@
           ],
           "title": "Crypto Agility",
           "url": "https://www.keyfactor.com/event-tag/crypto-agility/"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Crypto Agility",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Deloitte"
-          ],
-          "historical": true,
-          "key": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf",
-          "observed_at": "2026-09-27T08:50:22.626232+00:00",
-          "published_at": null,
-          "score": 43,
-          "source": "Deloitte Quantum Cyber Readiness",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Intro to Deloitte's crypto-inventory methodology Deloitte's crypto-inventory methodology provides a deeper look into what steps to take to effectively conduct a cryptographic inventory.",
-          "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf"
         }
       ],
-      "evidence_count": 41,
+      "evidence_count": 42,
       "first_seen": "2025-07-24",
       "historical_evidence_count": 27,
-      "latest_seen": "2026-10-01",
-      "momentum": "declining",
+      "latest_seen": "2026-10-02",
+      "momentum": "stable",
       "name": "Crypto-agility",
       "prior_count": 2,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -8041,9 +8065,9 @@
       "first_seen": "2026-01-13",
       "historical_evidence_count": 1,
       "latest_seen": "2026-09-30",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Quantum error correction",
-      "prior_count": 4,
+      "prior_count": 2,
       "priority": "critical",
       "recent_count": 2,
       "status": "active",
@@ -8432,7 +8456,7 @@
       "prior_count": 4,
       "priority": "critical",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -8816,11 +8840,11 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 3,
       "latest_seen": "2026-09-25",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Quantum key distribution",
-      "prior_count": 2,
+      "prior_count": 4,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -9319,6 +9343,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-10-02T03:39:14.669077+00:00",
+  "updated_at": "2026-10-03T03:18:56.359228+00:00",
   "version": 2
 }
