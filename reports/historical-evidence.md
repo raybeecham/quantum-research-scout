@@ -4,18 +4,24 @@
 
 [Entity Watch](entity-watch.md) · [Readiness Scorecards](readiness.md) · [Report Index](README.md)
 
-_Updated 2026-09-27 08:50 UTC_
+_Updated 2026-10-04 09:12 UTC_
 
 This bounded ledger retains up to **730 days** of official-source history. Backfilled records enrich profiles but never create retroactive alerts.
 
-- Evidence: **88** (69 dated; 19 undated)
-- Last run: **87 accepted** from 225 collected
-- Source warnings: **1**
+- Evidence: **85** (69 dated; 16 undated)
+- Last run: **83 accepted** from 230 collected
+- Source warnings: **2**
 
 | Date | Date basis | Confidence | Source | Evidence | Score |
 |---|---|---|---|---|---:|
-| 2026-09-22 | published | high | Cisco Quantum-Safe Updates | [PQC for Dummies—Cisco Special Edition: Why we wrote it](https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it) | 58 |
+| 2026-10-02 | published | high | Keyfactor Quantum and Crypto-Agility | [ISO/SAE 21434: How Cryptography and PKI Keep Connected Vehicles Road Legal](https://www.keyfactor.com/blog/iso-sae-21434-how-cryptography-and-pki-keep-connected-vehicles-road-legal/) | 34 |
+| 2026-10-01 | published | high | Keyfactor Quantum and Crypto-Agility | [ISO/IEC 27001:2022 for Manufacturers: Cryptography, PKI, and Audit-Ready Key Management](https://www.keyfactor.com/blog/iso-iec-270012022-for-manufacturers-cryptography-pki-and-audit-ready-key-management/) | 34 |
+| 2026-09-30 | published | high | Keyfactor Quantum and Crypto-Agility | [CMMC 2.0 and NIST SP 800-171: A Cryptography and PKI Playbook for the Defense Industrial Base](https://www.keyfactor.com/blog/cmmc-2-0-and-nist-sp-800-171-a-cryptography-and-pki-playbook-for-the-defense-industrial-base/) | 71 |
+| 2026-09-30 | published | high | Fortanix Quantum Security | [What is a Cryptographic Inventory?](https://www.fortanix.com/blog/what-is-a-cryptographic-inventory) | 43 |
+| 2026-09-29 | unknown | high | Booz Allen Quantum and PQC | [4 Ways Booz Allen Is Advancing Quantum Technology](https://www.boozallen.com/insights/fast-tracking-results/advancing-quantum-technology.html) | 100 |
+| 2026-09-28 | published | high | Cisco Quantum-Safe Updates | [Automating Post-Quantum IPsec on Cisco Routers – IPsec Series, Part 12](https://blogs.cisco.com/developer/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12) | 158 |
 | 2026-09-22 | published | high | QuSecure Press Releases | [QuSecure Recognized in the Gartner® Coolest Vendor Innovations in Data Security Report for its Post-Quantum Cryptography Solution](https://www.qusecure.com/qusecure-gartner-cool-vendor-data-security/) | 50 |
+| 2026-09-22 | published | high | Keyfactor Quantum and Crypto-Agility | [Post-Quantum Cryptography Gets a US Mandate](https://www.keyfactor.com/resource-center/post-quantum-cryptography-us-mandate/) | 50 |
 | 2026-09-02 | published | high | QuSecure Press Releases | [QuSecure Delivers Field-Ready Post-Quantum Cryptography and Crypto-Agility for U.S. Army at Project Convergence Capstone 6](https://www.qusecure.com/qusecure-army-project-convergence-capstone-6-trl-7/) | 118 |
 | 2026-08-30 | published | high | QuSecure Press Releases | [OMB M-23-02: The Memo That Made Federal Cryptographic Inventory a Requirement](https://www.qusecure.com/omb-m-23-02-federal-cryptographic-inventory/) | 43 |
 | 2026-08-30 | published | high | QuSecure Press Releases | [What PCI DSS 4.0 Requirement 12.3.3 Asks of Your Cryptography](https://www.qusecure.com/pci-dss-4-0-cryptographic-inventory/) | 39 |
@@ -29,7 +35,6 @@ This bounded ledger retains up to **730 days** of official-source history. Backf
 | 2026-08-11 | published | high | QuSecure Press Releases | [QuSecure's Post-Quantum Cryptography Solutions Now Available on Carahsoft's GSA Schedule Contract](https://www.qusecure.com/post-quantum-cryptography-gsa-schedule/) | 100 |
 | 2026-08-03 | published | high | QuSecure Press Releases | [QuSecure Featured in IT Brief: Gartner Recognizes QuSecure for Crypto Agility](https://www.qusecure.com/it-brief-gartner-crypto-agility-recognition/) | 45 |
 | 2026-07-31 | published | high | QuSecure Press Releases | [QuSecure Recognized as a Sample Vendor for Crypto-Agility in Three Separate Gartner® Hype Cycle™ Reports](https://www.qusecure.com/qusecure-gartner-hype-cycle-crypto-agility/) | 76 |
-| 2026-07-31 | published | high | Keyfactor Quantum and Crypto-Agility | [Implementing Crypto-Agility at Scale](https://www.keyfactor.com/events/implementing-crypto-agility-at-scale/) | 76 |
 | 2026-07-30 | published | high | Fortanix Quantum Security | [Quantum-Safe Encryption with HSM: Preparing for the Future](https://www.fortanix.com/blog/quantum-safe-encryption-with-hsm-preparing-for-the-future) | 103 |
 | 2026-07-29 | published | high | Fortanix Quantum Security | [Why CISOs Should Prioritize Quantum-Safe Cryptography](https://www.fortanix.com/blog/why-ciso-should-prioritize-quantum-safe-cryptography-today) | 113 |
 | 2026-07-25 | published | high | QuSecure Press Releases | [QuSecure Featured in Quantum Zeitgeist: QuProtect R3 Simplifies Post-Quantum Cryptography](https://www.qusecure.com/quantum-zeitgeist-post-quantum-cryptography-platform/) | 50 |
@@ -37,44 +42,39 @@ This bounded ledger retains up to **730 days** of official-source history. Backf
 | 2026-07-15 | published | high | QuSecure Press Releases | [QuSecure Featured in The Quantum Insider: QuProtect R3 Listed in AWS ICMP](https://www.qusecure.com/quantum-insider-aws-icmp-quprotect-r3/) | 16 |
 | 2026-07-14 | published | high | QuSecure Press Releases | [QuSecure QuProtect R3 Listed in AWS "ICMP" for the U.S. Federal Government](https://www.qusecure.com/quprotect-r3-aws-icmp-us-federal-government/) | 100 |
 | 2026-07-14 | published | high | QuSecure Press Releases | [QuSecure Featured in Quantum Computing Report: QuProtect R3 Listed in AWS ICMP Post-Quantum Cryptography](https://www.qusecure.com/quantum-computing-report-aws-icmp-quprotect-r3/) | 50 |
-| 2026-07-13 | published | high | Keyfactor Quantum and Crypto-Agility | [Preparing for the UK's Quantum-Safe Future](https://www.keyfactor.com/events/preparing-for-the-uks-quantum-safe-future/) | 50 |
 | 2026-07-02 | published | high | Wiz Post-Quantum Security | [White House PQC Mandates Explained: EO 14409 & M-26-15 \| Wiz Blog](https://www.wiz.io/blog/white-house-post-quantum-cryptography-executive-order) | 100 |
 | 2026-06-22 | published | high | ETSI Quantum Standards News | [Wait & see is not an option: Q-day is here - ETSI](https://www.etsi.org/newsroom/news/wait-see-is-not-an-option-q-day-is-here/) | 42 |
 | 2026-06-16 | published | high | Atom Computing News and Research | [Atom Computing Raises More Than $300 Million to Accelerate Deployment of Fault-Tolerant, Neutral-Atom Quantum Computers - Atom Computing](https://atom-computing.com/atom-computing-raises-more-than-300-million-to-accelerate-deployment-of-fault-tolerant-neutral-atom-quantum-computers/) | 86 |
 | 2026-05-28 | published | high | Wiz Post-Quantum Security | [State of Post Quantum Cryptography \| Wiz Blog](https://www.wiz.io/blog/state-of-post-quantum-cryptography) | 44 |
 | 2026-05-21 | published | high | PsiQuantum News | [PsiQuantum Signs $100 Million Letter of Intent with the U.S. Department of Commerce — PsiQuantum](https://www.psiquantum.com/news-import/us-department-of-commerce) | 16 |
+| 2026-04-22 | published | high | Keyfactor Quantum and Crypto-Agility | [Special Board Report: Post-Quantum Risk and Business Resilience](https://www.keyfactor.com/resource-center/report-post-quantum-risk/) | 50 |
 | 2026-04-16 | published | high | PsiQuantum News | [PsiQuantum, the University of Tokyo, and Mitsubishi Chemical Corporation Announce Partnership to Bolster Quantum Workforce Development in Japan — PsiQuantum](https://www.psiquantum.com/news-import/utokyo-mitsubishi-partnership) | 100 |
 | 2026-03-16 | published | high | PsiQuantum News | [PsiQuantum Construct Enables Utility-Scale Quantum Application Development with CUDA-Q Integration — PsiQuantum](https://www.psiquantum.com/news-import/construct-nvidia-cudaq) | 56 |
-| 2026-03-12 | published | high | Keyfactor Quantum and Crypto-Agility | [Post-Quantum mTLS 1.3 On Embedded Linux](https://www.keyfactor.com/events/post-quantum-mtls-1-3-on-embedded-linux/) | 50 |
 | 2026-02-04 | published | high | Fortanix Quantum Security | [Guide to Mastering Data Security in Post-Quantum World](https://www.fortanix.com/blog/guide-to-mastering-data-security-in-post-quantum-world) | 112 |
-| 2026-01-22 | published | high | Keyfactor Quantum and Crypto-Agility | [Turning Post-Quantum Plans Into Real Progress](https://www.keyfactor.com/events/turning-post-quantum-plans-into-real-progress/) | 50 |
 | 2026-01-16 | published | high | Wiz Post-Quantum Security | [Post-Quantum Cryptography: What It Is and How to Prepare \| Wiz](https://www.wiz.io/academy/cloud-security/post-quantum-cryptography) | 50 |
 | 2026-01-15 | published | high | Fortanix Quantum Security | [How Crypto Agility Defines the Next-Gen HSM](https://www.fortanix.com/blog/how-crypto-agility-defines-the-next-gen-hsm) | 55 |
 | 2026-01-14 | published | high | Fortanix Quantum Security | [Quantum Data Governance: Securing AI Training Data in a Post-Quantum World](https://www.fortanix.com/blog/quantum-data-governance-securing-ai-training-data-in-a-post-quantum-world) | 100 |
 | 2026-01-13 | unknown | high | Google Quantum AI | [Dynamic surface codes open new avenues for quantum error correction](https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/) | 58 |
 | 2026-01-08 | published | high | Wiz Post-Quantum Security | [Preparing for Post-Quantum Cryptography \| Wiz Blog](https://www.wiz.io/blog/preparing-for-post-quantum-cryptography) | 50 |
-| 2025-12-22 | published | high | Keyfactor Quantum and Crypto-Agility | [Post-Quantum Cryptography : What Late Adopters Must Know](https://www.keyfactor.com/events/post-quantum-cryptography-what-late-adopters-must-know/) | 50 |
 | 2025-11-13 | unknown | high | QuEra Press Releases | [Press Releases November 13, 2025 SDT Joins QuEra Alliance To Advance Neutral-Atom Quantum Computing](https://www.quera.com/press-releases/sdt-joins-quera-alliance-to-advance-neutral-atom-quantum-computing) | 45 |
 | 2025-11-13 | unknown | high | Google Quantum AI | [A new quantum toolkit for optimization](https://research.google/blog/a-new-quantum-toolkit-for-optimization/) | 31 |
-| 2025-10-21 | published | high | Keyfactor Quantum and Crypto-Agility | [Post-Quantum Cryptography Conference](https://www.keyfactor.com/events/post-quantum-cryptography-conference/) | 64 |
 | 2025-10-20 | unknown | high | QuEra Press Releases | [QuEra Selected for NEDO Post-5G Infrastructure R&D](https://www.quera.com/press-releases/quera-selected-for-nedo-post-5g-information-and-communication-systems-infrastructure-enhancement-r-d-project) | 37 |
 | 2025-09-30 | unknown | high | QuEra Press Releases | [BCG X & QuEra Computing Forge Quantum Partnership](https://www.quera.com/press-releases/bcg-x-and-quera-computing-join-forces-to-accelerate-quantum-value-for-enterprises-and-government-innovators) | 100 |
 | 2025-09-30 | unknown | high | QuEra Press Releases | [ICSC & QuEra Computing Launch Partnership](https://www.quera.com/press-releases/icsc-and-quera-computing-launch-partnership-to-give-italian-researchers-premium-cloud-access-to-world-leading-neutral-atom-quantum-computer) | 50 |
 | 2025-09-29 | published | high | Fortanix Quantum Security | [Fortanix Partners with BigID for Upleveling Data Security](https://www.fortanix.com/blog/fortanix-and-bigid-partners-to-unveil-data-security-for-ai-and-post-quantum-world) | 42 |
 | 2025-09-10 | published | high | PsiQuantum News | [PsiQuantum Raises $1 Billion to Build Million-Qubit Scale, Fault-Tolerant Quantum Computers — PsiQuantum](https://www.psiquantum.com/news-import/psiquantum-1b-fundraise) | 73 |
-| 2025-09-09 | published | high | Keyfactor Quantum and Crypto-Agility | [Eliminating PKI Entropy Starvation with Certified Quantum Entropy](https://www.keyfactor.com/events/eliminating-pki-entropy-starvation-with-certified-quantum-entropy/) | 34 |
 | 2025-08-20 | published | high | Fortanix Quantum Security | [Why Cloud Data Security Must Adapt to Post-Quantum Threats](https://www.fortanix.com/blog/why-cloud-data-security-must-adapt-to-post-quantum-threat) | 50 |
 | 2025-08-20 | unknown | high | QuEra Press Releases | [Algorithmiq Joins QuEra Alliance For Quantum Healthcare](https://www.quera.com/press-releases/quera-computing-and-deloitte-form-alliance-to-accelerate-enterprise-adoption-of-neutral-atom-quantum-computing) | 37 |
 | 2025-08-06 | published | high | Fortanix Quantum Security | [Quantum Key Encryption in a Post-Quantum World](https://www.fortanix.com/blog/quantum-key-encryption-in-a-post-quantum-world) | 50 |
 | 2025-07-24 | published | high | Fortanix Quantum Security | [Difference Between Post-Quantum Crypto & Quantum Crypto](https://www.fortanix.com/blog/difference-between-post-quantum-crypto-and-quantum-crypto) | 50 |
-| 2025-07-24 | published | high | Keyfactor Quantum and Crypto-Agility | [Securing the Future of PKI: Quantum-Ready Entropy for Cryptography](https://www.keyfactor.com/events/securing-the-future-of-pki-quantum-ready-entropy-for-cryptography/) | 34 |
-| 2025-07-24 | published | high | Keyfactor Quantum and Crypto-Agility | [Modernizing PKI with Quantum-Secure Foundations](https://www.keyfactor.com/events/modernizing-pki-with-quantum-secure-foundations/) | 34 |
 | 2025-07-23 | published | high | Fortanix Quantum Security | [Quantum Security for Post-Quantum Cryptography](https://www.fortanix.com/blog/quantum-security-for-post-quantum-cryptography) | 78 |
 | 2025-07-22 | published | high | Fortanix Quantum Security | [Risks of delaying post-quantum cryptography adoption](https://www.fortanix.com/blog/risk-of-delaying-quantum-safe-algorithms-in-data-security) | 64 |
-| 2025-07-10 | published | high | Fortanix Quantum Security | [Why Data Security in the Cloud Needs to Evolve](https://www.fortanix.com/blog/why-data-security-in-the-cloud-needs-to-evolve-for-post-quantum-threats) | 42 |
+| 2025-07-01 | published | high | Keyfactor Quantum and Crypto-Agility | [Cryptographic Inventory: Deriving Value Today, Preparing For Tomorrow - 2 Pager](https://www.keyfactor.com/resource-center/cryptographic-inventory-twopager/) | 43 |
+| 2025-07-01 | published | high | Keyfactor Quantum and Crypto-Agility | [Cryptographic Inventory: Deriving Value Today, Preparing For Tomorrow](https://www.keyfactor.com/resource-center/cryptographic-inventory-whitepaper-hsbc/) | 43 |
 | 2025-06-10 | published | high | Fortanix Quantum Security | [Why Quantum-Resistant Cryptography Matters Now](https://www.fortanix.com/blog/is-your-data-future-proof-why-quantum-resistant-cryptography-matters-now) | 34 |
 | 2025-06-04 | unknown | high | QuEra Press Releases | [Scientists Observe String Breaking in 2D Quantum Simulator](https://www.quera.com/press-releases/scientists-observe-string-breaking-in-two-dimensional-quantum-simulator) | 26 |
 | 2025-06-03 | published | high | Fortanix Quantum Security | [A Peek Inside Post-Quantum Keys](https://www.fortanix.com/blog/a-peek-inside-post-quantum-key) | 50 |
+| 2025-05-13 | published | high | Keyfactor Quantum and Crypto-Agility | [Achieve Crypto-Agility with 360 Visibility and Control of Your Cryptographic Assets](https://www.keyfactor.com/resource-center/achieve-crypto-agility-infosec-global/) | 76 |
 | 2025-05-08 | published | high | PsiQuantum News | [PsiQuantum and Linde Engineering Collaborate to Deliver Cryogenic Plant for World’s First Utility-Scale Quantum Computer in Brisbane — PsiQuantum](https://www.psiquantum.com/news-import/psiquantum-linde) | 14 |
 | 2025-05-06 | published | high | Fortanix Quantum Security | [Untold Challenge of Post-Quantum Cryptography Migration](https://www.fortanix.com/blog/untold-challenge-of-post-quantum-cryptography-migration) | 50 |
 | 2025-04-15 | published | high | PsiQuantum News | [PsiQuantum Announces $10.8M Contract with Air Force Research Laboratory to Deliver Novel Quantum Chip Capabilities to the U.S. Air Force — PsiQuantum](https://www.psiquantum.com/news-import/psiquantum-afrl-omega) | 14 |
@@ -87,13 +87,10 @@ This bounded ledger retains up to **730 days** of official-source history. Backf
 | Unknown | unknown | unknown | Accenture Quantum and PQC News | [Banco Sabadell Collaborates with Accenture and QuSecure to Advance Quantum Safe Infrastructure](https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure) | 72 |
 | Unknown | unknown | unknown | Accenture Quantum and PQC News | [Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility](https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility) | 69 |
 | Unknown | unknown | unknown | IETF PQUIP | [Post-Quantum Use In Protocols (pquip)](https://datatracker.ietf.org/group/pquip/about/) | 62 |
-| Unknown | unknown | unknown | Keyfactor Quantum and Crypto-Agility | [Crypto Agility](https://www.keyfactor.com/blog_categories/crypto-agility/) | 45 |
-| Unknown | unknown | unknown | Keyfactor Quantum and Crypto-Agility | [Crypto Agility](https://www.keyfactor.com/event-tag/crypto-agility/) | 45 |
 | Unknown | unknown | unknown | Deloitte Quantum Cyber Readiness | [Intro to Deloitte's crypto-inventory methodology Deloitte's crypto-inventory methodology provides a deeper look into what steps to take to effectively conduct a cryptographic inventory.](https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf) | 43 |
 | Unknown | unknown | unknown | Accenture Quantum and PQC News | [Accenture Invests in Aliro Quantum to Establish Secure Quantum Networks](https://newsroom.accenture.com/news/2023/accenture-invests-in-aliro-quantum-to-establish-secure-quantum-networks) | 43 |
 | Unknown | unknown | unknown | QCi Press Releases | [Quantum Computing Inc. and Ciena Demonstrate Next-Generation Quantum-Secured Communications with High-Speed Encryption using PQC and QKD at OFC 2026 - Quantum Computing Inc](https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-and-ciena-demonstrate-next-generation-quantum-secured-communications-with-high-speed-encryption-using-pqc-and-qkd-at-ofc-2026) | 34 |
 | Unknown | unknown | unknown | QCi Press Releases | [Quantum Computing Inc. Completes Acquisition of NuCrypt to Advance Quantum Communications Commercialization - Quantum Computing Inc](https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-completes-acquisition-of-nucrypt-to-advance-quantum-communications-commercialization) | 32 |
-| Unknown | unknown | unknown | Keyfactor Quantum and Crypto-Agility | [Post Quantum Cryptography](https://www.keyfactor.com/blog_categories/post-quantum-cryptography/) | 32 |
 | Unknown | unknown | unknown | QCi Press Releases | [Quantum Computing Inc. Announces Framework Agreement with Planck Dynamics to Deploy NeuraWave Photonic Reservoir Computer As A Foundational Platform For Next-Generation AI Applications - Quantum Computing Inc](https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-announces-framework-agreement-with-planck-dynamics-to-deploy-neurawave-photonic-reservoir-computer-as-a-foundational-platform-for-next-generation-ai-applications) | 28 |
 | Unknown | unknown | unknown | Intel Quantum Research News | [Intel’s New Chip to Advance Silicon Spin Qubit Research for Quantum...](https://www.intel.com/content/www/us/en/newsroom/news/quantum-computing-chip-to-advance-research.html) | 25 |
 | Unknown | unknown | unknown | QCi Press Releases | [Quantum Computing Inc. to Showcase Quantum Secure Communications Beyond Quantum Key Distribution at ECOC 2026 - Quantum Computing Inc](https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-to-showcase-quantum-secure-communications-beyond-quantum-key-distribution-at-ecoc-2026) | 24 |
@@ -106,3 +103,4 @@ This bounded ledger retains up to **730 days** of official-source history. Backf
 ## Collection Warnings
 
 - **White House Science and Technology Missions**: All discovery methods failed: HTML page returned no matching entries.
+- **ETSI Quantum Standards News**: All discovery methods failed: HTML page returned no matching entries.

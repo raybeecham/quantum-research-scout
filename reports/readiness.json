@@ -542,9 +542,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 14,
-      "historical_evidence_count": 7,
-      "latest_evidence_at": "2026-07-31",
+      "evidence_count": 12,
+      "historical_evidence_count": 5,
+      "latest_evidence_at": "2026-09-22",
       "name": "Keyfactor",
       "priority": "high",
       "source_count": 3,
@@ -566,21 +566,6 @@
           "source": "Keyfactor Quantum and Crypto-Agility",
           "title": "Implementing Crypto-Agility at Scale",
           "url": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale"
-        },
-        {
-          "date": "2026-07-31",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "crypto-agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Implementing Crypto-Agility at Scale",
-          "url": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale/"
         },
         {
           "date": "2026-07-28",
@@ -628,7 +613,7 @@
           "url": "https://thequantuminsider.com/2026/07/22/keyfactor-expands-partner-program-for-post-quantum-security"
         },
         {
-          "date": "2026-07-13",
+          "date": "2025-07-01",
           "date_confidence": "high",
           "date_kind": "published",
           "historical": true,
@@ -639,29 +624,44 @@
           "observed_stage_label": "Planning",
           "rank": 3,
           "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Preparing for the UK's Quantum-Safe Future",
-          "url": "https://www.keyfactor.com/events/preparing-for-the-uks-quantum-safe-future/"
+          "title": "Cryptographic Inventory: Deriving Value Today, Preparing For Tomorrow - 2 Pager",
+          "url": "https://www.keyfactor.com/resource-center/cryptographic-inventory-twopager/"
         },
         {
-          "date": "2026-07-25",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
+          "date": "2025-07-01",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
           "matched_patterns": [
-            "post-quantum"
+            "preparing for"
           ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Quantum Zeitgeist",
-          "title": "Keyfactor Partners Gain Tools for AI & Post-Quantum Security Services",
-          "url": "https://quantumzeitgeist.com/keyfactor-security-services-ai-post-quantum"
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Cryptographic Inventory: Deriving Value Today, Preparing For Tomorrow",
+          "url": "https://www.keyfactor.com/resource-center/cryptographic-inventory-whitepaper-hsbc/"
         },
         {
-          "date": "2026-07-22",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
+          "date": "2025-05-13",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Achieve Crypto-Agility with 360 Visibility and Control of Your Cryptographic Assets",
+          "url": "https://www.keyfactor.com/resource-center/achieve-crypto-agility-infosec-global/"
+        },
+        {
+          "date": "2026-09-22",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
           "matched_patterns": [
             "post-quantum"
           ],
@@ -669,8 +669,8 @@
           "observed_stage_label": "Awareness",
           "rank": 1,
           "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Keyfactor Expands Global Partner Ecosystem to Help Partners Lead the AI and Post-Quantum Era",
-          "url": "https://www.keyfactor.com/press-releases/keyfactor-expands-global-partner-ecosystem-to-help-partners-lead-the-ai-and-post-quantum-era"
+          "title": "Post-Quantum Cryptography Gets a US Mandate",
+          "url": "https://www.keyfactor.com/resource-center/post-quantum-cryptography-us-mandate/"
         }
       ],
       "type": "company"
@@ -859,7 +859,7 @@
       "confidence": "medium",
       "evidence_count": 19,
       "historical_evidence_count": 19,
-      "latest_evidence_at": "2026-08-24",
+      "latest_evidence_at": "2026-09-30",
       "name": "Fortanix",
       "priority": "high",
       "source_count": 1,
@@ -2011,6 +2011,6 @@
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-10-04T03:47:11.234001+00:00",
+  "updated_at": "2026-10-04T09:12:36.232444+00:00",
   "version": 1
 }
