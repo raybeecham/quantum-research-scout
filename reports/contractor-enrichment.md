@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-10-03T03:15:07.917249+00:00_
+_Updated 2026-10-04T03:43:19.044022+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
@@ -33,8 +33,8 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | ALVAREZ LLC | [Alvarez LLC](https://sam.gov/entity/Y928UVG75CT6/coreData) | Y928UVG75CT6 | 35LK3 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | UNIVERSITY OF WASHINGTON | [UNIVERSITY OF WASHINGTON](https://sam.gov/entity/HD1WMN6945W6/coreData) | HD1WMN6945W6 | 1HEX5 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. Local Government |
 | UNIVERSITY OF NORTH TEXAS | [UNIVERSITY OF NORTH TEXAS](https://sam.gov/entity/G47WN1XZNWX9/coreData) | G47WN1XZNWX9 | 6B783 | Active | Educational Institution, Hispanic Servicing Institution, Minority Institution |
-| REGENCY CONSULTING INC | [REGENCY CONSULTING INC](https://sam.gov/entity/SC8LMLWA6H51/coreData) | SC8LMLWA6H51 | 1M6B0 | Active | American Indian Owned, Business or Organization, For Profit Organization |
 | POST QUANTUM LABS LLC | [Post Quantum Labs LLC](https://sam.gov/entity/H53MXWJZPYU3/coreData) | H53MXWJZPYU3 | 9T5C5 | Active | Business or Organization, For Profit Organization, Individual or concern, other than one of the preceding |
+| REGENCY CONSULTING INC | [REGENCY CONSULTING INC](https://sam.gov/entity/SC8LMLWA6H51/coreData) | SC8LMLWA6H51 | 1M6B0 | Active | American Indian Owned, Business or Organization, For Profit Organization |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | [Regents of the University of California, The](https://sam.gov/entity/GS3YEVSS12N6/coreData) | GS3YEVSS12N6 | 50853 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | FOUR POINTS TECHNOLOGY, L.L.C. | [FOUR POINTS TECHNOLOGY, L.L.C.](https://sam.gov/entity/H1KHJPJH9R51/coreData) | H1KHJPJH9R51 | 1YS78 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | UNIVERSITY OF ILLINOIS | [UNIVERSITY OF ILLINOIS](https://sam.gov/entity/Y8CWNJRCNN91/coreData) | Y8CWNJRCNN91 | 4B808 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |

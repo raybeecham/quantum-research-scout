@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-03T03:15:07.917249+00:00_
+_Updated 2026-10-04T03:43:19.044022+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -13,7 +13,7 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Tracked publications: **250**
 - Curated notable patents: **2**
 - Automated recent discoveries: **248**
-- Published in the last 30 days: **72**
+- Published in the last 30 days: **65**
 - Unique named assignees: **148**
 - Patent families: **274**
 - Applications / grants: **240 / 10**

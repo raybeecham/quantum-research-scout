@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-03 03:18 UTC_
+_Updated 2026-10-04 03:47 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 3 | 11 | 15 | 24 |
+| 50 | 5 | 14 | 16 | 20 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -70,22 +70,50 @@ _Updated 2026-10-03 03:18 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 92.6% reliability with 3 warning day(s).
+- 🔴 91.5% reliability with 4 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Quantum Computing Report
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 61.1% reliability with 7 warning day(s).
+- 🔴 63.2% reliability with 7 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: White House Science and Technology Missions
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 78.6% reliability with 15 warning day(s).
+- 🔴 77.5% reliability with 16 warning day(s).
 - [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 72.5% reliability with 8 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv Quantum Computing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 72.5% reliability with 8 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv Quantum Networking and Sensing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 74.5% reliability with 7 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Actionable signal: AI Security 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 AI Security is actionable with high confidence.
+- [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: Quantum Sensing
 
@@ -108,13 +136,13 @@ _Updated 2026-10-03 03:18 UTC_
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: VISN 1 RADIOLOGY ARTIFICIAL INTELLIGENCE PLATFORM 🆕
+## 🟠 Partnership: IBM 🆕
 
 - Severity: **high**
-- Status: **changed**
-- reported amount · authority authoritative · 745500.0
-- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_36C24126P0730_3600_-NONE-_-NONE-)
-- [Open supporting view](intelligence-changes.md)
+- Status: **partnership**
+- IBM matched a partnership event: IBM Expands Research Collaborations with IISc and IIT Bombay to Advance Quantum-Centric Supercomputing and Sovereign AI
+- [Open direct evidence](https://quantumcomputingreport.com/ibm-expands-research-collaborations-with-iisc-and-iit-bombay-to-advance-quantum-centric-supercomputing-and-sovereign-ai)
+- [Open supporting view](entity-watch.md)
 
 ## 🟠 Product Launch: D-Wave
 
@@ -136,7 +164,7 @@ _Updated 2026-10-03 03:18 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 2 versus 0 in the prior period.
+- ↗️ Recent evidence is 1 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -157,7 +185,7 @@ _Updated 2026-10-03 03:18 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 9 versus 5 in the prior period.
+- ↗️ Recent evidence is 10 versus 5 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Source degraded: Lockheed Martin Quantum Technology
@@ -171,14 +199,14 @@ _Updated 2026-10-03 03:18 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 94.2% reliability with 2 warning day(s).
+- 🟠 94.3% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: Quantum Journal 🆕
+## 🟠 Source degraded: Quantum Journal
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 88.9% reliability with 2 warning day(s).
+- 🟠 89.5% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
@@ -307,7 +335,7 @@ _Updated 2026-10-03 03:18 UTC_
 - The latest dated item is from 2026-06-02; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: NCSC UK Guidance 🆕
+## 🟡 Source stale: NCSC UK Guidance
 
 - Severity: **medium**
 - Status: **stale**
@@ -333,32 +361,4 @@ _Updated 2026-10-03 03:18 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-08; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: PsiQuantum News
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-09; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Quantinuum News
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-11; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Rigetti News
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-08; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Genesis Mission
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

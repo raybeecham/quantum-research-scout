@@ -4,20 +4,31 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-03 03:18 UTC_
+_Updated 2026-10-04 03:47 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
+| AI Security | ↗️ rising (1 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-10-03 | 22 |
 | Quantum Sensing | ↗️ rising (5 vs 1) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-01 | 51 |
 | Quantum Software / Tooling | ↗️ rising (7 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-02 | 97 |
-| Standards / Government | ↗️ rising (9 vs 5) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-10-02 | 67 |
+| Standards / Government | ↗️ rising (10 vs 5) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-10-03 | 68 |
 | PQC / Crypto Agility | ➡️ stable (19 vs 20) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-02 | 252 |
 | QEC / Fault Tolerance | ↘️ declining (3 vs 5) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-10-01 | 73 |
 | Quantum Hardware | ➡️ stable (10 vs 11) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-02 | 310 |
 | Quantum Networking | ↘️ declining (3 vs 12) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-02 | 138 |
-| AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 💤 stale | 2026-07-01 | 2026-09-17 | 21 |
+
+## AI Security
+
+- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, arXiv RSS cs.CR, The Quantum Insider, Cloudflare Blog
+- Recommended follow-up: Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.
+- Recent supporting evidence:
+  - 2026-10-03 — [IBM Expands Research Collaborations with IISc and IIT Bombay to Advance Quantum-Centric Supercomputing and Sovereign AI](https://quantumcomputingreport.com/ibm-expands-research-collaborations-with-iisc-and-iit-bombay-to-advance-quantum-centric-supercomputing-and-sovereign-ai) (Quantum Computing Report, score 29)
+  - 2026-09-17 — [Adversary simulation: what you need to know](https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know) (NCSC UK Guidance, score 100)
+  - 2026-09-11 — [LLMs & quantum physics could speed up research, QuSoft symposium finds](https://quantumzeitgeist.com/qusoft-llms-quantum-physics-speed) (Quantum Zeitgeist, score 41)
+  - 2026-09-03 — [In an Age of AI, a Physicist Seeks What Endures](https://www.quantamagazine.org/in-an-age-of-ai-a-physicist-seeks-what-endures-20260903) (QuantumNews.ai, score 24)
+  - 2026-09-01 — [LLMs and self-referentiality](https://scottaaronson.blog/?p=10046) (QuantumNews.ai, score 20)
 
 ## Quantum Sensing
 
@@ -46,11 +57,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, QuantumNews.ai, USAspending · Quantum Technologies, Quantum Zeitgeist, USAspending · Advanced Computing
 - Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
 - Recent supporting evidence:
+  - 2026-10-03 — [Silicon Quantum Computing and Schneider Electric Advance Energy Grid Forecasting via Watermelon Quantum-Enhanced AI System](https://quantumcomputingreport.com/silicon-quantum-computing-and-schneider-electric-advance-energy-grid-forecasting-via-watermelon-quantum-enhanced-ai-system) (Quantum Computing Report, score 100)
   - 2026-10-02 — [SQC and Schneider Electric Advance Quantum-Enhanced Energy Forecasting](https://thequantuminsider.com/2026/10/02/sqc-schneider-electric-quantum-energy-forecasting) (The Quantum Insider, score 100)
   - 2026-10-01 — [Quantum Renaissance to Convene Global Quantum Leaders in Florence in April 2027](https://thequantuminsider.com/2026/10/01/quantum-renaissance-to-convene-global-quantum-leaders-in-florence-in-april-2027) (The Quantum Insider, score 100)
   - 2026-09-30 — [1ST AND 2ND QUARTER SUBSISTENCE FDC HONOLULU EO 14398](https://www.usaspending.gov/award/CONT_AWD_15BH0N26P00000061_1540_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
   - 2026-09-30 — [CONFERENCE: NSF WORKSHOP ON QUANTUM TECHNOLOGIES FOR CYBER-PHYSICAL SYSTEMS -THIS PROPOSAL FOCUSES ON THE INTERSECTION OF CYBER-PHYSICAL SYSTEMS (CPS) AND QUANTUM INFORMATION SCIE...](https://www.usaspending.gov/award/ASST_NON_2628842_049) (USAspending · Autonomy and Sensing, score 100)
-  - 2026-09-30 — [PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...](https://www.usaspending.gov/award/ASST_NON_60NANB26D142_013) (USAspending · Advanced Computing, score 100)
 
 ## PQC / Crypto Agility
 
@@ -95,14 +106,3 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-09-28 — [FSU Receives $2.1 Million for Quantum Communication Testbed](https://thequantuminsider.com/2026/09/28/fsu-2-1-million-quantum-communication-testbed) (The Quantum Insider, score 37)
   - 2026-09-25 — [Creotech Quantum Prepares QKD System for Commercialization](https://thequantuminsider.com/2026/09/25/creotech-quantum-qkd-system-commercialization) (The Quantum Insider, score 37)
   - 2026-09-25 — [Creotech Quantum Wins €2.33M ($2.66M USD) ESA Contract for Space-Grade Quantum Detectors](https://quantumcomputingreport.com/creotech-quantum-wins-e2-33m-2-66m-usd-esa-contract-for-space-grade-quantum-detectors) (Quantum Computing Report, score 32)
-
-## AI Security
-
-- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, arXiv RSS cs.CR, The Quantum Insider, Cloudflare Blog
-- Recommended follow-up: Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.
-- Recent supporting evidence:
-  - 2026-09-17 — [Adversary simulation: what you need to know](https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know) (NCSC UK Guidance, score 100)
-  - 2026-09-11 — [LLMs & quantum physics could speed up research, QuSoft symposium finds](https://quantumzeitgeist.com/qusoft-llms-quantum-physics-speed) (Quantum Zeitgeist, score 41)
-  - 2026-09-03 — [In an Age of AI, a Physicist Seeks What Endures](https://www.quantamagazine.org/in-an-age-of-ai-a-physicist-seeks-what-endures-20260903) (QuantumNews.ai, score 24)
-  - 2026-09-01 — [LLMs and self-referentiality](https://scottaaronson.blog/?p=10046) (QuantumNews.ai, score 20)
-  - 2026-08-25 — [Stony Brook and Brookhaven expand New York’s quantum network](https://quantumzeitgeist.com/stony-brook-brookhaven-yorks-quantum) (Quantum Zeitgeist, score 68)
