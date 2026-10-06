@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-05 03:33 UTC_
+_Updated 2026-10-06 04:23 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 3 | 15 | 13 | 22 |
+| 50 | 7 | 11 | 18 | 21 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -21,28 +21,28 @@ _Updated 2026-10-05 03:33 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 PQC / Crypto Agility has critical strategic importance and stable momentum.
+- 🔴 PQC / Crypto Agility has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: QEC / Fault Tolerance
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 QEC / Fault Tolerance has critical strategic importance and declining momentum.
+- 🔴 QEC / Fault Tolerance has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Hardware
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Hardware has critical strategic importance and stable momentum.
+- 🔴 Quantum Hardware has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Networking
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Networking has critical strategic importance and declining momentum.
+- 🔴 Quantum Networking has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Sensing
@@ -70,49 +70,21 @@ _Updated 2026-10-05 03:33 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 90.4% reliability with 5 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🔴 Source failing: Quantum Computing Patents 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 93.0% reliability with 3 warning day(s).
+- 🔴 89.3% reliability with 6 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Quantum Computing Report
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 65.0% reliability with 7 warning day(s).
+- 🔴 66.7% reliability with 7 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: White House Science and Technology Missions
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 76.4% reliability with 17 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 71.2% reliability with 9 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🔴 Source failing: arXiv Quantum Computing
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 71.2% reliability with 9 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🔴 Source failing: arXiv Quantum Networking and Sensing
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 73.1% reliability with 8 warning day(s).
+- 🔴 75.3% reliability with 18 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -120,6 +92,20 @@ _Updated 2026-10-05 03:33 UTC_
 - Severity: **high**
 - Status: **actionable**
 - 🎯 AI Security is actionable with high confidence.
+- [Open supporting view](signals.md)
+
+## 🟠 Actionable signal: PQC / Crypto Agility 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 PQC / Crypto Agility is actionable with high confidence.
+- [Open supporting view](signals.md)
+
+## 🟠 Actionable signal: QEC / Fault Tolerance 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 QEC / Fault Tolerance is actionable with high confidence.
 - [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: Quantum Sensing
@@ -155,7 +141,21 @@ _Updated 2026-10-05 03:33 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 1 versus 0 in the prior period.
+- ↗️ Recent evidence is 2 versus 0 in the prior period.
+- [Open supporting view](signals.md)
+
+## 🟠 Rising momentum: PQC / Crypto Agility 🆕
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 22 versus 14 in the prior period.
+- [Open supporting view](signals.md)
+
+## 🟠 Rising momentum: QEC / Fault Tolerance 🆕
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 4 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -176,7 +176,7 @@ _Updated 2026-10-05 03:33 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 10 versus 5 in the prior period.
+- ↗️ Recent evidence is 11 versus 4 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Source degraded: Lockheed Martin Quantum Technology
@@ -186,18 +186,25 @@ _Updated 2026-10-05 03:33 UTC_
 - 🟠 97.6% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
+## 🟠 Source degraded: Quantum Computing Patents 🆕
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 93.1% reliability with 3 warning day(s).
+- [Open supporting view](source-health.md)
+
 ## 🟠 Source degraded: Quantum Journal
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 90.0% reliability with 2 warning day(s).
+- 🟠 90.5% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 95.5% reliability with 1 warning day(s).
+- 🟠 95.6% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
@@ -249,13 +256,6 @@ _Updated 2026-10-05 03:33 UTC_
 - The latest dated item is from 2026-09-16; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Cybersecurity
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-10; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
 ## 🟡 Source stale: Grants.gov · Genesis Mission
 
 - Severity: **medium**
@@ -277,6 +277,13 @@ _Updated 2026-10-05 03:33 UTC_
 - The latest dated item is from 2026-09-02; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: Grants.gov · Post-Quantum Cybersecurity 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-09-21; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: Grants.gov · Quantum Benchmarking Initiative
 
 - Severity: **medium**
@@ -289,13 +296,6 @@ _Updated 2026-10-05 03:33 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-06-30; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: IBM Quantum Blog
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-15; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: InfoQ Quantum Computing
@@ -347,16 +347,16 @@ _Updated 2026-10-05 03:33 UTC_
 - The latest dated item is from 2026-09-08; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: PsiQuantum News 🆕
+## 🟡 Source stale: PsiQuantum News
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-09; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Quantinuum News 🆕
+## 🟡 Source stale: Rigetti News 🆕
 
 - Severity: **medium**
 - Status: **stale**
-- The latest dated item is from 2026-09-11; collection may be healthy but the content stream is stale.
+- The latest dated item is from 2026-09-08; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

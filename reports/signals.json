@@ -200,22 +200,31 @@
           "source": "Quantum Computing Report",
           "title": "IBM Expands Research Collaborations with IISc and IIT Bombay to Advance Quantum-Centric Supercomputing and Sovereign AI",
           "url": "https://quantumcomputingreport.com/ibm-expands-research-collaborations-with-iisc-and-iit-bombay-to-advance-quantum-centric-supercomputing-and-sovereign-ai"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://arxiv.org/abs/2610.03857",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 56,
+          "source": "arXiv RSS cs.CR",
+          "title": "Beware EviLLM: Enabling Vulnerability Injection via Large Language Models",
+          "url": "https://arxiv.org/abs/2610.03857"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-10-03",
+      "latest_seen": "2026-10-05",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
-        "QuantumNews.ai",
         "arXiv RSS cs.CR",
+        "QuantumNews.ai",
         "The Quantum Insider",
         "Cloudflare Blog"
       ],
       "prior_count": 0,
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "actionable"
     },
     "PQC / Crypto Agility": {
@@ -2488,13 +2497,58 @@
           "source": "PQShield",
           "title": "How AI can help defend against future quantum attacks",
           "url": "https://pqshield.com/how-ai-can-help-defend-against-future-quantum-attacks-forbes-tech-council"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://arxiv.org/abs/2610.04436",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 54,
+          "source": "arXiv RSS cs.CR",
+          "title": "Guess My Weight: Profiled Side-Channel Recovery of Floating-Point Neural-Network Weights",
+          "url": "https://arxiv.org/abs/2610.04436"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://thequantuminsider.com/2026/10/05/ai-lab-post-quantum-tip-content-verification",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 55,
+          "source": "The Quantum Insider",
+          "title": "The AI Lab Launches Post-Quantum TIP Protocol for Content Verification",
+          "url": "https://thequantuminsider.com/2026/10/05/ai-lab-post-quantum-tip-content-verification"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://arxiv.org/abs/2610.04661",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 58,
+          "source": "arXiv RSS cs.CR",
+          "title": "Post-Quantum Authentication Protocol for Internet of Medical Things",
+          "url": "https://arxiv.org/abs/2610.04661"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://thequantuminsider.com/2026/10/05/wisesat-space-business-combination-nasdaq-trading",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 61,
+          "source": "The Quantum Insider",
+          "title": "WISeSat.Space Completes Business Combination and Begins Nasdaq Trading",
+          "url": "https://thequantuminsider.com/2026/10/05/wisesat-space-business-combination-nasdaq-trading"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://thequantuminsider.com/2026/10/05/contrivian-government-solutions-federal-defense-networks",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "Contrivian Launches Government Solutions Division for Federal and Defense Networks",
+          "url": "https://thequantuminsider.com/2026/10/05/contrivian-government-solutions-federal-defense-networks"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-10-02",
-      "momentum": "stable",
+      "latest_seen": "2026-10-05",
+      "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
@@ -2502,9 +2556,9 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 20,
-      "recent_count": 19,
-      "status": "watching"
+      "prior_count": 14,
+      "recent_count": 22,
+      "status": "actionable"
     },
     "QEC / Fault Tolerance": {
       "confidence": "high",
@@ -3165,13 +3219,22 @@
           "source": "Quantum Computing Report",
           "title": "Classiq Launches Fault Tolerance Engine for Hardware-Aware Quantum Application Synthesis",
           "url": "https://quantumcomputingreport.com/classiq-launches-fault-tolerance-engine-for-hardware-aware-quantum-application-synthesis"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://arxiv.org/abs/2610.03869",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 127,
+          "source": "arXiv RSS quant-ph",
+          "title": "Modular Neural Decoder for Surface Code Memory and Logic on Superconducting Processors",
+          "url": "https://arxiv.org/abs/2610.03869"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-10-01",
-      "momentum": "declining",
+      "latest_seen": "2026-10-05",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -3179,9 +3242,9 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 5,
-      "recent_count": 3,
-      "status": "watching"
+      "prior_count": 2,
+      "recent_count": 4,
+      "status": "actionable"
     },
     "Quantum Hardware": {
       "confidence": "high",
@@ -5975,13 +6038,31 @@
           "source": "Quantum Computing Report",
           "title": "Fermilab SQMS Center Identifies Microscopic Origins of Qubit Performance Variance Across Superconducting Transmons",
           "url": "https://quantumcomputingreport.com/fermilab-sqms-center-identifies-microscopic-origins-of-qubit-performance-variance-across-superconducting-transmons"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://quantumcomputingreport.com/quantinuum-and-the-university-of-western-australia-partner-to-advance-australias-hybrid-quantum-ai-hpc-ecosystem",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 52,
+          "source": "Quantum Computing Report",
+          "title": "Quantinuum and The University of Western Australia Partner to Advance Australia\u2019s Hybrid Quantum-AI-HPC Ecosystem",
+          "url": "https://quantumcomputingreport.com/quantinuum-and-the-university-of-western-australia-partner-to-advance-australias-hybrid-quantum-ai-hpc-ecosystem"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://quantumcomputingreport.com/germany-advances-key-consortia-in-e640-million-717-2-million-usd-fault-tolerant-quantum-computing-competition",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 102,
+          "source": "Quantum Computing Report",
+          "title": "Germany Advances Key Consortia in \u20ac640 Million ($717.2 Million USD) Fault-Tolerant Quantum Computing Competition",
+          "url": "https://quantumcomputingreport.com/germany-advances-key-consortia-in-e640-million-717-2-million-usd-fault-tolerant-quantum-computing-competition"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-10-02",
-      "momentum": "stable",
+      "latest_seen": "2026-10-05",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -5990,7 +6071,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 11,
-      "recent_count": 10,
+      "recent_count": 6,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -7237,13 +7318,58 @@
           "source": "The Quantum Insider",
           "title": "New Method Generates Photons That Are Virtually Indistinguishable",
           "url": "https://thequantuminsider.com/2026/10/02/new-method-generates-photons-that-are-virtually-indistinguishable"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://arxiv.org/abs/2610.04359",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 52,
+          "source": "arXiv RSS quant-ph",
+          "title": "A Cheat-Sensitive Primitive for Destination-Private Quantum Routing",
+          "url": "https://arxiv.org/abs/2610.04359"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://quantumcomputingreport.com/qnu-labs-bisag-n-and-iit-gandhinagar-demonstrate-indias-first-5-56-km-free-space-qkd-link",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 55,
+          "source": "Quantum Computing Report",
+          "title": "QNu Labs, BISAG-N, and IIT Gandhinagar Demonstrate India\u2019s First 5.56 km Free-Space QKD Link",
+          "url": "https://quantumcomputingreport.com/qnu-labs-bisag-n-and-iit-gandhinagar-demonstrate-indias-first-5-56-km-free-space-qkd-link"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://arxiv.org/abs/2610.04543",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 100,
+          "source": "arXiv RSS cs.CR",
+          "title": "Quantum Machine Learning Protection of Military Quantum Key Distribution Against Cryptographically Camouflaged Attacks",
+          "url": "https://arxiv.org/abs/2610.04543"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://thequantuminsider.com/2026/10/05/second-qda-forum-focuses-on-real-world-deployments-and-progress-of-quantum-computing",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "Second QDA Forum Focuses on Real-World Deployments And Progress of Quantum Computing",
+          "url": "https://thequantuminsider.com/2026/10/05/second-qda-forum-focuses-on-real-world-deployments-and-progress-of-quantum-computing"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://arxiv.org/abs/2610.04897",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 103,
+          "source": "arXiv RSS cs.CR",
+          "title": "WLPA: A Network Management Framework for Allocating Scarce Quantum-Safe Link Postures under Weakest-Link Exposure",
+          "url": "https://arxiv.org/abs/2610.04897"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-10-02",
-      "momentum": "declining",
+      "latest_seen": "2026-10-05",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -7251,8 +7377,8 @@
         "arXiv RSS quant-ph",
         "Quantum Computing Report"
       ],
-      "prior_count": 12,
-      "recent_count": 3,
+      "prior_count": 9,
+      "recent_count": 7,
       "status": "watching"
     },
     "Quantum Sensing": {
@@ -9241,12 +9367,21 @@
           "source": "Quantum Computing Report",
           "title": "Silicon Quantum Computing and Schneider Electric Advance Energy Grid Forecasting via Watermelon Quantum-Enhanced AI System",
           "url": "https://quantumcomputingreport.com/silicon-quantum-computing-and-schneider-electric-advance-energy-grid-forecasting-via-watermelon-quantum-enhanced-ai-system"
+        },
+        {
+          "date": "2026-10-05",
+          "key": "https://thequantuminsider.com/2026/10/05/quantum-renaissance-to-convene-global-quantum-leaders-in-florence-in-april-2027",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "Quantum Renaissance to Convene Global Quantum Leaders in Florence in April 2027",
+          "url": "https://thequantuminsider.com/2026/10/05/quantum-renaissance-to-convene-global-quantum-leaders-in-florence-in-april-2027"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-10-03",
+      "latest_seen": "2026-10-05",
       "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
@@ -9255,11 +9390,11 @@
         "Quantum Zeitgeist",
         "USAspending \u00b7 Advanced Computing"
       ],
-      "prior_count": 5,
-      "recent_count": 10,
+      "prior_count": 4,
+      "recent_count": 11,
       "status": "actionable"
     }
   },
-  "updated_at": "2026-10-05T03:33:05.616359+00:00",
+  "updated_at": "2026-10-06T04:23:44.600563+00:00",
   "version": 1
 }
