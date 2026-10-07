@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-10-06T04:14:31.500278+00:00_
+_Updated 2026-10-07T03:41:21.303454+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **535**
-- Quarantined evidence or relationships: **134**
-- Acceptance rate: **80.0%**
+- Quarantined evidence or relationships: **133**
+- Acceptance rate: **80.1%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
 | Federal missions | 35 | 100 | 25.9% |
-| Federal funding | 500 | 34 | 93.6% |
+| Federal funding | 500 | 33 | 93.8% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 131
-- **No relevant term in the evidence itself**: 131
-- **Official government source**: 108
+- **Match appears only in collector query metadata**: 130
+- **No relevant term in the evidence itself**: 130
+- **Official government source**: 107
 - **Source is not an official .gov or .mil domain**: 23
 - **Agency and technology inference only**: 3
 
@@ -120,13 +120,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal missions
 - Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Powering Affordable Reliable Technology (PART) Energy Program](https://www.grants.gov/search-results-detail/363396)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
@@ -719,6 +712,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/356205)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Integrated Specific Pathogen Free Research Models and Human New Approach Methodologies to Advance HIV/AIDS Research (U42 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/362488)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

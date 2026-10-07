@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-06T04:14:31.500278+00:00_
+_Updated 2026-10-07T03:41:21.303454+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -15,7 +15,7 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Automated recent discoveries: **248**
 - Published in the last 30 days: **65**
 - Unique named assignees: **148**
-- Patent families: **275**
+- Patent families: **276**
 - Applications / grants: **240 / 10**
 - Known legal status: **222 of 250**
 - Publications with citation evidence: **0**
@@ -206,6 +206,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [AI-DRIVEN CROSS-CHANNEL FINANCIAL FRAUD DETECTION SYSTEM WITH QUANTUM-RESISTANT ENCRYPTION AND BLOCKCHAIN INTEGRATION](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025043982/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CYBERSMARTS.AI LLC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING](https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data)<br><small>Publication number unavailable</small> | Application · Pending | NEW YORK UNIVERSITY | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUBIT INITIALISATION METHOD AND DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19497230/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Diraq Pty Ltd | 1 member(s) · 0 citation(s) | **60 · HIGH** |
+| [QUANTUM DIALOGUE METHOD AND DEVICE IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19500156/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [Large-scale multi-qubit trapped-ion gates](https://data.uspto.gov/patent-file-wrapper/search/details/19489905/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Quantum Art Ltd., YEDA RESEARCH AND DEVELOPMENT CO. LTD. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [DEVICE AND METHOD FOR UPDATING NETWORK INFORMATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147505/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
@@ -309,4 +310,3 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [ENABLING SECURITY POLICIES ON CLOUD SECURITY PROVIDER BASED ON SD-WAN CONTEXT](https://data.uspto.gov/patent-file-wrapper/search/details/19629904/application-data)<br><small>US20260222452A1</small> | Application · Pending | Cisco Technology, Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [TASK OFFLOADING METHOD FOR MULTI-ACCESS EDGE COMPUTING NETWORK](https://data.uspto.gov/patent-file-wrapper/search/details/19453410/application-data)<br><small>US20260211735A1</small> | Application · Pending | Vodafone Group Services Limited | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [METHOD, APPARATUS AND SYSTEM FOR SUPPORTING EDGE COMPUTING-BASED PREDICTION OF COLLISION RISK BETWEEN SPECIFIC OBJECTS](https://data.uspto.gov/patent-file-wrapper/search/details/19452436/application-data)<br><small>US20260212526A1</small> | Application · Pending | HANWHA VISION CO., LTD. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
-| [NETWORK LINK ESTABLISHMENT IN A MULTI-CLOUD INFRASTRUCTURE](https://data.uspto.gov/patent-file-wrapper/search/details/19556569/application-data)<br><small>US20260205451A1</small> | Application · Pending | Oracle International Corporation | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |

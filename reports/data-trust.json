@@ -7,9 +7,9 @@
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 93.6,
+      "acceptance_rate": 93.8,
       "accepted": 500,
-      "quarantined": 34,
+      "quarantined": 33,
       "scope": "Federal funding"
     }
   ],
@@ -324,28 +324,6 @@
       "scope": "Federal missions",
       "source": "Grants.gov \u00b7 Project Triad",
       "stage": "mission evidence admission",
-      "title": "Powering Affordable Reliable Technology (PART) Energy Program",
-      "url": "https://www.grants.gov/search-results-detail/363396"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-09-08",
-      "key": "grants_gov:RUS-PART-2026",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "funding evidence admission",
       "title": "Powering Affordable Reliable Technology (PART) Energy Program",
       "url": "https://www.grants.gov/search-results-detail/363396"
     },
@@ -2282,22 +2260,45 @@
       "stage": "mission evidence admission",
       "title": "BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)",
       "url": "https://www.grants.gov/search-results-detail/356205"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-05-20",
+      "key": "https://www.grants.gov/search-results-detail/362488",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Quantum Benchmarking Initiative",
+      "stage": "mission evidence admission",
+      "title": "Integrated Specific Pathogen Free Research Models and Human New Approach Methodologies to Advance HIV/AIDS Research (U42 Clinical Trial Not Allowed)",
+      "url": "https://www.grants.gov/search-results-detail/362488"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 131,
+      "count": 130,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 131,
+      "count": 130,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 108,
+      "count": 107,
       "label": "Official government source"
     },
     {
@@ -2313,14 +2314,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 80.0,
+    "acceptance_rate": 80.1,
     "accepted": 535,
-    "decisions": 669,
-    "funding_quarantine": 31,
+    "decisions": 668,
+    "funding_quarantine": 30,
     "mission_quarantine": 100,
-    "quarantined": 134,
+    "quarantined": 133,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-10-06T04:14:31.500278+00:00",
+  "updated_at": "2026-10-07T03:41:21.303454+00:00",
   "version": 1
 }

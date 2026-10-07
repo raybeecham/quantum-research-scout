@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-10-06",
+  "as_of_date": "2026-10-07",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,556 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-fd5310d0518f8cc1",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-06",
+      "evidence_ids": [
+        "evidence-259ce07f054e96d0"
+      ],
+      "first_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-259ce07f054e96d0",
+          "locator": "opportunity_status:awarded",
+          "title": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+          "url": "https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:80GSFC26C0031",
+        "label": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+        "node_id": "award_notice:sam_gov:80GSFC26C0031",
+        "node_type": "award_notice"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "f47ea631284e7a05"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-7d28dd70569396cf",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-06",
+      "evidence_ids": [
+        "evidence-e5db337d1d99ca64"
+      ],
+      "first_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e5db337d1d99ca64",
+          "locator": "awarding_agency:national aeronautics and space administration.national aeronautics and space administration.nasa goddard space flight center",
+          "title": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+          "url": "https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:80GSFC26C0031",
+        "label": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+        "node_id": "award_notice:sam_gov:80GSFC26C0031",
+        "node_type": "award_notice"
+      },
+      "value": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA GODDARD SPACE FLIGHT CENTER",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "fb59ae4165d31177"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-9e40bf7293bb8347",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-06",
+      "evidence_ids": [
+        "evidence-1de8cab8056ae4cc"
+      ],
+      "first_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1de8cab8056ae4cc",
+          "locator": "reported_amount:25267471.0",
+          "title": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+          "url": "https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:80GSFC26C0031",
+        "label": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+        "node_id": "award_notice:sam_gov:80GSFC26C0031",
+        "node_type": "award_notice"
+      },
+      "value": 25267471.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3a765b1e3791d94e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-d40e852524fc62f4",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-06",
+      "evidence_ids": [
+        "evidence-2f82063679c7b17c"
+      ],
+      "first_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:SPVKK1RC2MZ3",
+        "label": "The Regents of the University of Colorado",
+        "node_id": "recipient_or_contractor:uei:SPVKK1RC2MZ3",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2f82063679c7b17c",
+          "locator": "reported_recipient:recipient_or_contractor:uei:SPVKK1RC2MZ3",
+          "title": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+          "url": "https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:80GSFC26C0031",
+        "label": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+        "node_id": "award_notice:sam_gov:80GSFC26C0031",
+        "node_type": "award_notice"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8d7c8cba9cedea42"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-6b0a58e51e6292ff",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-06",
+      "evidence_ids": [
+        "evidence-fbc55993f43ccfab"
+      ],
+      "first_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fbc55993f43ccfab",
+          "locator": "opportunity_status:awarded",
+          "title": "59--SENSOR,ATMOSPHERIC",
+          "url": "https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U5172",
+        "label": "59--SENSOR,ATMOSPHERIC",
+        "node_id": "award_notice:sam_gov:SPE7M126U5172",
+        "node_type": "award_notice"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "bd05b1c6e0d728dd"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-1b2038d059652b12",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-06",
+      "evidence_ids": [
+        "evidence-b4a06386c500e15e"
+      ],
+      "first_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b4a06386c500e15e",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla maritime.dla maritime columbus.dla land and maritime",
+          "title": "59--SENSOR,ATMOSPHERIC",
+          "url": "https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U5172",
+        "label": "59--SENSOR,ATMOSPHERIC",
+        "node_id": "award_notice:sam_gov:SPE7M126U5172",
+        "node_type": "award_notice"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5685c8578235b3d5"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-dd2bdfcdb53abeab",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-06",
+      "evidence_ids": [
+        "evidence-7574de5952888f9b"
+      ],
+      "first_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7574de5952888f9b",
+          "locator": "reported_amount:350000.0",
+          "title": "59--SENSOR,ATMOSPHERIC",
+          "url": "https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U5172",
+        "label": "59--SENSOR,ATMOSPHERIC",
+        "node_id": "award_notice:sam_gov:SPE7M126U5172",
+        "node_type": "award_notice"
+      },
+      "value": 350000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6a16819bca15b500"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-8299f5f008159186",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-06",
+      "evidence_ids": [
+        "evidence-5de9560a8cd70a4d"
+      ],
+      "first_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "name:seahorse defense supply",
+        "label": "SEAHORSE DEFENSE SUPPLY, LLC",
+        "node_id": "recipient_or_contractor:name:seahorse defense supply",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5de9560a8cd70a4d",
+          "locator": "reported_recipient:recipient_or_contractor:name:seahorse defense supply",
+          "title": "59--SENSOR,ATMOSPHERIC",
+          "url": "https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U5172",
+        "label": "59--SENSOR,ATMOSPHERIC",
+        "node_id": "award_notice:sam_gov:SPE7M126U5172",
+        "node_type": "award_notice"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e87a855bfed6b8b2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-090f557a91fa4083",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-07",
+      "evidence_ids": [
+        "evidence-660de1703108ce76"
+      ],
+      "first_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-660de1703108ce76",
+          "locator": "legal_business_name:icf incorporated, l.l.c.",
+          "title": "ICF INCORPORATED, L.L.C.",
+          "url": "https://sam.gov/entity/QHBLBNKKV4U3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:QHBLBNKKV4U3",
+        "label": "ICF INCORPORATED, L.L.C.",
+        "node_id": "recipient_or_contractor:uei:QHBLBNKKV4U3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "ICF INCORPORATED, L.L.C.",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "0fcd39814d472d8b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-5e0570673c7f6330",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-07",
+      "evidence_ids": [
+        "evidence-a4fe262f8a43f11c"
+      ],
+      "first_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a4fe262f8a43f11c",
+          "locator": "uei:qhblbnkkv4u3",
+          "title": "ICF INCORPORATED, L.L.C.",
+          "url": "https://sam.gov/entity/QHBLBNKKV4U3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:QHBLBNKKV4U3",
+        "label": "ICF INCORPORATED, L.L.C.",
+        "node_id": "recipient_or_contractor:uei:QHBLBNKKV4U3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "QHBLBNKKV4U3",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c0738d85bdea30ae"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-935c780244cc5a43",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-07",
+      "evidence_ids": [
+        "evidence-455c254280f54a8c"
+      ],
+      "first_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-455c254280f54a8c",
+          "locator": "cage_code:5m571",
+          "title": "ICF INCORPORATED, L.L.C.",
+          "url": "https://sam.gov/entity/QHBLBNKKV4U3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:QHBLBNKKV4U3",
+        "label": "ICF INCORPORATED, L.L.C.",
+        "node_id": "recipient_or_contractor:uei:QHBLBNKKV4U3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "5M571",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "882abe0d26eff7f3"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-90d3077616e26673",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-07",
+      "evidence_ids": [
+        "evidence-afed68bc034e73c7"
+      ],
+      "first_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-07T03:41:21.303454+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-afed68bc034e73c7",
+          "locator": "registration_status:active",
+          "title": "ICF INCORPORATED, L.L.C.",
+          "url": "https://sam.gov/entity/QHBLBNKKV4U3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:QHBLBNKKV4U3",
+        "label": "ICF INCORPORATED, L.L.C.",
+        "node_id": "recipient_or_contractor:uei:QHBLBNKKV4U3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7ebf4876b75dcd5d"
     },
     {
       "authority": "authoritative",
@@ -136017,9 +136567,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -136062,9 +136612,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -136107,9 +136657,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -136152,14 +136702,14 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "name:redacted due to pii",
         "label": "REDACTED DUE TO PII",
         "node_id": "recipient_or_contractor:name:redacted due to pii",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -136202,9 +136752,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -136247,9 +136797,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -136292,9 +136842,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -136337,14 +136887,14 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "name:redacted due to pii",
         "label": "REDACTED DUE TO PII",
         "node_id": "recipient_or_contractor:name:redacted due to pii",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -246978,7 +247528,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247025,7 +247575,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247072,7 +247622,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247119,7 +247669,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247166,7 +247716,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247213,7 +247763,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247260,7 +247810,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247307,7 +247857,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247354,7 +247904,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247401,7 +247951,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247448,7 +247998,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247495,7 +248045,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247542,7 +248092,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247589,7 +248139,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247636,7 +248186,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247683,7 +248233,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247730,7 +248280,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247777,7 +248327,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247829,7 +248379,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247881,7 +248431,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247933,7 +248483,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247985,7 +248535,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248037,7 +248587,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248089,7 +248639,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248141,7 +248691,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248193,7 +248743,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248245,7 +248795,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-06T04:14:31.500278+00:00",
+      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -254257,6 +254807,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-1de8cab8056ae4cc",
+      "locator": "reported_amount:25267471.0",
+      "title": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+      "url": "https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-1df2d7f815946d7d",
       "locator": "awarding_agency:nsf",
       "title": "EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)",
@@ -255661,6 +256221,16 @@
       "locator": "deadline:2026-08-13t13:00:00-04:00",
       "title": "52000QR260026939- USCG IOD- Training: Artificial Intelligence for Federal Decision Making",
       "url": "https://sam.gov/workspace/contract/opp/d2bb2c6e57c7470a93d4b17a1880563a/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-259ce07f054e96d0",
+      "locator": "opportunity_status:awarded",
+      "title": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+      "url": "https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view",
       "verification_status": "source_reported"
     },
     {
@@ -257622,6 +258192,16 @@
       "locator": "deadline:2026-09-21t16:30:00-04:00",
       "title": "28--BLADE,COMPRESSOR,AI",
       "url": "https://sam.gov/workspace/contract/opp/ab64eb89184b483885e3b7938dc683c4/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-2f82063679c7b17c",
+      "locator": "reported_recipient:recipient_or_contractor:uei:SPVKK1RC2MZ3",
+      "title": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+      "url": "https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view",
       "verification_status": "source_reported"
     },
     {
@@ -261672,6 +262252,16 @@
       "locator": "registration_status:active",
       "title": "OREGON STATE UNIVERSITY",
       "url": "https://sam.gov/entity/MZ4DYXE1SL98/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-455c254280f54a8c",
+      "locator": "cage_code:5m571",
+      "title": "ICF INCORPORATED, L.L.C.",
+      "url": "https://sam.gov/entity/QHBLBNKKV4U3/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -266768,6 +267358,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-5de9560a8cd70a4d",
+      "locator": "reported_recipient:recipient_or_contractor:name:seahorse defense supply",
+      "title": "59--SENSOR,ATMOSPHERIC",
+      "url": "https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-5df4d5bfb640b45d",
       "locator": "opportunity_status:awarded",
       "title": "SPARTAN - SECURE PATH-ROUTING WITH AUTONOMOUS RESILIENCE FOR TARGETING AND ADAPTIVE NAVIGATION SBIR PHASE II",
@@ -268242,6 +268842,16 @@
       "locator": "awarding_agency:department of commerce",
       "title": "OU67-26-155-NEW DARK FIBER OPTIC ACCESS WASHINGTON METROPOLITAN QUANTUM NETWORK RESEARCH CONSORTIUM (DC-QNET).",
       "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670111_1341_GS35F070CA_4732/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-660de1703108ce76",
+      "locator": "legal_business_name:icf incorporated, l.l.c.",
+      "title": "ICF INCORPORATED, L.L.C.",
+      "url": "https://sam.gov/entity/QHBLBNKKV4U3/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -271312,6 +271922,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:EB8ASJBCFER9",
       "title": "COLLABORATIVE RESEARCH: SHF: SCALABLE CROSS-LAYER CO-DESIGN FOR STABLE MIXED-PRECISION ACCELERATION -THE MOST CONSEQUENTIAL COMPUTING WORKLOADS TODAY ALL FACE SUBSTANTIAL CHALLENG...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2621699_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7574de5952888f9b",
+      "locator": "reported_amount:350000.0",
+      "title": "59--SENSOR,ATMOSPHERIC",
+      "url": "https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view",
       "verification_status": "source_reported"
     },
     {
@@ -280398,6 +281018,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-a4fe262f8a43f11c",
+      "locator": "uei:qhblbnkkv4u3",
+      "title": "ICF INCORPORATED, L.L.C.",
+      "url": "https://sam.gov/entity/QHBLBNKKV4U3/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-a507e43f08343870",
       "locator": "executes_through:award:usaspending:HR001126FE003",
       "title": "QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...",
@@ -282778,6 +283408,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-afed68bc034e73c7",
+      "locator": "registration_status:active",
+      "title": "ICF INCORPORATED, L.L.C.",
+      "url": "https://sam.gov/entity/QHBLBNKKV4U3/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-b01951118f0a0479",
       "locator": "qualification_gate",
       "title": "Request for Solutions (RFS): Autonomous Coding (AC) and Automated Appeals & Denials Management (ADM)",
@@ -283723,6 +284363,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/606ef670b4e64d25bd55a5a85f764f7d/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-b4a06386c500e15e",
+      "locator": "awarding_agency:dept of defense.defense logistics agency.dla maritime.dla maritime columbus.dla land and maritime",
+      "title": "59--SENSOR,ATMOSPHERIC",
+      "url": "https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -293718,6 +294368,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e5db337d1d99ca64",
+      "locator": "awarding_agency:national aeronautics and space administration.national aeronautics and space administration.nasa goddard space flight center",
+      "title": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+      "url": "https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-e5ea9aeba2e40189",
       "locator": "reported_recipient:recipient_or_contractor:name:quantum design",
       "title": "Award Notice for Replacement Probe for Superconducting Quantum Interference Device Vibrating Sample Magnetometer (SQUID VSM)",
@@ -298218,6 +298878,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-fbc55993f43ccfab",
+      "locator": "opportunity_status:awarded",
+      "title": "59--SENSOR,ATMOSPHERIC",
+      "url": "https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-fbd9fa3fa7c34610",
       "locator": "reported_amount:638784.0",
       "title": "COLLABORATIVE RESEARCH: GROUP STRUCTURE, HYDRODYNAMICS, AND SENSING OF SQUIDS DURING COLLECTIVE SWIMMING -THIS STUDY FOCUSES ON UNDERSTANDING THE POTENTIAL HYDRODYNAMIC BENEFITS O...",
@@ -299028,16 +299698,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4968,
-    "authoritative_claims": 4762,
+    "active_claims": 4980,
+    "authoritative_claims": 4774,
     "conflicted_claims": 38,
     "derived_claims": 202,
-    "evidence_items": 5075,
-    "source_urls": 1371,
-    "subjects": 1022,
+    "evidence_items": 5087,
+    "source_urls": 1374,
+    "subjects": 1025,
     "superseded_claims": 0,
-    "total_claims": 4995
+    "total_claims": 5007
   },
-  "updated_at": "2026-10-06T04:14:31.500278+00:00",
+  "updated_at": "2026-10-07T03:41:21.303454+00:00",
   "version": 1
 }

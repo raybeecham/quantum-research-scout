@@ -2,17 +2,23 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-10-06T04:14:31.500278+00:00_
+_Updated 2026-10-07T03:41:21.303454+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **0**
+- Actual or recent changes: **8**
 - Newly discovered historical evidence: **0**
-- Newly observed with no reliable source date: **0**
+- Newly observed with no reliable source date: **4**
 - Upcoming dated events: **15**
 
 ## Priority timeline
 
+- **Published today** · 59--SENSOR,ATMOSPHERIC — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view))
+  - The source publication date is today or within the prior day.
+- **Published today** · Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view))
+  - The source publication date is today or within the prior day.
+- **Newly observed · event date unknown** · ICF INCORPORATED, L.L.C. — cage code ([evidence](https://sam.gov/entity/QHBLBNKKV4U3/coreData))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

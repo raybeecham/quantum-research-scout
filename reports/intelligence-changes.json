@@ -278,12 +278,383 @@
       ]
     }
   ],
-  "added": [],
+  "added": [
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-fd5310d0518f8cc1",
+      "confidence": "high",
+      "effective_date": "2026-10-06",
+      "first_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "last_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-259ce07f054e96d0",
+          "locator": "opportunity_status:awarded",
+          "title": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+          "url": "https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:80GSFC26C0031",
+        "label": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+        "node_id": "award_notice:sam_gov:80GSFC26C0031",
+        "node_type": "award_notice"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-7d28dd70569396cf",
+      "confidence": "high",
+      "effective_date": "2026-10-06",
+      "first_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "last_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e5db337d1d99ca64",
+          "locator": "awarding_agency:national aeronautics and space administration.national aeronautics and space administration.nasa goddard space flight center",
+          "title": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+          "url": "https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:80GSFC26C0031",
+        "label": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+        "node_id": "award_notice:sam_gov:80GSFC26C0031",
+        "node_type": "award_notice"
+      },
+      "value": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA GODDARD SPACE FLIGHT CENTER"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-9e40bf7293bb8347",
+      "confidence": "high",
+      "effective_date": "2026-10-06",
+      "first_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "last_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1de8cab8056ae4cc",
+          "locator": "reported_amount:25267471.0",
+          "title": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+          "url": "https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:80GSFC26C0031",
+        "label": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+        "node_id": "award_notice:sam_gov:80GSFC26C0031",
+        "node_type": "award_notice"
+      },
+      "value": 25267471.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-d40e852524fc62f4",
+      "confidence": "high",
+      "effective_date": "2026-10-06",
+      "first_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "last_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "object": {
+        "identifier": "uei:SPVKK1RC2MZ3",
+        "label": "The Regents of the University of Colorado",
+        "node_id": "recipient_or_contractor:uei:SPVKK1RC2MZ3",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2f82063679c7b17c",
+          "locator": "reported_recipient:recipient_or_contractor:uei:SPVKK1RC2MZ3",
+          "title": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+          "url": "https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:80GSFC26C0031",
+        "label": "Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing",
+        "node_id": "award_notice:sam_gov:80GSFC26C0031",
+        "node_type": "award_notice"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6b0a58e51e6292ff",
+      "confidence": "high",
+      "effective_date": "2026-10-06",
+      "first_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "last_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fbc55993f43ccfab",
+          "locator": "opportunity_status:awarded",
+          "title": "59--SENSOR,ATMOSPHERIC",
+          "url": "https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U5172",
+        "label": "59--SENSOR,ATMOSPHERIC",
+        "node_id": "award_notice:sam_gov:SPE7M126U5172",
+        "node_type": "award_notice"
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1b2038d059652b12",
+      "confidence": "high",
+      "effective_date": "2026-10-06",
+      "first_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "last_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b4a06386c500e15e",
+          "locator": "awarding_agency:dept of defense.defense logistics agency.dla maritime.dla maritime columbus.dla land and maritime",
+          "title": "59--SENSOR,ATMOSPHERIC",
+          "url": "https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U5172",
+        "label": "59--SENSOR,ATMOSPHERIC",
+        "node_id": "award_notice:sam_gov:SPE7M126U5172",
+        "node_type": "award_notice"
+      },
+      "value": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-dd2bdfcdb53abeab",
+      "confidence": "high",
+      "effective_date": "2026-10-06",
+      "first_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "last_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7574de5952888f9b",
+          "locator": "reported_amount:350000.0",
+          "title": "59--SENSOR,ATMOSPHERIC",
+          "url": "https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U5172",
+        "label": "59--SENSOR,ATMOSPHERIC",
+        "node_id": "award_notice:sam_gov:SPE7M126U5172",
+        "node_type": "award_notice"
+      },
+      "value": 350000.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8299f5f008159186",
+      "confidence": "high",
+      "effective_date": "2026-10-06",
+      "first_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "last_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "object": {
+        "identifier": "name:seahorse defense supply",
+        "label": "SEAHORSE DEFENSE SUPPLY, LLC",
+        "node_id": "recipient_or_contractor:name:seahorse defense supply",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5de9560a8cd70a4d",
+          "locator": "reported_recipient:recipient_or_contractor:name:seahorse defense supply",
+          "title": "59--SENSOR,ATMOSPHERIC",
+          "url": "https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:SPE7M126U5172",
+        "label": "59--SENSOR,ATMOSPHERIC",
+        "node_id": "award_notice:sam_gov:SPE7M126U5172",
+        "node_type": "award_notice"
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-090f557a91fa4083",
+      "confidence": "high",
+      "effective_date": "2026-10-07",
+      "first_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "last_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-660de1703108ce76",
+          "locator": "legal_business_name:icf incorporated, l.l.c.",
+          "title": "ICF INCORPORATED, L.L.C.",
+          "url": "https://sam.gov/entity/QHBLBNKKV4U3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:QHBLBNKKV4U3",
+        "label": "ICF INCORPORATED, L.L.C.",
+        "node_id": "recipient_or_contractor:uei:QHBLBNKKV4U3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "ICF INCORPORATED, L.L.C."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-5e0570673c7f6330",
+      "confidence": "high",
+      "effective_date": "2026-10-07",
+      "first_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "last_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a4fe262f8a43f11c",
+          "locator": "uei:qhblbnkkv4u3",
+          "title": "ICF INCORPORATED, L.L.C.",
+          "url": "https://sam.gov/entity/QHBLBNKKV4U3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:QHBLBNKKV4U3",
+        "label": "ICF INCORPORATED, L.L.C.",
+        "node_id": "recipient_or_contractor:uei:QHBLBNKKV4U3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "QHBLBNKKV4U3"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-935c780244cc5a43",
+      "confidence": "high",
+      "effective_date": "2026-10-07",
+      "first_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "last_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-455c254280f54a8c",
+          "locator": "cage_code:5m571",
+          "title": "ICF INCORPORATED, L.L.C.",
+          "url": "https://sam.gov/entity/QHBLBNKKV4U3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:QHBLBNKKV4U3",
+        "label": "ICF INCORPORATED, L.L.C.",
+        "node_id": "recipient_or_contractor:uei:QHBLBNKKV4U3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "5M571"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-90d3077616e26673",
+      "confidence": "high",
+      "effective_date": "2026-10-07",
+      "first_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "last_observed_at": "2026-10-07T03:41:21.303454+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-afed68bc034e73c7",
+          "locator": "registration_status:active",
+          "title": "ICF INCORPORATED, L.L.C.",
+          "url": "https://sam.gov/entity/QHBLBNKKV4U3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:QHBLBNKKV4U3",
+        "label": "ICF INCORPORATED, L.L.C.",
+        "node_id": "recipient_or_contractor:uei:QHBLBNKKV4U3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active"
+    }
+  ],
   "baseline_initialized": false,
   "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-10-06T04:14:31.500278+00:00",
-  "comparison_started_at": "2026-10-05T03:26:48.198667+00:00",
+  "comparison_ended_at": "2026-10-07T03:41:21.303454+00:00",
+  "comparison_started_at": "2026-10-06T04:14:31.500278+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1199,19 +1570,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-10-05T03:26:48.198667+00:00",
+  "since": "2026-10-06T04:14:31.500278+00:00",
   "summary": {
-    "active_claims": 4968,
-    "added": 0,
+    "active_claims": 4980,
+    "added": 12,
     "changed": 0,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 27,
+    "material_changes": 39,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-10-06T04:14:31.500278+00:00",
+  "updated_at": "2026-10-07T03:41:21.303454+00:00",
   "version": 1
 }

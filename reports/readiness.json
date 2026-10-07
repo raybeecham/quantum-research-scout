@@ -175,9 +175,9 @@
     },
     {
       "confidence": "medium",
-      "evidence_count": 6,
+      "evidence_count": 7,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-09-17",
+      "latest_evidence_at": "2026-10-06",
       "name": "PQShield",
       "priority": "high",
       "source_count": 1,
@@ -229,6 +229,21 @@
           "source": "PQShield",
           "title": "EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.",
           "url": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness"
+        },
+        {
+          "date": "2026-10-06",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "pqc"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "PQShield",
+          "title": "PQShield expands leadership as PQC adoption accelerates",
+          "url": "https://pqshield.com/pqshield-expands-leadership-as-pqc-adoption-accelerates"
         },
         {
           "date": "2026-09-17",
@@ -542,9 +557,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 12,
+      "evidence_count": 13,
       "historical_evidence_count": 5,
-      "latest_evidence_at": "2026-09-22",
+      "latest_evidence_at": "2026-10-06",
       "name": "Keyfactor",
       "priority": "high",
       "source_count": 3,
@@ -552,6 +567,21 @@
       "stage_label": "Planning",
       "stage_rank": 3,
       "supporting_evidence": [
+        {
+          "date": "2026-10-06",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "readiness"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Post-Quantum Readiness for Manufacturers: The Timeline Now Has Dates",
+          "url": "https://www.keyfactor.com/blog/post-quantum-readiness-for-manufacturers-the-timeline-now-has-dates"
+        },
         {
           "date": "2026-07-31",
           "date_confidence": "unknown",
@@ -656,33 +686,18 @@
           "source": "Keyfactor Quantum and Crypto-Agility",
           "title": "Achieve Crypto-Agility with 360 Visibility and Control of Your Cryptographic Assets",
           "url": "https://www.keyfactor.com/resource-center/achieve-crypto-agility-infosec-global/"
-        },
-        {
-          "date": "2026-09-22",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Post-Quantum Cryptography Gets a US Mandate",
-          "url": "https://www.keyfactor.com/resource-center/post-quantum-cryptography-us-mandate/"
         }
       ],
       "type": "company"
     },
     {
       "confidence": "high",
-      "evidence_count": 7,
+      "evidence_count": 9,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-09-21",
+      "latest_evidence_at": "2026-10-06",
       "name": "NIST",
       "priority": "critical",
-      "source_count": 4,
+      "source_count": 5,
       "stage": "planning",
       "stage_label": "Planning",
       "stage_rank": 3,
@@ -701,6 +716,36 @@
           "source": "Quantum Zeitgeist",
           "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
+        },
+        {
+          "date": "2026-10-06",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum cyber"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Computing Report",
+          "title": "Florida Atlantic University Receives NIST Grant to Build South Florida Quantum Cybersecurity Workforce Ecosystem",
+          "url": "https://quantumcomputingreport.com/florida-atlantic-university-receives-nist-grant-to-build-south-florida-quantum-cybersecurity-workforce-ecosystem"
+        },
+        {
+          "date": "2026-10-06",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum cyber"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "The Quantum Insider",
+          "title": "FAU Receives $200,000 NIST Award for Quantum Cybersecurity Workforce",
+          "url": "https://thequantuminsider.com/2026/10/06/fau-nist-grant-quantum-cybersecurity-workforce"
         },
         {
           "date": "2026-09-21",
@@ -776,21 +821,6 @@
           "source": "The Quantum Insider",
           "title": "NIST\u2019s Andrew Regenscheid Explains the Transition to Post-Quantum Cryptography",
           "url": "https://thequantuminsider.com/2026/07/30/nist-andrew-regenscheid-post-quantum-cryptography-transition"
-        },
-        {
-          "date": "2026-07-24",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "The Quantum Insider",
-          "title": "Terra Quantum and Apex.AI Integrate NIST Post-Quantum Cryptography Into Robotics Software",
-          "url": "https://thequantuminsider.com/2026/07/24/terra-quantum-apex-ai-post-quantum-cryptography"
         }
       ],
       "type": "government"
@@ -2011,6 +2041,6 @@
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-10-06T04:23:45.315938+00:00",
+  "updated_at": "2026-10-07T03:47:31.535776+00:00",
   "version": 1
 }

@@ -2,12 +2,12 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-06T04:14:31.500278+00:00_
+_Updated 2026-10-07T03:41:21.303454+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **27**
-- Added / changed / resolved: **0 / 0 / 27**
+- Material changes: **39**
+- Added / changed / resolved: **12 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
@@ -18,7 +18,18 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- None.
+- **Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view))
+- **Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing** — awarding agency: NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA GODDARD SPACE FLIGHT CENTER ([evidence](https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view))
+- **Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing** — reported amount: 25267471.0 ([evidence](https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view))
+- **Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view))
+- **59--SENSOR,ATMOSPHERIC** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view))
+- **59--SENSOR,ATMOSPHERIC** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA MARITIME.DLA MARITIME COLUMBUS.DLA LAND AND MARITIME ([evidence](https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view))
+- **59--SENSOR,ATMOSPHERIC** — reported amount: 350000.0 ([evidence](https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view))
+- **59--SENSOR,ATMOSPHERIC** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/a2271db838554e5f8ad1764ec444e6c6/view))
+- **ICF INCORPORATED, L.L.C.** — legal business name: ICF INCORPORATED, L.L.C. ([evidence](https://sam.gov/entity/QHBLBNKKV4U3/coreData))
+- **ICF INCORPORATED, L.L.C.** — uei: QHBLBNKKV4U3 ([evidence](https://sam.gov/entity/QHBLBNKKV4U3/coreData))
+- **ICF INCORPORATED, L.L.C.** — cage code: 5M571 ([evidence](https://sam.gov/entity/QHBLBNKKV4U3/coreData))
+- **ICF INCORPORATED, L.L.C.** — registration status: Active ([evidence](https://sam.gov/entity/QHBLBNKKV4U3/coreData))
 
 ## Superseded claims
 

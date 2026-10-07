@@ -4,11 +4,19 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-06 04:23 UTC_
+_Updated 2026-10-07 03:47 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 7 | 11 | 18 | 21 |
+| 50 | 2 | 12 | 17 | 21 |
+
+## 🔴 Contract: NIST 🆕
+
+- Severity: **critical**
+- Status: **contract**
+- NIST matched a contract event: FAU Receives $200,000 NIST Award for Quantum Cybersecurity Workforce
+- [Open direct evidence](https://thequantuminsider.com/2026/10/06/fau-nist-grant-quantum-cybersecurity-workforce)
+- [Open supporting view](entity-watch.md)
 
 ## 🔴 Critical theme: AI Security
 
@@ -35,7 +43,7 @@ _Updated 2026-10-06 04:23 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Hardware has critical strategic importance and declining momentum.
+- 🔴 Quantum Hardware has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Networking
@@ -70,21 +78,21 @@ _Updated 2026-10-06 04:23 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 89.3% reliability with 6 warning day(s).
+- 🔴 88.2% reliability with 7 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Quantum Computing Report
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 66.7% reliability with 7 warning day(s).
+- 🔴 68.2% reliability with 7 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: White House Science and Technology Missions
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 75.3% reliability with 18 warning day(s).
+- 🔴 74.3% reliability with 19 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -94,14 +102,14 @@ _Updated 2026-10-06 04:23 UTC_
 - 🎯 AI Security is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: PQC / Crypto Agility 🆕
+## 🟠 Actionable signal: PQC / Crypto Agility
 
 - Severity: **high**
 - Status: **actionable**
 - 🎯 PQC / Crypto Agility is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: QEC / Fault Tolerance 🆕
+## 🟠 Actionable signal: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **actionable**
@@ -129,14 +137,6 @@ _Updated 2026-10-06 04:23 UTC_
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Partnership: IBM
-
-- Severity: **high**
-- Status: **partnership**
-- IBM matched a partnership event: IBM Expands Research Collaborations with IISc and IIT Bombay to Advance Quantum-Centric Supercomputing and Sovereign AI
-- [Open direct evidence](https://quantumcomputingreport.com/ibm-expands-research-collaborations-with-iisc-and-iit-bombay-to-advance-quantum-centric-supercomputing-and-sovereign-ai)
-- [Open supporting view](entity-watch.md)
-
 ## 🟠 Rising momentum: AI Security
 
 - Severity: **high**
@@ -144,14 +144,14 @@ _Updated 2026-10-06 04:23 UTC_
 - ↗️ Recent evidence is 2 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: PQC / Crypto Agility 🆕
+## 🟠 Rising momentum: PQC / Crypto Agility
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 22 versus 14 in the prior period.
+- ↗️ Recent evidence is 24 versus 16 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: QEC / Fault Tolerance 🆕
+## 🟠 Rising momentum: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **rising**
@@ -176,42 +176,42 @@ _Updated 2026-10-06 04:23 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 11 versus 4 in the prior period.
+- ↗️ Recent evidence is 10 versus 5 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Source degraded: Lockheed Martin Quantum Technology
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 97.6% reliability with 2 warning day(s).
+- 🟠 97.6% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: Quantum Computing Patents 🆕
+## 🟠 Source degraded: Quantum Computing Patents
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.1% reliability with 3 warning day(s).
+- 🟠 93.2% reliability with 3 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Journal
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 90.5% reliability with 2 warning day(s).
+- 🟠 90.9% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 95.6% reliability with 1 warning day(s).
+- 🟠 95.7% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 95.5% reliability with 1 warning day(s).
+- 🟠 95.6% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -277,7 +277,7 @@ _Updated 2026-10-06 04:23 UTC_
 - The latest dated item is from 2026-09-02; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Post-Quantum Cybersecurity 🆕
+## 🟡 Source stale: Grants.gov · Post-Quantum Cybersecurity
 
 - Severity: **medium**
 - Status: **stale**
@@ -354,9 +354,9 @@ _Updated 2026-10-06 04:23 UTC_
 - The latest dated item is from 2026-09-09; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Rigetti News 🆕
+## 🟡 Source stale: QuEra Press Releases 🆕
 
 - Severity: **medium**
 - Status: **stale**
-- The latest dated item is from 2026-09-08; collection may be healthy but the content stream is stale.
+- The latest dated item is from 2026-09-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
