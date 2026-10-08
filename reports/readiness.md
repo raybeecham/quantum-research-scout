@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-10-07 03:47 UTC_
+_Updated 2026-10-08 04:00 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
@@ -23,6 +23,7 @@ Assessed **25 of 43** configured organizations.
 | Fortanix | Planning | medium | 19 | 1 | 19 | 2026-09-30 |
 | Thales | Planning | medium | 2 | 2 | 0 | 2026-08-05 |
 | CISA | Planning | low | 1 | 1 | 0 | 2026-09-03 |
+| PQCA | Inventory | medium | 2 | 1 | 0 | 2026-10-07 |
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
 | Cisco | Awareness | high | 8 | 2 | 0 | 2026-09-28 |
 | Cloudflare | Awareness | high | 7 | 3 | 0 | 2026-09-29 |
@@ -33,7 +34,6 @@ Assessed **25 of 43** configured organizations.
 | Booz Allen Hamilton | Awareness | low | 1 | 1 | 1 | 2025-02-06 |
 | ETSI | Awareness | low | 1 | 1 | 1 | 2026-06-22 |
 | IBM | Awareness | low | 1 | 1 | 0 | 2026-07-29 |
-| PQCA | Awareness | low | 1 | 1 | 0 | 2026-07-27 |
 | Pasqal | Awareness | low | 1 | 1 | 0 | 2026-08-31 |
 | Quantinuum | Awareness | low | 1 | 1 | 0 | 2026-07-29 |
 | Quantum Computing Inc. (QCi) | Awareness | low | 1 | 1 | 1 | Unknown |

@@ -476,8 +476,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 3,
-      "first_party_evidence_count": 3,
+      "evidence_count": 4,
+      "first_party_evidence_count": 4,
       "name": "PQCA",
       "priority": "high",
       "status": "covered",
@@ -939,9 +939,9 @@
       "latest_seen": "2026-10-06",
       "momentum": "rising",
       "name": "NIST",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "critical",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2654,9 +2654,9 @@
       "latest_seen": "2026-10-06",
       "momentum": "rising",
       "name": "Keyfactor",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 6,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -3134,11 +3134,11 @@
       "first_seen": "2024-10-28",
       "historical_evidence_count": 19,
       "latest_seen": "2026-09-30",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Fortanix",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -3363,7 +3363,7 @@
       "latest_seen": "2026-09-28",
       "momentum": "declining",
       "name": "Cisco",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -3709,9 +3709,9 @@
       "latest_seen": "2026-10-06",
       "momentum": "rising",
       "name": "PQShield",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 4,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -4187,7 +4187,7 @@
       "latest_seen": "2026-09-25",
       "momentum": "declining",
       "name": "DigiCert",
-      "prior_count": 4,
+      "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5063,6 +5063,77 @@
     },
     {
       "aliases": [
+        "Post-Quantum Cryptography Alliance"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 4,
+      "evidence": [
+        {
+          "date": "2026-10-07",
+          "key": "https://pqca.org/webinars/2026/from-discovery-to-remediation-operationalizing-cbom-for-quantum-safe-transformation",
+          "report": "2026-10/2026-10-07-digest.md",
+          "score": 138,
+          "source": "PQCA Blog and News",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "From Discovery to Remediation: Operationalizing CBOM for Quantum-Safe Transformation",
+          "url": "https://pqca.org/webinars/2026/from-discovery-to-remediation-operationalizing-cbom-for-quantum-safe-transformation"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://pqca.org/blog/2026/sonar-cryptography-plugin",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 52,
+          "source": "PQCA Blog and News",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Sonar Cryptography Plugin",
+          "url": "https://pqca.org/blog/2026/sonar-cryptography-plugin"
+        },
+        {
+          "date": "2026-07-27",
+          "key": "https://pqca.org/blog/2026/leadership-spotlight-qa-with-rodrigo-martin-sanchez-ledesma-oqs-tsc-co-chair",
+          "report": "2026-07/2026-07-27-digest.md",
+          "score": 63,
+          "source": "PQCA Blog and News",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Leadership Spotlight: Q&A With Rodrigo Mart\u00edn S\u00e1nchez-Ledesma, OQS TSC Co-Chair",
+          "url": "https://pqca.org/blog/2026/leadership-spotlight-qa-with-rodrigo-martin-sanchez-ledesma-oqs-tsc-co-chair"
+        },
+        {
+          "date": "2026-07-27",
+          "key": "https://pqca.org/blog/2026/member-spotlight-in-africa-pqcas-tools-meet-a-continents-backbone",
+          "report": "2026-07/2026-07-27-digest.md",
+          "score": 57,
+          "source": "PQCA Blog and News",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Member Spotlight: In Africa, PQCA\u2019s Tools Meet a Continent\u2019s Backbone",
+          "url": "https://pqca.org/blog/2026/member-spotlight-in-africa-pqcas-tools-meet-a-continents-backbone"
+        }
+      ],
+      "evidence_count": 4,
+      "first_seen": "2026-07-27",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-10-07",
+      "momentum": "rising",
+      "name": "PQCA",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "consortium"
+    },
+    {
+      "aliases": [
         "Wiz Security"
       ],
       "case_sensitive_aliases": [],
@@ -5259,7 +5330,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "Standards / Government"
@@ -5354,65 +5425,6 @@
     },
     {
       "aliases": [
-        "Post-Quantum Cryptography Alliance"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 3,
-      "evidence": [
-        {
-          "date": "2026-09-08",
-          "key": "https://pqca.org/blog/2026/sonar-cryptography-plugin",
-          "report": "2026-09/2026-09-08-digest.md",
-          "score": 52,
-          "source": "PQCA Blog and News",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Sonar Cryptography Plugin",
-          "url": "https://pqca.org/blog/2026/sonar-cryptography-plugin"
-        },
-        {
-          "date": "2026-07-27",
-          "key": "https://pqca.org/blog/2026/leadership-spotlight-qa-with-rodrigo-martin-sanchez-ledesma-oqs-tsc-co-chair",
-          "report": "2026-07/2026-07-27-digest.md",
-          "score": 63,
-          "source": "PQCA Blog and News",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Leadership Spotlight: Q&A With Rodrigo Mart\u00edn S\u00e1nchez-Ledesma, OQS TSC Co-Chair",
-          "url": "https://pqca.org/blog/2026/leadership-spotlight-qa-with-rodrigo-martin-sanchez-ledesma-oqs-tsc-co-chair"
-        },
-        {
-          "date": "2026-07-27",
-          "key": "https://pqca.org/blog/2026/member-spotlight-in-africa-pqcas-tools-meet-a-continents-backbone",
-          "report": "2026-07/2026-07-27-digest.md",
-          "score": 57,
-          "source": "PQCA Blog and News",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Member Spotlight: In Africa, PQCA\u2019s Tools Meet a Continent\u2019s Backbone",
-          "url": "https://pqca.org/blog/2026/member-spotlight-in-africa-pqcas-tools-meet-a-continents-backbone"
-        }
-      ],
-      "evidence_count": 3,
-      "first_seen": "2026-07-27",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-09-08",
-      "momentum": "stable",
-      "name": "PQCA",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "type": "consortium"
-    },
-    {
-      "aliases": [
         "Thales Group"
       ],
       "case_sensitive_aliases": [],
@@ -5459,11 +5471,11 @@
       "first_seen": "2026-08-04",
       "historical_evidence_count": 0,
       "latest_seen": "2026-09-30",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Thales",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -6240,7 +6252,7 @@
       "prior_count": 2,
       "priority": "medium",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -6708,7 +6720,7 @@
       "latest_seen": "2026-09-28",
       "momentum": "declining",
       "name": "AWS",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "medium",
       "recent_count": 0,
       "status": "quiet",
@@ -6917,8 +6929,20 @@
         "cryptographic inventory"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 16,
+      "current_evidence_count": 17,
       "evidence": [
+        {
+          "date": "2026-10-07",
+          "key": "https://pqca.org/webinars/2026/from-discovery-to-remediation-operationalizing-cbom-for-quantum-safe-transformation",
+          "report": "2026-10/2026-10-07-digest.md",
+          "score": 138,
+          "source": "PQCA Blog and News",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "From Discovery to Remediation: Operationalizing CBOM for Quantum-Safe Transformation",
+          "url": "https://pqca.org/webinars/2026/from-discovery-to-remediation-operationalizing-cbom-for-quantum-safe-transformation"
+        },
         {
           "date": "2026-10-06",
           "key": "https://www.keyfactor.com/blog/post-quantum-readiness-for-manufacturers-the-timeline-now-has-dates",
@@ -7662,41 +7686,17 @@
           ],
           "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
           "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Crypto Agility",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Deloitte"
-          ],
-          "historical": true,
-          "key": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf",
-          "observed_at": "2026-10-04T09:12:36.232444+00:00",
-          "published_at": null,
-          "score": 43,
-          "source": "Deloitte Quantum Cyber Readiness",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Intro to Deloitte's crypto-inventory methodology Deloitte's crypto-inventory methodology provides a deeper look into what steps to take to effectively conduct a cryptographic inventory.",
-          "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf"
         }
       ],
-      "evidence_count": 40,
+      "evidence_count": 41,
       "first_seen": "2025-05-13",
       "historical_evidence_count": 24,
-      "latest_seen": "2026-10-06",
+      "latest_seen": "2026-10-07",
       "momentum": "rising",
       "name": "Crypto-agility",
-      "prior_count": 0,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 7,
+      "recent_count": 6,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -8162,11 +8162,11 @@
       "first_seen": "2026-01-13",
       "historical_evidence_count": 1,
       "latest_seen": "2026-10-05",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Quantum error correction",
-      "prior_count": 2,
+      "prior_count": 3,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "AI Security",
@@ -8973,9 +8973,9 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 3,
       "latest_seen": "2026-10-05",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Quantum key distribution",
-      "prior_count": 4,
+      "prior_count": 2,
       "priority": "high",
       "recent_count": 2,
       "status": "active",
@@ -9476,6 +9476,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-10-07T03:47:30.824653+00:00",
+  "updated_at": "2026-10-08T04:00:28.792431+00:00",
   "version": 2
 }

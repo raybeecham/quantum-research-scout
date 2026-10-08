@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-10-07 03:41 UTC_
+_Updated 2026-10-08 03:55 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -17,7 +17,7 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Mission-linked records: **17**
 - Missions with activity: **5 of 10**
 - Named recipients and contractors: **331**
-- Known reported award value: **$952.6M**
+- Known reported award value: **$963.1M**
 
 ## Opportunity Radar
 
@@ -35,7 +35,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [Genesis Mission](https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission) | 6 | 1 | $700.7K | $293.0M | 1 / 8 |
 | [Quantum Genesis](https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first) | 1 | 1 | $0 | $0 | 0 / 8 |
 | [DARPA Quantum Benchmarking Initiative](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative) | 2 | 0 | $8.7M | $0 | 1 / 8 |
-| [Golden Dome for America](https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/) | 5 | 0 | $4.4M | $0 | 2 / 8 |
+| [Golden Dome for America](https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/) | 5 | 0 | $5.1M | $0 | 2 / 8 |
 | [AI Forge](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security) | 3 | 0 | $250.2K | $0 | 1 / 8 |
 | [Military AI Pace-Setting Projects](https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF) | 0 | 0 | $0 | $0 | 0 / 8 |
 | [Federal Post-Quantum Cryptography Transition](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | 0 | 0 | $0 | $0 | 0 / 8 |
@@ -56,14 +56,14 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 |---|---|---|---:|---|
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | UNIVERSITY OF MARYLAND, COLLEGE PARK | $8.7M | DARPA Quantum Benchmarking Initiative |
 | [AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-) | 2026-09-28 | REGENCY CONSULTING INC | $250.0K | AI Forge |
-| [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | KPMG LLP | $4.4M | Golden Dome for America |
+| [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | KPMG LLP | $5.1M | Golden Dome for America |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | MCKINSEY & COMPANY, INC. WASHINGTON D.C. | $700.0K | Genesis Mission |
 | [AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-) | 2026-09-28 | Not listed | $250 | AI Forge |
 | [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) | 2026-09-16 | Not listed | $293.0M | Genesis Mission |
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | Not listed | $8 | DARPA Quantum Benchmarking Initiative |
 | [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) | 2026-08-21 | Not listed | Not reported | Genesis Mission |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | Not listed | $700 | Genesis Mission |
-| [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | Not listed | $4 | Golden Dome for America |
+| [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | Not listed | $5 | Golden Dome for America |
 | [VENUE TO SUPPORT THE GOLDEN DOME FOR AMERICA INDUSTRY SUMMIT, JUNE 10-11, 2025](https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-) | 2025-06-10 | CITY OF HUNTSVILLE | $11.9K | Golden Dome for America |
 | [VENUE TO SUPPORT THE GOLDEN DOME FOR AMERICA INDUSTRY SUMMIT, JUNE 10-11, 2025](https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-) | 2025-06-10 | Not listed | $11 | Golden Dome for America |
 | [COLLABORATIVE RESEARCH: VINES: TRACK 1:QUANTUM-READY AND AI-ENABLED BY DESIGN: RESILIENT AND DEPLOYABLE NEXT-GEN CELLULAR NETWORKS -THIS COLLABORATIVE PROJECT AIMS TO IMPROVE THE...](https://www.usaspending.gov/award/ASST_NON_2548947_049) | 2026-10-01 | UNIVERSITY OF SOUTH FLORIDA | $559.9K | Not linked |
@@ -96,6 +96,7 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | CARNEGIE-MELLON UNIVERSITY | UEI U3NKNFLNQ613 | **53 · SIGNIFICANT** | Emerging Entrant | New Entrant | 4 | $6.6M | National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF SOUTH FLORIDA | UEI NKAZLXLL7Z91 | **52 · SIGNIFICANT** | Emerging Entrant | New Entrant | 4 | $3.2M | Department of Commerce, National Science Foundation | Not linked | 1 |
 | MISSISSIPPI STATE UNIVERSITY | UEI NTXJM52SHKS7 | **49 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $17.0M | Department of Commerce, National Science Foundation | Not linked | 0 |
+| AUBURN UNIVERSITY | UEI DMQNDJDHTDG4 | **49 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $16.7M | Department of Commerce, Department of Energy, National Science Foundation | Not linked | 0 |
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | UEI QDE5UHE5XD16 | **48 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $2.6M | Department of Transportation, National Science Foundation | Not linked | 0 |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | UEI LMCJKRFW5R81 | **48 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $1.1M | National Science Foundation | Not linked | 1 |
 | THE REGENTS OF THE UNIVERSITY OF COLORADO | UEI SPVKK1RC2MZ3 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $28.1M | NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA GODDARD SPACE FLIGHT CENTER, National Science Foundation | Not linked | 0 |
@@ -104,7 +105,6 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | UEI SMNWM6HN79X5 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $25.8M | Department of Commerce, Department of Homeland Security, Department of the Interior | Not linked | 0 |
 | UNIVERSITY OF WASHINGTON | UEI HD1WMN6945W6 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $13.2M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UEI NPU8ULVAAS23 | **46 · DEVELOPING** | Active Incumbent | Declining | 2 | $666.7K | Department of Defense, National Science Foundation | darpa-qbi | 2 |
-| AUBURN UNIVERSITY | UEI DMQNDJDHTDG4 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $6.7M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | LOUISIANA STATE UNIVERSITY | UEI ECQEYCHRNKJ4 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.9M | National Science Foundation | Not linked | 0 |
 | BROWN UNIVERSITY | UEI E3FDXZ6TBHW3 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.7M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF ALABAMA | UEI RCNJEHZ83EV6 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.4M | National Science Foundation | Not linked | 0 |

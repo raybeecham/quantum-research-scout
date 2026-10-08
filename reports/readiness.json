@@ -1102,6 +1102,51 @@
       "type": "government"
     },
     {
+      "confidence": "medium",
+      "evidence_count": 2,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-10-07",
+      "name": "PQCA",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "inventory",
+      "stage_label": "Inventory",
+      "stage_rank": 2,
+      "supporting_evidence": [
+        {
+          "date": "2026-10-07",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "cbom"
+          ],
+          "observed_stage": "inventory",
+          "observed_stage_label": "Inventory",
+          "rank": 2,
+          "source": "PQCA Blog and News",
+          "title": "From Discovery to Remediation: Operationalizing CBOM for Quantum-Safe Transformation",
+          "url": "https://pqca.org/webinars/2026/from-discovery-to-remediation-operationalizing-cbom-for-quantum-safe-transformation"
+        },
+        {
+          "date": "2026-07-27",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "pqc"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "PQCA Blog and News",
+          "title": "Member Spotlight: In Africa, PQCA\u2019s Tools Meet a Continent\u2019s Backbone",
+          "url": "https://pqca.org/blog/2026/member-spotlight-in-africa-pqcas-tools-meet-a-continents-backbone"
+        }
+      ],
+      "type": "consortium"
+    },
+    {
       "confidence": "low",
       "evidence_count": 1,
       "historical_evidence_count": 1,
@@ -1660,36 +1705,6 @@
       "confidence": "low",
       "evidence_count": 1,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-07-27",
-      "name": "PQCA",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-07-27",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "pqc"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "PQCA Blog and News",
-          "title": "Member Spotlight: In Africa, PQCA\u2019s Tools Meet a Continent\u2019s Backbone",
-          "url": "https://pqca.org/blog/2026/member-spotlight-in-africa-pqcas-tools-meet-a-continents-backbone"
-        }
-      ],
-      "type": "consortium"
-    },
-    {
-      "confidence": "low",
-      "evidence_count": 1,
-      "historical_evidence_count": 0,
       "latest_evidence_at": "2026-08-31",
       "name": "Pasqal",
       "priority": "medium",
@@ -2032,8 +2047,8 @@
   "summary": {
     "assessed": 25,
     "by_stage": {
-      "awareness": 13,
-      "inventory": 1,
+      "awareness": 12,
+      "inventory": 2,
       "not_assessed": 18,
       "pilot": 3,
       "planning": 8
@@ -2041,6 +2056,6 @@
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-10-07T03:47:31.535776+00:00",
+  "updated_at": "2026-10-08T04:00:29.212412+00:00",
   "version": 1
 }

@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-10-07T03:41:21.303454+00:00_
+_Updated 2026-10-08T03:55:07.199892+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **4980**
-- Authoritative claims: **4774**
+- Active claims: **4984**
+- Authoritative claims: **4778**
 - Analytical claims: **202**
 - Conflicted claims: **38**
-- Evidence items / URLs: **5087 / 1374**
+- Evidence items / URLs: **5091 / 1375**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,12 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. | reported amount | 5054982.36 | authoritative / high | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) |
+| active | THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. | reported amount | 5.0 | authoritative / high | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) |
+| active | SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION... | opportunity status | awarded | authoritative / high | [SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...](https://www.usaspending.gov/award/ASST_NON_DECR0000118_089) |
+| active | SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION... | awarding agency | Department of Energy | authoritative / high | [SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...](https://www.usaspending.gov/award/ASST_NON_DECR0000118_089) |
+| active | SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION... | reported amount | 10000000.0 | authoritative / high | [SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...](https://www.usaspending.gov/award/ASST_NON_DECR0000118_089) |
+| active | SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION... | reported recipient | AUBURN UNIVERSITY | authoritative / high | [SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...](https://www.usaspending.gov/award/ASST_NON_DECR0000118_089) |
 | active | Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing | opportunity status | awarded | authoritative / high | [Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing](https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view) |
 | active | Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing | awarding agency | NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA GODDARD SPACE FLIGHT CENTER | authoritative / high | [Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing](https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view) |
 | active | Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing | reported amount | 25267471.0 | authoritative / high | [Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) Mission Operations and Data Processing](https://sam.gov/workspace/contract/opp/bac3a46050fe4577977baafb3a8d7e38/view) |
@@ -258,12 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R... | awarding agency | Department of Agriculture | authoritative / high | [THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...](https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-) |
 | active | THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R... | reported amount | 393222.0 | authoritative / high | [THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...](https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-) |
 | active | THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R... | reported recipient | BOSTON DYNAMICS, INC. | authoritative / high | [THE UNMANNED GROUND VEHICLE (UGV) SYSTEM IS A MOBILE ROBOTIC INSPECTION PLATFORM THAT COMBINES AUTONOMOUS NAVIGATION, IMAGING SYSTEMS, AND ONBOARD HIGH PERFORMANCE COMPUTING FOR R...](https://www.usaspending.gov/award/CONT_AWD_1232SA26P0484_12H2_-NONE-_-NONE-) |
-| active | CYBERSECURITY SUPPORT SERVICES | opportunity status | awarded | authoritative / high | [CYBERSECURITY SUPPORT SERVICES](https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008) |
-| active | CYBERSECURITY SUPPORT SERVICES | awarding agency | Department of Homeland Security | authoritative / high | [CYBERSECURITY SUPPORT SERVICES](https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008) |
-| active | CYBERSECURITY SUPPORT SERVICES | reported amount | 2998805.69 | authoritative / high | [CYBERSECURITY SUPPORT SERVICES](https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008) |
-| active | CYBERSECURITY SUPPORT SERVICES | reported recipient | ONEOMEGA LLC | authoritative / high | [CYBERSECURITY SUPPORT SERVICES](https://www.usaspending.gov/award/CONT_AWD_70Z02326FOES30001_7008_70Z04425DESD40001_7008) |
-| active | TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS) | opportunity status | awarded | authoritative / high | [TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)](https://www.usaspending.gov/award/CONT_AWD_75N98026F00003_7529_75N91023A00008_7529) |
-| active | TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS) | awarding agency | Department of Health and Human Services | authoritative / high | [TITLE: CENTER FOR INFORMATION TECHNOLOGY (CIT) RISK MANAGEMENT FRAMEWORK (RMF) AND CYBERSECURITY OPERATIONS SUPPORT SERVICES (CSECOSS)](https://www.usaspending.gov/award/CONT_AWD_75N98026F00003_7529_75N91023A00008_7529) |
 
 ## Method
 

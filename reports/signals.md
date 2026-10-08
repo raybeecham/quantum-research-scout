@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-07 03:47 UTC_
+_Updated 2026-10-08 04:00 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-10-05 | 23 |
-| PQC / Crypto Agility | ↗️ rising (24 vs 16) | 🔴 critical | high | 🎯 actionable | 2026-06-21 | 2026-10-06 | 265 |
 | QEC / Fault Tolerance | ↗️ rising (4 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-10-05 | 74 |
 | Quantum Sensing | ↗️ rising (5 vs 1) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-01 | 51 |
 | Quantum Software / Tooling | ↗️ rising (7 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-02 | 97 |
-| Standards / Government | ↗️ rising (10 vs 5) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-10-06 | 71 |
-| Quantum Hardware | ➡️ stable (7 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-06 | 313 |
+| PQC / Crypto Agility | ➡️ stable (21 vs 21) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-07 | 269 |
+| Quantum Hardware | ➡️ stable (7 vs 10) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-07 | 314 |
 | Quantum Networking | ➡️ stable (8 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-06 | 144 |
+| Standards / Government | ➡️ stable (7 vs 8) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-10-07 | 72 |
 
 ## AI Security
 
@@ -29,17 +29,6 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-09-17 — [Adversary simulation: what you need to know](https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know) (NCSC UK Guidance, score 100)
   - 2026-09-11 — [LLMs & quantum physics could speed up research, QuSoft symposium finds](https://quantumzeitgeist.com/qusoft-llms-quantum-physics-speed) (Quantum Zeitgeist, score 41)
   - 2026-09-03 — [In an Age of AI, a Physicist Seeks What Endures](https://www.quantamagazine.org/in-an-age-of-ai-a-physicist-seeks-what-endures-20260903) (QuantumNews.ai, score 24)
-
-## PQC / Crypto Agility
-
-- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
-- Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
-- Recent supporting evidence:
-  - 2026-10-06 — [PQShield expands leadership as PQC adoption accelerates](https://pqshield.com/pqshield-expands-leadership-as-pqc-adoption-accelerates) (PQShield, score 100)
-  - 2026-10-06 — [QuantumGate and NEC GCC Partner to Deploy Sovereign Post-Quantum Cybersecurity Across UAE Critical Infrastructure](https://quantumcomputingreport.com/quantumgate-and-nec-gcc-partner-to-deploy-sovereign-post-quantum-cybersecurity-across-uae-critical-infrastructure) (Quantum Computing Report, score 100)
-  - 2026-10-06 — [Post-Quantum Readiness for Manufacturers: The Timeline Now Has Dates](https://www.keyfactor.com/blog/post-quantum-readiness-for-manufacturers-the-timeline-now-has-dates) (Keyfactor Quantum and Crypto-Agility, score 88)
-  - 2026-10-06 — [PQShield Appoints New Commercial and Sovereign Security Leaders](https://thequantuminsider.com/2026/10/06/pqshield-commercial-sovereign-security-leaders) (The Quantum Insider, score 87)
-  - 2026-10-06 — [QuantumGate and NEC GCC Partner on Post-Quantum Security in the UAE](https://thequantuminsider.com/2026/10/06/quantumgate-nec-gcc-post-quantum-security-cyber-resilience) (The Quantum Insider, score 85)
 
 ## QEC / Fault Tolerance
 
@@ -74,27 +63,27 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-09-30 — [LUTRON QUANTUM SOFTWARE UPGRADE](https://www.usaspending.gov/award/CONT_AWD_47PH5426P0010_4740_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
   - 2026-09-30 — [QUANTUM SCALAR SOFTWARE FOR TAPE STORAGE LIBRARY](https://www.usaspending.gov/award/CONT_AWD_W911S625CA006_9700_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
 
-## Standards / Government
+## PQC / Crypto Agility
 
-- Organizations/sources: The Quantum Insider, QuantumNews.ai, USAspending · Quantum Technologies, Quantum Zeitgeist, USAspending · Advanced Computing
-- Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
+- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
+- Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
-  - 2026-10-06 — [India’s Startup Policy Forum Launches DeepVerse, Lists Quantum as a Priority](https://thequantuminsider.com/2026/10/06/indias-startup-policy-forum-launches-deepverse-lists-quantum-as-a-priority) (The Quantum Insider, score 100)
-  - 2026-10-06 — [FAU Receives $200,000 NIST Award for Quantum Cybersecurity Workforce](https://thequantuminsider.com/2026/10/06/fau-nist-grant-quantum-cybersecurity-workforce) (The Quantum Insider, score 58)
-  - 2026-10-05 — [Quantum Renaissance to Convene Global Quantum Leaders in Florence in April 2027](https://thequantuminsider.com/2026/10/05/quantum-renaissance-to-convene-global-quantum-leaders-in-florence-in-april-2027) (The Quantum Insider, score 100)
-  - 2026-10-03 — [Silicon Quantum Computing and Schneider Electric Advance Energy Grid Forecasting via Watermelon Quantum-Enhanced AI System](https://quantumcomputingreport.com/silicon-quantum-computing-and-schneider-electric-advance-energy-grid-forecasting-via-watermelon-quantum-enhanced-ai-system) (Quantum Computing Report, score 100)
-  - 2026-10-02 — [SQC and Schneider Electric Advance Quantum-Enhanced Energy Forecasting](https://thequantuminsider.com/2026/10/02/sqc-schneider-electric-quantum-energy-forecasting) (The Quantum Insider, score 100)
+  - 2026-10-07 — [From Discovery to Remediation: Operationalizing CBOM for Quantum-Safe Transformation](https://pqca.org/webinars/2026/from-discovery-to-remediation-operationalizing-cbom-for-quantum-safe-transformation) (PQCA Blog and News, score 138)
+  - 2026-10-07 — [Project Eleven Launches Strongpoint for Post-Quantum Digital Asset Custody](https://thequantuminsider.com/2026/10/07/project-eleven-strongpoint-post-quantum-digital-asset-custody) (The Quantum Insider, score 55)
+  - 2026-10-07 — [Quantus Launches Post-Quantum Asset QTC on near.com](https://thequantuminsider.com/2026/10/07/quantus-launches-post-quantum-asset-qtc-on-near-com) (The Quantum Insider, score 50)
+  - 2026-10-07 — [KQC Quantum and Charlton Aria Agree on Nasdaq Business Combination](https://thequantuminsider.com/2026/10/07/kqc-quantum-nasdaq-charlton-aria-merger) (The Quantum Insider, score 47)
+  - 2026-10-06 — [PQShield expands leadership as PQC adoption accelerates](https://pqshield.com/pqshield-expands-leadership-as-pqc-adoption-accelerates) (PQShield, score 100)
 
 ## Quantum Hardware
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-10-07 — [Infineon and ZuriQ Deepen Partnership to Advance Scalable Quantum Chips](https://thequantuminsider.com/2026/10/07/infineon-zuriq-scalable-quantum-chips) (The Quantum Insider, score 44)
   - 2026-10-06 — [Xanadu Partners with GlobalFoundries to Scale Photonic Quantum Component Manufacturing on 300 mm Semiconductor Lines](https://quantumcomputingreport.com/xanadu-partners-with-globalfoundries-to-scale-photonic-quantum-component-manufacturing-on-300-mm-semiconductor-lines) (Quantum Computing Report, score 81)
   - 2026-10-05 — [Germany Advances Key Consortia in €640 Million ($717.2 Million USD) Fault-Tolerant Quantum Computing Competition](https://quantumcomputingreport.com/germany-advances-key-consortia-in-e640-million-717-2-million-usd-fault-tolerant-quantum-computing-competition) (Quantum Computing Report, score 102)
   - 2026-10-05 — [Quantinuum and The University of Western Australia Partner to Advance Australia’s Hybrid Quantum-AI-HPC Ecosystem](https://quantumcomputingreport.com/quantinuum-and-the-university-of-western-australia-partner-to-advance-australias-hybrid-quantum-ai-hpc-ecosystem) (Quantum Computing Report, score 52)
   - 2026-10-02 — [Fermilab SQMS Center Identifies Microscopic Origins of Qubit Performance Variance Across Superconducting Transmons](https://quantumcomputingreport.com/fermilab-sqms-center-identifies-microscopic-origins-of-qubit-performance-variance-across-superconducting-transmons) (Quantum Computing Report, score 41)
-  - 2026-10-01 — [Alice & Bob Demonstrates New Approach to Stabilizing Cat With DC Voltage Bias](https://thequantuminsider.com/2026/10/01/alice-bob-demonstrates-new-approach-to-stabilising-cat-with-dc-voltage-bias) (The Quantum Insider, score 70)
 
 ## Quantum Networking
 
@@ -106,3 +95,14 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-10-05 — [Quantum Machine Learning Protection of Military Quantum Key Distribution Against Cryptographically Camouflaged Attacks](https://arxiv.org/abs/2610.04543) (arXiv RSS cs.CR, score 100)
   - 2026-10-05 — [Second QDA Forum Focuses on Real-World Deployments And Progress of Quantum Computing](https://thequantuminsider.com/2026/10/05/second-qda-forum-focuses-on-real-world-deployments-and-progress-of-quantum-computing) (The Quantum Insider, score 100)
   - 2026-10-05 — [QNu Labs, BISAG-N, and IIT Gandhinagar Demonstrate India’s First 5.56 km Free-Space QKD Link](https://quantumcomputingreport.com/qnu-labs-bisag-n-and-iit-gandhinagar-demonstrate-indias-first-5-56-km-free-space-qkd-link) (Quantum Computing Report, score 55)
+
+## Standards / Government
+
+- Organizations/sources: The Quantum Insider, QuantumNews.ai, USAspending · Quantum Technologies, Quantum Zeitgeist, USAspending · Advanced Computing
+- Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
+- Recent supporting evidence:
+  - 2026-10-07 — [Federal Quantum Readiness Falls Short as Agencies Face Cryptography Skills Gaps](https://thequantuminsider.com/2026/10/07/federal-quantum-readiness-falls-short-as-agencies-face-cryptography-skills-gaps) (The Quantum Insider, score 100)
+  - 2026-10-06 — [India’s Startup Policy Forum Launches DeepVerse, Lists Quantum as a Priority](https://thequantuminsider.com/2026/10/06/indias-startup-policy-forum-launches-deepverse-lists-quantum-as-a-priority) (The Quantum Insider, score 100)
+  - 2026-10-06 — [FAU Receives $200,000 NIST Award for Quantum Cybersecurity Workforce](https://thequantuminsider.com/2026/10/06/fau-nist-grant-quantum-cybersecurity-workforce) (The Quantum Insider, score 58)
+  - 2026-10-05 — [Quantum Renaissance to Convene Global Quantum Leaders in Florence in April 2027](https://thequantuminsider.com/2026/10/05/quantum-renaissance-to-convene-global-quantum-leaders-in-florence-in-april-2027) (The Quantum Insider, score 100)
+  - 2026-10-03 — [Silicon Quantum Computing and Schneider Electric Advance Energy Grid Forecasting via Watermelon Quantum-Enhanced AI System](https://quantumcomputingreport.com/silicon-quantum-computing-and-schneider-electric-advance-energy-grid-forecasting-via-watermelon-quantum-enhanced-ai-system) (Quantum Computing Report, score 100)

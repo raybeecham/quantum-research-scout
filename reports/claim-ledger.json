@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-10-07",
+  "as_of_date": "2026-10-08",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,343 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-04a04263d838f7ab",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-04-01",
+      "evidence_ids": [
+        "evidence-0ab2db9acce31150"
+      ],
+      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported amount in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-a5378ca9c549f109"
+          ],
+          "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "object": null,
+          "status": "active",
+          "value": 3795036.0,
+          "version": 1,
+          "version_hash": "8e19d9f1eb4a5c18"
+        },
+        {
+          "authority": "authoritative",
+          "basis": "Reported amount in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-ffc317bf1d1085c4"
+          ],
+          "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
+          "object": null,
+          "status": "active",
+          "value": 4394360.0,
+          "version": 2,
+          "version_hash": "5558b949892d340e"
+        }
+      ],
+      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0ab2db9acce31150",
+          "locator": "reported_amount:5054982.36",
+          "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:FA714626C0012",
+        "label": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
+        "node_id": "award:usaspending:FA714626C0012",
+        "node_type": "award"
+      },
+      "value": 5054982.36,
+      "verification_status": "source_reported",
+      "version": 3,
+      "version_hash": "7f2c7d6c4254c3c2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-eb338201ddde09ec",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-04-01",
+      "evidence_ids": [
+        "evidence-cdc98842ef674d24"
+      ],
+      "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported amount in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-cb86ec32894cad33"
+          ],
+          "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
+          "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
+          "object": null,
+          "status": "active",
+          "value": 3.0,
+          "version": 1,
+          "version_hash": "981cc391f03141da"
+        },
+        {
+          "authority": "authoritative",
+          "basis": "Reported amount in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-d12549298b1f1957"
+          ],
+          "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
+          "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
+          "object": null,
+          "status": "active",
+          "value": 4.0,
+          "version": 2,
+          "version_hash": "3771bc10bc52159e"
+        }
+      ],
+      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cdc98842ef674d24",
+          "locator": "reported_amount:5.0",
+          "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
+        "label": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
+        "node_id": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
+        "node_type": "award_notice"
+      },
+      "value": 5.0,
+      "verification_status": "source_reported",
+      "version": 3,
+      "version_hash": "21b3a3146b0ca750"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-ea8082d369a22de5",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-7d64f7b92ca8c676"
+      ],
+      "first_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7d64f7b92ca8c676",
+          "locator": "opportunity_status:awarded",
+          "title": "SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_DECR0000118_089",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:DECR0000118",
+        "label": "SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...",
+        "node_id": "award:usaspending:DECR0000118",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "17f383b3cff555d3"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-488cfcfc2781e9aa",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-d2402354da5a1d84"
+      ],
+      "first_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d2402354da5a1d84",
+          "locator": "awarding_agency:department of energy",
+          "title": "SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_DECR0000118_089",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:DECR0000118",
+        "label": "SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...",
+        "node_id": "award:usaspending:DECR0000118",
+        "node_type": "award"
+      },
+      "value": "Department of Energy",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "690cc688e89dad1d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-100aea76309a1305",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-2b845a08a03948d7"
+      ],
+      "first_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2b845a08a03948d7",
+          "locator": "reported_amount:10000000.0",
+          "title": "SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_DECR0000118_089",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:DECR0000118",
+        "label": "SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...",
+        "node_id": "award:usaspending:DECR0000118",
+        "node_type": "award"
+      },
+      "value": 10000000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "f2da0bad52c46858"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-8ccf1a272e0ce062",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-676b71d57237c3c1"
+      ],
+      "first_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:DMQNDJDHTDG4",
+        "label": "AUBURN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:DMQNDJDHTDG4",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-676b71d57237c3c1",
+          "locator": "reported_recipient:recipient_or_contractor:uei:DMQNDJDHTDG4",
+          "title": "SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_DECR0000118_089",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:DECR0000118",
+        "label": "SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...",
+        "node_id": "award:usaspending:DECR0000118",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "79c7789f7e6e9d01"
     },
     {
       "authority": "authoritative",
@@ -38696,128 +39033,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "cf9691ad8f6825b1"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-04a04263d838f7ab",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-04-01",
-      "evidence_ids": [
-        "evidence-ffc317bf1d1085c4"
-      ],
-      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "history": [
-        {
-          "authority": "authoritative",
-          "basis": "Reported amount in the federal record",
-          "confidence": "high",
-          "evidence_ids": [
-            "evidence-a5378ca9c549f109"
-          ],
-          "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-          "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-          "object": null,
-          "status": "active",
-          "value": 3795036.0,
-          "version": 1,
-          "version_hash": "8e19d9f1eb4a5c18"
-        }
-      ],
-      "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ffc317bf1d1085c4",
-          "locator": "reported_amount:4394360.0",
-          "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:FA714626C0012",
-        "label": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
-        "node_id": "award:usaspending:FA714626C0012",
-        "node_type": "award"
-      },
-      "value": 4394360.0,
-      "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "5558b949892d340e"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-eb338201ddde09ec",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-04-01",
-      "evidence_ids": [
-        "evidence-d12549298b1f1957"
-      ],
-      "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "history": [
-        {
-          "authority": "authoritative",
-          "basis": "Reported amount in the federal record",
-          "confidence": "high",
-          "evidence_ids": [
-            "evidence-cb86ec32894cad33"
-          ],
-          "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
-          "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-          "object": null,
-          "status": "active",
-          "value": 3.0,
-          "version": 1,
-          "version_hash": "981cc391f03141da"
-        }
-      ],
-      "last_seen_at": "2026-09-11T02:25:03.931737+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d12549298b1f1957",
-          "locator": "reported_amount:4.0",
-          "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
-        "label": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
-        "node_id": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
-        "node_type": "award_notice"
-      },
-      "value": 4.0,
-      "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "3771bc10bc52159e"
     },
     {
       "authority": "authoritative",
@@ -116632,186 +116847,6 @@
     {
       "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
-      "claim_id": "claim-ea2c06880428fb9f",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-09",
-      "evidence_ids": [
-        "evidence-ec673ff4ff8ad3fe"
-      ],
-      "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-09T01:09:22.763250+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ec673ff4ff8ad3fe",
-          "locator": "legal_business_name:alvarez llc",
-          "title": "Alvarez LLC",
-          "url": "https://sam.gov/entity/Y928UVG75CT6/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:Y928UVG75CT6",
-        "label": "ALVAREZ LLC",
-        "node_id": "recipient_or_contractor:uei:Y928UVG75CT6",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Alvarez LLC",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "e908ff2a285d9b38"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity uei",
-      "claim_id": "claim-470fdd7b948d18cb",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-09",
-      "evidence_ids": [
-        "evidence-f1e2dca24d8cfef7"
-      ],
-      "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-09T01:09:22.763250+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f1e2dca24d8cfef7",
-          "locator": "uei:y928uvg75ct6",
-          "title": "Alvarez LLC",
-          "url": "https://sam.gov/entity/Y928UVG75CT6/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:Y928UVG75CT6",
-        "label": "ALVAREZ LLC",
-        "node_id": "recipient_or_contractor:uei:Y928UVG75CT6",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Y928UVG75CT6",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "fb4ee1dbb4f298af"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity cage code",
-      "claim_id": "claim-c0e4adcb9c471ca1",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-09",
-      "evidence_ids": [
-        "evidence-8b5fef6de2201f29"
-      ],
-      "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-09T01:09:22.763250+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8b5fef6de2201f29",
-          "locator": "cage_code:35lk3",
-          "title": "Alvarez LLC",
-          "url": "https://sam.gov/entity/Y928UVG75CT6/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:Y928UVG75CT6",
-        "label": "ALVAREZ LLC",
-        "node_id": "recipient_or_contractor:uei:Y928UVG75CT6",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "35LK3",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "1d817000a3c8a21e"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity registration status",
-      "claim_id": "claim-f8f543870e62f42a",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-09",
-      "evidence_ids": [
-        "evidence-8987a66ee9687d10"
-      ],
-      "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-09T01:09:22.763250+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8987a66ee9687d10",
-          "locator": "registration_status:active",
-          "title": "Alvarez LLC",
-          "url": "https://sam.gov/entity/Y928UVG75CT6/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:Y928UVG75CT6",
-        "label": "ALVAREZ LLC",
-        "node_id": "recipient_or_contractor:uei:Y928UVG75CT6",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "4200297970679bcc"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-008667e9987d86de",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -116988,6 +117023,186 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "ddb4dd619f89194d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-ea2c06880428fb9f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-09",
+      "evidence_ids": [
+        "evidence-ec673ff4ff8ad3fe"
+      ],
+      "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-09T01:09:22.763250+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ec673ff4ff8ad3fe",
+          "locator": "legal_business_name:alvarez llc",
+          "title": "Alvarez LLC",
+          "url": "https://sam.gov/entity/Y928UVG75CT6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:Y928UVG75CT6",
+        "label": "ALVAREZ LLC",
+        "node_id": "recipient_or_contractor:uei:Y928UVG75CT6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Alvarez LLC",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e908ff2a285d9b38"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-470fdd7b948d18cb",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-09",
+      "evidence_ids": [
+        "evidence-f1e2dca24d8cfef7"
+      ],
+      "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-09T01:09:22.763250+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f1e2dca24d8cfef7",
+          "locator": "uei:y928uvg75ct6",
+          "title": "Alvarez LLC",
+          "url": "https://sam.gov/entity/Y928UVG75CT6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:Y928UVG75CT6",
+        "label": "ALVAREZ LLC",
+        "node_id": "recipient_or_contractor:uei:Y928UVG75CT6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Y928UVG75CT6",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "fb4ee1dbb4f298af"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-c0e4adcb9c471ca1",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-09",
+      "evidence_ids": [
+        "evidence-8b5fef6de2201f29"
+      ],
+      "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-09T01:09:22.763250+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8b5fef6de2201f29",
+          "locator": "cage_code:35lk3",
+          "title": "Alvarez LLC",
+          "url": "https://sam.gov/entity/Y928UVG75CT6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:Y928UVG75CT6",
+        "label": "ALVAREZ LLC",
+        "node_id": "recipient_or_contractor:uei:Y928UVG75CT6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "35LK3",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1d817000a3c8a21e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-f8f543870e62f42a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-09",
+      "evidence_ids": [
+        "evidence-8987a66ee9687d10"
+      ],
+      "first_seen_at": "2026-08-09T01:09:22.763250+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-09T01:09:22.763250+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8987a66ee9687d10",
+          "locator": "registration_status:active",
+          "title": "Alvarez LLC",
+          "url": "https://sam.gov/entity/Y928UVG75CT6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:Y928UVG75CT6",
+        "label": "ALVAREZ LLC",
+        "node_id": "recipient_or_contractor:uei:Y928UVG75CT6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4200297970679bcc"
     },
     {
       "authority": "authoritative",
@@ -136382,9 +136597,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -136427,9 +136642,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -136472,9 +136687,9 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -136517,14 +136732,14 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "name:redacted due to pii",
         "label": "REDACTED DUE TO PII",
         "node_id": "recipient_or_contractor:name:redacted due to pii",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -247528,7 +247743,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247575,7 +247790,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247622,7 +247837,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247669,7 +247884,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247716,7 +247931,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247763,7 +247978,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247810,7 +248025,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247857,7 +248072,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247904,7 +248119,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247951,7 +248166,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -247998,7 +248213,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248045,7 +248260,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248092,7 +248307,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248139,7 +248354,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248186,7 +248401,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248233,7 +248448,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248280,7 +248495,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248327,7 +248542,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248379,7 +248594,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248431,7 +248646,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248483,7 +248698,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248535,7 +248750,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248587,7 +248802,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248639,7 +248854,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248691,7 +248906,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248743,7 +248958,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248795,7 +249010,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-07T03:41:21.303454+00:00",
+      "retracted_at": "2026-10-08T03:55:07.199892+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251131,6 +251346,16 @@
       "locator": "opportunity_status:awarded",
       "title": "29--SENSOR,ENGINE COOLANT TEMPERATURE,EM",
       "url": "https://sam.gov/workspace/contract/opp/96b50cba48024d6b83cdd0ca39e56077/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0ab2db9acce31150",
+      "locator": "reported_amount:5054982.36",
+      "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -257432,6 +257657,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c9084ab278448c598bb061c368592b9/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-2b845a08a03948d7",
+      "locator": "reported_amount:10000000.0",
+      "title": "SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_DECR0000118_089",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -269158,6 +269393,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-676b71d57237c3c1",
+      "locator": "reported_recipient:recipient_or_contractor:uei:DMQNDJDHTDG4",
+      "title": "SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_DECR0000118_089",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-6783121f714dc532",
       "locator": "opportunity_status:closed",
       "title": "High-Performance Quantum Scalar Magnetometers",
@@ -273342,6 +273587,16 @@
       "locator": "opportunity_status:awarded",
       "title": "COLLABORATIVE RESEARCH: SATC 2.0: RES: AIGIS: SECURING THE DEEP LEARNING MODEL SUPPLY CHAIN -PRE-TRAINED AI MODELS SHARED THROUGH OPEN ONLINE REPOSITORIES ARE BECOMING ESSENTIAL I...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2526621_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7d64f7b92ca8c676",
+      "locator": "opportunity_status:awarded",
+      "title": "SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_DECR0000118_089",
       "verification_status": "source_reported"
     },
     {
@@ -289298,6 +289553,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-cdc98842ef674d24",
+      "locator": "reported_amount:5.0",
+      "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-cdcce7c3236d7c02",
       "locator": "reported_amount:100000.0",
       "title": "PURPOSETHE PROJECT WILL SUPPORT TARGETED ACTIVITIES OF THE NATIONAL ACADEMIES FORUM ON CYBER RESILIENCE TO EXAMINE EMERGING CYBERSECURITY CHALLENGES RELEVANT TO THE NATIONAL INSTI...",
@@ -290078,16 +290343,6 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
-      "evidence_id": "evidence-d12549298b1f1957",
-      "locator": "reported_amount:4.0",
-      "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
       "evidence_id": "evidence-d131e92100f6e71d",
       "locator": "legal_business_name:general dynamics information technology, inc.",
       "title": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
@@ -290372,6 +290627,16 @@
       "locator": "set_aside:service-disabled veteran-owned small business (sdvosb) set-aside (far 19.14)",
       "title": "6520--Dexis Dental Imaging Intraoral Radiographic Units and Sensor equipment",
       "url": "https://sam.gov/workspace/contract/opp/d6568c226f0745c087ac45acfc446e49/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d2402354da5a1d84",
+      "locator": "awarding_agency:department of energy",
+      "title": "SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_DECR0000118_089",
       "verification_status": "source_reported"
     },
     {
@@ -299648,16 +299913,6 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
-      "evidence_id": "evidence-ffc317bf1d1085c4",
-      "locator": "reported_amount:4394360.0",
-      "title": "THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
       "evidence_id": "evidence-ffe20dc4a13b679e",
       "locator": "reported_recipient:recipient_or_contractor:uei:V6AFQPN18437",
       "title": "FAST RANDOMIZED ALGORITHMS FOR GLOBAL OPERATORS -COMPUTATIONAL SIMULATION IS ESSENTIAL FOR DESIGNING ELECTROMAGNETIC DEVICES, PREDICTING RADAR AND SONAR SIGNATURES, IMPROVING MEDI...",
@@ -299698,16 +299953,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4980,
-    "authoritative_claims": 4774,
+    "active_claims": 4984,
+    "authoritative_claims": 4778,
     "conflicted_claims": 38,
     "derived_claims": 202,
-    "evidence_items": 5087,
-    "source_urls": 1374,
-    "subjects": 1025,
+    "evidence_items": 5091,
+    "source_urls": 1375,
+    "subjects": 1026,
     "superseded_claims": 0,
-    "total_claims": 5007
+    "total_claims": 5011
   },
-  "updated_at": "2026-10-07T03:41:21.303454+00:00",
+  "updated_at": "2026-10-08T03:55:07.199892+00:00",
   "version": 1
 }

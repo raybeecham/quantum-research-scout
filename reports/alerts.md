@@ -4,13 +4,13 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-07 03:47 UTC_
+_Updated 2026-10-08 04:00 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 2 | 12 | 17 | 21 |
+| 50 | 7 | 12 | 14 | 24 |
 
-## 🔴 Contract: NIST 🆕
+## 🔴 Contract: NIST
 
 - Severity: **critical**
 - Status: **contract**
@@ -29,7 +29,7 @@ _Updated 2026-10-07 03:47 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 PQC / Crypto Agility has critical strategic importance and rising momentum.
+- 🔴 PQC / Crypto Agility has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: QEC / Fault Tolerance
@@ -71,28 +71,28 @@ _Updated 2026-10-07 03:47 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Standards / Government has critical strategic importance and rising momentum.
+- 🔴 Standards / Government has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Source failing: ETSI Quantum Standards News
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 88.2% reliability with 7 warning day(s).
+- 🔴 87.2% reliability with 8 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Quantum Computing Report
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 68.2% reliability with 7 warning day(s).
+- 🔴 65.2% reliability with 8 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: White House Science and Technology Missions
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 74.3% reliability with 19 warning day(s).
+- 🔴 73.3% reliability with 20 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -100,13 +100,6 @@ _Updated 2026-10-07 03:47 UTC_
 - Severity: **high**
 - Status: **actionable**
 - 🎯 AI Security is actionable with high confidence.
-- [Open supporting view](signals.md)
-
-## 🟠 Actionable signal: PQC / Crypto Agility
-
-- Severity: **high**
-- Status: **actionable**
-- 🎯 PQC / Crypto Agility is actionable with high confidence.
 - [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: QEC / Fault Tolerance
@@ -130,25 +123,27 @@ _Updated 2026-10-07 03:47 UTC_
 - 🎯 Quantum Software / Tooling is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Standards / Government
+## 🟠 Changed: THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. 🆕
 
 - Severity: **high**
-- Status: **actionable**
-- 🎯 Standards / Government is actionable with high confidence.
-- [Open supporting view](signals.md)
+- Status: **changed**
+- reported amount · authority authoritative · 5054982.36
+- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-)
+- [Open supporting view](intelligence-changes.md)
+
+## 🟠 Changed: THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. 🆕
+
+- Severity: **high**
+- Status: **changed**
+- reported amount · authority authoritative · 5.0
+- [Open direct evidence](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-)
+- [Open supporting view](intelligence-changes.md)
 
 ## 🟠 Rising momentum: AI Security
 
 - Severity: **high**
 - Status: **rising**
 - ↗️ Recent evidence is 2 versus 0 in the prior period.
-- [Open supporting view](signals.md)
-
-## 🟠 Rising momentum: PQC / Crypto Agility
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 24 versus 16 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: QEC / Fault Tolerance
@@ -172,20 +167,6 @@ _Updated 2026-10-07 03:47 UTC_
 - ↗️ Recent evidence is 7 versus 3 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Standards / Government
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 10 versus 5 in the prior period.
-- [Open supporting view](signals.md)
-
-## 🟠 Source degraded: Lockheed Martin Quantum Technology
-
-- Severity: **high**
-- Status: **degraded**
-- 🟠 97.6% reliability with 1 warning day(s).
-- [Open supporting view](source-health.md)
-
 ## 🟠 Source degraded: Quantum Computing Patents
 
 - Severity: **high**
@@ -197,7 +178,7 @@ _Updated 2026-10-07 03:47 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 90.9% reliability with 2 warning day(s).
+- 🟠 91.3% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
@@ -211,7 +192,7 @@ _Updated 2026-10-07 03:47 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 95.6% reliability with 1 warning day(s).
+- 🟠 95.7% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -219,13 +200,6 @@ _Updated 2026-10-07 03:47 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2025-10-20; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Atom Computing News and Research
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-06-17; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: ETSI Quantum Standards News
@@ -340,13 +314,6 @@ _Updated 2026-10-07 03:47 UTC_
 - The latest dated item is from 2026-07-09; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: PQCA Blog and News
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-08; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
 ## 🟡 Source stale: PsiQuantum News
 
 - Severity: **medium**
@@ -354,9 +321,44 @@ _Updated 2026-10-07 03:47 UTC_
 - The latest dated item is from 2026-09-09; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: QuEra Press Releases 🆕
+## 🟡 Source stale: QuEra Press Releases
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-22; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: QuSecure Press Releases 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-09-22; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Rigetti News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-09-08; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · Genesis Mission 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · Golden Dome 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-04-01; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · Quantum Benchmarking Initiative 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2025-10-06; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

@@ -1,8 +1,8 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 25.9,
-      "accepted": 35,
+      "acceptance_rate": 26.5,
+      "accepted": 36,
       "quarantined": 100,
       "scope": "Federal missions"
     },
@@ -34,6 +34,29 @@
       "stage": "relationship admission",
       "title": "S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCI...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2620285_049"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-10-07",
+      "key": "https://thequantuminsider.com/2026/10/07/ibm-advances-to-stage-c-of-darpa-quantum-benchmarking-initiative",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "The Quantum Insider",
+      "stage": "mission evidence admission",
+      "title": "IBM Advances to Stage C of DARPA Quantum Benchmarking Initiative",
+      "url": "https://thequantuminsider.com/2026/10/07/ibm-advances-to-stage-c-of-darpa-quantum-benchmarking-initiative"
     },
     {
       "admission": {
@@ -2260,29 +2283,6 @@
       "stage": "mission evidence admission",
       "title": "BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)",
       "url": "https://www.grants.gov/search-results-detail/356205"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Quantum Benchmarking Initiative",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-05-20",
-      "key": "https://www.grants.gov/search-results-detail/362488",
-      "mission_id": "darpa-qbi",
-      "mission_name": "DARPA Quantum Benchmarking Initiative",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Quantum Benchmarking Initiative",
-      "stage": "mission evidence admission",
-      "title": "Integrated Specific Pathogen Free Research Models and Human New Approach Methodologies to Advance HIV/AIDS Research (U42 Clinical Trial Not Allowed)",
-      "url": "https://www.grants.gov/search-results-detail/362488"
     }
   ],
   "reason_counts": [
@@ -2298,12 +2298,12 @@
     },
     {
       "code": "official_source",
-      "count": 107,
+      "count": 106,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 23,
+      "count": 24,
       "label": "Source is not an official .gov or .mil domain"
     },
     {
@@ -2315,13 +2315,13 @@
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
     "acceptance_rate": 80.1,
-    "accepted": 535,
-    "decisions": 668,
+    "accepted": 536,
+    "decisions": 669,
     "funding_quarantine": 30,
     "mission_quarantine": 100,
     "quarantined": 133,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-10-07T03:41:21.303454+00:00",
+  "updated_at": "2026-10-08T03:55:07.199892+00:00",
   "version": 1
 }

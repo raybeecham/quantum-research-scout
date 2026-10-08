@@ -1,10 +1,10 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-10-07T03:41:21.303454+00:00_
+_Updated 2026-10-08T03:55:07.199892+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **535**
+- Accepted evidence: **536**
 - Quarantined evidence or relationships: **133**
 - Acceptance rate: **80.1%**
 
@@ -12,15 +12,15 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 35 | 100 | 25.9% |
+| Federal missions | 36 | 100 | 26.5% |
 | Federal funding | 500 | 33 | 93.8% |
 
 ## Quarantine Reasons
 
 - **Match appears only in collector query metadata**: 130
 - **No relevant term in the evidence itself**: 130
-- **Official government source**: 107
-- **Source is not an official .gov or .mil domain**: 23
+- **Official government source**: 106
+- **Source is not an official .gov or .mil domain**: 24
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -31,6 +31,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [IBM Advances to Stage C of DARPA Quantum Benchmarking Initiative](https://thequantuminsider.com/2026/10/07/ibm-advances-to-stage-c-of-darpa-quantum-benchmarking-initiative)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [EAGER: TERAHERTZ NEAR-FIELD STUDIES OF QUANTUM SENSING -THIS PROJECT WILL INVESTIGATE QUANTUM PHENOMENA USING INNOVATIVE TECHNIQUES TO PROBE LOW-FREQUENCY EXCITATIONS IN THE TERAH...](https://www.usaspending.gov/award/ASST_NON_2625530_049)
 
@@ -712,13 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/356205)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Integrated Specific Pathogen Free Research Models and Human New Approach Methodologies to Advance HIV/AIDS Research (U42 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/362488)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
