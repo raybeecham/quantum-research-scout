@@ -2650,12 +2650,48 @@
           "source": "PQCA Blog and News",
           "title": "From Discovery to Remediation: Operationalizing CBOM for Quantum-Safe Transformation",
           "url": "https://pqca.org/webinars/2026/from-discovery-to-remediation-operationalizing-cbom-for-quantum-safe-transformation"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://arxiv.org/abs/2610.10992",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 122,
+          "source": "arXiv RSS cs.CR",
+          "title": "The Hint Weight of ML-DSA Signatures Is Key-Dependent: An Empirical Study across the Three FIPS 204 Parameter Sets",
+          "url": "https://arxiv.org/abs/2610.10992"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://arxiv.org/abs/2610.11107",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 130,
+          "source": "arXiv RSS cs.CR",
+          "title": "Accelerating HQC for Post-Quantum TLS 1.3 on x86 IoT Gateways",
+          "url": "https://arxiv.org/abs/2610.11107"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://thequantuminsider.com/2026/10/08/surfshark-achieves-full-post-quantum-wireguard-implementation",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 167,
+          "source": "The Quantum Insider",
+          "title": "Surfshark Adds ML-DSA Authentication to Post-Quantum WireGuard",
+          "url": "https://thequantuminsider.com/2026/10/08/surfshark-achieves-full-post-quantum-wireguard-implementation"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://arxiv.org/abs/2610.11254",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 189,
+          "source": "arXiv RSS cs.CR",
+          "title": "Provable Subexponential Algorithms for NIST Third-Round Lattice Families",
+          "url": "https://arxiv.org/abs/2610.11254"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-10-07",
+      "latest_seen": "2026-10-08",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -2664,8 +2700,8 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 21,
-      "recent_count": 21,
+      "prior_count": 20,
+      "recent_count": 23,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -3336,13 +3372,40 @@
           "source": "arXiv RSS quant-ph",
           "title": "Modular Neural Decoder for Surface Code Memory and Logic on Superconducting Processors",
           "url": "https://arxiv.org/abs/2610.03869"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://arxiv.org/abs/2610.10731",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 101,
+          "source": "arXiv RSS quant-ph",
+          "title": "Single-shot magic state factories for quantum LDPC codes",
+          "url": "https://arxiv.org/abs/2610.10731"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://quantumcomputingreport.com/neutral-atom-developer-oratomic-secures-775-million-in-cumulative-funding-for-fault-tolerant-system-rd",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 108,
+          "source": "Quantum Computing Report",
+          "title": "Neutral-Atom Developer Oratomic Secures $775 Million in Cumulative Funding for Fault-Tolerant System R&D",
+          "url": "https://quantumcomputingreport.com/neutral-atom-developer-oratomic-secures-775-million-in-cumulative-funding-for-fault-tolerant-system-rd"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://arxiv.org/abs/2610.10948",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 117,
+          "source": "arXiv RSS quant-ph",
+          "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures",
+          "url": "https://arxiv.org/abs/2610.10948"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-10-05",
-      "momentum": "rising",
+      "latest_seen": "2026-10-08",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -3350,9 +3413,9 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 2,
+      "prior_count": 3,
       "recent_count": 4,
-      "status": "actionable"
+      "status": "watching"
     },
     "Quantum Hardware": {
       "confidence": "high",
@@ -6182,13 +6245,22 @@
           "source": "The Quantum Insider",
           "title": "Infineon and ZuriQ Deepen Partnership to Advance Scalable Quantum Chips",
           "url": "https://thequantuminsider.com/2026/10/07/infineon-zuriq-scalable-quantum-chips"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://arxiv.org/abs/2610.11321",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 80,
+          "source": "arXiv RSS quant-ph",
+          "title": "Photonic Chips for Universal Quantum Computing: Retrospective and Prospective",
+          "url": "https://arxiv.org/abs/2610.11321"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-10-07",
-      "momentum": "stable",
+      "latest_seen": "2026-10-08",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -6197,7 +6269,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 10,
-      "recent_count": 7,
+      "recent_count": 6,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -7498,23 +7570,41 @@
           "source": "Quantum Computing Report",
           "title": "Zapata Quantum Joins IBM Quantum Network to Accelerate Enterprise Application Development",
           "url": "https://quantumcomputingreport.com/zapata-quantum-joins-ibm-quantum-network-to-accelerate-enterprise-application-development"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://arxiv.org/abs/2610.11001",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 82,
+          "source": "arXiv RSS quant-ph",
+          "title": "Structured leakage in OAM-encoded qubits revealed by distributed quantum feature extraction",
+          "url": "https://arxiv.org/abs/2610.11001"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://arxiv.org/abs/2610.10705",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 118,
+          "source": "arXiv RSS quant-ph",
+          "title": "Quantum Networking at the Speed of Quantum Computation: Kilohertz Entanglement in a Heterogeneous Quantum System",
+          "url": "https://arxiv.org/abs/2610.10705"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-10-06",
-      "momentum": "stable",
+      "latest_seen": "2026-10-08",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
         "QuantumNews.ai",
-        "Quantum Computing Report",
-        "arXiv RSS quant-ph"
+        "arXiv RSS quant-ph",
+        "Quantum Computing Report"
       ],
-      "prior_count": 9,
-      "recent_count": 8,
-      "status": "watching"
+      "prior_count": 5,
+      "recent_count": 9,
+      "status": "actionable"
     },
     "Quantum Sensing": {
       "confidence": "high",
@@ -8870,13 +8960,22 @@
           "source": "Quantum Computing Report",
           "title": "US Department of Energy Releases National Quantum Roadmap Establishing 2028 Fault-Tolerance Milestones",
           "url": "https://quantumcomputingreport.com/us-department-of-energy-releases-national-quantum-roadmap-establishing-2028-fault-tolerance-milestones"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://quantumcomputingreport.com/u-s-department-of-energy-unveils-quantum-genesis-priority-applications-to-guide-fault-tolerant-scientific-utility",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 74,
+          "source": "Quantum Computing Report",
+          "title": "U.S. Department of Energy Unveils Quantum Genesis Priority Applications to Guide Fault-Tolerant Scientific Utility",
+          "url": "https://quantumcomputingreport.com/u-s-department-of-energy-unveils-quantum-genesis-priority-applications-to-guide-fault-tolerant-scientific-utility"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-10-02",
-      "momentum": "rising",
+      "latest_seen": "2026-10-08",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "QuantumNews.ai",
@@ -8884,9 +8983,9 @@
         "Quantum Computing Report",
         "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 3,
-      "recent_count": 7,
-      "status": "actionable"
+      "prior_count": 6,
+      "recent_count": 2,
+      "status": "watching"
     },
     "Standards / Government": {
       "confidence": "high",
@@ -9538,12 +9637,48 @@
           "source": "The Quantum Insider",
           "title": "Federal Quantum Readiness Falls Short as Agencies Face Cryptography Skills Gaps",
           "url": "https://thequantuminsider.com/2026/10/07/federal-quantum-readiness-falls-short-as-agencies-face-cryptography-skills-gaps"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://thequantuminsider.com/2026/10/08/doe-announces-science-applications-for-quantum-computing",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "DOE Announces Science Applications For Quantum Computing",
+          "url": "https://thequantuminsider.com/2026/10/08/doe-announces-science-applications-for-quantum-computing"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://www.war.gov/News/Releases/Release/Article/4622109/department-of-war-announces-350-million-in-quantum-computing-initiatives",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 100,
+          "source": "Department of War Strategic Technology Releases",
+          "title": "Department of War Announces $350 Million in Quantum Computing Initiatives",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622109/department-of-war-announces-350-million-in-quantum-computing-initiatives"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_15B61726P00000128_1540_-NONE-_-NONE-",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "title": "FY26 A1 1ST QTR RED SHAVER FOODS EDD 10-9-2026 \"EO 14398\"",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_15B61726P00000128_1540_-NONE-_-NONE-"
+        },
+        {
+          "date": "2026-10-08",
+          "key": "https://thequantuminsider.com/2026/10/08/nsf-new-quantum-research-stem-workforce-programs",
+          "report": "2026-10/2026-10-08-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "NSF Launches New Programs for Quantum Innovation and STEM Research",
+          "url": "https://thequantuminsider.com/2026/10/08/nsf-new-quantum-research-stem-workforce-programs"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-10-07",
+      "latest_seen": "2026-10-08",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -9552,11 +9687,11 @@
         "Quantum Zeitgeist",
         "USAspending \u00b7 Advanced Computing"
       ],
-      "prior_count": 8,
-      "recent_count": 7,
+      "prior_count": 9,
+      "recent_count": 10,
       "status": "watching"
     }
   },
-  "updated_at": "2026-10-08T04:00:28.761745+00:00",
+  "updated_at": "2026-10-09T04:09:02.116202+00:00",
   "version": 1
 }

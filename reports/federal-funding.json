@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-10-08",
+  "as_of_date": "2026-10-09",
   "contractor_identities": [
     {
       "aliases": [
@@ -1178,20 +1178,6 @@
       "resolution_basis": "authoritative UEI",
       "resolution_confidence": "high",
       "uei": "MDM9F73QJ1Z1"
-    },
-    {
-      "aliases": [
-        "WRIGHT STATE UNIVERSITY"
-      ],
-      "cage_codes": [],
-      "canonical_name": "WRIGHT STATE UNIVERSITY",
-      "identity_id": "uei:NPT2UNTNHJZ1",
-      "parent_name": null,
-      "parent_uei": null,
-      "record_count": 1,
-      "resolution_basis": "authoritative UEI",
-      "resolution_confidence": "high",
-      "uei": "NPT2UNTNHJZ1"
     },
     {
       "aliases": [
@@ -4373,20 +4359,6 @@
     },
     {
       "aliases": [
-        "REDACTED DUE TO PII"
-      ],
-      "cage_codes": [],
-      "canonical_name": "REDACTED DUE TO PII",
-      "identity_id": "name:redacted due to pii",
-      "parent_name": null,
-      "parent_uei": null,
-      "record_count": 1,
-      "resolution_basis": "exact normalized legal name",
-      "resolution_confidence": "medium",
-      "uei": null
-    },
-    {
-      "aliases": [
         "Red Duke Strategies LLC"
       ],
       "cage_codes": [],
@@ -4642,18 +4614,18 @@
   "mission_portfolios": [
     {
       "announced_funding_value": 293000000.0,
-      "award_count": 3,
+      "award_count": 4,
       "known_award_value": 700700.0,
       "mission_id": "genesis-mission",
       "mission_name": "Genesis Mission",
       "mission_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
-      "open_opportunities": 1,
-      "opportunity_count": 2,
+      "open_opportunities": 2,
+      "opportunity_count": 3,
       "priority": "critical",
       "recipients_and_contractors": [
         "MCKINSEY & COMPANY, INC. WASHINGTON D.C."
       ],
-      "record_count": 6,
+      "record_count": 8,
       "records": [
         {
           "amount": 700000.0,
@@ -4732,6 +4704,31 @@
         },
         {
           "amount": null,
+          "date": "2026-10-08",
+          "key": "mission_tracker:https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
+          "link": {
+            "admission": {
+              "basis": "configured mission identifier",
+              "confidence": "high",
+              "reason_codes": [
+                "configured_identifier"
+              ],
+              "score": 100,
+              "status": "accepted"
+            },
+            "basis": "configured mission identifier",
+            "confidence": "high",
+            "mission_id": "genesis-mission",
+            "mission_name": "Genesis Mission",
+            "score": 100
+          },
+          "record_type": "award_notice",
+          "status": "awarded",
+          "title": "Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science",
+          "url": "https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science"
+        },
+        {
+          "amount": null,
           "date": "2026-08-21",
           "key": "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf",
           "link": {
@@ -4779,6 +4776,31 @@
           "status": "awarded",
           "title": "GENESIS MISSION ACCELERATION",
           "url": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
+        },
+        {
+          "amount": null,
+          "date": "2026-10-08",
+          "key": "grants_gov:DE-FOA-0003673",
+          "link": {
+            "admission": {
+              "basis": "named program match: Genesis Mission",
+              "confidence": "high",
+              "reason_codes": [
+                "exact_mission_name"
+              ],
+              "score": 95,
+              "status": "accepted"
+            },
+            "basis": "named program match: Genesis Mission",
+            "confidence": "high",
+            "mission_id": "genesis-mission",
+            "mission_name": "Genesis Mission",
+            "score": 95
+          },
+          "record_type": "grant_opportunity",
+          "status": "open",
+          "title": "Genesis Mission Graduate Fellowship Pilot",
+          "url": "https://www.grants.gov/search-results-detail/364033"
         },
         {
           "amount": null,
@@ -5826,6 +5848,24 @@
           "url": "https://patents.google.com/patent/US12400074B1/en"
         },
         {
+          "application_number": "19698153",
+          "assignee": "Palo Alto Networks, Inc.",
+          "document_type": "application",
+          "legal_status": "pending",
+          "patent_id": "US20260310797A1",
+          "patent_number": null,
+          "publication_number": "US20260310797A1",
+          "relationship_basis": "analytical domain overlap: artificial intelligence",
+          "relationship_confidence": "low",
+          "strategic_domains": [
+            "Cybersecurity and cryptography",
+            "Artificial intelligence"
+          ],
+          "strategic_significance_score": 65,
+          "title": "LARGE LANGUAGE MODEL-BASED VULNERABILITY REMEDIATION ACTION DESCRIPTIONS",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19698153/application-data"
+        },
+        {
           "application_number": "19573062",
           "assignee": "Cisco Technology, Inc.",
           "document_type": "application",
@@ -5860,24 +5900,6 @@
           "strategic_significance_score": 65,
           "title": "LARGE LANGUAGE MODEL (LLM) INTERACTION SECURITY SANDBOX",
           "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19577172/application-data"
-        },
-        {
-          "application_number": "19677731",
-          "assignee": "American Express Travel Related Services Company, Inc.",
-          "document_type": "application",
-          "legal_status": "pending",
-          "patent_id": "US20260288960A1",
-          "patent_number": null,
-          "publication_number": "US20260288960A1",
-          "relationship_basis": "analytical domain overlap: artificial intelligence",
-          "relationship_confidence": "low",
-          "strategic_domains": [
-            "Cybersecurity and cryptography",
-            "Artificial intelligence"
-          ],
-          "strategic_significance_score": 65,
-          "title": "DISTRIBUTED LEDGER-BASED HYBRID QUANTUM MACHINE LEARNING RANSOMWARE SECURITY",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19677731/application-data"
         }
       ]
     },
@@ -6690,7 +6712,7 @@
       "base_type": null,
       "close_date": "12/17/2026",
       "date": "2026-03-17",
-      "days_to_close": 70,
+      "days_to_close": 69,
       "deadline_status": "open_window",
       "description_url": null,
       "funding_agency": null,
@@ -6750,7 +6772,7 @@
       "base_type": null,
       "close_date": "10/19/2026",
       "date": "2026-09-17",
-      "days_to_close": 11,
+      "days_to_close": 10,
       "deadline_status": "closing_this_month",
       "description_url": null,
       "funding_agency": null,
@@ -6799,6 +6821,63 @@
       ],
       "title": "The DOE Quantum Genesis Q Competition",
       "url": "https://www.grants.gov/search-results-detail/363869"
+    },
+    {
+      "active": null,
+      "additional_info_link": null,
+      "amount": null,
+      "archive_date": null,
+      "awarding_agency": "PAMS-SC",
+      "base_type": null,
+      "close_date": "01/12/2027",
+      "date": "2026-10-08",
+      "days_to_close": 95,
+      "deadline_status": "open_window",
+      "description_url": null,
+      "funding_agency": null,
+      "key": "grants_gov:DE-FOA-0003673",
+      "mission_links": [
+        {
+          "admission": {
+            "basis": "named program match: Genesis Mission",
+            "confidence": "high",
+            "reason_codes": [
+              "exact_mission_name"
+            ],
+            "score": 95,
+            "status": "accepted"
+          },
+          "basis": "named program match: Genesis Mission",
+          "confidence": "high",
+          "mission_id": "genesis-mission",
+          "mission_name": "Genesis Mission",
+          "score": 95
+        }
+      ],
+      "new_since_yesterday": true,
+      "opportunity_factors": [
+        "strategic significance +22",
+        "mission fit +22",
+        "critical mission +8",
+        "actionable grant_opportunity +9",
+        "open_window +4",
+        "new since yesterday +5"
+      ],
+      "opportunity_label": "high priority",
+      "opportunity_score": 70,
+      "points_of_contact": [],
+      "radar_rank": 3,
+      "recommended_action": "Review technical fit, eligibility, and submission requirements.",
+      "record_type": "grant_opportunity",
+      "related_patents": [],
+      "resource_links": [],
+      "set_aside": null,
+      "status": "open",
+      "strategic_significance_score": 49,
+      "subagency": null,
+      "technology_domains": [],
+      "title": "Genesis Mission Graduate Fellowship Pilot",
+      "url": "https://www.grants.gov/search-results-detail/364033"
     }
   ],
   "quarantined_records": [
@@ -6836,7 +6915,7 @@
       "funding_agency": null,
       "identifier": "HHS-2027-ACL-NIDILRR-IFDV-0304",
       "key": "grants_gov:HHS-2027-ACL-NIDILRR-IFDV-0304",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "parent_name": null,
@@ -6896,7 +6975,7 @@
       "funding_agency": null,
       "identifier": "FHWA-PROT-26-001",
       "key": "grants_gov:FHWA-PROT-26-001",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "parent_name": null,
@@ -7256,7 +7335,7 @@
       "funding_agency": null,
       "identifier": "RFA-OH-27-049",
       "key": "grants_gov:RFA-OH-27-049",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "parent_name": null,
@@ -7676,7 +7755,7 @@
       "funding_agency": null,
       "identifier": "HT942526CRRPTRA",
       "key": "grants_gov:HT942526CRRPTRA",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "parent_name": null,
@@ -7976,7 +8055,7 @@
       "funding_agency": null,
       "identifier": "L26AS00064",
       "key": "grants_gov:L26AS00064",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "parent_name": null,
@@ -8096,7 +8175,7 @@
       "funding_agency": null,
       "identifier": "F26AS00062",
       "key": "grants_gov:F26AS00062",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "parent_name": null,
@@ -8216,7 +8295,7 @@
       "funding_agency": null,
       "identifier": "RFA-DC-26-001",
       "key": "grants_gov:RFA-DC-26-001",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "parent_name": null,
@@ -8276,7 +8355,7 @@
       "funding_agency": null,
       "identifier": "PA-26-002",
       "key": "grants_gov:PA-26-002",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "parent_name": null,
@@ -8336,7 +8415,7 @@
       "funding_agency": null,
       "identifier": "PAR-26-121",
       "key": "grants_gov:PAR-26-121",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "parent_name": null,
@@ -8396,7 +8475,7 @@
       "funding_agency": null,
       "identifier": "NNH26ZTR001N",
       "key": "grants_gov:NNH26ZTR001N",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "parent_name": null,
@@ -8456,7 +8535,7 @@
       "funding_agency": null,
       "identifier": "PAR-25-068",
       "key": "grants_gov:PAR-25-068",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "parent_name": null,
@@ -8516,7 +8595,7 @@
       "funding_agency": null,
       "identifier": "24-598",
       "key": "grants_gov:24-598",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "parent_name": null,
@@ -8576,7 +8655,7 @@
       "funding_agency": null,
       "identifier": "2024-01",
       "key": "grants_gov:2024-01",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "parent_name": null,
@@ -24963,6 +25042,130 @@
     },
     {
       "agencies": [
+        "Department of Defense"
+      ],
+      "aliases": [
+        "BATTELLE MEMORIAL INSTITUTE"
+      ],
+      "award_count": 1,
+      "award_momentum": "new entrant",
+      "cage_codes": [],
+      "contractor_factors": [
+        "1 collected award(s) +6",
+        "known awards $3.7M +8",
+        "technology breadth +2",
+        "new entrant momentum +5"
+      ],
+      "contractor_label": "observed",
+      "contractor_score": 21,
+      "identity_id": "uei:F125YU6SWK59",
+      "incumbency": "emerging entrant",
+      "known_award_value": 3733718.9,
+      "mission_ids": [],
+      "name": "BATTELLE MEMORIAL INSTITUTE",
+      "network_peers": [
+        {
+          "name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+          "relationship_type": "market peer / potential competitor",
+          "score": 3,
+          "shared_agencies": [
+            "Department of Defense"
+          ],
+          "shared_missions": [],
+          "shared_specialties": [
+            "Autonomy and sensing"
+          ]
+        },
+        {
+          "name": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
+          "relationship_type": "market peer / potential competitor",
+          "score": 3,
+          "shared_agencies": [
+            "Department of Defense"
+          ],
+          "shared_missions": [],
+          "shared_specialties": [
+            "Autonomy and sensing"
+          ]
+        },
+        {
+          "name": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+          "relationship_type": "market peer / potential competitor",
+          "score": 3,
+          "shared_agencies": [
+            "Department of Defense"
+          ],
+          "shared_missions": [],
+          "shared_specialties": [
+            "Autonomy and sensing"
+          ]
+        },
+        {
+          "name": "POST QUANTUM LABS LLC",
+          "relationship_type": "market peer / potential competitor",
+          "score": 3,
+          "shared_agencies": [
+            "Department of Defense"
+          ],
+          "shared_missions": [],
+          "shared_specialties": [
+            "Autonomy and sensing"
+          ]
+        },
+        {
+          "name": "NODA AI, INC",
+          "relationship_type": "market peer / potential competitor",
+          "score": 3,
+          "shared_agencies": [
+            "Department of Defense"
+          ],
+          "shared_missions": [],
+          "shared_specialties": [
+            "Autonomy and sensing"
+          ]
+        }
+      ],
+      "opportunity_count": 0,
+      "parent_name": null,
+      "parent_uei": null,
+      "previous_period_award_count": 0,
+      "previous_period_award_value": 0,
+      "recent_award_count": 1,
+      "recent_award_value": 3733718.9,
+      "record_count": 1,
+      "record_keys": [
+        "usaspending:FA805126F0003"
+      ],
+      "related_patents": [],
+      "resolution_basis": "authoritative UEI",
+      "resolution_confidence": "high",
+      "set_asides": [],
+      "small_business_evidence": {
+        "basis": "No small-business classification established from collected records",
+        "classifications": [],
+        "observed": false
+      },
+      "subagencies": [
+        "Department of the Air Force"
+      ],
+      "technology_specialties": [
+        "Autonomy and sensing"
+      ],
+      "top_awards": [
+        {
+          "agency": "Department of Defense",
+          "amount": 3733718.9,
+          "date": "2026-04-01",
+          "key": "usaspending:FA805126F0003",
+          "mission_ids": [],
+          "title": "CONDUCT RDT_E PROJECTS FOCUSED ON PROVIDING SOLUTIONS TO IDENTIFIED AIRBASE TECHNOLOGY CAPABILITY GAPS IN THE AREAS OF CIVIL ENGINEER ROBOTIC AND AUTONOMOUS SYSTEMS TECHNOLOGIES (...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_FA805126F0003_9700_47QRCA25DU046_4732"
+        }
+      ],
+      "uei": "F125YU6SWK59"
+    },
+    {
+      "agencies": [
         "Department of Homeland Security"
       ],
       "aliases": [
@@ -29556,130 +29759,6 @@
     },
     {
       "agencies": [
-        "Department of Defense"
-      ],
-      "aliases": [
-        "BATTELLE MEMORIAL INSTITUTE"
-      ],
-      "award_count": 1,
-      "award_momentum": "new entrant",
-      "cage_codes": [],
-      "contractor_factors": [
-        "1 collected award(s) +6",
-        "known awards $1.9M +7",
-        "technology breadth +2",
-        "new entrant momentum +5"
-      ],
-      "contractor_label": "observed",
-      "contractor_score": 20,
-      "identity_id": "uei:F125YU6SWK59",
-      "incumbency": "emerging entrant",
-      "known_award_value": 1910000.0,
-      "mission_ids": [],
-      "name": "BATTELLE MEMORIAL INSTITUTE",
-      "network_peers": [
-        {
-          "name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Defense"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Autonomy and sensing"
-          ]
-        },
-        {
-          "name": "THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Defense"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Autonomy and sensing"
-          ]
-        },
-        {
-          "name": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Defense"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Autonomy and sensing"
-          ]
-        },
-        {
-          "name": "POST QUANTUM LABS LLC",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Defense"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Autonomy and sensing"
-          ]
-        },
-        {
-          "name": "NODA AI, INC",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Defense"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Autonomy and sensing"
-          ]
-        }
-      ],
-      "opportunity_count": 0,
-      "parent_name": null,
-      "parent_uei": null,
-      "previous_period_award_count": 0,
-      "previous_period_award_value": 0,
-      "recent_award_count": 1,
-      "recent_award_value": 1910000.0,
-      "record_count": 1,
-      "record_keys": [
-        "usaspending:FA805126F0003"
-      ],
-      "related_patents": [],
-      "resolution_basis": "authoritative UEI",
-      "resolution_confidence": "high",
-      "set_asides": [],
-      "small_business_evidence": {
-        "basis": "No small-business classification established from collected records",
-        "classifications": [],
-        "observed": false
-      },
-      "subagencies": [
-        "Department of the Air Force"
-      ],
-      "technology_specialties": [
-        "Autonomy and sensing"
-      ],
-      "top_awards": [
-        {
-          "agency": "Department of Defense",
-          "amount": 1910000.0,
-          "date": "2026-04-01",
-          "key": "usaspending:FA805126F0003",
-          "mission_ids": [],
-          "title": "CONDUCT RDT_E PROJECTS FOCUSED ON PROVIDING SOLUTIONS TO IDENTIFIED AIRBASE TECHNOLOGY CAPABILITY GAPS IN THE AREAS OF CIVIL ENGINEER ROBOTIC AND AUTONOMOUS SYSTEMS TECHNOLOGIES (...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_FA805126F0003_9700_47QRCA25DU046_4732"
-        }
-      ],
-      "uei": "F125YU6SWK59"
-    },
-    {
-      "agencies": [
         "Department of Labor"
       ],
       "aliases": [
@@ -33295,18 +33374,6 @@
       "name": "RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK",
       "network_peers": [
         {
-          "name": "WRIGHT STATE UNIVERSITY",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Commerce"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Cybersecurity"
-          ]
-        },
-        {
           "name": "VERMONT STATE COLLEGES",
           "relationship_type": "market peer / potential competitor",
           "score": 3,
@@ -33344,6 +33411,18 @@
         },
         {
           "name": "UNIVERSITY OF SOUTH FLORIDA",
+          "relationship_type": "market peer / potential competitor",
+          "score": 3,
+          "shared_agencies": [
+            "Department of Commerce"
+          ],
+          "shared_missions": [],
+          "shared_specialties": [
+            "Cybersecurity"
+          ]
+        },
+        {
+          "name": "THE MITRE CORPORATION",
           "relationship_type": "market peer / potential competitor",
           "score": 3,
           "shared_agencies": [
@@ -33419,18 +33498,6 @@
       "name": "REGIS UNIVERSITY",
       "network_peers": [
         {
-          "name": "WRIGHT STATE UNIVERSITY",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Commerce"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Cybersecurity"
-          ]
-        },
-        {
           "name": "VERMONT STATE COLLEGES",
           "relationship_type": "market peer / potential competitor",
           "score": 3,
@@ -33468,6 +33535,18 @@
         },
         {
           "name": "UNIVERSITY OF SOUTH FLORIDA",
+          "relationship_type": "market peer / potential competitor",
+          "score": 3,
+          "shared_agencies": [
+            "Department of Commerce"
+          ],
+          "shared_missions": [],
+          "shared_specialties": [
+            "Cybersecurity"
+          ]
+        },
+        {
+          "name": "THE MITRE CORPORATION",
           "relationship_type": "market peer / potential competitor",
           "score": 3,
           "shared_agencies": [
@@ -33543,18 +33622,6 @@
       "name": "RESEARCH FOUNDATION OF THE CITY UNIVERSITY OF NEW YORK",
       "network_peers": [
         {
-          "name": "WRIGHT STATE UNIVERSITY",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Commerce"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Cybersecurity"
-          ]
-        },
-        {
           "name": "VERMONT STATE COLLEGES",
           "relationship_type": "market peer / potential competitor",
           "score": 3,
@@ -33592,6 +33659,18 @@
         },
         {
           "name": "UNIVERSITY OF SOUTH FLORIDA",
+          "relationship_type": "market peer / potential competitor",
+          "score": 3,
+          "shared_agencies": [
+            "Department of Commerce"
+          ],
+          "shared_missions": [],
+          "shared_specialties": [
+            "Cybersecurity"
+          ]
+        },
+        {
+          "name": "THE MITRE CORPORATION",
           "relationship_type": "market peer / potential competitor",
           "score": 3,
           "shared_agencies": [
@@ -34946,18 +35025,6 @@
       "name": "VERMONT STATE COLLEGES",
       "network_peers": [
         {
-          "name": "WRIGHT STATE UNIVERSITY",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Commerce"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Cybersecurity"
-          ]
-        },
-        {
           "name": "UNIVERSITY OF WASHINGTON",
           "relationship_type": "market peer / potential competitor",
           "score": 3,
@@ -34995,6 +35062,18 @@
         },
         {
           "name": "THE MITRE CORPORATION",
+          "relationship_type": "market peer / potential competitor",
+          "score": 3,
+          "shared_agencies": [
+            "Department of Commerce"
+          ],
+          "shared_missions": [],
+          "shared_specialties": [
+            "Cybersecurity"
+          ]
+        },
+        {
+          "name": "THE CODING SCHOOL",
           "relationship_type": "market peer / potential competitor",
           "score": 3,
           "shared_agencies": [
@@ -42832,18 +42911,6 @@
       "name": "ELECTROSOFT SERVICES, LLC",
       "network_peers": [
         {
-          "name": "WRIGHT STATE UNIVERSITY",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Commerce"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Cybersecurity"
-          ]
-        },
-        {
           "name": "VERMONT STATE COLLEGES",
           "relationship_type": "market peer / potential competitor",
           "score": 3,
@@ -42881,6 +42948,18 @@
         },
         {
           "name": "UNIVERSITY OF SOUTH FLORIDA",
+          "relationship_type": "market peer / potential competitor",
+          "score": 3,
+          "shared_agencies": [
+            "Department of Commerce"
+          ],
+          "shared_missions": [],
+          "shared_specialties": [
+            "Cybersecurity"
+          ]
+        },
+        {
+          "name": "THE MITRE CORPORATION",
           "relationship_type": "market peer / potential competitor",
           "score": 3,
           "shared_agencies": [
@@ -46899,130 +46978,6 @@
     },
     {
       "agencies": [
-        "Department of Commerce"
-      ],
-      "aliases": [
-        "WRIGHT STATE UNIVERSITY"
-      ],
-      "award_count": 1,
-      "award_momentum": "new entrant",
-      "cage_codes": [],
-      "contractor_factors": [
-        "1 collected award(s) +6",
-        "known awards $199.9K +3",
-        "technology breadth +2",
-        "new entrant momentum +5"
-      ],
-      "contractor_label": "observed",
-      "contractor_score": 16,
-      "identity_id": "uei:NPT2UNTNHJZ1",
-      "incumbency": "emerging entrant",
-      "known_award_value": 199889.0,
-      "mission_ids": [],
-      "name": "WRIGHT STATE UNIVERSITY",
-      "network_peers": [
-        {
-          "name": "VERMONT STATE COLLEGES",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Commerce"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Cybersecurity"
-          ]
-        },
-        {
-          "name": "UNIVERSITY OF WASHINGTON",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Commerce"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Cybersecurity"
-          ]
-        },
-        {
-          "name": "UNIVERSITY OF UTAH",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Commerce"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Cybersecurity"
-          ]
-        },
-        {
-          "name": "UNIVERSITY OF SOUTH FLORIDA",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Commerce"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Cybersecurity"
-          ]
-        },
-        {
-          "name": "THE MITRE CORPORATION",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "Department of Commerce"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Cybersecurity"
-          ]
-        }
-      ],
-      "opportunity_count": 0,
-      "parent_name": null,
-      "parent_uei": null,
-      "previous_period_award_count": 0,
-      "previous_period_award_value": 0,
-      "recent_award_count": 1,
-      "recent_award_value": 199889.0,
-      "record_count": 1,
-      "record_keys": [
-        "usaspending:70NANB26H386"
-      ],
-      "related_patents": [],
-      "resolution_basis": "authoritative UEI",
-      "resolution_confidence": "high",
-      "set_asides": [],
-      "small_business_evidence": {
-        "basis": "No small-business classification established from collected records",
-        "classifications": [],
-        "observed": false
-      },
-      "subagencies": [
-        "National Institute of Standards and Technology"
-      ],
-      "technology_specialties": [
-        "Cybersecurity"
-      ],
-      "top_awards": [
-        {
-          "agency": "Department of Commerce",
-          "amount": 199889.0,
-          "date": "2026-10-01",
-          "key": "usaspending:70NANB26H386",
-          "mission_ids": [],
-          "title": "PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H386_013"
-        }
-      ],
-      "uei": "NPT2UNTNHJZ1"
-    },
-    {
-      "agencies": [
         "National Science Foundation"
       ],
       "aliases": [
@@ -47144,130 +47099,6 @@
         }
       ],
       "uei": "M1K8LJAET5R1"
-    },
-    {
-      "agencies": [
-        "National Science Foundation"
-      ],
-      "aliases": [
-        "REDACTED DUE TO PII"
-      ],
-      "award_count": 1,
-      "award_momentum": "new entrant",
-      "cage_codes": [],
-      "contractor_factors": [
-        "1 collected award(s) +6",
-        "known awards $190.0K +3",
-        "technology breadth +2",
-        "new entrant momentum +5"
-      ],
-      "contractor_label": "observed",
-      "contractor_score": 16,
-      "identity_id": "name:redacted due to pii",
-      "incumbency": "emerging entrant",
-      "known_award_value": 190000.0,
-      "mission_ids": [],
-      "name": "REDACTED DUE TO PII",
-      "network_peers": [
-        {
-          "name": "YESHIVA UNIVERSITY",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "National Science Foundation"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Quantum technology"
-          ]
-        },
-        {
-          "name": "WORCESTER POLYTECHNIC INSTITUTE",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "National Science Foundation"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Quantum technology"
-          ]
-        },
-        {
-          "name": "WEST VIRGINIA UNIVERSITY RESEARCH CORPORATION",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "National Science Foundation"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Quantum technology"
-          ]
-        },
-        {
-          "name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "National Science Foundation"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Quantum technology"
-          ]
-        },
-        {
-          "name": "VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA",
-          "relationship_type": "market peer / potential competitor",
-          "score": 3,
-          "shared_agencies": [
-            "National Science Foundation"
-          ],
-          "shared_missions": [],
-          "shared_specialties": [
-            "Quantum technology"
-          ]
-        }
-      ],
-      "opportunity_count": 0,
-      "parent_name": null,
-      "parent_uei": null,
-      "previous_period_award_count": 0,
-      "previous_period_award_value": 0,
-      "recent_award_count": 1,
-      "recent_award_value": 190000.0,
-      "record_count": 1,
-      "record_keys": [
-        "usaspending:2602598"
-      ],
-      "related_patents": [],
-      "resolution_basis": "exact normalized legal name",
-      "resolution_confidence": "medium",
-      "set_asides": [],
-      "small_business_evidence": {
-        "basis": "No small-business classification established from collected records",
-        "classifications": [],
-        "observed": false
-      },
-      "subagencies": [
-        "National Science Foundation"
-      ],
-      "technology_specialties": [
-        "Quantum technology"
-      ],
-      "top_awards": [
-        {
-          "agency": "National Science Foundation",
-          "amount": 190000.0,
-          "date": "2026-10-01",
-          "key": "usaspending:2602598",
-          "mission_ids": [],
-          "title": "POSTDOCTORAL FELLOWSHIP: MSPRF: COMBINATORIAL MODELS AND SCALING LIMITS IN LIOUVILLE QUANTUM GRAVITY AND KPZ -THIS AWARD IS MADE AS PART OF THE FY 2026 MATHEMATICAL SCIENCES POSTD...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2602598_049"
-        }
-      ],
-      "uei": null
     },
     {
       "agencies": [
@@ -49700,7 +49531,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "HR001126FE003",
       "key": "usaspending:HR001126FE003",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -49826,7 +49657,7 @@
       "funding_agency": "Department of Health and Human Services",
       "identifier": "75N98026P01822",
       "key": "usaspending:75N98026P01822",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -49916,7 +49747,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "FA714626C0012",
       "key": "usaspending:FA714626C0012",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -50003,7 +49834,7 @@
       "funding_agency": "Department of Energy",
       "identifier": "89303026FSC400007",
       "key": "usaspending:89303026FSC400007",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -50080,14 +49911,14 @@
       "close_date": "12/17/2026",
       "configured_mission_ids": [],
       "date": "2026-03-17",
-      "days_to_close": 70,
+      "days_to_close": 69,
       "deadline_status": "open_window",
       "description_url": null,
       "first_seen_at": "2026-07-30T21:38:14.471810+00:00",
       "funding_agency": null,
       "identifier": "DE-FOA-0003612",
       "key": "grants_gov:DE-FOA-0003612",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -50180,7 +50011,7 @@
       "funding_agency": "USAspending \u00b7 AI Forge",
       "identifier": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
       "key": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -50255,7 +50086,7 @@
       "funding_agency": "DOE Federal Science Missions",
       "identifier": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science",
       "key": "mission_tracker:https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -50328,7 +50159,7 @@
       "funding_agency": "USAspending \u00b7 Quantum Benchmarking Initiative",
       "identifier": "https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700",
       "key": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -50401,14 +50232,14 @@
       "close_date": "10/19/2026",
       "configured_mission_ids": [],
       "date": "2026-09-17",
-      "days_to_close": 11,
+      "days_to_close": 10,
       "deadline_status": "closing_this_month",
       "description_url": null,
       "first_seen_at": "2026-09-18T02:36:20.942459+00:00",
       "funding_agency": null,
       "identifier": "DE-FOA-0003657",
       "key": "grants_gov:DE-FOA-0003657",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -50493,6 +50324,78 @@
       "configured_mission_ids": [
         "genesis-mission"
       ],
+      "date": "2026-10-08",
+      "days_to_close": null,
+      "deadline_status": "not_reported",
+      "first_seen_at": "2026-10-09T04:00:28.219178+00:00",
+      "funding_agency": "DOE Federal Science Missions",
+      "identifier": "https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
+      "key": "mission_tracker:https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
+      "mission_links": [
+        {
+          "admission": {
+            "basis": "configured mission identifier",
+            "confidence": "high",
+            "reason_codes": [
+              "configured_identifier"
+            ],
+            "score": 100,
+            "status": "accepted"
+          },
+          "basis": "configured mission identifier",
+          "confidence": "high",
+          "mission_id": "genesis-mission",
+          "mission_name": "Genesis Mission",
+          "score": 100
+        }
+      ],
+      "naics_code": null,
+      "new_since_yesterday": true,
+      "provider": "mission_tracker",
+      "quarantined_mission_links": [],
+      "query_keyword": null,
+      "query_name": null,
+      "recipient": null,
+      "record_type": "award_notice",
+      "related_patents": [],
+      "set_aside": null,
+      "significance_factors": [
+        "mission relationship +35",
+        "award_notice +18"
+      ],
+      "significance_label": "notable",
+      "source": "Federal mission tracker",
+      "status": "awarded",
+      "status_raw": "announced",
+      "strategic_significance_score": 53,
+      "subagency": null,
+      "summary": "Twelve newly selected Phase II and six Phase I projects to advance the frontiers of Super Intelligence (SI) for science, capping a first-year cohort of 297 projects across the Genesis Mission portfolio.",
+      "technology_domains": [],
+      "title": "Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science",
+      "url": "https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science"
+    },
+    {
+      "admission": {
+        "basis": "The record derives from an admitted or curated federal mission update.",
+        "confidence": "high",
+        "reason_codes": [
+          "official_source",
+          "configured_identifier"
+        ],
+        "score": 100,
+        "status": "accepted"
+      },
+      "amount": null,
+      "assistance_listing_numbers": [],
+      "award_type": "observed official update",
+      "awardee": null,
+      "awarding_agency": "DOE Federal Science Missions",
+      "classification_code": null,
+      "close_date": null,
+      "configured_mission_ids": [
+        "genesis-mission"
+      ],
       "date": "2026-08-21",
       "days_to_close": null,
       "deadline_status": "not_reported",
@@ -50500,7 +50403,7 @@
       "funding_agency": "DOE Federal Science Missions",
       "identifier": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf",
       "key": "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -50572,7 +50475,7 @@
       "funding_agency": "USAspending \u00b7 Genesis Mission",
       "identifier": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732",
       "key": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -50644,7 +50547,7 @@
       "funding_agency": "USAspending \u00b7 Golden Dome",
       "identifier": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
       "key": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -50724,7 +50627,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "HQ085425PE001",
       "key": "usaspending:HQ085425PE001",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -50802,7 +50705,7 @@
       "funding_agency": "USAspending \u00b7 Golden Dome",
       "identifier": "https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-",
       "key": "mission_tracker:https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -50874,7 +50777,7 @@
       "funding_agency": "DARPA Strategic Technology Missions",
       "identifier": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
       "key": "mission_tracker:https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -50922,6 +50825,102 @@
       "url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
     },
     {
+      "active": null,
+      "additional_info_link": null,
+      "admission": {
+        "basis": "The funding evidence explicitly names a tracked mission.",
+        "confidence": "high",
+        "reason_codes": [
+          "official_source",
+          "exact_mission_name"
+        ],
+        "score": 95,
+        "status": "accepted"
+      },
+      "amount": null,
+      "archive_date": null,
+      "assistance_listing_numbers": [],
+      "award_type": null,
+      "awardee": null,
+      "awardee_cage": null,
+      "awardee_uei": null,
+      "awarding_agency": "PAMS-SC",
+      "base_type": null,
+      "classification_code": null,
+      "close_date": "01/12/2027",
+      "configured_mission_ids": [
+        "genesis-mission"
+      ],
+      "date": "2026-10-08",
+      "days_to_close": 95,
+      "deadline_status": "open_window",
+      "description_url": null,
+      "first_seen_at": "2026-10-09T04:00:28.219178+00:00",
+      "funding_agency": null,
+      "identifier": "DE-FOA-0003673",
+      "key": "grants_gov:DE-FOA-0003673",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
+      "mission_links": [
+        {
+          "admission": {
+            "basis": "named program match: Genesis Mission",
+            "confidence": "high",
+            "reason_codes": [
+              "exact_mission_name"
+            ],
+            "score": 95,
+            "status": "accepted"
+          },
+          "basis": "named program match: Genesis Mission",
+          "confidence": "high",
+          "mission_id": "genesis-mission",
+          "mission_name": "Genesis Mission",
+          "score": 95
+        }
+      ],
+      "naics_code": null,
+      "new_since_yesterday": true,
+      "opportunity_factors": [
+        "strategic significance +22",
+        "mission fit +22",
+        "critical mission +8",
+        "actionable grant_opportunity +9",
+        "open_window +4",
+        "new since yesterday +5"
+      ],
+      "opportunity_label": "high priority",
+      "opportunity_score": 70,
+      "parent_name": null,
+      "parent_uei": null,
+      "points_of_contact": [],
+      "provider": "grants_gov",
+      "quarantined_mission_links": [],
+      "query_keyword": "Genesis Mission",
+      "query_name": "Genesis Mission",
+      "recipient": null,
+      "recipient_cage": null,
+      "recipient_uei": null,
+      "recommended_action": "Review technical fit, eligibility, and submission requirements.",
+      "record_type": "grant_opportunity",
+      "related_patents": [],
+      "resource_links": [],
+      "set_aside": null,
+      "significance_factors": [
+        "mission relationship +35",
+        "grant_opportunity +14"
+      ],
+      "significance_label": "notable",
+      "source": "Grants.gov \u00b7 Genesis Mission",
+      "status": "open",
+      "status_raw": "posted",
+      "strategic_significance_score": 49,
+      "subagency": null,
+      "summary": "Agency: PAMS-SC \u00b7 Opportunity: DE-FOA-0003673 \u00b7 Status: posted \u00b7 Matched search: Genesis Mission",
+      "technology_domains": [],
+      "title": "Genesis Mission Graduate Fellowship Pilot",
+      "url": "https://www.grants.gov/search-results-detail/364033"
+    },
+    {
       "admission": {
         "basis": "The record derives from an admitted or curated federal mission update.",
         "confidence": "high",
@@ -50949,7 +50948,7 @@
       "funding_agency": "DOE Federal Science Missions",
       "identifier": "https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf",
       "key": "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -51027,7 +51026,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2548947",
       "key": "usaspending:2548947",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -51119,7 +51118,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2548160",
       "key": "usaspending:2548160",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -51296,7 +51295,7 @@
       "funding_agency": "Department of War",
       "identifier": "https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html",
       "key": "mission_tracker:https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [
         {
           "admission": {
@@ -51645,7 +51644,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2632169",
       "key": "usaspending:2632169",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -51826,7 +51825,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2600274",
       "key": "usaspending:2600274",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -52023,7 +52022,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2620285",
       "key": "usaspending:2620285",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -52112,7 +52111,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2625580",
       "key": "usaspending:2625580",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -52184,7 +52183,7 @@
       "funding_agency": "Department of Education",
       "identifier": "91990026F0124",
       "key": "usaspending:91990026F0124",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -52256,7 +52255,7 @@
       "funding_agency": "Department of Health and Human Services",
       "identifier": "75R60226F80061",
       "key": "usaspending:75R60226F80061",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -52328,7 +52327,7 @@
       "funding_agency": "Department of Veterans Affairs",
       "identifier": "36C10B26F0387",
       "key": "usaspending:36C10B26F0387",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -52489,7 +52488,7 @@
       "funding_agency": "Department of Education",
       "identifier": "91990025F0108",
       "key": "usaspending:91990025F0108",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -52561,7 +52560,7 @@
       "funding_agency": "Department of Education",
       "identifier": "91990025F0111",
       "key": "usaspending:91990025F0111",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -52633,7 +52632,7 @@
       "funding_agency": "Department of Health and Human Services",
       "identifier": "75N92025F00001",
       "key": "usaspending:75N92025F00001",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -52705,7 +52704,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2549124",
       "key": "usaspending:2549124",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -52885,7 +52884,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70B04C26F00001201",
       "key": "usaspending:70B04C26F00001201",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -52974,7 +52973,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "1333ND26FNB770131",
       "key": "usaspending:1333ND26FNB770131",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -53080,7 +53079,7 @@
       "funding_agency": "General Services Administration",
       "identifier": "47QACB26C0005",
       "key": "usaspending:47QACB26C0005",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -53224,7 +53223,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "FA237725CB008",
       "key": "usaspending:FA237725CB008",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -53368,7 +53367,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2548945",
       "key": "usaspending:2548945",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -53440,7 +53439,7 @@
       "funding_agency": "Department of Veterans Affairs",
       "identifier": "36C10B26N0060",
       "key": "usaspending:36C10B26N0060",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -53635,7 +53634,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2541979",
       "key": "usaspending:2541979",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -53851,7 +53850,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "W912HZ26CA026",
       "key": "usaspending:W912HZ26CA026",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -53922,7 +53921,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624327",
       "key": "usaspending:2624327",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -53994,7 +53993,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624437",
       "key": "usaspending:2624437",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -54066,7 +54065,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2613872",
       "key": "usaspending:2613872",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -54138,7 +54137,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2613873",
       "key": "usaspending:2613873",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -54210,7 +54209,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2548946",
       "key": "usaspending:2548946",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -54282,7 +54281,7 @@
       "funding_agency": "General Services Administration",
       "identifier": "47QTCX26F0010",
       "key": "usaspending:47QTCX26F0010",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -54460,7 +54459,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2555488",
       "key": "usaspending:2555488",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -54532,7 +54531,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2555487",
       "key": "usaspending:2555487",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -54604,7 +54603,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2552681",
       "key": "usaspending:2552681",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -54981,7 +54980,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "60NANB26D142",
       "key": "usaspending:60NANB26D142",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -55052,7 +55051,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2629633",
       "key": "usaspending:2629633",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -55798,7 +55797,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70Z02326F93130001",
       "key": "usaspending:70Z02326F93130001",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -55869,7 +55868,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "FA864925P0164",
       "key": "usaspending:FA864925P0164",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -55941,7 +55940,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "FA864925P0198",
       "key": "usaspending:FA864925P0198",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -56013,7 +56012,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "FA864924P0845",
       "key": "usaspending:FA864924P0845",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -56085,7 +56084,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "FA864924P0713",
       "key": "usaspending:FA864924P0713",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -56157,7 +56156,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "FA864924P0710",
       "key": "usaspending:FA864924P0710",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -57462,7 +57461,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "FA864925P0487",
       "key": "usaspending:FA864925P0487",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -57605,7 +57604,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2535355",
       "key": "usaspending:2535355",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -57676,7 +57675,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2602928",
       "key": "usaspending:2602928",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -57747,7 +57746,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "60NANB26D305",
       "key": "usaspending:60NANB26D305",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -57818,7 +57817,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "60NANB26D083",
       "key": "usaspending:60NANB26D083",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -57889,7 +57888,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "60NANB26D161",
       "key": "usaspending:60NANB26D161",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -58102,7 +58101,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2600140",
       "key": "usaspending:2600140",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -58244,7 +58243,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2602875",
       "key": "usaspending:2602875",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -58315,7 +58314,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2602962",
       "key": "usaspending:2602962",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -58464,7 +58463,7 @@
       "funding_agency": "Department of Health and Human Services",
       "identifier": "7571MN26F80168",
       "key": "usaspending:7571MN26F80168",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -58958,7 +58957,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70US0925F1DHS2444",
       "key": "usaspending:70US0925F1DHS2444",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -59030,7 +59029,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "FA864925P0324",
       "key": "usaspending:FA864925P0324",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -59172,7 +59171,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "FA864924P0976",
       "key": "usaspending:FA864924P0976",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -59314,7 +59313,7 @@
       "funding_agency": "Department of Justice",
       "identifier": "15BPCC26F00000096",
       "key": "usaspending:15BPCC26F00000096",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -59456,7 +59455,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2623305",
       "key": "usaspending:2623305",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -59527,7 +59526,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2614784",
       "key": "usaspending:2614784",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -59601,7 +59600,7 @@
       "last_seen_at": "2026-10-07T03:41:21.303454+00:00",
       "mission_links": [],
       "naics_code": "517810",
-      "new_since_yesterday": true,
+      "new_since_yesterday": false,
       "parent_name": null,
       "parent_uei": null,
       "points_of_contact": [
@@ -60623,7 +60622,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70T03026F7667N105",
       "key": "usaspending:70T03026F7667N105",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -60693,7 +60692,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "1332KP26F0048",
       "key": "usaspending:1332KP26F0048",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -60764,7 +60763,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70VT1526F00043",
       "key": "usaspending:70VT1526F00043",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -60835,7 +60834,7 @@
       "funding_agency": "Department of Health and Human Services",
       "identifier": "7571TE26F80367",
       "key": "usaspending:7571TE26F80367",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -60905,7 +60904,7 @@
       "funding_agency": "Department of Agriculture",
       "identifier": "1232SA26P0484",
       "key": "usaspending:1232SA26P0484",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -61340,7 +61339,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2552880",
       "key": "usaspending:2552880",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -62119,7 +62118,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70US0925C70093451",
       "key": "usaspending:70US0925C70093451",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -62190,7 +62189,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2625501",
       "key": "usaspending:2625501",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -62261,7 +62260,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2625502",
       "key": "usaspending:2625502",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -62332,7 +62331,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624364",
       "key": "usaspending:2624364",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -62403,7 +62402,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624440",
       "key": "usaspending:2624440",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -62474,7 +62473,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624439",
       "key": "usaspending:2624439",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -62545,7 +62544,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624508",
       "key": "usaspending:2624508",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -62705,7 +62704,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2613412",
       "key": "usaspending:2613412",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -62776,7 +62775,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2613411",
       "key": "usaspending:2613411",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -62847,7 +62846,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "60NANB26D053",
       "key": "usaspending:60NANB26D053",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -62917,7 +62916,7 @@
       "funding_agency": "Department of Energy",
       "identifier": "DECR0000118",
       "key": "usaspending:DECR0000118",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": true,
@@ -63217,7 +63216,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2549232",
       "key": "usaspending:2549232",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -63998,7 +63997,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2549125",
       "key": "usaspending:2549125",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -64069,7 +64068,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70RCSJ26FR0000046",
       "key": "usaspending:70RCSJ26FR0000046",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -64281,7 +64280,7 @@
       "funding_agency": "National Aeronautics and Space Administration",
       "identifier": "80NSSC26C0324",
       "key": "usaspending:80NSSC26C0324",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -64423,7 +64422,7 @@
       "funding_agency": "National Aeronautics and Space Administration",
       "identifier": "80NSSC26C0291",
       "key": "usaspending:80NSSC26C0291",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -64564,7 +64563,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "1305M426F0120",
       "key": "usaspending:1305M426F0120",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -65127,7 +65126,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2552882",
       "key": "usaspending:2552882",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -65198,7 +65197,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2552881",
       "key": "usaspending:2552881",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -65411,7 +65410,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2554002",
       "key": "usaspending:2554002",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -65623,7 +65622,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "N0001425C2204",
       "key": "usaspending:N0001425C2204",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -65834,7 +65833,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "60NANB26D101",
       "key": "usaspending:60NANB26D101",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -65974,7 +65973,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "60NANB26D062",
       "key": "usaspending:60NANB26D062",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -66115,7 +66114,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2628842",
       "key": "usaspending:2628842",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -66328,7 +66327,7 @@
       "funding_agency": "National Aeronautics and Space Administration",
       "identifier": "80NSSC26P1420",
       "key": "usaspending:80NSSC26P1420",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -66417,7 +66416,7 @@
       "funding_agency": "Department of the Treasury",
       "identifier": "2099AC26F00077",
       "key": "usaspending:2099AC26F00077",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -66487,7 +66486,7 @@
       "funding_agency": "Department of Health and Human Services",
       "identifier": "7571MN26F80153",
       "key": "usaspending:7571MN26F80153",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -66557,7 +66556,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70RCSJ26FR0000052",
       "key": "usaspending:70RCSJ26FR0000052",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -66697,7 +66696,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "1305M426F0115",
       "key": "usaspending:1305M426F0115",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -66767,7 +66766,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "1305M426F0117",
       "key": "usaspending:1305M426F0117",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -67199,7 +67198,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2603380",
       "key": "usaspending:2603380",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -67734,7 +67733,7 @@
       "funding_agency": "Department of Energy",
       "identifier": "89233126FNA400803",
       "key": "usaspending:89233126FNA400803",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -67944,7 +67943,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "N0002426C3108",
       "key": "usaspending:N0002426C3108",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -68064,6 +68063,76 @@
         "score": 80,
         "status": "accepted"
       },
+      "amount": 3733718.9,
+      "archive_date": null,
+      "assistance_listing_numbers": [],
+      "award_type": null,
+      "awardee": null,
+      "awardee_cage": null,
+      "awardee_uei": null,
+      "awarding_agency": "Department of Defense",
+      "base_type": null,
+      "classification_code": null,
+      "close_date": null,
+      "configured_mission_ids": [],
+      "contractor_identity_id": "uei:F125YU6SWK59",
+      "date": "2026-04-01",
+      "days_to_close": null,
+      "deadline_status": "not_reported",
+      "description_url": null,
+      "first_seen_at": "2026-07-30T21:38:14.471810+00:00",
+      "funding_agency": "Department of Defense",
+      "identifier": "FA805126F0003",
+      "key": "usaspending:FA805126F0003",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
+      "mission_links": [],
+      "naics_code": null,
+      "new_since_yesterday": false,
+      "parent_name": null,
+      "parent_uei": null,
+      "points_of_contact": [],
+      "provider": "usaspending",
+      "quarantined_mission_links": [],
+      "query_keyword": "autonomous systems",
+      "query_name": "Autonomy and Sensing",
+      "recipient": "BATTELLE MEMORIAL INSTITUTE",
+      "recipient_cage": null,
+      "recipient_uei": "F125YU6SWK59",
+      "record_type": "award",
+      "related_patents": [],
+      "resource_links": [],
+      "set_aside": null,
+      "significance_factors": [
+        "award +18",
+        "reported value $3.7M +8",
+        "1 strategic domain match(es) +5"
+      ],
+      "significance_label": "monitor",
+      "source": "USAspending \u00b7 Autonomy and Sensing",
+      "status": "awarded",
+      "status_raw": null,
+      "strategic_significance_score": 31,
+      "subagency": "Department of the Air Force",
+      "summary": "Recipient: BATTELLE MEMORIAL INSTITUTE \u00b7 Federal award: FA805126F0003 \u00b7 Obligated/award amount: $3,733,719 \u00b7 Matched search: autonomous systems",
+      "technology_domains": [
+        "autonomy and sensing"
+      ],
+      "title": "CONDUCT RDT_E PROJECTS FOCUSED ON PROVIDING SOLUTIONS TO IDENTIFIED AIRBASE TECHNOLOGY CAPABILITY GAPS IN THE AREAS OF CIVIL ENGINEER ROBOTIC AND AUTONOMOUS SYSTEMS TECHNOLOGIES (...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA805126F0003_9700_47QRCA25DU046_4732"
+    },
+    {
+      "active": null,
+      "additional_info_link": null,
+      "admission": {
+        "basis": "The record itself names a technology within the tracker scope.",
+        "confidence": "medium",
+        "reason_codes": [
+          "official_source",
+          "contextual_domain_match"
+        ],
+        "score": 80,
+        "status": "accepted"
+      },
       "amount": 3444956.0,
       "archive_date": null,
       "assistance_listing_numbers": [],
@@ -68085,7 +68154,7 @@
       "funding_agency": "National Aeronautics and Space Administration",
       "identifier": "80JSC026FA027",
       "key": "usaspending:80JSC026FA027",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -68155,7 +68224,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70Z02325F71100013",
       "key": "usaspending:70Z02325F71100013",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -68225,7 +68294,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "FA860425CB087",
       "key": "usaspending:FA860425CB087",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -68296,7 +68365,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2535322",
       "key": "usaspending:2535322",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -68366,7 +68435,7 @@
       "funding_agency": "Department of Labor",
       "identifier": "1605C226C0006",
       "key": "usaspending:1605C226C0006",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -68436,7 +68505,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2535424",
       "key": "usaspending:2535424",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -68506,7 +68575,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2535023",
       "key": "usaspending:2535023",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -68576,7 +68645,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2620197",
       "key": "usaspending:2620197",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -68646,7 +68715,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "60NANB26D162",
       "key": "usaspending:60NANB26D162",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -68996,7 +69065,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "60NANB26D230",
       "key": "usaspending:60NANB26D230",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -69507,7 +69576,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70Z02326FOES30001",
       "key": "usaspending:70Z02326FOES30001",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -69577,7 +69646,7 @@
       "funding_agency": "Department of Health and Human Services",
       "identifier": "75S20326F80005",
       "key": "usaspending:75S20326F80005",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -69647,7 +69716,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70RCSJ26FR0000047",
       "key": "usaspending:70RCSJ26FR0000047",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -69717,7 +69786,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70RCSJ26FR0000053",
       "key": "usaspending:70RCSJ26FR0000053",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -69787,7 +69856,7 @@
       "funding_agency": "Department of the Treasury",
       "identifier": "2099AC26F00078",
       "key": "usaspending:2099AC26F00078",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -69857,7 +69926,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "1333ND26FNB770130",
       "key": "usaspending:1333ND26FNB770130",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -69927,7 +69996,7 @@
       "funding_agency": "Department of Transportation",
       "identifier": "693JJ426F00050N",
       "key": "usaspending:693JJ426F00050N",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -69997,7 +70066,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "1305M326F0138",
       "key": "usaspending:1305M326F0138",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -70067,7 +70136,7 @@
       "funding_agency": "Department of Health and Human Services",
       "identifier": "7571MN26C00041",
       "key": "usaspending:7571MN26C00041",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -70355,7 +70424,7 @@
       "funding_agency": "Department of Health and Human Services",
       "identifier": "7571TE26F80341",
       "key": "usaspending:7571TE26F80341",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -70575,7 +70644,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "1305M426F0119",
       "key": "usaspending:1305M426F0119",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -72441,76 +72510,6 @@
         "score": 80,
         "status": "accepted"
       },
-      "amount": 1910000.0,
-      "archive_date": null,
-      "assistance_listing_numbers": [],
-      "award_type": null,
-      "awardee": null,
-      "awardee_cage": null,
-      "awardee_uei": null,
-      "awarding_agency": "Department of Defense",
-      "base_type": null,
-      "classification_code": null,
-      "close_date": null,
-      "configured_mission_ids": [],
-      "contractor_identity_id": "uei:F125YU6SWK59",
-      "date": "2026-04-01",
-      "days_to_close": null,
-      "deadline_status": "not_reported",
-      "description_url": null,
-      "first_seen_at": "2026-07-30T21:38:14.471810+00:00",
-      "funding_agency": "Department of Defense",
-      "identifier": "FA805126F0003",
-      "key": "usaspending:FA805126F0003",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
-      "mission_links": [],
-      "naics_code": null,
-      "new_since_yesterday": false,
-      "parent_name": null,
-      "parent_uei": null,
-      "points_of_contact": [],
-      "provider": "usaspending",
-      "quarantined_mission_links": [],
-      "query_keyword": "autonomous systems",
-      "query_name": "Autonomy and Sensing",
-      "recipient": "BATTELLE MEMORIAL INSTITUTE",
-      "recipient_cage": null,
-      "recipient_uei": "F125YU6SWK59",
-      "record_type": "award",
-      "related_patents": [],
-      "resource_links": [],
-      "set_aside": null,
-      "significance_factors": [
-        "award +18",
-        "reported value $1.9M +7",
-        "1 strategic domain match(es) +5"
-      ],
-      "significance_label": "monitor",
-      "source": "USAspending \u00b7 Autonomy and Sensing",
-      "status": "awarded",
-      "status_raw": null,
-      "strategic_significance_score": 30,
-      "subagency": "Department of the Air Force",
-      "summary": "Recipient: BATTELLE MEMORIAL INSTITUTE \u00b7 Federal award: FA805126F0003 \u00b7 Obligated/award amount: $1,910,000 \u00b7 Matched search: autonomous systems",
-      "technology_domains": [
-        "autonomy and sensing"
-      ],
-      "title": "CONDUCT RDT_E PROJECTS FOCUSED ON PROVIDING SOLUTIONS TO IDENTIFIED AIRBASE TECHNOLOGY CAPABILITY GAPS IN THE AREAS OF CIVIL ENGINEER ROBOTIC AND AUTONOMOUS SYSTEMS TECHNOLOGIES (...",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_FA805126F0003_9700_47QRCA25DU046_4732"
-    },
-    {
-      "active": null,
-      "additional_info_link": null,
-      "admission": {
-        "basis": "The record itself names a technology within the tracker scope.",
-        "confidence": "medium",
-        "reason_codes": [
-          "official_source",
-          "contextual_domain_match"
-        ],
-        "score": 80,
-        "status": "accepted"
-      },
       "amount": 2550334.27,
       "archive_date": null,
       "assistance_listing_numbers": [],
@@ -72532,7 +72531,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "HQ003425FE449",
       "key": "usaspending:HQ003425FE449",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -72602,7 +72601,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2534958",
       "key": "usaspending:2534958",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -72672,7 +72671,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2535324",
       "key": "usaspending:2535324",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -73373,7 +73372,7 @@
       "funding_agency": "Department of State",
       "identifier": "SMX53026CA0055",
       "key": "usaspending:SMX53026CA0055",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -73444,7 +73443,7 @@
       "funding_agency": "Securities and Exchange Commission",
       "identifier": "50310226F0135",
       "key": "usaspending:50310226F0135",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -73514,7 +73513,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2539366",
       "key": "usaspending:2539366",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -73654,7 +73653,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2511126",
       "key": "usaspending:2511126",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -73934,7 +73933,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "60NANB26D272",
       "key": "usaspending:60NANB26D272",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -74004,7 +74003,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "60NANB26D232",
       "key": "usaspending:60NANB26D232",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -74074,7 +74073,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "60NANB26D144",
       "key": "usaspending:60NANB26D144",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -74214,7 +74213,7 @@
       "funding_agency": "Department of Transportation",
       "identifier": "693JJ326F00088N",
       "key": "usaspending:693JJ326F00088N",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -74564,7 +74563,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2549316",
       "key": "usaspending:2549316",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -74634,7 +74633,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2628847",
       "key": "usaspending:2628847",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -74783,7 +74782,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70T05026F5900N033",
       "key": "usaspending:70T05026F5900N033",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -74853,7 +74852,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70RCSJ26FR0000060",
       "key": "usaspending:70RCSJ26FR0000060",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -74923,7 +74922,7 @@
       "funding_agency": "Department of Veterans Affairs",
       "identifier": "36C24126P0730",
       "key": "usaspending:36C24126P0730",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -75133,7 +75132,7 @@
       "funding_agency": "Pension Benefit Guaranty Corporation",
       "identifier": "16PBGC26T0014",
       "key": "usaspending:16PBGC26T0014",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -75275,7 +75274,7 @@
       "funding_agency": "Securities and Exchange Commission",
       "identifier": "50310226F0133",
       "key": "usaspending:50310226F0133",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -75415,7 +75414,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70US0926F3OTH3157",
       "key": "usaspending:70US0926F3OTH3157",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -77463,7 +77462,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2535115",
       "key": "usaspending:2535115",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -77533,7 +77532,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2548170",
       "key": "usaspending:2548170",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -77603,7 +77602,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2602818",
       "key": "usaspending:2602818",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -77673,7 +77672,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2602821",
       "key": "usaspending:2602821",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -77883,7 +77882,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2603806",
       "key": "usaspending:2603806",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -77953,7 +77952,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2621699",
       "key": "usaspending:2621699",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -78023,7 +78022,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2628818",
       "key": "usaspending:2628818",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -78163,7 +78162,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2552363",
       "key": "usaspending:2552363",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -78233,7 +78232,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2621700",
       "key": "usaspending:2621700",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -78303,7 +78302,7 @@
       "funding_agency": "Department of State",
       "identifier": "SCM80026GR0012",
       "key": "usaspending:SCM80026GR0012",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -78373,7 +78372,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2555020",
       "key": "usaspending:2555020",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -78513,7 +78512,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2548181",
       "key": "usaspending:2548181",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -78723,7 +78722,7 @@
       "funding_agency": "Department of State",
       "identifier": "SSI60026GR0005",
       "key": "usaspending:SSI60026GR0005",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -78793,7 +78792,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2537290",
       "key": "usaspending:2537290",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -79003,7 +79002,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2612956",
       "key": "usaspending:2612956",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -79076,7 +79075,7 @@
       "last_seen_at": "2026-10-07T03:41:21.303454+00:00",
       "mission_links": [],
       "naics_code": "334416",
-      "new_since_yesterday": true,
+      "new_since_yesterday": false,
       "parent_name": null,
       "parent_uei": null,
       "points_of_contact": [
@@ -79299,7 +79298,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "49100426F0144",
       "key": "usaspending:49100426F0144",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -79719,7 +79718,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2611908",
       "key": "usaspending:2611908",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -79999,7 +79998,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2621763",
       "key": "usaspending:2621763",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -80069,7 +80068,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70T04026C7573N007",
       "key": "usaspending:70T04026C7573N007",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -80139,7 +80138,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70FA3126F00000078",
       "key": "usaspending:70FA3126F00000078",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -80209,7 +80208,7 @@
       "funding_agency": "Department of Energy",
       "identifier": "89233026FNR400155",
       "key": "usaspending:89233026FNR400155",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -80279,7 +80278,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70B06C26F00001261",
       "key": "usaspending:70B06C26F00001261",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -80567,7 +80566,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70US0926F3OTH3163",
       "key": "usaspending:70US0926F3OTH3163",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -83643,7 +83642,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "N6133126F0075",
       "key": "usaspending:N6133126F0075",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -83783,7 +83782,7 @@
       "funding_agency": "Department of Homeland Security",
       "identifier": "70Z02325F93130001",
       "key": "usaspending:70Z02325F93130001",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -83853,7 +83852,7 @@
       "funding_agency": "Department of Defense",
       "identifier": "HQ003425FE481",
       "key": "usaspending:HQ003425FE481",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -83923,7 +83922,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624584",
       "key": "usaspending:2624584",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -83993,7 +83992,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624329",
       "key": "usaspending:2624329",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -84063,7 +84062,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2626002",
       "key": "usaspending:2626002",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -84133,7 +84132,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624607",
       "key": "usaspending:2624607",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -84203,7 +84202,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624545",
       "key": "usaspending:2624545",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -84273,7 +84272,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624670",
       "key": "usaspending:2624670",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -84343,7 +84342,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2602820",
       "key": "usaspending:2602820",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -84553,7 +84552,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2625054",
       "key": "usaspending:2625054",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -84623,7 +84622,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2626557",
       "key": "usaspending:2626557",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -84693,7 +84692,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2611897",
       "key": "usaspending:2611897",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -84833,7 +84832,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624369",
       "key": "usaspending:2624369",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -84903,7 +84902,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624499",
       "key": "usaspending:2624499",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -84973,7 +84972,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624558",
       "key": "usaspending:2624558",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -85043,7 +85042,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2624456",
       "key": "usaspending:2624456",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -85253,7 +85252,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2625055",
       "key": "usaspending:2625055",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -85393,7 +85392,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "1333ND26FNB670133",
       "key": "usaspending:1333ND26FNB670133",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -85463,7 +85462,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2613887",
       "key": "usaspending:2613887",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -85533,7 +85532,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2613889",
       "key": "usaspending:2613889",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -85603,7 +85602,7 @@
       "funding_agency": "Department of Commerce",
       "identifier": "1333ND26FNB670176",
       "key": "usaspending:1333ND26FNB670176",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -85673,7 +85672,7 @@
       "funding_agency": "National Science Foundation",
       "identifier": "2621991",
       "key": "usaspending:2621991",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "mission_links": [],
       "naics_code": null,
       "new_since_yesterday": false,
@@ -86198,146 +86197,6 @@
       ],
       "title": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
       "url": "https://www.usaspending.gov/award/ASST_NON_NA26OARX432C0081_013"
-    },
-    {
-      "active": null,
-      "additional_info_link": null,
-      "admission": {
-        "basis": "The record itself names a technology within the tracker scope.",
-        "confidence": "medium",
-        "reason_codes": [
-          "official_source",
-          "contextual_domain_match"
-        ],
-        "score": 80,
-        "status": "accepted"
-      },
-      "amount": 199889.0,
-      "archive_date": null,
-      "assistance_listing_numbers": [],
-      "award_type": "COOPERATIVE AGREEMENT (B)",
-      "awardee": null,
-      "awardee_cage": null,
-      "awardee_uei": null,
-      "awarding_agency": "Department of Commerce",
-      "base_type": null,
-      "classification_code": null,
-      "close_date": null,
-      "configured_mission_ids": [],
-      "contractor_identity_id": "uei:NPT2UNTNHJZ1",
-      "date": "2026-10-01",
-      "days_to_close": null,
-      "deadline_status": "not_reported",
-      "description_url": null,
-      "first_seen_at": "2026-10-01T03:31:08.575959+00:00",
-      "funding_agency": "Department of Commerce",
-      "identifier": "70NANB26H386",
-      "key": "usaspending:70NANB26H386",
-      "last_seen_at": "2026-10-08T03:55:07.199892+00:00",
-      "mission_links": [],
-      "naics_code": null,
-      "new_since_yesterday": false,
-      "parent_name": null,
-      "parent_uei": null,
-      "points_of_contact": [],
-      "provider": "usaspending",
-      "quarantined_mission_links": [],
-      "query_keyword": "cybersecurity",
-      "query_name": "Cybersecurity",
-      "recipient": "WRIGHT STATE UNIVERSITY",
-      "recipient_cage": null,
-      "recipient_uei": "NPT2UNTNHJZ1",
-      "record_type": "award",
-      "related_patents": [],
-      "resource_links": [],
-      "set_aside": null,
-      "significance_factors": [
-        "award +18",
-        "reported value $199.9K +4",
-        "1 strategic domain match(es) +5"
-      ],
-      "significance_label": "monitor",
-      "source": "USAspending \u00b7 Cybersecurity",
-      "status": "awarded",
-      "status_raw": null,
-      "strategic_significance_score": 27,
-      "subagency": "National Institute of Standards and Technology",
-      "summary": "Recipient: WRIGHT STATE UNIVERSITY \u00b7 Federal award: 70NANB26H386 \u00b7 Obligated/award amount: $199,889 \u00b7 Matched search: cybersecurity",
-      "technology_domains": [
-        "cybersecurity"
-      ],
-      "title": "PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,...",
-      "url": "https://www.usaspending.gov/award/ASST_NON_70NANB26H386_013"
-    },
-    {
-      "active": null,
-      "additional_info_link": null,
-      "admission": {
-        "basis": "The record itself names a technology within the tracker scope.",
-        "confidence": "medium",
-        "reason_codes": [
-          "official_source",
-          "contextual_domain_match"
-        ],
-        "score": 80,
-        "status": "accepted"
-      },
-      "amount": 190000.0,
-      "archive_date": null,
-      "assistance_listing_numbers": [],
-      "award_type": "PROJECT GRANT (B)",
-      "awardee": null,
-      "awardee_cage": null,
-      "awardee_uei": null,
-      "awarding_agency": "National Science Foundation",
-      "base_type": null,
-      "classification_code": null,
-      "close_date": null,
-      "configured_mission_ids": [],
-      "contractor_identity_id": "name:redacted due to pii",
-      "date": "2026-10-01",
-      "days_to_close": null,
-      "deadline_status": "not_reported",
-      "description_url": null,
-      "first_seen_at": "2026-07-30T21:38:14.471810+00:00",
-      "funding_agency": "National Science Foundation",
-      "identifier": "2602598",
-      "key": "usaspending:2602598",
-      "last_seen_at": "2026-08-26T00:53:15.324629+00:00",
-      "mission_links": [],
-      "naics_code": null,
-      "new_since_yesterday": false,
-      "parent_name": null,
-      "parent_uei": null,
-      "points_of_contact": [],
-      "provider": "usaspending",
-      "quarantined_mission_links": [],
-      "query_keyword": "quantum",
-      "query_name": "Quantum Technologies",
-      "recipient": "REDACTED DUE TO PII",
-      "recipient_cage": null,
-      "recipient_uei": "",
-      "record_type": "award",
-      "related_patents": [],
-      "resource_links": [],
-      "set_aside": null,
-      "significance_factors": [
-        "award +18",
-        "reported value $190.0K +4",
-        "1 strategic domain match(es) +5"
-      ],
-      "significance_label": "monitor",
-      "source": "USAspending \u00b7 Quantum Technologies",
-      "status": "awarded",
-      "status_raw": null,
-      "strategic_significance_score": 27,
-      "subagency": "National Science Foundation",
-      "summary": "Recipient: REDACTED DUE TO PII \u00b7 Federal award: 2602598 \u00b7 Obligated/award amount: $190,000 \u00b7 Matched search: quantum",
-      "technology_domains": [
-        "quantum"
-      ],
-      "title": "POSTDOCTORAL FELLOWSHIP: MSPRF: COMBINATORIAL MODELS AND SCALING LIMITS IN LIOUVILLE QUANTUM GRAVITY AND KPZ -THIS AWARD IS MADE AS PART OF THE FY 2026 MATHEMATICAL SCIENCES POSTD...",
-      "url": "https://www.usaspending.gov/award/ASST_NON_2602598_049"
     }
   ],
   "relationship_edges": [
@@ -86642,6 +86501,14 @@
       "confidence": "low",
       "source_id": "ai-forge",
       "source_type": "mission",
+      "target_id": "US20260310797A1",
+      "target_type": "patent"
+    },
+    {
+      "basis": "analytical domain overlap: artificial intelligence",
+      "confidence": "low",
+      "source_id": "ai-forge",
+      "source_type": "mission",
       "target_id": "US20260214122A1",
       "target_type": "patent"
     },
@@ -86651,14 +86518,6 @@
       "source_id": "ai-forge",
       "source_type": "mission",
       "target_id": "US20260212002A1",
-      "target_type": "patent"
-    },
-    {
-      "basis": "analytical domain overlap: artificial intelligence",
-      "confidence": "low",
-      "source_id": "ai-forge",
-      "source_type": "mission",
-      "target_id": "US20260288960A1",
       "target_type": "patent"
     },
     {
@@ -87110,6 +86969,14 @@
       "confidence": "high",
       "source_id": "genesis-mission",
       "source_type": "mission",
+      "target_id": "mission_tracker:https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
+      "target_type": "award_notice"
+    },
+    {
+      "basis": "configured mission identifier",
+      "confidence": "high",
+      "source_id": "genesis-mission",
+      "source_type": "mission",
       "target_id": "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf",
       "target_type": "award_notice"
     },
@@ -87161,6 +87028,14 @@
       "source_type": "mission",
       "target_id": "mission_tracker:https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
       "target_type": "rfi"
+    },
+    {
+      "basis": "named program match: Genesis Mission",
+      "confidence": "high",
+      "source_id": "genesis-mission",
+      "source_type": "mission",
+      "target_id": "grants_gov:DE-FOA-0003673",
+      "target_type": "grant_opportunity"
     },
     {
       "basis": "configured mission identifier",
@@ -89590,6 +89465,15 @@
     {
       "basis": "reported recipient or awardee",
       "confidence": "high",
+      "label": "BATTELLE MEMORIAL INSTITUTE",
+      "source_id": "usaspending:FA805126F0003",
+      "source_type": "award",
+      "target_id": "uei:F125YU6SWK59",
+      "target_type": "recipient_or_contractor"
+    },
+    {
+      "basis": "reported recipient or awardee",
+      "confidence": "high",
       "label": "STI LEGACY, INC.",
       "source_id": "usaspending:80JSC026FA027",
       "source_type": "award",
@@ -90134,15 +90018,6 @@
       "source_id": "usaspending:W912HZ26FA089",
       "source_type": "award",
       "target_id": "uei:WAU7C2EAKGN9",
-      "target_type": "recipient_or_contractor"
-    },
-    {
-      "basis": "reported recipient or awardee",
-      "confidence": "high",
-      "label": "BATTELLE MEMORIAL INSTITUTE",
-      "source_id": "usaspending:FA805126F0003",
-      "source_type": "award",
-      "target_id": "uei:F125YU6SWK59",
       "target_type": "recipient_or_contractor"
     },
     {
@@ -91890,24 +91765,6 @@
       "source_type": "award",
       "target_id": "uei:MZ4DYXE1SL98",
       "target_type": "recipient_or_contractor"
-    },
-    {
-      "basis": "reported recipient or awardee",
-      "confidence": "high",
-      "label": "WRIGHT STATE UNIVERSITY",
-      "source_id": "usaspending:70NANB26H386",
-      "source_type": "award",
-      "target_id": "uei:NPT2UNTNHJZ1",
-      "target_type": "recipient_or_contractor"
-    },
-    {
-      "basis": "reported recipient or awardee",
-      "confidence": "high",
-      "label": "REDACTED DUE TO PII",
-      "source_id": "usaspending:2602598",
-      "source_type": "award",
-      "target_id": "name:redacted due to pii",
-      "target_type": "recipient_or_contractor"
     }
   ],
   "relationship_explorer": {
@@ -92176,21 +92033,21 @@
         "confidence": "low",
         "edge_id": "edge-37",
         "source_node": "mission:ai-forge",
-        "target_node": "patent:US20260214122A1"
+        "target_node": "patent:US20260310797A1"
       },
       {
         "basis": "analytical domain overlap: artificial intelligence",
         "confidence": "low",
         "edge_id": "edge-38",
         "source_node": "mission:ai-forge",
-        "target_node": "patent:US20260212002A1"
+        "target_node": "patent:US20260214122A1"
       },
       {
         "basis": "analytical domain overlap: artificial intelligence",
         "confidence": "low",
         "edge_id": "edge-39",
         "source_node": "mission:ai-forge",
-        "target_node": "patent:US20260288960A1"
+        "target_node": "patent:US20260212002A1"
       },
       {
         "basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
@@ -92540,54 +92397,68 @@
         "confidence": "high",
         "edge_id": "edge-95",
         "source_node": "mission:genesis-mission",
-        "target_node": "award_notice:mission_tracker:https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
+        "target_node": "award_notice:mission_tracker:https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science"
       },
       {
         "basis": "configured mission identifier",
         "confidence": "high",
         "edge_id": "edge-96",
         "source_node": "mission:genesis-mission",
-        "target_node": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
+        "target_node": "award_notice:mission_tracker:https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
       },
       {
         "basis": "configured mission identifier",
         "confidence": "high",
         "edge_id": "edge-97",
+        "source_node": "mission:genesis-mission",
+        "target_node": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
+      },
+      {
+        "basis": "configured mission identifier",
+        "confidence": "high",
+        "edge_id": "edge-98",
         "source_node": "mission:golden-dome",
         "target_node": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-"
       },
       {
         "basis": "named program match: Golden Dome for America",
         "confidence": "high",
-        "edge_id": "edge-98",
+        "edge_id": "edge-99",
         "source_node": "mission:golden-dome",
         "target_node": "award:usaspending:HQ085425PE001"
       },
       {
         "basis": "configured mission identifier",
         "confidence": "high",
-        "edge_id": "edge-100",
+        "edge_id": "edge-101",
         "source_node": "mission:golden-dome",
         "target_node": "award_notice:mission_tracker:https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-"
       },
       {
         "basis": "configured mission identifier",
         "confidence": "high",
-        "edge_id": "edge-101",
+        "edge_id": "edge-102",
         "source_node": "mission:ai-forge",
         "target_node": "rfi:mission_tracker:https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
       },
       {
+        "basis": "named program match: Genesis Mission",
+        "confidence": "high",
+        "edge_id": "edge-103",
+        "source_node": "mission:genesis-mission",
+        "target_node": "grant_opportunity:grants_gov:DE-FOA-0003673"
+      },
+      {
         "basis": "configured mission identifier",
         "confidence": "high",
-        "edge_id": "edge-102",
+        "edge_id": "edge-104",
         "source_node": "mission:genesis-mission",
         "target_node": "rfi:mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf"
       },
       {
         "basis": "configured mission identifier",
         "confidence": "high",
-        "edge_id": "edge-109",
+        "edge_id": "edge-111",
         "source_node": "mission:golden-dome",
         "target_node": "funding_announcement:mission_tracker:https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html"
       },
@@ -92622,7 +92493,7 @@
       {
         "basis": "reported recipient or awardee",
         "confidence": "high",
-        "edge_id": "edge-99",
+        "edge_id": "edge-100",
         "source_node": "award:usaspending:HQ085425PE001",
         "target_node": "recipient_or_contractor:uei:N82MH64U4D96"
       },
@@ -92643,14 +92514,14 @@
       {
         "basis": "assignee match",
         "confidence": "high",
-        "edge_id": "edge-214",
+        "edge_id": "edge-216",
         "source_node": "recipient_or_contractor:uei:NPU8ULVAAS23",
         "target_node": "patent:US20260154602A1"
       },
       {
         "basis": "assignee match",
         "confidence": "high",
-        "edge_id": "edge-215",
+        "edge_id": "edge-217",
         "source_node": "recipient_or_contractor:uei:NPU8ULVAAS23",
         "target_node": "patent:US20260079378A1"
       }
@@ -92695,9 +92566,9 @@
         "label": "Genesis Mission",
         "node_id": "mission:genesis-mission",
         "node_type": "mission",
-        "open_opportunities": 1,
+        "open_opportunities": 2,
         "priority": "critical",
-        "record_count": 6,
+        "record_count": 8,
         "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
       },
       {
@@ -92787,6 +92658,17 @@
         "score": 76,
         "status": "open",
         "url": "https://www.grants.gov/search-results-detail/363869"
+      },
+      {
+        "amount": null,
+        "close_date": "01/12/2027",
+        "identifier": "grants_gov:DE-FOA-0003673",
+        "label": "Genesis Mission Graduate Fellowship Pilot",
+        "node_id": "grant_opportunity:grants_gov:DE-FOA-0003673",
+        "node_type": "grant_opportunity",
+        "score": 70,
+        "status": "open",
+        "url": "https://www.grants.gov/search-results-detail/364033"
       },
       {
         "amount": null,
@@ -92886,6 +92768,17 @@
         "score": 58,
         "status": "awarded",
         "url": "https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700"
+      },
+      {
+        "amount": null,
+        "close_date": null,
+        "identifier": "mission_tracker:https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
+        "label": "Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science",
+        "node_id": "award_notice:mission_tracker:https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
+        "node_type": "award_notice",
+        "score": 53,
+        "status": "awarded",
+        "url": "https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science"
       },
       {
         "amount": 700.0,
@@ -93164,6 +93057,16 @@
         "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19577172/application-data"
       },
       {
+        "assignee": "Palo Alto Networks, Inc.",
+        "confidence": "low",
+        "identifier": "US20260310797A1",
+        "label": "LARGE LANGUAGE MODEL-BASED VULNERABILITY REMEDIATION ACTION DESCRIPTIONS",
+        "node_id": "patent:US20260310797A1",
+        "node_type": "patent",
+        "score": 65,
+        "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19698153/application-data"
+      },
+      {
         "assignee": "The University of Chicago",
         "confidence": "high",
         "identifier": "US20250319211A1",
@@ -93336,37 +93239,37 @@
     ],
     "summary": {
       "contractors": 5,
-      "edges": 106,
-      "execution_records": 17,
+      "edges": 108,
+      "execution_records": 19,
       "missions": 10,
-      "nodes": 63,
-      "patents": 31
+      "nodes": 66,
+      "patents": 32
     }
   },
   "scope_note": "Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.",
   "summary": {
-    "awards": 494,
+    "awards": 493,
     "baas": 0,
     "closing_within_30_days": 1,
     "closing_within_7_days": 0,
     "funding_announcements": 2,
-    "grant_opportunities": 2,
-    "known_award_value": 963066309.2200001,
-    "linked_records": 17,
-    "mission_linked_open_opportunities": 2,
+    "grant_opportunities": 3,
+    "known_award_value": 964500139.1200001,
+    "linked_records": 19,
+    "mission_linked_open_opportunities": 3,
     "missions_with_activity": 5,
-    "new_since_yesterday": 0,
-    "open_opportunities": 2,
+    "new_since_yesterday": 1,
+    "open_opportunities": 3,
     "procurement_opportunities": 2,
     "quarantined_mission_links": 3,
     "quarantined_records": 30,
     "rfis": 2,
     "total_records": 500,
     "tracked_missions": 10,
-    "uei_resolved_contractors": 304,
-    "unique_recipients_and_contractors": 331,
-    "unlinked_records": 483
+    "uei_resolved_contractors": 303,
+    "unique_recipients_and_contractors": 329,
+    "unlinked_records": 481
   },
-  "updated_at": "2026-10-08T03:55:07.199892+00:00",
+  "updated_at": "2026-10-09T04:00:28.219178+00:00",
   "version": 4
 }

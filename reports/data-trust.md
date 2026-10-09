@@ -1,26 +1,26 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-10-08T03:55:07.199892+00:00_
+_Updated 2026-10-09T04:00:28.219178+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **536**
+- Accepted evidence: **538**
 - Quarantined evidence or relationships: **133**
-- Acceptance rate: **80.1%**
+- Acceptance rate: **80.2%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 36 | 100 | 26.5% |
+| Federal missions | 38 | 100 | 27.5% |
 | Federal funding | 500 | 33 | 93.8% |
 
 ## Quarantine Reasons
 
 - **Match appears only in collector query metadata**: 130
 - **No relevant term in the evidence itself**: 130
-- **Official government source**: 106
-- **Source is not an official .gov or .mil domain**: 24
+- **Official government source**: 99
+- **Source is not an official .gov or .mil domain**: 31
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -31,6 +31,55 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [U.S. Department of Energy Unveils Quantum Genesis Priority Applications to Guide Fault-Tolerant Scientific Utility](https://quantumcomputingreport.com/u-s-department-of-energy-unveils-quantum-genesis-priority-applications-to-guide-fault-tolerant-scientific-utility)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [U.S. Department of Energy Allocates $159 Million in Phase II Genesis Mission Awards for Quantum Error Correction and Materials Co-Design](https://quantumcomputingreport.com/u-s-department-of-energy-allocates-159-million-in-phase-ii-genesis-mission-awards-for-quantum-error-correction-and-materials-co-design)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [IonQ Advances to Stage C of DARPA Quantum Benchmarking Initiative](https://thequantuminsider.com/2026/10/08/ionq-advances-to-final-stage-of-darpa-quantum-benchmarking-initiative)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [Energy Department Announces New Genesis Mission Awards to Accelerate Scientific Capability](https://thequantuminsider.com/2026/10/08/energy-department-announces-new-genesis-mission-awards-to-accelerate-scientific-capability)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [DOE Announces Science Applications For Quantum Computing](https://thequantuminsider.com/2026/10/08/doe-announces-science-applications-for-quantum-computing)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [DARPA Selects Atom Computing, Diraq, IBM, and IonQ for Final Stage C Verification under Quantum Benchmarking Initiative](https://quantumcomputingreport.com/darpa-selects-atom-computing-diraq-ibm-and-ionq-for-final-stage-c-verification-under-quantum-benchmarking-initiative)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [Atom Computing Advances to Final Stage of DARPA Quantum Program](https://thequantuminsider.com/2026/10/08/atom-computing-advances-to-final-stage-of-darpa-quantum-program)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [IBM Advances to Stage C of DARPA Quantum Benchmarking Initiative](https://thequantuminsider.com/2026/10/07/ibm-advances-to-stage-c-of-darpa-quantum-benchmarking-initiative)
 
@@ -670,55 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [F26AS00083 Aquatic Invasive Species Grants to Great Lakes States - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362749)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Decentralized Artificial Intelligence through Controlled Emergence (DICE)](https://www.grants.gov/search-results-detail/362743)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Readiness and Recreation Initiative (RARI) – Recurring 5 Year Notice](https://www.grants.gov/search-results-detail/362717)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Readiness and Recreation Initiative (RARI) – Recurring 5 Year Notice](https://www.grants.gov/search-results-detail/362717)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Novel Experiential Technologies Assisting Individual Learning (NExT AI) Hubs (P20 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359949)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [F26AS00062: Great Lakes Fish and Wildlife Restoration Act FY 2026](https://www.grants.gov/search-results-detail/362629)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [F26AS00062: Great Lakes Fish and Wildlife Restoration Act FY 2026](https://www.grants.gov/search-results-detail/362629)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/356205)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

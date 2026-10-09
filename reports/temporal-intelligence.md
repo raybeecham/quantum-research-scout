@@ -2,23 +2,27 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-10-08T03:55:07.199892+00:00_
+_Updated 2026-10-09T04:00:28.219178+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **6**
+- Actual or recent changes: **10**
 - Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
-- Upcoming dated events: **15**
+- Upcoming dated events: **16**
 
 ## Priority timeline
 
-- **Changed since prior run** · THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-))
+- **Changed since prior run** · CONDUCT RDT_E PROJECTS FOCUSED ON PROVIDING SOLUTIONS TO IDENTIFIED AIRBASE TECHNOLOGY CAPABILITY GAPS IN THE AREAS OF CIVIL ENGINEER ROBOTIC AND AUTONOMOUS SYSTEMS TECHNOLOGIES (... — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA805126F0003_9700_47QRCA25DU046_4732))
   - The assertion changed relative to the prior successful ledger build.
-- **Changed since prior run** · THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE. — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-))
-  - The assertion changed relative to the prior successful ledger build.
-- **Occurred 7 days ago** · SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_DECR0000118_089))
-  - A recent source-reported event was newly incorporated into the ledger.
+- **Happened today** · Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science — awarding agency ([evidence](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science))
+  - The source-reported event date is today or within the prior day.
+- **Happened today** · Genesis Mission — executes through ([evidence](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science))
+  - The source-reported event date is today or within the prior day.
+- **Published today** · Genesis Mission Graduate Fellowship Pilot — awarding agency ([evidence](https://www.grants.gov/search-results-detail/364033))
+  - The source publication date is today or within the prior day.
+- **Published today** · Genesis Mission — executes through ([evidence](https://www.grants.gov/search-results-detail/364033))
+  - The source publication date is today or within the prior day.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -71,5 +75,6 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-12-19** · Explore private-sector partnership models and commercial contribution plans — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
 - **2026-12-19** · NIST, NSA, and the FAR Council complete the order's initial 180-day actions — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
 - **2026-12-31** · Advance selected NSF NQVL projects from design to implementation — estimated ([source](https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real))
+- **2027-01-12** · Genesis Mission Graduate Fellowship Pilot — open_window ([source](https://www.grants.gov/search-results-detail/364033))
 - **2027-03-19** · CISA and the FAR Council publish cryptographic inventory and disclosure proposals — upcoming ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
 - **2027-06-22** · Report national-security implications of increasing commercial quantum capability — upcoming ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))

@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-10-08 03:55 UTC_
+_Updated 2026-10-09 04:00 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
 USAspending records describe reported awards; Grants.gov and SAM.gov records describe opportunities or notices. Analytical mission and patent links are not evidence that a patent was funded by, used by, or formally associated with a mission.
 
 - Tracked records: **500**
-- Awards / grant opportunities / procurement opportunities: **494 / 2 / 2**
-- Open opportunities: **2** (including 0 BAA and 2 RFI records)
-- Opportunity radar: **2 mission-linked**, **1 closing within 30 days**, **0 new since yesterday**
-- Mission-linked records: **17**
+- Awards / grant opportunities / procurement opportunities: **493 / 3 / 2**
+- Open opportunities: **3** (including 0 BAA and 2 RFI records)
+- Opportunity radar: **3 mission-linked**, **1 closing within 30 days**, **1 new since yesterday**
+- Mission-linked records: **19**
 - Missions with activity: **5 of 10**
-- Named recipients and contractors: **331**
-- Known reported award value: **$963.1M**
+- Named recipients and contractors: **329**
+- Known reported award value: **$964.5M**
 
 ## Opportunity Radar
 
@@ -27,12 +27,13 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 |---:|---|---|---|---|---|---:|---|
 | 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 | 2 | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) | GRANT_OPPORTUNITY | 10/19/2026 | Quantum Genesis | quantum | **76 · HIGH PRIORITY** | Qualify fit, identify partners, and prepare the response. |
+| 3 | [Genesis Mission Graduate Fellowship Pilot](https://www.grants.gov/search-results-detail/364033) · NEW | GRANT_OPPORTUNITY | 01/12/2027 | Genesis Mission | General | **70 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 
 ## Mission Funding Portfolios
 
 | Mission | Records | Open | Known awards | Announced funding | Contractors / analytical patent matches |
 |---|---:|---:|---:|---:|---|
-| [Genesis Mission](https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission) | 6 | 1 | $700.7K | $293.0M | 1 / 8 |
+| [Genesis Mission](https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission) | 8 | 2 | $700.7K | $293.0M | 1 / 8 |
 | [Quantum Genesis](https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first) | 1 | 1 | $0 | $0 | 0 / 8 |
 | [DARPA Quantum Benchmarking Initiative](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative) | 2 | 0 | $8.7M | $0 | 1 / 8 |
 | [Golden Dome for America](https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/) | 5 | 0 | $5.1M | $0 | 2 / 8 |
@@ -49,6 +50,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 |---|---|---|---|---|---:|
 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | PAMS-SC | 12/17/2026 | Genesis Mission (high) | **59 · HIGH** |
 | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) | GRANT_OPPORTUNITY | PAMS-SC | 10/19/2026 | Quantum Genesis (high) | **54 · NOTABLE** |
+| [Genesis Mission Graduate Fellowship Pilot](https://www.grants.gov/search-results-detail/364033) | GRANT_OPPORTUNITY | PAMS-SC | 01/12/2027 | Genesis Mission (high) | **49 · NOTABLE** |
 
 ## Awards and Funding Announcements
 
@@ -61,6 +63,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-) | 2026-09-28 | Not listed | $250 | AI Forge |
 | [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) | 2026-09-16 | Not listed | $293.0M | Genesis Mission |
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | Not listed | $8 | DARPA Quantum Benchmarking Initiative |
+| [Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science) | 2026-10-08 | Not listed | Not reported | Genesis Mission |
 | [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) | 2026-08-21 | Not listed | Not reported | Genesis Mission |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | Not listed | $700 | Genesis Mission |
 | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | Not listed | $5 | Golden Dome for America |
@@ -83,7 +86,6 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT](https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732) | 2026-09-28 | DELOITTE CONSULTING LLP | $2.0M | Not linked |
 | [ZERO TRUST POST QUANTUM ENCRYPTION SERVICES](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000) | 2026-09-25 | GREENBRIER GOVERNMENT SOLUTIONS INC | $2.0M | Not linked |
 | [OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0](https://www.usaspending.gov/award/CONT_AWD_47QFHA26F0005_4732_47QFHA24D0005_4732) | 2026-09-15 | BOOZ ALLEN HAMILTON INC | $28.7M | Not linked |
-| [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES - POST QUANTUM CRYPTOGRAPHY CALL ORDER 4](https://www.usaspending.gov/award/CONT_AWD_91990025F0108_9100_91990022A0018_9100) | 2025-09-30 | SHOREPOINT LLC | $1.8M | Not linked |
 
 ## Contractor Intelligence Profiles
 

@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-10-08T03:55:07.199892+00:00_
+_Updated 2026-10-09T04:00:28.219178+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
@@ -23,6 +23,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | [The Research Foundation for The State University of New York](https://sam.gov/entity/LMCJKRFW5R81/coreData) | LMCJKRFW5R81 | 3GQT6 | Active | Business or Organization, Non-Profit Organization |
 | MISSISSIPPI STATE UNIVERSITY | [MISSISSIPPI STATE UNIVERSITY](https://sam.gov/entity/NTXJM52SHKS7/coreData) | NTXJM52SHKS7 | 4E756 | Active | 1862 Land Grant College, Educational Institution, U.S. State Government |
 | PURDUE UNIVERSITY | [PURDUE UNIVERSITY](https://sam.gov/entity/YRXVL4JYCEF5/coreData) | YRXVL4JYCEF5 | 6D418 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
+| UNIVERSITY OF WASHINGTON | [UNIVERSITY OF WASHINGTON](https://sam.gov/entity/HD1WMN6945W6/coreData) | HD1WMN6945W6 | 1HEX5 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. Local Government |
 | LOUISIANA STATE UNIVERSITY | [LOUISIANA STATE UNIVERSITY](https://sam.gov/entity/ECQEYCHRNKJ4/coreData) | ECQEYCHRNKJ4 | 4L859 | Active | 1862 Land Grant College, 1890 Land Grant College, Educational Institution |
 | GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | [GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.](https://sam.gov/entity/SMNWM6HN79X5/coreData) | SMNWM6HN79X5 | 07MU1 | Active | Business or Organization, For Profit Organization |
 | AUBURN UNIVERSITY | [AUBURN UNIVERSITY](https://sam.gov/entity/DMQNDJDHTDG4/coreData) | DMQNDJDHTDG4 | 8H404 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
@@ -31,7 +32,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | BROWN UNIVERSITY | [BROWN UNIVERSITY](https://sam.gov/entity/E3FDXZ6TBHW3/coreData) | E3FDXZ6TBHW3 | 23242 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | THE UNIVERSITY OF IOWA | [THE UNIVERSITY OF IOWA](https://sam.gov/entity/Z1H9VJS8NG16/coreData) | Z1H9VJS8NG16 | 2D354 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | INUTEQ, LLC | [InuTeq, LLC](https://sam.gov/entity/NBEWZB8LQ8Z5/coreData) | NBEWZB8LQ8Z5 | 5NTT4 | Active | Alaskan Native Corporation Owned Firm, Business or Organization, For Profit Organization |
-| UNIVERSITY OF WASHINGTON | [UNIVERSITY OF WASHINGTON](https://sam.gov/entity/HD1WMN6945W6/coreData) | HD1WMN6945W6 | 1HEX5 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. Local Government |
 | UNIVERSITY OF NORTH TEXAS | [UNIVERSITY OF NORTH TEXAS](https://sam.gov/entity/G47WN1XZNWX9/coreData) | G47WN1XZNWX9 | 6B783 | Active | Educational Institution, Hispanic Servicing Institution, Minority Institution |
 | POST QUANTUM LABS LLC | [Post Quantum Labs LLC](https://sam.gov/entity/H53MXWJZPYU3/coreData) | H53MXWJZPYU3 | 9T5C5 | Active | Business or Organization, For Profit Organization, Individual or concern, other than one of the preceding |
 | REGENCY CONSULTING INC | [REGENCY CONSULTING INC](https://sam.gov/entity/SC8LMLWA6H51/coreData) | SC8LMLWA6H51 | 1M6B0 | Active | American Indian Owned, Business or Organization, For Profit Organization |

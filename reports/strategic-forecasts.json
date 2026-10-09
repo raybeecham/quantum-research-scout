@@ -2,366 +2,6 @@
   "active_forecasts": [
     {
       "baseline_record_keys": [
-        "grants_gov:DE-FOA-0003612",
-        "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf"
-      ],
-      "baseline_update_urls": [],
-      "confirming_indicators": [
-        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
-        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
-        "An official funding or program update announces a new competitive workstream."
-      ],
-      "created_at": "2026-07-31T16:06:07.673432+00:00",
-      "disconfirming_indicators": [
-        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
-        "The horizon closes with no additional linked opportunity.",
-        "Execution moves entirely through existing vehicles without a new public notice."
-      ],
-      "dossier": {
-        "announced_funding_value": 293000000.0,
-        "award_count": 3,
-        "known_award_value": 700700.0,
-        "lead_agencies": [
-          "Department of Energy",
-          "White House Office of Science and Technology Policy"
-        ],
-        "mission_status": "active",
-        "next_milestone": {
-          "id": "genesis-robotic-lab-review",
-          "source_url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
-          "target_date": "2026-07-22",
-          "timing": "awaiting_confirmation",
-          "title": "Review federal robotic and AI-directed laboratory capabilities"
-        },
-        "official_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
-        "open_opportunities": 1,
-        "priority": "critical",
-        "recipients_and_contractors": [
-          "MCKINSEY & COMPANY, INC. WASHINGTON D.C."
-        ],
-        "record_count": 6,
-        "related_patent_count": 8,
-        "related_patents": [
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "Governance of AI-Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19690658/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "DISTRIBUTED LEDGER-BASED HYBRID QUANTUM MACHINE LEARNING RANSOMWARE SECURITY",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19677731/application-data"
-          }
-        ]
-      },
-      "evidence": [
-        {
-          "authority": "authoritative",
-          "date": "2026-09-16",
-          "role": "official funding announcement",
-          "title": "Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges",
-          "url": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science"
-        },
-        {
-          "authority": "authoritative",
-          "date": "2026-08-21",
-          "role": "official award notice",
-          "title": "Genesis Mission RFA Awards List",
-          "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
-        },
-        {
-          "authority": "authoritative",
-          "date": "2026-05-19",
-          "role": "official award",
-          "title": "GENESIS MISSION ACCELERATION",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
-        },
-        {
-          "authority": "authoritative",
-          "date": "2026-03-17",
-          "role": "official grant opportunity",
-          "title": "The Genesis Mission: Transforming Science and Energy with AI",
-          "url": "https://www.grants.gov/search-results-detail/361526"
-        },
-        {
-          "authority": "authoritative",
-          "date": null,
-          "role": "official mission",
-          "title": "Genesis Mission",
-          "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
-        }
-      ],
-      "forecast_id": "forecast-cbfcf8e866cfafcb",
-      "forecast_type": "mission_opportunity_release",
-      "horizon_end": "2026-10-29",
-      "impact": "critical",
-      "initial_probability": 0.86,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
-      "outcome": null,
-      "probability": 0.86,
-      "probability_factors": [
-        {
-          "factor": "base rate",
-          "points": 0.28
-        },
-        {
-          "factor": "critical mission priority",
-          "points": 0.1
-        },
-        {
-          "factor": "recent official funding activity",
-          "points": 0.18
-        },
-        {
-          "factor": "recent award execution",
-          "points": 0.12
-        },
-        {
-          "factor": "existing acquisition activity",
-          "points": 0.08
-        },
-        {
-          "factor": "multi-record execution trail",
-          "points": 0.06
-        },
-        {
-          "factor": "near-term mission milestone",
-          "points": 0.08
-        }
-      ],
-      "probability_history": [
-        {
-          "at": "2026-07-31T16:06:07.673432+00:00",
-          "probability": 0.86,
-          "reason": "Forecast opened"
-        }
-      ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-29?",
-      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
-      "registry_key": "mission_opportunity_release:genesis-mission:2026-Q3",
-      "resolution_rule": {
-        "kind": "new_linked_opportunity",
-        "negative": "No qualifying record appears by the horizon end.",
-        "positive": "A new linked opportunity record appears after forecast creation."
-      },
-      "status": "active",
-      "subject": "Genesis Mission",
-      "subject_id": "genesis-mission",
-      "triggers": [
-        {
-          "direction": "confirming",
-          "indicator": "Additional linked federal opportunity",
-          "status": "not_observed"
-        },
-        {
-          "direction": "disconfirming",
-          "indicator": "Mission delay, rescope, or funding withdrawal",
-          "status": "not_observed"
-        }
-      ]
-    },
-    {
-      "baseline_record_keys": [
-        "grants_gov:DE-FOA-0003612",
-        "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf"
-      ],
-      "baseline_update_urls": [],
-      "confirming_indicators": [
-        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
-        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
-        "An official funding or program update announces a new competitive workstream."
-      ],
-      "created_at": "2026-10-01T03:31:08.575959+00:00",
-      "disconfirming_indicators": [
-        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
-        "The horizon closes with no additional linked opportunity.",
-        "Execution moves entirely through existing vehicles without a new public notice."
-      ],
-      "dossier": {
-        "announced_funding_value": 293000000.0,
-        "award_count": 3,
-        "known_award_value": 700700.0,
-        "lead_agencies": [
-          "Department of Energy",
-          "White House Office of Science and Technology Policy"
-        ],
-        "mission_status": "active",
-        "next_milestone": {
-          "id": "genesis-robotic-lab-review",
-          "source_url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
-          "target_date": "2026-07-22",
-          "timing": "awaiting_confirmation",
-          "title": "Review federal robotic and AI-directed laboratory capabilities"
-        },
-        "official_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
-        "open_opportunities": 1,
-        "priority": "critical",
-        "recipients_and_contractors": [
-          "MCKINSEY & COMPANY, INC. WASHINGTON D.C."
-        ],
-        "record_count": 6,
-        "related_patent_count": 8,
-        "related_patents": [
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "Governance of AI-Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19690658/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "DISTRIBUTED LEDGER-BASED HYBRID QUANTUM MACHINE LEARNING RANSOMWARE SECURITY",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19677731/application-data"
-          }
-        ]
-      },
-      "evidence": [
-        {
-          "authority": "authoritative",
-          "date": "2026-09-16",
-          "role": "official funding announcement",
-          "title": "Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges",
-          "url": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science"
-        },
-        {
-          "authority": "authoritative",
-          "date": "2026-08-21",
-          "role": "official award notice",
-          "title": "Genesis Mission RFA Awards List",
-          "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
-        },
-        {
-          "authority": "authoritative",
-          "date": "2026-05-19",
-          "role": "official award",
-          "title": "GENESIS MISSION ACCELERATION",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
-        },
-        {
-          "authority": "authoritative",
-          "date": "2026-03-17",
-          "role": "official grant opportunity",
-          "title": "The Genesis Mission: Transforming Science and Energy with AI",
-          "url": "https://www.grants.gov/search-results-detail/361526"
-        },
-        {
-          "authority": "authoritative",
-          "date": null,
-          "role": "official mission",
-          "title": "Genesis Mission",
-          "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
-        }
-      ],
-      "forecast_id": "forecast-c5e50e4441dea878",
-      "forecast_type": "mission_opportunity_release",
-      "horizon_end": "2026-12-30",
-      "impact": "critical",
-      "initial_probability": 0.86,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
-      "outcome": null,
-      "probability": 0.86,
-      "probability_factors": [
-        {
-          "factor": "base rate",
-          "points": 0.28
-        },
-        {
-          "factor": "critical mission priority",
-          "points": 0.1
-        },
-        {
-          "factor": "recent official funding activity",
-          "points": 0.18
-        },
-        {
-          "factor": "recent award execution",
-          "points": 0.12
-        },
-        {
-          "factor": "existing acquisition activity",
-          "points": 0.08
-        },
-        {
-          "factor": "multi-record execution trail",
-          "points": 0.06
-        },
-        {
-          "factor": "near-term mission milestone",
-          "points": 0.08
-        }
-      ],
-      "probability_history": [
-        {
-          "at": "2026-10-01T03:31:08.575959+00:00",
-          "probability": 0.86,
-          "reason": "Forecast opened"
-        }
-      ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2027-01-06?",
-      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
-      "registry_key": "mission_opportunity_release:genesis-mission:2026-Q4",
-      "resolution_rule": {
-        "kind": "new_linked_opportunity",
-        "negative": "No qualifying record appears by the horizon end.",
-        "positive": "A new linked opportunity record appears after forecast creation."
-      },
-      "status": "active",
-      "subject": "Genesis Mission",
-      "subject_id": "genesis-mission",
-      "triggers": [
-        {
-          "direction": "confirming",
-          "indicator": "Additional linked federal opportunity",
-          "status": "not_observed"
-        },
-        {
-          "direction": "disconfirming",
-          "indicator": "Mission delay, rescope, or funding withdrawal",
-          "status": "not_observed"
-        }
-      ]
-    },
-    {
-      "baseline_record_keys": [
         "mission_tracker:https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
       ],
       "baseline_update_urls": [],
@@ -454,7 +94,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.82,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
       "outcome": null,
       "probability": 0.82,
       "probability_factors": [
@@ -490,7 +130,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-01-06?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-01-07?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:ai-forge:2026-Q4",
       "resolution_rule": {
@@ -601,7 +241,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.74,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
       "outcome": null,
       "probability": 0.62,
       "probability_factors": [
@@ -745,7 +385,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.62,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
       "outcome": null,
       "probability": 0.62,
       "probability_factors": [
@@ -773,7 +413,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-01-06?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-01-07?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:golden-dome:2026-Q4",
       "resolution_rule": {
@@ -882,7 +522,7 @@
       "horizon_end": "2026-11-21",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -1021,7 +661,7 @@
       "horizon_end": "2026-12-17",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -1160,7 +800,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -1184,7 +824,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2027-01-06?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2027-01-07?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:quantum-genesis:2026-Q4",
       "resolution_rule": {
@@ -1207,10 +847,144 @@
           "status": "not_observed"
         }
       ]
+    },
+    {
+      "baseline_update_urls": [
+        "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+      ],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-10-09T04:00:28.219178+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "National Science Foundation"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "project-triad-nqvl-implementation",
+          "source_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+          "target_date": "2026-12-31",
+          "timing": "estimated",
+          "title": "Advance selected NSF NQVL projects from design to implementation"
+        },
+        "official_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 0,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR SPATIAL, TEMPORAL, AND VECTORIAL QUANTUM SENSING",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455548/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM SENSOR AND QUANTUM SENSING APPARATUS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19087311/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "NEAR IR LUMINESCENCE AND OPTICALLY ADDRESSABLE QUANTUM SENSING AND MAGNETIC IMAGING WITH RADICALOID TETRATHIAFULVALENE TETRATHIOLATES",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-12-31",
+          "role": "official milestone",
+          "title": "Advance selected NSF NQVL projects from design to implementation",
+          "url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+        }
+      ],
+      "forecast_id": "forecast-86721c04d1187ca9",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2027-01-07",
+      "impact": "critical",
+      "initial_probability": 0.7,
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
+      "outcome": null,
+      "probability": 0.7,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.64
+        },
+        {
+          "factor": "observable mission update stream",
+          "points": 0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-10-09T04:00:28.219178+00:00",
+          "probability": 0.7,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cAdvance selected NSF NQVL projects from design to implementation\u201d by 2027-01-07?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:project-triad:project-triad-nqvl-implementation",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "project-triad-nqvl-implementation",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "advance",
+          "design",
+          "implementation",
+          "nqvl",
+          "projects",
+          "selected"
+        ]
+      },
+      "status": "active",
+      "subject": "Project Triad",
+      "subject_id": "project-triad",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
     }
   ],
   "calibration": {
-    "accuracy_rate": 0.167,
+    "accuracy_rate": 0.375,
     "bins": [
       {
         "count": 5,
@@ -1223,373 +997,19 @@
         "mean_probability": 0.65,
         "observed_rate": 0.0,
         "range": "60\u201380%"
+      },
+      {
+        "count": 2,
+        "mean_probability": 0.86,
+        "observed_rate": 1.0,
+        "range": "80\u2013100%"
       }
     ],
     "label": "Needs calibration",
-    "mean_brier_score": 0.312,
-    "resolved_count": 6
+    "mean_brier_score": 0.2389,
+    "resolved_count": 8
   },
   "forecasts": [
-    {
-      "baseline_record_keys": [
-        "grants_gov:DE-FOA-0003612",
-        "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf"
-      ],
-      "baseline_update_urls": [],
-      "confirming_indicators": [
-        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
-        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
-        "An official funding or program update announces a new competitive workstream."
-      ],
-      "created_at": "2026-07-31T16:06:07.673432+00:00",
-      "disconfirming_indicators": [
-        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
-        "The horizon closes with no additional linked opportunity.",
-        "Execution moves entirely through existing vehicles without a new public notice."
-      ],
-      "dossier": {
-        "announced_funding_value": 293000000.0,
-        "award_count": 3,
-        "known_award_value": 700700.0,
-        "lead_agencies": [
-          "Department of Energy",
-          "White House Office of Science and Technology Policy"
-        ],
-        "mission_status": "active",
-        "next_milestone": {
-          "id": "genesis-robotic-lab-review",
-          "source_url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
-          "target_date": "2026-07-22",
-          "timing": "awaiting_confirmation",
-          "title": "Review federal robotic and AI-directed laboratory capabilities"
-        },
-        "official_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
-        "open_opportunities": 1,
-        "priority": "critical",
-        "recipients_and_contractors": [
-          "MCKINSEY & COMPANY, INC. WASHINGTON D.C."
-        ],
-        "record_count": 6,
-        "related_patent_count": 8,
-        "related_patents": [
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "Governance of AI-Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19690658/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "DISTRIBUTED LEDGER-BASED HYBRID QUANTUM MACHINE LEARNING RANSOMWARE SECURITY",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19677731/application-data"
-          }
-        ]
-      },
-      "evidence": [
-        {
-          "authority": "authoritative",
-          "date": "2026-09-16",
-          "role": "official funding announcement",
-          "title": "Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges",
-          "url": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science"
-        },
-        {
-          "authority": "authoritative",
-          "date": "2026-08-21",
-          "role": "official award notice",
-          "title": "Genesis Mission RFA Awards List",
-          "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
-        },
-        {
-          "authority": "authoritative",
-          "date": "2026-05-19",
-          "role": "official award",
-          "title": "GENESIS MISSION ACCELERATION",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
-        },
-        {
-          "authority": "authoritative",
-          "date": "2026-03-17",
-          "role": "official grant opportunity",
-          "title": "The Genesis Mission: Transforming Science and Energy with AI",
-          "url": "https://www.grants.gov/search-results-detail/361526"
-        },
-        {
-          "authority": "authoritative",
-          "date": null,
-          "role": "official mission",
-          "title": "Genesis Mission",
-          "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
-        }
-      ],
-      "forecast_id": "forecast-cbfcf8e866cfafcb",
-      "forecast_type": "mission_opportunity_release",
-      "horizon_end": "2026-10-29",
-      "impact": "critical",
-      "initial_probability": 0.86,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
-      "outcome": null,
-      "probability": 0.86,
-      "probability_factors": [
-        {
-          "factor": "base rate",
-          "points": 0.28
-        },
-        {
-          "factor": "critical mission priority",
-          "points": 0.1
-        },
-        {
-          "factor": "recent official funding activity",
-          "points": 0.18
-        },
-        {
-          "factor": "recent award execution",
-          "points": 0.12
-        },
-        {
-          "factor": "existing acquisition activity",
-          "points": 0.08
-        },
-        {
-          "factor": "multi-record execution trail",
-          "points": 0.06
-        },
-        {
-          "factor": "near-term mission milestone",
-          "points": 0.08
-        }
-      ],
-      "probability_history": [
-        {
-          "at": "2026-07-31T16:06:07.673432+00:00",
-          "probability": 0.86,
-          "reason": "Forecast opened"
-        }
-      ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-29?",
-      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
-      "registry_key": "mission_opportunity_release:genesis-mission:2026-Q3",
-      "resolution_rule": {
-        "kind": "new_linked_opportunity",
-        "negative": "No qualifying record appears by the horizon end.",
-        "positive": "A new linked opportunity record appears after forecast creation."
-      },
-      "status": "active",
-      "subject": "Genesis Mission",
-      "subject_id": "genesis-mission",
-      "triggers": [
-        {
-          "direction": "confirming",
-          "indicator": "Additional linked federal opportunity",
-          "status": "not_observed"
-        },
-        {
-          "direction": "disconfirming",
-          "indicator": "Mission delay, rescope, or funding withdrawal",
-          "status": "not_observed"
-        }
-      ]
-    },
-    {
-      "baseline_record_keys": [
-        "grants_gov:DE-FOA-0003612",
-        "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf"
-      ],
-      "baseline_update_urls": [],
-      "confirming_indicators": [
-        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
-        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
-        "An official funding or program update announces a new competitive workstream."
-      ],
-      "created_at": "2026-10-01T03:31:08.575959+00:00",
-      "disconfirming_indicators": [
-        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
-        "The horizon closes with no additional linked opportunity.",
-        "Execution moves entirely through existing vehicles without a new public notice."
-      ],
-      "dossier": {
-        "announced_funding_value": 293000000.0,
-        "award_count": 3,
-        "known_award_value": 700700.0,
-        "lead_agencies": [
-          "Department of Energy",
-          "White House Office of Science and Technology Policy"
-        ],
-        "mission_status": "active",
-        "next_milestone": {
-          "id": "genesis-robotic-lab-review",
-          "source_url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
-          "target_date": "2026-07-22",
-          "timing": "awaiting_confirmation",
-          "title": "Review federal robotic and AI-directed laboratory capabilities"
-        },
-        "official_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
-        "open_opportunities": 1,
-        "priority": "critical",
-        "recipients_and_contractors": [
-          "MCKINSEY & COMPANY, INC. WASHINGTON D.C."
-        ],
-        "record_count": 6,
-        "related_patent_count": 8,
-        "related_patents": [
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "Governance of AI-Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19690658/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "DISTRIBUTED LEDGER-BASED HYBRID QUANTUM MACHINE LEARNING RANSOMWARE SECURITY",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19677731/application-data"
-          }
-        ]
-      },
-      "evidence": [
-        {
-          "authority": "authoritative",
-          "date": "2026-09-16",
-          "role": "official funding announcement",
-          "title": "Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges",
-          "url": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science"
-        },
-        {
-          "authority": "authoritative",
-          "date": "2026-08-21",
-          "role": "official award notice",
-          "title": "Genesis Mission RFA Awards List",
-          "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
-        },
-        {
-          "authority": "authoritative",
-          "date": "2026-05-19",
-          "role": "official award",
-          "title": "GENESIS MISSION ACCELERATION",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
-        },
-        {
-          "authority": "authoritative",
-          "date": "2026-03-17",
-          "role": "official grant opportunity",
-          "title": "The Genesis Mission: Transforming Science and Energy with AI",
-          "url": "https://www.grants.gov/search-results-detail/361526"
-        },
-        {
-          "authority": "authoritative",
-          "date": null,
-          "role": "official mission",
-          "title": "Genesis Mission",
-          "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
-        }
-      ],
-      "forecast_id": "forecast-c5e50e4441dea878",
-      "forecast_type": "mission_opportunity_release",
-      "horizon_end": "2026-12-30",
-      "impact": "critical",
-      "initial_probability": 0.86,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
-      "outcome": null,
-      "probability": 0.86,
-      "probability_factors": [
-        {
-          "factor": "base rate",
-          "points": 0.28
-        },
-        {
-          "factor": "critical mission priority",
-          "points": 0.1
-        },
-        {
-          "factor": "recent official funding activity",
-          "points": 0.18
-        },
-        {
-          "factor": "recent award execution",
-          "points": 0.12
-        },
-        {
-          "factor": "existing acquisition activity",
-          "points": 0.08
-        },
-        {
-          "factor": "multi-record execution trail",
-          "points": 0.06
-        },
-        {
-          "factor": "near-term mission milestone",
-          "points": 0.08
-        }
-      ],
-      "probability_history": [
-        {
-          "at": "2026-10-01T03:31:08.575959+00:00",
-          "probability": 0.86,
-          "reason": "Forecast opened"
-        }
-      ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2027-01-06?",
-      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
-      "registry_key": "mission_opportunity_release:genesis-mission:2026-Q4",
-      "resolution_rule": {
-        "kind": "new_linked_opportunity",
-        "negative": "No qualifying record appears by the horizon end.",
-        "positive": "A new linked opportunity record appears after forecast creation."
-      },
-      "status": "active",
-      "subject": "Genesis Mission",
-      "subject_id": "genesis-mission",
-      "triggers": [
-        {
-          "direction": "confirming",
-          "indicator": "Additional linked federal opportunity",
-          "status": "not_observed"
-        },
-        {
-          "direction": "disconfirming",
-          "indicator": "Mission delay, rescope, or funding withdrawal",
-          "status": "not_observed"
-        }
-      ]
-    },
     {
       "baseline_record_keys": [
         "mission_tracker:https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
@@ -1684,7 +1104,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.82,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
       "outcome": null,
       "probability": 0.82,
       "probability_factors": [
@@ -1720,7 +1140,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-01-06?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-01-07?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:ai-forge:2026-Q4",
       "resolution_rule": {
@@ -1831,7 +1251,7 @@
       "horizon_end": "2026-10-29",
       "impact": "critical",
       "initial_probability": 0.74,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
       "outcome": null,
       "probability": 0.62,
       "probability_factors": [
@@ -1975,7 +1395,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.62,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
       "outcome": null,
       "probability": 0.62,
       "probability_factors": [
@@ -2003,7 +1423,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-01-06?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-01-07?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:golden-dome:2026-Q4",
       "resolution_rule": {
@@ -2112,7 +1532,7 @@
       "horizon_end": "2026-11-21",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -2251,7 +1671,7 @@
       "horizon_end": "2026-12-17",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -2390,7 +1810,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-10-08T03:55:07.199892+00:00",
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -2414,7 +1834,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2027-01-06?",
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2027-01-07?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:quantum-genesis:2026-Q4",
       "resolution_rule": {
@@ -2430,6 +1850,533 @@
           "direction": "confirming",
           "indicator": "Additional linked federal opportunity",
           "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_update_urls": [
+        "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+      ],
+      "confirming_indicators": [
+        "An official update states that the milestone was completed or delivered.",
+        "A resulting award, demonstration, report, or implementation artifact is published."
+      ],
+      "created_at": "2026-10-09T04:00:28.219178+00:00",
+      "disconfirming_indicators": [
+        "An official source delays, cancels, or materially rescopes the milestone.",
+        "The confirmation horizon passes without authoritative completion evidence."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "National Science Foundation"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "project-triad-nqvl-implementation",
+          "source_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+          "target_date": "2026-12-31",
+          "timing": "estimated",
+          "title": "Advance selected NSF NQVL projects from design to implementation"
+        },
+        "official_url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 0,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR SPATIAL, TEMPORAL, AND VECTORIAL QUANTUM SENSING",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455548/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "QUANTUM SENSOR AND QUANTUM SENSING APPARATUS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19087311/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "NEAR IR LUMINESCENCE AND OPTICALLY ADDRESSABLE QUANTUM SENSING AND MAGNETIC IMAGING WITH RADICALOID TETRATHIAFULVALENE TETRATHIOLATES",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-12-31",
+          "role": "official milestone",
+          "title": "Advance selected NSF NQVL projects from design to implementation",
+          "url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+        }
+      ],
+      "forecast_id": "forecast-86721c04d1187ca9",
+      "forecast_type": "mission_milestone_confirmation",
+      "horizon_end": "2027-01-07",
+      "impact": "critical",
+      "initial_probability": 0.7,
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
+      "outcome": null,
+      "probability": 0.7,
+      "probability_factors": [
+        {
+          "factor": "official dated milestone",
+          "points": 0.64
+        },
+        {
+          "factor": "observable mission update stream",
+          "points": 0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-10-09T04:00:28.219178+00:00",
+          "probability": 0.7,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will authoritative evidence confirm \u201cAdvance selected NSF NQVL projects from design to implementation\u201d by 2027-01-07?",
+      "rationale": "The hypothesis tests the published milestone against subsequent official evidence, including late confirmation when the target date has already passed.",
+      "registry_key": "mission_milestone:project-triad:project-triad-nqvl-implementation",
+      "resolution_rule": {
+        "kind": "mission_milestone_confirmation",
+        "milestone_id": "project-triad-nqvl-implementation",
+        "negative": "No authoritative completion evidence appears by the horizon.",
+        "positive": "Official mission evidence confirms completion before the horizon.",
+        "target_terms": [
+          "advance",
+          "design",
+          "implementation",
+          "nqvl",
+          "projects",
+          "selected"
+        ]
+      },
+      "status": "active",
+      "subject": "Project Triad",
+      "subject_id": "project-triad",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Official completion evidence",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Delay, cancellation, or rescope",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [
+        "grants_gov:DE-FOA-0003612",
+        "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf"
+      ],
+      "baseline_update_urls": [],
+      "brier_score": 0.0196,
+      "closing_probability": 0.86,
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-10-01T03:31:08.575959+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 293000000.0,
+        "award_count": 4,
+        "known_award_value": 700700.0,
+        "lead_agencies": [
+          "Department of Energy",
+          "White House Office of Science and Technology Policy"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "genesis-robotic-lab-review",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
+          "target_date": "2026-07-22",
+          "timing": "awaiting_confirmation",
+          "title": "Review federal robotic and AI-directed laboratory capabilities"
+        },
+        "official_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
+        "open_opportunities": 2,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "MCKINSEY & COMPANY, INC. WASHINGTON D.C."
+        ],
+        "record_count": 8,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Governance of AI-Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19690658/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "DISTRIBUTED LEDGER-BASED HYBRID QUANTUM MACHINE LEARNING RANSOMWARE SECURITY",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19677731/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-10-08",
+          "role": "official award notice",
+          "title": "Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science",
+          "url": "https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-10-08",
+          "role": "official grant opportunity",
+          "title": "Genesis Mission Graduate Fellowship Pilot",
+          "url": "https://www.grants.gov/search-results-detail/364033"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-09-16",
+          "role": "official funding announcement",
+          "title": "Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges",
+          "url": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-08-21",
+          "role": "official award notice",
+          "title": "Genesis Mission RFA Awards List",
+          "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-05-19",
+          "role": "official award",
+          "title": "GENESIS MISSION ACCELERATION",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
+        },
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "Genesis Mission",
+          "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
+        }
+      ],
+      "forecast_id": "forecast-c5e50e4441dea878",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-12-30",
+      "impact": "critical",
+      "initial_probability": 0.86,
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
+      "outcome": true,
+      "outcome_evidence": {
+        "date": "2026-10-08",
+        "title": "Genesis Mission Graduate Fellowship Pilot",
+        "url": "https://www.grants.gov/search-results-detail/364033"
+      },
+      "probability": 0.86,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "recent official funding activity",
+          "points": 0.18
+        },
+        {
+          "factor": "recent award execution",
+          "points": 0.12
+        },
+        {
+          "factor": "existing acquisition activity",
+          "points": 0.08
+        },
+        {
+          "factor": "multi-record execution trail",
+          "points": 0.06
+        },
+        {
+          "factor": "near-term mission milestone",
+          "points": 0.08
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-10-01T03:31:08.575959+00:00",
+          "probability": 0.86,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2027-01-07?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:genesis-mission:2026-Q4",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "resolved_at": "2026-10-09T04:00:28.219178+00:00",
+      "status": "resolved",
+      "subject": "Genesis Mission",
+      "subject_id": "genesis-mission",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "evidence": {
+            "date": "2026-10-08",
+            "title": "Genesis Mission Graduate Fellowship Pilot",
+            "url": "https://www.grants.gov/search-results-detail/364033"
+          },
+          "indicator": "Additional linked federal opportunity",
+          "status": "observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [
+        "grants_gov:DE-FOA-0003612",
+        "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf"
+      ],
+      "baseline_update_urls": [],
+      "brier_score": 0.0196,
+      "closing_probability": 0.86,
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 293000000.0,
+        "award_count": 3,
+        "known_award_value": 700700.0,
+        "lead_agencies": [
+          "Department of Energy",
+          "White House Office of Science and Technology Policy"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "genesis-robotic-lab-review",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
+          "target_date": "2026-07-22",
+          "timing": "awaiting_confirmation",
+          "title": "Review federal robotic and AI-directed laboratory capabilities"
+        },
+        "official_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
+        "open_opportunities": 1,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "MCKINSEY & COMPANY, INC. WASHINGTON D.C."
+        ],
+        "record_count": 6,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Governance of AI-Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19690658/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "DISTRIBUTED LEDGER-BASED HYBRID QUANTUM MACHINE LEARNING RANSOMWARE SECURITY",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19677731/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-09-16",
+          "role": "official funding announcement",
+          "title": "Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges",
+          "url": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-08-21",
+          "role": "official award notice",
+          "title": "Genesis Mission RFA Awards List",
+          "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-05-19",
+          "role": "official award",
+          "title": "GENESIS MISSION ACCELERATION",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-03-17",
+          "role": "official grant opportunity",
+          "title": "The Genesis Mission: Transforming Science and Energy with AI",
+          "url": "https://www.grants.gov/search-results-detail/361526"
+        },
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "Genesis Mission",
+          "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
+        }
+      ],
+      "forecast_id": "forecast-cbfcf8e866cfafcb",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-10-29",
+      "impact": "critical",
+      "initial_probability": 0.86,
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
+      "outcome": true,
+      "outcome_evidence": {
+        "date": "2026-10-08",
+        "title": "Genesis Mission Graduate Fellowship Pilot",
+        "url": "https://www.grants.gov/search-results-detail/364033"
+      },
+      "probability": 0.86,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "recent official funding activity",
+          "points": 0.18
+        },
+        {
+          "factor": "recent award execution",
+          "points": 0.12
+        },
+        {
+          "factor": "existing acquisition activity",
+          "points": 0.08
+        },
+        {
+          "factor": "multi-record execution trail",
+          "points": 0.06
+        },
+        {
+          "factor": "near-term mission milestone",
+          "points": 0.08
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.86,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-29?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:genesis-mission:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "resolved_at": "2026-10-09T04:00:28.219178+00:00",
+      "status": "resolved",
+      "subject": "Genesis Mission",
+      "subject_id": "genesis-mission",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "evidence": {
+            "date": "2026-10-08",
+            "title": "Genesis Mission Graduate Fellowship Pilot",
+            "url": "https://www.grants.gov/search-results-detail/364033"
+          },
+          "indicator": "Additional linked federal opportunity",
+          "status": "observed"
         },
         {
           "direction": "disconfirming",
@@ -4000,6 +3947,399 @@
   "method_note": "Probabilities use bounded, published heuristics from mission priority, recent official activity, funding, awards, open opportunities, and milestone timing. Forecasts retain their probability history and are scored with the Brier rule after resolution. If supporting linkage is corrected, the forecast is withdrawn transparently and is not included in calibration.",
   "resolved_forecasts": [
     {
+      "baseline_record_keys": [
+        "grants_gov:DE-FOA-0003612",
+        "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf"
+      ],
+      "baseline_update_urls": [],
+      "brier_score": 0.0196,
+      "closing_probability": 0.86,
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-10-01T03:31:08.575959+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 293000000.0,
+        "award_count": 4,
+        "known_award_value": 700700.0,
+        "lead_agencies": [
+          "Department of Energy",
+          "White House Office of Science and Technology Policy"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "genesis-robotic-lab-review",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
+          "target_date": "2026-07-22",
+          "timing": "awaiting_confirmation",
+          "title": "Review federal robotic and AI-directed laboratory capabilities"
+        },
+        "official_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
+        "open_opportunities": 2,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "MCKINSEY & COMPANY, INC. WASHINGTON D.C."
+        ],
+        "record_count": 8,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Governance of AI-Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19690658/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "DISTRIBUTED LEDGER-BASED HYBRID QUANTUM MACHINE LEARNING RANSOMWARE SECURITY",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19677731/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-10-08",
+          "role": "official award notice",
+          "title": "Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science",
+          "url": "https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-10-08",
+          "role": "official grant opportunity",
+          "title": "Genesis Mission Graduate Fellowship Pilot",
+          "url": "https://www.grants.gov/search-results-detail/364033"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-09-16",
+          "role": "official funding announcement",
+          "title": "Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges",
+          "url": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-08-21",
+          "role": "official award notice",
+          "title": "Genesis Mission RFA Awards List",
+          "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-05-19",
+          "role": "official award",
+          "title": "GENESIS MISSION ACCELERATION",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
+        },
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "Genesis Mission",
+          "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
+        }
+      ],
+      "forecast_id": "forecast-c5e50e4441dea878",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-12-30",
+      "impact": "critical",
+      "initial_probability": 0.86,
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
+      "outcome": true,
+      "outcome_evidence": {
+        "date": "2026-10-08",
+        "title": "Genesis Mission Graduate Fellowship Pilot",
+        "url": "https://www.grants.gov/search-results-detail/364033"
+      },
+      "probability": 0.86,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "recent official funding activity",
+          "points": 0.18
+        },
+        {
+          "factor": "recent award execution",
+          "points": 0.12
+        },
+        {
+          "factor": "existing acquisition activity",
+          "points": 0.08
+        },
+        {
+          "factor": "multi-record execution trail",
+          "points": 0.06
+        },
+        {
+          "factor": "near-term mission milestone",
+          "points": 0.08
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-10-01T03:31:08.575959+00:00",
+          "probability": 0.86,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2027-01-07?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:genesis-mission:2026-Q4",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "resolved_at": "2026-10-09T04:00:28.219178+00:00",
+      "status": "resolved",
+      "subject": "Genesis Mission",
+      "subject_id": "genesis-mission",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "evidence": {
+            "date": "2026-10-08",
+            "title": "Genesis Mission Graduate Fellowship Pilot",
+            "url": "https://www.grants.gov/search-results-detail/364033"
+          },
+          "indicator": "Additional linked federal opportunity",
+          "status": "observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [
+        "grants_gov:DE-FOA-0003612",
+        "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf"
+      ],
+      "baseline_update_urls": [],
+      "brier_score": 0.0196,
+      "closing_probability": 0.86,
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 293000000.0,
+        "award_count": 3,
+        "known_award_value": 700700.0,
+        "lead_agencies": [
+          "Department of Energy",
+          "White House Office of Science and Technology Policy"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "genesis-robotic-lab-review",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
+          "target_date": "2026-07-22",
+          "timing": "awaiting_confirmation",
+          "title": "Review federal robotic and AI-directed laboratory capabilities"
+        },
+        "official_url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
+        "open_opportunities": 1,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "MCKINSEY & COMPANY, INC. WASHINGTON D.C."
+        ],
+        "record_count": 6,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Governance of AI-Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19690658/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: quantum, artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "DISTRIBUTED LEDGER-BASED HYBRID QUANTUM MACHINE LEARNING RANSOMWARE SECURITY",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19677731/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-09-16",
+          "role": "official funding announcement",
+          "title": "Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges",
+          "url": "https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-08-21",
+          "role": "official award notice",
+          "title": "Genesis Mission RFA Awards List",
+          "url": "https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-05-19",
+          "role": "official award",
+          "title": "GENESIS MISSION ACCELERATION",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732"
+        },
+        {
+          "authority": "authoritative",
+          "date": "2026-03-17",
+          "role": "official grant opportunity",
+          "title": "The Genesis Mission: Transforming Science and Energy with AI",
+          "url": "https://www.grants.gov/search-results-detail/361526"
+        },
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "Genesis Mission",
+          "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission"
+        }
+      ],
+      "forecast_id": "forecast-cbfcf8e866cfafcb",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-10-29",
+      "impact": "critical",
+      "initial_probability": 0.86,
+      "last_evaluated_at": "2026-10-09T04:00:28.219178+00:00",
+      "outcome": true,
+      "outcome_evidence": {
+        "date": "2026-10-08",
+        "title": "Genesis Mission Graduate Fellowship Pilot",
+        "url": "https://www.grants.gov/search-results-detail/364033"
+      },
+      "probability": 0.86,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "recent official funding activity",
+          "points": 0.18
+        },
+        {
+          "factor": "recent award execution",
+          "points": 0.12
+        },
+        {
+          "factor": "existing acquisition activity",
+          "points": 0.08
+        },
+        {
+          "factor": "multi-record execution trail",
+          "points": 0.06
+        },
+        {
+          "factor": "near-term mission milestone",
+          "points": 0.08
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.86,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-29?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:genesis-mission:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "resolved_at": "2026-10-09T04:00:28.219178+00:00",
+      "status": "resolved",
+      "subject": "Genesis Mission",
+      "subject_id": "genesis-mission",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "evidence": {
+            "date": "2026-10-08",
+            "title": "Genesis Mission Graduate Fellowship Pilot",
+            "url": "https://www.grants.gov/search-results-detail/364033"
+          },
+          "indicator": "Additional linked federal opportunity",
+          "status": "observed"
+        },
+        {
+          "direction": "disconfirming",
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "not_observed"
+        }
+      ]
+    },
+    {
       "baseline_record_keys": [],
       "baseline_update_urls": [],
       "brier_score": 0.2025,
@@ -4940,19 +5280,19 @@
   ],
   "scope_note": "Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.",
   "summary": {
-    "accuracy_rate": 0.167,
-    "active": 8,
+    "accuracy_rate": 0.375,
+    "active": 7,
     "calibration_label": "Needs calibration",
-    "due_within_30_days": 2,
+    "due_within_30_days": 1,
     "invalidated": 2,
-    "mean_brier_score": 0.312,
+    "mean_brier_score": 0.2389,
     "observed_triggers": 0,
-    "resolved": 6
+    "resolved": 8
   },
   "temporal_context": {
-    "comparison_started_at": "2026-10-07T03:41:21.303454+00:00",
+    "comparison_started_at": "2026-10-08T03:55:07.199892+00:00",
     "historical_discoveries": 0
   },
-  "updated_at": "2026-10-08T03:55:07.199892+00:00",
+  "updated_at": "2026-10-09T04:00:28.219178+00:00",
   "version": 1
 }

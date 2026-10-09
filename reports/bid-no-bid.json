@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 70,
+      "days_to_close": 69,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -192,7 +192,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 11,
+      "days_to_close": 10,
       "deadline": "10/19/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -291,17 +291,119 @@
         "Confirm submission instructions in the controlling solicitation"
       ],
       "url": "https://www.grants.gov/search-results-detail/363869"
+    },
+    {
+      "agency": "PAMS-SC",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 95,
+      "deadline": "01/12/2027",
+      "decision_freshness": {
+        "current_gate": "qualify",
+        "current_score": 62,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": null,
+        "previous_score": null,
+        "status": "current"
+      },
+      "decision_score": 62,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +22",
+              "mission fit +22",
+              "critical mission +8",
+              "actionable grant_opportunity +9",
+              "open_window +4",
+              "new since yesterday +5"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/364033"
+            ],
+            "points": 70
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/364033"
+            ],
+            "points": -8
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 62,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/364033"
+        ],
+        "trace_hash": "3e14b7a7c0738b45"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [],
+      "mission_fit": [
+        "Genesis Mission"
+      ],
+      "opportunity_key": "grants_gov:DE-FOA-0003673",
+      "potential_teaming_candidates": [],
+      "provisional_gate": "qualify",
+      "public_evidence_score": 62,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Assign an opportunity owner and validate mission/capability fit",
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/364033"
+      ],
+      "technology_fit": [],
+      "title": "Genesis Mission Graduate Fellowship Pilot",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/364033"
     }
   ],
   "scope_note": "Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.",
   "summary": {
-    "brief_count": 2,
+    "brief_count": 3,
     "decisions_revalidation_required": 0,
     "hold": 0,
     "priority_qualification": 0,
-    "qualify": 2,
+    "qualify": 3,
     "targeted_review": 0
   },
-  "updated_at": "2026-10-08T03:55:07.199892+00:00",
+  "updated_at": "2026-10-09T04:00:28.219178+00:00",
   "version": 1
 }

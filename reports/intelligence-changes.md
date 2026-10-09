@@ -2,27 +2,31 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-08T03:55:07.199892+00:00_
+_Updated 2026-10-09T04:00:28.219178+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **33**
-- Added / changed / resolved: **4 / 2 / 27**
+- Material changes: **37**
+- Added / changed / resolved: **9 / 1 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.** — reported amount: 5054982.36 ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-))
-- **THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.** — reported amount: 5.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-))
+- **CONDUCT RDT_E PROJECTS FOCUSED ON PROVIDING SOLUTIONS TO IDENTIFIED AIRBASE TECHNOLOGY CAPABILITY GAPS IN THE AREAS OF CIVIL ENGINEER ROBOTIC AND AUTONOMOUS SYSTEMS TECHNOLOGIES (...** — reported amount: 3733718.9 ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA805126F0003_9700_47QRCA25DU046_4732))
 
 ## New claims
 
-- **SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_DECR0000118_089))
-- **SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...** — awarding agency: Department of Energy ([evidence](https://www.usaspending.gov/award/ASST_NON_DECR0000118_089))
-- **SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...** — reported amount: 10000000.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_DECR0000118_089))
-- **SOUTHEAST REGION CYBERSECURITY COLLABORATION CENTER (SERC3) FOR NEXT GENERATION OF CYBER RESEARCH, DEVELOPMENT, AND DEMONSTRATION THE SOUTHEAST REGION CYBERSECURITY COLLABORATION...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_DECR0000118_089))
+- **Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science** — opportunity status: awarded ([evidence](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science))
+- **Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science** — awarding agency: DOE Federal Science Missions ([evidence](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science))
+- **Genesis Mission** — executes through: — ([evidence](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science))
+- **Genesis Mission Graduate Fellowship Pilot** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/364033))
+- **Genesis Mission Graduate Fellowship Pilot** — deadline: 01/12/2027 ([evidence](https://www.grants.gov/search-results-detail/364033))
+- **Genesis Mission Graduate Fellowship Pilot** — awarding agency: PAMS-SC ([evidence](https://www.grants.gov/search-results-detail/364033))
+- **Genesis Mission** — executes through: — ([evidence](https://www.grants.gov/search-results-detail/364033))
+- **Genesis Mission Graduate Fellowship Pilot** — pursuit stage: qualify ([evidence]())
+- **Genesis Mission Graduate Fellowship Pilot** — qualification gate: qualify ([evidence](https://www.grants.gov/search-results-detail/364033))
 
 ## Superseded claims
 
