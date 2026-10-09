@@ -2,7 +2,7 @@
 
 > **Quantum Research Scout** · Intelligence archive and operational dashboard
 
-_Updated 2026-10-09 04:09 UTC_
+_Updated 2026-10-09 18:39 UTC_
 
 [Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
 
@@ -11,7 +11,7 @@ _Updated 2026-10-09 04:09 UTC_
 ## Latest Reports
 
 - Daily: [2026-10-08-digest](2026-10/2026-10-08-digest.md)
-- Weekly: [2026-09-28_to_2026-10-02-weekly](weekly/2026/2026-09-28_to_2026-10-02-weekly.md)
+- Weekly: [2026-10-05_to_2026-10-09-weekly](weekly/2026/2026-10-05_to_2026-10-09-weekly.md)
 - Monthly: [2026-09-monthly](monthly/2026/2026-09-monthly.md)
 
 ## Intelligence Tracking
@@ -38,7 +38,7 @@ _Updated 2026-10-09 04:09 UTC_
 
 ## Current High-Priority Themes
 
-- PQC migration and crypto-agility appeared in 25 signal(s), with emphasis on readiness, inventory, and implementation planning.
+- PQC migration and crypto-agility appeared in 31 signal(s), with emphasis on readiness, inventory, and implementation planning.
 - Watch for TLS, PKI, CBOM, FIPS, HNDL, and inventory-specific movement next week.
 - Quantum-safe platform claims appeared and should be checked against concrete standards alignment.
 - QEC and fault-tolerance signals centered on logical-qubit reliability and code overhead.
@@ -49,6 +49,7 @@ _Updated 2026-10-09 04:09 UTC_
 
 ## Recent Weekly Reports
 
+- [2026-10-05_to_2026-10-09-weekly](weekly/2026/2026-10-05_to_2026-10-09-weekly.md)
 - [2026-09-28_to_2026-10-02-weekly](weekly/2026/2026-09-28_to_2026-10-02-weekly.md)
 - [2026-09-21_to_2026-09-25-weekly](weekly/2026/2026-09-21_to_2026-09-25-weekly.md)
 - [2026-09-14_to_2026-09-18-weekly](weekly/2026/2026-09-14_to_2026-09-18-weekly.md)
@@ -60,7 +61,6 @@ _Updated 2026-10-09 04:09 UTC_
 - [2026-08-03_to_2026-08-07-weekly](weekly/2026/2026-08-03_to_2026-08-07-weekly.md)
 - [2026-07-27_to_2026-07-31-weekly](weekly/2026/2026-07-27_to_2026-07-31-weekly.md)
 - [2026-07-13_to_2026-07-19-weekly](weekly/2026/2026-07-13_to_2026-07-19-weekly.md)
-- [2026-07-06_to_2026-07-12-weekly](weekly/2026/2026-07-06_to_2026-07-12-weekly.md)
 
 ## Recent Monthly Reports
 
@@ -73,6 +73,6 @@ _Updated 2026-10-09 04:09 UTC_
 ## Archive Summary
 
 - Daily reports retained: **31**
-- Weekly syntheses retained: **20**
+- Weekly syntheses retained: **21**
 - Monthly syntheses retained: **5**
 - Daily reports use a rolling 30-day retention window; weekly and monthly syntheses are retained indefinitely.
