@@ -4,19 +4,19 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-09 04:09 UTC_
+_Updated 2026-10-10 03:49 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-10-05 | 23 |
-| Quantum Networking | ↗️ rising (9 vs 5) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-08 | 146 |
+| Quantum Networking | ↗️ rising (9 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-09 | 147 |
 | Quantum Sensing | ↗️ rising (5 vs 1) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-01 | 51 |
-| PQC / Crypto Agility | ➡️ stable (23 vs 20) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-08 | 273 |
+| PQC / Crypto Agility | ➡️ stable (22 vs 19) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-09 | 274 |
 | QEC / Fault Tolerance | ➡️ stable (4 vs 3) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-10-08 | 77 |
-| Quantum Hardware | ↘️ declining (6 vs 10) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-08 | 315 |
-| Quantum Software / Tooling | ↘️ declining (2 vs 6) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-08 | 98 |
+| Quantum Hardware | ➡️ stable (8 vs 10) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-09 | 318 |
+| Quantum Software / Tooling | ↘️ declining (2 vs 7) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-09 | 99 |
 | Standards / Government | ➡️ stable (10 vs 9) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-10-08 | 76 |
 
 ## AI Security
@@ -35,11 +35,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph, Quantum Computing Report
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
+  - 2026-10-09 — [IonQ Demonstrates World-First Quantum Memory-Enhanced Interconnect for Distributed Quantum Applications](https://investors.ionq.com/news/news-details/2026/IonQ-Demonstrates-World-First-Quantum-Memory-Enhanced-Interconnect-for-Distributed-Quantum-Applications/default.aspx) (IonQ News, score 37)
   - 2026-10-08 — [Quantum Networking at the Speed of Quantum Computation: Kilohertz Entanglement in a Heterogeneous Quantum System](https://arxiv.org/abs/2610.10705) (arXiv RSS quant-ph, score 118)
   - 2026-10-08 — [Structured leakage in OAM-encoded qubits revealed by distributed quantum feature extraction](https://arxiv.org/abs/2610.11001) (arXiv RSS quant-ph, score 82)
   - 2026-10-06 — [Zapata Quantum Joins IBM Quantum Network to Accelerate Enterprise Application Development](https://quantumcomputingreport.com/zapata-quantum-joins-ibm-quantum-network-to-accelerate-enterprise-application-development) (Quantum Computing Report, score 67)
   - 2026-10-05 — [WLPA: A Network Management Framework for Allocating Scarce Quantum-Safe Link Postures under Weakest-Link Exposure](https://arxiv.org/abs/2610.04897) (arXiv RSS cs.CR, score 103)
-  - 2026-10-05 — [Quantum Machine Learning Protection of Military Quantum Key Distribution Against Cryptographically Camouflaged Attacks](https://arxiv.org/abs/2610.04543) (arXiv RSS cs.CR, score 100)
 
 ## Quantum Sensing
 
@@ -57,11 +57,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-10-09 — [BTQ and MoonPay Korea Partner on Post-Quantum Stablecoin Security](https://thequantuminsider.com/2026/10/09/btq-technologies-secure-moonpay-korea-stablecoin-infrastructure) (The Quantum Insider, score 78)
   - 2026-10-08 — [Provable Subexponential Algorithms for NIST Third-Round Lattice Families](https://arxiv.org/abs/2610.11254) (arXiv RSS cs.CR, score 189)
   - 2026-10-08 — [Surfshark Adds ML-DSA Authentication to Post-Quantum WireGuard](https://thequantuminsider.com/2026/10/08/surfshark-achieves-full-post-quantum-wireguard-implementation) (The Quantum Insider, score 167)
   - 2026-10-08 — [Accelerating HQC for Post-Quantum TLS 1.3 on x86 IoT Gateways](https://arxiv.org/abs/2610.11107) (arXiv RSS cs.CR, score 130)
   - 2026-10-08 — [The Hint Weight of ML-DSA Signatures Is Key-Dependent: An Empirical Study across the Three FIPS 204 Parameter Sets](https://arxiv.org/abs/2610.10992) (arXiv RSS cs.CR, score 122)
-  - 2026-10-07 — [From Discovery to Remediation: Operationalizing CBOM for Quantum-Safe Transformation](https://pqca.org/webinars/2026/from-discovery-to-remediation-operationalizing-cbom-for-quantum-safe-transformation) (PQCA Blog and News, score 138)
 
 ## QEC / Fault Tolerance
 
@@ -79,22 +79,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-10-09 — [IonQ Demonstrates 1,000 Entanglement Events per Second in Quantum Interconnect](https://thequantuminsider.com/2026/10/09/ionq-1000-entanglement-events-per-second-quantum-interconnect) (The Quantum Insider, score 62)
+  - 2026-10-09 — [Tuning a quantum computer: what a violin teaches us about qubit calibration](https://thequantuminsider.com/2026/10/09/tuning-a-quantum-computer-what-a-violin-teaches-us-about-qubit-calibration) (The Quantum Insider, score 26)
+  - 2026-10-09 — [izmo Microsystems and IIT Madras Advance ₹99.94 Crore Silicon Photonics Program](https://thequantuminsider.com/2026/10/09/izmo-microsystems-iit-madras-phase-ii-99-94-crore-silicon-photonics-program) (The Quantum Insider, score 24)
   - 2026-10-08 — [Photonic Chips for Universal Quantum Computing: Retrospective and Prospective](https://arxiv.org/abs/2610.11321) (arXiv RSS quant-ph, score 80)
   - 2026-10-07 — [Infineon and ZuriQ Deepen Partnership to Advance Scalable Quantum Chips](https://thequantuminsider.com/2026/10/07/infineon-zuriq-scalable-quantum-chips) (The Quantum Insider, score 44)
-  - 2026-10-06 — [Xanadu Partners with GlobalFoundries to Scale Photonic Quantum Component Manufacturing on 300 mm Semiconductor Lines](https://quantumcomputingreport.com/xanadu-partners-with-globalfoundries-to-scale-photonic-quantum-component-manufacturing-on-300-mm-semiconductor-lines) (Quantum Computing Report, score 81)
-  - 2026-10-05 — [Germany Advances Key Consortia in €640 Million ($717.2 Million USD) Fault-Tolerant Quantum Computing Competition](https://quantumcomputingreport.com/germany-advances-key-consortia-in-e640-million-717-2-million-usd-fault-tolerant-quantum-computing-competition) (Quantum Computing Report, score 102)
-  - 2026-10-05 — [Quantinuum and The University of Western Australia Partner to Advance Australia’s Hybrid Quantum-AI-HPC Ecosystem](https://quantumcomputingreport.com/quantinuum-and-the-university-of-western-australia-partner-to-advance-australias-hybrid-quantum-ai-hpc-ecosystem) (Quantum Computing Report, score 52)
 
 ## Quantum Software / Tooling
 
-- Organizations/sources: Quantum Zeitgeist, QuantumNews.ai, The Quantum Insider, Quantum Computing Report, USAspending · Quantum Technologies
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, USAspending · Quantum Technologies
 - Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
 - Recent supporting evidence:
+  - 2026-10-09 — [Quantum X Labs Seeks Patent for Structured-Beam Atom Cooling System](https://thequantuminsider.com/2026/10/09/quantum-x-labs-us-patent-application-cold-atom-technology) (The Quantum Insider, score 29)
   - 2026-10-08 — [U.S. Department of Energy Unveils Quantum Genesis Priority Applications to Guide Fault-Tolerant Scientific Utility](https://quantumcomputingreport.com/u-s-department-of-energy-unveils-quantum-genesis-priority-applications-to-guide-fault-tolerant-scientific-utility) (Quantum Computing Report, score 74)
   - 2026-10-02 — [US Department of Energy Releases National Quantum Roadmap Establishing 2028 Fault-Tolerance Milestones](https://quantumcomputingreport.com/us-department-of-energy-releases-national-quantum-roadmap-establishing-2028-fault-tolerance-milestones) (Quantum Computing Report, score 55)
   - 2026-10-01 — [D-Wave Launches Gate-Model Simulator Beta Program Featuring 21-Qubit Dual-Rail Erasure Emulation](https://quantumcomputingreport.com/d-wave-launches-gate-model-simulator-beta-program-featuring-21-qubit-dual-rail-erasure-emulation) (Quantum Computing Report, score 42)
   - 2026-10-01 — [D-Wave Launches Gate-Model Quantum Simulator Beta](https://thequantuminsider.com/2026/10/01/d-wave-gate-model-quantum-simulator-beta) (The Quantum Insider, score 24)
-  - 2026-09-30 — [LUTRON QUANTUM SOFTWARE UPGRADE](https://www.usaspending.gov/award/CONT_AWD_47PH5426P0010_4740_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
 
 ## Standards / Government
 

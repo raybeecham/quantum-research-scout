@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-10-09",
+  "as_of_date": "2026-10-10",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-7810176f51241870",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-01",
+      "evidence_ids": [
+        "evidence-9ec1e96310d41252"
+      ],
+      "first_seen_at": "2026-10-10T03:45:36.084617+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-10T03:45:36.084617+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9ec1e96310d41252",
+          "locator": "opportunity_status:awarded",
+          "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80NSSC26M0170",
+        "label": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+        "node_id": "award:usaspending:80NSSC26M0170",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "beb5aa12a2eef20f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-eed2938ecd054198",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-01",
+      "evidence_ids": [
+        "evidence-9d13be6a578d5b60"
+      ],
+      "first_seen_at": "2026-10-10T03:45:36.084617+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-10T03:45:36.084617+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9d13be6a578d5b60",
+          "locator": "awarding_agency:national aeronautics and space administration",
+          "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80NSSC26M0170",
+        "label": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+        "node_id": "award:usaspending:80NSSC26M0170",
+        "node_type": "award"
+      },
+      "value": "National Aeronautics and Space Administration",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5c943ad1e3a8963e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-eda921e140ff3fc0",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-01",
+      "evidence_ids": [
+        "evidence-19e4601fa0f8b31a"
+      ],
+      "first_seen_at": "2026-10-10T03:45:36.084617+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-10T03:45:36.084617+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-19e4601fa0f8b31a",
+          "locator": "reported_amount:896648.0",
+          "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80NSSC26M0170",
+        "label": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+        "node_id": "award:usaspending:80NSSC26M0170",
+        "node_type": "award"
+      },
+      "value": 896648.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "63d7bb0306a8607c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-c1e813dcaad5f57b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-01",
+      "evidence_ids": [
+        "evidence-980e5ea0a19921e1"
+      ],
+      "first_seen_at": "2026-10-10T03:45:36.084617+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-10T03:45:36.084617+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:SQ62WM5KNSV8",
+        "label": "KEAN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-980e5ea0a19921e1",
+          "locator": "reported_recipient:recipient_or_contractor:uei:SQ62WM5KNSV8",
+          "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:80NSSC26M0170",
+        "label": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+        "node_id": "award:usaspending:80NSSC26M0170",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "cb7cf98dc2875e21"
     },
     {
       "authority": "authoritative",
@@ -84217,67 +84402,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-3460f66b2436681b",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-c9c8eabf7975709d"
-      ],
-      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "history": [
-        {
-          "authority": "authoritative",
-          "basis": "Reported amount in the federal record",
-          "confidence": "high",
-          "evidence_ids": [
-            "evidence-ce54af8caabc5ca0"
-          ],
-          "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
-          "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
-          "object": null,
-          "status": "active",
-          "value": 100.0,
-          "version": 1,
-          "version_hash": "deae4f9f4e41050a"
-        }
-      ],
-      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c9c8eabf7975709d",
-          "locator": "reported_amount:201507.0",
-          "title": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_NA26OARX432C0081_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:NA26OARX432C0081",
-        "label": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
-        "node_id": "award:usaspending:NA26OARX432C0081",
-        "node_type": "award"
-      },
-      "value": 201507.0,
-      "verification_status": "source_reported",
-      "version": 2,
-      "version_hash": "ba002a6ab765bb1e"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-b0cfa49dca23c89e",
       "confidence": "high",
@@ -84815,6 +84939,67 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "320a4f2d0ee2442b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-3460f66b2436681b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-c9c8eabf7975709d"
+      ],
+      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported amount in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-ce54af8caabc5ca0"
+          ],
+          "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
+          "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
+          "object": null,
+          "status": "active",
+          "value": 100.0,
+          "version": 1,
+          "version_hash": "deae4f9f4e41050a"
+        }
+      ],
+      "last_seen_at": "2026-08-23T00:54:11.501661+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c9c8eabf7975709d",
+          "locator": "reported_amount:201507.0",
+          "title": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_NA26OARX432C0081_013",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:NA26OARX432C0081",
+        "label": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
+        "node_id": "award:usaspending:NA26OARX432C0081",
+        "node_type": "award"
+      },
+      "value": 201507.0,
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "ba002a6ab765bb1e"
     },
     {
       "authority": "authoritative",
@@ -120586,146 +120771,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-f221c8b8aff115c8",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-681833e6514235e5"
-      ],
-      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-681833e6514235e5",
-          "locator": "opportunity_status:awarded",
-          "title": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_NA26OARX432C0081_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:NA26OARX432C0081",
-        "label": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
-        "node_id": "award:usaspending:NA26OARX432C0081",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "e2ecea3ec953a54d"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-85a9efa623908441",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-39cf64ecf0fa8325"
-      ],
-      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-39cf64ecf0fa8325",
-          "locator": "awarding_agency:department of commerce",
-          "title": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_NA26OARX432C0081_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:NA26OARX432C0081",
-        "label": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
-        "node_id": "award:usaspending:NA26OARX432C0081",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "ab04b3203b862f40"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-7f9f9113f5934066",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-2da21d141d0224cf"
-      ],
-      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:MZ4DYXE1SL98",
-        "label": "OREGON STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MZ4DYXE1SL98",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2da21d141d0224cf",
-          "locator": "reported_recipient:recipient_or_contractor:uei:MZ4DYXE1SL98",
-          "title": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_NA26OARX432C0081_013",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:NA26OARX432C0081",
-        "label": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
-        "node_id": "award:usaspending:NA26OARX432C0081",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "5e0861362f972b4b"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-e83e96a6629e1e3c",
       "confidence": "high",
@@ -121263,6 +121308,146 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "683922e33421cfb2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-f221c8b8aff115c8",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-681833e6514235e5"
+      ],
+      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-681833e6514235e5",
+          "locator": "opportunity_status:awarded",
+          "title": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_NA26OARX432C0081_013",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:NA26OARX432C0081",
+        "label": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
+        "node_id": "award:usaspending:NA26OARX432C0081",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e2ecea3ec953a54d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-85a9efa623908441",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-39cf64ecf0fa8325"
+      ],
+      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-39cf64ecf0fa8325",
+          "locator": "awarding_agency:department of commerce",
+          "title": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_NA26OARX432C0081_013",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:NA26OARX432C0081",
+        "label": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
+        "node_id": "award:usaspending:NA26OARX432C0081",
+        "node_type": "award"
+      },
+      "value": "Department of Commerce",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ab04b3203b862f40"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-7f9f9113f5934066",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-2da21d141d0224cf"
+      ],
+      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:MZ4DYXE1SL98",
+        "label": "OREGON STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:MZ4DYXE1SL98",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2da21d141d0224cf",
+          "locator": "reported_recipient:recipient_or_contractor:uei:MZ4DYXE1SL98",
+          "title": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_NA26OARX432C0081_013",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:NA26OARX432C0081",
+        "label": "THE COOPERATIVE INSTITUTE FOR MARINE ECOSYSTEM AND RESOURCES STUDIES (CIMERS) IS HEADQUARTERED AT OREGON STATE UNIVERSITY'S HATFIELD MARINE SCIENCE CENTER ON THE WORKING WATERFRON...",
+        "node_id": "award:usaspending:NA26OARX432C0081",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5e0861362f972b4b"
     },
     {
       "authority": "authoritative",
@@ -248241,7 +248426,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248288,7 +248473,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248335,7 +248520,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248382,7 +248567,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248429,7 +248614,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248476,7 +248661,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248523,7 +248708,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248570,7 +248755,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248617,7 +248802,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248664,7 +248849,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248711,7 +248896,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248758,7 +248943,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248805,7 +248990,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248852,7 +249037,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248899,7 +249084,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248946,7 +249131,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248993,7 +249178,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249040,7 +249225,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249092,7 +249277,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249144,7 +249329,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249196,7 +249381,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249248,7 +249433,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249300,7 +249485,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249352,7 +249537,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249404,7 +249589,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249456,7 +249641,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249508,7 +249693,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-09T04:00:28.219178+00:00",
+      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -254784,6 +254969,16 @@
       "locator": "awarding_agency:department of homeland security",
       "title": "2(D), THIS IS A DIRECT 8(A) CONTRACT WITH RADIAL SOLUTIONS INC (RSI) TO PROVIDE QUANTUM DEFENSE TECHNOLOGY (QD5) POST QUANTUM CRYPTOGRAPHY ONE-TIME PAD (OTP) ENCRYPTION HARDWARE.",
       "url": "https://www.usaspending.gov/award/CONT_AWD_70US0925C70093451_7009_-NONE-_-NONE-/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-19e4601fa0f8b31a",
+      "locator": "reported_amount:896648.0",
+      "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
       "verification_status": "source_reported"
     },
     {
@@ -279361,6 +279556,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-980e5ea0a19921e1",
+      "locator": "reported_recipient:recipient_or_contractor:uei:SQ62WM5KNSV8",
+      "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-980fe58c67a97f1a",
       "locator": "reported_recipient:recipient_or_contractor:uei:SQ62WM5KNSV8",
       "title": "S-STEM: ADVANCING GRADUATE SUCCESS AND WORKFORCE PREPARATION IN COMPUTER SCIENCE -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCIENTISTS, MATHEMATICIANS, E...",
@@ -280271,6 +280476,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-9d13be6a578d5b60",
+      "locator": "awarding_agency:national aeronautics and space administration",
+      "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-9d15b822086da34f",
       "locator": "opportunity_status:open",
       "title": "Sensor Agnostic Emulator & Trainer (SAET)",
@@ -280615,6 +280830,16 @@
       "locator": "reported_recipient:recipient_or_contractor:name:dh technologies",
       "title": "REDHAT AUTOMATION PLATFORM (AAP) SOFTWARE PROVIDES CYBERSECURITY AND PRIVACY OPERATIONS CENTER (CPOC) WITH AN AUTOMATION CAPABILITY ON LINUX WHICH PROVIDES FOR REDUCED LABOR COSTS...",
       "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0218_1205_NNG15SC70B_8000/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-9ec1e96310d41252",
+      "locator": "opportunity_status:awarded",
+      "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+      "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
       "verification_status": "source_reported"
     },
     {
@@ -300531,16 +300756,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4993,
-    "authoritative_claims": 4783,
+    "active_claims": 4997,
+    "authoritative_claims": 4787,
     "conflicted_claims": 38,
     "derived_claims": 205,
-    "evidence_items": 5099,
-    "source_urls": 1377,
-    "subjects": 1028,
+    "evidence_items": 5103,
+    "source_urls": 1378,
+    "subjects": 1029,
     "superseded_claims": 0,
-    "total_claims": 5020
+    "total_claims": 5024
   },
-  "updated_at": "2026-10-09T04:00:28.219178+00:00",
+  "updated_at": "2026-10-10T03:45:36.084617+00:00",
   "version": 1
 }

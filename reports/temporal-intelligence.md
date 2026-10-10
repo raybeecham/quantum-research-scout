@@ -2,27 +2,19 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-10-09T04:00:28.219178+00:00_
+_Updated 2026-10-10T03:45:36.084617+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **10**
+- Actual or recent changes: **0**
 - Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **16**
 
 ## Priority timeline
 
-- **Changed since prior run** · CONDUCT RDT_E PROJECTS FOCUSED ON PROVIDING SOLUTIONS TO IDENTIFIED AIRBASE TECHNOLOGY CAPABILITY GAPS IN THE AREAS OF CIVIL ENGINEER ROBOTIC AND AUTONOMOUS SYSTEMS TECHNOLOGIES (... — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA805126F0003_9700_47QRCA25DU046_4732))
-  - The assertion changed relative to the prior successful ledger build.
-- **Happened today** · Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science — awarding agency ([evidence](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science))
-  - The source-reported event date is today or within the prior day.
-- **Happened today** · Genesis Mission — executes through ([evidence](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science))
-  - The source-reported event date is today or within the prior day.
-- **Published today** · Genesis Mission Graduate Fellowship Pilot — awarding agency ([evidence](https://www.grants.gov/search-results-detail/364033))
-  - The source publication date is today or within the prior day.
-- **Published today** · Genesis Mission — executes through ([evidence](https://www.grants.gov/search-results-detail/364033))
-  - The source publication date is today or within the prior day.
+- **Upcoming event date** · THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE... — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080))
+  - The source date is in the future; Scout first observed it on 2026-10-10.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

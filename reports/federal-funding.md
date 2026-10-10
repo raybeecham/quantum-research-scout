@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-10-09 04:00 UTC_
+_Updated 2026-10-10 03:45 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -17,7 +17,7 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Mission-linked records: **19**
 - Missions with activity: **5 of 10**
 - Named recipients and contractors: **329**
-- Known reported award value: **$964.5M**
+- Known reported award value: **$965.2M**
 
 ## Opportunity Radar
 
@@ -123,10 +123,10 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | UNIVERSITY OF ILLINOIS | UEI Y8CWNJRCNN91 | **39 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.7M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF TEXAS AT AUSTIN | UEI V6AFQPN18437 | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $5.7M | National Science Foundation | Not linked | 0 |
 | SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | UEI MMLKPW9JLX64 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $10.6M | Department of Commerce, Department of Homeland Security | Not linked | 0 |
+| KEAN UNIVERSITY | UEI SQ62WM5KNSV8 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.4M | National Aeronautics and Space Administration, National Science Foundation | Not linked | 0 |
 | V3GATE, LLC | UEI J4KHM5JY79E3 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.0M | Department of Justice, Department of Veterans Affairs, VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.241-NETWORK CONTRACT OFFICE 01 (36C241) | Not linked | 0 |
 | UNIVERSITY OF UTAH | UEI LL8GLEVH6MG3 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.7M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF WISCONSIN SYSTEM | UEI LCLSJAGTNZQ7 | **36 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.0M | National Science Foundation | Not linked | 0 |
-| OREGON STATE UNIVERSITY | UEI MZ4DYXE1SL98 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.1M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | PARAGON MICRO INC | UEI E41LV9AJGHQ1 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.0M | Department of Health and Human Services | Not linked | 0 |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | UEI GS3YEVSS12N6 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.5M | Department of Energy, National Science Foundation | Not linked | 0 |
 | GENERAL ELECTRIC COMPANY | Name-resolved | **32 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $48.5M | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK | Not linked | 0 |

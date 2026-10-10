@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-10-09T04:00:28.219178+00:00_
+_Updated 2026-10-10T03:45:36.084617+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **4993**
-- Authoritative claims: **4783**
+- Active claims: **4997**
+- Authoritative claims: **4787**
 - Analytical claims: **205**
 - Conflicted claims: **38**
-- Evidence items / URLs: **5099 / 1377**
+- Evidence items / URLs: **5103 / 1378**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,10 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE... | opportunity status | awarded | authoritative / high | [THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080) |
+| active | THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE... | awarding agency | National Aeronautics and Space Administration | authoritative / high | [THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080) |
+| active | THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE... | reported amount | 896648.0 | authoritative / high | [THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080) |
+| active | THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE... | reported recipient | KEAN UNIVERSITY | authoritative / high | [THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080) |
 | active | Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science | opportunity status | awarded | authoritative / high | [Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science) |
 | active | Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science | awarding agency | DOE Federal Science Missions | authoritative / high | [Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science) |
 | active | Genesis Mission Graduate Fellowship Pilot | opportunity status | open | authoritative / high | [Genesis Mission Graduate Fellowship Pilot](https://www.grants.gov/search-results-detail/364033) |
@@ -260,10 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5. | reported recipient | SHOREPOINT LLC | authoritative / high | [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.](https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100) |
 | active | OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT | opportunity status | awarded | authoritative / high | [OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT](https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732) |
 | active | OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT | awarding agency | Department of Health and Human Services | authoritative / high | [OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT](https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732) |
-| active | OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT | reported amount | 1999705.7 | authoritative / high | [OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT](https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732) |
-| active | OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT | reported recipient | DELOITTE CONSULTING LLP | authoritative / high | [OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT](https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732) |
-| active | THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME). | opportunity status | awarded | authoritative / high | [THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).](https://www.usaspending.gov/award/CONT_AWD_47QTCX26F0010_4732_47QTCA24D00CA_4732) |
-| active | THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME). | awarding agency | General Services Administration | authoritative / high | [THIS CONTRACT SEEKS A SINGLE CYBER SUPPLY CHAIN RISK MANAGEMENT (C-SCRM) AND POST-QUANTUM CRYPTOGRAPHY (PQC) SUBJECT MATTER EXPERT (SME).](https://www.usaspending.gov/award/CONT_AWD_47QTCX26F0010_4732_47QTCA24D00CA_4732) |
 
 ## Method
 

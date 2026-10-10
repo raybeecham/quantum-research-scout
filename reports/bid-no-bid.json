@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 69,
+      "days_to_close": 68,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -192,7 +192,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 10,
+      "days_to_close": 9,
       "deadline": "10/19/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -297,7 +297,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 95,
+      "days_to_close": 94,
       "deadline": "01/12/2027",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -305,8 +305,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "qualify",
+        "previous_score": 62,
         "status": "current"
       },
       "decision_score": 62,
@@ -404,6 +404,6 @@
     "qualify": 3,
     "targeted_review": 0
   },
-  "updated_at": "2026-10-09T04:00:28.219178+00:00",
+  "updated_at": "2026-10-10T03:45:36.084617+00:00",
   "version": 1
 }

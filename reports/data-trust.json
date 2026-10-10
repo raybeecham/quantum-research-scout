@@ -1,15 +1,15 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 27.5,
-      "accepted": 38,
+      "acceptance_rate": 28.1,
+      "accepted": 39,
       "quarantined": 100,
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 93.8,
+      "acceptance_rate": 93.6,
       "accepted": 500,
-      "quarantined": 33,
+      "quarantined": 34,
       "scope": "Federal funding"
     }
   ],
@@ -2290,17 +2290,17 @@
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 130,
+      "count": 131,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 130,
+      "count": 131,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 99,
+      "count": 100,
       "label": "Official government source"
     },
     {
@@ -2316,14 +2316,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 80.2,
-    "accepted": 538,
-    "decisions": 671,
-    "funding_quarantine": 30,
+    "acceptance_rate": 80.1,
+    "accepted": 539,
+    "decisions": 673,
+    "funding_quarantine": 31,
     "mission_quarantine": 100,
-    "quarantined": 133,
+    "quarantined": 134,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-10-09T04:00:28.219178+00:00",
+  "updated_at": "2026-10-10T03:45:36.084617+00:00",
   "version": 1
 }

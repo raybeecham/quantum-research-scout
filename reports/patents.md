@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-09T04:00:28.219178+00:00_
+_Updated 2026-10-10T03:45:36.084617+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -15,9 +15,9 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Automated recent discoveries: **248**
 - Published in the last 30 days: **73**
 - Unique named assignees: **142**
-- Patent families: **288**
+- Patent families: **282**
 - Applications / grants: **240 / 10**
-- Known legal status: **221 of 250**
+- Known legal status: **220 of 250**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -45,7 +45,7 @@ Family grouping uses provider family identifiers, parent/priority applications, 
 | [LIGHTWEIGHT POST-QUANTUM AUTHENTICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19363608/application-data)<br><small>US20260046148A1</small> | UNIVERSITY OF SOUTH FLORIDA | 1 / 0 | 0 | **73 · HIGH** |
 | [Distributed Seed Storage for Quantum-Safe Private Key Generation on Constrained Devices](https://data.uspto.gov/patent-file-wrapper/search/details/19360819/application-data)<br><small>US20260046116A1</small> | DigiCert, Inc. | 1 / 0 | 0 | **73 · HIGH** |
 | [MULTI-PARTY AND MULTI-USE QUANTUM RESISTANT SIGNATURES AND KEY ESTABLISHMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19347195/application-data)<br><small>US20260025282A1</small> | PRIVATEGRITY CORPORATION | 1 / 0 | 0 | **73 · HIGH** |
-| [RECOGNITION-STATE QUANTUM INFORMATIONAL ENCRYPTION (RSQIE) FOR QUANTUM-RESISTANT SECURE DIGITAL COMMUNICATION AND DATA PROTECTION](https://data.uspto.gov/patent-file-wrapper/search/details/19562605/application-data)<br><small>US20260280876A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
+| [QUANTUM RESISTANT TRUST ORCHESTRATION FOR BRAIN COMPUTER INTERFACES](https://data.uspto.gov/patent-file-wrapper/search/details/19453312/application-data)<br><small>US20260310787A1</small> | Not listed | 1 / 0 | 0 | **70 · HIGH** |
 
 ## Notable Patent Watchlist
 
@@ -126,7 +126,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [SYSTEMS AND METHODS FOR QUBIT CONTROL](https://data.uspto.gov/patent-file-wrapper/search/details/19410244/application-data)<br><small>US20260135560A1</small> | Application · Pending | 1372934 B.C. LTD. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [REAL-TIME QUBIT INFORMATION SERVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19434777/application-data)<br><small>US20260127469A1</small> | Application · Pending | Red Hat, Inc. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [METHOD FOR TRANSMITTING INFORMATION IN QUANTUM COMMUNICATION SYSTEM. AND DEVICE THEREFOR](https://data.uspto.gov/patent-file-wrapper/search/details/19114325/application-data)<br><small>US20260100767A1</small> | Application · Pending | LG Electronics Inc. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
-| [ULTRA-LOW NOISE QUANTUM FREQUENCY CONVERSION FOR TRAPPED ION QUANTUM NETWORK](https://data.uspto.gov/patent-file-wrapper/search/details/19110651/application-data)<br><small>US20260079378A1</small> | Application · Pending | University of Maryland, College Park | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [APPARATUS FOR GENERATING GROUP VELOCITY DISPERSION AND QUANTUM COMMUNICATION SYSTEM USING THE SAME](https://data.uspto.gov/patent-file-wrapper/search/details/19264727/application-data)<br><small>US20260063508A1</small> | Application · Pending | POSTECH RESEARCH AND BUSINESS DEVELOPMENT FOUNDATION | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [METHOD, CONTROL PROGRAM, COMPUTER-READABLE DATA CARRIER, CONTROL UNIT, QUANTUM DEVICE, QUANTUM NETWORK, APPARATUS, AND QUANTUM COMPUTING ARRANGEMENT FOR ESTABLISHING A QUANTUM COMMUNICATION CHANNEL](https://data.uspto.gov/patent-file-wrapper/search/details/19289705/application-data)<br><small>US20260051959A1</small> | Application · Pending | Airbus SAS | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [NEAR IR LUMINESCENCE AND OPTICALLY ADDRESSABLE QUANTUM SENSING AND MAGNETIC IMAGING WITH RADICALOID TETRATHIAFULVALENE TETRATHIOLATES](https://data.uspto.gov/patent-file-wrapper/search/details/18866043/application-data)<br><small>US20250319211A1</small> | Application · Pending | The University of Chicago | 1 member(s) · 0 citation(s) | **65 · HIGH** |
@@ -235,6 +234,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [RASTERIZED LASER BEAMS FOR SWAPPING INTERCONNECT QUBIT STATES](https://data.uspto.gov/patent-file-wrapper/search/details/19391535/application-data)<br><small>US20260142115A1</small> | Application · Unknown | IonQ, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [Portable Quantum Sensing Device](https://data.uspto.gov/patent-file-wrapper/search/details/18921456/application-data)<br><small>US20260118447A1</small> | Application · Unknown | Morgan State University | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [REPEATER SELECTION FOR QUANTUM COMMUNICATION NETWORKS](https://data.uspto.gov/patent-file-wrapper/search/details/18912681/application-data)<br><small>US20260100765A1</small> | Application · Unknown | KING FAHD UNIVERSITY OF PETROLEUM AND MINERALS | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
+| [ULTRA-LOW NOISE QUANTUM FREQUENCY CONVERSION FOR TRAPPED ION QUANTUM NETWORK](https://data.uspto.gov/patent-file-wrapper/search/details/19110651/application-data)<br><small>US20260079378A1</small> | Application · Unknown | University of Maryland, College Park | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [METHOD FOR MEASURING AN OBSERVABLE ON A QUANTUM COMPUTING DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19456147/application-data)<br><small>US20260228588A1</small> | Application · Unknown | QEDMA Quantum Computing LTD. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [DIAGNOSIS AND TREATMENT RECOMMENDATION USING QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19427214/application-data)<br><small>US20260128171A1</small> | Application · Unknown | Optum Services (Ireland) Limited | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [Robots Self-Directed by Quantum Computing and Classical Algorithms for Autonomous Physical Procedures in Medical, Dental, Cosmetic, Dermatology, Ophthalmology, and Veterinary Applications.](https://data.uspto.gov/patent-file-wrapper/search/details/19532226/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |

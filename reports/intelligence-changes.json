@@ -282,11 +282,11 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-ffcbada4216e8303",
+      "claim_id": "claim-7810176f51241870",
       "confidence": "high",
-      "effective_date": "2026-10-08",
-      "first_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "last_observed_at": "2026-10-09T04:00:28.219178+00:00",
+      "effective_date": "2026-11-01",
+      "first_observed_at": "2026-10-10T03:45:36.084617+00:00",
+      "last_observed_at": "2026-10-10T03:45:36.084617+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -294,29 +294,29 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5c410f3065cb8dd7",
+          "evidence_id": "evidence-9ec1e96310d41252",
           "locator": "opportunity_status:awarded",
-          "title": "Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science",
-          "url": "https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
+          "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "mission_tracker:https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
-        "label": "Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science",
-        "node_id": "award_notice:mission_tracker:https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
-        "node_type": "award_notice"
+        "identifier": "usaspending:80NSSC26M0170",
+        "label": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+        "node_id": "award:usaspending:80NSSC26M0170",
+        "node_type": "award"
       },
       "value": "awarded"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-ff87090f094411fa",
+      "claim_id": "claim-eed2938ecd054198",
       "confidence": "high",
-      "effective_date": "2026-10-08",
-      "first_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "last_observed_at": "2026-10-09T04:00:28.219178+00:00",
+      "effective_date": "2026-11-01",
+      "first_observed_at": "2026-10-10T03:45:36.084617+00:00",
+      "last_observed_at": "2026-10-10T03:45:36.084617+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -324,281 +324,92 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6f11bdbaef7d5de9",
-          "locator": "awarding_agency:doe federal science missions",
-          "title": "Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science",
-          "url": "https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
+          "evidence_id": "evidence-9d13be6a578d5b60",
+          "locator": "awarding_agency:national aeronautics and space administration",
+          "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "mission_tracker:https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
-        "label": "Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science",
-        "node_id": "award_notice:mission_tracker:https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
-        "node_type": "award_notice"
+        "identifier": "usaspending:80NSSC26M0170",
+        "label": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+        "node_id": "award:usaspending:80NSSC26M0170",
+        "node_type": "award"
       },
-      "value": "DOE Federal Science Missions"
+      "value": "National Aeronautics and Space Administration"
     },
     {
-      "authority": "analytical",
+      "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-faf0697bebe9cd69",
+      "claim_id": "claim-eda921e140ff3fc0",
       "confidence": "high",
-      "effective_date": "2026-10-08",
-      "first_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "last_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "object": {
-        "identifier": "mission_tracker:https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
-        "label": "Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science",
-        "node_id": "award_notice:mission_tracker:https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
-        "node_type": "award_notice"
-      },
-      "predicate": "executes_through",
+      "effective_date": "2026-11-01",
+      "first_observed_at": "2026-10-10T03:45:36.084617+00:00",
+      "last_observed_at": "2026-10-10T03:45:36.084617+00:00",
+      "object": null,
+      "predicate": "reported_amount",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0863d5f0f9c3af98",
-          "locator": "executes_through:award_notice:mission_tracker:https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
-          "title": "Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science",
-          "url": "https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science",
+          "evidence_id": "evidence-19e4601fa0f8b31a",
+          "locator": "reported_amount:896648.0",
+          "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "genesis-mission",
-        "label": "Genesis Mission",
-        "node_id": "mission:genesis-mission",
-        "node_type": "mission"
+        "identifier": "usaspending:80NSSC26M0170",
+        "label": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+        "node_id": "award:usaspending:80NSSC26M0170",
+        "node_type": "award"
+      },
+      "value": 896648.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c1e813dcaad5f57b",
+      "confidence": "high",
+      "effective_date": "2026-11-01",
+      "first_observed_at": "2026-10-10T03:45:36.084617+00:00",
+      "last_observed_at": "2026-10-10T03:45:36.084617+00:00",
+      "object": {
+        "identifier": "uei:SQ62WM5KNSV8",
+        "label": "KEAN UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-980e5ea0a19921e1",
+          "locator": "reported_recipient:recipient_or_contractor:uei:SQ62WM5KNSV8",
+          "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:80NSSC26M0170",
+        "label": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
+        "node_id": "award:usaspending:80NSSC26M0170",
+        "node_type": "award"
       },
       "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-bf18fb05a5ea429e",
-      "confidence": "high",
-      "effective_date": "2026-10-08",
-      "first_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "last_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a1b7a56dc3d24566",
-          "locator": "opportunity_status:open",
-          "title": "Genesis Mission Graduate Fellowship Pilot",
-          "url": "https://www.grants.gov/search-results-detail/364033",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:DE-FOA-0003673",
-        "label": "Genesis Mission Graduate Fellowship Pilot",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003673",
-        "node_type": "opportunity"
-      },
-      "value": "open"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-02c91ca6bd586049",
-      "confidence": "high",
-      "effective_date": "2026-10-08",
-      "first_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "last_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "object": null,
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f32e42d414de6b24",
-          "locator": "deadline:01/12/2027",
-          "title": "Genesis Mission Graduate Fellowship Pilot",
-          "url": "https://www.grants.gov/search-results-detail/364033",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:DE-FOA-0003673",
-        "label": "Genesis Mission Graduate Fellowship Pilot",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003673",
-        "node_type": "opportunity"
-      },
-      "value": "01/12/2027"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-725e234d096349f3",
-      "confidence": "high",
-      "effective_date": "2026-10-08",
-      "first_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "last_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b0cfb0b540e34ae5",
-          "locator": "awarding_agency:pams-sc",
-          "title": "Genesis Mission Graduate Fellowship Pilot",
-          "url": "https://www.grants.gov/search-results-detail/364033",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:DE-FOA-0003673",
-        "label": "Genesis Mission Graduate Fellowship Pilot",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003673",
-        "node_type": "opportunity"
-      },
-      "value": "PAMS-SC"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-c8e1ae6bb6e7b3d7",
-      "confidence": "high",
-      "effective_date": "2026-10-08",
-      "first_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "last_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "object": {
-        "identifier": "grants_gov:DE-FOA-0003673",
-        "label": "Genesis Mission Graduate Fellowship Pilot",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003673",
-        "node_type": "opportunity"
-      },
-      "predicate": "executes_through",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e5c04fddcbad1e10",
-          "locator": "executes_through:opportunity:grants_gov:DE-FOA-0003673",
-          "title": "Genesis Mission Graduate Fellowship Pilot",
-          "url": "https://www.grants.gov/search-results-detail/364033",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "genesis-mission",
-        "label": "Genesis Mission",
-        "node_id": "mission:genesis-mission",
-        "node_type": "mission"
-      },
-      "value": null
-    },
-    {
-      "authority": "analyst",
-      "change_type": "added",
-      "claim_id": "claim-bd2850546f3d0927",
-      "confidence": "high",
-      "effective_date": "2026-10-09",
-      "first_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "last_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "object": null,
-      "predicate": "pursuit_stage",
-      "sources": [
-        {
-          "authority": "unknown",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2ce730be59077f6c",
-          "locator": "pursuit_stage:qualify",
-          "source_ref": "pursuits.yaml",
-          "title": "Public pursuit configuration",
-          "url": "",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:DE-FOA-0003673",
-        "label": "Genesis Mission Graduate Fellowship Pilot",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003673",
-        "node_type": "opportunity"
-      },
-      "value": "qualify"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-d49d65f5bba21267",
-      "confidence": "medium",
-      "effective_date": "2026-10-09",
-      "first_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "last_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-14a4ba6d7eccd611",
-          "locator": "qualification_gate",
-          "title": "Genesis Mission Graduate Fellowship Pilot",
-          "url": "https://www.grants.gov/search-results-detail/364033",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:DE-FOA-0003673",
-        "label": "Genesis Mission Graduate Fellowship Pilot",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003673",
-        "node_type": "opportunity"
-      },
-      "value": "qualify"
     }
   ],
   "baseline_initialized": false,
-  "changed": [
-    {
-      "authority": "authoritative",
-      "change_type": "changed",
-      "claim_id": "claim-ad352ecc3d750005",
-      "confidence": "high",
-      "effective_date": "2026-04-01",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "last_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "previous_object": null,
-      "previous_value": 1910000.0,
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3e007e59d528a550",
-          "locator": "reported_amount:3733718.9",
-          "title": "CONDUCT RDT_E PROJECTS FOCUSED ON PROVIDING SOLUTIONS TO IDENTIFIED AIRBASE TECHNOLOGY CAPABILITY GAPS IN THE AREAS OF CIVIL ENGINEER ROBOTIC AND AUTONOMOUS SYSTEMS TECHNOLOGIES (...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_FA805126F0003_9700_47QRCA25DU046_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:FA805126F0003",
-        "label": "CONDUCT RDT_E PROJECTS FOCUSED ON PROVIDING SOLUTIONS TO IDENTIFIED AIRBASE TECHNOLOGY CAPABILITY GAPS IN THE AREAS OF CIVIL ENGINEER ROBOTIC AND AUTONOMOUS SYSTEMS TECHNOLOGIES (...",
-        "node_id": "award:usaspending:FA805126F0003",
-        "node_type": "award"
-      },
-      "value": 3733718.9
-    }
-  ],
+  "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-10-09T04:00:28.219178+00:00",
-  "comparison_started_at": "2026-10-08T03:55:07.199892+00:00",
+  "comparison_ended_at": "2026-10-10T03:45:36.084617+00:00",
+  "comparison_started_at": "2026-10-09T04:00:28.219178+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1514,19 +1325,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-10-08T03:55:07.199892+00:00",
+  "since": "2026-10-09T04:00:28.219178+00:00",
   "summary": {
-    "active_claims": 4993,
-    "added": 9,
-    "changed": 1,
+    "active_claims": 4997,
+    "added": 4,
+    "changed": 0,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 37,
+    "material_changes": 31,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-10-09T04:00:28.219178+00:00",
+  "updated_at": "2026-10-10T03:45:36.084617+00:00",
   "version": 1
 }

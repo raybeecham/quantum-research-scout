@@ -2,31 +2,26 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-09T04:00:28.219178+00:00_
+_Updated 2026-10-10T03:45:36.084617+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **37**
-- Added / changed / resolved: **9 / 1 / 27**
+- Material changes: **31**
+- Added / changed / resolved: **4 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **CONDUCT RDT_E PROJECTS FOCUSED ON PROVIDING SOLUTIONS TO IDENTIFIED AIRBASE TECHNOLOGY CAPABILITY GAPS IN THE AREAS OF CIVIL ENGINEER ROBOTIC AND AUTONOMOUS SYSTEMS TECHNOLOGIES (...** — reported amount: 3733718.9 ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA805126F0003_9700_47QRCA25DU046_4732))
+- None.
 
 ## New claims
 
-- **Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science** — opportunity status: awarded ([evidence](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science))
-- **Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science** — awarding agency: DOE Federal Science Missions ([evidence](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science))
-- **Genesis Mission** — executes through: — ([evidence](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science))
-- **Genesis Mission Graduate Fellowship Pilot** — opportunity status: open ([evidence](https://www.grants.gov/search-results-detail/364033))
-- **Genesis Mission Graduate Fellowship Pilot** — deadline: 01/12/2027 ([evidence](https://www.grants.gov/search-results-detail/364033))
-- **Genesis Mission Graduate Fellowship Pilot** — awarding agency: PAMS-SC ([evidence](https://www.grants.gov/search-results-detail/364033))
-- **Genesis Mission** — executes through: — ([evidence](https://www.grants.gov/search-results-detail/364033))
-- **Genesis Mission Graduate Fellowship Pilot** — pursuit stage: qualify ([evidence]())
-- **Genesis Mission Graduate Fellowship Pilot** — qualification gate: qualify ([evidence](https://www.grants.gov/search-results-detail/364033))
+- **THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080))
+- **THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...** — awarding agency: National Aeronautics and Space Administration ([evidence](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080))
+- **THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...** — reported amount: 896648.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080))
+- **THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080))
 
 ## Superseded claims
 
