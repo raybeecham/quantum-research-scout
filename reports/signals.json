@@ -3408,13 +3408,31 @@
           "source": "arXiv RSS quant-ph",
           "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures",
           "url": "https://arxiv.org/abs/2610.10948"
+        },
+        {
+          "date": "2026-10-10",
+          "key": "https://quantumcomputingreport.com/ibm-launches-directed-execution-model-and-executor-primitive-to-give-researchers-client-side-control-over-qec-workflows",
+          "report": "2026-10/2026-10-10-digest.md",
+          "score": 76,
+          "source": "Quantum Computing Report",
+          "title": "IBM Launches Directed Execution Model and Executor Primitive to Give Researchers Client-Side Control Over QEC Workflows",
+          "url": "https://quantumcomputingreport.com/ibm-launches-directed-execution-model-and-executor-primitive-to-give-researchers-client-side-control-over-qec-workflows"
+        },
+        {
+          "date": "2026-10-10",
+          "key": "https://quantumcomputingreport.com/university-of-saskatchewan-researchers-achieve-record-hyperbolic-surface-code-efficiency-for-modular-fault-tolerant-architectures",
+          "report": "2026-10/2026-10-10-digest.md",
+          "score": 150,
+          "source": "Quantum Computing Report",
+          "title": "University of Saskatchewan Researchers Achieve Record Hyperbolic Surface Code Efficiency for Modular Fault-Tolerant Architectures",
+          "url": "https://quantumcomputingreport.com/university-of-saskatchewan-researchers-achieve-record-hyperbolic-surface-code-efficiency-for-modular-fault-tolerant-architectures"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-10-08",
-      "momentum": "stable",
+      "latest_seen": "2026-10-10",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -3423,8 +3441,8 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 3,
-      "recent_count": 4,
-      "status": "watching"
+      "recent_count": 6,
+      "status": "actionable"
     },
     "Quantum Hardware": {
       "confidence": "high",
@@ -6290,13 +6308,31 @@
           "source": "The Quantum Insider",
           "title": "IonQ Demonstrates 1,000 Entanglement Events per Second in Quantum Interconnect",
           "url": "https://thequantuminsider.com/2026/10/09/ionq-1000-entanglement-events-per-second-quantum-interconnect"
+        },
+        {
+          "date": "2026-10-10",
+          "key": "https://quantumcomputingreport.com/quic-whitepaper-calls-for-industrial-scale-up-infrastructure-in-eu-chips-act-2-0",
+          "report": "2026-10/2026-10-10-digest.md",
+          "score": 17,
+          "source": "Quantum Computing Report",
+          "title": "QuIC Whitepaper Calls for Industrial Scale-Up Infrastructure in EU Chips Act 2.0",
+          "url": "https://quantumcomputingreport.com/quic-whitepaper-calls-for-industrial-scale-up-infrastructure-in-eu-chips-act-2-0"
+        },
+        {
+          "date": "2026-10-10",
+          "key": "https://quantumcomputingreport.com/xanadu-cuts-quantum-read-only-memory-costs-by-4x-via-dense-encoding",
+          "report": "2026-10/2026-10-10-digest.md",
+          "score": 22,
+          "source": "Quantum Computing Report",
+          "title": "Xanadu Cuts Quantum Read-Only Memory Costs by ~4x via Dense Encoding",
+          "url": "https://quantumcomputingreport.com/xanadu-cuts-quantum-read-only-memory-costs-by-4x-via-dense-encoding"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-10-09",
-      "momentum": "stable",
+      "latest_seen": "2026-10-10",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -6304,9 +6340,9 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 10,
-      "recent_count": 8,
-      "status": "watching"
+      "prior_count": 6,
+      "recent_count": 10,
+      "status": "actionable"
     },
     "Quantum Networking": {
       "confidence": "high",
@@ -9023,12 +9059,21 @@
           "source": "The Quantum Insider",
           "title": "Quantum X Labs Seeks Patent for Structured-Beam Atom Cooling System",
           "url": "https://thequantuminsider.com/2026/10/09/quantum-x-labs-us-patent-application-cold-atom-technology"
+        },
+        {
+          "date": "2026-10-10",
+          "key": "https://quantumcomputingreport.com/ibm-expands-qiskit-beyond-python-with-native-c-api-bindings-for-fortran-c-and-julia",
+          "report": "2026-10/2026-10-10-digest.md",
+          "score": 44,
+          "source": "Quantum Computing Report",
+          "title": "IBM Expands Qiskit Beyond Python with Native C API Bindings for Fortran, C++, and Julia",
+          "url": "https://quantumcomputingreport.com/ibm-expands-qiskit-beyond-python-with-native-c-api-bindings-for-fortran-c-and-julia"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-10-09",
+      "latest_seen": "2026-10-10",
       "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
@@ -9037,8 +9082,8 @@
         "Quantum Computing Report",
         "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 7,
-      "recent_count": 2,
+      "prior_count": 6,
+      "recent_count": 3,
       "status": "watching"
     },
     "Standards / Government": {
@@ -9746,6 +9791,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-10-10T03:49:06.981459+00:00",
+  "updated_at": "2026-10-11T03:24:03.229749+00:00",
   "version": 1
 }

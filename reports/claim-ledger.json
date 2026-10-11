@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-10-10",
+  "as_of_date": "2026-10-11",
   "claims": [
     {
       "authority": "authoritative",
@@ -110199,186 +110199,6 @@
     {
       "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
-      "claim_id": "claim-84c11c3ce8f1f423",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-12",
-      "evidence_ids": [
-        "evidence-ba9228c08721bb16"
-      ],
-      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ba9228c08721bb16",
-          "locator": "legal_business_name:regents of the university of california, the",
-          "title": "Regents of the University of California, The",
-          "url": "https://sam.gov/entity/GS3YEVSS12N6/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:GS3YEVSS12N6",
-        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
-        "node_id": "recipient_or_contractor:uei:GS3YEVSS12N6",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Regents of the University of California, The",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "96b72e99ad3454e6"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity uei",
-      "claim_id": "claim-991a5b22a93a1eb1",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-12",
-      "evidence_ids": [
-        "evidence-ebd928b83199eae2"
-      ],
-      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ebd928b83199eae2",
-          "locator": "uei:gs3yevss12n6",
-          "title": "Regents of the University of California, The",
-          "url": "https://sam.gov/entity/GS3YEVSS12N6/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:GS3YEVSS12N6",
-        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
-        "node_id": "recipient_or_contractor:uei:GS3YEVSS12N6",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "GS3YEVSS12N6",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "d966b1ac476e130e"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity cage code",
-      "claim_id": "claim-6eada6562ad59689",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-12",
-      "evidence_ids": [
-        "evidence-490a280d61ca2a2b"
-      ],
-      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-490a280d61ca2a2b",
-          "locator": "cage_code:50853",
-          "title": "Regents of the University of California, The",
-          "url": "https://sam.gov/entity/GS3YEVSS12N6/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:GS3YEVSS12N6",
-        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
-        "node_id": "recipient_or_contractor:uei:GS3YEVSS12N6",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "50853",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "3954398aa651ef42"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity registration status",
-      "claim_id": "claim-ac73af329251e577",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-12",
-      "evidence_ids": [
-        "evidence-819af2f791864c8c"
-      ],
-      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-819af2f791864c8c",
-          "locator": "registration_status:active",
-          "title": "Regents of the University of California, The",
-          "url": "https://sam.gov/entity/GS3YEVSS12N6/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:GS3YEVSS12N6",
-        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
-        "node_id": "recipient_or_contractor:uei:GS3YEVSS12N6",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "12f79e83eca169c5"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-10ce6453ca5f00ae",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -110555,6 +110375,186 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "9a3f62989501369c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-84c11c3ce8f1f423",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-12",
+      "evidence_ids": [
+        "evidence-ba9228c08721bb16"
+      ],
+      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ba9228c08721bb16",
+          "locator": "legal_business_name:regents of the university of california, the",
+          "title": "Regents of the University of California, The",
+          "url": "https://sam.gov/entity/GS3YEVSS12N6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:GS3YEVSS12N6",
+        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+        "node_id": "recipient_or_contractor:uei:GS3YEVSS12N6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Regents of the University of California, The",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "96b72e99ad3454e6"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-991a5b22a93a1eb1",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-12",
+      "evidence_ids": [
+        "evidence-ebd928b83199eae2"
+      ],
+      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ebd928b83199eae2",
+          "locator": "uei:gs3yevss12n6",
+          "title": "Regents of the University of California, The",
+          "url": "https://sam.gov/entity/GS3YEVSS12N6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:GS3YEVSS12N6",
+        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+        "node_id": "recipient_or_contractor:uei:GS3YEVSS12N6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "GS3YEVSS12N6",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d966b1ac476e130e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-6eada6562ad59689",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-12",
+      "evidence_ids": [
+        "evidence-490a280d61ca2a2b"
+      ],
+      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-490a280d61ca2a2b",
+          "locator": "cage_code:50853",
+          "title": "Regents of the University of California, The",
+          "url": "https://sam.gov/entity/GS3YEVSS12N6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:GS3YEVSS12N6",
+        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+        "node_id": "recipient_or_contractor:uei:GS3YEVSS12N6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "50853",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3954398aa651ef42"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-ac73af329251e577",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-12",
+      "evidence_ids": [
+        "evidence-819af2f791864c8c"
+      ],
+      "first_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-12T01:17:45.977018+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-819af2f791864c8c",
+          "locator": "registration_status:active",
+          "title": "Regents of the University of California, The",
+          "url": "https://sam.gov/entity/GS3YEVSS12N6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:GS3YEVSS12N6",
+        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+        "node_id": "recipient_or_contractor:uei:GS3YEVSS12N6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "12f79e83eca169c5"
     },
     {
       "authority": "authoritative",
@@ -221339,9 +221339,9 @@
       "first_seen_at": "2026-10-09T04:00:28.219178+00:00",
       "history": [],
       "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "pursuit_stage",
       "sources": [
         {
@@ -223902,7 +223902,7 @@
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 62 / 100 with 0 / 100 evidence completeness",
+      "basis": "Deterministic qualification score 57 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-d49d65f5bba21267",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -223914,14 +223914,13 @@
               "mission fit +22",
               "critical mission +8",
               "actionable grant_opportunity +9",
-              "open_window +4",
-              "new since yesterday +5"
+              "open_window +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/364033"
             ],
-            "points": 70
+            "points": 65
           },
           {
             "basis": [
@@ -223961,7 +223960,7 @@
         },
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 62,
+        "public_evidence_score": 57,
         "requires_revalidation": false,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/364033"
@@ -223976,13 +223975,29 @@
         ],
         "rule": "procurement_intelligence._build_decision_briefs"
       },
-      "effective_date": "2026-10-09",
+      "effective_date": "2026-10-11",
       "evidence_ids": [
         "evidence-14a4ba6d7eccd611"
       ],
       "first_seen_at": "2026-10-09T04:00:28.219178+00:00",
-      "history": [],
-      "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 62 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-14a4ba6d7eccd611"
+          ],
+          "first_seen_at": "2026-10-09T04:00:28.219178+00:00",
+          "last_seen_at": "2026-10-09T04:00:28.219178+00:00",
+          "object": null,
+          "status": "active",
+          "value": "qualify",
+          "version": 1,
+          "version_hash": "5f2ebfb05462e1ae"
+        }
+      ],
+      "last_seen_at": "2026-10-11T03:18:45.667446+00:00",
       "missing_observations": 0,
       "object": null,
       "observation_status": "observed",
@@ -224006,10 +224021,10 @@
         "node_id": "opportunity:grants_gov:DE-FOA-0003673",
         "node_type": "opportunity"
       },
-      "value": "qualify",
+      "value": "targeted review",
       "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "5f2ebfb05462e1ae"
+      "version": 2,
+      "version_hash": "c257449c8b4dc674"
     },
     {
       "authority": "analytical",
@@ -248426,7 +248441,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248473,7 +248488,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248520,7 +248535,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248567,7 +248582,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248614,7 +248629,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248661,7 +248676,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248708,7 +248723,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248755,7 +248770,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248802,7 +248817,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248849,7 +248864,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248896,7 +248911,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248943,7 +248958,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248990,7 +249005,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249037,7 +249052,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249084,7 +249099,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249131,7 +249146,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249178,7 +249193,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249225,7 +249240,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249277,7 +249292,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249329,7 +249344,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249381,7 +249396,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249433,7 +249448,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249485,7 +249500,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249537,7 +249552,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249589,7 +249604,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249641,7 +249656,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249693,7 +249708,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-10T03:45:36.084617+00:00",
+      "retracted_at": "2026-10-11T03:18:45.667446+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -300766,6 +300781,6 @@
     "superseded_claims": 0,
     "total_claims": 5024
   },
-  "updated_at": "2026-10-10T03:45:36.084617+00:00",
+  "updated_at": "2026-10-11T03:18:45.667446+00:00",
   "version": 1
 }

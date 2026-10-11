@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 68,
+      "days_to_close": 67,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -192,7 +192,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 9,
+      "days_to_close": 8,
       "deadline": "10/19/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -297,11 +297,11 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 94,
+      "days_to_close": 93,
       "deadline": "01/12/2027",
       "decision_freshness": {
-        "current_gate": "qualify",
-        "current_score": 62,
+        "current_gate": "targeted review",
+        "current_score": 57,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
@@ -309,7 +309,7 @@
         "previous_score": 62,
         "status": "current"
       },
-      "decision_score": 62,
+      "decision_score": 57,
       "decision_trace": {
         "components": [
           {
@@ -318,14 +318,13 @@
               "mission fit +22",
               "critical mission +8",
               "actionable grant_opportunity +9",
-              "open_window +4",
-              "new since yesterday +5"
+              "open_window +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/364033"
             ],
-            "points": 70
+            "points": 65
           },
           {
             "basis": [
@@ -349,11 +348,11 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 62,
+        "public_evidence_score": 57,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/364033"
         ],
-        "trace_hash": "3e14b7a7c0738b45"
+        "trace_hash": "96a2cd7d47d395ab"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -365,12 +364,11 @@
       ],
       "opportunity_key": "grants_gov:DE-FOA-0003673",
       "potential_teaming_candidates": [],
-      "provisional_gate": "qualify",
-      "public_evidence_score": 62,
+      "provisional_gate": "targeted review",
+      "public_evidence_score": 57,
       "record_type": "grant_opportunity",
       "relevant_patents": [],
       "required_actions": [
-        "Assign an opportunity owner and validate mission/capability fit",
         "Confirm controlling requirements in the controlling solicitation",
         "Confirm evaluation criteria in the controlling solicitation",
         "Record an authorized bid/no-bid decision with owner and rationale"
@@ -401,9 +399,9 @@
     "decisions_revalidation_required": 0,
     "hold": 0,
     "priority_qualification": 0,
-    "qualify": 3,
-    "targeted_review": 0
+    "qualify": 2,
+    "targeted_review": 1
   },
-  "updated_at": "2026-10-10T03:45:36.084617+00:00",
+  "updated_at": "2026-10-11T03:18:45.667446+00:00",
   "version": 1
 }

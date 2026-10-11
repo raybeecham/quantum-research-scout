@@ -4,19 +4,19 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-10 03:49 UTC_
+_Updated 2026-10-11 03:24 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-10-05 | 23 |
+| QEC / Fault Tolerance | ↗️ rising (6 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-10-10 | 79 |
+| Quantum Hardware | ↗️ rising (10 vs 6) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-10 | 320 |
 | Quantum Networking | ↗️ rising (9 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-09 | 147 |
 | Quantum Sensing | ↗️ rising (5 vs 1) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-01 | 51 |
 | PQC / Crypto Agility | ➡️ stable (22 vs 19) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-09 | 274 |
-| QEC / Fault Tolerance | ➡️ stable (4 vs 3) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-10-08 | 77 |
-| Quantum Hardware | ➡️ stable (8 vs 10) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-09 | 318 |
-| Quantum Software / Tooling | ↘️ declining (2 vs 7) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-09 | 99 |
+| Quantum Software / Tooling | ↘️ declining (3 vs 6) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-10 | 100 |
 | Standards / Government | ➡️ stable (10 vs 9) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-10-08 | 76 |
 
 ## AI Security
@@ -29,6 +29,28 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-09-17 — [Adversary simulation: what you need to know](https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know) (NCSC UK Guidance, score 100)
   - 2026-09-11 — [LLMs & quantum physics could speed up research, QuSoft symposium finds](https://quantumzeitgeist.com/qusoft-llms-quantum-physics-speed) (Quantum Zeitgeist, score 41)
   - 2026-09-03 — [In an Age of AI, a Physicist Seeks What Endures](https://www.quantamagazine.org/in-an-age-of-ai-a-physicist-seeks-what-endures-20260903) (QuantumNews.ai, score 24)
+
+## QEC / Fault Tolerance
+
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
+- Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
+- Recent supporting evidence:
+  - 2026-10-10 — [University of Saskatchewan Researchers Achieve Record Hyperbolic Surface Code Efficiency for Modular Fault-Tolerant Architectures](https://quantumcomputingreport.com/university-of-saskatchewan-researchers-achieve-record-hyperbolic-surface-code-efficiency-for-modular-fault-tolerant-architectures) (Quantum Computing Report, score 150)
+  - 2026-10-10 — [IBM Launches Directed Execution Model and Executor Primitive to Give Researchers Client-Side Control Over QEC Workflows](https://quantumcomputingreport.com/ibm-launches-directed-execution-model-and-executor-primitive-to-give-researchers-client-side-control-over-qec-workflows) (Quantum Computing Report, score 76)
+  - 2026-10-08 — [Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures](https://arxiv.org/abs/2610.10948) (arXiv RSS quant-ph, score 117)
+  - 2026-10-08 — [Neutral-Atom Developer Oratomic Secures $775 Million in Cumulative Funding for Fault-Tolerant System R&D](https://quantumcomputingreport.com/neutral-atom-developer-oratomic-secures-775-million-in-cumulative-funding-for-fault-tolerant-system-rd) (Quantum Computing Report, score 108)
+  - 2026-10-08 — [Single-shot magic state factories for quantum LDPC codes](https://arxiv.org/abs/2610.10731) (arXiv RSS quant-ph, score 101)
+
+## Quantum Hardware
+
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
+- Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
+- Recent supporting evidence:
+  - 2026-10-10 — [Xanadu Cuts Quantum Read-Only Memory Costs by ~4x via Dense Encoding](https://quantumcomputingreport.com/xanadu-cuts-quantum-read-only-memory-costs-by-4x-via-dense-encoding) (Quantum Computing Report, score 22)
+  - 2026-10-10 — [QuIC Whitepaper Calls for Industrial Scale-Up Infrastructure in EU Chips Act 2.0](https://quantumcomputingreport.com/quic-whitepaper-calls-for-industrial-scale-up-infrastructure-in-eu-chips-act-2-0) (Quantum Computing Report, score 17)
+  - 2026-10-09 — [IonQ Demonstrates 1,000 Entanglement Events per Second in Quantum Interconnect](https://thequantuminsider.com/2026/10/09/ionq-1000-entanglement-events-per-second-quantum-interconnect) (The Quantum Insider, score 62)
+  - 2026-10-09 — [Tuning a quantum computer: what a violin teaches us about qubit calibration](https://thequantuminsider.com/2026/10/09/tuning-a-quantum-computer-what-a-violin-teaches-us-about-qubit-calibration) (The Quantum Insider, score 26)
+  - 2026-10-09 — [izmo Microsystems and IIT Madras Advance ₹99.94 Crore Silicon Photonics Program](https://thequantuminsider.com/2026/10/09/izmo-microsystems-iit-madras-phase-ii-99-94-crore-silicon-photonics-program) (The Quantum Insider, score 24)
 
 ## Quantum Networking
 
@@ -63,38 +85,16 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-10-08 — [Accelerating HQC for Post-Quantum TLS 1.3 on x86 IoT Gateways](https://arxiv.org/abs/2610.11107) (arXiv RSS cs.CR, score 130)
   - 2026-10-08 — [The Hint Weight of ML-DSA Signatures Is Key-Dependent: An Empirical Study across the Three FIPS 204 Parameter Sets](https://arxiv.org/abs/2610.10992) (arXiv RSS cs.CR, score 122)
 
-## QEC / Fault Tolerance
-
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
-- Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
-- Recent supporting evidence:
-  - 2026-10-08 — [Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures](https://arxiv.org/abs/2610.10948) (arXiv RSS quant-ph, score 117)
-  - 2026-10-08 — [Neutral-Atom Developer Oratomic Secures $775 Million in Cumulative Funding for Fault-Tolerant System R&D](https://quantumcomputingreport.com/neutral-atom-developer-oratomic-secures-775-million-in-cumulative-funding-for-fault-tolerant-system-rd) (Quantum Computing Report, score 108)
-  - 2026-10-08 — [Single-shot magic state factories for quantum LDPC codes](https://arxiv.org/abs/2610.10731) (arXiv RSS quant-ph, score 101)
-  - 2026-10-05 — [Modular Neural Decoder for Surface Code Memory and Logic on Superconducting Processors](https://arxiv.org/abs/2610.03869) (arXiv RSS quant-ph, score 127)
-  - 2026-10-01 — [Classiq Launches Fault Tolerance Engine for Hardware-Aware Quantum Application Synthesis](https://quantumcomputingreport.com/classiq-launches-fault-tolerance-engine-for-hardware-aware-quantum-application-synthesis) (Quantum Computing Report, score 136)
-
-## Quantum Hardware
-
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
-- Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
-- Recent supporting evidence:
-  - 2026-10-09 — [IonQ Demonstrates 1,000 Entanglement Events per Second in Quantum Interconnect](https://thequantuminsider.com/2026/10/09/ionq-1000-entanglement-events-per-second-quantum-interconnect) (The Quantum Insider, score 62)
-  - 2026-10-09 — [Tuning a quantum computer: what a violin teaches us about qubit calibration](https://thequantuminsider.com/2026/10/09/tuning-a-quantum-computer-what-a-violin-teaches-us-about-qubit-calibration) (The Quantum Insider, score 26)
-  - 2026-10-09 — [izmo Microsystems and IIT Madras Advance ₹99.94 Crore Silicon Photonics Program](https://thequantuminsider.com/2026/10/09/izmo-microsystems-iit-madras-phase-ii-99-94-crore-silicon-photonics-program) (The Quantum Insider, score 24)
-  - 2026-10-08 — [Photonic Chips for Universal Quantum Computing: Retrospective and Prospective](https://arxiv.org/abs/2610.11321) (arXiv RSS quant-ph, score 80)
-  - 2026-10-07 — [Infineon and ZuriQ Deepen Partnership to Advance Scalable Quantum Chips](https://thequantuminsider.com/2026/10/07/infineon-zuriq-scalable-quantum-chips) (The Quantum Insider, score 44)
-
 ## Quantum Software / Tooling
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, USAspending · Quantum Technologies
 - Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
 - Recent supporting evidence:
+  - 2026-10-10 — [IBM Expands Qiskit Beyond Python with Native C API Bindings for Fortran, C++, and Julia](https://quantumcomputingreport.com/ibm-expands-qiskit-beyond-python-with-native-c-api-bindings-for-fortran-c-and-julia) (Quantum Computing Report, score 44)
   - 2026-10-09 — [Quantum X Labs Seeks Patent for Structured-Beam Atom Cooling System](https://thequantuminsider.com/2026/10/09/quantum-x-labs-us-patent-application-cold-atom-technology) (The Quantum Insider, score 29)
   - 2026-10-08 — [U.S. Department of Energy Unveils Quantum Genesis Priority Applications to Guide Fault-Tolerant Scientific Utility](https://quantumcomputingreport.com/u-s-department-of-energy-unveils-quantum-genesis-priority-applications-to-guide-fault-tolerant-scientific-utility) (Quantum Computing Report, score 74)
   - 2026-10-02 — [US Department of Energy Releases National Quantum Roadmap Establishing 2028 Fault-Tolerance Milestones](https://quantumcomputingreport.com/us-department-of-energy-releases-national-quantum-roadmap-establishing-2028-fault-tolerance-milestones) (Quantum Computing Report, score 55)
   - 2026-10-01 — [D-Wave Launches Gate-Model Simulator Beta Program Featuring 21-Qubit Dual-Rail Erasure Emulation](https://quantumcomputingreport.com/d-wave-launches-gate-model-simulator-beta-program-featuring-21-qubit-dual-rail-erasure-emulation) (Quantum Computing Report, score 42)
-  - 2026-10-01 — [D-Wave Launches Gate-Model Quantum Simulator Beta](https://thequantuminsider.com/2026/10/01/d-wave-gate-model-quantum-simulator-beta) (The Quantum Insider, score 24)
 
 ## Standards / Government
 

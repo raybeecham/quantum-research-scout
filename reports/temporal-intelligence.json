@@ -1,264 +1,116 @@
 {
-  "added": [
+  "added": [],
+  "changed": [
     {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-eed2938ecd054198",
-      "confidence": "high",
-      "effective_date": "2026-11-01",
-      "evidence_title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
-      "first_observed_at": "2026-10-10T03:45:36.084617+00:00",
-      "last_observed_at": "2026-10-10T03:45:36.084617+00:00",
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-d49d65f5bba21267",
+      "confidence": "medium",
+      "effective_date": "2026-10-11",
+      "evidence_title": "Genesis Mission Graduate Fellowship Pilot",
+      "evidence_url": "https://www.grants.gov/search-results-detail/364033",
+      "first_observed_at": "2026-10-09T04:00:28.219178+00:00",
+      "last_observed_at": "2026-10-11T03:18:45.667446+00:00",
       "object": null,
-      "predicate": "awarding_agency",
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "qualify",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9d13be6a578d5b60",
-          "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
+          "evidence_id": "evidence-14a4ba6d7eccd611",
+          "locator": "qualification_gate",
+          "title": "Genesis Mission Graduate Fellowship Pilot",
+          "url": "https://www.grants.gov/search-results-detail/364033",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:80NSSC26M0170",
-        "label": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-        "node_id": "award:usaspending:80NSSC26M0170",
-        "node_type": "award"
+        "identifier": "grants_gov:DE-FOA-0003673",
+        "label": "Genesis Mission Graduate Fellowship Pilot",
+        "node_id": "opportunity:grants_gov:DE-FOA-0003673",
+        "node_type": "opportunity"
       },
       "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
+        "classification": "changed_since_prior_run",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-11-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-10-10.",
-        "first_observed_at": "2026-10-10T03:45:36.084617+00:00",
+        "event_date": null,
+        "explanation": "The assertion changed relative to the prior successful ledger build.",
+        "first_observed_at": "2026-10-09T04:00:28.219178+00:00",
         "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-10-10T03:45:36.084617+00:00",
-        "primary_date": "2026-11-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "label": "Changed since prior run",
+        "last_changed_at": "2026-10-11T03:18:45.667446+00:00",
+        "last_observed_at": "2026-10-11T03:18:45.667446+00:00",
+        "primary_date": "2026-10-08",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-10-08"
       },
-      "value": "National Aeronautics and Space Administration"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7810176f51241870",
-      "confidence": "high",
-      "effective_date": "2026-11-01",
-      "evidence_title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
-      "first_observed_at": "2026-10-10T03:45:36.084617+00:00",
-      "last_observed_at": "2026-10-10T03:45:36.084617+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9ec1e96310d41252",
-          "locator": "opportunity_status:awarded",
-          "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26M0170",
-        "label": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-        "node_id": "award:usaspending:80NSSC26M0170",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-11-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-10-10.",
-        "first_observed_at": "2026-10-10T03:45:36.084617+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-10-10T03:45:36.084617+00:00",
-        "primary_date": "2026-11-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-eda921e140ff3fc0",
-      "confidence": "high",
-      "effective_date": "2026-11-01",
-      "evidence_title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
-      "first_observed_at": "2026-10-10T03:45:36.084617+00:00",
-      "last_observed_at": "2026-10-10T03:45:36.084617+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-19e4601fa0f8b31a",
-          "locator": "reported_amount:896648.0",
-          "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26M0170",
-        "label": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-        "node_id": "award:usaspending:80NSSC26M0170",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-11-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-10-10.",
-        "first_observed_at": "2026-10-10T03:45:36.084617+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-10-10T03:45:36.084617+00:00",
-        "primary_date": "2026-11-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 896648.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c1e813dcaad5f57b",
-      "confidence": "high",
-      "effective_date": "2026-11-01",
-      "evidence_title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
-      "first_observed_at": "2026-10-10T03:45:36.084617+00:00",
-      "last_observed_at": "2026-10-10T03:45:36.084617+00:00",
-      "object": {
-        "identifier": "uei:SQ62WM5KNSV8",
-        "label": "KEAN UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:SQ62WM5KNSV8",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-980e5ea0a19921e1",
-          "locator": "reported_recipient:recipient_or_contractor:uei:SQ62WM5KNSV8",
-          "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:80NSSC26M0170",
-        "label": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-        "node_id": "award:usaspending:80NSSC26M0170",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-11-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-10-10.",
-        "first_observed_at": "2026-10-10T03:45:36.084617+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-10-10T03:45:36.084617+00:00",
-        "primary_date": "2026-11-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
+      "value": "targeted review"
     }
   ],
-  "changed": [],
-  "comparison_ended_at": "2026-10-10T03:45:36.084617+00:00",
-  "comparison_started_at": "2026-10-09T04:00:28.219178+00:00",
+  "comparison_ended_at": "2026-10-11T03:18:45.667446+00:00",
+  "comparison_started_at": "2026-10-10T03:45:36.084617+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
     {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-eed2938ecd054198",
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-d49d65f5bba21267",
       "claim_ids": [
-        "claim-7810176f51241870",
-        "claim-c1e813dcaad5f57b",
-        "claim-eda921e140ff3fc0",
-        "claim-eed2938ecd054198"
+        "claim-d49d65f5bba21267"
       ],
-      "confidence": "high",
-      "effective_date": "2026-11-01",
-      "evidence_title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
-      "first_observed_at": "2026-10-10T03:45:36.084617+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-10-10T03:45:36.084617+00:00",
+      "confidence": "medium",
+      "effective_date": "2026-10-11",
+      "evidence_title": "Genesis Mission Graduate Fellowship Pilot",
+      "evidence_url": "https://www.grants.gov/search-results-detail/364033",
+      "first_observed_at": "2026-10-09T04:00:28.219178+00:00",
+      "grouped_event_count": 1,
+      "last_observed_at": "2026-10-11T03:18:45.667446+00:00",
       "object": null,
-      "predicate": "awarding_agency",
+      "predicate": "qualification_gate",
       "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
+        "qualification_gate"
       ],
+      "previous_object": null,
+      "previous_value": "qualify",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9d13be6a578d5b60",
-          "locator": "awarding_agency:national aeronautics and space administration",
-          "title": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080",
+          "evidence_id": "evidence-14a4ba6d7eccd611",
+          "locator": "qualification_gate",
+          "title": "Genesis Mission Graduate Fellowship Pilot",
+          "url": "https://www.grants.gov/search-results-detail/364033",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:80NSSC26M0170",
-        "label": "THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...",
-        "node_id": "award:usaspending:80NSSC26M0170",
-        "node_type": "award"
+        "identifier": "grants_gov:DE-FOA-0003673",
+        "label": "Genesis Mission Graduate Fellowship Pilot",
+        "node_id": "opportunity:grants_gov:DE-FOA-0003673",
+        "node_type": "opportunity"
       },
       "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
+        "classification": "changed_since_prior_run",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-11-01",
-        "explanation": "The source date is in the future; Scout first observed it on 2026-10-10.",
-        "first_observed_at": "2026-10-10T03:45:36.084617+00:00",
+        "event_date": null,
+        "explanation": "The assertion changed relative to the prior successful ledger build.",
+        "first_observed_at": "2026-10-09T04:00:28.219178+00:00",
         "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-10-10T03:45:36.084617+00:00",
-        "primary_date": "2026-11-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "label": "Changed since prior run",
+        "last_changed_at": "2026-10-11T03:18:45.667446+00:00",
+        "last_observed_at": "2026-10-11T03:18:45.667446+00:00",
+        "primary_date": "2026-10-08",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-10-08"
       },
-      "value": "National Aeronautics and Space Administration"
+      "value": "targeted review"
     },
     {
       "authority": "authoritative",
@@ -2704,14 +2556,14 @@
   ],
   "scope_note": "Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.",
   "summary": {
-    "actual_or_recent_changes": 0,
+    "actual_or_recent_changes": 1,
     "classifications": {
-      "resolved": 27,
-      "upcoming": 4
+      "changed_since_prior_run": 1,
+      "resolved": 27
     },
     "evidence_trace_changes": 0,
     "historical_discoveries": 0,
-    "material_events": 31,
+    "material_events": 28,
     "newly_observed_undated": 0,
     "upcoming": 16
   },
@@ -2719,7 +2571,7 @@
   "upcoming": [
     {
       "date": "2026-09-20",
-      "days_remaining": -20,
+      "days_remaining": -21,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2728,7 +2580,7 @@
     },
     {
       "date": "2026-09-20",
-      "days_remaining": -20,
+      "days_remaining": -21,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "QC-ADDS",
@@ -2737,7 +2589,7 @@
     },
     {
       "date": "2026-09-22",
-      "days_remaining": -18,
+      "days_remaining": -19,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "AI Forge",
@@ -2746,7 +2598,7 @@
     },
     {
       "date": "2026-09-30",
-      "days_remaining": -10,
+      "days_remaining": -11,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2755,7 +2607,7 @@
     },
     {
       "date": "2026-10-15",
-      "days_remaining": 5,
+      "days_remaining": 4,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2764,7 +2616,7 @@
     },
     {
       "date": "2026-10-19",
-      "days_remaining": 9,
+      "days_remaining": 8,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "PAMS-SC",
@@ -2773,7 +2625,7 @@
     },
     {
       "date": "2026-11-14",
-      "days_remaining": 35,
+      "days_remaining": 34,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2782,7 +2634,7 @@
     },
     {
       "date": "2026-11-24",
-      "days_remaining": 45,
+      "days_remaining": 44,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Genesis Mission",
@@ -2791,7 +2643,7 @@
     },
     {
       "date": "2026-12-17",
-      "days_remaining": 68,
+      "days_remaining": 67,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2800,7 +2652,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 70,
+      "days_remaining": 69,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2809,7 +2661,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 70,
+      "days_remaining": 69,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2818,7 +2670,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 70,
+      "days_remaining": 69,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2827,7 +2679,7 @@
     },
     {
       "date": "2026-12-31",
-      "days_remaining": 82,
+      "days_remaining": 81,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "Project Triad",
@@ -2836,7 +2688,7 @@
     },
     {
       "date": "2027-01-12",
-      "days_remaining": 94,
+      "days_remaining": 93,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2845,7 +2697,7 @@
     },
     {
       "date": "2027-03-19",
-      "days_remaining": 160,
+      "days_remaining": 159,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2854,7 +2706,7 @@
     },
     {
       "date": "2027-06-22",
-      "days_remaining": 255,
+      "days_remaining": 254,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -2862,6 +2714,6 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
     }
   ],
-  "updated_at": "2026-10-10T03:45:36.084617+00:00",
+  "updated_at": "2026-10-11T03:18:45.667446+00:00",
   "version": 1
 }

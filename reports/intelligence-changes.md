@@ -2,26 +2,23 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-10T03:45:36.084617+00:00_
+_Updated 2026-10-11T03:18:45.667446+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **31**
-- Added / changed / resolved: **4 / 0 / 27**
+- Material changes: **28**
+- Added / changed / resolved: **0 / 1 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- None.
+- **Genesis Mission Graduate Fellowship Pilot** — qualification gate: targeted review ([evidence](https://www.grants.gov/search-results-detail/364033))
 
 ## New claims
 
-- **THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080))
-- **THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...** — awarding agency: National Aeronautics and Space Administration ([evidence](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080))
-- **THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...** — reported amount: 896648.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080))
-- **THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080))
+- None.
 
 ## Superseded claims
 

@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-10-10T03:45:36.084617+00:00_
+_Updated 2026-10-11T03:18:45.667446+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **539**
-- Quarantined evidence or relationships: **134**
-- Acceptance rate: **80.1%**
+- Quarantined evidence or relationships: **135**
+- Acceptance rate: **80.0%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
 | Federal missions | 39 | 100 | 28.1% |
-| Federal funding | 500 | 34 | 93.6% |
+| Federal funding | 500 | 35 | 93.5% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 131
-- **No relevant term in the evidence itself**: 131
-- **Official government source**: 100
+- **Match appears only in collector query metadata**: 132
+- **No relevant term in the evidence itself**: 132
+- **Official government source**: 101
 - **Source is not an official .gov or .mil domain**: 31
 - **Agency and technology inference only**: 3
 
@@ -115,6 +115,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: mission evidence admission
 - Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 10
+
+### [Field Initiated Projects Program (Research)](https://www.grants.gov/search-results-detail/363972)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Field Initiated Projects Program (Research)](https://www.grants.gov/search-results-detail/363972)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [Field Initiated Projects Program (Development)](https://www.grants.gov/search-results-detail/363971)
 
@@ -705,20 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [FY26 Bureau of Land Management Youth Conservation Corps - Bureau wide](https://www.grants.gov/search-results-detail/362787)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [FY26 Bureau of Land Management Youth Conservation Corps - Bureau wide](https://www.grants.gov/search-results-detail/362787)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [F26AS00083 Aquatic Invasive Species Grants to Great Lakes States - Fiscal Year 2026 Great Lakes Restoration Initiative](https://www.grants.gov/search-results-detail/362749)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
