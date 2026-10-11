@@ -557,8 +557,8 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 13,
-      "historical_evidence_count": 5,
+      "evidence_count": 17,
+      "historical_evidence_count": 9,
       "latest_evidence_at": "2026-10-06",
       "name": "Keyfactor",
       "priority": "high",
@@ -596,6 +596,21 @@
           "source": "Keyfactor Quantum and Crypto-Agility",
           "title": "Implementing Crypto-Agility at Scale",
           "url": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale"
+        },
+        {
+          "date": "2026-07-31",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "Implementing Crypto-Agility at Scale",
+          "url": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale/"
         },
         {
           "date": "2026-07-28",
@@ -643,7 +658,7 @@
           "url": "https://thequantuminsider.com/2026/07/22/keyfactor-expands-partner-program-for-post-quantum-security"
         },
         {
-          "date": "2025-07-01",
+          "date": "2026-07-13",
           "date_confidence": "high",
           "date_kind": "published",
           "historical": true,
@@ -654,38 +669,23 @@
           "observed_stage_label": "Planning",
           "rank": 3,
           "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Cryptographic Inventory: Deriving Value Today, Preparing For Tomorrow - 2 Pager",
-          "url": "https://www.keyfactor.com/resource-center/cryptographic-inventory-twopager/"
+          "title": "Preparing for the UK's Quantum-Safe Future",
+          "url": "https://www.keyfactor.com/events/preparing-for-the-uks-quantum-safe-future/"
         },
         {
-          "date": "2025-07-01",
+          "date": "2026-09-08",
           "date_confidence": "high",
           "date_kind": "published",
           "historical": true,
           "matched_patterns": [
-            "preparing for"
+            "post-quantum"
           ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
           "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Cryptographic Inventory: Deriving Value Today, Preparing For Tomorrow",
-          "url": "https://www.keyfactor.com/resource-center/cryptographic-inventory-whitepaper-hsbc/"
-        },
-        {
-          "date": "2025-05-13",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "crypto-agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Achieve Crypto-Agility with 360 Visibility and Control of Your Cryptographic Assets",
-          "url": "https://www.keyfactor.com/resource-center/achieve-crypto-agility-infosec-global/"
+          "title": "Post-Quantum Resilience for Financial Services",
+          "url": "https://www.keyfactor.com/post-quantum-resilience-for-financial-services/"
         }
       ],
       "type": "company"
@@ -889,7 +889,7 @@
       "confidence": "medium",
       "evidence_count": 19,
       "historical_evidence_count": 19,
-      "latest_evidence_at": "2026-09-30",
+      "latest_evidence_at": "2026-10-08",
       "name": "Fortanix",
       "priority": "high",
       "source_count": 1,
@@ -897,6 +897,39 @@
       "stage_label": "Planning",
       "stage_rank": 3,
       "supporting_evidence": [
+        {
+          "date": "2026-10-08",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "prepare for"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "How to Prepare for Post-Quantum Cryptography",
+          "url": "https://www.fortanix.com/blog/how-to-prepare-for-post-quantum-cryptography-pqc"
+        },
+        {
+          "date": "2026-10-05",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness",
+            "migration plan",
+            "crypto-agility",
+            "risk assessment"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "A Guide to Post-Quantum Cryptography (PQC) Readiness",
+          "url": "https://www.fortanix.com/blog/post-quantum-cryptography-pqc-readiness-guide"
+        },
         {
           "date": "2026-07-30",
           "date_confidence": "high",
@@ -913,22 +946,6 @@
           "source": "Fortanix Quantum Security",
           "title": "Quantum-Safe Encryption with HSM: Preparing for the Future",
           "url": "https://www.fortanix.com/blog/quantum-safe-encryption-with-hsm-preparing-for-the-future"
-        },
-        {
-          "date": "2026-07-29",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "prepare for",
-            "crypto agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Fortanix Quantum Security",
-          "title": "Why CISOs Should Prioritize Quantum-Safe Cryptography",
-          "url": "https://www.fortanix.com/blog/why-ciso-should-prioritize-quantum-safe-cryptography-today"
         },
         {
           "date": "2026-02-04",
@@ -1007,21 +1024,6 @@
           "source": "Fortanix Quantum Security",
           "title": "Quantum Security for Post-Quantum Cryptography",
           "url": "https://www.fortanix.com/blog/quantum-security-for-post-quantum-cryptography"
-        },
-        {
-          "date": "2025-07-22",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "prepare for"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Fortanix Quantum Security",
-          "title": "Risks of delaying post-quantum cryptography adoption",
-          "url": "https://www.fortanix.com/blog/risk-of-delaying-quantum-safe-algorithms-in-data-security"
         }
       ],
       "type": "company"
@@ -1178,8 +1180,8 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 8,
-      "historical_evidence_count": 0,
+      "evidence_count": 19,
+      "historical_evidence_count": 11,
       "latest_evidence_at": "2026-09-28",
       "name": "Cisco",
       "priority": "high",
@@ -2056,6 +2058,6 @@
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-10-11T03:24:03.984591+00:00",
+  "updated_at": "2026-10-11T09:34:47.743688+00:00",
   "version": 1
 }

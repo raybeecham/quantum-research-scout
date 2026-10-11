@@ -280,43 +280,10 @@
   ],
   "added": [],
   "baseline_initialized": false,
-  "changed": [
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-d49d65f5bba21267",
-      "confidence": "medium",
-      "effective_date": "2026-10-11",
-      "first_observed_at": "2026-10-09T04:00:28.219178+00:00",
-      "last_observed_at": "2026-10-11T03:18:45.667446+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "qualify",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-14a4ba6d7eccd611",
-          "locator": "qualification_gate",
-          "title": "Genesis Mission Graduate Fellowship Pilot",
-          "url": "https://www.grants.gov/search-results-detail/364033",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "grants_gov:DE-FOA-0003673",
-        "label": "Genesis Mission Graduate Fellowship Pilot",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003673",
-        "node_type": "opportunity"
-      },
-      "value": "targeted review"
-    }
-  ],
+  "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-10-11T03:18:45.667446+00:00",
-  "comparison_started_at": "2026-10-10T03:45:36.084617+00:00",
+  "comparison_ended_at": "2026-10-11T09:34:47.743688+00:00",
+  "comparison_started_at": "2026-10-11T03:18:45.667446+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1232,19 +1199,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-10-10T03:45:36.084617+00:00",
+  "since": "2026-10-11T03:18:45.667446+00:00",
   "summary": {
     "active_claims": 4997,
     "added": 0,
-    "changed": 1,
+    "changed": 0,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 28,
+    "material_changes": 27,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-10-11T03:18:45.667446+00:00",
+  "updated_at": "2026-10-11T09:34:47.743688+00:00",
   "version": 1
 }
