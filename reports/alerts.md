@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-11 03:24 UTC_
+_Updated 2026-10-12 03:46 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 9 | 15 | 14 | 21 |
+| 50 | 2 | 15 | 15 | 20 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -70,49 +70,49 @@ _Updated 2026-10-11 03:24 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 84.3% reliability with 11 warning day(s).
+- 🔴 83.3% reliability with 12 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Quantum Computing Report
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 65.4% reliability with 9 warning day(s).
+- 🔴 66.7% reliability with 9 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Rigetti News
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 97.7% reliability with 2 warning day(s).
+- 🔴 96.6% reliability with 3 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: White House Science and Technology Missions
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 70.5% reliability with 23 warning day(s).
+- 🔴 69.6% reliability with 24 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography 🆕
+## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 69.8% reliability with 7 warning day(s).
+- 🔴 68.5% reliability with 8 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Computing 🆕
+## 🔴 Source failing: arXiv Quantum Computing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 69.8% reliability with 7 warning day(s).
+- 🔴 68.5% reliability with 8 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Networking and Sensing 🆕
+## 🔴 Source failing: arXiv Quantum Networking and Sensing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 71.7% reliability with 6 warning day(s).
+- 🔴 70.4% reliability with 7 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -122,14 +122,14 @@ _Updated 2026-10-11 03:24 UTC_
 - 🎯 AI Security is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: QEC / Fault Tolerance 🆕
+## 🟠 Actionable signal: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **actionable**
 - 🎯 QEC / Fault Tolerance is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Hardware 🆕
+## 🟠 Actionable signal: Quantum Hardware
 
 - Severity: **high**
 - Status: **actionable**
@@ -150,15 +150,23 @@ _Updated 2026-10-11 03:24 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: Genesis Mission Graduate Fellowship Pilot 🆕
+## 🟠 Changed: The DOE Quantum Genesis Q Competition 🆕
 
 - Severity: **high**
 - Status: **changed**
-- qualification gate · authority analytical · targeted review
-- [Open direct evidence](https://www.grants.gov/search-results-detail/364033)
+- qualification gate · authority analytical · qualify
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363869)
 - [Open supporting view](intelligence-changes.md)
 
-## 🟠 Product Launch: IBM 🆕
+## 🟠 Federal opportunity closing soon: The DOE Quantum Genesis Q Competition 🆕
+
+- Severity: **high**
+- Status: **closing-soon**
+- 7 day(s) remain · radar score 79 · Review requirements and make a bid/no-bid decision immediately.
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363869)
+- [Open supporting view](federal-funding.md)
+
+## 🟠 Product Launch: IBM
 
 - Severity: **high**
 - Status: **product-launch**
@@ -173,14 +181,14 @@ _Updated 2026-10-11 03:24 UTC_
 - ↗️ Recent evidence is 2 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: QEC / Fault Tolerance 🆕
+## 🟠 Rising momentum: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **rising**
 - ↗️ Recent evidence is 6 versus 3 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Quantum Hardware 🆕
+## 🟠 Rising momentum: Quantum Hardware
 
 - Severity: **high**
 - Status: **rising**
@@ -205,14 +213,14 @@ _Updated 2026-10-11 03:24 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.5% reliability with 2 warning day(s).
+- 🟠 93.6% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Journal
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 92.3% reliability with 2 warning day(s).
+- 🟠 92.6% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -353,11 +361,4 @@ _Updated 2026-10-11 03:24 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-22; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Quantum Networking and Sensing Patents
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-24; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

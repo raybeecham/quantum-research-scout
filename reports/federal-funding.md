@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-10-11 09:34 UTC_
+_Updated 2026-10-12 03:41 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -25,8 +25,8 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 
 | Rank | Opportunity | Type | Close | Mission | Technology | Score | Recommended action |
 |---:|---|---|---|---|---|---:|---|
-| 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
-| 2 | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) | GRANT_OPPORTUNITY | 10/19/2026 | Quantum Genesis | quantum | **76 · HIGH PRIORITY** | Qualify fit, identify partners, and prepare the response. |
+| 1 | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) | GRANT_OPPORTUNITY | 10/19/2026 | Quantum Genesis | quantum | **79 · HIGH PRIORITY** | Review requirements and make a bid/no-bid decision immediately. |
+| 2 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 | 3 | [Genesis Mission Graduate Fellowship Pilot](https://www.grants.gov/search-results-detail/364033) | GRANT_OPPORTUNITY | 01/12/2027 | Genesis Mission | General | **65 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 
 ## Mission Funding Portfolios

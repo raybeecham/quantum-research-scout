@@ -4,7 +4,7 @@
 
 [Readiness Scorecards](readiness.md) · [Entity Watch](entity-watch.md) · [Report Index](README.md)
 
-_Updated 2026-10-11 09:34 UTC_
+_Updated 2026-10-12 03:46 UTC_
 
 Tracking **15 milestones**: 6 completed, 2 due within 90 days, 1 overdue.
 

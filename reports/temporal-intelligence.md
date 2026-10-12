@@ -2,19 +2,19 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-10-11T03:18:45.667446+00:00_
+_Updated 2026-10-12T03:41:45.771787+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **1**
+- Actual or recent changes: **0**
 - Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **16**
 
 ## Priority timeline
 
-- **Changed since prior run** · Genesis Mission Graduate Fellowship Pilot — qualification gate ([evidence](https://www.grants.gov/search-results-detail/364033))
-  - The assertion changed relative to the prior successful ledger build.
+- **Evidence trace changed** · The DOE Quantum Genesis Q Competition — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363869))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -59,7 +59,7 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-09-22** · Launch the AI Forge university-industry-government forum — overdue ([source](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security))
 - **2026-09-30** · Close the QBIT Stage A full-proposal window — overdue ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-10-15** · Close the QBI independent verification and validation topic — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
-- **2026-10-19** · The DOE Quantum Genesis Q Competition — closing_this_month ([source](https://www.grants.gov/search-results-detail/363869))
+- **2026-10-19** · The DOE Quantum Genesis Q Competition — closing_soon ([source](https://www.grants.gov/search-results-detail/363869))
 - **2026-11-14** · Close the umbrella QBI 2026 announcement — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-11-24** · Submit the first annual Genesis Mission progress report — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
 - **2026-12-17** · The Genesis Mission: Transforming Science and Energy with AI — open_window ([source](https://www.grants.gov/search-results-detail/361526))

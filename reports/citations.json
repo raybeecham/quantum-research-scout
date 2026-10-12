@@ -4488,7 +4488,7 @@
     },
     "https://www.usaspending.gov/award/CONT_AWD_15B61726P00000128_1540_-NONE-_-NONE-": {
       "status": "lookup_failed",
-      "attempted_at": "2026-10-10T03:49:08.492267+00:00",
+      "attempted_at": "2026-10-12T03:46:37.900832+00:00",
       "refresh_status": "failed"
     },
     "https://quantumcomputingreport.com/university-of-saskatchewan-researchers-achieve-record-hyperbolic-surface-code-efficiency-for-modular-fault-tolerant-architectures": {
@@ -4518,13 +4518,31 @@
     },
     "https://quantumcomputingreport.com/ibm-launches-directed-execution-model-and-executor-primitive-to-give-researchers-client-side-control-over-qec-workflows": {
       "status": "lookup_failed",
-      "attempted_at": "2026-10-11T03:24:05.763738+00:00",
+      "attempted_at": "2026-10-12T03:46:37.900832+00:00",
       "refresh_status": "failed"
     },
     "https://quantumcomputingreport.com/ibm-expands-qiskit-beyond-python-with-native-c-api-bindings-for-fortran-c-and-julia": {
-      "status": "lookup_failed",
-      "attempted_at": "2026-10-11T03:24:05.763738+00:00",
-      "refresh_status": "failed"
+      "title": "IBM Expands Qiskit Beyond Python with Native C API Bindings for Fortran, C++, and Julia",
+      "authors": [
+        "Mohamed Abdel-Kareem"
+      ],
+      "publisher": "Quantum Computing Report",
+      "publication_date": "2026-10-10",
+      "canonical_url": "https://quantumcomputingreport.com/ibm-expands-qiskit-beyond-python-with-native-c-api-bindings-for-fortran-c-and-julia/",
+      "status": "source_metadata",
+      "kind": "article",
+      "metadata_url": "https://quantumcomputingreport.com/ibm-expands-qiskit-beyond-python-with-native-c-api-bindings-for-fortran-c-and-julia",
+      "retrieved_at": "2026-10-12T03:46:37.900832+00:00",
+      "peer_review_status": "Not verified",
+      "provenance": "Source-reported article metadata (JSON-LD or HTML meta tags). Not independently verified; linked papers are separate sources.",
+      "field_sources": {
+        "title": "https://quantumcomputingreport.com/ibm-expands-qiskit-beyond-python-with-native-c-api-bindings-for-fortran-c-and-julia",
+        "authors": "https://quantumcomputingreport.com/ibm-expands-qiskit-beyond-python-with-native-c-api-bindings-for-fortran-c-and-julia",
+        "publisher": "https://quantumcomputingreport.com/ibm-expands-qiskit-beyond-python-with-native-c-api-bindings-for-fortran-c-and-julia",
+        "publication_date": "https://quantumcomputingreport.com/ibm-expands-qiskit-beyond-python-with-native-c-api-bindings-for-fortran-c-and-julia",
+        "canonical_url": "https://quantumcomputingreport.com/ibm-expands-qiskit-beyond-python-with-native-c-api-bindings-for-fortran-c-and-julia"
+      },
+      "linked_papers": []
     },
     "https://quantumcomputingreport.com/xanadu-cuts-quantum-read-only-memory-costs-by-4x-via-dense-encoding": {
       "title": "Xanadu Cuts Quantum Read-Only Memory Costs by ~4x via Dense Encoding",
@@ -4576,5 +4594,5 @@
       "linked_papers": []
     }
   },
-  "updated_at": "2026-10-11T03:24:05.763738+00:00"
+  "updated_at": "2026-10-12T03:46:37.900832+00:00"
 }
