@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-12 03:46 UTC_
+_Updated 2026-10-13 05:01 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 2 | 15 | 15 | 20 |
+| 50 | 4 | 19 | 12 | 19 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -42,7 +42,7 @@ _Updated 2026-10-12 03:46 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Networking has critical strategic importance and rising momentum.
+- 🔴 Quantum Networking has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Sensing
@@ -66,53 +66,81 @@ _Updated 2026-10-12 03:46 UTC_
 - 🔴 Standards / Government has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
+## 🔴 Source failing: Department of War Strategic Technology News 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 98.7% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: Department of War Strategic Technology Releases 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 98.7% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
 ## 🔴 Source failing: ETSI Quantum Standards News
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 83.3% reliability with 12 warning day(s).
+- 🔴 82.4% reliability with 13 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Quantum Computing Report
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 66.7% reliability with 9 warning day(s).
+- 🔴 64.3% reliability with 10 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Rigetti News
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 96.6% reliability with 3 warning day(s).
+- 🔴 95.6% reliability with 4 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: White House Science and Technology Missions
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 69.6% reliability with 24 warning day(s).
+- 🔴 68.8% reliability with 25 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 68.5% reliability with 8 warning day(s).
+- 🔴 67.3% reliability with 9 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: arXiv Quantum Computing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 68.5% reliability with 8 warning day(s).
+- 🔴 67.3% reliability with 9 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: arXiv Quantum Networking and Sensing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 70.4% reliability with 7 warning day(s).
+- 🔴 69.1% reliability with 8 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv RSS cs.CR 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 94.5% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv RSS quant-ph 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 94.4% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -136,13 +164,6 @@ _Updated 2026-10-12 03:46 UTC_
 - 🎯 Quantum Hardware is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Networking
-
-- Severity: **high**
-- Status: **actionable**
-- 🎯 Quantum Networking is actionable with high confidence.
-- [Open supporting view](signals.md)
-
 ## 🟠 Actionable signal: Quantum Sensing
 
 - Severity: **high**
@@ -150,19 +171,11 @@ _Updated 2026-10-12 03:46 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: The DOE Quantum Genesis Q Competition 🆕
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · qualify
-- [Open direct evidence](https://www.grants.gov/search-results-detail/363869)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Federal opportunity closing soon: The DOE Quantum Genesis Q Competition 🆕
+## 🟠 Federal opportunity closing soon: The DOE Quantum Genesis Q Competition
 
 - Severity: **high**
 - Status: **closing-soon**
-- 7 day(s) remain · radar score 79 · Review requirements and make a bid/no-bid decision immediately.
+- 6 day(s) remain · radar score 79 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363869)
 - [Open supporting view](federal-funding.md)
 
@@ -192,14 +205,7 @@ _Updated 2026-10-12 03:46 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 10 versus 6 in the prior period.
-- [Open supporting view](signals.md)
-
-## 🟠 Rising momentum: Quantum Networking
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 9 versus 3 in the prior period.
+- ↗️ Recent evidence is 9 versus 6 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -213,14 +219,14 @@ _Updated 2026-10-12 03:46 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.6% reliability with 2 warning day(s).
+- 🟠 93.7% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Journal
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 92.6% reliability with 2 warning day(s).
+- 🟠 92.9% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -350,13 +356,6 @@ _Updated 2026-10-12 03:46 UTC_
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: QuEra Press Releases
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-22; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: QuSecure Press Releases
 
 - Severity: **medium**
 - Status: **stale**

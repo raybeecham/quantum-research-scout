@@ -2410,15 +2410,6 @@
         },
         {
           "date": "2026-09-30",
-          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-09/2026-09-30-digest.md",
-          "score": 67,
-          "source": "Thales Cybersecurity Blog",
-          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
-        },
-        {
-          "date": "2026-09-30",
           "key": "https://www.usaspending.gov/award/ASST_NON_2548947_049",
           "report": "2026-09/2026-09-30-digest.md",
           "score": 100,
@@ -2695,12 +2686,39 @@
           "source": "The Quantum Insider",
           "title": "BTQ and MoonPay Korea Partner on Post-Quantum Stablecoin Security",
           "url": "https://thequantuminsider.com/2026/10/09/btq-technologies-secure-moonpay-korea-stablecoin-infrastructure"
+        },
+        {
+          "date": "2026-10-12",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
+          "report": "2026-10/2026-10-12-digest.md",
+          "score": 67,
+          "source": "Thales Cybersecurity Blog",
+          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
+        },
+        {
+          "date": "2026-10-12",
+          "key": "https://thequantuminsider.com/2026/10/12/sealsq-vaultic409-secure-element-post-quantum-cryptography",
+          "report": "2026-10/2026-10-12-digest.md",
+          "score": 69,
+          "source": "The Quantum Insider",
+          "title": "SEALSQ Unveils VaultIC409 Secure Element for Post-Quantum Cryptography",
+          "url": "https://thequantuminsider.com/2026/10/12/sealsq-vaultic409-secure-element-post-quantum-cryptography"
+        },
+        {
+          "date": "2026-10-12",
+          "key": "https://thequantuminsider.com/2026/10/12/wisesat-space-post-quantum-security-satellite-communications",
+          "report": "2026-10/2026-10-12-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "WISeSat.Space Develops Post-Quantum Security for Satellite Communications",
+          "url": "https://thequantuminsider.com/2026/10/12/wisesat-space-post-quantum-security-satellite-communications"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-10-09",
+      "latest_seen": "2026-10-12",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -2709,8 +2727,8 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 19,
-      "recent_count": 22,
+      "prior_count": 21,
+      "recent_count": 20,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -6326,12 +6344,21 @@
           "source": "Quantum Computing Report",
           "title": "Xanadu Cuts Quantum Read-Only Memory Costs by ~4x via Dense Encoding",
           "url": "https://quantumcomputingreport.com/xanadu-cuts-quantum-read-only-memory-costs-by-4x-via-dense-encoding"
+        },
+        {
+          "date": "2026-10-12",
+          "key": "https://thequantuminsider.com/2026/10/12/quantum-meet-quantum-hybrid-quantum-computer-lets-scientists-peak-in-on-foundational-quantum-effect",
+          "report": "2026-10/2026-10-12-digest.md",
+          "score": 17,
+          "source": "The Quantum Insider",
+          "title": "Quantum Meet Quantum: Hybrid Quantum Computer Lets Scientists Peak in on Foundational Quantum Effect",
+          "url": "https://thequantuminsider.com/2026/10/12/quantum-meet-quantum-hybrid-quantum-computer-lets-scientists-peak-in-on-foundational-quantum-effect"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-10-10",
+      "latest_seen": "2026-10-12",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -6341,7 +6368,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 6,
-      "recent_count": 10,
+      "recent_count": 9,
       "status": "actionable"
     },
     "Quantum Networking": {
@@ -7669,13 +7696,22 @@
           "source": "IonQ News",
           "title": "IonQ Demonstrates World-First Quantum Memory-Enhanced Interconnect for Distributed Quantum Applications",
           "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Demonstrates-World-First-Quantum-Memory-Enhanced-Interconnect-for-Distributed-Quantum-Applications/default.aspx"
+        },
+        {
+          "date": "2026-10-12",
+          "key": "https://thequantuminsider.com/2026/10/12/in-step-toward-quantum-networking-penn-study-finds-quantum-light-pattern-can-survive-loss-of-entanglement",
+          "report": "2026-10/2026-10-12-digest.md",
+          "score": 84,
+          "source": "The Quantum Insider",
+          "title": "In Step Toward Quantum Networking, Penn Study Finds Quantum Light Pattern Can Survive Loss of Entanglement",
+          "url": "https://thequantuminsider.com/2026/10/12/in-step-toward-quantum-networking-penn-study-finds-quantum-light-pattern-can-survive-loss-of-entanglement"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-10-09",
-      "momentum": "rising",
+      "latest_seen": "2026-10-12",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -7683,9 +7719,9 @@
         "arXiv RSS quant-ph",
         "Quantum Computing Report"
       ],
-      "prior_count": 3,
-      "recent_count": 9,
-      "status": "actionable"
+      "prior_count": 7,
+      "recent_count": 5,
+      "status": "watching"
     },
     "Quantum Sensing": {
       "confidence": "high",
@@ -9791,6 +9827,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-10-12T03:46:36.382877+00:00",
+  "updated_at": "2026-10-13T05:01:10.983309+00:00",
   "version": 1
 }

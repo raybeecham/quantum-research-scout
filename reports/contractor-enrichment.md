@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-10-12T03:41:45.771787+00:00_
+_Updated 2026-10-13T04:54:45.337454+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **101** (**134.7%** coverage)
-- Newly resolved this run: **0**
-- Pending bounded enrichment: **116**
+- SAM.gov-resolved entities: **102** (**136.0%** coverage)
+- Newly resolved this run: **1**
+- Pending bounded enrichment: **115**
 - Ambiguous / no match: **8 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -85,10 +85,10 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | ICF INCORPORATED, L.L.C. | [ICF INCORPORATED, L.L.C.](https://sam.gov/entity/QHBLBNKKV4U3/coreData) | QHBLBNKKV4U3 | 5M571 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | FLORIDA INSTITUTE OF TECHNOLOGY INC | [FLORIDA INSTITUTE OF TECHNOLOGY INC](https://sam.gov/entity/WNN6VH618X58/coreData) | WNN6VH618X58 | 3B476 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | CLEMSON UNIVERSITY | [Clemson University](https://sam.gov/entity/H2BMNX7DSKU8/coreData) | H2BMNX7DSKU8 | 1D5U5 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |
+| AUGUST SCHELL ENTERPRISES, INC. | [AUGUST SCHELL ENTERPRISES, INC.](https://sam.gov/entity/PPMBFPRXNAJ9/coreData) | PPMBFPRXNAJ9 | 1W5J9 | Active | Business or Organization, For Profit Organization, Subchapter S Corporation |
 | ALLIANCE TECHNOLOGY GROUP, LLC | [Alliance Technology Group, LLC](https://sam.gov/entity/UCM7WPGJBZ67/coreData) | UCM7WPGJBZ67 | 1YBR8 | Active | SBA-Certified Women-Owned Small Business |
 | VIRGINIA COMMONWEALTH UNIVERSITY | [VIRGINIA COMMONWEALTH UNIVERSITY](https://sam.gov/entity/MLQFL4JSSAA9/coreData) | MLQFL4JSSAA9 | 46050 | Active | Educational Institution, Minority Institution, State Controlled Institution of Higher Learning |
 | UNIVERSITY OF UTAH | [UNIVERSITY OF UTAH](https://sam.gov/entity/LL8GLEVH6MG3/coreData) | LL8GLEVH6MG3 | 3T624 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
-| UNIVERSITY OF NOTRE DAME DU LAC | [UNIVERSITY OF NOTRE DAME DU LAC](https://sam.gov/entity/FPU6XGFXMBE9/coreData) | FPU6XGFXMBE9 | 5B002 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 
 ## Method
 

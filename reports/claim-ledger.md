@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-10-12T03:41:45.771787+00:00_
+_Updated 2026-10-13T04:54:45.337454+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **4997**
-- Authoritative claims: **4787**
+- Active claims: **5001**
+- Authoritative claims: **4791**
 - Analytical claims: **205**
 - Conflicted claims: **38**
-- Evidence items / URLs: **5103 / 1378**
+- Evidence items / URLs: **5107 / 1379**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,10 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | AUGUST SCHELL ENTERPRISES, INC. | legal business name | AUGUST SCHELL ENTERPRISES, INC. | authoritative / high | [AUGUST SCHELL ENTERPRISES, INC.](https://sam.gov/entity/PPMBFPRXNAJ9/coreData) |
+| active | AUGUST SCHELL ENTERPRISES, INC. | uei | PPMBFPRXNAJ9 | authoritative / high | [AUGUST SCHELL ENTERPRISES, INC.](https://sam.gov/entity/PPMBFPRXNAJ9/coreData) |
+| active | AUGUST SCHELL ENTERPRISES, INC. | cage code | 1W5J9 | authoritative / high | [AUGUST SCHELL ENTERPRISES, INC.](https://sam.gov/entity/PPMBFPRXNAJ9/coreData) |
+| active | AUGUST SCHELL ENTERPRISES, INC. | registration status | Active | authoritative / high | [AUGUST SCHELL ENTERPRISES, INC.](https://sam.gov/entity/PPMBFPRXNAJ9/coreData) |
 | active | THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE... | opportunity status | awarded | authoritative / high | [THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080) |
 | active | THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE... | awarding agency | National Aeronautics and Space Administration | authoritative / high | [THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080) |
 | active | THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE... | reported amount | 896648.0 | authoritative / high | [THE OVERALL PURPOSE OF THIS PROPOSAL IS TO ESTABLISH A COLLABORATIVE RESEARCH AND EDUCATION PROGRAM BETWEEN KEAN UNIVERSITY AND NASA GODDARD SPACE FLIGHT CENTER THAT DEVELOPS SAFE...](https://www.usaspending.gov/award/ASST_NON_80NSSC26M0170_080) |
@@ -260,10 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | 15--PANEL,STRUCTURAL,AI | reported recipient | AERO COMPONENTS, LLC | authoritative / high | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view) |
 | active | ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5. | opportunity status | awarded | authoritative / high | [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.](https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100) |
 | active | ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5. | awarding agency | Department of Education | authoritative / high | [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.](https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100) |
-| active | ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5. | reported amount | 1819257.2 | authoritative / high | [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.](https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100) |
-| active | ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5. | reported recipient | SHOREPOINT LLC | authoritative / high | [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.](https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100) |
-| active | OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT | opportunity status | awarded | authoritative / high | [OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT](https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732) |
-| active | OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT | awarding agency | Department of Health and Human Services | authoritative / high | [OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT](https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732) |
 
 ## Method
 

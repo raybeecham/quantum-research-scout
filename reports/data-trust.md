@@ -1,6 +1,6 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-10-12T03:41:45.771787+00:00_
+_Updated 2026-10-13T04:54:45.337454+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
@@ -19,8 +19,8 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - **Match appears only in collector query metadata**: 131
 - **No relevant term in the evidence itself**: 131
-- **Official government source**: 100
-- **Source is not an official .gov or .mil domain**: 31
+- **Official government source**: 99
+- **Source is not an official .gov or .mil domain**: 32
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -31,6 +31,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [WISeSat.Space Develops Post-Quantum Security for Satellite Communications](https://thequantuminsider.com/2026/10/12/wisesat-space-post-quantum-security-satellite-communications)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [U.S. Department of Energy Unveils Quantum Genesis Priority Applications to Guide Fault-Tolerant Scientific Utility](https://quantumcomputingreport.com/u-s-department-of-energy-unveils-quantum-genesis-priority-applications-to-guide-fault-tolerant-scientific-utility)
 
@@ -715,13 +722,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal funding
 - Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [FY26 Bureau of Land Management Youth Conservation Corps - Bureau wide](https://www.grants.gov/search-results-detail/362787)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 

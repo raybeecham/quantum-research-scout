@@ -2,23 +2,26 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-12T03:41:45.771787+00:00_
+_Updated 2026-10-13T04:54:45.337454+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **28**
-- Added / changed / resolved: **0 / 1 / 27**
+- Material changes: **31**
+- Added / changed / resolved: **4 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **The DOE Quantum Genesis Q Competition** — qualification gate: qualify ([evidence](https://www.grants.gov/search-results-detail/363869))
+- None.
 
 ## New claims
 
-- None.
+- **AUGUST SCHELL ENTERPRISES, INC.** — legal business name: AUGUST SCHELL ENTERPRISES, INC. ([evidence](https://sam.gov/entity/PPMBFPRXNAJ9/coreData))
+- **AUGUST SCHELL ENTERPRISES, INC.** — uei: PPMBFPRXNAJ9 ([evidence](https://sam.gov/entity/PPMBFPRXNAJ9/coreData))
+- **AUGUST SCHELL ENTERPRISES, INC.** — cage code: 1W5J9 ([evidence](https://sam.gov/entity/PPMBFPRXNAJ9/coreData))
+- **AUGUST SCHELL ENTERPRISES, INC.** — registration status: Active ([evidence](https://sam.gov/entity/PPMBFPRXNAJ9/coreData))
 
 ## Superseded claims
 

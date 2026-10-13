@@ -1,116 +1,259 @@
 {
-  "added": [],
-  "changed": [
+  "added": [
     {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-352bc7c9512c056c",
-      "confidence": "medium",
-      "effective_date": "2026-10-12",
-      "evidence_title": "The DOE Quantum Genesis Q Competition",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363869",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-10-12T03:41:45.771787+00:00",
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-b4e2071c20ac6577",
+      "confidence": "high",
+      "effective_date": "2026-10-13",
+      "evidence_title": "AUGUST SCHELL ENTERPRISES, INC.",
+      "evidence_url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
+      "first_observed_at": "2026-10-13T04:54:45.337454+00:00",
+      "last_observed_at": "2026-10-13T04:54:45.337454+00:00",
       "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "qualify",
+      "predicate": "cage_code",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bfd565fa4072d5d4",
-          "locator": "qualification_gate",
-          "title": "The DOE Quantum Genesis Q Competition",
-          "url": "https://www.grants.gov/search-results-detail/363869",
+          "evidence_id": "evidence-c8dddd39aef1259a",
+          "locator": "cage_code:1w5j9",
+          "title": "AUGUST SCHELL ENTERPRISES, INC.",
+          "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:DE-FOA-0003657",
-        "label": "The DOE Quantum Genesis Q Competition",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003657",
-        "node_type": "opportunity"
+        "identifier": "uei:PPMBFPRXNAJ9",
+        "label": "AUGUST SCHELL ENTERPRISES, INC.",
+        "node_id": "recipient_or_contractor:uei:PPMBFPRXNAJ9",
+        "node_type": "recipient_or_contractor"
       },
       "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
+        "classification": "newly_observed",
+        "date_basis": "No source-reported event or publication date",
         "effective_date": null,
         "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
+        "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
+        "first_observed_at": "2026-10-13T04:54:45.337454+00:00",
         "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-10-12T03:41:45.771787+00:00",
-        "last_observed_at": "2026-10-12T03:41:45.771787+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-09-17"
+        "label": "Newly observed \u00b7 event date unknown",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-13T04:54:45.337454+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
       },
-      "value": "qualify"
+      "value": "1W5J9"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-6e7f43e755b6319c",
+      "confidence": "high",
+      "effective_date": "2026-10-13",
+      "evidence_title": "AUGUST SCHELL ENTERPRISES, INC.",
+      "evidence_url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
+      "first_observed_at": "2026-10-13T04:54:45.337454+00:00",
+      "last_observed_at": "2026-10-13T04:54:45.337454+00:00",
+      "object": null,
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9ca012a59e753bdf",
+          "locator": "legal_business_name:august schell enterprises, inc.",
+          "title": "AUGUST SCHELL ENTERPRISES, INC.",
+          "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:PPMBFPRXNAJ9",
+        "label": "AUGUST SCHELL ENTERPRISES, INC.",
+        "node_id": "recipient_or_contractor:uei:PPMBFPRXNAJ9",
+        "node_type": "recipient_or_contractor"
+      },
+      "temporal": {
+        "classification": "newly_observed",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
+        "first_observed_at": "2026-10-13T04:54:45.337454+00:00",
+        "historical": false,
+        "label": "Newly observed \u00b7 event date unknown",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-13T04:54:45.337454+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "AUGUST SCHELL ENTERPRISES, INC."
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-3979228ca198f576",
+      "confidence": "high",
+      "effective_date": "2026-10-13",
+      "evidence_title": "AUGUST SCHELL ENTERPRISES, INC.",
+      "evidence_url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
+      "first_observed_at": "2026-10-13T04:54:45.337454+00:00",
+      "last_observed_at": "2026-10-13T04:54:45.337454+00:00",
+      "object": null,
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8e21b5220683e0fd",
+          "locator": "registration_status:active",
+          "title": "AUGUST SCHELL ENTERPRISES, INC.",
+          "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:PPMBFPRXNAJ9",
+        "label": "AUGUST SCHELL ENTERPRISES, INC.",
+        "node_id": "recipient_or_contractor:uei:PPMBFPRXNAJ9",
+        "node_type": "recipient_or_contractor"
+      },
+      "temporal": {
+        "classification": "newly_observed",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
+        "first_observed_at": "2026-10-13T04:54:45.337454+00:00",
+        "historical": false,
+        "label": "Newly observed \u00b7 event date unknown",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-13T04:54:45.337454+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "Active"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-402be8e48cb02640",
+      "confidence": "high",
+      "effective_date": "2026-10-13",
+      "evidence_title": "AUGUST SCHELL ENTERPRISES, INC.",
+      "evidence_url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
+      "first_observed_at": "2026-10-13T04:54:45.337454+00:00",
+      "last_observed_at": "2026-10-13T04:54:45.337454+00:00",
+      "object": null,
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-25368bdd0fb5accb",
+          "locator": "uei:ppmbfprxnaj9",
+          "title": "AUGUST SCHELL ENTERPRISES, INC.",
+          "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "uei:PPMBFPRXNAJ9",
+        "label": "AUGUST SCHELL ENTERPRISES, INC.",
+        "node_id": "recipient_or_contractor:uei:PPMBFPRXNAJ9",
+        "node_type": "recipient_or_contractor"
+      },
+      "temporal": {
+        "classification": "newly_observed",
+        "date_basis": "No source-reported event or publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
+        "first_observed_at": "2026-10-13T04:54:45.337454+00:00",
+        "historical": false,
+        "label": "Newly observed \u00b7 event date unknown",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-13T04:54:45.337454+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
+      },
+      "value": "PPMBFPRXNAJ9"
     }
   ],
-  "comparison_ended_at": "2026-10-12T03:41:45.771787+00:00",
-  "comparison_started_at": "2026-10-11T09:34:47.743688+00:00",
+  "changed": [],
+  "comparison_ended_at": "2026-10-13T04:54:45.337454+00:00",
+  "comparison_started_at": "2026-10-12T03:41:45.771787+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
     {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-352bc7c9512c056c",
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-b4e2071c20ac6577",
       "claim_ids": [
-        "claim-352bc7c9512c056c"
+        "claim-3979228ca198f576",
+        "claim-402be8e48cb02640",
+        "claim-6e7f43e755b6319c",
+        "claim-b4e2071c20ac6577"
       ],
-      "confidence": "medium",
-      "effective_date": "2026-10-12",
-      "evidence_title": "The DOE Quantum Genesis Q Competition",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363869",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-10-12T03:41:45.771787+00:00",
+      "confidence": "high",
+      "effective_date": "2026-10-13",
+      "evidence_title": "AUGUST SCHELL ENTERPRISES, INC.",
+      "evidence_url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
+      "first_observed_at": "2026-10-13T04:54:45.337454+00:00",
+      "grouped_event_count": 4,
+      "last_observed_at": "2026-10-13T04:54:45.337454+00:00",
       "object": null,
-      "predicate": "qualification_gate",
+      "predicate": "cage_code",
       "predicates": [
-        "qualification_gate"
+        "cage_code",
+        "legal_business_name",
+        "registration_status",
+        "uei"
       ],
-      "previous_object": null,
-      "previous_value": "qualify",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bfd565fa4072d5d4",
-          "locator": "qualification_gate",
-          "title": "The DOE Quantum Genesis Q Competition",
-          "url": "https://www.grants.gov/search-results-detail/363869",
+          "evidence_id": "evidence-c8dddd39aef1259a",
+          "locator": "cage_code:1w5j9",
+          "title": "AUGUST SCHELL ENTERPRISES, INC.",
+          "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:DE-FOA-0003657",
-        "label": "The DOE Quantum Genesis Q Competition",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003657",
-        "node_type": "opportunity"
+        "identifier": "uei:PPMBFPRXNAJ9",
+        "label": "AUGUST SCHELL ENTERPRISES, INC.",
+        "node_id": "recipient_or_contractor:uei:PPMBFPRXNAJ9",
+        "node_type": "recipient_or_contractor"
       },
       "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
+        "classification": "newly_observed",
+        "date_basis": "No source-reported event or publication date",
         "effective_date": null,
         "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
+        "explanation": "Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
+        "first_observed_at": "2026-10-13T04:54:45.337454+00:00",
         "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-10-12T03:41:45.771787+00:00",
-        "last_observed_at": "2026-10-12T03:41:45.771787+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-09-17"
+        "label": "Newly observed \u00b7 event date unknown",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-13T04:54:45.337454+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
+        "publication_date": null
       },
-      "value": "qualify"
+      "value": "1W5J9"
     },
     {
       "authority": "authoritative",
@@ -2558,20 +2701,20 @@
   "summary": {
     "actual_or_recent_changes": 0,
     "classifications": {
-      "evidence_changed_since_prior_run": 1,
+      "newly_observed": 4,
       "resolved": 27
     },
-    "evidence_trace_changes": 1,
+    "evidence_trace_changes": 0,
     "historical_discoveries": 0,
-    "material_events": 28,
-    "newly_observed_undated": 0,
+    "material_events": 31,
+    "newly_observed_undated": 4,
     "upcoming": 16
   },
   "superseded": [],
   "upcoming": [
     {
       "date": "2026-09-20",
-      "days_remaining": -22,
+      "days_remaining": -23,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2580,7 +2723,7 @@
     },
     {
       "date": "2026-09-20",
-      "days_remaining": -22,
+      "days_remaining": -23,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "QC-ADDS",
@@ -2589,7 +2732,7 @@
     },
     {
       "date": "2026-09-22",
-      "days_remaining": -20,
+      "days_remaining": -21,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "AI Forge",
@@ -2598,7 +2741,7 @@
     },
     {
       "date": "2026-09-30",
-      "days_remaining": -12,
+      "days_remaining": -13,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2607,7 +2750,7 @@
     },
     {
       "date": "2026-10-15",
-      "days_remaining": 3,
+      "days_remaining": 2,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2616,7 +2759,7 @@
     },
     {
       "date": "2026-10-19",
-      "days_remaining": 7,
+      "days_remaining": 6,
       "kind": "opportunity_deadline",
       "status": "closing_soon",
       "subject": "PAMS-SC",
@@ -2625,7 +2768,7 @@
     },
     {
       "date": "2026-11-14",
-      "days_remaining": 33,
+      "days_remaining": 32,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2634,7 +2777,7 @@
     },
     {
       "date": "2026-11-24",
-      "days_remaining": 43,
+      "days_remaining": 42,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Genesis Mission",
@@ -2643,7 +2786,7 @@
     },
     {
       "date": "2026-12-17",
-      "days_remaining": 66,
+      "days_remaining": 65,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2652,7 +2795,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 68,
+      "days_remaining": 67,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2661,7 +2804,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 68,
+      "days_remaining": 67,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2670,7 +2813,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 68,
+      "days_remaining": 67,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2679,7 +2822,7 @@
     },
     {
       "date": "2026-12-31",
-      "days_remaining": 80,
+      "days_remaining": 79,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "Project Triad",
@@ -2688,7 +2831,7 @@
     },
     {
       "date": "2027-01-12",
-      "days_remaining": 92,
+      "days_remaining": 91,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2697,7 +2840,7 @@
     },
     {
       "date": "2027-03-19",
-      "days_remaining": 158,
+      "days_remaining": 157,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2706,7 +2849,7 @@
     },
     {
       "date": "2027-06-22",
-      "days_remaining": 253,
+      "days_remaining": 252,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -2714,6 +2857,6 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
     }
   ],
-  "updated_at": "2026-10-12T03:41:45.771787+00:00",
+  "updated_at": "2026-10-13T04:54:45.337454+00:00",
   "version": 1
 }

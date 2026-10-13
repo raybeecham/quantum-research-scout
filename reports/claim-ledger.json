@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-10-12",
+  "as_of_date": "2026-10-13",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,186 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-6e7f43e755b6319c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-13",
+      "evidence_ids": [
+        "evidence-9ca012a59e753bdf"
+      ],
+      "first_seen_at": "2026-10-13T04:54:45.337454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-13T04:54:45.337454+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9ca012a59e753bdf",
+          "locator": "legal_business_name:august schell enterprises, inc.",
+          "title": "AUGUST SCHELL ENTERPRISES, INC.",
+          "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:PPMBFPRXNAJ9",
+        "label": "AUGUST SCHELL ENTERPRISES, INC.",
+        "node_id": "recipient_or_contractor:uei:PPMBFPRXNAJ9",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "AUGUST SCHELL ENTERPRISES, INC.",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c49a7ba70fbd655c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-402be8e48cb02640",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-13",
+      "evidence_ids": [
+        "evidence-25368bdd0fb5accb"
+      ],
+      "first_seen_at": "2026-10-13T04:54:45.337454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-13T04:54:45.337454+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-25368bdd0fb5accb",
+          "locator": "uei:ppmbfprxnaj9",
+          "title": "AUGUST SCHELL ENTERPRISES, INC.",
+          "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:PPMBFPRXNAJ9",
+        "label": "AUGUST SCHELL ENTERPRISES, INC.",
+        "node_id": "recipient_or_contractor:uei:PPMBFPRXNAJ9",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "PPMBFPRXNAJ9",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "f33adb63dc1a55af"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-b4e2071c20ac6577",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-13",
+      "evidence_ids": [
+        "evidence-c8dddd39aef1259a"
+      ],
+      "first_seen_at": "2026-10-13T04:54:45.337454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-13T04:54:45.337454+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c8dddd39aef1259a",
+          "locator": "cage_code:1w5j9",
+          "title": "AUGUST SCHELL ENTERPRISES, INC.",
+          "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:PPMBFPRXNAJ9",
+        "label": "AUGUST SCHELL ENTERPRISES, INC.",
+        "node_id": "recipient_or_contractor:uei:PPMBFPRXNAJ9",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "1W5J9",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "f614f0732c069683"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-3979228ca198f576",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-13",
+      "evidence_ids": [
+        "evidence-8e21b5220683e0fd"
+      ],
+      "first_seen_at": "2026-10-13T04:54:45.337454+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-13T04:54:45.337454+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8e21b5220683e0fd",
+          "locator": "registration_status:active",
+          "title": "AUGUST SCHELL ENTERPRISES, INC.",
+          "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:PPMBFPRXNAJ9",
+        "label": "AUGUST SCHELL ENTERPRISES, INC.",
+        "node_id": "recipient_or_contractor:uei:PPMBFPRXNAJ9",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "277ce3fcb1a1984d"
     },
     {
       "authority": "authoritative",
@@ -248456,7 +248636,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248503,7 +248683,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248550,7 +248730,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248597,7 +248777,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248644,7 +248824,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248691,7 +248871,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248738,7 +248918,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248785,7 +248965,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248832,7 +249012,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248879,7 +249059,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248926,7 +249106,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -248973,7 +249153,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249020,7 +249200,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249067,7 +249247,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249114,7 +249294,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249161,7 +249341,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249208,7 +249388,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249255,7 +249435,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249307,7 +249487,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249359,7 +249539,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249411,7 +249591,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249463,7 +249643,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249515,7 +249695,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249567,7 +249747,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249619,7 +249799,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249671,7 +249851,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249723,7 +249903,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-12T03:41:45.771787+00:00",
+      "retracted_at": "2026-10-13T04:54:45.337454+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257119,6 +257299,16 @@
       "locator": "registration_status:active",
       "title": "ODDBALL, INC.",
       "url": "https://sam.gov/entity/MHNFNJ1J5RF5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-25368bdd0fb5accb",
+      "locator": "uei:ppmbfprxnaj9",
+      "title": "AUGUST SCHELL ENTERPRISES, INC.",
+      "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -277726,6 +277916,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-8e21b5220683e0fd",
+      "locator": "registration_status:active",
+      "title": "AUGUST SCHELL ENTERPRISES, INC.",
+      "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-8e23bc608751970a",
       "locator": "reported_recipient:recipient_or_contractor:name:agility consulting",
       "title": "AI OSINT ECHO Software Support Services",
@@ -280420,6 +280620,16 @@
       "locator": "reported_amount:320000.0",
       "title": "FAST RANDOMIZED ALGORITHMS FOR GLOBAL OPERATORS -COMPUTATIONAL SIMULATION IS ESSENTIAL FOR DESIGNING ELECTROMAGNETIC DEVICES, PREDICTING RADAR AND SONAR SIGNATURES, IMPROVING MEDI...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2608883_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-9ca012a59e753bdf",
+      "locator": "legal_business_name:august schell enterprises, inc.",
+      "title": "AUGUST SCHELL ENTERPRISES, INC.",
+      "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -289300,6 +289510,16 @@
       "locator": "reported_amount:434727.8",
       "title": "7A--Machine Learning Assisted Electronic Monitoring",
       "url": "https://sam.gov/workspace/contract/opp/867ec9c1cec44c7e8d4462c0dc09800a/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-c8dddd39aef1259a",
+      "locator": "cage_code:1w5j9",
+      "title": "AUGUST SCHELL ENTERPRISES, INC.",
+      "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -300786,16 +301006,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 4997,
-    "authoritative_claims": 4787,
+    "active_claims": 5001,
+    "authoritative_claims": 4791,
     "conflicted_claims": 38,
     "derived_claims": 205,
-    "evidence_items": 5103,
-    "source_urls": 1378,
-    "subjects": 1029,
+    "evidence_items": 5107,
+    "source_urls": 1379,
+    "subjects": 1030,
     "superseded_claims": 0,
-    "total_claims": 5024
+    "total_claims": 5028
   },
-  "updated_at": "2026-10-12T03:41:45.771787+00:00",
+  "updated_at": "2026-10-13T04:54:45.337454+00:00",
   "version": 1
 }

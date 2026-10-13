@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-12 03:46 UTC_
+_Updated 2026-10-13 05:01 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
@@ -12,10 +12,10 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-10-05 | 23 |
 | QEC / Fault Tolerance | ↗️ rising (6 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-10-10 | 79 |
-| Quantum Hardware | ↗️ rising (10 vs 6) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-10 | 320 |
-| Quantum Networking | ↗️ rising (9 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-09 | 147 |
+| Quantum Hardware | ↗️ rising (9 vs 6) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-12 | 321 |
 | Quantum Sensing | ↗️ rising (5 vs 1) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-01 | 51 |
-| PQC / Crypto Agility | ➡️ stable (22 vs 19) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-09 | 274 |
+| PQC / Crypto Agility | ➡️ stable (20 vs 21) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-12 | 276 |
+| Quantum Networking | ➡️ stable (5 vs 7) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-12 | 148 |
 | Quantum Software / Tooling | ↘️ declining (3 vs 6) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-10 | 100 |
 | Standards / Government | ➡️ stable (10 vs 9) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-10-08 | 76 |
 
@@ -46,22 +46,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-10-12 — [Quantum Meet Quantum: Hybrid Quantum Computer Lets Scientists Peak in on Foundational Quantum Effect](https://thequantuminsider.com/2026/10/12/quantum-meet-quantum-hybrid-quantum-computer-lets-scientists-peak-in-on-foundational-quantum-effect) (The Quantum Insider, score 17)
   - 2026-10-10 — [Xanadu Cuts Quantum Read-Only Memory Costs by ~4x via Dense Encoding](https://quantumcomputingreport.com/xanadu-cuts-quantum-read-only-memory-costs-by-4x-via-dense-encoding) (Quantum Computing Report, score 22)
   - 2026-10-10 — [QuIC Whitepaper Calls for Industrial Scale-Up Infrastructure in EU Chips Act 2.0](https://quantumcomputingreport.com/quic-whitepaper-calls-for-industrial-scale-up-infrastructure-in-eu-chips-act-2-0) (Quantum Computing Report, score 17)
   - 2026-10-09 — [IonQ Demonstrates 1,000 Entanglement Events per Second in Quantum Interconnect](https://thequantuminsider.com/2026/10/09/ionq-1000-entanglement-events-per-second-quantum-interconnect) (The Quantum Insider, score 62)
   - 2026-10-09 — [Tuning a quantum computer: what a violin teaches us about qubit calibration](https://thequantuminsider.com/2026/10/09/tuning-a-quantum-computer-what-a-violin-teaches-us-about-qubit-calibration) (The Quantum Insider, score 26)
-  - 2026-10-09 — [izmo Microsystems and IIT Madras Advance ₹99.94 Crore Silicon Photonics Program](https://thequantuminsider.com/2026/10/09/izmo-microsystems-iit-madras-phase-ii-99-94-crore-silicon-photonics-program) (The Quantum Insider, score 24)
-
-## Quantum Networking
-
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph, Quantum Computing Report
-- Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
-- Recent supporting evidence:
-  - 2026-10-09 — [IonQ Demonstrates World-First Quantum Memory-Enhanced Interconnect for Distributed Quantum Applications](https://investors.ionq.com/news/news-details/2026/IonQ-Demonstrates-World-First-Quantum-Memory-Enhanced-Interconnect-for-Distributed-Quantum-Applications/default.aspx) (IonQ News, score 37)
-  - 2026-10-08 — [Quantum Networking at the Speed of Quantum Computation: Kilohertz Entanglement in a Heterogeneous Quantum System](https://arxiv.org/abs/2610.10705) (arXiv RSS quant-ph, score 118)
-  - 2026-10-08 — [Structured leakage in OAM-encoded qubits revealed by distributed quantum feature extraction](https://arxiv.org/abs/2610.11001) (arXiv RSS quant-ph, score 82)
-  - 2026-10-06 — [Zapata Quantum Joins IBM Quantum Network to Accelerate Enterprise Application Development](https://quantumcomputingreport.com/zapata-quantum-joins-ibm-quantum-network-to-accelerate-enterprise-application-development) (Quantum Computing Report, score 67)
-  - 2026-10-05 — [WLPA: A Network Management Framework for Allocating Scarce Quantum-Safe Link Postures under Weakest-Link Exposure](https://arxiv.org/abs/2610.04897) (arXiv RSS cs.CR, score 103)
 
 ## Quantum Sensing
 
@@ -79,11 +68,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-10-12 — [WISeSat.Space Develops Post-Quantum Security for Satellite Communications](https://thequantuminsider.com/2026/10/12/wisesat-space-post-quantum-security-satellite-communications) (The Quantum Insider, score 100)
+  - 2026-10-12 — [SEALSQ Unveils VaultIC409 Secure Element for Post-Quantum Cryptography](https://thequantuminsider.com/2026/10/12/sealsq-vaultic409-secure-element-post-quantum-cryptography) (The Quantum Insider, score 69)
+  - 2026-10-12 — [HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next](https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks) (Thales Cybersecurity Blog, score 67)
   - 2026-10-09 — [BTQ and MoonPay Korea Partner on Post-Quantum Stablecoin Security](https://thequantuminsider.com/2026/10/09/btq-technologies-secure-moonpay-korea-stablecoin-infrastructure) (The Quantum Insider, score 78)
   - 2026-10-08 — [Provable Subexponential Algorithms for NIST Third-Round Lattice Families](https://arxiv.org/abs/2610.11254) (arXiv RSS cs.CR, score 189)
-  - 2026-10-08 — [Surfshark Adds ML-DSA Authentication to Post-Quantum WireGuard](https://thequantuminsider.com/2026/10/08/surfshark-achieves-full-post-quantum-wireguard-implementation) (The Quantum Insider, score 167)
-  - 2026-10-08 — [Accelerating HQC for Post-Quantum TLS 1.3 on x86 IoT Gateways](https://arxiv.org/abs/2610.11107) (arXiv RSS cs.CR, score 130)
-  - 2026-10-08 — [The Hint Weight of ML-DSA Signatures Is Key-Dependent: An Empirical Study across the Three FIPS 204 Parameter Sets](https://arxiv.org/abs/2610.10992) (arXiv RSS cs.CR, score 122)
+
+## Quantum Networking
+
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph, Quantum Computing Report
+- Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
+- Recent supporting evidence:
+  - 2026-10-12 — [In Step Toward Quantum Networking, Penn Study Finds Quantum Light Pattern Can Survive Loss of Entanglement](https://thequantuminsider.com/2026/10/12/in-step-toward-quantum-networking-penn-study-finds-quantum-light-pattern-can-survive-loss-of-entanglement) (The Quantum Insider, score 84)
+  - 2026-10-09 — [IonQ Demonstrates World-First Quantum Memory-Enhanced Interconnect for Distributed Quantum Applications](https://investors.ionq.com/news/news-details/2026/IonQ-Demonstrates-World-First-Quantum-Memory-Enhanced-Interconnect-for-Distributed-Quantum-Applications/default.aspx) (IonQ News, score 37)
+  - 2026-10-08 — [Quantum Networking at the Speed of Quantum Computation: Kilohertz Entanglement in a Heterogeneous Quantum System](https://arxiv.org/abs/2610.10705) (arXiv RSS quant-ph, score 118)
+  - 2026-10-08 — [Structured leakage in OAM-encoded qubits revealed by distributed quantum feature extraction](https://arxiv.org/abs/2610.11001) (arXiv RSS quant-ph, score 82)
+  - 2026-10-06 — [Zapata Quantum Joins IBM Quantum Network to Accelerate Enterprise Application Development](https://quantumcomputingreport.com/zapata-quantum-joins-ibm-quantum-network-to-accelerate-enterprise-application-development) (Quantum Computing Report, score 67)
 
 ## Quantum Software / Tooling
 

@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 7,
+      "days_to_close": 6,
       "deadline": "10/19/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -14,7 +14,7 @@
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
         "previous_gate": "qualify",
-        "previous_score": 68,
+        "previous_score": 71,
         "status": "current"
       },
       "decision_score": 71,
@@ -86,7 +86,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 7 day(s) remaining",
+        "Compressed response window: 6 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -111,7 +111,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 66,
+      "days_to_close": 65,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -298,7 +298,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 92,
+      "days_to_close": 91,
       "deadline": "01/12/2027",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -403,6 +403,6 @@
     "qualify": 2,
     "targeted_review": 1
   },
-  "updated_at": "2026-10-12T03:41:45.771787+00:00",
+  "updated_at": "2026-10-13T04:54:45.337454+00:00",
   "version": 1
 }

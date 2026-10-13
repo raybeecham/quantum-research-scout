@@ -39,6 +39,29 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Executive Order 14412",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-10-12",
+      "key": "https://thequantuminsider.com/2026/10/12/wisesat-space-post-quantum-security-satellite-communications",
+      "mission_id": "federal-pqc-transition",
+      "mission_name": "Federal Post-Quantum Cryptography Transition",
+      "scope": "Federal missions",
+      "source": "The Quantum Insider",
+      "stage": "mission evidence admission",
+      "title": "WISeSat.Space Develops Post-Quantum Security for Satellite Communications",
+      "url": "https://thequantuminsider.com/2026/10/12/wisesat-space-post-quantum-security-satellite-communications"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "Quantum Genesis",
         "reason_codes": [
           "non_government_source",
@@ -2262,29 +2285,6 @@
       "stage": "funding evidence admission",
       "title": "FY 2026 Congress-Bundestag Youth Exchange for Young Professionals and Congress-Bundestag/Bundesrat Staff Exchange",
       "url": "https://www.grants.gov/search-results-detail/362833"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Project Triad",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-12",
-      "key": "https://www.grants.gov/search-results-detail/362787",
-      "mission_id": "project-triad",
-      "mission_name": "Project Triad",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "mission evidence admission",
-      "title": "FY26 Bureau of Land Management Youth Conservation Corps - Bureau wide",
-      "url": "https://www.grants.gov/search-results-detail/362787"
     }
   ],
   "reason_counts": [
@@ -2300,12 +2300,12 @@
     },
     {
       "code": "official_source",
-      "count": 100,
+      "count": 99,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 31,
+      "count": 32,
       "label": "Source is not an official .gov or .mil domain"
     },
     {
@@ -2324,6 +2324,6 @@
     "quarantined": 134,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-10-12T03:41:45.771787+00:00",
+  "updated_at": "2026-10-13T04:54:45.337454+00:00",
   "version": 1
 }
