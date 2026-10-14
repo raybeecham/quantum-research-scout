@@ -278,133 +278,12 @@
       ]
     }
   ],
-  "added": [
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-6e7f43e755b6319c",
-      "confidence": "high",
-      "effective_date": "2026-10-13",
-      "first_observed_at": "2026-10-13T04:54:45.337454+00:00",
-      "last_observed_at": "2026-10-13T04:54:45.337454+00:00",
-      "object": null,
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9ca012a59e753bdf",
-          "locator": "legal_business_name:august schell enterprises, inc.",
-          "title": "AUGUST SCHELL ENTERPRISES, INC.",
-          "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:PPMBFPRXNAJ9",
-        "label": "AUGUST SCHELL ENTERPRISES, INC.",
-        "node_id": "recipient_or_contractor:uei:PPMBFPRXNAJ9",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "AUGUST SCHELL ENTERPRISES, INC."
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-402be8e48cb02640",
-      "confidence": "high",
-      "effective_date": "2026-10-13",
-      "first_observed_at": "2026-10-13T04:54:45.337454+00:00",
-      "last_observed_at": "2026-10-13T04:54:45.337454+00:00",
-      "object": null,
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-25368bdd0fb5accb",
-          "locator": "uei:ppmbfprxnaj9",
-          "title": "AUGUST SCHELL ENTERPRISES, INC.",
-          "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:PPMBFPRXNAJ9",
-        "label": "AUGUST SCHELL ENTERPRISES, INC.",
-        "node_id": "recipient_or_contractor:uei:PPMBFPRXNAJ9",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "PPMBFPRXNAJ9"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b4e2071c20ac6577",
-      "confidence": "high",
-      "effective_date": "2026-10-13",
-      "first_observed_at": "2026-10-13T04:54:45.337454+00:00",
-      "last_observed_at": "2026-10-13T04:54:45.337454+00:00",
-      "object": null,
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c8dddd39aef1259a",
-          "locator": "cage_code:1w5j9",
-          "title": "AUGUST SCHELL ENTERPRISES, INC.",
-          "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:PPMBFPRXNAJ9",
-        "label": "AUGUST SCHELL ENTERPRISES, INC.",
-        "node_id": "recipient_or_contractor:uei:PPMBFPRXNAJ9",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "1W5J9"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3979228ca198f576",
-      "confidence": "high",
-      "effective_date": "2026-10-13",
-      "first_observed_at": "2026-10-13T04:54:45.337454+00:00",
-      "last_observed_at": "2026-10-13T04:54:45.337454+00:00",
-      "object": null,
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8e21b5220683e0fd",
-          "locator": "registration_status:active",
-          "title": "AUGUST SCHELL ENTERPRISES, INC.",
-          "url": "https://sam.gov/entity/PPMBFPRXNAJ9/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:PPMBFPRXNAJ9",
-        "label": "AUGUST SCHELL ENTERPRISES, INC.",
-        "node_id": "recipient_or_contractor:uei:PPMBFPRXNAJ9",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active"
-    }
-  ],
+  "added": [],
   "baseline_initialized": false,
   "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-10-13T04:54:45.337454+00:00",
-  "comparison_started_at": "2026-10-12T03:41:45.771787+00:00",
+  "comparison_ended_at": "2026-10-14T03:01:26.415190+00:00",
+  "comparison_started_at": "2026-10-13T04:54:45.337454+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1320,19 +1199,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-10-12T03:41:45.771787+00:00",
+  "since": "2026-10-13T04:54:45.337454+00:00",
   "summary": {
     "active_claims": 5001,
-    "added": 4,
+    "added": 0,
     "changed": 0,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 31,
+    "material_changes": 27,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-10-13T04:54:45.337454+00:00",
+  "updated_at": "2026-10-14T03:01:26.415190+00:00",
   "version": 1
 }

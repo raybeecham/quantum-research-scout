@@ -83,7 +83,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 30,
+      "evidence_count": 31,
       "first_party_evidence_count": 0,
       "name": "Infleqtion",
       "priority": "medium",
@@ -492,8 +492,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 12,
-      "first_party_evidence_count": 11,
+      "evidence_count": 13,
+      "first_party_evidence_count": 12,
       "name": "PQShield",
       "priority": "high",
       "status": "covered",
@@ -604,8 +604,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 3,
-      "first_party_evidence_count": 1,
+      "evidence_count": 4,
+      "first_party_evidence_count": 2,
       "name": "Thales",
       "priority": "high",
       "status": "covered",
@@ -925,11 +925,11 @@
       "first_seen": "2026-06-25",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-08",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "NIST",
-      "prior_count": 0,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 3,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -1349,11 +1349,11 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 1,
       "latest_seen": "2026-10-10",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "IBM",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "AI Security",
@@ -2952,9 +2952,9 @@
       "latest_seen": "2026-10-06",
       "momentum": "declining",
       "name": "Keyfactor",
-      "prior_count": 2,
+      "prior_count": 3,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -3938,7 +3938,7 @@
       "latest_seen": "2026-10-01",
       "momentum": "declining",
       "name": "Cloudflare",
-      "prior_count": 4,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -3952,8 +3952,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 12,
+      "current_evidence_count": 13,
       "evidence": [
+        {
+          "date": "2026-10-13",
+          "key": "https://pqshield.com/why-perfect-crypto-inventory-stalls-quantum-readiness",
+          "report": "2026-10/2026-10-13-digest.md",
+          "score": 47,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why perfect crypto inventory stalls quantum readiness",
+          "url": "https://pqshield.com/why-perfect-crypto-inventory-stalls-quantum-readiness"
+        },
         {
           "date": "2026-10-06",
           "key": "https://pqshield.com/pqshield-expands-leadership-as-pqc-adoption-accelerates",
@@ -4099,15 +4111,15 @@
           "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
         }
       ],
-      "evidence_count": 12,
+      "evidence_count": 13,
       "first_seen": "2026-07-03",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-10-06",
-      "momentum": "stable",
+      "latest_seen": "2026-10-13",
+      "momentum": "declining",
       "name": "PQShield",
-      "prior_count": 2,
+      "prior_count": 4,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -5458,6 +5470,78 @@
     },
     {
       "aliases": [
+        "Thales Group"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 4,
+      "evidence": [
+        {
+          "date": "2026-10-13",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
+          "report": "2026-10/2026-10-13-digest.md",
+          "score": 67,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
+        },
+        {
+          "date": "2026-10-13",
+          "key": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
+          "report": "2026-10/2026-10-13-digest.md",
+          "score": 29,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "Agentic AI Security Risks in Manufacturing | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
+        },
+        {
+          "date": "2026-08-05",
+          "key": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption",
+          "report": "2026-08/2026-08-05-digest.md",
+          "score": 64,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
+          "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 89,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
+          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
+        }
+      ],
+      "evidence_count": 4,
+      "first_seen": "2026-08-04",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-10-13",
+      "momentum": "rising",
+      "name": "Thales",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "AI Security",
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
         "Wiz Security"
       ],
       "case_sensitive_aliases": [],
@@ -5649,9 +5733,9 @@
       "first_seen": "2025-02-06",
       "historical_evidence_count": 2,
       "latest_seen": "2026-09-29",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Booz Allen Hamilton",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5744,65 +5828,6 @@
         "QEC / Fault Tolerance",
         "Quantum Hardware",
         "Quantum Software / Tooling"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [
-        "Thales Group"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 3,
-      "evidence": [
-        {
-          "date": "2026-10-12",
-          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-10/2026-10-12-digest.md",
-          "score": 67,
-          "source": "Thales Cybersecurity Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
-        },
-        {
-          "date": "2026-08-05",
-          "key": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption",
-          "report": "2026-08/2026-08-05-digest.md",
-          "score": 64,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
-          "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 89,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
-          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
-        }
-      ],
-      "evidence_count": 3,
-      "first_seen": "2026-08-04",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-10-12",
-      "momentum": "rising",
-      "name": "Thales",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility"
       ],
       "type": "company"
     },
@@ -6159,8 +6184,20 @@
         "ColdQuanta"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 30,
+      "current_evidence_count": 31,
       "evidence": [
+        {
+          "date": "2026-10-13",
+          "key": "https://thequantuminsider.com/2026/10/13/infleqtion-9-million-quantum-rf-sensing-system",
+          "report": "2026-10/2026-10-13-digest.md",
+          "score": 41,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Sensing"
+          ],
+          "title": "Infleqtion Receives \u00a39 Million to Develop Quantum RF Sensing System",
+          "url": "https://thequantuminsider.com/2026/10/13/infleqtion-9-million-quantum-rf-sensing-system"
+        },
         {
           "date": "2026-09-29",
           "key": "https://thequantuminsider.com/2026/09/29/infleqtion-riverlane-quantum-error-correction",
@@ -6522,16 +6559,16 @@
           "url": "https://quantumcomputingreport.com/infleqtion-launches-americas-quantum-space-initiative-to-develop-orbital-technology-infrastructure"
         }
       ],
-      "evidence_count": 30,
+      "evidence_count": 31,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-29",
-      "momentum": "declining",
+      "latest_seen": "2026-10-13",
+      "momentum": "rising",
       "name": "Infleqtion",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "medium",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -7973,9 +8010,9 @@
       "latest_seen": "2026-10-07",
       "momentum": "declining",
       "name": "Crypto-agility",
-      "prior_count": 4,
+      "prior_count": 5,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -8477,9 +8514,9 @@
       "first_seen": "2026-01-13",
       "historical_evidence_count": 1,
       "latest_seen": "2026-10-10",
-      "momentum": "stable",
+      "momentum": "rising",
       "name": "Quantum error correction",
-      "prior_count": 3,
+      "prior_count": 2,
       "priority": "critical",
       "recent_count": 3,
       "status": "active",
@@ -9884,6 +9921,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-10-13T05:01:10.993476+00:00",
+  "updated_at": "2026-10-14T03:05:42.868680+00:00",
   "version": 2
 }

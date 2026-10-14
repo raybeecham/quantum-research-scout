@@ -1,6 +1,6 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-10-13T04:54:45.337454+00:00_
+_Updated 2026-10-14T03:01:26.415190+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
@@ -19,8 +19,8 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - **Match appears only in collector query metadata**: 131
 - **No relevant term in the evidence itself**: 131
-- **Official government source**: 99
-- **Source is not an official .gov or .mil domain**: 32
+- **Official government source**: 97
+- **Source is not an official .gov or .mil domain**: 34
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence

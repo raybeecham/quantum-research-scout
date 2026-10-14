@@ -209,13 +209,22 @@
           "source": "arXiv RSS cs.CR",
           "title": "Beware EviLLM: Enabling Vulnerability Injection via Large Language Models",
           "url": "https://arxiv.org/abs/2610.03857"
+        },
+        {
+          "date": "2026-10-13",
+          "key": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
+          "report": "2026-10/2026-10-13-digest.md",
+          "score": 29,
+          "source": "Thales Cybersecurity Blog",
+          "title": "Agentic AI Security Risks in Manufacturing | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-10-05",
-      "momentum": "rising",
+      "latest_seen": "2026-10-13",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "arXiv RSS cs.CR",
@@ -223,9 +232,9 @@
         "The Quantum Insider",
         "Cloudflare Blog"
       ],
-      "prior_count": 0,
-      "recent_count": 2,
-      "status": "actionable"
+      "prior_count": 2,
+      "recent_count": 1,
+      "status": "watching"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -2689,15 +2698,6 @@
         },
         {
           "date": "2026-10-12",
-          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-10/2026-10-12-digest.md",
-          "score": 67,
-          "source": "Thales Cybersecurity Blog",
-          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
-        },
-        {
-          "date": "2026-10-12",
           "key": "https://thequantuminsider.com/2026/10/12/sealsq-vaultic409-secure-element-post-quantum-cryptography",
           "report": "2026-10/2026-10-12-digest.md",
           "score": 69,
@@ -2713,22 +2713,58 @@
           "source": "The Quantum Insider",
           "title": "WISeSat.Space Develops Post-Quantum Security for Satellite Communications",
           "url": "https://thequantuminsider.com/2026/10/12/wisesat-space-post-quantum-security-satellite-communications"
+        },
+        {
+          "date": "2026-10-13",
+          "key": "https://pqshield.com/why-perfect-crypto-inventory-stalls-quantum-readiness",
+          "report": "2026-10/2026-10-13-digest.md",
+          "score": 47,
+          "source": "PQShield",
+          "title": "Why perfect crypto inventory stalls quantum readiness",
+          "url": "https://pqshield.com/why-perfect-crypto-inventory-stalls-quantum-readiness"
+        },
+        {
+          "date": "2026-10-13",
+          "key": "https://thequantuminsider.com/2026/10/13/coinbase-urges-early-work-on-bitcoins-post-quantum-transition",
+          "report": "2026-10/2026-10-13-digest.md",
+          "score": 62,
+          "source": "The Quantum Insider",
+          "title": "Coinbase Urges Early Work on Bitcoin\u2019s Post-Quantum Transition",
+          "url": "https://thequantuminsider.com/2026/10/13/coinbase-urges-early-work-on-bitcoins-post-quantum-transition"
+        },
+        {
+          "date": "2026-10-13",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
+          "report": "2026-10/2026-10-13-digest.md",
+          "score": 67,
+          "source": "Thales Cybersecurity Blog",
+          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
+        },
+        {
+          "date": "2026-10-13",
+          "key": "https://thequantuminsider.com/2026/10/13/quantum-xchange-pqc-panel-act-iac-2026-cyber-summit",
+          "report": "2026-10/2026-10-13-digest.md",
+          "score": 93,
+          "source": "The Quantum Insider",
+          "title": "Quantum XChange CEO to Lead Post-Quantum Cryptography Panel at ACT-IAC 2026 Cyber Summit",
+          "url": "https://thequantuminsider.com/2026/10/13/quantum-xchange-pqc-panel-act-iac-2026-cyber-summit"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-10-12",
-      "momentum": "stable",
+      "latest_seen": "2026-10-13",
+      "momentum": "declining",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
         "QuantumNews.ai",
         "IACR ePrint",
-        "Cisco Quantum-Safe Updates"
+        "PQShield"
       ],
-      "prior_count": 21,
-      "recent_count": 20,
+      "prior_count": 23,
+      "recent_count": 15,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -6353,13 +6389,31 @@
           "source": "The Quantum Insider",
           "title": "Quantum Meet Quantum: Hybrid Quantum Computer Lets Scientists Peak in on Foundational Quantum Effect",
           "url": "https://thequantuminsider.com/2026/10/12/quantum-meet-quantum-hybrid-quantum-computer-lets-scientists-peak-in-on-foundational-quantum-effect"
+        },
+        {
+          "date": "2026-10-13",
+          "key": "https://quantum-journal.org/papers/q-2026-10-13-2235",
+          "report": "2026-10/2026-10-13-digest.md",
+          "score": 22,
+          "source": "Quantum Journal",
+          "title": "Quantum Walks on Arbitrary Spatial Networks with Rydberg Atoms",
+          "url": "https://quantum-journal.org/papers/q-2026-10-13-2235"
+        },
+        {
+          "date": "2026-10-13",
+          "key": "https://thequantuminsider.com/2026/10/13/swinburne-iqm-advance-quantum-ecosystem-australia",
+          "report": "2026-10/2026-10-13-digest.md",
+          "score": 24,
+          "source": "The Quantum Insider",
+          "title": "Swinburne and IQM Partner on Quantum Research and Workforce Development",
+          "url": "https://thequantuminsider.com/2026/10/13/swinburne-iqm-advance-quantum-ecosystem-australia"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-10-12",
-      "momentum": "rising",
+      "latest_seen": "2026-10-13",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -6367,9 +6421,9 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 6,
-      "recent_count": 9,
-      "status": "actionable"
+      "prior_count": 7,
+      "recent_count": 10,
+      "status": "watching"
     },
     "Quantum Networking": {
       "confidence": "high",
@@ -7705,13 +7759,22 @@
           "source": "The Quantum Insider",
           "title": "In Step Toward Quantum Networking, Penn Study Finds Quantum Light Pattern Can Survive Loss of Entanglement",
           "url": "https://thequantuminsider.com/2026/10/12/in-step-toward-quantum-networking-penn-study-finds-quantum-light-pattern-can-survive-loss-of-entanglement"
+        },
+        {
+          "date": "2026-10-13",
+          "key": "https://thequantuminsider.com/2026/10/13/qudef-and-the-thought-projects-partner-to-bring-quantum-security-platform-to-asia-pacific",
+          "report": "2026-10/2026-10-13-digest.md",
+          "score": 33,
+          "source": "The Quantum Insider",
+          "title": "QuDef And The Thought Projects Partner to Bring Quantum Security Platform to Asia-Pacific",
+          "url": "https://thequantuminsider.com/2026/10/13/qudef-and-the-thought-projects-partner-to-bring-quantum-security-platform-to-asia-pacific"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-10-12",
-      "momentum": "stable",
+      "latest_seen": "2026-10-13",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -7719,7 +7782,7 @@
         "arXiv RSS quant-ph",
         "Quantum Computing Report"
       ],
-      "prior_count": 7,
+      "prior_count": 8,
       "recent_count": 5,
       "status": "watching"
     },
@@ -8184,13 +8247,22 @@
           "source": "Quantum Computing Report",
           "title": "NATO Releases Official Quantum Technology Roadmap Establishing Operational Timelines and Standardization Frameworks",
           "url": "https://quantumcomputingreport.com/nato-releases-official-quantum-technology-roadmap-establishing-operational-timelines-and-standardization-frameworks"
+        },
+        {
+          "date": "2026-10-13",
+          "key": "https://thequantuminsider.com/2026/10/13/infleqtion-9-million-quantum-rf-sensing-system",
+          "report": "2026-10/2026-10-13-digest.md",
+          "score": 41,
+          "source": "The Quantum Insider",
+          "title": "Infleqtion Receives \u00a39 Million to Develop Quantum RF Sensing System",
+          "url": "https://thequantuminsider.com/2026/10/13/infleqtion-9-million-quantum-rf-sensing-system"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.",
       "importance": "critical",
-      "latest_seen": "2026-10-01",
-      "momentum": "rising",
+      "latest_seen": "2026-10-13",
+      "momentum": "stable",
       "organizations": [
         "QuantumNews.ai",
         "The Quantum Insider",
@@ -8199,8 +8271,8 @@
         "Department of War Strategic Technology News"
       ],
       "prior_count": 1,
-      "recent_count": 5,
-      "status": "actionable"
+      "recent_count": 1,
+      "status": "watching"
     },
     "Quantum Software / Tooling": {
       "confidence": "high",
@@ -9827,6 +9899,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-10-13T05:01:10.983309+00:00",
+  "updated_at": "2026-10-14T03:05:42.860678+00:00",
   "version": 1
 }
