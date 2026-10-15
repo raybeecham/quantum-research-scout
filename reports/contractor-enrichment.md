@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-10-14T03:01:26.415190+00:00_
+_Updated 2026-10-15T02:41:24.383964+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
@@ -51,7 +51,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | PARAGON MICRO INC | [PARAGON MICRO INC](https://sam.gov/entity/E41LV9AJGHQ1/coreData) | E41LV9AJGHQ1 | 4ZHT8 | Active | Business or Organization, For Profit Organization |
 | OREGON STATE UNIVERSITY | [OREGON STATE UNIVERSITY](https://sam.gov/entity/MZ4DYXE1SL98/coreData) | MZ4DYXE1SL98 | 5D489 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |
 | QUANTUM FOODS INC | [QUANTUM FOODS INC](https://sam.gov/entity/S6M6AJJGH6C3/coreData) | S6M6AJJGH6C3 | 87Q54 | Active | Business or Organization, For Profit Organization, Self Certified Small Disadvantaged Business |
-| GEORGE MASON UNIVERSITY | [GEORGE MASON UNIVERSITY](https://sam.gov/entity/EADLFP7Z72E5/coreData) | EADLFP7Z72E5 | 7X764 | Active | Educational Institution, Minority Institution, State Controlled Institution of Higher Learning |
 | THE ARDIAN GROUP, INC | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) | UE9KZJJCMAS9 | 3BR42 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
 | MORGAN STATE UNIVERSITY | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) | KULSKCCZJT27 | 8U547 | Active | Educational Institution, Historically Black College or University, Minority Institution |
 | DELOITTE CONSULTING LLP | [DELOITTE CONSULTING LLP](https://sam.gov/entity/CKV2L9GZKJK3/coreData) | CKV2L9GZKJK3 | 1TTG5 | Active | Business or Organization, For Profit Organization |
@@ -89,6 +88,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | ALLIANCE TECHNOLOGY GROUP, LLC | [Alliance Technology Group, LLC](https://sam.gov/entity/UCM7WPGJBZ67/coreData) | UCM7WPGJBZ67 | 1YBR8 | Active | SBA-Certified Women-Owned Small Business |
 | VIRGINIA COMMONWEALTH UNIVERSITY | [VIRGINIA COMMONWEALTH UNIVERSITY](https://sam.gov/entity/MLQFL4JSSAA9/coreData) | MLQFL4JSSAA9 | 46050 | Active | Educational Institution, Minority Institution, State Controlled Institution of Higher Learning |
 | UNIVERSITY OF UTAH | [UNIVERSITY OF UTAH](https://sam.gov/entity/LL8GLEVH6MG3/coreData) | LL8GLEVH6MG3 | 3T624 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
+| UNIVERSITY OF NOTRE DAME DU LAC | [UNIVERSITY OF NOTRE DAME DU LAC](https://sam.gov/entity/FPU6XGFXMBE9/coreData) | FPU6XGFXMBE9 | 5B002 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 
 ## Method
 

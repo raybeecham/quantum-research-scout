@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-14T03:01:26.415190+00:00_
+_Updated 2026-10-15T02:41:24.383964+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -13,8 +13,8 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Tracked publications: **250**
 - Curated notable patents: **2**
 - Automated recent discoveries: **248**
-- Published in the last 30 days: **61**
-- Unique named assignees: **142**
+- Published in the last 30 days: **60**
+- Unique named assignees: **141**
 - Patent families: **281**
 - Applications / grants: **240 / 10**
 - Known legal status: **220 of 250**
@@ -210,6 +210,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [AI-DRIVEN CROSS-CHANNEL FINANCIAL FRAUD DETECTION SYSTEM WITH QUANTUM-RESISTANT ENCRYPTION AND BLOCKCHAIN INTEGRATION](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025043982/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CYBERSMARTS.AI LLC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING](https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data)<br><small>Publication number unavailable</small> | Application · Pending | NEW YORK UNIVERSITY | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUBIT INITIALISATION METHOD AND DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19497230/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Diraq Pty Ltd | 1 member(s) · 0 citation(s) | **60 · HIGH** |
+| [QUANTUM DIALOGUE METHOD AND DEVICE IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19500156/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [Large-scale multi-qubit trapped-ion gates](https://data.uspto.gov/patent-file-wrapper/search/details/19489905/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Quantum Art Ltd., YEDA RESEARCH AND DEVELOPMENT CO. LTD. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [DEVICE AND METHOD FOR UPDATING NETWORK INFORMATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147505/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
@@ -309,4 +310,3 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [VIRTUAL RESOURCE MANAGEMENT IN A CLOUD COMPUTING SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19696889/application-data)<br><small>US20260291880A1</small> | Application · Pending | Shopify Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [VERTICAL APPLICATION IN EDGE COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19691562/application-data)<br><small>US20260292751A1</small> | Application · Pending | Telefonaktiebolaget LM Ericsson (publ) | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [PREVENTING RESOURCE BREACHES IN A CLOUD COMPUTING SYSTEM CAUSED BY NEW CODE-BASED INFRASTRUCTURES USING PREVENTATIVE PATTERN-BASED ANALYSIS](https://data.uspto.gov/patent-file-wrapper/search/details/19697059/application-data)<br><small>US20260288977A1</small> | Application · Pending | Microsoft Technology Licensing, LLC | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
-| [COMPUTE RESOURCE MANAGEMENT IN A CLOUD COMPUTING SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19692152/application-data)<br><small>US20260284523A1</small> | Application · Pending | Adeia Guides Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |

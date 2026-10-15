@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-14T03:01:26.415190+00:00_
+_Updated 2026-10-15T02:41:24.383964+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 

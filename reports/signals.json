@@ -2734,37 +2734,100 @@
         },
         {
           "date": "2026-10-13",
-          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-10/2026-10-13-digest.md",
-          "score": 67,
-          "source": "Thales Cybersecurity Blog",
-          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
-        },
-        {
-          "date": "2026-10-13",
           "key": "https://thequantuminsider.com/2026/10/13/quantum-xchange-pqc-panel-act-iac-2026-cyber-summit",
           "report": "2026-10/2026-10-13-digest.md",
           "score": 93,
           "source": "The Quantum Insider",
           "title": "Quantum XChange CEO to Lead Post-Quantum Cryptography Panel at ACT-IAC 2026 Cyber Summit",
           "url": "https://thequantuminsider.com/2026/10/13/quantum-xchange-pqc-panel-act-iac-2026-cyber-summit"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://blogs.cisco.com/security/last-mile-of-trust-post-quantum-cryptography-open-source",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 42,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Cryptography Rarely Fails Because of the Math",
+          "url": "https://blogs.cisco.com/security/last-mile-of-trust-post-quantum-cryptography-open-source"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://pqca.org/blog/2026/lfx-mentorship-adding-c-c-javascript-typescript-cryptographic-detection-to-sonar-cryptography",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 52,
+          "source": "PQCA Blog and News",
+          "title": "LFX Mentorship: Adding C/C++, Javascript/Typescript Cryptographic Detection to Sonar Cryptography",
+          "url": "https://pqca.org/blog/2026/lfx-mentorship-adding-c-c-javascript-typescript-cryptographic-detection-to-sonar-cryptography"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://eprint.iacr.org/2026/2470",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 66,
+          "source": "IACR ePrint",
+          "title": "Refined Application of the XL Algorithm within the Algebraic Approach to the Regular Syndrome Decoding Problem",
+          "url": "https://eprint.iacr.org/2026/2470"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 67,
+          "source": "Thales Cybersecurity Blog",
+          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://eprint.iacr.org/2026/2478",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 70,
+          "source": "IACR ePrint",
+          "title": "Hardware-Level Mitigation of Micro-Architectural Leakages in Embedded Processors",
+          "url": "https://eprint.iacr.org/2026/2478"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://eprint.iacr.org/2026/2474",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 78,
+          "source": "IACR ePrint",
+          "title": "Software-Pipelining The Number Theoretic Transform on Neural Processing Units: A Loop-Fission Methodology",
+          "url": "https://eprint.iacr.org/2026/2474"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://eprint.iacr.org/2026/2473",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 102,
+          "source": "IACR ePrint",
+          "title": "edaBits in the Exponent (edaBitE) and Issuer-Hiding Blind Signatures from ML-DSA and VOLE-in-the-Head",
+          "url": "https://eprint.iacr.org/2026/2473"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://thequantuminsider.com/2026/10/14/sealsq-research-side-channel-attacks-ml-kem",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 124,
+          "source": "The Quantum Insider",
+          "title": "SEALSQ Presents Research on Side-Channel Attacks Against ML-KEM",
+          "url": "https://thequantuminsider.com/2026/10/14/sealsq-research-side-channel-attacks-ml-kem"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-10-13",
-      "momentum": "declining",
+      "latest_seen": "2026-10-14",
+      "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
         "QuantumNews.ai",
         "IACR ePrint",
-        "PQShield"
+        "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 23,
-      "recent_count": 15,
+      "prior_count": 21,
+      "recent_count": 18,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -3480,12 +3543,30 @@
           "source": "Quantum Computing Report",
           "title": "University of Saskatchewan Researchers Achieve Record Hyperbolic Surface Code Efficiency for Modular Fault-Tolerant Architectures",
           "url": "https://quantumcomputingreport.com/university-of-saskatchewan-researchers-achieve-record-hyperbolic-surface-code-efficiency-for-modular-fault-tolerant-architectures"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://quantumcomputingreport.com/alice-bob-demonstrates-gpu-decoding-for-ldpc-cat-codes-via-nvidia-nvqlink",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 54,
+          "source": "Quantum Computing Report",
+          "title": "Alice & Bob Demonstrates GPU Decoding for LDPC-Cat Codes via NVIDIA NVQLink",
+          "url": "https://quantumcomputingreport.com/alice-bob-demonstrates-gpu-decoding-for-ldpc-cat-codes-via-nvidia-nvqlink"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://quantumcomputingreport.com/riverlane-and-nvidia-demonstrate-accelerated-qec-decoder-calibration-using-gpu-processing",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 73,
+          "source": "Quantum Computing Report",
+          "title": "Riverlane and NVIDIA Demonstrate Accelerated QEC Decoder Calibration Using GPU Processing",
+          "url": "https://quantumcomputingreport.com/riverlane-and-nvidia-demonstrate-accelerated-qec-decoder-calibration-using-gpu-processing"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-10-10",
+      "latest_seen": "2026-10-14",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -3494,8 +3575,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 3,
-      "recent_count": 6,
+      "prior_count": 2,
+      "recent_count": 7,
       "status": "actionable"
     },
     "Quantum Hardware": {
@@ -6407,13 +6488,31 @@
           "source": "The Quantum Insider",
           "title": "Swinburne and IQM Partner on Quantum Research and Workforce Development",
           "url": "https://thequantuminsider.com/2026/10/13/swinburne-iqm-advance-quantum-ecosystem-australia"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://thequantuminsider.com/2026/10/14/taiyi-quantum-surpasses-rmb-1-billion-in-funding-to-advance-fault-tolerant-neutral-atom-quantum-computing",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 86,
+          "source": "The Quantum Insider",
+          "title": "TAIYI Quantum Surpasses RMB 1 Billion in Funding to Advance Fault-Tolerant Neutral-Atom Quantum Computing",
+          "url": "https://thequantuminsider.com/2026/10/14/taiyi-quantum-surpasses-rmb-1-billion-in-funding-to-advance-fault-tolerant-neutral-atom-quantum-computing"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://www.usaspending.gov/award/ASST_NON_2537290_049",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Advanced Computing",
+          "title": "MODELING OF III-NITRIDE DEVICES FOR DEVICE-CIRCUIT CO-OPTIMIZATION UNDER CRYOGENIC ENVIRONMENTS -MODELING OF III-NITRIDE DEVICES FOR DEVICE-CIRCUIT CO-OPTIMIZATION UNDER CRYOGENIC...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2537290_049"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-10-13",
-      "momentum": "stable",
+      "latest_seen": "2026-10-14",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -6422,8 +6521,8 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 7,
-      "recent_count": 10,
-      "status": "watching"
+      "recent_count": 11,
+      "status": "actionable"
     },
     "Quantum Networking": {
       "confidence": "high",
@@ -7768,13 +7867,22 @@
           "source": "The Quantum Insider",
           "title": "QuDef And The Thought Projects Partner to Bring Quantum Security Platform to Asia-Pacific",
           "url": "https://thequantuminsider.com/2026/10/13/qudef-and-the-thought-projects-partner-to-bring-quantum-security-platform-to-asia-pacific"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "title": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-10-13",
-      "momentum": "declining",
+      "latest_seen": "2026-10-14",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -7783,7 +7891,7 @@
         "Quantum Computing Report"
       ],
       "prior_count": 8,
-      "recent_count": 5,
+      "recent_count": 6,
       "status": "watching"
     },
     "Quantum Sensing": {
@@ -9176,13 +9284,31 @@
           "source": "Quantum Computing Report",
           "title": "IBM Expands Qiskit Beyond Python with Native C API Bindings for Fortran, C++, and Julia",
           "url": "https://quantumcomputingreport.com/ibm-expands-qiskit-beyond-python-with-native-c-api-bindings-for-fortran-c-and-julia"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://thequantuminsider.com/2026/10/14/eigenorbit-releases-open-source-eigenkit-quantum-computing-library",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 38,
+          "source": "The Quantum Insider",
+          "title": "EigenOrbit Releases Open-Source eigenkit Quantum Computing Library",
+          "url": "https://thequantuminsider.com/2026/10/14/eigenorbit-releases-open-source-eigenkit-quantum-computing-library"
+        },
+        {
+          "date": "2026-10-14",
+          "key": "https://eprint.iacr.org/2026/2472",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 73,
+          "source": "IACR ePrint",
+          "title": "Nowhere Man: Device Binding for Post-Quantum Anonymous Credentials",
+          "url": "https://eprint.iacr.org/2026/2472"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-10-10",
-      "momentum": "declining",
+      "latest_seen": "2026-10-14",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -9190,9 +9316,9 @@
         "Quantum Computing Report",
         "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 6,
-      "recent_count": 3,
-      "status": "watching"
+      "prior_count": 3,
+      "recent_count": 5,
+      "status": "actionable"
     },
     "Standards / Government": {
       "confidence": "high",
@@ -9899,6 +10025,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-10-14T03:05:42.860678+00:00",
+  "updated_at": "2026-10-15T02:49:32.682261+00:00",
   "version": 1
 }

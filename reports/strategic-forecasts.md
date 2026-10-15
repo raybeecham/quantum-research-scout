@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-10-14T03:01:26.415190+00:00_
+_Updated 2026-10-15T02:41:24.383964+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 82% · AI Forge
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-01-12?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-01-13?
 
 **Horizon:** 2026-12-30
 
@@ -66,7 +66,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 62% · Golden Dome for America
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-01-12?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-01-13?
 
 **Horizon:** 2026-12-30
 
@@ -140,7 +140,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 ### 46% · Quantum Genesis
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2027-01-12?
+Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Quantum Genesis by 2027-01-13?
 
 **Horizon:** 2026-12-30
 

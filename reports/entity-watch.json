@@ -215,8 +215,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 28,
-      "first_party_evidence_count": 22,
+      "evidence_count": 29,
+      "first_party_evidence_count": 23,
       "name": "Cisco",
       "priority": "high",
       "status": "covered",
@@ -476,8 +476,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 4,
-      "first_party_evidence_count": 4,
+      "evidence_count": 5,
+      "first_party_evidence_count": 5,
       "name": "PQCA",
       "priority": "high",
       "status": "covered",
@@ -1367,6 +1367,511 @@
     },
     {
       "aliases": [
+        "Cisco Systems"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 18,
+      "evidence": [
+        {
+          "date": "2026-10-14",
+          "key": "https://blogs.cisco.com/security/last-mile-of-trust-post-quantum-cryptography-open-source",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 42,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Cryptography Rarely Fails Because of the Math",
+          "url": "https://blogs.cisco.com/security/last-mile-of-trust-post-quantum-cryptography-open-source"
+        },
+        {
+          "date": "2026-09-28",
+          "key": "https://blogs.cisco.com/developer/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12",
+          "report": "2026-09/2026-09-28-digest.md",
+          "score": 158,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Automating Post-Quantum IPsec on Cisco Routers \u2013 IPsec Series, Part 12",
+          "url": "https://blogs.cisco.com/developer/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12"
+        },
+        {
+          "date": "2026-09-23",
+          "key": "https://thequantuminsider.com/2026/09/23/cisco-kets-integrate-qkd-ios-xr-routers",
+          "report": "2026-09/2026-09-23-digest.md",
+          "score": 37,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Cisco and KETS Integrate Quantum Key Distribution With Cisco IOS XR Routers",
+          "url": "https://thequantuminsider.com/2026/09/23/cisco-kets-integrate-qkd-ios-xr-routers"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 58,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "PQC for Dummies\u2014Cisco Special Edition: Why we wrote it",
+          "url": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://blogs.cisco.com/developer/the-honest-migration-playbook-ipsec-series-part-11",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 70,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The Honest Migration Playbook \u2013 IPsec Series, Part 11",
+          "url": "https://blogs.cisco.com/developer/the-honest-migration-playbook-ipsec-series-part-11"
+        },
+        {
+          "date": "2026-09-13",
+          "key": "https://quantumzeitgeist.com/quantum-computer-networks-infleqtion-cisco",
+          "report": "2026-09/2026-09-13-digest.md",
+          "score": 30,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Infleqtion and Cisco link quantum computers into early networks",
+          "url": "https://quantumzeitgeist.com/quantum-computer-networks-infleqtion-cisco"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 81,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Infleqtion and Cisco Collaborate on Quantum Networking Research",
+          "url": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://infleqtion.com/infleqtion-and-cisco-announce-collaboration-to-advance-networked-quantum-technology",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 64,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Infleqtion and Cisco Announce Collaboration to Advance Networked Quantum Technology",
+          "url": "https://infleqtion.com/infleqtion-and-cisco-announce-collaboration-to-advance-networked-quantum-technology"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://blogs.cisco.com/developer/ml-dsa-certificates-on-cisco-routers-ipsec-series-part-10",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 120,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "ML-DSA Certificates on Cisco Routers \u2013 IPsec Series, Part 10",
+          "url": "https://blogs.cisco.com/developer/ml-dsa-certificates-on-cisco-routers-ipsec-series-part-10"
+        },
+        {
+          "date": "2026-09-01",
+          "key": "https://blogs.cisco.com/developer/post-quantum-key-exchange-on-cisco-routers-ipsec-series-part-9",
+          "report": "2026-09/2026-09-01-digest.md",
+          "score": 106,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post-Quantum Key Exchange on Cisco Routers \u2013 IPsec Series, Part 9",
+          "url": "https://blogs.cisco.com/developer/post-quantum-key-exchange-on-cisco-routers-ipsec-series-part-9"
+        },
+        {
+          "date": "2026-08-25",
+          "key": "https://quantumzeitgeist.com/post-quantum-ikev2-security-strongswan-helps",
+          "report": "2026-08/2026-08-25-digest.md",
+          "score": 106,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "strongSwan helps Cisco build a test for post-quantum IKEv2 security",
+          "url": "https://quantumzeitgeist.com/post-quantum-ikev2-security-strongswan-helps"
+        },
+        {
+          "date": "2026-08-24",
+          "key": "https://blogs.cisco.com/developer/mutual-post-quantum-auth-over-ikev2-ipsec-series-part-8",
+          "report": "2026-08/2026-08-24-digest.md",
+          "score": 158,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Mutual Post-Quantum Auth over IKEv2 \u2013 IPsec Series, Part 8",
+          "url": "https://blogs.cisco.com/developer/mutual-post-quantum-auth-over-ikev2-ipsec-series-part-8"
+        },
+        {
+          "date": "2026-08-17",
+          "key": "https://blogs.cisco.com/developer/the-great-certificate-size-explosion-ipsec-series-part-7",
+          "report": "2026-08/2026-08-17-digest.md",
+          "score": 42,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The Great Certificate Size Explosion \u2013 IPsec Series, Part 7",
+          "url": "https://blogs.cisco.com/developer/the-great-certificate-size-explosion-ipsec-series-part-7"
+        },
+        {
+          "date": "2026-08-10",
+          "key": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6",
+          "report": "2026-08/2026-08-10-digest.md",
+          "score": 194,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Who Goes There? Post-Quantum Authentication \u2013 IPsec Series, Part 6",
+          "url": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 42,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Quantum Computing: What IT and Business Leaders Need to Know",
+          "url": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 88,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "A Different Road to Quantum Safety: The PPK \u2013 IPsec Series, Part 5",
+          "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
+        },
+        {
+          "date": "2026-07-31",
+          "key": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption",
+          "report": "2026-07/2026-07-31-digest.md",
+          "score": 25,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Cisco Routers Now Run Quantum Encryption via Live eQKD Network",
+          "url": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption"
+        },
+        {
+          "date": "2026-07-27",
+          "key": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4",
+          "report": "2026-07/2026-07-27-digest.md",
+          "score": 130,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
+          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Cisco"
+          ],
+          "historical": true,
+          "key": "https://blogs.cisco.com/tag/post-quantum-crypto",
+          "observed_at": "2026-10-11T09:34:47.743688+00:00",
+          "published_at": null,
+          "score": 66,
+          "source": "Cisco Quantum-Safe Updates",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post-Quantum Cryptography (PQC) Archives",
+          "url": "https://blogs.cisco.com/tag/post-quantum-crypto"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Cisco"
+          ],
+          "historical": true,
+          "key": "https://blogs.cisco.com/tag/quantum-safe-encryption",
+          "observed_at": "2026-10-11T09:34:47.743688+00:00",
+          "published_at": null,
+          "score": 50,
+          "source": "Cisco Quantum-Safe Updates",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "quantum-safe encryption Archives",
+          "url": "https://blogs.cisco.com/tag/quantum-safe-encryption"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Cisco"
+          ],
+          "historical": true,
+          "key": "https://blogs.cisco.com/tag/quantum-safe-computing",
+          "observed_at": "2026-10-11T09:34:47.743688+00:00",
+          "published_at": null,
+          "score": 50,
+          "source": "Cisco Quantum-Safe Updates",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "quantum-safe computing Archives",
+          "url": "https://blogs.cisco.com/tag/quantum-safe-computing"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Cisco"
+          ],
+          "historical": true,
+          "key": "https://blogs.cisco.com/tag/post-quantum-signature-algorithms",
+          "observed_at": "2026-10-11T09:34:47.743688+00:00",
+          "published_at": null,
+          "score": 50,
+          "source": "Cisco Quantum-Safe Updates",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "post-quantum signature algorithms Archives",
+          "url": "https://blogs.cisco.com/tag/post-quantum-signature-algorithms"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Cisco"
+          ],
+          "historical": true,
+          "key": "https://blogs.cisco.com/tag/post-quantum-key-exchange",
+          "observed_at": "2026-10-11T09:34:47.743688+00:00",
+          "published_at": null,
+          "score": 50,
+          "source": "Cisco Quantum-Safe Updates",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "post-quantum key exchange Archives",
+          "url": "https://blogs.cisco.com/tag/post-quantum-key-exchange"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Cisco"
+          ],
+          "historical": true,
+          "key": "https://blogs.cisco.com/tag/post-quantum-cryptography",
+          "observed_at": "2026-10-11T09:34:47.743688+00:00",
+          "published_at": null,
+          "score": 50,
+          "source": "Cisco Quantum-Safe Updates",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "post-quantum cryptography Archives",
+          "url": "https://blogs.cisco.com/tag/post-quantum-cryptography"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Cisco"
+          ],
+          "historical": true,
+          "key": "https://blogs.cisco.com/tag/post-quantum-authentication",
+          "observed_at": "2026-10-11T09:34:47.743688+00:00",
+          "published_at": null,
+          "score": 50,
+          "source": "Cisco Quantum-Safe Updates",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "post-quantum authentication Archives",
+          "url": "https://blogs.cisco.com/tag/post-quantum-authentication"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Cisco"
+          ],
+          "historical": true,
+          "key": "https://blogs.cisco.com/tag/post-quantum",
+          "observed_at": "2026-10-11T09:34:47.743688+00:00",
+          "published_at": null,
+          "score": 50,
+          "source": "Cisco Quantum-Safe Updates",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "post-quantum Archives",
+          "url": "https://blogs.cisco.com/tag/post-quantum"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Cisco"
+          ],
+          "historical": true,
+          "key": "https://blogs.cisco.com/tag/post-quantum-journey",
+          "observed_at": "2026-10-11T09:34:47.743688+00:00",
+          "published_at": null,
+          "score": 50,
+          "source": "Cisco Quantum-Safe Updates",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post-Quantum Journey Archives",
+          "url": "https://blogs.cisco.com/tag/post-quantum-journey"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Cisco"
+          ],
+          "historical": true,
+          "key": "https://blogs.cisco.com/tag/post-quantum-cryptography-pqc",
+          "observed_at": "2026-10-11T09:34:47.743688+00:00",
+          "published_at": null,
+          "score": 48,
+          "source": "Cisco Quantum-Safe Updates",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post Quantum Cryptography (PQC) Archives",
+          "url": "https://blogs.cisco.com/tag/post-quantum-cryptography-pqc"
+        },
+        {
+          "alert_eligible": false,
+          "category": "PQC",
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "date_source": "",
+          "entities": [
+            "Cisco"
+          ],
+          "historical": true,
+          "key": "https://blogs.cisco.com/tag/quantum-safecomputing",
+          "observed_at": "2026-10-11T09:34:47.743688+00:00",
+          "published_at": null,
+          "score": 32,
+          "source": "Cisco Quantum-Safe Updates",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Quantum-SafeComputing Archives",
+          "url": "https://blogs.cisco.com/tag/quantum-safecomputing"
+        }
+      ],
+      "evidence_count": 29,
+      "first_seen": "2026-07-27",
+      "historical_evidence_count": 11,
+      "latest_seen": "2026-10-14",
+      "momentum": "rising",
+      "name": "Cisco",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Quantum Hardware",
+        "Quantum Networking"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
         "QuProtect"
       ],
       "case_sensitive_aliases": [],
@@ -1980,499 +2485,6 @@
       "type": "company"
     },
     {
-      "aliases": [
-        "Cisco Systems"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 17,
-      "evidence": [
-        {
-          "date": "2026-09-28",
-          "key": "https://blogs.cisco.com/developer/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12",
-          "report": "2026-09/2026-09-28-digest.md",
-          "score": 158,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Automating Post-Quantum IPsec on Cisco Routers \u2013 IPsec Series, Part 12",
-          "url": "https://blogs.cisco.com/developer/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12"
-        },
-        {
-          "date": "2026-09-23",
-          "key": "https://thequantuminsider.com/2026/09/23/cisco-kets-integrate-qkd-ios-xr-routers",
-          "report": "2026-09/2026-09-23-digest.md",
-          "score": 37,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "Cisco and KETS Integrate Quantum Key Distribution With Cisco IOS XR Routers",
-          "url": "https://thequantuminsider.com/2026/09/23/cisco-kets-integrate-qkd-ios-xr-routers"
-        },
-        {
-          "date": "2026-09-22",
-          "key": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it",
-          "report": "2026-09/2026-09-22-digest.md",
-          "score": 58,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "PQC for Dummies\u2014Cisco Special Edition: Why we wrote it",
-          "url": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it"
-        },
-        {
-          "date": "2026-09-14",
-          "key": "https://blogs.cisco.com/developer/the-honest-migration-playbook-ipsec-series-part-11",
-          "report": "2026-09/2026-09-14-digest.md",
-          "score": 70,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The Honest Migration Playbook \u2013 IPsec Series, Part 11",
-          "url": "https://blogs.cisco.com/developer/the-honest-migration-playbook-ipsec-series-part-11"
-        },
-        {
-          "date": "2026-09-13",
-          "key": "https://quantumzeitgeist.com/quantum-computer-networks-infleqtion-cisco",
-          "report": "2026-09/2026-09-13-digest.md",
-          "score": 30,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Infleqtion and Cisco link quantum computers into early networks",
-          "url": "https://quantumzeitgeist.com/quantum-computer-networks-infleqtion-cisco"
-        },
-        {
-          "date": "2026-09-10",
-          "key": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems",
-          "report": "2026-09/2026-09-10-digest.md",
-          "score": 81,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "Infleqtion and Cisco Collaborate on Quantum Networking Research",
-          "url": "https://thequantuminsider.com/2026/09/10/infleqtion-cisco-networked-quantum-systems"
-        },
-        {
-          "date": "2026-09-10",
-          "key": "https://infleqtion.com/infleqtion-and-cisco-announce-collaboration-to-advance-networked-quantum-technology",
-          "report": "2026-09/2026-09-10-digest.md",
-          "score": 64,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "Infleqtion and Cisco Announce Collaboration to Advance Networked Quantum Technology",
-          "url": "https://infleqtion.com/infleqtion-and-cisco-announce-collaboration-to-advance-networked-quantum-technology"
-        },
-        {
-          "date": "2026-09-08",
-          "key": "https://blogs.cisco.com/developer/ml-dsa-certificates-on-cisco-routers-ipsec-series-part-10",
-          "report": "2026-09/2026-09-08-digest.md",
-          "score": 120,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "ML-DSA Certificates on Cisco Routers \u2013 IPsec Series, Part 10",
-          "url": "https://blogs.cisco.com/developer/ml-dsa-certificates-on-cisco-routers-ipsec-series-part-10"
-        },
-        {
-          "date": "2026-09-01",
-          "key": "https://blogs.cisco.com/developer/post-quantum-key-exchange-on-cisco-routers-ipsec-series-part-9",
-          "report": "2026-09/2026-09-01-digest.md",
-          "score": 106,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Post-Quantum Key Exchange on Cisco Routers \u2013 IPsec Series, Part 9",
-          "url": "https://blogs.cisco.com/developer/post-quantum-key-exchange-on-cisco-routers-ipsec-series-part-9"
-        },
-        {
-          "date": "2026-08-25",
-          "key": "https://quantumzeitgeist.com/post-quantum-ikev2-security-strongswan-helps",
-          "report": "2026-08/2026-08-25-digest.md",
-          "score": 106,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "strongSwan helps Cisco build a test for post-quantum IKEv2 security",
-          "url": "https://quantumzeitgeist.com/post-quantum-ikev2-security-strongswan-helps"
-        },
-        {
-          "date": "2026-08-24",
-          "key": "https://blogs.cisco.com/developer/mutual-post-quantum-auth-over-ikev2-ipsec-series-part-8",
-          "report": "2026-08/2026-08-24-digest.md",
-          "score": 158,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Mutual Post-Quantum Auth over IKEv2 \u2013 IPsec Series, Part 8",
-          "url": "https://blogs.cisco.com/developer/mutual-post-quantum-auth-over-ikev2-ipsec-series-part-8"
-        },
-        {
-          "date": "2026-08-17",
-          "key": "https://blogs.cisco.com/developer/the-great-certificate-size-explosion-ipsec-series-part-7",
-          "report": "2026-08/2026-08-17-digest.md",
-          "score": 42,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The Great Certificate Size Explosion \u2013 IPsec Series, Part 7",
-          "url": "https://blogs.cisco.com/developer/the-great-certificate-size-explosion-ipsec-series-part-7"
-        },
-        {
-          "date": "2026-08-10",
-          "key": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6",
-          "report": "2026-08/2026-08-10-digest.md",
-          "score": 194,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Who Goes There? Post-Quantum Authentication \u2013 IPsec Series, Part 6",
-          "url": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 42,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Quantum Computing: What IT and Business Leaders Need to Know",
-          "url": "https://blogs.cisco.com/learning/quantum-computing-what-it-and-business-leaders-need-to-know"
-        },
-        {
-          "date": "2026-08-03",
-          "key": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5",
-          "report": "2026-08/2026-08-03-digest.md",
-          "score": 88,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "A Different Road to Quantum Safety: The PPK \u2013 IPsec Series, Part 5",
-          "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
-        },
-        {
-          "date": "2026-07-31",
-          "key": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 25,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "Cisco Routers Now Run Quantum Encryption via Live eQKD Network",
-          "url": "https://quantumzeitgeist.com/cisco-routers-run-quantum-encryption"
-        },
-        {
-          "date": "2026-07-27",
-          "key": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4",
-          "report": "2026-07/2026-07-27-digest.md",
-          "score": 130,
-          "source": "Cisco Quantum-Safe Updates",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
-          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
-        },
-        {
-          "alert_eligible": false,
-          "category": "PQC",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Cisco"
-          ],
-          "historical": true,
-          "key": "https://blogs.cisco.com/tag/post-quantum-crypto",
-          "observed_at": "2026-10-11T09:34:47.743688+00:00",
-          "published_at": null,
-          "score": 66,
-          "source": "Cisco Quantum-Safe Updates",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Post-Quantum Cryptography (PQC) Archives",
-          "url": "https://blogs.cisco.com/tag/post-quantum-crypto"
-        },
-        {
-          "alert_eligible": false,
-          "category": "PQC",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Cisco"
-          ],
-          "historical": true,
-          "key": "https://blogs.cisco.com/tag/quantum-safe-encryption",
-          "observed_at": "2026-10-11T09:34:47.743688+00:00",
-          "published_at": null,
-          "score": 50,
-          "source": "Cisco Quantum-Safe Updates",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "quantum-safe encryption Archives",
-          "url": "https://blogs.cisco.com/tag/quantum-safe-encryption"
-        },
-        {
-          "alert_eligible": false,
-          "category": "PQC",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Cisco"
-          ],
-          "historical": true,
-          "key": "https://blogs.cisco.com/tag/quantum-safe-computing",
-          "observed_at": "2026-10-11T09:34:47.743688+00:00",
-          "published_at": null,
-          "score": 50,
-          "source": "Cisco Quantum-Safe Updates",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "quantum-safe computing Archives",
-          "url": "https://blogs.cisco.com/tag/quantum-safe-computing"
-        },
-        {
-          "alert_eligible": false,
-          "category": "PQC",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Cisco"
-          ],
-          "historical": true,
-          "key": "https://blogs.cisco.com/tag/post-quantum-signature-algorithms",
-          "observed_at": "2026-10-11T09:34:47.743688+00:00",
-          "published_at": null,
-          "score": 50,
-          "source": "Cisco Quantum-Safe Updates",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "post-quantum signature algorithms Archives",
-          "url": "https://blogs.cisco.com/tag/post-quantum-signature-algorithms"
-        },
-        {
-          "alert_eligible": false,
-          "category": "PQC",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Cisco"
-          ],
-          "historical": true,
-          "key": "https://blogs.cisco.com/tag/post-quantum-key-exchange",
-          "observed_at": "2026-10-11T09:34:47.743688+00:00",
-          "published_at": null,
-          "score": 50,
-          "source": "Cisco Quantum-Safe Updates",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "post-quantum key exchange Archives",
-          "url": "https://blogs.cisco.com/tag/post-quantum-key-exchange"
-        },
-        {
-          "alert_eligible": false,
-          "category": "PQC",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Cisco"
-          ],
-          "historical": true,
-          "key": "https://blogs.cisco.com/tag/post-quantum-cryptography",
-          "observed_at": "2026-10-11T09:34:47.743688+00:00",
-          "published_at": null,
-          "score": 50,
-          "source": "Cisco Quantum-Safe Updates",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "post-quantum cryptography Archives",
-          "url": "https://blogs.cisco.com/tag/post-quantum-cryptography"
-        },
-        {
-          "alert_eligible": false,
-          "category": "PQC",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Cisco"
-          ],
-          "historical": true,
-          "key": "https://blogs.cisco.com/tag/post-quantum-authentication",
-          "observed_at": "2026-10-11T09:34:47.743688+00:00",
-          "published_at": null,
-          "score": 50,
-          "source": "Cisco Quantum-Safe Updates",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "post-quantum authentication Archives",
-          "url": "https://blogs.cisco.com/tag/post-quantum-authentication"
-        },
-        {
-          "alert_eligible": false,
-          "category": "PQC",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Cisco"
-          ],
-          "historical": true,
-          "key": "https://blogs.cisco.com/tag/post-quantum",
-          "observed_at": "2026-10-11T09:34:47.743688+00:00",
-          "published_at": null,
-          "score": 50,
-          "source": "Cisco Quantum-Safe Updates",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "post-quantum Archives",
-          "url": "https://blogs.cisco.com/tag/post-quantum"
-        },
-        {
-          "alert_eligible": false,
-          "category": "PQC",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Cisco"
-          ],
-          "historical": true,
-          "key": "https://blogs.cisco.com/tag/post-quantum-journey",
-          "observed_at": "2026-10-11T09:34:47.743688+00:00",
-          "published_at": null,
-          "score": 50,
-          "source": "Cisco Quantum-Safe Updates",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Post-Quantum Journey Archives",
-          "url": "https://blogs.cisco.com/tag/post-quantum-journey"
-        },
-        {
-          "alert_eligible": false,
-          "category": "PQC",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Cisco"
-          ],
-          "historical": true,
-          "key": "https://blogs.cisco.com/tag/post-quantum-cryptography-pqc",
-          "observed_at": "2026-10-11T09:34:47.743688+00:00",
-          "published_at": null,
-          "score": 48,
-          "source": "Cisco Quantum-Safe Updates",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Post Quantum Cryptography (PQC) Archives",
-          "url": "https://blogs.cisco.com/tag/post-quantum-cryptography-pqc"
-        },
-        {
-          "alert_eligible": false,
-          "category": "PQC",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Cisco"
-          ],
-          "historical": true,
-          "key": "https://blogs.cisco.com/tag/quantum-safecomputing",
-          "observed_at": "2026-10-11T09:34:47.743688+00:00",
-          "published_at": null,
-          "score": 32,
-          "source": "Cisco Quantum-Safe Updates",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Quantum-SafeComputing Archives",
-          "url": "https://blogs.cisco.com/tag/quantum-safecomputing"
-        }
-      ],
-      "evidence_count": 28,
-      "first_seen": "2026-07-27",
-      "historical_evidence_count": 11,
-      "latest_seen": "2026-09-28",
-      "momentum": "stable",
-      "name": "Cisco",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
-      "themes": [
-        "PQC / Crypto Agility",
-        "Quantum Hardware",
-        "Quantum Networking"
-      ],
-      "type": "company"
-    },
-    {
       "aliases": [],
       "case_sensitive_aliases": [],
       "current_evidence_count": 15,
@@ -2955,7 +2967,7 @@
       "prior_count": 3,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "Standards / Government"
@@ -3759,9 +3771,9 @@
       "first_seen": "2024-10-28",
       "historical_evidence_count": 19,
       "latest_seen": "2026-10-08",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Fortanix",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -4117,7 +4129,7 @@
       "latest_seen": "2026-10-13",
       "momentum": "declining",
       "name": "PQShield",
-      "prior_count": 4,
+      "prior_count": 3,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -5228,6 +5240,89 @@
     },
     {
       "aliases": [
+        "Post-Quantum Cryptography Alliance"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 5,
+      "evidence": [
+        {
+          "date": "2026-10-14",
+          "key": "https://pqca.org/blog/2026/lfx-mentorship-adding-c-c-javascript-typescript-cryptographic-detection-to-sonar-cryptography",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 52,
+          "source": "PQCA Blog and News",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "LFX Mentorship: Adding C/C++, Javascript/Typescript Cryptographic Detection to Sonar Cryptography",
+          "url": "https://pqca.org/blog/2026/lfx-mentorship-adding-c-c-javascript-typescript-cryptographic-detection-to-sonar-cryptography"
+        },
+        {
+          "date": "2026-10-07",
+          "key": "https://pqca.org/webinars/2026/from-discovery-to-remediation-operationalizing-cbom-for-quantum-safe-transformation",
+          "report": "2026-10/2026-10-07-digest.md",
+          "score": 138,
+          "source": "PQCA Blog and News",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "From Discovery to Remediation: Operationalizing CBOM for Quantum-Safe Transformation",
+          "url": "https://pqca.org/webinars/2026/from-discovery-to-remediation-operationalizing-cbom-for-quantum-safe-transformation"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://pqca.org/blog/2026/sonar-cryptography-plugin",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 52,
+          "source": "PQCA Blog and News",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Sonar Cryptography Plugin",
+          "url": "https://pqca.org/blog/2026/sonar-cryptography-plugin"
+        },
+        {
+          "date": "2026-07-27",
+          "key": "https://pqca.org/blog/2026/leadership-spotlight-qa-with-rodrigo-martin-sanchez-ledesma-oqs-tsc-co-chair",
+          "report": "2026-07/2026-07-27-digest.md",
+          "score": 63,
+          "source": "PQCA Blog and News",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Leadership Spotlight: Q&A With Rodrigo Mart\u00edn S\u00e1nchez-Ledesma, OQS TSC Co-Chair",
+          "url": "https://pqca.org/blog/2026/leadership-spotlight-qa-with-rodrigo-martin-sanchez-ledesma-oqs-tsc-co-chair"
+        },
+        {
+          "date": "2026-07-27",
+          "key": "https://pqca.org/blog/2026/member-spotlight-in-africa-pqcas-tools-meet-a-continents-backbone",
+          "report": "2026-07/2026-07-27-digest.md",
+          "score": 57,
+          "source": "PQCA Blog and News",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Member Spotlight: In Africa, PQCA\u2019s Tools Meet a Continent\u2019s Backbone",
+          "url": "https://pqca.org/blog/2026/member-spotlight-in-africa-pqcas-tools-meet-a-continents-backbone"
+        }
+      ],
+      "evidence_count": 5,
+      "first_seen": "2026-07-27",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-10-14",
+      "momentum": "stable",
+      "name": "PQCA",
+      "prior_count": 1,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "consortium"
+    },
+    {
+      "aliases": [
         "ISO",
         "International Organization for Standardization",
         "International Electrotechnical Commission"
@@ -5399,86 +5494,15 @@
     },
     {
       "aliases": [
-        "Post-Quantum Cryptography Alliance"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 4,
-      "evidence": [
-        {
-          "date": "2026-10-07",
-          "key": "https://pqca.org/webinars/2026/from-discovery-to-remediation-operationalizing-cbom-for-quantum-safe-transformation",
-          "report": "2026-10/2026-10-07-digest.md",
-          "score": 138,
-          "source": "PQCA Blog and News",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "From Discovery to Remediation: Operationalizing CBOM for Quantum-Safe Transformation",
-          "url": "https://pqca.org/webinars/2026/from-discovery-to-remediation-operationalizing-cbom-for-quantum-safe-transformation"
-        },
-        {
-          "date": "2026-09-08",
-          "key": "https://pqca.org/blog/2026/sonar-cryptography-plugin",
-          "report": "2026-09/2026-09-08-digest.md",
-          "score": 52,
-          "source": "PQCA Blog and News",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Sonar Cryptography Plugin",
-          "url": "https://pqca.org/blog/2026/sonar-cryptography-plugin"
-        },
-        {
-          "date": "2026-07-27",
-          "key": "https://pqca.org/blog/2026/leadership-spotlight-qa-with-rodrigo-martin-sanchez-ledesma-oqs-tsc-co-chair",
-          "report": "2026-07/2026-07-27-digest.md",
-          "score": 63,
-          "source": "PQCA Blog and News",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Leadership Spotlight: Q&A With Rodrigo Mart\u00edn S\u00e1nchez-Ledesma, OQS TSC Co-Chair",
-          "url": "https://pqca.org/blog/2026/leadership-spotlight-qa-with-rodrigo-martin-sanchez-ledesma-oqs-tsc-co-chair"
-        },
-        {
-          "date": "2026-07-27",
-          "key": "https://pqca.org/blog/2026/member-spotlight-in-africa-pqcas-tools-meet-a-continents-backbone",
-          "report": "2026-07/2026-07-27-digest.md",
-          "score": 57,
-          "source": "PQCA Blog and News",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Member Spotlight: In Africa, PQCA\u2019s Tools Meet a Continent\u2019s Backbone",
-          "url": "https://pqca.org/blog/2026/member-spotlight-in-africa-pqcas-tools-meet-a-continents-backbone"
-        }
-      ],
-      "evidence_count": 4,
-      "first_seen": "2026-07-27",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-10-07",
-      "momentum": "rising",
-      "name": "PQCA",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "type": "consortium"
-    },
-    {
-      "aliases": [
         "Thales Group"
       ],
       "case_sensitive_aliases": [],
       "current_evidence_count": 4,
       "evidence": [
         {
-          "date": "2026-10-13",
+          "date": "2026-10-14",
           "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-10/2026-10-13-digest.md",
+          "report": "2026-10/2026-10-14-digest.md",
           "score": 67,
           "source": "Thales Cybersecurity Blog",
           "themes": [
@@ -5527,7 +5551,7 @@
       "evidence_count": 4,
       "first_seen": "2026-08-04",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-10-13",
+      "latest_seen": "2026-10-14",
       "momentum": "rising",
       "name": "Thales",
       "prior_count": 0,
@@ -8012,7 +8036,7 @@
       "name": "Crypto-agility",
       "prior_count": 5,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -8027,8 +8051,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 38,
+      "current_evidence_count": 39,
       "evidence": [
+        {
+          "date": "2026-10-14",
+          "key": "https://quantumcomputingreport.com/riverlane-and-nvidia-demonstrate-accelerated-qec-decoder-calibration-using-gpu-processing",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 73,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Riverlane and NVIDIA Demonstrate Accelerated QEC Decoder Calibration Using GPU Processing",
+          "url": "https://quantumcomputingreport.com/riverlane-and-nvidia-demonstrate-accelerated-qec-decoder-calibration-using-gpu-processing"
+        },
         {
           "date": "2026-10-10",
           "key": "https://quantumcomputingreport.com/university-of-saskatchewan-researchers-achieve-record-hyperbolic-surface-code-efficiency-for-modular-fault-tolerant-architectures",
@@ -8510,15 +8546,15 @@
           "url": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/"
         }
       ],
-      "evidence_count": 39,
+      "evidence_count": 40,
       "first_seen": "2026-01-13",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-10-10",
+      "latest_seen": "2026-10-14",
       "momentum": "rising",
       "name": "Quantum error correction",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "critical",
-      "recent_count": 3,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "AI Security",
@@ -8945,8 +8981,20 @@
         "Dilithium"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 5,
+      "current_evidence_count": 6,
       "evidence": [
+        {
+          "date": "2026-10-14",
+          "key": "https://eprint.iacr.org/2026/2473",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 102,
+          "source": "IACR ePrint",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "edaBits in the Exponent (edaBitE) and Issuer-Hiding Blind Signatures from ML-DSA and VOLE-in-the-Head",
+          "url": "https://eprint.iacr.org/2026/2473"
+        },
         {
           "date": "2026-10-08",
           "key": "https://thequantuminsider.com/2026/10/08/surfshark-achieves-full-post-quantum-wireguard-implementation",
@@ -9008,15 +9056,15 @@
           "url": "https://eprint.iacr.org/2026/1333"
         }
       ],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-10-08",
+      "latest_seen": "2026-10-14",
       "momentum": "rising",
       "name": "ML-DSA",
       "prior_count": 0,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -9029,8 +9077,20 @@
         "Kyber"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 1,
+      "current_evidence_count": 2,
       "evidence": [
+        {
+          "date": "2026-10-14",
+          "key": "https://thequantuminsider.com/2026/10/14/sealsq-research-side-channel-attacks-ml-kem",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 124,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "SEALSQ Presents Research on Side-Channel Attacks Against ML-KEM",
+          "url": "https://thequantuminsider.com/2026/10/14/sealsq-research-side-channel-attacks-ml-kem"
+        },
         {
           "date": "2026-09-21",
           "key": "https://eprint.iacr.org/2026/2137",
@@ -9044,16 +9104,16 @@
           "url": "https://eprint.iacr.org/2026/2137"
         }
       ],
-      "evidence_count": 1,
+      "evidence_count": 2,
       "first_seen": "2026-09-21",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-21",
-      "momentum": "stable",
+      "latest_seen": "2026-10-14",
+      "momentum": "rising",
       "name": "ML-KEM",
       "prior_count": 0,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -9379,8 +9439,20 @@
         "entanglement distribution"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 13,
+      "current_evidence_count": 14,
       "evidence": [
+        {
+          "date": "2026-10-14",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732",
+          "report": "2026-10/2026-10-14-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732"
+        },
         {
           "date": "2026-10-12",
           "key": "https://thequantuminsider.com/2026/10/12/in-step-toward-quantum-networking-penn-study-finds-quantum-light-pattern-can-survive-loss-of-entanglement",
@@ -9538,15 +9610,15 @@
           "url": "https://thequantuminsider.com/2026/07/16/arq-raises-1-4-million-pre-seed-round-to-lay-the-foundations-for-the-quantum-internet"
         }
       ],
-      "evidence_count": 13,
+      "evidence_count": 14,
       "first_seen": "2026-07-16",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-10-12",
+      "latest_seen": "2026-10-14",
       "momentum": "rising",
       "name": "Quantum networking",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -9921,6 +9993,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-10-14T03:05:42.868680+00:00",
+  "updated_at": "2026-10-15T02:49:32.695112+00:00",
   "version": 2
 }
