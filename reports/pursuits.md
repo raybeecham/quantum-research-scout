@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-10-15T02:41:24.383964+00:00_
+_Updated 2026-10-16T02:37:08.215323+00:00_
 
 Public-safe pursuit status derived from tracked configuration and qualification evidence. Internal notes, questions, partners, and capability evidence are excluded.
 
@@ -15,8 +15,8 @@ Public-safe pursuit status derived from tracked configuration and qualification 
 
 | Stage | Opportunity | Agency | Owner | Deadline | Decision / next step |
 |---|---|---|---|---|---|
-| qualify | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) | PAMS-SC | Unassigned | — | Assign owner and qualify |
 | qualify | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | PAMS-SC | Unassigned | — | Assign owner and qualify |
+| qualify | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) | PAMS-SC | Unassigned | — | Assign owner and qualify |
 
 ## Operating model
 

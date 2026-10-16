@@ -451,6 +451,141 @@
     },
     {
       "confidence": "high",
+      "evidence_count": 20,
+      "historical_evidence_count": 11,
+      "latest_evidence_at": "2026-10-15",
+      "name": "Cisco",
+      "priority": "high",
+      "source_count": 2,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": "2026-10-15",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "readiness"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "The Quantum Security Transition: A Policy Agenda for Post-Quantum Readiness in Asia Pacific",
+          "url": "https://blogs.cisco.com/gov/the-quantum-security-transition-a-policy-agenda-for-post-quantum-readiness-in-asia-pacific"
+        },
+        {
+          "date": "2026-09-28",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Automating Post-Quantum IPsec on Cisco Routers \u2013 IPsec Series, Part 12",
+          "url": "https://blogs.cisco.com/developer/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12"
+        },
+        {
+          "date": "2026-09-22",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "pqc"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "PQC for Dummies\u2014Cisco Special Edition: Why we wrote it",
+          "url": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it"
+        },
+        {
+          "date": "2026-09-01",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Post-Quantum Key Exchange on Cisco Routers \u2013 IPsec Series, Part 9",
+          "url": "https://blogs.cisco.com/developer/post-quantum-key-exchange-on-cisco-routers-ipsec-series-part-9"
+        },
+        {
+          "date": "2026-08-25",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuantumNews.ai",
+          "title": "strongSwan helps Cisco build a test for post-quantum IKEv2 security",
+          "url": "https://quantumzeitgeist.com/post-quantum-ikev2-security-strongswan-helps"
+        },
+        {
+          "date": "2026-08-24",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Mutual Post-Quantum Auth over IKEv2 \u2013 IPsec Series, Part 8",
+          "url": "https://blogs.cisco.com/developer/mutual-post-quantum-auth-over-ikev2-ipsec-series-part-8"
+        },
+        {
+          "date": "2026-08-10",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Who Goes There? Post-Quantum Authentication \u2013 IPsec Series, Part 6",
+          "url": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6"
+        },
+        {
+          "date": "2026-08-03",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "A Different Road to Quantum Safety: The PPK \u2013 IPsec Series, Part 5",
+          "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "high",
       "evidence_count": 6,
       "historical_evidence_count": 0,
       "latest_evidence_at": "2026-09-25",
@@ -1177,141 +1312,6 @@
         }
       ],
       "type": "consulting"
-    },
-    {
-      "confidence": "high",
-      "evidence_count": 19,
-      "historical_evidence_count": 11,
-      "latest_evidence_at": "2026-09-28",
-      "name": "Cisco",
-      "priority": "high",
-      "source_count": 2,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-09-28",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "Automating Post-Quantum IPsec on Cisco Routers \u2013 IPsec Series, Part 12",
-          "url": "https://blogs.cisco.com/developer/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12"
-        },
-        {
-          "date": "2026-09-22",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "pqc"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "PQC for Dummies\u2014Cisco Special Edition: Why we wrote it",
-          "url": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it"
-        },
-        {
-          "date": "2026-09-01",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "Post-Quantum Key Exchange on Cisco Routers \u2013 IPsec Series, Part 9",
-          "url": "https://blogs.cisco.com/developer/post-quantum-key-exchange-on-cisco-routers-ipsec-series-part-9"
-        },
-        {
-          "date": "2026-08-25",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "QuantumNews.ai",
-          "title": "strongSwan helps Cisco build a test for post-quantum IKEv2 security",
-          "url": "https://quantumzeitgeist.com/post-quantum-ikev2-security-strongswan-helps"
-        },
-        {
-          "date": "2026-08-24",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "Mutual Post-Quantum Auth over IKEv2 \u2013 IPsec Series, Part 8",
-          "url": "https://blogs.cisco.com/developer/mutual-post-quantum-auth-over-ikev2-ipsec-series-part-8"
-        },
-        {
-          "date": "2026-08-10",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "Who Goes There? Post-Quantum Authentication \u2013 IPsec Series, Part 6",
-          "url": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6"
-        },
-        {
-          "date": "2026-08-03",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "quantum safe"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "A Different Road to Quantum Safety: The PPK \u2013 IPsec Series, Part 5",
-          "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
-        },
-        {
-          "date": "2026-07-27",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "Watch a Hybrid Post-Quantum Handshake on the Wire \u2013 IPsec Series, Part 4",
-          "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
-        }
-      ],
-      "type": "company"
     },
     {
       "confidence": "high",
@@ -2049,15 +2049,15 @@
   "summary": {
     "assessed": 25,
     "by_stage": {
-      "awareness": 12,
+      "awareness": 11,
       "inventory": 2,
       "not_assessed": 18,
       "pilot": 3,
-      "planning": 8
+      "planning": 9
     },
     "not_assessed": 18,
     "organizations": 43
   },
-  "updated_at": "2026-10-15T02:49:33.442375+00:00",
+  "updated_at": "2026-10-16T02:44:40.946462+00:00",
   "version": 1
 }

@@ -4,19 +4,19 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-15 02:49 UTC_
+_Updated 2026-10-16 02:44 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
-| QEC / Fault Tolerance | ↗️ rising (7 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-10-14 | 81 |
+| QEC / Fault Tolerance | ↗️ rising (8 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-10-15 | 85 |
 | Quantum Hardware | ↗️ rising (11 vs 7) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-14 | 325 |
-| Quantum Software / Tooling | ↗️ rising (5 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-14 | 102 |
+| Quantum Sensing | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-15 | 53 |
+| Quantum Software / Tooling | ↗️ rising (6 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-15 | 104 |
 | AI Security | ↘️ declining (1 vs 2) | 🔴 critical | high | 👁️ watching | 2026-07-01 | 2026-10-13 | 24 |
-| PQC / Crypto Agility | ➡️ stable (18 vs 21) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-14 | 286 |
+| PQC / Crypto Agility | ➡️ stable (22 vs 23) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-15 | 294 |
 | Quantum Networking | ➡️ stable (6 vs 8) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-14 | 150 |
-| Quantum Sensing | ➡️ stable (1 vs 1) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-13 | 52 |
 | Standards / Government | ➡️ stable (10 vs 9) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-10-08 | 76 |
 
 ## QEC / Fault Tolerance
@@ -24,11 +24,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
 - Recent supporting evidence:
+  - 2026-10-15 — [IBM Research Automates QEC Decoder Chip Design Using Open AI Agent Factories at 11.5x Lower Inference Cost](https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost) (Quantum Computing Report, score 119)
+  - 2026-10-15 — [Google Quantum AI & DeepMind Demonstrate Modular Hyperbolic Codes for Over 30x QEC Overhead Reduction](https://quantumcomputingreport.com/google-quantum-ai-deepmind-demonstrate-modular-hyperbolic-codes-for-over-30x-qec-overhead-reduction) (Quantum Computing Report, score 93)
+  - 2026-10-15 — [Rare Event Simulation of Quantum Error-Correcting Circuits](https://quantum-journal.org/papers/q-2026-10-15-2237) (Quantum Journal, score 86)
+  - 2026-10-15 — [Riverlane and NVIDIA Use AI to Speed Up Quantum Decoder Calibration](https://thequantuminsider.com/2026/10/15/riverlane-nvidia-ai-quantum-decoder-calibration) (The Quantum Insider, score 69)
   - 2026-10-14 — [Riverlane and NVIDIA Demonstrate Accelerated QEC Decoder Calibration Using GPU Processing](https://quantumcomputingreport.com/riverlane-and-nvidia-demonstrate-accelerated-qec-decoder-calibration-using-gpu-processing) (Quantum Computing Report, score 73)
-  - 2026-10-14 — [Alice & Bob Demonstrates GPU Decoding for LDPC-Cat Codes via NVIDIA NVQLink](https://quantumcomputingreport.com/alice-bob-demonstrates-gpu-decoding-for-ldpc-cat-codes-via-nvidia-nvqlink) (Quantum Computing Report, score 54)
-  - 2026-10-10 — [University of Saskatchewan Researchers Achieve Record Hyperbolic Surface Code Efficiency for Modular Fault-Tolerant Architectures](https://quantumcomputingreport.com/university-of-saskatchewan-researchers-achieve-record-hyperbolic-surface-code-efficiency-for-modular-fault-tolerant-architectures) (Quantum Computing Report, score 150)
-  - 2026-10-10 — [IBM Launches Directed Execution Model and Executor Primitive to Give Researchers Client-Side Control Over QEC Workflows](https://quantumcomputingreport.com/ibm-launches-directed-execution-model-and-executor-primitive-to-give-researchers-client-side-control-over-qec-workflows) (Quantum Computing Report, score 76)
-  - 2026-10-08 — [Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures](https://arxiv.org/abs/2610.10948) (arXiv RSS quant-ph, score 117)
 
 ## Quantum Hardware
 
@@ -41,16 +41,27 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-10-13 — [Quantum Walks on Arbitrary Spatial Networks with Rydberg Atoms](https://quantum-journal.org/papers/q-2026-10-13-2235) (Quantum Journal, score 22)
   - 2026-10-12 — [Quantum Meet Quantum: Hybrid Quantum Computer Lets Scientists Peak in on Foundational Quantum Effect](https://thequantuminsider.com/2026/10/12/quantum-meet-quantum-hybrid-quantum-computer-lets-scientists-peak-in-on-foundational-quantum-effect) (The Quantum Insider, score 17)
 
+## Quantum Sensing
+
+- Organizations/sources: QuantumNews.ai, The Quantum Insider, Quantum Zeitgeist, Quantum Computing Report, Department of War Strategic Technology News
+- Recommended follow-up: Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.
+- Recent supporting evidence:
+  - 2026-10-15 — [Dirac Labs joins Wisconsin Security Research Consortium](https://thequantuminsider.com/2026/10/15/dirac-labs-joins-wisconsin-security-research-consortium) (The Quantum Insider, score 100)
+  - 2026-10-13 — [Infleqtion Receives £9 Million to Develop Quantum RF Sensing System](https://thequantuminsider.com/2026/10/13/infleqtion-9-million-quantum-rf-sensing-system) (The Quantum Insider, score 41)
+  - 2026-10-01 — [NATO Releases Official Quantum Technology Roadmap Establishing Operational Timelines and Standardization Frameworks](https://quantumcomputingreport.com/nato-releases-official-quantum-technology-roadmap-establishing-operational-timelines-and-standardization-frameworks) (Quantum Computing Report, score 27)
+  - 2026-09-29 — [STTR PHASE I NON-HERMITIAN COUPLED LASER ARRAY READOUT FOR QUANTUM SENSORS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0291_8000_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
+  - 2026-09-28 — [Quantum Cyber's Strategic Focus Includes Quantum Navigation](https://thequantuminsider.com/2026/09/28/quantum-cybers-strategic-focus-includes-quantum-navigation) (The Quantum Insider, score 12)
+
 ## Quantum Software / Tooling
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, USAspending · Quantum Technologies
 - Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
 - Recent supporting evidence:
+  - 2026-10-15 — [Google Quantum AI Demonstrates Magic State Cultivation on Willow Processor in Science Milestone](https://quantumcomputingreport.com/google-quantum-ai-demonstrates-magic-state-cultivation-on-willow-processor-in-science-milestone) (Quantum Computing Report, score 90)
+  - 2026-10-15 — [Noise-Tolerant Quantum One-Time Programs Using Stateless Trusted Hardware, Revisited](https://eprint.iacr.org/2026/2498) (IACR ePrint, score 44)
   - 2026-10-14 — [Nowhere Man: Device Binding for Post-Quantum Anonymous Credentials](https://eprint.iacr.org/2026/2472) (IACR ePrint, score 73)
   - 2026-10-14 — [EigenOrbit Releases Open-Source eigenkit Quantum Computing Library](https://thequantuminsider.com/2026/10/14/eigenorbit-releases-open-source-eigenkit-quantum-computing-library) (The Quantum Insider, score 38)
   - 2026-10-10 — [IBM Expands Qiskit Beyond Python with Native C API Bindings for Fortran, C++, and Julia](https://quantumcomputingreport.com/ibm-expands-qiskit-beyond-python-with-native-c-api-bindings-for-fortran-c-and-julia) (Quantum Computing Report, score 44)
-  - 2026-10-09 — [Quantum X Labs Seeks Patent for Structured-Beam Atom Cooling System](https://thequantuminsider.com/2026/10/09/quantum-x-labs-us-patent-application-cold-atom-technology) (The Quantum Insider, score 29)
-  - 2026-10-08 — [U.S. Department of Energy Unveils Quantum Genesis Priority Applications to Guide Fault-Tolerant Scientific Utility](https://quantumcomputingreport.com/u-s-department-of-energy-unveils-quantum-genesis-priority-applications-to-guide-fault-tolerant-scientific-utility) (Quantum Computing Report, score 74)
 
 ## AI Security
 
@@ -68,11 +79,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
-  - 2026-10-14 — [SEALSQ Presents Research on Side-Channel Attacks Against ML-KEM](https://thequantuminsider.com/2026/10/14/sealsq-research-side-channel-attacks-ml-kem) (The Quantum Insider, score 124)
-  - 2026-10-14 — [edaBits in the Exponent (edaBitE) and Issuer-Hiding Blind Signatures from ML-DSA and VOLE-in-the-Head](https://eprint.iacr.org/2026/2473) (IACR ePrint, score 102)
-  - 2026-10-14 — [Software-Pipelining The Number Theoretic Transform on Neural Processing Units: A Loop-Fission Methodology](https://eprint.iacr.org/2026/2474) (IACR ePrint, score 78)
-  - 2026-10-14 — [Hardware-Level Mitigation of Micro-Architectural Leakages in Embedded Processors](https://eprint.iacr.org/2026/2478) (IACR ePrint, score 70)
-  - 2026-10-14 — [HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next](https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks) (Thales Cybersecurity Blog, score 67)
+  - 2026-10-15 — [Using TLS to protect data](https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data) (NCSC UK Guidance, score 100)
+  - 2026-10-15 — [Terra Quantum Publishes White Paper Detailing Post-Quantum Cryptography Migration Paths for Blockchain Ecosystems](https://quantumcomputingreport.com/terra-quantum-publishes-white-paper-detailing-post-quantum-cryptography-migration-paths-for-blockchain-ecosystems) (Quantum Computing Report, score 75)
+  - 2026-10-15 — [SecAgg++: A Post-Quantum Privacy Preserving Federated Learning Protocol](https://eprint.iacr.org/2026/2497) (IACR ePrint, score 74)
+  - 2026-10-15 — [Germany Issues Joint Federal PQC Migration Guidelines to Align with EU Post-Quantum Roadmap](https://quantumcomputingreport.com/germany-issues-joint-federal-pqc-migration-guidelines-to-align-with-eu-post-quantum-roadmap) (Quantum Computing Report, score 71)
+  - 2026-10-15 — [SEALSQ to Showcase Post-Quantum Security Products at electronica 2026](https://thequantuminsider.com/2026/10/15/sealsq-post-quantum-security-products-electronica-2026) (The Quantum Insider, score 62)
 
 ## Quantum Networking
 
@@ -84,17 +95,6 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-10-12 — [In Step Toward Quantum Networking, Penn Study Finds Quantum Light Pattern Can Survive Loss of Entanglement](https://thequantuminsider.com/2026/10/12/in-step-toward-quantum-networking-penn-study-finds-quantum-light-pattern-can-survive-loss-of-entanglement) (The Quantum Insider, score 84)
   - 2026-10-09 — [IonQ Demonstrates World-First Quantum Memory-Enhanced Interconnect for Distributed Quantum Applications](https://investors.ionq.com/news/news-details/2026/IonQ-Demonstrates-World-First-Quantum-Memory-Enhanced-Interconnect-for-Distributed-Quantum-Applications/default.aspx) (IonQ News, score 37)
   - 2026-10-08 — [Quantum Networking at the Speed of Quantum Computation: Kilohertz Entanglement in a Heterogeneous Quantum System](https://arxiv.org/abs/2610.10705) (arXiv RSS quant-ph, score 118)
-
-## Quantum Sensing
-
-- Organizations/sources: QuantumNews.ai, The Quantum Insider, Quantum Zeitgeist, Quantum Computing Report, Department of War Strategic Technology News
-- Recommended follow-up: Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.
-- Recent supporting evidence:
-  - 2026-10-13 — [Infleqtion Receives £9 Million to Develop Quantum RF Sensing System](https://thequantuminsider.com/2026/10/13/infleqtion-9-million-quantum-rf-sensing-system) (The Quantum Insider, score 41)
-  - 2026-10-01 — [NATO Releases Official Quantum Technology Roadmap Establishing Operational Timelines and Standardization Frameworks](https://quantumcomputingreport.com/nato-releases-official-quantum-technology-roadmap-establishing-operational-timelines-and-standardization-frameworks) (Quantum Computing Report, score 27)
-  - 2026-09-29 — [STTR PHASE I NON-HERMITIAN COUPLED LASER ARRAY READOUT FOR QUANTUM SENSORS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0291_8000_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
-  - 2026-09-28 — [Quantum Cyber's Strategic Focus Includes Quantum Navigation](https://thequantuminsider.com/2026/09/28/quantum-cybers-strategic-focus-includes-quantum-navigation) (The Quantum Insider, score 12)
-  - 2026-09-25 — [Mesa Quantum Raises $11.8M to Scale Chip-Scale Quantum Sensors and Alternative PNT Infrastructure](https://quantumcomputingreport.com/mesa-quantum-raises-11-8m-to-scale-chip-scale-quantum-sensors-and-alternative-pnt-infrastructure) (Quantum Computing Report, score 33)
 
 ## Standards / Government
 

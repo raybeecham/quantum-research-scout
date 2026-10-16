@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-10-15 02:49 UTC_
+_Updated 2026-10-16 02:44 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
@@ -16,6 +16,7 @@ Assessed **25 of 43** configured organizations.
 | PQShield | Pilot / Testing | medium | 7 | 1 | 0 | 2026-10-06 |
 | Wiz | Pilot / Testing | medium | 4 | 1 | 4 | 2026-07-02 |
 | Accenture / Accenture Federal Services | Planning | high | 4 | 2 | 4 | 2026-08-27 |
+| Cisco | Planning | high | 20 | 2 | 11 | 2026-10-15 |
 | DigiCert | Planning | high | 6 | 4 | 0 | 2026-09-25 |
 | Keyfactor | Planning | high | 17 | 3 | 9 | 2026-10-06 |
 | NIST | Planning | high | 9 | 5 | 0 | 2026-10-06 |
@@ -25,7 +26,6 @@ Assessed **25 of 43** configured organizations.
 | CISA | Planning | low | 1 | 1 | 0 | 2026-09-03 |
 | PQCA | Inventory | medium | 2 | 1 | 0 | 2026-10-07 |
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
-| Cisco | Awareness | high | 19 | 2 | 11 | 2026-09-28 |
 | Cloudflare | Awareness | high | 7 | 3 | 0 | 2026-09-29 |
 | ANSSI | Awareness | medium | 2 | 1 | 0 | 2026-09-03 |
 | IETF | Awareness | medium | 2 | 2 | 1 | 2026-08-28 |

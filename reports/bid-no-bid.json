@@ -5,113 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 4,
-      "deadline": "10/19/2026",
-      "decision_freshness": {
-        "current_gate": "qualify",
-        "current_score": 71,
-        "evidence_url": "",
-        "impact_id": null,
-        "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": "qualify",
-        "previous_score": 71,
-        "status": "current"
-      },
-      "decision_score": 71,
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +24",
-              "mission fit +22",
-              "critical mission +8",
-              "actionable grant_opportunity +9",
-              "closing_soon +12",
-              "technology fit +4"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363869"
-            ],
-            "points": 79
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/363869"
-            ],
-            "points": -8
-          }
-        ],
-        "input_claim_ids": [],
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 71,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/363869"
-        ],
-        "trace_hash": "9601b6689cabfe99"
-      },
-      "eligibility": [],
-      "evaluation_criteria": [],
-      "evidence_completeness": 0,
-      "latest_amendment_impact": null,
-      "likely_market_participants": [],
-      "mission_fit": [
-        "Quantum Genesis"
-      ],
-      "opportunity_key": "grants_gov:DE-FOA-0003657",
-      "potential_teaming_candidates": [],
-      "provisional_gate": "qualify",
-      "public_evidence_score": 71,
-      "record_type": "grant_opportunity",
-      "relevant_patents": [],
-      "required_actions": [
-        "Assign an opportunity owner and validate mission/capability fit",
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm response calendar, internal reviews, and submission lead time",
-        "Record an authorized bid/no-bid decision with owner and rationale"
-      ],
-      "requirements": [],
-      "risks": [
-        "Compressed response window: 4 day(s) remaining",
-        "No linked solicitation document was available for extraction",
-        "Set-aside or eligibility status is not established in collected metadata"
-      ],
-      "set_aside": null,
-      "source_urls": [
-        "https://www.grants.gov/search-results-detail/363869"
-      ],
-      "technology_fit": [
-        "quantum"
-      ],
-      "title": "The DOE Quantum Genesis Q Competition",
-      "unknowns": [
-        "Confirm controlling requirements in the controlling solicitation",
-        "Confirm evaluation criteria in the controlling solicitation",
-        "Confirm eligibility and set-aside terms in the controlling solicitation",
-        "Confirm submission instructions in the controlling solicitation"
-      ],
-      "url": "https://www.grants.gov/search-results-detail/363869"
-    },
-    {
-      "agency": "PAMS-SC",
-      "amount": null,
-      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
-      "contacts": [],
-      "days_to_close": 63,
+      "days_to_close": 62,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -298,7 +192,113 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 89,
+      "days_to_close": 3,
+      "deadline": "10/19/2026",
+      "decision_freshness": {
+        "current_gate": "qualify",
+        "current_score": 64,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": "qualify",
+        "previous_score": 71,
+        "status": "current"
+      },
+      "decision_score": 64,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +24",
+              "mission fit +22",
+              "critical mission +8",
+              "actionable grant_opportunity +9",
+              "closing_soon +12",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363869"
+            ],
+            "points": 79
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "Compressed response window: 3 day(s)"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/363869"
+            ],
+            "points": -15
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 64,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/363869"
+        ],
+        "trace_hash": "0de72bf7b745406c"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [],
+      "mission_fit": [
+        "Quantum Genesis"
+      ],
+      "opportunity_key": "grants_gov:DE-FOA-0003657",
+      "potential_teaming_candidates": [],
+      "provisional_gate": "qualify",
+      "public_evidence_score": 64,
+      "record_type": "grant_opportunity",
+      "relevant_patents": [],
+      "required_actions": [
+        "Assign an opportunity owner and validate mission/capability fit",
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm response calendar, internal reviews, and submission lead time",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Compressed response window: 3 day(s) remaining",
+        "No linked solicitation document was available for extraction",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": null,
+      "source_urls": [
+        "https://www.grants.gov/search-results-detail/363869"
+      ],
+      "technology_fit": [
+        "quantum"
+      ],
+      "title": "The DOE Quantum Genesis Q Competition",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://www.grants.gov/search-results-detail/363869"
+    },
+    {
+      "agency": "PAMS-SC",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [],
+      "days_to_close": 88,
       "deadline": "01/12/2027",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -403,6 +403,6 @@
     "qualify": 2,
     "targeted_review": 1
   },
-  "updated_at": "2026-10-15T02:41:24.383964+00:00",
+  "updated_at": "2026-10-16T02:37:08.215323+00:00",
   "version": 1
 }

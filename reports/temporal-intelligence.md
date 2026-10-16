@@ -2,17 +2,33 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-10-15T02:41:24.383964+00:00_
+_Updated 2026-10-16T02:37:08.215323+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **0**
+- Actual or recent changes: **12**
 - Newly discovered historical evidence: **0**
-- Newly observed with no reliable source date: **0**
+- Newly observed with no reliable source date: **2**
 - Upcoming dated events: **16**
 
 ## Priority timeline
 
+- **Published today** · 28--SPEED SENSOR,DIESEL ENGINE — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/42b6c0478c5c48e993f30dec4bedfade/view))
+  - The source publication date is today or within the prior day.
+- **Published today** · Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008) — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/5ff635ffb85f4e25b34661f0a268e577/view))
+  - The source publication date is today or within the prior day.
+- **Published today** · NEW YORK UNIVERSITY — has related patent ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data))
+  - The source publication date is today or within the prior day.
+- **Published today** · REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE — has related patent ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/19647295/application-data))
+  - The source publication date is today or within the prior day.
+- **Published today** · REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE — has related patent ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/19647295/application-data))
+  - The source publication date is today or within the prior day.
+- **Evidence trace changed** · The DOE Quantum Genesis Q Competition — qualification gate ([evidence](https://www.grants.gov/search-results-detail/363869))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Newly observed · event date unknown** · REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE — has related patent ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/63788651/application-data))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
+- **Newly observed · event date unknown** · REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE — has related patent ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/63788651/application-data))
+  - Scout observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

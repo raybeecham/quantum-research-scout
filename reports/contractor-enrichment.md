@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-10-15T02:41:24.383964+00:00_
+_Updated 2026-10-16T02:37:08.215323+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
@@ -42,6 +42,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF ILLINOIS | [UNIVERSITY OF ILLINOIS](https://sam.gov/entity/Y8CWNJRCNN91/coreData) | Y8CWNJRCNN91 | 4B808 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | UNIVERSITY OF TEXAS AT AUSTIN | [University of Texas at Austin](https://sam.gov/entity/V6AFQPN18437/coreData) | V6AFQPN18437 | 9B981 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF OKLAHOMA | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) | EVTSTTLCEWS5 | 3G168 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
+| SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | [SCIENCE APPLICATIONS INTERNATIONAL CORPORATION](https://sam.gov/entity/MMLKPW9JLX64/coreData) | MMLKPW9JLX64 | 6XWA8 | Active | Business or Organization, For Profit Organization |
 | IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY | [IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY](https://sam.gov/entity/DQDBM7FGJPC5/coreData) | DQDBM7FGJPC5 | 5J949 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | DUKE UNIVERSITY | [DUKE UNIVERSITY](https://sam.gov/entity/TP7EK8DZV6N5/coreData) | TP7EK8DZV6N5 | 4B478 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | ADVANCED COMPUTER CONCEPTS, INC. | [ADVANCED COMPUTER CONCEPTS, INC.](https://sam.gov/entity/CGE8ABMZLZN9/coreData) | CGE8ABMZLZN9 | 0L850 | Active | Business or Organization, For Profit Organization, Women-Owned Business |
@@ -64,13 +65,13 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF HOUSTON SYSTEM | [UNIVERSITY OF HOUSTON SYSTEM](https://sam.gov/entity/QKWEF8XLMTT3/coreData) | QKWEF8XLMTT3 | 9B955 | Active | Educational Institution, Hispanic Servicing Institution, State Controlled Institution of Higher Learning |
 | THALES DEFENSE & SECURITY INC | [THALES DEFENSE & SECURITY INC](https://sam.gov/entity/HNNUJXHSXGU3/coreData) | HNNUJXHSXGU3 | 23386 | Active | Business or Organization, For Profit Organization, Foreign Owned |
 | ROCHESTER INSTITUTE OF TECHNOLOGY | [ROCHESTER INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/J6TWTRKC1X14/coreData) | J6TWTRKC1X14 | 0SWS3 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| NEW YORK UNIVERSITY | [NEW YORK UNIVERSITY](https://sam.gov/entity/NX9PXMKW5KW8/coreData) | NX9PXMKW5KW8 | 72061 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | KPMG LLP | [KPMG LLP](https://sam.gov/entity/MAA3SBSDQVM1/coreData) | MAA3SBSDQVM1 | 7QEG9 | Active | Business or Organization, For Profit Organization |
 | ILLINOIS INSTITUTE OF TECHNOLOGY | [ILLINOIS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NDENMDUEG8/coreData) | E2NDENMDUEG8 | 8B088 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | ARETE CONSULTING LLC | [ARETE CONSULTING LLC](https://sam.gov/entity/C2PNBME1GYB5/coreData) | C2PNBME1GYB5 | 7LRX4 | Active | SBA Certified 8(a) Program Participant |
 | VANDERBILT UNIVERSITY | [VANDERBILT UNIVERSITY](https://sam.gov/entity/GTNBNWXJ12D5/coreData) | GTNBNWXJ12D5 | 5E694 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF NORTH DAKOTA | [UNIVERSITY OF NORTH DAKOTA](https://sam.gov/entity/RSWNKK6J8CF3/coreData) | RSWNKK6J8CF3 | 4B858 | Active | Business or Organization, Educational Institution, Other Not For Profit Organization |
 | THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK | [THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK](https://sam.gov/entity/F4N1QNPB95M4/coreData) | F4N1QNPB95M4 | 1B053 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
-| SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | [SCIENCE APPLICATIONS INTERNATIONAL CORPORATION](https://sam.gov/entity/MMLKPW9JLX64/coreData) | MMLKPW9JLX64 | 6XWA8 | Active | Business or Organization, For Profit Organization |
 | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | [OLD DOMINION UNIVERSITY RESEARCH FOUNDATION](https://sam.gov/entity/DSLXBD7UWRV6/coreData) | DSLXBD7UWRV6 | 5D075 | Active | Business or Organization, Foundation, Non-Profit Organization |
 | NORTHEASTERN UNIVERSITY | [NORTHEASTERN UNIVERSITY](https://sam.gov/entity/HLTMVS2JZBS6/coreData) | HLTMVS2JZBS6 | 9A140 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | NATIONAL ACADEMY OF SCIENCES | [NATIONAL ACADEMY OF SCIENCES](https://sam.gov/entity/PKFJZHG2MLG9/coreData) | PKFJZHG2MLG9 | 1D969 | Active | Business or Organization, Non-Profit Organization |
@@ -88,7 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | ALLIANCE TECHNOLOGY GROUP, LLC | [Alliance Technology Group, LLC](https://sam.gov/entity/UCM7WPGJBZ67/coreData) | UCM7WPGJBZ67 | 1YBR8 | Active | SBA-Certified Women-Owned Small Business |
 | VIRGINIA COMMONWEALTH UNIVERSITY | [VIRGINIA COMMONWEALTH UNIVERSITY](https://sam.gov/entity/MLQFL4JSSAA9/coreData) | MLQFL4JSSAA9 | 46050 | Active | Educational Institution, Minority Institution, State Controlled Institution of Higher Learning |
 | UNIVERSITY OF UTAH | [UNIVERSITY OF UTAH](https://sam.gov/entity/LL8GLEVH6MG3/coreData) | LL8GLEVH6MG3 | 3T624 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
-| UNIVERSITY OF NOTRE DAME DU LAC | [UNIVERSITY OF NOTRE DAME DU LAC](https://sam.gov/entity/FPU6XGFXMBE9/coreData) | FPU6XGFXMBE9 | 5B002 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 
 ## Method
 

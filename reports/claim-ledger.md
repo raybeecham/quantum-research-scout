@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-10-15T02:41:24.383964+00:00_
+_Updated 2026-10-16T02:37:08.215323+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **5001**
-- Authoritative claims: **4791**
-- Analytical claims: **205**
+- Active claims: **5015**
+- Authoritative claims: **4800**
+- Analytical claims: **210**
 - Conflicted claims: **38**
-- Evidence items / URLs: **5107 / 1379**
+- Evidence items / URLs: **5119 / 1383**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,15 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008) | opportunity status | awarded | authoritative / high | [Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008)](https://sam.gov/workspace/contract/opp/5ff635ffb85f4e25b34661f0a268e577/view) |
+| active | Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008) | set aside | No Set aside used | authoritative / high | [Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008)](https://sam.gov/workspace/contract/opp/5ff635ffb85f4e25b34661f0a268e577/view) |
+| active | Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008) | awarding agency | DEPT OF DEFENSE.DEPT OF THE NAVY.NAVAIR.NAVAIR HQS.NAVAL AIR SYSTEMS COMMAND | authoritative / high | [Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008)](https://sam.gov/workspace/contract/opp/5ff635ffb85f4e25b34661f0a268e577/view) |
+| active | Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008) | reported amount | 2800695.14 | authoritative / high | [Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008)](https://sam.gov/workspace/contract/opp/5ff635ffb85f4e25b34661f0a268e577/view) |
+| active | Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008) | reported recipient | TEXTRON SYSTEMS CORPORATION | authoritative / high | [Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008)](https://sam.gov/workspace/contract/opp/5ff635ffb85f4e25b34661f0a268e577/view) |
+| active | 28--SPEED SENSOR,DIESEL ENGINE | opportunity status | awarded | authoritative / high | [28--SPEED SENSOR,DIESEL ENGINE](https://sam.gov/workspace/contract/opp/42b6c0478c5c48e993f30dec4bedfade/view) |
+| active | 28--SPEED SENSOR,DIESEL ENGINE | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND COLUMBUS.DLA WEAPONS SUPPORT | authoritative / high | [28--SPEED SENSOR,DIESEL ENGINE](https://sam.gov/workspace/contract/opp/42b6c0478c5c48e993f30dec4bedfade/view) |
+| active | 28--SPEED SENSOR,DIESEL ENGINE | reported amount | 350000.0 | authoritative / high | [28--SPEED SENSOR,DIESEL ENGINE](https://sam.gov/workspace/contract/opp/42b6c0478c5c48e993f30dec4bedfade/view) |
+| active | 28--SPEED SENSOR,DIESEL ENGINE | reported recipient | ABICO LLC | authoritative / high | [28--SPEED SENSOR,DIESEL ENGINE](https://sam.gov/workspace/contract/opp/42b6c0478c5c48e993f30dec4bedfade/view) |
 | active | AUGUST SCHELL ENTERPRISES, INC. | legal business name | AUGUST SCHELL ENTERPRISES, INC. | authoritative / high | [AUGUST SCHELL ENTERPRISES, INC.](https://sam.gov/entity/PPMBFPRXNAJ9/coreData) |
 | active | AUGUST SCHELL ENTERPRISES, INC. | uei | PPMBFPRXNAJ9 | authoritative / high | [AUGUST SCHELL ENTERPRISES, INC.](https://sam.gov/entity/PPMBFPRXNAJ9/coreData) |
 | active | AUGUST SCHELL ENTERPRISES, INC. | cage code | 1W5J9 | authoritative / high | [AUGUST SCHELL ENTERPRISES, INC.](https://sam.gov/entity/PPMBFPRXNAJ9/coreData) |
@@ -255,15 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | Cybersecurity Managment Support Services | reported amount | 758088.88 | authoritative / high | [Cybersecurity Managment Support Services](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view) |
 | active | Cybersecurity Managment Support Services | reported recipient | CRITERION SYSTEMS, L.L.C. | authoritative / high | [Cybersecurity Managment Support Services](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view) |
 | active | 66--SENSOR,AMBIENT TEMPERATURE | opportunity status | awarded | authoritative / high | [66--SENSOR,AMBIENT TEMPERATURE](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view) |
-| active | 66--SENSOR,AMBIENT TEMPERATURE | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION | authoritative / high | [66--SENSOR,AMBIENT TEMPERATURE](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view) |
-| active | 66--SENSOR,AMBIENT TEMPERATURE | reported amount | 329313.6 | authoritative / high | [66--SENSOR,AMBIENT TEMPERATURE](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view) |
-| active | 66--SENSOR,AMBIENT TEMPERATURE | reported recipient | INTERTRADE LIMITED | authoritative / high | [66--SENSOR,AMBIENT TEMPERATURE](https://sam.gov/workspace/contract/opp/589903bc63904907b0070cb1f3bfb44d/view) |
-| active | 15--PANEL,STRUCTURAL,AI | opportunity status | awarded | authoritative / high | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view) |
-| active | 15--PANEL,STRUCTURAL,AI | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AV RICHMOND.DLA AVIATION | authoritative / high | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view) |
-| active | 15--PANEL,STRUCTURAL,AI | reported amount | 328866.0 | authoritative / high | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view) |
-| active | 15--PANEL,STRUCTURAL,AI | reported recipient | AERO COMPONENTS, LLC | authoritative / high | [15--PANEL,STRUCTURAL,AI](https://sam.gov/workspace/contract/opp/c3032af8e1864d08ac1b6dbc54011b03/view) |
-| active | ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5. | opportunity status | awarded | authoritative / high | [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.](https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100) |
-| active | ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5. | awarding agency | Department of Education | authoritative / high | [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.](https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100) |
 
 ## Method
 

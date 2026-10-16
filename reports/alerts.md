@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-15 02:49 UTC_
+_Updated 2026-10-16 02:44 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 7 | 13 | 12 | 25 |
+| 50 | 4 | 13 | 15 | 22 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -49,7 +49,7 @@ _Updated 2026-10-15 02:49 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Sensing has critical strategic importance and stable momentum.
+- 🔴 Quantum Sensing has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Software / Tooling
@@ -70,35 +70,35 @@ _Updated 2026-10-15 02:49 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 96.3% reliability with 3 warning day(s).
+- 🔴 95.1% reliability with 4 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: ETSI Quantum Standards News
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 80.6% reliability with 15 warning day(s).
+- 🔴 79.8% reliability with 16 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Quantum Computing Report
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 66.7% reliability with 10 warning day(s).
+- 🔴 67.7% reliability with 10 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Rigetti News
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 93.5% reliability with 6 warning day(s).
+- 🔴 92.5% reliability with 7 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: White House Science and Technology Missions
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 67.1% reliability with 27 warning day(s).
+- 🔴 66.3% reliability with 28 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: QEC / Fault Tolerance
@@ -108,25 +108,40 @@ _Updated 2026-10-15 02:49 UTC_
 - 🎯 QEC / Fault Tolerance is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Hardware 🆕
+## 🟠 Actionable signal: Quantum Hardware
 
 - Severity: **high**
 - Status: **actionable**
 - 🎯 Quantum Hardware is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Software / Tooling 🆕
+## 🟠 Actionable signal: Quantum Sensing 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 Quantum Sensing is actionable with high confidence.
+- [Open supporting view](signals.md)
+
+## 🟠 Actionable signal: Quantum Software / Tooling
 
 - Severity: **high**
 - Status: **actionable**
 - 🎯 Quantum Software / Tooling is actionable with high confidence.
 - [Open supporting view](signals.md)
 
+## 🟠 Changed: The DOE Quantum Genesis Q Competition 🆕
+
+- Severity: **high**
+- Status: **changed**
+- qualification gate · authority analytical · qualify
+- [Open direct evidence](https://www.grants.gov/search-results-detail/363869)
+- [Open supporting view](intelligence-changes.md)
+
 ## 🟠 Federal opportunity closing soon: The DOE Quantum Genesis Q Competition
 
 - Severity: **high**
 - Status: **closing-soon**
-- 4 day(s) remain · radar score 79 · Review requirements and make a bid/no-bid decision immediately.
+- 3 day(s) remain · radar score 79 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363869)
 - [Open supporting view](federal-funding.md)
 
@@ -134,21 +149,28 @@ _Updated 2026-10-15 02:49 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 7 versus 2 in the prior period.
+- ↗️ Recent evidence is 8 versus 4 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Quantum Hardware 🆕
+## 🟠 Rising momentum: Quantum Hardware
 
 - Severity: **high**
 - Status: **rising**
 - ↗️ Recent evidence is 11 versus 7 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Quantum Software / Tooling 🆕
+## 🟠 Rising momentum: Quantum Sensing 🆕
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 5 versus 3 in the prior period.
+- ↗️ Recent evidence is 2 versus 0 in the prior period.
+- [Open supporting view](signals.md)
+
+## 🟠 Rising momentum: Quantum Software / Tooling
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 6 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Source degraded: Department of War Strategic Technology Releases
@@ -162,28 +184,28 @@ _Updated 2026-10-15 02:49 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.8% reliability with 2 warning day(s).
+- 🟠 93.9% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Journal
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.3% reliability with 2 warning day(s).
+- 🟠 93.5% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Source degraded: arXiv RSS cs.CR 🆕
+## 🟠 Source degraded: arXiv RSS cs.CR
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 93.4% reliability with 2 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
 - 🟠 93.3% reliability with 2 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Source degraded: arXiv RSS quant-ph 🆕
-
-- Severity: **high**
-- Status: **degraded**
-- 🟠 93.2% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -298,13 +320,6 @@ _Updated 2026-10-15 02:49 UTC_
 - The latest dated item is from 2026-06-02; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: NCSC UK Guidance
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-17; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
 ## 🟡 Source stale: NCSC UK Reports
 
 - Severity: **medium**
@@ -326,13 +341,6 @@ _Updated 2026-10-15 02:49 UTC_
 - The latest dated item is from 2026-09-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Quantum Networking and Sensing Patents
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-24; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
 ## 🟡 Source stale: Rigetti News
 
 - Severity: **medium**
@@ -347,16 +355,9 @@ _Updated 2026-10-15 02:49 UTC_
 - The latest dated item is from 2026-09-28; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: USAspending · Genesis Mission
+## 🟡 Source stale: USAspending · Artificial Intelligence 🆕
 
 - Severity: **medium**
 - Status: **stale**
-- The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Golden Dome 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-04-01; collection may be healthy but the content stream is stale.
+- The latest dated item is from 2026-10-01; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

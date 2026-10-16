@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-10-15 02:41 UTC_
+_Updated 2026-10-16 02:37 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -17,7 +17,7 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Mission-linked records: **19**
 - Missions with activity: **5 of 10**
 - Named recipients and contractors: **329**
-- Known reported award value: **$965.2M**
+- Known reported award value: **$967.8M**
 
 ## Opportunity Radar
 
@@ -63,7 +63,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-) | 2026-09-28 | Not listed | $250 | AI Forge |
 | [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) | 2026-09-16 | Not listed | $293.0M | Genesis Mission |
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | Not listed | $8 | DARPA Quantum Benchmarking Initiative |
-| [Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science) | 2026-10-08 | Not listed | Not reported | Genesis Mission |
+| [Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science) | 2026-10-15 | Not listed | Not reported | Genesis Mission |
 | [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) | 2026-08-21 | Not listed | Not reported | Genesis Mission |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | Not listed | $700 | Genesis Mission |
 | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | Not listed | $5 | Golden Dome for America |
@@ -79,13 +79,13 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [I-CORPS: TRANSLATION POTENTIAL OF QUANTUM-ARTIFICIAL INTELLIGENCE (AI) IN ENERGY AND INFRASTRUCTURE SECURITY AND RESILIENCE -THIS I-CORPS PROJECT IS BASED ON THE DEVELOPMENT OF A...](https://www.usaspending.gov/award/ASST_NON_2632169_049) | 2026-09-01 | CARNEGIE-MELLON UNIVERSITY | $50.0K | Not linked |
 | [QUANTUM CRYPTOGRAPHY AND CERTIFICATE (QCC)](https://www.usaspending.gov/award/CONT_AWD_70B04C26F00000556_7014_70B04C25A00000001_7014) | 2026-07-22 | BOOZ ALLEN HAMILTON INC | $2.6M | Not linked |
 | [THE APPLE TEA PROJECT: EXPERIENTIAL LEARNING ACTIVITIES WITH AI-AUGMENTED PATHWAYS TO BUILD TEAMWORK SKILLS IN COMMUNITY COLLEGE CYBERSECURITY EDUCATION -THE APPLE TEA PROJECT AIM...](https://www.usaspending.gov/award/ASST_NON_2600274_049) | 2026-10-15 | CARNEGIE-MELLON UNIVERSITY | $999.5K | Not linked |
+| [PURPOSE:THE PURPOSE OF THIS GRANT IS TO ENABLE UC SAN FRANCISCO TO INVEST IN HIGH-PERFORMANCE COMPUTING (HPC) INFRASTRUCTURE THAT WILL SERVE AS A FOUNDATIONAL RESOURCE FOR AI RESE...](https://www.usaspending.gov/award/ASST_NON_60NANB26D305_013) | 2026-10-01 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE | $1.0M | Not linked |
 | [QUANTUM SENSORS FFRDC](https://www.usaspending.gov/award/CONT_AWD_70RSAT26FR0000048_7001_70RSAT26D00000001_7001) | 2026-09-15 | THE MITRE CORPORATION | $1.3M | Not linked |
 | [S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCI...](https://www.usaspending.gov/award/ASST_NON_2620285_049) | 2027-01-01 | THE REGENTS OF THE UNIVERSITY OF COLORADO | $2.0M | Not linked |
 | [NSF AI INSTITUTE FOR EDGE COMPUTING AND SYSTEMS (ATHENA) -THE NSF ARTIFICIAL INTELLIGENCE (AI) INSTITUTE FOR EDGE COMPUTING AND SYSTEMS (ATHENA) CONDUCTS RESEARCH TOWARD ?BIG AI F...](https://www.usaspending.gov/award/ASST_NON_2625580_049) | 2026-11-01 | DUKE UNIVERSITY | $3.0M | Not linked |
 | [ZERO TRUST ARCHITECTURE PROGRAM AND ENTERPRISE SERVICES POST QUANTUM CRYPTOGRAPHY CALL ORDER 5.](https://www.usaspending.gov/award/CONT_AWD_91990026F0124_9100_91990022A0018_9100) | 2026-09-30 | SHOREPOINT LLC | $1.8M | Not linked |
 | [OIT-SERVICES33 C 7955 DITG-08 ZERO TRUST (ZT) POST QUANTUM CRYPTOGRAPHY CONTINUATION SUPPORT](https://www.usaspending.gov/award/CONT_AWD_75R60226F80061_7526_47QRAA18D001P_4732) | 2026-09-28 | DELOITTE CONSULTING LLP | $2.0M | Not linked |
 | [ZERO TRUST POST QUANTUM ENCRYPTION SERVICES](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0387_3600_NNG15SE09B_8000) | 2026-09-25 | GREENBRIER GOVERNMENT SOLUTIONS INC | $2.0M | Not linked |
-| [OFFICE OF UNDERSECRETARY OF WAR - DATA ANALYTICS AND ARTIFICIAL INTELLIGENCE 2.0](https://www.usaspending.gov/award/CONT_AWD_47QFHA26F0005_4732_47QFHA24D0005_4732) | 2026-09-15 | BOOZ ALLEN HAMILTON INC | $28.7M | Not linked |
 
 ## Contractor Intelligence Profiles
 
@@ -109,6 +109,7 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UEI NPU8ULVAAS23 | **46 · DEVELOPING** | Active Incumbent | Declining | 2 | $666.7K | Department of Defense, National Science Foundation | darpa-qbi | 2 |
 | LOUISIANA STATE UNIVERSITY | UEI ECQEYCHRNKJ4 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.9M | National Science Foundation | Not linked | 0 |
 | BROWN UNIVERSITY | UEI E3FDXZ6TBHW3 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.7M | National Science Foundation | Not linked | 0 |
+| REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | UEI GS3YEVSS12N6 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.5M | Department of Energy, National Science Foundation | Not linked | 2 |
 | UNIVERSITY OF ALABAMA | UEI RCNJEHZ83EV6 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.4M | National Science Foundation | Not linked | 0 |
 | INUTEQ, LLC | UEI NBEWZB8LQ8Z5 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $29.4M | National Aeronautics and Space Administration | Not linked | 0 |
 | THE UNIVERSITY OF IOWA | UEI Z1H9VJS8NG16 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $3.7M | Environmental Protection Agency, National Science Foundation | Not linked | 0 |
@@ -128,11 +129,10 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | UNIVERSITY OF UTAH | UEI LL8GLEVH6MG3 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.7M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF WISCONSIN SYSTEM | UEI LCLSJAGTNZQ7 | **36 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.0M | National Science Foundation | Not linked | 0 |
 | PARAGON MICRO INC | UEI E41LV9AJGHQ1 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.0M | Department of Health and Human Services | Not linked | 0 |
-| REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | UEI GS3YEVSS12N6 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.5M | Department of Energy, National Science Foundation | Not linked | 0 |
+| REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE | UEI KMH5K9V7S518 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 1 | $1.0M | Department of Commerce | Not linked | 2 |
 | GENERAL ELECTRIC COMPANY | Name-resolved | **32 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $48.5M | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK | Not linked | 0 |
 | MORGAN STATE UNIVERSITY | UEI KULSKCCZJT27 | **32 · DEVELOPING** | Emerging Entrant | New Entrant | 1 | $10.0M | Department of Defense | Not linked | 1 |
 | DUKE UNIVERSITY | UEI TP7EK8DZV6N5 | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $3.4M | National Science Foundation | Not linked | 0 |
-| UNIVERSITY OF NEW MEXICO | UEI F6XLTRUQJEN4 | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $1.0M | National Science Foundation | Not linked | 0 |
 
 ## Recipient and Contractor Patent Connections
 
@@ -146,9 +146,11 @@ These are assignee-name matches, not proof that an award funded a patent.
 | UNIVERSITY OF SOUTH FLORIDA | 4 | $3.2M | 1 | Not linked |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | 4 | $1.1M | 1 | Not linked |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | 2 | $9.4M | 2 | darpa-qbi |
+| REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | 3 | $2.5M | 2 | Not linked |
 | FLORIDA ATLANTIC UNIVERSITY | 3 | $1000.0K | 1 | Not linked |
+| REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE | 1 | $1.0M | 2 | Not linked |
 | MORGAN STATE UNIVERSITY | 1 | $10.0M | 1 | Not linked |
+| NEW YORK UNIVERSITY | 1 | $640.0K | 2 | Not linked |
 | THALES DEFENSE & SECURITY INC | 2 | $378.1K | 1 | Not linked |
 | THE UNIVERSITY OF CHICAGO | 1 | $737.1K | 1 | Not linked |
-| NEW YORK UNIVERSITY | 1 | $640.0K | 1 | Not linked |
 | HITACHI HIGH-TECH AMERICA, INC. | 1 | $31.1K | 1 | Not linked |

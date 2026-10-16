@@ -215,8 +215,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 29,
-      "first_party_evidence_count": 23,
+      "evidence_count": 30,
+      "first_party_evidence_count": 24,
       "name": "Cisco",
       "priority": "high",
       "status": "covered",
@@ -337,7 +337,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 3,
+      "evidence_count": 5,
       "first_party_evidence_count": 2,
       "name": "Google Quantum AI",
       "priority": "high",
@@ -353,7 +353,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 32,
+      "evidence_count": 33,
       "first_party_evidence_count": 0,
       "name": "IBM",
       "priority": "high",
@@ -927,9 +927,9 @@
       "latest_seen": "2026-10-08",
       "momentum": "declining",
       "name": "NIST",
-      "prior_count": 2,
+      "prior_count": 3,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -946,8 +946,20 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 31,
+      "current_evidence_count": 32,
       "evidence": [
+        {
+          "date": "2026-10-15",
+          "key": "https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost",
+          "report": "2026-10/2026-10-15-digest.md",
+          "score": 119,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "IBM Research Automates QEC Decoder Chip Design Using Open AI Agent Factories at 11.5x Lower Inference Cost",
+          "url": "https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost"
+        },
         {
           "date": "2026-10-10",
           "key": "https://quantumcomputingreport.com/ibm-launches-directed-execution-model-and-executor-primitive-to-give-researchers-client-side-control-over-qec-workflows",
@@ -1345,15 +1357,15 @@
           "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
         }
       ],
-      "evidence_count": 32,
+      "evidence_count": 33,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-10-10",
-      "momentum": "stable",
+      "latest_seen": "2026-10-15",
+      "momentum": "rising",
       "name": "IBM",
       "prior_count": 2,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "AI Security",
@@ -1370,8 +1382,20 @@
         "Cisco Systems"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 18,
+      "current_evidence_count": 19,
       "evidence": [
+        {
+          "date": "2026-10-15",
+          "key": "https://blogs.cisco.com/gov/the-quantum-security-transition-a-policy-agenda-for-post-quantum-readiness-in-asia-pacific",
+          "report": "2026-10/2026-10-15-digest.md",
+          "score": 50,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The Quantum Security Transition: A Policy Agenda for Post-Quantum Readiness in Asia Pacific",
+          "url": "https://blogs.cisco.com/gov/the-quantum-security-transition-a-policy-agenda-for-post-quantum-readiness-in-asia-pacific"
+        },
         {
           "date": "2026-10-14",
           "key": "https://blogs.cisco.com/security/last-mile-of-trust-post-quantum-cryptography-open-source",
@@ -1853,15 +1877,15 @@
           "url": "https://blogs.cisco.com/tag/quantum-safecomputing"
         }
       ],
-      "evidence_count": 29,
+      "evidence_count": 30,
       "first_seen": "2026-07-27",
       "historical_evidence_count": 11,
-      "latest_seen": "2026-10-14",
+      "latest_seen": "2026-10-15",
       "momentum": "rising",
       "name": "Cisco",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -2964,7 +2988,7 @@
       "latest_seen": "2026-10-06",
       "momentum": "declining",
       "name": "Keyfactor",
-      "prior_count": 3,
+      "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -3771,11 +3795,11 @@
       "first_seen": "2024-10-28",
       "historical_evidence_count": 19,
       "latest_seen": "2026-10-08",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Fortanix",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -3948,9 +3972,9 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-01",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Cloudflare",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5052,9 +5076,9 @@
       "first_seen": "2026-06-30",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-01",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "D-Wave",
-      "prior_count": 2,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5240,6 +5264,116 @@
     },
     {
       "aliases": [
+        "Google Quantum",
+        "Google AI Quantum"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 3,
+      "evidence": [
+        {
+          "date": "2026-10-15",
+          "key": "https://quantumcomputingreport.com/google-quantum-ai-deepmind-demonstrate-modular-hyperbolic-codes-for-over-30x-qec-overhead-reduction",
+          "report": "2026-10/2026-10-15-digest.md",
+          "score": 93,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Google Quantum AI & DeepMind Demonstrate Modular Hyperbolic Codes for Over 30x QEC Overhead Reduction",
+          "url": "https://quantumcomputingreport.com/google-quantum-ai-deepmind-demonstrate-modular-hyperbolic-codes-for-over-30x-qec-overhead-reduction"
+        },
+        {
+          "date": "2026-10-15",
+          "key": "https://quantumcomputingreport.com/google-quantum-ai-demonstrates-magic-state-cultivation-on-willow-processor-in-science-milestone",
+          "report": "2026-10/2026-10-15-digest.md",
+          "score": 90,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Google Quantum AI Demonstrates Magic State Cultivation on Willow Processor in Science Milestone",
+          "url": "https://quantumcomputingreport.com/google-quantum-ai-demonstrates-magic-state-cultivation-on-willow-processor-in-science-milestone"
+        },
+        {
+          "date": "2026-06-27",
+          "key": "https://quantumzeitgeist.com/google-quantum-computing",
+          "report": "2026-06/2026-06-27-digest.md",
+          "score": 51,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Google Quantum Computing",
+          "url": "https://quantumzeitgeist.com/google-quantum-computing"
+        },
+        {
+          "alert_eligible": false,
+          "category": "QEC / Fault Tolerance",
+          "date": "2026-01-13",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:google_publish_date",
+          "entities": [
+            "Google Quantum AI"
+          ],
+          "historical": true,
+          "key": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction",
+          "observed_at": "2026-10-11T09:34:47.743688+00:00",
+          "published_at": "2026-01-13T00:00:00+00:00",
+          "score": 58,
+          "source": "Google Quantum AI",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Dynamic surface codes open new avenues for quantum error correction",
+          "url": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Software / Tooling",
+          "date": "2025-11-13",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:google_publish_date",
+          "entities": [
+            "Google Quantum AI"
+          ],
+          "historical": true,
+          "key": "https://research.google/blog/a-new-quantum-toolkit-for-optimization",
+          "observed_at": "2026-10-11T09:34:47.743688+00:00",
+          "published_at": "2025-11-13T00:00:00+00:00",
+          "score": 31,
+          "source": "Google Quantum AI",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "A new quantum toolkit for optimization",
+          "url": "https://research.google/blog/a-new-quantum-toolkit-for-optimization/"
+        }
+      ],
+      "evidence_count": 5,
+      "first_seen": "2025-11-13",
+      "historical_evidence_count": 2,
+      "latest_seen": "2026-10-15",
+      "momentum": "rising",
+      "name": "Google Quantum AI",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "QEC / Fault Tolerance",
+        "Quantum Hardware",
+        "Quantum Software / Tooling"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
         "Post-Quantum Cryptography Alliance"
       ],
       "case_sensitive_aliases": [],
@@ -5385,7 +5519,7 @@
       "latest_seen": "2026-10-02",
       "momentum": "declining",
       "name": "ISO/IEC",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5768,92 +5902,6 @@
         "Standards / Government"
       ],
       "type": "consulting"
-    },
-    {
-      "aliases": [
-        "Google Quantum",
-        "Google AI Quantum"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 1,
-      "evidence": [
-        {
-          "date": "2026-06-27",
-          "key": "https://quantumzeitgeist.com/google-quantum-computing",
-          "report": "2026-06/2026-06-27-digest.md",
-          "score": 51,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Google Quantum Computing",
-          "url": "https://quantumzeitgeist.com/google-quantum-computing"
-        },
-        {
-          "alert_eligible": false,
-          "category": "QEC / Fault Tolerance",
-          "date": "2026-01-13",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:google_publish_date",
-          "entities": [
-            "Google Quantum AI"
-          ],
-          "historical": true,
-          "key": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction",
-          "observed_at": "2026-10-11T09:34:47.743688+00:00",
-          "published_at": "2026-01-13T00:00:00+00:00",
-          "score": 58,
-          "source": "Google Quantum AI",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Dynamic surface codes open new avenues for quantum error correction",
-          "url": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Software / Tooling",
-          "date": "2025-11-13",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:google_publish_date",
-          "entities": [
-            "Google Quantum AI"
-          ],
-          "historical": true,
-          "key": "https://research.google/blog/a-new-quantum-toolkit-for-optimization",
-          "observed_at": "2026-10-11T09:34:47.743688+00:00",
-          "published_at": "2025-11-13T00:00:00+00:00",
-          "score": 31,
-          "source": "Google Quantum AI",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "A new quantum toolkit for optimization",
-          "url": "https://research.google/blog/a-new-quantum-toolkit-for-optimization/"
-        }
-      ],
-      "evidence_count": 3,
-      "first_seen": "2025-11-13",
-      "historical_evidence_count": 2,
-      "latest_seen": "2026-06-27",
-      "momentum": "stable",
-      "name": "Google Quantum AI",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "dormant",
-      "themes": [
-        "QEC / Fault Tolerance",
-        "Quantum Hardware",
-        "Quantum Software / Tooling"
-      ],
-      "type": "company"
     },
     {
       "aliases": [
@@ -6889,9 +6937,9 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-01",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Pasqal",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "medium",
       "recent_count": 0,
       "status": "quiet",
@@ -8034,10 +8082,10 @@
       "latest_seen": "2026-10-07",
       "momentum": "declining",
       "name": "Crypto-agility",
-      "prior_count": 5,
+      "prior_count": 4,
       "priority": "critical",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "Standards / Government"
@@ -8051,8 +8099,32 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 39,
+      "current_evidence_count": 41,
       "evidence": [
+        {
+          "date": "2026-10-15",
+          "key": "https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost",
+          "report": "2026-10/2026-10-15-digest.md",
+          "score": 119,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "IBM Research Automates QEC Decoder Chip Design Using Open AI Agent Factories at 11.5x Lower Inference Cost",
+          "url": "https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost"
+        },
+        {
+          "date": "2026-10-15",
+          "key": "https://quantumcomputingreport.com/google-quantum-ai-deepmind-demonstrate-modular-hyperbolic-codes-for-over-30x-qec-overhead-reduction",
+          "report": "2026-10/2026-10-15-digest.md",
+          "score": 93,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Google Quantum AI & DeepMind Demonstrate Modular Hyperbolic Codes for Over 30x QEC Overhead Reduction",
+          "url": "https://quantumcomputingreport.com/google-quantum-ai-deepmind-demonstrate-modular-hyperbolic-codes-for-over-30x-qec-overhead-reduction"
+        },
         {
           "date": "2026-10-14",
           "key": "https://quantumcomputingreport.com/riverlane-and-nvidia-demonstrate-accelerated-qec-decoder-calibration-using-gpu-processing",
@@ -8508,53 +8580,17 @@
           ],
           "title": "Researchers Build Improved Quantum Error Correction Using Novel Matrices",
           "url": "https://quantumzeitgeist.com/quantum-error-correction-optimal-defining-matrices-codes"
-        },
-        {
-          "date": "2026-06-23",
-          "key": "https://quantumzeitgeist.com/what-is-the-surface-code",
-          "report": "2026-06/2026-06-23-digest.md",
-          "score": 51,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "What Is the Surface Code? The Complete 2026 Guide to Quantum Error Correction\u2019s Workhorse",
-          "url": "https://quantumzeitgeist.com/what-is-the-surface-code"
-        },
-        {
-          "alert_eligible": false,
-          "category": "QEC / Fault Tolerance",
-          "date": "2026-01-13",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:google_publish_date",
-          "entities": [
-            "Google Quantum AI"
-          ],
-          "historical": true,
-          "key": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction",
-          "observed_at": "2026-10-11T09:34:47.743688+00:00",
-          "published_at": "2026-01-13T00:00:00+00:00",
-          "score": 58,
-          "source": "Google Quantum AI",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Dynamic surface codes open new avenues for quantum error correction",
-          "url": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/"
         }
       ],
-      "evidence_count": 40,
+      "evidence_count": 42,
       "first_seen": "2026-01-13",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-10-14",
+      "latest_seen": "2026-10-15",
       "momentum": "rising",
       "name": "Quantum error correction",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 4,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "AI Security",
@@ -8960,11 +8996,11 @@
       "first_seen": "2025-09-10",
       "historical_evidence_count": 2,
       "latest_seen": "2026-10-08",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Logical qubits",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -9060,11 +9096,11 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-14",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "ML-DSA",
-      "prior_count": 0,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 3,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -9616,9 +9652,9 @@
       "latest_seen": "2026-10-14",
       "momentum": "rising",
       "name": "Quantum networking",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -9650,11 +9686,11 @@
       "first_seen": "2026-10-08",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-08",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Hybrid TLS",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -9993,6 +10029,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-10-15T02:49:32.695112+00:00",
+  "updated_at": "2026-10-16T02:44:40.197591+00:00",
   "version": 2
 }
