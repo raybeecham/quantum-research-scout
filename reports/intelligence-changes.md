@@ -2,36 +2,23 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-16T02:37:08.215323+00:00_
+_Updated 2026-10-17T02:29:35.520951+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **42**
-- Added / changed / resolved: **14 / 1 / 27**
+- Material changes: **27**
+- Added / changed / resolved: **0 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **The DOE Quantum Genesis Q Competition** — qualification gate: qualify ([evidence](https://www.grants.gov/search-results-detail/363869))
+- None.
 
 ## New claims
 
-- **REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE** — has related patent: — ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/19647295/application-data))
-- **REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE** — has related patent: — ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/63788651/application-data))
-- **REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE** — has related patent: — ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/19647295/application-data))
-- **REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE** — has related patent: — ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/63788651/application-data))
-- **NEW YORK UNIVERSITY** — has related patent: — ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data))
-- **Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008)** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/5ff635ffb85f4e25b34661f0a268e577/view))
-- **Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008)** — set aside: No Set aside used ([evidence](https://sam.gov/workspace/contract/opp/5ff635ffb85f4e25b34661f0a268e577/view))
-- **Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008)** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.NAVAIR.NAVAIR HQS.NAVAL AIR SYSTEMS COMMAND ([evidence](https://sam.gov/workspace/contract/opp/5ff635ffb85f4e25b34661f0a268e577/view))
-- **Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008)** — reported amount: 2800695.14 ([evidence](https://sam.gov/workspace/contract/opp/5ff635ffb85f4e25b34661f0a268e577/view))
-- **Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008)** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/5ff635ffb85f4e25b34661f0a268e577/view))
-- **28--SPEED SENSOR,DIESEL ENGINE** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/42b6c0478c5c48e993f30dec4bedfade/view))
-- **28--SPEED SENSOR,DIESEL ENGINE** — awarding agency: DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND COLUMBUS.DLA WEAPONS SUPPORT ([evidence](https://sam.gov/workspace/contract/opp/42b6c0478c5c48e993f30dec4bedfade/view))
-- **28--SPEED SENSOR,DIESEL ENGINE** — reported amount: 350000.0 ([evidence](https://sam.gov/workspace/contract/opp/42b6c0478c5c48e993f30dec4bedfade/view))
-- **28--SPEED SENSOR,DIESEL ENGINE** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/42b6c0478c5c48e993f30dec4bedfade/view))
+- None.
 
 ## Superseded claims
 

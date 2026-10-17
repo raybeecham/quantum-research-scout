@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-16 02:44 UTC_
+_Updated 2026-10-17 02:32 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -14,102 +14,102 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
-| White House Science and Technology Missions | watch | 66% | 28 | 0 | 2026-10-16 | 2026-06-22 | stale | 🔴 failing |
-| ETSI Quantum Standards News | watch | 80% | 16 | 0 | 2026-10-16 | 2026-06-22 | stale | 🔴 failing |
-| Quantum Computing Report | rss | 68% | 10 | 0 | 2026-10-16 | 2026-10-16 | fresh | 🔴 failing |
+| White House Science and Technology Missions | watch | 65% | 29 | 0 | 2026-10-17 | 2026-06-22 | stale | 🔴 failing |
+| ETSI Quantum Standards News | watch | 79% | 17 | 0 | 2026-10-17 | 2026-06-22 | stale | 🔴 failing |
+| Quantum Computing Report | rss | 66% | 11 | 0 | 2026-10-17 | 2026-10-16 | fresh | 🔴 failing |
+| Rigetti News | rss | 91% | 8 | 0 | 2026-10-17 | 2026-09-08 | stale | 🔴 failing |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 66% | 8 | 0 | 2026-10-14 | 2026-09-25 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 66% | 8 | 0 | 2026-10-14 | 2026-09-25 | standby | ⚪ standby |
-| Rigetti News | rss | 92% | 7 | 0 | 2026-10-16 | 2026-09-08 | stale | 🔴 failing |
 | arXiv Quantum Networking and Sensing | arxiv | 68% | 7 | 0 | 2026-10-14 | 2026-09-25 | standby | ⚪ standby |
-| Department of War Strategic Technology News | watch | 95% | 4 | 0 | 2026-10-16 | 2026-10-09 | fresh | 🔴 failing |
-| Quantum Computing Patents | patent | 94% | 2 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟠 degraded |
-| Quantum Journal | rss | 94% | 2 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟠 degraded |
-| arXiv RSS cs.CR | arxiv_rss | 93% | 2 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟠 degraded |
-| arXiv RSS quant-ph | arxiv_rss | 93% | 2 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟠 degraded |
-| Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-16 | 2026-10-08 | fresh | 🟠 degraded |
-| SAM.gov Opportunities | procurement | 97% | 0 | 23 | 2026-10-16 | 2026-10-15 | fresh | 🟠 partial |
-| DOE Federal Science Missions | watch | 100% | 0 | 1 | 2026-10-16 | 2026-10-15 | fresh | 🟠 partial |
-| AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-10-16 | 2026-10-12 | fresh | 🟢 healthy |
-| Accenture Federal Services Quantum Readiness | watch | 100% | 0 | 0 | 2026-10-16 | 2026-08-04 | reference | 🟢 healthy |
-| Accenture Quantum and PQC News | watch | 100% | 0 | 0 | 2026-10-16 | 2025-10-20 | stale | 🟢 healthy |
-| Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-10-16 | 2026-10-07 | fresh | 🟢 healthy |
-| BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-10-16 | 2024-03-12 | reference | 🟢 healthy |
-| Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-10-16 | 2026-09-29 | stale | 🟢 healthy |
-| CISA Cybersecurity Advisories | rss | 100% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| Cloudflare Blog | rss | 100% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| Cloudflare Post-Quantum Blog | url | 100% | 0 | 0 | 2026-10-16 | 2026-10-01 | fresh | 🟢 healthy |
-| Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-10-16 | 2026-10-06 | fresh | 🟢 healthy |
-| Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-10-16 | — | reference | 🟢 healthy |
-| DigiCert Blog | rss | 100% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-10-16 | 2026-10-08 | fresh | 🟢 healthy |
-| ENISA Cryptography and PQC | watch | 100% | 0 | 0 | 2026-10-16 | 2024-03-12 | reference | 🟢 healthy |
-| Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-10-16 | 2026-10-08 | fresh | 🟢 healthy |
-| Google Quantum AI | watch | 100% | 0 | 0 | 2026-10-16 | 2026-07-22 | fresh | 🟢 healthy |
-| Google Security Blog | rss | 100% | 0 | 0 | 2026-10-16 | 2026-04-23 | stale | 🟢 healthy |
-| Grants.gov · AI Forge | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | 2026-07-22 | stale | 🟢 healthy |
-| Grants.gov · Advanced Computing | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | 2026-09-16 | stale | 🟢 healthy |
-| Grants.gov · Artificial Intelligence | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | 2026-10-14 | fresh | 🟢 healthy |
-| Grants.gov · Autonomy and Sensing | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | 2026-09-25 | stale | 🟢 healthy |
-| Grants.gov · Cybersecurity | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | 2026-10-05 | fresh | 🟢 healthy |
-| Grants.gov · Genesis Mission | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | 2026-10-08 | fresh | 🟢 healthy |
-| Grants.gov · Golden Dome | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | 2026-08-27 | stale | 🟢 healthy |
-| Grants.gov · Military AI Pace-Setting Projects | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | 2026-09-02 | stale | 🟢 healthy |
-| Grants.gov · Post-Quantum Cybersecurity | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | 2026-09-21 | stale | 🟢 healthy |
-| Grants.gov · Project Triad | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | 2026-09-25 | stale | 🟢 healthy |
-| Grants.gov · QC-ADDS | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | — | unknown | 🟢 healthy |
-| Grants.gov · Quantum Benchmarking Initiative | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | 2026-09-14 | stale | 🟢 healthy |
-| Grants.gov · Quantum Genesis | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | 2026-06-30 | stale | 🟢 healthy |
-| Grants.gov · Quantum Technologies | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | 2026-10-09 | fresh | 🟢 healthy |
-| Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-10-16 | — | unknown | 🟢 healthy |
-| IACR ePrint | iacr_eprint | 99% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| IBM Quantum Blog | url | 100% | 0 | 0 | 2026-10-16 | 2026-10-06 | fresh | 🟢 healthy |
-| IETF PQUIP | watch | 100% | 0 | 0 | 2026-10-16 | — | reference | 🟢 healthy |
-| InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-10-16 | 2026-09-16 | stale | 🟢 healthy |
-| Intel Quantum Research | watch | 100% | 0 | 0 | 2026-10-16 | — | reference | 🟢 healthy |
-| IonQ News | rss | 100% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| Keyfactor Quantum and Crypto-Agility | watch | 100% | 0 | 0 | 2026-10-16 | 2026-10-13 | fresh | 🟢 healthy |
-| Lockheed Martin Quantum Technology | watch | 98% | 0 | 0 | 2026-10-16 | 2026-07-14 | stale | 🟢 healthy |
-| Microsoft Quantum Blog | rss | 100% | 0 | 0 | 2026-10-16 | 2026-06-02 | stale | 🟢 healthy |
-| NCSC UK Guidance | rss | 100% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| NCSC UK News | rss | 100% | 0 | 0 | 2026-10-16 | 2026-10-08 | fresh | 🟢 healthy |
-| NCSC UK Reports | rss | 100% | 0 | 0 | 2026-10-16 | 2025-05-07 | stale | 🟢 healthy |
-| NIST CSRC News | url | 100% | 0 | 0 | 2026-10-16 | 2026-10-05 | fresh | 🟢 healthy |
-| NIST Post-Quantum Cryptography Project | watch | 100% | 0 | 0 | 2026-10-16 | 2025-03-07 | reference | 🟢 healthy |
-| NSF Strategic Science and Technology Missions | watch | 100% | 0 | 0 | 2026-10-16 | 2026-10-08 | fresh | 🟢 healthy |
-| Open Quantum Safe | rss | 100% | 0 | 0 | 2026-10-16 | 2026-07-09 | stale | 🟢 healthy |
-| PQCA Blog and News | rss | 100% | 0 | 0 | 2026-10-16 | 2026-10-14 | fresh | 🟢 healthy |
-| PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-10-16 | 2026-10-06 | fresh | 🟢 healthy |
-| PQShield | rss | 100% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| PsiQuantum News | watch | 100% | 0 | 0 | 2026-10-16 | 2026-10-08 | fresh | 🟢 healthy |
-| QCi Press Releases | watch | 100% | 0 | 0 | 2026-10-16 | 2026-10-14 | fresh | 🟢 healthy |
-| QuEra Press Releases | watch | 100% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| QuSecure Press Releases | watch | 100% | 0 | 0 | 2026-10-16 | 2026-09-22 | stale | 🟢 healthy |
-| Quantinuum News | url | 100% | 0 | 0 | 2026-10-16 | 2026-10-05 | fresh | 🟢 healthy |
-| Quantum Networking and Sensing Patents | patent | 98% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| SandboxAQ Blog | url | 100% | 0 | 0 | 2026-10-16 | 2026-10-08 | fresh | 🟢 healthy |
-| Strategic AI Systems Patents | patent | 99% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-10-16 | 2026-10-14 | fresh | 🟢 healthy |
-| The Quantum Insider | rss | 100% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| USAspending · AI Forge | federal_award | 100% | 0 | 0 | 2026-10-16 | 2026-09-28 | stale | 🟢 healthy |
-| USAspending · Advanced Computing | federal_award | 100% | 0 | 0 | 2026-10-16 | 2026-10-16 | fresh | 🟢 healthy |
-| USAspending · Artificial Intelligence | federal_award | 100% | 0 | 0 | 2026-10-16 | 2026-10-01 | stale | 🟢 healthy |
-| USAspending · Autonomy and Sensing | federal_award | 100% | 0 | 0 | 2026-10-16 | 2026-10-01 | stale | 🟢 healthy |
-| USAspending · Cybersecurity | federal_award | 100% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| USAspending · Genesis Mission | federal_award | 100% | 0 | 0 | 2026-10-16 | 2026-05-19 | stale | 🟢 healthy |
-| USAspending · Golden Dome | federal_award | 100% | 0 | 0 | 2026-10-16 | 2026-04-01 | stale | 🟢 healthy |
-| USAspending · Military AI Pace-Setting Projects | federal_award | 100% | 0 | 0 | 2026-10-16 | — | unknown | 🟢 healthy |
-| USAspending · Post-Quantum Cybersecurity | federal_award | 100% | 0 | 0 | 2026-10-16 | 2026-10-01 | stale | 🟢 healthy |
-| USAspending · Project Triad | federal_award | 100% | 0 | 0 | 2026-10-16 | — | unknown | 🟢 healthy |
-| USAspending · QC-ADDS | federal_award | 100% | 0 | 0 | 2026-10-16 | — | unknown | 🟢 healthy |
-| USAspending · Quantum Benchmarking Initiative | federal_award | 100% | 0 | 0 | 2026-10-16 | 2025-10-06 | stale | 🟢 healthy |
-| USAspending · Quantum Genesis | federal_award | 100% | 0 | 0 | 2026-10-16 | — | unknown | 🟢 healthy |
-| USAspending · Quantum Technologies | federal_award | 100% | 0 | 0 | 2026-10-16 | 2026-10-15 | fresh | 🟢 healthy |
-| USAspending · QuantumEAGLe | federal_award | 100% | 0 | 0 | 2026-10-16 | — | unknown | 🟢 healthy |
-| Wiz Post-Quantum Security | watch | 100% | 0 | 0 | 2026-10-16 | 2026-07-21 | stale | 🟢 healthy |
+| Department of War Strategic Technology News | watch | 94% | 5 | 0 | 2026-10-17 | 2026-10-09 | fresh | 🔴 failing |
+| Quantum Computing Patents | patent | 94% | 2 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟠 degraded |
+| Quantum Journal | rss | 94% | 2 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟠 degraded |
+| arXiv RSS cs.CR | arxiv_rss | 94% | 2 | 0 | 2026-10-17 | 2026-10-16 | fresh | 🟠 degraded |
+| arXiv RSS quant-ph | arxiv_rss | 93% | 2 | 0 | 2026-10-17 | 2026-10-16 | fresh | 🟠 degraded |
+| Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-17 | 2026-10-16 | fresh | 🟠 degraded |
+| SAM.gov Opportunities | procurement | 97% | 0 | 23 | 2026-10-17 | 2026-10-16 | fresh | 🟠 partial |
+| DOE Federal Science Missions | watch | 100% | 0 | 1 | 2026-10-17 | 2026-10-16 | fresh | 🟠 partial |
+| AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-10-17 | 2026-10-12 | fresh | 🟢 healthy |
+| Accenture Federal Services Quantum Readiness | watch | 100% | 0 | 0 | 2026-10-17 | 2026-08-04 | reference | 🟢 healthy |
+| Accenture Quantum and PQC News | watch | 100% | 0 | 0 | 2026-10-17 | 2025-10-20 | stale | 🟢 healthy |
+| Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-10-17 | 2026-10-07 | fresh | 🟢 healthy |
+| BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-10-17 | 2024-03-12 | reference | 🟢 healthy |
+| Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-10-17 | 2026-09-29 | stale | 🟢 healthy |
+| CISA Cybersecurity Advisories | rss | 100% | 0 | 0 | 2026-10-17 | 2026-10-16 | fresh | 🟢 healthy |
+| Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟢 healthy |
+| Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟢 healthy |
+| Cloudflare Blog | rss | 100% | 0 | 0 | 2026-10-17 | 2026-10-16 | fresh | 🟢 healthy |
+| Cloudflare Post-Quantum Blog | url | 100% | 0 | 0 | 2026-10-17 | 2026-10-01 | stale | 🟢 healthy |
+| Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟢 healthy |
+| DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-10-17 | 2026-10-06 | fresh | 🟢 healthy |
+| Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-10-17 | — | reference | 🟢 healthy |
+| DigiCert Blog | rss | 100% | 0 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟢 healthy |
+| Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-10-17 | 2026-10-08 | fresh | 🟢 healthy |
+| ENISA Cryptography and PQC | watch | 100% | 0 | 0 | 2026-10-17 | 2024-03-12 | reference | 🟢 healthy |
+| Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-10-17 | 2026-10-08 | fresh | 🟢 healthy |
+| Google Quantum AI | watch | 100% | 0 | 0 | 2026-10-17 | 2026-07-22 | fresh | 🟢 healthy |
+| Google Security Blog | rss | 100% | 0 | 0 | 2026-10-17 | 2026-04-23 | stale | 🟢 healthy |
+| Grants.gov · AI Forge | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | 2026-07-22 | stale | 🟢 healthy |
+| Grants.gov · Advanced Computing | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | 2026-10-16 | fresh | 🟢 healthy |
+| Grants.gov · Artificial Intelligence | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | 2026-10-14 | fresh | 🟢 healthy |
+| Grants.gov · Autonomy and Sensing | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | 2026-10-16 | fresh | 🟢 healthy |
+| Grants.gov · Cybersecurity | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | 2026-10-05 | fresh | 🟢 healthy |
+| Grants.gov · Genesis Mission | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | 2026-10-08 | fresh | 🟢 healthy |
+| Grants.gov · Golden Dome | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | 2026-08-27 | stale | 🟢 healthy |
+| Grants.gov · Military AI Pace-Setting Projects | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | 2026-10-16 | fresh | 🟢 healthy |
+| Grants.gov · Post-Quantum Cybersecurity | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | 2026-09-21 | stale | 🟢 healthy |
+| Grants.gov · Project Triad | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | 2026-09-25 | stale | 🟢 healthy |
+| Grants.gov · QC-ADDS | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | — | unknown | 🟢 healthy |
+| Grants.gov · Quantum Benchmarking Initiative | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | 2026-09-14 | stale | 🟢 healthy |
+| Grants.gov · Quantum Genesis | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | 2026-06-30 | stale | 🟢 healthy |
+| Grants.gov · Quantum Technologies | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | 2026-10-09 | fresh | 🟢 healthy |
+| Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-10-17 | — | unknown | 🟢 healthy |
+| IACR ePrint | iacr_eprint | 99% | 0 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟢 healthy |
+| IBM Quantum Blog | url | 100% | 0 | 0 | 2026-10-17 | 2026-10-06 | fresh | 🟢 healthy |
+| IETF PQUIP | watch | 100% | 0 | 0 | 2026-10-17 | — | reference | 🟢 healthy |
+| InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-10-17 | 2026-09-16 | stale | 🟢 healthy |
+| Intel Quantum Research | watch | 100% | 0 | 0 | 2026-10-17 | — | reference | 🟢 healthy |
+| IonQ News | rss | 100% | 0 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟢 healthy |
+| Keyfactor Quantum and Crypto-Agility | watch | 100% | 0 | 0 | 2026-10-17 | 2026-10-13 | fresh | 🟢 healthy |
+| Lockheed Martin Quantum Technology | watch | 98% | 0 | 0 | 2026-10-17 | 2026-07-14 | stale | 🟢 healthy |
+| Microsoft Quantum Blog | rss | 100% | 0 | 0 | 2026-10-17 | 2026-06-02 | stale | 🟢 healthy |
+| NCSC UK Guidance | rss | 100% | 0 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟢 healthy |
+| NCSC UK News | rss | 100% | 0 | 0 | 2026-10-17 | 2026-10-08 | fresh | 🟢 healthy |
+| NCSC UK Reports | rss | 100% | 0 | 0 | 2026-10-17 | 2025-05-07 | stale | 🟢 healthy |
+| NIST CSRC News | url | 100% | 0 | 0 | 2026-10-17 | 2026-10-05 | fresh | 🟢 healthy |
+| NIST Post-Quantum Cryptography Project | watch | 100% | 0 | 0 | 2026-10-17 | 2025-03-07 | reference | 🟢 healthy |
+| NSF Strategic Science and Technology Missions | watch | 100% | 0 | 0 | 2026-10-17 | 2026-10-08 | fresh | 🟢 healthy |
+| Open Quantum Safe | rss | 100% | 0 | 0 | 2026-10-17 | 2026-07-09 | stale | 🟢 healthy |
+| PQCA Blog and News | rss | 100% | 0 | 0 | 2026-10-17 | 2026-10-14 | fresh | 🟢 healthy |
+| PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-10-17 | 2026-10-06 | fresh | 🟢 healthy |
+| PQShield | rss | 100% | 0 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟢 healthy |
+| Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟢 healthy |
+| PsiQuantum News | watch | 100% | 0 | 0 | 2026-10-17 | 2026-10-08 | fresh | 🟢 healthy |
+| QCi Press Releases | watch | 100% | 0 | 0 | 2026-10-17 | 2026-10-14 | fresh | 🟢 healthy |
+| QuEra Press Releases | watch | 100% | 0 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟢 healthy |
+| QuSecure Press Releases | watch | 100% | 0 | 0 | 2026-10-17 | 2026-09-22 | stale | 🟢 healthy |
+| Quantinuum News | url | 100% | 0 | 0 | 2026-10-17 | 2026-10-05 | fresh | 🟢 healthy |
+| Quantum Networking and Sensing Patents | patent | 98% | 0 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟢 healthy |
+| SandboxAQ Blog | url | 100% | 0 | 0 | 2026-10-17 | 2026-10-08 | fresh | 🟢 healthy |
+| Strategic AI Systems Patents | patent | 99% | 0 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟢 healthy |
+| Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-10-17 | 2026-10-14 | fresh | 🟢 healthy |
+| The Quantum Insider | rss | 100% | 0 | 0 | 2026-10-17 | 2026-10-16 | fresh | 🟢 healthy |
+| USAspending · AI Forge | federal_award | 100% | 0 | 0 | 2026-10-17 | 2026-09-28 | stale | 🟢 healthy |
+| USAspending · Advanced Computing | federal_award | 100% | 0 | 0 | 2026-10-17 | 2026-10-16 | fresh | 🟢 healthy |
+| USAspending · Artificial Intelligence | federal_award | 100% | 0 | 0 | 2026-10-17 | 2026-10-01 | stale | 🟢 healthy |
+| USAspending · Autonomy and Sensing | federal_award | 100% | 0 | 0 | 2026-10-17 | 2026-10-01 | stale | 🟢 healthy |
+| USAspending · Cybersecurity | federal_award | 100% | 0 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟢 healthy |
+| USAspending · Genesis Mission | federal_award | 100% | 0 | 0 | 2026-10-17 | 2026-05-19 | stale | 🟢 healthy |
+| USAspending · Golden Dome | federal_award | 100% | 0 | 0 | 2026-10-17 | 2026-04-01 | stale | 🟢 healthy |
+| USAspending · Military AI Pace-Setting Projects | federal_award | 100% | 0 | 0 | 2026-10-17 | — | unknown | 🟢 healthy |
+| USAspending · Post-Quantum Cybersecurity | federal_award | 100% | 0 | 0 | 2026-10-17 | 2026-10-01 | stale | 🟢 healthy |
+| USAspending · Project Triad | federal_award | 100% | 0 | 0 | 2026-10-17 | — | unknown | 🟢 healthy |
+| USAspending · QC-ADDS | federal_award | 100% | 0 | 0 | 2026-10-17 | — | unknown | 🟢 healthy |
+| USAspending · Quantum Benchmarking Initiative | federal_award | 100% | 0 | 0 | 2026-10-17 | 2025-10-06 | stale | 🟢 healthy |
+| USAspending · Quantum Genesis | federal_award | 100% | 0 | 0 | 2026-10-17 | — | unknown | 🟢 healthy |
+| USAspending · Quantum Technologies | federal_award | 100% | 0 | 0 | 2026-10-17 | 2026-10-15 | fresh | 🟢 healthy |
+| USAspending · QuantumEAGLe | federal_award | 100% | 0 | 0 | 2026-10-17 | — | unknown | 🟢 healthy |
+| Wiz Post-Quantum Security | watch | 100% | 0 | 0 | 2026-10-17 | 2026-07-21 | stale | 🟢 healthy |
 
 ## Operational Coverage
 
@@ -130,6 +130,11 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 
 ## Recent Warning Details
 
+- 2026-10-16 — **Quantum Computing Report**: Feed returned no parseable entries.
+- 2026-10-16 — **White House Science and Technology Missions**: All discovery methods failed: HTML page returned no matching entries.
+- 2026-10-16 — **ETSI Quantum Standards News**: All discovery methods failed: HTML page returned no matching entries.
+- 2026-10-16 — **Rigetti News**: Failed to fetch https://investors.rigetti.com/rss/news-releases.xml: 403 Client Error: Forbidden for url: https://investors.rigetti.com/rss/news-releases.xml
+- 2026-10-16 — **Department of War Strategic Technology News**: All discovery methods failed: Feed returned no parseable entries.; HTML discovery failed: Failed to fetch https://www.war.gov/News/News-Stories/: 403 Client Error: Forbidden for url: https://www.war.gov/News/News-Stories/
 - 2026-10-15 — **White House Science and Technology Missions**: All discovery methods failed: HTML page returned no matching entries.
 - 2026-10-15 — **ETSI Quantum Standards News**: All discovery methods failed: HTML page returned no matching entries.
 - 2026-10-15 — **Rigetti News**: Failed to fetch https://investors.rigetti.com/rss/news-releases.xml: 403 Client Error: Forbidden for url: https://investors.rigetti.com/rss/news-releases.xml
@@ -145,14 +150,10 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 - 2026-10-13 — **ETSI Quantum Standards News**: All discovery methods failed: HTML page returned no matching entries.
 - 2026-10-13 — **Rigetti News**: Failed to fetch https://investors.rigetti.com/rss/news-releases.xml: 403 Client Error: Forbidden for url: https://investors.rigetti.com/rss/news-releases.xml
 - 2026-10-13 — **arXiv RSS cs.CR**: Feed returned no parseable entries.
-- 2026-10-13 — **arXiv RSS quant-ph**: Feed returned no parseable entries.
-- 2026-10-13 — **Department of War Strategic Technology News**: All discovery methods failed: Feed returned no parseable entries.; HTML discovery failed: Failed to fetch https://www.war.gov/News/News-Stories/: 403 Client Error: Forbidden for url: https://www.war.gov/News/News-Stories/
-- 2026-10-12 — **Quantum Computing Report**: Feed returned no parseable entries.
-- 2026-10-12 — **White House Science and Technology Missions**: All discovery methods failed: HTML page returned no matching entries.
-- 2026-10-12 — **arXiv PQC and Quantum-Safe Cryptography**: Failed to fetch https://export.arxiv.org/api/query: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)
 
 ## Recent Coverage Advisories
 
+- 2026-10-16 — **SAM.gov Opportunities**: **ADVISORY:** Partial coverage: recent snapshot was truncated after 1,000 of 1,763 notices; narrow the window or increase the bounded page budget.
 - 2026-10-15 — **SAM.gov Opportunities**: **ADVISORY:** Partial coverage: recent snapshot was truncated after 1,000 of 2,280 notices; narrow the window or increase the bounded page budget.
 - 2026-10-14 — **SAM.gov Opportunities**: **ADVISORY:** Partial coverage: recent snapshot was truncated after 1,000 of 2,558 notices; narrow the window or increase the bounded page budget.
 - 2026-10-13 — **SAM.gov Opportunities**: **ADVISORY:** Partial coverage: recent snapshot was truncated after 1,000 of 2,278 notices; narrow the window or increase the bounded page budget.
@@ -172,4 +173,3 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 - 2026-09-22 — **SAM.gov Opportunities**: **ADVISORY:** Partial coverage: recent snapshot was truncated after 1,000 of 4,163 notices; narrow the window or increase the bounded page budget.
 - 2026-09-21 — **SAM.gov Opportunities**: **ADVISORY:** Partial coverage: recent snapshot was truncated after 1,000 of 2,515 notices; narrow the window or increase the bounded page budget.
 - 2026-09-19 — **SAM.gov Opportunities**: **ADVISORY:** Partial coverage: recent snapshot was truncated after 1,000 of 1,181 notices; narrow the window or increase the bounded page budget.
-- 2026-09-18 — **SAM.gov Opportunities**: **ADVISORY:** Partial coverage: recent snapshot was truncated after 1,000 of 3,130 notices; narrow the window or increase the bounded page budget.

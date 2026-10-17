@@ -3201,7 +3201,7 @@
         "Business or Organization",
         "For Profit Organization"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "6XWA8",
       "checked_at": "2026-10-16T02:37:08.215323+00:00",
       "contractor_name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
@@ -5641,7 +5641,7 @@
         "Non-Profit Organization",
         "Private University or College"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "72061",
       "checked_at": "2026-10-16T02:37:08.215323+00:00",
       "contractor_name": "NEW YORK UNIVERSITY",
@@ -6122,7 +6122,7 @@
         "Non-Profit Organization",
         "Private University or College"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "5E694",
       "checked_at": "2026-10-16T02:37:08.215323+00:00",
       "contractor_name": "VANDERBILT UNIVERSITY",
@@ -6320,9 +6320,9 @@
         "Foundation",
         "Non-Profit Organization"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "5D075",
-      "checked_at": "2026-09-15T02:50:31.121146+00:00",
+      "checked_at": "2026-10-17T02:29:35.520951+00:00",
       "contractor_name": "OLD DOMINION UNIVERSITY RESEARCH FOUNDATION",
       "contractor_score": 29,
       "dba_name": null,
@@ -6935,9 +6935,9 @@
         "Business or Organization",
         "For Profit Organization"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "7HL75",
-      "checked_at": "2026-09-16T02:45:46.761366+00:00",
+      "checked_at": "2026-10-17T02:29:35.520951+00:00",
       "contractor_name": "ODDBALL, INC.",
       "contractor_score": 28,
       "dba_name": "ODDBALL INC",
@@ -8367,9 +8367,9 @@
         "Business or Organization",
         "Non-Profit Organization"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "0K5F8",
-      "checked_at": "2026-09-03T02:26:59.168647+00:00",
+      "checked_at": "2026-10-17T02:29:35.520951+00:00",
       "contractor_name": "NEVADA SYSTEM OF HIGHER EDUCATION",
       "contractor_score": 27,
       "dba_name": "DESERT RESEARCH INSTITUTE",
@@ -8383,19 +8383,25 @@
       "legal_business_name": "NEVADA SYSTEM OF HIGHER EDUCATION",
       "naics": [
         {
-          "code": "541330",
+          "code": "541713",
           "name": null,
           "primary": null,
           "small_business": null
         },
         {
-          "code": "541370",
+          "code": "541715",
           "name": null,
           "primary": null,
           "small_business": null
         },
         {
-          "code": "541380",
+          "code": "562910",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541990",
           "name": null,
           "primary": null,
           "small_business": null
@@ -8419,13 +8425,13 @@
           "small_business": null
         },
         {
-          "code": "541690",
+          "code": "541720",
           "name": null,
           "primary": null,
           "small_business": null
         },
         {
-          "code": "541713",
+          "code": "562910",
           "name": null,
           "primary": null,
           "small_business": null
@@ -8437,25 +8443,55 @@
           "small_business": null
         },
         {
+          "code": "541330",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541690",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
           "code": "541715",
           "name": null,
           "primary": null,
           "small_business": null
         },
         {
-          "code": "541720",
+          "code": "541330",
           "name": null,
           "primary": null,
           "small_business": null
         },
         {
-          "code": "541990",
+          "code": "924120",
           "name": null,
           "primary": null,
           "small_business": null
         },
         {
-          "code": "562910",
+          "code": "541380",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541715",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "924110",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541330",
           "name": null,
           "primary": null,
           "small_business": null
@@ -8473,13 +8509,19 @@
           "small_business": null
         },
         {
-          "code": "924110",
+          "code": "541370",
           "name": null,
           "primary": null,
           "small_business": null
         },
         {
-          "code": "924120",
+          "code": "541715",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541330",
           "name": null,
           "primary": null,
           "small_business": null
@@ -8493,7 +8535,7 @@
         }
       ],
       "purpose_of_registration": "All Awards",
-      "registration_expiration_date": "2027-07-17",
+      "registration_expiration_date": "2027-09-17",
       "registration_status": "Active",
       "resolution_basis": "exact UEI match",
       "resolution_confidence": "high",
@@ -13851,6 +13893,6 @@
     "tracked_contractors": 75,
     "uei_coverage_percent": 136.0
   },
-  "updated_at": "2026-10-16T02:37:08.215323+00:00",
+  "updated_at": "2026-10-17T02:29:35.520951+00:00",
   "version": 1
 }

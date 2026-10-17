@@ -2884,12 +2884,30 @@
           "source": "NCSC UK Guidance",
           "title": "Using TLS to protect data",
           "url": "https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data"
+        },
+        {
+          "date": "2026-10-16",
+          "key": "https://thequantuminsider.com/2026/10/16/in-quantum-101-session-wto-trade-officials-hear-quantum-encryption-window-may-close-within-five-years",
+          "report": "2026-10/2026-10-16-digest.md",
+          "score": 33,
+          "source": "The Quantum Insider",
+          "title": "In \u2018Quantum 101\u2019 Session, WTO Trade Officials Hear Quantum Encryption Window May Close Within Five Years",
+          "url": "https://thequantuminsider.com/2026/10/16/in-quantum-101-session-wto-trade-officials-hear-quantum-encryption-window-may-close-within-five-years"
+        },
+        {
+          "date": "2026-10-16",
+          "key": "https://thequantuminsider.com/2026/10/16/transition-post-quantum-cryptography-national-eu-roadmap-guideline",
+          "report": "2026-10/2026-10-16-digest.md",
+          "score": 55,
+          "source": "The Quantum Insider",
+          "title": "Germany Publishes National Post-Quantum Cryptography Migration Guideline",
+          "url": "https://thequantuminsider.com/2026/10/16/transition-post-quantum-cryptography-national-eu-roadmap-guideline"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-10-15",
+      "latest_seen": "2026-10-16",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -2898,8 +2916,8 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 23,
-      "recent_count": 22,
+      "prior_count": 22,
+      "recent_count": 23,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -6614,13 +6632,40 @@
           "source": "USAspending \u00b7 Advanced Computing",
           "title": "MODELING OF III-NITRIDE DEVICES FOR DEVICE-CIRCUIT CO-OPTIMIZATION UNDER CRYOGENIC ENVIRONMENTS -MODELING OF III-NITRIDE DEVICES FOR DEVICE-CIRCUIT CO-OPTIMIZATION UNDER CRYOGENIC...",
           "url": "https://www.usaspending.gov/award/ASST_NON_2537290_049"
+        },
+        {
+          "date": "2026-10-16",
+          "key": "https://thequantuminsider.com/2026/10/16/anderon-superconducting-quantum-pdk",
+          "report": "2026-10/2026-10-16-digest.md",
+          "score": 28,
+          "source": "The Quantum Insider",
+          "title": "Anderon Releases First Superconducting Quantum PDK",
+          "url": "https://thequantuminsider.com/2026/10/16/anderon-superconducting-quantum-pdk"
+        },
+        {
+          "date": "2026-10-16",
+          "key": "https://thequantuminsider.com/2026/10/16/quera-three-teams-doe-quantum-chemistry-program",
+          "report": "2026-10/2026-10-16-digest.md",
+          "score": 42,
+          "source": "The Quantum Insider",
+          "title": "QuEra Scientists Named Co-Principal Investigators on Three of Nine Teams in DOE\u2019s Quantum Chemistry Program",
+          "url": "https://thequantuminsider.com/2026/10/16/quera-three-teams-doe-quantum-chemistry-program"
+        },
+        {
+          "date": "2026-10-16",
+          "key": "https://thequantuminsider.com/2026/10/16/terra-quantum-quera-quantum-alliance",
+          "report": "2026-10/2026-10-16-digest.md",
+          "score": 42,
+          "source": "The Quantum Insider",
+          "title": "Terra Quantum Joins QuEra Quantum Alliance",
+          "url": "https://thequantuminsider.com/2026/10/16/terra-quantum-quera-quantum-alliance"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-10-14",
-      "momentum": "rising",
+      "latest_seen": "2026-10-16",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -6628,9 +6673,9 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 7,
-      "recent_count": 11,
-      "status": "actionable"
+      "prior_count": 8,
+      "recent_count": 10,
+      "status": "watching"
     },
     "Quantum Networking": {
       "confidence": "high",
@@ -10160,6 +10205,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-10-16T02:44:40.183489+00:00",
+  "updated_at": "2026-10-17T02:32:55.742556+00:00",
   "version": 1
 }

@@ -39,6 +39,29 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Military AI Pace-Setting Projects",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-10-16",
+      "key": "https://www.grants.gov/search-results-detail/364086",
+      "mission_id": "military-ai-pace-setting-projects",
+      "mission_name": "Military AI Pace-Setting Projects",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "mission evidence admission",
+      "title": "Institute of Education Sciences (IES): National Center on Education Research (NCER): From Seedlings to Scale, Assistance Listing Number (ALN) 84.305J",
+      "url": "https://www.grants.gov/search-results-detail/364086"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "Executive Order 14412",
         "reason_codes": [
           "non_government_source",
@@ -2263,28 +2286,6 @@
       "stage": "mission evidence admission",
       "title": "FY 2026 Congress-Bundestag Youth Exchange for Young Professionals and Congress-Bundestag/Bundesrat Staff Exchange",
       "url": "https://www.grants.gov/search-results-detail/362833"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-16",
-      "key": "grants_gov:DFOP0018692",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Golden Dome",
-      "stage": "funding evidence admission",
-      "title": "FY 2026 Congress-Bundestag Youth Exchange for Young Professionals and Congress-Bundestag/Bundesrat Staff Exchange",
-      "url": "https://www.grants.gov/search-results-detail/362833"
     }
   ],
   "reason_counts": [
@@ -2324,6 +2325,6 @@
     "quarantined": 134,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-10-16T02:37:08.215323+00:00",
+  "updated_at": "2026-10-17T02:29:35.520951+00:00",
   "version": 1
 }

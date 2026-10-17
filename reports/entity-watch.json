@@ -524,7 +524,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 9,
+      "evidence_count": 11,
       "first_party_evidence_count": 6,
       "name": "QuEra",
       "priority": "high",
@@ -930,7 +930,7 @@
       "prior_count": 3,
       "priority": "critical",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware",
@@ -2988,7 +2988,7 @@
       "latest_seen": "2026-10-06",
       "momentum": "declining",
       "name": "Keyfactor",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -3308,11 +3308,11 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-09",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "IonQ",
-      "prior_count": 0,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -3800,7 +3800,7 @@
       "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -4153,7 +4153,7 @@
       "latest_seen": "2026-10-13",
       "momentum": "declining",
       "name": "PQShield",
-      "prior_count": 3,
+      "prior_count": 2,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -4164,167 +4164,36 @@
       "type": "company"
     },
     {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 11,
-      "evidence": [
-        {
-          "date": "2026-10-05",
-          "key": "https://quantumcomputingreport.com/quantinuum-and-the-university-of-western-australia-partner-to-advance-australias-hybrid-quantum-ai-hpc-ecosystem",
-          "report": "2026-10/2026-10-05-digest.md",
-          "score": 52,
-          "source": "Quantum Computing Report",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum and The University of Western Australia Partner to Advance Australia\u2019s Hybrid Quantum-AI-HPC Ecosystem",
-          "url": "https://quantumcomputingreport.com/quantinuum-and-the-university-of-western-australia-partner-to-advance-australias-hybrid-quantum-ai-hpc-ecosystem"
-        },
-        {
-          "date": "2026-09-15",
-          "key": "https://quantumzeitgeist.com/quops-quantum-benchmark-quantinuum-sandia-labs",
-          "report": "2026-09/2026-09-15-digest.md",
-          "score": 50,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum and Sandia Labs launch QUOPS, a new quantum benchmark",
-          "url": "https://quantumzeitgeist.com/quops-quantum-benchmark-quantinuum-sandia-labs"
-        },
-        {
-          "date": "2026-09-14",
-          "key": "https://quantumnews.ai/hardware/evaluating-quantinuum-h2-s-trapped-ion-platform-in-2026",
-          "report": "2026-09/2026-09-14-digest.md",
-          "score": 38,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Evaluating Quantinuum H2's Trapped Ion Platform in 2026",
-          "url": "https://quantumnews.ai/hardware/evaluating-quantinuum-h2-s-trapped-ion-platform-in-2026"
-        },
-        {
-          "date": "2026-09-13",
-          "key": "https://quantumzeitgeist.com/helix-heterogenous-qec-codes-boost-efficiency",
-          "report": "2026-09/2026-09-13-digest.md",
-          "score": 95,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Heterogenous QEC codes boost efficiency in Quantinuum\u2019s Helix architecture",
-          "url": "https://quantumzeitgeist.com/helix-heterogenous-qec-codes-boost-efficiency"
-        },
-        {
-          "date": "2026-09-09",
-          "key": "https://quantumcomputingreport.com/quantinuum-finalizes-100-million-chips-act-rd-award-to-accelerate-trapped-ion-manufacturing",
-          "report": "2026-09/2026-09-09-digest.md",
-          "score": 92,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum Finalizes $100 Million CHIPS Act R&D Award to Accelerate Trapped-Ion Manufacturing",
-          "url": "https://quantumcomputingreport.com/quantinuum-finalizes-100-million-chips-act-rd-award-to-accelerate-trapped-ion-manufacturing"
-        },
-        {
-          "date": "2026-08-12",
-          "key": "https://quantumcomputingreport.com/quantinuum-and-oracle-partner-to-bring-helios-quantum-computer-to-oracle-cloud-infrastructure",
-          "report": "2026-08/2026-08-12-digest.md",
-          "score": 47,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum and Oracle Partner to Bring Helios Quantum Computer to Oracle Cloud Infrastructure",
-          "url": "https://quantumcomputingreport.com/quantinuum-and-oracle-partner-to-bring-helios-quantum-computer-to-oracle-cloud-infrastructure"
-        },
-        {
-          "date": "2026-08-12",
-          "key": "https://thequantuminsider.com/2026/08/12/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure",
-          "report": "2026-08/2026-08-12-digest.md",
-          "score": 40,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum and Oracle Partner to Accelerate Hybrid Quantum Compute Adoption on Oracle Cloud Infrastructure",
-          "url": "https://thequantuminsider.com/2026/08/12/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 36,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum & Partners Run 98-Qubit Quantum Fourier Transform",
-          "url": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft"
-        },
-        {
-          "date": "2026-07-29",
-          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
-          "report": "2026-07/2026-07-29-digest.md",
-          "score": 60,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
-          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
-        },
-        {
-          "date": "2026-07-20",
-          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
-          "report": "2026-07/2026-07-20-digest.md",
-          "score": 14,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
-          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
-        },
-        {
-          "date": "2026-06-22",
-          "key": "https://quantumzeitgeist.com/quantinuum-qnt",
-          "report": "2026-06/2026-06-22-digest.md",
-          "score": 45,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum (QNT): A Commercial History",
-          "url": "https://quantumzeitgeist.com/quantinuum-qnt"
-        }
-      ],
-      "evidence_count": 11,
-      "first_seen": "2026-06-22",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-10-05",
-      "momentum": "declining",
-      "name": "Quantinuum",
-      "prior_count": 1,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
-      "themes": [
-        "PQC / Crypto Agility",
-        "QEC / Fault Tolerance",
-        "Quantum Hardware"
-      ],
-      "type": "company"
-    },
-    {
       "aliases": [
         "QuEra Computing"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 3,
+      "current_evidence_count": 5,
       "evidence": [
+        {
+          "date": "2026-10-16",
+          "key": "https://thequantuminsider.com/2026/10/16/quera-three-teams-doe-quantum-chemistry-program",
+          "report": "2026-10/2026-10-16-digest.md",
+          "score": 42,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QuEra Scientists Named Co-Principal Investigators on Three of Nine Teams in DOE\u2019s Quantum Chemistry Program",
+          "url": "https://thequantuminsider.com/2026/10/16/quera-three-teams-doe-quantum-chemistry-program"
+        },
+        {
+          "date": "2026-10-16",
+          "key": "https://thequantuminsider.com/2026/10/16/terra-quantum-quera-quantum-alliance",
+          "report": "2026-10/2026-10-16-digest.md",
+          "score": 42,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Terra Quantum Joins QuEra Quantum Alliance",
+          "url": "https://thequantuminsider.com/2026/10/16/terra-quantum-quera-quantum-alliance"
+        },
         {
           "date": "2026-09-22",
           "key": "https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc",
@@ -4506,20 +4375,175 @@
           "url": "https://www.quera.com/press-releases/scientists-observe-string-breaking-in-two-dimensional-quantum-simulator"
         }
       ],
-      "evidence_count": 9,
+      "evidence_count": 11,
       "first_seen": "2025-06-04",
       "historical_evidence_count": 6,
-      "latest_seen": "2026-09-22",
-      "momentum": "stable",
+      "latest_seen": "2026-10-16",
+      "momentum": "rising",
       "name": "QuEra",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 2,
+      "status": "active",
       "themes": [
         "Quantum Hardware",
         "Quantum Software / Tooling",
         "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 11,
+      "evidence": [
+        {
+          "date": "2026-10-05",
+          "key": "https://quantumcomputingreport.com/quantinuum-and-the-university-of-western-australia-partner-to-advance-australias-hybrid-quantum-ai-hpc-ecosystem",
+          "report": "2026-10/2026-10-05-digest.md",
+          "score": 52,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum and The University of Western Australia Partner to Advance Australia\u2019s Hybrid Quantum-AI-HPC Ecosystem",
+          "url": "https://quantumcomputingreport.com/quantinuum-and-the-university-of-western-australia-partner-to-advance-australias-hybrid-quantum-ai-hpc-ecosystem"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://quantumzeitgeist.com/quops-quantum-benchmark-quantinuum-sandia-labs",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 50,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum and Sandia Labs launch QUOPS, a new quantum benchmark",
+          "url": "https://quantumzeitgeist.com/quops-quantum-benchmark-quantinuum-sandia-labs"
+        },
+        {
+          "date": "2026-09-14",
+          "key": "https://quantumnews.ai/hardware/evaluating-quantinuum-h2-s-trapped-ion-platform-in-2026",
+          "report": "2026-09/2026-09-14-digest.md",
+          "score": 38,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Evaluating Quantinuum H2's Trapped Ion Platform in 2026",
+          "url": "https://quantumnews.ai/hardware/evaluating-quantinuum-h2-s-trapped-ion-platform-in-2026"
+        },
+        {
+          "date": "2026-09-13",
+          "key": "https://quantumzeitgeist.com/helix-heterogenous-qec-codes-boost-efficiency",
+          "report": "2026-09/2026-09-13-digest.md",
+          "score": 95,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Heterogenous QEC codes boost efficiency in Quantinuum\u2019s Helix architecture",
+          "url": "https://quantumzeitgeist.com/helix-heterogenous-qec-codes-boost-efficiency"
+        },
+        {
+          "date": "2026-09-09",
+          "key": "https://quantumcomputingreport.com/quantinuum-finalizes-100-million-chips-act-rd-award-to-accelerate-trapped-ion-manufacturing",
+          "report": "2026-09/2026-09-09-digest.md",
+          "score": 92,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum Finalizes $100 Million CHIPS Act R&D Award to Accelerate Trapped-Ion Manufacturing",
+          "url": "https://quantumcomputingreport.com/quantinuum-finalizes-100-million-chips-act-rd-award-to-accelerate-trapped-ion-manufacturing"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://quantumcomputingreport.com/quantinuum-and-oracle-partner-to-bring-helios-quantum-computer-to-oracle-cloud-infrastructure",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 47,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum and Oracle Partner to Bring Helios Quantum Computer to Oracle Cloud Infrastructure",
+          "url": "https://quantumcomputingreport.com/quantinuum-and-oracle-partner-to-bring-helios-quantum-computer-to-oracle-cloud-infrastructure"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://thequantuminsider.com/2026/08/12/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 40,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum and Oracle Partner to Accelerate Hybrid Quantum Compute Adoption on Oracle Cloud Infrastructure",
+          "url": "https://thequantuminsider.com/2026/08/12/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 36,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum & Partners Run 98-Qubit Quantum Fourier Transform",
+          "url": "https://quantumzeitgeist.com/quantinuum-partnership-run-98-qubit-qft"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 60,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
+          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
+        },
+        {
+          "date": "2026-07-20",
+          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
+          "report": "2026-07/2026-07-20-digest.md",
+          "score": 14,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
+          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
+        },
+        {
+          "date": "2026-06-22",
+          "key": "https://quantumzeitgeist.com/quantinuum-qnt",
+          "report": "2026-06/2026-06-22-digest.md",
+          "score": 45,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantinuum (QNT): A Commercial History",
+          "url": "https://quantumzeitgeist.com/quantinuum-qnt"
+        }
+      ],
+      "evidence_count": 11,
+      "first_seen": "2026-06-22",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-10-05",
+      "momentum": "declining",
+      "name": "Quantinuum",
+      "prior_count": 1,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "PQC / Crypto Agility",
+        "QEC / Fault Tolerance",
+        "Quantum Hardware"
       ],
       "type": "company"
     },
@@ -5517,9 +5541,9 @@
       "first_seen": "2026-06-25",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-02",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "ISO/IEC",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -7301,7 +7325,7 @@
       "prior_count": 0,
       "priority": "medium",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -8082,7 +8106,7 @@
       "latest_seen": "2026-10-07",
       "momentum": "declining",
       "name": "Crypto-agility",
-      "prior_count": 4,
+      "prior_count": 3,
       "priority": "critical",
       "recent_count": 0,
       "status": "quiet",
@@ -9001,7 +9025,7 @@
       "prior_count": 2,
       "priority": "critical",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -9691,7 +9715,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -10029,6 +10053,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-10-16T02:44:40.197591+00:00",
+  "updated_at": "2026-10-17T02:32:55.753050+00:00",
   "version": 2
 }

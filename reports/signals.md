@@ -4,18 +4,18 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-16 02:44 UTC_
+_Updated 2026-10-17 02:32 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | QEC / Fault Tolerance | ↗️ rising (8 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-10-15 | 85 |
-| Quantum Hardware | ↗️ rising (11 vs 7) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-14 | 325 |
 | Quantum Sensing | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-15 | 53 |
 | Quantum Software / Tooling | ↗️ rising (6 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-15 | 104 |
 | AI Security | ↘️ declining (1 vs 2) | 🔴 critical | high | 👁️ watching | 2026-07-01 | 2026-10-13 | 24 |
-| PQC / Crypto Agility | ➡️ stable (22 vs 23) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-15 | 294 |
+| PQC / Crypto Agility | ➡️ stable (23 vs 22) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-16 | 296 |
+| Quantum Hardware | ➡️ stable (10 vs 8) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-16 | 328 |
 | Quantum Networking | ➡️ stable (6 vs 8) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-14 | 150 |
 | Standards / Government | ➡️ stable (10 vs 9) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-10-08 | 76 |
 
@@ -29,17 +29,6 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-10-15 — [Rare Event Simulation of Quantum Error-Correcting Circuits](https://quantum-journal.org/papers/q-2026-10-15-2237) (Quantum Journal, score 86)
   - 2026-10-15 — [Riverlane and NVIDIA Use AI to Speed Up Quantum Decoder Calibration](https://thequantuminsider.com/2026/10/15/riverlane-nvidia-ai-quantum-decoder-calibration) (The Quantum Insider, score 69)
   - 2026-10-14 — [Riverlane and NVIDIA Demonstrate Accelerated QEC Decoder Calibration Using GPU Processing](https://quantumcomputingreport.com/riverlane-and-nvidia-demonstrate-accelerated-qec-decoder-calibration-using-gpu-processing) (Quantum Computing Report, score 73)
-
-## Quantum Hardware
-
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
-- Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
-- Recent supporting evidence:
-  - 2026-10-14 — [MODELING OF III-NITRIDE DEVICES FOR DEVICE-CIRCUIT CO-OPTIMIZATION UNDER CRYOGENIC ENVIRONMENTS -MODELING OF III-NITRIDE DEVICES FOR DEVICE-CIRCUIT CO-OPTIMIZATION UNDER CRYOGENIC...](https://www.usaspending.gov/award/ASST_NON_2537290_049) (USAspending · Advanced Computing, score 100)
-  - 2026-10-14 — [TAIYI Quantum Surpasses RMB 1 Billion in Funding to Advance Fault-Tolerant Neutral-Atom Quantum Computing](https://thequantuminsider.com/2026/10/14/taiyi-quantum-surpasses-rmb-1-billion-in-funding-to-advance-fault-tolerant-neutral-atom-quantum-computing) (The Quantum Insider, score 86)
-  - 2026-10-13 — [Swinburne and IQM Partner on Quantum Research and Workforce Development](https://thequantuminsider.com/2026/10/13/swinburne-iqm-advance-quantum-ecosystem-australia) (The Quantum Insider, score 24)
-  - 2026-10-13 — [Quantum Walks on Arbitrary Spatial Networks with Rydberg Atoms](https://quantum-journal.org/papers/q-2026-10-13-2235) (Quantum Journal, score 22)
-  - 2026-10-12 — [Quantum Meet Quantum: Hybrid Quantum Computer Lets Scientists Peak in on Foundational Quantum Effect](https://thequantuminsider.com/2026/10/12/quantum-meet-quantum-hybrid-quantum-computer-lets-scientists-peak-in-on-foundational-quantum-effect) (The Quantum Insider, score 17)
 
 ## Quantum Sensing
 
@@ -79,11 +68,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-10-16 — [Germany Publishes National Post-Quantum Cryptography Migration Guideline](https://thequantuminsider.com/2026/10/16/transition-post-quantum-cryptography-national-eu-roadmap-guideline) (The Quantum Insider, score 55)
+  - 2026-10-16 — [In ‘Quantum 101’ Session, WTO Trade Officials Hear Quantum Encryption Window May Close Within Five Years](https://thequantuminsider.com/2026/10/16/in-quantum-101-session-wto-trade-officials-hear-quantum-encryption-window-may-close-within-five-years) (The Quantum Insider, score 33)
   - 2026-10-15 — [Using TLS to protect data](https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data) (NCSC UK Guidance, score 100)
   - 2026-10-15 — [Terra Quantum Publishes White Paper Detailing Post-Quantum Cryptography Migration Paths for Blockchain Ecosystems](https://quantumcomputingreport.com/terra-quantum-publishes-white-paper-detailing-post-quantum-cryptography-migration-paths-for-blockchain-ecosystems) (Quantum Computing Report, score 75)
   - 2026-10-15 — [SecAgg++: A Post-Quantum Privacy Preserving Federated Learning Protocol](https://eprint.iacr.org/2026/2497) (IACR ePrint, score 74)
-  - 2026-10-15 — [Germany Issues Joint Federal PQC Migration Guidelines to Align with EU Post-Quantum Roadmap](https://quantumcomputingreport.com/germany-issues-joint-federal-pqc-migration-guidelines-to-align-with-eu-post-quantum-roadmap) (Quantum Computing Report, score 71)
-  - 2026-10-15 — [SEALSQ to Showcase Post-Quantum Security Products at electronica 2026](https://thequantuminsider.com/2026/10/15/sealsq-post-quantum-security-products-electronica-2026) (The Quantum Insider, score 62)
+
+## Quantum Hardware
+
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
+- Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
+- Recent supporting evidence:
+  - 2026-10-16 — [QuEra Scientists Named Co-Principal Investigators on Three of Nine Teams in DOE’s Quantum Chemistry Program](https://thequantuminsider.com/2026/10/16/quera-three-teams-doe-quantum-chemistry-program) (The Quantum Insider, score 42)
+  - 2026-10-16 — [Terra Quantum Joins QuEra Quantum Alliance](https://thequantuminsider.com/2026/10/16/terra-quantum-quera-quantum-alliance) (The Quantum Insider, score 42)
+  - 2026-10-16 — [Anderon Releases First Superconducting Quantum PDK](https://thequantuminsider.com/2026/10/16/anderon-superconducting-quantum-pdk) (The Quantum Insider, score 28)
+  - 2026-10-14 — [MODELING OF III-NITRIDE DEVICES FOR DEVICE-CIRCUIT CO-OPTIMIZATION UNDER CRYOGENIC ENVIRONMENTS -MODELING OF III-NITRIDE DEVICES FOR DEVICE-CIRCUIT CO-OPTIMIZATION UNDER CRYOGENIC...](https://www.usaspending.gov/award/ASST_NON_2537290_049) (USAspending · Advanced Computing, score 100)
+  - 2026-10-14 — [TAIYI Quantum Surpasses RMB 1 Billion in Funding to Advance Fault-Tolerant Neutral-Atom Quantum Computing](https://thequantuminsider.com/2026/10/14/taiyi-quantum-surpasses-rmb-1-billion-in-funding-to-advance-fault-tolerant-neutral-atom-quantum-computing) (The Quantum Insider, score 86)
 
 ## Quantum Networking
 

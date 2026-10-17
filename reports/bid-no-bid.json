@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 62,
+      "days_to_close": 61,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -192,7 +192,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 3,
+      "days_to_close": 2,
       "deadline": "10/19/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -201,7 +201,7 @@
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
         "previous_gate": "qualify",
-        "previous_score": 71,
+        "previous_score": 64,
         "status": "current"
       },
       "decision_score": 64,
@@ -232,7 +232,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 3 day(s)"
+              "Compressed response window: 2 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -248,7 +248,7 @@
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363869"
         ],
-        "trace_hash": "0de72bf7b745406c"
+        "trace_hash": "5978389a048682bd"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -273,7 +273,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 3 day(s) remaining",
+        "Compressed response window: 2 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -298,7 +298,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 88,
+      "days_to_close": 87,
       "deadline": "01/12/2027",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -403,6 +403,6 @@
     "qualify": 2,
     "targeted_review": 1
   },
-  "updated_at": "2026-10-16T02:37:08.215323+00:00",
+  "updated_at": "2026-10-17T02:29:35.520951+00:00",
   "version": 1
 }
