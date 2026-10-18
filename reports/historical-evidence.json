@@ -1,9 +1,105 @@
 {
   "alert_eligible": false,
   "dated_count": 77,
-  "historical_count": 104,
-  "item_count": 104,
+  "historical_count": 92,
+  "item_count": 92,
   "items": [
+    {
+      "alert_eligible": false,
+      "category": "PQC",
+      "date": "2026-10-15",
+      "date_confidence": "high",
+      "date_kind": "published",
+      "date_source": "rss_feed_timestamp:watch",
+      "entities": [
+        "Cisco"
+      ],
+      "historical": true,
+      "key": "https://blogs.cisco.com/gov/the-quantum-security-transition-a-policy-agenda-for-post-quantum-readiness-in-asia-pacific",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-10-15T22:00:20+00:00",
+      "score": 50,
+      "source": "Cisco Quantum-Safe Updates",
+      "source_type": "watch",
+      "summary": "Governments should treat quantum risk as a national resilience challenge, integrating post-quantum cryptography into cybersecurity strategies and procurement to protect critical infrastructure and ensure long-term digital trust.",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "title": "The Quantum Security Transition: A Policy Agenda for Post-Quantum Readiness in Asia Pacific",
+      "url": "https://blogs.cisco.com/gov/the-quantum-security-transition-a-policy-agenda-for-post-quantum-readiness-in-asia-pacific"
+    },
+    {
+      "alert_eligible": false,
+      "category": "Quantum Hardware",
+      "date": "2026-10-15",
+      "date_confidence": "high",
+      "date_kind": "unknown",
+      "date_source": "explicit_metadata:inner_details-text",
+      "entities": [
+        "QuEra"
+      ],
+      "historical": true,
+      "key": "https://www.quera.com/press-releases/terra-quantum-joins-the-quera-quantum-alliance-adding-software-and-algorithms-expertise",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "score": 37,
+      "source": "QuEra Press Releases",
+      "source_type": "watch",
+      "summary": "Terra Quantum, a global leader in the development of quantum technologies and their industrial application, the leader in neutral-atom quantum computing, today\u2026",
+      "themes": [
+        "Quantum Hardware"
+      ],
+      "title": "Press Releases October 15, 2026 Terra Quantum Joins the QuEra Quantum Alliance, Adding Software and Algorithms Expertise",
+      "url": "https://www.quera.com/press-releases/terra-quantum-joins-the-quera-quantum-alliance-adding-software-and-algorithms-expertise"
+    },
+    {
+      "alert_eligible": false,
+      "category": "Crypto Agility",
+      "date": "2026-10-14",
+      "date_confidence": "high",
+      "date_kind": "published",
+      "date_source": "rss_feed_timestamp:watch",
+      "entities": [
+        "Cisco"
+      ],
+      "historical": true,
+      "key": "https://blogs.cisco.com/security/last-mile-of-trust-post-quantum-cryptography-open-source",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-10-14T15:00:40+00:00",
+      "score": 42,
+      "source": "Cisco Quantum-Safe Updates",
+      "source_type": "watch",
+      "summary": "Cryptography rarely fails at the math - it fails at deployment. Why post-quantum migration and AI-scale risk make open-source stewardship a core control.",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "title": "Cryptography Rarely Fails Because of the Math",
+      "url": "https://blogs.cisco.com/security/last-mile-of-trust-post-quantum-cryptography-open-source"
+    },
+    {
+      "alert_eligible": false,
+      "category": "PQC",
+      "date": "2026-10-13",
+      "date_confidence": "high",
+      "date_kind": "published",
+      "date_source": "json_ld:datePublished",
+      "entities": [
+        "Keyfactor"
+      ],
+      "historical": true,
+      "key": "https://www.keyfactor.com/news/keyfactor-wins-award-for-post-quantum-cryptography-solutions",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-10-13T03:12:35+00:00",
+      "score": 62,
+      "source": "Keyfactor Quantum and Crypto-Agility",
+      "source_type": "watch",
+      "summary": "Keyfactor has been recognized as PQC Solution Provider of the Year in the 2026 CyberSecurity Breakthrough Awards",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "title": "Keyfactor wins award for post-quantum cryptography solutions",
+      "url": "https://www.keyfactor.com/news/keyfactor-wins-award-for-post-quantum-cryptography-solutions/"
+    },
     {
       "alert_eligible": false,
       "category": "Standards / Policy",
@@ -16,7 +112,7 @@
       ],
       "historical": true,
       "key": "https://www.war.gov/News/Releases/Release/Article/4622109/department-of-war-announces-350-million-in-quantum-computing-initiatives",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-10-08T14:44:00+00:00",
       "score": 100,
       "source": "Department of War Strategic Technology Releases",
@@ -40,7 +136,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/how-to-prepare-for-post-quantum-cryptography-pqc",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-10-08T00:00:00+00:00",
       "score": 62,
       "source": "Fortanix Quantum Security",
@@ -54,6 +150,30 @@
     },
     {
       "alert_eligible": false,
+      "category": "PQC",
+      "date": "2026-10-08",
+      "date_confidence": "high",
+      "date_kind": "published",
+      "date_source": "json_ld:datePublished",
+      "entities": [
+        "Keyfactor"
+      ],
+      "historical": true,
+      "key": "https://www.keyfactor.com/news/growing-pqc-at-the-edge-belies-deeper-quantum-readiness-challenges",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-10-08T17:06:40+00:00",
+      "score": 30,
+      "source": "Keyfactor Quantum and Crypto-Agility",
+      "source_type": "watch",
+      "summary": "Chris Hickman, CSO at digital trust infrastructure vendor Keyfactor, says that F5\u2019s figures fail to reflect the full scope of PQC preparations.",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "title": "Growing PQC at the edge belies deeper quantum-readiness challenges",
+      "url": "https://www.keyfactor.com/news/growing-pqc-at-the-edge-belies-deeper-quantum-readiness-challenges/"
+    },
+    {
+      "alert_eligible": false,
       "category": "Crypto Agility",
       "date": "2026-10-05",
       "date_confidence": "high",
@@ -64,7 +184,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/post-quantum-cryptography-pqc-readiness-guide",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-10-05T00:00:00+00:00",
       "score": 139,
       "source": "Fortanix Quantum Security",
@@ -88,7 +208,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/what-is-a-cryptographic-inventory",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-09-30T00:00:00+00:00",
       "score": 43,
       "source": "Fortanix Quantum Security",
@@ -112,7 +232,7 @@
       ],
       "historical": true,
       "key": "https://www.boozallen.com/insights/fast-tracking-results/advancing-quantum-technology.html",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-09-29T00:00:00+00:00",
       "score": 100,
       "source": "Booz Allen Quantum and PQC",
@@ -126,27 +246,27 @@
     },
     {
       "alert_eligible": false,
-      "category": "PQC",
-      "date": "2026-09-28",
+      "category": "Quantum Hardware",
+      "date": "2026-09-22",
       "date_confidence": "high",
-      "date_kind": "published",
-      "date_source": "explicit_metadata:article:published_time",
+      "date_kind": "unknown",
+      "date_source": "explicit_metadata:inner_details-text",
       "entities": [
-        "Cisco"
+        "QuEra"
       ],
       "historical": true,
-      "key": "https://blogs.cisco.com/developer/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2026-09-28T17:47:07+00:00",
-      "score": 158,
-      "source": "Cisco Quantum-Safe Updates",
+      "key": "https://www.quera.com/press-releases/quera-computing-collaborates-with-hpe-to-bring-fault-tolerant-quantum-computing-to-on-premises-hpc-environments",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-09-22T00:00:00+00:00",
+      "score": 89,
+      "source": "QuEra Press Releases",
       "source_type": "watch",
-      "summary": "No more CLI typing. This is where years of DevNet programmability skills land on a real world scenario: Ansible over NETCONF, one file for the posture, and proof the IPsec tunnels actually negotiated ML-KEM and ML-DSA. No more CLI typing. This is where years of DevNet programmability skills land on a real world scenario: Ansible over NETCONF, one file for the posture, and proof the IPsec tunnels actually negotiated ML-KEM and ML-DSA.",
+      "summary": "QuEra and HPE will integrate neutral-atom fault-tolerant quantum computers with HPE Cray supercomputers for on-premises HPC sites.",
       "themes": [
-        "PQC / Crypto Agility"
+        "Quantum Hardware"
       ],
-      "title": "Automating Post-Quantum IPsec on Cisco Routers - IPsec Series, Part 12",
-      "url": "https://blogs.cisco.com/developer/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12"
+      "title": "QuEra and HPE Bring Fault-Tolerant Quantum to On-Prem HPC",
+      "url": "https://www.quera.com/press-releases/quera-computing-collaborates-with-hpe-to-bring-fault-tolerant-quantum-computing-to-on-premises-hpc-environments"
     },
     {
       "alert_eligible": false,
@@ -160,7 +280,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/qusecure-gartner-cool-vendor-data-security",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-09-22T05:00:00+00:00",
       "score": 50,
       "source": "QuSecure Press Releases",
@@ -174,8 +294,8 @@
     },
     {
       "alert_eligible": false,
-      "category": "Crypto Agility",
-      "date": "2026-09-08",
+      "category": "PQC",
+      "date": "2026-09-22",
       "date_confidence": "high",
       "date_kind": "published",
       "date_source": "json_ld:datePublished",
@@ -183,18 +303,42 @@
         "Keyfactor"
       ],
       "historical": true,
-      "key": "https://www.keyfactor.com/post-quantum-resilience-for-financial-services",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2026-09-08T21:25:37+00:00",
-      "score": 64,
+      "key": "https://www.keyfactor.com/resource-center/post-quantum-cryptography-us-mandate",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-09-22T20:54:00+00:00",
+      "score": 50,
       "source": "Keyfactor Quantum and Crypto-Agility",
       "source_type": "watch",
-      "summary": "Find out how the Keyfactor platform can modernize your PKI, Prevent certificate outages, accelerate DevOps security, and more.",
+      "summary": "\u00a9 2026 Keyfactor, Inc. All Rights Reserved | www.keyfactor.com",
       "themes": [
         "PQC / Crypto Agility"
       ],
-      "title": "Post-Quantum Resilience for Financial Services",
-      "url": "https://www.keyfactor.com/post-quantum-resilience-for-financial-services/"
+      "title": "Post-Quantum Cryptography Gets a US Mandate",
+      "url": "https://www.keyfactor.com/resource-center/post-quantum-cryptography-us-mandate/"
+    },
+    {
+      "alert_eligible": false,
+      "category": "Crypto Agility",
+      "date": "2026-09-10",
+      "date_confidence": "high",
+      "date_kind": "published",
+      "date_source": "json_ld:datePublished",
+      "entities": [
+        "Keyfactor"
+      ],
+      "historical": true,
+      "key": "https://www.keyfactor.com/news/keyfactor-surpasses-200-million-arr-amid-enterprise-post-quantum-migration-surge",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-09-10T03:20:17+00:00",
+      "score": 62,
+      "source": "Keyfactor Quantum and Crypto-Agility",
+      "source_type": "watch",
+      "summary": "The milestone highlights accelerating commercial demand for enterprise trust infrastructure for the transition to post-quantum cryptography (PQC).",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "title": "Keyfactor Surpasses $200 Million ARR Amid Enterprise Post-Quantum Migration Surge",
+      "url": "https://www.keyfactor.com/news/keyfactor-surpasses-200-million-arr-amid-enterprise-post-quantum-migration-surge/"
     },
     {
       "alert_eligible": false,
@@ -208,7 +352,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/qusecure-army-project-convergence-capstone-6-trl-7",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-09-02T05:00:00+00:00",
       "score": 118,
       "source": "QuSecure Press Releases",
@@ -222,30 +366,6 @@
     },
     {
       "alert_eligible": false,
-      "category": "PQC",
-      "date": "2026-09-01",
-      "date_confidence": "high",
-      "date_kind": "published",
-      "date_source": "explicit_metadata:article:published_time",
-      "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/developer/post-quantum-key-exchange-on-cisco-routers-ipsec-series-part-9",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2026-09-01T20:49:30+00:00",
-      "score": 106,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "Three Cisco 8000 routers on IOS XE 26.2. We walk the key exchange from classical to PPK to native ML-KEM-768 hybrid, then prove a phased rollout across hub and spokes works with zero outage. Three Cisco 8000 routers on IOS XE 26.2. We walk the key exchange from classical to PPK to native ML-KEM-768 hybrid, then prove a phased rollout across hub and spokes works with zero outage.",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Post-Quantum Key Exchange on Cisco Routers - IPsec Series, Part 9",
-      "url": "https://blogs.cisco.com/developer/post-quantum-key-exchange-on-cisco-routers-ipsec-series-part-9"
-    },
-    {
-      "alert_eligible": false,
       "category": "Crypto Agility",
       "date": "2026-08-30",
       "date_confidence": "high",
@@ -256,7 +376,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/omb-m-23-02-federal-cryptographic-inventory",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-08-30T11:00:00+00:00",
       "score": 43,
       "source": "QuSecure Press Releases",
@@ -280,7 +400,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/pci-dss-4-0-cryptographic-inventory",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-08-30T09:00:00+00:00",
       "score": 39,
       "source": "QuSecure Press Releases",
@@ -304,7 +424,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/oil-gas-critical-infrastructure-post-quantum-case-study",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-08-28T09:00:00+00:00",
       "score": 50,
       "source": "QuSecure Press Releases",
@@ -328,7 +448,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/wef-quantum-technologies-ict-leaders",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-08-27T09:00:00+00:00",
       "score": 30,
       "source": "QuSecure Press Releases",
@@ -346,37 +466,13 @@
       "date": "2026-08-24",
       "date_confidence": "high",
       "date_kind": "published",
-      "date_source": "explicit_metadata:article:published_time",
-      "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/developer/mutual-post-quantum-auth-over-ikev2-ipsec-series-part-8",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2026-08-24T19:43:10+00:00",
-      "score": 158,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "We mutually authenticate an IKEv2 tunnel: classical ECDSA first, then ML-DSA over an ML-KEM key exchange, and watch the ML-DSA certs balloon the authentication message into six fragments on the wire. We mutually authenticate an IKEv2 tunnel: classical ECDSA first, then ML-DSA over an ML-KEM key exchange, and watch the ML-DSA certs balloon the authentication message into six fragments on the wire.",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Mutual Post-Quantum Auth over IKEv2 - IPsec Series, Part 8",
-      "url": "https://blogs.cisco.com/developer/mutual-post-quantum-auth-over-ikev2-ipsec-series-part-8"
-    },
-    {
-      "alert_eligible": false,
-      "category": "PQC",
-      "date": "2026-08-24",
-      "date_confidence": "high",
-      "date_kind": "published",
       "date_source": "json_ld:datePublished",
       "entities": [
         "Fortanix"
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/is-post-quantum-encryption-widely-adopted-yet",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-08-24T00:00:00+00:00",
       "score": 62,
       "source": "Fortanix Quantum Security",
@@ -400,7 +496,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/iqt-quantum-dragon-podcast-post-quantum-cryptography",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-08-19T11:35:06+00:00",
       "score": 42,
       "source": "QuSecure Press Releases",
@@ -424,7 +520,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/technewsworld-scalable-quantum-computing-ibm",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-08-19T20:49:55+00:00",
       "score": 14,
       "source": "QuSecure Press Releases",
@@ -448,7 +544,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/securityinfowatch-carahsoft-gsa-schedule-post-quantum-cryptography",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-08-17T11:12:44+00:00",
       "score": 42,
       "source": "QuSecure Press Releases",
@@ -463,6 +559,54 @@
     {
       "alert_eligible": false,
       "category": "PQC",
+      "date": "2026-08-14",
+      "date_confidence": "high",
+      "date_kind": "published",
+      "date_source": "json_ld:datePublished",
+      "entities": [
+        "Keyfactor"
+      ],
+      "historical": true,
+      "key": "https://www.keyfactor.com/news/nexus-podcast-ellen-boehm-on-post-quantum-readiness-in-critical-infrastructure",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-08-14T00:21:21+00:00",
+      "score": 62,
+      "source": "Keyfactor Quantum and Crypto-Agility",
+      "source_type": "watch",
+      "summary": "Keyfactor's Ellen Boehm joins the Nexus Podcast to discuss post-quantum cryptography (PQC) readiness in critical infrastructure organizations.",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "title": "Nexus Podcast: Ellen Boehm on Post-Quantum Readiness in Critical Infrastructure",
+      "url": "https://www.keyfactor.com/news/nexus-podcast-ellen-boehm-on-post-quantum-readiness-in-critical-infrastructure/"
+    },
+    {
+      "alert_eligible": false,
+      "category": "Crypto Agility",
+      "date": "2026-08-13",
+      "date_confidence": "high",
+      "date_kind": "published",
+      "date_source": "json_ld:datePublished",
+      "entities": [
+        "Keyfactor"
+      ],
+      "historical": true,
+      "key": "https://www.keyfactor.com/news/bringing-crypto-agility-and-pqc-visibility-to-the-network-with-nav",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-08-13T00:26:50+00:00",
+      "score": 57,
+      "source": "Keyfactor Quantum and Crypto-Agility",
+      "source_type": "watch",
+      "summary": "The solution: PQC-focused vendor solutions, such as Keyfactor, help address cryptographic discovery, asset inventories, cryptographic metadata, and (most importantly) crypto agility.",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "title": "Bringing Crypto Agility And PQC Visibility To The Network With NAV",
+      "url": "https://www.keyfactor.com/news/bringing-crypto-agility-and-pqc-visibility-to-the-network-with-nav/"
+    },
+    {
+      "alert_eligible": false,
+      "category": "PQC",
       "date": "2026-08-12",
       "date_confidence": "high",
       "date_kind": "published",
@@ -472,7 +616,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/qusecure-2026-inc-5000-fastest-growing-private-company",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-08-12T15:55:30+00:00",
       "score": 42,
       "source": "QuSecure Press Releases",
@@ -496,7 +640,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/post-quantum-cryptography-gsa-schedule",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-08-11T16:05:38+00:00",
       "score": 100,
       "source": "QuSecure Press Releases",
@@ -511,54 +655,6 @@
     {
       "alert_eligible": false,
       "category": "Crypto Agility",
-      "date": "2026-08-10",
-      "date_confidence": "high",
-      "date_kind": "published",
-      "date_source": "explicit_metadata:article:published_time",
-      "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2026-08-10T14:00:06+00:00",
-      "score": 194,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "Auth is the other pillar, with a sneakier quantum deadline: a live signature need only resist forgery until it's verified, but long-lived trust anchors and slow PKI migration mean roots must go quantum-safe early. We meet ML-DSA and SLH-DSA Authentication is the other pillar, with a sneakier quantum deadline: a live signature need only resist forgery until it's verified, but long-lived trust anchors and slow PKI migration mean roots must go quantum-safe early. We meet ML-DSA and SLH-DSA.",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Who Goes There? Post-Quantum Authentication - IPsec Series, Part 6",
-      "url": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6"
-    },
-    {
-      "alert_eligible": false,
-      "category": "PQC",
-      "date": "2026-08-03",
-      "date_confidence": "high",
-      "date_kind": "published",
-      "date_source": "explicit_metadata:article:published_time",
-      "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2026-08-03T15:44:13+00:00",
-      "score": 88,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "A second road to quantum safety: a Postquantum Preshared Key mixes an out-of-band secret into the IKE key schedule that never travels the wire, so even a classical handshake resists \"harvest now, decrypt later,\" on gear not supporting ML-KEM. A second road to quantum safety: a Postquantum Preshared Key mixes an out-of-band secret into the IKE key schedule that never travels the wire, so even a classical handshake resists \"harvest now, decrypt later,\" on gear not supporting ML-KEM.",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "A Different Road to Quantum Safety: The PPK - IPsec Series, Part 5",
-      "url": "https://blogs.cisco.com/developer/a-different-road-to-quantum-safety-the-ppk-ipsec-series-part-5"
-    },
-    {
-      "alert_eligible": false,
-      "category": "Crypto Agility",
       "date": "2026-08-03",
       "date_confidence": "high",
       "date_kind": "published",
@@ -568,7 +664,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/it-brief-gartner-crypto-agility-recognition",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-08-03T17:47:17+00:00",
       "score": 45,
       "source": "QuSecure Press Releases",
@@ -592,7 +688,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/qusecure-gartner-hype-cycle-crypto-agility",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-07-31T15:00:33+00:00",
       "score": 76,
       "source": "QuSecure Press Releases",
@@ -606,6 +702,30 @@
     },
     {
       "alert_eligible": false,
+      "category": "PQC",
+      "date": "2026-07-31",
+      "date_confidence": "high",
+      "date_kind": "published",
+      "date_source": "json_ld:datePublished",
+      "entities": [
+        "Keyfactor"
+      ],
+      "historical": true,
+      "key": "https://www.keyfactor.com/news/south-korea-certifies-hybrid-post-quantum-encryption-module-as-ai-breaks-hawk-algorithm-in-60-hours",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-07-31T01:21:16+00:00",
+      "score": 50,
+      "source": "Keyfactor Quantum and Crypto-Agility",
+      "source_type": "watch",
+      "summary": "Keyfactor's Ellen Boehm said the research underscores the need for organizations to understand exactly where cryptography lives in their infrastructure",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "title": "South Korea Certifies Hybrid Post-Quantum Encryption Module as AI Breaks HAWK Algorithm in 60 Hours",
+      "url": "https://www.keyfactor.com/news/south-korea-certifies-hybrid-post-quantum-encryption-module-as-ai-breaks-hawk-algorithm-in-60-hours/"
+    },
+    {
+      "alert_eligible": false,
       "category": "Crypto Agility",
       "date": "2026-07-31",
       "date_confidence": "high",
@@ -615,18 +735,18 @@
         "Keyfactor"
       ],
       "historical": true,
-      "key": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2026-07-31T15:34:53+00:00",
-      "score": 76,
+      "key": "https://www.keyfactor.com/news/key-organizations-developing-strategies-in-quantum-finance-risk-modeling-portfolio-optimization-cryptography-q-day",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-07-31T01:18:05+00:00",
+      "score": 40,
       "source": "Keyfactor Quantum and Crypto-Agility",
       "source_type": "watch",
-      "summary": "Join Keyfactor for our Compliance in Practice: Implementing Crypto-Agility at Scale Webinar.",
+      "summary": "Keyfactor deliver specialized hardware IP cores and certificate management tools. These solutions allow global telecom, defense, and automotive clients to build PQC-ready PKI test environments.",
       "themes": [
         "PQC / Crypto Agility"
       ],
-      "title": "Implementing Crypto-Agility at Scale",
-      "url": "https://www.keyfactor.com/events/implementing-crypto-agility-at-scale/"
+      "title": "Key Organizations Developing Strategies in Quantum Finance, Risk Modeling, Portfolio Optimization, Cryptography, Q-Day",
+      "url": "https://www.keyfactor.com/news/key-organizations-developing-strategies-in-quantum-finance-risk-modeling-portfolio-optimization-cryptography-q-day/"
     },
     {
       "alert_eligible": false,
@@ -640,7 +760,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/quantum-safe-encryption-with-hsm-preparing-for-the-future",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-07-30T00:00:00+00:00",
       "score": 103,
       "source": "Fortanix Quantum Security",
@@ -655,26 +775,50 @@
     {
       "alert_eligible": false,
       "category": "PQC",
-      "date": "2026-07-27",
+      "date": "2026-07-29",
       "date_confidence": "high",
       "date_kind": "published",
-      "date_source": "explicit_metadata:article:published_time",
+      "date_source": "json_ld:datePublished",
       "entities": [
-        "Cisco"
+        "Keyfactor"
       ],
       "historical": true,
-      "key": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2026-07-27T14:00:23+00:00",
-      "score": 130,
-      "source": "Cisco Quantum-Safe Updates",
+      "key": "https://www.keyfactor.com/news/keyfactor-boosts-partner-program-as-quantum-threat-looms",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-07-29T01:24:31+00:00",
+      "score": 42,
+      "source": "Keyfactor Quantum and Crypto-Agility",
       "source_type": "watch",
-      "summary": "We build a real hybrid IKEv2 tunnel in two Docker containers, capture the packets, and run classical versus hybrid side by side, seeing the extra round trip, ML-KEM fragmentation, and that going quantum-safe costs almost nothing. We build a real hybrid IKEv2 tunnel in two Docker containers, capture the packets, and run classical versus hybrid side by side, seeing the extra round trip, ML-KEM fragmentation, and that going quantum-safe costs almost nothing.",
+      "summary": "Keyfactor announced the expansion of its global partner program last week as part of its efforts to advance rapidly evolving security capabilities such as post-quantum cryptography,",
       "themes": [
         "PQC / Crypto Agility"
       ],
-      "title": "Watch a Hybrid Post-Quantum Handshake on the Wire - IPsec Series, Part 4",
-      "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
+      "title": "Keyfactor boosts partner program as quantum threat looms",
+      "url": "https://www.keyfactor.com/news/keyfactor-boosts-partner-program-as-quantum-threat-looms/"
+    },
+    {
+      "alert_eligible": false,
+      "category": "PQC",
+      "date": "2026-07-28",
+      "date_confidence": "high",
+      "date_kind": "published",
+      "date_source": "json_ld:datePublished",
+      "entities": [
+        "Keyfactor"
+      ],
+      "historical": true,
+      "key": "https://www.keyfactor.com/news/keyfactor-expands-partner-program-for-machine-identity-and-post-quantum-services",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-07-28T01:44:09+00:00",
+      "score": 50,
+      "source": "Keyfactor Quantum and Crypto-Agility",
+      "source_type": "watch",
+      "summary": "Keyfactor expands partner program for machine identity and post-quantum services",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "title": "Keyfactor expands partner program for machine identity and post-quantum services",
+      "url": "https://www.keyfactor.com/news/keyfactor-expands-partner-program-for-machine-identity-and-post-quantum-services/"
     },
     {
       "alert_eligible": false,
@@ -688,7 +832,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/quantum-zeitgeist-post-quantum-cryptography-platform",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-07-25T16:37:52+00:00",
       "score": 50,
       "source": "QuSecure Press Releases",
@@ -712,7 +856,7 @@
       ],
       "historical": true,
       "key": "https://www.psiquantum.com/news-import/psiquantum-signs-125-million-agreement-with-darpa",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-07-22T13:00:39+00:00",
       "score": 100,
       "source": "PsiQuantum News",
@@ -726,30 +870,6 @@
     },
     {
       "alert_eligible": false,
-      "category": "PQC",
-      "date": "2026-07-22",
-      "date_confidence": "high",
-      "date_kind": "published",
-      "date_source": "json_ld:datePublished",
-      "entities": [
-        "Keyfactor"
-      ],
-      "historical": true,
-      "key": "https://www.keyfactor.com/press-releases/keyfactor-expands-global-partner-ecosystem-to-help-partners-lead-the-ai-and-post-quantum-era",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2026-07-22T13:00:39+00:00",
-      "score": 50,
-      "source": "Keyfactor Quantum and Crypto-Agility",
-      "source_type": "watch",
-      "summary": "Keyfactor's major expansion of its Global Partner Program is designed to help partners capitalize on one of the largest security transformations in decades.",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Keyfactor Expands Global Partner Ecosystem to Help Partners Lead the AI and Post-Quantum Era",
-      "url": "https://www.keyfactor.com/press-releases/keyfactor-expands-global-partner-ecosystem-to-help-partners-lead-the-ai-and-post-quantum-era/"
-    },
-    {
-      "alert_eligible": false,
       "category": "Standards / Policy",
       "date": "2026-07-15",
       "date_confidence": "high",
@@ -760,7 +880,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/quantum-insider-aws-icmp-quprotect-r3",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-07-15T18:17:26+00:00",
       "score": 16,
       "source": "QuSecure Press Releases",
@@ -784,7 +904,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/quprotect-r3-aws-icmp-us-federal-government",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-07-14T12:00:33+00:00",
       "score": 100,
       "source": "QuSecure Press Releases",
@@ -808,7 +928,7 @@
       ],
       "historical": true,
       "key": "https://www.qusecure.com/quantum-computing-report-aws-icmp-quprotect-r3",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-07-14T17:51:43+00:00",
       "score": 50,
       "source": "QuSecure Press Releases",
@@ -823,54 +943,6 @@
     {
       "alert_eligible": false,
       "category": "PQC",
-      "date": "2026-07-13",
-      "date_confidence": "high",
-      "date_kind": "published",
-      "date_source": "json_ld:datePublished",
-      "entities": [
-        "Keyfactor"
-      ],
-      "historical": true,
-      "key": "https://www.keyfactor.com/events/preparing-for-the-uks-quantum-safe-future",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2026-07-13T10:56:17+00:00",
-      "score": 50,
-      "source": "Keyfactor Quantum and Crypto-Agility",
-      "source_type": "watch",
-      "summary": "D\u00e9couvrez les prochains webinaires de Keyfactor et restez inform\u00e9 des derni\u00e8res avanc\u00e9es en mati\u00e8re de s\u00e9curit\u00e9 num\u00e9rique.",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Preparing for the UK's Quantum-Safe Future",
-      "url": "https://www.keyfactor.com/events/preparing-for-the-uks-quantum-safe-future/"
-    },
-    {
-      "alert_eligible": false,
-      "category": "PQC",
-      "date": "2026-07-06",
-      "date_confidence": "high",
-      "date_kind": "published",
-      "date_source": "json_ld:datePublished",
-      "entities": [
-        "Keyfactor"
-      ],
-      "historical": true,
-      "key": "https://www.keyfactor.com/press-releases/keyfactor-announces-1b-strategic-growth-investment-led-by-summit-partners-to-expand-leadership-in-securing-the-ai-and-post-quantum-enterprise",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2026-07-06T11:00:28+00:00",
-      "score": 50,
-      "source": "Keyfactor Quantum and Crypto-Agility",
-      "source_type": "watch",
-      "summary": "Keyfactor announced a $1 billion+ strategic growth investment from Summit Partners.",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Keyfactor Announces $1B+ Strategic Growth Investment Led By Summit Partners to Expand Leadership in Securing the AI and Post-Quantum Enterprise",
-      "url": "https://www.keyfactor.com/press-releases/keyfactor-announces-1b-strategic-growth-investment-led-by-summit-partners-to-expand-leadership-in-securing-the-ai-and-post-quantum-enterprise/"
-    },
-    {
-      "alert_eligible": false,
-      "category": "PQC",
       "date": "2026-07-02",
       "date_confidence": "high",
       "date_kind": "published",
@@ -880,7 +952,7 @@
       ],
       "historical": true,
       "key": "https://www.wiz.io/blog/white-house-post-quantum-cryptography-executive-order",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-07-02T01:48:01+00:00",
       "score": 100,
       "source": "Wiz Post-Quantum Security",
@@ -928,7 +1000,7 @@
       ],
       "historical": true,
       "key": "https://www.wiz.io/blog/state-of-post-quantum-cryptography",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-05-28T13:34:55+00:00",
       "score": 44,
       "source": "Wiz Post-Quantum Security",
@@ -952,7 +1024,7 @@
       ],
       "historical": true,
       "key": "https://www.psiquantum.com/news-import/us-department-of-commerce",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-05-21T10:42:56+00:00",
       "score": 16,
       "source": "PsiQuantum News",
@@ -966,6 +1038,30 @@
     },
     {
       "alert_eligible": false,
+      "category": "PQC",
+      "date": "2026-04-22",
+      "date_confidence": "high",
+      "date_kind": "published",
+      "date_source": "json_ld:datePublished",
+      "entities": [
+        "Keyfactor"
+      ],
+      "historical": true,
+      "key": "https://www.keyfactor.com/resource-center/report-post-quantum-risk",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-04-22T16:10:06+00:00",
+      "score": 50,
+      "source": "Keyfactor Quantum and Crypto-Agility",
+      "source_type": "watch",
+      "summary": "Prepared by",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "title": "Special Board Report: Post-Quantum Risk and Business Resilience",
+      "url": "https://www.keyfactor.com/resource-center/report-post-quantum-risk/"
+    },
+    {
+      "alert_eligible": false,
       "category": "Standards / Policy",
       "date": "2026-04-16",
       "date_confidence": "high",
@@ -976,7 +1072,7 @@
       ],
       "historical": true,
       "key": "https://www.psiquantum.com/news-import/utokyo-mitsubishi-partnership",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-04-16T01:00:15+00:00",
       "score": 100,
       "source": "PsiQuantum News",
@@ -991,6 +1087,30 @@
     {
       "alert_eligible": false,
       "category": "Quantum Software / Tooling",
+      "date": "2026-04-02",
+      "date_confidence": "high",
+      "date_kind": "unknown",
+      "date_source": "explicit_metadata:inner_details-text",
+      "entities": [
+        "QuEra"
+      ],
+      "historical": true,
+      "key": "https://www.quera.com/press-releases/quera-launches-open-source-package-to-simulate-logical-quantum-circuits-at-scale",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2026-04-02T00:00:00+00:00",
+      "score": 44,
+      "source": "QuEra Press Releases",
+      "source_type": "watch",
+      "summary": "QuEra open-sources Tsim, a GPU-accelerated, STIM-compatible simulator for non-Clifford circuits with 80+ qubits for QEC researchers.",
+      "themes": [
+        "Quantum Software / Tooling"
+      ],
+      "title": "QuEra Launches Tsim, Open-Source Logical Circuit Simulator",
+      "url": "https://www.quera.com/press-releases/quera-launches-open-source-package-to-simulate-logical-quantum-circuits-at-scale"
+    },
+    {
+      "alert_eligible": false,
+      "category": "Quantum Software / Tooling",
       "date": "2026-03-16",
       "date_confidence": "high",
       "date_kind": "published",
@@ -1000,7 +1120,7 @@
       ],
       "historical": true,
       "key": "https://www.psiquantum.com/news-import/construct-nvidia-cudaq",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-03-16T20:30:34+00:00",
       "score": 56,
       "source": "PsiQuantum News",
@@ -1014,30 +1134,6 @@
     },
     {
       "alert_eligible": false,
-      "category": "PQC",
-      "date": "2026-03-12",
-      "date_confidence": "high",
-      "date_kind": "published",
-      "date_source": "json_ld:datePublished",
-      "entities": [
-        "Keyfactor"
-      ],
-      "historical": true,
-      "key": "https://www.keyfactor.com/events/post-quantum-mtls-1-3-on-embedded-linux",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2026-03-12T11:41:45+00:00",
-      "score": 50,
-      "source": "Keyfactor Quantum and Crypto-Agility",
-      "source_type": "watch",
-      "summary": "Learn about Keyfactor's upcoming webinars and stay informed the latest developments in digital security.",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Post-Quantum mTLS 1.3 On Embedded Linux",
-      "url": "https://www.keyfactor.com/events/post-quantum-mtls-1-3-on-embedded-linux/"
-    },
-    {
-      "alert_eligible": false,
       "category": "Crypto Agility",
       "date": "2026-02-04",
       "date_confidence": "high",
@@ -1048,7 +1144,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/guide-to-mastering-data-security-in-post-quantum-world",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-02-04T00:00:00+00:00",
       "score": 112,
       "source": "Fortanix Quantum Security",
@@ -1063,30 +1159,6 @@
     {
       "alert_eligible": false,
       "category": "PQC",
-      "date": "2026-01-22",
-      "date_confidence": "high",
-      "date_kind": "published",
-      "date_source": "json_ld:datePublished",
-      "entities": [
-        "Keyfactor"
-      ],
-      "historical": true,
-      "key": "https://www.keyfactor.com/events/turning-post-quantum-plans-into-real-progress",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2026-01-22T14:01:47+00:00",
-      "score": 50,
-      "source": "Keyfactor Quantum and Crypto-Agility",
-      "source_type": "watch",
-      "summary": "Post-quantum cryptography is often framed as a future problem driven by emerging algorithms and distant timelines.",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Turning Post-Quantum Plans Into Real Progress",
-      "url": "https://www.keyfactor.com/events/turning-post-quantum-plans-into-real-progress/"
-    },
-    {
-      "alert_eligible": false,
-      "category": "PQC",
       "date": "2026-01-16",
       "date_confidence": "high",
       "date_kind": "published",
@@ -1096,7 +1168,7 @@
       ],
       "historical": true,
       "key": "https://www.wiz.io/academy/cloud-security/post-quantum-cryptography",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-01-16T14:10:56+00:00",
       "score": 50,
       "source": "Wiz Post-Quantum Security",
@@ -1120,7 +1192,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/how-crypto-agility-defines-the-next-gen-hsm",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-01-15T00:00:00+00:00",
       "score": 55,
       "source": "Fortanix Quantum Security",
@@ -1144,7 +1216,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/quantum-data-governance-securing-ai-training-data-in-a-post-quantum-world",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-01-14T00:00:00+00:00",
       "score": 100,
       "source": "Fortanix Quantum Security",
@@ -1168,7 +1240,7 @@
       ],
       "historical": true,
       "key": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-01-13T00:00:00+00:00",
       "score": 58,
       "source": "Google Quantum AI",
@@ -1192,7 +1264,7 @@
       ],
       "historical": true,
       "key": "https://www.wiz.io/blog/preparing-for-post-quantum-cryptography",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2026-01-08T14:51:34+00:00",
       "score": 50,
       "source": "Wiz Post-Quantum Security",
@@ -1216,7 +1288,7 @@
       ],
       "historical": true,
       "key": "https://www.keyfactor.com/solutions/manage-cryptographic-posture",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-12-29T21:38:30+00:00",
       "score": 42,
       "source": "Keyfactor Quantum and Crypto-Agility",
@@ -1230,27 +1302,27 @@
     },
     {
       "alert_eligible": false,
-      "category": "PQC",
-      "date": "2025-12-22",
+      "category": "Quantum Hardware",
+      "date": "2025-11-17",
       "date_confidence": "high",
-      "date_kind": "published",
-      "date_source": "json_ld:datePublished",
+      "date_kind": "unknown",
+      "date_source": "explicit_metadata:inner_details-text",
       "entities": [
-        "Keyfactor"
+        "QuEra"
       ],
       "historical": true,
-      "key": "https://www.keyfactor.com/events/post-quantum-cryptography-what-late-adopters-must-know",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2025-12-22T15:59:49+00:00",
-      "score": 50,
-      "source": "Keyfactor Quantum and Crypto-Agility",
+      "key": "https://www.quera.com/press-releases/quera-to-showcase-quantum-classical-integration-at-sc25",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2025-11-17T00:00:00+00:00",
+      "score": 37,
+      "source": "QuEra Press Releases",
       "source_type": "watch",
-      "summary": "Post-Quantum Cryptography : What Late Adopters Must know with Keyfactor solution",
+      "summary": "At SC25, QuEra and Dell showcase a prototype linking Dell HPC and the Dell Quantum Intelligent Orchestrator to a neutral-atom system.",
       "themes": [
-        "PQC / Crypto Agility"
+        "Quantum Hardware"
       ],
-      "title": "Post-Quantum Cryptography : What Late Adopters Must Know",
-      "url": "https://www.keyfactor.com/events/post-quantum-cryptography-what-late-adopters-must-know/"
+      "title": "QuEra and Dell Show Quantum-Classical Integration at SC25",
+      "url": "https://www.quera.com/press-releases/quera-to-showcase-quantum-classical-integration-at-sc25"
     },
     {
       "alert_eligible": false,
@@ -1264,16 +1336,16 @@
       ],
       "historical": true,
       "key": "https://www.quera.com/press-releases/sdt-joins-quera-alliance-to-advance-neutral-atom-quantum-computing",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-11-13T00:00:00+00:00",
-      "score": 45,
+      "score": 41,
       "source": "QuEra Press Releases",
       "source_type": "watch",
-      "summary": "",
+      "summary": "South Korea's SDT Inc. joins the QuEra Quantum Alliance, a global program to commercialize and expand neutral-atom quantum computing.",
       "themes": [
         "Quantum Hardware"
       ],
-      "title": "Press Releases November 13, 2025 SDT Joins QuEra Alliance To Advance Neutral-Atom Quantum Computing",
+      "title": "SDT Joins QuEra Quantum Alliance to Advance Neutral Atoms",
       "url": "https://www.quera.com/press-releases/sdt-joins-quera-alliance-to-advance-neutral-atom-quantum-computing"
     },
     {
@@ -1288,7 +1360,7 @@
       ],
       "historical": true,
       "key": "https://research.google/blog/a-new-quantum-toolkit-for-optimization",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-11-13T00:00:00+00:00",
       "score": 31,
       "source": "Google Quantum AI",
@@ -1312,7 +1384,7 @@
       ],
       "historical": true,
       "key": "https://www.quera.com/press-releases/quera-selected-for-nedo-post-5g-information-and-communication-systems-infrastructure-enhancement-r-d-project",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-10-20T00:00:00+00:00",
       "score": 37,
       "source": "QuEra Press Releases",
@@ -1336,7 +1408,7 @@
       ],
       "historical": true,
       "key": "https://www.quera.com/press-releases/bcg-x-and-quera-computing-join-forces-to-accelerate-quantum-value-for-enterprises-and-government-innovators",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-09-30T00:00:00+00:00",
       "score": 100,
       "source": "QuEra Press Releases",
@@ -1360,7 +1432,7 @@
       ],
       "historical": true,
       "key": "https://www.quera.com/press-releases/icsc-and-quera-computing-launch-partnership-to-give-italian-researchers-premium-cloud-access-to-world-leading-neutral-atom-quantum-computer",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-09-30T00:00:00+00:00",
       "score": 50,
       "source": "QuEra Press Releases",
@@ -1384,7 +1456,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/fortanix-and-bigid-partners-to-unveil-data-security-for-ai-and-post-quantum-world",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-09-29T00:00:00+00:00",
       "score": 42,
       "source": "Fortanix Quantum Security",
@@ -1408,7 +1480,7 @@
       ],
       "historical": true,
       "key": "https://www.psiquantum.com/news-import/psiquantum-1b-fundraise",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-09-10T10:54:16+00:00",
       "score": 73,
       "source": "PsiQuantum News",
@@ -1422,30 +1494,6 @@
     },
     {
       "alert_eligible": false,
-      "category": "Crypto Agility",
-      "date": "2025-09-09",
-      "date_confidence": "high",
-      "date_kind": "published",
-      "date_source": "json_ld:datePublished",
-      "entities": [
-        "Keyfactor"
-      ],
-      "historical": true,
-      "key": "https://www.keyfactor.com/events/eliminating-pki-entropy-starvation-with-certified-quantum-entropy",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2025-09-09T18:27:05+00:00",
-      "score": 34,
-      "source": "Keyfactor Quantum and Crypto-Agility",
-      "source_type": "watch",
-      "summary": "Discover how quantum-certified entropy strengthens PKI security and performance with Keyfactor and Quside\u2019s integrated solution",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Eliminating PKI Entropy Starvation with Certified Quantum Entropy",
-      "url": "https://www.keyfactor.com/events/eliminating-pki-entropy-starvation-with-certified-quantum-entropy/"
-    },
-    {
-      "alert_eligible": false,
       "category": "Quantum Hardware",
       "date": "2025-08-20",
       "date_confidence": "high",
@@ -1456,7 +1504,7 @@
       ],
       "historical": true,
       "key": "https://www.quera.com/press-releases/quera-computing-and-deloitte-form-alliance-to-accelerate-enterprise-adoption-of-neutral-atom-quantum-computing",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-08-20T00:00:00+00:00",
       "score": 37,
       "source": "QuEra Press Releases",
@@ -1480,7 +1528,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/quantum-key-encryption-in-a-post-quantum-world",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-08-06T00:00:00+00:00",
       "score": 50,
       "source": "Fortanix Quantum Security",
@@ -1494,6 +1542,30 @@
     },
     {
       "alert_eligible": false,
+      "category": "Quantum Software / Tooling",
+      "date": "2025-07-28",
+      "date_confidence": "high",
+      "date_kind": "unknown",
+      "date_source": "explicit_metadata:inner_details-text",
+      "entities": [
+        "QuEra"
+      ],
+      "historical": true,
+      "key": "https://www.quera.com/press-releases/horizon-quantum-joins-the-quera-quantum-alliance-strengthening-quantum-software-ecosystem",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
+      "published_at": "2025-07-28T00:00:00+00:00",
+      "score": 41,
+      "source": "QuEra Press Releases",
+      "source_type": "watch",
+      "summary": "Horizon Quantum joins the QuEra Quantum Alliance to bring its quantum software tools to neutral-atom hardware and grow the ecosystem.",
+      "themes": [
+        "Quantum Software / Tooling"
+      ],
+      "title": "Horizon Quantum Joins the QuEra Quantum Alliance",
+      "url": "https://www.quera.com/press-releases/horizon-quantum-joins-the-quera-quantum-alliance-strengthening-quantum-software-ecosystem"
+    },
+    {
+      "alert_eligible": false,
       "category": "PQC",
       "date": "2025-07-24",
       "date_confidence": "high",
@@ -1504,7 +1576,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/difference-between-post-quantum-crypto-and-quantum-crypto",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-07-24T00:00:00+00:00",
       "score": 50,
       "source": "Fortanix Quantum Security",
@@ -1518,54 +1590,6 @@
     },
     {
       "alert_eligible": false,
-      "category": "Crypto Agility",
-      "date": "2025-07-24",
-      "date_confidence": "high",
-      "date_kind": "published",
-      "date_source": "json_ld:datePublished",
-      "entities": [
-        "Keyfactor"
-      ],
-      "historical": true,
-      "key": "https://www.keyfactor.com/events/securing-the-future-of-pki-quantum-ready-entropy-for-cryptography",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2025-07-24T14:58:01+00:00",
-      "score": 34,
-      "source": "Keyfactor Quantum and Crypto-Agility",
-      "source_type": "watch",
-      "summary": "Learn how Quside\u2019s quantum-ready entropy boosts PKI security. Discover QRNG use cases, real-world benefits, and Keyfactor integration in this webinar.",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Securing the Future of PKI: Quantum-Ready Entropy for Cryptography",
-      "url": "https://www.keyfactor.com/events/securing-the-future-of-pki-quantum-ready-entropy-for-cryptography/"
-    },
-    {
-      "alert_eligible": false,
-      "category": "Crypto Agility",
-      "date": "2025-07-24",
-      "date_confidence": "high",
-      "date_kind": "published",
-      "date_source": "json_ld:datePublished",
-      "entities": [
-        "Keyfactor"
-      ],
-      "historical": true,
-      "key": "https://www.keyfactor.com/events/modernizing-pki-with-quantum-secure-foundations",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2025-07-24T15:23:44+00:00",
-      "score": 34,
-      "source": "Keyfactor Quantum and Crypto-Agility",
-      "source_type": "watch",
-      "summary": "Explore how to upgrade your cryptographic infrastructure with quantum entropy and QRNGs\u2014without a full rebuild.",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Modernizing PKI with Quantum-Secure Foundations",
-      "url": "https://www.keyfactor.com/events/modernizing-pki-with-quantum-secure-foundations/"
-    },
-    {
-      "alert_eligible": false,
       "category": "PQC",
       "date": "2025-07-23",
       "date_confidence": "high",
@@ -1576,7 +1600,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/quantum-security-for-post-quantum-cryptography",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-07-23T00:00:00+00:00",
       "score": 78,
       "source": "Fortanix Quantum Security",
@@ -1600,7 +1624,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/risk-of-delaying-quantum-safe-algorithms-in-data-security",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-07-22T00:00:00+00:00",
       "score": 64,
       "source": "Fortanix Quantum Security",
@@ -1624,7 +1648,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/is-your-data-future-proof-why-quantum-resistant-cryptography-matters-now",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-06-10T00:00:00+00:00",
       "score": 34,
       "source": "Fortanix Quantum Security",
@@ -1638,30 +1662,6 @@
     },
     {
       "alert_eligible": false,
-      "category": "Quantum Software / Tooling",
-      "date": "2025-06-04",
-      "date_confidence": "high",
-      "date_kind": "unknown",
-      "date_source": "explicit_metadata:inner_details-text",
-      "entities": [
-        "QuEra"
-      ],
-      "historical": true,
-      "key": "https://www.quera.com/press-releases/scientists-observe-string-breaking-in-two-dimensional-quantum-simulator",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": "2025-06-04T00:00:00+00:00",
-      "score": 26,
-      "source": "QuEra Press Releases",
-      "source_type": "watch",
-      "summary": "QuEra's paper published via Nature demonstrates the observation of string breaking in synthetic quantum matter.",
-      "themes": [
-        "Quantum Software / Tooling"
-      ],
-      "title": "Scientists Observe String Breaking in 2D Quantum Simulator",
-      "url": "https://www.quera.com/press-releases/scientists-observe-string-breaking-in-two-dimensional-quantum-simulator"
-    },
-    {
-      "alert_eligible": false,
       "category": "PQC",
       "date": "2025-06-03",
       "date_confidence": "high",
@@ -1672,7 +1672,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/a-peek-inside-post-quantum-key",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-06-03T00:00:00+00:00",
       "score": 50,
       "source": "Fortanix Quantum Security",
@@ -1696,7 +1696,7 @@
       ],
       "historical": true,
       "key": "https://www.psiquantum.com/news-import/psiquantum-linde",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-05-08T11:52:45+00:00",
       "score": 14,
       "source": "PsiQuantum News",
@@ -1720,7 +1720,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/untold-challenge-of-post-quantum-cryptography-migration",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-05-06T00:00:00+00:00",
       "score": 50,
       "source": "Fortanix Quantum Security",
@@ -1744,7 +1744,7 @@
       ],
       "historical": true,
       "key": "https://www.accenture.com/en-us/insights/us-federal-government/future-quantum-speed?country=US",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-03-31T15:54:00+00:00",
       "score": 100,
       "source": "Accenture Federal Services Quantum Readiness",
@@ -1768,7 +1768,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/which-post-quantum-cryptography-pqc-algorithm-should-i-use",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-03-20T00:00:00+00:00",
       "score": 62,
       "source": "Fortanix Quantum Security",
@@ -1792,7 +1792,7 @@
       ],
       "historical": true,
       "key": "https://www.boozallen.com/insights/velocity/from-the-frontlines-of-post-quantum-cryptography.html",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2025-02-06T00:00:00+00:00",
       "score": 50,
       "source": "Booz Allen Quantum and PQC",
@@ -1816,7 +1816,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/simplifying-pqc-migration-with-fortanix-key-insight-in-the-post-quantum-era",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2024-12-16T00:00:00+00:00",
       "score": 66,
       "source": "Fortanix Quantum Security",
@@ -1840,7 +1840,7 @@
       ],
       "historical": true,
       "key": "https://www.fortanix.com/blog/the-future-of-quantum-resistant-cryptography-a-data-security-perspective",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": "2024-10-28T00:00:00+00:00",
       "score": 34,
       "source": "Fortanix Quantum Security",
@@ -1864,7 +1864,7 @@
       ],
       "historical": true,
       "key": "https://newsroom.accenture.com/news/2023/qusecure-and-accenture-team-in-first-successful-multi-orbit-communications-link-showcasing-post-quantum-crypto-modernization",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": null,
       "score": 100,
       "source": "Accenture Quantum and PQC News",
@@ -1888,7 +1888,7 @@
       ],
       "historical": true,
       "key": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": null,
       "score": 72,
       "source": "Accenture Quantum and PQC News",
@@ -1912,7 +1912,7 @@
       ],
       "historical": true,
       "key": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": null,
       "score": 69,
       "source": "Accenture Quantum and PQC News",
@@ -1932,35 +1932,11 @@
       "date_kind": "unknown",
       "date_source": "",
       "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/tag/post-quantum-crypto",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": null,
-      "score": 66,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Post-Quantum Cryptography (PQC) Archives",
-      "url": "https://blogs.cisco.com/tag/post-quantum-crypto"
-    },
-    {
-      "alert_eligible": false,
-      "category": "PQC",
-      "date": null,
-      "date_confidence": "unknown",
-      "date_kind": "unknown",
-      "date_source": "",
-      "entities": [
         "IETF"
       ],
       "historical": true,
       "key": "https://datatracker.ietf.org/group/pquip/about",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": null,
       "score": 62,
       "source": "IETF PQUIP",
@@ -1974,222 +1950,6 @@
     },
     {
       "alert_eligible": false,
-      "category": "PQC",
-      "date": null,
-      "date_confidence": "unknown",
-      "date_kind": "unknown",
-      "date_source": "",
-      "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/tag/quantum-safe-encryption",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": null,
-      "score": 50,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "quantum-safe encryption Archives",
-      "url": "https://blogs.cisco.com/tag/quantum-safe-encryption"
-    },
-    {
-      "alert_eligible": false,
-      "category": "PQC",
-      "date": null,
-      "date_confidence": "unknown",
-      "date_kind": "unknown",
-      "date_source": "",
-      "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/tag/quantum-safe-computing",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": null,
-      "score": 50,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "quantum-safe computing Archives",
-      "url": "https://blogs.cisco.com/tag/quantum-safe-computing"
-    },
-    {
-      "alert_eligible": false,
-      "category": "PQC",
-      "date": null,
-      "date_confidence": "unknown",
-      "date_kind": "unknown",
-      "date_source": "",
-      "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/tag/post-quantum-signature-algorithms",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": null,
-      "score": 50,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "post-quantum signature algorithms Archives",
-      "url": "https://blogs.cisco.com/tag/post-quantum-signature-algorithms"
-    },
-    {
-      "alert_eligible": false,
-      "category": "PQC",
-      "date": null,
-      "date_confidence": "unknown",
-      "date_kind": "unknown",
-      "date_source": "",
-      "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/tag/post-quantum-key-exchange",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": null,
-      "score": 50,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "post-quantum key exchange Archives",
-      "url": "https://blogs.cisco.com/tag/post-quantum-key-exchange"
-    },
-    {
-      "alert_eligible": false,
-      "category": "PQC",
-      "date": null,
-      "date_confidence": "unknown",
-      "date_kind": "unknown",
-      "date_source": "",
-      "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/tag/post-quantum-cryptography",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": null,
-      "score": 50,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "post-quantum cryptography Archives",
-      "url": "https://blogs.cisco.com/tag/post-quantum-cryptography"
-    },
-    {
-      "alert_eligible": false,
-      "category": "PQC",
-      "date": null,
-      "date_confidence": "unknown",
-      "date_kind": "unknown",
-      "date_source": "",
-      "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/tag/post-quantum-authentication",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": null,
-      "score": 50,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "post-quantum authentication Archives",
-      "url": "https://blogs.cisco.com/tag/post-quantum-authentication"
-    },
-    {
-      "alert_eligible": false,
-      "category": "PQC",
-      "date": null,
-      "date_confidence": "unknown",
-      "date_kind": "unknown",
-      "date_source": "",
-      "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/tag/post-quantum",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": null,
-      "score": 50,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "post-quantum Archives",
-      "url": "https://blogs.cisco.com/tag/post-quantum"
-    },
-    {
-      "alert_eligible": false,
-      "category": "PQC",
-      "date": null,
-      "date_confidence": "unknown",
-      "date_kind": "unknown",
-      "date_source": "",
-      "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/tag/post-quantum-journey",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": null,
-      "score": 50,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Post-Quantum Journey Archives",
-      "url": "https://blogs.cisco.com/tag/post-quantum-journey"
-    },
-    {
-      "alert_eligible": false,
-      "category": "PQC",
-      "date": null,
-      "date_confidence": "unknown",
-      "date_kind": "unknown",
-      "date_source": "",
-      "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/tag/post-quantum-cryptography-pqc",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": null,
-      "score": 48,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Post Quantum Cryptography (PQC) Archives",
-      "url": "https://blogs.cisco.com/tag/post-quantum-cryptography-pqc"
-    },
-    {
-      "alert_eligible": false,
       "category": "Crypto Agility",
       "date": null,
       "date_confidence": "unknown",
@@ -2200,7 +1960,7 @@
       ],
       "historical": true,
       "key": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": null,
       "score": 43,
       "source": "Deloitte Quantum Cyber Readiness",
@@ -2224,7 +1984,7 @@
       ],
       "historical": true,
       "key": "https://newsroom.accenture.com/news/2023/accenture-invests-in-aliro-quantum-to-establish-secure-quantum-networks",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": null,
       "score": 43,
       "source": "Accenture Quantum and PQC News",
@@ -2248,7 +2008,7 @@
       ],
       "historical": true,
       "key": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-and-ciena-demonstrate-next-generation-quantum-secured-communications-with-high-speed-encryption-using-pqc-and-qkd-at-ofc-2026",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": null,
       "score": 34,
       "source": "QCi Press Releases",
@@ -2262,54 +2022,6 @@
     },
     {
       "alert_eligible": false,
-      "category": "PQC",
-      "date": null,
-      "date_confidence": "unknown",
-      "date_kind": "unknown",
-      "date_source": "",
-      "entities": [
-        "Cisco"
-      ],
-      "historical": true,
-      "key": "https://blogs.cisco.com/tag/quantum-safecomputing",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": null,
-      "score": 32,
-      "source": "Cisco Quantum-Safe Updates",
-      "source_type": "watch",
-      "summary": "",
-      "themes": [
-        "PQC / Crypto Agility"
-      ],
-      "title": "Quantum-SafeComputing Archives",
-      "url": "https://blogs.cisco.com/tag/quantum-safecomputing"
-    },
-    {
-      "alert_eligible": false,
-      "category": "Quantum Networking",
-      "date": null,
-      "date_confidence": "unknown",
-      "date_kind": "unknown",
-      "date_source": "",
-      "entities": [
-        "Quantum Computing Inc. (QCi)"
-      ],
-      "historical": true,
-      "key": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-completes-acquisition-of-nucrypt-to-advance-quantum-communications-commercialization",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
-      "published_at": null,
-      "score": 32,
-      "source": "QCi Press Releases",
-      "source_type": "watch",
-      "summary": "",
-      "themes": [
-        "Quantum Networking"
-      ],
-      "title": "Quantum Computing Inc. Completes Acquisition of NuCrypt to Advance Quantum Communications Commercialization - Quantum Computing Inc",
-      "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-completes-acquisition-of-nucrypt-to-advance-quantum-communications-commercialization"
-    },
-    {
-      "alert_eligible": false,
       "category": "Quantum Software / Tooling",
       "date": null,
       "date_confidence": "unknown",
@@ -2320,7 +2032,7 @@
       ],
       "historical": true,
       "key": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-announces-framework-agreement-with-planck-dynamics-to-deploy-neurawave-photonic-reservoir-computer-as-a-foundational-platform-for-next-generation-ai-applications",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": null,
       "score": 28,
       "source": "QCi Press Releases",
@@ -2368,7 +2080,7 @@
       ],
       "historical": true,
       "key": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-to-showcase-quantum-secure-communications-beyond-quantum-key-distribution-at-ecoc-2026",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": null,
       "score": 24,
       "source": "QCi Press Releases",
@@ -2392,7 +2104,7 @@
       ],
       "historical": true,
       "key": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-announces-deployment-ready-neurawave-a-photonic-computing-platform-for-real-time-ai-inference-at-the-edge",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": null,
       "score": 23,
       "source": "QCi Press Releases",
@@ -2416,7 +2128,7 @@
       ],
       "historical": true,
       "key": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-expands-global-quantum-adoption-through-new-hamad-bin-khalifa-university-framework-agreement",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": null,
       "score": 19,
       "source": "QCi Press Releases",
@@ -2440,7 +2152,7 @@
       ],
       "historical": true,
       "key": "https://www.lockheedmartin.com/en-us/news/features/2026/the-quantum-opportunity-beyond-computing.html",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": null,
       "score": 18,
       "source": "Lockheed Martin Quantum Technology",
@@ -2464,7 +2176,7 @@
       ],
       "historical": true,
       "key": "https://www.lockheedmartin.com/en-us/news/features/2026/Quantum-Innovation-Center-Advances-Quantum-Capabilities-with-Speed-and-Scale.html",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": null,
       "score": 16,
       "source": "Lockheed Martin Quantum Technology",
@@ -2488,7 +2200,7 @@
       ],
       "historical": true,
       "key": "https://www.intel.com/content/www/us/en/research/quantum-computing.html",
-      "observed_at": "2026-10-11T09:34:47.743688+00:00",
+      "observed_at": "2026-10-18T07:39:11.123989+00:00",
       "published_at": null,
       "score": 12,
       "source": "Intel Quantum Research",
@@ -2503,12 +2215,12 @@
   ],
   "lookback_days": 730,
   "run_summary": {
-    "accepted": 102,
-    "collected": 254,
-    "excluded_irrelevant": 140,
-    "excluded_old_or_future": 12,
+    "accepted": 90,
+    "collected": 232,
+    "excluded_irrelevant": 127,
+    "excluded_old_or_future": 15,
     "excluded_undated": 0,
-    "warnings": 2
+    "warnings": 3
   },
   "selected_sources": [
     "Accenture Federal Services Quantum Readiness",
@@ -2539,8 +2251,8 @@
     "White House Science and Technology Missions",
     "Wiz Post-Quantum Security"
   ],
-  "undated_count": 27,
-  "updated_at": "2026-10-11T09:34:47.743688+00:00",
+  "undated_count": 15,
+  "updated_at": "2026-10-18T07:39:11.123989+00:00",
   "version": 1,
   "warnings": [
     {
@@ -2548,6 +2260,12 @@
       "source": "White House Science and Technology Missions",
       "type": "watch",
       "url": "https://www.whitehouse.gov/presidential-actions/?s=science"
+    },
+    {
+      "message": "All discovery methods failed: Feed returned no parseable entries.; HTML discovery failed: Failed to fetch https://www.war.gov/News/News-Stories/: 403 Client Error: Forbidden for url: https://www.war.gov/News/News-Stories/",
+      "source": "Department of War Strategic Technology News",
+      "type": "watch",
+      "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1"
     },
     {
       "message": "All discovery methods failed: HTML page returned no matching entries.",

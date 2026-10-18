@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-10-18 02:34 UTC_
+_Updated 2026-10-18 07:39 UTC_
 
 ## Organizations
 
@@ -12,22 +12,22 @@ _Updated 2026-10-18 02:34 UTC_
 |---|---|---|---|---|---|---:|---:|
 | NIST | ↘️ declining (0 vs 3) | 🔴 critical | quiet | 2026-06-25 | 2026-10-08 | 17 | 0 |
 | IBM | ↘️ declining (1 vs 3) | 🟠 high | active | 2026-06-23 | 2026-10-15 | 33 | 1 |
-| Cisco | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-07-27 | 2026-10-15 | 30 | 11 |
 | QuSecure | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-07 | 2026-09-22 | 29 | 20 |
-| Keyfactor | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2025-07-24 | 2026-10-06 | 27 | 12 |
+| Keyfactor | ↘️ declining (1 vs 2) | 🟠 high | active | 2025-12-29 | 2026-10-13 | 27 | 12 |
 | IonQ | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-06-22 | 2026-10-17 | 26 | 0 |
+| Cisco | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-07-27 | 2026-10-15 | 19 | 0 |
 | Fortanix | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2024-10-28 | 2026-10-08 | 19 | 19 |
+| QuEra | ↗️ rising (5 vs 0) | 🟠 high | active | 2025-07-28 | 2026-10-17 | 17 | 10 |
 | Cloudflare | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-23 | 2026-10-01 | 13 | 0 |
 | PQShield | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-07-03 | 2026-10-13 | 13 | 0 |
-| QuEra | ↗️ rising (4 vs 0) | 🟠 high | active | 2025-06-04 | 2026-10-17 | 13 | 6 |
 | Quantinuum | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-06-22 | 2026-10-05 | 11 | 0 |
 | DigiCert | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-08-03 | 2026-09-25 | 8 | 0 |
 | PsiQuantum | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-05-08 | 2026-09-02 | 7 | 6 |
 | Accenture / Accenture Federal Services | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-03-31 | 2026-08-27 | 6 | 6 |
 | D-Wave | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-30 | 2026-10-01 | 6 | 0 |
-| Quantum Computing Inc. (QCi) | ➡️ stable (0 vs 0) | 🟠 high | documented | Unknown | Unknown | 6 | 6 |
 | Google Quantum AI | ↗️ rising (2 vs 0) | 🟠 high | active | 2025-11-13 | 2026-10-15 | 5 | 2 |
 | PQCA | ➡️ stable (1 vs 1) | 🟠 high | active | 2026-07-27 | 2026-10-14 | 5 | 0 |
+| Quantum Computing Inc. (QCi) | ➡️ stable (0 vs 0) | 🟠 high | documented | Unknown | Unknown | 5 | 5 |
 | ISO/IEC | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-25 | 2026-10-02 | 4 | 0 |
 | Lockheed Martin | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-25 | 2026-07-14 | 4 | 2 |
 | Thales | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-08-04 | 2026-10-14 | 4 | 0 |
@@ -53,9 +53,9 @@ _Updated 2026-10-18 02:34 UTC_
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| Crypto-agility | ↘️ declining (0 vs 3) | 🔴 critical | quiet | 2025-07-24 | 2026-10-07 | 45 | 28 |
-| Quantum error correction | ➡️ stable (3 vs 4) | 🔴 critical | active | 2026-01-13 | 2026-10-15 | 42 | 1 |
-| Logical qubits | ↘️ declining (0 vs 2) | 🔴 critical | quiet | 2025-09-10 | 2026-10-08 | 30 | 2 |
+| Crypto-agility | ↘️ declining (1 vs 4) | 🔴 critical | active | 2025-08-06 | 2026-10-13 | 45 | 28 |
+| Quantum error correction | ➡️ stable (3 vs 4) | 🔴 critical | active | 2026-01-13 | 2026-10-15 | 43 | 2 |
+| Logical qubits | ↘️ declining (0 vs 2) | 🔴 critical | quiet | 2025-09-10 | 2026-10-08 | 31 | 3 |
 | ML-DSA | ↘️ declining (1 vs 2) | 🔴 critical | active | 2026-06-29 | 2026-10-14 | 6 | 0 |
 | ML-KEM | ↗️ rising (1 vs 0) | 🔴 critical | active | 2026-09-21 | 2026-10-14 | 2 | 0 |
 | Quantum key distribution | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2026-06-29 | 2026-10-05 | 21 | 3 |
@@ -83,7 +83,7 @@ _Updated 2026-10-18 02:34 UTC_
 | BSI Germany | covered | 1 | 0 |
 | Booz Allen Hamilton | covered | 1 | 3 |
 | CISA | covered | 1 | 1 |
-| Cisco | covered | 1 | 30 |
+| Cisco | covered | 1 | 19 |
 | Cloudflare | covered | 2 | 13 |
 | Deloitte | covered | 1 | 2 |
 | DigiCert | covered | 1 | 8 |
@@ -101,10 +101,10 @@ _Updated 2026-10-18 02:34 UTC_
 | PQCA | covered | 2 | 5 |
 | PQShield | covered | 1 | 13 |
 | PsiQuantum | covered | 1 | 7 |
-| QuEra | covered | 1 | 13 |
+| QuEra | covered | 1 | 17 |
 | QuSecure | covered | 1 | 29 |
 | Quantinuum | covered | 1 | 11 |
-| Quantum Computing Inc. (QCi) | covered | 1 | 6 |
+| Quantum Computing Inc. (QCi) | covered | 1 | 5 |
 | SandboxAQ | covered | 1 | 0 |
 | Thales | covered | 1 | 4 |
 | UK NCSC | covered | 3 | 0 |
