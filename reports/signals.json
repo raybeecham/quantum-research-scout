@@ -218,23 +218,32 @@
           "source": "Thales Cybersecurity Blog",
           "title": "Agentic AI Security Risks in Manufacturing | Thales",
           "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
+        },
+        {
+          "date": "2026-10-17",
+          "key": "https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 97,
+          "source": "Quantum Computing Report",
+          "title": "Harvard, Anthropic, and QuEra Use LLMs to Discover Quantum Circuits with Up to 9,100x Lower Resource Costs",
+          "url": "https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-10-13",
-      "momentum": "declining",
+      "latest_seen": "2026-10-17",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "arXiv RSS cs.CR",
         "QuantumNews.ai",
-        "The Quantum Insider",
-        "Cloudflare Blog"
+        "Quantum Computing Report",
+        "The Quantum Insider"
       ],
-      "prior_count": 2,
-      "recent_count": 1,
-      "status": "watching"
+      "prior_count": 1,
+      "recent_count": 2,
+      "status": "actionable"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -2902,12 +2911,30 @@
           "source": "The Quantum Insider",
           "title": "Germany Publishes National Post-Quantum Cryptography Migration Guideline",
           "url": "https://thequantuminsider.com/2026/10/16/transition-post-quantum-cryptography-national-eu-roadmap-guideline"
+        },
+        {
+          "date": "2026-10-17",
+          "key": "https://eprint.iacr.org/2026/2521",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 46,
+          "source": "IACR ePrint",
+          "title": "E\ufb03cient Fixed-Point Implementation of Mitaka",
+          "url": "https://eprint.iacr.org/2026/2521"
+        },
+        {
+          "date": "2026-10-17",
+          "key": "https://eprint.iacr.org/2026/2519",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 153,
+          "source": "IACR ePrint",
+          "title": "DPA-style Attacks on VOLE-in-the-Head Signature Schemes",
+          "url": "https://eprint.iacr.org/2026/2519"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-10-16",
+      "latest_seen": "2026-10-17",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -2917,7 +2944,7 @@
         "Cisco Quantum-Safe Updates"
       ],
       "prior_count": 22,
-      "recent_count": 23,
+      "recent_count": 25,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -3687,13 +3714,22 @@
           "source": "Quantum Computing Report",
           "title": "IBM Research Automates QEC Decoder Chip Design Using Open AI Agent Factories at 11.5x Lower Inference Cost",
           "url": "https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost"
+        },
+        {
+          "date": "2026-10-17",
+          "key": "https://quantumcomputingreport.com/riken-demonstrates-high-fidelity-simultaneous-control-of-silicon-spin-qubits-above-99-9-threshold",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 80,
+          "source": "Quantum Computing Report",
+          "title": "RIKEN Demonstrates High-Fidelity Simultaneous Control of Silicon Spin Qubits Above 99.9% Threshold",
+          "url": "https://quantumcomputingreport.com/riken-demonstrates-high-fidelity-simultaneous-control-of-silicon-spin-qubits-above-99-9-threshold"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-10-15",
-      "momentum": "rising",
+      "latest_seen": "2026-10-17",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -3701,9 +3737,9 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 4,
-      "recent_count": 8,
-      "status": "actionable"
+      "prior_count": 6,
+      "recent_count": 7,
+      "status": "watching"
     },
     "Quantum Hardware": {
       "confidence": "high",
@@ -6659,12 +6695,39 @@
           "source": "The Quantum Insider",
           "title": "Terra Quantum Joins QuEra Quantum Alliance",
           "url": "https://thequantuminsider.com/2026/10/16/terra-quantum-quera-quantum-alliance"
+        },
+        {
+          "date": "2026-10-17",
+          "key": "https://thequantuminsider.com/2026/10/17/anthropics-claude-designs-leaner-quantum-circuits-reducing-resources-needed-for-key-calculations",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 17,
+          "source": "The Quantum Insider",
+          "title": "Anthropic\u2019s Claude Designs Leaner Quantum Circuits, Reducing Resources Needed for Key Calculations",
+          "url": "https://thequantuminsider.com/2026/10/17/anthropics-claude-designs-leaner-quantum-circuits-reducing-resources-needed-for-key-calculations"
+        },
+        {
+          "date": "2026-10-17",
+          "key": "https://quantumcomputingreport.com/chalmers-next-labs-conscience-and-nqff-validate-superconducting-qubit-chip-stability-across-international-testbeds",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 50,
+          "source": "Quantum Computing Report",
+          "title": "Chalmers Next Labs, ConScience, and NQFF Validate Superconducting Qubit Chip Stability Across International Testbeds",
+          "url": "https://quantumcomputingreport.com/chalmers-next-labs-conscience-and-nqff-validate-superconducting-qubit-chip-stability-across-international-testbeds"
+        },
+        {
+          "date": "2026-10-17",
+          "key": "https://quantumcomputingreport.com/kipu-quantum-demonstrates-neutral-atom-quantum-feature-extraction-for-molecular-toxicity-classification-on-quera-hardware",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 66,
+          "source": "Quantum Computing Report",
+          "title": "Kipu Quantum Demonstrates Neutral-Atom Quantum Feature Extraction for Molecular Toxicity Classification on QuEra Hardware",
+          "url": "https://quantumcomputingreport.com/kipu-quantum-demonstrates-neutral-atom-quantum-feature-extraction-for-molecular-toxicity-classification-on-quera-hardware"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-10-16",
+      "latest_seen": "2026-10-17",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -6673,8 +6736,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 8,
-      "recent_count": 10,
+      "prior_count": 10,
+      "recent_count": 11,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -9482,12 +9545,30 @@
           "source": "Quantum Computing Report",
           "title": "Google Quantum AI Demonstrates Magic State Cultivation on Willow Processor in Science Milestone",
           "url": "https://quantumcomputingreport.com/google-quantum-ai-demonstrates-magic-state-cultivation-on-willow-processor-in-science-milestone"
+        },
+        {
+          "date": "2026-10-17",
+          "key": "https://thequantuminsider.com/2026/10/17/robert-wille-munich-quantum-software-company-quantum-software-needs-design-automation-not-just-algorithms",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 33,
+          "source": "The Quantum Insider",
+          "title": "Robert Wille (Munich Quantum Software Company): Quantum software needs design automation, not just algorithms",
+          "url": "https://thequantuminsider.com/2026/10/17/robert-wille-munich-quantum-software-company-quantum-software-needs-design-automation-not-just-algorithms"
+        },
+        {
+          "date": "2026-10-17",
+          "key": "https://quantumcomputingreport.com/open-quantum-launches-native-qrisp-integration-for-high-level-qpu-execution-across-ionq-rigetti-iqm-and-aqt-hardware",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 41,
+          "source": "Quantum Computing Report",
+          "title": "Open Quantum Launches Native Qrisp Integration for High-Level QPU Execution Across IonQ, Rigetti, IQM, and AQT Hardware",
+          "url": "https://quantumcomputingreport.com/open-quantum-launches-native-qrisp-integration-for-high-level-qpu-execution-across-ionq-rigetti-iqm-and-aqt-hardware"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-10-15",
+      "latest_seen": "2026-10-17",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -9496,7 +9577,7 @@
         "Quantum Computing Report",
         "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 2,
+      "prior_count": 3,
       "recent_count": 6,
       "status": "actionable"
     },
@@ -10205,6 +10286,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-10-17T02:32:55.742556+00:00",
+  "updated_at": "2026-10-18T02:34:52.189340+00:00",
   "version": 1
 }

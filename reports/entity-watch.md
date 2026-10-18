@@ -4,22 +4,22 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-10-17 02:32 UTC_
+_Updated 2026-10-18 02:34 UTC_
 
 ## Organizations
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
 | NIST | ↘️ declining (0 vs 3) | 🔴 critical | quiet | 2026-06-25 | 2026-10-08 | 17 | 0 |
-| IBM | ↗️ rising (3 vs 2) | 🟠 high | active | 2026-06-23 | 2026-10-15 | 33 | 1 |
+| IBM | ↘️ declining (1 vs 3) | 🟠 high | active | 2026-06-23 | 2026-10-15 | 33 | 1 |
 | Cisco | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-07-27 | 2026-10-15 | 30 | 11 |
 | QuSecure | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-07 | 2026-09-22 | 29 | 20 |
 | Keyfactor | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2025-07-24 | 2026-10-06 | 27 | 12 |
-| IonQ | ↘️ declining (0 vs 2) | 🟠 high | active | 2026-06-22 | 2026-10-09 | 25 | 0 |
+| IonQ | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-06-22 | 2026-10-17 | 26 | 0 |
 | Fortanix | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2024-10-28 | 2026-10-08 | 19 | 19 |
 | Cloudflare | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-23 | 2026-10-01 | 13 | 0 |
 | PQShield | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-07-03 | 2026-10-13 | 13 | 0 |
-| QuEra | ↗️ rising (2 vs 0) | 🟠 high | active | 2025-06-04 | 2026-10-16 | 11 | 6 |
+| QuEra | ↗️ rising (4 vs 0) | 🟠 high | active | 2025-06-04 | 2026-10-17 | 13 | 6 |
 | Quantinuum | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-06-22 | 2026-10-05 | 11 | 0 |
 | DigiCert | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-08-03 | 2026-09-25 | 8 | 0 |
 | PsiQuantum | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-05-08 | 2026-09-02 | 7 | 6 |
@@ -43,7 +43,7 @@ _Updated 2026-10-17 02:32 UTC_
 | Infleqtion | ↗️ rising (1 vs 0) | 🟡 medium | active | 2026-06-22 | 2026-10-13 | 31 | 0 |
 | Pasqal | ➡️ stable (0 vs 0) | 🟡 medium | quiet | 2026-06-29 | 2026-10-01 | 23 | 0 |
 | AWS | ➡️ stable (0 vs 0) | 🟡 medium | quiet | 2026-06-24 | 2026-09-28 | 9 | 3 |
-| Rigetti | ➡️ stable (0 vs 0) | 🟡 medium | dormant | 2026-07-29 | 2026-09-08 | 5 | 0 |
+| Rigetti | ↗️ rising (1 vs 0) | 🟡 medium | active | 2026-07-29 | 2026-10-17 | 6 | 0 |
 | Intel Quantum | ➡️ stable (0 vs 0) | 🟡 medium | documented | Unknown | Unknown | 2 | 2 |
 | Entrust | ➡️ stable (0 vs 0) | 🟡 medium | dormant | 2026-09-15 | 2026-09-15 | 1 | 0 |
 
@@ -54,7 +54,7 @@ _Updated 2026-10-17 02:32 UTC_
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
 | Crypto-agility | ↘️ declining (0 vs 3) | 🔴 critical | quiet | 2025-07-24 | 2026-10-07 | 45 | 28 |
-| Quantum error correction | ↗️ rising (5 vs 2) | 🔴 critical | active | 2026-01-13 | 2026-10-15 | 42 | 1 |
+| Quantum error correction | ➡️ stable (3 vs 4) | 🔴 critical | active | 2026-01-13 | 2026-10-15 | 42 | 1 |
 | Logical qubits | ↘️ declining (0 vs 2) | 🔴 critical | quiet | 2025-09-10 | 2026-10-08 | 30 | 2 |
 | ML-DSA | ↘️ declining (1 vs 2) | 🔴 critical | active | 2026-06-29 | 2026-10-14 | 6 | 0 |
 | ML-KEM | ↗️ rising (1 vs 0) | 🔴 critical | active | 2026-09-21 | 2026-10-14 | 2 | 0 |
@@ -93,7 +93,7 @@ _Updated 2026-10-17 02:32 UTC_
 | Google Quantum AI | covered | 2 | 5 |
 | IBM | covered | 1 | 33 |
 | IETF | covered | 1 | 2 |
-| IonQ | covered | 1 | 25 |
+| IonQ | covered | 1 | 26 |
 | Keyfactor | covered | 1 | 27 |
 | Lockheed Martin | covered | 1 | 4 |
 | Microsoft Quantum | covered | 1 | 1 |
@@ -101,7 +101,7 @@ _Updated 2026-10-17 02:32 UTC_
 | PQCA | covered | 2 | 5 |
 | PQShield | covered | 1 | 13 |
 | PsiQuantum | covered | 1 | 7 |
-| QuEra | covered | 1 | 11 |
+| QuEra | covered | 1 | 13 |
 | QuSecure | covered | 1 | 29 |
 | Quantinuum | covered | 1 | 11 |
 | Quantum Computing Inc. (QCi) | covered | 1 | 6 |
@@ -111,4 +111,4 @@ _Updated 2026-10-17 02:32 UTC_
 | Wiz | covered | 1 | 4 |
 | AWS | covered | 1 | 9 |
 | Intel Quantum | covered | 1 | 2 |
-| Rigetti | covered | 1 | 5 |
+| Rigetti | covered | 1 | 6 |

@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-10-17",
+  "as_of_date": "2026-10-18",
   "claims": [
     {
       "authority": "authoritative",
@@ -96856,186 +96856,6 @@
     {
       "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
-      "claim_id": "claim-ae8a1f2ff82f1638",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-18",
-      "evidence_ids": [
-        "evidence-29917e5b7fdfa575"
-      ],
-      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-29917e5b7fdfa575",
-          "locator": "legal_business_name:oregon state university",
-          "title": "OREGON STATE UNIVERSITY",
-          "url": "https://sam.gov/entity/MZ4DYXE1SL98/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:MZ4DYXE1SL98",
-        "label": "OREGON STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MZ4DYXE1SL98",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "OREGON STATE UNIVERSITY",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "e536fa103aa497fd"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity uei",
-      "claim_id": "claim-48125977c4ce35c3",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-18",
-      "evidence_ids": [
-        "evidence-dc43ef1053e817be"
-      ],
-      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-dc43ef1053e817be",
-          "locator": "uei:mz4dyxe1sl98",
-          "title": "OREGON STATE UNIVERSITY",
-          "url": "https://sam.gov/entity/MZ4DYXE1SL98/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:MZ4DYXE1SL98",
-        "label": "OREGON STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MZ4DYXE1SL98",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "MZ4DYXE1SL98",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "0efc777e4f9806e9"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity cage code",
-      "claim_id": "claim-75acaff3b3e1e976",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-18",
-      "evidence_ids": [
-        "evidence-aa9adb7de4a85355"
-      ],
-      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-aa9adb7de4a85355",
-          "locator": "cage_code:5d489",
-          "title": "OREGON STATE UNIVERSITY",
-          "url": "https://sam.gov/entity/MZ4DYXE1SL98/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:MZ4DYXE1SL98",
-        "label": "OREGON STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MZ4DYXE1SL98",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "5D489",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "424a848bd2f9f236"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity registration status",
-      "claim_id": "claim-ef8bfc299ba8f846",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-18",
-      "evidence_ids": [
-        "evidence-455970042aa1d5bc"
-      ],
-      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-455970042aa1d5bc",
-          "locator": "registration_status:active",
-          "title": "OREGON STATE UNIVERSITY",
-          "url": "https://sam.gov/entity/MZ4DYXE1SL98/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:MZ4DYXE1SL98",
-        "label": "OREGON STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:MZ4DYXE1SL98",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "9ec55bc84d044231"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-bbb1199cb4e4f1ed",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -97212,6 +97032,186 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "d3bff482eb4a2277"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-ae8a1f2ff82f1638",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-18",
+      "evidence_ids": [
+        "evidence-29917e5b7fdfa575"
+      ],
+      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-29917e5b7fdfa575",
+          "locator": "legal_business_name:oregon state university",
+          "title": "OREGON STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/MZ4DYXE1SL98/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MZ4DYXE1SL98",
+        "label": "OREGON STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:MZ4DYXE1SL98",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "OREGON STATE UNIVERSITY",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e536fa103aa497fd"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-48125977c4ce35c3",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-18",
+      "evidence_ids": [
+        "evidence-dc43ef1053e817be"
+      ],
+      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-dc43ef1053e817be",
+          "locator": "uei:mz4dyxe1sl98",
+          "title": "OREGON STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/MZ4DYXE1SL98/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MZ4DYXE1SL98",
+        "label": "OREGON STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:MZ4DYXE1SL98",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "MZ4DYXE1SL98",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "0efc777e4f9806e9"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-75acaff3b3e1e976",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-18",
+      "evidence_ids": [
+        "evidence-aa9adb7de4a85355"
+      ],
+      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-aa9adb7de4a85355",
+          "locator": "cage_code:5d489",
+          "title": "OREGON STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/MZ4DYXE1SL98/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MZ4DYXE1SL98",
+        "label": "OREGON STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:MZ4DYXE1SL98",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "5D489",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "424a848bd2f9f236"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-ef8bfc299ba8f846",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-18",
+      "evidence_ids": [
+        "evidence-455970042aa1d5bc"
+      ],
+      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-455970042aa1d5bc",
+          "locator": "registration_status:active",
+          "title": "OREGON STATE UNIVERSITY",
+          "url": "https://sam.gov/entity/MZ4DYXE1SL98/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:MZ4DYXE1SL98",
+        "label": "OREGON STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:MZ4DYXE1SL98",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9ec55bc84d044231"
     },
     {
       "authority": "authoritative",
@@ -249316,7 +249316,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249363,7 +249363,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249410,7 +249410,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249457,7 +249457,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249504,7 +249504,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249551,7 +249551,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249598,7 +249598,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249645,7 +249645,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249692,7 +249692,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249739,7 +249739,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249786,7 +249786,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249833,7 +249833,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249880,7 +249880,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249927,7 +249927,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249974,7 +249974,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250021,7 +250021,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250068,7 +250068,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250115,7 +250115,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250167,7 +250167,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250219,7 +250219,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250271,7 +250271,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250323,7 +250323,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250375,7 +250375,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250427,7 +250427,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250479,7 +250479,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250531,7 +250531,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250583,7 +250583,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-17T02:29:35.520951+00:00",
+      "retracted_at": "2026-10-18T02:30:03.452915+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -301816,6 +301816,6 @@
     "superseded_claims": 0,
     "total_claims": 5042
   },
-  "updated_at": "2026-10-17T02:29:35.520951+00:00",
+  "updated_at": "2026-10-18T02:30:03.452915+00:00",
   "version": 1
 }

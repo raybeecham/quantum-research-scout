@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-10-17T02:29:35.520951+00:00_
+_Updated 2026-10-18T02:30:03.452915+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
@@ -50,7 +50,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF CALIFORNIA, SAN DIEGO | [UNIVERSITY OF CALIFORNIA, SAN DIEGO](https://sam.gov/entity/UYTTZT6G9DT1/coreData) | UYTTZT6G9DT1 | 50854 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | [Regents of the University of California, The](https://sam.gov/entity/GS3YEVSS12N6/coreData) | GS3YEVSS12N6 | 50853 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | PARAGON MICRO INC | [PARAGON MICRO INC](https://sam.gov/entity/E41LV9AJGHQ1/coreData) | E41LV9AJGHQ1 | 4ZHT8 | Active | Business or Organization, For Profit Organization |
-| OREGON STATE UNIVERSITY | [OREGON STATE UNIVERSITY](https://sam.gov/entity/MZ4DYXE1SL98/coreData) | MZ4DYXE1SL98 | 5D489 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |
 | QUANTUM FOODS INC | [QUANTUM FOODS INC](https://sam.gov/entity/S6M6AJJGH6C3/coreData) | S6M6AJJGH6C3 | 87Q54 | Active | Business or Organization, For Profit Organization, Self Certified Small Disadvantaged Business |
 | THE ARDIAN GROUP, INC | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) | UE9KZJJCMAS9 | 3BR42 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
 | MORGAN STATE UNIVERSITY | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) | KULSKCCZJT27 | 8U547 | Active | Educational Institution, Historically Black College or University, Minority Institution |
@@ -72,6 +71,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | VANDERBILT UNIVERSITY | [VANDERBILT UNIVERSITY](https://sam.gov/entity/GTNBNWXJ12D5/coreData) | GTNBNWXJ12D5 | 5E694 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF NORTH DAKOTA | [UNIVERSITY OF NORTH DAKOTA](https://sam.gov/entity/RSWNKK6J8CF3/coreData) | RSWNKK6J8CF3 | 4B858 | Active | Business or Organization, Educational Institution, Other Not For Profit Organization |
 | THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK | [THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK](https://sam.gov/entity/F4N1QNPB95M4/coreData) | F4N1QNPB95M4 | 1B053 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| OREGON STATE UNIVERSITY | [OREGON STATE UNIVERSITY](https://sam.gov/entity/MZ4DYXE1SL98/coreData) | MZ4DYXE1SL98 | 5D489 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |
 | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | [OLD DOMINION UNIVERSITY RESEARCH FOUNDATION](https://sam.gov/entity/DSLXBD7UWRV6/coreData) | DSLXBD7UWRV6 | 5D075 | Active | Business or Organization, Foundation, Non-Profit Organization |
 | NORTHEASTERN UNIVERSITY | [NORTHEASTERN UNIVERSITY](https://sam.gov/entity/HLTMVS2JZBS6/coreData) | HLTMVS2JZBS6 | 9A140 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | NATIONAL ACADEMY OF SCIENCES | [NATIONAL ACADEMY OF SCIENCES](https://sam.gov/entity/PKFJZHG2MLG9/coreData) | PKFJZHG2MLG9 | 1D969 | Active | Business or Organization, Non-Profit Organization |

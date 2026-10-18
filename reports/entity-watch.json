@@ -385,7 +385,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 25,
+      "evidence_count": 26,
       "first_party_evidence_count": 2,
       "name": "IonQ",
       "priority": "high",
@@ -524,7 +524,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 11,
+      "evidence_count": 13,
       "first_party_evidence_count": 6,
       "name": "QuEra",
       "priority": "high",
@@ -694,7 +694,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "first_party_evidence_count": 0,
       "name": "Rigetti",
       "priority": "medium",
@@ -1361,11 +1361,11 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 1,
       "latest_seen": "2026-10-15",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "IBM",
-      "prior_count": 2,
+      "prior_count": 3,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "AI Security",
@@ -3001,8 +3001,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 25,
+      "current_evidence_count": 26,
       "evidence": [
+        {
+          "date": "2026-10-17",
+          "key": "https://quantumcomputingreport.com/open-quantum-launches-native-qrisp-integration-for-high-level-qpu-execution-across-ionq-rigetti-iqm-and-aqt-hardware",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 41,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Open Quantum Launches Native Qrisp Integration for High-Level QPU Execution Across IonQ, Rigetti, IQM, and AQT Hardware",
+          "url": "https://quantumcomputingreport.com/open-quantum-launches-native-qrisp-integration-for-high-level-qpu-execution-across-ionq-rigetti-iqm-and-aqt-hardware"
+        },
         {
           "date": "2026-10-09",
           "key": "https://thequantuminsider.com/2026/10/09/ionq-1000-entanglement-events-per-second-quantum-interconnect",
@@ -3304,15 +3316,15 @@
           "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
         }
       ],
-      "evidence_count": 25,
+      "evidence_count": 26,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-10-09",
+      "latest_seen": "2026-10-17",
       "momentum": "declining",
       "name": "IonQ",
       "prior_count": 2,
       "priority": "high",
-      "recent_count": 0,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -4168,8 +4180,32 @@
         "QuEra Computing"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 5,
+      "current_evidence_count": 7,
       "evidence": [
+        {
+          "date": "2026-10-17",
+          "key": "https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 97,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "Harvard, Anthropic, and QuEra Use LLMs to Discover Quantum Circuits with Up to 9,100x Lower Resource Costs",
+          "url": "https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs"
+        },
+        {
+          "date": "2026-10-17",
+          "key": "https://quantumcomputingreport.com/kipu-quantum-demonstrates-neutral-atom-quantum-feature-extraction-for-molecular-toxicity-classification-on-quera-hardware",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 66,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Kipu Quantum Demonstrates Neutral-Atom Quantum Feature Extraction for Molecular Toxicity Classification on QuEra Hardware",
+          "url": "https://quantumcomputingreport.com/kipu-quantum-demonstrates-neutral-atom-quantum-feature-extraction-for-molecular-toxicity-classification-on-quera-hardware"
+        },
         {
           "date": "2026-10-16",
           "key": "https://thequantuminsider.com/2026/10/16/quera-three-teams-doe-quantum-chemistry-program",
@@ -4375,17 +4411,18 @@
           "url": "https://www.quera.com/press-releases/scientists-observe-string-breaking-in-two-dimensional-quantum-simulator"
         }
       ],
-      "evidence_count": 11,
+      "evidence_count": 13,
       "first_seen": "2025-06-04",
       "historical_evidence_count": 6,
-      "latest_seen": "2026-10-16",
+      "latest_seen": "2026-10-17",
       "momentum": "rising",
       "name": "QuEra",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 4,
       "status": "active",
       "themes": [
+        "AI Security",
         "Quantum Hardware",
         "Quantum Software / Tooling",
         "Standards / Government"
@@ -7147,8 +7184,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 5,
+      "current_evidence_count": 6,
       "evidence": [
+        {
+          "date": "2026-10-17",
+          "key": "https://quantumcomputingreport.com/open-quantum-launches-native-qrisp-integration-for-high-level-qpu-execution-across-ionq-rigetti-iqm-and-aqt-hardware",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 41,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Open Quantum Launches Native Qrisp Integration for High-Level QPU Execution Across IonQ, Rigetti, IQM, and AQT Hardware",
+          "url": "https://quantumcomputingreport.com/open-quantum-launches-native-qrisp-integration-for-high-level-qpu-execution-across-ionq-rigetti-iqm-and-aqt-hardware"
+        },
         {
           "date": "2026-09-08",
           "key": "https://thequantuminsider.com/2026/09/08/us-department-commerce-awards-rigetti-100m-quantum-computing-rd",
@@ -7210,18 +7259,19 @@
           "url": "https://quantumzeitgeist.com/rigetti-computing-superconducting-qubit-temperature-bridges"
         }
       ],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "first_seen": "2026-07-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-09-08",
-      "momentum": "stable",
+      "latest_seen": "2026-10-17",
+      "momentum": "rising",
       "name": "Rigetti",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 0,
-      "status": "dormant",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
-        "Quantum Hardware"
+        "Quantum Hardware",
+        "Quantum Software / Tooling"
       ],
       "type": "company"
     },
@@ -8610,11 +8660,11 @@
       "first_seen": "2026-01-13",
       "historical_evidence_count": 1,
       "latest_seen": "2026-10-15",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Quantum error correction",
-      "prior_count": 2,
+      "prior_count": 4,
       "priority": "critical",
-      "recent_count": 5,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "AI Security",
@@ -10053,6 +10103,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-10-17T02:32:55.753050+00:00",
+  "updated_at": "2026-10-18T02:34:52.202349+00:00",
   "version": 2
 }
