@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-18 02:34 UTC_
+_Updated 2026-10-19 02:47 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 7 | 17 | 12 | 21 |
+| 50 | 1 | 16 | 13 | 21 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -70,66 +70,59 @@ _Updated 2026-10-18 02:34 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 92.9% reliability with 6 warning day(s).
+- 🔴 91.8% reliability with 7 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: ETSI Quantum Standards News
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 78.1% reliability with 18 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🔴 Source failing: Quantum Computing Patents 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 92.9% reliability with 3 warning day(s).
+- 🔴 77.3% reliability with 19 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Quantum Computing Report
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 66.7% reliability with 11 warning day(s).
+- 🔴 64.7% reliability with 11 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Rigetti News
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 90.5% reliability with 9 warning day(s).
+- 🔴 89.6% reliability with 10 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: White House Science and Technology Missions
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 64.7% reliability with 30 warning day(s).
+- 🔴 64.0% reliability with 31 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography 🆕
+## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 64.9% reliability with 9 warning day(s).
+- 🔴 63.8% reliability with 10 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Computing 🆕
+## 🔴 Source failing: arXiv Quantum Computing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 64.9% reliability with 9 warning day(s).
+- 🔴 63.8% reliability with 10 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Networking and Sensing 🆕
+## 🔴 Source failing: arXiv Quantum Networking and Sensing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 66.7% reliability with 8 warning day(s).
+- 🔴 65.5% reliability with 9 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Actionable signal: AI Security 🆕
+## 🟠 Actionable signal: AI Security
 
 - Severity: **high**
 - Status: **actionable**
@@ -154,11 +147,11 @@ _Updated 2026-10-18 02:34 UTC_
 
 - Severity: **high**
 - Status: **closing-soon**
-- 1 day(s) remain · radar score 79 · Review requirements and make a bid/no-bid decision immediately.
+- 0 day(s) remain · radar score 79 · Review requirements and make a bid/no-bid decision immediately.
 - [Open direct evidence](https://www.grants.gov/search-results-detail/363869)
 - [Open supporting view](federal-funding.md)
 
-## 🟠 Product Launch: IonQ 🆕
+## 🟠 Product Launch: IonQ
 
 - Severity: **high**
 - Status: **product-launch**
@@ -166,7 +159,7 @@ _Updated 2026-10-18 02:34 UTC_
 - [Open direct evidence](https://quantumcomputingreport.com/open-quantum-launches-native-qrisp-integration-for-high-level-qpu-execution-across-ionq-rigetti-iqm-and-aqt-hardware)
 - [Open supporting view](entity-watch.md)
 
-## 🟠 Rising momentum: AI Security 🆕
+## 🟠 Rising momentum: AI Security
 
 - Severity: **high**
 - Status: **rising**
@@ -194,11 +187,18 @@ _Updated 2026-10-18 02:34 UTC_
 - 🟠 98.8% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
+## 🟠 Source degraded: Quantum Computing Patents 🆕
+
+- Severity: **high**
+- Status: **degraded**
+- 🟠 92.9% reliability with 3 warning day(s).
+- [Open supporting view](source-health.md)
+
 ## 🟠 Source degraded: Quantum Journal
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.9% reliability with 2 warning day(s).
+- 🟠 94.1% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR

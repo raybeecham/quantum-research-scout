@@ -5,7 +5,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 60,
+      "days_to_close": 59,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -192,7 +192,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 1,
+      "days_to_close": 0,
       "deadline": "10/19/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -232,7 +232,7 @@
           },
           {
             "basis": [
-              "Compressed response window: 1 day(s)"
+              "Compressed response window: 0 day(s)"
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
@@ -248,7 +248,7 @@
         "source_urls": [
           "https://www.grants.gov/search-results-detail/363869"
         ],
-        "trace_hash": "dede428c81274a89"
+        "trace_hash": "67252cdf19ce0a04"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -273,7 +273,7 @@
       ],
       "requirements": [],
       "risks": [
-        "Compressed response window: 1 day(s) remaining",
+        "Compressed response window: 0 day(s) remaining",
         "No linked solicitation document was available for extraction",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
@@ -298,7 +298,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 86,
+      "days_to_close": 85,
       "deadline": "01/12/2027",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -403,6 +403,6 @@
     "qualify": 2,
     "targeted_review": 1
   },
-  "updated_at": "2026-10-18T07:39:11.123989+00:00",
+  "updated_at": "2026-10-19T02:43:46.166709+00:00",
   "version": 1
 }

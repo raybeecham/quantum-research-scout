@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-18T02:30:03.452915+00:00_
+_Updated 2026-10-19T02:43:46.166709+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -15,9 +15,9 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Automated recent discoveries: **248**
 - Published in the last 30 days: **46**
 - Unique named assignees: **143**
-- Patent families: **284**
+- Patent families: **290**
 - Applications / grants: **240 / 10**
-- Known legal status: **220 of 250**
+- Known legal status: **221 of 250**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -92,6 +92,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [SYMBOLIC PHOTONIC LOGIC GATE ARCHITECTURE FOR LIGHT-SPEED DATA PROCESSING AND QUANTUM-RESISTANT OPTICAL ENCRYPTION](https://data.uspto.gov/patent-file-wrapper/search/details/19458148/application-data)<br><small>US20260153781A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **70 · HIGH** |
 | [QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS](https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data)<br><small>US20260149589A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **70 · HIGH** |
 | [HYBRID POST-QUANTUM TLS MIGRATION WITH BINDER-ENFORCED RESUMPTION](https://data.uspto.gov/patent-file-wrapper/search/details/19309197/application-data)<br><small>US20260052009A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **70 · HIGH** |
+| [DEVICE AND METHOD FOR PERFORMING QUANTUM STATE MODULATION ON BASIS OF QUANTUM AUTHENTICATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19128137/application-data)<br><small>US20260189388A1</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **69 · HIGH** |
 | [METHOD FOR CARRYING OUT USER AUTHENTICATION BY APPLYING PRE-SHARED KEY TO BASIS SELECTION IN QUANTUM COMMUNICATION SYSTEM, AND DEVICE THEREFOR](https://data.uspto.gov/patent-file-wrapper/search/details/19115322/application-data)<br><small>US20260101188A1</small> | Application · Pending | LG Electronics Inc. | 1 member(s) · 0 citation(s) | **69 · HIGH** |
 | [METHODS AND PROCEDURES FOR A ONE-WAY QUANTUM CHANNEL AUTHENTICATION FOR SECURE QUANTUM COMMUNICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19303070/application-data)<br><small>US20260058805A1</small> | Application · Pending | EigenQ, Inc. | 1 member(s) · 0 citation(s) | **69 · HIGH** |
 | [Mechanism for Post-Quantum Cryptographic Key Material Resilience](https://data.uspto.gov/patent-file-wrapper/search/details/63915370/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Not listed | 2 member(s) · 0 citation(s) | **68 · HIGH** |
@@ -167,7 +168,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [ZERO-TRUST MULTI-AGENT GOVERNANCE FRAMEWORK FOR CLINICAL ARTIFICIAL INTELLIGENCE](https://data.uspto.gov/patent-file-wrapper/search/details/19455879/application-data)<br><small>US20260154580A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **62 · HIGH** |
 | [SYSTEM AND METHOD FOR INTELLIGENT CYBERSECURITY ANALYSIS USING ARTIFICIAL INTELLIGENCE](https://data.uspto.gov/patent-file-wrapper/search/details/19457312/application-data)<br><small>US20260156144A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **62 · HIGH** |
 | [AUTHENTICATION METHOD USING PRE-SHARED SYMMETRIC KEY FOR LOCATION SELECTION OF AUTHENTICATION INFORMATION IN QUANTUM COMMUNICATION SYSTEM, AND APPARATUS THEREFOR](https://data.uspto.gov/patent-file-wrapper/search/details/19136577/application-data)<br><small>US20260205207A1</small> | Application · Unknown | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
-| [DEVICE AND METHOD FOR PERFORMING QUANTUM STATE MODULATION ON BASIS OF QUANTUM AUTHENTICATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19128137/application-data)<br><small>US20260189388A1</small> | Application · Unknown | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [DISTRIBUTED SYSTEM FOR CYBERSECURITY DATA COLLECTION AND TRAFFIC MASKING](https://data.uspto.gov/patent-file-wrapper/search/details/19706829/application-data)<br><small>US20260322849A1</small> | Application · Pending | SecurityScorecard, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [SASE CLOUD NETWORK SECURITY POLICY ENFORCEMENT USING MOBILE NETWORK CONTEXT ATTRIBUTES](https://data.uspto.gov/patent-file-wrapper/search/details/19714334/application-data)<br><small>US20260313002A1</small> | Application · Pending | Palo Alto Networks, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [NETWORK SECURITY SYSTEMS AND METHODS](https://data.uspto.gov/patent-file-wrapper/search/details/19706557/application-data)<br><small>US20260312999A1</small> | Application · Pending | Intertrust Technologies Corporation | 1 member(s) · 0 citation(s) | **61 · HIGH** |
