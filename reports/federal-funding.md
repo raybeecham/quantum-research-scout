@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-10-19 02:43 UTC_
+_Updated 2026-10-20 02:55 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -12,8 +12,8 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 
 - Tracked records: **500**
 - Awards / grant opportunities / procurement opportunities: **493 / 3 / 2**
-- Open opportunities: **3** (including 0 BAA and 2 RFI records)
-- Opportunity radar: **3 mission-linked**, **1 closing within 30 days**, **0 new since yesterday**
+- Open opportunities: **2** (including 0 BAA and 2 RFI records)
+- Opportunity radar: **2 mission-linked**, **0 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **19**
 - Missions with activity: **5 of 10**
 - Named recipients and contractors: **329**
@@ -25,19 +25,18 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 
 | Rank | Opportunity | Type | Close | Mission | Technology | Score | Recommended action |
 |---:|---|---|---|---|---|---:|---|
-| 1 | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) | GRANT_OPPORTUNITY | 10/19/2026 | Quantum Genesis | quantum | **79 · HIGH PRIORITY** | Review requirements and make a bid/no-bid decision immediately. |
-| 2 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
-| 3 | [Genesis Mission Graduate Fellowship Pilot](https://www.grants.gov/search-results-detail/364033) | GRANT_OPPORTUNITY | 01/12/2027 | Genesis Mission | General | **65 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
+| 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum, artificial intelligence | **78 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
+| 2 | [Genesis Mission Graduate Fellowship Pilot](https://www.grants.gov/search-results-detail/364033) | GRANT_OPPORTUNITY | 01/12/2027 | Genesis Mission | General | **65 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 
 ## Mission Funding Portfolios
 
 | Mission | Records | Open | Known awards | Announced funding | Contractors / analytical patent matches |
 |---|---:|---:|---:|---:|---|
 | [Genesis Mission](https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission) | 8 | 2 | $700.7K | $293.0M | 1 / 8 |
-| [Quantum Genesis](https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first) | 1 | 1 | $0 | $0 | 0 / 8 |
 | [DARPA Quantum Benchmarking Initiative](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative) | 2 | 0 | $8.7M | $0 | 1 / 8 |
 | [Golden Dome for America](https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/) | 5 | 0 | $5.1M | $0 | 2 / 8 |
 | [AI Forge](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security) | 3 | 0 | $250.2K | $0 | 1 / 8 |
+| [Quantum Genesis](https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first) | 1 | 0 | $0 | $0 | 0 / 8 |
 | [Military AI Pace-Setting Projects](https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF) | 0 | 0 | $0 | $0 | 0 / 8 |
 | [Federal Post-Quantum Cryptography Transition](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/) | 0 | 0 | $0 | $0 | 0 / 8 |
 | [QC-ADDS](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/) | 0 | 0 | $0 | $0 | 0 / 8 |
@@ -49,7 +48,6 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | Opportunity | Type | Agency | Close | Mission link | Significance |
 |---|---|---|---|---|---:|
 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | PAMS-SC | 12/17/2026 | Genesis Mission (high) | **59 · HIGH** |
-| [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) | GRANT_OPPORTUNITY | PAMS-SC | 10/19/2026 | Quantum Genesis (high) | **54 · NOTABLE** |
 | [Genesis Mission Graduate Fellowship Pilot](https://www.grants.gov/search-results-detail/364033) | GRANT_OPPORTUNITY | PAMS-SC | 01/12/2027 | Genesis Mission (high) | **49 · NOTABLE** |
 
 ## Awards and Funding Announcements

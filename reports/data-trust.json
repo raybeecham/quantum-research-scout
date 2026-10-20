@@ -39,6 +39,29 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-10-19",
+      "key": "https://quantumcomputingreport.com/xanadu-secures-up-to-10-million-in-additional-darpa-funding-under-qbi-program",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "Quantum Computing Report",
+      "stage": "mission evidence admission",
+      "title": "Xanadu Secures Up to $10 Million in Additional DARPA Funding Under QBI Program",
+      "url": "https://quantumcomputingreport.com/xanadu-secures-up-to-10-million-in-additional-darpa-funding-under-qbi-program"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "Military AI Pace-Setting Projects",
         "reason_codes": [
           "official_source",
@@ -2263,29 +2286,6 @@
       "stage": "funding evidence admission",
       "title": "FY 2027 Fulbright Scholar Program",
       "url": "https://www.grants.gov/search-results-detail/362828"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Golden Dome",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-16",
-      "key": "https://www.grants.gov/search-results-detail/362833",
-      "mission_id": "golden-dome",
-      "mission_name": "Golden Dome for America",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Golden Dome",
-      "stage": "mission evidence admission",
-      "title": "FY 2026 Congress-Bundestag Youth Exchange for Young Professionals and Congress-Bundestag/Bundesrat Staff Exchange",
-      "url": "https://www.grants.gov/search-results-detail/362833"
     }
   ],
   "reason_counts": [
@@ -2301,12 +2301,12 @@
     },
     {
       "code": "official_source",
-      "count": 98,
+      "count": 97,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 34,
+      "count": 35,
       "label": "Source is not an official .gov or .mil domain"
     },
     {
@@ -2325,6 +2325,6 @@
     "quarantined": 135,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-10-19T02:43:46.166709+00:00",
+  "updated_at": "2026-10-20T02:55:18.077489+00:00",
   "version": 1
 }

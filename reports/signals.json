@@ -211,15 +211,6 @@
           "url": "https://arxiv.org/abs/2610.03857"
         },
         {
-          "date": "2026-10-13",
-          "key": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
-          "report": "2026-10/2026-10-13-digest.md",
-          "score": 29,
-          "source": "Thales Cybersecurity Blog",
-          "title": "Agentic AI Security Risks in Manufacturing | Thales",
-          "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
-        },
-        {
           "date": "2026-10-17",
           "key": "https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs",
           "report": "2026-10/2026-10-17-digest.md",
@@ -227,12 +218,21 @@
           "source": "Quantum Computing Report",
           "title": "Harvard, Anthropic, and QuEra Use LLMs to Discover Quantum Circuits with Up to 9,100x Lower Resource Costs",
           "url": "https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 29,
+          "source": "Thales Cybersecurity Blog",
+          "title": "Agentic AI Security Risks in Manufacturing | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-10-17",
+      "latest_seen": "2026-10-19",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -241,7 +241,7 @@
         "Quantum Computing Report",
         "The Quantum Insider"
       ],
-      "prior_count": 1,
+      "prior_count": 0,
       "recent_count": 2,
       "status": "actionable"
     },
@@ -2779,15 +2779,6 @@
         },
         {
           "date": "2026-10-14",
-          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-10/2026-10-14-digest.md",
-          "score": 67,
-          "source": "Thales Cybersecurity Blog",
-          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
-        },
-        {
-          "date": "2026-10-14",
           "key": "https://eprint.iacr.org/2026/2478",
           "report": "2026-10/2026-10-14-digest.md",
           "score": 70,
@@ -2929,12 +2920,30 @@
           "source": "IACR ePrint",
           "title": "DPA-style Attacks on VOLE-in-the-Head Signature Schemes",
           "url": "https://eprint.iacr.org/2026/2519"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://pqshield.com/the-bsis-new-post-quantum-roadmap-a-race-against-quantum-and-ai",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 55,
+          "source": "PQShield",
+          "title": "The BSI\u2019s new post-quantum roadmap \u2013 a race against quantum and AI",
+          "url": "https://pqshield.com/the-bsis-new-post-quantum-roadmap-a-race-against-quantum-and-ai"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 67,
+          "source": "Thales Cybersecurity Blog",
+          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-10-17",
+      "latest_seen": "2026-10-19",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -2943,8 +2952,8 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 22,
-      "recent_count": 25,
+      "prior_count": 19,
+      "recent_count": 24,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -3723,23 +3732,50 @@
           "source": "Quantum Computing Report",
           "title": "RIKEN Demonstrates High-Fidelity Simultaneous Control of Silicon Spin Qubits Above 99.9% Threshold",
           "url": "https://quantumcomputingreport.com/riken-demonstrates-high-fidelity-simultaneous-control-of-silicon-spin-qubits-above-99-9-threshold"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://quantumcomputingreport.com/nvidia-and-julich-run-104-qubit-magic-state-cultivation-simulation-on-jupiter-supercomputer",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 87,
+          "source": "Quantum Computing Report",
+          "title": "NVIDIA and J\u00fclich Run 104-Qubit Magic State Cultivation Simulation on JUPITER Supercomputer",
+          "url": "https://quantumcomputingreport.com/nvidia-and-julich-run-104-qubit-magic-state-cultivation-simulation-on-jupiter-supercomputer"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://quantumcomputingreport.com/quantinuum-demonstrates-99-9995-logical-memory-fidelity-on-helios-trapped-ion-processor",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 100,
+          "source": "Quantum Computing Report",
+          "title": "Quantinuum Demonstrates 99.9995% Logical Memory Fidelity on Helios Trapped-Ion Processor",
+          "url": "https://quantumcomputingreport.com/quantinuum-demonstrates-99-9995-logical-memory-fidelity-on-helios-trapped-ion-processor"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://quantumcomputingreport.com/chinese-startup-flipflop-tuoyuan-emerges-with-major-vc-backing-for-100-logical-qubit-neutral-atom-systems",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 125,
+          "source": "Quantum Computing Report",
+          "title": "Chinese Startup FlipFlop Tuoyuan Emerges with Major VC Backing for 100-Logical-Qubit Neutral-Atom Systems",
+          "url": "https://quantumcomputingreport.com/chinese-startup-flipflop-tuoyuan-emerges-with-major-vc-backing-for-100-logical-qubit-neutral-atom-systems"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-10-17",
-      "momentum": "stable",
+      "latest_seen": "2026-10-19",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
-        "QuantumNews.ai",
         "Quantum Computing Report",
+        "QuantumNews.ai",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 6,
-      "recent_count": 7,
-      "status": "watching"
+      "prior_count": 5,
+      "recent_count": 10,
+      "status": "actionable"
     },
     "Quantum Hardware": {
       "confidence": "high",
@@ -6722,13 +6758,49 @@
           "source": "Quantum Computing Report",
           "title": "Kipu Quantum Demonstrates Neutral-Atom Quantum Feature Extraction for Molecular Toxicity Classification on QuEra Hardware",
           "url": "https://quantumcomputingreport.com/kipu-quantum-demonstrates-neutral-atom-quantum-feature-extraction-for-molecular-toxicity-classification-on-quera-hardware"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://thequantuminsider.com/2026/10/19/advance-could-lead-to-bigger-more-reliable-quantum-computers-university-of-edinburgh-scientists-say",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 19,
+          "source": "The Quantum Insider",
+          "title": "Advance Could Lead to Bigger, More Reliable Quantum Computers, University of Edinburgh Scientists Say",
+          "url": "https://thequantuminsider.com/2026/10/19/advance-could-lead-to-bigger-more-reliable-quantum-computers-university-of-edinburgh-scientists-say"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://thequantuminsider.com/2026/10/19/quantinuum-reports-a-10x-reduction-in-logical-error-rate-on-helios",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 57,
+          "source": "The Quantum Insider",
+          "title": "Quantinuum Reports a 10x Reduction in Logical Error Rate on Helios",
+          "url": "https://thequantuminsider.com/2026/10/19/quantinuum-reports-a-10x-reduction-in-logical-error-rate-on-helios"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://thequantuminsider.com/2026/10/19/nvidia-runs-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 78,
+          "source": "The Quantum Insider",
+          "title": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre",
+          "url": "https://thequantuminsider.com/2026/10/19/nvidia-runs-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://thequantuminsider.com/2026/10/19/chinas-tuoyuan-targets-neutral-atom-quantum-computing",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 107,
+          "source": "The Quantum Insider",
+          "title": "China\u2019s Tuoyuan Targets Neutral-Atom Quantum Computing",
+          "url": "https://thequantuminsider.com/2026/10/19/chinas-tuoyuan-targets-neutral-atom-quantum-computing"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-10-17",
-      "momentum": "stable",
+      "latest_seen": "2026-10-19",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -6736,9 +6808,9 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 10,
-      "recent_count": 11,
-      "status": "watching"
+      "prior_count": 9,
+      "recent_count": 14,
+      "status": "actionable"
     },
     "Quantum Networking": {
       "confidence": "high",
@@ -8589,12 +8661,21 @@
           "source": "The Quantum Insider",
           "title": "Dirac Labs joins Wisconsin Security Research Consortium",
           "url": "https://thequantuminsider.com/2026/10/15/dirac-labs-joins-wisconsin-security-research-consortium"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://quantumcomputingreport.com/uk-government-and-ukri-unveil-78m-103-8m-usd-quantum-commercialization-networking-and-skills-package",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 100,
+          "source": "Quantum Computing Report",
+          "title": "UK Government and UKRI Unveil \u00a378M ($103.8M USD) Quantum Commercialization, Networking, and Skills Package",
+          "url": "https://quantumcomputingreport.com/uk-government-and-ukri-unveil-78m-103-8m-usd-quantum-commercialization-networking-and-skills-package"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Prioritize quantified sensitivity, field trials, integration milestones, and customer adoption.",
       "importance": "critical",
-      "latest_seen": "2026-10-15",
+      "latest_seen": "2026-10-19",
       "momentum": "rising",
       "organizations": [
         "QuantumNews.ai",
@@ -8604,7 +8685,7 @@
         "Department of War Strategic Technology News"
       ],
       "prior_count": 0,
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "actionable"
     },
     "Quantum Software / Tooling": {
@@ -9563,12 +9644,21 @@
           "source": "Quantum Computing Report",
           "title": "Open Quantum Launches Native Qrisp Integration for High-Level QPU Execution Across IonQ, Rigetti, IQM, and AQT Hardware",
           "url": "https://quantumcomputingreport.com/open-quantum-launches-native-qrisp-integration-for-high-level-qpu-execution-across-ionq-rigetti-iqm-and-aqt-hardware"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://quantumcomputingreport.com/xanadu-secures-up-to-10-million-in-additional-darpa-funding-under-qbi-program",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 100,
+          "source": "Quantum Computing Report",
+          "title": "Xanadu Secures Up to $10 Million in Additional DARPA Funding Under QBI Program",
+          "url": "https://quantumcomputingreport.com/xanadu-secures-up-to-10-million-in-additional-darpa-funding-under-qbi-program"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-10-17",
+      "latest_seen": "2026-10-19",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -9578,7 +9668,7 @@
         "USAspending \u00b7 Quantum Technologies"
       ],
       "prior_count": 3,
-      "recent_count": 6,
+      "recent_count": 7,
       "status": "actionable"
     },
     "Standards / Government": {
@@ -10267,13 +10357,22 @@
           "source": "The Quantum Insider",
           "title": "NSF Launches New Programs for Quantum Innovation and STEM Research",
           "url": "https://thequantuminsider.com/2026/10/08/nsf-new-quantum-research-stem-workforce-programs"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://thequantuminsider.com/2026/10/19/ukri-backs-uk-quantum-businesses-with-share-of-50-million",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "UKRI Backs UK Quantum Businesses With Share of \u00a350 Million",
+          "url": "https://thequantuminsider.com/2026/10/19/ukri-backs-uk-quantum-businesses-with-share-of-50-million"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-10-08",
-      "momentum": "stable",
+      "latest_seen": "2026-10-19",
+      "momentum": "declining",
       "organizations": [
         "The Quantum Insider",
         "QuantumNews.ai",
@@ -10281,11 +10380,11 @@
         "Quantum Zeitgeist",
         "USAspending \u00b7 Advanced Computing"
       ],
-      "prior_count": 9,
-      "recent_count": 10,
+      "prior_count": 7,
+      "recent_count": 1,
       "status": "watching"
     }
   },
-  "updated_at": "2026-10-19T02:47:43.659612+00:00",
+  "updated_at": "2026-10-20T03:02:02.518416+00:00",
   "version": 1
 }

@@ -492,8 +492,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 13,
-      "first_party_evidence_count": 12,
+      "evidence_count": 14,
+      "first_party_evidence_count": 13,
       "name": "PQShield",
       "priority": "high",
       "status": "covered",
@@ -556,7 +556,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 11,
+      "evidence_count": 13,
       "first_party_evidence_count": 0,
       "name": "Quantinuum",
       "priority": "high",
@@ -3545,7 +3545,7 @@
       "latest_seen": "2026-10-08",
       "momentum": "declining",
       "name": "Fortanix",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -3907,6 +3907,196 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
+      "current_evidence_count": 14,
+      "evidence": [
+        {
+          "date": "2026-10-19",
+          "key": "https://pqshield.com/the-bsis-new-post-quantum-roadmap-a-race-against-quantum-and-ai",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 55,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The BSI\u2019s new post-quantum roadmap \u2013 a race against quantum and AI",
+          "url": "https://pqshield.com/the-bsis-new-post-quantum-roadmap-a-race-against-quantum-and-ai"
+        },
+        {
+          "date": "2026-10-13",
+          "key": "https://pqshield.com/why-perfect-crypto-inventory-stalls-quantum-readiness",
+          "report": "2026-10/2026-10-13-digest.md",
+          "score": 47,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why perfect crypto inventory stalls quantum readiness",
+          "url": "https://pqshield.com/why-perfect-crypto-inventory-stalls-quantum-readiness"
+        },
+        {
+          "date": "2026-10-06",
+          "key": "https://pqshield.com/pqshield-expands-leadership-as-pqc-adoption-accelerates",
+          "report": "2026-10/2026-10-06-digest.md",
+          "score": 100,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "PQShield expands leadership as PQC adoption accelerates",
+          "url": "https://pqshield.com/pqshield-expands-leadership-as-pqc-adoption-accelerates"
+        },
+        {
+          "date": "2026-10-06",
+          "key": "https://thequantuminsider.com/2026/10/06/pqshield-commercial-sovereign-security-leaders",
+          "report": "2026-10/2026-10-06-digest.md",
+          "score": 87,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "PQShield Appoints New Commercial and Sovereign Security Leaders",
+          "url": "https://thequantuminsider.com/2026/10/06/pqshield-commercial-sovereign-security-leaders"
+        },
+        {
+          "date": "2026-10-02",
+          "key": "https://pqshield.com/how-ai-can-help-defend-against-future-quantum-attacks-forbes-tech-council",
+          "report": "2026-10/2026-10-02-digest.md",
+          "score": 47,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "How AI can help defend against future quantum attacks",
+          "url": "https://pqshield.com/how-ai-can-help-defend-against-future-quantum-attacks-forbes-tech-council"
+        },
+        {
+          "date": "2026-09-30",
+          "key": "https://pqshield.com/meet-the-team-morgane-guearreau",
+          "report": "2026-09/2026-09-30-digest.md",
+          "score": 47,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Meet the Team \u2013 Morgane Guerreau",
+          "url": "https://pqshield.com/meet-the-team-morgane-guearreau"
+        },
+        {
+          "date": "2026-09-17",
+          "key": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026",
+          "report": "2026-09/2026-09-17-digest.md",
+          "score": 67,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why the energy sector must plan for post-quantum cyber security now, WEF, Sep 2026",
+          "url": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026"
+        },
+        {
+          "date": "2026-09-15",
+          "key": "https://pqshield.com/events/we-are-attending-jaif-2026",
+          "report": "2026-09/2026-09-15-digest.md",
+          "score": 100,
+          "source": "PQShield",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "We are attending JAIF 2026 Montpellier, France 01 Oct, 2026 JAIF 2026 focuses on fault injection prevention - an increasingly complex technique used by attackers. We'll be attending in Montpellier, France, along with experts from industry, government and academia.",
+          "url": "https://pqshield.com/events/we-are-attending-jaif-2026"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://pqshield.com/reframing-quantum-risk-for-board-governance",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 50,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Reframing quantum risk for board governance Top security leaders from HSBC, Microsoft, Citi, and industry experts break down the executive mandate for post-quantum security. Learn how to reframe cryptographic risk for the C-suite, bridge governance gaps, and execute enterprise migration.",
+          "url": "https://pqshield.com/reframing-quantum-risk-for-board-governance"
+        },
+        {
+          "date": "2026-09-07",
+          "key": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026",
+          "report": "2026-09/2026-09-07-digest.md",
+          "score": 66,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "We are presenting at GSA PQC Summit 2026 Washington DC 16 - 16 Sep, 2026 We're attending and presenting this year at the 2026 GSA Post-Quantum Cryptography Summit.",
+          "url": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026"
+        },
+        {
+          "date": "2026-08-28",
+          "key": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca",
+          "report": "2026-08/2026-08-28-digest.md",
+          "score": 42,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "We are attending, Embedded World North America, Anaheim, CA Anaheim, CA 22 - 24 Sep, 2026 We'll be back at eWNA, 22-24 September 2026, Anaheim, CA. It's always a great opportunity to catch up with the latest developments in hardware, software, IoT and embedded solutions.",
+          "url": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca"
+        },
+        {
+          "date": "2026-08-28",
+          "key": "https://pqshield.com/events/we-are-speaking-cybersweden-2026",
+          "report": "2026-08/2026-08-28-digest.md",
+          "score": 32,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "We are speaking, CyberSweden 2026, Stockholm Stockholm, Sweden 15 - 17 Sep, 2026 CTO, Graeme Hickey is speaking at CyberSweden 2026 in Stockholm. He\u2019ll present \"Beyond Quantum Safe: Building Systems that Can Survive the Next Cryptographic Transition\". CyberSweden runs Sept 15\u201317.",
+          "url": "https://pqshield.com/events/we-are-speaking-cybersweden-2026"
+        },
+        {
+          "date": "2026-07-23",
+          "key": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness",
+          "report": "2026-07/2026-07-23-digest.md",
+          "score": 50,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.",
+          "url": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness"
+        },
+        {
+          "date": "2026-07-03",
+          "key": "https://pqshield.com/why-crypto-agility-requires-real-governance",
+          "report": "2026-07/2026-07-03-digest.md",
+          "score": 108,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why crypto-agility requires real governance Eric Amador explains how pqctoday.com uses AI and WebAssembly to remove friction from testing quantum-safe algorithms. Learn how different organizational personas can map out global migration timelines and prepare for upcoming compliance mandates.",
+          "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
+        }
+      ],
+      "evidence_count": 14,
+      "first_seen": "2026-07-03",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-10-19",
+      "momentum": "stable",
+      "name": "PQShield",
+      "prior_count": 2,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility",
+        "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
       "current_evidence_count": 13,
       "evidence": [
         {
@@ -4089,183 +4279,29 @@
       "current_evidence_count": 13,
       "evidence": [
         {
-          "date": "2026-10-13",
-          "key": "https://pqshield.com/why-perfect-crypto-inventory-stalls-quantum-readiness",
-          "report": "2026-10/2026-10-13-digest.md",
-          "score": 47,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Why perfect crypto inventory stalls quantum readiness",
-          "url": "https://pqshield.com/why-perfect-crypto-inventory-stalls-quantum-readiness"
-        },
-        {
-          "date": "2026-10-06",
-          "key": "https://pqshield.com/pqshield-expands-leadership-as-pqc-adoption-accelerates",
-          "report": "2026-10/2026-10-06-digest.md",
+          "date": "2026-10-19",
+          "key": "https://quantumcomputingreport.com/quantinuum-demonstrates-99-9995-logical-memory-fidelity-on-helios-trapped-ion-processor",
+          "report": "2026-10/2026-10-19-digest.md",
           "score": 100,
-          "source": "PQShield",
+          "source": "Quantum Computing Report",
           "themes": [
-            "PQC / Crypto Agility"
+            "QEC / Fault Tolerance"
           ],
-          "title": "PQShield expands leadership as PQC adoption accelerates",
-          "url": "https://pqshield.com/pqshield-expands-leadership-as-pqc-adoption-accelerates"
+          "title": "Quantinuum Demonstrates 99.9995% Logical Memory Fidelity on Helios Trapped-Ion Processor",
+          "url": "https://quantumcomputingreport.com/quantinuum-demonstrates-99-9995-logical-memory-fidelity-on-helios-trapped-ion-processor"
         },
         {
-          "date": "2026-10-06",
-          "key": "https://thequantuminsider.com/2026/10/06/pqshield-commercial-sovereign-security-leaders",
-          "report": "2026-10/2026-10-06-digest.md",
-          "score": 87,
+          "date": "2026-10-19",
+          "key": "https://thequantuminsider.com/2026/10/19/quantinuum-reports-a-10x-reduction-in-logical-error-rate-on-helios",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 57,
           "source": "The Quantum Insider",
           "themes": [
-            "PQC / Crypto Agility"
+            "Quantum Hardware"
           ],
-          "title": "PQShield Appoints New Commercial and Sovereign Security Leaders",
-          "url": "https://thequantuminsider.com/2026/10/06/pqshield-commercial-sovereign-security-leaders"
+          "title": "Quantinuum Reports a 10x Reduction in Logical Error Rate on Helios",
+          "url": "https://thequantuminsider.com/2026/10/19/quantinuum-reports-a-10x-reduction-in-logical-error-rate-on-helios"
         },
-        {
-          "date": "2026-10-02",
-          "key": "https://pqshield.com/how-ai-can-help-defend-against-future-quantum-attacks-forbes-tech-council",
-          "report": "2026-10/2026-10-02-digest.md",
-          "score": 47,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "How AI can help defend against future quantum attacks",
-          "url": "https://pqshield.com/how-ai-can-help-defend-against-future-quantum-attacks-forbes-tech-council"
-        },
-        {
-          "date": "2026-09-30",
-          "key": "https://pqshield.com/meet-the-team-morgane-guearreau",
-          "report": "2026-09/2026-09-30-digest.md",
-          "score": 47,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Meet the Team \u2013 Morgane Guerreau",
-          "url": "https://pqshield.com/meet-the-team-morgane-guearreau"
-        },
-        {
-          "date": "2026-09-17",
-          "key": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026",
-          "report": "2026-09/2026-09-17-digest.md",
-          "score": 67,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Why the energy sector must plan for post-quantum cyber security now, WEF, Sep 2026",
-          "url": "https://pqshield.com/why-the-energy-sector-must-plan-for-post-quantum-cyber-security-now-wef-sep-2026"
-        },
-        {
-          "date": "2026-09-15",
-          "key": "https://pqshield.com/events/we-are-attending-jaif-2026",
-          "report": "2026-09/2026-09-15-digest.md",
-          "score": 100,
-          "source": "PQShield",
-          "themes": [
-            "Standards / Government"
-          ],
-          "title": "We are attending JAIF 2026 Montpellier, France 01 Oct, 2026 JAIF 2026 focuses on fault injection prevention - an increasingly complex technique used by attackers. We'll be attending in Montpellier, France, along with experts from industry, government and academia.",
-          "url": "https://pqshield.com/events/we-are-attending-jaif-2026"
-        },
-        {
-          "date": "2026-09-10",
-          "key": "https://pqshield.com/reframing-quantum-risk-for-board-governance",
-          "report": "2026-09/2026-09-10-digest.md",
-          "score": 50,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Reframing quantum risk for board governance Top security leaders from HSBC, Microsoft, Citi, and industry experts break down the executive mandate for post-quantum security. Learn how to reframe cryptographic risk for the C-suite, bridge governance gaps, and execute enterprise migration.",
-          "url": "https://pqshield.com/reframing-quantum-risk-for-board-governance"
-        },
-        {
-          "date": "2026-09-07",
-          "key": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026",
-          "report": "2026-09/2026-09-07-digest.md",
-          "score": 66,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "We are presenting at GSA PQC Summit 2026 Washington DC 16 - 16 Sep, 2026 We're attending and presenting this year at the 2026 GSA Post-Quantum Cryptography Summit.",
-          "url": "https://pqshield.com/events/we-are-presenting-at-gsa-pqc-summit-2026"
-        },
-        {
-          "date": "2026-08-28",
-          "key": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca",
-          "report": "2026-08/2026-08-28-digest.md",
-          "score": 42,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "We are attending, Embedded World North America, Anaheim, CA Anaheim, CA 22 - 24 Sep, 2026 We'll be back at eWNA, 22-24 September 2026, Anaheim, CA. It's always a great opportunity to catch up with the latest developments in hardware, software, IoT and embedded solutions.",
-          "url": "https://pqshield.com/events/we-are-attending-embedded-world-north-america-anaheim-ca"
-        },
-        {
-          "date": "2026-08-28",
-          "key": "https://pqshield.com/events/we-are-speaking-cybersweden-2026",
-          "report": "2026-08/2026-08-28-digest.md",
-          "score": 32,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "We are speaking, CyberSweden 2026, Stockholm Stockholm, Sweden 15 - 17 Sep, 2026 CTO, Graeme Hickey is speaking at CyberSweden 2026 in Stockholm. He\u2019ll present \"Beyond Quantum Safe: Building Systems that Can Survive the Next Cryptographic Transition\". CyberSweden runs Sept 15\u201317.",
-          "url": "https://pqshield.com/events/we-are-speaking-cybersweden-2026"
-        },
-        {
-          "date": "2026-07-23",
-          "key": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness",
-          "report": "2026-07/2026-07-23-digest.md",
-          "score": 50,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "EUDI wallet security and quantum-readiness Wei Yuan, Lab Manager at Applus+ Laboratories, explains the certification challenges of the 2026 European Digital Identity Wallet mandate and why secure implementation is critical for post-quantum digital identity.",
-          "url": "https://pqshield.com/eudi-wallet-security-and-quantum-readiness"
-        },
-        {
-          "date": "2026-07-03",
-          "key": "https://pqshield.com/why-crypto-agility-requires-real-governance",
-          "report": "2026-07/2026-07-03-digest.md",
-          "score": 108,
-          "source": "PQShield",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Why crypto-agility requires real governance Eric Amador explains how pqctoday.com uses AI and WebAssembly to remove friction from testing quantum-safe algorithms. Learn how different organizational personas can map out global migration timelines and prepare for upcoming compliance mandates.",
-          "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
-        }
-      ],
-      "evidence_count": 13,
-      "first_seen": "2026-07-03",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-10-13",
-      "momentum": "declining",
-      "name": "PQShield",
-      "prior_count": 2,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "PQC / Crypto Agility",
-        "Standards / Government"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 11,
-      "evidence": [
         {
           "date": "2026-10-05",
           "key": "https://quantumcomputingreport.com/quantinuum-and-the-university-of-western-australia-partner-to-advance-australias-hybrid-quantum-ai-hpc-ecosystem",
@@ -4399,16 +4435,16 @@
           "url": "https://quantumzeitgeist.com/quantinuum-qnt"
         }
       ],
-      "evidence_count": 11,
+      "evidence_count": 13,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-10-05",
-      "momentum": "declining",
+      "latest_seen": "2026-10-19",
+      "momentum": "rising",
       "name": "Quantinuum",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 2,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility",
         "QEC / Fault Tolerance",
@@ -5503,9 +5539,9 @@
       "current_evidence_count": 4,
       "evidence": [
         {
-          "date": "2026-10-14",
+          "date": "2026-10-19",
           "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-10/2026-10-14-digest.md",
+          "report": "2026-10/2026-10-19-digest.md",
           "score": 67,
           "source": "Thales Cybersecurity Blog",
           "themes": [
@@ -5515,9 +5551,9 @@
           "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
         },
         {
-          "date": "2026-10-13",
+          "date": "2026-10-19",
           "key": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
-          "report": "2026-10/2026-10-13-digest.md",
+          "report": "2026-10/2026-10-19-digest.md",
           "score": 29,
           "source": "Thales Cybersecurity Blog",
           "themes": [
@@ -5554,7 +5590,7 @@
       "evidence_count": 4,
       "first_seen": "2026-08-04",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-10-14",
+      "latest_seen": "2026-10-19",
       "momentum": "rising",
       "name": "Thales",
       "prior_count": 0,
@@ -7964,7 +8000,7 @@
       "latest_seen": "2026-10-13",
       "momentum": "declining",
       "name": "Crypto-agility",
-      "prior_count": 4,
+      "prior_count": 3,
       "priority": "critical",
       "recent_count": 1,
       "status": "active",
@@ -8470,7 +8506,7 @@
       "latest_seen": "2026-10-15",
       "momentum": "stable",
       "name": "Quantum error correction",
-      "prior_count": 4,
+      "prior_count": 3,
       "priority": "critical",
       "recent_count": 3,
       "status": "active",
@@ -8488,8 +8524,20 @@
         "fault-tolerant quantum"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 28,
+      "current_evidence_count": 29,
       "evidence": [
+        {
+          "date": "2026-10-19",
+          "key": "https://thequantuminsider.com/2026/10/19/nvidia-runs-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 78,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "NVIDIA Runs Simulation of Fault-Tolerant Quantum Computing at J\u00fclich Supercomputing Centre",
+          "url": "https://thequantuminsider.com/2026/10/19/nvidia-runs-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre"
+        },
         {
           "date": "2026-10-08",
           "key": "https://arxiv.org/abs/2610.10948",
@@ -8899,16 +8947,16 @@
           "url": "https://www.psiquantum.com/news-import/psiquantum-1b-fundraise"
         }
       ],
-      "evidence_count": 31,
+      "evidence_count": 32,
       "first_seen": "2025-09-10",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-10-08",
-      "momentum": "declining",
+      "latest_seen": "2026-10-19",
+      "momentum": "stable",
       "name": "Logical qubits",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -9364,9 +9412,9 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 3,
       "latest_seen": "2026-10-05",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Quantum key distribution",
-      "prior_count": 2,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -9557,11 +9605,11 @@
       "first_seen": "2026-07-16",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-14",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Quantum networking",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -9936,6 +9984,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-10-19T02:47:43.674503+00:00",
+  "updated_at": "2026-10-20T03:02:02.530670+00:00",
   "version": 2
 }

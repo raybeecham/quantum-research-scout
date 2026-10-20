@@ -280,10 +280,43 @@
   ],
   "added": [],
   "baseline_initialized": false,
-  "changed": [],
+  "changed": [
+    {
+      "authority": "authoritative",
+      "change_type": "changed",
+      "claim_id": "claim-530f9eb80e78d41d",
+      "confidence": "high",
+      "effective_date": "2026-09-17",
+      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
+      "last_observed_at": "2026-10-20T02:55:18.077489+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "previous_object": null,
+      "previous_value": "open",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-aefe3302a248970f",
+          "locator": "opportunity_status:closed",
+          "title": "The DOE Quantum Genesis Q Competition",
+          "url": "https://www.grants.gov/search-results-detail/363869",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:DE-FOA-0003657",
+        "label": "The DOE Quantum Genesis Q Competition",
+        "node_id": "opportunity:grants_gov:DE-FOA-0003657",
+        "node_type": "opportunity"
+      },
+      "value": "closed"
+    }
+  ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-10-19T02:43:46.166709+00:00",
-  "comparison_started_at": "2026-10-18T07:39:11.123989+00:00",
+  "comparison_ended_at": "2026-10-20T02:55:18.077489+00:00",
+  "comparison_started_at": "2026-10-19T02:43:46.166709+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1199,19 +1232,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-10-18T07:39:11.123989+00:00",
+  "since": "2026-10-19T02:43:46.166709+00:00",
   "summary": {
     "active_claims": 5015,
     "added": 0,
-    "changed": 0,
+    "changed": 1,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 27,
+    "material_changes": 28,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-10-19T02:43:46.166709+00:00",
+  "updated_at": "2026-10-20T02:55:18.077489+00:00",
   "version": 1
 }

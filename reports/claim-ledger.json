@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-10-19",
+  "as_of_date": "2026-10-20",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,67 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-530f9eb80e78d41d",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-17",
+      "evidence_ids": [
+        "evidence-aefe3302a248970f"
+      ],
+      "first_seen_at": "2026-09-18T02:36:20.942459+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported status in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-c714f29520979314"
+          ],
+          "first_seen_at": "2026-09-18T02:36:20.942459+00:00",
+          "last_seen_at": "2026-09-18T02:36:20.942459+00:00",
+          "object": null,
+          "status": "active",
+          "value": "open",
+          "version": 1,
+          "version_hash": "5796ebc1b2dffeaf"
+        }
+      ],
+      "last_seen_at": "2026-10-20T02:55:18.077489+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-aefe3302a248970f",
+          "locator": "opportunity_status:closed",
+          "title": "The DOE Quantum Genesis Q Competition",
+          "url": "https://www.grants.gov/search-results-detail/363869",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:DE-FOA-0003657",
+        "label": "The DOE Quantum Genesis Q Competition",
+        "node_id": "opportunity:grants_gov:DE-FOA-0003657",
+        "node_type": "opportunity"
+      },
+      "value": "closed",
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "6b97c34d8dbf91fb"
     },
     {
       "authority": "authoritative",
@@ -29758,51 +29819,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "42e8e7db99a88f8f"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-530f9eb80e78d41d",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-09-17",
-      "evidence_ids": [
-        "evidence-c714f29520979314"
-      ],
-      "first_seen_at": "2026-09-18T02:36:20.942459+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-18T02:36:20.942459+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c714f29520979314",
-          "locator": "opportunity_status:open",
-          "title": "The DOE Quantum Genesis Q Competition",
-          "url": "https://www.grants.gov/search-results-detail/363869",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:DE-FOA-0003657",
-        "label": "The DOE Quantum Genesis Q Competition",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003657",
-        "node_type": "opportunity"
-      },
-      "value": "open",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "5796ebc1b2dffeaf"
     },
     {
       "authority": "authoritative",
@@ -221980,9 +221996,9 @@
       "first_seen_at": "2026-09-18T02:36:20.942459+00:00",
       "history": [],
       "last_seen_at": "2026-09-18T02:36:20.942459+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "pursuit_stage",
       "sources": [
         {
@@ -224889,9 +224905,9 @@
         }
       ],
       "last_seen_at": "2026-10-16T02:37:08.215323+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -249316,7 +249332,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249363,7 +249379,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249410,7 +249426,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249457,7 +249473,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249504,7 +249520,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249551,7 +249567,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249598,7 +249614,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249645,7 +249661,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249692,7 +249708,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249739,7 +249755,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249786,7 +249802,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249833,7 +249849,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249880,7 +249896,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249927,7 +249943,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249974,7 +249990,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250021,7 +250037,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250068,7 +250084,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250115,7 +250131,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250167,7 +250183,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250219,7 +250235,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250271,7 +250287,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250323,7 +250339,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250375,7 +250391,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250427,7 +250443,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250479,7 +250495,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250531,7 +250547,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250583,7 +250599,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-19T02:43:46.166709+00:00",
+      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -285176,6 +285192,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-aefe3302a248970f",
+      "locator": "opportunity_status:closed",
+      "title": "The DOE Quantum Genesis Q Competition",
+      "url": "https://www.grants.gov/search-results-detail/363869",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-af043e942b19db14",
       "locator": "reported_recipient:recipient_or_contractor:name:university of missouri system",
       "title": "SUPPORTING MODEL-BASED REASONING IN SEMICONDUCTOR ENGINEERING INSTRUCTION: AN AI-GUIDED IMMERSIVE LEARNING APPROACH -THIS PROJECT AIMS TO SERVE THE NATIONAL INTEREST BY ADDRESSING...",
@@ -289960,16 +289986,6 @@
       "locator": "awarding_agency:dos-zwe",
       "title": "Annual Program Statement",
       "url": "https://www.grants.gov/search-results-detail/363723",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
-      "evidence_id": "evidence-c714f29520979314",
-      "locator": "opportunity_status:open",
-      "title": "The DOE Quantum Genesis Q Competition",
-      "url": "https://www.grants.gov/search-results-detail/363869",
       "verification_status": "source_reported"
     },
     {
@@ -301816,6 +301832,6 @@
     "superseded_claims": 0,
     "total_claims": 5042
   },
-  "updated_at": "2026-10-19T02:43:46.166709+00:00",
+  "updated_at": "2026-10-20T02:55:18.077489+00:00",
   "version": 1
 }
