@@ -1,6 +1,6 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-10-20T02:55:18.077489+00:00_
+_Updated 2026-10-21T02:49:33.127817+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
@@ -19,8 +19,8 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - **Match appears only in collector query metadata**: 132
 - **No relevant term in the evidence itself**: 132
-- **Official government source**: 97
-- **Source is not an official .gov or .mil domain**: 35
+- **Official government source**: 96
+- **Source is not an official .gov or .mil domain**: 36
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -31,6 +31,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [Xanadu Receives Provisional Approval for Up to $10M in DARPA Funding](https://thequantuminsider.com/2026/10/20/darpa-10-million-xanadu-quantum-research)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [Xanadu Secures Up to $10 Million in Additional DARPA Funding Under QBI Program](https://quantumcomputingreport.com/xanadu-secures-up-to-10-million-in-additional-darpa-funding-under-qbi-program)
 
@@ -715,13 +722,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal missions
 - Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [FY 2027 Fulbright Scholar Program](https://www.grants.gov/search-results-detail/362828)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 

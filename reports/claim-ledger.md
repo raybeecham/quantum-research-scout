@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-10-20T02:55:18.077489+00:00_
+_Updated 2026-10-21T02:49:33.127817+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
@@ -52,6 +52,7 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA... | reported amount | 21424659.0 | authoritative / high | [INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...](https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-) |
 | active | The DOE Quantum Genesis Q Competition | opportunity status | closed | authoritative / high | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) |
 | active | Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008) | opportunity status | awarded | authoritative / high | [Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008)](https://sam.gov/workspace/contract/opp/5ff635ffb85f4e25b34661f0a268e577/view) |
 | active | Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008) | set aside | No Set aside used | authoritative / high | [Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008)](https://sam.gov/workspace/contract/opp/5ff635ffb85f4e25b34661f0a268e577/view) |
@@ -263,7 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | Cybersecurity Managment Support Services | opportunity status | awarded | authoritative / high | [Cybersecurity Managment Support Services](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view) |
 | active | Cybersecurity Managment Support Services | awarding agency | TRANSPORTATION, DEPARTMENT OF.FEDERAL HIGHWAY ADMINISTRATION.693JJ3 ACQUISITION AND GRANTS MGT | authoritative / high | [Cybersecurity Managment Support Services](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view) |
 | active | Cybersecurity Managment Support Services | reported amount | 758088.88 | authoritative / high | [Cybersecurity Managment Support Services](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view) |
-| active | Cybersecurity Managment Support Services | reported recipient | CRITERION SYSTEMS, L.L.C. | authoritative / high | [Cybersecurity Managment Support Services](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view) |
 
 ## Method
 

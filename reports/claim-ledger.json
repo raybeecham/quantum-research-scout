@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-10-20",
+  "as_of_date": "2026-10-21",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,67 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-58ee0b6a532a2f76",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2025-05-07",
+      "evidence_ids": [
+        "evidence-04ade03b7110ea43"
+      ],
+      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "history": [
+        {
+          "authority": "authoritative",
+          "basis": "Reported amount in the federal record",
+          "confidence": "high",
+          "evidence_ids": [
+            "evidence-184b81388f718fba"
+          ],
+          "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "object": null,
+          "status": "active",
+          "value": 11007748.0,
+          "version": 1,
+          "version_hash": "9f18fb11169e7b77"
+        }
+      ],
+      "last_seen_at": "2026-10-21T02:49:33.127817+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-04ade03b7110ea43",
+          "locator": "reported_amount:21424659.0",
+          "title": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:N0001425C2204",
+        "label": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+        "node_id": "award:usaspending:N0001425C2204",
+        "node_type": "award"
+      },
+      "value": 21424659.0,
+      "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "78e9fd6d736eb3bd"
     },
     {
       "authority": "authoritative",
@@ -152976,6 +153037,56 @@
     {
       "authority": "authoritative",
       "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-7e8ba2c2c1f7bf62",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2025-05-07",
+      "evidence_ids": [
+        "evidence-92f660ad713a54af"
+      ],
+      "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
+      "history": [],
+      "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:EVJCVE83BCJ1",
+        "label": "INTEGER TECHNOLOGIES LLC",
+        "node_id": "recipient_or_contractor:uei:EVJCVE83BCJ1",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-92f660ad713a54af",
+          "locator": "reported_recipient:recipient_or_contractor:uei:EVJCVE83BCJ1",
+          "title": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:N0001425C2204",
+        "label": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+        "node_id": "award:usaspending:N0001425C2204",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "cb13b470cb163e98"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
       "claim_id": "claim-b94949451867a0d9",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -153472,56 +153583,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "de3523f46c85d915"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-7e8ba2c2c1f7bf62",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2025-05-07",
-      "evidence_ids": [
-        "evidence-92f660ad713a54af"
-      ],
-      "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "history": [],
-      "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:EVJCVE83BCJ1",
-        "label": "INTEGER TECHNOLOGIES LLC",
-        "node_id": "recipient_or_contractor:uei:EVJCVE83BCJ1",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-92f660ad713a54af",
-          "locator": "reported_recipient:recipient_or_contractor:uei:EVJCVE83BCJ1",
-          "title": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:N0001425C2204",
-        "label": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
-        "node_id": "award:usaspending:N0001425C2204",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "cb13b470cb163e98"
     },
     {
       "authority": "authoritative",
@@ -166861,6 +166922,96 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
+      "claim_id": "claim-32401e122a04a7ef",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2025-05-07",
+      "evidence_ids": [
+        "evidence-26a45092cbcc5652"
+      ],
+      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "history": [],
+      "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-26a45092cbcc5652",
+          "locator": "opportunity_status:awarded",
+          "title": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-/",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:N0001425C2204",
+        "label": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+        "node_id": "award:usaspending:N0001425C2204",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d7f187f37c15748d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-23a782e9f6df1508",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2025-05-07",
+      "evidence_ids": [
+        "evidence-a9f3c0b722d13b4b"
+      ],
+      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "history": [],
+      "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a9f3c0b722d13b4b",
+          "locator": "awarding_agency:department of defense",
+          "title": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-/",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:N0001425C2204",
+        "label": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+        "node_id": "award:usaspending:N0001425C2204",
+        "node_type": "award"
+      },
+      "value": "Department of Defense",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1f49d5f6b2ba56c2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
       "claim_id": "claim-ae62ab7955e2c924",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -168162,141 +168313,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "34b492ff76d3d179"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-32401e122a04a7ef",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2025-05-07",
-      "evidence_ids": [
-        "evidence-26a45092cbcc5652"
-      ],
-      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "history": [],
-      "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-26a45092cbcc5652",
-          "locator": "opportunity_status:awarded",
-          "title": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-/",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:N0001425C2204",
-        "label": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
-        "node_id": "award:usaspending:N0001425C2204",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "d7f187f37c15748d"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-23a782e9f6df1508",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2025-05-07",
-      "evidence_ids": [
-        "evidence-a9f3c0b722d13b4b"
-      ],
-      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "history": [],
-      "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a9f3c0b722d13b4b",
-          "locator": "awarding_agency:department of defense",
-          "title": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-/",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:N0001425C2204",
-        "label": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
-        "node_id": "award:usaspending:N0001425C2204",
-        "node_type": "award"
-      },
-      "value": "Department of Defense",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "1f49d5f6b2ba56c2"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-58ee0b6a532a2f76",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2025-05-07",
-      "evidence_ids": [
-        "evidence-184b81388f718fba"
-      ],
-      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "history": [],
-      "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-184b81388f718fba",
-          "locator": "reported_amount:11007748.0",
-          "title": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-/",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:N0001425C2204",
-        "label": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
-        "node_id": "award:usaspending:N0001425C2204",
-        "node_type": "award"
-      },
-      "value": 11007748.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "9f18fb11169e7b77"
     },
     {
       "authority": "authoritative",
@@ -249332,7 +249348,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249379,7 +249395,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249426,7 +249442,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249473,7 +249489,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249520,7 +249536,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249567,7 +249583,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249614,7 +249630,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249661,7 +249677,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249708,7 +249724,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249755,7 +249771,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249802,7 +249818,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249849,7 +249865,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249896,7 +249912,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249943,7 +249959,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249990,7 +250006,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250037,7 +250053,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250084,7 +250100,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250131,7 +250147,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250183,7 +250199,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250235,7 +250251,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250287,7 +250303,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250339,7 +250355,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250391,7 +250407,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250443,7 +250459,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250495,7 +250511,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250547,7 +250563,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250599,7 +250615,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-20T02:55:18.077489+00:00",
+      "retracted_at": "2026-10-21T02:49:33.127817+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251625,6 +251641,16 @@
       "locator": "reported_amount:1499656.0",
       "title": "RESEARCH AND TECHNOLOGY TO PROMOTE SAFETY OF COMMERCIAL MOTOR VEHICLES, DRIVERS, AND CARRIERS, MULTIPLE AWARD, INDEFINITE DELIVERY, INDEFINITE QUANTITY CONTRACT- ENGAGING FLEETS O...",
       "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ426F00050N_6953_693JJ426D000019_6953",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-04ade03b7110ea43",
+      "locator": "reported_amount:21424659.0",
+      "title": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -255535,16 +255561,6 @@
       "locator": "awarding_agency:department of commerce",
       "title": "PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...",
       "url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013",
-      "verification_status": "source_reported"
-    },
-    {
-      "authority": "authoritative",
-      "content_hash": null,
-      "controlling_status": "not_asserted",
-      "evidence_id": "evidence-184b81388f718fba",
-      "locator": "reported_amount:11007748.0",
-      "title": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-/",
       "verification_status": "source_reported"
     },
     {
@@ -301832,6 +301848,6 @@
     "superseded_claims": 0,
     "total_claims": 5042
   },
-  "updated_at": "2026-10-20T02:55:18.077489+00:00",
+  "updated_at": "2026-10-21T02:49:33.127817+00:00",
   "version": 1
 }

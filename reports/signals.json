@@ -220,9 +220,9 @@
           "url": "https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs"
         },
         {
-          "date": "2026-10-19",
+          "date": "2026-10-20",
           "key": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
-          "report": "2026-10/2026-10-19-digest.md",
+          "report": "2026-10/2026-10-20-digest.md",
           "score": 29,
           "source": "Thales Cybersecurity Blog",
           "title": "Agentic AI Security Risks in Manufacturing | Thales",
@@ -232,7 +232,7 @@
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-10-19",
+      "latest_seen": "2026-10-20",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -2938,13 +2938,49 @@
           "source": "Thales Cybersecurity Blog",
           "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
           "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
+        },
+        {
+          "date": "2026-10-20",
+          "key": "https://thequantuminsider.com/2026/10/20/tokenised-finance-quantum-security",
+          "report": "2026-10/2026-10-20-digest.md",
+          "score": 42,
+          "source": "The Quantum Insider",
+          "title": "Guest Post: Why Tokenised Assets Need Quantum-Ready Security",
+          "url": "https://thequantuminsider.com/2026/10/20/tokenised-finance-quantum-security"
+        },
+        {
+          "date": "2026-10-20",
+          "key": "https://thequantuminsider.com/2026/10/20/arqit-invests-sirius-quantum-safe-defence-communications",
+          "report": "2026-10/2026-10-20-digest.md",
+          "score": 55,
+          "source": "The Quantum Insider",
+          "title": "Arqit Invests in Sirius to Develop Quantum-Safe Defence Communications",
+          "url": "https://thequantuminsider.com/2026/10/20/arqit-invests-sirius-quantum-safe-defence-communications"
+        },
+        {
+          "date": "2026-10-20",
+          "key": "https://thequantuminsider.com/2026/10/20/project-eleven-relm-post-quantum-risk-digital-asset-insurance",
+          "report": "2026-10/2026-10-20-digest.md",
+          "score": 55,
+          "source": "The Quantum Insider",
+          "title": "Project Eleven and Relm Explore Post-Quantum Risk in Digital Asset Insurance",
+          "url": "https://thequantuminsider.com/2026/10/20/project-eleven-relm-post-quantum-risk-digital-asset-insurance"
+        },
+        {
+          "date": "2026-10-20",
+          "key": "https://thequantuminsider.com/2026/10/20/nowsecure-97-percent-mobile-apps-no-pqc-code",
+          "report": "2026-10/2026-10-20-digest.md",
+          "score": 63,
+          "source": "The Quantum Insider",
+          "title": "NowSecure Finds No Detectable PQC Code in 97% of Mobile Apps",
+          "url": "https://thequantuminsider.com/2026/10/20/nowsecure-97-percent-mobile-apps-no-pqc-code"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-10-19",
-      "momentum": "stable",
+      "latest_seen": "2026-10-20",
+      "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
@@ -2952,9 +2988,9 @@
         "IACR ePrint",
         "Cisco Quantum-Safe Updates"
       ],
-      "prior_count": 19,
-      "recent_count": 24,
-      "status": "watching"
+      "prior_count": 14,
+      "recent_count": 25,
+      "status": "actionable"
     },
     "QEC / Fault Tolerance": {
       "confidence": "high",
@@ -6794,13 +6830,22 @@
           "source": "The Quantum Insider",
           "title": "China\u2019s Tuoyuan Targets Neutral-Atom Quantum Computing",
           "url": "https://thequantuminsider.com/2026/10/19/chinas-tuoyuan-targets-neutral-atom-quantum-computing"
+        },
+        {
+          "date": "2026-10-20",
+          "key": "https://thequantuminsider.com/2026/10/20/darpa-10-million-xanadu-quantum-research",
+          "report": "2026-10/2026-10-20-digest.md",
+          "score": 24,
+          "source": "The Quantum Insider",
+          "title": "Xanadu Receives Provisional Approval for Up to $10M in DARPA Funding",
+          "url": "https://thequantuminsider.com/2026/10/20/darpa-10-million-xanadu-quantum-research"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-10-19",
-      "momentum": "rising",
+      "latest_seen": "2026-10-20",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -6808,9 +6853,9 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 9,
-      "recent_count": 14,
-      "status": "actionable"
+      "prior_count": 10,
+      "recent_count": 13,
+      "status": "watching"
     },
     "Quantum Networking": {
       "confidence": "high",
@@ -9653,12 +9698,21 @@
           "source": "Quantum Computing Report",
           "title": "Xanadu Secures Up to $10 Million in Additional DARPA Funding Under QBI Program",
           "url": "https://quantumcomputingreport.com/xanadu-secures-up-to-10-million-in-additional-darpa-funding-under-qbi-program"
+        },
+        {
+          "date": "2026-10-20",
+          "key": "https://quantum-journal.org/papers/q-2026-10-20-2238",
+          "report": "2026-10/2026-10-20-digest.md",
+          "score": 20,
+          "source": "Quantum Journal",
+          "title": "Reliable Entropy Estimation from Observed Statistics for Device-Independent Quantum Cryptography",
+          "url": "https://quantum-journal.org/papers/q-2026-10-20-2238"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-10-19",
+      "latest_seen": "2026-10-20",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -9668,7 +9722,7 @@
         "USAspending \u00b7 Quantum Technologies"
       ],
       "prior_count": 3,
-      "recent_count": 7,
+      "recent_count": 8,
       "status": "actionable"
     },
     "Standards / Government": {
@@ -10385,6 +10439,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-10-20T03:02:02.518416+00:00",
+  "updated_at": "2026-10-21T02:56:02.435646+00:00",
   "version": 1
 }

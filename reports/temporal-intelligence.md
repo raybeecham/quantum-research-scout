@@ -2,18 +2,18 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-10-20T02:55:18.077489+00:00_
+_Updated 2026-10-21T02:49:33.127817+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
 - Actual or recent changes: **1**
 - Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
-- Upcoming dated events: **15**
+- Upcoming dated events: **13**
 
 ## Priority timeline
 
-- **Changed since prior run** · The DOE Quantum Genesis Q Competition — opportunity status ([evidence](https://www.grants.gov/search-results-detail/363869))
+- **Changed since prior run** · INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA... — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-))
   - The assertion changed relative to the prior successful ledger build.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
@@ -54,8 +54,6 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 
 ## Upcoming
 
-- **2026-09-20** · OMB issues agency guidance for inventories, migration plans, and high-impact systems — overdue ([source](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/))
-- **2026-09-20** · Publish a summary of QC-ADDS technical specifications — overdue ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
 - **2026-09-22** · Launch the AI Forge university-industry-government forum — overdue ([source](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security))
 - **2026-09-30** · Close the QBIT Stage A full-proposal window — overdue ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-10-15** · Close the QBI independent verification and validation topic — overdue ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))

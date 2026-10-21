@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-10-20T02:55:18.077489+00:00_
+_Updated 2026-10-21T02:49:33.127817+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
@@ -45,10 +45,8 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF OKLAHOMA | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) | EVTSTTLCEWS5 | 3G168 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | [SCIENCE APPLICATIONS INTERNATIONAL CORPORATION](https://sam.gov/entity/MMLKPW9JLX64/coreData) | MMLKPW9JLX64 | 6XWA8 | Active | Business or Organization, For Profit Organization |
 | IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY | [IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY](https://sam.gov/entity/DQDBM7FGJPC5/coreData) | DQDBM7FGJPC5 | 5J949 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
-| DUKE UNIVERSITY | [DUKE UNIVERSITY](https://sam.gov/entity/TP7EK8DZV6N5/coreData) | TP7EK8DZV6N5 | 4B478 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | ADVANCED COMPUTER CONCEPTS, INC. | [ADVANCED COMPUTER CONCEPTS, INC.](https://sam.gov/entity/CGE8ABMZLZN9/coreData) | CGE8ABMZLZN9 | 0L850 | Active | Business or Organization, For Profit Organization, Women-Owned Business |
 | UNIVERSITY OF WISCONSIN SYSTEM | [UNIVERSITY OF WISCONSIN SYSTEM](https://sam.gov/entity/LCLSJAGTNZQ7/coreData) | LCLSJAGTNZQ7 | 09FZ2 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
-| UNIVERSITY OF CALIFORNIA, SAN DIEGO | [UNIVERSITY OF CALIFORNIA, SAN DIEGO](https://sam.gov/entity/UYTTZT6G9DT1/coreData) | UYTTZT6G9DT1 | 50854 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | [Regents of the University of California, The](https://sam.gov/entity/GS3YEVSS12N6/coreData) | GS3YEVSS12N6 | 50853 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | PARAGON MICRO INC | [PARAGON MICRO INC](https://sam.gov/entity/E41LV9AJGHQ1/coreData) | E41LV9AJGHQ1 | 4ZHT8 | Active | Business or Organization, For Profit Organization |
 | QUANTUM FOODS INC | [QUANTUM FOODS INC](https://sam.gov/entity/S6M6AJJGH6C3/coreData) | S6M6AJJGH6C3 | 87Q54 | Active | Business or Organization, For Profit Organization, Self Certified Small Disadvantaged Business |
@@ -61,6 +59,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | SHOREPOINT LLC | [SHOREPOINT LLC](https://sam.gov/entity/KNJHHF1GWLF3/coreData) | KNJHHF1GWLF3 | 7WWJ6 | Active | Business or Organization, For Profit Organization, Subchapter S Corporation |
 | NEW MEXICO STATE UNIVERSITY | [NEW MEXICO STATE UNIVERSITY](https://sam.gov/entity/J3M5GZAT8N85/coreData) | J3M5GZAT8N85 | 3X352 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | GEORGIA TECH RESEARCH CORP | [GEORGIA TECH RESEARCH CORP](https://sam.gov/entity/EMW9FC8J3HN4/coreData) | EMW9FC8J3HN4 | 1G474 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| DUKE UNIVERSITY | [DUKE UNIVERSITY](https://sam.gov/entity/TP7EK8DZV6N5/coreData) | TP7EK8DZV6N5 | 4B478 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF TEXAS AT DALLAS | [UNIVERSITY OF TEXAS AT DALLAS](https://sam.gov/entity/EJCVPNN1WFS5/coreData) | EJCVPNN1WFS5 | 0W921 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | UNIVERSITY OF HOUSTON SYSTEM | [UNIVERSITY OF HOUSTON SYSTEM](https://sam.gov/entity/QKWEF8XLMTT3/coreData) | QKWEF8XLMTT3 | 9B955 | Active | Educational Institution, Hispanic Servicing Institution, State Controlled Institution of Higher Learning |
 | THALES DEFENSE & SECURITY INC | [THALES DEFENSE & SECURITY INC](https://sam.gov/entity/HNNUJXHSXGU3/coreData) | HNNUJXHSXGU3 | 23386 | Active | Business or Organization, For Profit Organization, Foreign Owned |
@@ -70,6 +69,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | ILLINOIS INSTITUTE OF TECHNOLOGY | [ILLINOIS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NDENMDUEG8/coreData) | E2NDENMDUEG8 | 8B088 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | VANDERBILT UNIVERSITY | [VANDERBILT UNIVERSITY](https://sam.gov/entity/GTNBNWXJ12D5/coreData) | GTNBNWXJ12D5 | 5E694 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF NORTH DAKOTA | [UNIVERSITY OF NORTH DAKOTA](https://sam.gov/entity/RSWNKK6J8CF3/coreData) | RSWNKK6J8CF3 | 4B858 | Active | Business or Organization, Educational Institution, Other Not For Profit Organization |
+| UNIVERSITY OF CALIFORNIA, SAN DIEGO | [UNIVERSITY OF CALIFORNIA, SAN DIEGO](https://sam.gov/entity/UYTTZT6G9DT1/coreData) | UYTTZT6G9DT1 | 50854 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK | [THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK](https://sam.gov/entity/F4N1QNPB95M4/coreData) | F4N1QNPB95M4 | 1B053 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | OREGON STATE UNIVERSITY | [OREGON STATE UNIVERSITY](https://sam.gov/entity/MZ4DYXE1SL98/coreData) | MZ4DYXE1SL98 | 5D489 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |
 | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | [OLD DOMINION UNIVERSITY RESEARCH FOUNDATION](https://sam.gov/entity/DSLXBD7UWRV6/coreData) | DSLXBD7UWRV6 | 5D075 | Active | Business or Organization, Foundation, Non-Profit Organization |

@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-20T02:55:18.077489+00:00_
+_Updated 2026-10-21T02:49:33.127817+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -13,8 +13,8 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Tracked publications: **250**
 - Curated notable patents: **2**
 - Automated recent discoveries: **248**
-- Published in the last 30 days: **46**
-- Unique named assignees: **143**
+- Published in the last 30 days: **45**
+- Unique named assignees: **142**
 - Patent families: **291**
 - Applications / grants: **240 / 10**
 - Known legal status: **221 of 250**
@@ -216,6 +216,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [AI-DRIVEN CROSS-CHANNEL FINANCIAL FRAUD DETECTION SYSTEM WITH QUANTUM-RESISTANT ENCRYPTION AND BLOCKCHAIN INTEGRATION](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025043982/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CYBERSMARTS.AI LLC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUBIT INITIALISATION METHOD AND DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19497230/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Diraq Pty Ltd | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM STATE CODING DEVICE, METHOD, AND SOFTWARE-DEFINED QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19480652/application-data)<br><small>Publication number unavailable</small> | Application · Pending | CHINA ACADEMY OF ELECTRONICS AND INFORMATION TECHNOLOGY OF CETC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
+| [QUANTUM STATE CODING DEVICE, METHOD, AND SOFTWARE-DEFINED QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19480725/application-data)<br><small>Publication number unavailable</small> | Application · Pending | CHINA ACADEMY OF ELECTRONICS AND INFORMATION TECHNOLOGY OF CETC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM DIALOGUE METHOD AND DEVICE IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19500156/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [Large-scale multi-qubit trapped-ion gates](https://data.uspto.gov/patent-file-wrapper/search/details/19489905/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Quantum Art Ltd., YEDA RESEARCH AND DEVELOPMENT CO. LTD. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
@@ -309,4 +310,3 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [SYSTEMS AND METHODS FOR AUTOMATED THREAT DETECTION USING RETROSPECTIVE AND PROSPECTIVE ASSESSMENT OF INDICATORS OF COMPROMISE](https://data.uspto.gov/patent-file-wrapper/search/details/19652750/application-data)<br><small>US20260254823A1</small> | Application · Unknown | Expel, Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [PORTABLE DOCUMENT FORMAT (PDF) FILE MALWARE DETECTION](https://data.uspto.gov/patent-file-wrapper/search/details/19640228/application-data)<br><small>US20260236579A1</small> | Application · Unknown | Netskope, Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
 | [CORRELATING FIREWALL AND ZERO TRUST DATA TO MONITOR REMOTE AND HYBRID WORKER SESSIONS](https://data.uspto.gov/patent-file-wrapper/search/details/19638035/application-data)<br><small>US20260238669A1</small> | Application · Unknown | Cisco Technology, Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |
-| [MULTI-CLOUD PLATFORM FOR MIGRATION AND DEPLOYMENT OF CLOUD SERVICES](https://data.uspto.gov/patent-file-wrapper/search/details/19711141/application-data)<br><small>US20260319859A1</small> | Application · Pending | NetApp, Inc. | 1 member(s) · 0 citation(s) | **53 · NOTABLE** |

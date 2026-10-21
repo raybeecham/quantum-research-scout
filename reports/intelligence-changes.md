@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-20T02:55:18.077489+00:00_
+_Updated 2026-10-21T02:49:33.127817+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
@@ -14,7 +14,7 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## Changed claims
 
-- **The DOE Quantum Genesis Q Competition** — opportunity status: closed ([evidence](https://www.grants.gov/search-results-detail/363869))
+- **INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...** — reported amount: 21424659.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-))
 
 ## New claims
 

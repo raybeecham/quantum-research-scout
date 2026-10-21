@@ -4,113 +4,113 @@
     {
       "authority": "authoritative",
       "change_type": "changed",
-      "claim_id": "claim-530f9eb80e78d41d",
+      "claim_id": "claim-58ee0b6a532a2f76",
       "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "The DOE Quantum Genesis Q Competition",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363869",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
-      "last_observed_at": "2026-10-20T02:55:18.077489+00:00",
+      "effective_date": "2025-05-07",
+      "evidence_title": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-",
+      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+      "last_observed_at": "2026-10-21T02:49:33.127817+00:00",
       "object": null,
-      "predicate": "opportunity_status",
+      "predicate": "reported_amount",
       "previous_object": null,
-      "previous_value": "open",
+      "previous_value": 11007748.0,
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-aefe3302a248970f",
-          "locator": "opportunity_status:closed",
-          "title": "The DOE Quantum Genesis Q Competition",
-          "url": "https://www.grants.gov/search-results-detail/363869",
+          "evidence_id": "evidence-04ade03b7110ea43",
+          "locator": "reported_amount:21424659.0",
+          "title": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:DE-FOA-0003657",
-        "label": "The DOE Quantum Genesis Q Competition",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003657",
-        "node_type": "opportunity"
+        "identifier": "usaspending:N0001425C2204",
+        "label": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+        "node_id": "award:usaspending:N0001425C2204",
+        "node_type": "award"
       },
       "temporal": {
         "classification": "changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
+        "date_basis": "USAspending action date",
         "effective_date": null,
-        "event_date": null,
+        "event_date": "2025-05-07",
         "explanation": "The assertion changed relative to the prior successful ledger build.",
-        "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
+        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
         "historical": false,
         "label": "Changed since prior run",
-        "last_changed_at": "2026-10-20T02:55:18.077489+00:00",
-        "last_observed_at": "2026-10-20T02:55:18.077489+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-09-17"
+        "last_changed_at": "2026-10-21T02:49:33.127817+00:00",
+        "last_observed_at": "2026-10-21T02:49:33.127817+00:00",
+        "primary_date": "2025-05-07",
+        "primary_date_role": "event_date",
+        "publication_date": null
       },
-      "value": "closed"
+      "value": 21424659.0
     }
   ],
-  "comparison_ended_at": "2026-10-20T02:55:18.077489+00:00",
-  "comparison_started_at": "2026-10-19T02:43:46.166709+00:00",
+  "comparison_ended_at": "2026-10-21T02:49:33.127817+00:00",
+  "comparison_started_at": "2026-10-20T02:55:18.077489+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
     {
       "authority": "authoritative",
       "change_type": "changed",
-      "claim_id": "claim-530f9eb80e78d41d",
+      "claim_id": "claim-58ee0b6a532a2f76",
       "claim_ids": [
-        "claim-530f9eb80e78d41d"
+        "claim-58ee0b6a532a2f76"
       ],
       "confidence": "high",
-      "effective_date": "2026-09-17",
-      "evidence_title": "The DOE Quantum Genesis Q Competition",
-      "evidence_url": "https://www.grants.gov/search-results-detail/363869",
-      "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
+      "effective_date": "2025-05-07",
+      "evidence_title": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-",
+      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
       "grouped_event_count": 1,
-      "last_observed_at": "2026-10-20T02:55:18.077489+00:00",
+      "last_observed_at": "2026-10-21T02:49:33.127817+00:00",
       "object": null,
-      "predicate": "opportunity_status",
+      "predicate": "reported_amount",
       "predicates": [
-        "opportunity_status"
+        "reported_amount"
       ],
       "previous_object": null,
-      "previous_value": "open",
+      "previous_value": 11007748.0,
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-aefe3302a248970f",
-          "locator": "opportunity_status:closed",
-          "title": "The DOE Quantum Genesis Q Competition",
-          "url": "https://www.grants.gov/search-results-detail/363869",
+          "evidence_id": "evidence-04ade03b7110ea43",
+          "locator": "reported_amount:21424659.0",
+          "title": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:DE-FOA-0003657",
-        "label": "The DOE Quantum Genesis Q Competition",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003657",
-        "node_type": "opportunity"
+        "identifier": "usaspending:N0001425C2204",
+        "label": "INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...",
+        "node_id": "award:usaspending:N0001425C2204",
+        "node_type": "award"
       },
       "temporal": {
         "classification": "changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
+        "date_basis": "USAspending action date",
         "effective_date": null,
-        "event_date": null,
+        "event_date": "2025-05-07",
         "explanation": "The assertion changed relative to the prior successful ledger build.",
-        "first_observed_at": "2026-09-18T02:36:20.942459+00:00",
+        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
         "historical": false,
         "label": "Changed since prior run",
-        "last_changed_at": "2026-10-20T02:55:18.077489+00:00",
-        "last_observed_at": "2026-10-20T02:55:18.077489+00:00",
-        "primary_date": "2026-09-17",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-09-17"
+        "last_changed_at": "2026-10-21T02:49:33.127817+00:00",
+        "last_observed_at": "2026-10-21T02:49:33.127817+00:00",
+        "primary_date": "2025-05-07",
+        "primary_date_role": "event_date",
+        "publication_date": null
       },
-      "value": "closed"
+      "value": 21424659.0
     },
     {
       "authority": "authoritative",
@@ -2565,31 +2565,13 @@
     "historical_discoveries": 0,
     "material_events": 28,
     "newly_observed_undated": 0,
-    "upcoming": 15
+    "upcoming": 13
   },
   "superseded": [],
   "upcoming": [
     {
-      "date": "2026-09-20",
-      "days_remaining": -30,
-      "kind": "mission_milestone",
-      "status": "overdue",
-      "subject": "Federal Post-Quantum Cryptography Transition",
-      "title": "OMB issues agency guidance for inventories, migration plans, and high-impact systems",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/"
-    },
-    {
-      "date": "2026-09-20",
-      "days_remaining": -30,
-      "kind": "mission_milestone",
-      "status": "overdue",
-      "subject": "QC-ADDS",
-      "title": "Publish a summary of QC-ADDS technical specifications",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
-    },
-    {
       "date": "2026-09-22",
-      "days_remaining": -28,
+      "days_remaining": -29,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "AI Forge",
@@ -2598,7 +2580,7 @@
     },
     {
       "date": "2026-09-30",
-      "days_remaining": -20,
+      "days_remaining": -21,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2607,7 +2589,7 @@
     },
     {
       "date": "2026-10-15",
-      "days_remaining": -5,
+      "days_remaining": -6,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2616,7 +2598,7 @@
     },
     {
       "date": "2026-11-14",
-      "days_remaining": 25,
+      "days_remaining": 24,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2625,7 +2607,7 @@
     },
     {
       "date": "2026-11-24",
-      "days_remaining": 35,
+      "days_remaining": 34,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Genesis Mission",
@@ -2634,7 +2616,7 @@
     },
     {
       "date": "2026-12-17",
-      "days_remaining": 58,
+      "days_remaining": 57,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2643,7 +2625,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 60,
+      "days_remaining": 59,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2652,7 +2634,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 60,
+      "days_remaining": 59,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2661,7 +2643,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 60,
+      "days_remaining": 59,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2670,7 +2652,7 @@
     },
     {
       "date": "2026-12-31",
-      "days_remaining": 72,
+      "days_remaining": 71,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "Project Triad",
@@ -2679,7 +2661,7 @@
     },
     {
       "date": "2027-01-12",
-      "days_remaining": 84,
+      "days_remaining": 83,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2688,7 +2670,7 @@
     },
     {
       "date": "2027-03-19",
-      "days_remaining": 150,
+      "days_remaining": 149,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2697,7 +2679,7 @@
     },
     {
       "date": "2027-06-22",
-      "days_remaining": 245,
+      "days_remaining": 244,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -2705,6 +2687,6 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
     }
   ],
-  "updated_at": "2026-10-20T02:55:18.077489+00:00",
+  "updated_at": "2026-10-21T02:49:33.127817+00:00",
   "version": 1
 }

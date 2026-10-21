@@ -39,6 +39,29 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "DARPA Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-10-20",
+      "key": "https://thequantuminsider.com/2026/10/20/darpa-10-million-xanadu-quantum-research",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "The Quantum Insider",
+      "stage": "mission evidence admission",
+      "title": "Xanadu Receives Provisional Approval for Up to $10M in DARPA Funding",
+      "url": "https://thequantuminsider.com/2026/10/20/darpa-10-million-xanadu-quantum-research"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "Quantum Benchmarking Initiative",
         "reason_codes": [
           "non_government_source",
@@ -2264,28 +2287,6 @@
       "stage": "mission evidence admission",
       "title": "FY 2027 Fulbright Scholar Program",
       "url": "https://www.grants.gov/search-results-detail/362828"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-16",
-      "key": "grants_gov:DFOP0018696",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Golden Dome",
-      "stage": "funding evidence admission",
-      "title": "FY 2027 Fulbright Scholar Program",
-      "url": "https://www.grants.gov/search-results-detail/362828"
     }
   ],
   "reason_counts": [
@@ -2301,12 +2302,12 @@
     },
     {
       "code": "official_source",
-      "count": 97,
+      "count": 96,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 35,
+      "count": 36,
       "label": "Source is not an official .gov or .mil domain"
     },
     {
@@ -2325,6 +2326,6 @@
     "quarantined": 135,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-10-20T02:55:18.077489+00:00",
+  "updated_at": "2026-10-21T02:49:33.127817+00:00",
   "version": 1
 }
