@@ -2,19 +2,19 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-10-21T02:49:33.127817+00:00_
+_Updated 2026-10-22T02:48:12.545201+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **1**
-- Newly discovered historical evidence: **0**
+- Actual or recent changes: **0**
+- Newly discovered historical evidence: **4**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **13**
 
 ## Priority timeline
 
-- **Changed since prior run** · INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA... — reported amount ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-))
-  - The assertion changed relative to the prior successful ledger build.
+- **Newly discovered historical evidence** · ROBOTIC AUTONOMOUS SYSTEMS SUPPORT — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0002426F8513_9700_N0002417D6421_9700))
+  - Scout first observed this on 2026-10-22; the source date is 2026-07-21.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

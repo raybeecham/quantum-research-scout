@@ -2,23 +2,26 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-21T02:49:33.127817+00:00_
+_Updated 2026-10-22T02:48:12.545201+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **28**
-- Added / changed / resolved: **0 / 1 / 27**
+- Material changes: **31**
+- Added / changed / resolved: **4 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...** — reported amount: 21424659.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-))
+- None.
 
 ## New claims
 
-- None.
+- **ROBOTIC AUTONOMOUS SYSTEMS SUPPORT** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0002426F8513_9700_N0002417D6421_9700))
+- **ROBOTIC AUTONOMOUS SYSTEMS SUPPORT** — awarding agency: Department of Defense ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0002426F8513_9700_N0002417D6421_9700))
+- **ROBOTIC AUTONOMOUS SYSTEMS SUPPORT** — reported amount: 1650000.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0002426F8513_9700_N0002417D6421_9700))
+- **ROBOTIC AUTONOMOUS SYSTEMS SUPPORT** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0002426F8513_9700_N0002417D6421_9700))
 
 ## Superseded claims
 

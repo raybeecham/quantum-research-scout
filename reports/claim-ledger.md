@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-10-21T02:49:33.127817+00:00_
+_Updated 2026-10-22T02:48:12.545201+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **5015**
-- Authoritative claims: **4800**
+- Active claims: **5019**
+- Authoritative claims: **4804**
 - Analytical claims: **210**
 - Conflicted claims: **38**
-- Evidence items / URLs: **5119 / 1383**
+- Evidence items / URLs: **5123 / 1384**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,10 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | ROBOTIC AUTONOMOUS SYSTEMS SUPPORT | opportunity status | awarded | authoritative / high | [ROBOTIC AUTONOMOUS SYSTEMS SUPPORT](https://www.usaspending.gov/award/CONT_AWD_N0002426F8513_9700_N0002417D6421_9700) |
+| active | ROBOTIC AUTONOMOUS SYSTEMS SUPPORT | awarding agency | Department of Defense | authoritative / high | [ROBOTIC AUTONOMOUS SYSTEMS SUPPORT](https://www.usaspending.gov/award/CONT_AWD_N0002426F8513_9700_N0002417D6421_9700) |
+| active | ROBOTIC AUTONOMOUS SYSTEMS SUPPORT | reported amount | 1650000.0 | authoritative / high | [ROBOTIC AUTONOMOUS SYSTEMS SUPPORT](https://www.usaspending.gov/award/CONT_AWD_N0002426F8513_9700_N0002417D6421_9700) |
+| active | ROBOTIC AUTONOMOUS SYSTEMS SUPPORT | reported recipient | UNIVERSITY OF TEXAS AT AUSTIN | authoritative / high | [ROBOTIC AUTONOMOUS SYSTEMS SUPPORT](https://www.usaspending.gov/award/CONT_AWD_N0002426F8513_9700_N0002417D6421_9700) |
 | active | INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA... | reported amount | 21424659.0 | authoritative / high | [INTEGER TECHNOLOGIES IS FORMING A TEAM TO PERFORM SCIENCE AND TECHNOLOGY RESEARCH INTO AN OPERATIONAL DECISION-SUPPORT TOOL FOR INTELLIGENT AUTONOMOUS SYSTEMS CONDUCTING SEABED WA...](https://www.usaspending.gov/award/CONT_AWD_N0001425C2204_9700_-NONE-_-NONE-) |
 | active | The DOE Quantum Genesis Q Competition | opportunity status | closed | authoritative / high | [The DOE Quantum Genesis Q Competition](https://www.grants.gov/search-results-detail/363869) |
 | active | Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008) | opportunity status | awarded | authoritative / high | [Aerosonde UAS Operational Support, Transition, & MCM Sensor Integration (Modifications under BOA N0001921G0008)](https://sam.gov/workspace/contract/opp/5ff635ffb85f4e25b34661f0a268e577/view) |
@@ -260,10 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | 17--RESETTING DEVICE,AI | opportunity status | awarded | authoritative / high | [17--RESETTING DEVICE,AI](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view) |
 | active | 17--RESETTING DEVICE,AI | awarding agency | DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT | authoritative / high | [17--RESETTING DEVICE,AI](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view) |
 | active | 17--RESETTING DEVICE,AI | reported amount | 1741398.0 | authoritative / high | [17--RESETTING DEVICE,AI](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view) |
-| active | 17--RESETTING DEVICE,AI | reported recipient | NORTHROP GRUMMAN SYSTEMS CORPORATION | authoritative / high | [17--RESETTING DEVICE,AI](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view) |
-| active | Cybersecurity Managment Support Services | opportunity status | awarded | authoritative / high | [Cybersecurity Managment Support Services](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view) |
-| active | Cybersecurity Managment Support Services | awarding agency | TRANSPORTATION, DEPARTMENT OF.FEDERAL HIGHWAY ADMINISTRATION.693JJ3 ACQUISITION AND GRANTS MGT | authoritative / high | [Cybersecurity Managment Support Services](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view) |
-| active | Cybersecurity Managment Support Services | reported amount | 758088.88 | authoritative / high | [Cybersecurity Managment Support Services](https://sam.gov/workspace/contract/opp/a5607e32b8fb483fb3f9018cdcb5d2dc/view) |
 
 ## Method
 
