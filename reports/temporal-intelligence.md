@@ -2,19 +2,21 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-10-22T02:48:12.545201+00:00_
+_Updated 2026-10-23T02:51:53.318837+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **0**
+- Actual or recent changes: **4**
 - Newly discovered historical evidence: **4**
 - Newly observed with no reliable source date: **0**
-- Upcoming dated events: **13**
+- Upcoming dated events: **12**
 
 ## Priority timeline
 
-- **Newly discovered historical evidence** · ROBOTIC AUTONOMOUS SYSTEMS SUPPORT — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0002426F8513_9700_N0002417D6421_9700))
-  - Scout first observed this on 2026-10-22; the source date is 2026-07-21.
+- **Occurred 2 days ago** · [BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE... — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Newly discovered historical evidence** · (D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-))
+  - Scout first observed this on 2026-10-23; the source date is 2026-07-22.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -54,7 +56,6 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 
 ## Upcoming
 
-- **2026-09-22** · Launch the AI Forge university-industry-government forum — overdue ([source](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security))
 - **2026-09-30** · Close the QBIT Stage A full-proposal window — overdue ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-10-15** · Close the QBI independent verification and validation topic — overdue ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-11-14** · Close the umbrella QBI 2026 announcement — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))

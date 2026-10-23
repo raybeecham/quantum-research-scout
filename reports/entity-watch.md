@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-10-22 02:56 UTC_
+_Updated 2026-10-23 02:59 UTC_
 
 ## Organizations
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| NIST | ↘️ declining (0 vs 1) | 🔴 critical | quiet | 2026-06-25 | 2026-10-08 | 17 | 0 |
-| IBM | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-06-23 | 2026-10-15 | 33 | 1 |
+| NIST | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2026-06-25 | 2026-10-08 | 17 | 0 |
+| IBM | ↘️ declining (1 vs 3) | 🟠 high | active | 2026-06-23 | 2026-10-22 | 34 | 1 |
 | QuSecure | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-07 | 2026-09-22 | 29 | 20 |
-| Keyfactor | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2025-12-29 | 2026-10-13 | 27 | 12 |
+| Keyfactor | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2025-12-29 | 2026-10-13 | 27 | 12 |
 | IonQ | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-06-22 | 2026-10-17 | 26 | 0 |
-| Cisco | ➡️ stable (1 vs 1) | 🟠 high | active | 2026-07-27 | 2026-10-15 | 19 | 0 |
-| Fortanix | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2024-10-28 | 2026-10-08 | 19 | 19 |
-| QuEra | ↗️ rising (5 vs 0) | 🟠 high | active | 2025-07-28 | 2026-10-17 | 17 | 10 |
+| Cisco | ↘️ declining (1 vs 2) | 🟠 high | active | 2026-07-27 | 2026-10-22 | 20 | 0 |
+| Fortanix | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2024-10-28 | 2026-10-08 | 19 | 19 |
+| QuEra | ↗️ rising (4 vs 1) | 🟠 high | active | 2025-07-28 | 2026-10-17 | 17 | 10 |
 | PQShield | ➡️ stable (1 vs 1) | 🟠 high | active | 2026-07-03 | 2026-10-19 | 14 | 0 |
 | Cloudflare | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-23 | 2026-10-01 | 13 | 0 |
 | Quantinuum | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-06-22 | 2026-10-19 | 13 | 0 |
@@ -25,8 +25,8 @@ _Updated 2026-10-22 02:56 UTC_
 | PsiQuantum | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-05-08 | 2026-09-02 | 7 | 6 |
 | Accenture / Accenture Federal Services | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-03-31 | 2026-08-27 | 6 | 6 |
 | D-Wave | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-30 | 2026-10-01 | 6 | 0 |
-| Google Quantum AI | ↗️ rising (2 vs 0) | 🟠 high | active | 2025-11-13 | 2026-10-15 | 5 | 2 |
-| PQCA | ↘️ declining (0 vs 1) | 🟠 high | active | 2026-07-27 | 2026-10-14 | 5 | 0 |
+| Google Quantum AI | ↘️ declining (0 vs 2) | 🟠 high | active | 2025-11-13 | 2026-10-15 | 5 | 2 |
+| PQCA | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-07-27 | 2026-10-14 | 5 | 0 |
 | Quantum Computing Inc. (QCi) | ➡️ stable (0 vs 0) | 🟠 high | documented | Unknown | Unknown | 5 | 5 |
 | ISO/IEC | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-25 | 2026-10-02 | 4 | 0 |
 | Lockheed Martin | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-25 | 2026-07-14 | 4 | 2 |
@@ -53,14 +53,14 @@ _Updated 2026-10-22 02:56 UTC_
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| Crypto-agility | ↘️ declining (0 vs 2) | 🔴 critical | quiet | 2025-08-06 | 2026-10-13 | 45 | 28 |
-| Quantum error correction | ↘️ declining (2 vs 4) | 🔴 critical | active | 2026-01-13 | 2026-10-15 | 43 | 2 |
-| Logical qubits | ➡️ stable (1 vs 1) | 🔴 critical | active | 2025-09-10 | 2026-10-19 | 32 | 3 |
-| ML-DSA | ↘️ declining (0 vs 3) | 🔴 critical | active | 2026-06-29 | 2026-10-14 | 6 | 0 |
-| ML-KEM | ↘️ declining (0 vs 1) | 🔴 critical | active | 2026-09-21 | 2026-10-14 | 2 | 0 |
+| Crypto-agility | ↘️ declining (0 vs 1) | 🔴 critical | quiet | 2025-08-06 | 2026-10-13 | 45 | 28 |
+| Quantum error correction | ↘️ declining (2 vs 5) | 🔴 critical | active | 2026-01-13 | 2026-10-22 | 45 | 2 |
+| Logical qubits | ↗️ rising (1 vs 0) | 🔴 critical | active | 2025-09-10 | 2026-10-19 | 32 | 3 |
+| ML-DSA | ↘️ declining (0 vs 1) | 🔴 critical | quiet | 2026-06-29 | 2026-10-14 | 6 | 0 |
+| ML-KEM | ↘️ declining (0 vs 1) | 🔴 critical | quiet | 2026-09-21 | 2026-10-14 | 2 | 0 |
 | Quantum key distribution | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-29 | 2026-10-05 | 21 | 3 |
-| Quantum networking | ↘️ declining (0 vs 3) | 🟠 high | active | 2026-07-16 | 2026-10-14 | 14 | 0 |
-| Hybrid TLS | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-10-08 | 2026-10-08 | 1 | 0 |
+| Quantum networking | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2026-07-16 | 2026-10-14 | 14 | 0 |
+| Hybrid TLS | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-10-08 | 2026-10-08 | 1 | 0 |
 | Quantum sensing | ➡️ stable (0 vs 0) | 🟡 medium | dormant | 2026-06-24 | 2026-09-03 | 17 | 1 |
 
 **Configured, awaiting evidence (2):** CNSA 2.0, SLH-DSA
@@ -83,7 +83,7 @@ _Updated 2026-10-22 02:56 UTC_
 | BSI Germany | covered | 1 | 0 |
 | Booz Allen Hamilton | covered | 1 | 3 |
 | CISA | covered | 1 | 1 |
-| Cisco | covered | 1 | 19 |
+| Cisco | covered | 1 | 20 |
 | Cloudflare | covered | 2 | 13 |
 | Deloitte | covered | 1 | 2 |
 | DigiCert | covered | 1 | 8 |
@@ -91,7 +91,7 @@ _Updated 2026-10-22 02:56 UTC_
 | ETSI | covered | 1 | 2 |
 | Fortanix | covered | 1 | 19 |
 | Google Quantum AI | covered | 2 | 5 |
-| IBM | covered | 1 | 33 |
+| IBM | covered | 1 | 34 |
 | IETF | covered | 1 | 2 |
 | IonQ | covered | 1 | 26 |
 | Keyfactor | covered | 1 | 27 |

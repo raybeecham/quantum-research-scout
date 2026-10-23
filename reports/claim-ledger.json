@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-10-22",
+  "as_of_date": "2026-10-23",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,376 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-a58d3cbe1b6ece16",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-22",
+      "evidence_ids": [
+        "evidence-65570394c648f31c"
+      ],
+      "first_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-65570394c648f31c",
+          "locator": "opportunity_status:awarded",
+          "title": "(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:FA864926P0255",
+        "label": "(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.",
+        "node_id": "award:usaspending:FA864926P0255",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "0e678610c140c27c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-0592ec42aecee1a5",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-22",
+      "evidence_ids": [
+        "evidence-ba922fbf2f719d56"
+      ],
+      "first_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ba922fbf2f719d56",
+          "locator": "awarding_agency:department of defense",
+          "title": "(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:FA864926P0255",
+        "label": "(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.",
+        "node_id": "award:usaspending:FA864926P0255",
+        "node_type": "award"
+      },
+      "value": "Department of Defense",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "14a5b528b78464e3"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-b0ca5a12a60860e6",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-22",
+      "evidence_ids": [
+        "evidence-568a322c30ee7b5f"
+      ],
+      "first_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-568a322c30ee7b5f",
+          "locator": "reported_amount:109123.0",
+          "title": "(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:FA864926P0255",
+        "label": "(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.",
+        "node_id": "award:usaspending:FA864926P0255",
+        "node_type": "award"
+      },
+      "value": 109123.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "59556c1e159fd85a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-79b0510d74f7fdde",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-22",
+      "evidence_ids": [
+        "evidence-82122afbc4e120e2"
+      ],
+      "first_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:Z4GBNKZT5YC6",
+        "label": "FRAISOS CORP",
+        "node_id": "recipient_or_contractor:uei:Z4GBNKZT5YC6",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-82122afbc4e120e2",
+          "locator": "reported_recipient:recipient_or_contractor:uei:Z4GBNKZT5YC6",
+          "title": "(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:FA864926P0255",
+        "label": "(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.",
+        "node_id": "award:usaspending:FA864926P0255",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "545434694c2c233c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-52c9dba856d5bcbd",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-21",
+      "evidence_ids": [
+        "evidence-68870cf7fa5f8e90"
+      ],
+      "first_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-68870cf7fa5f8e90",
+          "locator": "opportunity_status:awarded",
+          "title": "[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2031ZB27F00004",
+        "label": "[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...",
+        "node_id": "award:usaspending:2031ZB27F00004",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "fb120221249cbd8a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-42e60b721c0aef9f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-21",
+      "evidence_ids": [
+        "evidence-0ed1f1d56dd96aa0"
+      ],
+      "first_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0ed1f1d56dd96aa0",
+          "locator": "awarding_agency:department of the treasury",
+          "title": "[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2031ZB27F00004",
+        "label": "[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...",
+        "node_id": "award:usaspending:2031ZB27F00004",
+        "node_type": "award"
+      },
+      "value": "Department of the Treasury",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "093f20d6bf22ebb1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-9ff22903ada0c9f4",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-21",
+      "evidence_ids": [
+        "evidence-7ef86257f94419f8"
+      ],
+      "first_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7ef86257f94419f8",
+          "locator": "reported_amount:666663.18",
+          "title": "[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2031ZB27F00004",
+        "label": "[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...",
+        "node_id": "award:usaspending:2031ZB27F00004",
+        "node_type": "award"
+      },
+      "value": 666663.18,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "64bf2151808fe7d4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-d8db7503616be5f0",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-21",
+      "evidence_ids": [
+        "evidence-a04ca32e6d49bbc9"
+      ],
+      "first_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-23T02:51:53.318837+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:H651TLAVYMN3",
+        "label": "COPIA CONSULTING GROUP LLC",
+        "node_id": "recipient_or_contractor:uei:H651TLAVYMN3",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a04ca32e6d49bbc9",
+          "locator": "reported_recipient:recipient_or_contractor:uei:H651TLAVYMN3",
+          "title": "[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2031ZB27F00004",
+        "label": "[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...",
+        "node_id": "award:usaspending:2031ZB27F00004",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "56f5d7a00ca2bbfb"
     },
     {
       "authority": "authoritative",
@@ -53463,191 +53833,6 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
-      "claim_id": "claim-b812875fff4ae4e9",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-fd6fcfab3ef82019"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fd6fcfab3ef82019",
-          "locator": "opportunity_status:awarded",
-          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2549124",
-        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-        "node_id": "award:usaspending:2549124",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "8d7da9fea486f893"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-8edf0855b2cc3b55",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-da9fe5081e72d37b"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-da9fe5081e72d37b",
-          "locator": "awarding_agency:national science foundation",
-          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2549124",
-        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-        "node_id": "award:usaspending:2549124",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "8ece7d1d68047bad"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-55f19e7411f5219e",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-320f089806bfb5ac"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-320f089806bfb5ac",
-          "locator": "reported_amount:301666.0",
-          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2549124",
-        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-        "node_id": "award:usaspending:2549124",
-        "node_type": "award"
-      },
-      "value": 301666.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "094d308d30b1699e"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-4124da866ba4b621",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-86ea531792c55758"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:LMCJKRFW5R81",
-        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-86ea531792c55758",
-          "locator": "reported_recipient:recipient_or_contractor:uei:LMCJKRFW5R81",
-          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2549124",
-        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-        "node_id": "award:usaspending:2549124",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "4127f13299b1a8f1"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
       "claim_id": "claim-ddd8658ca115ab18",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -57533,191 +57718,6 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
-      "claim_id": "claim-eeece64deefd56df",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-62ef370a3c49c23d"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-62ef370a3c49c23d",
-          "locator": "opportunity_status:awarded",
-          "title": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2630022_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2630022",
-        "label": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
-        "node_id": "award:usaspending:2630022",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "6127c4c9ebe92ea4"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-6992ed68e12e6d32",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-23a93ce4cb104280"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-23a93ce4cb104280",
-          "locator": "awarding_agency:national science foundation",
-          "title": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2630022_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2630022",
-        "label": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
-        "node_id": "award:usaspending:2630022",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "9745c4c877426cdf"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-76d9824d09778610",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-e21f9c307fc02a99"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e21f9c307fc02a99",
-          "locator": "reported_amount:49000.0",
-          "title": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2630022_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2630022",
-        "label": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
-        "node_id": "award:usaspending:2630022",
-        "node_type": "award"
-      },
-      "value": 49000.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "f553b5a880a7509f"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-03b2d42ee3deeca7",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2027-01-01",
-      "evidence_ids": [
-        "evidence-d4b86d0bf9663497"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:LMCJKRFW5R81",
-        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d4b86d0bf9663497",
-          "locator": "reported_recipient:recipient_or_contractor:uei:LMCJKRFW5R81",
-          "title": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2630022_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2630022",
-        "label": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
-        "node_id": "award:usaspending:2630022",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "120c04af2bf09dad"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
       "claim_id": "claim-59db3bcea1c131c0",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -58084,6 +58084,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "cefa2406e7d0398c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-b812875fff4ae4e9",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-fd6fcfab3ef82019"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fd6fcfab3ef82019",
+          "locator": "opportunity_status:awarded",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549124",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+        "node_id": "award:usaspending:2549124",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8d7da9fea486f893"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-8edf0855b2cc3b55",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-da9fe5081e72d37b"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-da9fe5081e72d37b",
+          "locator": "awarding_agency:national science foundation",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549124",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+        "node_id": "award:usaspending:2549124",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8ece7d1d68047bad"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-55f19e7411f5219e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-320f089806bfb5ac"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-320f089806bfb5ac",
+          "locator": "reported_amount:301666.0",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549124",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+        "node_id": "award:usaspending:2549124",
+        "node_type": "award"
+      },
+      "value": 301666.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "094d308d30b1699e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-4124da866ba4b621",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-86ea531792c55758"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:LMCJKRFW5R81",
+        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-86ea531792c55758",
+          "locator": "reported_recipient:recipient_or_contractor:uei:LMCJKRFW5R81",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549124",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+        "node_id": "award:usaspending:2549124",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4127f13299b1a8f1"
     },
     {
       "authority": "authoritative",
@@ -65473,6 +65658,191 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
+      "claim_id": "claim-eeece64deefd56df",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-62ef370a3c49c23d"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-62ef370a3c49c23d",
+          "locator": "opportunity_status:awarded",
+          "title": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2630022_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2630022",
+        "label": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
+        "node_id": "award:usaspending:2630022",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6127c4c9ebe92ea4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-6992ed68e12e6d32",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-23a93ce4cb104280"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-23a93ce4cb104280",
+          "locator": "awarding_agency:national science foundation",
+          "title": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2630022_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2630022",
+        "label": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
+        "node_id": "award:usaspending:2630022",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9745c4c877426cdf"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-76d9824d09778610",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-e21f9c307fc02a99"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e21f9c307fc02a99",
+          "locator": "reported_amount:49000.0",
+          "title": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2630022_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2630022",
+        "label": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
+        "node_id": "award:usaspending:2630022",
+        "node_type": "award"
+      },
+      "value": 49000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "f553b5a880a7509f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-03b2d42ee3deeca7",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-d4b86d0bf9663497"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:LMCJKRFW5R81",
+        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d4b86d0bf9663497",
+          "locator": "reported_recipient:recipient_or_contractor:uei:LMCJKRFW5R81",
+          "title": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2630022_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2630022",
+        "label": "CONFERENCE: GREENLAND ICE SHEET TIPPING POINTS (GREENTIP) -THE GREENLAND ICE SHEET IS MELTING RAPIDLY, MAKING IT A MAJOR CONTRIBUTOR TO GLOBAL SEA-LEVEL RISE. ONE OF THE MOST IMPO...",
+        "node_id": "award:usaspending:2630022",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "120c04af2bf09dad"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
       "claim_id": "claim-cd9e13efe743c515",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -70192,191 +70562,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c64ece2d269a2d4c"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-8eebe1076377bf7e",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-09-01",
-      "evidence_ids": [
-        "evidence-6c8d117bd21dc61c"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6c8d117bd21dc61c",
-          "locator": "opportunity_status:awarded",
-          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2612533_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2612533",
-        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
-        "node_id": "award:usaspending:2612533",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "be6f321da621fa1c"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-6c8e2c407bdb14e1",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-09-01",
-      "evidence_ids": [
-        "evidence-8841007849bb30dc"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-8841007849bb30dc",
-          "locator": "awarding_agency:national science foundation",
-          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2612533_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2612533",
-        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
-        "node_id": "award:usaspending:2612533",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "367a3fee3212e5e2"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-522fa48ad67aed98",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-09-01",
-      "evidence_ids": [
-        "evidence-e7239d0d63f244e4"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e7239d0d63f244e4",
-          "locator": "reported_amount:330000.0",
-          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2612533_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2612533",
-        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
-        "node_id": "award:usaspending:2612533",
-        "node_type": "award"
-      },
-      "value": 330000.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "e8eba6aad25fb0cb"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-3607562c52176c1a",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-09-01",
-      "evidence_ids": [
-        "evidence-5d19f356bfd3e6bb"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:LMCJKRFW5R81",
-        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5d19f356bfd3e6bb",
-          "locator": "reported_recipient:recipient_or_contractor:uei:LMCJKRFW5R81",
-          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2612533_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2612533",
-        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
-        "node_id": "award:usaspending:2612533",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "d79eab76e91bb90d"
     },
     {
       "authority": "authoritative",
@@ -76173,6 +76358,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "80a30d61a1eecad5"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-8eebe1076377bf7e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-01",
+      "evidence_ids": [
+        "evidence-6c8d117bd21dc61c"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6c8d117bd21dc61c",
+          "locator": "opportunity_status:awarded",
+          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2612533_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2612533",
+        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
+        "node_id": "award:usaspending:2612533",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "be6f321da621fa1c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-6c8e2c407bdb14e1",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-01",
+      "evidence_ids": [
+        "evidence-8841007849bb30dc"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-8841007849bb30dc",
+          "locator": "awarding_agency:national science foundation",
+          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2612533_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2612533",
+        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
+        "node_id": "award:usaspending:2612533",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "367a3fee3212e5e2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-522fa48ad67aed98",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-01",
+      "evidence_ids": [
+        "evidence-e7239d0d63f244e4"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e7239d0d63f244e4",
+          "locator": "reported_amount:330000.0",
+          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2612533_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2612533",
+        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
+        "node_id": "award:usaspending:2612533",
+        "node_type": "award"
+      },
+      "value": 330000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e8eba6aad25fb0cb"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-3607562c52176c1a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-09-01",
+      "evidence_ids": [
+        "evidence-5d19f356bfd3e6bb"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:LMCJKRFW5R81",
+        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5d19f356bfd3e6bb",
+          "locator": "reported_recipient:recipient_or_contractor:uei:LMCJKRFW5R81",
+          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2612533_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2612533",
+        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: UPSKILLING FUTURE WORKFORCE FOR AGENTIC CYBERINFRASTRUCTURE-ENABLED MANUFACTURING ECOSYSTEM -THE TRANSITION TO INDUST...",
+        "node_id": "award:usaspending:2612533",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d79eab76e91bb90d"
     },
     {
       "authority": "authoritative",
@@ -130966,191 +131336,6 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
-      "claim_id": "claim-bc822cbb2e5caac9",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-b1c5bc817fc4512f"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b1c5bc817fc4512f",
-          "locator": "opportunity_status:awarded",
-          "title": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2548357_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2548357",
-        "label": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
-        "node_id": "award:usaspending:2548357",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "9e97bcb5a61683c3"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-76c2c95d1c70c720",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-bdfe6ad06bd29054"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bdfe6ad06bd29054",
-          "locator": "awarding_agency:national science foundation",
-          "title": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2548357_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2548357",
-        "label": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
-        "node_id": "award:usaspending:2548357",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "979cd4537c034da8"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-39745bab3cb8f2d8",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-c129068d2ac5a893"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c129068d2ac5a893",
-          "locator": "reported_amount:450000.0",
-          "title": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2548357_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2548357",
-        "label": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
-        "node_id": "award:usaspending:2548357",
-        "node_type": "award"
-      },
-      "value": 450000.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "3f403016af1f037b"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-f0edbaa65d67b974",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-1f53c0756d98c9ef"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:LMCJKRFW5R81",
-        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-1f53c0756d98c9ef",
-          "locator": "reported_recipient:recipient_or_contractor:uei:LMCJKRFW5R81",
-          "title": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2548357_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2548357",
-        "label": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
-        "node_id": "award:usaspending:2548357",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "4c8d052d5bf55925"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
       "claim_id": "claim-69b81fc55a870106",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -135917,6 +136102,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "9f374d67fc226a9b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-bc822cbb2e5caac9",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-b1c5bc817fc4512f"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b1c5bc817fc4512f",
+          "locator": "opportunity_status:awarded",
+          "title": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2548357_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2548357",
+        "label": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
+        "node_id": "award:usaspending:2548357",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9e97bcb5a61683c3"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-76c2c95d1c70c720",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-bdfe6ad06bd29054"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bdfe6ad06bd29054",
+          "locator": "awarding_agency:national science foundation",
+          "title": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2548357_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2548357",
+        "label": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
+        "node_id": "award:usaspending:2548357",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "979cd4537c034da8"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-39745bab3cb8f2d8",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-c129068d2ac5a893"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c129068d2ac5a893",
+          "locator": "reported_amount:450000.0",
+          "title": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2548357_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2548357",
+        "label": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
+        "node_id": "award:usaspending:2548357",
+        "node_type": "award"
+      },
+      "value": 450000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3f403016af1f037b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-f0edbaa65d67b974",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-1f53c0756d98c9ef"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:LMCJKRFW5R81",
+        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1f53c0756d98c9ef",
+          "locator": "reported_recipient:recipient_or_contractor:uei:LMCJKRFW5R81",
+          "title": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2548357_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2548357",
+        "label": "REU SITE: FRONTIER TECHNOLOGIES FOR BIOMETRICS AND AUTHENTICATION -BIOMETRICS, THE SCIENCE OF RECOGNIZING INDIVIDUALS THROUGH PHYSICAL AND BEHAVIORAL TRAITS SUCH AS FINGERPRINTS,...",
+        "node_id": "award:usaspending:2548357",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4c8d052d5bf55925"
     },
     {
       "authority": "authoritative",
@@ -155736,14 +156106,14 @@
       "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
       "history": [],
       "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:T3B4DWYVH7L5",
         "label": "OKLAHOMA STATE UNIVERSITY",
         "node_id": "recipient_or_contractor:uei:T3B4DWYVH7L5",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -173601,9 +173971,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -173646,9 +174016,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -173691,9 +174061,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -222415,56 +222785,6 @@
     {
       "authority": "analytical",
       "basis": "assignee match",
-      "claim_id": "claim-6bdecf115352ac4e",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "federal_funding._organization_patents"
-      },
-      "effective_date": null,
-      "evidence_ids": [
-        "evidence-747edde84ea10367"
-      ],
-      "first_seen_at": "2026-10-16T02:37:08.215323+00:00",
-      "history": [],
-      "last_seen_at": "2026-10-16T02:37:08.215323+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "63788651",
-        "label": "A STRONGLY INTERACTING, TWO-DIMENSIONAL, DIPOLAR SPIN ENSEMBLE IN (111)-ORIENTED DIAMOND FOR QUANTUM SENSING AND SIMULATION",
-        "node_id": "patent:63788651",
-        "node_type": "patent"
-      },
-      "observation_status": "observed",
-      "predicate": "has_related_patent",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-747edde84ea10367",
-          "locator": "has_related_patent:patent:63788651",
-          "title": "A STRONGLY INTERACTING, TWO-DIMENSIONAL, DIPOLAR SPIN ENSEMBLE IN (111)-ORIENTED DIAMOND FOR QUANTUM SENSING AND SIMULATION",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/63788651/application-data",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:KMH5K9V7S518",
-        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
-        "node_id": "recipient_or_contractor:uei:KMH5K9V7S518",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "577cd750fb4012f6"
-    },
-    {
-      "authority": "analytical",
-      "basis": "assignee match",
       "claim_id": "claim-e7a920f36661d36b",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -222515,56 +222835,6 @@
     {
       "authority": "analytical",
       "basis": "assignee match",
-      "claim_id": "claim-6da82ccfa8fb8a8e",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "federal_funding._organization_patents"
-      },
-      "effective_date": null,
-      "evidence_ids": [
-        "evidence-747edde84ea10367"
-      ],
-      "first_seen_at": "2026-10-16T02:37:08.215323+00:00",
-      "history": [],
-      "last_seen_at": "2026-10-16T02:37:08.215323+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "63788651",
-        "label": "A STRONGLY INTERACTING, TWO-DIMENSIONAL, DIPOLAR SPIN ENSEMBLE IN (111)-ORIENTED DIAMOND FOR QUANTUM SENSING AND SIMULATION",
-        "node_id": "patent:63788651",
-        "node_type": "patent"
-      },
-      "observation_status": "observed",
-      "predicate": "has_related_patent",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-747edde84ea10367",
-          "locator": "has_related_patent:patent:63788651",
-          "title": "A STRONGLY INTERACTING, TWO-DIMENSIONAL, DIPOLAR SPIN ENSEMBLE IN (111)-ORIENTED DIAMOND FOR QUANTUM SENSING AND SIMULATION",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/63788651/application-data",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:GS3YEVSS12N6",
-        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
-        "node_id": "recipient_or_contractor:uei:GS3YEVSS12N6",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "577cd750fb4012f6"
-    },
-    {
-      "authority": "analytical",
-      "basis": "assignee match",
       "claim_id": "claim-8554a2be4a7cbd6e",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -222611,6 +222881,106 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "8d24043cad567adf"
+    },
+    {
+      "authority": "analytical",
+      "basis": "assignee match",
+      "claim_id": "claim-6bdecf115352ac4e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "federal_funding._organization_patents"
+      },
+      "effective_date": null,
+      "evidence_ids": [
+        "evidence-747edde84ea10367"
+      ],
+      "first_seen_at": "2026-10-16T02:37:08.215323+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-16T02:37:08.215323+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "63788651",
+        "label": "A STRONGLY INTERACTING, TWO-DIMENSIONAL, DIPOLAR SPIN ENSEMBLE IN (111)-ORIENTED DIAMOND FOR QUANTUM SENSING AND SIMULATION",
+        "node_id": "patent:63788651",
+        "node_type": "patent"
+      },
+      "observation_status": "not_observed",
+      "predicate": "has_related_patent",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-747edde84ea10367",
+          "locator": "has_related_patent:patent:63788651",
+          "title": "A STRONGLY INTERACTING, TWO-DIMENSIONAL, DIPOLAR SPIN ENSEMBLE IN (111)-ORIENTED DIAMOND FOR QUANTUM SENSING AND SIMULATION",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/63788651/application-data",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:KMH5K9V7S518",
+        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
+        "node_id": "recipient_or_contractor:uei:KMH5K9V7S518",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "577cd750fb4012f6"
+    },
+    {
+      "authority": "analytical",
+      "basis": "assignee match",
+      "claim_id": "claim-6da82ccfa8fb8a8e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "federal_funding._organization_patents"
+      },
+      "effective_date": null,
+      "evidence_ids": [
+        "evidence-747edde84ea10367"
+      ],
+      "first_seen_at": "2026-10-16T02:37:08.215323+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-16T02:37:08.215323+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "63788651",
+        "label": "A STRONGLY INTERACTING, TWO-DIMENSIONAL, DIPOLAR SPIN ENSEMBLE IN (111)-ORIENTED DIAMOND FOR QUANTUM SENSING AND SIMULATION",
+        "node_id": "patent:63788651",
+        "node_type": "patent"
+      },
+      "observation_status": "not_observed",
+      "predicate": "has_related_patent",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-747edde84ea10367",
+          "locator": "has_related_patent:patent:63788651",
+          "title": "A STRONGLY INTERACTING, TWO-DIMENSIONAL, DIPOLAR SPIN ENSEMBLE IN (111)-ORIENTED DIAMOND FOR QUANTUM SENSING AND SIMULATION",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/63788651/application-data",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:GS3YEVSS12N6",
+        "label": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+        "node_id": "recipient_or_contractor:uei:GS3YEVSS12N6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "577cd750fb4012f6"
     },
     {
       "authority": "analytical",
@@ -223229,14 +223599,14 @@
       "first_seen_at": "2026-08-28T08:24:42.158568+00:00",
       "history": [],
       "last_seen_at": "2026-08-28T08:24:42.158568+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "63762524",
         "label": "SYSTEMS AND METHODS FOR SPATIAL, TEMPORAL, AND VECTORIAL QUANTUM SENSING",
         "node_id": "patent:63762524",
         "node_type": "patent"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "has_related_patent",
       "sources": [
         {
@@ -223429,14 +223799,14 @@
       "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
       "history": [],
       "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "US20250097021A1",
         "label": "QUANTUM NETWORK DEVICES, SYSTEMS, AND METHODS",
         "node_id": "patent:US20250097021A1",
         "node_type": "patent"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "has_related_patent",
       "sources": [
         {
@@ -249533,7 +249903,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249580,7 +249950,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249627,7 +249997,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249674,7 +250044,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249721,7 +250091,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249768,7 +250138,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249815,7 +250185,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249862,7 +250232,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249909,7 +250279,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -249956,7 +250326,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250003,7 +250373,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250050,7 +250420,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250097,7 +250467,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250144,7 +250514,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250191,7 +250561,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250238,7 +250608,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250285,7 +250655,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250332,7 +250702,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250384,7 +250754,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250436,7 +250806,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250488,7 +250858,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250540,7 +250910,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250592,7 +250962,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250644,7 +251014,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250696,7 +251066,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250748,7 +251118,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250800,7 +251170,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-22T02:48:12.545201+00:00",
+      "retracted_at": "2026-10-23T02:51:53.318837+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -254046,6 +254416,16 @@
       "locator": "awarding_agency:department of defense",
       "title": "ULTRA-SECURE, POST-QUANTUM COMMUNICATIONS AND ENCRYPTIONS (US-PQC/E)",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0324_9700_-NONE-_-NONE-/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0ed1f1d56dd96aa0",
+      "locator": "awarding_agency:department of the treasury",
+      "title": "[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732",
       "verification_status": "source_reported"
     },
     {
@@ -268053,6 +268433,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-568a322c30ee7b5f",
+      "locator": "reported_amount:109123.0",
+      "title": "(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-568d7d53c660956a",
       "locator": "opportunity_status:open",
       "title": "ROSES 2025: A.10 INNOVATE",
@@ -270820,6 +271210,16 @@
       "verification_status": "source_reported"
     },
     {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-65570394c648f31c",
+      "locator": "opportunity_status:awarded",
+      "title": "(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
       "authority": "primary",
       "content_hash": null,
       "controlling_status": "not_asserted",
@@ -271497,6 +271897,16 @@
       "locator": "opportunity_status:open",
       "title": "Call for Solutions for Participation in Command and Control (C2) Software Development Kit (SDK) Integration Event for Controllers/ Human Machine Interfaces (HMI) of Robotic and Autonomous Systems",
       "url": "https://sam.gov/workspace/contract/opp/a9df7e011cd7459980794cae7e49ff11/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-68870cf7fa5f8e90",
+      "locator": "opportunity_status:awarded",
+      "title": "[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732",
       "verification_status": "source_reported"
     },
     {
@@ -275843,6 +276253,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7ef86257f94419f8",
+      "locator": "reported_amount:666663.18",
+      "title": "[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-7f0b90dafe36d4aa",
       "locator": "opportunity_status:open",
       "title": "Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)",
@@ -276327,6 +276747,16 @@
       "locator": "reported_amount:1021971.5",
       "title": "SERVICES IN SUPPORT OF THE HIGH PERFORMANCE COMPUTING MODERNIZATION PROGRAM",
       "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26FA071_9700_W912DY22D0040_9700/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-82122afbc4e120e2",
+      "locator": "reported_recipient:recipient_or_contractor:uei:Z4GBNKZT5YC6",
+      "title": "(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -282363,6 +282793,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-a04ca32e6d49bbc9",
+      "locator": "reported_recipient:recipient_or_contractor:uei:H651TLAVYMN3",
+      "title": "[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-a059f5066cd7488c",
       "locator": "opportunity_status:awarded",
       "title": "QUANTUM CASCADE LASER (QCL) SYSTEM OPERATING IN THE MID-INFRARED (MID-IR) REGION SUITABLE FOR PLANAR LASER-INDUCED FLUORESCENCE (PLIF) MEASUREMENTS OF CARBON DIOXIDE (CO2) IN COMB...",
@@ -287687,6 +288127,16 @@
       "locator": "legal_business_name:regents of the university of california, the",
       "title": "Regents of the University of California, The",
       "url": "https://sam.gov/entity/GS3YEVSS12N6/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ba922fbf2f719d56",
+      "locator": "awarding_agency:department of defense",
+      "title": "(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -302063,16 +302513,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 5019,
-    "authoritative_claims": 4804,
+    "active_claims": 5027,
+    "authoritative_claims": 4812,
     "conflicted_claims": 38,
     "derived_claims": 210,
-    "evidence_items": 5123,
-    "source_urls": 1384,
-    "subjects": 1033,
+    "evidence_items": 5131,
+    "source_urls": 1386,
+    "subjects": 1035,
     "superseded_claims": 0,
-    "total_claims": 5046
+    "total_claims": 5054
   },
-  "updated_at": "2026-10-22T02:48:12.545201+00:00",
+  "updated_at": "2026-10-23T02:51:53.318837+00:00",
   "version": 1
 }

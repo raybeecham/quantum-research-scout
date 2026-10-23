@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-10-22T02:48:12.545201+00:00_
+_Updated 2026-10-23T02:51:53.318837+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **5019**
-- Authoritative claims: **4804**
+- Active claims: **5027**
+- Authoritative claims: **4812**
 - Analytical claims: **210**
 - Conflicted claims: **38**
-- Evidence items / URLs: **5123 / 1384**
+- Evidence items / URLs: **5131 / 1386**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,14 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | (D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION. | opportunity status | awarded | authoritative / high | [(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.](https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-) |
+| active | (D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION. | awarding agency | Department of Defense | authoritative / high | [(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.](https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-) |
+| active | (D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION. | reported amount | 109123.0 | authoritative / high | [(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.](https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-) |
+| active | (D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION. | reported recipient | FRAISOS CORP | authoritative / high | [(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.](https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-) |
+| active | [BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE... | opportunity status | awarded | authoritative / high | [[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...](https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732) |
+| active | [BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE... | awarding agency | Department of the Treasury | authoritative / high | [[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...](https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732) |
+| active | [BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE... | reported amount | 666663.18 | authoritative / high | [[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...](https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732) |
+| active | [BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE... | reported recipient | COPIA CONSULTING GROUP LLC | authoritative / high | [[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...](https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732) |
 | active | ROBOTIC AUTONOMOUS SYSTEMS SUPPORT | opportunity status | awarded | authoritative / high | [ROBOTIC AUTONOMOUS SYSTEMS SUPPORT](https://www.usaspending.gov/award/CONT_AWD_N0002426F8513_9700_N0002417D6421_9700) |
 | active | ROBOTIC AUTONOMOUS SYSTEMS SUPPORT | awarding agency | Department of Defense | authoritative / high | [ROBOTIC AUTONOMOUS SYSTEMS SUPPORT](https://www.usaspending.gov/award/CONT_AWD_N0002426F8513_9700_N0002417D6421_9700) |
 | active | ROBOTIC AUTONOMOUS SYSTEMS SUPPORT | reported amount | 1650000.0 | authoritative / high | [ROBOTIC AUTONOMOUS SYSTEMS SUPPORT](https://www.usaspending.gov/award/CONT_AWD_N0002426F8513_9700_N0002417D6421_9700) |
@@ -256,14 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI) | opportunity status | awarded | authoritative / high | [NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0456_3600_NNG15SD22B_8000) |
 | active | NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI) | awarding agency | Department of Veterans Affairs | authoritative / high | [NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0456_3600_NNG15SD22B_8000) |
 | active | NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI) | reported amount | 238088.09 | authoritative / high | [NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0456_3600_NNG15SD22B_8000) |
-| active | NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI) | reported recipient | FOUR POINTS TECHNOLOGY, L.L.C. | authoritative / high | [NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0456_3600_NNG15SD22B_8000) |
-| active | SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS | opportunity status | awarded | authoritative / high | [SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1420_8000_-NONE-_-NONE-) |
-| active | SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS | awarding agency | National Aeronautics and Space Administration | authoritative / high | [SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1420_8000_-NONE-_-NONE-) |
-| active | SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS | reported amount | 31099.2 | authoritative / high | [SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1420_8000_-NONE-_-NONE-) |
-| active | SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS | reported recipient | HITACHI HIGH-TECH AMERICA, INC. | authoritative / high | [SCANNING ELECTRON MICROSCOPE SERVICE CONTRACTS FOR HITACHI SEMS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1420_8000_-NONE-_-NONE-) |
-| active | 17--RESETTING DEVICE,AI | opportunity status | awarded | authoritative / high | [17--RESETTING DEVICE,AI](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view) |
-| active | 17--RESETTING DEVICE,AI | awarding agency | DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP WEAPON SYSTEMS SUPPORT.NAVSUP WSS PHILADELPHIA.NAVSUP WEAPON SYSTEMS SUPPORT | authoritative / high | [17--RESETTING DEVICE,AI](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view) |
-| active | 17--RESETTING DEVICE,AI | reported amount | 1741398.0 | authoritative / high | [17--RESETTING DEVICE,AI](https://sam.gov/workspace/contract/opp/b3d7dfd74d7c4a91bd221d2be3296948/view) |
 
 ## Method
 

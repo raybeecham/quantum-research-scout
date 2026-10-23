@@ -215,8 +215,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 19,
-      "first_party_evidence_count": 13,
+      "evidence_count": 20,
+      "first_party_evidence_count": 14,
       "name": "Cisco",
       "priority": "high",
       "status": "covered",
@@ -353,7 +353,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 33,
+      "evidence_count": 34,
       "first_party_evidence_count": 0,
       "name": "IBM",
       "priority": "high",
@@ -925,9 +925,9 @@
       "first_seen": "2026-06-25",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-08",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "NIST",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "critical",
       "recent_count": 0,
       "status": "quiet",
@@ -946,8 +946,20 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 32,
+      "current_evidence_count": 33,
       "evidence": [
+        {
+          "date": "2026-10-22",
+          "key": "https://quantumcomputingreport.com/ibm-and-rutgers-control-quantum-chaos-across-100-qubits-on-heron-processor",
+          "report": "2026-10/2026-10-22-digest.md",
+          "score": 41,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM and Rutgers Control Quantum Chaos Across 100 Qubits on Heron Processor",
+          "url": "https://quantumcomputingreport.com/ibm-and-rutgers-control-quantum-chaos-across-100-qubits-on-heron-processor"
+        },
         {
           "date": "2026-10-15",
           "key": "https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost",
@@ -1357,13 +1369,13 @@
           "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
         }
       ],
-      "evidence_count": 33,
+      "evidence_count": 34,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-10-15",
+      "latest_seen": "2026-10-22",
       "momentum": "declining",
       "name": "IBM",
-      "prior_count": 2,
+      "prior_count": 3,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -2471,7 +2483,7 @@
       "latest_seen": "2026-10-13",
       "momentum": "declining",
       "name": "Keyfactor",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -2825,8 +2837,20 @@
         "Cisco Systems"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 19,
+      "current_evidence_count": 20,
       "evidence": [
+        {
+          "date": "2026-10-22",
+          "key": "https://blogs.cisco.com/news/are-you-post-quantum-ready-build-quantum-readiness-into-todays-infrastructure",
+          "report": "2026-10/2026-10-22-digest.md",
+          "score": 62,
+          "source": "Cisco Quantum-Safe Updates",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Are You Post-Quantum Ready? Build Quantum Readiness Into Today\u2019s Infrastructure Strategy",
+          "url": "https://blogs.cisco.com/news/are-you-post-quantum-ready-build-quantum-readiness-into-todays-infrastructure"
+        },
         {
           "date": "2026-10-15",
           "key": "https://blogs.cisco.com/gov/the-quantum-security-transition-a-policy-agenda-for-post-quantum-readiness-in-asia-pacific",
@@ -3056,13 +3080,13 @@
           "url": "https://blogs.cisco.com/developer/watch-a-hybrid-post-quantum-handshake-on-the-wire-ipsec-series-part-4"
         }
       ],
-      "evidence_count": 19,
+      "evidence_count": 20,
       "first_seen": "2026-07-27",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-10-15",
-      "momentum": "stable",
+      "latest_seen": "2026-10-22",
+      "momentum": "declining",
       "name": "Cisco",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -3543,9 +3567,9 @@
       "first_seen": "2024-10-28",
       "historical_evidence_count": 19,
       "latest_seen": "2026-10-08",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Fortanix",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -3892,9 +3916,9 @@
       "latest_seen": "2026-10-17",
       "momentum": "rising",
       "name": "QuEra",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 5,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "AI Security",
@@ -5116,11 +5140,11 @@
       "first_seen": "2025-11-13",
       "historical_evidence_count": 2,
       "latest_seen": "2026-10-15",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Google Quantum AI",
-      "prior_count": 0,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -5206,7 +5230,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -8026,7 +8050,7 @@
       "latest_seen": "2026-10-13",
       "momentum": "declining",
       "name": "Crypto-agility",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "critical",
       "recent_count": 0,
       "status": "quiet",
@@ -8043,8 +8067,32 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 41,
+      "current_evidence_count": 43,
       "evidence": [
+        {
+          "date": "2026-10-22",
+          "key": "https://quantumcomputingreport.com/seeqc-and-nvidia-demonstrate-50-qec-latency-and-error-rate-reduction-via-digital-pre-decoder-architecture",
+          "report": "2026-10/2026-10-22-digest.md",
+          "score": 73,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "SEEQC and NVIDIA Demonstrate 50% QEC Latency and Error Rate Reduction via Digital Pre-Decoder Architecture",
+          "url": "https://quantumcomputingreport.com/seeqc-and-nvidia-demonstrate-50-qec-latency-and-error-rate-reduction-via-digital-pre-decoder-architecture"
+        },
+        {
+          "date": "2026-10-22",
+          "key": "https://thequantuminsider.com/2026/10/22/seeqc-combines-chip-based-processing-with-nvidia-ai-to-improve-quantum-error-correction",
+          "report": "2026-10/2026-10-22-digest.md",
+          "score": 49,
+          "source": "The Quantum Insider",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "SEEQC Combines Chip-Based Processing With NVIDIA AI to Improve Quantum Error Correction",
+          "url": "https://thequantuminsider.com/2026/10/22/seeqc-combines-chip-based-processing-with-nvidia-ai-to-improve-quantum-error-correction"
+        },
         {
           "date": "2026-10-15",
           "key": "https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost",
@@ -8500,39 +8548,15 @@
           ],
           "title": "Researchers Combine Codes to Improve Quantum Error Correction",
           "url": "https://quantumzeitgeist.com/quantum-error-correction-bosonic-codes-photon-loss-handling"
-        },
-        {
-          "date": "2026-06-30",
-          "key": "https://quantumzeitgeist.com/quantum-error-correction-qldpc-codes-3",
-          "report": "2026-06/2026-06-30-digest.md",
-          "score": 76,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Quantum Error Correction: New Codes Simplify Chip Design for Scalable Computers",
-          "url": "https://quantumzeitgeist.com/quantum-error-correction-qldpc-codes-3"
-        },
-        {
-          "date": "2026-06-24",
-          "key": "https://quantumzeitgeist.com/quantum-error-correction-optimal-defining-matrices-codes",
-          "report": "2026-06/2026-06-24-digest.md",
-          "score": 36,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Researchers Build Improved Quantum Error Correction Using Novel Matrices",
-          "url": "https://quantumzeitgeist.com/quantum-error-correction-optimal-defining-matrices-codes"
         }
       ],
-      "evidence_count": 43,
+      "evidence_count": 45,
       "first_seen": "2026-01-13",
       "historical_evidence_count": 2,
-      "latest_seen": "2026-10-15",
+      "latest_seen": "2026-10-22",
       "momentum": "declining",
       "name": "Quantum error correction",
-      "prior_count": 4,
+      "prior_count": 5,
       "priority": "critical",
       "recent_count": 2,
       "status": "active",
@@ -8977,9 +9001,9 @@
       "first_seen": "2025-09-10",
       "historical_evidence_count": 3,
       "latest_seen": "2026-10-19",
-      "momentum": "stable",
+      "momentum": "rising",
       "name": "Logical qubits",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "critical",
       "recent_count": 1,
       "status": "active",
@@ -9079,10 +9103,10 @@
       "latest_seen": "2026-10-14",
       "momentum": "declining",
       "name": "ML-DSA",
-      "prior_count": 3,
+      "prior_count": 1,
       "priority": "critical",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -9130,7 +9154,7 @@
       "prior_count": 1,
       "priority": "critical",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -9633,10 +9657,10 @@
       "latest_seen": "2026-10-14",
       "momentum": "declining",
       "name": "Quantum networking",
-      "prior_count": 3,
+      "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "Quantum Networking"
       ],
@@ -9667,9 +9691,9 @@
       "first_seen": "2026-10-08",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-08",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Hybrid TLS",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -10010,6 +10034,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-10-22T02:56:47.141480+00:00",
+  "updated_at": "2026-10-23T02:59:32.262520+00:00",
   "version": 2
 }
