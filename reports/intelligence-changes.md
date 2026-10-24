@@ -2,12 +2,12 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-23T02:51:53.318837+00:00_
+_Updated 2026-10-24T02:49:00.911271+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **35**
-- Added / changed / resolved: **8 / 0 / 27**
+- Material changes: **31**
+- Added / changed / resolved: **4 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
@@ -18,14 +18,10 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- **(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-))
-- **(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.** — awarding agency: Department of Defense ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-))
-- **(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.** — reported amount: 109123.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-))
-- **(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-))
-- **[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732))
-- **[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...** — awarding agency: Department of the Treasury ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732))
-- **[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...** — reported amount: 666663.18 ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732))
-- **[BRIDGE] CYBERSECURITY INFORMATION ANALYSIS PROGRAM PROVIDE TECHNICAL & PROGRAMMATIC EXPERTISE. GOAL IS TO ENHANCE CYBERSECURITY SITUATIONAL AWARENESS, ENSURE COMPLIANCE WITH FEDE...** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00004_2041_GS35F458GA_4732))
+- **ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-))
+- **ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.** — awarding agency: Department of Defense ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-))
+- **ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.** — reported amount: 372000.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-))
+- **ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-))
 
 ## Superseded claims
 

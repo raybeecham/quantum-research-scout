@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-10-23T02:51:53.318837+00:00_
+_Updated 2026-10-24T02:49:00.911271+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **5027**
-- Authoritative claims: **4812**
+- Active claims: **5031**
+- Authoritative claims: **4816**
 - Analytical claims: **210**
 - Conflicted claims: **38**
-- Evidence items / URLs: **5131 / 1386**
+- Evidence items / URLs: **5135 / 1387**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,10 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES. | opportunity status | awarded | authoritative / high | [ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.](https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-) |
+| active | ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES. | awarding agency | Department of Defense | authoritative / high | [ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.](https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-) |
+| active | ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES. | reported amount | 372000.0 | authoritative / high | [ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.](https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-) |
+| active | ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES. | reported recipient | VIRSIG, LLC | authoritative / high | [ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.](https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-) |
 | active | (D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION. | opportunity status | awarded | authoritative / high | [(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.](https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-) |
 | active | (D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION. | awarding agency | Department of Defense | authoritative / high | [(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.](https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-) |
 | active | (D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION. | reported amount | 109123.0 | authoritative / high | [(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.](https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-) |
@@ -260,10 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | Notice of Award - HADEAN AI TRL7 & TRL9 Software | set aside | No Set aside used | authoritative / high | [Notice of Award - HADEAN AI TRL7 & TRL9 Software](https://sam.gov/workspace/contract/opp/9679e6ddf1b9463086b47ef80d841564/view) |
 | active | Notice of Award - HADEAN AI TRL7 & TRL9 Software | awarding agency | DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR COMBAT COMMAND.FA4801 49 CONS PK | authoritative / high | [Notice of Award - HADEAN AI TRL7 & TRL9 Software](https://sam.gov/workspace/contract/opp/9679e6ddf1b9463086b47ef80d841564/view) |
 | active | Notice of Award - HADEAN AI TRL7 & TRL9 Software | reported amount | 262187.5 | authoritative / high | [Notice of Award - HADEAN AI TRL7 & TRL9 Software](https://sam.gov/workspace/contract/opp/9679e6ddf1b9463086b47ef80d841564/view) |
-| active | Notice of Award - HADEAN AI TRL7 & TRL9 Software | reported recipient | CARAHSOFT TECHNOLOGY CORP | authoritative / high | [Notice of Award - HADEAN AI TRL7 & TRL9 Software](https://sam.gov/workspace/contract/opp/9679e6ddf1b9463086b47ef80d841564/view) |
-| active | NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI) | opportunity status | awarded | authoritative / high | [NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0456_3600_NNG15SD22B_8000) |
-| active | NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI) | awarding agency | Department of Veterans Affairs | authoritative / high | [NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0456_3600_NNG15SD22B_8000) |
-| active | NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI) | reported amount | 238088.09 | authoritative / high | [NATIONAL DIGITAL TELEPATHOLOGY - ARTIFICIAL INTELLIGENCE (NDTP-AI)](https://www.usaspending.gov/award/CONT_AWD_36C10B26F0456_3600_NNG15SD22B_8000) |
 
 ## Method
 

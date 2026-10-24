@@ -5479,9 +5479,9 @@
         "Foreign Owned",
         "Manufacturer of Goods"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "23386",
-      "checked_at": "2026-09-24T02:35:42.095877+00:00",
+      "checked_at": "2026-10-24T02:49:00.911271+00:00",
       "contractor_name": "THALES DEFENSE & SECURITY INC",
       "contractor_score": 30,
       "dba_name": "THALES COMMUNICATIONS INC",
@@ -6948,7 +6948,7 @@
         "State Controlled Institution of Higher Learning",
         "U.S. State Government"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "4B560",
       "checked_at": "2026-10-23T02:51:53.318837+00:00",
       "contractor_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
@@ -9058,9 +9058,9 @@
         "Women-Owned Business",
         "Women-Owned Small Business"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "0ABU8",
-      "checked_at": "2026-09-24T02:35:42.095877+00:00",
+      "checked_at": "2026-10-24T02:49:00.911271+00:00",
       "contractor_name": "DSD LABORATORIES INC",
       "contractor_score": 26,
       "dba_name": null,
@@ -9074,109 +9074,7 @@
       "legal_business_name": "DSD LABORATORIES INC",
       "naics": [
         {
-          "code": "611430",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541211",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541511",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
           "code": "541715",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "336611",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541512",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541715",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541614",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541612",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "562910",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "488190",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "611512",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "562910",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541715",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541990",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541715",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "518210",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541519",
           "name": null,
           "primary": null,
           "small_business": null
@@ -9188,7 +9086,31 @@
           "small_business": null
         },
         {
+          "code": "562910",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541715",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
           "code": "541611",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541513",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "336611",
           "name": null,
           "primary": null,
           "small_business": null
@@ -9200,7 +9122,85 @@
           "small_business": null
         },
         {
-          "code": "541513",
+          "code": "541512",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "611430",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541614",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541519",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "518210",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541211",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "611512",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "488190",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541511",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541990",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541612",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541715",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541715",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "562910",
           "name": null,
           "primary": null,
           "small_business": null
@@ -9213,32 +9213,32 @@
           "name": "SPECIAL STUDIES/ANALYSIS- DATA (OTHER THAN SCIENTIFIC)"
         },
         {
-          "code": "R408",
-          "name": "SUPPORT- PROFESSIONAL: PROGRAM MANAGEMENT/SUPPORT"
+          "code": "R423",
+          "name": "SUPPORT- PROFESSIONAL: INTELLIGENCE"
         },
         {
           "code": "R799",
           "name": "SUPPORT- MANAGEMENT: OTHER"
         },
         {
+          "code": "B599",
+          "name": "SPECIAL STUDIES/ANALYSIS- OTHER"
+        },
+        {
           "code": "DA01",
           "name": "IT AND TELECOM - BUSINESS APPLICATION/APPLICATION DEVELOPMENT SUPPORT SERVICES (LABOR)"
         },
         {
+          "code": "R408",
+          "name": "SUPPORT- PROFESSIONAL: PROGRAM MANAGEMENT/SUPPORT"
+        },
+        {
           "code": "R425",
           "name": "SUPPORT- PROFESSIONAL: ENGINEERING/TECHNICAL"
-        },
-        {
-          "code": "R423",
-          "name": "SUPPORT- PROFESSIONAL: INTELLIGENCE"
-        },
-        {
-          "code": "B599",
-          "name": "SPECIAL STUDIES/ANALYSIS- OTHER"
         }
       ],
       "purpose_of_registration": "All Awards",
-      "registration_expiration_date": "2027-09-01",
+      "registration_expiration_date": "2027-10-21",
       "registration_status": "Active",
       "resolution_basis": "exact normalized legal-name match",
       "resolution_confidence": "high",
@@ -13909,11 +13909,11 @@
     "newly_resolved": 0,
     "no_match": 1,
     "pending": 115,
-    "queries_remaining": 2,
+    "queries_remaining": 1,
     "resolved": 102,
     "tracked_contractors": 75,
     "uei_coverage_percent": 136.0
   },
-  "updated_at": "2026-10-23T02:51:53.318837+00:00",
+  "updated_at": "2026-10-24T02:49:00.911271+00:00",
   "version": 1
 }

@@ -4,19 +4,19 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-23 02:59 UTC_
+_Updated 2026-10-24 02:52 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-10-20 | 25 |
-| Quantum Hardware | ↗️ rising (20 vs 10) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-22 | 345 |
+| Quantum Hardware | ↗️ rising (21 vs 10) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-23 | 349 |
 | Quantum Sensing | ↗️ rising (3 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-19 | 54 |
-| PQC / Crypto Agility | ➡️ stable (16 vs 21) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-22 | 309 |
+| Quantum Software / Tooling | ↗️ rising (8 vs 5) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-23 | 112 |
+| PQC / Crypto Agility | ➡️ stable (17 vs 22) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-23 | 312 |
 | QEC / Fault Tolerance | ➡️ stable (8 vs 8) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-10-22 | 93 |
-| Quantum Networking | ↘️ declining (1 vs 6) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-21 | 151 |
-| Quantum Software / Tooling | ➡️ stable (7 vs 6) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-22 | 111 |
+| Quantum Networking | ➡️ stable (3 vs 3) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-23 | 153 |
 | Standards / Government | ↘️ declining (1 vs 7) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-10-19 | 77 |
 
 ## AI Security
@@ -32,14 +32,14 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 
 ## Quantum Hardware
 
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
+- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-10-23 — [ZuriQ and Rhonexum Form Multi-Year Partnership to Integrate Cryogenic Control ICs into 2D Trapped-Ion Processors](https://quantumcomputingreport.com/zuriq-and-rhonexum-form-multi-year-partnership-to-integrate-cryogenic-control-ics-into-2d-trapped-ion-processors) (Quantum Computing Report, score 47)
+  - 2026-10-23 — [Guest Post: Quantum Computing’s Next Phase May Be Driven by Compounding Breakthroughs](https://thequantuminsider.com/2026/10/23/quantum-computing-compounding-breakthroughs) (The Quantum Insider, score 44)
+  - 2026-10-23 — [IQM and Telefónica Plan Quantum Computer for Madrid University](https://thequantuminsider.com/2026/10/23/madrid-first-quantum-computer-telefonica-iqm) (The Quantum Insider, score 24)
+  - 2026-10-23 — [Quandela And Quanova Partner to Deploy Vietnam’s First Quantum Computer](https://thequantuminsider.com/2026/10/23/quandela-and-quanova-partner-to-deploy-vietnams-first-quantum-computer) (The Quantum Insider, score 24)
   - 2026-10-22 — [UK National Physical Laboratory Secures £230,000 ($307.5K USD) GOTT Grant to Scale Quantum Ion-Trap Manufacturing](https://quantumcomputingreport.com/uk-national-physical-laboratory-secures-230000-307-5k-usd-gott-grant-to-scale-quantum-ion-trap-manufacturing) (Quantum Computing Report, score 100)
-  - 2026-10-22 — [IBM and Rutgers Control Quantum Chaos Across 100 Qubits on Heron Processor](https://quantumcomputingreport.com/ibm-and-rutgers-control-quantum-chaos-across-100-qubits-on-heron-processor) (Quantum Computing Report, score 41)
-  - 2026-10-22 — [Qblox Achieves Sub-4 Microsecond Latency Integrating NVIDIA DGX Spark and RTX PRO 6000 Blackwell via NVQLink](https://quantumcomputingreport.com/qblox-achieves-sub-4-microsecond-latency-integrating-nvidia-dgx-spark-and-rtx-pro-6000-blackwell-via-nvqlink) (Quantum Computing Report, score 34)
-  - 2026-10-22 — [The three kinds of three-qubit entanglement](https://quantum-journal.org/papers/q-2026-10-22-2242) (Quantum Journal, score 34)
-  - 2026-10-21 — [GOTT Funds NPL Project to Scale Trapped-Ion Quantum Technology](https://thequantuminsider.com/2026/10/21/gott-funds-npl-project-to-scale-trapped-ion-quantum-technology) (The Quantum Insider, score 100)
 
 ## Quantum Sensing
 
@@ -52,16 +52,27 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-10-01 — [NATO Releases Official Quantum Technology Roadmap Establishing Operational Timelines and Standardization Frameworks](https://quantumcomputingreport.com/nato-releases-official-quantum-technology-roadmap-establishing-operational-timelines-and-standardization-frameworks) (Quantum Computing Report, score 27)
   - 2026-09-29 — [STTR PHASE I NON-HERMITIAN COUPLED LASER ARRAY READOUT FOR QUANTUM SENSORS](https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0291_8000_-NONE-_-NONE-) (USAspending · Quantum Technologies, score 100)
 
+## Quantum Software / Tooling
+
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, USAspending · Quantum Technologies
+- Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
+- Recent supporting evidence:
+  - 2026-10-23 — [RhymeQ Joins NVIDIA Inception Program and Announces Technical Collaboration on NOOA Agentic AI Framework](https://quantumcomputingreport.com/rhymeq-joins-nvidia-inception-program-and-announces-technical-collaboration-on-nooa-agentic-ai-framework) (Quantum Computing Report, score 26)
+  - 2026-10-22 — [ZuriQ and Rhonexum Partner on Cryogenic Electronics for Quantum Computing](https://thequantuminsider.com/2026/10/22/zuriq-rhonexum-cryogenic-electronics-quantum-computing) (The Quantum Insider, score 42)
+  - 2026-10-22 — [qBraid Unveils qBraid OS and Launches Hosted GH200 GPU Simulators at NVIDIA GTC Berlin](https://quantumcomputingreport.com/qbraid-unveils-qbraid-os-and-launches-hosted-gh200-gpu-simulators-at-nvidia-gtc-berlin) (Quantum Computing Report, score 33)
+  - 2026-10-21 — [Pasqal Launches Neutral-Atom Agentic Toolkit and Demonstrates QPU Workflows Across 258 Quantum Physics Papers](https://quantumcomputingreport.com/pasqal-launches-neutral-atom-agentic-toolkit-and-demonstrates-qpu-workflows-across-258-quantum-physics-papers) (Quantum Computing Report, score 48)
+  - 2026-10-20 — [Reliable Entropy Estimation from Observed Statistics for Device-Independent Quantum Cryptography](https://quantum-journal.org/papers/q-2026-10-20-2238) (Quantum Journal, score 20)
+
 ## PQC / Crypto Agility
 
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-10-23 — [UK and Singapore Align on Post-Quantum Cryptography Migration and Quantum Security Standards in Financial Sector](https://quantumcomputingreport.com/uk-and-singapore-align-on-post-quantum-cryptography-migration-and-quantum-security-standards-in-financial-sector) (Quantum Computing Report, score 81)
+  - 2026-10-23 — [How to evaluate a post-quantum cryptography provider: 10 questions to ask](https://pqshield.com/post-quantum-cryptography-provider) (PQShield, score 67)
+  - 2026-10-23 — [Bringing post-quantum cryptography to geographically fenced key management](https://blog.cloudflare.com/post-quantum-geo-key-manager) (Cloudflare Blog, score 55)
   - 2026-10-22 — [Symmatrics Appoints Andrew Hallman to Strategic Advisory Board](https://thequantuminsider.com/2026/10/22/symmatrics-andrew-hallman-advisory-board) (The Quantum Insider, score 100)
   - 2026-10-22 — [Are You Post-Quantum Ready? Build Quantum Readiness Into Today’s Infrastructure Strategy](https://blogs.cisco.com/news/are-you-post-quantum-ready-build-quantum-readiness-into-todays-infrastructure) (Cisco Quantum-Safe Updates, score 62)
-  - 2026-10-22 — [UK and Singapore Discuss Quantum Security and Post-Quantum Cryptography](https://thequantuminsider.com/2026/10/22/11th-uk-singapore-financial-dialogue-october-2026-joint-statement) (The Quantum Insider, score 56)
-  - 2026-10-22 — [Palm Beach Colleges Connect as Florida Launches Quantum-Safe Network](https://thequantuminsider.com/2026/10/22/palm-beach-colleges-connect-as-florida-launches-quantum-safe-network) (The Quantum Insider, score 55)
-  - 2026-10-21 — [Black Kite Introduces Quantum Readiness Controls to Assess Third-Party Cryptographic Risk](https://quantumcomputingreport.com/black-kite-introduces-quantum-readiness-controls-to-assess-third-party-cryptographic-risk) (Quantum Computing Report, score 73)
 
 ## QEC / Fault Tolerance
 
@@ -76,25 +87,14 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 
 ## Quantum Networking
 
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph, Quantum Computing Report
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
+  - 2026-10-23 — [Palm Beach State College and FAU Activate First Operational Segment of Florida’s Statewide Quantum-Safe Network](https://quantumcomputingreport.com/palm-beach-state-college-and-fau-activate-first-operational-segment-of-floridas-statewide-quantum-safe-network) (Quantum Computing Report, score 73)
+  - 2026-10-23 — [Telefónica and IQM to Deploy Community of Madrid’s First On-Premises Quantum Computer at Universidad Politécnica de Madrid](https://quantumcomputingreport.com/telefonica-and-iqm-to-deploy-community-of-madrids-first-on-premises-quantum-computer-at-universidad-politecnica-de-madrid) (Quantum Computing Report, score 56)
   - 2026-10-21 — [South Korea Expands Quantum Communications Testbeds Through 2028](https://thequantuminsider.com/2026/10/21/korea-expands-quantum-communications-testbeds-three-hubs) (The Quantum Insider, score 100)
   - 2026-10-14 — [OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732) (USAspending · Quantum Technologies, score 100)
   - 2026-10-13 — [QuDef And The Thought Projects Partner to Bring Quantum Security Platform to Asia-Pacific](https://thequantuminsider.com/2026/10/13/qudef-and-the-thought-projects-partner-to-bring-quantum-security-platform-to-asia-pacific) (The Quantum Insider, score 33)
-  - 2026-10-12 — [In Step Toward Quantum Networking, Penn Study Finds Quantum Light Pattern Can Survive Loss of Entanglement](https://thequantuminsider.com/2026/10/12/in-step-toward-quantum-networking-penn-study-finds-quantum-light-pattern-can-survive-loss-of-entanglement) (The Quantum Insider, score 84)
-  - 2026-10-09 — [IonQ Demonstrates World-First Quantum Memory-Enhanced Interconnect for Distributed Quantum Applications](https://investors.ionq.com/news/news-details/2026/IonQ-Demonstrates-World-First-Quantum-Memory-Enhanced-Interconnect-for-Distributed-Quantum-Applications/default.aspx) (IonQ News, score 37)
-
-## Quantum Software / Tooling
-
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, USAspending · Quantum Technologies
-- Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
-- Recent supporting evidence:
-  - 2026-10-22 — [ZuriQ and Rhonexum Partner on Cryogenic Electronics for Quantum Computing](https://thequantuminsider.com/2026/10/22/zuriq-rhonexum-cryogenic-electronics-quantum-computing) (The Quantum Insider, score 42)
-  - 2026-10-22 — [qBraid Unveils qBraid OS and Launches Hosted GH200 GPU Simulators at NVIDIA GTC Berlin](https://quantumcomputingreport.com/qbraid-unveils-qbraid-os-and-launches-hosted-gh200-gpu-simulators-at-nvidia-gtc-berlin) (Quantum Computing Report, score 33)
-  - 2026-10-21 — [Pasqal Launches Neutral-Atom Agentic Toolkit and Demonstrates QPU Workflows Across 258 Quantum Physics Papers](https://quantumcomputingreport.com/pasqal-launches-neutral-atom-agentic-toolkit-and-demonstrates-qpu-workflows-across-258-quantum-physics-papers) (Quantum Computing Report, score 48)
-  - 2026-10-20 — [Reliable Entropy Estimation from Observed Statistics for Device-Independent Quantum Cryptography](https://quantum-journal.org/papers/q-2026-10-20-2238) (Quantum Journal, score 20)
-  - 2026-10-19 — [Xanadu Secures Up to $10 Million in Additional DARPA Funding Under QBI Program](https://quantumcomputingreport.com/xanadu-secures-up-to-10-million-in-additional-darpa-funding-under-qbi-program) (Quantum Computing Report, score 100)
 
 ## Standards / Government
 

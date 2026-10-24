@@ -236,8 +236,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 13,
-      "first_party_evidence_count": 11,
+      "evidence_count": 14,
+      "first_party_evidence_count": 12,
       "name": "Cloudflare",
       "priority": "high",
       "status": "covered",
@@ -492,8 +492,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 14,
-      "first_party_evidence_count": 13,
+      "evidence_count": 15,
+      "first_party_evidence_count": 14,
       "name": "PQShield",
       "priority": "high",
       "status": "covered",
@@ -1994,7 +1994,7 @@
       "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware",
@@ -2815,9 +2815,9 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-17",
-      "momentum": "declining",
+      "momentum": "rising",
       "name": "IonQ",
-      "prior_count": 2,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -3914,11 +3914,11 @@
       "first_seen": "2025-07-28",
       "historical_evidence_count": 10,
       "latest_seen": "2026-10-17",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "QuEra",
-      "prior_count": 1,
+      "prior_count": 3,
       "priority": "high",
-      "recent_count": 4,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "AI Security",
@@ -3931,8 +3931,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 14,
+      "current_evidence_count": 15,
       "evidence": [
+        {
+          "date": "2026-10-23",
+          "key": "https://pqshield.com/post-quantum-cryptography-provider",
+          "report": "2026-10/2026-10-23-digest.md",
+          "score": 67,
+          "source": "PQShield",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "How to evaluate a post-quantum cryptography provider: 10 questions to ask",
+          "url": "https://pqshield.com/post-quantum-cryptography-provider"
+        },
         {
           "date": "2026-10-19",
           "key": "https://pqshield.com/the-bsis-new-post-quantum-roadmap-a-race-against-quantum-and-ai",
@@ -4102,15 +4114,15 @@
           "url": "https://pqshield.com/why-crypto-agility-requires-real-governance"
         }
       ],
-      "evidence_count": 14,
+      "evidence_count": 15,
       "first_seen": "2026-07-03",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-10-19",
-      "momentum": "stable",
+      "latest_seen": "2026-10-23",
+      "momentum": "rising",
       "name": "PQShield",
       "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -4121,8 +4133,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 13,
+      "current_evidence_count": 14,
       "evidence": [
+        {
+          "date": "2026-10-23",
+          "key": "https://blog.cloudflare.com/post-quantum-geo-key-manager",
+          "report": "2026-10/2026-10-23-digest.md",
+          "score": 55,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Bringing post-quantum cryptography to geographically fenced key management",
+          "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager"
+        },
         {
           "date": "2026-10-01",
           "key": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support",
@@ -4280,16 +4304,16 @@
           "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
         }
       ],
-      "evidence_count": 13,
+      "evidence_count": 14,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-10-01",
-      "momentum": "stable",
+      "latest_seen": "2026-10-23",
+      "momentum": "rising",
       "name": "Cloudflare",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "AI Security",
         "PQC / Crypto Agility",
@@ -5145,7 +5169,7 @@
       "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -6138,7 +6162,7 @@
       "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "Quantum Software / Tooling"
       ],
@@ -10034,6 +10058,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-10-23T02:59:32.262520+00:00",
+  "updated_at": "2026-10-24T02:52:31.272314+00:00",
   "version": 2
 }

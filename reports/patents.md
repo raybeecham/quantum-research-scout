@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-23T02:51:53.318837+00:00_
+_Updated 2026-10-24T02:49:00.911271+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -15,7 +15,7 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Automated recent discoveries: **248**
 - Published in the last 30 days: **57**
 - Unique named assignees: **144**
-- Patent families: **303**
+- Patent families: **293**
 - Applications / grants: **241 / 9**
 - Known legal status: **232 of 250**
 - Publications with citation evidence: **0**
@@ -33,6 +33,8 @@ Family grouping uses provider family identifiers, parent/priority applications, 
 | [CLASSICAL CRYPTOGRAPHY AND POST-QUANTUM CRYPTOGRAPHY AUTHENTICATION FOR VEHICLE-TO-EVERYTHING (V2X) COMMUNICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19559821/application-data)<br><small>US20260270054A1</small> | QUALCOMM Incorporated | 2 / 0 | 0 | **76 · HIGH** |
 | [METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY](https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data)<br><small>US20260088983A1</small> | ARRIS Enterprises LLC | 2 / 0 | 0 | **76 · HIGH** |
 | [METHOD AND SYSTEM FOR SECURING POST-QUANTUM BLOCKCHAINS](https://data.uspto.gov/patent-file-wrapper/search/details/19404287/application-data)<br><small>12640949</small> | King Fahd University of Petroleum and Minerals | 0 / 1 | 0 | **75 · HIGH** |
+| [Systems and Methods for Asymmetric Post-Quantum Ownership Proof, Recovery, and Quantum-Hardening of Blockchain Assets](https://data.uspto.gov/patent-file-wrapper/search/details/19690012/application-data)<br><small>US20260330454A1</small> | James P. Tagg | 1 / 0 | 0 | **73 · HIGH** |
+| [POST QUANTUM CRYPTOGRAPHY MIGRATION MANAGEMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19723676/application-data)<br><small>US20260329583A1</small> | American Express Travel Related Services Company, Inc. | 1 / 0 | 0 | **73 · HIGH** |
 | [Method and Apparatus for Communications with Post-Quantum Cryptography](https://data.uspto.gov/patent-file-wrapper/search/details/19687553/application-data)<br><small>US20260322596A1</small> | HUAWEI TECHNOLOGIES CO., LTD. | 1 / 0 | 0 | **73 · HIGH** |
 | [QUANTUM-SAFE DOCUMENT, DRIVE AND PROCESS MANAGEMENT FOR CONTRACT OF THINGS AND DOCUMENT OF THINGS](https://data.uspto.gov/patent-file-wrapper/search/details/19688127/application-data)<br><small>US20260289000A1</small> | SHELTERZOOM CORP. | 1 / 0 | 0 | **73 · HIGH** |
 | [Governance of AI-Directed Tiered Post Quantum Protection of Multimodal Data](https://data.uspto.gov/patent-file-wrapper/search/details/19690658/application-data)<br><small>US20260291712A1</small> | University of Central Florida Research Foundation, Inc. | 1 / 0 | 0 | **73 · HIGH** |
@@ -44,8 +46,6 @@ Family grouping uses provider family identifiers, parent/priority applications, 
 | [LIGHTWEIGHT FAULT COUNTERMEASURE FOR POST-QUANTUM KEMS](https://data.uspto.gov/patent-file-wrapper/search/details/19369516/application-data)<br><small>US20260121827A1</small> | NXP B.V. | 1 / 0 | 0 | **73 · HIGH** |
 | [BROADCAST-FREE THRESHOLD POST-QUANTUM KEY GENERATION AND VERIFICATION OVER UNENCRYPTED CHANNELS FROM HARDWARE-BASED CORRELATED RANDOMNESS](https://data.uspto.gov/patent-file-wrapper/search/details/19390434/application-data)<br><small>US20260074898A1</small> | CIRCLE INTERNET GROUP, INC. | 1 / 0 | 0 | **73 · HIGH** |
 | [LIGHTWEIGHT POST-QUANTUM AUTHENTICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19363608/application-data)<br><small>US20260046148A1</small> | UNIVERSITY OF SOUTH FLORIDA | 1 / 0 | 0 | **73 · HIGH** |
-| [Distributed Seed Storage for Quantum-Safe Private Key Generation on Constrained Devices](https://data.uspto.gov/patent-file-wrapper/search/details/19360819/application-data)<br><small>US20260046116A1</small> | DigiCert, Inc. | 1 / 0 | 0 | **73 · HIGH** |
-| [MULTI-PARTY AND MULTI-USE QUANTUM RESISTANT SIGNATURES AND KEY ESTABLISHMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19347195/application-data)<br><small>US20260025282A1</small> | PRIVATEGRITY CORPORATION | 1 / 0 | 0 | **73 · HIGH** |
 
 ## Notable Patent Watchlist
 
@@ -100,7 +100,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [Mechanism for Post-Quantum Cryptographic Key Material Resilience](https://data.uspto.gov/patent-file-wrapper/search/details/63915370/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Not listed | 2 member(s) · 0 citation(s) | **68 · HIGH** |
 | [SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING](https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data)<br><small>US20260314933A1</small> | Application · Pending | NEW YORK UNIVERSITY | 2 member(s) · 0 citation(s) | **68 · HIGH** |
 | [STRONGLY INTERACTING, TWO-DIMENSIONAL, DIPOLAR SPIN ENSEMBLE IN (111)-ORIENTED DIAMOND FOR QUANTUM SENSING AND SIMULATION](https://data.uspto.gov/patent-file-wrapper/search/details/19647295/application-data)<br><small>US20260317950A1</small> | Application · Pending | The Regents of the University of California | 2 member(s) · 0 citation(s) | **68 · HIGH** |
-| [SYSTEMS AND METHODS FOR SPATIAL, TEMPORAL, AND VECTORIAL QUANTUM SENSING](https://data.uspto.gov/patent-file-wrapper/search/details/19455548/application-data)<br><small>US20260252935A1</small> | Application · Pending | The MITRE Corporation | 2 member(s) · 0 citation(s) | **68 · HIGH** |
 | [SCALABLE QUANTUM ERROR CORRECTION ARCHITECTURE USING DUAL-FUNCTION TRANSMON COUPLERS IN A FLUXONIUM QUBIT ARRAY](https://data.uspto.gov/patent-file-wrapper/search/details/19464062/application-data)<br><small>12699915</small> | Grant · Granted | QpiAI India Private Limited | 1 member(s) · 0 citation(s) | **67 · HIGH** |
 | [POST-QUANTUM CONSTANT-TIME KEY ROTATION VERIFICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19343419/application-data)<br><small>US20260031987A1</small> | Application · Unknown | Circle Internet Group, Inc. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [SOFTWARE SYSTEMS AND METHODS FOR A-OALP AMBIGUITY MITIGATION, ADVANCED SCHEDULING, AND QUANTUM RESISTANT ENCRYPTION](https://data.uspto.gov/patent-file-wrapper/search/details/63949547/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **65 · HIGH** |
@@ -118,6 +117,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [DYNAMICAL DECOUPLING OF WELLS FOR AN ENERGY GAP PROTECTED QUBIT](https://data.uspto.gov/patent-file-wrapper/search/details/19685924/application-data)<br><small>US20260287972A1</small> | Application · Pending | Amazon Technologies, Inc. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [SYSTEM AND METHOD USING MULTILAYER OPTICAL LATTICE QUBIT ARRAYS FOR QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19680427/application-data)<br><small>US20260278431A1</small> | Application · Pending | KBR WYLE SERVICES, LLC | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [BUSES FOR MODULAR QUBIT DEVICES](https://data.uspto.gov/patent-file-wrapper/search/details/19668923/application-data)<br><small>US20260278442A1</small> | Application · Pending | International Business Machines Corporation | 1 member(s) · 0 citation(s) | **65 · HIGH** |
+| [SYSTEMS AND METHODS FOR SPATIAL, TEMPORAL, AND VECTORIAL QUANTUM SENSING](https://data.uspto.gov/patent-file-wrapper/search/details/19455548/application-data)<br><small>US20260252935A1</small> | Application · Pending | The MITRE Corporation | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [Qubit Detection Using Superconductor Devices](https://data.uspto.gov/patent-file-wrapper/search/details/19462836/application-data)<br><small>US20260244961A1</small> | Application · Pending | PsiQuantum Corp. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [QUANTUM COMMUNICATION SYSTEM USING CORRECTION OF THE POLARIZATION OF PHOTONS](https://data.uspto.gov/patent-file-wrapper/search/details/18988739/application-data)<br><small>US20260238350A1</small> | Application · Pending | THALES | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [DISTRIBUTED QUANTUM COMMUNICATION NETWORK ARCHITECTURE BASED ON DOUBLE-HELIX STRUCTURE](https://data.uspto.gov/patent-file-wrapper/search/details/19455492/application-data)<br><small>US20260222081A1</small> | Application · Pending | Homatch.ai | 1 member(s) · 0 citation(s) | **65 · HIGH** |

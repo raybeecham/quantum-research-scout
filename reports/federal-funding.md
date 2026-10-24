@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-10-23 02:51 UTC_
+_Updated 2026-10-24 02:49 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -16,7 +16,7 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Opportunity radar: **2 mission-linked**, **0 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **19**
 - Missions with activity: **5 of 10**
-- Named recipients and contractors: **330**
+- Named recipients and contractors: **331**
 - Known reported award value: **$980.1M**
 
 ## Opportunity Radar
@@ -61,7 +61,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-) | 2026-09-28 | Not listed | $250 | AI Forge |
 | [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) | 2026-09-16 | Not listed | $293.0M | Genesis Mission |
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | Not listed | $8 | DARPA Quantum Benchmarking Initiative |
-| [Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science) | 2026-10-16 | Not listed | Not reported | Genesis Mission |
+| [Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science) | 2026-10-23 | Not listed | Not reported | Genesis Mission |
 | [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) | 2026-08-21 | Not listed | Not reported | Genesis Mission |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | Not listed | $700 | Genesis Mission |
 | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | Not listed | $5 | Golden Dome for America |
@@ -95,8 +95,8 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | BOOZ ALLEN HAMILTON INC | UEI JCBMLGPE6Z71 | **54 · SIGNIFICANT** | Emerging Entrant | New Entrant | 5 | $49.5M | Department of Homeland Security, Department of the Interior, General Services Administration | Not linked | 1 |
 | CARNEGIE-MELLON UNIVERSITY | UEI U3NKNFLNQ613 | **53 · SIGNIFICANT** | Emerging Entrant | New Entrant | 4 | $6.6M | National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF SOUTH FLORIDA | UEI NKAZLXLL7Z91 | **52 · SIGNIFICANT** | Emerging Entrant | New Entrant | 4 | $3.2M | Department of Commerce, National Science Foundation | Not linked | 1 |
-| MISSISSIPPI STATE UNIVERSITY | UEI NTXJM52SHKS7 | **49 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $17.0M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | AUBURN UNIVERSITY | UEI DMQNDJDHTDG4 | **49 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $16.7M | Department of Commerce, Department of Energy, National Science Foundation | Not linked | 0 |
+| MISSISSIPPI STATE UNIVERSITY | UEI NTXJM52SHKS7 | **48 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $16.7M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | UEI QDE5UHE5XD16 | **48 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $2.6M | Department of Transportation, National Science Foundation | Not linked | 0 |
 | THE REGENTS OF THE UNIVERSITY OF COLORADO | UEI SPVKK1RC2MZ3 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $28.1M | NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA GODDARD SPACE FLIGHT CENTER, National Science Foundation | Not linked | 0 |
 | ARIZONA STATE UNIVERSITY | UEI NTLHJXM55KZ6 | **47 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $1.9M | National Science Foundation | Not linked | 0 |
