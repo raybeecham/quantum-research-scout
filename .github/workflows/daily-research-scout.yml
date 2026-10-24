@@ -112,6 +112,11 @@ jobs:
         continue-on-error: true
         run: python scripts/enrich_citations.py --reports reports --max-items 12
 
+      - name: Refresh publisher story previews
+        timeout-minutes: 3
+        continue-on-error: true
+        run: python scripts/enrich_story_images.py --reports reports --max-items 36
+
       - name: Sanitize generated reports
         run: |
           python scripts/sanitize_report_secrets.py reports --write

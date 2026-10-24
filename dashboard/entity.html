@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Quantum Research Scout organization and technology profile" />
+    <meta name="theme-color" content="#07131f" />
+    <script src="theme.js?v=__ASSET_VERSION__"></script>
     <title>Profile · Quantum Research Scout</title>
     <link rel="icon" href="favicon.svg?v=__ASSET_VERSION__" type="image/svg+xml" />
     <meta property="og:title" content="Organization Profile · Quantum Research Scout" />
@@ -17,6 +19,8 @@
     <link rel="stylesheet" href="styles.css?v=__ASSET_VERSION__" />
     <link rel="stylesheet" href="components.css?v=__ASSET_VERSION__" />
     <link rel="stylesheet" href="desk.css?v=__ASSET_VERSION__" />
+    <link rel="stylesheet" href="magazine-shell.css?v=__ASSET_VERSION__" />
+    <link rel="stylesheet" href="theme.css?v=__ASSET_VERSION__" />
   </head>
   <body>
     <header class="hero profile-hero">
@@ -25,6 +29,19 @@
           <span class="brand-mark">Q</span>
           <span>Quantum Research Scout</span>
         </a>
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          data-theme-toggle
+          type="button"
+          aria-label="Switch to light mode"
+          aria-pressed="false"
+          hidden
+        >
+          <span data-theme-icon aria-hidden="true">☀</span>
+          <span data-theme-label>Light mode</span>
+        </button>
+        <span id="theme-status" class="theme-status" role="status" aria-live="polite"></span>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-links">
           <span></span>
           <span></span>
@@ -57,23 +74,23 @@
       <section class="profile-summary" aria-label="Profile summary">
         <article>
           <span>Evidence</span>
-          <strong id="profile-evidence">—</strong>
+          <strong id="profile-evidence">Not available</strong>
         </article>
         <article>
           <span>Latest seen</span>
-          <strong id="profile-latest">—</strong>
+          <strong id="profile-latest">Not available</strong>
         </article>
         <article>
           <span>Recent / prior</span>
-          <strong id="profile-momentum">—</strong>
+          <strong id="profile-momentum">Not available</strong>
         </article>
         <article>
           <span>First-party coverage</span>
-          <strong id="profile-coverage">—</strong>
+          <strong id="profile-coverage">Not available</strong>
         </article>
         <article>
           <span>PQC readiness</span>
-          <strong id="profile-readiness">—</strong>
+          <strong id="profile-readiness">Not available</strong>
         </article>
       </section>
 

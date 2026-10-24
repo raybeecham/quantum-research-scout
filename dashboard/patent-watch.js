@@ -331,7 +331,7 @@
           .map(f => `<li>${esc(f)}</li>`)
           .join("") || "<li>Scoring factors not supplied.</li>"
       }</ul><p>Matched collector keywords: ${esc(list(item.matched_keywords).join(", ") || "Not supplied")}</p></details>
-      <section class="patent-reading-leads"><h4>Related reading leads</h4><p class="patent-small">Shared phrases in the current Scout reading window—not patent citations or established prior art.</p>
+      <section class="patent-reading-leads"><h4>Related reading leads</h4><p class="patent-small">Shared phrases in the current Scout reading window, not patent citations or established prior art.</p>
       ${related.map(r => `<article>${sourceLink(r.url, r.title)}<p>Shared phrases: ${esc(r.shared.join(", "))} · ${esc(r.source_kind_label || "Source type unverified")}</p></article>`).join("") || "<p>No shared-phrase matches in the current reading window. This is not evidence that related literature does not exist.</p>"}</section>
       <details class="patent-inspector-section"><summary>Questions to guide your reading</summary><ul><li>What mechanism do the independent claims describe, and under which assumptions?</li><li>Which published method is the closest comparison? Check dates and versions.</li><li>What experiment would test the proposed benefit against that baseline?</li></ul><p>Reading prompts, not extracted findings or established research gaps.</p></details>`;
     paintEvidence(item);

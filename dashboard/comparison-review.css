@@ -1,0 +1,157 @@
+.comparison-approval {
+  margin: 1.5rem 0 2rem;
+  padding: clamp(1rem, 3vw, 1.5rem);
+  border: 1px solid var(--line-strong);
+  border-top: 4px solid var(--accent);
+  background: var(--surface-raised);
+  overflow-wrap: anywhere;
+}
+.comparison-approval h3 {
+  margin: 0.4rem 0 0.75rem;
+  font-size: 1.35rem;
+}
+.comparison-approval-context,
+.comparison-approval-source summary span {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.paper-comparison .comparison-approval-target-label {
+  display: block;
+  margin: 1.25rem 0 0.35rem;
+  font-weight: 700;
+}
+.paper-comparison #comparison-approval-target {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin: 0 0 1rem;
+  padding: 0.7rem;
+}
+.comparison-approval-sources {
+  display: grid;
+  gap: 0.8rem;
+  min-width: 0;
+}
+.comparison-approval-source {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  min-width: 0;
+}
+.comparison-approval-source > summary {
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1.6;
+}
+.comparison-approval-source summary span {
+  display: block;
+  margin: 0.2rem 0 0 1rem;
+  font-weight: 400;
+}
+.comparison-approval-original {
+  display: inline-block;
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+}
+.comparison-approval-field {
+  padding: 1rem 0;
+  border-top: 1px solid var(--line);
+  margin-top: 1rem;
+}
+.paper-comparison .comparison-approval .comparison-approval-check {
+  display: grid;
+  grid-template-columns: 1.2rem minmax(0, 1fr);
+  gap: 0.65rem;
+  align-items: start;
+  margin: 0;
+  line-height: 1.6;
+  cursor: pointer;
+}
+.comparison-approval .comparison-approval-check input[type="checkbox"] {
+  display: block;
+  width: 1.15rem;
+  height: 1.15rem;
+  min-height: 0;
+  padding: 0;
+  margin: 0.25rem 0 0;
+  accent-color: var(--accent);
+}
+.comparison-approval-check:has(input:disabled) {
+  color: var(--muted);
+  cursor: default;
+}
+.comparison-approval-passage {
+  margin: 0.7rem 0 0.7rem 1.85rem;
+  padding: 0.1rem 0 0.1rem 0.9rem;
+  border-left: 2px solid var(--accent);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.comparison-approval-passage small {
+  font-family: var(--font-mono, monospace);
+  color: var(--accent);
+}
+.comparison-approval-passage p,
+.comparison-approval-existing {
+  margin: 0.3rem 0;
+  white-space: pre-wrap;
+}
+.comparison-approval-conflict {
+  margin: 1rem 0 0;
+  padding: 0.9rem;
+  border-left: 3px solid #ab6507;
+  background: #fff1d5;
+  color: #624211;
+}
+.comparison-approval-existing {
+  margin: 0.5rem 0 1rem;
+}
+.comparison-approval-unknown {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--line);
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.comparison-approval-unknown ul {
+  padding-left: 1.2rem;
+}
+.comparison-approval-unknown li + li {
+  margin-top: 0.4rem;
+}
+.comparison-approval-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+.comparison-approval-count {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.comparison-approval-status:empty {
+  display: none;
+}
+.comparison-approval-status {
+  margin: 1rem 0 0;
+  padding: 0.8rem 1rem;
+  border-left: 3px solid var(--accent);
+  background: var(--surface-high);
+}
+@media (max-width: 600px) {
+  .comparison-approval-source {
+    padding: 0.8rem;
+  }
+  .comparison-approval-passage {
+    margin-left: 0;
+  }
+  .comparison-approval-actions .desk-button {
+    width: 100%;
+    white-space: normal;
+  }
+}

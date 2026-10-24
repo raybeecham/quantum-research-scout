@@ -46,10 +46,24 @@ class DashboardBuildTests(unittest.TestCase):
                 "favicon.svg",
                 "desk.css",
                 "desk.js",
+                "workspace.js",
+                "workspace.css",
+                "magazine-shell.css",
+                "news.css",
+                "news.js",
+                "news-preferences.js",
+                "news-detail.js",
+                "news-detail.css",
+                "theme.css",
+                "theme.js",
+                "investigations.js",
+                "investigations.css",
                 "research.js",
                 "ris.js",
                 "ris-import.js",
                 "paper-comparison.js",
+                "comparison-review.js",
+                "comparison-review.css",
                 "lab-service.js",
                 "lab-config.json",
                 "questions.js",
@@ -63,6 +77,9 @@ class DashboardBuildTests(unittest.TestCase):
             ):
                 content = f"{name}?v=__ASSET_VERSION__"
                 (dashboard / name).write_text(content, encoding="utf-8")
+            (dashboard / "images").mkdir()
+            image_fixture = b"test-image-bytes"
+            (dashboard / "images" / "news-quantum.png").write_bytes(image_fixture)
             (reports / "signals.json").write_text(
                 json.dumps(
                     {
@@ -453,15 +470,55 @@ class DashboardBuildTests(unittest.TestCase):
             )
             daily = reports / "2026-07" / "2026-07-20-digest.md"
             daily.parent.mkdir()
-            daily.write_text("# Daily", encoding="utf-8")
+            daily.write_text(
+                "# Daily\n\n### Quantum network update\n"
+                "_Quantum Computing • Example News • Published 2026-07-20 • HIGH 70_\n"
+                "- Source excerpt.\n\n[Open item](https://news.example.com/quantum)\n",
+                encoding="utf-8",
+            )
             (daily.parent / "2026-07-21-digest.md").write_text("# Newer Daily", encoding="utf-8")
+            (reports / "story-images.json").write_text(
+                json.dumps(
+                    {
+                        "records": {
+                            "https://news.example.com/quantum": {
+                                "status": "ok",
+                                "image_url": "https://images.example.com/quantum-preview.jpg",
+                                "page_url": "https://news.example.com/quantum/",
+                                "publisher": "Example News",
+                                "provenance": "og:image",
+                                "fetched_at": "2026-07-21T00:00:00+00:00",
+                            }
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
 
             data_path = build_dashboard(
                 root, root / "site", repo_url="https://github.com/example/repo"
             )
             payload = json.loads(data_path.read_text(encoding="utf-8"))
 
+            self.assertEqual(
+                payload["reading_brief"]["stories"][0]["image"]["image_url"],
+                "https://images.example.com/quantum-preview.jpg",
+            )
+            news = payload["news_intelligence"]
+            self.assertEqual(news["version"], 1)
+            self.assertEqual(news["selection"]["story_count"], 1)
+            self.assertEqual(
+                news["stories"][0]["image"], payload["reading_brief"]["stories"][0]["image"]
+            )
+            self.assertEqual(
+                news["stories"][0]["news_detail"]["what_happened"], ["Source excerpt."]
+            )
+            self.assertNotIn("news_detail", payload["reading_brief"]["stories"][0])
+
             self.assertTrue((root / "site" / "index.html").exists())
+            self.assertEqual(
+                (root / "site" / "images" / "news-quantum.png").read_bytes(), image_fixture
+            )
             self.assertTrue((root / "site" / "entity.html").exists())
             self.assertNotIn(
                 "__ASSET_VERSION__", (root / "site" / "index.html").read_text(encoding="utf-8")

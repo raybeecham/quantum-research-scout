@@ -1,7 +1,13 @@
 import { env } from "cloudflare:test";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { comparePapers } from "../src/providers";
-import { comparisonSchema, comparisonOutput, checkComparison } from "../src/comparison";
+import {
+  comparisonSchema,
+  comparisonOutput,
+  comparisonInstructions,
+  checkComparison,
+  fields,
+} from "../src/comparison";
 import { sentenceCatalog, modelSources, resolveIds } from "../src/sentence-evidence";
 import sentenceCases from "../../tests/fixtures/comparison-sentences.json";
 const sources = [1, 2].map(i => ({
@@ -15,6 +21,9 @@ const result = {
     source_id: `S${i}`,
     question: [`S${i}.T1`],
     method: [] as string[],
+    data: [] as string[],
+    assumptions: [] as string[],
+    metrics: [] as string[],
     findings: [`S${i}.T1`],
     limitations: [] as string[],
   })),
@@ -96,8 +105,55 @@ describe("paper comparison", () => {
     expect(mock).toHaveBeenCalledTimes(1);
     expect(output.papers).toHaveLength(2);
     expect(output.papers[0].field_checks.findings).toBe("selected");
-    expect(output.evidence_version).toBe(3);
+    expect(output.evidence_version).toBe(4);
     expect(output.basis).toContain("not a full-paper");
+  });
+  it.each(fields)("requires explicit bounded sentence IDs for %s", field => {
+    for (const invalid of [undefined, null, "A generated claim", Array(4).fill("S1.T1")]) {
+      const input = structuredClone(result);
+      const row = { ...input.papers[0], [field]: invalid };
+      expect(comparisonOutput.safeParse({ ...input, papers: [row, input.papers[1]] }).success).toBe(
+        false,
+      );
+    }
+  });
+  it.each(["data", "assumptions", "metrics"] as const)(
+    "resolves %s only to original source sentences",
+    field => {
+      const excerpt =
+        "We evaluated thirty annotated projects. We assume configuration files are available. We measure precision and recall.";
+      const input = structuredClone(result);
+      const id = { data: "S1.T1", assumptions: "S1.T2", metrics: "S1.T3" }[field];
+      input.papers[0][field] = [id];
+      const scoped = [{ ...context[0], excerpt }, context[1]];
+      const checked = checkComparison(input, scoped);
+      const row = checked.papers[0];
+      expect(row[field]).toBe(sentenceCatalog(excerpt, "S1").find(s => s.id === id)?.text);
+      expect(row.sentence_ids[field]).toEqual([id]);
+      expect(row.field_checks[field]).toBe("selected");
+      expect(checked.papers[1][field]).toBe("");
+      expect(checked.papers[1].field_checks[field]).toBe("missing");
+      input.papers[0][field] = ["S2.T1"];
+      const withheld = checkComparison(input, scoped).papers[0];
+      expect(withheld[field]).toBe("");
+      expect(withheld.sentence_ids[field]).toEqual([]);
+      expect(withheld.field_checks[field]).toBe("withheld");
+    },
+  );
+  it("retains all warnings for a fully withheld comparison and guards prompt meaning", () => {
+    const scoped = [1, 2, 3, 4].map(i => ({ id: `S${i}`, excerpt: "Supplied abstract." }));
+    const papers = scoped.map(s => {
+      const paper = { ...result.papers[0], source_id: s.id };
+      for (const field of fields) paper[field] = ["S9.T1"];
+      return paper;
+    });
+    const checked = checkComparison({ ...result, papers, connections: [] }, scoped);
+    expect(checked.warnings).toHaveLength(28);
+    expect(checked.papers.every(p => fields.every(f => p.field_checks[f] === "withheld"))).toBe(
+      true,
+    );
+    expect(comparisonInstructions).toContain("NOT absent from the paper");
+    expect(comparisonInstructions).toContain("not reported result values");
   });
   it.each(sentenceCases)("preserves source sentences: $excerpt", ({ excerpt, sentences }) => {
     const catalog = sentenceCatalog(excerpt, "S1");

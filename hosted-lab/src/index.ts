@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { authenticate, startLogin, finishLogin } from "./auth";
 import { assist, generate, comparePapers, selectedProvider } from "./providers";
-import { comparisonSchema } from "./comparison";
+import { comparisonSchema, evidenceVersion } from "./comparison";
 import { searchPapers } from "./papers";
 import { fetchPatent, patentSchema } from "./patents";
 import { questionSchema, readingSchema, providerSchema, searchSchema } from "./validation";
@@ -68,7 +68,7 @@ async function route(request: Request, env: AppEnv): Promise<Response> {
       features: {
         related_work: true,
         paper_comparison: true,
-        comparison_evidence_version: 3,
+        comparison_evidence_version: evidenceVersion,
         patent_evidence: true,
       },
       user: user.login,

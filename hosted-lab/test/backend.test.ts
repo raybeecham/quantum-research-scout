@@ -487,6 +487,9 @@ describe("AI contract and privacy", () => {
         source_id: `S${i}`,
         question: [`S${i}.T1`],
         method: [],
+        data: [],
+        assumptions: [],
+        metrics: [],
         findings: [`S${i}.T1`],
         limitations: [],
       })),
@@ -518,7 +521,9 @@ describe("AI contract and privacy", () => {
       notes: "SECRET NOTE",
     });
     expect(r.status).toBe(200);
-    expect(((await r.json()) as { papers: unknown[] }).papers).toHaveLength(2);
+    const body = (await r.json()) as { papers: unknown[]; evidence_version: number };
+    expect(body.papers).toHaveLength(2);
+    expect(body.evidence_version).toBe(4);
     expect(fetch).toHaveBeenCalledTimes(1);
     expect(JSON.stringify(vi.mocked(fetch).mock.calls)).not.toContain("SECRET NOTE");
     expect((await env.BUDGET.getByName(day()).usage("123")).user_calls).toBe(1);

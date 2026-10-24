@@ -17,6 +17,135 @@
   ];
   const stages = ["Exploring", "Checking prior work", "Designing a study", "Testing", "Parked"];
   const roles = ["Background", "Supports", "Challenges", "Method / baseline", "Closest prior work"];
+  const comparisonFields = [
+    "question",
+    "method",
+    "data",
+    "assumptions",
+    "metrics",
+    "findings",
+    "limitations",
+    "excerpt",
+  ];
+  const assistedComparisonFields = comparisonFields.filter(field => field !== "excerpt");
+  function investigation(value = {}) {
+    if (!value || typeof value !== "object" || Array.isArray(value))
+      throw Error("Invalid investigation notes.");
+    const clean = {};
+    for (const field of ["checks", "limitations"]) {
+      const text = value[field] ?? "";
+      if (typeof text !== "string" || text.length > 6000)
+        throw Error("Invalid or oversized investigation note.");
+      clean[field] = text;
+    }
+    const at = value.reviewed_at ?? "";
+    if (typeof at !== "string" || at.length > 100 || (at && !Number.isFinite(Date.parse(at))))
+      throw Error("Invalid investigation check date.");
+    const urls = value.reviewed_urls ?? [];
+    if (
+      !Array.isArray(urls) ||
+      urls.length > 1000 ||
+      urls.some(url => typeof url !== "string" || url.length > 4000)
+    )
+      throw Error("Invalid checked collection links.");
+    clean.reviewed_at = at;
+    clean.reviewed_urls = [...new Set(urls.map(safeUrl))];
+    return clean;
+  }
+  function comparison(value = {}) {
+    if (!value || typeof value !== "object" || Array.isArray(value))
+      throw Error("Invalid prior-work comparison.");
+    return Object.fromEntries(
+      comparisonFields.map(field => {
+        const text = value[field] ?? "";
+        if (typeof text !== "string" || text.length > 6000)
+          throw Error("Invalid or oversized comparison field.");
+        return [field, text];
+      }),
+    );
+  }
+  function comparisonProvenance(value = {}) {
+    if (!value || typeof value !== "object" || Array.isArray(value))
+      throw Error("Invalid comparison approval record.");
+    if (Object.keys(value).some(field => !assistedComparisonFields.includes(field)))
+      throw Error("Unsupported comparison approval field.");
+    return Object.fromEntries(
+      Object.entries(value).map(([field, record]) => {
+        if (!record || typeof record !== "object" || Array.isArray(record))
+          throw Error("Invalid comparison approval record.");
+        const limits = {
+          text: 6000,
+          source_url: 4000,
+          source_title: 2000,
+          source_excerpt: 12000,
+          provider: 200,
+          model: 200,
+          evidence_version: 200,
+          approved_at: 100,
+        };
+        for (const [name, max] of Object.entries(limits)) {
+          if (typeof record[name] !== "string" || !record[name].trim() || record[name].length > max)
+            throw Error(`Invalid comparison approval ${name}.`);
+        }
+        if (
+          record.basis !== "selected_excerpt" ||
+          !Number.isFinite(Date.parse(record.approved_at)) ||
+          !Array.isArray(record.passages) ||
+          !record.passages.length ||
+          record.passages.length > 3
+        )
+          throw Error("Invalid comparison approval scope, date, or passages.");
+        let sourcePrefix = null,
+          previousIndex = 0,
+          previousEnd = 0;
+        const passages = record.passages.map(passage => {
+          if (
+            !passage ||
+            typeof passage !== "object" ||
+            typeof passage.id !== "string" ||
+            typeof passage.text !== "string" ||
+            !passage.text.trim() ||
+            passage.text.length > 6000
+          )
+            throw Error("Approval passages must be exact text from the selected source excerpt.");
+          const match = /^S([1-4])\.T([1-9]|[1-7][0-9]|80)$/.exec(passage.id);
+          if (
+            !match ||
+            (sourcePrefix !== null && sourcePrefix !== match[1]) ||
+            Number(match[2]) <= previousIndex
+          )
+            throw Error("Approval passages must use increasing sentence IDs from one source.");
+          const start = record.source_excerpt.indexOf(passage.text, previousEnd);
+          if (start < 0)
+            throw Error(
+              "Approval passages must occur in source order without reusing or overlapping text.",
+            );
+          sourcePrefix = match[1];
+          previousIndex = Number(match[2]);
+          previousEnd = start + passage.text.length;
+          return { id: passage.id, text: passage.text };
+        });
+        if (record.text !== passages.map(passage => passage.text).join("\n\n"))
+          throw Error("An approved comparison must retain the exact proposed source passages.");
+        return [
+          field,
+          {
+            ...Object.fromEntries(Object.keys(limits).map(name => [name, record[name]])),
+            source_url: safeUrl(record.source_url),
+            passages,
+            basis: "selected_excerpt",
+          },
+        ];
+      }),
+    );
+  }
+  function comparisonUrl(value) {
+    const url = new URL(safeUrl(value));
+    url.hash = "";
+    for (const name of [...url.searchParams.keys()])
+      if (/^(utm_|fbclid$|gclid$)/i.test(name)) url.searchParams.delete(name);
+    return (window.ScoutResearch?.citationKey(url.href) || url.href).replace(/\/$/, "");
+  }
   const esc = s =>
     String(s ?? "").replace(
       /[&<>"']/g,
@@ -163,12 +292,21 @@
           )
         )
           throw Error("Invalid paper bibliography.");
+        const provenance = comparisonProvenance(e.comparison_provenance);
+        if (
+          Object.values(provenance).some(
+            record => comparisonUrl(record.source_url) !== comparisonUrl(e.url),
+          )
+        )
+          throw Error("Comparison approval source must match its attached evidence.");
         return {
           title: e.title,
           url: safeUrl(e.url),
           note: e.note,
           role: e.role,
           reviewed: e.reviewed === true,
+          comparison: comparison(e.comparison),
+          comparison_provenance: provenance,
           ...(paper
             ? {
                 paper: Object.fromEntries(
@@ -192,15 +330,19 @@
           throw Error("Invalid question history.");
         return { question: h.question, at: h.at };
       });
+      clean.investigation = investigation(row.investigation);
       return clean;
     });
   }
   let rows = [],
     active = null,
     dirty = false,
-    locked = false;
+    locked = false,
+    revision = null,
+    saveError = "";
   try {
-    rows = validate(JSON.parse(localStorage.getItem(key) || "[]"));
+    revision = localStorage.getItem(key);
+    rows = validate(JSON.parse(revision || "[]"));
   } catch {
     locked = true;
     status(
@@ -209,17 +351,27 @@
   }
   function persist(next) {
     if (locked) {
-      status("Storage recovery is required before editing this lab.");
+      saveError = "Storage recovery is required before editing this lab.";
+      status(saveError);
       return false;
     }
     try {
+      if (localStorage.getItem(key) !== revision)
+        throw Error(
+          "The lab changed in another tab. Copy any unsaved draft and reload before editing.",
+        );
       const clean = validate(next);
-      localStorage.setItem(key, JSON.stringify(clean));
+      const serialized = JSON.stringify(clean);
+      localStorage.setItem(key, serialized);
+      revision = serialized;
       rows = clean;
+      saveError = "";
       window.ScoutNotebook?.sync(rows);
+      window.dispatchEvent(new CustomEvent("scout-questions-changed"));
       return true;
     } catch (e) {
-      status(`Not saved: ${e.message} Your current draft remains on screen.`);
+      saveError = `Not saved: ${e.message} Your current draft remains on screen.`;
+      status(saveError);
       return false;
     }
   }
@@ -1001,15 +1153,155 @@
     const row = rows.find(r => r.id === active);
     const text = [
       "# Research question brief",
-      "Working draft — novelty not established. Analyst notes, not verified findings.",
+      "Working draft; novelty not established. Analyst notes, not verified findings.",
       ...fields.map(f => `## ${f}\n${row[f] || "Not recorded"}`),
       "## Evidence",
+      "Comparison entries left as ‘Not assessed’ are unknown, not evidence of absence. Approved AI selections are exact passages from the submitted excerpt, not independent verification or a full-paper review.",
       ...row.evidence.map(
         e =>
-          `${e.role}: ${e.title}\n${e.url}\n${(window.ScoutNotebook?.status(e.url) ? window.ScoutNotebook.status(e.url) === "Reviewed" : e.reviewed) ? "Reviewed by you" : "Not reviewed"}\n${e.note}`,
+          `${e.role}: ${e.title}\n${e.url}\n${(window.ScoutNotebook?.status(e.url) ? window.ScoutNotebook.status(e.url) === "Reviewed" : e.reviewed) ? "Reviewed by you" : "Not reviewed"}\n${e.note}\n${comparisonFields.map(f => `${f}: ${e.comparison[f] || "Not assessed"}`).join("\n")}\n${Object.entries(
+            e.comparison_provenance || {},
+          )
+            .map(
+              ([field, p]) =>
+                `\n### ${field}: ${e.comparison[field] === p.text ? "AI-selected passage approved by you" : "Edited since approval; original approval retained below"}\nSource: ${p.source_title}\n${p.source_url}\nScope: selected excerpt only; not full-paper verification.\nProvider / model: ${p.provider} / ${p.model}\nEvidence format: ${p.evidence_version}\nApproved at: ${p.approved_at}\nApproved passages:\n${p.passages
+                  .map(
+                    passage =>
+                      `[${passage.id}]\n${passage.text
+                        .split("\n")
+                        .map(line => `> ${line}`)
+                        .join("\n")}`,
+                  )
+                  .join("\n\n")}\nOriginal selected source excerpt:\n${p.source_excerpt
+                  .split("\n")
+                  .map(line => `> ${line}`)
+                  .join("\n")}`,
+            )
+            .join("\n")}`,
       ),
+      "## Investigation notes (your interpretation)",
+      `Unresolved checks: ${row.investigation.checks || "Not recorded"}`,
+      `Limitations: ${row.investigation.limitations || "Not recorded"}`,
     ].join("\n\n");
     download("scout-research-question.md", text, "text/markdown");
+  };
+  window.ScoutQuestions = {
+    list: () => structuredClone(rows),
+    state: () => ({ locked, dirty, active }),
+    open: id => {
+      if (!rows.some(row => row.id === id) || !canLeave()) return false;
+      open(id);
+      location.hash = "questions";
+      $("lab-editor").scrollIntoView({ block: "start" });
+      return true;
+    },
+    approveComparison: (id, approvals, expectedEvidence) => {
+      const row = rows.find(item => item.id === id);
+      if (!row) return { ok: false, error: "This investigation is no longer available." };
+      if (dirty && active === id)
+        return {
+          ok: false,
+          error: "Save or cancel the unsaved Question Lab draft before approving comparisons.",
+        };
+      const investigationState = window.ScoutInvestigations?.state?.();
+      if (investigationState?.dirty && investigationState.selected === id)
+        return {
+          ok: false,
+          error:
+            "Save or cancel the unsaved investigation assessment before approving comparisons.",
+        };
+      if (typeof expectedEvidence !== "string" || JSON.stringify(row.evidence) !== expectedEvidence)
+        return {
+          ok: false,
+          error:
+            "The attached evidence changed after this proposal opened. Reopen the approval review; nothing was overwritten.",
+        };
+      try {
+        if (!Array.isArray(approvals) || !approvals.length || approvals.length > 700)
+          throw Error("Choose at least one supported comparison field to approve.");
+        const next = structuredClone(row);
+        const selectedFields = new Set();
+        const approvedAt = new Date().toISOString();
+        for (const approval of approvals) {
+          if (
+            !approval ||
+            typeof approval !== "object" ||
+            !assistedComparisonFields.includes(approval.field) ||
+            typeof approval.url !== "string" ||
+            approval.url.length > 4000 ||
+            (approval.allow_replace !== undefined && typeof approval.allow_replace !== "boolean")
+          )
+            throw Error("Unsupported comparison approval.");
+          const key = comparisonUrl(approval.url);
+          const matching = next.evidence.filter(evidence => comparisonUrl(evidence.url) === key);
+          if (matching.length !== 1)
+            throw Error(
+              "Each approved source must match exactly one attachment in this investigation.",
+            );
+          const evidence = matching[0];
+          const fieldKey = `${key}\n${approval.field}`;
+          if (selectedFields.has(fieldKey))
+            throw Error("The same comparison field cannot be approved twice in one save.");
+          selectedFields.add(fieldKey);
+          const provenance = comparisonProvenance({
+            [approval.field]: {
+              text: approval.text,
+              source_url: evidence.url,
+              source_title: approval.source_title,
+              source_excerpt: approval.source_excerpt,
+              passages: approval.passages,
+              provider: approval.provider,
+              model: approval.model,
+              evidence_version: approval.evidence_version,
+              approved_at: approvedAt,
+              basis: "selected_excerpt",
+            },
+          });
+          if (
+            evidence.comparison[approval.field] &&
+            evidence.comparison[approval.field] !== approval.text &&
+            approval.allow_replace !== true
+          )
+            throw Error(
+              "An existing comparison cell would be replaced. Explicitly approve replacement for that field first.",
+            );
+          evidence.comparison[approval.field] = approval.text;
+          evidence.comparison_provenance = {
+            ...evidence.comparison_provenance,
+            ...provenance,
+          };
+        }
+        if (!persist(rows.map(item => (item.id === id ? next : item))))
+          return { ok: false, error: saveError };
+        list();
+        if (active === id) details(rows.find(item => item.id === id));
+        return { ok: true };
+      } catch (error) {
+        return { ok: false, error: `Not saved: ${error.message}` };
+      }
+    },
+    update: (id, changes) => {
+      const row = rows.find(item => item.id === id);
+      if (!row) return { ok: false, error: "This question is no longer available." };
+      if (dirty && active === id)
+        return {
+          ok: false,
+          error:
+            "Save or close the unsaved Question Lab draft first. Your investigation edits are still on screen.",
+        };
+      if (
+        !changes ||
+        typeof changes !== "object" ||
+        Object.keys(changes).some(k => !["investigation", "evidence"].includes(k))
+      )
+        return { ok: false, error: "Unsupported investigation update." };
+      const next = { ...row, ...changes };
+      if (!persist(rows.map(item => (item.id === id ? next : item))))
+        return { ok: false, error: saveError };
+      list();
+      if (active === id) details(rows.find(item => item.id === id));
+      return { ok: true };
+    },
   };
   window.ScoutNotebook?.sync(rows);
   window.addEventListener("scout-review-changed", () => {

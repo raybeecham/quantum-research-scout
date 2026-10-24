@@ -1,0 +1,1017 @@
+/* Technology magazine shell. Loaded last so established tools share the palette
+   without changing their storage, routing, or interaction contracts. */
+@media screen {
+  :root {
+    color-scheme: dark;
+    --rail: 0px;
+    --bg: #07131f;
+    --surface-sunken: #091725;
+    --surface: #0c1c2b;
+    --surface-raised: #102335;
+    --surface-high: #152c40;
+    --surface-alt: #102335;
+    --line-subtle: #1a2c3d;
+    --line: #263b4e;
+    --line-strong: #456176;
+    --text: #edf3f9;
+    --text-secondary: #c5d4e1;
+    --muted: #a8bdcf;
+    --text-faint: #95aabd;
+    --accent: #70c7ff;
+    --accent-bright: #afe2ff;
+    --info: #91baff;
+    --positive: #80d9b4;
+    --violet: #c1afff;
+    --caution: #efc27d;
+    --critical: #ff9eb3;
+    --retro-navy: #102335;
+    --retro-navy-raised: #152c40;
+    --retro-cream: #edf3f9;
+    --retro-mint: #a8d9f8;
+    --retro-orange: #70c7ff;
+    --retro-rust: #91baff;
+    --retro-shadow: transparent;
+    --retro-grid: transparent;
+    --desk-ink: #07131f;
+    --desk-border: #263b4e;
+    --font-display: "Segoe UI", Inter, ui-sans-serif, system-ui, sans-serif;
+    --font-instrument: "Segoe UI", Inter, ui-sans-serif, system-ui, sans-serif;
+    --font-mono: "Cascadia Mono", Consolas, monospace;
+    --tint-accent-weak: #0b1c2c;
+    --tint-accent: #132f46;
+    --tint-accent-strong: #1b3c56;
+    --tint-accent-line: #35668b;
+    --tint-info: #182c49;
+    --tint-info-strong: #203958;
+    --tint-info-line: #3d5f87;
+    --tint-positive: #11372f;
+    --tint-positive-strong: #1b493d;
+    --tint-positive-line: #3c7763;
+    --tint-violet: #2c2546;
+    --tint-violet-strong: #3a305c;
+    --tint-violet-line: #67588b;
+    --tint-caution: #382d1d;
+    --tint-caution-strong: #483821;
+    --tint-caution-line: #806638;
+    --tint-critical: #3f2432;
+    --tint-critical-strong: #502c3b;
+    --tint-critical-line: #8b5266;
+    --tint-neutral: #142636;
+    --tint-neutral-strong: #203447;
+    --tint-neutral-line: #41566b;
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 10px;
+    --radius-xl: 12px;
+    --shadow-sm: 0 4px 14px #00000020;
+    --shadow: 0 10px 30px #00000024;
+    --shadow-lg: 0 20px 60px #00000045;
+    --glow: none;
+    --shell-width: 1380px;
+  }
+  html {
+    scroll-padding-top: 80px;
+  }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", Inter, ui-sans-serif, system-ui, sans-serif;
+  }
+  body::before,
+  body::after {
+    display: none;
+  }
+  ::selection {
+    background: #2a5275;
+    color: #fff;
+  }
+  :is(h1, h2, h3, h4) {
+    font-family: var(--font-display);
+  }
+  a {
+    color: var(--accent);
+  }
+  :focus-visible,
+  :is(.desk-rail, .lead-story, .profile-hero) :focus-visible,
+  .scout-visual :is(a, summary):focus-visible,
+  .scout-exploration :is(a, button, summary, select):focus-visible,
+  .briefing-followups :is(button, input, summary, a):focus-visible,
+  .headline-review :is(summary, a):focus-visible {
+    outline: 3px solid var(--accent-bright);
+    outline-offset: 4px;
+  }
+  .skip-link {
+    left: 20px;
+    background: var(--surface-high);
+    color: var(--text);
+  }
+
+  /* A masthead and navigation replace the fixed workspace rail. */
+  .desk-rail {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 24px;
+    padding: 15px max(28px, calc((100% - 1324px) / 2));
+    border: 0;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
+    overflow: visible;
+    z-index: 30;
+  }
+  .desk-brand {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+    gap: 12px;
+    width: fit-content;
+    color: var(--text);
+    font: 800 17px/1.25 var(--font-display);
+    letter-spacing: 0.07em;
+  }
+  .desk-brand img {
+    width: 36px;
+    height: 36px;
+  }
+  .desk-brand b {
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.17em;
+  }
+  .desk-nav {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 8px clamp(12px, 1.5vw, 24px);
+    min-width: 0;
+    overflow: visible;
+  }
+  .desk-nav .rail-caption {
+    display: none;
+  }
+  .desk-nav a,
+  .nav-explore > summary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 47px;
+    padding: 10px 0;
+    margin: 0;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    color: var(--muted);
+    background: transparent;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+    white-space: nowrap;
+    text-decoration: none;
+    box-shadow: none;
+  }
+  .desk-nav a > span[aria-hidden="true"] {
+    display: none;
+  }
+  .desk-nav a:hover,
+  .nav-explore > summary:hover,
+  .desk-rail a[aria-current="page"],
+  .desk-rail a[aria-current="page"]:hover {
+    color: var(--text);
+    background: transparent;
+    border-color: transparent;
+    border-bottom-color: var(--accent);
+    box-shadow: none;
+  }
+  .nav-explore.has-current > summary {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  .desk-nav #saved-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-width: 21px;
+    height: 21px;
+    padding: 0 5px;
+    margin-left: 0;
+    border-radius: 4px;
+    color: var(--muted);
+    background: var(--surface-high);
+    font-size: 11px;
+  }
+  .nav-explore {
+    position: relative;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    min-width: 0;
+  }
+  .nav-explore > summary {
+    cursor: pointer;
+    justify-content: flex-end;
+  }
+  .nav-explore > summary::after {
+    content: "⌄";
+    font-size: 16px;
+    color: var(--accent);
+  }
+  .nav-explore[open] > summary {
+    margin-bottom: 0;
+  }
+  .nav-tools-list {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 240px;
+    padding: 7px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    box-shadow: var(--shadow-lg);
+  }
+  .nav-explore .nav-tools-list > a {
+    display: flex;
+    min-height: 44px;
+    padding: 10px 12px;
+    border: 0;
+    border-radius: 4px;
+    white-space: normal;
+  }
+  .nav-explore .nav-tools-list > a:hover,
+  .nav-explore .nav-tools-list > a[aria-current="page"] {
+    background: var(--surface-high);
+    color: var(--accent);
+  }
+  .rail-bottom {
+    grid-column: 3;
+    grid-row: 1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .rail-bottom > a,
+  .rail-bottom > a:last-of-type {
+    display: flex;
+    min-height: 36px;
+    padding: 6px 0;
+    color: var(--muted);
+    font-size: 12px;
+    border: 0;
+    background: transparent;
+  }
+  .rail-bottom > a:hover {
+    color: var(--text);
+    background: transparent;
+  }
+  .rail-bottom p {
+    display: none;
+  }
+  .workspace-menu {
+    display: none;
+  }
+  .desk-topbar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    margin: 0;
+    min-height: 48px;
+    padding: 6px max(28px, calc((100% - 1324px) / 2));
+    gap: 22px;
+    border: 0;
+    border-bottom: 1px solid var(--line-subtle);
+    background: var(--surface-sunken);
+    backdrop-filter: none;
+  }
+  .workspace-label {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+  }
+  .search-launch {
+    min-width: 260px;
+    padding: 7px 12px;
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    color: var(--muted);
+    background: var(--surface);
+    font-size: 12px;
+  }
+  .collection-pill {
+    font-size: 11px;
+  }
+  .comfort-type {
+    width: 35px;
+    min-width: 35px;
+    height: 35px;
+    background: var(--surface);
+    border-color: var(--line);
+    border-radius: 5px;
+    color: var(--text);
+  }
+  .comfort-type[aria-pressed="true"] {
+    color: var(--accent);
+    background: var(--tint-accent);
+  }
+  .desk-main.shell {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 32px 28px 56px;
+  }
+  body > footer {
+    max-width: 1324px;
+    margin: 0 auto;
+    border-color: var(--line);
+    padding: 0 28px;
+  }
+  body > footer .shell {
+    max-width: 100%;
+    padding: 24px 0;
+  }
+  .noscript-note {
+    margin-left: 0;
+  }
+
+  /* Shared tool surfaces use the same quiet hierarchy as the magazine. */
+  .workspace-heading {
+    border: 0;
+    padding: 0;
+    margin-bottom: 28px;
+  }
+  .workspace-heading h1,
+  .desk-intro h1 {
+    text-transform: none;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+  }
+  .workspace-heading .desk-kicker {
+    color: var(--accent);
+  }
+  .workspace-heading p {
+    max-width: 85ch;
+    color: var(--muted);
+  }
+  .desk-main :is(input:not([type="checkbox"]):not([type="radio"]), textarea, select),
+  #desk-search {
+    color: var(--text);
+    background: var(--surface-sunken);
+    border-color: var(--line-strong);
+    border-radius: 5px;
+  }
+  .desk-main :is(input, textarea)::placeholder,
+  #desk-search::placeholder {
+    color: var(--text-faint);
+  }
+  .desk-main input:is([type="checkbox"], [type="radio"]) {
+    accent-color: var(--accent);
+  }
+  .desk-button,
+  .start-topic-input .desk-button,
+  .desk-main
+    :is(
+      .federal-research-tabs button,
+      .patent-topics button,
+      .briefing-modes button,
+      .workspace-jumps a
+    ) {
+    border: 1px solid var(--line-strong);
+    border-radius: 5px;
+    background: var(--surface-raised);
+    color: var(--text);
+    box-shadow: none;
+    font-weight: 600;
+  }
+  .search-kinds button,
+  .decision-focus-options button,
+  .decision-focus-show-all {
+    color: var(--text);
+    background: var(--surface-raised);
+    border-color: var(--line);
+    border-radius: 5px;
+  }
+  .search-result-group h3 span {
+    background: var(--surface-high);
+    color: var(--accent);
+  }
+  .search-kinds button[aria-pressed="true"],
+  .decision-focus-options button[aria-pressed="true"] {
+    color: var(--accent-bright);
+    background: var(--tint-accent);
+    border-color: var(--accent);
+  }
+  .desk-button:hover,
+  .start-topic-input .desk-button:hover {
+    background: var(--tint-accent);
+    border-color: var(--accent);
+    color: var(--accent-bright);
+  }
+  .desk-main
+    :is(.federal-research-tabs, .patent-topics, .briefing-modes, .desk-lenses)
+    [aria-pressed="true"],
+  .lab-topic-directions [aria-pressed="true"] {
+    color: var(--accent-bright);
+    background: var(--tint-accent);
+    border: 1px solid var(--accent);
+    box-shadow: none;
+  }
+  .desk-main :is(.lead-story, .desk-pulse, .reading-card, .start-route, .start-path, .report-card),
+  .desk-workspace
+    :is(
+      .briefing-panel,
+      .mission-card,
+      .patent-card,
+      .signal-card,
+      .watch-card,
+      .opportunity-card,
+      .contractor-card,
+      .analyst-decision-card,
+      .decision-center-shell
+    ) {
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    box-shadow: none;
+  }
+  .lead-story::after {
+    display: none;
+  }
+  .reading-card,
+  .reading-card.is-read {
+    border-left-color: var(--line);
+  }
+  .desk-main :is(.report-card, .signal-card):hover {
+    transform: none;
+    border-color: var(--line-strong);
+  }
+  .desk-workspace .report-card:first-child {
+    background: var(--surface-raised);
+    border-color: var(--line);
+    color: var(--text);
+  }
+  .desk-context > section,
+  .desk-feed-heading,
+  .desk-library-strip,
+  .edition-line,
+  .reading-toolbar,
+  .research-notes {
+    border-color: var(--line);
+    border-width: 1px;
+  }
+  .desk-context .desk-agenda {
+    background: var(--surface);
+    border-color: var(--line) !important;
+  }
+  .desk-agenda article,
+  .desk-changes article,
+  .desk-pulse > a,
+  .pulse-bars {
+    border-color: var(--line);
+  }
+  .desk-agenda article time {
+    color: var(--caution);
+  }
+  .pulse-heading,
+  .desk-pulse p,
+  .pulse-axis,
+  .pulse-stats span {
+    color: var(--muted);
+  }
+  .desk-pulse > a {
+    color: var(--accent);
+  }
+  .pulse-bars > div:nth-last-child(-n + 3) span {
+    background: var(--accent);
+  }
+  .edition-line i {
+    border-radius: 50%;
+    transform: none;
+    background: var(--accent);
+  }
+  .lead-story .story-summary {
+    color: var(--text-secondary);
+  }
+  .lead-story .lead-kicker {
+    color: var(--accent);
+  }
+  .desk-main :is(.story-save, .story-read) {
+    background: transparent;
+    border-color: var(--line-strong);
+    border-radius: 5px;
+    color: var(--muted);
+  }
+  .desk-main :is(.story-save.is-saved, .story-read.is-read) {
+    background: var(--tint-positive);
+    color: var(--positive);
+    border-color: var(--tint-positive-line);
+  }
+  .source-type-label,
+  .story-category,
+  .lead-story .story-category {
+    border-radius: 4px;
+    color: var(--accent);
+    background: var(--tint-accent);
+  }
+  #search-dialog {
+    background: var(--surface);
+    border: 1px solid var(--line-strong);
+    border-radius: 10px;
+  }
+  #search-dialog::backdrop {
+    background: #020912b8;
+  }
+  .search-dialog-head button,
+  #search-results a {
+    background: var(--surface-raised);
+    color: var(--text);
+    border-color: var(--line);
+  }
+
+  /* Older feature modules still contain literal light colors. These explicit
+     adapters keep their content legible, without changing their behavior. */
+  .desk-main
+    :is(
+      .lab-panel,
+      .lab-start-layout > .lab-panel,
+      .lab-connection,
+      .lab-attempts,
+      .lab-workflow li,
+      .notebook-queue,
+      .notebook-queue-item,
+      .notebook-connections,
+      .notebook-assistant,
+      .landscape-topics button,
+      .landscape-source,
+      .landscape-advanced,
+      .federal-research-card,
+      .scout-visual,
+      .scout-exploration,
+      .connection-card,
+      .discovery-card,
+      .headline-review,
+      .briefing-followups,
+      .followup-card,
+      .investigation-overview,
+      .investigation-panel
+    ) {
+    background: var(--surface);
+    color: var(--text);
+    border-color: var(--line);
+    border-radius: 8px;
+    box-shadow: none;
+  }
+  .desk-main
+    :is(
+      .lab-topic-directions,
+      .landscape-caution,
+      .trend-insight,
+      .decision-implications .decision-next,
+      .patent-evidence-block,
+      .headline-review > summary,
+      .headline-review blockquote,
+      .followup-reason,
+      .investigation-plan > section,
+      .investigation-development-list article,
+      .investigation-empty,
+      .investigation-approval blockquote,
+      .investigation-matrix caption,
+      #lab-federal-context
+    ) {
+    background: var(--surface-raised);
+    color: var(--text-secondary);
+    border-color: var(--line);
+    border-radius: 5px;
+  }
+  .desk-main
+    :is(
+      .lab-evidence,
+      .lab-question,
+      .investigation-source,
+      .investigation-context,
+      .investigation-assessment,
+      .investigation-table-scroll,
+      .investigation-matrix th,
+      .investigation-matrix td,
+      .investigation-approval,
+      .federal-research-card dl,
+      .notebook-connections article,
+      .landscape-source details
+    ) {
+    border-color: var(--line);
+  }
+  .lab-question[aria-pressed="true"] {
+    border-left-color: var(--accent);
+    background: var(--tint-accent);
+  }
+  .desk-main
+    :is(
+      .notebook-queue-item[aria-pressed="true"],
+      .landscape-topics button[aria-pressed="true"],
+      .lab-workflow [aria-current="step"],
+      .comparison-choice:has(input:checked)
+    ) {
+    background: var(--tint-accent);
+    border-color: var(--accent);
+    box-shadow: none;
+  }
+  #patents .patent-card.selected {
+    background: var(--tint-accent);
+  }
+  .desk-main
+    :is(
+      .patent-detail,
+      .patent-coverage,
+      .scout-visual,
+      .scout-exploration,
+      .briefing-followups,
+      .investigation-overview,
+      .investigation-checks
+    ) {
+    border-top-width: 1px;
+  }
+  #briefing.decision-view .lead-story {
+    border: 1px solid var(--line);
+    background: var(--surface-raised);
+  }
+  .desk-main
+    :is(
+      .landscape-window,
+      .patent-coverage,
+      .briefing-next-step,
+      .lab-evidence,
+      .federal-academic-intro
+    ) {
+    border-left-color: var(--accent);
+  }
+  .desk-main
+    :is(
+      .comparison-review-notice,
+      .comparison-approval-conflict,
+      .lab-search-health,
+      .federal-academic-intro,
+      .review-boundary,
+      .freshness-notice
+    ) {
+    background: var(--tint-caution);
+    color: var(--caution);
+    border-color: var(--tint-caution-line);
+  }
+  .desk-main
+    :is(
+      .investigation-note,
+      .investigation-watch-date,
+      .investigation-missing,
+      .investigation-source-heading,
+      .investigation-match,
+      .landscape-byline,
+      .landscape-provenance,
+      .notebook-queue-item span,
+      .scout-visual .explore-note,
+      .scout-exploration .explore-note,
+      .connection-date,
+      .briefing-timeline time,
+      .discovery-setup,
+      .headline-review .review-method,
+      .briefing-followups .review-method,
+      .followup-edition,
+      .followup-timeline li > div
+    ) {
+    color: var(--muted);
+  }
+  .desk-main
+    :is(
+      .investigation-role,
+      .investigation-panel summary,
+      .investigation-context summary,
+      .investigation-text-button,
+      #investigation-status,
+      .landscape-advanced > summary,
+      .landscape-topic-count,
+      .lab-workflow span,
+      .scout-exploration a:not(.desk-button),
+      .connection-card summary,
+      .headline-review a,
+      .briefing-followups a,
+      .followup-timeline summary
+    ) {
+    color: var(--accent);
+  }
+  .investigation-matrix thead {
+    background: var(--surface-high);
+  }
+  .investigation-approval-edited > summary {
+    color: var(--caution);
+  }
+  .map-hub {
+    background: var(--surface-high);
+    color: var(--text);
+  }
+  .map-branches,
+  .map-branches::before,
+  .connection-column::before,
+  .hands-on-panel,
+  .followup-timeline,
+  .followup-timeline ol {
+    border-color: var(--line);
+  }
+  .followup-timeline li::before {
+    background: var(--accent);
+    border-color: var(--surface);
+  }
+  .coverage-strip {
+    color: var(--text);
+    border-color: var(--line);
+  }
+  .coverage-track {
+    background: var(--surface-sunken);
+  }
+  .topic-security {
+    --explore-color: #80d9b4;
+    --explore-tint: #11372f;
+  }
+  .topic-quantum {
+    --explore-color: #c1afff;
+    --explore-tint: #2c2546;
+  }
+  .topic-ai {
+    --explore-color: #efc27d;
+    --explore-tint: #382d1d;
+  }
+  .topic-cloud {
+    --explore-color: #91baff;
+    --explore-tint: #182c49;
+  }
+  .map-topics button[aria-pressed="true"] {
+    color: #07131f;
+  }
+  #trend-chart .trend-recorded {
+    fill: var(--accent);
+  }
+  #trend-chart .trend-missing {
+    stroke: var(--caution);
+  }
+  #trend-chart .trend-label {
+    fill: var(--muted);
+  }
+  .signal-delta.positive {
+    color: var(--positive);
+  }
+  .signal-delta.negative {
+    color: var(--caution);
+  }
+  .signal-classification .critical {
+    color: var(--critical);
+  }
+  .signal-classification :is(.rising, .actionable) {
+    color: var(--positive);
+  }
+  .signal-classification .declining {
+    color: var(--caution);
+  }
+
+  /* Label hues retain their meaning on dark surfaces. */
+  .desk-workspace .badge,
+  .federal-life,
+  .patent-topic-tag,
+  .investigation-role-counts > span {
+    background: var(--tint-neutral);
+    color: var(--muted);
+    border-color: var(--line);
+  }
+  .desk-workspace .badge.rising,
+  .federal-life.open,
+  .patent-stage.grant,
+  .patent-topic-tag.pqc,
+  .investigation-role-counts [data-evidence-role="Supports"],
+  .decision-action.test,
+  .lab-attempts li[data-state="succeeded"] {
+    background: var(--tint-positive);
+    color: var(--positive);
+    border-color: var(--tint-positive-line);
+  }
+  .desk-workspace .badge.stable,
+  .federal-life.upcoming,
+  .patent-stage,
+  .patent-topic-tag.cyber,
+  .investigation-role-counts [data-evidence-role="Method / baseline"],
+  .decision-action.monitor {
+    background: var(--tint-info);
+    color: var(--info);
+    border-color: var(--tint-info-line);
+  }
+  .desk-workspace :is(.badge.critical, .badge.declining),
+  .federal-life.closed,
+  .investigation-role-counts [data-evidence-role="Challenges"],
+  .decision-action.investigate,
+  .lab-attempts li[data-state="failed"] {
+    background: var(--tint-critical);
+    color: var(--critical);
+    border-color: var(--tint-critical-line);
+  }
+  .desk-workspace :is(.badge.high, .badge.medium, .badge.stale),
+  .federal-life.due,
+  .patent-stage.unknown,
+  .patent-topic-tag.ai,
+  .followup-status,
+  .decision-action.prepare {
+    background: var(--tint-caution);
+    color: var(--caution);
+    border-color: var(--tint-caution-line);
+  }
+  .desk-workspace :is(.badge.active, .badge.watching),
+  .federal-life.award,
+  .patent-topic-tag.quantum,
+  .investigation-role-counts [data-evidence-role="Closest prior work"] {
+    background: var(--tint-violet);
+    color: var(--violet);
+    border-color: var(--tint-violet-line);
+  }
+  .desk-workspace .badge.actionable,
+  .patent-topic-tag.cloud {
+    background: var(--tint-accent);
+    color: var(--accent);
+    border-color: var(--tint-accent-line);
+  }
+  .desk-workspace .badge.quiet {
+    background: var(--tint-neutral);
+    color: var(--muted);
+  }
+  .investigation-plan .investigation-next {
+    background: var(--tint-positive);
+    border-left-color: var(--positive);
+  }
+  .followup-actions button[aria-pressed="true"] {
+    background: var(--tint-positive);
+    color: var(--positive);
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .desk-rail {
+    padding: 18px 24px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px;
+  }
+  .desk-brand {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .workspace-menu {
+    display: flex;
+    grid-column: 2;
+    grid-row: 1;
+    align-items: center;
+    gap: 12px;
+    padding: 9px 13px;
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    color: var(--text);
+    background: var(--surface);
+    font-size: 13px;
+  }
+  .desk-nav {
+    display: none;
+    grid-row: 2;
+    grid-column: 1 / -1;
+    margin-top: 4px;
+  }
+  .desk-nav.is-open {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px 16px;
+  }
+  .desk-nav a {
+    padding: 10px 12px;
+    font-size: 14px;
+    min-height: 44px;
+    white-space: normal;
+    border-radius: 4px;
+  }
+  .desk-nav a[aria-current="page"] {
+    background: var(--tint-accent);
+    border-color: transparent;
+    color: var(--accent);
+  }
+  .nav-explore,
+  .nav-explore[open] {
+    grid-column: 1 / -1;
+    margin: 8px 0 0;
+    padding: 0;
+    border-top: 1px solid var(--line);
+    background: transparent;
+    box-shadow: none;
+  }
+  .nav-explore > summary {
+    justify-content: flex-start;
+    padding: 10px 12px;
+  }
+  .nav-explore[open] {
+    display: block;
+  }
+  .nav-explore[open] > summary {
+    grid-column: 1 / -1;
+  }
+  .nav-tools-list {
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px 16px;
+    width: auto;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+  .nav-explore .nav-tools-list > a {
+    min-height: 44px;
+    padding: 10px 12px;
+    border: 0;
+    background: transparent;
+  }
+  .rail-bottom {
+    display: none;
+    grid-row: 3;
+    grid-column: 1 / -1;
+    justify-content: flex-start;
+  }
+  .desk-rail:has(.desk-nav.is-open) .rail-bottom {
+    display: flex;
+  }
+  .desk-topbar {
+    padding: 10px 24px;
+    gap: 16px;
+    min-height: 54px;
+  }
+  .desk-main.shell {
+    margin: 0 auto;
+    width: 100%;
+    padding: 28px 24px 48px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .desk-rail {
+    padding: 15px 18px;
+  }
+  .desk-brand {
+    font-size: 15px;
+    gap: 9px;
+  }
+  .desk-brand b {
+    font-size: 11px;
+  }
+  .desk-brand img {
+    width: 32px;
+    height: 32px;
+  }
+  .workspace-menu {
+    font-size: 12px;
+    gap: 8px;
+    padding: 9px 10px;
+    max-width: 145px;
+  }
+  .desk-topbar {
+    padding: 9px 18px;
+    gap: 10px;
+  }
+  .workspace-label {
+    display: none;
+  }
+  .desk-topbar .search-launch {
+    width: auto;
+    min-width: 0;
+    flex: 1;
+    margin: 0;
+    padding: 8px 10px;
+    font-size: 12px;
+    text-align: left;
+  }
+  .desk-topbar .collection-pill {
+    display: none;
+  }
+  .comfort-type {
+    flex: 0 0 35px;
+  }
+  .desk-main.shell {
+    padding: 25px 18px 40px;
+  }
+  .workspace-heading {
+    padding: 0;
+  }
+  .workspace-heading h1 {
+    font-size: 31px;
+  }
+  body > footer {
+    margin: 0 18px;
+    padding: 0;
+  }
+  .nav-explore .nav-tools-list > a {
+    font-size: 13px;
+  }
+}

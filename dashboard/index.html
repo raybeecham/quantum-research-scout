@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Emerging-technology intelligence for practical decisions across cybersecurity, PQC, quantum computing, AI, and cloud—with research tools for deeper investigation."
+      content="Source-linked quantum computing and cybersecurity intelligence, with selected AI and cloud developments, evidence trails, and a personal following feed."
     />
-    <meta name="theme-color" content="#182f3a" />
+    <meta name="theme-color" content="#07131f" />
+    <script src="theme.js?v=__ASSET_VERSION__"></script>
     <title>Quantum Research Scout</title>
     <link rel="icon" href="favicon.svg?v=__ASSET_VERSION__" type="image/svg+xml" />
     <meta property="og:title" content="Quantum Research Scout" />
@@ -21,11 +22,18 @@
     <link rel="stylesheet" href="styles.css?v=__ASSET_VERSION__" />
     <link rel="stylesheet" href="components.css?v=__ASSET_VERSION__" />
     <link rel="stylesheet" href="desk.css?v=__ASSET_VERSION__" />
+    <link rel="stylesheet" href="workspace.css?v=__ASSET_VERSION__" />
+    <link rel="stylesheet" href="investigations.css?v=__ASSET_VERSION__" />
+    <link rel="stylesheet" href="comparison-review.css?v=__ASSET_VERSION__" />
+    <link rel="stylesheet" href="magazine-shell.css?v=__ASSET_VERSION__" />
+    <link rel="stylesheet" href="news.css?v=__ASSET_VERSION__" />
+    <link rel="stylesheet" href="news-detail.css?v=__ASSET_VERSION__" />
+    <link rel="stylesheet" href="theme.css?v=__ASSET_VERSION__" />
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to briefing</a>
+    <a class="skip-link" href="#main">Skip to content</a>
     <aside class="desk-rail">
-      <a class="desk-brand" href="#briefing" aria-label="Quantum Research Scout home">
+      <a class="desk-brand" href="#news" aria-label="Quantum Research Scout home">
         <img src="favicon.svg" width="36" height="36" alt="" />
         <span>
           QUANTUM
@@ -33,47 +41,73 @@
           <b>RESEARCH SCOUT</b>
         </span>
       </a>
-      <span class="rail-caption">INTELLIGENCE WORKSPACE</span>
-      <nav class="desk-nav" aria-label="Primary navigation">
+      <button
+        id="workspace-menu"
+        class="workspace-menu"
+        type="button"
+        aria-expanded="false"
+        aria-controls="workspace-nav"
+      >
+        Menu
+        <span aria-hidden="true">☰</span>
+      </button>
+      <nav id="workspace-nav" class="desk-nav" aria-label="Primary navigation">
+        <a href="#news" data-workspace="news">
+          <span aria-hidden="true">⌂</span>
+          Latest
+        </a>
         <a href="#briefing" data-workspace="briefing">
           <span aria-hidden="true">◈</span>
-          Technology briefing
-        </a>
-        <a href="#questions" data-workspace="questions">
-          <span aria-hidden="true">◇</span>
-          Question lab
-        </a>
-        <a href="#saved" data-workspace="saved">
-          <span aria-hidden="true">☆</span>
-          Research notebook
-          <span id="saved-count">0</span>
+          Briefing
         </a>
         <a href="#research" data-workspace="research">
           <span aria-hidden="true">↗</span>
-          Research landscape
+          Tech landscape
         </a>
         <a href="#federal" data-workspace="federal">
           <span aria-hidden="true">◎</span>
-          Federal landscape
+          Federal
         </a>
         <a href="#patents" data-workspace="patents">
           <span aria-hidden="true">⌘</span>
-          Patent watch
+          Patents
         </a>
-        <a href="#decisions" data-workspace="decisions">
-          <span aria-hidden="true">◇</span>
-          Review desk
+        <a href="#saved" data-workspace="saved">
+          <span aria-hidden="true">☆</span>
+          Saved
+          <span id="saved-count">0</span>
         </a>
-        <a href="#library" data-workspace="library">
-          <span aria-hidden="true">▤</span>
-          Report library
-        </a>
+        <details class="nav-explore" id="nav-explore">
+          <summary>Tools</summary>
+          <div class="nav-tools-list">
+            <a href="#questions" data-workspace="questions">
+              <span aria-hidden="true">◇</span>
+              Question lab
+            </a>
+            <a href="#investigations" data-workspace="investigations">
+              <span aria-hidden="true">▤</span>
+              Investigations
+            </a>
+            <a href="#decisions" data-workspace="decisions">
+              <span aria-hidden="true">◇</span>
+              Review desk
+            </a>
+            <a href="#library" data-workspace="library">
+              <span aria-hidden="true">▤</span>
+              Report library
+            </a>
+            <a href="#start" data-workspace="start">
+              <span aria-hidden="true">⌂</span>
+              Getting started
+            </a>
+            <a href="#operations" data-workspace="operations">
+              <span aria-hidden="true">◉</span>
+              Sources &amp; methods
+            </a>
+          </div>
+        </details>
       </nav>
       <div class="rail-bottom">
-        <a href="#operations" data-workspace="operations">
-          <span aria-hidden="true">◉</span>
-          Sources &amp; methods
-        </a>
         <a id="repo-link" href="https://github.com/raybeecham/quantum-research-scout">
           Open repository
           <span aria-hidden="true">↗</span>
@@ -88,10 +122,10 @@
     <header class="desk-topbar">
       <span class="workspace-label">
         SCOUT /
-        <b id="workspace-name">TECHNOLOGY BRIEFING</b>
+        <b id="workspace-name">LATEST IN EMERGING TECH</b>
       </span>
       <button class="search-launch" id="open-search" type="button">
-        <span>Search the intelligence desk</span>
+        <span>Search stories &amp; topics</span>
         <kbd>/</kbd>
       </button>
       <a class="collection-pill" id="desk-health" href="#operations">Checking collection</a>
@@ -105,6 +139,19 @@
       >
         Aa
       </button>
+      <button
+        id="theme-toggle"
+        class="theme-toggle"
+        data-theme-toggle
+        type="button"
+        aria-label="Switch to light mode"
+        aria-pressed="false"
+        hidden
+      >
+        <span data-theme-icon aria-hidden="true">☀</span>
+        <span data-theme-label>Light mode</span>
+      </button>
+      <span id="theme-status" class="theme-status" role="status" aria-live="polite"></span>
     </header>
     <main class="shell desk-main" id="main" tabindex="-1">
       <div id="desk-error" class="desk-loading" role="alert" hidden></div>
@@ -112,6 +159,244 @@
         Browser storage is unavailable or full. Notes, saved items, and filters may not survive a reload. Export your
         notebook before leaving.
       </p>
+      <section id="news" class="desk-workspace news-workspace" hidden aria-labelledby="news-title">
+        <div class="news-mastline">
+          <span>QUANTUM &amp; CYBERSECURITY INTELLIGENCE</span>
+          <span id="news-edition">Loading collection…</span>
+        </div>
+        <div class="news-heading">
+          <div>
+            <h1 id="news-title">The next wave.</h1>
+            <p>Quantum and cybersecurity developments, explained and connected to the evidence.</p>
+          </div>
+          <a class="news-digest-link" href="#library">
+            Browse the digests
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <nav id="news-filter-buttons" class="news-topics" aria-label="Filter news by topic">
+          <button type="button" data-news-topic="all" aria-pressed="true">All stories</button>
+          <button type="button" data-news-topic="security" aria-pressed="false">Cyber &amp; PQC</button>
+          <button type="button" data-news-topic="quantum" aria-pressed="false">Quantum</button>
+          <button type="button" data-news-topic="ai" aria-pressed="false">AI</button>
+          <button type="button" data-news-topic="cloud" aria-pressed="false">Cloud</button>
+          <button type="button" data-news-topic="government" aria-pressed="false">Government</button>
+        </nav>
+        <div class="news-personal-bar">
+          <div id="news-feed-buttons" class="news-feed-buttons" role="group" aria-label="Choose your news feed">
+            <button type="button" data-news-feed="all" aria-pressed="true">Discover</button>
+            <button type="button" data-news-feed="following" aria-pressed="false">Following</button>
+            <button type="button" data-news-feed="new" aria-pressed="false">New since last visit</button>
+          </div>
+          <label class="news-unread">
+            <input type="checkbox" id="news-unread" />
+            Unread only
+          </label>
+        </div>
+        <details id="news-personalize" class="news-personalize">
+          <summary>
+            Customize your feed
+            <span id="news-follow-count"></span>
+          </summary>
+          <p>
+            Follow topics or organizations mentioned in this collection. Choices and read markers stay in this browser,
+            with no sign-in or notifications.
+          </p>
+          <div id="news-follow-topics" class="news-follow-options" role="group" aria-label="Topics to follow"></div>
+          <label for="news-follow-organization">Follow an organization</label>
+          <div class="news-follow-organizations">
+            <select id="news-follow-organization">
+              <option value="">Choose an organization</option>
+            </select>
+            <button type="button" id="news-follow-add">Follow</button>
+          </div>
+          <div id="news-following-organizations" class="news-follow-options" aria-label="Followed organizations"></div>
+          <p id="news-preferences-status" role="status"></p>
+        </details>
+        <div class="news-controls">
+          <label class="news-search-label" for="news-search">
+            <span>Find a story</span>
+            <input id="news-search" type="search" placeholder="Search this collection…" maxlength="250" />
+          </label>
+          <label for="news-sort">
+            Order
+            <select id="news-sort">
+              <option value="recent">Recently collected</option>
+              <option value="relevance">Scout relevance</option>
+            </select>
+          </label>
+        </div>
+        <p id="news-status" class="news-status" role="status" hidden></p>
+        <details class="news-coverage">
+          <summary>
+            Inside this collection
+            <span id="news-coverage-summary"></span>
+          </summary>
+          <div id="news-coverage-topics" class="news-coverage-topics"></div>
+          <p id="news-selection-note"></p>
+          <p>
+            Quantum and cybersecurity are our core coverage. AI and cloud are adjacent coverage, not comprehensive news
+            services. Counts can overlap by topic.
+          </p>
+          <a href="#federal">Explore funding and procurement</a>
+          ·
+          <a href="#operations">Inspect sources and collection health</a>
+        </details>
+        <p id="news-loading" class="news-loading" role="status">Loading collected stories…</p>
+        <div id="news-featured" aria-label="Featured stories"></div>
+        <div id="news-empty" class="news-empty" hidden></div>
+        <div class="news-feed-heading">
+          <h2>More to explore</h2>
+          <p id="news-count" aria-live="polite"></p>
+        </div>
+        <div id="news-list" class="news-list"></div>
+        <button type="button" id="news-more" class="desk-button news-more" hidden>
+          More stories
+          <span aria-hidden="true">↓</span>
+        </button>
+        <footer class="news-footer">
+          <p id="news-scope">
+            A curated collection, not a live or exhaustive news service. Check original sources for current details.
+          </p>
+          <a href="#operations">Sources &amp; coverage ↗</a>
+        </footer>
+      </section>
+      <section id="start" class="desk-workspace" hidden aria-labelledby="start-title">
+        <div class="start-hero">
+          <div>
+            <span class="desk-kicker">A RESEARCH DESK, NOT JUST A NEWS FEED</span>
+            <h1 id="start-title">
+              Follow the evidence.
+              <br />
+              <em>Find your next question.</em>
+            </h1>
+            <p>
+              Make sense of cybersecurity, post-quantum cryptography, and quantum computing, with AI and cloud in
+              context. Move from a development worth reading to an investigation you can actually pursue.
+            </p>
+            <form id="start-topic-form">
+              <label for="start-interest">What are you curious about?</label>
+              <div class="start-topic-input">
+                <input
+                  id="start-interest"
+                  maxlength="500"
+                  required
+                  placeholder="e.g. gaps in cryptographic inventories"
+                />
+                <button class="desk-button" type="submit">Explore this topic →</button>
+              </div>
+              <small>Opens Question Lab. No search or AI request until you choose to submit there.</small>
+            </form>
+          </div>
+          <details class="start-route" id="start-session-guide" open>
+            <summary class="desk-kicker">YOUR FIRST RESEARCH SESSION</summary>
+            <ol>
+              <li>
+                <span>01</span>
+                <div>
+                  <strong>Find a few useful sources</strong>
+                  <p>Browse the briefing, or search papers in Question Lab. Review before attaching.</p>
+                </div>
+              </li>
+              <li>
+                <span>02</span>
+                <div>
+                  <strong>Choose a question to develop</strong>
+                  <p>Use the evidence to narrow a question. A promising idea is not proof of novelty.</p>
+                </div>
+              </li>
+              <li>
+                <span>03</span>
+                <div>
+                  <strong>Keep an investigation</strong>
+                  <p>Compare prior work, record uncertainty, and decide on the next experiment.</p>
+                </div>
+              </li>
+            </ol>
+          </details>
+        </div>
+        <div class="start-paths" aria-label="Choose where to begin">
+          <a class="start-path" href="#briefing">
+            <span class="desk-kicker">DISCOVER</span>
+            <h2>
+              Catch up on the evidence
+              <span aria-hidden="true">↗</span>
+            </h2>
+            <p>Recent developments, original sources, and questions worth following.</p>
+            <span class="start-path-action">Read the briefing →</span>
+          </a>
+          <a class="start-path" href="#questions">
+            <span class="desk-kicker">DEVELOP</span>
+            <h2>
+              Turn curiosity into a question
+              <span aria-hidden="true">↗</span>
+            </h2>
+            <p>Search for papers and use optional, source-grounded AI assistance.</p>
+            <span class="start-path-action">Open Question Lab →</span>
+          </a>
+          <a class="start-path" href="#investigations">
+            <span class="desk-kicker">INVESTIGATE</span>
+            <h2>
+              Build a defensible study
+              <span aria-hidden="true">↗</span>
+            </h2>
+            <p>Your question, evidence, comparison notes, and next step in one workspace.</p>
+            <span class="start-path-action">Open investigations →</span>
+          </a>
+        </div>
+        <section id="start-resume" class="start-resume" aria-labelledby="start-resume-title">
+          <div>
+            <span class="desk-kicker">YOUR LOCAL WORKSPACE</span>
+            <h2 id="start-resume-title">Pick up where you left off</h2>
+            <p id="start-workspace-status">Questions and readings stay in this browser, not in your GitHub account.</p>
+          </div>
+          <div id="start-recent"></div>
+        </section>
+        <details class="start-more">
+          <summary>Looking for missions, patents, reports, or source coverage?</summary>
+          <div class="start-tool-links">
+            <a href="#research">
+              Research landscape
+              <small>Topics, organizations, and evidence trends</small>
+            </a>
+            <a href="#federal">
+              Federal landscape
+              <small>Missions, funding, and procurement</small>
+            </a>
+            <a href="#patents">
+              Patent watch
+              <small>Inventions, families, and relevance</small>
+            </a>
+            <a href="#library">
+              Report library
+              <small>Daily, weekly, and monthly reports</small>
+            </a>
+            <a href="#decisions">
+              Review desk
+              <small>Changes, conflicts, and amendments</small>
+            </a>
+            <a href="#operations">
+              Sources &amp; methods
+              <small>Coverage, freshness, and limitations</small>
+            </a>
+          </div>
+        </details>
+        <p class="start-access-note">
+          Browsing, saved readings, and investigation notes need no sign-in. Hosted AI and paper search are invite-only.
+          Browser storage is not a backup; export your work before changing devices or clearing browser data.
+        </p>
+      </section>
+      <section id="investigations" class="desk-workspace" hidden aria-labelledby="investigations-title">
+        <div class="workspace-heading">
+          <span class="desk-kicker">FROM A QUESTION TO A DEFENSIBLE STUDY</span>
+          <h1 id="investigations-title">Your investigations</h1>
+          <p>
+            Bring your evidence, prior-work comparisons, and next experiment together. Working notes, not verified
+            findings.
+          </p>
+        </div>
+        <div id="investigations-content"></div>
+      </section>
       <section id="briefing" class="desk-workspace">
         <div class="edition-line">
           <span>
@@ -124,7 +409,7 @@
           <div>
             <h1 id="briefing-title">What matters. What to do next.</h1>
             <p id="briefing-intro-text">
-              Emerging-tech developments that could change your plans—not just add to your reading list.
+              Emerging-tech developments that could change your plans, not just add to your reading list.
             </p>
           </div>
           <a id="hero-report-link" class="desk-button" href="#library">
@@ -203,7 +488,7 @@
             <a href="#decisions">Open review desk →</a>
           </div>
           <p class="briefing-selection-note">
-            Recorded claim changes across tracked themes—not a list of new papers. Inspect the source before treating a
+            Recorded claim changes across tracked themes, not a list of new papers. Inspect the source before treating a
             change as resolved.
           </p>
           <div id="desk-changes"></div>
@@ -258,10 +543,14 @@
           <span class="desk-kicker">FROM CURIOSITY TO A TESTABLE QUESTION</span>
           <h1>Research Question Lab</h1>
           <p>
-            Develop questions—not just a reading list. Explore a direction, examine the evidence, and design a small
+            Develop questions, not just a reading list. Explore a direction, examine the evidence, and design a small
             first test.
           </p>
         </div>
+        <p class="workspace-handoff">
+          Already developing a question?
+          <a href="#investigations">Open your investigation workspace →</a>
+        </p>
         <ol class="lab-workflow" aria-label="Question development steps">
           <li data-lab-step="1" aria-current="step">
             <span>01</span>
@@ -398,7 +687,7 @@
                 <p id="lab-discovery-queries"></p>
                 <p>
                   Strong matches cover the recognized topic facets and short-topic qualifiers in titles or abstracts.
-                  Background reading only covers part of the topic. These are metadata rules—not an AI appraisal,
+                  Background reading only covers part of the topic. These are metadata rules, not an AI appraisal,
                   quality rating, or proof of novelty. Up to 12 strong and 3 background matches are shown.
                 </p>
               </details>
@@ -412,8 +701,8 @@
                 <select id="lab-ai-sources" multiple size="4"></select>
               </label>
               <p>
-                Only titles, URLs and saved excerpts are sent—not your private notebook notes. No selected sources means
-                general AI brainstorming.
+                Only titles, URLs and saved excerpts are sent, not your private notebook notes. No selected sources
+                means general AI brainstorming.
               </p>
             </details>
             <label class="lab-consent-row">
@@ -578,7 +867,7 @@
               <option value="">This research question</option>
             </select>
             <p>
-              For an attached paper, only its title is sent to the indexes—not your notes. Matches use titles and
+              For an attached paper, only its title is sent to the indexes, not your notes. Matches use titles and
               abstracts; they are not a citation-network search or an AI review.
             </p>
             <button id="lab-find-papers" class="desk-button primary" type="button">Find papers</button>
@@ -706,7 +995,8 @@
           <p>
             Select 2–4 readings with abstracts or source excerpts. AI selects numbered sentences for proposed
             categories; original wording is inserted automatically. AI connections stay separate. This does not read
-            full papers or establish a research gap.
+            full papers or establish a research gap. Review each proposed entry and approve only what belongs in your
+            investigation. Nothing is saved automatically.
           </p>
           <fieldset id="comparison-controls">
             <legend>Choose evidence for comparison</legend>
@@ -782,7 +1072,7 @@
               <span id="alert-summary"></span>
             </div>
             <p class="intelligence-briefing-note">
-              The developments most likely to change a decision—not a list of everything being monitored.
+              The developments most likely to change a decision, not a list of everything being monitored.
             </p>
             <div id="alert-list" class="alert-list intelligence-briefing-list" aria-live="polite"></div>
             <div class="intelligence-panel-links">
@@ -806,7 +1096,8 @@
             <div>
               <strong>Evidence-to-action queue</strong>
               <p>
-                Material amendments, authoritative government changes, and unresolved claim conflicts—ranked for review.
+                Material amendments, authoritative government changes, and unresolved claim conflicts, ranked for
+                review.
               </p>
             </div>
             <span class="local-only-badge">Analyst actions stay in this browser</span>
@@ -829,7 +1120,7 @@
             <summary>
               <div class="forecast-summary-copy">
                 <span class="module-kicker">STRATEGIC FORECAST WATCH</span>
-                <strong>What may happen next—and how we will score it</strong>
+                <strong>What may happen next and how we will score it</strong>
                 <div id="forecast-preview" class="forecast-preview" aria-live="polite"></div>
               </div>
               <div class="forecast-summary-meta">
@@ -951,7 +1242,7 @@
               </summary>
               <div class="module-content">
                 <p class="module-note">
-                  Auto-seeded cards are candidates—not approved pursuits. Public status is shown here; internal owners,
+                  Auto-seeded cards are candidates, not approved pursuits. Public status is shown here; internal owners,
                   notes, and capability evidence remain in the gitignored local workspace.
                 </p>
                 <div id="pursuit-board" class="pursuit-board" aria-live="polite"></div>
@@ -1048,7 +1339,7 @@
                   />
                 </label>
                 <p class="module-note">
-                  Peer and potential-competitor labels are analytical similarities—not confirmed partnerships or
+                  Peer and potential-competitor labels are analytical similarities, not confirmed partnerships or
                   competitive relationships.
                 </p>
                 <div id="contractor-grid" class="contractor-grid" aria-live="polite"></div>
@@ -1323,19 +1614,19 @@
               <div class="trend-summary">
                 <div>
                   <span>Evidence in range</span>
-                  <strong id="trend-total">—</strong>
+                  <strong id="trend-total">Not available</strong>
                 </div>
                 <div>
                   <span>Peak day</span>
-                  <strong id="trend-peak">—</strong>
+                  <strong id="trend-peak">Not available</strong>
                 </div>
                 <div>
                   <span>Recent 7 days / prior 7 days</span>
-                  <strong id="trend-comparison">—</strong>
+                  <strong id="trend-comparison">Not available</strong>
                 </div>
                 <div>
                   <span>Recorded days in view</span>
-                  <strong id="trend-coverage">—</strong>
+                  <strong id="trend-coverage">Not available</strong>
                 </div>
               </div>
               <p id="trend-insight" class="trend-insight" role="status"></p>
@@ -1479,7 +1770,7 @@
             </div>
             <p class="source-health-explainer">
               Reliability measures collection attempts, not scientific credibility. Stale means no recent dated item was
-              observed—not that a source is broken. Reference sources contain long-lived guidance. Standby collectors
+              observed, not that a source is broken. Reference sources contain long-lived guidance. Standby collectors
               run only when their primary feed is empty. Unknown dates remain unknown; future dates do not count as
               fresh evidence.
             </p>
@@ -1549,10 +1840,16 @@
     <script src="evidence-review.js?v=__ASSET_VERSION__" defer></script>
     <script src="federal-research.js?v=__ASSET_VERSION__" defer></script>
     <script src="patent-watch.js?v=__ASSET_VERSION__" defer></script>
+    <script src="news-preferences.js?v=__ASSET_VERSION__" defer></script>
+    <script src="news-detail.js?v=__ASSET_VERSION__" defer></script>
+    <script src="news.js?v=__ASSET_VERSION__" defer></script>
     <script src="desk.js?v=__ASSET_VERSION__" defer></script>
     <script src="ris-import.js?v=__ASSET_VERSION__" defer></script>
+    <script src="comparison-review.js?v=__ASSET_VERSION__" defer></script>
     <script src="paper-comparison.js?v=__ASSET_VERSION__" defer></script>
     <script src="questions.js?v=__ASSET_VERSION__" defer></script>
+    <script src="investigations.js?v=__ASSET_VERSION__" defer></script>
+    <script src="workspace.js?v=__ASSET_VERSION__" defer></script>
     <script src="app.js?v=__ASSET_VERSION__" defer></script>
   </body>
 </html>

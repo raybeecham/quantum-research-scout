@@ -8,7 +8,7 @@ from pathlib import Path
 from playwright.sync_api import expect, sync_playwright
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from pqc_quantum_research_agent.paper_comparison import clean_comparison, validate_result
+from pqc_quantum_research_agent.paper_comparison import VERSION, clean_comparison, validate_result
 
 
 def response(payload):
@@ -19,6 +19,9 @@ def response(payload):
                 "source_id": sid,
                 "question": [f"{sid}.T1"],
                 "method": [],
+                "data": [],
+                "assumptions": [],
+                "metrics": [],
                 "findings": [f"{sid}.T1"],
                 "limitations": [],
             }
@@ -60,7 +63,7 @@ def main():
                     "token": "mock-token",
                     "features": {
                         "paper_comparison": state["feature"],
-                        "comparison_evidence_version": 3,
+                        "comparison_evidence_version": VERSION,
                     },
                     "providers": {"gemini": True, "groq": True},
                 }
@@ -178,13 +181,13 @@ def main():
         page.locator("#comparison-run").click()
         expect(page.locator("#comparison-status")).to_contain_text("Comparison ready")
         assert len(calls) == 1
-        expect(page.locator("#comparison-result table tbody tr")).to_have_count(4)
+        expect(page.locator("#comparison-result table tbody tr")).to_have_count(7)
         expect(page.locator("#comparison-result")).to_contain_text(
             "No source sentence selected for this aspect"
         )
         expect(page.locator("#comparison-result")).to_contain_text("Not directly comparable")
         expect(page.locator("#comparison-result")).to_contain_text("not established findings")
-        assert page.locator("#comparison-result a").evaluate_all(
+        assert page.locator("#comparison-result a[target='_blank']").evaluate_all(
             r"links => links.every(a => /^https:\/\/example.org\/paper\/[12]$/.test(a.href))"
         )
         page.locator("#comparison-result").scroll_into_view_if_needed()

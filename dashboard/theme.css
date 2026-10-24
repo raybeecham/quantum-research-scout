@@ -1,0 +1,332 @@
+/* Optional daylight palette. The approved magazine palette remains the default.
+   Keep theme changes on tokens and surfaces, never on publisher images. */
+.theme-status {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+@media screen {
+  .theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    gap: 7px;
+    min-height: 35px;
+    padding: 7px 10px;
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    background: var(--surface);
+    color: var(--text);
+    font: 600 12px/1.5 var(--font-display);
+    white-space: nowrap;
+    cursor: pointer;
+    box-shadow: none;
+  }
+  .theme-toggle:hover {
+    background: var(--surface-high);
+    border-color: var(--line-strong);
+  }
+  .theme-toggle [data-theme-icon] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    line-height: 1;
+  }
+  .theme-toggle [data-theme-icon] svg {
+    width: 16px;
+    height: 16px;
+  }
+  .profile-hero .nav > .theme-toggle {
+    margin-left: 16px;
+  }
+  .profile-hero:has(.nav-links.open) {
+    overflow: visible;
+  }
+
+  html[data-theme="light"] {
+    color-scheme: light;
+    --bg: #f5f7fa;
+    --surface-sunken: #edf1f6;
+    --surface: #ffffff;
+    --surface-raised: #f0f4f8;
+    --surface-high: #e4ebf3;
+    --surface-alt: #f0f4f8;
+    --line-subtle: #e0e7ef;
+    --line: #cbd6e2;
+    --line-strong: #7c91a7;
+    --text: #13283d;
+    --text-secondary: #344b62;
+    --muted: #4e647a;
+    --text-faint: #5b6f83;
+    --accent: #075eac;
+    --accent-bright: #064c8c;
+    --info: #2a5899;
+    --positive: #176247;
+    --violet: #62439b;
+    --caution: #80520c;
+    --critical: #a02e47;
+    --retro-navy: #13283d;
+    --retro-navy-raised: #233d56;
+    --retro-cream: #ffffff;
+    --retro-mint: #075eac;
+    --retro-orange: #075eac;
+    --retro-rust: #2a5899;
+    --desk-ink: #13283d;
+    --desk-border: #cbd6e2;
+    --tint-accent-weak: #f3f8fd;
+    --tint-accent: #e3effb;
+    --tint-accent-strong: #d4e6f8;
+    --tint-accent-line: #92b6d8;
+    --tint-info-weak: #f4f7fd;
+    --tint-info: #e6eefb;
+    --tint-info-strong: #d7e3f6;
+    --tint-info-line: #a0b7dc;
+    --tint-positive-weak: #f2f9f5;
+    --tint-positive: #e2f2e9;
+    --tint-positive-strong: #cfe8da;
+    --tint-positive-line: #8ebba3;
+    --tint-violet-weak: #f8f5fc;
+    --tint-violet: #eee7f8;
+    --tint-violet-strong: #e2d6f2;
+    --tint-violet-line: #b5a0d1;
+    --tint-caution-weak: #fffaf0;
+    --tint-caution: #fbf0d9;
+    --tint-caution-strong: #f5e3bd;
+    --tint-caution-line: #c5a66c;
+    --tint-critical-weak: #fcf4f6;
+    --tint-critical: #f9e5eb;
+    --tint-critical-strong: #f1d2dc;
+    --tint-critical-line: #cd98a6;
+    --tint-neutral-weak: #f5f7fa;
+    --tint-neutral: #eaf0f5;
+    --tint-neutral-strong: #dce5ee;
+    --tint-neutral-line: #acbccb;
+    --shadow-sm: 0 4px 14px #13283d0a;
+    --shadow: 0 10px 30px #13283d0f;
+    --shadow-lg: 0 20px 60px #13283d24;
+    --scrim-weak: #13283d05;
+    --scrim: #13283d0a;
+    --scrim-strong: #13283d14;
+  }
+  html[data-theme="light"] ::selection {
+    background: #c9e3fa;
+    color: #13283d;
+  }
+  html[data-theme="light"] .desk-rail {
+    background: var(--surface);
+    color: var(--text);
+  }
+  html[data-theme="light"] .desk-topbar {
+    background: var(--surface-raised);
+  }
+  html[data-theme="light"] #search-dialog::backdrop {
+    background: #13283d66;
+  }
+
+  /* Headline categories stay distinct, with readable ink on light surfaces. */
+  html[data-theme="light"] .news-topic-security .news-category {
+    color: var(--violet);
+  }
+  html[data-theme="light"] .news-topic-ai .news-category {
+    color: #0b6b67;
+  }
+  html[data-theme="light"] .news-topic-government .news-category {
+    color: var(--caution);
+  }
+  html[data-theme="light"] .news-topic-cloud .news-category {
+    color: var(--info);
+  }
+  html[data-theme="light"] .news-lead .news-source-link {
+    color: #ffffff;
+    background: var(--accent);
+  }
+  html[data-theme="light"] .news-lead .news-source-link:hover {
+    background: var(--accent-bright);
+  }
+  /* Keep photo credits readable independently of the image behind them. */
+  html[data-theme="light"] .news-visual figcaption {
+    color: #ffffff;
+    background: #13283df2;
+  }
+
+  /* Legacy feature text that previously assumed a dark lead story. */
+  html[data-theme="light"] .lead-story :is(.story-meta, .story-source, .research-ranking),
+  html[data-theme="light"] .lead-story .story-evidence small {
+    color: var(--muted);
+  }
+  html[data-theme="light"] .lead-story :is(.notebook-hint, .notebook-hint a),
+  html[data-theme="light"] .lead-story .story-evidence :is(summary, a, .desk-kicker),
+  html[data-theme="light"] .lead-story .citation-details summary,
+  html[data-theme="light"] .lead-story .citation-details a {
+    color: var(--accent);
+  }
+  html[data-theme="light"] .lead-story .source-type-label {
+    border-color: var(--tint-accent-line);
+  }
+  html[data-theme="light"] .story-evidence,
+  html[data-theme="light"] .lead-story .story-evidence {
+    border-color: var(--line);
+  }
+
+  /* Topic map variables are local, so they need their own light counterparts. */
+  html[data-theme="light"] .topic-security {
+    --explore-color: #176247;
+    --explore-tint: #e2f2e9;
+  }
+  html[data-theme="light"] .topic-quantum {
+    --explore-color: #62439b;
+    --explore-tint: #eee7f8;
+  }
+  html[data-theme="light"] .topic-ai {
+    --explore-color: #80520c;
+    --explore-tint: #fbf0d9;
+  }
+  html[data-theme="light"] .topic-cloud {
+    --explore-color: #2a5899;
+    --explore-tint: #e6eefb;
+  }
+  html[data-theme="light"] .map-topics button[aria-pressed="true"] {
+    color: #ffffff;
+  }
+  html[data-theme="light"] .map-hub span {
+    color: var(--accent);
+  }
+  html[data-theme="light"] #profile-fill stop,
+  html[data-theme="light"] #trend-fill stop {
+    stop-color: var(--accent);
+  }
+
+  /* The organization profile uses an older, separate page shell. */
+  html[data-theme="light"] .profile-hero {
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+    color: var(--text);
+  }
+  html[data-theme="light"] .profile-hero :is(.brand, .profile-heading h1) {
+    color: var(--text);
+  }
+  html[data-theme="light"] .profile-hero :is(.nav-links a, .breadcrumbs, .breadcrumbs > span) {
+    color: var(--muted);
+  }
+  html[data-theme="light"] .profile-hero :is(.eyebrow, .breadcrumbs a) {
+    color: var(--accent);
+  }
+  html[data-theme="light"] .profile-hero .nav-links a:hover {
+    color: var(--accent);
+  }
+  html[data-theme="light"] .profile-hero .brand-mark {
+    background: var(--tint-accent);
+    color: var(--accent);
+    border-radius: 5px;
+  }
+  html[data-theme="light"] .profile-hero .nav-links .button.secondary {
+    color: var(--accent);
+    background: var(--tint-accent);
+    border-color: var(--tint-accent-line);
+  }
+  html[data-theme="light"] .profile-summary article {
+    border-color: var(--line);
+    border-radius: 8px;
+  }
+  html[data-theme="light"] .profile-hero .badge {
+    color: var(--muted);
+    background: var(--tint-neutral);
+  }
+  html[data-theme="light"] .profile-hero :is(.badge.rising, .badge.actionable) {
+    color: var(--positive);
+    background: var(--tint-positive);
+  }
+  html[data-theme="light"] .profile-hero .badge.critical {
+    color: var(--critical);
+    background: var(--tint-critical);
+  }
+  html[data-theme="light"] .profile-hero .badge.high {
+    color: var(--caution);
+    background: var(--tint-caution);
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .desk-topbar {
+    gap: 12px;
+  }
+  .desk-topbar .search-launch {
+    min-width: 0;
+  }
+  .profile-hero .nav > .theme-toggle {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .desk-topbar {
+    gap: 8px;
+  }
+  .desk-topbar .search-launch {
+    gap: 8px;
+  }
+  .desk-topbar .search-launch span {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .desk-topbar .search-launch kbd {
+    display: none;
+  }
+  .theme-toggle {
+    gap: 5px;
+    padding: 7px 8px;
+    font-size: 11px;
+  }
+  .profile-hero .nav {
+    gap: 10px;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 82px;
+    padding-block: 14px;
+  }
+  .profile-hero .nav > .brand {
+    min-width: 0;
+    flex: 1 0 100%;
+  }
+  .profile-hero .nav > .theme-toggle {
+    margin-left: 0;
+  }
+  .profile-hero .nav-toggle {
+    margin-left: auto;
+  }
+  .profile-hero .nav-links {
+    top: calc(100% - 4px);
+  }
+  .profile-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .profile-summary article {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+  html[data-theme="light"] .news-row .news-visual figcaption {
+    color: var(--muted);
+    background: var(--surface);
+  }
+}
+@media screen and (max-width: 360px) {
+  .profile-summary {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media print {
+  .theme-toggle {
+    display: none;
+  }
+}

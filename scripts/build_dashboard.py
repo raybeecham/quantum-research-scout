@@ -15,6 +15,8 @@ if str(PROJECT_ROOT) not in sys.path:
 from pqc_quantum_research_agent.briefing import build_reading_brief  # noqa: E402
 from pqc_quantum_research_agent.decision_center import build_decision_center  # noqa: E402
 from pqc_quantum_research_agent.evidence_review import build_evidence_review  # noqa: E402
+from pqc_quantum_research_agent.news_intelligence import build_news_intelligence  # noqa: E402
+from pqc_quantum_research_agent.story_images import story_image_record  # noqa: E402
 
 
 def build_dashboard(
@@ -200,6 +202,22 @@ def build_dashboard(
     payload["evidence_review"] = build_evidence_review(
         payload["reading_brief"], federal_missions, historical
     )
+    # Image enrichment is a separate, bounded collection step. The site build
+    # stays offline and uses only previews tied to the exact source article.
+    image_cache = _read_json(reports / "story-images.json", {"records": {}})
+    image_records = image_cache.get("records", {}) if isinstance(image_cache, dict) else {}
+    if not isinstance(image_records, dict):
+        image_records = {}
+    for story in payload["reading_brief"]["stories"]:
+        story["image"] = story_image_record(image_records.get(story["url"]), story["url"])
+    payload["news_intelligence"] = build_news_intelligence(
+        payload["reading_brief"],
+        entities=entity_watch,
+        missions=federal_missions,
+        funding=federal_funding,
+        patents=patents,
+        standards=standards,
+    )
     asset_names = (
         "index.html",
         "entity.html",
@@ -210,10 +228,24 @@ def build_dashboard(
         "favicon.svg",
         "desk.css",
         "desk.js",
+        "workspace.js",
+        "workspace.css",
+        "magazine-shell.css",
+        "news.css",
+        "news.js",
+        "news-preferences.js",
+        "news-detail.js",
+        "news-detail.css",
+        "theme.css",
+        "theme.js",
+        "investigations.js",
+        "investigations.css",
         "research.js",
         "ris.js",
         "ris-import.js",
         "paper-comparison.js",
+        "comparison-review.js",
+        "comparison-review.css",
         "lab-service.js",
         "lab-config.json",
         "questions.js",
@@ -238,6 +270,9 @@ def build_dashboard(
 
     if (assets / "vendor").is_dir():
         shutil.copytree(assets / "vendor", output / "vendor", dirs_exist_ok=True)
+
+    if (assets / "images").is_dir():
+        shutil.copytree(assets / "images", output / "images", dirs_exist_ok=True)
 
     data_path = output / "data" / "dashboard.json"
     data_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")

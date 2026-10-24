@@ -1,0 +1,379 @@
+/* Investigation workspace: restrained color, readable evidence, progressive editing. */
+#investigations-content {
+  min-width: 0;
+}
+#investigations-content a {
+  color: var(--accent);
+}
+.investigation-toolbar,
+.investigation-section-heading,
+.investigation-source-heading,
+.investigation-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.investigation-toolbar {
+  align-items: end;
+  margin: 1.5rem 0;
+}
+.investigation-toolbar label {
+  flex: 1 1 22rem;
+  max-width: 55rem;
+  font-weight: 700;
+}
+.investigation-toolbar select,
+.investigation-panel select,
+.investigation-panel textarea {
+  display: block;
+  width: 100%;
+  margin-top: 0.45rem;
+  padding: 0.7rem;
+  font: inherit;
+  line-height: 1.5;
+  color: #18313d;
+  background: #fffdf5;
+  border: 1px solid #748b8c;
+  border-radius: 0;
+}
+.investigation-toolbar select {
+  min-width: 0;
+  text-overflow: ellipsis;
+}
+#investigation-status {
+  min-height: 1.5em;
+  color: #005e68;
+  font-weight: 600;
+}
+.investigation-overview,
+.investigation-panel {
+  border: 1px solid #8a9993;
+  background: #fffdf5;
+  padding: clamp(1.1rem, 2.2vw, 2rem);
+  margin-bottom: 1.5rem;
+  min-width: 0;
+}
+.investigation-overview {
+  border-top: 4px solid #00747d;
+}
+.investigation-overview h2 {
+  max-width: 65ch;
+  font-size: clamp(1.45rem, 2vw, 2rem);
+  line-height: 1.4;
+  margin: 1rem 0 0.6rem;
+  overflow-wrap: anywhere;
+}
+.investigation-panel h3 {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin: 0.4rem 0 0.8rem;
+}
+.investigation-panel h4 {
+  margin: 0.6rem 0;
+  line-height: 1.5;
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+}
+.investigation-note,
+.investigation-watch-date {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: #4d6066;
+}
+.investigation-copy {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  line-height: 1.7;
+}
+.investigation-missing {
+  color: #657174;
+  font-style: italic;
+}
+.investigation-plan {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.investigation-plan > section {
+  padding: 1.1rem;
+  border: 1px solid #d2d7ce;
+  background: #f6f5eb;
+  min-width: 0;
+}
+.investigation-plan .investigation-next {
+  grid-column: 1 / -1;
+  background: #e9f3eb;
+  border-left: 4px solid #2f7458;
+}
+.investigation-plan p {
+  margin-bottom: 0;
+}
+.investigation-context {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d2d7ce;
+}
+.investigation-context h3 {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+.investigation-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(16rem, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+.investigation-checks {
+  border-top: 3px solid #a56724;
+  background: #faf4e7;
+}
+.investigation-role-counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 1.3rem;
+}
+.investigation-role-counts > span {
+  font-size: 0.82rem;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid #c1c7c1;
+  background: #edf0ed;
+}
+.investigation-role-counts [data-evidence-role="Supports"] {
+  color: #225d3a;
+  background: #e7f3e9;
+  border-color: #a7c9ae;
+}
+.investigation-role-counts [data-evidence-role="Challenges"] {
+  color: #8c3448;
+  background: #fae9eb;
+  border-color: #d8acb5;
+}
+.investigation-role-counts [data-evidence-role="Method / baseline"] {
+  color: #315b87;
+  background: #eaf0f8;
+  border-color: #b1c4d9;
+}
+.investigation-role-counts [data-evidence-role="Closest prior work"] {
+  color: #704a85;
+  background: #f1eaf7;
+  border-color: #c9b8d5;
+}
+.investigation-source {
+  border: 1px solid #c2cbc5;
+  border-left: 3px solid #70887d;
+  padding: 1rem;
+  margin-top: 0.85rem;
+}
+.investigation-source[data-evidence-role="Supports"] {
+  border-left-color: #3e8762;
+}
+.investigation-source[data-evidence-role="Challenges"] {
+  border-left-color: #b24d63;
+}
+.investigation-source[data-evidence-role="Method / baseline"] {
+  border-left-color: #4e77a5;
+}
+.investigation-source[data-evidence-role="Closest prior work"] {
+  border-left-color: #8861a0;
+}
+.investigation-source-heading {
+  color: #566b71;
+  font-size: 0.8rem;
+  align-items: start;
+}
+.investigation-role {
+  color: #254851;
+  font-weight: 700;
+}
+.investigation-assessment,
+.investigation-excerpt {
+  margin-top: 0.85rem;
+}
+.investigation-assessment {
+  border-top: 1px solid #d2d7ce;
+  padding-top: 0.8rem;
+}
+.investigation-panel summary,
+.investigation-context summary {
+  cursor: pointer;
+  color: #006b75;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.investigation-panel form label {
+  display: block;
+  margin: 0.9rem 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.investigation-panel form p {
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+.investigation-panel textarea {
+  resize: vertical;
+  min-height: 5rem;
+  font-weight: 400;
+}
+.investigation-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 1rem;
+}
+.investigation-form-grid label:last-child {
+  grid-column: 1 / -1;
+}
+.investigation-actions {
+  justify-content: start;
+  margin-top: 0.7rem;
+}
+.investigation-actions .desk-button {
+  white-space: normal;
+}
+.investigation-table-scroll {
+  overflow-x: auto;
+  margin-top: 1rem;
+  border: 1px solid #b5c2bb;
+}
+.investigation-matrix {
+  border-collapse: collapse;
+  min-width: 980px;
+  width: 100%;
+  table-layout: fixed;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+.investigation-matrix caption {
+  text-align: left;
+  padding: 0.8rem 1rem;
+  background: #f1f2e9;
+  color: #516467;
+}
+.investigation-matrix th,
+.investigation-matrix td {
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #cbd3cc;
+  padding: 0.85rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.investigation-matrix thead {
+  background: #e6eee9;
+}
+.investigation-matrix th:first-child {
+  width: 24%;
+}
+.investigation-matrix tbody th {
+  font-weight: 600;
+}
+.investigation-matrix small {
+  display: block;
+  margin-top: 0.6rem;
+  font-weight: 400;
+}
+.investigation-matrix details {
+  margin-top: 0.7rem;
+  font-weight: 400;
+}
+.investigation-matrix-expanded {
+  min-width: 1350px;
+}
+.investigation-approval {
+  border-top: 1px solid #bdcfc5;
+  padding-top: 0.65rem;
+  font-size: 0.82rem;
+  white-space: normal;
+}
+.investigation-approval p,
+.investigation-approval blockquote {
+  white-space: pre-wrap;
+}
+.investigation-approval blockquote {
+  margin: 0.75rem 0;
+  border-left: 3px solid #537f73;
+  padding: 0.4rem 0.65rem;
+  background: #f0f5ef;
+}
+.investigation-approval-edited > summary {
+  color: #88521e;
+}
+.investigation-development-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.investigation-development-list article {
+  padding: 1.1rem;
+  border: 1px solid #bacac4;
+  background: #f5f8f2;
+}
+.investigation-development-list .investigation-copy {
+  font-size: 0.9rem;
+}
+.investigation-match {
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: #45665d;
+  border-top: 1px solid #d2d7ce;
+  padding-top: 0.7rem;
+}
+.investigation-empty {
+  padding: 1.5rem;
+  background: #f5f5ec;
+  border: 1px dashed #9cab9f;
+  line-height: 1.75;
+}
+.investigation-welcome {
+  max-width: 55rem;
+  margin: 2rem auto;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+.investigation-welcome h2 {
+  font-size: 1.7rem;
+  line-height: 1.4;
+}
+.investigation-welcome li {
+  margin: 0.65rem 0;
+}
+.investigation-text-button {
+  border: 0;
+  background: none;
+  padding: 0;
+  color: #006b75;
+  text-decoration: underline;
+  font: inherit;
+  cursor: pointer;
+}
+@media (max-width: 1100px) {
+  .investigation-layout {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 650px) {
+  .investigation-plan,
+  .investigation-form-grid,
+  .investigation-development-list {
+    grid-template-columns: 1fr;
+  }
+  .investigation-toolbar {
+    align-items: stretch;
+  }
+  .investigation-toolbar label {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .investigation-source-heading,
+  .investigation-section-heading {
+    align-items: start;
+    gap: 0.6rem;
+  }
+  .investigation-panel {
+    padding: 1rem;
+  }
+}

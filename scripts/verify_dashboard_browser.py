@@ -9,7 +9,32 @@ import mimetypes
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from playwright.sync_api import expect, sync_playwright
+from playwright.sync_api import Page, expect, sync_playwright
+
+
+def navigate_workspace(page: Page, route: str) -> None:
+    """Use the visitor navigation, including its mobile and specialist disclosures."""
+    menu = page.locator("#workspace-menu")
+    if menu.is_visible() and menu.get_attribute("aria-expanded") != "true":
+        menu.click()
+        expect(menu).to_have_attribute("aria-expanded", "true")
+    target = page.locator(f'[data-workspace="{route}"]')
+    specialist = page.locator("#nav-explore")
+    if specialist.locator(f'[data-workspace="{route}"]').count() and not specialist.evaluate(
+        "element => element.open"
+    ):
+        specialist.locator("summary").click()
+    target.click()
+    expect(target).to_have_attribute("aria-current", "page")
+    if menu.is_visible():
+        expect(menu).to_have_attribute("aria-expanded", "false")
+
+
+def assert_home_page(page: Page) -> None:
+    expect(page.locator("#news")).to_be_visible()
+    expect(page.locator('[data-workspace="news"]')).to_have_attribute("aria-current", "page")
+    expect(page.locator(".desk-workspace:visible")).to_have_count(1)
+    expect(page.locator("#news-filter-buttons")).to_be_visible()
 
 
 def main() -> None:
@@ -31,7 +56,11 @@ def main() -> None:
         page = context.new_page()
         errors: list[str] = []
         context.on("weberror", lambda error: errors.append(str(error.error)))
-        page.goto(args.url)
+        page.goto(args.url.rstrip("/") + "/")
+        assert_home_page(page)
+        expect(page.locator("#nav-explore")).not_to_have_attribute("open", "")
+        page.screenshot(path=str(args.output / "news-desktop.png"), full_page=True)
+        navigate_workspace(page, "briefing")
         page.wait_for_selector(".lead-story h2", timeout=30000)
         payload = page.evaluate("fetch('data/dashboard.json').then(r => r.json())")
         page.screenshot(path=str(args.output / "briefing-desktop.png"), full_page=True)
@@ -438,7 +467,7 @@ def main() -> None:
         page.locator('[data-lens="security"]').click()
         assert page.locator('[data-lens="security"]').get_attribute("aria-pressed") == "true"
         page.locator(".lead-story [data-save]").click()
-        page.locator('[data-workspace="saved"]').click()
+        navigate_workspace(page, "saved")
         expect(page.locator("#saved-stories .reading-card")).to_have_count(1)
         page.reload()
         page.wait_for_selector("#saved-stories .reading-card")
@@ -504,7 +533,7 @@ def main() -> None:
         page.unroute("**/data/dashboard.json*")
         page.reload()
         page.wait_for_selector("#saved-stories .reading-card")
-        page.locator('[data-workspace="briefing"]').click()
+        navigate_workspace(page, "briefing")
         page.locator('[data-lens="all"]').click()
         page.keyboard.press("/")
         page.locator("#desk-search").fill("quantum")
@@ -533,9 +562,18 @@ def main() -> None:
         page.keyboard.press("Escape")
         assert not page.locator("#search-dialog").is_visible()
 
-        routes = ("federal", "patents", "research", "decisions", "library", "operations")
+        routes = (
+            "start",
+            "investigations",
+            "federal",
+            "patents",
+            "research",
+            "decisions",
+            "library",
+            "operations",
+        )
         for route in routes:
-            page.locator(f'[data-workspace="{route}"]').click()
+            navigate_workspace(page, route)
             expect(page.locator(f'[data-workspace="{route}"]')).to_have_attribute(
                 "aria-current", "page"
             )
@@ -543,8 +581,8 @@ def main() -> None:
             assert page.locator('[data-workspace][aria-current="page"]').count() == 1
             page.mouse.move(1000, 20)
             page.screenshot(path=str(args.output / f"{route}-desktop.png"))
-        page.locator('[data-workspace="research"]').click()
-        page.locator('[data-workspace="federal"]').click()
+        navigate_workspace(page, "research")
+        navigate_workspace(page, "federal")
         expect(page.locator('[data-federal-view="funding"]')).to_have_attribute(
             "aria-pressed", "true"
         )
@@ -600,7 +638,7 @@ def main() -> None:
         assert federal_requests[-1]["sources"][0]["url"].startswith("https://")
         page.unroute("**/api/lab/config")
         page.unroute("**/api/lab/generate")
-        page.locator('[data-workspace="research"]').click()
+        navigate_workspace(page, "research")
         expect(page.locator("#landscape-topics [data-topic]")).to_have_count(7)
         assert page.locator(".landscape-advanced[open]").count() == 0
         page.locator('[data-topic="pqc"]').click()
@@ -665,7 +703,7 @@ def main() -> None:
         assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
         page.screenshot(path=str(args.output / "research-mobile.png"))
         page.set_viewport_size({"width": 1440, "height": 1100})
-        page.locator('[data-workspace="decisions"]').click()
+        navigate_workspace(page, "decisions")
         expect(page.locator('[data-decision-focus="technology"]')).to_have_attribute(
             "aria-pressed", "true"
         )
@@ -678,7 +716,7 @@ def main() -> None:
             payload["decision_center"]["items"]
         )
         page.locator('[data-decision-focus="technology"]').click()
-        page.locator('[data-workspace="patents"]').click()
+        navigate_workspace(page, "patents")
         before = page.locator("#patent-grid .patent-card").count()
         if page.locator("#patent-more").is_visible():
             page.locator("#patent-more").click()
@@ -696,8 +734,7 @@ def main() -> None:
         expect(page.locator("#operations-workspace")).to_be_visible()
         expect(page.locator("#main")).to_be_focused()
         page.goto(args.url + "/#%broken")
-        page.wait_for_selector(".lead-story h2")
-        assert page.locator("#briefing").is_visible()
+        assert_home_page(page)
 
         page.goto(args.url + "/entity.html?name=Cisco&kind=entities")
         page.wait_for_function("document.getElementById('profile-name').textContent === 'Cisco'")
@@ -706,7 +743,10 @@ def main() -> None:
         page.wait_for_selector(".lead-story h2")
         for width in (390, 768, 1024):
             page.set_viewport_size({"width": width, "height": 900})
-            for route in ("briefing", *routes, "saved"):
+            expect(page.locator("#workspace-menu")).to_be_visible()
+            expect(page.locator("#workspace-menu")).to_have_attribute("aria-expanded", "false")
+            expect(page.locator("#workspace-nav")).to_be_hidden()
+            for route in ("briefing", *routes, "saved", "questions"):
                 page.evaluate("(route) => { location.hash = route; }", route)
                 page.wait_for_function(
                     "(route) => document.querySelector('[data-workspace=\"' + route + '\"]').getAttribute('aria-current') === 'page'",
@@ -719,7 +759,15 @@ def main() -> None:
                     f"{route} overflows with comfort text at {width}px"
                 )
                 page.locator("#comfort-type").click()
-            page.locator('[data-workspace="briefing"]').click()
+            # Exercise actual mobile links, not only direct hash routing.
+            for route in ("start", "investigations", "research", "briefing"):
+                navigate_workspace(page, route)
+                expect(page.locator("#workspace-nav")).to_be_hidden()
+            page.locator("#workspace-menu").click()
+            page.locator('#workspace-nav [data-workspace="news"]').focus()
+            page.keyboard.press("Escape")
+            expect(page.locator("#workspace-menu")).to_have_attribute("aria-expanded", "false")
+            expect(page.locator("#workspace-menu")).to_be_focused()
             page.screenshot(path=str(args.output / f"briefing-{width}.png"), full_page=True)
             if width == 390:
                 page.screenshot(path=str(args.output / "briefing-phone-cover.png"))
@@ -741,11 +789,11 @@ def main() -> None:
         page.wait_for_selector("#saved-stories .reading-card")
         assert page.locator("#saved-stories .reading-card").count() == 1
         expect(page.locator("#saved-stories .saved-snapshot-note")).to_be_visible()
-        page.locator('[data-workspace="briefing"]').click()
+        navigate_workspace(page, "briefing")
         expect(page.locator("#briefing")).to_be_visible()
         assert "No matching evidence" in page.locator(".lead-story h2").inner_text()
         assert page.locator("#freshness-notice").is_visible()
-        page.locator('[data-workspace="saved"]').click()
+        navigate_workspace(page, "saved")
         page.once("dialog", lambda dialog: dialog.dismiss())
         page.locator("#saved-stories [data-save]").click()
         expect(page.locator("#saved-stories .reading-card")).to_have_count(1)
@@ -758,7 +806,7 @@ def main() -> None:
         broken.add_init_script(
             "Object.defineProperty(Storage.prototype, 'setItem', {value() { throw new Error('Storage blocked'); }});"
         )
-        broken.goto(args.url)
+        broken.goto(args.url + "/#briefing")
         broken.wait_for_selector(".lead-story h2")
         assert broken.locator("#storage-notice").is_visible()
         broken.close()
@@ -766,7 +814,7 @@ def main() -> None:
         corrupt.add_init_script(
             "localStorage.setItem('quantum-scout:reading-desk:v1', 'not-json');"
         )
-        corrupt.goto(args.url)
+        corrupt.goto(args.url + "/#briefing")
         corrupt.wait_for_selector(".lead-story h2")
         corrupt.close()
 
@@ -791,7 +839,7 @@ def main() -> None:
         hostile["reading_brief"]["stories"] = hostile["reading_brief"]["stories"][:1]
         safe = context.new_page()
         safe.route("**/data/dashboard.json*", lambda route: route.fulfill(json=hostile))
-        safe.goto(args.url)
+        safe.goto(args.url + "/#briefing")
         safe.wait_for_selector(".lead-story h2")
         assert safe.locator(".lead-story h2 img").count() == 0
         assert safe.locator(".lead-story h2 a").get_attribute("href") == "#"
@@ -823,7 +871,7 @@ def main() -> None:
         ]
         math_page = context.new_page()
         math_page.route("**/data/dashboard.json*", lambda route: route.fulfill(json=math_data))
-        math_page.goto(args.url)
+        math_page.goto(args.url + "/#briefing")
         expect(math_page.locator(".lead-story h2 .katex")).to_have_count(2)
         expect(math_page.locator(".story-summary math mfrac")).to_have_count(1)
         expect(math_page.locator(".story-summary math mover")).to_have_count(1)

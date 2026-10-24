@@ -1,4 +1,4 @@
-/* Opt-in, excerpt-only comparison. Selection/results remain in this tab. */
+/* Opt-in, excerpt-only comparison. Only explicitly approved cells can be saved. */
 (() => {
   "use strict";
   const $ = id => document.getElementById(id);
@@ -6,7 +6,8 @@
   let rows = [],
     busy = false,
     epoch = 0,
-    fingerprint = "";
+    fingerprint = "",
+    preferredQuestionId = null;
   const node = (tag, value, cls) => {
     const e = document.createElement(tag);
     if (value) e.textContent = value;
@@ -22,6 +23,7 @@
       .map(({ title, url, excerpt }, i) => ({ title, url, excerpt, id: `S${i + 1}` }));
   function invalidate() {
     epoch++;
+    window.ScoutComparisonReview?.clear();
     $("comparison-consent").checked = false;
     $("comparison-result").replaceChildren();
     $("comparison-groq-help").hidden = true;
@@ -92,7 +94,7 @@
         node("strong", r.title),
         node(
           "small",
-          `${r.year || "Year unknown"} · ${r.excerpt && r.url ? "Abstract/excerpt available" : "No usable source excerpt — cannot compare"}`,
+          `${r.year || "Year unknown"} · ${r.excerpt && r.url ? "Abstract/excerpt available" : "No usable source excerpt; cannot compare"}`,
         ),
       );
       label.append(cb, copy);
@@ -113,6 +115,18 @@
     findings: "Reported findings",
     limitations: "Explicit study limitations",
   };
+  const fieldsFor = version =>
+    version === 4
+      ? {
+          question: "Aim / research question",
+          method: "Method",
+          data: "Data / setting",
+          assumptions: "Stated assumptions",
+          metrics: "Evaluation / metrics",
+          findings: "Reported findings",
+          limitations: "Explicit study limitations",
+        }
+      : fields;
   function validCatalog(sentences, source) {
     if (!Array.isArray(sentences) || !sentences.length || sentences.length > 80) return false;
     let cursor = 0;
@@ -147,9 +161,9 @@
       new Set(refs).size === refs.length &&
       refs.every(id => ids.has(id));
     if (
-      data.evidence_version !== 3 ||
+      ![3, 4].includes(data.evidence_version) ||
       !Array.isArray(data.warnings) ||
-      data.warnings.length > 24 ||
+      data.warnings.length > 64 ||
       data.warnings.some(w => !validText(w)) ||
       !Array.isArray(data.papers) ||
       data.papers.length !== sources.length ||
@@ -158,7 +172,7 @@
         p =>
           !ids.has(p?.source_id) ||
           !validCatalog(p.sentences, sourceMap.get(p.source_id)) ||
-          Object.keys(fields).some(k => {
+          Object.keys(fieldsFor(data.evidence_version)).some(k => {
             const state = p.field_checks?.[k];
             const refs = p.sentence_ids?.[k];
             return state === "selected"
@@ -234,7 +248,7 @@
       notice.append(
         node(
           "summary",
-          `${data.warnings.length} evidence checks need attention — unsupported text was withheld or relabeled`,
+          `${data.warnings.length} evidence checks need attention: unsupported text was withheld or relabeled`,
         ),
       );
       const list = node("ul");
@@ -280,7 +294,7 @@
     thead.append(header);
     table.append(thead);
     const body = node("tbody");
-    for (const [key, label] of Object.entries(fields)) {
+    for (const [key, label] of Object.entries(fieldsFor(data.evidence_version))) {
       const row = node("tr"),
         h = node("th", label);
       h.scope = "row";
@@ -379,7 +393,7 @@
     box.append(
       node(
         "p",
-        "This comparison stays in this tab only. Reloading or changing the selected papers clears it. Saved readings and notes are unchanged.",
+        "Unapproved suggestions stay in this tab only. Reloading or changing the selected papers clears them. Only entries you explicitly approve are saved to an investigation; source readings remain unchanged.",
       ),
     );
   }
@@ -394,6 +408,39 @@
   };
   window.addEventListener("scout-notebook-changed", refresh);
   window.addEventListener("hashchange", refresh);
+  window.addEventListener("scout-compare-investigation", event => {
+    if (busy) {
+      location.hash = "paper-comparison";
+      status("A comparison is already running. Wait for it to finish before changing sources.");
+      return;
+    }
+    const urls = event.detail?.urls;
+    if (!Array.isArray(urls) || urls.length > 100 || urls.some(url => typeof url !== "string"))
+      return;
+    refresh();
+    preferredQuestionId =
+      typeof event.detail?.questionId === "string" ? event.detail.questionId : null;
+    const identity = window.ScoutResearch.citationKey;
+    const requested = new Set(urls.map(identity));
+    const eligible = rows.filter(
+      row => row.title && row.url && row.excerpt && requested.has(identity(row.url)),
+    );
+    selected.clear();
+    eligible.slice(0, 4).forEach(row => selected.add(row.key));
+    invalidate();
+    $("comparison-choices")
+      .querySelectorAll("input[data-compare-paper]")
+      .forEach(input => {
+        input.checked = selected.has(input.dataset.comparePaper);
+      });
+    controls();
+    location.hash = "paper-comparison";
+    window.ScoutDesk.route();
+    status(
+      `${selected.size} attached source excerpts staged${eligible.length > 4 ? " (first four eligible sources; adjust the selection below)" : ""}. ${urls.length - eligible.length} attached sources have no usable saved excerpt. Review the selection and consent before comparing. No request has been sent; private notes are excluded.`,
+    );
+    $("comparison-consent").focus({ preventScroll: true });
+  });
   window.addEventListener("scout-lab-auth", () => {
     invalidate();
     status("Lab session changed. Confirm the provider and consent again before comparing.");
@@ -411,6 +458,7 @@
     let sent = false;
     busy = true;
     controls();
+    window.ScoutComparisonReview?.clear();
     $("comparison-result").replaceChildren();
     $("comparison-groq-help").hidden = true;
     status("Checking lab connection…");
@@ -419,7 +467,7 @@
       if (current !== epoch) return;
       if (
         config.features?.paper_comparison !== true ||
-        config.features?.comparison_evidence_version !== 3
+        ![3, 4].includes(config.features?.comparison_evidence_version)
       )
         throw Error(
           "Update/restart the lab backend to enable sentence-based comparison. No AI call was made.",
@@ -446,6 +494,7 @@
         throw Error(data.error || "Comparison failed. No automatic retry was made.");
       validate(data, sources);
       render(data, sources, provider);
+      window.ScoutComparisonReview?.render(data, sources, provider, preferredQuestionId);
       status(
         `Comparison ready${data.warnings.length ? " with evidence warnings" : ""}. Review the source passages and AI interpretations before relying on them.`,
       );

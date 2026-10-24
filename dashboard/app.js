@@ -47,7 +47,7 @@ const formatDate = value =>
       )
     : "Unknown";
 const formatShortDate = value => {
-  if (!value) return "—";
+  if (!value) return "Not available";
   const text = String(value);
   const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(text);
   return new Intl.DateTimeFormat(undefined, {
@@ -230,7 +230,7 @@ function renderTrend() {
   );
   if (!trend) {
     for (const id of ["trend-total", "trend-peak", "trend-comparison", "trend-coverage"])
-      document.getElementById(id).textContent = "—";
+      document.getElementById(id).textContent = "Not available";
     document.getElementById("trend-insight").textContent =
       "No valid dated evidence is available for comparison.";
     document.getElementById("trend-freshness").textContent = "";
@@ -255,7 +255,7 @@ function renderTrend() {
     ` ${trend.missing} missing day${trend.missing === 1 ? "" : "s"} in the selected chart window.`;
   const age = Math.floor((Date.now() - Date.parse(trend.latest + "T00:00:00Z")) / 86400000);
   document.getElementById("trend-freshness").textContent =
-    `Latest recorded date: ${trend.latest}. ${age > 2 ? `Historical snapshot (${age} UTC calendar days ago)—check source health before interpreting this as current activity.` : "The chart ends at the latest recorded date, not the site build date."}`;
+    `Latest recorded date: ${trend.latest}. ${age > 2 ? `Historical snapshot (${age} UTC calendar days ago); check source health before interpreting this as current activity.` : "The chart ends at the latest recorded date, not the site build date."}`;
   const width = 1000,
     height = 240,
     pad = 36,
@@ -286,7 +286,7 @@ function renderTrend() {
     .reverse()
     .map(
       p =>
-        `<tr><th scope="row">${p.date}</th><td>${p.count === null ? "Missing—not recorded" : p.count}</td></tr>`,
+        `<tr><th scope="row">${p.date}</th><td>${p.count === null ? "Missing (not recorded)" : p.count}</td></tr>`,
     )
     .join("");
 }
@@ -1064,7 +1064,7 @@ function renderOpportunityRadar(payload) {
                   : "Closed";
           const agency = item.awarding_agency || item.funding_agency || "Agency not listed";
           return `<article class="opportunity-card ${escapeHtml(item.deadline_status || "")}">
-      <div class="opportunity-rank"><span>#${item.radar_rank || "—"}</span><strong>${item.opportunity_score || 0}</strong><small>${escapeHtml(item.opportunity_label || "monitor")}</small></div>
+      <div class="opportunity-rank"><span>${item.radar_rank ? `#${escapeHtml(item.radar_rank)}` : "Unranked"}</span><strong>${item.opportunity_score || 0}</strong><small>${escapeHtml(item.opportunity_label || "monitor")}</small></div>
       <div class="opportunity-body">
         <div class="opportunity-meta"><span>${escapeHtml(String(item.record_type || "opportunity").replaceAll("_", " "))}</span><span class="deadline-pill ${escapeHtml(item.deadline_status || "")}">${escapeHtml(deadline)}</span>${item.new_since_yesterday ? '<span class="new-tag">NEW</span>' : ""}</div>
         <h3><a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3>
@@ -1956,7 +1956,7 @@ function renderSources(sources) {
     .sort((a, b) => order[a.status] - order[b.status] || a.name.localeCompare(b.name))
     .map(
       item =>
-        `<tr><td>${escapeHtml(item.name)}${item.source_note ? `<small class="source-policy-note">${escapeHtml(item.source_note)}</small>` : ""}</td><td>${escapeHtml(item.role === "reference" ? "reference" : item.type)}</td><td>${item.success_rate ?? "—"}${item.success_rate == null ? "" : "%"}</td><td>${item.warning_days || 0}</td><td>${escapeHtml(formatShortDate(item.last_checked_at))}</td><td>${escapeHtml(formatShortDate(item.last_item_at))}</td><td><span class="freshness ${escapeHtml(item.freshness || "unverified")}" title="${escapeHtml(item.role === "reference" ? "Publication age does not measure reference validity. Check the document version." : `Latest dated item; review window ${item.stale_after_days || 14} days. Not proof of complete coverage.`)}">${escapeHtml(item.freshness || "unverified")}</span></td><td><span class="health"><i class="dot ${escapeHtml(item.status)}"></i>${escapeHtml(item.status)} · ${escapeHtml(item.verification_status || "unverified")}</span></td></tr>`,
+        `<tr><td>${escapeHtml(item.name)}${item.source_note ? `<small class="source-policy-note">${escapeHtml(item.source_note)}</small>` : ""}</td><td>${escapeHtml(item.role === "reference" ? "reference" : item.type)}</td><td>${item.success_rate ?? "Not available"}${item.success_rate == null ? "" : "%"}</td><td>${item.warning_days || 0}</td><td>${escapeHtml(formatShortDate(item.last_checked_at))}</td><td>${escapeHtml(formatShortDate(item.last_item_at))}</td><td><span class="freshness ${escapeHtml(item.freshness || "unverified")}" title="${escapeHtml(item.role === "reference" ? "Publication age does not measure reference validity. Check the document version." : `Latest dated item; review window ${item.stale_after_days || 14} days. Not proof of complete coverage.`)}">${escapeHtml(item.freshness || "unverified")}</span></td><td><span class="health"><i class="dot ${escapeHtml(item.status)}"></i>${escapeHtml(item.status)} · ${escapeHtml(item.verification_status || "unverified")}</span></td></tr>`,
     )
     .join("");
 }

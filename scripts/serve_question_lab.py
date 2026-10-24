@@ -12,6 +12,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from pqc_quantum_research_agent.paper_comparison import VERSION as COMPARISON_EVIDENCE_VERSION
 from pqc_quantum_research_agent.paper_comparison import clean_comparison, compare_papers
 from pqc_quantum_research_agent.paper_search import PaperSearch
 from pqc_quantum_research_agent.patent_evidence import PatentEvidence
@@ -99,7 +100,7 @@ def handler(site, key, port, budget, backup_key=""):
                         "features": {
                             "related_work": True,
                             "paper_comparison": True,
-                            "comparison_evidence_version": 3,
+                            "comparison_evidence_version": COMPARISON_EVIDENCE_VERSION,
                             "patent_evidence": True,
                         },
                     },

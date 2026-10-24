@@ -204,6 +204,9 @@
   mobileReading.addEventListener("change", adaptReadingControls);
   adaptReadingControls();
   const views = {
+    news: ["Latest in emerging tech", []],
+    start: ["Start here", []],
+    investigations: ["Investigations", []],
     briefing: ["Technology briefing", []],
     federal: ["Federal landscape", ["funding", "missions"]],
     patents: ["Patent watch", ["patents"]],
@@ -219,18 +222,25 @@
   };
   const descriptions = {
     federal:
-      "Follow government priorities into missions, funding, partnerships, and requirements—then check what applies to your plans.",
+      "Follow government priorities into missions, funding, partnerships, and requirements, then check what applies to your plans.",
     patents:
-      "Explore emerging inventions and potential technology directions—without mistaking a filing for a demonstrated result.",
+      "Explore emerging inventions and potential technology directions, without mistaking a filing for a demonstrated result.",
     research:
-      "Explore technology trends, organizations, and research directions—grounded in the sources we actually collected.",
+      "Explore technology trends, organizations, and research directions, grounded in the sources we actually collected.",
     decisions: "Review changes, amendments, and conflicts that could affect your next step.",
     library:
       "Daily readings, weekly perspective, and monthly synthesis. Keep the full evidence trail.",
     operations:
       "Know where the evidence comes from, how it is evaluated, and where coverage is incomplete.",
   };
-  const elements = { briefing: $("briefing"), saved: $("saved"), questions: $("questions") };
+  const elements = {
+    news: $("news"),
+    start: $("start"),
+    investigations: $("investigations"),
+    briefing: $("briefing"),
+    saved: $("saved"),
+    questions: $("questions"),
+  };
   for (const [key, [title, ids]] of Object.entries(views)) {
     if (!ids.length) continue;
     const view = document.createElement("section");
@@ -293,7 +303,7 @@
     try {
       hash = decodeURIComponent(location.hash.slice(1));
     } catch {
-      hash = "briefing";
+      hash = "news";
     }
     if (hash === "main") {
       $("main").focus({ preventScroll: true });
@@ -314,7 +324,7 @@
         : Object.keys(views).find(
             k => views[k][1].includes(hash) || (target && elements[k].contains(target)),
           )) ||
-      "briefing";
+      "news";
     ui.view = key;
     Object.entries(elements).forEach(([name, el]) => {
       el.hidden = name !== key;
@@ -327,6 +337,10 @@
     });
     const nav = document.querySelector(".desk-nav");
     const active = nav.querySelector('[aria-current="page"]');
+    document
+      .querySelector("#nav-explore")
+      .classList.toggle("has-current", Boolean(active?.closest("details")));
+    window.ScoutWorkspace?.route(key);
     if (active && nav.scrollWidth > nav.clientWidth) {
       const bounds = nav.getBoundingClientRect(),
         current = active.getBoundingClientRect();
@@ -343,6 +357,8 @@
       requestAnimationFrame(() => target.scrollIntoView({ block: "start" }));
     } else window.scrollTo({ top: 0, behavior: "instant" });
     if (key === "saved" && ui.data) renderSaved();
+    if (key === "news" && ui.data) window.ScoutNews?.refresh();
+    if (key === "investigations") window.ScoutInvestigations?.render(ui.data || {});
   }
 
   function saveButton(item) {
@@ -506,7 +522,7 @@
       ${compact ? `<p><strong>What it could affect:</strong> ${esc(d?.impact || "Practical relevance not assessed.")}</p><p><strong>Source excerpt:</strong> ${hasExcerpt ? esc(item.summary) : "Unavailable; open the original source."}</p>` : ""}
       ${ui.collectionStale ? "<p>Collection freshness needs verification. Confirm current source status before using any suggested follow-up.</p>" : ""}
       <p>${esc(d?.method || "No full-document analysis or independent verification has been performed.")} Suggested review timing is not a deadline or a prediction of technology maturity.</p>
-      ${related.length ? `<p>Related coverage—not independent confirmation:</p><ul>${related.map(r => `<li><a href="${esc(link(r.url))}" target="_blank" rel="noopener noreferrer">${esc(r.title)} ↗</a></li>`).join("")}</ul>` : ""}
+      ${related.length ? `<p>Related coverage, not independent confirmation:</p><ul>${related.map(r => `<li><a href="${esc(link(r.url))}" target="_blank" rel="noopener noreferrer">${esc(r.title)} ↗</a></li>`).join("")}</ul>` : ""}
       ${lead ? `<button type="button" class="desk-button" data-briefing-question="${esc(item.id)}">Investigate in Question Lab →</button><p class="patent-small">Loads the title only. No AI call or automatic source attachment.</p>` : ""}</div></details>
       <div class="decision-card-actions"><a href="${esc(link(item.url))}" target="_blank" rel="noopener noreferrer">Verify at source ↗</a><div>${readButton(item)}${saveButton(item)}</div></div>
       </article>`;
@@ -524,7 +540,7 @@
       ? "What matters. What to do next."
       : "What’s worth a deeper read?";
     $("briefing-intro-text").textContent = decisions
-      ? "Emerging-tech developments that could change your plans—not just add to your reading list."
+      ? "Emerging-tech developments that could change your plans, not just add to your reading list."
       : "Read the evidence, examine assumptions, and follow a research question.";
     $("briefing-mode-note").textContent = decisions
       ? "Suggested follow-ups, not automatic conclusions. Review timing is not a technology adoption forecast."
@@ -792,7 +808,7 @@
   };
   let readerRequest = 0;
   function readingAssistantMarkup() {
-    return `<section class="notebook-assistant"><h2>Read with AI</h2><p>Source-excerpt assistance only—not a full-paper review. Your private notes and attachment interpretations are never sent. Responses are suggestions to verify, not findings.</p><label>Provider<select id="reader-provider"><option value="gemini">Gemini</option><option value="groq">Groq backup</option></select></label><label>What would help?<select id="reader-task"><option>Explain this excerpt</option><option>Which assumptions should I examine?</option><option>How does this relate to my question?</option></select></label><label>Question to share (optional)<input id="reader-question" maxlength="2000" placeholder="Only text entered here is sent" /></label><details><summary>Preview the source text being sent</summary><p id="reader-preview"></p></details><label><input id="reader-consent" type="checkbox" /> Send the displayed title and source excerpt, selected task, and optional question to the chosen provider (one call slot; account billing terms apply).</label><button type="button" id="reader-run" class="desk-button">Ask reading assistant</button><p id="reader-result" role="status"></p></section>`;
+    return `<section class="notebook-assistant"><h2>Read with AI</h2><p>Source-excerpt assistance only, not a full-paper review. Your private notes and attachment interpretations are never sent. Responses are suggestions to verify, not findings.</p><label>Provider<select id="reader-provider"><option value="gemini">Gemini</option><option value="groq">Groq backup</option></select></label><label>What would help?<select id="reader-task"><option>Explain this excerpt</option><option>Which assumptions should I examine?</option><option>How does this relate to my question?</option></select></label><label>Question to share (optional)<input id="reader-question" maxlength="2000" placeholder="Only text entered here is sent" /></label><details><summary>Preview the source text being sent</summary><p id="reader-preview"></p></details><label><input id="reader-consent" type="checkbox" /> Send the displayed title and source excerpt, selected task, and optional question to the chosen provider (one call slot; account billing terms apply).</label><button type="button" id="reader-run" class="desk-button">Ask reading assistant</button><p id="reader-result" role="status"></p></section>`;
   }
   $("saved-stories").addEventListener("click", async e => {
     if (e.target.id !== "reader-run") return;
@@ -920,7 +936,7 @@
     const comparison = brief.edition_comparison;
     $("briefing-edition-note").hidden = false;
     $("briefing-edition-note").innerHTML = comparison?.previous_report_date
-      ? `<strong>${Number(comparison.added_count) || 0} added source ${comparison.added_count === 1 ? "link" : "links"}</strong><span>Latest report compared with ${esc(day(comparison.previous_report_date))} · ${Number(comparison.retained_count) || 0} retained · all topics</span><details><summary>What does “added” mean?</summary><p>Absent from the previous available report—not necessarily newly published or never seen before. Counts use unique URLs before related coverage is grouped. Edition: ${esc(day(comparison.current_report_date))}.</p></details>`
+      ? `<strong>${Number(comparison.added_count) || 0} added source ${comparison.added_count === 1 ? "link" : "links"}</strong><span>Latest report compared with ${esc(day(comparison.previous_report_date))} · ${Number(comparison.retained_count) || 0} retained · all topics</span><details><summary>What does “added” mean?</summary><p>Absent from the previous available report, not necessarily newly published or never seen before. Counts use unique URLs before related coverage is grouped. Edition: ${esc(day(comparison.current_report_date))}.</p></details>`
       : "<strong>Report comparison unavailable</strong><span>Two available editions are needed to identify added source links. This is a report snapshot, not a live literature search.</span>";
     const today = new Intl.DateTimeFormat("en-CA", {
       timeZone: "America/Chicago",
@@ -970,6 +986,9 @@
 
   function init(data) {
     ui.data = data;
+    window.ScoutNews?.init(data, { saveButton });
+    window.ScoutInvestigations?.render(data);
+    window.ScoutWorkspace?.refresh();
     window.ScoutLandscape.init(data, saveButton);
     window.ScoutExploration.init(data);
     window.ScoutEvidenceReview.init(data.evidence_review || {});
@@ -1161,7 +1180,7 @@
     });
     form.querySelector(".notebook-status").textContent = persist()
       ? "Saved in this browser"
-      : "Not saved to browser storage — export a backup now";
+      : "Not saved to browser storage; export a backup now";
   });
   $("unread-only").addEventListener("change", e => {
     ui.unreadOnly = e.target.checked;
@@ -1208,7 +1227,7 @@
       .map((item, index) => research.bibRecord(item, citationFor(item), index));
     const blob = new Blob(
       [
-        "% Scout citations — repository metadata where available; review version and missing fields before academic use.\n\n" +
+        "% Scout citations: repository metadata where available; review version and missing fields before academic use.\n\n" +
           records.join("\n\n"),
       ],
       { type: "text/plain;charset=utf-8" },
@@ -1530,6 +1549,11 @@
     route,
     error(message) {
       $("desk-loading").hidden = true;
+      $("news-loading").hidden = true;
+      $("news-status").hidden = false;
+      $("news-status").textContent =
+        "The news collection could not load. Reload the page or open the reports on GitHub below.";
+      $("news-status").dataset.freshness = "unknown";
       $("desk-error").hidden = false;
       $("desk-error").innerHTML =
         `<h2>The briefing couldn’t load.</h2><p>${esc(message)}</p><a href="https://github.com/raybeecham/quantum-research-scout/tree/main/reports">Read the reports on GitHub →</a>`;

@@ -46,7 +46,7 @@
       setup: "C build tools · local machine",
       access: "Open-source library; use an isolated test environment, not production keys.",
       goal: "Compare the library’s KEM benchmarks on one machine, recording algorithm parameters and build settings.",
-      takeaway: "A reproducible local performance comparison—not proof of migration readiness.",
+      takeaway: "A reproducible local performance comparison, not proof of migration readiness.",
     },
     {
       name: "IBM Quantum · Hello world",
@@ -58,7 +58,7 @@
         "Hardware execution needs an IBM account and an eligible access plan. Check current limits and charges.",
       goal: "Build the tutorial’s Bell-state circuit; compare the expected outcomes with simulator results before considering hardware.",
       takeaway:
-        "A small circuit and an explanation of its measurements—not evidence of quantum advantage.",
+        "A small circuit and an explanation of its measurements, not evidence of quantum advantage.",
     },
     {
       name: "PennyLane · Quantum circuits",
@@ -80,7 +80,7 @@
       access: "Review each dataset’s license, citation instructions, and download size before use.",
       goal: "Load only the documented H₂ molecule and reference-energy attributes; record the basis and bond length.",
       takeaway:
-        "A small, documented reference dataset—not a general quantum performance benchmark.",
+        "A small, documented reference dataset, not a general quantum performance benchmark.",
     },
     {
       name: "garak · LLM assessment",
@@ -102,7 +102,7 @@
       access:
         "Uses local compute and downloads container images. Keep the experiment isolated from production contexts.",
       goal: "Follow the quick start to create a disposable cluster and inspect its nodes with the documented commands.",
-      takeaway: "A repeatable cloud-native sandbox—not a production cloud deployment.",
+      takeaway: "A repeatable cloud-native sandbox, not a production cloud deployment.",
     },
   ].map(r => ({ ...r, reviewed: "2026-09-30" }));
   const array = v => (Array.isArray(v) ? v : []);
@@ -246,7 +246,7 @@
     host.innerHTML = `<div class="explore-heading"><div><span class="desk-kicker">COVERAGE AT A GLANCE</span><h2>Your current view</h2></div><a href="#research" class="desk-button">Explore the map &amp; hands-on labs →</a></div>
       <p class="explore-note">${v.total} distinct source links · topic counts overlap. This follows your reading filters, not market size or technical maturity.</p>
       <div class="coverage-strips">${v.counts.map(t => `<a class="coverage-strip topic-${t.id}" href="#research" data-explore-topic="${t.id}" aria-label="Explore ${esc(t.name)}; ${t.count} matching source links"><span>${esc(t.name)}</span><strong>${t.count}</strong><span class="coverage-track" aria-hidden="true"><i style="width:${v.total ? Math.round((t.count / v.total) * 100) : 0}%"></i></span></a>`).join("")}</div>
-      <details class="briefing-timeline" ${expanded ? "open" : ""}><summary>Report timeline · when these sources appeared in coverage</summary><p class="explore-note">Report dates—not event or publication dates. Missing days do not imply no activity. Edition: ${esc(brief.edition_date || "unavailable")}.${v.undated ? ` ${v.undated} links have no valid report date.` : ""}</p><ol>${v.days.map(d => `<li><time>${esc(d.day)}</time><strong>${d.count} source link${d.count === 1 ? "" : "s"}</strong><span>Example: ${external(d.story.url, d.story.title)}</span></li>`).join("") || "<li>No dated sources in this view.</li>"}</ol></details>`;
+      <details class="briefing-timeline" ${expanded ? "open" : ""}><summary>Report timeline · when these sources appeared in coverage</summary><p class="explore-note">Report dates, not event or publication dates. Missing days do not imply no activity. Edition: ${esc(brief.edition_date || "unavailable")}.${v.undated ? ` ${v.undated} links have no valid report date.` : ""}</p><ol>${v.days.map(d => `<li><time>${esc(d.day)}</time><strong>${d.count} source link${d.count === 1 ? "" : "s"}</strong><span>Example: ${external(d.story.url, d.story.title)}</span></li>`).join("") || "<li>No dated sources in this view.</li>"}</ol></details>`;
     host
       .querySelectorAll("[data-explore-topic]")
       .forEach(a => a.addEventListener("click", () => choose(a.dataset.exploreTopic)));

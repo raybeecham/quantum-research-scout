@@ -4,8 +4,11 @@ from pathlib import Path
 import pytest
 
 from pqc_quantum_research_agent.paper_comparison import (
+    FIELDS,
+    INSTRUCTIONS,
     clean_comparison,
     compare_papers,
+    schema,
     validate_result,
 )
 from pqc_quantum_research_agent.sentence_evidence import (
@@ -34,6 +37,9 @@ def answer():
                 "source_id": f"S{i + 1}",
                 "question": [f"S{i + 1}.T1"],
                 "method": [],
+                "data": [],
+                "assumptions": [],
+                "metrics": [],
                 "findings": [f"S{i + 1}.T1"],
                 "limitations": [],
             }
@@ -142,8 +148,69 @@ def test_single_call_provider_contract(monkeypatch, provider):
     assert len(calls) == 1
     assert result["papers"][0]["source_id"] == "S1"
     assert "not a full-paper" in result["basis"]
-    assert result["evidence_version"] == 3
+    assert result["evidence_version"] == 4
     assert result["papers"][0]["field_checks"]["findings"] == "selected"
+
+
+@pytest.mark.parametrize("field", FIELDS)
+def test_every_comparison_field_requires_bounded_explicit_sentence_ids(field):
+    data = clean_comparison({"comparison_consent": True, "sources": sources()})
+    for invalid in (None, "A generated claim", ["S1.T1"] * 4):
+        result = answer()
+        result["papers"][0][field] = invalid
+        with pytest.raises(ValueError):
+            validate_result(result, data["sources"])
+    result = answer()
+    del result["papers"][0][field]
+    with pytest.raises(ValueError):
+        validate_result(result, data["sources"])
+    item_schema = schema()["properties"]["papers"]["items"]
+    assert field in item_schema["required"]
+    assert item_schema["properties"][field]["maxItems"] == 3
+
+
+@pytest.mark.parametrize("field", ("data", "assumptions", "metrics"))
+def test_added_dimensions_resolve_only_original_source_sentences(field):
+    data = clean_comparison({"comparison_consent": True, "sources": sources()})
+    excerpt = (
+        "We evaluated thirty annotated projects. "
+        "We assume configuration files are available. "
+        "We measure precision and recall."
+    )
+    data["sources"][0]["excerpt"] = excerpt
+    result = answer()
+    target = {"data": "S1.T1", "assumptions": "S1.T2", "metrics": "S1.T3"}[field]
+    result["papers"][0][field] = [target]
+    checked = validate_result(result, data["sources"])
+    row = checked["papers"][0]
+    catalog = {s["id"]: s["text"] for s in sentence_catalog(excerpt, "S1")}
+    assert row[field] == catalog[target]
+    assert row["sentence_ids"][field] == [target]
+    assert row["field_checks"][field] == "selected"
+    assert checked["papers"][1][field] == ""
+    assert checked["papers"][1]["field_checks"][field] == "missing"
+    result["papers"][0][field] = ["S2.T1"]
+    withheld = validate_result(result, data["sources"])["papers"][0]
+    assert withheld[field] == ""
+    assert withheld["sentence_ids"][field] == []
+    assert withheld["field_checks"][field] == "withheld"
+
+
+def test_full_comparison_can_report_all_withheld_cells_without_losing_warnings():
+    source_rows = [{"id": f"S{i + 1}", "excerpt": "Supplied abstract."} for i in range(4)]
+    result = answer()
+    result["papers"] = [
+        {"source_id": source["id"], **{field: ["S9.T1"] for field in FIELDS}}
+        for source in source_rows
+    ]
+    result["connections"] = []
+    checked = validate_result(result, source_rows)
+    assert len(checked["warnings"]) == 28
+    assert all(
+        row["field_checks"][field] == "withheld" for row in checked["papers"] for field in FIELDS
+    )
+    assert "NOT absent from the paper" in INSTRUCTIONS
+    assert "not reported result values" in INSTRUCTIONS
 
 
 FIXTURES = json.loads(
@@ -264,7 +331,7 @@ def test_endpoint_validates_before_reserving_and_reserves_one(tmp_path, monkeypa
     try:
         config = requests.get(base + "/api/lab/config", timeout=3).json()
         assert config["features"]["paper_comparison"] is True
-        assert config["features"]["comparison_evidence_version"] == 3
+        assert config["features"]["comparison_evidence_version"] == 4
         headers = {"Origin": base, "X-Scout-Token": config["token"]}
         raw = {"sources": sources()}
         for bad in [
