@@ -266,6 +266,8 @@ def build_dashboard(
         "desk.css",
         "desk.js",
         "workspace.js",
+        "motion.js",
+        "motion.css",
         "workspace.css",
         "magazine-shell.css",
         "news.css",
