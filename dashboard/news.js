@@ -148,7 +148,7 @@
     const report = day(item.report_date);
     const published = day(item.date);
     const publication = item.date_label === "Published" && published;
-    return `<p class="news-meta"><span class="news-source">${esc(item.source || "Source not identified")}</span><span class="news-report-date">Collected report · ${report ? `<time datetime="${report}">${esc(dateLabel(report))}</time>` : "date unavailable"}</span>${publication ? `<span class="news-published-date">Published · <time datetime="${published}">${esc(dateLabel(published))}</time></span>` : '<span class="news-published-date">Publication date unavailable</span>'}</p>`;
+    return `<p class="news-meta"><span class="news-source">${esc(item.source || "Source not identified")}</span>${!publication || published !== report ? `<span class="news-report-date">Collected report · ${report ? `<time datetime="${report}">${esc(dateLabel(report))}</time>` : "date unavailable"}</span>` : ""}${publication ? `<span class="news-published-date">Published · <time datetime="${published}">${esc(dateLabel(published))}</time></span>` : '<span class="news-published-date">Publication date unavailable</span>'}</p>`;
   }
 
   function publisherImage(item) {
@@ -506,7 +506,7 @@
         )
         .slice(0, 4);
       if (events.length < 2) return [];
-      return `<article class="news-progression-card"><p class="news-section-kicker">${events.length} dated observations</p><h3>${esc(timeline.title)}</h3><p class="news-progression-basis">${esc(timeline.basis)}</p><ol>${events.map(event => `<li class="news-progression-event"><div><time datetime="${day(event.date)}">${esc(dateLabel(event.date))}</time><span>${esc(event.label || "Reported")}</span></div><a href="${esc(sourceUrl(event.url))}" target="_blank" rel="noopener noreferrer">${esc(event.title)} ↗</a><p>${esc(event.source || "Source not identified")} · ${esc(event.date_role || "Publication date")}</p><details><summary>Evidence &amp; limits</summary><p>${esc(event.basis)}</p><p>${esc(event.uncertainty)}</p></details></li>`).join("")}</ol></article>`;
+      return `<article class="news-progression-card"><p class="news-section-kicker">${events.length} dated observations</p><h3>${esc(timeline.title)}</h3><p class="news-progression-basis">${esc(timeline.basis)}</p><ol>${events.map(event => `<li class="news-progression-event"><div><time datetime="${day(event.date)}">${esc(dateLabel(event.date))}</time><span>${esc(event.label || "Reported")}</span></div><a href="${esc(sourceUrl(event.url))}" target="_blank" rel="noopener noreferrer">Read ${esc(event.source || "source")} account ↗</a><p>${esc(event.source || "Source not identified")} · ${esc(event.date_role || "Publication date")}</p><details><summary>Evidence &amp; limits</summary><p>${esc(event.basis)}</p><p>${esc(event.uncertainty)}</p></details></li>`).join("")}</ol></article>`;
     });
     $("news-progression").hidden = !cards.length;
     $("news-progression-list").innerHTML = cards.join("");
@@ -709,11 +709,6 @@
     );
     if (!$("news").dataset.newsBound) {
       $("news").dataset.newsBound = "true";
-      $("news-browse").addEventListener("click", () => {
-        $("news-tools").open = true;
-        $("news-tools").scrollIntoView({ block: "start", behavior: "instant" });
-        $("news-tools").querySelector("summary").focus({ preventScroll: true });
-      });
       $("news").addEventListener("error", event => imageFailed(event.target), true);
       $("news").addEventListener("click", event => {
         const jump = event.target.closest("[data-topic-jump]");
