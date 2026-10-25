@@ -74,6 +74,35 @@ To recover manually, open **Actions → Daily PQC Quantum Research Scout** or **
 
 For a genuinely independent punctual trigger, a separately authorized scheduler would need to dispatch these workflows. Even then, GitHub runner availability and collection time prevent an exact 8:00 a.m. delivery guarantee. No such external service is configured here.
 
+### Permanent story evidence
+
+The daily collector retains public story observations in `reports/story-evidence.json`
+before pruning old daily digests. This ledger contains original source URLs,
+titles, bounded collected excerpts, publication metadata and report observations.
+It never includes notebook notes, saved questions, account credentials or browser
+preferences. Repeated excerpts are stored once per source capture; observations
+retain their report dates. Same-day regenerated captures remain distinct without
+inventing a publisher update time.
+
+Static builds read the ledger and remaining digests to produce stable
+`stories/<source-id>/index.html` pages and the searchable `stories/index.html`
+archive. A build makes no source requests and does not rewrite the ledger. A
+malformed ledger or failed retention write stops collection before digest pruning
+so history is not silently lost. Restore or repair the ledger rather than
+deleting it as a routine recovery step. The normal report commit includes it.
+
+To retain evidence from existing digests without running collection:
+
+```powershell
+python scripts/refresh_story_evidence.py --reports reports
+python scripts/build_dashboard.py --output site
+```
+
+The initializer cannot recover digests already removed before the archive was
+introduced. Retained evidence is not a full article copy, and capture changes do
+not prove that a publisher changed its article. Current Scout interpretation is
+separate from the retained source passages.
+
 Core collection requires no paid AI service. Optional repository secrets unlock additional official data:
 
 | Secret | Enables |
@@ -84,6 +113,10 @@ Core collection requires no paid AI service. Optional repository secrets unlock 
 Slack, Teams, generic webhook, email, and GitHub Issue notification routes are independently configurable in [`alerts.yaml`](../alerts.yaml).
 
 ## Configure Your Scout
+
+### Primary-source link collection
+
+The daily workflow refreshes up to 24 public article pages within a 90-second budget using `python scripts/enrich_primary_evidence.py --reports reports --max-items 24 --budget-seconds 90`. It saves only source-link metadata to `reports/primary-evidence.json`, not complete articles or linked documents. The collector rejects non-public destinations, unsafe redirects and oversized/non-HTML responses. Builds remain offline. This optional step does not hold back otherwise valid daily publication; link failures remain unverified. See [Story tools](STORY-TOOLS.md) for provenance and reader-facing limits.
 
 - [`sources.yaml`](../sources.yaml) — collectors, search queries, document limits, and source definitions
 - [`missions.yaml`](../missions.yaml) — federal missions, relationships, milestones, and discovery rules

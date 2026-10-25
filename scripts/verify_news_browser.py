@@ -149,7 +149,15 @@ def displayed_ids(page: Page) -> list[str]:
     )
 
 
+def open_tools(page: Page) -> None:
+    """Open secondary controls, preserving the default story-first presentation."""
+    tools = page.locator("#news-tools")
+    if tools.count() and not tools.evaluate("node => node.open"):
+        tools.locator(":scope > summary").click()
+
+
 def reset_filters(page: Page) -> None:
+    open_tools(page)
     page.locator('#news-filter-buttons [data-news-topic="all"]').click()
     page.locator("#news-search").fill("")
     page.locator("#news-sort").select_option("recent")
@@ -244,7 +252,7 @@ def main() -> None:
         page.goto(base + "/")
         expect(page.locator("#news")).to_be_visible()
         expect(page.locator('[data-workspace="news"]')).to_have_attribute("aria-current", "page")
-        expect(page.locator("#news article[data-news-id]")).to_have_count(9)
+        expect(page.locator("#news article[data-news-id]")).to_have_count(10)
         expect(page.locator(".desk-workspace:visible")).to_have_count(1)
         expect(page.locator("#news-loading")).to_be_hidden()
         expect(page.locator("#news-status")).to_have_attribute("data-freshness", "current")
@@ -298,6 +306,7 @@ def main() -> None:
         # Rendering publisher previews must not mutate saved source evidence.
         assert payload["reading_brief"]["stories"][1]["title"] == SOURCE_TITLE
 
+        open_tools(page)
         for topic, identifier in [
             ("security", "latest-security"),
             ("quantum", "latest-quantum"),
@@ -340,7 +349,8 @@ def main() -> None:
         assert "latest-cloud" in stored["saved"]
         assert stored["stories"][0]["title"] == "Cloud infrastructure networking update"
         page.reload()
-        expect(page.locator("#news article[data-news-id]")).to_have_count(9)
+        expect(page.locator("#news article[data-news-id]")).to_have_count(10)
+        open_tools(page)
         page.locator("#news-search").fill("networking update")
         expect(page.locator('#news [data-save="latest-cloud"]')).to_have_attribute(
             "aria-pressed", "true"
@@ -382,7 +392,7 @@ def main() -> None:
             datetime.now(timezone.utc) - timedelta(days=10)
         ).isoformat()
         page.reload()
-        expect(page.locator("#news article[data-news-id]")).to_have_count(9)
+        expect(page.locator("#news article[data-news-id]")).to_have_count(10)
         expect(page.locator("#news-status")).to_have_attribute("data-freshness", "stale")
         expect(page.locator("#news-status")).to_contain_text("not a live news feed")
         state["payload"]["reading_brief"]["collected_at"] = ""

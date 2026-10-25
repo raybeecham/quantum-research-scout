@@ -17,6 +17,7 @@ from .dates import (
     operational_day_window,
     operational_today,
 )
+from .emerging_tech import emerging_tech_signal
 from .models import DateFilterSummary, ResearchItem, SourceWarning
 from .redaction import redact_text, redact_url
 from .text import normalize_title, normalize_whitespace, strip_html
@@ -25,6 +26,8 @@ from .visuals import priority_icon
 FULL_ENTRY_SECTIONS = (
     "Top PQC / Security Signals",
     "AI Security Signals",
+    "AI Capabilities / Tooling",
+    "Cloud Infrastructure",
     "Top Hardware / QEC Signals",
     "Top Quantum Networking Signals",
     "Standards / Government",
@@ -339,7 +342,7 @@ def render_digest(
     lines: list[str] = [
         f"# PQC and Quantum Research Digest - {report_date.isoformat()}",
         "",
-        "> **Daily Intelligence Brief** · Post-quantum cryptography · Quantum technology · AI security",
+        "> **Daily Intelligence Brief** · Post-quantum cryptography · Quantum technology · AI security and capabilities · Cloud infrastructure",
         "",
         "[Key Takeaways](#key-takeaways) · [Strategic Signals](#strategic-signals) · "
         "[Research](#research) · [Source Health](#source-failures--warnings)",
@@ -716,6 +719,9 @@ def _belongs_in_section(item: ResearchItem, section: str) -> bool:
         return _is_pqc_security_signal(item)
     if section == "AI Security Signals":
         return _is_ai_security_signal(item)
+    if section in {"AI Capabilities / Tooling", "Cloud Infrastructure"}:
+        signal = emerging_tech_signal(item.title, item.summary)
+        return bool(signal and signal["category"] == section)
     if section == "Top Hardware / QEC Signals":
         return _is_hardware_qec_signal(item)
     if section == "Top Quantum Networking Signals":
@@ -1169,6 +1175,16 @@ def _why_it_matters(item: ResearchItem) -> str:
             "Patent publications can reveal technical investment and IP positioning before products reach the market. "
             "A filing is an indicator, not proof of implementation, commercial readiness, validity, or infringement."
         )
+    if item.category == "AI Capabilities / Tooling":
+        return (
+            "This technical AI update may affect model evaluation or implementation choices. "
+            "Check the original measurements, workload, hardware, and reproducibility artifacts before generalizing performance claims."
+        )
+    if item.category == "Cloud Infrastructure":
+        return (
+            "This infrastructure update may affect workload operation or security controls. "
+            "Check the affected versions, deployment scope, rollout status, and operational trade-offs in the original source."
+        )
     if _is_ai_security_signal(item):
         return (
             "AI security work matters for model abuse, prompt-level compromise, alignment risk, "
@@ -1409,6 +1425,7 @@ def _has_required_topic_relevance(item: ResearchItem) -> bool:
         or _is_tooling_signal(item)
         or (_is_standards_government_signal(item) and _has_quantum_context(item))
         or _is_topical_vendor_source(item)
+        or bool(emerging_tech_signal(item.title, item.summary))
     )
 
 
@@ -1418,6 +1435,9 @@ def _item_topic_confidence(item: ResearchItem) -> int:
     match = re.search(r"\btopic_confidence=(\d+)\b", item.score_explanation or "")
     if match:
         return int(match.group(1))
+    emerging = emerging_tech_signal(item.title, item.summary)
+    if emerging:
+        return emerging["confidence"]
 
     if _is_pqc_security_signal(item) or _is_ai_security_signal(item) or _is_qec_signal(item):
         return 8
@@ -1466,6 +1486,8 @@ def _has_side_channel_signal(item: ResearchItem) -> bool:
 
 
 def _is_ai_security_signal(item: ResearchItem) -> bool:
+    if item.category == "AI Capabilities / Tooling":
+        return False
     text = _item_text(item)
     return item.category == "AI Security" or any(
         term in text

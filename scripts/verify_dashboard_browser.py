@@ -34,7 +34,9 @@ def assert_home_page(page: Page) -> None:
     expect(page.locator("#news")).to_be_visible()
     expect(page.locator('[data-workspace="news"]')).to_have_attribute("aria-current", "page")
     expect(page.locator(".desk-workspace:visible")).to_have_count(1)
-    expect(page.locator("#news-filter-buttons")).to_be_visible()
+    expect(page.locator("#news-lead article")).to_be_visible()
+    expect(page.locator("#news-tools > summary")).to_be_visible()
+    expect(page.locator("#news-filter-buttons")).not_to_be_visible()
 
 
 def main() -> None:

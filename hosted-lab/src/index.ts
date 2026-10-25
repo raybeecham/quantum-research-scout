@@ -1,7 +1,8 @@
 import { z } from "zod";
 import { authenticate, startLogin, finishLogin } from "./auth";
-import { assist, generate, comparePapers, selectedProvider } from "./providers";
+import { assist, generate, comparePapers, askStory, selectedProvider } from "./providers";
 import { comparisonSchema, evidenceVersion } from "./comparison";
+import { storySchema, storyVersion } from "./story";
 import { searchPapers } from "./papers";
 import { fetchPatent, patentSchema } from "./patents";
 import { questionSchema, readingSchema, providerSchema, searchSchema } from "./validation";
@@ -70,6 +71,8 @@ async function route(request: Request, env: AppEnv): Promise<Response> {
         paper_comparison: true,
         comparison_evidence_version: evidenceVersion,
         patent_evidence: true,
+        story_assistance: true,
+        story_evidence_version: storyVersion,
       },
       user: user.login,
       providers: { gemini: Boolean(env.GEMINI_API_KEY), groq: Boolean(env.GROQ_API_KEY) },
@@ -89,6 +92,7 @@ async function route(request: Request, env: AppEnv): Promise<Response> {
       "/api/lab/papers",
       "/api/lab/compare",
       "/api/lab/patent",
+      "/api/lab/story",
     ].includes(path)
   )
     fail(404, "not_found", "Not found.");
@@ -107,7 +111,8 @@ async function route(request: Request, env: AppEnv): Promise<Response> {
   }
   const search = path.endsWith("/papers"),
     read = path.endsWith("/read"),
-    comparison = path.endsWith("/compare");
+    comparison = path.endsWith("/compare"),
+    story = path.endsWith("/story");
   if (search) {
     const data = searchSchema.parse(raw);
     const reservation = await budget.reserve(user.id, "search", 0);
@@ -123,21 +128,27 @@ async function route(request: Request, env: AppEnv): Promise<Response> {
     fail(400, "consent", "Explicit consent is required for reading assistance.");
   if (comparison && consent.comparison_consent !== true)
     fail(400, "consent", "Explicit consent is required for paper comparison.");
-  const input = comparison
-    ? comparisonSchema.parse(raw)
-    : read
-      ? readingSchema.parse(raw)
-      : questionSchema.parse(raw);
+  if (story && consent.story_consent !== true)
+    fail(400, "consent", "Explicit consent is required for story assistance.");
+  const input = story
+    ? storySchema.parse(raw)
+    : comparison
+      ? comparisonSchema.parse(raw)
+      : read
+        ? readingSchema.parse(raw)
+        : questionSchema.parse(raw);
   selectedProvider(env, consent.provider); // Missing keys do not consume call slots.
-  const reservation = await budget.reserve(user.id, "ai", read || comparison ? 1 : 2);
+  const reservation = await budget.reserve(user.id, "ai", read || comparison || story ? 1 : 2);
   if (!reservation.ok) fail(429, "limit", reservation.error);
   try {
     // Only allowlisted source fields are sent, never arbitrary client data or private notes.
-    const result = comparison
-      ? await comparePapers(env, consent.provider, comparisonSchema.parse(input))
-      : read
-        ? await assist(env, consent.provider, readingSchema.parse(input))
-        : await generate(env, consent.provider, questionSchema.parse(input));
+    const result = story
+      ? await askStory(env, consent.provider, storySchema.parse(input))
+      : comparison
+        ? await comparePapers(env, consent.provider, comparisonSchema.parse(input))
+        : read
+          ? await assist(env, consent.provider, readingSchema.parse(input))
+          : await generate(env, consent.provider, questionSchema.parse(input));
     return Response.json(result);
   } finally {
     await budget.finish(user.id, "ai", reservation.lease!);

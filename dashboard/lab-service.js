@@ -1,6 +1,7 @@
 /* Hosted sessions stay in memory, never in URLs, localStorage or notebook backups. */
 (() => {
   "use strict";
+  const assetBase = new URL(".", document.currentScript?.src || location.href);
   let backend = "",
     session = "",
     popup = null,
@@ -14,7 +15,7 @@
   async function loadConfiguration() {
     if (local) return; // Never send the private lab's data to a hosted endpoint implicitly.
     try {
-      const response = await fetch("lab-config.json", {
+      const response = await fetch(new URL("lab-config.json", assetBase), {
         cache: "no-store",
         signal: AbortSignal.timeout(10000),
       });
@@ -142,7 +143,7 @@
       );
   }
   async function request(config, path, data, timeout) {
-    if (!["generate", "papers", "read", "compare", "patent"].includes(path))
+    if (!["generate", "papers", "read", "compare", "patent", "story"].includes(path))
       throw error("Unsupported lab request.");
     // Refuse a stale in-flight configuration after sign-out or account change.
     if (config.hosted && (!session || config.token !== session || config.apiBase !== backend))
@@ -153,7 +154,7 @@
         ? { Authorization: `Bearer ${session}` }
         : { "X-Scout-Token": config.token }),
     };
-    const response = await fetch((config.hosted ? backend + "/" : "") + "api/lab/" + path, {
+    const response = await fetch((config.hosted ? backend : "") + "/api/lab/" + path, {
       method: "POST",
       headers,
       body: JSON.stringify(data),

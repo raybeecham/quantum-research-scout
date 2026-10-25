@@ -18,6 +18,8 @@ from pqc_quantum_research_agent.paper_search import PaperSearch
 from pqc_quantum_research_agent.patent_evidence import PatentEvidence
 from pqc_quantum_research_agent.question_ai import clean_input, generate
 from pqc_quantum_research_agent.reading_ai import assist_reading, clean_reading
+from pqc_quantum_research_agent.story_ai import VERSION as STORY_EVIDENCE_VERSION
+from pqc_quantum_research_agent.story_ai import ask_story, clean_story
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -102,6 +104,8 @@ def handler(site, key, port, budget, backup_key=""):
                             "paper_comparison": True,
                             "comparison_evidence_version": COMPARISON_EVIDENCE_VERSION,
                             "patent_evidence": True,
+                            "story_assistance": True,
+                            "story_evidence_version": STORY_EVIDENCE_VERSION,
                         },
                     },
                 )
@@ -127,6 +131,7 @@ def handler(site, key, port, budget, backup_key=""):
                     "/api/lab/read",
                     "/api/lab/compare",
                     "/api/lab/patent",
+                    "/api/lab/story",
                 }
                 or self.headers.get("Origin") != origin
                 or not secrets.compare_digest(self.headers.get("X-Scout-Token", ""), token)
@@ -149,8 +154,11 @@ def handler(site, key, port, budget, backup_key=""):
                     return self.reply(200, papers.search(raw.get("query")))
                 reading = self.path == "/api/lab/read"
                 comparison = self.path == "/api/lab/compare"
+                story = self.path == "/api/lab/story"
                 data = (
-                    clean_comparison(raw)
+                    clean_story(raw)
+                    if story
+                    else clean_comparison(raw)
                     if comparison
                     else clean_reading(raw)
                     if reading
@@ -170,10 +178,12 @@ def handler(site, key, port, budget, backup_key=""):
                         },
                     )
                 budget.reserve(
-                    1 if reading or comparison else 2
+                    1 if reading or comparison or story else 2
                 )  # Reserve draft + critique before either call; no refunds/retries.
                 result = (
-                    compare_papers(data, selected_key, provider)
+                    ask_story(data, selected_key, provider)
+                    if story
+                    else compare_papers(data, selected_key, provider)
                     if comparison
                     else assist_reading(data, selected_key, provider)
                     if reading

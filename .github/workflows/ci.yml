@@ -109,11 +109,18 @@ jobs:
 
       - name: Confirm the build produced the expected assets
         run: |
-          for asset in index.html entity.html styles.css components.css desk.css app.js desk.js research.js questions.js news.js news.css news-preferences.js news-detail.js news-detail.css theme.js theme.css math.js entity.js favicon.svg data/dashboard.json vendor/katex-0.18.7/dist/katex.min.js vendor/katex-0.18.7/dist/katex.min.css vendor/katex-0.18.7/dist/fonts/KaTeX_Main-Regular.woff2; do
+          for asset in index.html entity.html styles.css components.css desk.css app.js desk.js research.js questions.js news.js news.css news-preferences.js news-detail.js news-detail.css story.js story.css stories/index.html theme.js theme.css math.js entity.js favicon.svg data/dashboard.json vendor/katex-0.18.7/dist/katex.min.js vendor/katex-0.18.7/dist/katex.min.css vendor/katex-0.18.7/dist/fonts/KaTeX_Main-Regular.woff2; do
             test -s "site/$asset" || { echo "missing or empty: site/$asset"; exit 1; }
           done
 
-      - name: Install Chromium
+      - name: Confirm story tool assets
+        # These assets are shared by current story details and permanent briefings.
+        run: |
+          for asset in story-tools.js story-tools.css story-reader.js story-reader.css; do
+            test -s "site/$asset" || { echo "missing or empty: site/$asset"; exit 1; }
+          done
+
+      - name: Install browser runtime
         run: python -m playwright install --with-deps chromium
 
       - name: Verify the reading desk in a browser
@@ -125,6 +132,11 @@ jobs:
           python scripts/verify_news_browser.py --channel chromium
           python scripts/verify_news_preferences_browser.py --channel chromium
           python scripts/verify_news_intelligence_browser.py --channel chromium
+          python scripts/verify_editorial_browser.py --channel chromium
+          python scripts/verify_story_quality_browser.py --channel chromium
+          python scripts/verify_story_archive_browser.py --channel chromium
+          python scripts/verify_story_tools_browser.py --channel chromium
+          python scripts/verify_story_reader_browser.py --channel chromium
           python scripts/verify_theme_browser.py --channel chromium
           python scripts/verify_briefing_browser.py --channel chromium
           python scripts/verify_exploration_browser.py --channel chromium

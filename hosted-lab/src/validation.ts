@@ -41,6 +41,7 @@ export const providerSchema = z
     backup_consent: z.boolean().optional(),
     reading_consent: z.boolean().optional(),
     comparison_consent: z.boolean().optional(),
+    story_consent: z.boolean().optional(),
   })
   .refine(v => v.provider !== "groq" || v.backup_consent === true);
 export const searchSchema = z.object({ query: nonempty(2000) });

@@ -5,6 +5,7 @@ from collections import defaultdict
 from collections.abc import Mapping
 from urllib.parse import urlsplit
 
+from .emerging_tech import emerging_tech_signal
 from .models import ResearchItem
 
 CATEGORIES = (
@@ -17,6 +18,8 @@ CATEGORIES = (
     "Quantum Sensing",
     "Quantum Software / Tooling",
     "AI Security",
+    "AI Capabilities / Tooling",
+    "Cloud Infrastructure",
     "Standards / Policy",
     "Vendor / Industry",
     "Classical Cybersecurity",
@@ -649,6 +652,17 @@ def classify_item(
     title_text = item.title.casefold()
     content_text = f"{item.title} {item.summary} {item.authors} {' '.join(item.matched_keywords)}"
     content_text_lower = content_text.casefold()
+    # Falcon also names speech models. An explicit speech/ASR headline must not
+    # become a PQC finding solely because it shares a signature scheme's name.
+    if (
+        re.search(r"\bfalcon\b", title_text)
+        and re.search(r"\b(?:asr|speech|text.to.speech)\b", title_text)
+        and not re.search(
+            r"\b(?:post.quantum|pqc|signature|lattice|cryptograph\w*)\b", content_text_lower
+        )
+    ):
+        title_text = re.sub(r"\bfalcon\b", "", title_text)
+        content_text_lower = re.sub(r"\bfalcon\b", "", content_text_lower)
     source_match_text = f"{content_text} {item.source_name}".casefold()
 
     matched = sorted(
@@ -683,6 +697,41 @@ def classify_item(
         if item.source_type == "patent"
         else _select_category(content_category_scores, category_scores, content_text_lower)
     )
+    emerging = emerging_tech_signal(item.title, item.summary)
+    emerging_replaces_weak_category = (
+        item.category in {"AI Security", "Classical Cybersecurity", "Vendor / Industry"}
+        or (
+            item.category == "Crypto Agility"
+            and not _has_any_signal(
+                tuple(term for term in CRYPTO_AGILITY_TERMS if term != "migration"),
+                content_text_lower,
+            )
+            and not _has_pqc_signal(content_text_lower)
+        )
+        or (
+            item.category == "Standards / Policy"
+            and not _has_any_signal(
+                (
+                    "nist",
+                    "cisa",
+                    "nsa",
+                    "ietf",
+                    "fips",
+                    "rfc",
+                    "government",
+                    "federal",
+                    "executive order",
+                    "regulation",
+                    "legislation",
+                    "standards",
+                ),
+                content_text_lower,
+            )
+            and not _has_quantum_context(content_text_lower)
+        )
+    )
+    if emerging and item.source_type != "patent" and emerging_replaces_weak_category:
+        item.category = emerging["category"]
     keyword_score = sum(merged_keyword_weights[keyword] for keyword in matched)
     title_bonus = sum(2 for keyword in matched if phrase_in_text(keyword, title_text))
     category_bonus = min(max(content_category_scores.values(), default=0), 12)
@@ -692,6 +741,8 @@ def classify_item(
         if phrase_in_text(keyword, content_text_lower)
     )
     topic_confidence = _topic_confidence(content_category_scores, content_text_lower)
+    if emerging:
+        topic_confidence = max(topic_confidence, emerging["confidence"])
     source_type_bonus = SOURCE_TYPE_BONUS.get(item.source_type, 0)
     source_weight_allowed = _allows_source_weight(topic_confidence)
     if source_weight_allowed:
@@ -1062,6 +1113,8 @@ def _category_weight_bonus(item: ResearchItem) -> int:
         return 10
     if item.category in {"Quantum Sensing", "Quantum Software / Tooling", "AI Security"}:
         return 8
+    if item.category in {"AI Capabilities / Tooling", "Cloud Infrastructure"}:
+        return 6
     if item.category == "Vendor / Industry":
         return 2
     return 0
@@ -1087,11 +1140,17 @@ def _low_relevance_penalty(item: ResearchItem, content_text: str, topic_confiden
         ("blockchain", "smart contract", "cryptocurrency", "bitcoin"), content_text
     ) and not (_has_pqc_signal(content_text) or _has_ai_security_signal(content_text)):
         penalty += 20
-    if _has_any_signal(GENERIC_AI_TERMS, content_text) and not _has_ai_security_signal(
-        content_text
+    if (
+        _has_any_signal(GENERIC_AI_TERMS, content_text)
+        and not _has_ai_security_signal(content_text)
+        and item.category not in {"AI Capabilities / Tooling", "Cloud Infrastructure"}
     ):
         penalty += 18
-    if "cs.cr" in content_text and not _has_strong_research_signal(content_text):
+    if (
+        "cs.cr" in content_text
+        and not _has_strong_research_signal(content_text)
+        and item.category not in {"AI Capabilities / Tooling", "Cloud Infrastructure"}
+    ):
         penalty += 12
     return penalty
 
@@ -1132,6 +1191,8 @@ def _confidence_rationales(
         rationales.append("quantum networking or repeater relevance")
     if item.category == "AI Security":
         rationales.append("AI security/model abuse relevance")
+    if item.category in {"AI Capabilities / Tooling", "Cloud Infrastructure"}:
+        rationales.append("concrete emerging-technology implementation or evaluation signal")
     if item.category == "Quantum Sensing":
         rationales.append("quantum sensing relevance")
     if item.category == "Quantum Software / Tooling":

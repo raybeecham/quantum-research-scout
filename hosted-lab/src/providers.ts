@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { scopeInstructions, technicalReview, checkScope } from "./question-review";
 import { modelSources } from "./sentence-evidence";
+import { storySchema, storyOutput, storyInstructions, checkStory, storyBasis } from "./story";
 import {
   comparisonSchema,
   comparisonOutput,
@@ -246,5 +247,31 @@ export async function comparePapers(
     model: selectedProvider(env, provider).model,
     generated_at: new Date().toISOString(),
     basis: "Selected abstracts/excerpts only; not a full-paper review or independent verification",
+  };
+}
+
+export async function askStory(
+  env: AppEnv,
+  provider: Provider,
+  input: z.infer<typeof storySchema>,
+) {
+  const sources = input.sources.map((s, i) => ({ ...s, id: `S${i + 1}` }));
+  const result = await call(
+    env,
+    provider,
+    storyInstructions,
+    {
+      question: input.question,
+      sources: sources.map(({ id, title, excerpt }) => ({ id, title, excerpt })),
+    },
+    storyOutput,
+  );
+  return {
+    ...checkStory(result, sources),
+    sources,
+    provider,
+    model: selectedProvider(env, provider).model,
+    generated_at: new Date().toISOString(),
+    basis: storyBasis,
   };
 }

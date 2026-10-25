@@ -1,0 +1,181 @@
+/* Private reading tools use the existing light/dark magazine tokens. */
+.story-reader {
+  color: var(--text);
+  font: inherit;
+  min-width: 0;
+}
+.story-reader h3 {
+  margin: 0 0 12px;
+  font-size: 1.05rem;
+}
+.story-reader > details,
+.story-reader-follow {
+  margin: 18px 0;
+  padding: 16px 0;
+  border-top: 1px solid var(--line);
+}
+.story-reader summary {
+  cursor: pointer;
+  font-weight: 650;
+  line-height: 1.65;
+}
+.story-reader summary span {
+  color: var(--muted);
+  font-size: 0.85em;
+  font-weight: 450;
+  margin-left: 8px;
+}
+.story-reader-follow-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 12px 0;
+}
+.story-reader-follow-row > div {
+  min-width: 0;
+}
+.story-reader-follow-row strong,
+.story-reader-follow-row span {
+  overflow-wrap: anywhere;
+}
+.story-reader-follow-row div span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.8em;
+}
+.story-reader button {
+  padding: 8px 12px;
+  min-height: 40px;
+  border: 1px solid var(--line-strong, var(--muted));
+  border-radius: 5px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.88em;
+  cursor: pointer;
+}
+.story-reader button:hover {
+  border-color: var(--accent);
+}
+.story-reader button[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--surface-raised, var(--surface-high, var(--surface)));
+  color: var(--accent);
+  box-shadow: inset 0 -2px var(--accent);
+}
+.story-reader button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.story-reader :is(button, textarea, a, summary):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+.story-reader .story-reader-note {
+  color: var(--muted);
+  font-size: 0.87em;
+  line-height: 1.7;
+  margin: 10px 0;
+}
+.story-reader-votes,
+.story-reader-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+.story-reader-note-label {
+  display: block;
+  color: var(--text);
+  font-size: 0.9em;
+  margin-top: 15px;
+}
+.story-reader textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px 12px;
+  resize: vertical;
+  font: inherit;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--line-strong, var(--muted));
+  border-radius: 5px;
+}
+.story-reader-status {
+  font-size: 0.87em;
+  color: var(--text);
+  line-height: 1.7;
+}
+.story-reader-status:empty {
+  display: none;
+}
+.story-reader-inbox {
+  margin: 16px 0;
+}
+.story-reader-inbox > details {
+  padding: 16px 20px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--surface);
+}
+.story-reader-updates {
+  padding-left: 22px;
+}
+.story-reader-updates > li {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+.story-reader-updates :is(p, a, blockquote) {
+  overflow-wrap: anywhere;
+}
+.story-reader-updates a {
+  color: var(--accent);
+  text-underline-offset: 3px;
+}
+.story-reader-update-kind {
+  font-size: 0.82em;
+  font-weight: 650;
+  color: var(--muted);
+}
+.story-reader-updates blockquote {
+  border-left: 2px solid var(--line-strong, var(--muted));
+  padding-left: 12px;
+  margin: 10px 0;
+  color: var(--text);
+  font-size: 0.9em;
+}
+.story-reader-manage {
+  max-height: 260px;
+  overflow: auto;
+  margin-top: 16px;
+}
+.story-reader-manage small {
+  color: var(--muted);
+}
+.story-reader-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+@media (max-width: 480px) {
+  .story-reader-follow-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .story-reader-inbox > details {
+    padding: 12px;
+  }
+  .story-reader summary span {
+    display: block;
+    margin-left: 0;
+  }
+}

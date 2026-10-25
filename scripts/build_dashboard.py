@@ -13,10 +13,21 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from pqc_quantum_research_agent.briefing import build_reading_brief  # noqa: E402
+from pqc_quantum_research_agent.config import load_config  # noqa: E402
 from pqc_quantum_research_agent.decision_center import build_decision_center  # noqa: E402
 from pqc_quantum_research_agent.evidence_review import build_evidence_review  # noqa: E402
+from pqc_quantum_research_agent.news_coverage import build_news_coverage  # noqa: E402
 from pqc_quantum_research_agent.news_intelligence import build_news_intelligence  # noqa: E402
+from pqc_quantum_research_agent.primary_evidence import (  # noqa: E402
+    load_primary_evidence,
+    primary_evidence_for_story,
+)
+from pqc_quantum_research_agent.story_archive import (  # noqa: E402
+    prepare_story_archive,
+    write_story_archive,
+)
 from pqc_quantum_research_agent.story_images import story_image_record  # noqa: E402
+from pqc_quantum_research_agent.story_follow import annotate_story_reader  # noqa: E402
 
 
 def build_dashboard(
@@ -217,7 +228,33 @@ def build_dashboard(
         funding=federal_funding,
         patents=patents,
         standards=standards,
+        historical=historical,
     )
+    payload["news_intelligence"]["coverage_audit"] = build_news_coverage(
+        payload["reading_brief"],
+        payload["news_intelligence"],
+        config=load_config(root / "sources.yaml") if (root / "sources.yaml").exists() else None,
+        source_health=source_health,
+    )
+    story_archive = prepare_story_archive(reports, payload["news_intelligence"])
+    try:
+        primary_cache = load_primary_evidence(reports / "primary-evidence.json")
+    except (OSError, ValueError):
+        primary_cache = {}
+    news = payload["news_intelligence"]
+    for story in [
+        *news.get("stories", []),
+        *news.get("accounts", []),
+        *(record["story"] for record in story_archive["records"]),
+    ]:
+        story["primary_evidence"] = primary_evidence_for_story(story, primary_cache)
+    news["reader_updates"] = annotate_story_reader(
+        news,
+        archive_records=story_archive["records"],
+        missions=federal_missions.get("missions", []),
+        standards=standards.get("milestones", []),
+    )
+    story_archive["reader_updates"] = news["reader_updates"]
     asset_names = (
         "index.html",
         "entity.html",
@@ -236,6 +273,12 @@ def build_dashboard(
         "news-preferences.js",
         "news-detail.js",
         "news-detail.css",
+        "story.css",
+        "story.js",
+        "story-tools.js",
+        "story-tools.css",
+        "story-reader.js",
+        "story-reader.css",
         "theme.css",
         "theme.js",
         "investigations.js",
@@ -273,6 +316,8 @@ def build_dashboard(
 
     if (assets / "images").is_dir():
         shutil.copytree(assets / "images", output / "images", dirs_exist_ok=True)
+
+    write_story_archive(story_archive, output, repo_url=repo_url, asset_version=asset_version)
 
     data_path = output / "data" / "dashboard.json"
     data_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")

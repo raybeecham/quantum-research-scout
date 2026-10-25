@@ -18,7 +18,7 @@ from playwright.sync_api import (
 from playwright.sync_api import (
     TimeoutError as PlaywrightTimeoutError,
 )
-from verify_news_browser import INJECTION, PREVIEW_PNG, dashboard_fixture, displayed_ids
+from verify_news_browser import INJECTION, PREVIEW_PNG, dashboard_fixture, displayed_ids, open_tools
 
 PREFERENCES_KEY = "quantum-scout:news-preferences:v1"
 
@@ -187,6 +187,7 @@ def main() -> None:
         expect(page.locator("#news article[data-news-id]")).to_have_count(len(valid_ids))
         assert set(displayed_ids(page)) == valid_ids
         expect(page.locator("#news-preferences-status")).to_contain_text("first visit")
+        open_tools(page)
         page.locator('[data-news-feed="new"]').click()
         expect(page.locator("#news article[data-news-id]")).to_have_count(0)
         expect(page.locator("#news-empty")).to_be_visible()
@@ -308,6 +309,7 @@ def main() -> None:
         )
         page.reload()
         expect(page.locator("#news article[data-news-id]")).to_have_count(len(valid_ids))
+        open_tools(page)
         page.locator('[data-news-feed="new"]').click()
         assert displayed_ids(page) == ["latest-ai"]
         expect(page.locator('[data-news-id="latest-ai"]')).to_contain_text("New to your feed")
@@ -328,6 +330,7 @@ def main() -> None:
                 page.locator("#theme-toggle").click()
             for width in [1440, 390, 320]:
                 page.set_viewport_size({"width": width, "height": 1000 if width == 1440 else 844})
+                open_tools(page)
                 if not page.locator("#news-personalize").evaluate("node => node.open"):
                     page.locator("#news-personalize > summary").click()
                 assert_no_overflow(page)

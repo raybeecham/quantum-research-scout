@@ -15,7 +15,7 @@
     saveButton: null,
     topic: "all",
     search: "",
-    sort: "recent",
+    sort: "editorial",
     limit: 6,
     feed: "all",
     unread: false,
@@ -223,7 +223,11 @@
     const prefs = window.ScoutNewsPreferences;
     const read = prefs?.isRead(item.id);
     const fresh = prefs?.isNew(item);
-    const status = `<div class="news-story-flags"><span>${esc(item.source_kind_label || "Source type unclassified")}</span>${fresh ? '<span class="news-new-badge">New to your feed</span>' : ""}${read ? '<span class="news-read-badge">Read</span>' : ""}${item.date_label !== "Published" || !day(item.date) ? "<span>Check publication date</span>" : ""}</div>`;
+    const editorial = item.news_editorial;
+    const accountCount = Number.isSafeInteger(item.news_event?.account_count)
+      ? item.news_event.account_count
+      : 1;
+    const status = `<div class="news-story-flags">${editorial?.label ? `<span class="news-event-label" data-event-status="${esc(editorial.status)}">${esc(editorial.label)}</span>` : ""}<span>${esc(editorial?.source_perspective || item.source_kind_label || "Source type unclassified")}</span>${accountCount > 1 ? `<span class="news-accounts-badge">${accountCount} source accounts</span>` : ""}${fresh ? '<span class="news-new-badge">New to your feed</span>' : ""}${read ? '<span class="news-read-badge">Read</span>' : ""}${item.date_label !== "Published" || !day(item.date) ? "<span>Check publication date</span>" : ""}</div>`;
     const detail = text(item.id)
       ? `<button type="button" class="news-detail-open" data-news-detail="${esc(item.id)}">Story details <span aria-hidden="true">→</span></button>`
       : "";
@@ -231,7 +235,31 @@
       prefs && text(item.id)
         ? `<button type="button" class="news-read-toggle" data-news-read="${esc(item.id)}" aria-pressed="${Boolean(read)}">${read ? "Mark unread" : "Mark read"}</button>`
         : "";
-    const copy = `<div class="news-copy"><p class="news-category" data-news-category="${topic}">${esc(topic === "all" ? "Emerging technology" : TOPICS[topic])}</p><${heading}><a href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></${heading}>${metadata(item)}${status}<p class="news-summary${summary ? "" : " is-unavailable"}">${esc(summary || "Source excerpt unavailable. Open the original source to see what it reports.")}</p><div class="news-actions">${detail}<a class="news-source-link" href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Read original <span aria-hidden="true">↗</span></a>${save}${readButton}</div></div>`;
+    const whyNow =
+      variant === "lead" &&
+      editorial?.eligible &&
+      text(editorial.why_now) &&
+      editorial.why_now !== summary &&
+      editorial.why_now !== item.title
+        ? `<div class="news-why-now"><span>Reported development</span><p>${esc(editorial.why_now)}</p></div>`
+        : "";
+    const basis =
+      variant === "lead" && Array.isArray(editorial?.basis)
+        ? `<details class="news-editorial-basis"><summary>Why this leads</summary><p>${esc(state.data?.news_intelligence?.editorial?.method || "Automated selection, not independent verification.")}</p><ul>${editorial.basis
+            .filter(value => typeof value === "string")
+            .map(value => `<li>${esc(value)}</li>`)
+            .join("")}</ul></details>`
+        : "";
+    const leadImpact = item.news_detail?.why_it_matters;
+    const context =
+      variant === "lead" &&
+      item.news_detail?.analysis_specificity !== "stage_only" &&
+      Array.isArray(item.news_detail?.analysis_evidence) &&
+      item.news_detail.analysis_evidence.length &&
+      text(leadImpact)
+        ? `<div class="news-lead-context"><span>Why it may matter · Scout interpretation</span><p>${esc(leadImpact)}</p></div>`
+        : "";
+    const copy = `<div class="news-copy"><p class="news-category" data-news-category="${topic}">${variant === "lead" ? '<span class="news-lead-marker">' + (editorial?.eligible ? "IN FOCUS" : "FROM THE COLLECTION") + "</span> · " : ""}${esc(topic === "all" ? "Emerging technology" : TOPICS[topic])}</p><${heading}><a href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></${heading}>${metadata(item)}${status}<p class="news-summary${summary ? "" : " is-unavailable"}">${esc(summary || "Source excerpt unavailable. Open the original source to see what it reports.")}</p>${context || whyNow}${basis}<div class="news-actions">${detail}<a class="news-source-link" href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Read original <span aria-hidden="true">↗</span></a>${save}${readButton}</div></div>`;
     const image = visual(item, variant === "lead", usedImages);
     return `<article class="news-${variant} news-topic-${topic}${image ? "" : " news-text-only"}" data-news-id="${esc(item.id || canonicalUrl(item.url))}">${variant === "lead" ? copy + image : image + copy}</article>`;
   }
@@ -314,18 +342,132 @@
 
   function renderCoverage(all) {
     const intelligence = state.data?.news_intelligence;
-    const sources = new Set(all.map(item => text(item.source)).filter(Boolean));
-    $("news-coverage-summary").textContent = `· ${all.length} stories · ${sources.size} sources`;
+    const accounts = Array.isArray(intelligence?.accounts)
+      ? intelligence.accounts.filter(item => item && sourceUrl(item.url))
+      : all;
+    const sources = new Set(accounts.map(item => text(item.source)).filter(Boolean));
+    $("news-coverage-summary").textContent =
+      `· ${all.length} stories · ${accounts.length} source accounts · ${sources.size} sources`;
     $("news-coverage-topics").innerHTML = ["security", "quantum", "ai", "cloud"]
       .map(
         id =>
-          `<div><span>${esc(TOPICS[id])}</span><strong>${all.filter(item => topics(item).includes(id)).length}</strong><small>${["security", "quantum"].includes(id) ? "Core coverage" : "Adjacent coverage"}</small></div>`,
+          `<div><span>${esc(TOPICS[id])}</span><strong>${accounts.filter(item => topics(item).includes(id)).length}</strong><small>${["security", "quantum"].includes(id) ? "Core source accounts" : "Adjacent source accounts"}</small></div>`,
       )
       .join("");
     const selection = intelligence?.selection;
     $("news-selection-note").textContent = selection
-      ? `${selection.excluded_count || 0} records kept out of Latest by relevance, procurement, source validity or date checks; ${selection.grouped_count || 0} duplicate links or closely matching headlines grouped. These automated selection rules are not human editorial review. Original reports and specialist sections are unchanged.`
+      ? `${selection.excluded_count || 0} records kept out of Latest by relevance, procurement, source validity or date checks; ${Math.max(0, (selection.grouped_count || 0) - (selection.event_grouped_count || 0))} duplicate links or closely matching headlines grouped; ${selection.event_grouped_count || 0} additional accounts grouped into developments with their separate evidence retained. These automated selection rules are not human editorial review. Original reports and specialist sections are unchanged.`
       : "This older snapshot has no news-selection audit. Cards show the available reading collection; verify original sources.";
+    const balance = new Map();
+    accounts.forEach(item => {
+      const name = text(item.source) || "Unknown source";
+      balance.set(name, (balance.get(name) || 0) + 1);
+    });
+    const leaders = [...balance].sort((a, b) => b[1] - a[1]).slice(0, 2);
+    $("news-source-balance").textContent = leaders.length
+      ? `Source mix: ${leaders.map(([name, count]) => `${name} (${count})`).join(" and ")} account for ${leaders.reduce((sum, entry) => sum + entry[1], 0)} of ${accounts.length} selected source accounts. More publishers do not necessarily mean independent evidence. ${text(intelligence?.progression?.empty_reason)}`
+      : "No source mix is available in this snapshot.";
+    renderCoverageAudit(intelligence?.coverage_audit);
+    $("news-archive-link").hidden = intelligence?.archive?.url !== "stories/index.html";
+  }
+
+  function renderCoverageAudit(audit) {
+    const panel = $("news-coverage-audit");
+    panel.hidden = audit?.version !== 1;
+    if (panel.hidden) return;
+    const count = value => (Number.isSafeInteger(value) && value >= 0 ? value : 0);
+    const summary = audit.summary || {};
+    $("news-coverage-audit-summary").textContent =
+      `${count(summary.report_items)} source accounts in the report window → ${count(summary.selected_accounts)} selected accounts → ${count(summary.homepage_cards)} grouped stories, with ${count(summary.featured_cards)} featured. ${count(summary.enabled_unobserved_sources)} enabled sources have no recorded check yet. This describes the full edition, not your current filters.`;
+    $("news-coverage-audit-topics").innerHTML = ["ai", "cloud"]
+      .map(topic => {
+        const row = audit.topics?.[topic] || {};
+        return `<p><strong>${esc(TOPICS[topic])}</strong><span>${count(row.without_quantum)} accounts without quantum overlap</span><span>${count(row.quantum_adjacent)} also cover quantum</span></p>`;
+      })
+      .join("");
+    const states = {
+      observed: "Recorded check",
+      not_observed: "No recorded check",
+      failed: "Last check failed",
+      partial: "Partial check",
+      disabled: "Disabled",
+      not_configured: "Not in current configuration",
+      unavailable: "Configuration unavailable",
+    };
+    $("news-coverage-audit-sources").innerHTML = (Array.isArray(audit.sources) ? audit.sources : [])
+      .filter(row => row && text(row.name))
+      .map(row => {
+        const checked = day(row.last_checked_at);
+        const collected = Number.isSafeInteger(row.last_run_items)
+          ? ` · ${count(row.last_run_items)} items returned`
+          : "";
+        return `<tr><th scope="row">${esc(row.name)}</th><td>${count(row.report_items)}</td><td>${count(row.selected_accounts)}</td><td>${count(row.featured_cards)}</td><td>${esc(states[row.collector_state] || "Unknown")}${esc(collected)}${checked ? `<br /><time datetime="${checked}">${esc(dateLabel(checked))}</time>` : ""}</td></tr>`;
+      })
+      .join("");
+    $("news-coverage-audit-method").textContent = [
+      text(audit.method),
+      text(audit.freshness_note),
+      text(audit.rollout_note),
+    ]
+      .filter(Boolean)
+      .join(" ");
+  }
+
+  function selectFeatured(filtered) {
+    const editorial = state.data?.news_intelligence?.editorial;
+    if (state.sort !== "editorial" || !editorial) return filtered.slice(0, 4);
+    const eligible = filtered.filter(item => item.news_editorial?.eligible);
+    if (!eligible.length) return filtered.slice(0, 1);
+    const selected = [];
+    const lookup = new Map(eligible.map(item => [item.id, item]));
+    const preferred = [
+      editorial.lead_id,
+      ...(Array.isArray(editorial.roundup_ids) ? editorial.roundup_ids : []),
+      ...(Array.isArray(editorial.ranked_ids) ? editorial.ranked_ids : []),
+    ];
+    for (const id of preferred) {
+      if (!lookup.has(id) || selected.some(item => item.id === id)) continue;
+      selected.push(lookup.get(id));
+      if (selected.length === 4) break;
+    }
+    for (const item of eligible) {
+      if (selected.length >= 4) break;
+      if (!selected.some(row => row.id === item.id)) selected.push(item);
+    }
+    return selected;
+  }
+
+  function renderProgression(filtered) {
+    const progression = state.data?.news_intelligence?.progression;
+    const ids = new Set(
+      filtered.flatMap(item => [
+        item.id,
+        ...(Array.isArray(item.news_event?.member_ids) ? item.news_event.member_ids : []),
+      ]),
+    );
+    const timelines = (Array.isArray(progression?.timelines) ? progression.timelines : [])
+      .filter(item => Array.isArray(item.story_ids) && item.story_ids.some(id => ids.has(id)))
+      .slice(0, 3);
+    const cards = timelines.flatMap(timeline => {
+      const events = (Array.isArray(timeline.events) ? timeline.events : [])
+        .filter(
+          event =>
+            event &&
+            event.date_role === "Published" &&
+            day(event.date) &&
+            sourceUrl(event.url) &&
+            text(event.title),
+        )
+        .slice(0, 4);
+      if (events.length < 2) return [];
+      return `<article class="news-progression-card"><p class="news-section-kicker">${events.length} dated observations</p><h3>${esc(timeline.title)}</h3><p class="news-progression-basis">${esc(timeline.basis)}</p><ol>${events.map(event => `<li class="news-progression-event"><div><time datetime="${day(event.date)}">${esc(dateLabel(event.date))}</time><span>${esc(event.label || "Reported")}</span></div><a href="${esc(sourceUrl(event.url))}" target="_blank" rel="noopener noreferrer">${esc(event.title)} ↗</a><p>${esc(event.source || "Source not identified")} · ${esc(event.date_role || "Publication date")}</p><details><summary>Evidence &amp; limits</summary><p>${esc(event.basis)}</p><p>${esc(event.uncertainty)}</p></details></li>`).join("")}</ol></article>`;
+    });
+    $("news-progression").hidden = !cards.length;
+    $("news-progression-list").innerHTML = cards.join("");
+    $("news-progression-note").textContent =
+      text(progression?.method) ||
+      "Dated source observations, not an independently verified project status.";
+    window.ScoutMath?.render?.($("news-progression-list"));
   }
 
   function render() {
@@ -344,7 +486,7 @@
           (state.feed !== "new" || window.ScoutNewsPreferences?.isNew(item)) &&
           (!state.unread || !window.ScoutNewsPreferences?.isRead(item.id)) &&
           (!needle ||
-            `${text(item.title)} ${excerpt(item)} ${text(item.source)}`
+            `${text(item.title)} ${excerpt(item)} ${text(item.source)} ${(Array.isArray(item.news_event?.accounts) ? item.news_event.accounts : []).map(account => `${text(account?.title)} ${text(account?.source)} ${(Array.isArray(account?.excerpts) ? account.excerpts : []).map(text).join(" ")}`).join(" ")}`
               .toLocaleLowerCase()
               .includes(needle)),
       );
@@ -352,19 +494,42 @@
         item.decision_brief?.version === 1 && Number.isFinite(item.decision_brief.priority)
           ? item.decision_brief.priority
           : 0;
+      const rankedIds = Array.isArray(state.data?.news_intelligence?.editorial?.ranked_ids)
+        ? state.data.news_intelligence.editorial.ranked_ids
+        : [];
+      const rank = item => {
+        const index = rankedIds.indexOf(item.id);
+        return index < 0 ? rankedIds.length : index;
+      };
       filtered.sort(
         (a, b) =>
+          (state.sort === "editorial" ? rank(a) - rank(b) : 0) ||
           (state.sort === "relevance" ? priority(b) - priority(a) : 0) ||
           day(b.report_date).localeCompare(day(a.report_date)) ||
           priority(b) - priority(a),
       );
-      const lead = filtered.slice(0, 3);
-      const remainder = filtered.slice(3);
+      const lead = selectFeatured(filtered);
+      const featuredIds = new Set(lead.map(item => item.id));
+      const remainder = filtered.filter(item => !featuredIds.has(item.id));
       const usedImages = new Set();
       $("news-featured").classList.add("news-featured-grid");
-      $("news-featured").innerHTML = lead
-        .map((item, index) => card(item, index === 0 ? "lead" : "feature", usedImages))
+      $("news-lead").innerHTML = lead.length ? card(lead[0], "lead", usedImages) : "";
+      $("news-roundup-stories").innerHTML = lead
+        .slice(1)
+        .map(item => card(item, "roundup-card", usedImages))
         .join("");
+      $("news-roundup").hidden = lead.length < 2;
+      $("news-featured").classList.toggle("news-single-feature", lead.length < 2);
+      $("news-roundup-title").textContent =
+        lead.length === 4 ? "Three developments worth knowing" : "More worth knowing";
+      $("news-editorial-note").textContent =
+        state.sort === "editorial" && state.data?.news_intelligence?.editorial
+          ? lead[0]?.news_editorial?.eligible
+            ? "Recent developments first, with a varied shortlist. Source-reported claims, not independent verification."
+            : text(state.data.news_intelligence.editorial.empty_reason) ||
+              "No dated development matches these filters. Showing background from this collection."
+          : "Showing your selected order. Dates and source claims have not been independently verified.";
+      renderProgression(filtered);
       $("news-list").innerHTML = remainder
         .slice(0, state.limit)
         .map(item => card(item, "row", usedImages))
@@ -377,6 +542,18 @@
       const shown = lead.length + Math.min(remainder.length, state.limit);
       $("news-count").textContent =
         `${shown} of ${filtered.length} ${filtered.length === 1 ? "story" : "stories"}${state.topic !== "all" ? ` · ${TOPICS[state.topic]}` : ""}`;
+      $("news-active-filters").textContent = [
+        state.topic !== "all" ? TOPICS[state.topic] : "All topics",
+        state.feed === "following"
+          ? "Following"
+          : state.feed === "new"
+            ? "New since last visit"
+            : "",
+        state.unread ? "Unread" : "",
+        needle ? "Search active" : "",
+      ]
+        .filter(Boolean)
+        .join(" · ");
       $("news-more").hidden = remainder.length <= state.limit;
       $("news-more").textContent =
         `Load more stories (${Math.min(6, Math.max(0, remainder.length - state.limit))})`;
@@ -395,7 +572,7 @@
           ? `Report window: ${dateLabel(coverage.window_start)}–${dateLabel(coverage.window_end)}. `
           : "";
       $("news-scope").textContent =
-        `${range}${state.sort === "relevance" ? "Ordered by existing rule-based decision relevance, then report date; this is not a quality rating." : "Ordered by collected report date, then existing Scout relevance within each date; ties retain collection order. This is not source publication order or a quality rating."} Topic filters match collected evidence, not exhaustive coverage. Images are publisher-provided article previews, loaded directly from their image hosts without a referrer. Image hosts still receive your IP address. Missing, blocked, or repeated previews use text-only cards; publisher artwork may be illustrative.`;
+        `${range}${state.sort === "editorial" ? "Developments first prioritizes explicit recent changes, with a varied shortlist; advice remains in the collection. This is rule-based selection, not human editorial review." : state.sort === "relevance" ? "Ordered by existing rule-based decision relevance, then report date; this is not a quality rating." : "Ordered by collected report date, then existing Scout relevance within each date; ties retain collection order. This is not source publication order or a quality rating."} Topic filters match collected evidence, not exhaustive coverage. Images are publisher-provided article previews, loaded directly from their image hosts without a referrer. Image hosts still receive your IP address. Missing, blocked, or repeated previews use text-only cards; publisher artwork may be illustrative.`;
       $("news-filter-buttons")
         .querySelectorAll("[data-news-topic]")
         .forEach(button =>
@@ -406,7 +583,10 @@
       window.ScoutMath?.render?.($("news-list"));
     } catch {
       $("news-loading").hidden = true;
-      $("news-featured").replaceChildren();
+      $("news-lead").replaceChildren();
+      $("news-roundup-stories").replaceChildren();
+      $("news-roundup").hidden = true;
+      $("news-progression").hidden = true;
       $("news-list").replaceChildren();
       $("news-more").hidden = true;
       $("news-empty").hidden = false;
@@ -420,14 +600,26 @@
     state.data = data;
     state.saveButton = typeof options.saveButton === "function" ? options.saveButton : null;
     if (!$("news-featured")) return;
+    window.ScoutStoryReader?.mountInbox(
+      $("news-development-inbox"),
+      data.news_intelligence?.reader_updates,
+    );
     if (!$("news").dataset.newsBound) {
       $("news").dataset.newsBound = "true";
+      $("news-browse").addEventListener("click", () => {
+        $("news-tools").open = true;
+        $("news-tools").scrollIntoView({ block: "start", behavior: "instant" });
+        $("news-tools").querySelector("summary").focus({ preventScroll: true });
+      });
       $("news").addEventListener("error", event => imageFailed(event.target), true);
       $("news").addEventListener("click", event => {
         const detail = event.target.closest("[data-news-detail]");
         if (detail) {
           const item = stories().find(row => row.id === detail.dataset.newsDetail);
-          if (item) window.ScoutNewsDetail?.open(item);
+          if (item)
+            window.ScoutNewsDetail?.open(item, {
+              readerFeed: state.data?.news_intelligence?.reader_updates,
+            });
         }
         const read = event.target.closest("[data-news-read]");
         if (read)
@@ -493,7 +685,9 @@
         render();
       });
       $("news-sort").addEventListener("change", event => {
-        state.sort = event.target.value === "relevance" ? "relevance" : "recent";
+        state.sort = ["relevance", "recent", "editorial"].includes(event.target.value)
+          ? event.target.value
+          : "editorial";
         state.limit = 6;
         render();
       });

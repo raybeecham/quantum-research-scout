@@ -39,6 +39,7 @@ from .signals import write_signal_tracker
 from .source_health import write_source_health_report, write_source_observations
 from .standards import write_standards_timeline
 from .storage import ResearchStore
+from .story_archive import refresh_story_evidence
 from .strategic_forecasts import write_strategic_forecasts
 from .temporal_intelligence import write_temporal_intelligence
 from .weekly import write_weekly_report
@@ -414,6 +415,11 @@ def main(argv: list[str] | None = None) -> int:
         min_topic_confidence=config.settings.min_topic_confidence,
     )
     LOGGER.info("Wrote digest to %s", report_path)
+    # Preserve public source captures before deleting rotating daily reports.
+    # If the ledger is malformed or cannot be written, fail before pruning so
+    # recoverable source evidence cannot silently disappear.
+    retained_stories = refresh_story_evidence(Path(args.reports_dir))
+    LOGGER.info("Retained public evidence for %d source briefings", retained_stories["story_count"])
     if args.prune_daily_reports:
         try:
             deleted_reports = prune_daily_reports(

@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="magazine-shell.css?v=__ASSET_VERSION__" />
     <link rel="stylesheet" href="news.css?v=__ASSET_VERSION__" />
     <link rel="stylesheet" href="news-detail.css?v=__ASSET_VERSION__" />
+    <link rel="stylesheet" href="story-tools.css?v=__ASSET_VERSION__" />
+    <link rel="stylesheet" href="story-reader.css?v=__ASSET_VERSION__" />
     <link rel="stylesheet" href="theme.css?v=__ASSET_VERSION__" />
   </head>
   <body>
@@ -169,86 +171,142 @@
             <h1 id="news-title">The next wave.</h1>
             <p>Quantum and cybersecurity developments, explained and connected to the evidence.</p>
           </div>
-          <a class="news-digest-link" href="#library">
-            Browse the digests
-            <span aria-hidden="true">↗</span>
-          </a>
-        </div>
-        <nav id="news-filter-buttons" class="news-topics" aria-label="Filter news by topic">
-          <button type="button" data-news-topic="all" aria-pressed="true">All stories</button>
-          <button type="button" data-news-topic="security" aria-pressed="false">Cyber &amp; PQC</button>
-          <button type="button" data-news-topic="quantum" aria-pressed="false">Quantum</button>
-          <button type="button" data-news-topic="ai" aria-pressed="false">AI</button>
-          <button type="button" data-news-topic="cloud" aria-pressed="false">Cloud</button>
-          <button type="button" data-news-topic="government" aria-pressed="false">Government</button>
-        </nav>
-        <div class="news-personal-bar">
-          <div id="news-feed-buttons" class="news-feed-buttons" role="group" aria-label="Choose your news feed">
-            <button type="button" data-news-feed="all" aria-pressed="true">Discover</button>
-            <button type="button" data-news-feed="following" aria-pressed="false">Following</button>
-            <button type="button" data-news-feed="new" aria-pressed="false">New since last visit</button>
-          </div>
-          <label class="news-unread">
-            <input type="checkbox" id="news-unread" />
-            Unread only
-          </label>
-        </div>
-        <details id="news-personalize" class="news-personalize">
-          <summary>
-            Customize your feed
-            <span id="news-follow-count"></span>
-          </summary>
-          <p>
-            Follow topics or organizations mentioned in this collection. Choices and read markers stay in this browser,
-            with no sign-in or notifications.
-          </p>
-          <div id="news-follow-topics" class="news-follow-options" role="group" aria-label="Topics to follow"></div>
-          <label for="news-follow-organization">Follow an organization</label>
-          <div class="news-follow-organizations">
-            <select id="news-follow-organization">
-              <option value="">Choose an organization</option>
-            </select>
-            <button type="button" id="news-follow-add">Follow</button>
-          </div>
-          <div id="news-following-organizations" class="news-follow-options" aria-label="Followed organizations"></div>
-          <p id="news-preferences-status" role="status"></p>
-        </details>
-        <div class="news-controls">
-          <label class="news-search-label" for="news-search">
-            <span>Find a story</span>
-            <input id="news-search" type="search" placeholder="Search this collection…" maxlength="250" />
-          </label>
-          <label for="news-sort">
-            Order
-            <select id="news-sort">
-              <option value="recent">Recently collected</option>
-              <option value="relevance">Scout relevance</option>
-            </select>
-          </label>
+          <button class="news-digest-link" id="news-browse" type="button">Browse &amp; personalize ↓</button>
         </div>
         <p id="news-status" class="news-status" role="status" hidden></p>
-        <details class="news-coverage">
-          <summary>
-            Inside this collection
-            <span id="news-coverage-summary"></span>
-          </summary>
-          <div id="news-coverage-topics" class="news-coverage-topics"></div>
-          <p id="news-selection-note"></p>
-          <p>
-            Quantum and cybersecurity are our core coverage. AI and cloud are adjacent coverage, not comprehensive news
-            services. Counts can overlap by topic.
-          </p>
-          <a href="#federal">Explore funding and procurement</a>
-          ·
-          <a href="#operations">Inspect sources and collection health</a>
-        </details>
         <p id="news-loading" class="news-loading" role="status">Loading collected stories…</p>
-        <div id="news-featured" aria-label="Featured stories"></div>
+        <div id="news-featured" class="news-featured-grid" aria-label="Featured stories">
+          <div id="news-lead"></div>
+          <aside id="news-roundup" class="news-roundup" aria-labelledby="news-roundup-title">
+            <div class="news-roundup-heading">
+              <span>THE SHORTLIST</span>
+              <h2 id="news-roundup-title">Three developments worth knowing</h2>
+            </div>
+            <div id="news-roundup-stories"></div>
+          </aside>
+        </div>
+        <p id="news-editorial-note" class="news-editorial-note"></p>
         <div id="news-empty" class="news-empty" hidden></div>
-        <div class="news-feed-heading">
-          <h2>More to explore</h2>
+        <section id="news-progression" class="news-progression" aria-labelledby="news-progression-title" hidden>
+          <div class="news-feed-heading">
+            <div>
+              <span class="news-section-kicker">FOLLOW THE DEVELOPMENT</span>
+              <h2 id="news-progression-title">What changed along the way</h2>
+            </div>
+          </div>
+          <p id="news-progression-note"></p>
+          <div id="news-progression-list"></div>
+        </section>
+        <div class="news-feed-heading" id="news-latest-heading">
+          <h2>Latest updates</h2>
           <p id="news-count" aria-live="polite"></p>
         </div>
+        <details id="news-tools" class="news-tools">
+          <summary>
+            Browse, filter &amp; follow
+            <span id="news-active-filters">All stories</span>
+          </summary>
+          <nav id="news-filter-buttons" class="news-topics" aria-label="Filter news by topic">
+            <button type="button" data-news-topic="all" aria-pressed="true">All stories</button>
+            <button type="button" data-news-topic="security" aria-pressed="false">Cyber &amp; PQC</button>
+            <button type="button" data-news-topic="quantum" aria-pressed="false">Quantum</button>
+            <button type="button" data-news-topic="ai" aria-pressed="false">AI</button>
+            <button type="button" data-news-topic="cloud" aria-pressed="false">Cloud</button>
+            <button type="button" data-news-topic="government" aria-pressed="false">Government</button>
+          </nav>
+          <div class="news-personal-bar">
+            <div id="news-feed-buttons" class="news-feed-buttons" role="group" aria-label="Choose your news feed">
+              <button type="button" data-news-feed="all" aria-pressed="true">Discover</button>
+              <button type="button" data-news-feed="following" aria-pressed="false">Following</button>
+              <button type="button" data-news-feed="new" aria-pressed="false">New since last visit</button>
+            </div>
+            <label class="news-unread">
+              <input type="checkbox" id="news-unread" />
+              Unread only
+            </label>
+          </div>
+          <details id="news-personalize" class="news-personalize">
+            <summary>
+              Customize your feed
+              <span id="news-follow-count"></span>
+            </summary>
+            <p>
+              Follow topics or organizations mentioned in this collection. Choices and read markers stay in this
+              browser, with no sign-in or notifications.
+            </p>
+            <div id="news-follow-topics" class="news-follow-options" role="group" aria-label="Topics to follow"></div>
+            <label for="news-follow-organization">Follow an organization</label>
+            <div class="news-follow-organizations">
+              <select id="news-follow-organization">
+                <option value="">Choose an organization</option>
+              </select>
+              <button type="button" id="news-follow-add">Follow</button>
+            </div>
+            <div
+              id="news-following-organizations"
+              class="news-follow-options"
+              aria-label="Followed organizations"
+            ></div>
+            <p id="news-preferences-status" role="status"></p>
+          </details>
+          <div id="news-development-inbox"></div>
+          <div class="news-controls">
+            <label class="news-search-label" for="news-search">
+              <span>Find a story</span>
+              <input id="news-search" type="search" placeholder="Search this collection…" maxlength="250" />
+            </label>
+            <label for="news-sort">
+              Order
+              <select id="news-sort">
+                <option value="editorial">Developments first</option>
+                <option value="recent">Recently collected</option>
+                <option value="relevance">Scout relevance</option>
+              </select>
+            </label>
+          </div>
+          <details class="news-coverage">
+            <summary>
+              Inside this collection
+              <span id="news-coverage-summary"></span>
+            </summary>
+            <div id="news-coverage-topics" class="news-coverage-topics"></div>
+            <p id="news-selection-note"></p>
+            <p id="news-source-balance"></p>
+            <details id="news-coverage-audit" class="news-coverage-audit" hidden>
+              <summary>From collection to the homepage</summary>
+              <p id="news-coverage-audit-summary"></p>
+              <div id="news-coverage-audit-topics" class="news-coverage-audit-topics"></div>
+              <div
+                class="news-coverage-table-wrap"
+                tabindex="0"
+                role="group"
+                aria-label="Scrollable source visibility table"
+              >
+                <table class="news-coverage-table">
+                  <caption>Source visibility in this report window</caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Source</th>
+                      <th scope="col">In reports</th>
+                      <th scope="col">Selected accounts</th>
+                      <th scope="col">Featured</th>
+                      <th scope="col">Collection state</th>
+                    </tr>
+                  </thead>
+                  <tbody id="news-coverage-audit-sources"></tbody>
+                </table>
+              </div>
+              <p id="news-coverage-audit-method"></p>
+            </details>
+            <p>
+              Quantum and cybersecurity are our core coverage. AI and cloud are adjacent coverage, not comprehensive
+              news services. Counts can overlap by topic.
+            </p>
+            <a href="#federal">Explore funding and procurement</a>
+            ·
+            <a href="#operations">Inspect sources and collection health</a>
+          </details>
+        </details>
         <div id="news-list" class="news-list"></div>
         <button type="button" id="news-more" class="desk-button news-more" hidden>
           More stories
@@ -258,7 +316,10 @@
           <p id="news-scope">
             A curated collection, not a live or exhaustive news service. Check original sources for current details.
           </p>
-          <a href="#operations">Sources &amp; coverage ↗</a>
+          <div class="news-footer-links">
+            <a id="news-archive-link" href="stories/index.html" hidden>Browse the story archive →</a>
+            <a href="#operations">Sources &amp; coverage ↗</a>
+          </div>
         </footer>
       </section>
       <section id="start" class="desk-workspace" hidden aria-labelledby="start-title">
@@ -1841,6 +1902,8 @@
     <script src="federal-research.js?v=__ASSET_VERSION__" defer></script>
     <script src="patent-watch.js?v=__ASSET_VERSION__" defer></script>
     <script src="news-preferences.js?v=__ASSET_VERSION__" defer></script>
+    <script src="story-tools.js?v=__ASSET_VERSION__" defer></script>
+    <script src="story-reader.js?v=__ASSET_VERSION__" defer></script>
     <script src="news-detail.js?v=__ASSET_VERSION__" defer></script>
     <script src="news.js?v=__ASSET_VERSION__" defer></script>
     <script src="desk.js?v=__ASSET_VERSION__" defer></script>
