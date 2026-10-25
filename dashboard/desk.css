@@ -257,7 +257,10 @@ kbd {
   text-decoration: none;
   font-size: 13px;
   font-weight: 650;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+  box-sizing: border-box;
   margin-bottom: 4px;
 }
 .desk-button:hover {
