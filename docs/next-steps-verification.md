@@ -45,3 +45,9 @@ Verified NIST CSRC (25 entries), IBM Research (10), IonQ (10), and Quantinuum (6
 Featured picks now enforce one publisher host per slot, including after filtering or changing sort order. When available, the first shortlist slot is reserved for an eligible recent paper or preprint. Sparse editions show fewer picks rather than repeating a publisher or promoting an old paper. All other stories stay in the collection.
 
 The stale target is **not yet met**: 33 sources are still stale, down from the supplied 36. A fresh audit confirmed that many reachable feeds and funding queries genuinely return older records. No timestamps were invented, and freshness thresholds were not relaxed to reach the target. Audits update health, not the current digest; newly discovered articles enter through the next scheduled collection.
+
+## 7. Bidirectional organization aliases
+
+Added DOE, DARPA, NSA, CISA, NSF, and all four DoD/DoW name variants. All recognized abbreviations match whole words, so NIST no longer matches the middle of "deterministic" or "administration". Ordinary partial-word searches still work. The earlier uncommitted NIST correction is included here.
+
+Verification compares complete result URL sets, not just matching text, for every short/full variant, IBM, NIST, and NPL. It also checks compound "NIST-approved", lowercase input, accent folding, partial terms, type filters, plural counts, escaped HTML, Escape focus return, and notebook behavior.

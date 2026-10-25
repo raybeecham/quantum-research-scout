@@ -177,9 +177,22 @@ def main():
             {...sample, id: 'round2-upm', title: 'Universidad Politécnica de Madrid quantum computer', source: 'Test source', summary: 'UPM study', url: 'https://example.org/upm', related: []},
             {...sample, id: 'round2-npl', title: 'National Physical Laboratory quantum sensing study', source: 'Test source', summary: 'A sensing experiment', url: 'https://example.org/npl', related: []},
             {...sample, id: 'round2-nist', title: 'NIST publishes cryptography guidance', source: 'Test source', summary: 'New guidance', url: 'https://example.org/nist', related: []},
+            {...sample, id: 'round2-nist-full', title: 'National Institute of Standards and Technology publishes cryptography guidance', source: 'Test source', summary: 'Full-name-only evidence', url: 'https://example.org/nist-full', related: []},
+            {...sample, id: 'round2-nist-compound', title: 'NIST-approved cryptography implementation', source: 'Test source', summary: 'Hyphenated organization reference', url: 'https://example.org/nist-approved', related: []},
+            {...sample, id: 'round2-substrings', title: 'Deterministic cryptography for an administration', source: 'Test source', summary: 'An unplanned libm change; no organization is named.', url: 'https://example.org/substrings', related: []},
             {...sample, id: 'round2-html', title: 'Literal <img src=x onerror=window.round2Injected=true> title', source: 'Test source', summary: 'Escaped evidence', url: 'https://example.org/html', related: []},
           ];
           state.data.patents.patents = [{title: 'BUSES FOR MODULAR QUBIT DEVICES', assignee: 'International Business Machines Corporation', url: 'https://example.org/patent'}];
+          [
+            ['DOE', 'Department of Energy'],
+            ['DARPA', 'Defense Advanced Research Projects Agency'],
+            ['NSA', 'National Security Agency'],
+            ['CISA', 'Cybersecurity and Infrastructure Security Agency'],
+            ['NSF', 'National Science Foundation'],
+            ['DoD', 'DoW', 'Department of Defense', 'Department of War'],
+          ].forEach((group, index) => group.forEach((name, variant) => {
+            state.data.reading_brief.stories.push({...sample, id: `agency-${index}-${variant}`, title: `${name} announces a program`, source: 'Test source', summary: 'Agency announcement', url: `https://example.org/agency-${index}-${variant}`, related: []});
+          }));
           state.data.entity_watch = {};
           state.data.federal_missions = {};
           state.data.federal_funding = {};
@@ -200,6 +213,64 @@ def main():
         ]:
             page.locator("#desk-search").fill(query)
             expect(page.locator("#search-results")).to_contain_text(expected)
+        # Compare complete result identities, not just one expected substring.
+        # Abbreviations must neither miss full names nor match unrelated words.
+        for queries, expected_urls in [
+            (
+                ["NIST", "nist", "National Institute of Standards and Technology"],
+                {
+                    "https://example.org/nist",
+                    "https://example.org/nist-full",
+                    "https://example.org/nist-approved",
+                },
+            ),
+            (["IBM", "ibm", "International Business Machines"], {"https://example.org/patent"}),
+            (["NPL", "npl", "National Physical Laboratory"], {"https://example.org/npl"}),
+        ]:
+            for query in queries:
+                page.locator("#desk-search").fill(query)
+                urls = set(
+                    page.locator("#search-results a").evaluate_all(
+                        "links => links.map(a => a.href)"
+                    )
+                )
+                assert urls == expected_urls, {"query": query, "urls": sorted(urls)}
+        page.locator("#desk-search").fill("NIST cryptography")
+        for index, queries in enumerate(
+            [
+                ["DOE", "Department of Energy"],
+                ["DARPA", "Defense Advanced Research Projects Agency"],
+                ["NSA", "National Security Agency"],
+                ["CISA", "Cybersecurity and Infrastructure Security Agency"],
+                ["NSF", "National Science Foundation"],
+                ["DoD", "DoW", "Department of Defense", "Department of War"],
+            ]
+        ):
+            for query in queries:
+                page.locator("#desk-search").fill(query)
+                urls = set(
+                    page.locator("#search-results a").evaluate_all(
+                        "links => links.map(a => a.href)"
+                    )
+                )
+                assert urls == {
+                    f"https://example.org/agency-{index}-{variant}"
+                    for variant in range(len(queries))
+                }, query
+        page.locator("#desk-search").fill("NIST cryptography")
+        expect(page.locator("#search-count")).to_contain_text("3 results")
+        for query in ["determin", "administr"]:
+            page.locator("#desk-search").fill(query)
+            expect(page.locator("#search-count")).to_contain_text("1 result ·")
+            expect(page.locator("#search-results")).to_contain_text("Deterministic cryptography")
+        page.locator('[data-search-kind="Reading"]').click()
+        page.locator("#desk-search").fill("NIST")
+        expect(page.locator("#search-count")).to_contain_text("3 results")
+        page.locator('[data-search-kind="Patent"]').click()
+        expect(page.locator("#search-count")).to_contain_text("0 results")
+        page.locator("#desk-search").fill("IBM")
+        expect(page.locator("#search-count")).to_contain_text("1 result ·")
+        page.locator('[data-search-kind="all"]').click()
         page.locator("#desk-search").fill("zz-no-matches-zz")
         expect(page.locator("#search-count")).to_contain_text("0 results")
         expect(page.locator("#search-results")).to_contain_text("No matching evidence")

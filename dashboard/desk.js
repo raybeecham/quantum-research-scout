@@ -1076,7 +1076,14 @@
     ["ibm", "international business machines", "international business machines corporation"],
     ["nist", "national institute of standards and technology"],
     ["npl", "national physical laboratory"],
+    ["doe", "department of energy"],
+    ["darpa", "defense advanced research projects agency"],
+    ["nsa", "national security agency"],
+    ["cisa", "cybersecurity and infrastructure security agency"],
+    ["nsf", "national science foundation"],
+    ["dod", "dow", "department of defense", "department of war"],
   ];
+  const searchAcronyms = new Set(searchAliases.flat().filter(alias => /^[a-z]{2,5}$/.test(alias)));
   function searchIndex(value) {
     const normalized = normalizeSearch(value);
     const words = normalized.replace(/[^a-z0-9]+/g, " ");
@@ -1145,8 +1152,12 @@
     const terms = query.split(/\s+/);
     const matches = corpus.flat().filter(x => {
       const index = searchIndex(`${x.title} ${x.detail}`);
+      // Entity abbreviations are complete words, not arbitrary substrings:
+      // NIST must not match "deterministic" or "administration". Other search
+      // terms retain partial matching, including unfinished words while typing.
+      const words = new Set(index.match(/[\p{L}\p{N}]+/gu) || []);
       return (
-        terms.every(t => index.includes(t)) &&
+        terms.every(t => (searchAcronyms.has(t) ? words.has(t) : index.includes(t))) &&
         (ui.searchKind === "all" ||
           x.kind === ui.searchKind ||
           (ui.searchKind === "profile" && ["Organization", "Technology"].includes(x.kind)))
