@@ -29,6 +29,71 @@ ARCHIVE_METHOD = (
     "3,000 characters each. Current rule-based interpretation may evolve when Frontier Signal's rules change."
 )
 EVIDENCE_FILE = "story-evidence.json"
+URL_REGISTRY_FILE = "story-urls.json"
+STORY_PATH_RE = re.compile(r"stories/[a-f0-9]{24}/index\.html")
+
+
+def _validate_registry(data):
+    if (
+        not isinstance(data, dict)
+        or data.get("version") != 1
+        or not isinstance(data.get("urls"), dict)
+    ):
+        raise ValueError("Malformed story URL registry; refusing to drop published links")
+    urls = data["urls"]
+    for path, row in urls.items():
+        if (
+            not STORY_PATH_RE.fullmatch(path)
+            or not isinstance(row, dict)
+            or story_path(row.get("source_url")) != path
+        ):
+            raise ValueError("Invalid published story identity")
+        target = row.get("redirect_to")
+        if target and target not in urls:
+            raise ValueError("Story redirect target is missing")
+        _redirect_target(path, urls)
+    return urls
+
+
+def _redirect_target(path, urls):
+    seen = set()
+    while urls.get(path, {}).get("redirect_to"):
+        if path in seen:
+            raise ValueError("Story redirect cycle")
+        seen.add(path)
+        path = urls[path]["redirect_to"]
+    return path
+
+
+def read_story_registry(reports):
+    path = Path(reports) / URL_REGISTRY_FILE
+    return _validate_registry(json.loads(path.read_text(encoding="utf-8"))) if path.exists() else {}
+
+
+def retain_story_urls(reports, registry):
+    """Append-only published URL set, written atomically after validation."""
+    reports = Path(reports)
+    urls = {**read_story_registry(reports), **_validate_registry(registry)}
+    payload = {"version": 1, "urls": urls}
+    _validate_registry(payload)
+    content = json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
+    reports.mkdir(parents=True, exist_ok=True)
+    path = reports / URL_REGISTRY_FILE
+    if path.exists() and path.read_text(encoding="utf-8") == content:
+        return
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w", encoding="utf-8", dir=reports, prefix=".story-urls-", delete=False
+        ) as handle:
+            temporary = Path(handle.name)
+            handle.write(content)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary, path)
+    finally:
+        if temporary and temporary.exists():
+            temporary.unlink()
 
 
 def story_path(url: object) -> str:
@@ -310,6 +375,14 @@ def prepare_story_archive(reports: Path, news: dict) -> dict:
         for item in current
         if isinstance(item, dict) and _canonical(item.get("url"))
     }
+    # The representative briefing includes every merged source account.
+    current_by_url.update(
+        {
+            _canonical(item.get("url")): item
+            for item in news.get("stories", [])
+            if _canonical(item.get("url"))
+        }
+    )
     records = []
     for canonical, snapshots in observations.items():
         # An old story is evaluated at its report's edition date, not today's
@@ -409,15 +482,59 @@ def prepare_story_archive(reports: Path, news: dict) -> dict:
 
     attach(news)
     attach(records)
+    urls = read_story_registry(reports)
+    records_by_path = {row["story_url"]: row for row in records}
+    for record in records:
+        path, story = record["story_url"], record["story"]
+        urls.setdefault(path, {"source_url": story["url"], "title": story["title"]})
+    for story in news.get("stories", []):
+        members = [
+            story_path(row.get("url"))
+            for row in (story.get("news_event") or {}).get("accounts", [])
+        ]
+        members = [path for path in members if path in urls]
+        representative = story_path(story.get("url"))
+        if len(members) < 2 or representative not in urls:
+            continue
+        # Keep a published group's destination stable when ranking changes.
+        targets = [
+            _redirect_target(path, urls) for path in members if urls[path].get("redirect_to")
+        ]
+        target = targets[0] if targets else representative
+        for path in members:
+            if path != target:
+                urls[path]["redirect_to"] = target
+    for path, row in urls.items():
+        target = _redirect_target(path, urls)
+        if target != path:
+            row["redirect_to"] = target
+            if target in records_by_path and path in records_by_path:
+                destination = records_by_path[target]["story"]
+                source = records_by_path[path]["story"]
+                event = destination.setdefault("news_event", {})
+                accounts = event.setdefault("accounts", [])
+                if not any(
+                    _canonical(account.get("url")) == _canonical(source["url"])
+                    for account in accounts
+                ):
+                    accounts.append(
+                        {
+                            key: source.get(key)
+                            for key in ("title", "url", "source", "date", "key_points")
+                        }
+                    )
+    registry = {"version": 1, "urls": urls}
+    _validate_registry(registry)
     metadata = {
         "url": "stories/index.html",
         "story_count": len(records),
+        "published_url_count": len(urls),
         "first_report_date": min((row["first_report_date"] for row in records), default=None),
         "last_report_date": max((row["last_report_date"] for row in records), default=None),
         "method": ARCHIVE_METHOD,
     }
     news["archive"] = metadata
-    return {"records": records, **metadata}
+    return {"records": records, "url_registry": registry, **metadata}
 
 
 def _pages_base(repo_url: str) -> str:
@@ -588,7 +705,7 @@ def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None)
         if re.fullmatch(r"stories/[a-f0-9]{24}/index\.html", local):
             link += f' <a href="../../{local}">Read Frontier Signal briefing</a>'
         related.append(
-            f"<li>{link}<p>{_text(entry.get('source'))} · {_text(entry.get('date') or 'Publication date unavailable')}</p>{_list(entry.get('differences'))}</li>"
+            f"<li>{link}<p>{_text(entry.get('source'))} · {_text(entry.get('date') or 'Publication date unavailable')}</p>{_list(entry.get('excerpts') or entry.get('key_points'))}{_list(entry.get('differences'))}</li>"
         )
     related_html = (
         f"<section><h2>Other coverage of this development</h2><p>Related accounts are not necessarily independent confirmation. Their source-specific evidence and differences remain separate.</p><ul>{''.join(related)}</ul></section>"
@@ -679,6 +796,31 @@ def write_story_archive(archive: dict, output: Path, *, repo_url: str, asset_ver
             ),
             encoding="utf-8",
         )
+    registry = archive.get("url_registry", {"version": 1, "urls": {}})
+    urls = _validate_registry(registry)
+    written = {row["story_url"] for row in records}
+    for old, row in urls.items():
+        target = row.get("redirect_to")
+        if not target and old in written:
+            continue
+        path = Path(output) / old
+        path.parent.mkdir(parents=True, exist_ok=True)
+        link = "../../" + target if target else row["source_url"]
+        canonical = base + target if target and base else link
+        refresh = f'<meta http-equiv="refresh" content="0;url={_text(link)}">' if target else ""
+        message = (
+            "This story is now part of a merged briefing."
+            if target
+            else "This published address is retained. The captured briefing is unavailable; the original source remains linked below."
+        )
+        path.write_text(
+            f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{_text(row.get("title") or "Retained story")}</title>{refresh}<link rel="canonical" href="{_text(canonical)}"></head><body><main><h1>{_text(row.get("title") or "Retained story")}</h1><p>{message}</p><a href="{_text(link)}">Continue to {"the merged briefing" if target else "the original source"}</a></main></body></html>',
+            encoding="utf-8",
+        )
+    (Path(output) / "data").mkdir(parents=True, exist_ok=True)
+    (Path(output) / "data" / URL_REGISTRY_FILE).write_text(
+        json.dumps(registry, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
     cards = []
     for record in records:
         story = record["story"]

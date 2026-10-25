@@ -140,7 +140,9 @@ jobs:
         run: python scripts/check_collection_health.py reports/source-health.json --fail-on-degraded
 
       - name: Validate dashboard build before publication
-        run: python scripts/build_dashboard.py --output "$RUNNER_TEMP/daily-dashboard-check"
+        run: |
+          python scripts/build_dashboard.py --output "$RUNNER_TEMP/daily-dashboard-check"
+          python scripts/retain_story_urls.py --site "$RUNNER_TEMP/daily-dashboard-check"
 
       - name: Record validated daily completion
         env:

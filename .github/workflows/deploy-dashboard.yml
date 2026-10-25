@@ -119,6 +119,10 @@ jobs:
           path: site/verification/
           if-no-files-found: ignore
 
+      - name: Require retained story addresses before publication
+        # No repository write permission is granted to deployment.
+        run: python scripts/retain_story_urls.py --site site --check
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:

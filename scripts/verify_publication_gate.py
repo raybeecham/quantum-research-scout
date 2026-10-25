@@ -146,6 +146,19 @@ def verify(args):
             assert not PLACEHOLDERS.search(page.locator("body").inner_text()), route
         pages = sorted((args.site / "stories").glob("*/index.html"))
         assert pages
+        registry_path = args.site / "data/story-urls.json"
+        if registry_path.exists():
+            registry = json.loads(registry_path.read_text(encoding="utf-8"))["urls"]
+            for path, row in registry.items():
+                response = context.request.get(f"{base}/{path}")
+                assert response.status == 200, path
+                if row.get("redirect_to"):
+                    content = response.text()
+                    assert 'http-equiv="refresh"' in content and 'rel="canonical"' in content, path
+                    assert (
+                        row["redirect_to"] in content
+                        and "Continue to the merged briefing" in content
+                    ), path
         for file in pages:
             response = page.goto(f"{base}/{file.relative_to(args.site).as_posix()}")
             assert response and response.status == 200, str(file)
