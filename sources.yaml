@@ -360,9 +360,6 @@ rss_feeds:
     source_note: "Disabled after the 2026-10-25 audit: investor RSS and news-release endpoints return HTTP 403; the public news page exposes no usable article links to this collector. Recheck before enabling."
     url: "https://investors.rigetti.com/rss/news-releases.xml"
     entities: [Rigetti]
-  - name: "Microsoft Quantum Blog"
-    url: "https://azure.microsoft.com/en-us/blog/quantum/feed/"
-    entities: [Microsoft Quantum]
   - name: "Open Quantum Safe"
     url: "https://github.com/open-quantum-safe/liboqs/releases.atom"
     entities: [Open Quantum Safe]
@@ -423,6 +420,19 @@ urls:
     entities: [Entrust]
 
 watch_sources:
+  - name: "Microsoft Quantum Blog"
+    entities: [Microsoft Quantum]
+    url: "https://quantum.microsoft.com/en-us/insights/blogs"
+    include_patterns: [/insights/blogs/]
+    min_title_chars: 6  # Card links say "Read more"; titles are read from article metadata.
+    max_items: 20
+    source_note: "2026-10-25: use the current Microsoft Quantum technical blog; the legacy Azure quantum RSS feed stopped exposing newer technical posts."
+  - name: "DOE Office of Science Updates"
+    entities: [Department of Energy]
+    url: "https://www.energy.gov/topics/science-innovation"
+    include_patterns: [/articles/, /science/articles/]
+    match_patterns: [quantum, computing, artificial intelligence, super intelligence, cybersecurity, genesis, science]
+    max_items: 25
   - name: "IBM Research Quantum and Cryptography"
     entities: [IBM]
     rss_url: "https://research.ibm.com/rss"
@@ -445,9 +455,9 @@ watch_sources:
     max_items: 1
   - name: "Google Quantum AI"
     entities: [Google Quantum AI]
-    url: "https://research.google/blog/label/quantum/"
-    include_patterns: [/blog/]
-    exclude_patterns: [/blog/label/, /blog/year/]
+    url: "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/"
+    include_patterns: [/quantum-computing/]
+    source_note: "2026-10-25: collect the dedicated Google Quantum AI publishing hub, including hardware results missing from the older Research label page."
     match_patterns: [quantum, qubit]
     max_items: 15
   - name: "DOE Federal Science Missions"

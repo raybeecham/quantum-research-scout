@@ -423,10 +423,27 @@
 
   function selectFeatured(filtered) {
     const editorial = state.data?.news_intelligence?.editorial;
-    if (state.sort !== "editorial" || !editorial) return filtered.slice(0, 4);
+    if (state.sort !== "editorial" || !editorial) {
+      const publishers = new Set();
+      return filtered
+        .filter(item => {
+          const host = new URL(sourceUrl(item.url)).hostname.replace(/^www\./, "");
+          if (publishers.has(host)) return false;
+          publishers.add(host);
+          return true;
+        })
+        .slice(0, 4);
+    }
     const eligible = filtered.filter(item => item.news_editorial?.eligible);
     if (!eligible.length) return filtered.slice(0, 1);
     const selected = [];
+    const publishers = new Set();
+    const add = item => {
+      const host = new URL(sourceUrl(item.url)).hostname.replace(/^www\./, "");
+      if (selected.some(row => row.id === item.id) || publishers.has(host)) return;
+      publishers.add(host);
+      selected.push(item);
+    };
     const lookup = new Map(eligible.map(item => [item.id, item]));
     const preferred = [
       editorial.lead_id,
@@ -435,12 +452,12 @@
     ];
     for (const id of preferred) {
       if (!lookup.has(id) || selected.some(item => item.id === id)) continue;
-      selected.push(lookup.get(id));
+      add(lookup.get(id));
       if (selected.length === 4) break;
     }
     for (const item of eligible) {
       if (selected.length >= 4) break;
-      if (!selected.some(row => row.id === item.id)) selected.push(item);
+      add(item);
     }
     return selected;
   }

@@ -1315,9 +1315,31 @@ def test_editorial_roundup_adds_source_and_topic_variety_without_dropping_other_
     )
     result = build(*rows, alternate)
     assert len(result["stories"]) == 7
-    assert len(result["editorial"]["roundup_ids"]) == 3
+    assert len(result["editorial"]["roundup_ids"]) == 1
     assert alternate["id"] in result["editorial"]["roundup_ids"]
-    assert len({result["editorial"]["lead_id"], *result["editorial"]["roundup_ids"]}) == 4
+    assert len({result["editorial"]["lead_id"], *result["editorial"]["roundup_ids"]}) == 2
+
+
+def test_recent_preprint_gets_reserved_shortlist_slot_without_publisher_repeats():
+    rows = [
+        story(
+            f"Maker {i} releases quantum processor",
+            f"https://publisher{i}.example/news",
+            source=f"Publisher {i}",
+        )
+        for i in range(5)
+    ]
+    paper = story(
+        "Quantum error correction with constrained decoders",
+        "https://arxiv.org/abs/2609.12345",
+        source="arXiv",
+        source_kind="preprint",
+        date="2026-09-24",
+    )
+    result = build(*rows, paper)
+    ids = [result["editorial"]["lead_id"], *result["editorial"]["roundup_ids"]]
+    assert ids[1] == paper["id"]
+    assert len(ids) == 4
 
 
 def historical(title, url, date="2026-09-15", **kwargs):

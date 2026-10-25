@@ -37,3 +37,11 @@ The URL registry reserves all 222 existing source addresses, including seven mer
 The deploy job remains read-only. The existing daily report-writing workflow retains addresses before its normal report commit; deployment refuses a build with uncommitted new URLs or changed redirects. Local code changes that introduce URLs use `python scripts/retain_story_urls.py --site site` before review and commit. No additional automatic pushes or repository permissions were added.
 
 Verification: 71 archive and scheduling tests passed, including merge, rotation, missing-evidence, append-only retention, and malformed-registry cases. The browser release gate checks HTTP 200 for every registry entry and validates each redirect's three required elements.
+
+## 5. Primary publishers and shortlist diversity
+
+Verified NIST CSRC (25 entries), IBM Research (10), IonQ (10), and Quantinuum (6) with their configured collectors. Google Quantum AI now uses its dedicated publishing hub and captures the October 15 magic-state result missing from the older Research label page. Microsoft now uses its technical blog, following short card links to full article metadata. Added a DOE science/innovation collector. All new/repaired routes returned usable dated entries; collection remains healthy.
+
+Featured picks now enforce one publisher host per slot, including after filtering or changing sort order. When available, the first shortlist slot is reserved for an eligible recent paper or preprint. Sparse editions show fewer picks rather than repeating a publisher or promoting an old paper. All other stories stay in the collection.
+
+The stale target is **not yet met**: 33 sources are still stale, down from the supplied 36. A fresh audit confirmed that many reachable feeds and funding queries genuinely return older records. No timestamps were invented, and freshness thresholds were not relaxed to reach the target. Audits update health, not the current digest; newly discovered articles enter through the next scheduled collection.

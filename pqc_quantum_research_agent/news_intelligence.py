@@ -42,6 +42,7 @@ _EDITORIAL_METHOD = (
     "Explicit developments from the last seven edition days are eligible; advice, opinion, "
     "personnel announcements, and undated items remain in Latest but cannot lead. "
     "Recency, evidence stage, source perspective, and topic variety guide the picks. "
+    "Featured stories use different publisher hosts. One shortlist slot is reserved for a recent research publication when an eligible one is available. "
     "A reported deployment or result is not independently verified."
 )
 _PROGRESSION_METHOD = (
@@ -744,7 +745,22 @@ def _editorial_picks(candidates, edition):
     ranked = sorted(eligible, key=lambda row: rank(row, []), reverse=True)
     selected = []
     while eligible and len(selected) < 4:
-        item = max(eligible, key=lambda row: rank(row, selected))
+        publishers = {urlsplit(row["url"]).hostname.removeprefix("www.") for row in selected}
+        available = [
+            row
+            for row in eligible
+            if urlsplit(row["url"]).hostname.removeprefix("www.") not in publishers
+        ]
+        if not available:
+            break
+        papers = [
+            row
+            for row in available
+            if row["news_editorial"]["source_perspective"]
+            in {"Research publication", "Research preprint"}
+        ]
+        pool = papers if len(selected) == 1 and papers else available
+        item = max(pool, key=lambda row: rank(row, selected))
         selected.append(item)
         eligible.remove(item)
     return {
