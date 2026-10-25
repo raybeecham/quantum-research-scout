@@ -374,7 +374,7 @@ def _archive_followups(historical, stories, as_of):
                 "url": url,
                 "review_date": day.isoformat(),
                 "status": "Older announcement · revisit",
-                "reason": f"Published {(as_of - day).days} days before this edition. The 30-day review threshold is Scout's editorial rule, not a promised delivery date.",
+                "reason": f"Published {(as_of - day).days} days before this edition. The 30-day review threshold is Frontier Signal's editorial rule, not a promised delivery date.",
                 "bottom_line": "Delivery and current status have not been established here. Possible related headlines are not proof of follow-through; absence of a matching update in these snapshots is not evidence of failure.",
                 "next_step": "Re-read the announcement for a concrete deliverable, then look for a release, evaluation, or explicit project-status update addressing it.",
                 "timeline": sorted([origin, *updates], key=lambda x: x["date"] or ""),

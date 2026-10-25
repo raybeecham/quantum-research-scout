@@ -442,7 +442,7 @@ def render_weekly_report(weekly: WeeklyInputs) -> str:
     warning_count = sum(report.source_warning_count for report in weekly.reports)
 
     lines: list[str] = [
-        f"# PQC and Quantum Weekly Intelligence Synthesis - {weekly.start_date.isoformat()} to {weekly.end_date.isoformat()}",
+        f"# Frontier Signal Weekly Intelligence Synthesis - {weekly.start_date.isoformat()} to {weekly.end_date.isoformat()}",
         "",
         "> **Weekly Intelligence Brief** · Consolidated themes, movement, and follow-up",
         "",

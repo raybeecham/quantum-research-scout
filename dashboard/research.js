@@ -22,7 +22,7 @@
       !["quantum-scout-reading-list-v1", "quantum-scout-notebook-v2"].includes(data.format) ||
       !Array.isArray(data.readings)
     )
-      throw new Error("This is not a supported Scout notebook export");
+      throw new Error("This is not a supported Frontier Signal notebook export");
     if (data.readings.length > 1000) throw new Error("A backup may contain at most 1,000 readings");
     const seen = new Set();
     const result = [];

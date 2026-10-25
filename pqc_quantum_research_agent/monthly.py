@@ -38,8 +38,8 @@ def write_monthly_report(
     inputs = load_weekly_inputs(reports_path, start_date, end_date)
     content = render_weekly_report(inputs)
     content = content.replace(
-        f"# PQC and Quantum Weekly Intelligence Synthesis - {start_date.isoformat()} to {end_date.isoformat()}",
-        f"# PQC and Quantum Monthly Intelligence Synthesis - {start_date:%B %Y}",
+        f"# Frontier Signal Weekly Intelligence Synthesis - {start_date.isoformat()} to {end_date.isoformat()}",
+        f"# Frontier Signal Monthly Intelligence Synthesis - {start_date:%B %Y}",
         1,
     )
     content = content.replace("weekly", "monthly").replace("Weekly", "Monthly")

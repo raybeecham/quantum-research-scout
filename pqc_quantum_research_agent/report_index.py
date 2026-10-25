@@ -27,7 +27,7 @@ def write_report_index(reports_dir: str | Path, *, generated_at: datetime | None
     lines = [
         "# Research Report Index",
         "",
-        "> **Quantum Research Scout** · Intelligence archive and operational dashboard",
+        "> **Frontier Signal** · Intelligence archive and operational dashboard",
         "",
         f"_Updated {generated.astimezone(timezone.utc):%Y-%m-%d %H:%M UTC}_",
         "",

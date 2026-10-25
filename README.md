@@ -1,19 +1,21 @@
-# Quantum Research Scout
+# Frontier Signal
 
-### Know what matters. Decide what to investigate next.
+### Emerging technology. Evidence. Perspective.
 
 An emerging-technology intelligence desk for **cybersecurity, PQC, quantum computing, AI, and cloud**.
 Follow consequential developments, see what they could affect, and choose a useful next step. Research tools remain available when you want to dig deeper, not as a prerequisite for using the briefing.
 
 **[Open the intelligence desk →](https://raybeecham.github.io/quantum-research-scout/)** · [Browse reports](reports/README.md) · [How it works](docs/METHODOLOGY.md)
 
-[![Scout's news-first magazine: original-source headlines, topic filters, and a dark navy layout.](docs/assets/scout-news-desk.png)](https://raybeecham.github.io/quantum-research-scout/)
+[![Frontier Signal: Emerging technology. Evidence. Perspective.](docs/assets/frontier-signal.svg)](https://raybeecham.github.io/quantum-research-scout/)
 
-*Local build using the checked-in September 2026 report snapshot, not live news. Story images come from the original publisher's article previews, with source attribution.*
+Formerly Quantum Research Scout. Existing repository and site URLs remain unchanged, and saved readings, follows, and notebook backups remain compatible.
+
+The Python package, Worker service name, OAuth callbacks, and browser-storage identifiers retain their legacy technical names for compatibility. Historical reports preserve their original headings; newly generated reports use Frontier Signal.
 
 ## Start with what's happening
 
-The **[Latest](https://raybeecham.github.io/quantum-research-scout/#news)** page leads with a concrete development, a three-story shortlist, and a compact news list. Headlines come first; **Browse, filter & follow** holds the controls. Quantum computing and cybersecurity/PQC are the core coverage; AI and cloud are adjacent coverage. **Story details** separates source excerpts from Scout's rule-based interpretation and uncertainty. Dated evidence trails show how a specific development has progressed when the sources support it. The top navigation keeps the briefing, technology landscape, federal activity, patents, and saved readings close by. Deeper tools remain under **Tools**. On a phone, use **Menu**.
+The **[Latest](https://raybeecham.github.io/quantum-research-scout/#news)** page leads with a concrete development, a three-story shortlist, and a compact news list. Headlines come first; **Browse, filter & follow** holds the controls. Quantum computing and cybersecurity/PQC are the core coverage; AI and cloud are adjacent coverage. **Story details** separates source excerpts from Frontier Signal's rule-based interpretation and uncertainty. Dated evidence trails show how a specific development has progressed when the sources support it. The top navigation keeps the briefing, technology landscape, federal activity, patents, and saved readings close by. Deeper tools remain under **Tools**. On a phone, use **Menu**.
 
 | What you want to know | Where to go |
 |---|---|

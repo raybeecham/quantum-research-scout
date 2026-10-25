@@ -1,4 +1,4 @@
-"""Post-quantum cryptography and quantum research scout."""
+"""Frontier Signal emerging technology intelligence engine."""
 
 __all__ = ["__version__"]
 

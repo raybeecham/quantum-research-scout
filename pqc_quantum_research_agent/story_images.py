@@ -224,7 +224,7 @@ def _request_page(url: str, deadline: float) -> tuple[int, dict[str, str], bytes
             "GET",
             target,
             headers={
-                "User-Agent": "QuantumResearchScout/1.0 (public article preview metadata)",
+                "User-Agent": "FrontierSignal/1.0 (public article preview metadata)",
                 "Accept": "text/html,application/xhtml+xml",
                 "Accept-Encoding": "identity",
                 "Connection": "close",

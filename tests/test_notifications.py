@@ -52,7 +52,7 @@ class NotificationTests(unittest.TestCase):
                 root / "out",
                 config_path=config,
                 email_to="analyst@example.com",
-                email_from="Scout <scout@example.com>",
+                email_from="Frontier Signal <scout@example.com>",
             )
 
             self.assertTrue(result["send_immediate"])

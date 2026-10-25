@@ -1,6 +1,6 @@
 # Research Report Index
 
-> **Quantum Research Scout** · Intelligence archive and operational dashboard
+> **Frontier Signal** · Intelligence archive and operational dashboard
 
 _Updated 2026-10-24 02:52 UTC_
 

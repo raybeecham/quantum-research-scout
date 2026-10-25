@@ -1,6 +1,6 @@
 # Primary-source leads
 
-Story details can distinguish an article that is itself an official account or scholarly record from reporting that links to one. Neither label means Scout independently verified a claim or established peer review.
+Story details can distinguish an article that is itself an official account or scholarly record from reporting that links to one. Neither label means Frontier Signal independently verified a claim or established peer review.
 
 The bounded collector reads publisher article HTML and retains only explicitly linked URLs, short anchor text, a surrounding excerpt of up to 320 characters, the referring article URL, and the check date. It does not download the linked papers or other target documents. Those links are leads for a reader to inspect, not supporting passages available to the story AI.
 

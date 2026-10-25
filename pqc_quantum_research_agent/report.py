@@ -340,7 +340,7 @@ def render_digest(
     confidence = _briefing_confidence(report_items, warnings)
 
     lines: list[str] = [
-        f"# PQC and Quantum Research Digest - {report_date.isoformat()}",
+        f"# Frontier Signal Daily Briefing - {report_date.isoformat()}",
         "",
         "> **Daily Intelligence Brief** · Post-quantum cryptography · Quantum technology · AI security and capabilities · Cloud infrastructure",
         "",

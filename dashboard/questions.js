@@ -1099,7 +1099,7 @@
   $("lab-export").onclick = () => {
     if (dirty && !save()) return;
     download(
-      "scout-question-lab.json",
+      "frontier-signal-question-lab.json",
       JSON.stringify(
         {
           format: "scout-question-lab-v1",
@@ -1183,7 +1183,7 @@
       `Unresolved checks: ${row.investigation.checks || "Not recorded"}`,
       `Limitations: ${row.investigation.limitations || "Not recorded"}`,
     ].join("\n\n");
-    download("scout-research-question.md", text, "text/markdown");
+    download("frontier-signal-research-question.md", text, "text/markdown");
   };
   window.ScoutQuestions = {
     list: () => structuredClone(rows),

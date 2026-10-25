@@ -492,7 +492,7 @@ def primary_evidence_for_story(
         )
         result.update(
             status="source_of_record" if own else "linked_sources",
-            note="The publisher links to these source leads. Scout has not read those documents or confirmed that they support the story's claims.",
+            note="The publisher links to these source leads. Frontier Signal has not read those documents or confirmed that they support the story's claims.",
         )
     elif record and not own:
         if record["status"] == "no_links":

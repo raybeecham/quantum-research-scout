@@ -19,7 +19,7 @@ class MonthlyReportTests(unittest.TestCase):
             output = write_monthly_report(temp_dir, month="2026-05")
             self.assertEqual(output, Path(temp_dir) / "monthly" / "2026" / "2026-05-monthly.md")
             content = output.read_text(encoding="utf-8")
-            self.assertIn("# PQC and Quantum Monthly Intelligence Synthesis - May 2026", content)
+            self.assertIn("# Frontier Signal Monthly Intelligence Synthesis - May 2026", content)
             self.assertNotIn("Weekly Intelligence Synthesis", content)
             self.assertNotIn("this week", content.lower())
             self.assertNotIn("next week", content.lower())

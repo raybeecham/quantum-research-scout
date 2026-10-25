@@ -24,9 +24,9 @@ on:
       - ".github/workflows/deploy-dashboard.yml"
   workflow_run:
     workflows:
-      - "Daily PQC Quantum Research Scout"
-      - "Weekly PQC Quantum Research Synthesis"
-      - "Monthly PQC Quantum Research Synthesis"
+      - "Frontier Signal Daily Briefing"
+      - "Frontier Signal Weekly Synthesis"
+      - "Frontier Signal Monthly Synthesis"
       - "Weekly Historical Intelligence Backfill"
     types: [completed]
   workflow_dispatch:
@@ -60,7 +60,7 @@ jobs:
             // Successful catch-up no-ops also rebuild Pages: they can recover a
             // failed deployment without collecting evidence or sending alerts.
             let deploy = !run || run.conclusion === 'success';
-            if (run && !deploy && ['Daily PQC Quantum Research Scout', 'Weekly PQC Quantum Research Synthesis'].includes(run.name)) {
+            if (run && !deploy && ['Frontier Signal Daily Briefing', 'Frontier Signal Weekly Synthesis'].includes(run.name)) {
               const jobs = await github.paginate(github.rest.actions.listJobsForWorkflowRun, {
                 ...context.repo, run_id: run.id, per_page: 100
               });

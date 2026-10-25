@@ -33,7 +33,7 @@ Desktop notifications require a separate, explicit opt-in and browser permission
 
 ## Reader feedback
 
-Choose **Useful**, **Too generic**, or **Missing context**, optionally adding a short note. Feedback is tied to the source story and the revision of Scout's interpretation, so a later revision is not silently treated as the same assessment.
+Choose **Useful**, **Too generic**, or **Missing context**, optionally adding a short note. Feedback is tied to the source story and the revision of Frontier Signal's interpretation, so a later revision is not silently treated as the same assessment.
 
 Feedback, development follows and notification preferences remain in browser-local storage, separate from notebook data. They are not uploaded or used for automatic training or scoring changes. Export feedback for a deliberate editorial review; clear it separately without removing notebook notes. Local storage is not encrypted and does not follow you between localhost, the public site or another device. Do not enter confidential information.
 

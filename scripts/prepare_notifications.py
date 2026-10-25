@@ -39,8 +39,8 @@ def prepare_notifications(
     output = Path(output_dir)
     output.mkdir(parents=True, exist_ok=True)
 
-    immediate_title = f"Quantum Research Scout: {len(immediate)} new {minimum}+ alert{'s' if len(immediate) != 1 else ''}"
-    digest_title = f"Quantum Research Scout daily summary: {len(alerts)} active alert{'s' if len(alerts) != 1 else ''}"
+    immediate_title = f"Frontier Signal: {len(immediate)} new {minimum}+ alert{'s' if len(immediate) != 1 else ''}"
+    digest_title = f"Frontier Signal daily summary: {len(alerts)} active alert{'s' if len(alerts) != 1 else ''}"
     _write_channel_payloads(
         output, "immediate", immediate_title, immediate, updated_at, repo_url, dashboard_url
     )

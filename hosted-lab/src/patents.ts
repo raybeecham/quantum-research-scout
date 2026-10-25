@@ -136,7 +136,7 @@ export async function fetchPatent(identifier: string) {
       signal: AbortSignal.timeout(25000),
       headers: {
         "User-Agent":
-          "QuantumResearchScout/1.0 (+https://github.com/raybeecham/quantum-research-scout)",
+          "FrontierSignal/1.0 (+https://github.com/raybeecham/quantum-research-scout)",
       },
     });
     if (response.status !== 200) {

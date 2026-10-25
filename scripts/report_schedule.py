@@ -82,6 +82,12 @@ def completed(root: Path, kind: str, target: date) -> bool:
 def validate_report(root: Path, kind: str, target: date) -> bytes:
     content = report_path(root, kind, target).read_bytes()
     text = content.decode("utf-8")
+    # Accept both publication names without rewriting historical reports or receipts.
+    text = text.replace("Frontier Signal Daily Briefing", "PQC and Quantum Research Digest")
+    text = text.replace(
+        "Frontier Signal Weekly Intelligence Synthesis",
+        "PQC and Quantum Weekly Intelligence Synthesis",
+    )
     if kind == "daily":
         required = (
             f"# PQC and Quantum Research Digest - {target}",

@@ -14,6 +14,7 @@ from scripts.report_schedule import (
     receipt_path,
     record,
     report_path,
+    validate_report,
 )
 from scripts.weekly_snapshot import publish, stage
 
@@ -32,6 +33,16 @@ def daily(root, target, end="21:00"):
         encoding="utf-8",
     )
     return path
+
+
+@pytest.mark.parametrize(
+    "name", ["PQC and Quantum Research Digest", "Frontier Signal Daily Briefing"]
+)
+def test_report_validation_accepts_old_and_new_brand(tmp_path, name):
+    path = daily(tmp_path, FRIDAY)
+    content = path.read_text(encoding="utf-8").replace("PQC and Quantum Research Digest", name)
+    path.write_text(content, encoding="utf-8")
+    assert validate_report(tmp_path, "daily", FRIDAY) == path.read_bytes()
 
 
 @pytest.mark.parametrize(
@@ -227,14 +238,14 @@ def test_workflow_schedules_and_publication_order():
     [
         (None, [], "true"),
         ({"conclusion": "success"}, [], "true"),  # includes recovery after a failed Pages deploy
-        ({"conclusion": "failure", "name": "Daily PQC Quantum Research Scout"}, [], "false"),
+        ({"conclusion": "failure", "name": "Frontier Signal Daily Briefing"}, [], "false"),
         (
-            {"conclusion": "failure", "name": "Daily PQC Quantum Research Scout"},
+            {"conclusion": "failure", "name": "Frontier Signal Daily Briefing"},
             [{"name": "Commit generated reports and publication receipt", "conclusion": "success"}],
             "true",
         ),
         (
-            {"conclusion": "failure", "name": "Weekly PQC Quantum Research Synthesis"},
+            {"conclusion": "failure", "name": "Frontier Signal Weekly Synthesis"},
             [{"name": "Commit generated weekly reports", "conclusion": "failure"}],
             "false",
         ),

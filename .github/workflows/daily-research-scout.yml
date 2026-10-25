@@ -1,4 +1,4 @@
-name: Daily PQC Quantum Research Scout
+name: Frontier Signal Daily Briefing
 
 on:
   schedule:
@@ -84,7 +84,7 @@ jobs:
       - name: Install agent
         run: python -m pip install .
 
-      - name: Run research scout in default Central day coverage mode
+      - name: Collect Frontier Signal evidence in default Central day coverage mode
         env:
           REPORTS_DIR: ${{ github.workspace }}/reports
           REPORT_DATE: ${{ needs.publication-gate.outputs.report_date }}

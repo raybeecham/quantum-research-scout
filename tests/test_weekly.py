@@ -247,7 +247,7 @@ class WeeklyReportTests(unittest.TestCase):
         self.assertEqual(output_path.name, "2026-05-12_to_2026-05-13-weekly.md")
         self.assertEqual(output_path.parent.name, "2026")
         self.assertIn(
-            "# PQC and Quantum Weekly Intelligence Synthesis - 2026-05-12 to 2026-05-13", content
+            "# Frontier Signal Weekly Intelligence Synthesis - 2026-05-12 to 2026-05-13", content
         )
         self.assertIn("> **Weekly Intelligence Brief**", content)
         self.assertIn(
@@ -600,7 +600,7 @@ def _daily_report(
     )
     second_point_line = f"- {second_point}\n" if second_point is not None else ""
     return (
-        "# PQC and Quantum Research Digest - 2026-05-13\n\n"
+        "# Frontier Signal Daily Briefing - 2026-05-13\n\n"
         "## Strategic Signals\n\n"
         f"### {title}\n"
         f"_{category} • {source} • Published 2026-05-13 07:00 America/Chicago • HIGH {score}_\n\n"

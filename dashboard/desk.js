@@ -247,7 +247,7 @@
     view.className = "desk-workspace";
     view.id = `${key}-workspace`;
     view.hidden = true;
-    view.innerHTML = `<div class="workspace-heading"><span class="desk-kicker">SCOUT / ${esc(key)}</span><h1>${esc(title)}</h1><p>${esc(descriptions[key])}</p></div><nav class="workspace-jumps" aria-label="${esc(title)} sections"></nav>`;
+    view.innerHTML = `<div class="workspace-heading"><span class="desk-kicker">FRONTIER SIGNAL / ${esc(key)}</span><h1>${esc(title)}</h1><p>${esc(descriptions[key])}</p></div><nav class="workspace-jumps" aria-label="${esc(title)} sections"></nav>`;
     ids.forEach(id => {
       const node = $(id);
       if (!node) return;
@@ -330,7 +330,7 @@
       el.hidden = name !== key;
     });
     $("workspace-name").textContent = views[key][0].toUpperCase();
-    document.title = `${views[key][0]} · Quantum Research Scout`;
+    document.title = `${views[key][0]} · Frontier Signal`;
     document.querySelectorAll("[data-workspace]").forEach(a => {
       if (a.dataset.workspace === key) a.setAttribute("aria-current", "page");
       else a.removeAttribute("aria-current");
@@ -1119,7 +1119,7 @@
     const result = x => {
       const url = link(x.url);
       const external = new URL(url, location.href).origin !== location.origin;
-      return `<a href="${esc(url)}"${external ? ' target="_blank" rel="noopener noreferrer"' : ""}><span>${esc(x.kind)}${external ? " · Original source ↗" : " · Scout profile →"}</span><strong>${esc(x.title)}</strong><small>${esc(x.detail || "Open evidence")}</small></a>`;
+      return `<a href="${esc(url)}"${external ? ' target="_blank" rel="noopener noreferrer"' : ""}><span>${esc(x.kind)}${external ? " · Original source ↗" : " · Frontier Signal profile →"}</span><strong>${esc(x.title)}</strong><small>${esc(x.detail || "Open evidence")}</small></a>`;
     };
     let shown = 0;
     $("search-results").innerHTML =
@@ -1217,7 +1217,7 @@
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "scout-reading-list.json";
+    a.download = "frontier-signal-reading-list.json";
     a.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   });
@@ -1227,7 +1227,7 @@
       .map((item, index) => research.bibRecord(item, citationFor(item), index));
     const blob = new Blob(
       [
-        "% Scout citations: repository metadata where available; review version and missing fields before academic use.\n\n" +
+        "% Frontier Signal citations: repository metadata where available; review version and missing fields before academic use.\n\n" +
           records.join("\n\n"),
       ],
       { type: "text/plain;charset=utf-8" },
@@ -1235,7 +1235,7 @@
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "scout-citations.bib";
+    a.download = "frontier-signal-citations.bib";
     a.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   });
@@ -1274,7 +1274,7 @@
         return;
       }
       if (!/^\s*\{/.test(content))
-        throw Error("Choose a RIS reference export or a Scout JSON notebook backup");
+        throw Error("Choose a RIS reference export or a Frontier Signal JSON notebook backup");
       let backup;
       try {
         backup = research.validateBackup(content);
@@ -1298,7 +1298,7 @@
       );
       $("import-confirm").disabled = !plan.additions.length;
       $("notebook-import-status").textContent =
-        "Scout JSON backup detected. Review the preview, then Merge new readings. Nothing has been imported.";
+        "Frontier Signal JSON backup detected. Review the preview, then Merge new readings. Nothing has been imported.";
       $("notebook-import-preview").hidden = false;
       $("import-heading").tabIndex = -1;
       $("import-heading").focus();

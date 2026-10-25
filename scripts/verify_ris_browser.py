@@ -168,7 +168,7 @@ def main():
         )
         expect(page.locator("#notebook-import-preview")).to_be_visible()
         expect(page.locator("#notebook-import-status")).to_contain_text(
-            "Scout JSON backup detected"
+            "Frontier Signal JSON backup detected"
         )
         expect(page.locator("#ris-import")).not_to_be_visible()
         page.locator("#import-confirm").click()

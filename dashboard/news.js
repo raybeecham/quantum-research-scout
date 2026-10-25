@@ -257,7 +257,7 @@
       Array.isArray(item.news_detail?.analysis_evidence) &&
       item.news_detail.analysis_evidence.length &&
       text(leadImpact)
-        ? `<div class="news-lead-context"><span>Why it may matter · Scout interpretation</span><p>${esc(leadImpact)}</p></div>`
+        ? `<div class="news-lead-context"><span>Why it may matter · Frontier Signal interpretation</span><p>${esc(leadImpact)}</p></div>`
         : "";
     const copy = `<div class="news-copy"><p class="news-category" data-news-category="${topic}">${variant === "lead" ? '<span class="news-lead-marker">' + (editorial?.eligible ? "IN FOCUS" : "FROM THE COLLECTION") + "</span> · " : ""}${esc(topic === "all" ? "Emerging technology" : TOPICS[topic])}</p><${heading}><a href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></${heading}>${metadata(item)}${status}<p class="news-summary${summary ? "" : " is-unavailable"}">${esc(summary || "Source excerpt unavailable. Open the original source to see what it reports.")}</p>${context || whyNow}${basis}<div class="news-actions">${detail}<a class="news-source-link" href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Read original <span aria-hidden="true">↗</span></a>${save}${readButton}</div></div>`;
     const image = visual(item, variant === "lead", usedImages);
@@ -572,7 +572,7 @@
           ? `Report window: ${dateLabel(coverage.window_start)}–${dateLabel(coverage.window_end)}. `
           : "";
       $("news-scope").textContent =
-        `${range}${state.sort === "editorial" ? "Developments first prioritizes explicit recent changes, with a varied shortlist; advice remains in the collection. This is rule-based selection, not human editorial review." : state.sort === "relevance" ? "Ordered by existing rule-based decision relevance, then report date; this is not a quality rating." : "Ordered by collected report date, then existing Scout relevance within each date; ties retain collection order. This is not source publication order or a quality rating."} Topic filters match collected evidence, not exhaustive coverage. Images are publisher-provided article previews, loaded directly from their image hosts without a referrer. Image hosts still receive your IP address. Missing, blocked, or repeated previews use text-only cards; publisher artwork may be illustrative.`;
+        `${range}${state.sort === "editorial" ? "Developments first prioritizes explicit recent changes, with a varied shortlist; advice remains in the collection. This is rule-based selection, not human editorial review." : state.sort === "relevance" ? "Ordered by existing rule-based decision relevance, then report date; this is not a quality rating." : "Ordered by collected report date, then existing Frontier Signal relevance within each date; ties retain collection order. This is not source publication order or a quality rating."} Topic filters match collected evidence, not exhaustive coverage. Images are publisher-provided article previews, loaded directly from their image hosts without a referrer. Image hosts still receive your IP address. Missing, blocked, or repeated previews use text-only cards; publisher artwork may be illustrative.`;
       $("news-filter-buttons")
         .querySelectorAll("[data-news-topic]")
         .forEach(button =>

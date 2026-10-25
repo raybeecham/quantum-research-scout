@@ -72,7 +72,7 @@ def fetch(url, params):
         url,
         params=params,
         headers={
-            "User-Agent": "QuantumResearchScout/1.0 (+https://github.com/raybeecham/quantum-research-scout)"
+            "User-Agent": "FrontierSignal/1.0 (+https://github.com/raybeecham/quantum-research-scout)"
         },
         timeout=(5, 20),
         allow_redirects=False,

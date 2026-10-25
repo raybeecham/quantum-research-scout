@@ -299,7 +299,7 @@ def _opportunity_forecast(
         "subject_id": mission.get("id"),
         "subject": mission.get("name"),
         "question": (
-            f"Will Scout observe an additional federal solicitation, grant opportunity, BAA, "
+            f"Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, "
             f"or RFI explicitly linked to {mission.get('name')} by {horizon.isoformat()}?"
         ),
         "probability": probability,

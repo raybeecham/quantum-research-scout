@@ -271,7 +271,7 @@
         : `<p class="story-reader-note">No specific project, system, or document can be matched safely from this evidence. Follow the topic or organization instead.</p>`
     }</div>
       <details data-reader-feedback${wasOpen ? " open" : ""}><summary>Was this briefing useful?${remembered ? ` · ${esc(remembered.choice)}` : ""}</summary>
-      <p class="story-reader-note">Feedback applies to this version of Scout's interpretation, not the publisher's article.${old && !remembered ? " Your earlier feedback is retained for the previous interpretation." : ""}</p>
+      <p class="story-reader-note">Feedback applies to this version of Frontier Signal's interpretation, not the publisher's article.${old && !remembered ? " Your earlier feedback is retained for the previous interpretation." : ""}</p>
       <div class="story-reader-votes" role="group" aria-label="Briefing feedback">${choices.map(choice => `<button type="button" data-reader-vote="${choice}" aria-pressed="${remembered?.choice === choice}">${choice}</button>`).join("")}</div>
       <label class="story-reader-note-label">Optional private note <textarea data-reader-note maxlength="${MAX_NOTE}" rows="3" placeholder="What was useful or missing?">${esc(entry.draftNote ?? remembered?.note ?? "")}</textarea></label>
       <div class="story-reader-actions"><button type="button" data-reader-action="save-note"${remembered ? "" : " disabled"}>Save note</button><button type="button" data-reader-action="export">Export feedback</button>${remembered ? `<button type="button" data-reader-action="remove-feedback">Remove this feedback</button>` : ""}</div>
@@ -370,7 +370,7 @@
         new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" }),
       );
       link.href = url;
-      link.download = "scout-briefing-feedback.json";
+      link.download = "frontier-signal-briefing-feedback.json";
       link.click();
       setTimeout(() => URL.revokeObjectURL(url), 1000);
       status(
@@ -409,7 +409,7 @@
           const notice = new Notification(
             `${fresh.length} followed development update${fresh.length === 1 ? "" : "s"}`,
             {
-              body: `${fresh[0].development_label}: ${fresh[0].label}. Open Scout's development inbox to review the source.`,
+              body: `${fresh[0].development_label}: ${fresh[0].label}. Open Frontier Signal's development inbox to review the source.`,
               tag: `scout-development-${fresh[0].id}`,
               renotify: false,
             },
@@ -539,7 +539,7 @@
       case "clear-feedback":
         if (
           window.confirm(
-            "Clear all locally saved briefing feedback and its optional notes? This does not change follows or other Scout notes.",
+            "Clear all locally saved briefing feedback and its optional notes? This does not change follows or other Frontier Signal notes.",
           )
         ) {
           for (const [target, currentEntry] of hosts) {

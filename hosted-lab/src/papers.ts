@@ -132,7 +132,7 @@ export async function searchPapers(query: string) {
       cr.search = new URLSearchParams({ "query.bibliographic": phrase, rows: "20" }).toString();
       return upstream(
         cr.href,
-        { headers: { "User-Agent": "Quantum-Scout-Lab" } },
+        { headers: { "User-Agent": "Frontier-Signal-Lab" } },
         2000000,
         20000,
       ).then(parseCrossref);

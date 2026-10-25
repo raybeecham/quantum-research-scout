@@ -623,9 +623,7 @@ def _report_entry(path: Path, reports: Path, repo_url: str) -> dict:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(
-        description="Build the static Quantum Research Scout dashboard."
-    )
+    parser = argparse.ArgumentParser(description="Build the static Frontier Signal dashboard.")
     parser.add_argument("--project-root", default=".")
     parser.add_argument("--output", default="site")
     parser.add_argument(

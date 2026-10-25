@@ -1,6 +1,6 @@
 # Hosted research lab
 
-This adds an invite-only Cloudflare Worker behind the existing GitHub Pages dashboard. It does **not** expose the Python loopback server. The checked-in configuration targets the Scout deployment and allows only its owner's numeric GitHub account ID. Credentials remain Cloudflare secrets, never repository files. For a new deployment or fork, set `LAB_ENABLED` to `false`, clear the client ID and allowlist, and follow the setup below with your own URLs and credentials. Building or pushing this repository alone does not deploy the backend.
+This adds an invite-only Cloudflare Worker behind the existing GitHub Pages dashboard. It does **not** expose the Python loopback server. The checked-in configuration targets the Frontier Signal deployment and allows only its owner's numeric GitHub account ID. Credentials remain Cloudflare secrets, never repository files. For a new deployment or fork, set `LAB_ENABLED` to `false`, clear the client ID and allowlist, and follow the setup below with your own URLs and credentials. Building or pushing this repository alone does not deploy the backend.
 
 ## What is built
 
@@ -32,7 +32,8 @@ npm run dry-run
 1. Check the Cloudflare account's plan and limits before deploying. No paid plan is required by the application design, but availability and billing are controlled by your Cloudflare and AI-provider accounts. These call limits are **not** an account-wide dollar cap or protection against all infrastructure abuse. Use separate provider projects/keys and provider-level spend controls where available. Do not enable billing solely for this pilot without deciding on a budget.
 2. Deploy the **disabled** Worker with `npm run deploy`. Record its `https://quantum-scout-lab.<your-subdomain>.workers.dev` URL. Do not use a preview deployment URL.
 3. In GitHub **Settings → Developer settings → OAuth Apps → New OAuth App**, register a dedicated app:
-   - Name: `Quantum Research Scout Lab`
+   - Name: `Frontier Signal Lab`
+     (For an existing OAuth app, update its display name in GitHub settings; keep the client ID, secret, and callback URL unchanged.)
    - Homepage: `https://raybeecham.github.io/quantum-research-scout/`
    - Authorization callback: **the exact Worker URL plus `/auth/callback`**
    - No repository scopes are requested by the code. Do not reuse an app with broader existing grants.

@@ -67,7 +67,7 @@ function renderProfile(data) {
     (a, b) => String(b.date).localeCompare(String(a.date)) || (b.score || 0) - (a.score || 0),
   );
 
-  document.title = `${profile.name} · Quantum Research Scout`;
+  document.title = `${profile.name} · Frontier Signal`;
   document.getElementById("repo-link").href = safeUrl(data.repository_url);
   document.getElementById("profile-kind").textContent =
     requestedKind === "entities" ? "Organization" : "Technology";

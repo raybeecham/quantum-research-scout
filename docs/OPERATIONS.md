@@ -70,7 +70,7 @@ These are **requested start times, not publication deadlines**. Collection, vali
 - A successful no-op catch-up also rebuilds Pages, allowing recovery from a failed deployment without another collection. Pages does not cancel an in-progress deployment. If notification/artifact steps fail after the report was successfully pushed, Pages may still deploy that validated commit. Validation or push failures do not qualify. Optional notifications are best effort and are not independently retried after a successful report receipt.
 - Report pushes use a normal rebase onto current `main`, then a normal push; no force-push or automatic conflict resolution. A conflicting publication fails visibly and can retry at the next catch-up.
 
-To recover manually, open **Actions → Daily PQC Quantum Research Scout** or **Weekly PQC Quantum Research Synthesis → Run workflow**. An optional `report_date` selects a historical date (Friday for weekly). Set `force` only when intentionally regenerating an already-published period; otherwise a valid receipt makes the request a no-op. A manual daily preview before its evening schedule does not receive a completion receipt and cannot suppress that evening's collection. Manual weekly runs before Friday's cutoff default to the previous completed Friday. Backfill missing daily dates first, then run the weekly workflow. Only run from `main`; receipts become durable when the workflow pushes its report commit.
+To recover manually, open **Actions → Frontier Signal Daily Briefing** or **Frontier Signal Weekly Synthesis → Run workflow**. An optional `report_date` selects a historical date (Friday for weekly). Set `force` only when intentionally regenerating an already-published period; otherwise a valid receipt makes the request a no-op. A manual daily preview before its evening schedule does not receive a completion receipt and cannot suppress that evening's collection. Manual weekly runs before Friday's cutoff default to the previous completed Friday. Backfill missing daily dates first, then run the weekly workflow. Only run from `main`; receipts become durable when the workflow pushes its report commit.
 
 For a genuinely independent punctual trigger, a separately authorized scheduler would need to dispatch these workflows. Even then, GitHub runner availability and collection time prevent an exact 8:00 a.m. delivery guarantee. No such external service is configured here.
 
@@ -100,7 +100,7 @@ python scripts/build_dashboard.py --output site
 
 The initializer cannot recover digests already removed before the archive was
 introduced. Retained evidence is not a full article copy, and capture changes do
-not prove that a publisher changed its article. Current Scout interpretation is
+not prove that a publisher changed its article. Current Frontier Signal interpretation is
 separate from the retained source passages.
 
 Core collection requires no paid AI service. Optional repository secrets unlock additional official data:
@@ -112,7 +112,7 @@ Core collection requires no paid AI service. Optional repository secrets unlock 
 
 Slack, Teams, generic webhook, email, and GitHub Issue notification routes are independently configurable in [`alerts.yaml`](../alerts.yaml).
 
-## Configure Your Scout
+## Configure Your Frontier Signal
 
 ### Primary-source link collection
 

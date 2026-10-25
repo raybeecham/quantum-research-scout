@@ -165,7 +165,7 @@ def fetch_patent(identifier):
         with requests.get(
             source_url(identifier),
             headers={
-                "User-Agent": "QuantumResearchScout/1.0 (+https://github.com/raybeecham/quantum-research-scout)"
+                "User-Agent": "FrontierSignal/1.0 (+https://github.com/raybeecham/quantum-research-scout)"
             },
             timeout=(5, 20),
             stream=True,

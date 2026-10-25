@@ -87,7 +87,7 @@ export async function finishLogin(request: Request, env: AppEnv) {
           headers: {
             Authorization: `Bearer ${githubToken}`,
             Accept: "application/vnd.github+json",
-            "User-Agent": "Quantum-Scout-Lab",
+            "User-Agent": "Frontier-Signal-Lab",
             "X-GitHub-Api-Version": "2022-11-28",
           },
         },
@@ -115,7 +115,7 @@ export async function finishLogin(request: Request, env: AppEnv) {
     challenge: flow.challenge,
   }).replace(/</g, "\\u003c");
   return new Response(
-    `<!doctype html><html lang="en"><meta charset="utf-8"><title>Scout sign-in</title><p>Signed in. Return to your research desk. You can close this window.</p><script nonce="${nonce}">if(window.opener){window.opener.postMessage(${payload},${JSON.stringify(env.PUBLIC_ORIGIN)});window.close();}</script></html>`,
+    `<!doctype html><html lang="en"><meta charset="utf-8"><title>Frontier Signal sign-in</title><p>Signed in. Return to your research desk. You can close this window.</p><script nonce="${nonce}">if(window.opener){window.opener.postMessage(${payload},${JSON.stringify(env.PUBLIC_ORIGIN)});window.close();}</script></html>`,
     {
       headers: {
         "Content-Type": "text/html; charset=utf-8",

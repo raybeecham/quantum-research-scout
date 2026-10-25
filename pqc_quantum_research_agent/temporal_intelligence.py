@@ -355,7 +355,7 @@ def _classify_time(
         return (
             "upcoming",
             f"Upcoming {date_role.replace('_', ' ')}",
-            f"The source date is in the future; Scout first observed it on {observed_date}.",
+            f"The source date is in the future; Frontier Signal first observed it on {observed_date}.",
         )
     if source_date:
         age = (generated.date() - source_date).days
@@ -386,12 +386,12 @@ def _classify_time(
         return (
             "historical_discovery",
             "Newly discovered historical evidence",
-            f"Scout first observed this on {observed_date}; the source date is {source_date}.",
+            f"Frontier Signal first observed this on {observed_date}; the source date is {source_date}.",
         )
     return (
         "newly_observed",
         "Newly observed · event date unknown",
-        "Scout observed the assertion during this comparison, but the source does not provide "
+        "Frontier Signal observed the assertion during this comparison, but the source does not provide "
         "a reliable event or publication date.",
     )
 

@@ -25,7 +25,7 @@ ARCHIVE_METHOD = (
     "report dates, not publication or publisher update times. Captured-content changes compare "
     "titles and collected excerpts only; they do not establish that the publisher changed an article. "
     "Public evidence is retained before old daily digests are pruned. Excerpts are capped at "
-    "3,000 characters each. Current rule-based interpretation may evolve when Scout's rules change."
+    "3,000 characters each. Current rule-based interpretation may evolve when Frontier Signal's rules change."
 )
 EVIDENCE_FILE = "story-evidence.json"
 
@@ -450,7 +450,7 @@ def _shell(
 <html lang="en" data-theme="dark"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="referrer" content="no-referrer"><meta name="theme-color" content="#07131f">
-<title>{_text(title)} | Quantum Research Scout</title>
+<title>{_text(title)} | Frontier Signal</title>
 <meta name="description" content="{_text(description[:300])}">{canonical_tag}
 <meta property="og:title" content="{_text(title)}"><meta property="og:description" content="{_text(description[:300])}">
 <script src="{relative}theme.js?v={version}"></script>
@@ -466,7 +466,7 @@ def _shell(
 <script src="{relative}story-reader.js?v={version}" defer></script>
 <script src="{relative}story.js?v={version}" defer></script></head>
 <body><a class="skip-link" href="#story-main">Skip to content</a>
-<header class="archive-header"><a class="archive-brand" href="{relative}index.html#news">QUANTUM <span>RESEARCH SCOUT</span></a>
+<header class="archive-header"><a class="archive-brand" href="{relative}index.html#news">FRONTIER <span>SIGNAL</span></a>
 <nav aria-label="Briefing navigation"><a href="{relative}index.html#news">Latest news</a>
 <a href="{relative}stories/index.html">Briefing archive</a>
 <button type="button" data-theme-toggle hidden><span data-theme-icon aria-hidden="true"></span><span data-theme-label>Light mode</span></button></nav></header>
@@ -578,7 +578,7 @@ def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None)
         )
         local = entry.get("story_url", "")
         if re.fullmatch(r"stories/[a-f0-9]{24}/index\.html", local):
-            link += f' <a href="../../{local}">Read Scout briefing</a>'
+            link += f' <a href="../../{local}">Read Frontier Signal briefing</a>'
         related.append(
             f"<li>{link}<p>{_text(entry.get('source'))} · {_text(entry.get('date') or 'Publication date unavailable')}</p>{_list(entry.get('differences'))}</li>"
         )

@@ -303,7 +303,7 @@ def fetch_citation(url: str, retrieved_at: str) -> dict:
     request = Request(
         canonical,
         headers={
-            "User-Agent": "QuantumResearchScout/1.0 (+https://github.com/raybeecham/quantum-research-scout)",
+            "User-Agent": "FrontierSignal/1.0 (+https://github.com/raybeecham/quantum-research-scout)",
             "Accept": "text/html",
         },
     )
