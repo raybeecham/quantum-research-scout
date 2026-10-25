@@ -477,7 +477,7 @@ watch_sources:
     max_items: 40
   - name: "Department of War Strategic Technology News"
     entities: [Department of War]
-    rss_url: "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1"
+    rss_url: "https://www.war.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=40"
     url: "https://www.war.gov/News/News-Stories/"
     include_patterns: [artificial-intelligence, quantum, cyber, technology, innovation, missile, space, autonomous, computing]
     match_patterns: [artificial intelligence, quantum, cyber, technology, innovation, autonomous, autonomy, missile defense, space, computing]
