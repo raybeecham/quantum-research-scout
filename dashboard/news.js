@@ -515,7 +515,7 @@
       Object.entries(headings)
         .map(([key, heading], index) => {
           const matches = all.filter(item => topics(item).includes(key));
-          const picks = matches.filter(item => !seen.has(item.id)).slice(0, 3);
+          const picks = matches.filter(item => !seen.has(item.id)).slice(0, 2);
           picks.forEach(item => seen.add(item.id));
           return `<section class="topic-chapter topic-chapter-${key}" aria-labelledby="topic-heading-${key}"><div class="topic-chapter-intro"><span class="topic-chapter-index">0${index + 1} / ${esc(TOPICS[key])}</span><h3 id="topic-heading-${key}">${heading}</h3><p>${matches.length} ${matches.length === 1 ? "story" : "stories"} in this collection</p><button type="button" data-topic-jump="${key}">Explore ${esc(TOPICS[key])} →</button></div><div class="topic-chapter-stories">${picks.length ? picks.map((item, i) => `<div class="topic-reading${i === 0 ? " topic-reading-lead" : ""}"><span>${esc(item.source)} · Collected ${esc(dateLabel(item.report_date))}</span><h4><button type="button" data-topic-detail="${esc(item.id)}">${esc(item.title)}</button></h4>${i === 0 ? `<p>${esc(excerpt(item) || "Read the source for the full context.")}</p>` : ""}<a href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Original source ↗</a></div>`).join("") : `<p>${matches.length ? "Cross-topic stories are featured in the sections above. Explore this topic to see all matching coverage." : "No matching stories in this collection. That does not imply there is no activity in this field."}</p>`}</div></section>`;
         })

@@ -43,14 +43,17 @@ def main():
         expect(feature.locator(".feature-chapter")).to_have_count(3)
         expect(feature.locator(".news-visual")).to_be_visible()
         stage = feature.locator(".feature-stage")
-        expect(stage).to_have_css("position", "sticky")
+        expect(stage).to_have_css("position", "static")
         start = feature.bounding_box()["y"]
         page.evaluate("y => scrollTo(0, y + 160)", start)
         page.wait_for_timeout(150)
         first = stage.bounding_box()["y"]
         page.evaluate("scrollBy(0, 200)")
         page.wait_for_timeout(150)
-        assert abs(stage.bounding_box()["y"] - first) < 2
+        assert abs(stage.bounding_box()["y"] - first + 200) < 2
+        expect(feature.locator(".news-visual img")).to_have_css("transform", "none")
+        for chapter in feature.locator(".feature-chapter").all():
+            expect(chapter).to_have_css("min-height", "0px")
         expect(feature.locator(".news-visual figcaption")).to_contain_text("Image via")
         for width in (1440, 760, 390, 320):
             page.set_viewport_size({"width": width, "height": 1000})
@@ -92,7 +95,7 @@ def main():
         assert not errors, errors
         browser.close()
         print(
-            "Immersive checks passed: sticky story, four widths, both themes, skip focus, reduced motion, missing image."
+            "Homepage checks passed: natural scrolling, stationary images, compact summary, four widths, both themes, skip focus, reduced motion, missing image."
         )
 
 

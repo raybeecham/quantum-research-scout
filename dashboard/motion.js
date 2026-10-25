@@ -14,33 +14,15 @@
   top.hidden = true;
   document.body.append(progress, top);
   let frame = 0;
-  let previousY = scrollY;
-  let direction = 1;
   const animations = new Set();
   function update() {
     frame = 0;
     const y = Math.max(0, scrollY);
-    if (Math.abs(y - previousY) > 2) direction = y > previousY ? 1 : -1;
-    previousY = y;
     const distance = document.documentElement.scrollHeight - innerHeight;
     progress.style.transform = `scaleX(${distance > 0 ? Math.min(1, y / distance) : 0})`;
     document.documentElement.dataset.scrolled = String(y > 80);
     // Never remove a focused control while someone is using the keyboard.
     top.hidden = y < innerHeight && document.activeElement !== top;
-    const feature = document.querySelector(".immersive-feature");
-    const stage = feature?.querySelector(".feature-stage");
-    if (stage && feature.getClientRects().length) {
-      stage.classList.toggle("feature-stage-tall", stage.offsetHeight > innerHeight - 125);
-      const rect = feature.getBoundingClientRect();
-      const amount = Math.max(
-        0,
-        Math.min(1, (100 - rect.top) / Math.max(1, rect.height - innerHeight)),
-      );
-      stage.style.setProperty(
-        "--feature-scale",
-        reduced.matches ? "1" : String(1.045 - amount * 0.045),
-      );
-    }
   }
   function schedule() {
     if (!frame) frame = requestAnimationFrame(update);
@@ -83,13 +65,10 @@
                 target.contains(document.activeElement)
               )
                 return;
-              const animation = target.animate(
-                [
-                  { opacity: 0.65, transform: `translateY(${direction * 14}px)` },
-                  { opacity: 1, transform: "translateY(0)" },
-                ],
-                { duration: 420, easing: "cubic-bezier(.22,1,.36,1)" },
-              );
+              const animation = target.animate([{ opacity: 0.85 }, { opacity: 1 }], {
+                duration: 180,
+                easing: "ease-out",
+              });
               animations.add(animation);
               animation.finished.catch(() => {}).finally(() => animations.delete(animation));
             });
