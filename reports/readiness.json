@@ -707,9 +707,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 20,
-      "historical_evidence_count": 12,
-      "latest_evidence_at": "2026-10-13",
+      "evidence_count": 24,
+      "historical_evidence_count": 16,
+      "latest_evidence_at": "2026-10-06",
       "name": "Keyfactor",
       "priority": "high",
       "source_count": 3,
@@ -717,21 +717,6 @@
       "stage_label": "Planning",
       "stage_rank": 3,
       "supporting_evidence": [
-        {
-          "date": "2026-10-08",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "readiness"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Growing PQC at the edge belies deeper quantum-readiness challenges",
-          "url": "https://www.keyfactor.com/news/growing-pqc-at-the-edge-belies-deeper-quantum-readiness-challenges/"
-        },
         {
           "date": "2026-10-06",
           "date_confidence": "unknown",
@@ -836,18 +821,33 @@
           "source": "The Quantum Insider",
           "title": "Keyfactor Expands Partner Program for Post-Quantum Cryptography Readiness",
           "url": "https://thequantuminsider.com/2026/07/22/keyfactor-expands-partner-program-for-post-quantum-security"
+        },
+        {
+          "date": "2026-01-06",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "NIST Makes Crypto-Agility Official \u2014 Now What?",
+          "url": "https://www.keyfactor.com/blog/nist-makes-crypto-agility-official-now-what/"
         }
       ],
       "type": "company"
     },
     {
       "confidence": "high",
-      "evidence_count": 9,
-      "historical_evidence_count": 0,
+      "evidence_count": 10,
+      "historical_evidence_count": 1,
       "latest_evidence_at": "2026-10-06",
       "name": "NIST",
       "priority": "critical",
-      "source_count": 5,
+      "source_count": 6,
       "stage": "planning",
       "stage_label": "Planning",
       "stage_rank": 3,
@@ -866,6 +866,21 @@
           "source": "Quantum Zeitgeist",
           "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
+        },
+        {
+          "date": "2026-01-06",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "NIST Makes Crypto-Agility Official \u2014 Now What?",
+          "url": "https://www.keyfactor.com/blog/nist-makes-crypto-agility-official-now-what/"
         },
         {
           "date": "2026-10-06",
@@ -956,21 +971,6 @@
           "source": "QuantumNews.ai",
           "title": "NIST Finalizes Three Post-Quantum Encryption Standards for Secure Data",
           "url": "https://quantumzeitgeist.com/post-quantum-encryption-standards-nist-finalizes"
-        },
-        {
-          "date": "2026-07-30",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "The Quantum Insider",
-          "title": "NIST\u2019s Andrew Regenscheid Explains the Transition to Post-Quantum Cryptography",
-          "url": "https://thequantuminsider.com/2026/07/30/nist-andrew-regenscheid-post-quantum-cryptography-transition"
         }
       ],
       "type": "government"
@@ -1510,12 +1510,12 @@
     },
     {
       "confidence": "medium",
-      "evidence_count": 2,
-      "historical_evidence_count": 1,
+      "evidence_count": 3,
+      "historical_evidence_count": 2,
       "latest_evidence_at": "2026-08-28",
       "name": "IETF",
       "priority": "high",
-      "source_count": 2,
+      "source_count": 3,
       "stage": "awareness",
       "stage_label": "Awareness",
       "stage_rank": 1,
@@ -1534,6 +1534,21 @@
           "source": "Quantum Zeitgeist",
           "title": "IETF workshop to speed up post-quantum authentication rollout",
           "url": "https://quantumzeitgeist.com/nist-post-quantum-authentication-ietf-workshop"
+        },
+        {
+          "date": "2026-08-27",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "IETF Post-Quantum Updates",
+          "title": "Post-Quantum Authentication: Up Next",
+          "url": "http://www.ietf.org/blog/iab-pq-workshop-cfp/"
         },
         {
           "date": null,
@@ -1672,36 +1687,6 @@
         }
       ],
       "type": "consulting"
-    },
-    {
-      "confidence": "low",
-      "evidence_count": 1,
-      "historical_evidence_count": 1,
-      "latest_evidence_at": "2026-06-22",
-      "name": "ETSI",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-06-22",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "quantum-safe"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "ETSI Quantum Standards News",
-          "title": "Wait & see is not an option: Q-day is here - ETSI",
-          "url": "https://www.etsi.org/newsroom/news/wait-see-is-not-an-option-q-day-is-here/"
-        }
-      ],
-      "type": "standards"
     },
     {
       "confidence": "low",
@@ -1878,6 +1863,20 @@
       "stage_rank": 0,
       "supporting_evidence": [],
       "type": "government"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
+      "name": "ETSI",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "standards"
     },
     {
       "confidence": "none",
@@ -2077,17 +2076,17 @@
     }
   ],
   "summary": {
-    "assessed": 25,
+    "assessed": 24,
     "by_stage": {
-      "awareness": 11,
+      "awareness": 10,
       "inventory": 2,
-      "not_assessed": 18,
+      "not_assessed": 19,
       "pilot": 3,
       "planning": 9
     },
-    "not_assessed": 18,
+    "not_assessed": 19,
     "organizations": 43
   },
-  "updated_at": "2026-10-25T02:48:37.966902+00:00",
+  "updated_at": "2026-10-25T21:46:29.088425+00:00",
   "version": 1
 }

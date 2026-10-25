@@ -4,11 +4,11 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-10-25 02:48 UTC_
+_Updated 2026-10-25 21:46 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
-Assessed **25 of 43** configured organizations.
+Assessed **24 of 43** configured organizations.
 
 | Organization | Observed stage | Confidence | PQC evidence | Sources | Historical | Latest dated evidence |
 |---|---|---|---:|---:|---:|---|
@@ -18,8 +18,8 @@ Assessed **25 of 43** configured organizations.
 | Accenture / Accenture Federal Services | Planning | high | 4 | 2 | 4 | 2026-08-27 |
 | Cisco | Planning | high | 10 | 2 | 0 | 2026-10-22 |
 | DigiCert | Planning | high | 6 | 4 | 0 | 2026-09-25 |
-| Keyfactor | Planning | high | 20 | 3 | 12 | 2026-10-13 |
-| NIST | Planning | high | 9 | 5 | 0 | 2026-10-06 |
+| Keyfactor | Planning | high | 24 | 3 | 16 | 2026-10-06 |
+| NIST | Planning | high | 10 | 6 | 1 | 2026-10-06 |
 | AWS | Planning | medium | 3 | 2 | 2 | 2026-07-14 |
 | Fortanix | Planning | medium | 19 | 1 | 19 | 2026-10-08 |
 | Thales | Planning | medium | 2 | 2 | 0 | 2026-08-05 |
@@ -28,11 +28,10 @@ Assessed **25 of 43** configured organizations.
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
 | Cloudflare | Awareness | high | 8 | 3 | 0 | 2026-10-23 |
 | ANSSI | Awareness | medium | 2 | 1 | 0 | 2026-09-03 |
-| IETF | Awareness | medium | 2 | 2 | 1 | 2026-08-28 |
+| IETF | Awareness | medium | 3 | 3 | 2 | 2026-08-28 |
 | ISO/IEC | Awareness | medium | 2 | 2 | 0 | 2026-07-15 |
 | IonQ | Awareness | medium | 2 | 1 | 0 | 2026-09-08 |
 | Booz Allen Hamilton | Awareness | low | 1 | 1 | 1 | 2025-02-06 |
-| ETSI | Awareness | low | 1 | 1 | 1 | 2026-06-22 |
 | IBM | Awareness | low | 1 | 1 | 0 | 2026-07-29 |
 | Pasqal | Awareness | low | 1 | 1 | 0 | 2026-08-31 |
 | Quantinuum | Awareness | low | 1 | 1 | 0 | 2026-07-29 |
@@ -41,6 +40,7 @@ Assessed **25 of 43** configured organizations.
 | BSI Germany | Not assessed | none | 0 | 0 | 0 | Unknown |
 | D-Wave | Not assessed | none | 0 | 0 | 0 | Unknown |
 | ENISA | Not assessed | none | 0 | 0 | 0 | Unknown |
+| ETSI | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Entrust | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Google Quantum AI | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Infleqtion | Not assessed | none | 0 | 0 | 0 | Unknown |
