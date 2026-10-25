@@ -40,6 +40,7 @@ def write_section_data(payload, output):
     index = {
         "build_id": version,
         "generated_at": payload["generated_at"],
+        "collected_at": payload.get("collected_at"),
         "repository_url": payload["repository_url"],
         "packs": {name: f"{name}.json" for name in PACKS},
         "signals": {"updated_at": payload.get("signals", {}).get("updated_at"), "themes": []},

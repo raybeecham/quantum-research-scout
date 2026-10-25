@@ -92,9 +92,18 @@
       .filter(x => x && saved.has(x.id))
       .map(x => [x.id, x]),
   );
-  const read = new Set(
-    Array.isArray(prefs.read) ? prefs.read.filter(x => typeof x === "string") : [],
-  );
+  const read = window.ScoutRead;
+  window.addEventListener("scout:read-state", () => {
+    document.querySelectorAll("[data-read]").forEach(button => {
+      const active = read.has(button.dataset.read);
+      button.textContent = active ? "✓ Read" : "Mark read";
+      button.setAttribute("aria-pressed", String(active));
+      button.setAttribute("aria-label", active ? "Mark story unread" : "Mark story read");
+      button.classList.toggle("is-read", active);
+      button.closest("[data-story]")?.classList.toggle("is-read", active);
+    });
+    if (ui.data && ui.view === "briefing" && ui.unreadOnly) renderStories();
+  });
   const noteFields = {
     question: 500,
     appraisal: 6000,
@@ -159,7 +168,7 @@
     briefingMode: ui.briefingMode,
     saved: [...saved],
     stories: [...archive.values()].filter(x => saved.has(x.id)),
-    read: [...read].slice(-2000),
+    read: [], // Legacy import field. The canonical ledger is ScoutRead.
     period: ui.period,
     unreadOnly: ui.unreadOnly,
     comfort: ui.comfort,
@@ -733,7 +742,7 @@
       if (wasReviewed) state.read.push(item.id);
     }
     try {
-      localStorage.setItem(storageKey, JSON.stringify(state));
+      localStorage.setItem(storageKey, JSON.stringify({ ...state, read: [] }));
       notebookRevision = localStorage.getItem(storageKey);
     } catch {
       $("storage-notice").hidden = false;
@@ -795,7 +804,7 @@
         state.stories.push(story);
         state.notebook.push({ id: story.id, reading_status: "To review" });
       }
-      const serialized = JSON.stringify(state);
+      const serialized = JSON.stringify({ ...state, read: [] });
       if (new TextEncoder().encode(serialized).length > 4_000_000)
         throw Error(
           "Notebook storage limit reached. Export a backup and free space before importing",
@@ -1022,9 +1031,9 @@
     $("desk-overview").hidden = false;
     const brief = data.reading_brief || {};
     $("edition-date").textContent = brief.edition_date
-      ? `Report window ends ${day(brief.coverage?.window_end || brief.edition_date)} · collected ${day(brief.collected_at)}`
+      ? `Report window ends ${day(brief.coverage?.window_end || brief.edition_date)} · collected ${day(data.collected_at || brief.collected_at)}`
       : "No published edition";
-    const elapsed = Date.now() - new Date(brief.collected_at || "").getTime();
+    const elapsed = Date.now() - new Date(data.collected_at || brief.collected_at || "").getTime();
     const stale = !Number.isFinite(elapsed) || elapsed > 36 * 3600000 || elapsed < -5 * 60000;
     ui.collectionStale = stale;
     const health = data.source_health?.operational_summary || {};
@@ -1035,10 +1044,10 @@
         : "Coverage needs review";
     $("desk-health").classList.toggle("needs-review", stale || health.status !== "healthy");
     $("desk-health").title =
-      `Last collection: ${day(brief.collected_at)}. ${health.healthy_sources || 0} healthy, ${health.partial_sources || 0} partial, ${health.failing_sources || 0} failing sources. Open Sources & methods for details.`;
+      `Last collection: ${day(data.collected_at || brief.collected_at)}. ${health.healthy_sources || 0} healthy, ${health.partial_sources || 0} partial, ${health.failing_sources || 0} failing sources. Open Sources & methods for details.`;
     $("freshness-notice").hidden = !stale;
     $("freshness-notice").textContent =
-      `Collection freshness needs verification. Last recorded collection: ${day(brief.collected_at)}. Check source health before acting on deadlines or current status.`;
+      `Collection freshness needs verification. Last recorded collection: ${day(data.collected_at || brief.collected_at)}. Check source health before acting on deadlines or current status.`;
     const coverage = brief.coverage || {};
     $("desk-result-count").title = coverage.report_count
       ? `${coverage.report_count} reports from ${day(coverage.window_start)} to ${day(coverage.window_end)}; ${coverage.dated_item_count} dated and ${coverage.undated_item_count} undated source items before related-headline grouping.`
@@ -1426,7 +1435,7 @@
         if (row.marked_read) state.read.push(row.story.id);
       }
       // A single atomic storage write must succeed before in-memory state changes.
-      localStorage.setItem(storageKey, JSON.stringify(state));
+      localStorage.setItem(storageKey, JSON.stringify({ ...state, read: [] }));
       notebookRevision = localStorage.getItem(storageKey);
       for (const row of added) {
         saved.add(row.story.id);

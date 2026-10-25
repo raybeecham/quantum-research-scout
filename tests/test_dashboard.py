@@ -44,6 +44,7 @@ class DashboardBuildTests(unittest.TestCase):
                 "app.js",
                 "data-loader.js",
                 "display.js",
+                "read-state.js",
                 "entity.js",
                 "favicon.svg",
                 "desk.css",

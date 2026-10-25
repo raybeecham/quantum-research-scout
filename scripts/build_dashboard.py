@@ -239,6 +239,7 @@ def build_dashboard(
         config=load_config(root / "sources.yaml") if (root / "sources.yaml").exists() else None,
         source_health=source_health,
     )
+    payload["collected_at"] = payload["reading_brief"].get("collected_at")
     story_archive = prepare_story_archive(reports, payload["news_intelligence"])
     try:
         primary_cache = load_primary_evidence(reports / "primary-evidence.json")
@@ -266,6 +267,7 @@ def build_dashboard(
         "app.js",
         "data-loader.js",
         "display.js",
+        "read-state.js",
         "entity.js",
         "favicon.svg",
         "desk.css",

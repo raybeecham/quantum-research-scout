@@ -42,7 +42,11 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--channel", default="chromium")
     args = parser.parse_args()
-    source = SCRIPT.read_text(encoding="utf-8")
+    source = (
+        (SCRIPT.parent / "read-state.js").read_text(encoding="utf-8")
+        + "\n"
+        + SCRIPT.read_text(encoding="utf-8")
+    )
     requests: list[str] = []
     errors: list[str] = []
 
@@ -157,9 +161,10 @@ def main() -> None:
             "x => localStorage.setItem(x.key, JSON.stringify(x.value))",
             {"key": KEY, "value": large},
         )
+        page.evaluate("localStorage.removeItem('quantum-scout:read-state:v1')")
         load(page)
         bounded = page.evaluate("stories => ScoutNewsPreferences.init(stories)", STORIES)
-        assert len(bounded["readIds"]) == 1500 and len(bounded["organizations"]) == 80
+        assert len(bounded["readIds"]) == 2000 and len(bounded["organizations"]) == 80
         assert bounded["previousReportDate"] is None
         assert bounded["topics"] == ["security"]
         record = page.evaluate("key => JSON.parse(localStorage.getItem(key))", KEY)
@@ -168,7 +173,7 @@ def main() -> None:
             "ScoutNewsPreferences.markRead('fresh-read'); ScoutNewsPreferences.followOrganization('New org')"
         )
         bounded = page.evaluate("ScoutNewsPreferences.snapshot()")
-        assert len(bounded["readIds"]) == 1500 and bounded["readIds"][-1] == "fresh-read"
+        assert len(bounded["readIds"]) == 2001 and bounded["readIds"][-1] == "fresh-read"
         assert len(bounded["organizations"]) == 80 and bounded["organizations"][-1] == "New org"
 
         # Test both total storage denial and setItem-only quota failure. Preferences

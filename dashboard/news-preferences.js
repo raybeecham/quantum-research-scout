@@ -101,7 +101,8 @@
 
   function persist() {
     try {
-      localStorage.setItem(KEY, JSON.stringify(state));
+      const { readIds, ...preferences } = state;
+      localStorage.setItem(KEY, JSON.stringify(preferences));
       storageAvailable = true;
     } catch {
       storageAvailable = false;
@@ -148,7 +149,7 @@
     return {
       topics: [...state.topics],
       organizations: [...state.organizations],
-      readIds: [...state.readIds],
+      readIds: window.ScoutRead.values(),
       firstVisit: !baseline.lastVisit,
       previousVisit: baseline.lastVisit || null,
       previousReportDate: baseline.lastReportDate || null,
@@ -197,11 +198,8 @@
   function markRead(value, enabled = true) {
     const storyId = id(value);
     if (!storyId) return snapshot();
-    return mutate(next => {
-      next.readIds = next.readIds.filter(item => item !== storyId);
-      if (enabled) next.readIds.push(storyId);
-      next.readIds = next.readIds.slice(-MAX_READ);
-    });
+    enabled ? window.ScoutRead.add(storyId) : window.ScoutRead.delete(storyId);
+    return snapshot();
   }
 
   function isNew(story) {
@@ -230,6 +228,7 @@
   }
 
   function clear() {
+    window.ScoutRead.clear();
     state = empty();
     baseline = empty();
     baselineIds = new Set();
@@ -257,6 +256,7 @@
     notify();
   });
 
+  window.addEventListener("scout:read-state", notify);
   window.ScoutNewsPreferences = Object.freeze({
     init,
     snapshot,
@@ -264,7 +264,7 @@
     followOrganization,
     markRead,
     markUnread: value => markRead(value, false),
-    isRead: value => Boolean(id(value)) && state.readIds.includes(value),
+    isRead: value => Boolean(id(value)) && window.ScoutRead.has(value),
     isNew,
     matchesFollowing,
     followedTopics: () => [...state.topics],

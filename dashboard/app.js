@@ -209,7 +209,7 @@ function render() {
   );
   sourceSummary.classList.add(`coverage-${coverageStatus}`);
   document.getElementById("footer-updated").textContent =
-    `Dashboard built ${formatDate(state.data.generated_at)}`;
+    `Collected ${formatShortDate(state.data.collected_at || state.data.reading_brief?.collected_at)} · Dashboard built ${formatDate(state.data.generated_at)}`;
   renderReports(state.data.reports);
   renderAlerts(alerts, temporalPayload);
   renderDecisionCenter(analystDecisionPayload, changePayload);
