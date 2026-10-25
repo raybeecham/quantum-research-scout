@@ -21,6 +21,16 @@
   let manifest = null;
   let revision = 0;
   let boot = null;
+  function hydrate(value) {
+    const news = value.news_intelligence;
+    if (news && Array.isArray(news.accounts)) {
+      const stories = new Map((news.stories || []).map(row => [row.id, row]));
+      news.accounts = news.accounts.map(row => typeof row === "string"
+        ? { ...stories.get(row), ...news.account_records?.[row], id: row }
+        : row);
+    }
+    return value;
+  }
   function editionChanged() {
     return Object.assign(
       new Error("The site updated while loading. Reload for a consistent edition."),
@@ -40,7 +50,7 @@
       const value = await response.json();
       if (!value || typeof value !== "object" || Array.isArray(value))
         throw new Error(`The response for ${file} was incomplete.`);
-      return value;
+      return hydrate(value);
     } catch (error) {
       if (error.name === "AbortError")
         throw new Error(`Loading ${file} took too long. Try again when your connection is ready.`);

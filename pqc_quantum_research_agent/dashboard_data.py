@@ -35,7 +35,41 @@ PACKS = {
 }
 
 
+def public_payload(payload):
+    """Compact wire format; the browser resolves account IDs without refetching."""
+    data = copy.deepcopy(payload)
+    news = data.get("news_intelligence", {})
+    stories = {row["id"]: row for row in news.get("stories", [])}
+    identities = ("id", "title", "url", "source", "date", "date_label", "news_topics")
+    records = {}
+    ids = []
+    for row in news.get("accounts", []):
+        ids.append(row["id"])
+        base = stories.get(row["id"], {})
+        delta = {key: row.get(key) for key in identities if row.get(key) != base.get(key)}
+        if delta:
+            records[row["id"]] = delta
+    news["accounts"] = ids
+    news["account_records"] = records
+
+    def compact(value):
+        if isinstance(value, dict):
+            fields = value.get("field_sources")
+            if isinstance(fields, dict) and fields and len(set(fields.values())) == 1:
+                value["field_source"] = next(iter(fields.values()))
+                value["sourced_fields"] = list(fields)
+                del value["field_sources"]
+            for child in value.values():
+                compact(child)
+        elif isinstance(value, list):
+            for child in value:
+                compact(child)
+    compact(data)
+    return data
+
+
 def write_section_data(payload, output):
+    payload = public_payload(payload)
     version = payload["build_id"]
     index = {
         "build_id": version,
@@ -63,18 +97,6 @@ def write_section_data(payload, output):
     data_dir = output / "data"
     for name, fields in PACKS.items():
         data = {"build_id": version, **{key: payload[key] for key in fields if key in payload}}
-        if name == "news":
-            data = copy.deepcopy(data)
-            # Counts and source-mix controls need account identities, not a
-            # second copy of every analysis, citation and connection. Full
-            # account excerpts remain in each merged story's news_event.
-            data["news_intelligence"]["accounts"] = [
-                {
-                    key: row.get(key)
-                    for key in ("id", "title", "url", "source", "date", "date_label", "news_topics")
-                }
-                for row in data["news_intelligence"].get("accounts", [])
-            ]
         (data_dir / f"{name}.json").write_text(
             json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8"
         )
