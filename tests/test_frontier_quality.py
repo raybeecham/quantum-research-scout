@@ -69,7 +69,7 @@ def test_fresh_success_overrides_historical_failures(tmp_path):
                 "sources": [
                     {
                         "name": "Recovered",
-                            "last_outcome": "success",
+                        "last_outcome": "success",
                         "consecutive_failures": 0,
                         "successful_runs": 1,
                         "failure_runs": 20,
