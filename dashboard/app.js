@@ -191,6 +191,8 @@ function render() {
   );
   const healthy = sources.filter(x => x.status === "healthy").length;
   const partial = sources.filter(x => x.status === "partial").length;
+  const failing = sources.filter(x => x.status === "failing").length;
+  const other = sources.length - healthy - partial - failing;
   const alerts = state.data.alerts || { alerts: [], active_count: 0, new_count: 0 };
   document.getElementById("signal-updated").textContent =
     `Updated ${formatDate(state.data.signals.updated_at)}`;
@@ -200,7 +202,7 @@ function render() {
   const coverageState = state.data.source_health?.operational_summary || {};
   const coverageStatus = String(coverageState.status || "unknown").toLowerCase();
   const sourceSummary = document.getElementById("source-summary");
-  sourceSummary.textContent = `${coverageStatus.toUpperCase()} coverage · ${healthy} healthy · ${partial} partial · ${verified} verified · ${fresh} fresh · ${stale} stale`;
+  sourceSummary.textContent = `${coverageStatus.toUpperCase()} coverage · ${sources.length} enabled: ${healthy} healthy · ${partial} partial · ${failing} failing · ${other} other/not yet checked. Separately: ${verified} verified · ${fresh} fresh · ${stale} stale.`;
   sourceSummary.classList.remove(
     "coverage-healthy",
     "coverage-watch",
@@ -1975,7 +1977,7 @@ function renderSources(sources) {
     .sort((a, b) => order[a.status] - order[b.status] || a.name.localeCompare(b.name))
     .map(
       item =>
-        `<tr><td>${escapeHtml(item.name)}${item.source_note ? `<small class="source-policy-note">${escapeHtml(item.source_note)}</small>` : ""}</td><td>${escapeHtml(item.role === "reference" ? "reference" : item.type)}</td><td>${item.success_rate ?? "Not available"}${item.success_rate == null ? "" : "%"}${item.historical_reliability ? `<small class="source-policy-note">Historical: ${escapeHtml(item.historical_reliability)}</small>` : ""}</td><td>${item.warning_days || 0}</td><td>${escapeHtml(formatShortDate(item.last_checked_at))}</td><td>${escapeHtml(formatShortDate(item.last_item_at))}</td><td><span class="freshness ${escapeHtml(item.freshness || "unverified")}" title="${escapeHtml(item.role === "reference" ? "Publication age does not measure reference validity. Check the document version." : `Latest dated item; review window ${item.stale_after_days || 14} days. Not proof of complete coverage.`)}">${escapeHtml(item.freshness || "unverified")}</span></td><td><span class="health"><i class="dot ${escapeHtml(item.status)}"></i>${escapeHtml(item.status)} · ${escapeHtml(item.verification_status || "unverified")}</span></td></tr>`,
+        `<tr><td>${escapeHtml(item.name)}${item.source_note ? `<small class="source-policy-note">${escapeHtml(item.source_note)}</small>` : ""}</td><td>${escapeHtml(item.role === "reference" ? "reference" : item.type)}</td><td>${item.success_rate ?? "Not available"}${item.success_rate == null ? "" : "%"}${item.historical_reliability ? `<small class="source-policy-note">Historical: ${escapeHtml(item.historical_reliability)}</small>` : ""}</td><td>${item.warning_days || 0}</td><td>${escapeHtml(formatShortDate(item.last_checked_at))}</td><td>${escapeHtml(formatShortDate(item.last_item_at))}</td><td><span class="freshness ${escapeHtml(item.freshness || "unverified")}" title="${escapeHtml(item.role === "reference" ? "Publication age does not measure reference validity. Check the document version." : `Latest dated item; review window ${item.stale_after_days || 14} days. Not proof of complete coverage.`)}">${escapeHtml(item.freshness || "unverified")}</span></td><td><span class="health"><i class="dot ${escapeHtml(item.status)}"></i>${escapeHtml([...new Set([item.status, item.verification_status || "unverified"])].join(" · "))}</span></td></tr>`,
     )
     .join("");
   const rows = document.getElementById("source-table").rows;

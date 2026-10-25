@@ -1649,7 +1649,10 @@
                 <div>
                   <h3>Source health</h3>
                   <p>
-                    Healthy has no warning days. Degraded retains at least 80% reliability; failing falls below 80%.
+                    Status reflects the latest collector check: healthy returned usable evidence without warnings;
+                    partial returned evidence with warnings; failing returned no usable evidence and an error.
+                    Standby has not been checked. Historical reliability and publication freshness are separate.
+                    Five consecutive failures trigger a deduplicated GitHub issue; recovery closes it.
                   </p>
                 </div>
               </article>
