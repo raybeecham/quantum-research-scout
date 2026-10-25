@@ -95,10 +95,29 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Install dashboard build dependencies
-        run: python -m pip install .
+        run: python -m pip install ".[browser,dev]"
 
       - name: Build static dashboard
         run: python scripts/build_dashboard.py --output site
+
+      - name: Install browser runtime
+        run: python -m playwright install --with-deps chromium
+
+      - name: Gate this exact artifact before deployment
+        run: |
+          python -m http.server 8765 --bind 127.0.0.1 --directory site &
+          preview_pid=$!
+          trap 'kill "$preview_pid"' EXIT
+          python scripts/verify_frontier_round2_browser.py --channel chromium
+          xvfb-run -a python scripts/verify_publication_gate.py --channel chromium --headed
+
+      - name: Preserve release gate evidence separately
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-gate-evidence
+          path: site/verification/
+          if-no-files-found: ignore
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4

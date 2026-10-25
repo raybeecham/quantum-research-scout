@@ -198,7 +198,7 @@ def workflow(name):
 def test_pages_installs_project_dependencies_before_build():
     steps = workflow("deploy-dashboard.yml")["jobs"]["build-and-deploy"]["steps"]
     commands = [step.get("run", "") for step in steps]
-    install = commands.index("python -m pip install .")
+    install = commands.index('python -m pip install ".[browser,dev]"')
     build = commands.index("python scripts/build_dashboard.py --output site")
     assert install < build
 
