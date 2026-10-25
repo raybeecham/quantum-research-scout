@@ -57,3 +57,11 @@ Verification: Latest loaded 970,623 uncompressed data bytes (index plus news). A
 Added DOE, DARPA, NSA, CISA, NSF, and all four DoD/DoW name variants. All recognized abbreviations match whole words, so NIST no longer matches the middle of "deterministic" or "administration". Ordinary partial-word searches still work. The earlier uncommitted NIST correction is included here.
 
 Verification compares complete result URL sets, not just matching text, for every short/full variant, IBM, NIST, and NPL. It also checks compound "NIST-approved", lowercase input, accent folding, partial terms, type filters, plural counts, escaped HTML, Escape focus return, and notebook behavior.
+
+## 8. Accessibility gate and keyboard workflows
+
+Pinned axe-core 4.14.0 is a development-only dependency. CI and deployment audit all twelve workspaces, eleven expanded section links, and story details in light/dark at 1440px and 375px: 96 checks. Serious and critical violations block publication. Full violations and incomplete/manual-review findings are preserved in `site/verification/accessibility/axe-results.json`.
+
+Fixed coverage-link accessible names to include their visible labels and counts, made the source-health table keyboard-scrollable, and removed opacity from completed milestones because it reduced light-mode text contrast below the minimum. All 96 audits now report zero serious/critical violations. Keyboard-only Tab/Enter/arrow interactions passed comparison dropdown changes, creating and saving a question, opening notebook import, confirming a merge, and both JSON/BibTeX exports. Playwright supplies the synthetic file after the keyboard opens the file chooser. No AI requests were made.
+
+NVDA is not installed on this Windows machine, and VoiceOver is unavailable. The requested actual screen-reader listening pass is **not verified**; automated accessible-tree checks are not a substitute. Manual follow-up: use NVDA on Latest, navigate by headings, activate Story details by keyboard, read its title/evidence/actions, press Escape, and confirm focus returns to the opener.

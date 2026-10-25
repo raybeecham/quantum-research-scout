@@ -123,6 +123,14 @@ jobs:
       - name: Install browser runtime
         run: python -m playwright install --with-deps chromium
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install pinned accessibility audit
+        working-directory: scripts/browser
+        run: npm ci --ignore-scripts --no-audit --no-fund
+
       - name: Verify the reading desk in a browser
         run: |
           python -m http.server 8765 --bind 127.0.0.1 --directory site &
@@ -131,6 +139,7 @@ jobs:
           python scripts/verify_dashboard_browser.py --channel chromium
           python scripts/verify_frontier_round2_browser.py --channel chromium
           python scripts/verify_lazy_data_browser.py --channel chromium
+          python scripts/verify_accessibility_browser.py --channel chromium
           xvfb-run -a python scripts/verify_publication_gate.py --channel chromium --headed --prove-regressions
           python scripts/verify_news_browser.py --channel chromium
           python scripts/verify_motion_browser.py --channel chromium
