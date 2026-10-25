@@ -66,15 +66,7 @@
       ? value
       : "";
   }
-  const dateText = value =>
-    validDate(value)
-      ? new Date(value + "T12:00:00Z").toLocaleDateString("en-US", {
-          month: "short",
-          day: "numeric",
-          year: "numeric",
-          timeZone: "UTC",
-        })
-      : "Not supplied / invalid";
+  const dateText = value => window.ScoutDisplay.date(value, "Date unavailable");
   function eventDate(item) {
     return [validDate(item.publication_date), validDate(item.grant_date)].sort().at(-1) || "";
   }
@@ -319,7 +311,7 @@
       ${technical ? '<p class="patent-small">Collector-provided summary, not a verified interpretation of the claims or evidence of implementation.</p>' : ""}
       ${item.assessment ? `<details class="patent-assessment"><summary>Curated assessment · interpretation to check</summary><p>${esc(item.assessment)}</p></details>` : ""}</section>
       <section id="patent-source-evidence" class="patent-source-evidence" aria-label="Patent source text"></section>
-      <dl class="patent-facts">${field("Publication identifier", item.publication_number)}${field("Grant number", item.patent_number)}${field("Application number", item.application_number)}${field("Published", validDate(item.publication_date) ? dateText(item.publication_date) : "Not supplied / invalid")}${field("Grant date", validDate(item.grant_date) ? dateText(item.grant_date) : "Not supplied / invalid")}${field("Filed", validDate(item.filing_date) ? dateText(item.filing_date) : "Not supplied / invalid")}</dl>
+      <dl class="patent-facts">${field("Publication identifier", item.publication_number)}${field("Grant number", item.patent_number)}${field("Application number", item.application_number)}${validDate(item.publication_date) ? field("Published", dateText(item.publication_date)) : ""}${validDate(item.grant_date) ? field("Grant date", dateText(item.grant_date)) : ""}${validDate(item.filing_date) ? field("Filed", dateText(item.filing_date)) : ""}</dl>
       <p class="patent-status-note"><strong>Source-reported status:</strong> ${esc(item.legal_status || item.legal_status_normalized || "Unknown")}. Not a current legal-status determination. A case may have both an application publication and a later grant.</p>
       <details class="patent-inspector-section"><summary>Recorded family &amp; continuity</summary><p>Grouping basis: ${esc(item.family_basis || "Not supplied")}. ${group.members.length} matching ledger record${group.members.length === 1 ? "" : "s"} in this view. The list below may also include references outside this ledger.</p>
       <ul>${members.map(m => `<li>${sourceLink(m.url, m.publication_number || m.application_number || "Family member")} · ${esc(m.document_type || "Stage unknown")}</li>`).join("") || "<li>No family member references supplied.</li>"}</ul>

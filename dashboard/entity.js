@@ -14,21 +14,8 @@ const safeUrl = value => {
     return "#";
   }
 };
-const displayDate = value => {
-  if (!value) return "Not seen";
-  const text = String(value);
-  const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(text);
-  return new Intl.DateTimeFormat(undefined, {
-    dateStyle: "medium",
-    ...(dateOnly ? { timeZone: "UTC" } : {}),
-  }).format(new Date(dateOnly ? `${text}T00:00:00Z` : text));
-};
-const formatDateTime = value =>
-  value
-    ? new Intl.DateTimeFormat(undefined, { dateStyle: "medium", timeStyle: "short" }).format(
-        new Date(value),
-      )
-    : "Unknown";
+const displayDate = value => window.ScoutDisplay.date(value, "Not seen");
+const formatDateTime = value => window.ScoutDisplay.date(value, "Unknown");
 
 window.ScoutData.load(["research", "source-health", "decisions"])
   .then(renderProfile)

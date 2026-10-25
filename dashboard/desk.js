@@ -16,25 +16,7 @@
       return "#";
     }
   };
-  const day = value => {
-    if (!value) return "Date unverified";
-    if (/^\d{4}$/.test(String(value))) return String(value);
-    if (/^\d{4}-(0[1-9]|1[0-2])$/.test(String(value)))
-      return new Intl.DateTimeFormat("en-US", {
-        month: "short",
-        year: "numeric",
-        timeZone: "UTC",
-      }).format(new Date(`${value}-01T12:00:00Z`));
-    const parsed = new Date(String(value).length === 10 ? `${value}T12:00:00Z` : value);
-    return Number.isNaN(parsed.getTime())
-      ? "Date unverified"
-      : new Intl.DateTimeFormat("en-US", {
-          month: "short",
-          day: "numeric",
-          year: "numeric",
-          timeZone: "America/Chicago",
-        }).format(parsed);
-  };
+  const day = value => window.ScoutDisplay.date(value, "Date unverified");
   const storageKey = "quantum-scout:reading-desk:v1";
   const normalizeSavedStory = item => {
     if (

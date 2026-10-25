@@ -40,21 +40,8 @@ const safeUrl = value => {
     return "#";
   }
 };
-const formatDate = value =>
-  value
-    ? new Intl.DateTimeFormat(undefined, { dateStyle: "medium", timeStyle: "short" }).format(
-        new Date(value),
-      )
-    : "Unknown";
-const formatShortDate = value => {
-  if (!value) return "Not available";
-  const text = String(value);
-  const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(text);
-  return new Intl.DateTimeFormat(undefined, {
-    dateStyle: "medium",
-    ...(dateOnly ? { timeZone: "UTC" } : {}),
-  }).format(new Date(dateOnly ? `${text}T00:00:00Z` : text));
-};
+const formatDate = value => window.ScoutDisplay.date(value, "Unknown");
+const formatShortDate = value => window.ScoutDisplay.date(value, "Not available");
 const formatMoney = value => {
   const amount = Number(value || 0);
   if (!amount) return "Not reported";
@@ -264,7 +251,8 @@ function renderTrend() {
   }
   const { series, recent, prior } = trend;
   document.getElementById("trend-total").textContent = trend.total;
-  document.getElementById("trend-peak").textContent = `${trend.peak.count} · ${trend.peak.date}`;
+  document.getElementById("trend-peak").textContent =
+    `${trend.peak.count} · ${formatShortDate(trend.peak.date)}`;
   document.getElementById("trend-comparison").textContent = `${recent.total} / ${prior.total}`;
   document.getElementById("trend-coverage").textContent = `${trend.observed} / ${series.length}`;
   const comparison =
@@ -278,7 +266,7 @@ function renderTrend() {
     ` ${trend.missing} missing day${trend.missing === 1 ? "" : "s"} in the selected chart window.`;
   const age = Math.floor((Date.now() - Date.parse(trend.latest + "T00:00:00Z")) / 86400000);
   document.getElementById("trend-freshness").textContent =
-    `Latest recorded date: ${trend.latest}. ${age > 2 ? `Historical snapshot (${age} UTC calendar days ago); check source health before interpreting this as current activity.` : "The chart ends at the latest recorded date, not the site build date."}`;
+    `Latest recorded date: ${formatShortDate(trend.latest)}. ${age > 2 ? `Historical snapshot (${age} UTC calendar days ago); check source health before interpreting this as current activity.` : "The chart ends at the latest recorded date, not the site build date."}`;
   const width = 1000,
     height = 240,
     pad = 36,
@@ -295,21 +283,21 @@ function renderTrend() {
     .map((p, i) => {
       const x = pad + i * step;
       return p.count === null
-        ? `<line class="trend-missing" x1="${x}" x2="${x + Math.max(step * 0.7, 0.5)}" y1="${height - pad + 5}" y2="${height - pad + 5}"><title>${p.date}: missing</title></line>`
-        : `<rect class="trend-recorded" x="${x}" y="${y(p.count)}" width="${Math.max(step * 0.7, 0.5)}" height="${Math.max((p.count / max) * (height - 2 * pad), 1)}"><title>${p.date}: ${p.count} items</title></rect>`;
+        ? `<line class="trend-missing" x1="${x}" x2="${x + Math.max(step * 0.7, 0.5)}" y1="${height - pad + 5}" y2="${height - pad + 5}"><title>${formatShortDate(p.date)}: missing</title></line>`
+        : `<rect class="trend-recorded" x="${x}" y="${y(p.count)}" width="${Math.max(step * 0.7, 0.5)}" height="${Math.max((p.count / max) * (height - 2 * pad), 1)}"><title>${formatShortDate(p.date)}: ${p.count} items</title></rect>`;
     })
     .join("");
   const chart = document.getElementById("trend-chart");
   chart.setAttribute(
     "aria-label",
-    `Daily recorded evidence from ${series[0].date} to ${trend.latest}: ${trend.total} items, ${trend.missing} missing days. Exact counts are in Inspect daily counts below.`,
+    `Daily recorded evidence from ${formatShortDate(series[0].date)} to ${formatShortDate(trend.latest)}: ${trend.total} items, ${trend.missing} missing days. Exact counts are in Inspect daily counts below.`,
   );
-  chart.innerHTML = `<svg viewBox="0 0 ${width} ${height}" aria-hidden="true">${grid}${bars}<text class="trend-label" x="${pad}" y="${height - 5}">${series[0].date}</text><text class="trend-label" text-anchor="end" x="${width - pad}" y="${height - 5}">${trend.latest}</text></svg>`;
+  chart.innerHTML = `<svg viewBox="0 0 ${width} ${height}" aria-hidden="true">${grid}${bars}<text class="trend-label" x="${pad}" y="${height - 5}">${formatShortDate(series[0].date)}</text><text class="trend-label" text-anchor="end" x="${width - pad}" y="${height - 5}">${formatShortDate(trend.latest)}</text></svg>`;
   document.getElementById("trend-daily").innerHTML = [...series]
     .reverse()
     .map(
       p =>
-        `<tr><th scope="row">${p.date}</th><td>${p.count === null ? "Missing (not recorded)" : p.count}</td></tr>`,
+        `<tr><th scope="row">${formatShortDate(p.date)}</th><td>${p.count === null ? "Missing (not recorded)" : p.count}</td></tr>`,
     )
     .join("");
 }
@@ -1951,7 +1939,7 @@ function signalCard(item, index) {
   const evidence = (item.evidence || [])
     .map(
       x =>
-        `<li><a href="${escapeHtml(safeUrl(x.url))}" target="_blank" rel="noopener">${escapeHtml(x.title)}</a> · ${escapeHtml(x.date)}</li>`,
+        `<li><a href="${escapeHtml(safeUrl(x.url))}" target="_blank" rel="noopener">${escapeHtml(x.title)}</a> · ${escapeHtml(formatShortDate(x.date))}</li>`,
     )
     .join("");
   const evidenceId = `evidence-${index}`;

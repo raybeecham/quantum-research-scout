@@ -1,6 +1,9 @@
 /* Archive navigation and opt-in story tools. No private notebook data is accessed. */
 (() => {
   "use strict";
+  document.querySelectorAll("[data-calendar-date]").forEach(node => {
+    node.textContent = window.ScoutDisplay.date(node.dataset.calendarDate, node.textContent);
+  });
   const publicData = document.getElementById("story-reader-data");
   if (publicData) {
     try {

@@ -254,7 +254,7 @@
       .forEach(a => a.addEventListener("click", () => choose(a.dataset.exploreTopic)));
   }
   function evidenceCard(r, type) {
-    return `<article class="connection-card"><h4>${external(r.url, r.title)}</h4><p class="connection-date">${type === "missions" ? "Curated program context · not a new announcement" : date(r.date) ? `${esc(r.dateLabel || "Evidence date")} · ${esc(date(r.date))}` : "Source date unavailable"}${r.reportDate ? ` · Report ${esc(r.reportDate)}` : ""}</p><p>${esc(r.reason)}</p><details><summary>Inspect supporting evidence${r.count > 1 ? ` · ${r.count} matching links in snapshot` : ""}</summary><p>${esc(r.evidence)}</p><p>${external(r.url, "Open supporting source")}</p></details></article>`;
+    return `<article class="connection-card"><h4>${external(r.url, r.title)}</h4><p class="connection-date">${type === "missions" ? "Curated program context · not a new announcement" : date(r.date) ? `${esc(r.dateLabel || "Evidence date")} · ${esc(window.ScoutDisplay.date(r.date))}` : "Source date unavailable"}${r.reportDate ? ` · Report ${esc(window.ScoutDisplay.date(r.reportDate))}` : ""}</p><p>${esc(r.reason)}</p><details><summary>Inspect supporting evidence${r.count > 1 ? ` · ${r.count} matching links in snapshot` : ""}</summary><p>${esc(r.evidence)}</p><p>${external(r.url, "Open supporting source")}</p></details></article>`;
   }
   function column(label, rows, type) {
     return `<section class="connection-column"><h3>${esc(label)} <span>${rows.length}</span></h3>${
@@ -281,7 +281,7 @@
     host.innerHTML = list
       .map(
         r =>
-          `<article class="discovery-card topic-${r.topic}"><span class="desk-kicker">${esc(r.kind)}</span><h3>${external(r.url, r.name)}</h3><p class="discovery-setup">${esc(r.setup)}</p><p><strong>Try this</strong><br>${esc(r.goal)}</p><p class="discovery-takeaway"><strong>What you’ll learn</strong><br>${esc(r.takeaway)}</p><details><summary>Access, safety &amp; review date</summary><p>${esc(r.access)}</p><p>Official documentation checked ${r.reviewed}. This catalogue is editorially maintained, not refreshed by daily news collection. Recheck requirements before starting.</p></details></article>`,
+          `<article class="discovery-card topic-${r.topic}"><span class="desk-kicker">${esc(r.kind)}</span><h3>${external(r.url, r.name)}</h3><p class="discovery-setup">${esc(r.setup)}</p><p><strong>Try this</strong><br>${esc(r.goal)}</p><p class="discovery-takeaway"><strong>What you’ll learn</strong><br>${esc(r.takeaway)}</p><details><summary>Access, safety &amp; review date</summary><p>${esc(r.access)}</p><p>Official documentation checked ${window.ScoutDisplay.date(r.reviewed)}. This catalogue is editorially maintained, not refreshed by daily news collection. Recheck requirements before starting.</p></details></article>`,
       )
       .join("");
   }
@@ -295,7 +295,7 @@
       .forEach(b => b.setAttribute("aria-pressed", String(b.dataset.mapTopic === selected)));
     document.getElementById("map-topic-name").textContent = topic.name;
     document.getElementById("map-connection-count").textContent =
-      `${graph.organizations.length} organizations · ${graph.missions.length} programs · ${graph.readings.length} readings`;
+      `${window.ScoutDisplay.count(graph.organizations.length, "organization")} · ${window.ScoutDisplay.count(graph.missions.length, "program")} · ${window.ScoutDisplay.count(graph.readings.length, "reading")}`;
     const branches = document.getElementById("map-branches");
     branches.className = `map-branches topic-${selected}`;
     branches.innerHTML =
@@ -314,7 +314,7 @@
       <div class="map-topics" role="group" aria-label="Map technology">${topics.map(t => `<button type="button" class="desk-button topic-${t.id}" data-map-topic="${t.id}" aria-pressed="false">${esc(t.name)}</button>`).join("")}</div><p><button id="map-try-topic" class="desk-button" type="button">Try this topic · hands-on discovery ↓</button></p>
       <div class="map-hub"><span class="desk-kicker">TOPIC ASSOCIATIONS · NOT PARTNERSHIPS</span><h3 id="map-topic-name"></h3><p id="map-connection-count" role="status"></p></div>
       <div id="map-branches" class="map-branches"></div>
-      <p class="explore-note">Organizations use stored name/alias + topic co-mentions; programs use curated descriptions; readings use title/excerpt matches. These are navigational leads, not independently verified relationships. Readings: ${esc(coverage.window_start || "unknown")}–${esc(coverage.window_end || "unknown")}. Organization and mission snapshots may contain older evidence. PQC and quantum-safe mentions alone do not count as quantum-computing coverage. This map uses broader reading-window evidence; News uses selected news source accounts after date and relevance exclusions, so counts can differ.</p>
+      <p class="explore-note">Organizations use stored name/alias + topic co-mentions; programs use curated descriptions; readings use title/excerpt matches. These are navigational leads, not independently verified relationships. Readings: ${esc(window.ScoutDisplay.date(coverage.window_start))}–${esc(window.ScoutDisplay.date(coverage.window_end))}. Organization and mission snapshots may contain older evidence. PQC and quantum-safe mentions alone do not count as quantum-computing coverage. This map uses broader reading-window evidence; News uses selected news source accounts after date and relevance exclusions, so counts can differ.</p>
       <details class="hands-on-panel"><summary>Hands-on discovery · turn an interest into a small experiment</summary><p>Official projects, tutorials, a demo, and a dataset to explore. “Try this” is Frontier Signal’s suggested exercise, not a claim from the news. Nothing runs or sends data when you browse.</p><div class="discovery-controls"><label>Technology<select id="discovery-filter"><option value="all">All technologies</option>${topics.map(t => `<option value="${t.id}">${esc(t.name)}</option>`).join("")}</select></label><span id="discovery-count" role="status"></span></div><div id="discovery-resources" class="discovery-resources"></div></details>`;
     host
       .querySelectorAll("[data-map-topic]")

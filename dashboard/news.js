@@ -63,15 +63,7 @@
   }
 
   function dateLabel(value) {
-    const valid = day(value);
-    return valid
-      ? new Date(`${valid}T12:00:00Z`).toLocaleDateString("en-US", {
-          month: "short",
-          day: "numeric",
-          year: "numeric",
-          timeZone: "UTC",
-        })
-      : "Date unavailable";
+    return window.ScoutDisplay.date(value);
   }
 
   function topics(item) {
@@ -532,7 +524,7 @@
     const fresh = all.filter(item => prefs.isNew(item));
     const updates = window.ScoutStoryReader?.summary?.();
     host.hidden = !all.length;
-    host.innerHTML = `<div><strong>${!snapshot.storageAvailable ? "Your collection" : snapshot.firstVisit ? "Your first visit" : "Since your last visit"}</strong><p>${!snapshot.storageAvailable ? "Browser storage is unavailable. Visit comparisons cannot be reliably saved." : snapshot.firstVisit ? "This collection is your starting point. Future visits highlight newly collected stories." : `${fresh.length} newly collected ${fresh.length === 1 ? "story" : "stories"} in this browser. These are collection changes, not publication dates.`}</p></div><div class="visit-actions">${!snapshot.firstVisit && snapshot.storageAvailable ? '<button type="button" data-visit-action="new">See new stories →</button>' : ""}<button type="button" data-visit-action="inbox">${updates?.pending || 0} pending followed updates →</button></div>`;
+    host.innerHTML = `<div><strong>${!snapshot.storageAvailable ? "Your collection" : snapshot.firstVisit ? "Your first visit" : "Since your last visit"}</strong><p>${!snapshot.storageAvailable ? "Browser storage is unavailable. Visit comparisons cannot be reliably saved." : snapshot.firstVisit ? "This collection is your starting point. Future visits highlight newly collected stories." : `${fresh.length} newly collected ${fresh.length === 1 ? "story" : "stories"} in this browser. These are collection changes, not publication dates.`}</p></div><div class="visit-actions">${!snapshot.firstVisit && snapshot.storageAvailable ? '<button type="button" data-visit-action="new">See new stories →</button>' : ""}${updates?.pending ? `<button type="button" data-visit-action="inbox">${window.ScoutDisplay.count(updates.pending, "pending followed update")} →</button>` : ""}</div>`;
   }
 
   function renderTopicChapters(all) {

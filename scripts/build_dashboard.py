@@ -265,6 +265,7 @@ def build_dashboard(
         "components.css",
         "app.js",
         "data-loader.js",
+        "display.js",
         "entity.js",
         "favicon.svg",
         "desk.css",

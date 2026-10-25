@@ -586,6 +586,7 @@ def _shell(
 <link rel="stylesheet" href="{relative}vendor/katex-0.18.7/dist/katex.min.css">
 <script src="{relative}vendor/katex-0.18.7/dist/katex.min.js" defer></script>
 <script src="{relative}math.js?v={version}" defer></script>
+<script src="{relative}display.js?v={version}" defer></script>
 <script src="{relative}lab-service.js?v={version}" defer></script>
 <script src="{relative}story-tools.js?v={version}" defer></script>
 <script src="{relative}story-reader.js?v={version}" defer></script>
@@ -598,6 +599,12 @@ def _shell(
 <main id="story-main" class="archive-main">{body}</main>
 <footer class="archive-footer">Public evidence. Source-linked interpretation. <a href="{relative}index.html#coverage">Sources &amp; methods</a></footer>
 <p id="theme-status" class="visually-hidden" role="status"></p></body></html>'''
+
+
+def _display_date(value):
+    """Calendar-date fallback matching ScoutDisplay; no timezone day shifts."""
+    parsed = _day(value)
+    return f"{parsed.strftime('%b')} {parsed.day}, {parsed.year}" if parsed else value
 
 
 def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None) -> str:
@@ -649,7 +656,8 @@ def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None)
         ),
     ]
     facts = "".join(
-        f"<div><dt>{_text(label)}</dt><dd>{_text(value)}</dd></div>" for label, value in dates
+        f'<div><dt>{_text(label)}</dt><dd><time data-calendar-date="{_text(value)}">{_text(_display_date(value))}</time></dd></div>'
+        for label, value in dates
     )
     quotes = _list(
         list(dict.fromkeys(_strings(detail.get("what_happened")))),
@@ -705,7 +713,7 @@ def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None)
         if re.fullmatch(r"stories/[a-f0-9]{24}/index\.html", local):
             link += f' <a href="../../{local}">Read Frontier Signal briefing</a>'
         related.append(
-            f"<li>{link}<p>{_text(entry.get('source'))} · {_text(entry.get('date') or 'Publication date unavailable')}</p>{_list(entry.get('excerpts') or entry.get('key_points'))}{_list(entry.get('differences'))}</li>"
+            f"<li>{link}<p>{_text(entry.get('source'))} · {_text(_display_date(entry.get('date')) or 'Publication date unavailable')}</p>{_list(entry.get('excerpts') or entry.get('key_points'))}{_list(entry.get('differences'))}</li>"
         )
     related_html = (
         f"<section><h2>Other coverage of this development</h2><p>Related accounts are not necessarily independent confirmation. Their source-specific evidence and differences remain separate.</p><ul>{''.join(related)}</ul></section>"
@@ -716,14 +724,14 @@ def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None)
     for index, capture in reversed(list(enumerate(record["versions"]))):
         label = "Initial captured evidence" if index == 0 else "Captured title or excerpts changed"
         history.append(
-            f'<details class="capture"><summary>{_text(capture["first_report_date"])} · {label}</summary><p>{capture["observation_count"]} report observation(s), through {_text(capture["last_report_date"])}.</p><h3>{_text(capture["title"])}</h3>{_list(capture["excerpts"], "No excerpt captured.")}</details>'
+            f'<details class="capture"><summary>{_text(_display_date(capture["first_report_date"]))} · {label}</summary><p>{capture["observation_count"]} report observation(s), through {_text(_display_date(capture["last_report_date"]))}.</p><h3>{_text(capture["title"])}</h3>{_list(capture["excerpts"], "No excerpt captured.")}</details>'
         )
     reports = "".join(
-        f"<li>{_external(repo_url.rstrip('/') + '/blob/main/reports/' + entry['path'], entry['date'] + ' daily digest') if entry['available'] else _text(entry['date'] + ' report observation retained; daily digest pruned')}</li>"
+        f"<li>{_external(repo_url.rstrip('/') + '/blob/main/reports/' + entry['path'], _display_date(entry['date']) + ' daily digest') if entry['available'] else _text(_display_date(entry['date']) + ' report observation retained; daily digest pruned')}</li>"
         for entry in reversed(record["reports"])
     )
     evidence_note = (
-        f'<p class="archive-note">This briefing uses evidence captured in the {record["evidence_report_date"]} report. Later observations remain in the history below.</p>'
+        f'<p class="archive-note">This briefing uses evidence captured in the {_display_date(record["evidence_report_date"])} report. Later observations remain in the history below.</p>'
         if record["evidence_report_date"] != record["last_report_date"]
         else ""
     )
@@ -827,7 +835,7 @@ def write_story_archive(archive: dict, output: Path, *, repo_url: str, asset_ver
         tags = " ".join(_strings(story.get("news_topics")))
         searchable = f"{story['title']} {story.get('source', '')} {tags}"
         cards.append(
-            f'<article class="archive-entry" data-archive-entry data-search="{_text(searchable.lower())}"><p class="eyebrow">{_text(story.get("source"))}</p><h2><a href="{record["story_url"].removeprefix("stories/")}">{_text(story["title"])}</a></h2><p>Published: {_text(story.get("date") or "unavailable")} · Last report observation: {record["last_report_date"]}</p></article>'
+            f'<article class="archive-entry" data-archive-entry data-search="{_text(searchable.lower())}"><p class="eyebrow">{_text(story.get("source"))}</p><h2><a href="{record["story_url"].removeprefix("stories/")}">{_text(story["title"])}</a></h2><p>Published: {_text(_display_date(story.get("date")) or "unavailable")} · Last report observation: {_display_date(record["last_report_date"])}</p></article>'
         )
     body = f"""<p class="eyebrow">BEYOND THE CURRENT EDITION</p><h1>Briefing archive</h1><p class="archive-intro">Source-linked briefings stay available after they leave the homepage. Browse {len(records)} captured stories, ordered by last report observation.</p>
 <label class="archive-search">Search titles, sources, or topics<input type="search" data-archive-search placeholder="e.g. cryptography, IBM, cloud" autocomplete="off"></label>
