@@ -568,7 +568,7 @@ def _list(values: object, fallback: str = "") -> str:
 
 
 def _shell(
-    title: str, description: str, body: str, *, relative: str, canonical: str, version: str
+    title: str, description: str, body: str, *, relative: str, canonical: str, version: str, image: str = ""
 ) -> str:
     canonical_tag = f'<link rel="canonical" href="{_text(canonical)}">' if canonical else ""
     return f'''<!doctype html>
@@ -578,6 +578,10 @@ def _shell(
 <title>{_text(title)} | Frontier Signal</title>
 <meta name="description" content="{_text(description[:300])}">{canonical_tag}
 <meta property="og:title" content="{_text(title)}"><meta property="og:description" content="{_text(description[:300])}">
+<meta property="og:type" content="article"><meta property="og:url" content="{_text(canonical)}">
+{f'<meta property="og:image" content="{_text(image)}"><meta name="twitter:image" content="{_text(image)}">' if image else ""}
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{_text(title)}"><meta name="twitter:description" content="{_text(description[:300])}">
+<link rel="alternate" type="application/atom+xml" title="Frontier Signal" href="{relative}feed.xml">
 <script src="{relative}theme.js?v={version}"></script>
 <link rel="icon" href="{relative}favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="{relative}story.css?v={version}">
@@ -597,7 +601,7 @@ def _shell(
 <a href="{relative}stories/index.html">Briefing archive</a>
 <button type="button" data-theme-toggle hidden><span data-theme-icon aria-hidden="true"></span><span data-theme-label>Light mode</span></button></nav></header>
 <main id="story-main" class="archive-main">{body}</main>
-<footer class="archive-footer">Public evidence. Source-linked interpretation. <a href="{relative}index.html#coverage">Sources &amp; methods</a></footer>
+<footer class="archive-footer">Public evidence. Source-linked interpretation. <a href="{relative}index.html#coverage">Sources &amp; methods</a> · <a href="{relative}feed.xml">Subscribe via Atom</a></footer>
 <p id="theme-status" class="visually-hidden" role="status"></p></body></html>'''
 
 
@@ -798,6 +802,9 @@ def write_story_archive(archive: dict, output: Path, *, repo_url: str, asset_ver
         path.parent.mkdir(parents=True, exist_ok=True)
         story = record["story"]
         description = story.get("summary") or story["title"]
+        preview = story.get("image") or {}
+        image = _source_url(preview.get("image_url")) if preview.get("status") == "ok" and _canonical(preview.get("page_url")) == _canonical(story.get("url")) else ""
+        image = image or base + "images/news-quantum.png"
         path.write_text(
             _shell(
                 story["title"],
@@ -806,6 +813,7 @@ def write_story_archive(archive: dict, output: Path, *, repo_url: str, asset_ver
                 relative="../../",
                 canonical=base + record["story_url"] if base else "",
                 version=asset_version,
+                image=image,
             ),
             encoding="utf-8",
         )
