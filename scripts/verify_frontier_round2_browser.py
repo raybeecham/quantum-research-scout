@@ -106,6 +106,14 @@ def main():
                 ready(page)
                 section_at_top(page, section)
                 assert_no_overflow(page, section)
+                if section == "compare":
+                    # The CI overflow came from the adjacent closed Readiness
+                    # table. Test its layout, not just Compare's visible cards.
+                    assert not page.locator("#readiness").evaluate("e => e.closest('details').open")
+                    assert (
+                        page.locator("#readiness table").evaluate("e => e.getClientRects().length")
+                        == 0
+                    )
                 if section == "sources":
                     for label in ("degraded", "flaky"):
                         if any(
@@ -231,6 +239,34 @@ def main():
                 page.evaluate("hash => location.hash = hash", route)
                 expect(page.locator("#" + element)).to_be_visible()
                 assert_no_overflow(page, route)
+            for width in [1440, 375]:
+                page.set_viewport_size({"width": width, "height": 1000})
+                page.goto(f"{base}/?compare-layout={theme}-{width}#compare")
+                ready(page)
+                section_at_top(page, "compare")
+                assert_no_overflow(page, "compare-comfort")
+                for control in ["compare-first", "compare-second"]:
+                    select = page.locator("#" + control)
+                    select.select_option(index=2)
+                    select.focus()
+                    expect(select).to_be_focused()
+                    assert_no_overflow(page, control)
+                page.evaluate("location.hash = 'readiness'")
+                section_at_top(page, "readiness")
+                table = page.locator("#readiness table")
+                expect(table).to_be_visible()
+                wrap = page.locator("#readiness .table-wrap")
+                if width == 375:
+                    assert wrap.evaluate("e => e.scrollWidth > e.clientWidth")
+                    assert wrap.evaluate(
+                        "e => { e.scrollLeft = e.scrollWidth; return e.scrollLeft > 0; }"
+                    )
+                assert_no_overflow(page, "readiness-comfort")
+                page.locator("#readiness").evaluate("e => e.closest('details').open = false")
+                assert table.evaluate("e => e.getClientRects().length") == 0
+                page.evaluate("location.hash = 'compare'")
+                section_at_top(page, "compare")
+                page.screenshot(path=str(args.output / f"compare-{theme}-{width}.png"))
         for file in story_files:
             response = context.request.get(f"{base}/{file.relative_to('site').as_posix()}")
             assert response.status == 200, str(file)
