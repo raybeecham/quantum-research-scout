@@ -245,6 +245,11 @@ def main() -> None:
         assert featured_ids(page) == expected_features, (featured_ids(page), expected_features)
         expect(page.locator("#news-lead article")).to_have_count(1)
         expect(page.locator("#news-roundup article")).to_have_count(3)
+        for identifier in expected_features:
+            reason = data["editorial"]["pick_reasons"][identifier]
+            shown = page.locator(f'[data-news-id="{identifier}"] .news-selection-reason')
+            expect(shown).to_have_attribute("data-selection-rule", reason["rule"])
+            expect(shown).to_contain_text(reason["text"])
         assert len(displayed_ids(page)) == len(set(displayed_ids(page)))
         assert not page.locator("#news-tools").evaluate("node => node.open")
         expect(page.locator("#news-search")).to_be_hidden()
@@ -279,7 +284,18 @@ def main() -> None:
         }
         assert set(displayed_ids(page)) <= cloud_ids and displayed_ids(page)
         assert set(featured_ids(page)) <= cloud_ids
+        for identifier in featured_ids(page):
+            expect(
+                page.locator(f'[data-news-id="{identifier}"] .news-selection-reason')
+            ).to_be_visible()
         page.locator('[data-news-topic="all"]').click()
+        for order, rule in [("recent", "report_date_order"), ("relevance", "relevance_order")]:
+            page.locator("#news-sort").select_option(order)
+            for identifier in featured_ids(page):
+                expect(
+                    page.locator(f'[data-news-id="{identifier}"] .news-selection-reason')
+                ).to_have_attribute("data-selection-rule", rule)
+        page.locator("#news-sort").select_option("editorial")
         page.locator("#news-search").fill("quantum computing")
         assert "policy-release" not in featured_ids(page)
         assert displayed_ids(page)

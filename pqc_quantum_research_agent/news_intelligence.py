@@ -744,6 +744,7 @@ def _editorial_picks(candidates, edition):
 
     ranked = sorted(eligible, key=lambda row: rank(row, []), reverse=True)
     selected = []
+    reasons = {}
     while eligible and len(selected) < 4:
         publishers = {urlsplit(row["url"]).hostname.removeprefix("www.") for row in selected}
         available = [
@@ -759,14 +760,33 @@ def _editorial_picks(candidates, edition):
             if row["news_editorial"]["source_perspective"]
             in {"Research publication", "Research preprint"}
         ]
-        pool = papers if len(selected) == 1 and papers else available
+        reserved_paper = bool(len(selected) == 1 and papers)
+        pool = papers if reserved_paper else available
         item = max(pool, key=lambda row: rank(row, selected))
+        rule = (
+            "research_slot" if reserved_paper else "lead_rank" if not selected else "diverse_rank"
+        )
+        label = {
+            "research_slot": "Recent research: reserved paper slot",
+            "lead_rank": "Highest-ranked eligible recent development",
+            "diverse_rank": "Next highest-ranked development from a different publisher",
+        }[rule]
+        reasons[item.get("id")] = {
+            "rule": rule,
+            "text": label,
+            "score": rank(item, selected)[0],
+            "publication_age_days": (edition - _published(item)).days,
+            "kind": item["news_editorial"]["kind"],
+            "publisher_host": urlsplit(item["url"]).hostname.removeprefix("www."),
+            "slot": len(selected),
+        }
         selected.append(item)
         eligible.remove(item)
     return {
         "lead_id": selected[0].get("id") if selected else None,
         "roundup_ids": [row.get("id") for row in selected[1:]],
         "ranked_ids": [row.get("id") for row in ranked],
+        "pick_reasons": reasons,
         "method": _EDITORIAL_METHOD,
         "empty_reason": ""
         if selected

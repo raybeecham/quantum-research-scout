@@ -20,6 +20,7 @@
     feed: "all",
     unread: false,
     failedImages: new Set(),
+    featuredReasons: new Map(),
   };
   const $ = id => document.getElementById(id);
   const text = value => (typeof value === "string" ? value : "");
@@ -224,6 +225,10 @@
     const read = prefs?.isRead(item.id);
     const fresh = prefs?.isNew(item);
     const editorial = item.news_editorial;
+    const selectedBy = variant !== "row" && state.featuredReasons.get(item.id);
+    const selectionLine = selectedBy
+      ? `<p class="news-selection-reason" data-selection-rule="${esc(selectedBy.rule)}"><span>Why picked:</span> ${esc(selectedBy.text)}</p>`
+      : "";
     const accountCount = Number.isSafeInteger(item.news_event?.account_count)
       ? item.news_event.account_count
       : 1;
@@ -259,14 +264,14 @@
       text(leadImpact)
         ? `<div class="news-lead-context"><span>Why it may matter · Frontier Signal interpretation</span><p>${esc(leadImpact)}</p></div>`
         : "";
-    const copy = `<div class="news-copy"><p class="news-category" data-news-category="${topic}">${variant === "lead" ? '<span class="news-lead-marker">' + (editorial?.eligible ? "IN FOCUS" : "FROM THE COLLECTION") + "</span> · " : ""}${esc(topic === "all" ? "Emerging technology" : TOPICS[topic])}</p><${heading}><a href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></${heading}>${metadata(item)}${status}<p class="news-summary${summary ? "" : " is-unavailable"}">${esc(summary || "Source excerpt unavailable. Open the original source to see what it reports.")}</p>${context || whyNow}${basis}<div class="news-actions">${detail}<a class="news-source-link" href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Read original <span aria-hidden="true">↗</span></a>${save}${readButton}</div></div>`;
+    const copy = `<div class="news-copy"><p class="news-category" data-news-category="${topic}">${variant === "lead" ? '<span class="news-lead-marker">' + (editorial?.eligible ? "IN FOCUS" : "FROM THE COLLECTION") + "</span> · " : ""}${esc(topic === "all" ? "Emerging technology" : TOPICS[topic])}</p><${heading}><a href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></${heading}>${metadata(item)}${status}${selectionLine}<p class="news-summary${summary ? "" : " is-unavailable"}">${esc(summary || "Source excerpt unavailable. Open the original source to see what it reports.")}</p>${context || whyNow}${basis}<div class="news-actions">${detail}<a class="news-source-link" href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Read original <span aria-hidden="true">↗</span></a>${save}${readButton}</div></div>`;
     const image = visual(item, variant === "lead", usedImages);
     if (variant === "lead") {
       const next = text(item.news_detail?.next_step);
       return `<article class="news-lead news-topic-${topic} immersive-feature${image ? "" : " news-text-only"}" data-news-id="${esc(item.id || canonicalUrl(item.url))}">
         <div class="feature-stage"><p class="news-category" data-news-category="${topic}"><span class="news-lead-marker">${editorial?.eligible ? "IN FOCUS" : "FROM THE COLLECTION"}</span> · ${esc(TOPICS[topic] || "Emerging technology")}</p><h2><a href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></h2>${image}<span class="feature-scroll-cue" aria-hidden="true">THE STORY, IN CONTEXT <span>↓</span></span></div>
         <div class="news-copy feature-narrative"><section class="feature-chapter"><span class="feature-number" aria-hidden="true">01</span><h3>What happened.</h3>${metadata(item)}${status}<p class="news-summary${summary ? "" : " is-unavailable"}">${esc(summary || "Source excerpt unavailable. Open the original source to see what it reports.")}</p></section>
-        <section class="feature-chapter"><span class="feature-number" aria-hidden="true">02</span><h3>Why it matters.</h3>${context || whyNow || '<p class="feature-limited">There is not enough collected evidence for a specific impact assessment. Start with the original report.</p>'}${basis}</section>
+        <section class="feature-chapter"><span class="feature-number" aria-hidden="true">02</span><h3>Why it matters.</h3>${context || whyNow || '<p class="feature-limited">There is not enough collected evidence for a specific impact assessment. Start with the original report.</p>'}${selectionLine}${basis}</section>
         <section class="feature-chapter"><span class="feature-number" aria-hidden="true">03</span><h3>What to watch.</h3><p class="feature-next">${esc(next || "Check the original source for supporting evidence and subsequent updates before drawing conclusions.")}</p><p class="feature-disclosure">A suggested follow-up, not a prediction or an independently verified conclusion.</p><div class="news-actions">${detail}<a class="news-source-link" href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Read original ↗</a>${save}${readButton}</div></section></div></article>`;
     }
     return `<article class="news-${variant} news-topic-${topic}${image ? "" : " news-text-only"}" data-news-id="${esc(item.id || canonicalUrl(item.url))}">${variant === "lead" ? copy + image : image + copy}</article>`;
@@ -423,6 +428,7 @@
 
   function selectFeatured(filtered) {
     const editorial = state.data?.news_intelligence?.editorial;
+    state.featuredReasons.clear();
     if (state.sort !== "editorial" || !editorial) {
       const publishers = new Set();
       return filtered
@@ -430,6 +436,13 @@
           const host = new URL(sourceUrl(item.url)).hostname.replace(/^www\./, "");
           if (publishers.has(host)) return false;
           publishers.add(host);
+          state.featuredReasons.set(item.id, {
+            rule: state.sort === "relevance" ? "relevance_order" : "report_date_order",
+            text:
+              state.sort === "relevance"
+                ? "Relevance order, with one story per publisher"
+                : "Collected-report date order, with one story per publisher",
+          });
           return true;
         })
         .slice(0, 4);
@@ -438,11 +451,12 @@
     if (!eligible.length) return filtered.slice(0, 1);
     const selected = [];
     const publishers = new Set();
-    const add = item => {
+    const add = (item, reason) => {
       const host = new URL(sourceUrl(item.url)).hostname.replace(/^www\./, "");
       if (selected.some(row => row.id === item.id) || publishers.has(host)) return;
       publishers.add(host);
       selected.push(item);
+      state.featuredReasons.set(item.id, reason);
     };
     const lookup = new Map(eligible.map(item => [item.id, item]));
     const preferred = [
@@ -452,12 +466,27 @@
     ];
     for (const id of preferred) {
       if (!lookup.has(id) || selected.some(item => item.id === id)) continue;
-      add(lookup.get(id));
+      const pick = editorial.pick_reasons?.[id];
+      add(
+        lookup.get(id),
+        pick?.text && pick?.rule
+          ? {
+              rule: pick.rule,
+              text: `Edition pick: ${pick.text}`,
+            }
+          : {
+              rule: "ranked_fallback",
+              text: "Next available edition-ranked story from a different publisher",
+            },
+      );
       if (selected.length === 4) break;
     }
     for (const item of eligible) {
       if (selected.length >= 4) break;
-      add(item);
+      add(item, {
+        rule: "eligible_fallback",
+        text: "Next qualifying story from a different publisher",
+      });
     }
     return selected;
   }

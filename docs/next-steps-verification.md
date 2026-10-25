@@ -65,3 +65,15 @@ Pinned axe-core 4.14.0 is a development-only dependency. CI and deployment audit
 Fixed coverage-link accessible names to include their visible labels and counts, made the source-health table keyboard-scrollable, and removed opacity from completed milestones because it reduced light-mode text contrast below the minimum. All 96 audits now report zero serious/critical violations. Keyboard-only Tab/Enter/arrow interactions passed comparison dropdown changes, creating and saving a question, opening notebook import, confirming a merge, and both JSON/BibTeX exports. Playwright supplies the synthetic file after the keyboard opens the file chooser. No AI requests were made.
 
 NVDA is not installed on this Windows machine, and VoiceOver is unavailable. The requested actual screen-reader listening pass is **not verified**; automated accessible-tree checks are not a substitute. Manual follow-up: use NVDA on Latest, navigate by headings, activate Story details by keyboard, read its title/evidence/actions, press Escape, and confirm focus returns to the opener.
+
+## 9. Explainable shortlist selection
+
+The selection function now emits a reason, rule identifier, actual selection score, publication age, publisher host, and slot for each featured story. Cards show a short "Why picked" line. Research-slot wording is emitted only when the reserved-paper branch actually selects the story. Edition picks are explicitly labeled as edition picks after filtering; fallback and user-selected date/relevance ordering have their own explanations. The wording never claims a world-first deployment, scientific quality, or independent verification.
+
+Verification: 156 news-intelligence tests pass, including reserved-paper/no-paper cases, unique publishers, and reason-to-slot mappings. The editorial browser checks compare displayed text and rule identifiers against the backend output, then change filters and both sort modes to confirm reasons update. Both themes and desktop/mobile layouts pass. The current edition features Quantum Computing Report, Quantum Journal, Cloudflare, and The Quantum Insider, each once. Final initial data size including explanations is 971,466 bytes.
+
+## Delivery status
+
+These changes are separated into nine local commits. No push or production deployment has been performed as part of this request. Live feed-issue creation/recovery and the actual NVDA listening check remain follow-up verification; stale-source freshness remains above the requested target. Local automated results do not claim that GitHub Actions or the public site has already updated.
+
+Final local verification: 1,143 Python tests, Ruff lint/format, dashboard Prettier, the release gate with both injected regressions rejected, all 96 axe checks, and the browser suites for news, motion, themes, profiles, briefing, exploration, patents, Question Lab, notebook/RIS import, comparison, investigations, and mocked hosted authentication passed. The actual publication data and HTML passed the credential-pattern scan. The remote was fetched and remains at `3312a5c`; the working tree is clean after the nine reviewable commits.

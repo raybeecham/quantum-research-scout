@@ -1340,6 +1340,26 @@ def test_recent_preprint_gets_reserved_shortlist_slot_without_publisher_repeats(
     ids = [result["editorial"]["lead_id"], *result["editorial"]["roundup_ids"]]
     assert ids[1] == paper["id"]
     assert len(ids) == 4
+    reasons = result["editorial"]["pick_reasons"]
+    assert set(reasons) == set(ids)
+    assert reasons[paper["id"]]["rule"] == "research_slot"
+    assert reasons[paper["id"]]["publication_age_days"] == 5
+    assert reasons[ids[0]]["rule"] == "lead_rank"
+    assert reasons[ids[2]]["rule"] == "diverse_rank"
+    assert [reasons[i]["slot"] for i in ids] == list(range(4))
+    assert len({reasons[i]["publisher_host"] for i in ids}) == 4
+
+
+def test_selection_explanations_do_not_claim_a_research_reservation_without_a_paper():
+    rows = [
+        story(f"Maker {i} releases quantum processor", f"https://publisher{i}.example/news")
+        for i in range(5)
+    ]
+    result = build(*rows)
+    picks = result["editorial"]["pick_reasons"]
+    assert len(picks) == 4
+    assert {pick["rule"] for pick in picks.values()} == {"lead_rank", "diverse_rank"}
+    assert all(isinstance(pick["score"], int) for pick in picks.values())
 
 
 def historical(title, url, date="2026-09-15", **kwargs):

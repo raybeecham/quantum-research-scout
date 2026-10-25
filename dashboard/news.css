@@ -377,6 +377,15 @@
   font-size: 10px;
   margin-bottom: 10px;
 }
+.news-selection-reason {
+  margin: 10px 0;
+  color: var(--muted);
+  font: 400 13px/1.6 var(--font-display);
+}
+.news-selection-reason > span {
+  color: var(--text-secondary);
+  font-weight: 600;
+}
 .news-roundup-card .news-actions {
   justify-content: start;
   gap: 4px 10px;
