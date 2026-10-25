@@ -94,6 +94,9 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Install dashboard build dependencies
+        run: python -m pip install .
+
       - name: Build static dashboard
         run: python scripts/build_dashboard.py --output site
 

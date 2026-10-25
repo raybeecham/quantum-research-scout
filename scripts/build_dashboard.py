@@ -26,8 +26,8 @@ from pqc_quantum_research_agent.story_archive import (  # noqa: E402
     prepare_story_archive,
     write_story_archive,
 )
-from pqc_quantum_research_agent.story_images import story_image_record  # noqa: E402
 from pqc_quantum_research_agent.story_follow import annotate_story_reader  # noqa: E402
+from pqc_quantum_research_agent.story_images import story_image_record  # noqa: E402
 
 
 def build_dashboard(

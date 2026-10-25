@@ -184,6 +184,14 @@ def workflow(name):
     return yaml.safe_load((ROOT / ".github/workflows" / name).read_text(encoding="utf-8"))
 
 
+def test_pages_installs_project_dependencies_before_build():
+    steps = workflow("deploy-dashboard.yml")["jobs"]["build-and-deploy"]["steps"]
+    commands = [step.get("run", "") for step in steps]
+    install = commands.index("python -m pip install .")
+    build = commands.index("python scripts/build_dashboard.py --output site")
+    assert install < build
+
+
 def test_workflow_schedules_and_publication_order():
     daily_flow = workflow("daily-research-scout.yml")
     weekly_flow = workflow("weekly-research-synthesis.yml")

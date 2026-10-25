@@ -10,7 +10,6 @@ import re
 
 from .redaction import redact_text
 
-
 _BACKGROUND = re.compile(
     r"\b(?:also|meanwhile|separately|previously|historically|formerly|in addition|alongside|elsewhere|other offerings|broader portfolio|technology portfolio|product portfolio|future universal|performance targets for)\b",
     re.I,
@@ -207,7 +206,7 @@ def _synthesize(title, statements, editorial, frame):
             )
         return _result(
             "Funding detail not captured",
-            f"The source reports a funding commitment"
+            "The source reports a funding commitment"
             + (f" of {money}" if money else "")
             + ", but this capture is too thin to tie it to a technical milestone.",
             "Which award document identifies the recipient, funded deliverable, and completion criteria?",

@@ -14,7 +14,10 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from pqc_quantum_research_agent.classifier import classify_item  # noqa: E402
-from pqc_quantum_research_agent.collectors import collect_rss_feeds, collect_watch_sources  # noqa: E402
+from pqc_quantum_research_agent.collectors import (  # noqa: E402
+    collect_rss_feeds,
+    collect_watch_sources,
+)
 from pqc_quantum_research_agent.config import load_config  # noqa: E402
 from pqc_quantum_research_agent.emerging_tech import emerging_tech_signal  # noqa: E402
 from pqc_quantum_research_agent.http import HttpClient  # noqa: E402

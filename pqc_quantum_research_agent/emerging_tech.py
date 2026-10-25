@@ -9,7 +9,6 @@ from __future__ import annotations
 
 import re
 
-
 _PROMOTIONAL = re.compile(
     r"\b(?:webinar|conference|attendee|sponsorship|sponsors?|keynote|careers?|hiring|"
     r"job opening|earnings|financial results|stock price|share price|funding round|"

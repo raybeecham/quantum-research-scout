@@ -8,7 +8,6 @@ import pytest
 from pqc_quantum_research_agent.collectors import collect_rss_feeds, collect_watch_sources
 from pqc_quantum_research_agent.config import load_config
 
-
 CONFIG = load_config(Path(__file__).resolve().parents[1] / "sources.yaml")
 
 

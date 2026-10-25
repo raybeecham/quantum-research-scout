@@ -14,7 +14,6 @@ from playwright.sync_api import Page, expect, sync_playwright
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from pqc_quantum_research_agent.news_intelligence import build_news_intelligence
 from verify_news_browser import (
     INJECTION,
     NOTEBOOK_KEY,
@@ -24,6 +23,8 @@ from verify_news_browser import (
     open_tools,
 )
 from verify_news_intelligence_browser import PREFERENCES_KEY, assert_no_overflow
+
+from pqc_quantum_research_agent.news_intelligence import build_news_intelligence
 
 
 def editorial_fixture() -> dict:

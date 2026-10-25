@@ -202,11 +202,10 @@ def primary_origin(value: object) -> dict:
         re.I,
     ):
         kind = "government"
-    elif host.endswith((".edu", ".ac.uk")) and re.search(
-        r"/(?:news|newsdesk|research|press|media|releases|articles)/.+", path, re.I
-    ):
-        kind = "official_release"
     elif (
+        host.endswith((".edu", ".ac.uk"))
+        and re.search(r"/(?:news|newsdesk|research|press|media|releases|articles)/.+", path, re.I)
+    ) or (
         host.startswith("news.")
         and host.endswith((".edu", ".ac.uk"))
         and re.fullmatch(r"/stories/20\d{2}/[^/]+", path, re.I)
@@ -325,9 +324,8 @@ def extract_primary_links(html: str, page_url: str, story: dict | None = None) -
             if not origin or _key(url) in seen:
                 continue
             label = _text("".join(anchor["text"]), 160)
-            if (
-                not label
-                or label.lower() in {"here", "click here", "read more", "learn more"}
+            if not label or (
+                label.lower() in {"here", "click here", "read more", "learn more"}
                 and not _CUE.search(context)
             ):
                 continue

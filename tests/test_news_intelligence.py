@@ -1313,7 +1313,7 @@ def test_editorial_roundup_adds_source_and_topic_variety_without_dropping_other_
     assert len(result["stories"]) == 7
     assert len(result["editorial"]["roundup_ids"]) == 3
     assert alternate["id"] in result["editorial"]["roundup_ids"]
-    assert len(set([result["editorial"]["lead_id"], *result["editorial"]["roundup_ids"]])) == 4
+    assert len({result["editorial"]["lead_id"], *result["editorial"]["roundup_ids"]}) == 4
 
 
 def historical(title, url, date="2026-09-15", **kwargs):

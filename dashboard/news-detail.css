@@ -22,7 +22,7 @@
   background: #020b15bd;
   backdrop-filter: blur(3px);
 }
-.news-detail-dialog :is(p, h2, h3, h4, li, a) {
+.news-detail-dialog :is(p, h2, h3, h4, li, a, blockquote, summary) {
   overflow-wrap: anywhere;
 }
 .news-detail-topline {

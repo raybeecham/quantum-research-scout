@@ -8,7 +8,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from pqc_quantum_research_agent.story_archive import refresh_story_evidence  # noqa: E402
+from pqc_quantum_research_agent.story_archive import refresh_story_evidence
 
 
 def main() -> None:

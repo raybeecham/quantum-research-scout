@@ -9,7 +9,6 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from playwright.sync_api import expect, sync_playwright
-
 from verify_news_browser import INJECTION
 from verify_news_intelligence_browser import assert_no_overflow
 from verify_story_quality_browser import fixture as quality_fixture

@@ -398,10 +398,11 @@ def annotate_story_reader(news: dict, *, archive_records=(), missions=(), standa
             old_title = prior_title
             prior_excerpts = excerpts
             prior_title = version.get("title", story.get("title"))
+
             # A changed headline, ordering, or whitespace alone is not a changed claim.
-            canonical_claims = lambda values: {
-                re.sub(r"\s+", " ", value).strip() for value in values
-            }
+            def canonical_claims(values):
+                return {re.sub(r"\s+", " ", value).strip() for value in values}
+
             if (
                 old is None
                 or not old

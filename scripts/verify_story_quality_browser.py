@@ -9,7 +9,6 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from playwright.sync_api import expect, sync_playwright
-
 from verify_news_browser import INJECTION
 from verify_news_intelligence_browser import assert_no_overflow, intelligence_fixture
 
@@ -71,7 +70,11 @@ def fixture():
                 "date": primary["date"],
                 "date_label": "Published",
                 "label": "Result reported",
-                "excerpts": ["The second fixture source reports a 20% measurement.", INJECTION],
+                "excerpts": [
+                    "The second fixture source reports a 20% measurement.",
+                    INJECTION,
+                    "Long unbroken source token: " + "A" * 150,
+                ],
                 "differences": ["Different reported quantities must remain separate."],
                 "match_basis": ["Shared named deployment, not just the vendor."],
                 "story_url": "javascript:window.newsInjected=true",
@@ -218,8 +221,16 @@ def main():
             for width in (1440, 390, 320):
                 page.set_viewport_size({"width": width, "height": 1000})
                 assert_no_overflow(page)
-                assert dialog.evaluate("node => node.scrollWidth <= node.clientWidth + 1")
                 page.screenshot(path=str(args.output / f"detail-{theme}-{width}.png"))
+                bounds = dialog.evaluate("""node => ({
+                  client: node.clientWidth, scroll: node.scrollWidth,
+                  overflowing: [...node.querySelectorAll('*')].filter(child => {
+                    const r = child.getBoundingClientRect(), outer = node.getBoundingClientRect();
+                    return r.width && r.right > outer.right + 1;
+                  }).slice(0, 12).map(child => ({tag: child.tagName, class: child.className,
+                    width: child.getBoundingClientRect().width, scroll: child.scrollWidth}))
+                })""")
+                assert bounds["scroll"] <= bounds["client"] + 1, (theme, width, bounds)
         page.keyboard.press("Escape")
         expect(button).to_be_focused()
         page.locator("#news-browse").click()
