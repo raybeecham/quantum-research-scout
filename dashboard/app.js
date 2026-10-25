@@ -119,39 +119,43 @@ function persistAnalystDecisions() {
 
 state.analystDecisions = loadAnalystDecisions();
 
-window.ScoutData.index()
-  .then(() => {
-    window.ScoutDesk.route();
-  })
-  .catch(error => {
-    window.ScoutDesk?.error(error.message);
-    document.getElementById("signal-grid").innerHTML =
-      `<p>Unable to load dashboard data: ${escapeHtml(error.message)}</p>`;
-  });
-
 let renderedDataRevision = -1;
+let routeRequest = 0;
 window.ScoutData.onRoute = key => {
+  const request = ++routeRequest;
+  const main = document.getElementById("main");
+  window.ScoutDesk.clearError();
   if (
     state.data &&
     window.ScoutData.ready(key) &&
     renderedDataRevision === window.ScoutData.revision
-  )
+  ) {
+    main.setAttribute("aria-busy", "false");
+    window.ScoutDesk.loading(false);
     return false;
-  const main = document.getElementById("main");
+  }
   main.setAttribute("aria-busy", "true");
+  window.ScoutDesk.loading(true);
   window.ScoutData.loadRoute(key)
     .then(data => {
+      // A late response may fill the cache, but must not rerender another
+      // workspace, reset its scroll position, or interrupt an edited form.
+      if (request !== routeRequest) return;
       state.data = data;
       renderedDataRevision = window.ScoutData.revision;
       main.setAttribute("aria-busy", "false");
+      window.ScoutDesk.loading(false);
       render();
     })
     .catch(error => {
+      if (request !== routeRequest) return;
       main.setAttribute("aria-busy", "false");
-      window.ScoutDesk.error(error.message);
+      window.ScoutDesk.loading(false);
+      window.ScoutDesk.error(error.message, { reloadRequired: error.reloadRequired });
     });
   return true;
 };
+window.ScoutDesk.route();
 
 function render() {
   const themes = state.data.signals?.themes || [];

@@ -751,6 +751,13 @@ kbd {
   border-radius: 8px;
   color: var(--muted);
 }
+.section-loading {
+  padding: 12px 0;
+  color: var(--muted);
+}
+#desk-error .desk-button {
+  margin: 8px 12px 8px 0;
+}
 .desk-empty h2 {
   font-size: 22px;
   color: var(--text);

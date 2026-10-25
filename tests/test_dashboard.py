@@ -510,6 +510,21 @@ class DashboardBuildTests(unittest.TestCase):
             )
             payload = json.loads(data_path.read_text(encoding="utf-8"))
             from pqc_quantum_research_agent.dashboard_data import PACKS
+            from pqc_quantum_research_agent.publication import MANIFEST, package_publication
+
+            site = data_path.parent.parent
+            manifest = json.loads((site / MANIFEST).read_text(encoding="utf-8"))
+            expected = {
+                path.relative_to(site).as_posix()
+                for path in site.rglob("*")
+                if path.is_file() and path.name != MANIFEST
+            }
+            self.assertEqual(set(manifest["files"]), expected)
+            self.assertEqual(manifest["build_id"], payload["build_id"])
+            (site / "private-test-export.json").write_text("Do not publish", encoding="utf-8")
+            staged = package_publication(site, root / "public")
+            self.assertEqual(staged["files"], len(expected))
+            self.assertFalse((root / "public/private-test-export.json").exists())
 
             index = json.loads((data_path.parent / "index.json").read_text(encoding="utf-8"))
             self.assertEqual(index["build_id"], payload["build_id"])

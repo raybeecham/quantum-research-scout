@@ -159,6 +159,7 @@
     </header>
     <main class="shell desk-main" id="main" tabindex="-1">
       <div id="desk-error" class="desk-loading" role="alert" hidden></div>
+      <p id="section-loading" class="section-loading" role="status" hidden></p>
       <p id="storage-notice" class="freshness-notice" role="status" hidden>
         Browser storage is unavailable or full. Notes, saved items, and filters may not survive a reload. Export your
         notebook before leaving.
@@ -322,9 +323,12 @@
           <span aria-hidden="true">↓</span>
         </button>
         <footer class="news-footer">
-          <p id="news-scope">
-            A curated collection, not a live or exhaustive news service. Check original sources for current details.
-          </p>
+          <details class="news-method">
+            <summary>How this feed is selected</summary>
+            <p id="news-scope">
+              A curated collection, not a live or exhaustive news service. Check original sources for current details.
+            </p>
+          </details>
           <div class="news-footer-links">
             <a id="news-archive-link" href="stories/index.html" hidden>Browse the story archive →</a>
             <a href="#operations">Sources &amp; coverage ↗</a>

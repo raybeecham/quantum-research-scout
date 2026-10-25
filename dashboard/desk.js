@@ -1094,21 +1094,40 @@
     return `${normalized} ${aliases.flat().join(" ")}`;
   }
 
+  let searchLoad = null;
   function search() {
-    if (window.ScoutData && !window.ScoutData.searchReady()) {
-      $("search-count").textContent = "Loading the searchable collection…";
-      window.ScoutData.loadSearch()
-        .then(() => search())
-        .catch(error => {
-          $("search-count").textContent = error.message;
-        });
-      return;
-    }
     const query = normalizeSearch($("desk-search").value.trim());
     document
       .querySelectorAll("[data-search-kind]")
       .forEach(b => b.setAttribute("aria-pressed", String(b.dataset.searchKind === ui.searchKind)));
-    if (!ui.data || !query) {
+    if (!query) {
+      $("search-results").replaceChildren();
+      $("search-count").textContent = "Start with a technology, organization, or mission.";
+      $("search-more").hidden = true;
+      return;
+    }
+    if (window.ScoutData && !window.ScoutData.searchReady()) {
+      $("search-count").textContent = "Loading the searchable collection…";
+      $("search-results").replaceChildren();
+      $("search-more").hidden = true;
+      if (!searchLoad)
+        searchLoad = window.ScoutData.loadSearch()
+          .then(data => {
+            ui.data = data;
+            if ($("search-dialog").open) search();
+          })
+          .catch(error => {
+            if (!$("search-dialog").open || !$("desk-search").value.trim()) return;
+            $("search-count").textContent = error.message;
+            $("search-results").innerHTML =
+              `<button type="button" class="desk-button" data-search-retry="${error.reloadRequired ? "reload" : "retry"}">${error.reloadRequired ? "Reload latest edition" : "Try search again"}</button>`;
+          })
+          .finally(() => {
+            searchLoad = null;
+          });
+      return;
+    }
+    if (!ui.data) {
       $("search-results").innerHTML = "";
       $("search-count").textContent = "Start with a technology, organization, or mission.";
       $("search-more").hidden = true;
@@ -1603,6 +1622,15 @@
     search();
   });
   $("search-results").addEventListener("click", e => {
+    const retry = e.target.closest("[data-search-retry]");
+    if (retry) {
+      if (retry.dataset.searchRetry === "reload") location.reload();
+      else {
+        $("desk-search").focus({ preventScroll: true });
+        search();
+      }
+      return;
+    }
     const anchor = e.target.closest("a");
     if (anchor && anchor.target !== "_blank") $("search-dialog").close();
   });
@@ -1621,19 +1649,37 @@
     }
   });
   window.addEventListener("hashchange", route);
+  $("desk-error").addEventListener("click", event => {
+    const retry = event.target.closest("[data-retry-section]");
+    if (!retry) return;
+    if (retry.dataset.retrySection === "reload") location.reload();
+    else route();
+  });
   window.ScoutDesk = {
     init,
     route,
-    error(message) {
+    loading(active) {
+      $("section-loading").hidden = !active;
+      $("section-loading").textContent = active
+        ? `Loading ${views[ui.view][0].toLowerCase()}…`
+        : "";
+    },
+    clearError() {
+      $("desk-error").hidden = true;
+      $("desk-error").replaceChildren();
+    },
+    error(message, { reloadRequired = false } = {}) {
       $("desk-loading").hidden = true;
       $("news-loading").hidden = true;
-      $("news-status").hidden = false;
-      $("news-status").textContent =
-        "The news collection could not load. Reload the page or open the reports on GitHub below.";
-      $("news-status").dataset.freshness = "unknown";
+      if (ui.view === "news") {
+        $("news-status").hidden = false;
+        $("news-status").textContent =
+          "The news collection could not load. Use the retry control above.";
+        $("news-status").dataset.freshness = "unknown";
+      }
       $("desk-error").hidden = false;
       $("desk-error").innerHTML =
-        `<h2>The briefing couldn’t load.</h2><p>${esc(message)}</p><a href="https://github.com/raybeecham/quantum-research-scout/tree/main/reports">Read the reports on GitHub →</a>`;
+        `<h2>${esc(views[ui.view][0])} couldn’t load.</h2><p>${esc(message)}</p><p>Your saved items and notes are unchanged. Other sections remain available.</p><button type="button" class="desk-button" data-retry-section="${reloadRequired ? "reload" : "retry"}">${reloadRequired ? "Reload latest edition" : "Try this section again"}</button> <a href="https://github.com/raybeecham/quantum-research-scout/tree/main/reports">Read the reports on GitHub →</a>`;
     },
   };
   route();

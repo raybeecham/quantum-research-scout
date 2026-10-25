@@ -21,16 +21,41 @@
   let manifest = null;
   let revision = 0;
   let boot = null;
+  function editionChanged() {
+    return Object.assign(
+      new Error("The site updated while loading. Reload for a consistent edition."),
+      {
+        reloadRequired: true,
+      },
+    );
+  }
   async function read(file, version) {
-    const response = await fetch(`data/${file}?v=${encodeURIComponent(version)}`);
-    if (!response.ok)
-      throw new Error(`Could not load ${file} (HTTP ${response.status}). Reload to retry.`);
-    return response.json();
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 20_000);
+    try {
+      const response = await fetch(`data/${file}?v=${encodeURIComponent(version)}`, {
+        signal: controller.signal,
+      });
+      if (!response.ok) throw new Error(`Could not load ${file} (HTTP ${response.status}).`);
+      const value = await response.json();
+      if (!value || typeof value !== "object" || Array.isArray(value))
+        throw new Error(`The response for ${file} was incomplete.`);
+      return value;
+    } catch (error) {
+      if (error.name === "AbortError")
+        throw new Error(`Loading ${file} took too long. Try again when your connection is ready.`);
+      if (error instanceof SyntaxError)
+        throw new Error(`The response for ${file} could not be read. Try again.`);
+      throw error;
+    } finally {
+      clearTimeout(timeout);
+    }
   }
   function index() {
     if (!boot)
       boot = read("index.json", "__ASSET_VERSION__")
         .then(value => {
+          if (value.packs && value.build_id !== "__ASSET_VERSION__") throw editionChanged();
           manifest = value;
           Object.assign(data, value);
           return data;
@@ -51,12 +76,14 @@
         if (!pending.has(name))
           pending.set(
             name,
-            read(manifest.packs[name], manifest.build_id)
+            Promise.resolve()
+              .then(() => {
+                if (manifest.packs[name] !== `${name}.json`)
+                  throw new Error(`The ${name} section is missing from this edition.`);
+                return read(manifest.packs[name], manifest.build_id);
+              })
               .then(value => {
-                if (value.build_id !== manifest.build_id)
-                  throw new Error(
-                    "The site updated while loading. Reload for a consistent edition.",
-                  );
+                if (value.build_id !== manifest.build_id) throw editionChanged();
                 Object.assign(data, value);
                 loaded.add(name);
                 revision += 1;

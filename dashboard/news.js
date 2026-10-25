@@ -262,7 +262,7 @@
       Array.isArray(item.news_detail?.analysis_evidence) &&
       item.news_detail.analysis_evidence.length &&
       text(leadImpact)
-        ? `<div class="news-lead-context"><span>Why it may matter · Frontier Signal interpretation</span><p>${esc(leadImpact)}</p></div>`
+        ? `<div class="news-lead-context"><span>Frontier Signal interpretation</span><p>${esc(leadImpact)}</p></div>`
         : "";
     const copy = `<div class="news-copy"><p class="news-category" data-news-category="${topic}">${variant === "lead" ? '<span class="news-lead-marker">' + (editorial?.eligible ? "IN FOCUS" : "FROM THE COLLECTION") + "</span> · " : ""}${esc(topic === "all" ? "Emerging technology" : TOPICS[topic])}</p><${heading}><a href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></${heading}>${metadata(item)}${status}${selectionLine}<p class="news-summary${summary ? "" : " is-unavailable"}">${esc(summary || "Source excerpt unavailable. Open the original source to see what it reports.")}</p>${context || whyNow}${basis}<div class="news-actions">${detail}<a class="news-source-link" href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Read original <span aria-hidden="true">↗</span></a>${save}${readButton}</div></div>`;
     const image = visual(item, variant === "lead", usedImages);
@@ -549,21 +549,30 @@
       host.replaceChildren();
       return;
     }
-    const headings = {
-      quantum: "The quantum frontier",
-      security: "Securing what comes next",
-      ai: "Intelligence in practice",
-      government: "Policy into action",
-    };
-    const seen = new Set();
     host.innerHTML =
-      `<div class="topic-chapters-heading"><span class="news-section-kicker">EXPLORE THE SIGNALS</span><h2>Four lenses. One changing world.</h2><p>Collected coverage, organized by what you want to understand.</p></div>` +
-      Object.entries(headings)
-        .map(([key, heading], index) => {
+      `<div class="topic-chapters-heading"><h2>Explore by topic</h2><p>Coverage in this collection. A story can appear in more than one topic.</p></div>` +
+      ["quantum", "security", "ai", "government"]
+        .map(key => {
           const matches = all.filter(item => topics(item).includes(key));
-          const picks = matches.filter(item => !seen.has(item.id)).slice(0, 2);
-          picks.forEach(item => seen.add(item.id));
-          return `<section class="topic-chapter topic-chapter-${key}" aria-labelledby="topic-heading-${key}"><div class="topic-chapter-intro"><span class="topic-chapter-index">0${index + 1} / ${esc(TOPICS[key])}</span><h3 id="topic-heading-${key}">${heading}</h3><p>${matches.length} ${matches.length === 1 ? "story" : "stories"} in this collection</p><button type="button" data-topic-jump="${key}">Explore ${esc(TOPICS[key])} →</button></div><div class="topic-chapter-stories">${picks.length ? picks.map((item, i) => `<div class="topic-reading${i === 0 ? " topic-reading-lead" : ""}"><span>${esc(item.source)} · Collected ${esc(dateLabel(item.report_date))}</span><h4><button type="button" data-topic-detail="${esc(item.id)}">${esc(item.title)}</button></h4>${i === 0 ? `<p>${esc(excerpt(item) || "Read the source for the full context.")}</p>` : ""}<a href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Original source ↗</a></div>`).join("") : `<p>${matches.length ? "Cross-topic stories are featured in the sections above. Explore this topic to see all matching coverage." : "No matching stories in this collection. That does not imply there is no activity in this field."}</p>`}</div></section>`;
+          const hosts = new Set(
+            matches.flatMap(item => {
+              const accounts = Array.isArray(item.news_event?.accounts)
+                ? item.news_event.accounts
+                : [];
+              return [item, ...accounts]
+                .map(account => {
+                  const url = sourceUrl(account?.url);
+                  return url ? new URL(url).hostname.replace(/^www\./, "") : "";
+                })
+                .filter(Boolean);
+            }),
+          );
+          const latest = matches
+            .map(item => (item.date_label === "Published" ? day(item.date) : ""))
+            .filter(Boolean)
+            .sort()
+            .at(-1);
+          return `<section class="topic-chapter topic-chapter-${key}" aria-labelledby="topic-heading-${key}"><h3 id="topic-heading-${key}">${esc(TOPICS[key])}</h3><p class="topic-chapter-count"><strong>${matches.length}</strong> ${matches.length === 1 ? "story" : "stories"} · ${hosts.size} source ${hosts.size === 1 ? "site" : "sites"}</p><p class="topic-chapter-latest">${latest ? `Latest publication<br><time datetime="${latest}">${esc(dateLabel(latest))}</time>` : matches.length ? "Publication dates unavailable" : "Not represented in this edition"}</p><button type="button" data-topic-jump="${key}" ${matches.length ? "" : "disabled"} aria-label="Explore topic: ${esc(TOPICS[key])}">Explore topic <span aria-hidden="true">→</span></button></section>`;
         })
         .join("");
   }
@@ -749,11 +758,9 @@
           }
           return;
         }
-        const detail = event.target.closest("[data-news-detail], [data-topic-detail]");
+        const detail = event.target.closest("[data-news-detail]");
         if (detail) {
-          const item = stories().find(
-            row => row.id === (detail.dataset.newsDetail || detail.dataset.topicDetail),
-          );
+          const item = stories().find(row => row.id === detail.dataset.newsDetail);
           if (item)
             window.ScoutNewsDetail?.open(item, {
               readerFeed: state.data?.news_intelligence?.reader_updates,

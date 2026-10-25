@@ -7,6 +7,8 @@ on:
       - "dashboard/**"
       - "reports/**"
       - "scripts/build_dashboard.py"
+      - "scripts/package_dashboard.py"
+      - "pqc_quantum_research_agent/publication.py"
       - "scripts/enrich_story_images.py"
       - "pqc_quantum_research_agent/story_images.py"
       - "pqc_quantum_research_agent/briefing.py"
@@ -134,10 +136,14 @@ jobs:
         # No repository write permission is granted to deployment.
         run: python scripts/retain_story_urls.py --site site --check
 
+      - name: Stage only verified public files
+        run: python scripts/package_dashboard.py --site site --output "$RUNNER_TEMP/pages-public"
+
       - name: Upload Pages artifact
+        # Test evidence stays in the separate release-gate-evidence artifact.
         uses: actions/upload-pages-artifact@v4
         with:
-          path: site
+          path: ${{ runner.temp }}/pages-public
 
       - name: Deploy to GitHub Pages
         id: deployment

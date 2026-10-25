@@ -14,7 +14,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from pqc_quantum_research_agent.briefing import build_reading_brief  # noqa: E402
 from pqc_quantum_research_agent.config import load_config  # noqa: E402
-from pqc_quantum_research_agent.dashboard_data import write_section_data  # noqa: E402
+from pqc_quantum_research_agent.dashboard_data import PACKS, write_section_data  # noqa: E402
 from pqc_quantum_research_agent.decision_center import build_decision_center  # noqa: E402
 from pqc_quantum_research_agent.evidence_review import build_evidence_review  # noqa: E402
 from pqc_quantum_research_agent.news_coverage import build_news_coverage  # noqa: E402
@@ -23,6 +23,7 @@ from pqc_quantum_research_agent.primary_evidence import (  # noqa: E402
     load_primary_evidence,
     primary_evidence_for_story,
 )
+from pqc_quantum_research_agent.publication import write_publication_manifest  # noqa: E402
 from pqc_quantum_research_agent.story_archive import (  # noqa: E402
     prepare_story_archive,
     write_story_archive,
@@ -328,6 +329,22 @@ def build_dashboard(
     data_path = output / "data" / "dashboard.json"
     data_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     write_section_data(payload, output)
+    public_files = [
+        *asset_names,
+        "data/dashboard.json",
+        "data/index.json",
+        "data/story-urls.json",
+        *(f"data/{name}.json" for name in PACKS),
+        "stories/index.html",
+        *story_archive["url_registry"]["urls"],
+    ]
+    for folder in ("vendor", "images"):
+        public_files.extend(
+            file.relative_to(assets).as_posix()
+            for file in (assets / folder).rglob("*")
+            if file.is_file()
+        )
+    write_publication_manifest(output, public_files, asset_version)
     return data_path
 
 

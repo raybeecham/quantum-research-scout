@@ -541,7 +541,7 @@ def main() -> None:
         page.locator('[data-lens="all"]').click()
         page.keyboard.press("/")
         page.locator("#desk-search").fill("quantum")
-        assert page.locator("#search-results a").count() > 0
+        expect(page.locator("#search-results a").first).to_be_visible()
         expect(
             page.locator("#search-results .search-result-group h3").filter(has_text="Patent")
         ).to_be_visible()

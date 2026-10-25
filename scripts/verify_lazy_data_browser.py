@@ -72,7 +72,16 @@ def main():
         # dialog. A later visit must render the now-cached research payload.
         page.goto(args.url + "/#news")
         expect(page.locator("#news-lead article")).to_be_visible()
+        before_search = len(requests)
         page.locator("#open-search").click()
+        expect(page.locator("#search-count")).to_contain_text("Start with")
+        page.locator('[data-search-kind="Patent"]').click()
+        expect(page.locator('[data-search-kind="Patent"]')).to_have_attribute(
+            "aria-pressed", "true"
+        )
+        page.locator('[data-search-kind="all"]').click()
+        page.wait_for_timeout(200)
+        assert len(requests) == before_search, "An empty search loaded extra packs"
         page.locator("#desk-search").fill("IBM")
         page.wait_for_function("ScoutData.searchReady()")
         expect(page.locator("#search-results")).to_contain_text("IBM")
@@ -80,6 +89,86 @@ def main():
         page.keyboard.press("Escape")
         page.evaluate("location.hash = 'signals'")
         expect(page.locator("#signal-grid article").first).to_be_visible()
+
+        # A failed section is local to that route and can be retried in place.
+        page.goto(args.url + "/?recovery=section#news")
+        expect(page.locator("#news-lead article")).to_be_visible()
+        news_status = page.locator("#news-status").inner_text()
+        broken = True
+
+        def fail_patents(route):
+            if broken:
+                route.fulfill(status=503, body="Unavailable")
+            else:
+                route.continue_()
+
+        page.route("**/data/patents.json*", fail_patents)
+        page.evaluate("location.hash = 'patents'")
+        expect(page.locator("#desk-error")).to_contain_text("Patent watch")
+        expect(page.locator("#desk-error")).to_contain_text("HTTP 503")
+        page.evaluate("location.hash = 'news'")
+        expect(page.locator("#desk-error")).to_be_hidden()
+        expect(page.locator("#news-status")).to_have_text(news_status)
+        page.evaluate("location.hash = 'patents'")
+        expect(page.locator("#desk-error")).to_be_visible()
+        broken = False
+        page.locator("[data-retry-section]").click()
+        expect(page.locator("#desk-error")).to_be_hidden()
+        page.wait_for_function("ScoutData.ready('patents')")
+        expect(page.locator("#main")).to_have_attribute("aria-busy", "false")
+        page.unroute("**/data/patents.json*", fail_patents)
+
+        # A late result from an abandoned tab may fill the cache, but must not
+        # rerender the current tab or move the reader back to the top.
+        page.goto(args.url + "/?recovery=late#news")
+        expect(page.locator("#news-lead article")).to_be_visible()
+        held = []
+        page.route("**/data/patents.json*", lambda route: held.append(route))
+        with page.expect_request("**/data/patents.json*"):
+            page.evaluate("location.hash = 'patents'")
+        page.wait_for_timeout(100)
+        assert held
+        expect(page.locator("#section-loading")).to_be_visible()
+        page.evaluate("location.hash = 'news'")
+        expect(page.locator("#main")).to_have_attribute("aria-busy", "false")
+        page.locator("#news-lead article").evaluate("node => node.dataset.survived = 'yes'")
+        page.evaluate("scrollTo(0, 400)")
+        held[0].fulfill(json=json.loads(Path("site/data/patents.json").read_text(encoding="utf-8")))
+        page.wait_for_function("ScoutData.ready('patents')")
+        page.wait_for_timeout(200)
+        expect(page.locator("#news-lead article")).to_have_attribute("data-survived", "yes")
+        assert abs(page.evaluate("scrollY") - 400) < 2
+        expect(page.locator("#section-loading")).to_be_hidden()
+
+        # Search failures keep the topic and offer a bounded, explicit retry.
+        page.unroute("**/data/patents.json*")
+        page.route(
+            "**/data/research.json*", lambda route: route.fulfill(status=503, body="Unavailable")
+        )
+        page.locator("#open-search").click()
+        page.locator("#desk-search").fill("IBM")
+        expect(page.locator("[data-search-retry]")).to_be_visible()
+        expect(page.locator("#desk-search")).to_have_value("IBM")
+        page.unroute("**/data/research.json*")
+        page.locator("[data-search-retry]").click()
+        expect(page.locator("#search-results")).to_contain_text("IBM")
+        expect(page.locator("[data-search-retry]")).to_have_count(0)
+        expect(page.locator("#desk-search")).to_be_focused()
+        page.keyboard.press("Escape")
+
+        # A newer deployment must not be mixed with already loaded old assets.
+        newer = json.loads(Path("site/data/index.json").read_text(encoding="utf-8"))
+        newer["build_id"] = "different-edition"
+        page.route("**/data/index.json*", lambda route: route.fulfill(json=newer))
+        page.goto(args.url + "/?recovery=edition#news")
+        expect(page.locator("#desk-error")).to_contain_text("consistent edition")
+        expect(page.locator("[data-retry-section]")).to_have_attribute(
+            "data-retry-section", "reload"
+        )
+        page.unroute("**/data/index.json*")
+        page.locator("[data-retry-section]").click()
+        expect(page.locator("#news-lead article")).to_be_visible()
+        expect(page.locator("#desk-error")).to_be_hidden()
         assert not errors, errors
         print(
             json.dumps(
@@ -88,6 +177,10 @@ def main():
                     "initial_data_bytes": initial_bytes,
                     "direct_routes": len(ROUTES),
                     "cache_reuse": True,
+                    "empty_search_defers_data": True,
+                    "failed_section_and_search_recovery": True,
+                    "abandoned_route_preserves_current_view": True,
+                    "mixed_edition_requires_reload": True,
                     "runtime_errors": errors,
                 }
             )
