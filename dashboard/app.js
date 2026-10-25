@@ -1152,6 +1152,7 @@ function renderDecisionFocusControls(items, focusedItems) {
       const button = event.target.closest("[data-decision-focus]");
       if (!button) return;
       state.decisionFocus = button.dataset.decisionFocus;
+      state.decisionFocusChosen = true;
       renderDecisionCenter(
         state.data?.decision_center || {},
         state.data?.intelligence_changes || {},
@@ -1190,6 +1191,9 @@ function renderDecisionCenter(payload, changePayload = {}) {
   const items = [...itemsById.values()];
   const focusById = new Map(items.map(item => [item.decision_id, decisionTechnologyFocus(item)]));
   const focusedItems = items.filter(item => focusById.get(item.decision_id).length);
+  if (!state.decisionFocusChosen && !focusedItems.length && items.length) {
+    state.decisionFocus = "all";
+  }
   const scopedItems = state.decisionFocus === "technology" ? focusedItems : items;
   renderDecisionFocusControls(items, focusedItems);
   const isHandled = item =>
