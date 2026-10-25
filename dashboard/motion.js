@@ -27,6 +27,20 @@
     document.documentElement.dataset.scrolled = String(y > 80);
     // Never remove a focused control while someone is using the keyboard.
     top.hidden = y < innerHeight && document.activeElement !== top;
+    const feature = document.querySelector(".immersive-feature");
+    const stage = feature?.querySelector(".feature-stage");
+    if (stage && feature.getClientRects().length) {
+      stage.classList.toggle("feature-stage-tall", stage.offsetHeight > innerHeight - 125);
+      const rect = feature.getBoundingClientRect();
+      const amount = Math.max(
+        0,
+        Math.min(1, (100 - rect.top) / Math.max(1, rect.height - innerHeight)),
+      );
+      stage.style.setProperty(
+        "--feature-scale",
+        reduced.matches ? "1" : String(1.045 - amount * 0.045),
+      );
+    }
   }
   function schedule() {
     if (!frame) frame = requestAnimationFrame(update);
@@ -34,6 +48,13 @@
   addEventListener("scroll", schedule, { passive: true });
   addEventListener("resize", schedule, { passive: true });
   addEventListener("hashchange", schedule);
+  document.querySelector("#news-skip-feature")?.addEventListener("click", () => {
+    const target = document.querySelector("#news-latest-heading");
+    if (!target) return;
+    target.setAttribute("tabindex", "-1");
+    target.focus({ preventScroll: true });
+    target.scrollIntoView({ behavior: reduced.matches ? "instant" : "smooth", block: "start" });
+  });
   top.addEventListener("blur", schedule);
   top.addEventListener("click", () => {
     document.querySelector(".desk-brand")?.focus({ preventScroll: true });
@@ -42,6 +63,7 @@
   });
   reduced.addEventListener("change", () => {
     if (reduced.matches) animations.forEach(animation => animation.cancel());
+    schedule();
   });
   // Observe only editorial cards and section headings, never editable workspaces.
   const selector =
@@ -54,7 +76,12 @@
             entries.forEach(({ target, isIntersecting }) => {
               if (!isIntersecting) return;
               observer.unobserve(target);
-              if (reduced.matches || !target.animate || target.contains(document.activeElement))
+              if (
+                reduced.matches ||
+                target.matches(".immersive-feature") ||
+                !target.animate ||
+                target.contains(document.activeElement)
+              )
                 return;
               const animation = target.animate(
                 [

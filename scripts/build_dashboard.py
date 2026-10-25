@@ -268,6 +268,7 @@ def build_dashboard(
         "workspace.js",
         "motion.js",
         "motion.css",
+        "immersive.css",
         "workspace.css",
         "magazine-shell.css",
         "news.css",

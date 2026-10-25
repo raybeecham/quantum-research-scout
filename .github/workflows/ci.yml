@@ -131,6 +131,7 @@ jobs:
           python scripts/verify_dashboard_browser.py --channel chromium
           python scripts/verify_news_browser.py --channel chromium
           python scripts/verify_motion_browser.py --channel chromium
+          python scripts/verify_immersive_browser.py --channel chromium
           python scripts/verify_news_preferences_browser.py --channel chromium
           python scripts/verify_news_intelligence_browser.py --channel chromium
           python scripts/verify_editorial_browser.py --channel chromium
