@@ -941,7 +941,7 @@ def main() -> None:
         restore_context.on("weberror", lambda error: errors.append(str(error.error)))
         restore = restore_context.new_page()
         restore.goto(args.url + "/#saved")
-        expect(restore.locator("#saved-result-count")).to_have_text("0 of 0 saved readings")
+        expect(restore.locator("#saved-result-count")).to_have_text("0 saved readings")
         backup_file = {
             "name": "notebook.json",
             "mimeType": "application/json",

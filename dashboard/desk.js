@@ -298,7 +298,15 @@
   const libraryHeading = $("reports")?.querySelector(".section-heading");
   if (libraryHeading) libraryHeading.remove();
 
+  let routeVersion = 0;
+  // A short final section still needs enough document below it to reach the
+  // sticky header. This tail is only as large as the current anchor requires.
+  const routeTail = document.createElement("div");
+  routeTail.setAttribute("aria-hidden", "true");
+  $("main").append(routeTail);
   function route() {
+    const version = ++routeVersion;
+    routeTail.style.height = "0px";
     let hash;
     try {
       hash = decodeURIComponent(location.hash.slice(1));
@@ -314,7 +322,6 @@
       explore: "federal",
       advanced: "operations",
       reports: "library",
-      alerts: "decisions",
     };
     const target = $(hash);
     const key =
@@ -347,6 +354,9 @@
       if (current.left < bounds.left) nav.scrollLeft -= bounds.left - current.left + 8;
       else if (current.right > bounds.right) nav.scrollLeft += current.right - bounds.right + 8;
     }
+    if (key === "saved" && ui.data) renderSaved();
+    if (key === "news" && ui.data) window.ScoutNews?.refresh();
+    if (key === "investigations") window.ScoutInvestigations?.render(ui.data || {});
     if (target && !views[hash] && !aliases[hash]) {
       for (
         let parent = target.closest("details");
@@ -354,11 +364,35 @@
         parent = parent.parentElement?.closest("details")
       )
         parent.open = true;
-      requestAnimationFrame(() => target.scrollIntoView({ block: "start" }));
+      // Let rendering, disclosure opening and native hash navigation settle.
+      // Cancel obsolete callbacks if another route is selected in the meantime.
+      requestAnimationFrame(() =>
+        requestAnimationFrame(() => {
+          if (version !== routeVersion) return;
+          const heading = target.querySelector("h1,h2,h3") || target;
+          heading.setAttribute("tabindex", "-1");
+          heading.focus({ preventScroll: true });
+          const headerBottom = Math.max(
+            0,
+            ...[".desk-rail", ".desk-topbar"].map(selector => {
+              const node = document.querySelector(selector);
+              if (!node) return 0;
+              const style = getComputedStyle(node);
+              return ["sticky", "fixed"].includes(style.position)
+                ? node.getBoundingClientRect().height + (parseFloat(style.top) || 0)
+                : 0;
+            }),
+          );
+          const top = window.scrollY + target.getBoundingClientRect().top - headerBottom - 20;
+          const maximum = document.documentElement.scrollHeight - innerHeight;
+          routeTail.style.height = `${Math.max(0, top - maximum)}px`;
+          window.scrollTo({
+            top,
+            behavior: "instant",
+          });
+        }),
+      );
     } else window.scrollTo({ top: 0, behavior: "instant" });
-    if (key === "saved" && ui.data) renderSaved();
-    if (key === "news" && ui.data) window.ScoutNews?.refresh();
-    if (key === "investigations") window.ScoutInvestigations?.render(ui.data || {});
   }
 
   function saveButton(item) {
@@ -896,7 +930,10 @@
     );
     $("export-saved").disabled = !items.length;
     $("export-bibtex").disabled = !items.length;
-    $("saved-result-count").textContent = `${matching.length} of ${items.length} saved readings`;
+    $("saved-result-count").textContent =
+      matching.length === items.length
+        ? `${items.length} saved ${items.length === 1 ? "reading" : "readings"}`
+        : `${matching.length} of ${items.length} saved ${items.length === 1 ? "reading" : "readings"}`;
     if (!matching.some(x => x.id === selectedPaper)) selectedPaper = matching[0]?.id || null;
     $("notebook-list").innerHTML = matching
       .map(
@@ -1030,8 +1067,27 @@
     route();
   }
 
+  const normalizeSearch = value =>
+    String(value ?? "")
+      .normalize("NFD")
+      .replace(/\p{M}/gu, "")
+      .toLowerCase();
+  const searchAliases = [
+    ["ibm", "international business machines", "international business machines corporation"],
+    ["nist", "national institute of standards and technology"],
+    ["npl", "national physical laboratory"],
+  ];
+  function searchIndex(value) {
+    const normalized = normalizeSearch(value);
+    const words = normalized.replace(/[^a-z0-9]+/g, " ");
+    const aliases = searchAliases.filter(group =>
+      group.some(alias => ` ${words} `.includes(` ${alias} `)),
+    );
+    return `${normalized} ${aliases.flat().join(" ")}`;
+  }
+
   function search() {
-    const query = $("desk-search").value.trim().toLowerCase();
+    const query = normalizeSearch($("desk-search").value.trim());
     document
       .querySelectorAll("[data-search-kind]")
       .forEach(b => b.setAttribute("aria-pressed", String(b.dataset.searchKind === ui.searchKind)));
@@ -1087,17 +1143,17 @@
       })),
     ];
     const terms = query.split(/\s+/);
-    const matches = corpus
-      .flat()
-      .filter(
-        x =>
-          terms.every(t => `${x.title} ${x.detail}`.toLowerCase().includes(t)) &&
-          (ui.searchKind === "all" ||
-            x.kind === ui.searchKind ||
-            (ui.searchKind === "profile" && ["Organization", "Technology"].includes(x.kind))),
+    const matches = corpus.flat().filter(x => {
+      const index = searchIndex(`${x.title} ${x.detail}`);
+      return (
+        terms.every(t => index.includes(t)) &&
+        (ui.searchKind === "all" ||
+          x.kind === ui.searchKind ||
+          (ui.searchKind === "profile" && ["Organization", "Technology"].includes(x.kind)))
       );
+    });
     const score = x => {
-      const title = String(x.title).toLowerCase();
+      const title = normalizeSearch(x.title);
       return (
         (title === query ? 100 : title.startsWith(query) ? 25 : title.includes(query) ? 10 : 0) +
         terms.filter(t => title.includes(t)).length

@@ -21,13 +21,18 @@
     menu.setAttribute("aria-expanded", String(open));
     nav.classList.toggle("is-open", open);
   });
-  nav.addEventListener("keydown", event => {
+  document.addEventListener("keydown", event => {
     if (event.key !== "Escape") return;
     const tools = $("nav-explore");
-    if (tools.open) {
+    if (menu.getAttribute("aria-expanded") === "true") {
+      event.preventDefault();
+      tools.open = false;
+      closeMenu(true);
+    } else if (tools.open) {
+      event.preventDefault();
       tools.open = false;
       tools.querySelector("summary").focus();
-    } else if (mobile.matches) closeMenu(true);
+    }
   });
   nav.addEventListener("click", event => {
     if (event.target.closest("a")) {
@@ -40,6 +45,7 @@
   });
   document.addEventListener("click", event => {
     if (!event.target.closest("#nav-explore")) $("nav-explore").open = false;
+    if (!nav.contains(event.target) && !menu.contains(event.target)) closeMenu();
   });
   mobile.addEventListener("change", () => closeMenu());
   $("start-topic-form").addEventListener("submit", event => {

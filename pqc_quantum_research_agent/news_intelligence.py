@@ -17,7 +17,8 @@ from .briefing import _source_url
 from .emerging_tech import emerging_tech_signal
 from .redaction import redact_text
 from .story_analysis import analyze_story
-from .technology_briefing import TOPICS, decision_brief
+from .technology_briefing import TOPICS, decision_brief, topic_text
+from .text import clean_source_excerpt
 
 _ADMIN = re.compile(
     r"\b(?:Recipient|Federal award|Obligated/award amount|Matched search):[^·]*", re.I
@@ -206,7 +207,7 @@ def _text(item):
 
 
 def _topics(item):
-    text = _text(item)
+    text = topic_text(_text(item))
     topics = [key for key, pattern in _NEWS_TOPICS.items() if re.search(pattern, text, re.I)]
     # Physical guards and product/company names are not quantum or cyber evidence.
     without_noise = re.sub(
@@ -510,8 +511,10 @@ def _editorial_segments(item):
     title = str(item.get("title") or "").strip()
     segments = [title] if title else []
     for point in _strings(item.get("key_points"))[:3]:
-        if re.search(r"already featured|\[Open item\]|appeared first on|^The post\b", point, re.I):
+        if re.search(r"already featured|\[Open item\]", point, re.I):
             continue
+        if re.search(r"The post\b|Read More|Continue reading|^Guest Post by\b", point, re.I):
+            point = clean_source_excerpt(point)
         clean = _ADMIN.sub("", point).strip()
         if clean:
             segments.append(clean[:1200])
@@ -1041,9 +1044,48 @@ _EVENT_OBJECTS = (
     ),
 )
 
+# Additional narrowly scoped event signatures can tolerate reported/announced
+# wording differences, unlike a claimed deployment or measured hardware result.
+_REPORTED_EVENT_OBJECTS = (
+    (
+        "mobile PQC inventory study",
+        r"\b(?:mobile apps?|mobile applications)\b",
+        r"\b(?:PQC|post.quantum cryptography)\b",
+    ),
+    (
+        "tactical quantum-safe communications investment",
+        r"\b(?:invest\w*|fund\w*)\b",
+        r"\b(?:tactical|defen[cs]e)\b.*\b(?:communications?|network\w*)\b",
+    ),
+    (
+        "digital-asset post-quantum insurance partnership",
+        r"\b(?:digital assets?|underwriting)\b",
+        r"\b(?:insurance|insur\w*)\b",
+    ),
+    (
+        "bilateral financial-sector PQC dialogue",
+        r"\b(?:financial|finance|QKD sandbox)\b",
+        r"\b(?:PQC|post.quantum|quantum security)\b",
+    ),
+    ("trapped-ion technology funding", r"\b(?:trapped.ion|ion.trap)\b", r"\b(?:fund\w*|grant)\b"),
+)
+_EVENT_ALIASES = {
+    "National Physical Laboratory": ("NPL",),
+    "Government Office for Technology Transfer": ("GOTT",),
+    "United Kingdom": ("UK",),
+    "Singapore": (),
+    "NowSecure": (),
+    "Arqit": (),
+    "Sirius Computer": ("Sirius",),
+    "Project Eleven": (),
+    "Relm Insurance": ("Relm",),
+}
+
 
 def _event_name_registry(candidates, entities):
-    registry = {}
+    registry = {
+        alias: name for name, aliases in _EVENT_ALIASES.items() for alias in (name, *aliases)
+    }
     for record in entities:
         name = str(record.get("name") or "").strip()
         if name:
@@ -1061,6 +1103,11 @@ def _event_name_registry(candidates, entities):
             name, alias = match.groups()
             # Trim a conjunction captured from a headline before a second name.
             name = name.split(" And ")[-1].strip()
+            captured_name = name
+            name = registry.get(alias, registry.get(name)) or next(
+                (known for known in _EVENT_ALIASES if name.endswith(known)), name
+            )
+            registry[captured_name] = name
             registry[name] = name
             if alias:
                 registry[alias] = name
@@ -1073,6 +1120,7 @@ def _event_features(item, registry, names, identifiers):
         name.casefold(): name
         for alias, name in registry.items()
         if _mentions(text, alias, case_sensitive=len(alias) <= 4)
+        or (alias == "UK" and re.search(r"\bUK\b", text))
     }
     for acronym in re.findall(r"\b[A-Z][A-Z0-9]{2,11}\b", text):
         if acronym not in _EVENT_ACRONYM_NOISE and not acronym.isdigit():
@@ -1080,7 +1128,7 @@ def _event_features(item, registry, names, identifiers):
             named[name.casefold()] = name
     objects = {
         label
-        for label, left, right in _EVENT_OBJECTS
+        for label, left, right in (*_EVENT_OBJECTS, *_REPORTED_EVENT_OBJECTS)
         if re.search(left, text, re.I) and re.search(right, text, re.I)
     }
     # Version identifiers and quantities are not erased during grouping. If
@@ -1106,6 +1154,8 @@ def _event_features(item, registry, names, identifiers):
         "quantities": {re.sub(r"\s+", "", value).casefold() for value in quantities},
         "versions": {re.sub(r"\s+", "", value).casefold() for value in versions},
         "negative": bool(_NEGATED.search(text)),
+        "title_tokens": set(re.findall(r"[a-z0-9]+", str(item.get("title", "")).casefold()))
+        - _STOP,
     }
 
 
@@ -1115,14 +1165,21 @@ def _event_match(left, right, left_features, right_features):
             "Near-identical headlines on the same confirmed publication date, with matching quantities and no conflicting headline wording."
         ]
     a, b = _published(left), _published(right)
-    if not a or not b or abs((a - b).days) > 2:
+    if not a or not b:
         return []
     if "preprint" in {left.get("source_kind"), right.get("source_kind")}:
         return []
     ea, eb = left["news_editorial"], right["news_editorial"]
-    if ea["kind"] in {"context", "advice", "opinion", "event", "routine_business"}:
+    shared_objects = left_features["objects"] & right_features["objects"]
+    reported_event = bool(shared_objects & {row[0] for row in _REPORTED_EVENT_OBJECTS})
+    if abs((a - b).days) > (4 if reported_event else 2):
         return []
-    if ea["kind"] != eb["kind"] or ea["status"] != eb["status"]:
+    if any(e["kind"] in {"advice", "opinion", "event", "routine_business"} for e in (ea, eb)):
+        return []
+    if reported_event:
+        if any(e["status"] not in {"announced", "reported"} for e in (ea, eb)):
+            return []
+    elif ea["kind"] == "context" or ea["kind"] != eb["kind"] or ea["status"] != eb["status"]:
         return []
     for field in ("quantities", "versions"):
         fa, fb = left_features[field], right_features[field]
@@ -1134,15 +1191,22 @@ def _event_match(left, right, left_features, right_features):
     if anchors_a and anchors_b and not anchors_a & anchors_b:
         return []
     shared_names = set(left_features["named"]) & set(right_features["named"])
-    shared_objects = left_features["objects"] & right_features["objects"]
-    if len(shared_names) < 2 or not shared_objects:
+    # A single named study issuer needs an identical quantitative result and
+    # overlapping headline detail. A shared company or generic topic is not enough.
+    quantified_study = (
+        "mobile PQC inventory study" in shared_objects
+        and len(shared_names) >= 1
+        and bool(left_features["quantities"] & right_features["quantities"])
+        and len(left_features["title_tokens"] & right_features["title_tokens"]) >= 3
+    )
+    if (len(shared_names) < 2 and not quantified_study) or not shared_objects:
         return []
     names = ", ".join(left_features["named"][key] for key in sorted(shared_names))
     distance = abs((a - b).days)
     return [
         f"Both collected accounts explicitly name {redact_text(names)}.",
         f"Both describe the same specific development: {', '.join(sorted(shared_objects))}.",
-        f"The publication dates are {distance} {'day' if distance == 1 else 'days'} apart; both accounts describe {ea['label'].lower()}.",
+        f"The publication dates are {distance} {'day' if distance == 1 else 'days'} apart; the recorded stages are {ea['status']} and {eb['status']}.",
         "This groups likely coverage of one development, not independently confirmed facts or a consensus claim.",
     ]
 
@@ -1356,7 +1420,7 @@ def build_news_intelligence(
             "excluded_count": sum(exclusions.values()),
             "grouped_count": grouped + event_grouped,
             "event_grouped_count": event_grouped,
-            "event_grouping_method": "Likely shared events require confirmed publication dates within two days, compatible reported stages, at least two named counterparties and the same narrowly defined technical event object. Near-identical same-day headlines also qualify. Shared topics or a single company do not. Every source account and its claims remain separate and accessible; grouping is not independent corroboration.",
+            "event_grouping_method": "Likely shared events require confirmed publication dates, compatible stages and the same narrowly defined event object. Technical results use a two-day window and two named counterparties. Specific studies, partnerships, policy dialogues and funding announcements allow up to four days; a single study issuer also needs an identical quantified result and overlapping headline details. Named projects, conflicting quantities and versions keep accounts separate. Near-identical same-day headlines also qualify. Every source account remains accessible; grouping is not independent corroboration.",
             "exclusions": dict(exclusions),
             "method": _METHOD,
             "date_rule": "Known publication dates after the report edition or more than 30 days before it, and explicit past-event or replay pages, stay out of Latest. Unknown dates remain labeled. Older records remain in reports and specialist sections.",

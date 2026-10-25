@@ -72,7 +72,9 @@ def _parse_atom(root: ET.Element) -> list[ParsedFeedEntry]:
         url = _atom_link(entry) or _text(entry, "id")
         if not title or not url:
             continue
-        summary = _text(entry, "summary") or _text(entry, "content")
+        summary = clean_source_excerpt(_text(entry, "summary")) or clean_source_excerpt(
+            _text(entry, "content")
+        )
         authors = ", ".join(
             strip_html(_text(author, "name"))
             for author in _children(entry, "author")

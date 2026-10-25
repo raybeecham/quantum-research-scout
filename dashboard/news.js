@@ -293,7 +293,7 @@
       status = `Collection needs an update · last collected ${dateLabel(brief.collected_at)}. These are archived report items, not a live news feed.`;
       level = "stale";
     } else {
-      status = `Collected ${dateLabel(brief.collected_at)} · a report snapshot, not a live news feed.`;
+      status = "A report snapshot, not a live news feed.";
     }
     $("news-status").textContent = status;
     $("news-status").hidden = false;

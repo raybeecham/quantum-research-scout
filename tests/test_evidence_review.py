@@ -135,7 +135,7 @@ def test_update_admission_dates_and_same_source_are_respected():
 
 def announcement(**kwargs):
     return {
-        "title": "Acme announces cryogenic Brisbane facility quantum pilot",
+        "title": "Acme announces cryogenic Brisbane facility quantum computing pilot",
         "summary": "A future facility.",
         "url": "https://vendor.test/pilot",
         "date": "2026-03-01",

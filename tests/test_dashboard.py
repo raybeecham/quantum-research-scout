@@ -714,7 +714,8 @@ class DashboardBuildTests(unittest.TestCase):
         self.assertIn("friendlyReportName", script)
         desk = (root / "dashboard" / "desk.js").read_text(encoding="utf-8")
         self.assertIn('window.addEventListener("hashchange", route)', desk)
-        self.assertIn("scrollIntoView", desk)
+        self.assertIn("heading.focus({ preventScroll: true })", desk)
+        self.assertIn("target.getBoundingClientRect().top - headerBottom", desk)
 
     def test_dashboard_vibrant_experience_stays_dynamic_and_accessible(self) -> None:
         root = Path(__file__).parents[1]

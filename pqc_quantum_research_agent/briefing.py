@@ -14,7 +14,7 @@ from urllib.parse import urlsplit
 
 from .citations import metadata_url
 from .redaction import redact_text, redact_url
-from .technology_briefing import TOPICS, decision_brief
+from .technology_briefing import TOPICS, decision_brief, topic_text
 from .text import clean_source_excerpt
 
 _ENTRY = re.compile(r"^### ([^\n]+)\n_([^\n]+)_\n(.*?)(?=^### |^## |\Z)", re.M | re.S)
@@ -150,7 +150,7 @@ def _report_day(path: Path) -> date | None:
 
 
 def _lenses(text: str) -> list[str]:
-    return [name for name, pattern in _LENSES.items() if re.search(pattern, text, re.I)]
+    return [name for name, pattern in _LENSES.items() if re.search(pattern, topic_text(text), re.I)]
 
 
 def _authority(url: str, source: str) -> str:

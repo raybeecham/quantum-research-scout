@@ -28,6 +28,7 @@ from pqc_quantum_research_agent.story_archive import (  # noqa: E402
 )
 from pqc_quantum_research_agent.story_follow import annotate_story_reader  # noqa: E402
 from pqc_quantum_research_agent.story_images import story_image_record  # noqa: E402
+from pqc_quantum_research_agent.text import clean_public_excerpts  # noqa: E402
 
 
 def build_dashboard(
@@ -331,7 +332,7 @@ def _read_json(path: Path, default: dict) -> dict:
     if not path.exists():
         return default
     data = json.loads(path.read_text(encoding="utf-8"))
-    return data if isinstance(data, dict) else default
+    return clean_public_excerpts(data) if isinstance(data, dict) else default
 
 
 def _dashboard_signals(state: dict) -> dict:

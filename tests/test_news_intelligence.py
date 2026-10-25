@@ -179,13 +179,13 @@ def test_event_grouping_rejects_incompatible_dates_scope_versions_and_claims(cha
 
 def test_shared_vendors_and_broad_topic_are_not_enough_to_group():
     one = story(
-        "SEEQC and NVIDIA announce quantum research collaboration",
+        "SEEQC and NVIDIA announce quantum computing research collaboration",
         key_points=["SEEQC and NVIDIA announce a quantum technology agreement."],
     )
     two = story(
         "SEEQC joins NVIDIA quantum conference",
         "https://else.test/two",
-        key_points=["SEEQC and NVIDIA announce quantum education activities."],
+        key_points=["SEEQC and NVIDIA announce quantum computing education activities."],
     )
     assert len(build(one, two)["stories"]) == 2
 
@@ -239,7 +239,7 @@ def test_quote_injection_is_data_and_unsafe_links_are_not_analysis_evidence():
 
 
 def test_thin_evidence_is_labeled_without_repeating_headline_as_analysis():
-    item = story("A quantum development to watch", key_points=[])
+    item = story("A quantum processor development to watch", key_points=[])
     detail = build(item)["stories"][0]["news_detail"]
     assert detail["analysis_specificity"] == "stage_only"
     assert "not specific enough" in detail["why_it_matters"]
@@ -407,7 +407,7 @@ def test_claim_synthesis_never_turns_background_negation_or_metric_into_success(
 def test_conditional_funding_preserves_cap_and_approval_status():
     detail = build(
         story(
-            "Nova receives provisional quantum investment approval up to $10 million",
+            "Nova receives provisional quantum processor investment approval up to $10 million",
             key_points=[
                 "The quantum company received provisional approval for up to $10 million in investment."
             ],
@@ -994,7 +994,11 @@ def test_connection_urls_are_validated_and_credentials_redacted():
 
 def test_connections_are_bounded_and_diverse():
     patents = [
-        {"title": f"Quantum patent {i}", "assignee": "IBM", "url": f"https://patents.test/{i}"}
+        {
+            "title": f"Quantum circuit patent {i}",
+            "assignee": "IBM",
+            "url": f"https://patents.test/{i}",
+        }
         for i in range(20)
     ]
     standards = [
@@ -1019,7 +1023,7 @@ def test_connections_are_bounded_and_diverse():
 
 def test_coverage_reports_primary_adjacent_overlap_and_zero_honestly():
     result = build(
-        story("Quantum cloud release", key_points=[]),
+        story("Quantum computing cloud release", key_points=[]),
         story("AI evaluation", "https://news.test/ai", key_points=[]),
         story("PQC migration", "https://news.test/pqc", key_points=[]),
     )
@@ -1265,7 +1269,7 @@ def test_vendor_new_product_statement_does_not_establish_deployment():
 
 def test_editorial_excludes_contaminating_cross_article_excerpt():
     item = story(
-        "Quantum infrastructure discussion",
+        "Quantum computing infrastructure discussion",
         key_points=[
             "The source discusses quantum infrastructure.",
             "IBM activates operational quantum chip - already featured in Strategic Signals. [Open item](https://ibm.com/other)",

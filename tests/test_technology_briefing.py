@@ -65,7 +65,7 @@ def test_release_and_evaluation_suggest_bounded_tests(title, topic, next_step):
 @pytest.mark.parametrize(
     "title",
     [
-        "Quantum company financial results and revenue growth",
+        "Quantum computing company financial results and revenue growth",
         "Quantum sensors company raises $11.8M",
     ],
 )

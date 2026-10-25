@@ -15,7 +15,7 @@ TOPICS = {
     ),
     "quantum": (
         "Quantum computing",
-        r"\b(?:(?<!post-)(?<!post )quantum(?![ -](?:safe|resistant|proof))|qubits?|qec|fault.toleran\w*|toffoli|entangl\w*|error.correction|cuda.q)\b",
+        r"\b(?:quantum[ -](?:computing|computers?|processors?|hardware|algorithms?|circuits?|simulation|simulators?|sensing|sensors?|networking|networks?|communications?|key distribution|error.correction|experiment\w*|control|benchmarking|systems?)|qubits?|qec|qkd|fault.toleran\w*|toffoli|entangl\w*|error.correction|cuda.q|trapped.ions?)\b",
     ),
     "ai": (
         "AI",
@@ -37,6 +37,18 @@ KINDS = {
     "business": "Business / investment signal",
     "context": "Context / claim to verify",
 }
+
+
+def topic_text(text):
+    """A generic quantum threat does not make a PQC migration story a hardware story."""
+    text = re.sub(r"\brace against quantum and AI\b", "cryptographic threats", text, flags=re.I)
+    return re.sub(
+        r"\b(?:attacks?|threats?|risks?)\s+(?:from|of|posed by)\s+"
+        r"(?:(?:future|powerful|cryptographically relevant)\s+)?quantum computers?\b",
+        "cryptographic threat",
+        text,
+        flags=re.I,
+    )
 
 
 def _match(pattern, text):
@@ -63,7 +75,7 @@ def decision_brief(item, edition_date):
         )
         for p in item.get("key_points", [])
     ]
-    text = f"{item.get('title', '')} {' '.join(excerpts)}"
+    text = topic_text(f"{item.get('title', '')} {' '.join(excerpts)}")
     topics = [key for key, (_, pattern) in TOPICS.items() if _match(pattern, text)]
     matched = list(dict.fromkeys(_match(TOPICS[key][1], text) for key in topics))
     kind = "context"
