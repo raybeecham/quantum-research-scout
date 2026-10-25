@@ -25,6 +25,19 @@ def ready(page):
     page.wait_for_function("typeof state !== 'undefined' && state.data && window.ScoutDesk")
 
 
+def comparison_fits(page):
+    # A card can overflow its grid but remain inside the page padding on Windows.
+    # Linux font metrics exposed the same intrinsic-width problem at page level.
+    assert page.locator("#compare-results").evaluate("""grid => {
+      const bounds = grid.getBoundingClientRect();
+      return [...grid.querySelectorAll('*')].every(e => {
+        const box = e.getBoundingClientRect();
+        return box.left >= bounds.left - 1 && box.right <= bounds.right + 1;
+      }) && [...grid.querySelectorAll('.compare-card, .compare-stats')]
+        .every(e => e.scrollWidth <= e.clientWidth + 1);
+    }"""), "Comparison content exceeds its container"
+
+
 def section_at_top(page, section):
     page.wait_for_function(
         "id => { const e = document.getElementById(id); const h = e?.querySelector('h1,h2,h3'); return h && document.activeElement === h; }",
@@ -107,13 +120,7 @@ def main():
                 section_at_top(page, section)
                 assert_no_overflow(page, section)
                 if section == "compare":
-                    # The CI overflow came from the adjacent closed Readiness
-                    # table. Test its layout, not just Compare's visible cards.
-                    assert not page.locator("#readiness").evaluate("e => e.closest('details').open")
-                    assert (
-                        page.locator("#readiness table").evaluate("e => e.getClientRects().length")
-                        == 0
-                    )
+                    comparison_fits(page)
                 if section == "sources":
                     for label in ("degraded", "flaky"):
                         if any(
@@ -245,12 +252,14 @@ def main():
                 ready(page)
                 section_at_top(page, "compare")
                 assert_no_overflow(page, "compare-comfort")
+                comparison_fits(page)
                 for control in ["compare-first", "compare-second"]:
                     select = page.locator("#" + control)
                     select.select_option(index=2)
                     select.focus()
                     expect(select).to_be_focused()
                     assert_no_overflow(page, control)
+                    comparison_fits(page)
                 page.evaluate("location.hash = 'readiness'")
                 section_at_top(page, "readiness")
                 table = page.locator("#readiness table")
@@ -263,7 +272,7 @@ def main():
                     )
                 assert_no_overflow(page, "readiness-comfort")
                 page.locator("#readiness").evaluate("e => e.closest('details').open = false")
-                assert table.evaluate("e => e.getClientRects().length") == 0
+                expect(table).not_to_be_visible()
                 page.evaluate("location.hash = 'compare'")
                 section_at_top(page, "compare")
                 page.screenshot(path=str(args.output / f"compare-{theme}-{width}.png"))

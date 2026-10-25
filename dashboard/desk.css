@@ -2878,10 +2878,6 @@ body:has(.profile-hero) > footer {
   color: #24434b;
   cursor: pointer;
 }
-.landscape-advanced:not([open]) > :not(summary) {
-  /* Closed tables must not contribute scrollable overflow in Chromium. */
-  display: none;
-}
 .landscape-advanced .section {
   margin-top: 1rem;
 }
