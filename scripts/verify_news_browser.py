@@ -368,6 +368,18 @@ def main() -> None:
             page.set_viewport_size({"width": width, "height": 1000 if width > 760 else 844})
             assert_no_overflow(page)
             page.locator("#news-search").fill("networking update")
+            # Focus outlines and collection metadata must not overlap at any width.
+            for theme in ["light", "dark"]:
+                page.evaluate("theme => document.documentElement.dataset.theme = theme", theme)
+                controls = page.locator(".news-controls").bounding_box()
+                coverage = page.locator(".news-coverage > summary").bounding_box()
+                assert controls and coverage
+                assert coverage["y"] >= controls["y"] + controls["height"] + 12, (
+                    width,
+                    theme,
+                    controls,
+                    coverage,
+                )
             assert_text_only_card(page, "latest-cloud")
             assert_no_overflow(page)
             page.locator("#news-search").fill("")
