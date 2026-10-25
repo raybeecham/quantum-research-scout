@@ -106,7 +106,7 @@ def main():
                     ["security", "government"],
                 ),
                 (
-                    "Quantum resource estimate",
+                    "Quantum algorithm resource estimate",
                     "preprint",
                     "https://arxiv.org/abs/2609.00001",
                     ["quantum"],
@@ -171,7 +171,7 @@ def main():
         page.locator('[data-briefing-mode="research"]').click()
         expect(page.locator('[data-lens="core"]')).to_have_attribute("aria-pressed", "true")
         expect(page.locator("#reading-order")).to_have_value("research")
-        expect(page.locator("#desk-lead h2")).to_contain_text("Quantum resource estimate")
+        expect(page.locator("#desk-lead h2")).to_contain_text("Quantum algorithm resource estimate")
         page.locator('[data-briefing-mode="decisions"]').click()
         expect(page.locator('[data-lens="ai"]')).to_have_attribute("aria-pressed", "true")
         page.reload()

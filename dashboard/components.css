@@ -1082,6 +1082,8 @@
 }
 
 .compare-card {
+  min-width: 0;
+  overflow-wrap: anywhere;
   padding: 22px;
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
@@ -1090,6 +1092,7 @@
 
 .compare-head {
   display: flex;
+  flex-wrap: wrap;
   align-items: start;
   justify-content: space-between;
   gap: 14px;
@@ -1134,7 +1137,7 @@
 
 .compare-stats {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1px;
   margin: 0 0 18px;
   background: var(--line);
@@ -1164,6 +1167,11 @@
 .compare-card > .watch-link {
   display: inline-block;
   margin-top: 18px;
+}
+
+.compare-card :is(.readiness-stage, .freshness, .badge) {
+  max-width: 100%;
+  white-space: normal;
 }
 
 .freshness {

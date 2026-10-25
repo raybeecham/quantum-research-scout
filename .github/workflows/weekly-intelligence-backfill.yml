@@ -5,6 +5,11 @@ on:
     - cron: "0 3 * * 0"
   workflow_dispatch:
 
+# Share the daily writer's lock; other updates to main are caught before commit.
+concurrency:
+  group: daily-report-publication
+  cancel-in-progress: false
+
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   TZ: America/Chicago
@@ -44,9 +49,25 @@ jobs:
           --missions-config missions.yaml
 
       - name: Sanitize generated reports
+        id: sanitize
         run: |
           python scripts/sanitize_report_secrets.py reports --write
           python scripts/sanitize_report_secrets.py reports
+
+      - name: Validate dashboard build before publication
+        run: python scripts/build_dashboard.py --output site
+
+      - name: Keep sanitized backfill evidence for recovery
+        if: always() && steps.sanitize.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: historical-backfill-${{ github.run_id }}-${{ github.run_attempt }}
+          path: reports/
+          retention-days: 7
+          if-no-files-found: error
+
+      - name: Require the collection base to remain current
+        run: python scripts/check_report_base.py
 
       - name: Commit intelligence artifacts
         run: |
@@ -68,5 +89,5 @@ jobs:
             echo "No historical intelligence changes to commit"
           else
             git commit -m "Refresh historical intelligence"
-            git push
+            git push origin HEAD:main
           fi
