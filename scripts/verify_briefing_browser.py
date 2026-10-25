@@ -146,6 +146,9 @@ def main():
             item["decision_brief"] = decision_brief(item, brief["edition_date"])
             brief["stories"].append(item)
         page.reload()
+        expect(page.locator('[data-briefing-mode="research"]')).to_have_attribute(
+            "aria-pressed", "true"
+        )
         page.locator('[data-briefing-mode="decisions"]').click()
         expect(page.locator("#reading-order")).to_have_value("decision")
         expect(page.locator('[data-lens="emerging"]')).to_have_attribute("aria-pressed", "true")
