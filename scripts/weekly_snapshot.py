@@ -38,6 +38,11 @@ def stage(reports: Path, snapshot: Path, target: date) -> None:
     for source, destination in inputs:
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(source, destination)
+    # Seed consecutive collector failures for the isolated morning run. This
+    # ledger is never copied back over the independently published daily ledger.
+    observations = reports / "source-observations.json"
+    if observations.is_file():
+        shutil.copyfile(observations, snapshot / observations.name)
 
 
 def publish(reports: Path, snapshot: Path, target: date) -> None:

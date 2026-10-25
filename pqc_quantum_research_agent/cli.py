@@ -434,6 +434,10 @@ def main(argv: list[str] | None = None) -> int:
             len(deleted_reports),
             args.retention_days,
         )
+    # Record collector outcomes for every collection, including the isolated
+    # Friday snapshot, before optional enrichment can fail.
+    write_source_observations(Path(args.reports_dir), config, collection, generated_at=generated_at)
+    write_source_health_report(Path(args.reports_dir), args.config)
     if args.update_intelligence_tracking:
         write_patent_tracker(
             Path(args.reports_dir),
@@ -492,10 +496,6 @@ def main(argv: list[str] | None = None) -> int:
         )
         write_readiness_report(Path(args.reports_dir), args.readiness_config)
         write_standards_timeline(Path(args.reports_dir), args.standards_config)
-        write_source_observations(
-            Path(args.reports_dir), config, collection, generated_at=generated_at
-        )
-        write_source_health_report(Path(args.reports_dir), args.config)
         write_claim_ledger(Path(args.reports_dir), generated_at=generated_at)
         write_temporal_intelligence(Path(args.reports_dir), generated_at=generated_at)
         write_strategic_forecasts(

@@ -1,0 +1,56 @@
+name: Feed health incidents
+
+on:
+  workflow_run:
+    workflows: ["Frontier Signal Daily Briefing", "Frontier Signal Weekly Synthesis"]
+    types: [completed]
+
+# One issue writer across daily and weekly runs prevents creation races.
+concurrency:
+  group: feed-health-issues
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: read
+  issues: write
+
+jobs:
+  synchronize:
+    if: github.event.workflow_run.head_repository.full_name == github.repository && github.event.workflow_run.head_branch == 'main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Locate the collection observation artifact
+        id: artifact
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const artifacts = await github.paginate(github.rest.actions.listWorkflowRunArtifacts, {
+              ...context.repo, run_id: context.payload.workflow_run.id, per_page: 100
+            });
+            const item = artifacts.find(a => a.name === 'feed-health-observation' && !a.expired);
+            core.setOutput('found', String(Boolean(item)));
+            if (item) core.setOutput('id', String(item.id));
+      - uses: actions/download-artifact@v5
+        if: steps.artifact.outputs.found == 'true'
+        with:
+          artifact-ids: ${{ steps.artifact.outputs.id }}
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: feed-health-input
+          merge-multiple: true
+      - name: Install agent
+        if: steps.artifact.outputs.found == 'true'
+        run: python -m pip install .
+      - name: Open, update, or close incidents
+        if: steps.artifact.outputs.found == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/sync_feed_issues.py feed-health-input/source-health.json

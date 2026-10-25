@@ -107,6 +107,15 @@ jobs:
             --date "$REPORT_DATE" \
             --coverage-end-time "08:00"
 
+      - name: Preserve the Friday collection health snapshot
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: feed-health-observation
+          path: ${{ runner.temp }}/weekly-inputs/source-health.json
+          retention-days: 7
+          if-no-files-found: ignore
+
       - name: Sanitize generated reports
         run: |
           python scripts/sanitize_report_secrets.py "$RUNNER_TEMP/weekly-inputs" --write

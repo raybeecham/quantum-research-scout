@@ -23,3 +23,9 @@ The live, configured collectors returned one dated White House item, one dated E
 Only those three successfully audited collectors received new observations. Historical failure counters remain intact. The resulting operational snapshot is 102 healthy enabled sources, zero failing. This proves current extraction, not future uptime or complete coverage. Publication freshness remains a separate measurement.
 
 Sources & methods now shows the most recent redacted error and its timestamp, including after recovery, plus disabled-source reasons. Six source-health tests pass; the built page was checked for the Rigetti reason and error details. Audit outputs are local under `site/*feeds-audit.json`.
+
+## 3. Feed-break incidents
+
+Every normal daily and Friday-morning collection records health before optional enrichment. Both workflows preserve the health snapshot even when later publication fails. A serialized, repository-scoped workflow uses only `GITHUB_TOKEN` to open an issue at five consecutive failures, update the existing incident, and close it on successful or partial-valid collection. Standby and absent observations do not close incidents. Stable source markers prevent duplicates; observation timestamps reject delayed artifacts, including an old failure arriving after recovery.
+
+Verification: the real RSS collector was exercised against a deterministic invalid-URL transport for six successive runs, with each notification replayed. Exactly one mock GitHub issue appeared on run five. Repairing the URL returned an entry and closed it. Replaying the failed artifact did not reopen it. Errors were redacted. No artificial incidents were posted to the public repository; live Actions delivery will be verified after these workflows are published.
