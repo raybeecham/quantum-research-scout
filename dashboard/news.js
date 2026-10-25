@@ -478,6 +478,50 @@
     window.ScoutMath?.render?.($("news-progression-list"));
   }
 
+  function renderVisit(all = stories()) {
+    const host = $("news-visit-summary");
+    const prefs = window.ScoutNewsPreferences;
+    if (!host || !prefs) return;
+    const snapshot = prefs.snapshot();
+    const fresh = all.filter(item => prefs.isNew(item));
+    const updates = window.ScoutStoryReader?.summary?.();
+    host.hidden = !all.length;
+    host.innerHTML = `<div><strong>${!snapshot.storageAvailable ? "Your collection" : snapshot.firstVisit ? "Your first visit" : "Since your last visit"}</strong><p>${!snapshot.storageAvailable ? "Browser storage is unavailable. Visit comparisons cannot be reliably saved." : snapshot.firstVisit ? "This collection is your starting point. Future visits highlight newly collected stories." : `${fresh.length} newly collected ${fresh.length === 1 ? "story" : "stories"} in this browser. These are collection changes, not publication dates.`}</p></div><div class="visit-actions">${!snapshot.firstVisit && snapshot.storageAvailable ? '<button type="button" data-visit-action="new">See new stories →</button>' : ""}<button type="button" data-visit-action="inbox">${updates?.pending || 0} pending followed updates →</button></div>`;
+  }
+
+  function renderTopicChapters(all) {
+    const host = $("news-topic-chapters");
+    if (!host) return;
+    // This is a navigation overview, not a second set of feed cards.
+    host.hidden =
+      !all.length ||
+      state.topic !== "all" ||
+      Boolean(state.search) ||
+      state.feed !== "all" ||
+      state.unread;
+    if (host.hidden) {
+      host.replaceChildren();
+      return;
+    }
+    const headings = {
+      quantum: "The quantum frontier",
+      security: "Securing what comes next",
+      ai: "Intelligence in practice",
+      government: "Policy into action",
+    };
+    const seen = new Set();
+    host.innerHTML =
+      `<div class="topic-chapters-heading"><span class="news-section-kicker">EXPLORE THE SIGNALS</span><h2>Four lenses. One changing world.</h2><p>Collected coverage, organized by what you want to understand.</p></div>` +
+      Object.entries(headings)
+        .map(([key, heading], index) => {
+          const matches = all.filter(item => topics(item).includes(key));
+          const picks = matches.filter(item => !seen.has(item.id)).slice(0, 3);
+          picks.forEach(item => seen.add(item.id));
+          return `<section class="topic-chapter topic-chapter-${key}" aria-labelledby="topic-heading-${key}"><div class="topic-chapter-intro"><span class="topic-chapter-index">0${index + 1} / ${esc(TOPICS[key])}</span><h3 id="topic-heading-${key}">${heading}</h3><p>${matches.length} ${matches.length === 1 ? "story" : "stories"} in this collection</p><button type="button" data-topic-jump="${key}">Explore ${esc(TOPICS[key])} →</button></div><div class="topic-chapter-stories">${picks.length ? picks.map((item, i) => `<div class="topic-reading${i === 0 ? " topic-reading-lead" : ""}"><span>${esc(item.source)} · Collected ${esc(dateLabel(item.report_date))}</span><h4><button type="button" data-topic-detail="${esc(item.id)}">${esc(item.title)}</button></h4>${i === 0 ? `<p>${esc(excerpt(item) || "Read the source for the full context.")}</p>` : ""}<a href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Original source ↗</a></div>`).join("") : `<p>${matches.length ? "Cross-topic stories are featured in the sections above. Explore this topic to see all matching coverage." : "No matching stories in this collection. That does not imply there is no activity in this field."}</p>`}</div></section>`;
+        })
+        .join("");
+  }
+
   function render() {
     if (!$("news-featured") || !state.data || $("news").hidden) return;
     try {
@@ -485,6 +529,7 @@
       const all = stories();
       window.ScoutNewsPreferences?.init(all.map(item => ({ ...item, news_topics: topics(item) })));
       renderPersonalization(all);
+      renderVisit(all);
       renderCoverage(all);
       const needle = state.search.trim().toLocaleLowerCase();
       const filtered = all.filter(
@@ -517,6 +562,7 @@
           priority(b) - priority(a),
       );
       const lead = selectFeatured(filtered);
+      renderTopicChapters(filtered);
       const featuredIds = new Set(lead.map(item => item.id));
       const remainder = filtered.filter(item => !featuredIds.has(item.id));
       const usedImages = new Set();
@@ -596,6 +642,8 @@
       $("news-roundup").hidden = true;
       $("news-progression").hidden = true;
       $("news-list").replaceChildren();
+      $("news-topic-chapters")?.replaceChildren();
+      if ($("news-visit-summary")) $("news-visit-summary").hidden = true;
       $("news-more").hidden = true;
       $("news-empty").hidden = false;
       $("news-empty").textContent =
@@ -621,9 +669,45 @@
       });
       $("news").addEventListener("error", event => imageFailed(event.target), true);
       $("news").addEventListener("click", event => {
-        const detail = event.target.closest("[data-news-detail]");
+        const jump = event.target.closest("[data-topic-jump]");
+        if (jump && Object.hasOwn(TOPICS, jump.dataset.topicJump)) {
+          state.topic = jump.dataset.topicJump;
+          state.limit = 6;
+          render();
+          $("news-tools").open = true;
+          $("news-tools").scrollIntoView({ block: "start", behavior: "instant" });
+          $("news-tools").querySelector("summary").focus({ preventScroll: true });
+          return;
+        }
+        const visit = event.target.closest("[data-visit-action]");
+        if (visit) {
+          if (visit.dataset.visitAction === "new") {
+            state.feed = "new";
+            state.topic = "all";
+            state.search = "";
+            state.unread = false;
+            $("news-search").value = "";
+            $("news-unread").checked = false;
+            state.limit = 6;
+            render();
+            $("news-tools").open = true;
+            $("news-tools").scrollIntoView({ block: "start", behavior: "instant" });
+            $("news-tools").querySelector("summary").focus({ preventScroll: true });
+          } else {
+            const inbox = $("news-development-inbox").querySelector("details");
+            if (inbox) {
+              inbox.open = true;
+              inbox.scrollIntoView({ block: "start", behavior: "instant" });
+              inbox.querySelector("summary").focus({ preventScroll: true });
+            }
+          }
+          return;
+        }
+        const detail = event.target.closest("[data-news-detail], [data-topic-detail]");
         if (detail) {
-          const item = stories().find(row => row.id === detail.dataset.newsDetail);
+          const item = stories().find(
+            row => row.id === (detail.dataset.newsDetail || detail.dataset.topicDetail),
+          );
           if (item)
             window.ScoutNewsDetail?.open(item, {
               readerFeed: state.data?.news_intelligence?.reader_updates,
@@ -680,6 +764,7 @@
           (replacement || $("news-unread")).focus({ preventScroll: true });
         }
       });
+      window.addEventListener("scout:reader-updates", () => renderVisit());
       $("news-filter-buttons").addEventListener("click", event => {
         const button = event.target.closest("[data-news-topic]");
         if (!button || !Object.hasOwn(TOPICS, button.dataset.newsTopic)) return;

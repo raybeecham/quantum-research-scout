@@ -307,6 +307,7 @@
       <p class="story-reader-note">${storageNote()}</p>${feed.method ? `<details><summary>How matching works</summary><p class="story-reader-note">${esc(feed.method)}</p></details>` : ""}<p class="story-reader-status" role="status" data-reader-status></p></details>`;
   }
   function renderAll() {
+    window.dispatchEvent(new CustomEvent("scout:reader-updates"));
     const active = document.activeElement;
     const activeHost = active?.closest?.(".story-reader");
     const focusAttribute = active
@@ -624,5 +625,11 @@
     state = event.newValue ? parse(event.newValue) : empty();
     renderAll();
   });
-  window.ScoutStoryReader = Object.freeze({ mountStory, mountInbox, update, storageKey: KEY });
+  window.ScoutStoryReader = Object.freeze({
+    mountStory,
+    mountInbox,
+    update,
+    storageKey: KEY,
+    summary: () => ({ followed: state.follows.length, pending: pending().length }),
+  });
 })();

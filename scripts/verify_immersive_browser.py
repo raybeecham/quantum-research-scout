@@ -37,6 +37,9 @@ def main():
         page.goto(args.url + "/#news")
         feature = page.locator(".immersive-feature")
         expect(feature).to_be_visible()
+        expect(page.locator("#news-title")).to_have_text("Latest intelligence")
+        expect(page.locator("#news-visit-summary")).to_contain_text("Your first visit")
+        expect(page.locator(".topic-chapter")).to_have_count(4)
         expect(feature.locator(".feature-chapter")).to_have_count(3)
         expect(feature.locator(".news-visual")).to_be_visible()
         stage = feature.locator(".feature-stage")
@@ -71,6 +74,21 @@ def main():
         output = Path("site/verification")
         output.mkdir(parents=True, exist_ok=True)
         page.screenshot(path=str(output / "immersive-desktop.png"))
+        page.locator('[data-topic-jump="security"]').click()
+        expect(page.locator("#news-active-filters")).to_contain_text("Cybersecurity")
+        expect(page.locator("#news-topic-chapters")).to_be_hidden()
+        expect(page.locator("#news-tools > summary")).to_be_focused()
+        page.evaluate("""() => localStorage.setItem('quantum-scout:news-preferences:v1', JSON.stringify({
+          version:1, lastVisit:'2020-01-01T00:00:00Z', lastReportDate:'2020-01-01',
+          knownIds:[], topics:[], organizations:[], readIds:[]
+        }))""")
+        page.reload()
+        expect(page.locator("#news-visit-summary")).to_contain_text("Since your last visit")
+        expect(page.locator("#news-visit-summary")).to_contain_text("newly collected")
+        page.locator('[data-visit-action="new"]').click()
+        expect(page.locator("#news-active-filters")).to_contain_text("New since last visit")
+        page.locator('[data-visit-action="inbox"]').click()
+        expect(page.locator("#news-development-inbox details")).to_have_attribute("open", "")
         assert not errors, errors
         browser.close()
         print(

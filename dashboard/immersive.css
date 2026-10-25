@@ -1,24 +1,156 @@
 /* A story-led opening. Content remains in normal document flow. */
+.news-visit-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 18px 22px;
+  margin: 18px 0 24px;
+  background: var(--tint-accent);
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
+}
+.news-visit-summary[hidden],
+.news-topic-chapters[hidden] {
+  display: none;
+}
+.news-visit-summary p {
+  margin: 5px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+.visit-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.visit-actions button,
+.topic-chapter button {
+  background: transparent;
+  border: 0;
+  color: var(--accent);
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+  padding: 6px 0;
+  white-space: normal;
+}
+.news-topic-chapters {
+  margin: 70px 0;
+}
+.topic-chapters-heading {
+  max-width: 720px;
+  margin-bottom: 40px;
+}
+.topic-chapters-heading h2 {
+  font: 700 clamp(28px, 4vw, 48px)/1.15 var(--font-display);
+  letter-spacing: -0.04em;
+}
+.topic-chapters-heading p {
+  color: var(--muted);
+}
+.topic-chapter {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: clamp(24px, 5vw, 70px);
+  padding: clamp(24px, 4vw, 52px);
+  margin: 24px 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--chapter-accent);
+  border-radius: 16px;
+}
+.topic-chapter-quantum {
+  --chapter-accent: #7988e8;
+}
+.topic-chapter-security {
+  --chapter-accent: #27aaa4;
+}
+.topic-chapter-ai {
+  --chapter-accent: #ce83b5;
+}
+.topic-chapter-government {
+  --chapter-accent: #cfad60;
+}
+.topic-chapter-index {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+.topic-chapter-intro h3 {
+  font: 700 clamp(28px, 3.4vw, 46px)/1.13 var(--font-display);
+  letter-spacing: -0.04em;
+  margin: 22px 0;
+}
+.topic-chapter-intro p {
+  color: var(--muted);
+  font-size: 14px;
+}
+.topic-reading {
+  padding: 22px 0;
+  border-top: 1px solid var(--line);
+}
+.topic-reading:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+.topic-reading > span {
+  color: var(--muted);
+  font-size: 12px;
+}
+.topic-reading h4 {
+  margin: 8px 0;
+}
+.topic-reading h4 button {
+  color: var(--text);
+  font-weight: 650;
+  font-size: 18px;
+  line-height: 1.45;
+}
+.topic-reading-lead h4 button {
+  font-size: 24px;
+  letter-spacing: -0.02em;
+}
+.topic-reading h4 button:hover {
+  color: var(--accent);
+}
+.topic-reading p {
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+.topic-reading a {
+  font-size: 13px;
+}
+.topic-chapter :is(h3, h4, p, button) {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 760px) {
+  .topic-chapter {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
 #news .news-heading {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 20px 32px;
-  padding: clamp(44px, 9vh, 100px) 0 50px;
+  padding: 8px 0 18px;
   border-bottom: 1px solid var(--line);
-  background: radial-gradient(ellipse at 85% 20%, var(--tint-accent), transparent 65%);
+  background: transparent;
 }
 #news .news-heading > div {
-  flex: 1 0 100%;
+  flex: 1 1 auto;
 }
 #news .news-heading h1 {
   font-family: var(--font-display);
-  font-size: clamp(58px, 9vw, 132px);
+  font-size: clamp(22px, 3vw, 32px);
   line-height: 0.98;
-  letter-spacing: -0.065em;
+  letter-spacing: -0.035em;
   max-width: 100%;
-  margin-bottom: 28px;
+  margin-bottom: 0;
 }
 #news .news-heading p {
   max-width: 650px;
@@ -33,7 +165,7 @@
   grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
   align-items: start;
   gap: clamp(30px, 6vw, 90px);
-  padding: 55px 0 0;
+  padding: 24px 0 0;
   border: 0;
 }
 .feature-stage {
@@ -54,6 +186,8 @@
   max-width: 900px;
 }
 .immersive-feature.news-text-only .feature-narrative {
+  max-width: none;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 32px;
@@ -86,7 +220,7 @@
 #news .feature-stage .news-visual img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transform: scale(var(--feature-scale, 1));
 }
 .feature-scroll-cue {
