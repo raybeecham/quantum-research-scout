@@ -15,3 +15,11 @@ python scripts/build_dashboard.py --output site
 python scripts/verify_frontier_round2_browser.py --channel msedge
 python scripts/verify_publication_gate.py --channel msedge --prove-regressions
 ```
+
+## 2. Source recovery and diagnostics
+
+The live, configured collectors returned one dated White House item, one dated ETSI item, and nine dated defense items. White House and ETSI had previously recorded empty HTML discovery; both now extract successfully without a parser workaround. The old defense RSS URL was empty; the official War.gov RSS endpoint with `Site=945` returns usable entries. Rigetti's investor RSS and HTML endpoints both return HTTP 403. Its public corporate page is reachable but exposes no usable article links to the collector, so Rigetti is explicitly disabled pending a reliable endpoint.
+
+Only those three successfully audited collectors received new observations. Historical failure counters remain intact. The resulting operational snapshot is 102 healthy enabled sources, zero failing. This proves current extraction, not future uptime or complete coverage. Publication freshness remains a separate measurement.
+
+Sources & methods now shows the most recent redacted error and its timestamp, including after recovery, plus disabled-source reasons. Six source-health tests pass; the built page was checked for the Rigetti reason and error details. Audit outputs are local under `site/*feeds-audit.json`.

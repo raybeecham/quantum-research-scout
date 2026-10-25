@@ -1951,6 +1951,14 @@ function signalCard(item, index) {
 }
 
 function renderSources(sources) {
+  const disabled = state.data.source_health?.disabled_sources || [];
+  document.getElementById("disabled-source-list").innerHTML =
+    disabled
+      .map(
+        item =>
+          `<li><strong>${escapeHtml(item.name)}</strong>: ${escapeHtml(item.source_note || "Disabled in configuration.")}${item.last_error ? `<small class="source-policy-note">Last error: ${escapeHtml(item.last_error)}</small>` : ""}</li>`,
+      )
+      .join("") || "<li>No disabled sources.</li>";
   const order = { failing: 0, degraded: 1, partial: 2, healthy: 3, standby: 4 };
   document.getElementById("source-table").innerHTML = [...sources]
     .sort((a, b) => order[a.status] - order[b.status] || a.name.localeCompare(b.name))
@@ -1959,6 +1967,16 @@ function renderSources(sources) {
         `<tr><td>${escapeHtml(item.name)}${item.source_note ? `<small class="source-policy-note">${escapeHtml(item.source_note)}</small>` : ""}</td><td>${escapeHtml(item.role === "reference" ? "reference" : item.type)}</td><td>${item.success_rate ?? "Not available"}${item.success_rate == null ? "" : "%"}${item.historical_reliability ? `<small class="source-policy-note">Historical: ${escapeHtml(item.historical_reliability)}</small>` : ""}</td><td>${item.warning_days || 0}</td><td>${escapeHtml(formatShortDate(item.last_checked_at))}</td><td>${escapeHtml(formatShortDate(item.last_item_at))}</td><td><span class="freshness ${escapeHtml(item.freshness || "unverified")}" title="${escapeHtml(item.role === "reference" ? "Publication age does not measure reference validity. Check the document version." : `Latest dated item; review window ${item.stale_after_days || 14} days. Not proof of complete coverage.`)}">${escapeHtml(item.freshness || "unverified")}</span></td><td><span class="health"><i class="dot ${escapeHtml(item.status)}"></i>${escapeHtml(item.status)} · ${escapeHtml(item.verification_status || "unverified")}</span></td></tr>`,
     )
     .join("");
+  const rows = document.getElementById("source-table").rows;
+  [...sources]
+    .sort((a, b) => order[a.status] - order[b.status] || a.name.localeCompare(b.name))
+    .forEach((item, index) => {
+      if (!item.last_error) return;
+      const note = document.createElement("small");
+      note.className = "source-policy-note";
+      note.textContent = `Most recent error${item.last_error_at ? ` (${formatShortDate(item.last_error_at)})` : ""}: ${item.last_error}`;
+      rows[index].cells[0].append(note);
+    });
 }
 
 function renderDataTrust(payload) {

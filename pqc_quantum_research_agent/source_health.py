@@ -116,6 +116,13 @@ def write_source_observations(
                 "last_warning": redact_text(failure_warnings[0].message)
                 if failure_warnings
                 else None,
+                "last_error": redact_text(failure_warnings[0].message)
+                if failure_warnings
+                else prior.get("last_error") or prior.get("last_warning"),
+                "last_error_at": generated_text
+                if failure_warnings
+                else prior.get("last_error_at")
+                or (prior.get("last_checked_at") if prior.get("last_warning") else None),
                 "last_advisory": redact_text(advisory_warnings[0].message)
                 if advisory_warnings
                 else None,
@@ -131,7 +138,11 @@ def write_source_observations(
                 else 0,
             }
         )
-    payload = {"version": 1, "updated_at": generated_text, "sources": observations}
+    payload = {
+        "version": 1,
+        "updated_at": generated_text,
+        "sources": sorted(observations, key=lambda row: row["name"]),
+    }
     output.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return output
 
@@ -149,6 +160,37 @@ def write_source_health_report(
     observations = {str(item.get("name")): item for item in observation_payload.get("sources", [])}
     stale_after_days = int(config.source_health.get("stale_after_days", 14))
     policies = config.source_health.get("source_policies", {})
+    source_config = {
+        str(source.get("name")): source
+        for source in [
+            *config.rss_feeds,
+            *config.urls,
+            *config.watch_sources,
+            *config.arxiv_rss,
+            config.iacr_eprint,
+        ]
+    }
+
+    def source_details(name):
+        source = source_config.get(name, {})
+        observation = observations.get(name, {})
+        urls = source.get("urls") or []
+        url = (
+            source.get("rss_url")
+            or source.get("url")
+            or source.get("feed_url")
+            or (urls[0] if urls else "")
+        )
+        return {
+            "feed_url": redact_url(url),
+            "source_note": source.get("source_note") or policies.get(name, {}).get("note", ""),
+            "last_error": redact_text(
+                observation.get("last_error") or observation.get("last_warning") or ""
+            ),
+            "last_error_at": observation.get("last_error_at")
+            or (observation.get("last_checked_at") if observation.get("last_warning") else None),
+        }
+
     report_dates: list[str] = []
     failures: dict[str, list[dict[str, str]]] = defaultdict(list)
     expected_idle: dict[str, list[dict[str, str]]] = defaultdict(list)
@@ -288,7 +330,7 @@ def write_source_health_report(
                 "freshness": freshness,
                 "role": role,
                 "stale_after_days": cadence,
-                "source_note": policy.get("note", ""),
+                **source_details(name),
                 "last_checked_at": observation.get("last_checked_at"),
                 "last_success_at": observation.get("last_success_at"),
                 "last_item_at": observation.get("last_item_at"),
@@ -343,7 +385,10 @@ def write_source_health_report(
         )
 
     lines.extend(["", "## Disabled Sources", ""])
-    lines.extend(f"- {name} [{source_type}]" for name, source_type in disabled)
+    lines.extend(
+        f"- {name} [{source_type}]: {source_details(name)['source_note'] or 'Disabled in configuration.'}"
+        for name, source_type in disabled
+    )
     if not disabled:
         lines.append("- None.")
     lines.extend(["", "## Recent Warning Details", ""])
@@ -384,7 +429,13 @@ def write_source_health_report(
                     health_entries, key=lambda item: (str(item["status"]), str(item["name"]))
                 ),
                 "disabled_sources": [
-                    {"name": name, "type": source_type} for name, source_type in disabled
+                    {
+                        "name": name,
+                        "type": source_type,
+                        "status": "disabled",
+                        **source_details(name),
+                    }
+                    for name, source_type in disabled
                 ],
                 "recent_warnings": recent,
                 "recent_advisories": recent_advisories,

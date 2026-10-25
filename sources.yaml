@@ -356,6 +356,8 @@ rss_feeds:
     url: "https://www.digicert.com/blog/rss.xml"
     entities: [DigiCert]
   - name: "Rigetti News"
+    enabled: false
+    source_note: "Disabled after the 2026-10-25 audit: investor RSS and news-release endpoints return HTTP 403; the public news page exposes no usable article links to this collector. Recheck before enabling."
     url: "https://investors.rigetti.com/rss/news-releases.xml"
     entities: [Rigetti]
   - name: "Microsoft Quantum Blog"
@@ -478,6 +480,7 @@ watch_sources:
   - name: "Department of War Strategic Technology News"
     entities: [Department of War]
     rss_url: "https://www.war.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=40"
+    source_note: "2026-10-25: replaced the empty legacy Defense.gov RSS endpoint with the official War.gov feed. HTML fallback may return HTTP 403."
     url: "https://www.war.gov/News/News-Stories/"
     include_patterns: [artificial-intelligence, quantum, cyber, technology, innovation, missile, space, autonomous, computing]
     match_patterns: [artificial intelligence, quantum, cyber, technology, innovation, autonomous, autonomy, missile defense, space, computing]
