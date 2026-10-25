@@ -589,7 +589,7 @@
       id: el.closest("[data-story]").dataset.story,
       selector: el.classList.contains("headline-review") ? ".headline-review" : ".story-evidence",
     }));
-    const all = ui.data.reading_brief?.stories || [];
+    const all = ui.data.news_intelligence?.stories || ui.data.reading_brief?.stories || [];
     const stories = all.filter(
       x => ui.period === "week" || x.report_date === ui.data.reading_brief?.edition_date,
     );

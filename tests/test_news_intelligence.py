@@ -210,7 +210,7 @@ def test_event_grouping_preserves_member_specific_topics_and_navigation_union():
     two["key_points"].append("The AI model uses cloud infrastructure.")
     result = build(one, two, entities={"entities": [{"name": "NVIDIA"}, {"name": "SEEQC"}]})
     representative = result["stories"][0]
-    assert {"quantum", "ai", "cloud"} <= set(representative["news_topics"])
+    assert representative["news_topics"] == ["quantum"]
     assert set(representative["news_organizations"]) == {"NVIDIA", "SEEQC"}
     assert "cloud" not in result["accounts"][0]["news_topics"]
     assert "cloud" not in representative["news_detail"]["why_it_matters"]
@@ -556,7 +556,7 @@ def test_primary_hardware_deployment_outranks_qkd_portfolio_sidenote():
     technical = [entry for entry in detail["analysis_evidence"] if entry.get("interpretation")]
     assert technical[0]["label"] == "Local quantum-computer access"
     assert technical[0]["quote"] == points[2]
-    assert "source statement supports" in technical[0]["basis"].lower()
+    assert technical[0]["basis"] == ""  # Generic caveat is section-scoped, not per quote.
     assert not any(entry["label"] == "Key-distribution link" for entry in technical)
     assert detail["what_happened"] == points
 

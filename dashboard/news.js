@@ -676,9 +676,11 @@
         `${range}${state.sort === "editorial" ? "Developments first prioritizes explicit recent changes, with a varied shortlist; advice remains in the collection. This is rule-based selection, not human editorial review." : state.sort === "relevance" ? "Ordered by existing rule-based decision relevance, then report date; this is not a quality rating." : "Ordered by collected report date, then existing Frontier Signal relevance within each date; ties retain collection order. This is not source publication order or a quality rating."} Topic filters match collected evidence, not exhaustive coverage. Images are publisher-provided article previews, loaded directly from their image hosts without a referrer. Image hosts still receive your IP address. Missing, blocked, or repeated previews use text-only cards; publisher artwork may be illustrative.`;
       $("news-filter-buttons")
         .querySelectorAll("[data-news-topic]")
-        .forEach(button =>
-          button.setAttribute("aria-pressed", String(button.dataset.newsTopic === state.topic)),
-        );
+        .forEach(button => {
+          const topic = button.dataset.newsTopic;
+          button.hidden = topic !== "all" && all.filter(item => topics(item).includes(topic)).length < 3;
+          button.setAttribute("aria-pressed", String(topic === state.topic));
+        });
       $("news-loading").hidden = true;
       window.ScoutMath?.render?.($("news-featured"));
       window.ScoutMath?.render?.($("news-list"));
@@ -832,5 +834,5 @@
     render();
   }
 
-  window.ScoutNews = { init, refresh: render };
+  window.ScoutNews = { init, refresh: render, topics, topicLabels: TOPICS };
 })();

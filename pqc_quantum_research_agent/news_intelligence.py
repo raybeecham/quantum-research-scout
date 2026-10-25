@@ -17,7 +17,7 @@ from .briefing import _source_url
 from .emerging_tech import emerging_tech_signal
 from .redaction import redact_text
 from .story_analysis import analyze_story
-from .technology_briefing import TOPICS, decision_brief, topic_text
+from .technology_briefing import TOPICS, decision_brief, is_topic_subject, topic_text
 from .text import clean_source_excerpt
 
 _ADMIN = re.compile(
@@ -224,6 +224,7 @@ def _topics(item):
     )
     if technical and technical["topic"] not in topics:
         topics.append(technical["topic"])
+    topics = [key for key in topics if is_topic_subject(item.get("title", ""), key)]
     host = (urlsplit(item["url"]).hostname or "").lower().rstrip(".")
     if topics and (
         host.endswith((".gov", ".mil"))

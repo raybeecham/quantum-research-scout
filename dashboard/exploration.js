@@ -2,6 +2,7 @@
 (() => {
   "use strict";
   const topics = [
+    { id: "government", name: "Government & policy", terms: ["government", "federal"], pattern: /\b(government|federal)\b/i },
     {
       id: "security",
       name: "Cyber / PQC",
@@ -128,6 +129,7 @@
   const textOf = s =>
     [s.title, s.summary, ...array(s.key_points)].filter(x => typeof x === "string").join(" ");
   function matches(s, topic) {
+    if (Array.isArray(s.news_topics)) return s.news_topics.includes(topic.id) ? topic.name : "";
     // PQC alone is not evidence of work on quantum computing itself.
     const text =
       topic.id === "quantum"
@@ -197,7 +199,7 @@
         ];
       })
       .sort((a, b) => a.title.localeCompare(b.title));
-    const readings = unique(data.reading_brief?.stories)
+    const readings = unique(data.news_intelligence?.stories || data.reading_brief?.stories)
       .filter(s => matches(s, topic))
       .map(s => ({
         title: s.title,
