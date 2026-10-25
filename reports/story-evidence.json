@@ -1,5 +1,5 @@
 {
-  "method": "Source-specific briefings reconstructed from dated daily digests, not full article copies. Publication dates come from explicit Published metadata. First and last observations are report dates, not publication or publisher update times. Captured-content changes compare titles and collected excerpts only; they do not establish that the publisher changed an article. Public evidence is retained before old daily digests are pruned. Excerpts are capped at 3,000 characters each. Current rule-based interpretation may evolve when Scout's rules change.",
+  "method": "Source-specific briefings reconstructed from dated daily digests, not full article copies. Publication dates come from explicit Published metadata. First and last observations are report dates, not publication or publisher update times. Captured-content changes compare titles and collected excerpts only; they do not establish that the publisher changed an article. Public evidence is retained before old daily digests are pruned. Excerpts are capped at 3,000 characters each. Current rule-based interpretation may evolve when Frontier Signal's rules change.",
   "records": {
     "https://arxiv.org/abs/2610.03857": {
       "captures": [
@@ -1128,6 +1128,27 @@
         }
       ]
     },
+    "https://quantumcomputingreport.com/arqit-invests-in-sirius-to-scale-tactical-edge-quantum-safe-networking-following-nato-contract-selection": {
+      "captures": [
+        {
+          "excerpts": [
+            "Arqit, a quantum-safe encryption provider, has invested in Sirius Computer, a tactical communications developer, to enhance post-quantum security for defense and intelligence",
+            "This partnership follows Arqit's selection for a NATO contract and aims to provide quantum-safe encryption for military communications without hardware overhauls",
+            "The collaboration addresses limitations of existing quantum-safe technologies in tactical environments and will fund Sirius's engineering expansion"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-24",
+              "report_date": "2026-10-24",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/arqit-invests-in-sirius-to-scale-tactical-edge-quantum-safe-networking-following-nato-contract-selection"
+            }
+          ],
+          "title": "Arqit Invests in Sirius to Scale Tactical Edge Quantum-Safe Networking Following NATO Contract Selection"
+        }
+      ]
+    },
     "https://quantumcomputingreport.com/bechtle-and-iqm-awarded-dlr-qci-contract-to-supply-superconducting-cloud-resources": {
       "captures": [
         {
@@ -1737,6 +1758,48 @@
         }
       ]
     },
+    "https://quantumcomputingreport.com/new-mexico-deploys-jtip-workforce-grants-to-support-quantum-hardware-hiring-at-ionq-and-bandelier-technologies": {
+      "captures": [
+        {
+          "excerpts": [
+            "IonQ Inc. and Bandelier Technologies received grants to support hiring in hardware engineering, quantum system operations, photonic quantum radar, sensing, and metasurface communications",
+            "New Mexico has allocated over $12 million in Job Training Incentive Program (JTIP) funding for Q1 FY22, with a focus on quantum technology",
+            "This initiative underscores New Mexico's commitment to commercializing deep-tech intellectual property from its national laboratories"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-24",
+              "report_date": "2026-10-24",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/new-mexico-deploys-jtip-workforce-grants-to-support-quantum-hardware-hiring-at-ionq-and-bandelier-technologies"
+            }
+          ],
+          "title": "New Mexico Deploys JTIP Workforce Grants to Support Quantum Hardware Hiring at IonQ and Bandelier Technologies"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/nowsecure-benchmark-finds-97-of-mobile-applications-lack-post-quantum-cryptography-ahead-of-mandated-timelines": {
+      "captures": [
+        {
+          "excerpts": [
+            "A recent study by NowSecure, evaluating over 136,000 mobile apps, reveals that 97% lack Post-Quantum Cryptography (PQC), leaving them vulnerable to future quantum attacks",
+            "With regulatory deadlines approaching (e.g., US federal agencies by 2030-2031), organizations urgently need to prioritize PQC migration for mobile applications",
+            "This \"mobile gap\" is largely due to reliance on third-party SDKs and compiled libraries that traditional security scans miss"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-24",
+              "report_date": "2026-10-24",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/nowsecure-benchmark-finds-97-of-mobile-applications-lack-post-quantum-cryptography-ahead-of-mandated-timelines"
+            }
+          ],
+          "title": "NowSecure Benchmark Finds 97% of Mobile Applications Lack Post-Quantum Cryptography Ahead of Mandated Timelines"
+        }
+      ]
+    },
     "https://quantumcomputingreport.com/nvidia-and-julich-run-104-qubit-magic-state-cultivation-simulation-on-jupiter-supercomputer": {
       "captures": [
         {
@@ -1857,6 +1920,27 @@
             }
           ],
           "title": "Patenting Quantum Computing Innovations – Part 3: Implementing a Logical Qubit in a Surface Code"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/project-eleven-and-relm-insurance-partner-to-introduce-post-quantum-security-metrics-into-digital-asset-underwriting": {
+      "captures": [
+        {
+          "excerpts": [
+            "This collaboration aims to assess how an institution's post-quantum cryptographic controls can influence insurance policy pricing",
+            "The goal is to incentivize early migration to quantum-resilient security by offering tailored terms and preferential risk assessments to institutions that implement audited post-quantum defenses",
+            "The post Project Eleven and Relm Insu"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-24",
+              "report_date": "2026-10-24",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/project-eleven-and-relm-insurance-partner-to-introduce-post-quantum-security-metrics-into-digital-asset-underwriting"
+            }
+          ],
+          "title": "Project Eleven and Relm Insurance Partner to Introduce Post-Quantum Security Metrics into Digital Asset Underwriting"
         }
       ]
     },
@@ -2023,6 +2107,27 @@
             }
           ],
           "title": "QuiX Quantum Partners with Tohoku Electronic Industrial for Exclusive Distribution in Japan"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones": {
+      "captures": [
+        {
+          "excerpts": [
+            "While China leads in physical parameters and domestic supply chains, it lags behind Western efforts in system-level quantum error correction and fault-tolerant computing",
+            "A review of China's neutral-atom quantum computing ecosystem reveals rapid advancements in hardware, including world-record atom trapping, high-fidelity gates, and commercial systems",
+            "The focus for China's roadmap is bridging the gap between physical demonstrations and continuous, fault-tolerant logical computation"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-24",
+              "report_date": "2026-10-24",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones"
+            }
+          ],
+          "title": "Review Unpacks China’s Surging Neutral-Atom Ecosystem: World-Record Arrays, Commercial Systems, and Scaling Milestones"
         }
       ]
     },

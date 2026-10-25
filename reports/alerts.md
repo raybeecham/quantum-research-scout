@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-24 02:52 UTC_
+_Updated 2026-10-25 02:48 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 5 | 13 | 13 | 24 |
+| 50 | 4 | 16 | 13 | 21 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -70,35 +70,56 @@ _Updated 2026-10-24 02:52 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 86.7% reliability with 12 warning day(s).
+- 🔴 85.7% reliability with 13 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: ETSI Quantum Standards News
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 73.5% reliability with 24 warning day(s).
+- 🔴 72.8% reliability with 25 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Quantum Computing Report
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 69.2% reliability with 10 warning day(s).
+- 🔴 70.0% reliability with 9 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: Rigetti News
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 85.1% reliability with 15 warning day(s).
+- 🔴 84.3% reliability with 16 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: White House Science and Technology Missions
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 60.4% reliability with 31 warning day(s).
+- 🔴 59.8% reliability with 31 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 64.4% reliability with 9 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv Quantum Computing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 64.4% reliability with 9 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv Quantum Networking and Sensing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 66.1% reliability with 9 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -122,7 +143,7 @@ _Updated 2026-10-24 02:52 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Software / Tooling 🆕
+## 🟠 Actionable signal: Quantum Software / Tooling
 
 - Severity: **high**
 - Status: **actionable**
@@ -140,7 +161,7 @@ _Updated 2026-10-24 02:52 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 21 versus 10 in the prior period.
+- ↗️ Recent evidence is 19 versus 11 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -150,7 +171,7 @@ _Updated 2026-10-24 02:52 UTC_
 - ↗️ Recent evidence is 3 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Quantum Software / Tooling 🆕
+## 🟠 Rising momentum: Quantum Software / Tooling
 
 - Severity: **high**
 - Status: **rising**
@@ -168,28 +189,28 @@ _Updated 2026-10-24 02:52 UTC_
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 92.2% reliability with 4 warning day(s).
+- 🟠 92.3% reliability with 3 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: Quantum Journal
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 92.3% reliability with 3 warning day(s).
+- 🟠 92.5% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS cs.CR
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.9% reliability with 2 warning day(s).
+- 🟠 94.0% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Source degraded: arXiv RSS quant-ph
 
 - Severity: **high**
 - Status: **degraded**
-- 🟠 93.8% reliability with 2 warning day(s).
+- 🟠 93.9% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -218,6 +239,13 @@ _Updated 2026-10-24 02:52 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-06; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Department of War Strategic Technology News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-10-09; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: ETSI Quantum Standards News
@@ -304,18 +332,11 @@ _Updated 2026-10-24 02:52 UTC_
 - The latest dated item is from 2026-06-30; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Quantum Technologies 🆕
+## 🟡 Source stale: Grants.gov · Quantum Technologies
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-09; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: InfoQ Quantum Computing
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-16; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Lockheed Martin Quantum Technology
@@ -337,25 +358,4 @@ _Updated 2026-10-24 02:52 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2025-05-07; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: NSF Strategic Science and Technology Missions 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-10-08; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Open Quantum Safe
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-07-09; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: PsiQuantum News 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-10-08; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

@@ -4,18 +4,18 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-24 02:52 UTC_
+_Updated 2026-10-25 02:48 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-10-20 | 25 |
-| Quantum Hardware | ↗️ rising (21 vs 10) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-23 | 349 |
+| Quantum Hardware | ↗️ rising (19 vs 11) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-24 | 350 |
 | Quantum Sensing | ↗️ rising (3 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-19 | 54 |
 | Quantum Software / Tooling | ↗️ rising (8 vs 5) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-23 | 112 |
-| PQC / Crypto Agility | ➡️ stable (17 vs 22) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-23 | 312 |
-| QEC / Fault Tolerance | ➡️ stable (8 vs 8) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-10-22 | 93 |
+| PQC / Crypto Agility | ➡️ stable (18 vs 24) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-24 | 315 |
+| QEC / Fault Tolerance | ➡️ stable (8 vs 7) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-10-24 | 94 |
 | Quantum Networking | ➡️ stable (3 vs 3) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-23 | 153 |
 | Standards / Government | ↘️ declining (1 vs 7) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-10-19 | 77 |
 
@@ -35,11 +35,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-10-24 — [New Mexico Deploys JTIP Workforce Grants to Support Quantum Hardware Hiring at IonQ and Bandelier Technologies](https://quantumcomputingreport.com/new-mexico-deploys-jtip-workforce-grants-to-support-quantum-hardware-hiring-at-ionq-and-bandelier-technologies) (Quantum Computing Report, score 26)
   - 2026-10-23 — [ZuriQ and Rhonexum Form Multi-Year Partnership to Integrate Cryogenic Control ICs into 2D Trapped-Ion Processors](https://quantumcomputingreport.com/zuriq-and-rhonexum-form-multi-year-partnership-to-integrate-cryogenic-control-ics-into-2d-trapped-ion-processors) (Quantum Computing Report, score 47)
   - 2026-10-23 — [Guest Post: Quantum Computing’s Next Phase May Be Driven by Compounding Breakthroughs](https://thequantuminsider.com/2026/10/23/quantum-computing-compounding-breakthroughs) (The Quantum Insider, score 44)
   - 2026-10-23 — [IQM and Telefónica Plan Quantum Computer for Madrid University](https://thequantuminsider.com/2026/10/23/madrid-first-quantum-computer-telefonica-iqm) (The Quantum Insider, score 24)
   - 2026-10-23 — [Quandela And Quanova Partner to Deploy Vietnam’s First Quantum Computer](https://thequantuminsider.com/2026/10/23/quandela-and-quanova-partner-to-deploy-vietnams-first-quantum-computer) (The Quantum Insider, score 24)
-  - 2026-10-22 — [UK National Physical Laboratory Secures £230,000 ($307.5K USD) GOTT Grant to Scale Quantum Ion-Trap Manufacturing](https://quantumcomputingreport.com/uk-national-physical-laboratory-secures-230000-307-5k-usd-gott-grant-to-scale-quantum-ion-trap-manufacturing) (Quantum Computing Report, score 100)
 
 ## Quantum Sensing
 
@@ -65,25 +65,25 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 
 ## PQC / Crypto Agility
 
-- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Cisco Quantum-Safe Updates
+- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Quantum Computing Report
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-10-24 — [Arqit Invests in Sirius to Scale Tactical Edge Quantum-Safe Networking Following NATO Contract Selection](https://quantumcomputingreport.com/arqit-invests-in-sirius-to-scale-tactical-edge-quantum-safe-networking-following-nato-contract-selection) (Quantum Computing Report, score 83)
+  - 2026-10-24 — [NowSecure Benchmark Finds 97% of Mobile Applications Lack Post-Quantum Cryptography Ahead of Mandated Timelines](https://quantumcomputingreport.com/nowsecure-benchmark-finds-97-of-mobile-applications-lack-post-quantum-cryptography-ahead-of-mandated-timelines) (Quantum Computing Report, score 67)
+  - 2026-10-24 — [Project Eleven and Relm Insurance Partner to Introduce Post-Quantum Security Metrics into Digital Asset Underwriting](https://quantumcomputingreport.com/project-eleven-and-relm-insurance-partner-to-introduce-post-quantum-security-metrics-into-digital-asset-underwriting) (Quantum Computing Report, score 55)
   - 2026-10-23 — [UK and Singapore Align on Post-Quantum Cryptography Migration and Quantum Security Standards in Financial Sector](https://quantumcomputingreport.com/uk-and-singapore-align-on-post-quantum-cryptography-migration-and-quantum-security-standards-in-financial-sector) (Quantum Computing Report, score 81)
   - 2026-10-23 — [How to evaluate a post-quantum cryptography provider: 10 questions to ask](https://pqshield.com/post-quantum-cryptography-provider) (PQShield, score 67)
-  - 2026-10-23 — [Bringing post-quantum cryptography to geographically fenced key management](https://blog.cloudflare.com/post-quantum-geo-key-manager) (Cloudflare Blog, score 55)
-  - 2026-10-22 — [Symmatrics Appoints Andrew Hallman to Strategic Advisory Board](https://thequantuminsider.com/2026/10/22/symmatrics-andrew-hallman-advisory-board) (The Quantum Insider, score 100)
-  - 2026-10-22 — [Are You Post-Quantum Ready? Build Quantum Readiness Into Today’s Infrastructure Strategy](https://blogs.cisco.com/news/are-you-post-quantum-ready-build-quantum-readiness-into-todays-infrastructure) (Cisco Quantum-Safe Updates, score 62)
 
 ## QEC / Fault Tolerance
 
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, Quantum Computing Report, QuantumNews.ai, arXiv RSS quant-ph
+- Organizations/sources: Quantum Zeitgeist, Quantum Computing Report, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph
 - Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
 - Recent supporting evidence:
+  - 2026-10-24 — [Review Unpacks China’s Surging Neutral-Atom Ecosystem: World-Record Arrays, Commercial Systems, and Scaling Milestones](https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones) (Quantum Computing Report, score 102)
   - 2026-10-22 — [SEEQC and NVIDIA Demonstrate 50% QEC Latency and Error Rate Reduction via Digital Pre-Decoder Architecture](https://quantumcomputingreport.com/seeqc-and-nvidia-demonstrate-50-qec-latency-and-error-rate-reduction-via-digital-pre-decoder-architecture) (Quantum Computing Report, score 73)
   - 2026-10-22 — [SEEQC Combines Chip-Based Processing With NVIDIA AI to Improve Quantum Error Correction](https://thequantuminsider.com/2026/10/22/seeqc-combines-chip-based-processing-with-nvidia-ai-to-improve-quantum-error-correction) (The Quantum Insider, score 49)
   - 2026-10-21 — [Alice & Bob Reports Phase 1 Results of France’s PROQCIMA Quantum Program](https://quantumcomputingreport.com/alice-bob-reports-phase-1-results-of-frances-proqcima-quantum-program) (Quantum Computing Report, score 133)
   - 2026-10-21 — [Decoding quantum errors with NVIDIA Ising Decoding on AWS](https://aws.amazon.com/blogs/quantum-computing/decoding-quantum-errors-with-nvidia-ising-decoding-on-aws) (AWS Quantum Technologies Blog, score 81)
-  - 2026-10-19 — [Chinese Startup FlipFlop Tuoyuan Emerges with Major VC Backing for 100-Logical-Qubit Neutral-Atom Systems](https://quantumcomputingreport.com/chinese-startup-flipflop-tuoyuan-emerges-with-major-vc-backing-for-100-logical-qubit-neutral-atom-systems) (Quantum Computing Report, score 125)
 
 ## Quantum Networking
 

@@ -2,19 +2,17 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-10-24T02:49:00.911271+00:00_
+_Updated 2026-10-25T02:40:17.903846+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
 - Actual or recent changes: **0**
-- Newly discovered historical evidence: **4**
+- Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **12**
 
 ## Priority timeline
 
-- **Newly discovered historical evidence** · ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-))
-  - Scout first observed this on 2026-10-24; the source date is 2026-09-30.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

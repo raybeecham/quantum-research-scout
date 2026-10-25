@@ -278,138 +278,12 @@
       ]
     }
   ],
-  "added": [
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b0baa0787693b530",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "last_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9ab35a748344e120",
-          "locator": "opportunity_status:awarded",
-          "title": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:N0018926PL230",
-        "label": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-        "node_id": "award:usaspending:N0018926PL230",
-        "node_type": "award"
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-9d162a2fe484264d",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "last_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-110913f9799fdcf5",
-          "locator": "awarding_agency:department of defense",
-          "title": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:N0018926PL230",
-        "label": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-        "node_id": "award:usaspending:N0018926PL230",
-        "node_type": "award"
-      },
-      "value": "Department of Defense"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e8182f9b5c5d3b73",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "last_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-63f121d59e8fdd54",
-          "locator": "reported_amount:372000.0",
-          "title": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:N0018926PL230",
-        "label": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-        "node_id": "award:usaspending:N0018926PL230",
-        "node_type": "award"
-      },
-      "value": 372000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f8f53abb954dab24",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "first_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "last_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "object": {
-        "identifier": "uei:K2E3BGLM1Y53",
-        "label": "VIRSIG, LLC",
-        "node_id": "recipient_or_contractor:uei:K2E3BGLM1Y53",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b854d5ba773ca842",
-          "locator": "reported_recipient:recipient_or_contractor:uei:K2E3BGLM1Y53",
-          "title": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:N0018926PL230",
-        "label": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-        "node_id": "award:usaspending:N0018926PL230",
-        "node_type": "award"
-      },
-      "value": null
-    }
-  ],
+  "added": [],
   "baseline_initialized": false,
   "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-10-24T02:49:00.911271+00:00",
-  "comparison_started_at": "2026-10-23T02:51:53.318837+00:00",
+  "comparison_ended_at": "2026-10-25T02:40:17.903846+00:00",
+  "comparison_started_at": "2026-10-24T02:49:00.911271+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1325,19 +1199,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-10-23T02:51:53.318837+00:00",
+  "since": "2026-10-24T02:49:00.911271+00:00",
   "summary": {
     "active_claims": 5031,
-    "added": 4,
+    "added": 0,
     "changed": 0,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 31,
+    "material_changes": 27,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-10-24T02:49:00.911271+00:00",
+  "updated_at": "2026-10-25T02:40:17.903846+00:00",
   "version": 1
 }

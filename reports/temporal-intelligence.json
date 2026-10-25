@@ -1,265 +1,11 @@
 {
-  "added": [
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-9d162a2fe484264d",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "evidence_title": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-",
-      "first_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "last_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-110913f9799fdcf5",
-          "locator": "awarding_agency:department of defense",
-          "title": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:N0018926PL230",
-        "label": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-        "node_id": "award:usaspending:N0018926PL230",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "historical_discovery",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-30",
-        "explanation": "Scout first observed this on 2026-10-24; the source date is 2026-09-30.",
-        "first_observed_at": "2026-10-24T02:49:00.911271+00:00",
-        "historical": true,
-        "label": "Newly discovered historical evidence",
-        "last_changed_at": null,
-        "last_observed_at": "2026-10-24T02:49:00.911271+00:00",
-        "primary_date": "2026-09-30",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Defense"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-b0baa0787693b530",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "evidence_title": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-",
-      "first_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "last_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9ab35a748344e120",
-          "locator": "opportunity_status:awarded",
-          "title": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:N0018926PL230",
-        "label": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-        "node_id": "award:usaspending:N0018926PL230",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "historical_discovery",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-30",
-        "explanation": "Scout first observed this on 2026-10-24; the source date is 2026-09-30.",
-        "first_observed_at": "2026-10-24T02:49:00.911271+00:00",
-        "historical": true,
-        "label": "Newly discovered historical evidence",
-        "last_changed_at": null,
-        "last_observed_at": "2026-10-24T02:49:00.911271+00:00",
-        "primary_date": "2026-09-30",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-e8182f9b5c5d3b73",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "evidence_title": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-",
-      "first_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "last_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-63f121d59e8fdd54",
-          "locator": "reported_amount:372000.0",
-          "title": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:N0018926PL230",
-        "label": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-        "node_id": "award:usaspending:N0018926PL230",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "historical_discovery",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-30",
-        "explanation": "Scout first observed this on 2026-10-24; the source date is 2026-09-30.",
-        "first_observed_at": "2026-10-24T02:49:00.911271+00:00",
-        "historical": true,
-        "label": "Newly discovered historical evidence",
-        "last_changed_at": null,
-        "last_observed_at": "2026-10-24T02:49:00.911271+00:00",
-        "primary_date": "2026-09-30",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 372000.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f8f53abb954dab24",
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "evidence_title": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-",
-      "first_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "last_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "object": {
-        "identifier": "uei:K2E3BGLM1Y53",
-        "label": "VIRSIG, LLC",
-        "node_id": "recipient_or_contractor:uei:K2E3BGLM1Y53",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b854d5ba773ca842",
-          "locator": "reported_recipient:recipient_or_contractor:uei:K2E3BGLM1Y53",
-          "title": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:N0018926PL230",
-        "label": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-        "node_id": "award:usaspending:N0018926PL230",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "historical_discovery",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-30",
-        "explanation": "Scout first observed this on 2026-10-24; the source date is 2026-09-30.",
-        "first_observed_at": "2026-10-24T02:49:00.911271+00:00",
-        "historical": true,
-        "label": "Newly discovered historical evidence",
-        "last_changed_at": null,
-        "last_observed_at": "2026-10-24T02:49:00.911271+00:00",
-        "primary_date": "2026-09-30",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    }
-  ],
+  "added": [],
   "changed": [],
-  "comparison_ended_at": "2026-10-24T02:49:00.911271+00:00",
-  "comparison_started_at": "2026-10-23T02:51:53.318837+00:00",
+  "comparison_ended_at": "2026-10-25T02:40:17.903846+00:00",
+  "comparison_started_at": "2026-10-24T02:49:00.911271+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-9d162a2fe484264d",
-      "claim_ids": [
-        "claim-9d162a2fe484264d",
-        "claim-b0baa0787693b530",
-        "claim-e8182f9b5c5d3b73",
-        "claim-f8f53abb954dab24"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-09-30",
-      "evidence_title": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-",
-      "first_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-10-24T02:49:00.911271+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-110913f9799fdcf5",
-          "locator": "awarding_agency:department of defense",
-          "title": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_N0018926PL230_9700_-NONE-_-NONE-",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:N0018926PL230",
-        "label": "ON-SITE HEWLETT PACKARD ENTERPRISE (HPE) HIGH-PERFORMANCE COMPUTE (HPC) SYSTEM ADMINISTRATION SUPPORT SERVICES.",
-        "node_id": "award:usaspending:N0018926PL230",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "historical_discovery",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-09-30",
-        "explanation": "Scout first observed this on 2026-10-24; the source date is 2026-09-30.",
-        "first_observed_at": "2026-10-24T02:49:00.911271+00:00",
-        "historical": true,
-        "label": "Newly discovered historical evidence",
-        "last_changed_at": null,
-        "last_observed_at": "2026-10-24T02:49:00.911271+00:00",
-        "primary_date": "2026-09-30",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Defense"
-    },
     {
       "authority": "authoritative",
       "change_type": "resolved",
@@ -2706,12 +2452,11 @@
   "summary": {
     "actual_or_recent_changes": 0,
     "classifications": {
-      "historical_discovery": 4,
       "resolved": 27
     },
     "evidence_trace_changes": 0,
-    "historical_discoveries": 4,
-    "material_events": 31,
+    "historical_discoveries": 0,
+    "material_events": 27,
     "newly_observed_undated": 0,
     "upcoming": 12
   },
@@ -2719,7 +2464,7 @@
   "upcoming": [
     {
       "date": "2026-09-30",
-      "days_remaining": -24,
+      "days_remaining": -25,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2728,7 +2473,7 @@
     },
     {
       "date": "2026-10-15",
-      "days_remaining": -9,
+      "days_remaining": -10,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2737,7 +2482,7 @@
     },
     {
       "date": "2026-11-14",
-      "days_remaining": 21,
+      "days_remaining": 20,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2746,7 +2491,7 @@
     },
     {
       "date": "2026-11-24",
-      "days_remaining": 31,
+      "days_remaining": 30,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Genesis Mission",
@@ -2755,7 +2500,7 @@
     },
     {
       "date": "2026-12-17",
-      "days_remaining": 54,
+      "days_remaining": 53,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2764,7 +2509,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 56,
+      "days_remaining": 55,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2773,7 +2518,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 56,
+      "days_remaining": 55,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2782,7 +2527,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 56,
+      "days_remaining": 55,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2791,7 +2536,7 @@
     },
     {
       "date": "2026-12-31",
-      "days_remaining": 68,
+      "days_remaining": 67,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "Project Triad",
@@ -2800,7 +2545,7 @@
     },
     {
       "date": "2027-01-12",
-      "days_remaining": 80,
+      "days_remaining": 79,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2809,7 +2554,7 @@
     },
     {
       "date": "2027-03-19",
-      "days_remaining": 146,
+      "days_remaining": 145,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2818,7 +2563,7 @@
     },
     {
       "date": "2027-06-22",
-      "days_remaining": 241,
+      "days_remaining": 240,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -2826,6 +2571,6 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
     }
   ],
-  "updated_at": "2026-10-24T02:49:00.911271+00:00",
+  "updated_at": "2026-10-25T02:40:17.903846+00:00",
   "version": 1
 }
