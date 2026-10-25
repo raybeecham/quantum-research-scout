@@ -246,7 +246,8 @@
     const nextCheck = nextStep
       ? `<div class="news-detail-next"><h4>What to check next</h4><p>${esc(nextStep)}</p></div>`
       : "";
-    const analysis = limited
+    const hasAnalysis = impact && detail.analysis_label !== "No additional assessment" && !impact.startsWith("No additional impact assessment");
+    const analysis = !hasAnalysis ? "" : limited
       ? `<section class="news-detail-section news-detail-limited" aria-label="Assessment scope"><p><strong>Assessment scope.</strong> ${esc(impact)}</p>${nextCheck}${analysisEvidence(detail, true)}</section>`
       : `<section class="news-detail-section news-detail-analysis" aria-labelledby="news-detail-impact-title"><p class="news-detail-eyebrow">Frontier Signal context · ${esc(detail.analysis_label || "Rule-based context")}</p><h3 id="news-detail-impact-title">Why it may matter</h3><p>${esc(impact || "There is not enough collected context to assess the practical impact. Start with the original source.")}</p><p class="news-detail-note">This is an interpretation, not an additional statement from the source.</p>${nextCheck}${analysisEvidence(detail)}</section>`;
     const share = path

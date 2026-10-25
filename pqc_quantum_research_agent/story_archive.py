@@ -610,6 +610,7 @@ def _display_date(value):
 def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None) -> str:
     story = record["story"]
     detail = story.get("news_detail") or {}
+    has_analysis = bool(detail.get("why_it_matters")) and detail.get("analysis_label") != "No additional assessment" and not str(detail.get("why_it_matters", "")).startswith("No additional impact assessment")
     editorial = story.get("news_editorial") or {}
     assessment_heading = (
         "Assessment scope"
@@ -772,12 +773,16 @@ def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None)
         .replace(">", "\\u003e")
         .replace("&", "\\u0026")
     )
+    assessment = (
+        f'<section><p class="eyebrow">{_text(detail.get("analysis_label") or "RULE-BASED INTERPRETATION")}</p><h2>{assessment_heading}</h2><p>{_text(detail.get("why_it_matters"))}</p>{basis_html}{next_step_html}</section>'
+        if has_analysis else ""
+    )
     return f"""<article><p class="eyebrow">SOURCE BRIEFING · {_text(editorial.get("label") or "Captured coverage")}</p>
 <h1>{_text(story["title"])}</h1><p class="source-line">{_text(story.get("source"))} · {_text(editorial.get("source_perspective") or story.get("source_kind_label") or "Source type not verified")}</p>
 <div class="story-actions">{_external(story["url"], "Read original source")}<button type="button" data-copy-link>Copy briefing link</button><span role="status" data-copy-status></span></div>
 <dl class="story-dates">{facts}</dl>{evidence_note}
 <div{(' class="story-columns"' if aside else "")}><div><section><p class="eyebrow">COLLECTED SOURCE EXCERPTS</p><h2>What the source reports</h2>{quotes}</section>
-<section><p class="eyebrow">{_text(detail.get("analysis_label") or "RULE-BASED INTERPRETATION")}</p><h2>{assessment_heading}</h2><p>{_text(detail.get("why_it_matters"))}</p>{basis_html}{next_step_html}</section></div>
+{assessment}</div>
 {aside}</div>
 {related_html}<div data-story-tools></div><div data-story-reader></div><div data-story-inbox></div>
 <script type="application/json" id="story-reader-data">{reader_data}</script>
@@ -792,7 +797,7 @@ def write_story_archive(archive: dict, output: Path, *, repo_url: str, asset_ver
         path = Path(output) / record["story_url"]
         path.parent.mkdir(parents=True, exist_ok=True)
         story = record["story"]
-        description = (story.get("news_detail") or {}).get("why_it_matters") or story["title"]
+        description = story.get("summary") or story["title"]
         path.write_text(
             _shell(
                 story["title"],

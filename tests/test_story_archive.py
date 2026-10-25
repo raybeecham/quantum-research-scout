@@ -438,8 +438,19 @@ def test_all_future_retained_metadata_fails_closed_without_losing_history(tmp_pa
 def rendered_detail(tmp_path, detail):
     report(tmp_path, "2026-08-02")
     record = prepare_story_archive(tmp_path, {})["records"][0]
-    record["story"]["news_detail"] = detail
+    record["story"]["news_detail"] = {"why_it_matters": "The announced access changes who can evaluate Atlas.", **detail}
     return _story_body(record, "https://github.com/example/scout")
+
+
+def test_empty_analysis_is_omitted(tmp_path):
+    page = rendered_detail(tmp_path, {
+        "analysis_label": "No additional assessment",
+        "why_it_matters": "No additional impact assessment was generated for this story.",
+        "analysis_evidence": [{"quote": "Some collected excerpt", "url": "https://example.org"}],
+    })
+    assert "No additional impact assessment" not in page
+    assert "Evidence behind this interpretation" not in page
+    assert "What the source reports" in page
 
 
 def test_archive_keeps_only_specific_gaps_visible_and_collapses_notes(tmp_path):
