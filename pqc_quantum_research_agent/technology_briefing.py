@@ -11,11 +11,11 @@ from urllib.parse import urlsplit
 TOPICS = {
     "security": (
         "Cybersecurity / PQC",
-        r"\b(?:pqc|post.quantum|crypt\w*|cyber\w*|security|tls|ipsec|ml.kem|ml.dsa|slh.dsa|key.recovery|authentication)\b",
+        r"\b(?:pqc|post.quantum|quantum.safe|quantum.resistant|crypt\w*|cyber\w*|security|tls|ipsec|ml.kem|ml.dsa|slh.dsa|key.recovery|authentication)\b",
     ),
     "quantum": (
         "Quantum computing",
-        r"\b(?:quantum|qubits?|qec|fault.toleran\w*|toffoli|entangl\w*|error.correction|cuda.q)\b",
+        r"\b(?:(?<!post-)(?<!post )quantum(?![ -](?:safe|resistant|proof))|qubits?|qec|fault.toleran\w*|toffoli|entangl\w*|error.correction|cuda.q)\b",
     ),
     "ai": (
         "AI",

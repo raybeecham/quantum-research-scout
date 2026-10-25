@@ -14,7 +14,8 @@ from urllib.parse import urlsplit
 
 from .citations import metadata_url
 from .redaction import redact_text, redact_url
-from .technology_briefing import decision_brief
+from .technology_briefing import TOPICS, decision_brief
+from .text import clean_source_excerpt
 
 _ENTRY = re.compile(r"^### ([^\n]+)\n_([^\n]+)_\n(.*?)(?=^### |^## |\Z)", re.M | re.S)
 _WORDS = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
@@ -40,13 +41,13 @@ _STOP = {
     "computing",
 }
 _LENSES = {
-    "security": r"pqc|post.quantum|crypt|cyber|security|migration|ipsec|tls|ml-kem|ml-dsa",
-    "quantum": r"quantum|qubit|qec|fault.tolera|cuda-q|entangl",
+    "security": r"pqc|post.quantum|quantum.safe|quantum.resistant|crypt|cyber|security|migration|ipsec|tls|ml-kem|ml-dsa",
+    "quantum": TOPICS["quantum"][1],
     "ai": r"\bai\b|artificial intelligence|machine learning|llm|cloud|\bmodel[s]?\b",
     "government": r"policy|standard|nist|white house|federal|defense|government|mission",
 }
 _TECHNICAL = re.compile(
-    r"\b(?:pqc|post.quantum|crypt\w*|cyber\w*|qubits?|qec|quantum|fault.toleran\w*|"
+    r"\b(?:pqc|post.quantum|quantum.safe|quantum.resistant|crypt\w*|cyber\w*|qubits?|qec|quantum|fault.toleran\w*|"
     r"ml.kem|ml.dsa|slh.dsa|toffoli|lattice.based|zero.knowledge|side.channel|"
     r"tls|ipsec|entangl\w*|error.correction)\b",
     re.I,
@@ -245,7 +246,7 @@ def _related(left: dict, right: dict) -> bool:
 def _excerpt(title: str, points: list[str]) -> str:
     """Prefer the source excerpt closest to the headline over generic background."""
     if not points:
-        return "Open the source to read the full finding."
+        return ""
     words = set(_WORDS.findall(title.lower())) - _STOP
     return max(points, key=lambda point: len(words & set(_WORDS.findall(point.lower()))))
 
@@ -303,7 +304,10 @@ def build_reading_brief(
             published_day = _day(date_match.group(1)) if date_match else None
             published = published_day.isoformat() if published_day else None
             points = [
-                redact_text(line[2:].strip()) for line in body.splitlines() if line.startswith("- ")
+                clean
+                for line in body.splitlines()
+                if line.startswith("- ")
+                if (clean := clean_source_excerpt(redact_text(line[2:].strip())))
             ][:3]
             context = re.search(r"\*\*Why it matters:\*\*\s*(.+)", body)
             score_match = re.search(

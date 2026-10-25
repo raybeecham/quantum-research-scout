@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-25 02:48 UTC_
+_Updated 2026-10-25 07:48 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -18,16 +18,16 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | ETSI Quantum Standards News | watch | 73% | 25 | 0 | 2026-10-25 | 2026-06-22 | stale | 🔴 failing |
 | Rigetti News | rss | 84% | 16 | 0 | 2026-10-25 | 2026-09-08 | stale | 🔴 failing |
 | Department of War Strategic Technology News | watch | 86% | 13 | 0 | 2026-10-25 | 2026-10-09 | stale | 🔴 failing |
-| Quantum Computing Report | rss | 70% | 9 | 0 | 2026-10-25 | 2026-10-25 | fresh | 🔴 failing |
-| arXiv PQC and Quantum-Safe Cryptography | arxiv | 64% | 9 | 0 | 2026-10-25 | 2026-10-21 | fresh | 🔴 failing |
-| arXiv Quantum Computing | arxiv | 64% | 9 | 0 | 2026-10-25 | 2026-10-22 | fresh | 🔴 failing |
-| arXiv Quantum Networking and Sensing | arxiv | 66% | 9 | 0 | 2026-10-25 | 2026-10-22 | fresh | 🔴 failing |
-| Quantum Computing Patents | patent | 92% | 3 | 0 | 2026-10-25 | 2026-10-22 | fresh | 🟠 degraded |
-| Quantum Journal | rss | 92% | 2 | 0 | 2026-10-25 | 2026-10-23 | fresh | 🟠 degraded |
-| arXiv RSS cs.CR | arxiv_rss | 94% | 2 | 0 | 2026-10-25 | 2026-10-23 | fresh | 🟠 degraded |
-| arXiv RSS quant-ph | arxiv_rss | 94% | 2 | 0 | 2026-10-25 | 2026-10-23 | fresh | 🟠 degraded |
-| Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-25 | 2026-10-23 | fresh | 🟠 degraded |
-| SAM.gov Opportunities | procurement | 98% | 0 | 21 | 2026-10-25 | 2026-10-24 | fresh | 🟠 partial |
+| Quantum Computing Report | rss | 70% | 9 | 0 | 2026-10-25 | 2026-10-25 | fresh | 🟢 healthy |
+| arXiv PQC and Quantum-Safe Cryptography | arxiv | 64% | 9 | 0 | 2026-10-25 | 2026-10-21 | fresh | 🟢 healthy |
+| arXiv Quantum Computing | arxiv | 64% | 9 | 0 | 2026-10-25 | 2026-10-22 | fresh | 🟢 healthy |
+| arXiv Quantum Networking and Sensing | arxiv | 66% | 9 | 0 | 2026-10-25 | 2026-10-22 | fresh | 🟢 healthy |
+| Quantum Computing Patents | patent | 92% | 3 | 0 | 2026-10-25 | 2026-10-22 | fresh | 🟢 healthy |
+| Quantum Journal | rss | 92% | 2 | 0 | 2026-10-25 | 2026-10-23 | fresh | 🟢 healthy |
+| arXiv RSS cs.CR | arxiv_rss | 94% | 2 | 0 | 2026-10-25 | 2026-10-23 | fresh | 🟢 healthy |
+| arXiv RSS quant-ph | arxiv_rss | 94% | 2 | 0 | 2026-10-25 | 2026-10-23 | fresh | 🟢 healthy |
+| Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-25 | 2026-10-23 | fresh | 🟢 healthy |
+| SAM.gov Opportunities | procurement | 98% | 0 | 21 | 2026-10-25 | 2026-10-24 | fresh | 🟢 healthy |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-10-25 | 2026-10-21 | fresh | 🟢 healthy |
 | AWS Security Blog | rss | 100% | 0 | 0 | 2026-10-25 | 2026-10-22 | fresh | 🟢 healthy |
 | Accenture Federal Services Quantum Readiness | watch | 100% | 0 | 0 | 2026-10-25 | 2026-08-04 | reference | 🟢 healthy |
@@ -121,10 +121,9 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **89** of **103**
-- Partial-coverage sources: **1**
+- Healthy sources: **99** of **103**
+- Partial-coverage sources: **0**
 - Critical sources failing: **0**
-- Partial coverage: SAM.gov Opportunities
 
 ## Disabled Sources
 

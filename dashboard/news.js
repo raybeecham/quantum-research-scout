@@ -276,7 +276,7 @@
     const brief = state.data?.reading_brief || {};
     const edition = day(brief.edition_date);
     $("news-edition").textContent = edition
-      ? `Report edition · ${dateLabel(edition)}`
+      ? `Report window ends ${dateLabel(brief.coverage?.window_end || edition)} · collected ${dateLabel(brief.collected_at)}`
       : "Report edition unavailable";
     const collected = Date.parse(text(brief.collected_at));
     const age = Date.now() - collected;

@@ -333,3 +333,12 @@
     display: none;
   }
 }
+
+@media (max-width: 480px) {
+  #news .news-heading {
+    gap: 4px;
+  }
+  #news .news-digest-link {
+    min-height: 44px;
+  }
+}

@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 
 from .dates import parse_datetime
-from .text import strip_html
+from .text import clean_source_excerpt, strip_html
 
 LOGGER = logging.getLogger(__name__)
 
@@ -42,7 +42,9 @@ def _parse_rss(root: ET.Element) -> list[ParsedFeedEntry]:
         url = _text(item, "link") or _text(item, "guid")
         if not title or not url:
             continue
-        summary = _text(item, "description") or _text(item, "encoded")
+        summary = clean_source_excerpt(_text(item, "description")) or clean_source_excerpt(
+            _text(item, "encoded")
+        )
         authors = _text(item, "creator") or _text(item, "author")
         date_text = (
             _text(item, "pubDate")
@@ -54,7 +56,7 @@ def _parse_rss(root: ET.Element) -> list[ParsedFeedEntry]:
             ParsedFeedEntry(
                 title=strip_html(title),
                 url=url.strip(),
-                summary=strip_html(summary),
+                summary=clean_source_excerpt(summary),
                 authors=strip_html(authors),
                 published_at=parse_datetime(date_text),
                 raw={"published": date_text or ""},
@@ -81,7 +83,7 @@ def _parse_atom(root: ET.Element) -> list[ParsedFeedEntry]:
             ParsedFeedEntry(
                 title=strip_html(title),
                 url=url.strip(),
-                summary=strip_html(summary),
+                summary=clean_source_excerpt(summary),
                 authors=authors,
                 published_at=parse_datetime(date_text),
                 raw={"published": date_text or ""},

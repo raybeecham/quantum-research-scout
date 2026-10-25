@@ -20,7 +20,7 @@ from .dates import (
 from .emerging_tech import emerging_tech_signal
 from .models import DateFilterSummary, ResearchItem, SourceWarning
 from .redaction import redact_text, redact_url
-from .text import normalize_title, normalize_whitespace, strip_html
+from .text import clean_source_excerpt, normalize_title, normalize_whitespace, strip_html
 from .visuals import priority_icon
 
 FULL_ENTRY_SECTIONS = (
@@ -832,7 +832,7 @@ def _clean_summary(value: str, max_chars: int = SUMMARY_MAX_CHARS) -> str:
 
 
 def _clean_summary_text(value: str) -> str:
-    text = strip_html(value)
+    text = clean_source_excerpt(value)
     text = re.sub(r"(?i)^\s*arxiv\s*:\s*\d{4}\.\d{4,5}(?:v\d+)?\s*", "", text)
     text = re.sub(r"(?i)\bAnnounce Type:\s*new\b[:\s-]*", "", text)
     text = re.sub(r"(?i)^\s*\[[^\]]+\]\s*", "", text)
@@ -975,6 +975,8 @@ def truncate_at_word_boundary(value: str, max_chars: int = KEY_POINT_MAX_CHARS) 
         boundary = max(candidate.rfind(" "), candidate.rfind("-"))
         if boundary > 0:
             candidate = candidate[:boundary].rstrip(" ,;:-")
+        else:
+            candidate = ""
     if not candidate:
         return "..."
     return f"{candidate}..."

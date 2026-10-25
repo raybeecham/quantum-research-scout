@@ -62,7 +62,23 @@ def canonicalize_url(url: str) -> str:
 
 
 def compact_summary(value: str, max_chars: int = 280) -> str:
-    value = strip_html(value)
+    value = clean_source_excerpt(value)
     if len(value) <= max_chars:
         return value
-    return value[: max_chars - 1].rstrip() + "..."
+    prefix = value[: max(0, max_chars - 1)]
+    return (prefix.rsplit(" ", 1)[0] if " " in prefix else "") + "…"
+
+
+def clean_source_excerpt(value: str) -> str:
+    """Remove syndicated footer text before any shortening or sentence ranking."""
+    value = strip_html(value)
+    value = re.sub(
+        r"\bThe post\s+.+?\s+appeared first on\s+.+?(?:\.(?=\s|$)|$)",
+        " ",
+        value,
+        flags=re.I,
+    )
+    # Old reports can contain only a shortened footer; it is not source evidence.
+    if re.match(r"^The post\b", value.strip(), re.I):
+        return ""
+    return normalize_whitespace(value)

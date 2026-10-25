@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Project Eleven / Relm",
+    "raw": "<p>The post Project Eleven and Relm launch quantum-safe insurance appeared first on Quantum Insider.</p><p>The policy covers cryptographic migration risks for enterprise customers.</p>",
+    "expected": "The policy covers cryptographic migration risks for enterprise customers."
+  },
+  {
+    "name": "SEEQC / NVIDIA",
+    "raw": "<p>SEEQC connects its quantum processor controls with NVIDIA systems.</p><p>The post SEEQC and NVIDIA appeared first on Quantum Insider.</p>",
+    "expected": "SEEQC connects its quantum processor controls with NVIDIA systems."
+  },
+  {
+    "name": "footer only",
+    "raw": "The post Project Eleven and Relm appeared first on Quantum Insider.",
+    "expected": ""
+  },
+  {
+    "name": "legacy truncated footer",
+    "raw": "The post Project Eleven and Relm launch quantum-safe insur\u2026",
+    "expected": ""
+  }
+]

@@ -130,7 +130,9 @@
   function matches(s, topic) {
     // PQC alone is not evidence of work on quantum computing itself.
     const text =
-      topic.id === "quantum" ? textOf(s).replace(/\bpost[- ]quantum\b/gi, "") : textOf(s);
+      topic.id === "quantum"
+        ? textOf(s).replace(/\b(?:post[- ]quantum|quantum[- ](?:safe|resistant))\b/gi, "")
+        : textOf(s);
     return text.match(topic.pattern)?.[0] || "";
   }
   function unique(records) {
@@ -244,7 +246,7 @@
     const v = overview(stories);
     host.hidden = false;
     host.innerHTML = `<div class="explore-heading"><div><span class="desk-kicker">COVERAGE AT A GLANCE</span><h2>Your current view</h2></div><a href="#research" class="desk-button">Explore the map &amp; hands-on labs →</a></div>
-      <p class="explore-note">${v.total} distinct source links · topic counts overlap. This follows your reading filters, not market size or technical maturity.</p>
+      <p class="explore-note">${v.total} distinct source links · topic counts overlap. This follows your reading filters, not market size or technical maturity. Tech landscape uses the broader reading-window evidence; News counts selected news source accounts after date and relevance exclusions, so totals can differ.</p>
       <div class="coverage-strips">${v.counts.map(t => `<a class="coverage-strip topic-${t.id}" href="#research" data-explore-topic="${t.id}" aria-label="Explore ${esc(t.name)}; ${t.count} matching source links"><span>${esc(t.name)}</span><strong>${t.count}</strong><span class="coverage-track" aria-hidden="true"><i style="width:${v.total ? Math.round((t.count / v.total) * 100) : 0}%"></i></span></a>`).join("")}</div>
       <details class="briefing-timeline" ${expanded ? "open" : ""}><summary>Report timeline · when these sources appeared in coverage</summary><p class="explore-note">Report dates, not event or publication dates. Missing days do not imply no activity. Edition: ${esc(brief.edition_date || "unavailable")}.${v.undated ? ` ${v.undated} links have no valid report date.` : ""}</p><ol>${v.days.map(d => `<li><time>${esc(d.day)}</time><strong>${d.count} source link${d.count === 1 ? "" : "s"}</strong><span>Example: ${external(d.story.url, d.story.title)}</span></li>`).join("") || "<li>No dated sources in this view.</li>"}</ol></details>`;
     host
@@ -312,7 +314,7 @@
       <div class="map-topics" role="group" aria-label="Map technology">${topics.map(t => `<button type="button" class="desk-button topic-${t.id}" data-map-topic="${t.id}" aria-pressed="false">${esc(t.name)}</button>`).join("")}</div><p><button id="map-try-topic" class="desk-button" type="button">Try this topic · hands-on discovery ↓</button></p>
       <div class="map-hub"><span class="desk-kicker">TOPIC ASSOCIATIONS · NOT PARTNERSHIPS</span><h3 id="map-topic-name"></h3><p id="map-connection-count" role="status"></p></div>
       <div id="map-branches" class="map-branches"></div>
-      <p class="explore-note">Organizations use stored name/alias + topic co-mentions; programs use curated descriptions; readings use title/excerpt matches. These are navigational leads, not independently verified relationships. Readings: ${esc(coverage.window_start || "unknown")}–${esc(coverage.window_end || "unknown")}. Organization and mission snapshots may contain older evidence. A post-quantum cryptography mention alone does not count as quantum-computing coverage.</p>
+      <p class="explore-note">Organizations use stored name/alias + topic co-mentions; programs use curated descriptions; readings use title/excerpt matches. These are navigational leads, not independently verified relationships. Readings: ${esc(coverage.window_start || "unknown")}–${esc(coverage.window_end || "unknown")}. Organization and mission snapshots may contain older evidence. PQC and quantum-safe mentions alone do not count as quantum-computing coverage. This map uses broader reading-window evidence; News uses selected news source accounts after date and relevance exclusions, so counts can differ.</p>
       <details class="hands-on-panel"><summary>Hands-on discovery · turn an interest into a small experiment</summary><p>Official projects, tutorials, a demo, and a dataset to explore. “Try this” is Frontier Signal’s suggested exercise, not a claim from the news. Nothing runs or sends data when you browse.</p><div class="discovery-controls"><label>Technology<select id="discovery-filter"><option value="all">All technologies</option>${topics.map(t => `<option value="${t.id}">${esc(t.name)}</option>`).join("")}</select></label><span id="discovery-count" role="status"></span></div><div id="discovery-resources" class="discovery-resources"></div></details>`;
     host
       .querySelectorAll("[data-map-topic]")

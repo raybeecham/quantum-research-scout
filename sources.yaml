@@ -458,8 +458,8 @@ watch_sources:
   - name: "White House Science and Technology Missions"
     entities: [White House, OSTP]
     url: "https://www.whitehouse.gov/presidential-actions/?s=science"
-    include_patterns: [mission, quantum, science, technology, artificial-intelligence, cybersecurity]
-    match_patterns: [mission, national effort, national initiative, quantum, artificial intelligence, cybersecurity]
+    include_patterns: [mission, quantum, science, technology, artificial-intelligence, super-intelligence, cybersecurity]
+    match_patterns: [mission, national effort, national initiative, quantum, artificial intelligence, super intelligence, cybersecurity]
     max_items: 25
   - name: "DARPA Strategic Technology Missions"
     entities: [DARPA, Department of War]
@@ -602,7 +602,7 @@ watch_sources:
     entities: [ETSI]
     url: "https://www.etsi.org/newsroom/"
     include_patterns: [post-quantum, quantum-safe, quantum, q-day]
-    match_patterns: [post-quantum, post quantum, quantum-safe, quantum safe, quantum technolog, quantum cryptograph, quantum key]
+    match_patterns: [post-quantum, post quantum, quantum-safe, quantum safe, quantum technolog, quantum cryptograph, quantum key, quantum random]
     max_items: 25
   - name: "PsiQuantum News"
     entities: [PsiQuantum]

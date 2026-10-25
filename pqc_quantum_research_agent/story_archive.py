@@ -18,6 +18,7 @@ from pathlib import Path
 from .briefing import _ENTRY, _authority, _day, _lenses, _publication_context, _source_url
 from .news_intelligence import _canonical, build_news_intelligence, enrich_news_story
 from .redaction import redact_text
+from .text import clean_source_excerpt
 
 ARCHIVE_METHOD = (
     "Source-specific briefings reconstructed from dated daily digests, not full article copies. "
@@ -59,7 +60,11 @@ def _normalize_snapshot(item: dict) -> dict:
         raise ValueError("Story evidence contains an invalid URL, report date, or title.")
     title = redact_text(item["title"])[:600]
     source = redact_text(item.get("source") or "Source")[:200]
-    points = [point[:3000] for point in _strings(item.get("key_points"))[:3]]
+    points = [
+        clean[:3000]
+        for point in _strings(item.get("key_points"))
+        if (clean := clean_source_excerpt(point))
+    ][:3]
     published = _day(item.get("date")) if item.get("date_label") == "Published" else None
     report_day = day.isoformat()
     authority = _authority(url, source)
@@ -265,7 +270,10 @@ def _snapshots(reports: Path) -> dict[str, list[dict]]:
             published_match = re.search(r"\bPublished (\d{4}-\d{2}-\d{2})(?=\s|$)", meta)
             published = _day(published_match[1]) if published_match else None
             points = [
-                redact_text(line[2:].strip()) for line in body.splitlines() if line.startswith("- ")
+                clean
+                for line in body.splitlines()
+                if line.startswith("- ")
+                if (clean := clean_source_excerpt(redact_text(line[2:].strip())))
             ][:3]
             title, source = redact_text(title), redact_text(source)
             authority = _authority(url, source)

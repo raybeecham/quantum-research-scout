@@ -1002,7 +1002,7 @@
     $("desk-overview").hidden = false;
     const brief = data.reading_brief || {};
     $("edition-date").textContent = brief.edition_date
-      ? `${day(brief.edition_date)} edition`
+      ? `Report window ends ${day(brief.coverage?.window_end || brief.edition_date)} · collected ${day(brief.collected_at)}`
       : "No published edition";
     const elapsed = Date.now() - new Date(brief.collected_at || "").getTime();
     const stale = !Number.isFinite(elapsed) || elapsed > 36 * 3600000 || elapsed < -5 * 60000;
@@ -1130,9 +1130,9 @@
           return `<section class="search-result-group"><h3>${esc(kind)} <span>${items.length}</span></h3>${visible.map(result).join("")}</section>`;
         })
         .join("") ||
-      '<p class="desk-empty">No matching evidence in this type. Try Everything or a broader query.</p>';
+      `<p class="desk-empty">${ui.searchKind === "all" ? "No matching evidence. Try a broader query." : "No matching evidence in this type. Try Everything or a broader query."}</p>`;
     $("search-count").textContent =
-      `${matches.length} results · ${shown} shown · title matches first`;
+      `${matches.length} ${matches.length === 1 ? "result" : "results"} · ${shown} shown · title matches first`;
     $("search-more").hidden = shown >= matches.length;
   }
 

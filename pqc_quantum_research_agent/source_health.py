@@ -244,8 +244,6 @@ def write_source_health_report(
                 else "partial"
                 if observation.get("last_outcome") == "partial"
                 else "healthy"
-                if failure_days == 0 and advisory_days == 0
-                else status
             )
         policy = policies.get(name, {})
         cadence = int(policy.get("stale_after_days", stale_after_days))
@@ -275,6 +273,11 @@ def write_source_health_report(
                 "name": name,
                 "type": source_type,
                 "success_rate": round(success_rate, 1),
+                "historical_reliability": "reliable"
+                if success_rate == 100
+                else "flaky"
+                if success_rate >= 80
+                else "degraded",
                 "warning_days": failure_days,
                 "advisory_days": advisory_days,
                 "expected_idle_days": idle_days,
