@@ -22,13 +22,13 @@
   function headlineMarkup(item) {
     const review = item.headline_review;
     if (review?.version !== 1 || !safeUrl(review.url)) return "";
-    return `<details class="headline-review"><summary><span>Beyond the headline</span><small>${esc(review.label)}</small></summary><div class="headline-review-body"><p class="review-method">${esc(review.source_basis)} · Independent corroboration not assessed.</p><div class="headline-review-grid"><section><h4>What is actually attached</h4><p class="desk-kicker">${esc(review.reported_role)}</p><blockquote>${esc(review.reported)}</blockquote>${sourceLink(review.url, review.source || "Read the original source")}<p>This is an attributed source claim, not an independently established finding.</p></section><section><h4>What still needs checking</h4><ul>${rows(
+    return `<details class="headline-review"><summary><span>Beyond the headline</span>${review.label?.startsWith("Headline only") ? "<small>Headline only</small>" : ""}</summary><div class="headline-review-body"><p class="review-method">${esc(review.source_basis)}</p><div class="headline-review-grid"><section><h4>What is actually attached</h4><p class="desk-kicker">${esc(review.reported_role)}</p><blockquote>${esc(review.reported)}</blockquote>${sourceLink(review.url, review.source || "Read the original source")}</section><section><h4>What still needs checking</h4><ul>${rows(
       review.checks,
     )
       .map(c => `<li><strong>${esc(c.label)}</strong><br>${esc(c.question)}</li>`)
       .join(
         "",
-      )}</ul></section></div><p class="review-boundary"><strong>Keep the distinction:</strong> ${esc(review.boundary)}</p><p><strong>A useful next step:</strong> ${esc(review.next_step)}</p><p class="review-method">${esc(review.method)}</p></div></details>`;
+      )}</ul></section></div><p class="review-boundary"><strong>Keep the distinction:</strong> ${esc(review.boundary)}</p><p><strong>A useful next step:</strong> ${esc(review.next_step)}</p></div></details>`;
   }
 
   const storageKey = "quantum-scout:followups:v1";

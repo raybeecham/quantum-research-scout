@@ -959,7 +959,7 @@ function renderMissions(payload, fundingPayload) {
       <p>${escapeHtml(item.objective)}</p>
       <dl class="mission-facts">
         <div><dt>Lead</dt><dd>${escapeHtml((item.lead_agencies || []).join(", ") || "Not listed")}</dd></div>
-        <div><dt>${pastMilestone ? "Recorded milestone · date passed" : "Next recorded milestone"}</dt><dd>${next ? `${escapeHtml(formatShortDate(next.target_date))} · ${escapeHtml(next.title)}${pastMilestone ? '<small class="milestone-caveat">Completion not verified here; check the official source.</small>' : ""}` : "No dated milestone published"}</dd></div>
+        <div><dt>${pastMilestone ? "Recorded milestone · date passed" : "Next recorded milestone"}</dt><dd>${next ? `${escapeHtml(formatShortDate(next.target_date))} · ${escapeHtml(next.title)}` : "No dated milestone published"}</dd></div>
         ${fundingFact}
       </dl>
       <div class="profile-themes">${(item.domains || [])

@@ -65,7 +65,7 @@
       const passage = passages.get(key);
       if (text(item.label) && !passage.labels.includes(text(item.label)))
         passage.labels.push(text(item.label));
-      if (text(item.basis) && !passage.reasons.includes(text(item.basis)))
+      if (text(item.basis) && !text(item.basis).startsWith("This source statement supports the distinction") && !passage.reasons.includes(text(item.basis)))
         passage.reasons.push(text(item.basis));
     });
     const rows = [...passages.values()].map(

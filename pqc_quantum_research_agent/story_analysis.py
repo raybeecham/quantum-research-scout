@@ -586,7 +586,7 @@ def analyze_story(item, editorial, segments):
             "url": item["url"],
             "source": redact_text(item.get("source") or "Source"),
             "origin": "headline" if index == 0 else "excerpt",
-            "basis": "This source statement supports the distinction and follow-up question, not independent verification.",
+            "basis": "",
         }
         if not evidence:
             entry["interpretation"] = result["impact"]

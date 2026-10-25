@@ -547,7 +547,7 @@
       <p><strong>Evidence limits:</strong> ${esc(d?.uncertainty || item.source_kind_note || "Publication type and technical claims are unverified.")}</p>
       ${compact ? `<p><strong>What it could affect:</strong> ${esc(d?.impact || "Practical relevance not assessed.")}</p><p><strong>Source excerpt:</strong> ${hasExcerpt ? esc(item.summary) : "Unavailable; open the original source."}</p>` : ""}
       ${ui.collectionStale ? "<p>Collection freshness needs verification. Confirm current source status before using any suggested follow-up.</p>" : ""}
-      <p>${esc(d?.method || "No full-document analysis or independent verification has been performed.")} Suggested review timing is not a deadline or a prediction of technology maturity.</p>
+      
       ${related.length ? `<p>Related coverage, not independent confirmation:</p><ul>${related.map(r => `<li><a href="${esc(link(r.url))}" target="_blank" rel="noopener noreferrer">${esc(r.title)} ↗</a></li>`).join("")}</ul>` : ""}
       ${lead ? `<button type="button" class="desk-button" data-briefing-question="${esc(item.id)}">Investigate in Question Lab →</button><p class="patent-small">Loads the title only. No AI call or automatic source attachment.</p>` : ""}</div></details>
       <div class="decision-card-actions"><a href="${esc(link(item.url))}" target="_blank" rel="noopener noreferrer">Verify at source ↗</a><div>${readButton(item)}${saveButton(item)}</div></div>

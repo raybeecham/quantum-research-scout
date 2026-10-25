@@ -681,7 +681,7 @@ def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None)
         )
         if label not in group["labels"]:
             group["labels"].append(label)
-        if explanation and explanation not in group["bases"]:
+        if explanation and explanation not in group["bases"] and not explanation.startswith("This source statement supports the distinction"):
             group["bases"].append(explanation)
         if source not in group["sources"]:
             group["sources"].append(source)
