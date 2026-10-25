@@ -173,7 +173,7 @@
     }
     if (!rows.length) {
       root.innerHTML =
-        '<div class="investigation-empty investigation-welcome"><span class="desk-kicker">FROM READING TO A RESEARCH DIRECTION</span><h2>Start with one question worth following.</h2><p>This workspace connects your working question, evidence, prior-work comparisons, and next experiment. Nothing is prefilled as a finding.</p><ol><li>Explore a topic in Question Lab.</li><li>Review and attach the useful sources.</li><li>Come back here to compare the evidence and track what still needs checking.</li></ol><a class="desk-button" href="#questions">Explore a research question →</a><p class="investigation-note">Saved locally in this browser. Lab backups include investigation notes.</p></div>';
+        '<div class="investigation-empty investigation-welcome"><span class="desk-kicker">FROM READING TO A RESEARCH DIRECTION</span><h2>Start with one question worth following.</h2><p>This workspace connects your working question, evidence, prior-work comparisons, and next experiment. Nothing is prefilled as a finding.</p><p><a href="#start">New here? See Getting started.</a> Manual investigation notes work without sign-in; hosted AI and paper search are invite-only.</p><a class="desk-button" href="#questions">Explore a research question →</a><p class="investigation-note">Saved locally in this browser. Lab backups include investigation notes.</p></div>';
       return;
     }
     if (!rows.some(row => row.id === selected)) selected = rows[0].id;

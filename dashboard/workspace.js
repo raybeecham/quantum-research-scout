@@ -51,7 +51,7 @@
   $("start-topic-form").addEventListener("submit", event => {
     event.preventDefault();
     const value = $("start-interest").value.trim();
-    if (value) window.dispatchEvent(new CustomEvent("scout-research-interest", { detail: value }));
+    if (value) window.ScoutNews.browse(value);
   });
   function refresh() {
     const questions = window.ScoutQuestions?.list() || [];

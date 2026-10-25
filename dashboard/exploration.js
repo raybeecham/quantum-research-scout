@@ -241,24 +241,21 @@
     selected = id;
     renderMap();
   }
-  function renderBriefing(stories, brief) {
+  function renderBriefing(stories) {
     const host = document.getElementById("briefing-visual");
     if (!host) return;
-    const expanded = host.querySelector("details")?.open || false;
-    const v = overview(stories);
+    const labels = window.ScoutNews.topicLabels;
     host.hidden = false;
-    host.innerHTML = `<div class="explore-heading"><div><span class="desk-kicker">COVERAGE AT A GLANCE</span><h2>Your current view</h2></div><a href="#research" class="desk-button">Explore the map &amp; hands-on labs →</a></div>
-      <p class="explore-note">${v.total} distinct source links · topic counts overlap. This follows your reading filters, not market size or technical maturity. Tech landscape uses the broader reading-window evidence; News counts selected news source accounts after date and relevance exclusions, so totals can differ.</p>
-      <div class="coverage-strips">${v.counts.map(t => `<a class="coverage-strip topic-${t.id}" href="#research" data-explore-topic="${t.id}" aria-label="${esc(t.name)} ${t.count} matching source ${t.count === 1 ? "link" : "links"}"><span>${esc(t.name)}</span> <strong>${t.count}</strong><span class="coverage-track" aria-hidden="true"><i style="width:${v.total ? Math.round((t.count / v.total) * 100) : 0}%"></i></span></a>`).join("")}</div>
-      <details class="briefing-timeline" ${expanded ? "open" : ""}><summary>Report timeline · when these sources appeared in coverage</summary><p class="explore-note">Report dates, not event or publication dates. Missing days do not imply no activity. Edition: ${esc(brief.edition_date || "unavailable")}.${v.undated ? ` ${v.undated} links have no valid report date.` : ""}</p><ol>${v.days.map(d => `<li><time>${esc(d.day)}</time><strong>${d.count} source link${d.count === 1 ? "" : "s"}</strong><span>Example: ${external(d.story.url, d.story.title)}</span></li>`).join("") || "<li>No dated sources in this view.</li>"}</ol></details>`;
-    host
-      .querySelectorAll("[data-explore-topic]")
-      .forEach(a => a.addEventListener("click", () => choose(a.dataset.exploreTopic)));
+    host.innerHTML = `<div class="explore-heading"><div><span class="desk-kicker">THE SAME COLLECTION, A DIFFERENT VIEW</span><h2>Coverage at a glance</h2></div><a href="#news">Browse all ${stories.length} stories →</a></div><p class="explore-note">Counts match Latest. Topics overlap; they describe collected coverage, not market size or technical maturity.</p><div class="coverage-strips">${Object.entries(labels).filter(([id]) => id !== "all").map(([id, name]) => ({id, name, count: stories.filter(s => window.ScoutNews.topics(s).includes(id)).length})).filter(t => t.count >= 3).map(t => `<a class="coverage-strip topic-${t.id}" href="#news" data-news-browse="${t.id}"><span>${esc(t.name)}</span><strong>${t.count}</strong></a>`).join("")}</div>`;
+    host.querySelectorAll("[data-news-browse]").forEach(a => a.addEventListener("click", e => {
+      e.preventDefault(); window.ScoutNews.browse("", a.dataset.newsBrowse);
+    }));
   }
   function evidenceCard(r, type) {
     return `<article class="connection-card"><h4>${external(r.url, r.title)}</h4><p class="connection-date">${type === "missions" ? "Curated program context · not a new announcement" : date(r.date) ? `${esc(r.dateLabel || "Evidence date")} · ${esc(window.ScoutDisplay.date(r.date))}` : "Source date unavailable"}${r.reportDate ? ` · Report ${esc(window.ScoutDisplay.date(r.reportDate))}` : ""}</p><p>${esc(r.reason)}</p><details><summary>Inspect supporting evidence${r.count > 1 ? ` · ${r.count} matching links in snapshot` : ""}</summary><p>${esc(r.evidence)}</p><p>${external(r.url, "Open supporting source")}</p></details></article>`;
   }
   function column(label, rows, type) {
+    if (type === "readings") return `<section class="connection-column"><h3>Linked stories <span>${rows.length}</span></h3><p class="explore-note">Supporting links from the Latest collection, not another news feed.</p><ul>${rows.slice(0, 3).map(r => `<li>${external(r.url, r.title)}<p class="explore-note">${esc(r.reason)}</p></li>`).join("")}</ul><a href="#news" data-map-browse="${selected}">Browse this topic in Latest →</a></section>`;
     return `<section class="connection-column"><h3>${esc(label)} <span>${rows.length}</span></h3>${
       rows
         .slice(0, 2)
@@ -304,6 +301,9 @@
       column("Organizations", graph.organizations, "organizations") +
       column("Government programs", graph.missions, "missions") +
       column("Research & reporting", graph.readings, "readings");
+    branches.querySelector("[data-map-browse]")?.addEventListener("click", e => {
+      e.preventDefault(); window.ScoutNews.browse("", selected);
+    });
     document.getElementById("discovery-filter").value = selected;
     renderResources();
   }
@@ -316,7 +316,7 @@
       <div class="map-topics" role="group" aria-label="Map technology">${topics.map(t => `<button type="button" class="desk-button topic-${t.id}" data-map-topic="${t.id}" aria-pressed="false">${esc(t.name)}</button>`).join("")}</div><p><button id="map-try-topic" class="desk-button" type="button">Try this topic · hands-on discovery ↓</button></p>
       <div class="map-hub"><span class="desk-kicker">TOPIC ASSOCIATIONS · NOT PARTNERSHIPS</span><h3 id="map-topic-name"></h3><p id="map-connection-count" role="status"></p></div>
       <div id="map-branches" class="map-branches"></div>
-      <p class="explore-note">Organizations use stored name/alias + topic co-mentions; programs use curated descriptions; readings use title/excerpt matches. These are navigational leads, not independently verified relationships. Readings: ${esc(window.ScoutDisplay.date(coverage.window_start))}–${esc(window.ScoutDisplay.date(coverage.window_end))}. Organization and mission snapshots may contain older evidence. PQC and quantum-safe mentions alone do not count as quantum-computing coverage. This map uses broader reading-window evidence; News uses selected news source accounts after date and relevance exclusions, so counts can differ.</p>
+      <p class="explore-note">Organizations use stored name/alias + topic co-mentions; programs use curated descriptions; readings use title/excerpt matches. These are navigational leads, not independently verified relationships. Readings: ${esc(window.ScoutDisplay.date(coverage.window_start))}–${esc(window.ScoutDisplay.date(coverage.window_end))}. Organization and mission snapshots may contain older evidence. PQC and quantum-safe mentions alone do not count as quantum-computing coverage. Story counts use the same grouped collection as Latest. Organization and program counts describe different record types.</p>
       <details class="hands-on-panel"><summary>Hands-on discovery · turn an interest into a small experiment</summary><p>Official projects, tutorials, a demo, and a dataset to explore. “Try this” is Frontier Signal’s suggested exercise, not a claim from the news. Nothing runs or sends data when you browse.</p><div class="discovery-controls"><label>Technology<select id="discovery-filter"><option value="all">All technologies</option>${topics.map(t => `<option value="${t.id}">${esc(t.name)}</option>`).join("")}</select></label><span id="discovery-count" role="status"></span></div><div id="discovery-resources" class="discovery-resources"></div></details>`;
     host
       .querySelectorAll("[data-map-topic]")

@@ -834,5 +834,13 @@
     render();
   }
 
-  window.ScoutNews = { init, refresh: render, topics, topicLabels: TOPICS };
+  window.ScoutNews = { init, refresh: render, topics, topicLabels: TOPICS,
+    browse(query = "", topic = "all") {
+      state.search = query; state.topic = Object.hasOwn(TOPICS, topic) ? topic : "all";
+      state.feed = "all"; state.unread = false; state.limit = 6;
+      $("news-search").value = query;
+      location.hash = "news";
+      if (state.data) render();
+    },
+  };
 })();

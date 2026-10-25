@@ -288,6 +288,8 @@
   // The report library keeps report links; the review panel has its own workspace.
   const libraryHeading = $("reports")?.querySelector(".section-heading");
   if (libraryHeading) libraryHeading.remove();
+  $("briefing").append($("reports"));
+  $("desk-reports").closest(".desk-library-strip").hidden = true;
 
   let routeVersion = 0;
   // A short final section still needs enough document below it to reach the
@@ -312,7 +314,7 @@
       top: "briefing",
       explore: "federal",
       advanced: "operations",
-      reports: "library",
+      library: "briefing",
     };
     const target = $(hash);
     const key =
@@ -555,120 +557,27 @@
   }
 
   function renderStories() {
-    const decisions = ui.briefingMode === "decisions";
-    $("briefing").classList.toggle("decision-view", decisions);
-    document
-      .querySelectorAll("[data-briefing-mode]")
-      .forEach(b =>
-        b.setAttribute("aria-pressed", String(b.dataset.briefingMode === ui.briefingMode)),
-      );
-    $("briefing-title").textContent = decisions
-      ? "What matters. What to do next."
-      : "What’s worth a deeper read?";
-    $("briefing-intro-text").textContent = decisions
-      ? "Emerging-tech developments that could change your plans, not just add to your reading list."
-      : "Read the evidence, examine assumptions, and follow a research question.";
-    $("briefing-mode-note").textContent = decisions
-      ? "Suggested follow-ups, not automatic conclusions. Review timing is not a technology adoption forecast."
-      : "Research-first reading remains available. Your saved sources, notes, and questions are shared between views.";
-    $("briefing-shortlist-kicker").textContent = decisions
-      ? "YOUR DECISION SHORTLIST"
-      : "A SMALL READING PLAN";
-    $("briefing-selection-note").textContent = decisions
-      ? "A few developments worth assessing. Priority is not scientific quality or proven impact."
-      : "Next in your chosen order. A reading suggestion, not a quality rating.";
-    $("briefing-feed-title").textContent = decisions
-      ? "More developments to assess"
-      : "More from this reading window";
-    $("desk-more").textContent = decisions ? "Show more developments ↓" : "Show more readings ↓";
-    $("reading-order").querySelector('[value="research"]').hidden = decisions;
-    $("reading-order").querySelector('[value="decision"]').hidden = !decisions;
-    const openIds = [
-      ...$("briefing").querySelectorAll(".story-evidence[open], .headline-review[open]"),
-    ].map(el => ({
-      id: el.closest("[data-story]").dataset.story,
-      selector: el.classList.contains("headline-review") ? ".headline-review" : ".story-evidence",
-    }));
     const all = ui.data.news_intelligence?.stories || ui.data.reading_brief?.stories || [];
-    const stories = all.filter(
-      x => ui.period === "week" || x.report_date === ui.data.reading_brief?.edition_date,
-    );
-    const topical = stories.filter(matchesResearch);
-    const filtered = research.sortReadings(
-      topical.filter(x => !ui.unreadOnly || !read.has(x.id)),
-      ui.readingOrder,
-    );
-    window.ScoutExploration.renderBriefing(filtered, ui.data.reading_brief || {});
-    const completed = topical.filter(x => read.has(x.id)).length;
-    $("reading-window").value = ui.period;
-    $("source-kind").value = ui.sourceKind;
-    $("reading-order").value = ui.readingOrder;
-    $("unread-only").checked = ui.unreadOnly;
-    $("reading-progress").textContent = `${completed} of ${topical.length} marked read`;
-    const lensName = {
-      emerging: "Emerging tech",
-      core: "Cyber / PQC + quantum",
-      all: "All sources",
-      security: "Cyber & PQC",
-      quantum: "Quantum",
-      ai: "AI & cloud",
-      government: "Government",
-    }[ui.lens];
-    $("reading-controls-label").textContent =
-      `${lensName} · ${ui.period === "week" ? "Past 7 days" : "Latest edition"}${ui.sourceKind !== "all" ? ` · ${$("source-kind").selectedOptions[0].textContent}` : ""}${ui.unreadOnly ? " · Unread" : ""}`;
-    document
-      .querySelectorAll("[data-lens]")
-      .forEach(b => b.setAttribute("aria-pressed", String(b.dataset.lens === ui.lens)));
-    $("desk-result-count").textContent =
-      `${filtered.length} ${ui.unreadOnly ? "unread " : ""}${decisions ? "development" : "reading"}${filtered.length === 1 ? "" : "s"} · ${ui.period === "week" ? "7-day report window" : "latest edition"}`;
-    const emptyTitle =
-      topical.length && ui.unreadOnly
-        ? "You’re caught up on this view."
-        : "No matching evidence in this view.";
-    const emptyAction = ui.unreadOnly
-      ? '<button type="button" class="desk-button" data-reset-reading="unread">Include read stories →</button>'
-      : ui.period === "edition"
-        ? '<button type="button" class="desk-button" data-reset-reading="week">Explore the past 7 days →</button>'
-        : '<button type="button" class="desk-button" data-reset-reading="all">Show all interests and source types →</button>';
-    $("desk-lead").innerHTML = filtered.length
-      ? decisions
-        ? decisionCard(filtered[0], 0, true)
-        : card(filtered[0], 0, true)
-      : `<article class="lead-story"><h2>${emptyTitle}</h2><p>Filters change what you see, not the underlying evidence.</p>${emptyAction}</article>`;
-    $("desk-stories").innerHTML =
-      filtered
-        .slice(3, ui.limit + 3)
-        .map((x, i) => (decisions ? decisionCard(x, i + 3) : card(x, i + 3)))
-        .join("") ||
-      '<div class="desk-empty">No additional readings in this view. The shortlist above contains the available matches.</div>';
-    $("briefing-shortlist").innerHTML =
-      filtered
-        .slice(1, 3)
-        .map((x, i) => (decisions ? decisionCard(x, i + 1, false, true) : shortlistCard(x, i)))
-        .join("") ||
-      '<p class="desk-empty">No additional matches to suggest. Broaden the reading window or change your filters.</p>';
-    if (
-      filtered.length < 3 &&
-      (ui.period !== "week" ||
-        ui.sourceKind !== "all" ||
-        ui.lens !== (decisions ? "emerging" : "core"))
-    )
-      $("briefing-shortlist").insertAdjacentHTML(
-        "beforeend",
-        `<button type="button" class="desk-button briefing-broaden" data-reset-reading="research">${decisions ? "Browse emerging tech" : "Browse core research"} · past 7 days →</button>`,
-      );
-    $("desk-more").hidden = filtered.length <= ui.limit + 3;
+    const decisions = research.sortReadings(all.filter(item =>
+      ["prepare", "investigate", "test"].includes(item.decision_brief?.action)), "decision").slice(0, 4);
+    $("briefing").classList.add("decision-view");
+    $("briefing-title").textContent = "Decisions, changes, and follow-through";
+    $("briefing-intro-text").textContent = "A short review queue built from this edition. Browse the complete story collection in Latest.";
+    $("reading-controls").hidden = true;
+    $("briefing").querySelector(".briefing-mode-bar").hidden = true;
+    $("desk-overview").hidden = true;
+    $("briefing-feed-title").textContent = "Decisions to consider";
+    $("desk-result-count").textContent = window.ScoutDisplay.count(all.length, "story") + " in Latest";
+    $("desk-stories").innerHTML = decisions.map(item => {
+      const d = item.decision_brief;
+      const path = /^stories\/[a-f0-9]{24}\/index\.html$/.test(item.story_url || "") ? item.story_url : link(item.url);
+      return `<article class="reading-card decision-card" data-story="${esc(item.id)}"><span class="decision-action ${esc(d.action)}">${esc(d.action_label || d.action)}</span><h3>${esc(d.next_step || "Review the supporting evidence")}</h3><p>${esc(d.impact || "")}</p><p><a href="${esc(path)}">${esc(item.title)} →</a></p><small>${esc(d.horizon || "Review when relevant")}</small><div class="decision-card-actions">${readButton(item)}${saveButton(item)}</div></article>`;
+    }).join("") || '<p class="desk-empty">No specific prepare, investigate, or test actions in this edition. <a href="#news">Browse the latest coverage →</a></p>';
+    $("desk-more").hidden = true;
     $("saved-count").textContent = saved.size;
-    openIds.forEach(({ id, selector }) =>
-      $("briefing")
-        .querySelector(`[data-story="${CSS.escape(id)}"] ${selector}`)
-        ?.setAttribute("open", ""),
-    );
+    window.ScoutExploration.renderBriefing(all, ui.data.reading_brief || {});
     renderSaved();
   }
-
-  let selectedPaper = null;
-  const identity = url => research.citationKey(url);
   function questionLinks(url) {
     try {
       const rows = JSON.parse(localStorage.getItem("quantum-scout:question-lab:v1") || "[]");
@@ -1018,7 +927,8 @@
     window.ScoutNews?.init(data, { saveButton });
     window.ScoutInvestigations?.render(data);
     window.ScoutWorkspace?.refresh();
-    window.ScoutLandscape.init(data, saveButton);
+    // Latest owns the story list; the landscape presents source-linked connections.
+    $("landscape-explorer").hidden = true;
     window.ScoutExploration.init(data);
     window.ScoutEvidenceReview.init(data.evidence_review || {});
     window.ScoutFederalResearch.init(data.federal_funding || {});
