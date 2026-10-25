@@ -46,6 +46,12 @@ Featured picks now enforce one publisher host per slot, including after filterin
 
 The stale target is **not yet met**: 33 sources are still stale, down from the supplied 36. A fresh audit confirmed that many reachable feeds and funding queries genuinely return older records. No timestamps were invented, and freshness thresholds were not relaxed to reach the target. Audits update health, not the current digest; newly discovered articles enter through the next scheduled collection.
 
+## 6. Section-scoped data loading
+
+The browser now starts with a small index and the active section's versioned data packs. Packs are fetched once per visit, shared by dependent sections, and rejected on build-version mismatch. Global search loads the remaining search indexes on demand without stealing focus. The full aggregate remains available for offline tools and compatibility, but is never fetched by the web app. Duplicated account analyses were removed from the news projection; full story and merged-account evidence remains intact.
+
+Verification: Latest loaded 970,623 uncompressed data bytes (index plus news). All twelve cold direct routes rendered at 375px without overflow or runtime errors. Navigation reused each pack, search retained focus, and a later research visit rendered cached data correctly. The full Python suite passed 1,142 tests before the additional pack-projection assertions. The main dashboard browser suite also passed profiles, filters, saves, search, storage failures, and failed-loading states.
+
 ## 7. Bidirectional organization aliases
 
 Added DOE, DARPA, NSA, CISA, NSF, and all four DoD/DoW name variants. All recognized abbreviations match whole words, so NIST no longer matches the middle of "deterministic" or "administration". Ordinary partial-word searches still work. The earlier uncommitted NIST correction is included here.

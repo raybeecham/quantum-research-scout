@@ -42,6 +42,7 @@ class DashboardBuildTests(unittest.TestCase):
                 "styles.css",
                 "components.css",
                 "app.js",
+                "data-loader.js",
                 "entity.js",
                 "favicon.svg",
                 "desk.css",
@@ -508,6 +509,27 @@ class DashboardBuildTests(unittest.TestCase):
                 root, root / "site", repo_url="https://github.com/example/repo"
             )
             payload = json.loads(data_path.read_text(encoding="utf-8"))
+            from pqc_quantum_research_agent.dashboard_data import PACKS
+
+            index = json.loads((data_path.parent / "index.json").read_text(encoding="utf-8"))
+            self.assertEqual(index["build_id"], payload["build_id"])
+            self.assertNotIn("stories", index["reading_brief"])
+            self.assertNotIn("patents", index)
+            for name, fields in PACKS.items():
+                pack = json.loads(
+                    (data_path.parent / index["packs"][name]).read_text(encoding="utf-8")
+                )
+                self.assertEqual(pack["build_id"], payload["build_id"])
+                for field in fields:
+                    if field not in payload:
+                        continue
+                    if field == "news_intelligence":
+                        self.assertEqual(pack[field]["stories"], payload[field]["stories"])
+                        self.assertEqual(
+                            len(pack[field]["accounts"]), len(payload[field]["accounts"])
+                        )
+                    else:
+                        self.assertEqual(pack[field], payload[field])
 
             self.assertEqual(
                 payload["reading_brief"]["stories"][0]["image"]["image_url"],

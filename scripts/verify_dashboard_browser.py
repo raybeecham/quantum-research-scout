@@ -526,13 +526,15 @@ def main() -> None:
         for story in changed_feed["reading_brief"]["stories"]:
             if story["id"] == saved_id:
                 story["summary"] = "A changed excerpt from a later collection."
-        page.route("**/data/dashboard.json*", lambda route: route.fulfill(json=changed_feed))
+        page.route(
+            "**/data/{index,dashboard}.json*", lambda route: route.fulfill(json=changed_feed)
+        )
         page.reload()
         page.wait_for_selector("#saved-stories .reading-card")
         expect(page.locator("#saved-stories .story-summary")).to_have_text(
             downloaded["readings"][0]["summary"]
         )
-        page.unroute("**/data/dashboard.json*")
+        page.unroute("**/data/{index,dashboard}.json*")
         page.reload()
         page.wait_for_selector("#saved-stories .reading-card")
         navigate_workspace(page, "briefing")
@@ -786,7 +788,7 @@ def main() -> None:
         empty = copy.deepcopy(payload)
         empty["reading_brief"]["stories"] = []
         empty["reading_brief"]["collected_at"] = "2001-01-01T00:00:00Z"
-        page.route("**/data/dashboard.json*", lambda route: route.fulfill(json=empty))
+        page.route("**/data/{index,dashboard}.json*", lambda route: route.fulfill(json=empty))
         page.goto(args.url + "/?verification=empty#saved")
         page.wait_for_selector("#saved-stories .reading-card")
         assert page.locator("#saved-stories .reading-card").count() == 1
@@ -840,7 +842,7 @@ def main() -> None:
         ]
         hostile["reading_brief"]["stories"] = hostile["reading_brief"]["stories"][:1]
         safe = context.new_page()
-        safe.route("**/data/dashboard.json*", lambda route: route.fulfill(json=hostile))
+        safe.route("**/data/{index,dashboard}.json*", lambda route: route.fulfill(json=hostile))
         safe.goto(args.url + "/#briefing")
         safe.wait_for_selector(".lead-story h2")
         assert safe.locator(".lead-story h2 img").count() == 0
@@ -872,7 +874,9 @@ def main() -> None:
             }
         ]
         math_page = context.new_page()
-        math_page.route("**/data/dashboard.json*", lambda route: route.fulfill(json=math_data))
+        math_page.route(
+            "**/data/{index,dashboard}.json*", lambda route: route.fulfill(json=math_data)
+        )
         math_page.goto(args.url + "/#briefing")
         expect(math_page.locator(".lead-story h2 .katex")).to_have_count(2)
         expect(math_page.locator(".story-summary math mfrac")).to_have_count(1)
@@ -1006,7 +1010,7 @@ def main() -> None:
         restore_context.close()
 
         failed = context.new_page()
-        failed.route("**/data/dashboard.json*", lambda route: route.abort())
+        failed.route("**/data/{index,dashboard}.json*", lambda route: route.abort())
         failed.goto(args.url + "/#federal")
         failed.wait_for_selector("#desk-error h2")
         assert "couldn’t load" in failed.locator("#desk-error").inner_text()

@@ -37,7 +37,7 @@ def dashboard_fixture() -> dict:
         return {
             "id": identifier,
             "title": title,
-            "url": f"https://example.org/news/{identifier}",
+            "url": f"https://{identifier}.example.org/news/{identifier}",
             "source": "Synthetic browser fixture",
             "source_kind": "industry",
             "source_kind_label": "Industry source",
@@ -232,7 +232,7 @@ def main() -> None:
                 route.fulfill(json={"providers": {"gemini": False, "groq": False}})
             elif url.path.endswith("/lab-config.json"):
                 route.fulfill(json={})
-            elif url.path.endswith("/data/dashboard.json"):
+            elif url.path.endswith(("/data/dashboard.json", "/data/index.json")):
                 if state["fail"]:
                     route.fulfill(status=503, json={"error": "Synthetic fixture unavailable"})
                 else:

@@ -24,7 +24,7 @@ def main():
             url = route.request.url
             if route.request.method != "GET":
                 route.abort()
-            elif "/data/dashboard.json" in url:
+            elif any(name in url for name in ("/data/dashboard.json", "/data/index.json")):
                 route.fulfill(json=payload)
             elif url.startswith(PREVIEW_ORIGIN):
                 route.fulfill(content_type="image/png", body=PREVIEW_PNG)

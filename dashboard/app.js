@@ -119,20 +119,39 @@ function persistAnalystDecisions() {
 
 state.analystDecisions = loadAnalystDecisions();
 
-fetch("data/dashboard.json?v=__ASSET_VERSION__")
-  .then(response => {
-    if (!response.ok) throw new Error(`Dashboard data failed: ${response.status}`);
-    return response.json();
-  })
-  .then(data => {
-    state.data = data;
-    render();
+window.ScoutData.index()
+  .then(() => {
+    window.ScoutDesk.route();
   })
   .catch(error => {
     window.ScoutDesk?.error(error.message);
     document.getElementById("signal-grid").innerHTML =
       `<p>Unable to load dashboard data: ${escapeHtml(error.message)}</p>`;
   });
+
+let renderedDataRevision = -1;
+window.ScoutData.onRoute = key => {
+  if (
+    state.data &&
+    window.ScoutData.ready(key) &&
+    renderedDataRevision === window.ScoutData.revision
+  )
+    return false;
+  const main = document.getElementById("main");
+  main.setAttribute("aria-busy", "true");
+  window.ScoutData.loadRoute(key)
+    .then(data => {
+      state.data = data;
+      renderedDataRevision = window.ScoutData.revision;
+      main.setAttribute("aria-busy", "false");
+      render();
+    })
+    .catch(error => {
+      main.setAttribute("aria-busy", "false");
+      window.ScoutDesk.error(error.message);
+    });
+  return true;
+};
 
 function render() {
   const themes = state.data.signals?.themes || [];

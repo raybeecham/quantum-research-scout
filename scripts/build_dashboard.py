@@ -14,6 +14,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from pqc_quantum_research_agent.briefing import build_reading_brief  # noqa: E402
 from pqc_quantum_research_agent.config import load_config  # noqa: E402
+from pqc_quantum_research_agent.dashboard_data import write_section_data  # noqa: E402
 from pqc_quantum_research_agent.decision_center import build_decision_center  # noqa: E402
 from pqc_quantum_research_agent.evidence_review import build_evidence_review  # noqa: E402
 from pqc_quantum_research_agent.news_coverage import build_news_coverage  # noqa: E402
@@ -262,6 +263,7 @@ def build_dashboard(
         "styles.css",
         "components.css",
         "app.js",
+        "data-loader.js",
         "entity.js",
         "favicon.svg",
         "desk.css",
@@ -325,6 +327,7 @@ def build_dashboard(
 
     data_path = output / "data" / "dashboard.json"
     data_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    write_section_data(payload, output)
     return data_path
 
 

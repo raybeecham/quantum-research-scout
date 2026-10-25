@@ -152,7 +152,7 @@ def main():
             if request.request.method == "POST":
                 posts.append(request.request.url)
                 request.abort()
-            elif url.path.endswith("/data/dashboard.json"):
+            elif url.path.endswith(("/data/dashboard.json", "/data/index.json")):
                 request.fulfill(json=payload)
             elif url.path.endswith("/lab-config.json"):
                 request.fulfill(json={})

@@ -156,7 +156,7 @@ def main():
                         },
                     }
                 )
-            elif url.path.endswith("/data/dashboard.json"):
+            elif url.path.endswith(("/data/dashboard.json", "/data/index.json")):
                 route.fulfill(json=payload)
             elif url.path.endswith("/lab-config.json"):
                 route.fulfill(json={})

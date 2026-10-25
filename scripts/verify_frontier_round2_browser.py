@@ -171,6 +171,7 @@ def main():
 
         # A small deterministic search corpus keeps these checks useful after
         # this edition rotates out. The generated payload itself is audited above.
+        page.evaluate("() => window.ScoutData?.loadSearch()")
         page.evaluate("""() => {
           const sample = state.data.reading_brief.stories[0];
           state.data.reading_brief.stories = [

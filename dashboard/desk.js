@@ -348,6 +348,7 @@
       .querySelector("#nav-explore")
       .classList.toggle("has-current", Boolean(active?.closest("details")));
     window.ScoutWorkspace?.route(key);
+    if (window.ScoutData?.onRoute?.(key)) return;
     if (active && nav.scrollWidth > nav.clientWidth) {
       const bounds = nav.getBoundingClientRect(),
         current = active.getBoundingClientRect();
@@ -1094,6 +1095,15 @@
   }
 
   function search() {
+    if (window.ScoutData && !window.ScoutData.searchReady()) {
+      $("search-count").textContent = "Loading the searchable collection…";
+      window.ScoutData.loadSearch()
+        .then(() => search())
+        .catch(error => {
+          $("search-count").textContent = error.message;
+        });
+      return;
+    }
     const query = normalizeSearch($("desk-search").value.trim());
     document
       .querySelectorAll("[data-search-kind]")

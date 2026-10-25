@@ -77,7 +77,7 @@ def main():
         errors, posts = [], []
         page.on("pageerror", lambda e: errors.append(str(e)))
         page.on("request", lambda r: posts.append(r.url) if r.method == "POST" else None)
-        page.route("**/data/dashboard.json*", lambda route: route.fulfill(json=payload))
+        page.route("**/data/{index,dashboard}.json*", lambda route: route.fulfill(json=payload))
         page.goto(args.url + "/#briefing")
         review = page.locator("#desk-lead .headline-review")
         expect(review).to_be_visible()

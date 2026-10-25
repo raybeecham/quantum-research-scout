@@ -12,6 +12,7 @@ on:
       - "pqc_quantum_research_agent/briefing.py"
       - "pqc_quantum_research_agent/technology_briefing.py"
       - "pqc_quantum_research_agent/news_intelligence.py"
+      - "pqc_quantum_research_agent/dashboard_data.py"
       - "pqc_quantum_research_agent/story_analysis.py"
       - "pqc_quantum_research_agent/story_archive.py"
       - "pqc_quantum_research_agent/story_follow.py"
@@ -109,6 +110,7 @@ jobs:
           preview_pid=$!
           trap 'kill "$preview_pid"' EXIT
           python scripts/verify_frontier_round2_browser.py --channel chromium
+          python scripts/verify_lazy_data_browser.py --channel chromium
           xvfb-run -a python scripts/verify_publication_gate.py --channel chromium --headed
 
       - name: Preserve release gate evidence separately

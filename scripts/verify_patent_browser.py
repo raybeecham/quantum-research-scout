@@ -76,7 +76,7 @@ def main():
         errors, posts = [], []
         page.on("pageerror", lambda e: errors.append(str(e)))
         page.on("request", lambda r: posts.append(r.url) if r.method == "POST" else None)
-        page.route("**/data/dashboard.json*", lambda route: route.fulfill(json=data))
+        page.route("**/data/{index,dashboard}.json*", lambda route: route.fulfill(json=data))
         page.goto(args.url + "/#patents")
         expect(page.locator("#patent-grid .patent-card")).to_have_count(1)
         expect(page.locator("#patent-summary")).to_contain_text(
@@ -189,7 +189,7 @@ def main():
         page.reload()
         expect(page.locator("#patent-grid")).to_contain_text("No patents match")
         expect(page.locator("#patent-detail")).to_contain_text("No record selected")
-        page.unroute("**/data/dashboard.json*")
+        page.unroute("**/data/{index,dashboard}.json*")
         page.reload()
         page.wait_for_selector("#patent-detail-title")
         for width in (1440, 900, 390):

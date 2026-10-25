@@ -227,7 +227,7 @@ def main() -> None:
                 route.fulfill(json={"providers": {"gemini": False, "groq": False}})
             elif url.path.endswith("/lab-config.json"):
                 route.fulfill(json={})
-            elif url.path.endswith("/data/dashboard.json"):
+            elif url.path.endswith(("/data/dashboard.json", "/data/index.json")):
                 route.fulfill(json=state["payload"])
             elif request.resource_type == "image" and url.netloc == "images.example.org":
                 route.fulfill(content_type="image/png", body=PREVIEW_PNG)

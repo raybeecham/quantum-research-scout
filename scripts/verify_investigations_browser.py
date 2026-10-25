@@ -193,7 +193,7 @@ def main() -> None:
             elif url.path.endswith("/lab-config.json"):
                 # Public-hosted authentication must never start during this local test.
                 route.fulfill(json={})
-            elif url.path.endswith("/data/dashboard.json"):
+            elif url.path.endswith(("/data/dashboard.json", "/data/index.json")):
                 route.fulfill(json=payload)
             elif (url.scheme, url.netloc) == (origin.scheme, origin.netloc):
                 route.continue_()

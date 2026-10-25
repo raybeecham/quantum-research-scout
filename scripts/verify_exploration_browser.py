@@ -40,7 +40,7 @@ def main():
         errors, posts = [], []
         page.on("pageerror", lambda error: errors.append(str(error)))
         page.on("request", lambda r: posts.append(r.url) if r.method == "POST" else None)
-        page.route("**/data/dashboard.json*", lambda route: route.fulfill(json=payload))
+        page.route("**/data/{index,dashboard}.json*", lambda route: route.fulfill(json=payload))
         page.goto(args.url + "/#briefing")
         expect(page.locator(".coverage-strip")).to_have_count(4)
         page.locator("#briefing-visual").scroll_into_view_if_needed()

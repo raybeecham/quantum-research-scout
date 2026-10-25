@@ -55,7 +55,7 @@ def main():
         errors, posts = [], []
         page.on("pageerror", lambda e: errors.append(str(e)))
         page.on("request", lambda r: posts.append(r.url) if r.method == "POST" else None)
-        page.route("**/data/dashboard.json*", lambda route: route.fulfill(json=payload))
+        page.route("**/data/{index,dashboard}.json*", lambda route: route.fulfill(json=payload))
         page.goto(args.url + "/#briefing")
         expect(page.locator('[data-briefing-mode="decisions"]')).to_have_attribute(
             "aria-pressed", "true"
@@ -212,7 +212,7 @@ def main():
         expect(page.locator("#briefing-edition-note")).to_contain_text("comparison unavailable")
         expect(page.locator("#desk-lead")).to_contain_text("No matching evidence")
         # Real snapshot screenshots, no writes to the user's persistent browser context.
-        page.unroute("**/data/dashboard.json*")
+        page.unroute("**/data/{index,dashboard}.json*")
         page.reload()
         page.locator('[data-lens="emerging"]').click()
         page.wait_for_selector("#desk-lead h2")

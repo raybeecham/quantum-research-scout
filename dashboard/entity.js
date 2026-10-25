@@ -30,11 +30,7 @@ const formatDateTime = value =>
       )
     : "Unknown";
 
-fetch("data/dashboard.json?v=__ASSET_VERSION__")
-  .then(response => {
-    if (!response.ok) throw new Error(`Dashboard data failed: ${response.status}`);
-    return response.json();
-  })
+window.ScoutData.load(["research", "source-health", "decisions"])
   .then(renderProfile)
   .catch(error => showError(`Unable to load this profile: ${error.message}`));
 
