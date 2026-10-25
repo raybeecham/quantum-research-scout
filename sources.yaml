@@ -332,7 +332,7 @@ rss_feeds:
     max_items: 25
     entities: [Cloudflare]
   - name: "Google Security Blog"
-    url: "https://security.googleblog.com/feeds/posts/default"
+    url: "https://blog.google/security/rss/"
     entities: [Google Quantum AI]
   - name: "AWS Quantum Technologies Blog"
     url: "https://aws.amazon.com/blogs/quantum-computing/feed/"

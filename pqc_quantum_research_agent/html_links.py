@@ -229,6 +229,14 @@ def extract_page_metadata(
         elif host == "research.google":
             match = re.search(r"data-gt-publish-date=[\"\x27](\d{8})[\"\x27]", html_text)
             date_source = "explicit_metadata:google_publish_date"
+        elif host in {"quantum.microsoft.com", "www.microsoft.com"} and "/insights/blogs/" in base_url:
+            # Restrict to the article heading; component timestamps and related
+            # cards are not publication evidence.
+            match = re.search(
+                r'class=["\x27][^"\x27]*\bblog-heading\b[^"\x27]*["\x27][^>]*>\s*<h2\b[^>]*>.*?</h2>\s*<p\b[^>]*>\s*<b\b[^>]*>\s*([A-Za-z]+\s+\d{1,2},\s+\d{4})\s*</b>',
+                html_text, re.IGNORECASE | re.DOTALL,
+            )
+            date_source = "explicit_metadata:microsoft_article_heading"
         elif host in {"www.quantinuum.com", "www.quera.com"} and "/press-releases/" in base_url:
             # Ignore dates on related-story cards and global navigation.
             field = "pr_date_text" if host == "www.quantinuum.com" else "inner_details-text"
