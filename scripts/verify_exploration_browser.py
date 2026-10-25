@@ -46,7 +46,7 @@ def main():
         page.locator("#briefing-visual").scroll_into_view_if_needed()
         page.screenshot(path=str(output / "exploration-briefing.png"))
         page.locator(".briefing-timeline > summary").click()
-        expect(page.locator(".briefing-timeline")).to_contain_text("Report dates—not event")
+        expect(page.locator(".briefing-timeline")).to_contain_text("Report dates, not event")
         page.locator('[data-explore-topic="quantum"]').click()
         expect(page.locator("#research-workspace")).to_be_visible()
         expect(page.locator('[data-map-topic="quantum"]')).to_have_attribute("aria-pressed", "true")
