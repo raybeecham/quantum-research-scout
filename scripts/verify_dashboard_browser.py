@@ -768,6 +768,7 @@ def main() -> None:
         # Retained saved excerpts still work after leaving the seven-day reading window.
         empty = copy.deepcopy(payload)
         empty["reading_brief"]["stories"] = []
+        empty["reading_brief"]["news_refresh"] = {}  # Simulate a stale daily-only archive.
         empty["reading_brief"]["collected_at"] = "2001-01-01T00:00:00Z"
         empty["collected_at"] = empty["reading_brief"]["collected_at"]
         empty["news_intelligence"]["stories"] = []

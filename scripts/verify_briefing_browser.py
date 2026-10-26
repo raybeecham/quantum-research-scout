@@ -114,6 +114,7 @@ def main():
         # No assessment or timing may be invented for legacy snapshots.
         for item in rows:
             item.pop("decision_brief", None)
+        brief["news_refresh"] = {}  # This fixture models a stale daily-only snapshot.
         payload["collected_at"] = brief["collected_at"] = "2020-01-01T00:00:00Z"
         page.reload()
         expect(cards).to_have_count(0)

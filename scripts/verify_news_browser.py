@@ -29,6 +29,7 @@ def dashboard_fixture() -> dict:
     )
     # Exercise legacy snapshot compatibility independently of curated-feed tests.
     payload.pop("news_intelligence", None)
+    payload.get("reading_brief", {}).pop("news_refresh", None)
     now = datetime.now(timezone.utc)
     payload["collected_at"] = now.isoformat()
     today = now.date().isoformat()
