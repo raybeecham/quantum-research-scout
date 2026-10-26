@@ -4,13 +4,13 @@
 
 [Entity Watch](entity-watch.md) · [Readiness Scorecards](readiness.md) · [Report Index](README.md)
 
-_Updated 2026-10-25 21:46 UTC_
+_Updated 2026-10-26 00:56 UTC_
 
 This bounded ledger retains up to **730 days** of official-source history. Backfilled records enrich profiles but never create retroactive alerts.
 
 - Evidence: **103** (86 dated; 17 undated)
-- Last run: **102 accepted** from 240 collected
-- Source warnings: **1**
+- Last run: **102 accepted** from 248 collected
+- Source warnings: **0**
 
 | Date | Date basis | Confidence | Source | Evidence | Score |
 |---|---|---|---|---|---:|
@@ -114,7 +114,3 @@ This bounded ledger retains up to **730 days** of official-source history. Backf
 | Unknown | unknown | unknown | QCi Press Releases | [Quantum Computing Inc. to Showcase Quantum Secure Communications Beyond Quantum Key Distribution at ECOC 2026 - Quantum Computing Inc](https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-to-showcase-quantum-secure-communications-beyond-quantum-key-distribution-at-ecoc-2026) | 24 |
 | Unknown | unknown | unknown | QCi Press Releases | [Quantum Computing Inc. Announces Deployment-Ready NeuraWave, a Photonic Computing Platform for Real-time AI Inference at the Edge - Quantum Computing Inc](https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-announces-deployment-ready-neurawave-a-photonic-computing-platform-for-real-time-ai-inference-at-the-edge) | 23 |
 | Unknown | unknown | unknown | QCi Press Releases | [Quantum Computing Inc. Expands Global Quantum Adoption Through New Hamad Bin Khalifa University Framework Agreement - Quantum Computing Inc](https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-expands-global-quantum-adoption-through-new-hamad-bin-khalifa-university-framework-agreement) | 19 |
-
-## Collection Warnings
-
-- **Department of War Strategic Technology News**: All discovery methods failed: Feed returned no parseable entries.; HTML discovery failed: Failed to fetch https://www.war.gov/News/News-Stories/: 403 Client Error: Forbidden for url: https://www.war.gov/News/News-Stories/
