@@ -971,11 +971,16 @@
     $("desk-loading").hidden = true;
     $("desk-overview").hidden = false;
     const brief = data.reading_brief || {};
-    $("edition-date").textContent = brief.edition_date
-      ? `Report window ends ${day(brief.coverage?.window_end || brief.edition_date)} · collected ${day(data.collected_at || brief.collected_at)}`
-      : "No published edition";
-    const elapsed = Date.now() - new Date(data.collected_at || brief.collected_at || "").getTime();
-    const stale = !Number.isFinite(elapsed) || elapsed > 36 * 3600000 || elapsed < -5 * 60000;
+    $("edition-date").textContent = window.ScoutDisplay.collectionLabel(brief, data.collected_at);
+    const elapsed =
+      Date.now() -
+      new Date(
+        brief.news_refresh?.collected_at || data.collected_at || brief.collected_at || "",
+      ).getTime();
+    const stale =
+      !Number.isFinite(elapsed) ||
+      elapsed > (brief.news_refresh?.collected_at ? 3 : 36) * 3600000 ||
+      elapsed < -5 * 60000;
     ui.collectionStale = stale;
     const health = data.source_health?.operational_summary || {};
     $("desk-health").textContent = stale

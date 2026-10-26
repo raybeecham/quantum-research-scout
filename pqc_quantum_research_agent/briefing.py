@@ -259,6 +259,8 @@ def build_reading_brief(
     temporal: dict,
     citations: dict | None = None,
 ) -> dict:
+    from .hourly_news import news_paths, read_news_refresh, report_order
+
     dated_paths = sorted(
         (report_day, path)
         for path in reports.glob("????-??/????-??-??-digest.md")
@@ -278,13 +280,21 @@ def build_reading_brief(
     latest_urls = edition_urls.get(latest.isoformat(), set()) if latest else set()
     previous_urls = edition_urls.get(previous.isoformat(), set()) if previous else set()
     added_urls = latest_urls - previous_urls if previous else set()
-    window_start = latest - timedelta(days=6) if latest else None
+    hourly_paths = news_paths(reports)
+    collection_end = max((day for day, _ in [*dated_paths, *hourly_paths]), default=None)
+    window_start = collection_end - timedelta(days=6) if collection_end else None
+    refresh = read_news_refresh(reports)
     report_count = 0
+    hourly_count = 0
     candidates: dict[str, dict] = {}
-    for report_day, path in reversed(dated_paths):
+    for report_day, path in sorted([*dated_paths, *hourly_paths], key=report_order, reverse=True):
         if window_start and report_day < window_start:
             continue
-        report_count += 1
+        is_hourly = path.parent.name == "hourly"
+        if is_hourly:
+            hourly_count += 1
+        else:
+            report_count += 1
         content = path.read_text(encoding="utf-8")
         for match in _ENTRY.finditer(content):
             title, meta, body = match.groups()
@@ -326,7 +336,9 @@ def build_reading_brief(
                 "date": published,
                 "report_date": report_day.isoformat(),
                 "edition_status": (
-                    "added"
+                    "hourly"
+                    if is_hourly
+                    else "added"
                     if previous and url in added_urls
                     else "retained"
                     if previous and url in latest_urls
@@ -350,7 +362,7 @@ def build_reading_brief(
             }
             candidates[url]["research_priority"] = _research_priority(candidates[url])
             candidates[url]["decision_brief"] = decision_brief(
-                candidates[url], latest.isoformat() if latest else None
+                candidates[url], collection_end.isoformat() if collection_end else None
             )
             candidates[url]["citation"] = (
                 (citations or {}).get("records", {}).get(metadata_url(url), {})
@@ -413,8 +425,14 @@ def build_reading_brief(
             }
         )
     return {
-        "edition_date": latest.isoformat() if latest else None,
-        "collected_at": source_health.get("observation_updated_at"),
+        "edition_date": collection_end.isoformat() if collection_end else None,
+        "collected_at": max(
+            filter(
+                None, (source_health.get("observation_updated_at"), refresh.get("collected_at"))
+            ),
+            default=None,
+        ),
+        "news_refresh": refresh,
         "edition_comparison": {
             "previous_report_date": previous.isoformat() if previous else None,
             "current_report_date": latest.isoformat() if latest else None,
@@ -429,8 +447,9 @@ def build_reading_brief(
         "grouped_count": len(candidates) - len(stories),
         "coverage": {
             "window_start": window_start.isoformat() if window_start else None,
-            "window_end": latest.isoformat() if latest else None,
+            "window_end": collection_end.isoformat() if collection_end else None,
             "report_count": report_count,
+            **({"hourly_snapshot_count": hourly_count} if hourly_count else {}),
             "item_count": len(candidates),
             "dated_item_count": sum(item["date"] is not None for item in candidates.values()),
             "undated_item_count": sum(item["date"] is None for item in candidates.values()),

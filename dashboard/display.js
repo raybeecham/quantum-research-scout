@@ -53,14 +53,24 @@
       .filter(value => value && value < edition)
       .sort()
       .at(-1);
-    const context = latest
-      ? `Showing earlier coverage from reports through ${date(latest)}.`
-      : rows.length
-        ? "Earlier coverage remains in the rolling collection."
-        : "There are no stories in the current rolling collection.";
+    const context = brief?.news_refresh?.collected_at
+      ? "The rolling collection also includes separately collected hourly news."
+      : latest
+        ? `Showing earlier coverage from reports through ${date(latest)}.`
+        : rows.length
+          ? "Earlier coverage remains in the rolling collection."
+          : "There are no stories in the current rolling collection.";
     return `No source-linked stories were included in the ${date(edition)} daily report. ${context}`;
   }
-  const api = Object.freeze({ day, date, dateTime, count, editionNotice });
+  function collectionLabel(brief, collectedAt) {
+    if (brief?.news_refresh?.collected_at)
+      return `News checked ${dateTime(brief.news_refresh.collected_at)} · hourly schedule`;
+    const edition = day(brief?.edition_date);
+    return edition
+      ? `Report window ends ${date(brief.coverage?.window_end || edition)} · collected ${date(collectedAt || brief.collected_at)}`
+      : "Report edition unavailable";
+  }
+  const api = Object.freeze({ day, date, dateTime, count, editionNotice, collectionLabel });
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   if (typeof window !== "undefined") window.ScoutDisplay = api;
 })();

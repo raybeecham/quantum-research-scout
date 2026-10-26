@@ -279,11 +279,14 @@
 
   function renderEdition() {
     const brief = state.data?.reading_brief || {};
-    const edition = day(brief.edition_date);
-    $("news-edition").textContent = edition
-      ? `Report window ends ${dateLabel(brief.coverage?.window_end || edition)} · collected ${dateLabel(state.data.collected_at || brief.collected_at)}`
-      : "Report edition unavailable";
-    const collected = Date.parse(text(state.data.collected_at || brief.collected_at));
+    const hourly = Boolean(brief.news_refresh?.collected_at);
+    $("news-edition").textContent = window.ScoutDisplay.collectionLabel(
+      brief,
+      state.data.collected_at,
+    );
+    const collected = Date.parse(
+      text(brief.news_refresh?.collected_at || state.data.collected_at || brief.collected_at),
+    );
     const age = Date.now() - collected;
     let status = "",
       level = "current";
@@ -294,11 +297,15 @@
       status =
         "Collection timestamp is in the future. Verify the collection clock and source dates before relying on this snapshot.";
       level = "future";
-    } else if (age > 36 * 60 * 60 * 1000) {
-      status = `Collection needs an update · last collected ${dateLabel(state.data.collected_at || brief.collected_at)}. These are archived report items, not a live news feed.`;
+    } else if (age > (hourly ? 3 : 36) * 60 * 60 * 1000) {
+      status = hourly
+        ? `Hourly news refresh is overdue · last checked ${window.ScoutDisplay.dateTime(brief.news_refresh.collected_at)}. Earlier coverage remains available.`
+        : `Collection needs an update · last collected ${dateLabel(state.data.collected_at || brief.collected_at)}. These are archived report items, not a live news feed.`;
       level = "stale";
     } else {
-      status = "A report snapshot, not a live news feed.";
+      status = hourly
+        ? "News checks are scheduled hourly. Collection and publishing can be delayed. Reload for the latest published snapshot."
+        : "A report snapshot, not a live news feed.";
     }
     $("news-status").textContent = status;
     $("news-status").hidden = false;

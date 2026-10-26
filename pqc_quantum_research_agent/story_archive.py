@@ -16,12 +16,13 @@ from collections import defaultdict
 from pathlib import Path
 
 from .briefing import _ENTRY, _authority, _day, _lenses, _publication_context, _source_url
+from .hourly_news import news_paths, report_order
 from .news_intelligence import _canonical, build_news_intelligence, enrich_news_story
 from .redaction import redact_text
 from .text import clean_source_excerpt
 
 ARCHIVE_METHOD = (
-    "Source-specific briefings reconstructed from dated daily digests, not full article copies. "
+    "Source-specific briefings reconstructed from dated daily digests and hourly news snapshots, not full article copies. "
     "Publication dates come from explicit Published metadata. First and last observations are "
     "report dates, not publication or publisher update times. Captured-content changes compare "
     "titles and collected excerpts only; they do not establish that the publisher changed an article. "
@@ -315,10 +316,12 @@ def refresh_story_evidence(reports: str | Path) -> dict:
 
 def _snapshots(reports: Path) -> dict[str, list[dict]]:
     observations: dict[str, list[dict]] = defaultdict(list)
-    for path in sorted(reports.glob("????-??/????-??-??-digest.md")):
-        report_day = _day(path.name[:10])
-        if not report_day or path.name != f"{report_day.isoformat()}-digest.md":
-            continue
+    daily = [
+        (day, path)
+        for path in reports.glob("????-??/????-??-??-digest.md")
+        if (day := _day(path.name[:10])) and path.name == f"{day.isoformat()}-digest.md"
+    ]
+    for report_day, path in sorted([*daily, *news_paths(reports)], key=report_order):
         seen = set()
         for match in _ENTRY.finditer(path.read_text(encoding="utf-8")):
             title, meta, body = match.groups()
@@ -362,7 +365,12 @@ def _snapshots(reports: Path) -> dict[str, list[dict]]:
                 **_publication_context(url, authority),
             }
             observations[canonical].append(_normalize_snapshot(snapshot))
-    return observations
+    # Older hourly inputs must not replay changes backwards on every rebuild.
+    # Earlier captures were retained when their collection was published.
+    return {
+        canonical: list({row["report_date"]: row for row in rows}.values())
+        for canonical, rows in observations.items()
+    }
 
 
 def prepare_story_archive(reports: Path, news: dict) -> dict:

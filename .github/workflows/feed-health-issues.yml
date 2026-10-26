@@ -2,7 +2,7 @@ name: Feed health incidents
 
 on:
   workflow_run:
-    workflows: ["Frontier Signal Daily Briefing", "Frontier Signal Weekly Synthesis"]
+    workflows: ["Frontier Signal Daily Briefing", "Frontier Signal Weekly Synthesis", "Frontier Signal Hourly News"]
     types: [completed]
 
 # One issue writer across daily and weekly runs prevents creation races.
