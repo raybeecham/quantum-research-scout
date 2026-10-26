@@ -2,6 +2,17 @@
 
 Local work recorded October 25, 2026 (America/Chicago). This is not a production deployment receipt. Nothing in this pass was pushed.
 
+## October 26 release follow-up
+
+The October 25 local-only record below is historical. On October 26, the 30 unpublished commits were rebased onto GitHub main `ccbc6eb`, preserving the newer daily/historical reports and the site-scoped Department of War feed fix. A backup branch retains the pre-sync work. Current publication results belong to the [dashboard deployment workflow](https://github.com/raybeecham/quantum-research-scout/actions/workflows/deploy-dashboard.yml), not the historical local-only status below.
+
+- Daily-report comparisons now label overlap as source links appearing in both daily reports. They do not claim to count stories carried forward in the rolling homepage collection.
+- Explicit current/prior daily-report source-link counts distinguish an empty daily report from a nonempty report with zero additions. Latest and Briefing explain empty editions while retaining earlier coverage. Collection-freshness warnings remain separate.
+- Tests cover empty daily reports with nonempty rolling coverage, unknown comparison metadata, and nonempty reports with zero additions. Federal evidence-panel bounds are checked at 375px and desktop width; the reported clipping did not reproduce after synchronization.
+- The source-health report was regenerated from the preserved remote observations, without new collection calls or fabricated successes. It shows 103 enabled sources, zero failing, Rigetti disabled with its explanation, and **34 stale sources**. The under-25 target remains open.
+- Verification after synchronization: **1,167 Python tests and all 26 browser suites passed**, including 96 accessibility audits with zero serious or critical findings. Initial Latest data is 908,160 uncompressed bytes. Ruff lint/format, dashboard Prettier, retained-URL registry, and a non-disclosing credential-pattern check passed. Deployment receipts are reported separately when completed.
+- Final rebuilt-artifact publication gate passed: five merged-event pairs, a negative merge case, topic exclusions, twelve routes, and all 222 retained story URLs. Both deliberate regressions were rejected. The local artifact is `f2769ea3e343`; the live deployment must be checked separately.
+
 ## Acceptance status
 
 The requested product changes are implemented locally. The user explicitly approved replacing obsolete layout assertions. All **26 browser suites now pass locally**, including the migrated legacy dashboard checks. No suite was deleted, skipped, disabled, or removed from CI. This is local Edge verification, not a claim that GitHub Actions or Pages deployment has completed.
