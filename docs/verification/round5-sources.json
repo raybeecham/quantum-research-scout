@@ -656,5 +656,43 @@
       "url": "https://www.mitre.org/news-insights",
       "error": "Failed to fetch https://www.mitre.org/news-insights: 403 Client Error: Forbidden for url: https://www.mitre.org/news-insights"
     }
-  ]
+  ],
+  "quantum_zeitgeist_restoration": {
+    "checked_at": "2026-10-26T19:39:24.541403+00:00",
+    "sources": [
+      {
+        "name": "Quantum Zeitgeist",
+        "items": 40,
+        "dated_items": 40,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "Researchers Build Mirror Reflecting 99.82% of Light",
+            "url": "https://quantumzeitgeist.com/compliant-mirrors-reflecting-near-total-light/",
+            "published_at": "2026-10-25 21:20:15+00:00"
+          },
+          {
+            "title": "Researchers Measure 58x Drop in Resistance of Cryo Inductors",
+            "url": "https://quantumzeitgeist.com/cryo-inductors-resistance-measurement-significant-performance-drop/",
+            "published_at": "2026-10-25 21:20:12+00:00"
+          },
+          {
+            "title": "T. J. Watson Team Builds Meter-Scale Links Achieving 99% State Transfer",
+            "url": "https://quantumzeitgeist.com/meter-scale-links-achieving-high-state-transfer/",
+            "published_at": "2026-10-25 21:20:09+00:00"
+          },
+          {
+            "title": "Researchers Achieve Robust 12ns Controlled-Z Qubit Gates",
+            "url": "https://quantumzeitgeist.com/controlled-z-qubit-gates-robust-twelve-nanosecond-performance/",
+            "published_at": "2026-10-25 21:19:37+00:00"
+          },
+          {
+            "title": "Researchers Bound Magic-State Distillation to Nine Inputs Per Qubit",
+            "url": "https://quantumzeitgeist.com/magic-state-distillation-nine-input-qubit-bound/",
+            "published_at": "2026-10-25 21:19:34+00:00"
+          }
+        ]
+      }
+    ]
+  }
 }

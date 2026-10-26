@@ -295,9 +295,9 @@ rss_feeds:
     max_sitemaps: 1
     sitemap_max_items: 40
   - name: "Quantum Zeitgeist"
-    source_note: "Disabled after HTTP 403 in the September audit. Recheck 2026-10-26: the RSS feed is reachable with 200 entries; restoration is being evaluated. Recheck by 2026-11-02."
+    source_note: "Restored in configuration after the 2026-10-26 check: 40 dated RSS articles, zero warnings. The earlier HTTP 403 is historical; reports predating this repair may still list it as disabled. Recheck by 2026-11-02."
     url: "https://quantumzeitgeist.com/feed/"
-    enabled: false  # HTTP 403 in the September audit; replaced by Quantum Computing Report.
+    enabled: true
   - name: "Quantum Computing Report"
     url: "https://quantumcomputingreport.com/feed/"
   - name: "Quantum Journal"

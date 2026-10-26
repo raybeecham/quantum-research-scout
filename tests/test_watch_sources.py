@@ -55,6 +55,16 @@ class MappingClient:
 
 
 class WatchSourceTests(unittest.TestCase):
+    def test_restored_quantum_zeitgeist_keeps_source_and_publication_date(self):
+        config = load_config(Path(__file__).resolve().parents[1] / "sources.yaml")
+        source = next(row for row in config.rss_feeds if row["name"] == "Quantum Zeitgeist")
+        self.assertTrue(source["enabled"])
+        self.assertEqual(source["url"], "https://quantumzeitgeist.com/feed/")
+        result = collect_rss_feeds(MappingClient({source["url"]: SHORT_RSS}), [source], 40)
+        self.assertEqual(result.warnings, [])
+        self.assertEqual(result.items[0].source_name, "Quantum Zeitgeist")
+        self.assertEqual(result.items[0].published_at.isoformat(), "2026-07-24T12:00:00+00:00")
+
     def test_nist_primary_feeds_preserve_original_evidence(self):
         config = load_config(Path(__file__).resolve().parents[1] / "sources.yaml")
         expected = {

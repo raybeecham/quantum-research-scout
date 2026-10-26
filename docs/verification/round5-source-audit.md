@@ -62,6 +62,6 @@ Existing NIST CSRC, DOE Office of Science, IBM Research and arXiv collectors rem
 
 Keyfactor RSS redirects to the blog HTML. The existing official Keyfactor watch collector now reads only article paths on that blog; 9 dated articles, zero warnings. The obsolete RSS stays disabled with its replacement named.
 
-NSA advisories, Rigetti investor RSS, Entrust Blog and MITRE newsroom still returned HTTP 403. No access restriction was bypassed. Quantum Zeitgeist RSS returned 200 entries, but its previously disabled configuration is retained pending article/admission review; QuantumNews.ai’s index was reachable, but its historically duplicated/blocked linked coverage has not been cleared. Every disabled source has its recorded reason, current check and recheck-by date.
+NSA advisories, Rigetti investor RSS, Entrust Blog and MITRE newsroom still returned HTTP 403. No access restriction was bypassed. Quantum Zeitgeist RSS returned 200 entries; a subsequent actual collector check returned 40 dated articles with zero warnings, so the feed is restored for the next normal collection (its historical HTTP 403 remains recorded); QuantumNews.ai’s index was reachable, but its historically duplicated/blocked linked coverage has not been cleared. Every disabled source has its recorded reason, current check and recheck-by date.
 
 Raw bounded public checks are in `docs/verification/round5-sources.json`. Historical observations and published reports were not overwritten.
