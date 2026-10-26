@@ -238,7 +238,7 @@
       : "";
     const readButton =
       prefs && text(item.id)
-        ? `<button type="button" class="news-read-toggle" data-news-read="${esc(item.id)}" aria-pressed="${Boolean(read)}">${read ? "Mark unread" : "Mark read"}</button>`
+        ? `<button type="button" class="news-read-toggle" data-news-read="${esc(item.id)}" aria-pressed="${Boolean(read)}">${window.ScoutRead.label(read)}</button>`
         : "";
     const whyNow =
       variant === "lead" &&

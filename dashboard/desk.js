@@ -96,9 +96,9 @@
   window.addEventListener("scout:read-state", () => {
     document.querySelectorAll("[data-read]").forEach(button => {
       const active = read.has(button.dataset.read);
-      button.textContent = active ? "✓ Read" : "Mark read";
+      button.textContent = read.label(active);
       button.setAttribute("aria-pressed", String(active));
-      button.setAttribute("aria-label", active ? "Mark story unread" : "Mark story read");
+      button.setAttribute("aria-label", read.label(active));
       button.classList.toggle("is-read", active);
       button.closest("[data-story]")?.classList.toggle("is-read", active);
     });
@@ -396,7 +396,7 @@
 
   function readButton(item) {
     const active = read.has(item.id);
-    return `<button type="button" class="story-read ${active ? "is-read" : ""}" data-read="${esc(item.id)}" aria-pressed="${active}" aria-label="${active ? "Mark unread" : "Mark read"}: ${esc(item.title)}">${active ? "✓ Read" : "Mark read"}</button>`;
+    return `<button type="button" class="story-read ${active ? "is-read" : ""}" data-read="${esc(item.id)}" aria-pressed="${active}" aria-label="${read.label(active)}: ${esc(item.title)}">${read.label(active)}</button>`;
   }
 
   function notebookForm(item) {
@@ -1509,8 +1509,8 @@
         "story";
       document.querySelectorAll(`[data-read="${CSS.escape(id)}"]`).forEach(el => {
         el.setAttribute("aria-pressed", String(read.has(id)));
-        el.setAttribute("aria-label", `${read.has(id) ? "Mark unread" : "Mark read"}: ${title}`);
-        el.textContent = read.has(id) ? "✓ Read" : "Mark read";
+        el.setAttribute("aria-label", `${read.label(read.has(id))}: ${title}`);
+        el.textContent = read.label(read.has(id));
         el.classList.toggle("is-read", read.has(id));
         el.closest("[data-story]").classList.toggle("is-read", read.has(id));
       });
