@@ -678,7 +678,8 @@
         .querySelectorAll("[data-news-topic]")
         .forEach(button => {
           const topic = button.dataset.newsTopic;
-          button.hidden = topic !== "all" && all.filter(item => topics(item).includes(topic)).length < 3;
+          button.hidden =
+            topic !== "all" && all.filter(item => topics(item).includes(topic)).length < 3;
           button.setAttribute("aria-pressed", String(topic === state.topic));
         });
       $("news-loading").hidden = true;
@@ -834,10 +835,17 @@
     render();
   }
 
-  window.ScoutNews = { init, refresh: render, topics, topicLabels: TOPICS,
+  window.ScoutNews = {
+    init,
+    refresh: render,
+    topics,
+    topicLabels: TOPICS,
     browse(query = "", topic = "all") {
-      state.search = query; state.topic = Object.hasOwn(TOPICS, topic) ? topic : "all";
-      state.feed = "all"; state.unread = false; state.limit = 6;
+      state.search = query;
+      state.topic = Object.hasOwn(TOPICS, topic) ? topic : "all";
+      state.feed = "all";
+      state.unread = false;
+      state.limit = 6;
       $("news-search").value = query;
       location.hash = "news";
       if (state.data) render();

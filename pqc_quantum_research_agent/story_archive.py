@@ -568,7 +568,14 @@ def _list(values: object, fallback: str = "") -> str:
 
 
 def _shell(
-    title: str, description: str, body: str, *, relative: str, canonical: str, version: str, image: str = ""
+    title: str,
+    description: str,
+    body: str,
+    *,
+    relative: str,
+    canonical: str,
+    version: str,
+    image: str = "",
 ) -> str:
     canonical_tag = f'<link rel="canonical" href="{_text(canonical)}">' if canonical else ""
     return f'''<!doctype html>
@@ -614,7 +621,11 @@ def _display_date(value):
 def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None) -> str:
     story = record["story"]
     detail = story.get("news_detail") or {}
-    has_analysis = bool(detail.get("why_it_matters")) and detail.get("analysis_label") != "No additional assessment" and not str(detail.get("why_it_matters", "")).startswith("No additional impact assessment")
+    has_analysis = (
+        bool(detail.get("why_it_matters"))
+        and detail.get("analysis_label") != "No additional assessment"
+        and not str(detail.get("why_it_matters", "")).startswith("No additional impact assessment")
+    )
     editorial = story.get("news_editorial") or {}
     assessment_heading = (
         "Assessment scope"
@@ -686,7 +697,11 @@ def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None)
         )
         if label not in group["labels"]:
             group["labels"].append(label)
-        if explanation and explanation not in group["bases"] and not explanation.startswith("This source statement supports the distinction"):
+        if (
+            explanation
+            and explanation not in group["bases"]
+            and not explanation.startswith("This source statement supports the distinction")
+        ):
             group["bases"].append(explanation)
         if source not in group["sources"]:
             group["sources"].append(source)
@@ -779,7 +794,8 @@ def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None)
     )
     assessment = (
         f'<section><p class="eyebrow">{_text(detail.get("analysis_label") or "RULE-BASED INTERPRETATION")}</p><h2>{assessment_heading}</h2><p>{_text(detail.get("why_it_matters"))}</p>{basis_html}{next_step_html}</section>'
-        if has_analysis else ""
+        if has_analysis
+        else ""
     )
     return f"""<article><p class="eyebrow">SOURCE BRIEFING · {_text(editorial.get("label") or "Captured coverage")}</p>
 <h1>{_text(story["title"])}</h1><p class="source-line">{_text(story.get("source"))} · {_text(editorial.get("source_perspective") or story.get("source_kind_label") or "Source type not verified")}</p>
@@ -803,7 +819,12 @@ def write_story_archive(archive: dict, output: Path, *, repo_url: str, asset_ver
         story = record["story"]
         description = story.get("summary") or story["title"]
         preview = story.get("image") or {}
-        image = _source_url(preview.get("image_url")) if preview.get("status") == "ok" and _canonical(preview.get("page_url")) == _canonical(story.get("url")) else ""
+        image = (
+            _source_url(preview.get("image_url"))
+            if preview.get("status") == "ok"
+            and _canonical(preview.get("page_url")) == _canonical(story.get("url"))
+            else ""
+        )
         image = image or base + "images/news-quantum.png"
         path.write_text(
             _shell(

@@ -64,6 +64,7 @@ def public_payload(payload):
         elif isinstance(value, list):
             for child in value:
                 compact(child)
+
     compact(data)
     return data
 

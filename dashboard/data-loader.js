@@ -25,9 +25,11 @@
     const news = value.news_intelligence;
     if (news && Array.isArray(news.accounts)) {
       const stories = new Map((news.stories || []).map(row => [row.id, row]));
-      news.accounts = news.accounts.map(row => typeof row === "string"
-        ? { ...stories.get(row), ...news.account_records?.[row], id: row }
-        : row);
+      news.accounts = news.accounts.map(row =>
+        typeof row === "string"
+          ? { ...stories.get(row), ...news.account_records?.[row], id: row }
+          : row,
+      );
     }
     return value;
   }

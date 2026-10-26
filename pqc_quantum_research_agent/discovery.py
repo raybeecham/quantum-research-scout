@@ -1,4 +1,5 @@
 """Static Atom, sitemap and robots artifacts. No network requests."""
+
 from datetime import datetime, timezone
 from xml.etree import ElementTree as ET
 
@@ -13,15 +14,21 @@ def write_discovery(payload, archive, output):
     updated = instant.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
     ns = "http://www.w3.org/2005/Atom"
     ET.register_namespace("", ns)
+
     def tag(parent, name, text=None, **attributes):
         node = ET.SubElement(parent, f"{{{ns}}}{name}", attributes)
         node.text = text
         return node
+
     feed = ET.Element(f"{{{ns}}}feed", {"{http://www.w3.org/XML/1998/namespace}lang": "en"})
     tag(feed, "title", "Frontier Signal")
     tag(feed, "id", base)
     tag(feed, "updated", updated)
-    tag(feed, "subtitle", "Source-linked emerging technology coverage. Collection updates are not publisher dates.")
+    tag(
+        feed,
+        "subtitle",
+        "Source-linked emerging technology coverage. Collection updates are not publisher dates.",
+    )
     tag(feed, "link", href=base + "feed.xml", rel="self", type="application/atom+xml")
     tag(feed, "link", href=base, rel="alternate", type="text/html")
     tag(tag(feed, "author"), "name", "Frontier Signal")
@@ -42,4 +49,6 @@ def write_discovery(payload, archive, output):
         node = ET.SubElement(sitemap, f"{{{sitemap_ns}}}url")
         ET.SubElement(node, f"{{{sitemap_ns}}}loc").text = base + path
     ET.ElementTree(sitemap).write(output / "sitemap.xml", encoding="utf-8", xml_declaration=True)
-    (output / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {base}sitemap.xml\n", encoding="utf-8")
+    (output / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\nSitemap: {base}sitemap.xml\n", encoding="utf-8"
+    )

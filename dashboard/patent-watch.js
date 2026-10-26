@@ -252,7 +252,17 @@
   }
   function relatedReadings(item, readings) {
     const text = normalize(`${item.title || ""} ${hasTechnicalText(item) ? item.summary : ""}`);
-    const specific = ["ml kem", "ml dsa", "slh dsa", "kyber", "dilithium", "surface code", "quantum key distribution", "smart dust", "secure boot"];
+    const specific = [
+      "ml kem",
+      "ml dsa",
+      "slh dsa",
+      "kyber",
+      "dilithium",
+      "surface code",
+      "quantum key distribution",
+      "smart dust",
+      "secure boot",
+    ];
     const terms = specific.filter(t => matchesPhrase(text, t));
     const seen = new Set();
     return readings
