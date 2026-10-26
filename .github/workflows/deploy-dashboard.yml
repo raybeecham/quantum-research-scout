@@ -12,6 +12,7 @@ on:
       - "scripts/enrich_story_images.py"
       - "pqc_quantum_research_agent/story_images.py"
       - "pqc_quantum_research_agent/briefing.py"
+      - "pqc_quantum_research_agent/hourly_news.py"
       - "pqc_quantum_research_agent/technology_briefing.py"
       - "pqc_quantum_research_agent/news_intelligence.py"
       - "pqc_quantum_research_agent/dashboard_data.py"
@@ -28,6 +29,7 @@ on:
   workflow_run:
     workflows:
       - "Frontier Signal Daily Briefing"
+      - "Frontier Signal Hourly News"
       - "Frontier Signal Weekly Synthesis"
       - "Frontier Signal Monthly Synthesis"
       - "Weekly Historical Intelligence Backfill"
@@ -63,13 +65,13 @@ jobs:
             // Successful catch-up no-ops also rebuild Pages: they can recover a
             // failed deployment without collecting evidence or sending alerts.
             let deploy = !run || run.conclusion === 'success';
-            if (run && !deploy && ['Frontier Signal Daily Briefing', 'Frontier Signal Weekly Synthesis'].includes(run.name)) {
+            if (run && !deploy && ['Frontier Signal Daily Briefing', 'Frontier Signal Weekly Synthesis', 'Frontier Signal Hourly News'].includes(run.name)) {
               const jobs = await github.paginate(github.rest.actions.listJobsForWorkflowRun, {
                 ...context.repo, run_id: run.id, per_page: 100
               });
               // A later notification/artifact failure must not strand a report
               // that passed validation and was successfully committed/pushed.
-              const published = new Set(['Commit generated reports and publication receipt', 'Commit generated weekly reports']);
+              const published = new Set(['Commit generated reports and publication receipt', 'Commit generated weekly reports', 'Commit hourly news refresh']);
               deploy = jobs.some(job => (job.steps || []).some(step => published.has(step.name) && step.conclusion === 'success'));
             }
             core.setOutput('deploy', String(deploy));
@@ -122,6 +124,7 @@ jobs:
           python scripts/verify_frontier_round2_browser.py --channel chromium
           python scripts/verify_lazy_data_browser.py --channel chromium
           python scripts/verify_round4_browser.py --channel chromium
+          python scripts/verify_hourly_news_browser.py --channel chromium
           python scripts/verify_accessibility_browser.py --channel chromium
           xvfb-run -a python scripts/verify_publication_gate.py --channel chromium --headed
 

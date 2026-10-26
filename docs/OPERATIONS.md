@@ -53,12 +53,19 @@ Public bibliographic records are cached in `reports/citations.json` and committe
 | Workflow | Schedule | Result |
 |---|---|---|
 | **Daily research scout** | Primary: `00:00 UTC` (7 p.m. CDT / 6 p.m. CST); catch-up checks: `00:17`, `02:17`, `04:17 UTC` | Collects evidence once per successfully published period, refreshes ledgers and alerts, and prunes daily reports older than 30 days |
+| **Hourly news** | `43 * * * *` (minute 43 of every hour) | Public RSS, research feeds, and news pages; 48-hour overlap; no patent/procurement APIs or repeated daily notifications; validated runs trigger Pages |
 | **Weekly synthesis** | Primary: Friday `08:00 America/Chicago`; catch-up checks: Friday `08:17`, `10:17`, `12:17` in the same zone | Consolidates Monday through the fixed Friday 8 a.m. cutoff; adjusts automatically for daylight saving time |
 | **Monthly synthesis** | First day of each month | Consolidates the completed operational month |
 | **Historical backfill** | Sunday at `03:00 UTC` | Refreshes bounded official-source history and readiness evidence without triggering retroactive alerts |
 | **Pages deployment** | After intelligence workflows and relevant pushes | Rebuilds the static dashboard with versioned assets |
 
 ### Publication reliability and recovery
+
+Hourly news runs use `--hourly-news`, keeping their snapshots under `reports/hourly/` for seven days. Public source evidence is retained in the archive before snapshots expire. The 48-hour overlap covers late feed publication and short scheduling gaps; it does not guarantee that every publisher item is discoverable. Existing topical relevance, scoring, and selection limits still apply. Source URLs are deduplicated when the dashboard is built. Daily report files, publication receipts, Friday's 8 a.m. cutoff, and daily notifications are not rewritten by the hourly pass.
+
+The hourly pass checks public news feeds/pages, arXiv RSS and IACR; reference-only pages, patent APIs, procurement APIs and full intelligence enrichment remain on their existing schedules. Only checked sources get new health observations. An entirely empty collection fails rather than claiming a successful news refresh. The homepage displays the actual hourly check time and warns after three hours without a new hourly snapshot. Open tabs need a reload to receive newly deployed data.
+
+For manual recovery, use **Actions → Frontier Signal Hourly News → Run workflow** from `main`. A successful run triggers the existing Pages deployment and its browser/accessibility gates through `workflow_run`, since bot report commits do not trigger another push workflow. Hourly and daily writers share a concurrency lock. GitHub can delay or coalesce queued runs, so this is hourly polling, not guaranteed within-the-hour delivery. No extra provider keys are required; Actions usage and public publisher requests increase.
 
 These are **requested start times, not publication deadlines**. Collection, validation and Pages deployment take additional time. GitHub can delay or drop scheduled events; the off-peak catch-ups reduce dependence on a single event, but use the same scheduler and are not an independent uptime guarantee. See [GitHub's scheduling limitations](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule). No external scheduler, paid service, or additional secret is required for this setup.
 

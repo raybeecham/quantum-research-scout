@@ -35,6 +35,10 @@ assert.equal(d.editionNotice({edition_comparison:{current_report_date:'2026-10-2
 assert.equal(d.editionNotice({edition_comparison:{current_report_date:'2026-10-25',current_report_link_count:2,added_count:0}}), '');
 assert.equal(d.editionNotice({edition_comparison:{current_report_date:'invalid',current_report_link_count:0}}), '');
 assert.equal(d.editionNotice({}), '');
+const hourly={...empty,news_refresh:{collected_at:'2026-10-26T18:43:00+00:00'}};
+assert.match(d.editionNotice(hourly,[{report_date:'2026-10-26'}]),/separately collected hourly news/);
+assert.equal(d.collectionLabel(hourly),'News checked Oct 26, 2026, 6:43 PM UTC · hourly schedule');
+assert.equal(d.collectionLabel({edition_date:'2026-10-25',collected_at:'2026-10-26T00:40:00Z'}),'Report window ends Oct 25, 2026 · collected Oct 26, 2026');
 """,
         ],
         cwd=Path(__file__).resolve().parents[1],

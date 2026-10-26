@@ -25,6 +25,12 @@ from .dedupe import dedupe_items, prepare_identity
 from .entity_watch import write_entity_watch
 from .federal_funding import write_federal_funding_tracker
 from .federal_missions import write_federal_mission_tracker
+from .hourly_news import (
+    news_config,
+    prune_news_snapshots,
+    record_news_refresh,
+    write_news_snapshot,
+)
 from .http import HttpClient
 from .monthly import write_monthly_report
 from .patents import write_patent_tracker
@@ -36,7 +42,11 @@ from .report_index import write_report_index
 from .retention import prune_daily_reports
 from .scoring_calibration import write_scoring_calibration
 from .signals import write_signal_tracker
-from .source_health import write_source_health_report, write_source_observations
+from .source_health import (
+    _configured_sources,
+    write_source_health_report,
+    write_source_observations,
+)
 from .standards import write_standards_timeline
 from .storage import ResearchStore
 from .story_archive import refresh_story_evidence
@@ -57,6 +67,11 @@ def build_parser() -> argparse.ArgumentParser:
         "--db", default="data/research_items.sqlite", help="Path to SQLite database."
     )
     parser.add_argument("--reports-dir", default="reports", help="Directory for Markdown digests.")
+    parser.add_argument(
+        "--hourly-news",
+        action="store_true",
+        help="Refresh public news over a 48-hour overlap, without modifying daily reports or API-heavy trackers.",
+    )
     parser.add_argument(
         "--weekly",
         action="store_true",
@@ -239,6 +254,25 @@ def main(argv: list[str] | None = None) -> int:
     _configure_stdout()
     parser = build_parser()
     args = parser.parse_args(argv)
+    if args.hourly_news:
+        if any(
+            (
+                args.weekly,
+                args.monthly,
+                args.date,
+                args.coverage_end_time,
+                args.historical,
+                args.prune_daily_reports,
+                args.update_intelligence_tracking,
+                args.update_report_index,
+                args.lookback_hours is not None,
+                args.use_arxiv_api,
+            )
+        ):
+            parser.error(
+                "--hourly-news cannot be combined with report, history, or enrichment modes"
+            )
+        args.lookback_hours = 48
     logging.basicConfig(
         level=logging.DEBUG if args.verbose else logging.INFO,
         format="%(asctime)s %(levelname)s %(name)s: %(message)s",
@@ -273,6 +307,8 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     config = load_config(args.config)
+    if args.hourly_news:
+        config = news_config(config)
     source_weights = load_weight_file(args.source_weights)
     keyword_weights = load_weight_file(args.keyword_weights)
     if args.min_score is not None:
@@ -321,6 +357,20 @@ def main(argv: list[str] | None = None) -> int:
     )
     collection = collect_all(config)
     candidates = collection.items
+    if args.hourly_news and not candidates:
+        # Do not stamp an entirely failed/empty collection as a fresh news pass.
+        if not args.dry_run:
+            write_source_observations(
+                Path(args.reports_dir),
+                config,
+                collection,
+                generated_at=generated_at,
+                checked_sources={name for name, _ in _configured_sources(config)[0]},
+            )
+            write_source_health_report(Path(args.reports_dir), args.config)
+        raise SystemExit(
+            "Hourly collection returned no candidates; keeping the published snapshot."
+        )
     LOGGER.info("Collected %d raw candidates", len(candidates))
     LOGGER.info("Recorded %d source warnings", len(collection.warnings))
 
@@ -387,26 +437,31 @@ def main(argv: list[str] | None = None) -> int:
                 print(f"- {warning.source_name} [{warning.source_type}]: {warning.message}")
         return 0
 
-    store = ResearchStore(args.db)
-    try:
-        unique = dedupe_items(
-            classified,
-            store.existing_items(),
-            fuzzy_threshold=config.settings.fuzzy_title_threshold,
-        )
-        inserted = []
-        for item in unique:
-            item_id = store.insert_item(item)
-            if item_id is not None:
-                inserted.append(item)
-        date_summary.new_unique_items_saved = len(inserted)
-        LOGGER.info("Inserted %d new unique items", len(inserted))
-    finally:
-        store.close()
+    if not args.hourly_news:
+        store = ResearchStore(args.db)
+        try:
+            unique = dedupe_items(
+                classified,
+                store.existing_items(),
+                fuzzy_threshold=config.settings.fuzzy_title_threshold,
+            )
+            inserted = []
+            for item in unique:
+                item_id = store.insert_item(item)
+                if item_id is not None:
+                    inserted.append(item)
+            date_summary.new_unique_items_saved = len(inserted)
+            LOGGER.info("Inserted %d new unique items", len(inserted))
+        finally:
+            store.close()
+    # Hourly evidence is persisted below in snapshots and the public archive.
+    # Do not rebuild an ephemeral database or race the daily database cache.
 
-    report_path = write_daily_digest(
+    writer = write_news_snapshot if args.hourly_news else write_daily_digest
+    report_path = writer(
         report_candidates,
         Path(args.reports_dir),
+        **({"generated_at": generated_at} if args.hourly_news else {}),
         warnings=collection.warnings,
         summary=date_summary,
         top_n=report_top_n,
@@ -436,8 +491,21 @@ def main(argv: list[str] | None = None) -> int:
         )
     # Record collector outcomes for every collection, including the isolated
     # Friday snapshot, before optional enrichment can fail.
-    write_source_observations(Path(args.reports_dir), config, collection, generated_at=generated_at)
+    write_source_observations(
+        Path(args.reports_dir),
+        config,
+        collection,
+        generated_at=generated_at,
+        checked_sources={name for name, _ in _configured_sources(config)[0]}
+        if args.hourly_news
+        else None,
+    )
     write_source_health_report(Path(args.reports_dir), args.config)
+    if args.hourly_news:
+        record_news_refresh(
+            Path(args.reports_dir), generated_at=generated_at, item_count=len(report_preview)
+        )
+        prune_news_snapshots(Path(args.reports_dir), generated_at=generated_at)
     if args.update_intelligence_tracking:
         write_patent_tracker(
             Path(args.reports_dir),

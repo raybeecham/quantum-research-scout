@@ -70,7 +70,7 @@ python -m http.server 8765 --bind 127.0.0.1 --directory site
 
 Open [localhost:8765](http://localhost:8765). The dashboard is static HTML, CSS, and JavaScript; no frontend build system or paid AI service required.
 
-Collection starts daily at **7 p.m. CDT / 6 p.m. CST** (`00:00 UTC`). Weekly synthesis is requested on **Friday at 8:00 a.m. America/Chicago**, covering Monday through that cutoff; monthly reports provide the longer view. Both daily and weekly runs have three off-peak catch-up checks that skip already-published reports. These are best-effort start times, not guaranteed publication deadlines. The page shows the report edition separately from collection health and site build time. See [schedules and recovery](docs/OPERATIONS.md#publication-reliability-and-recovery).
+News collection is scheduled **every hour at :43**, with a 48-hour overlapping window to catch delayed stories. Successful refreshes rebuild the site after publication checks. The homepage shows the actual news-check time, not just the build time. Patent, procurement, and full intelligence updates remain daily at **7 p.m. CDT / 6 p.m. CST** (`00:00 UTC`). Weekly synthesis stays on **Friday at 8:00 a.m. America/Chicago**, covering Monday through that cutoff; monthly reports provide the longer view. Daily and weekly catch-up checks remain in place. GitHub schedules and deployment are best effort, not guaranteed deadlines or a real-time feed. See [schedules and recovery](docs/OPERATIONS.md#publication-reliability-and-recovery).
 
 [Collection, schedules & API keys](docs/OPERATIONS.md) · [Reading-desk guide](docs/READING-DESK.md) · [Development & tests](CONTRIBUTING.md)
 
