@@ -42,13 +42,29 @@ def main():
         page.on("request", lambda r: posts.append(r.url) if r.method == "POST" else None)
         page.route("**/data/{index,dashboard}.json*", lambda route: route.fulfill(json=payload))
         page.goto(args.url + "/#briefing")
-        expect(page.locator(".coverage-strip")).to_have_count(4)
+        counts = {
+            topic: sum(
+                topic in row["news_topics"] for row in payload["news_intelligence"]["stories"]
+            )
+            for topic in ("security", "quantum", "ai", "cloud", "government")
+        }
+        expect(page.locator(".coverage-strip")).to_have_count(
+            sum(count >= 3 for count in counts.values())
+        )
+        for topic, count in counts.items():
+            if count >= 3:
+                expect(page.locator(f'[data-news-browse="{topic}"] strong')).to_have_text(
+                    str(count)
+                )
         page.locator("#briefing-visual").scroll_into_view_if_needed()
         page.screenshot(path=str(output / "exploration-briefing.png"))
-        page.locator(".briefing-timeline > summary").click()
-        expect(page.locator(".briefing-timeline")).to_contain_text("Report dates, not event")
-        page.locator('[data-explore-topic="quantum"]').click()
+        expect(page.locator(".briefing-timeline")).to_have_count(0)
+        page.locator('[data-news-browse="quantum"]').click()
+        expect(page.locator("#news")).to_be_visible()
+        expect(page.locator("#news-active-filters")).to_contain_text("Quantum")
+        page.evaluate("location.hash = 'research'")
         expect(page.locator("#research-workspace")).to_be_visible()
+        page.locator('[data-map-topic="quantum"]').click()
         expect(page.locator('[data-map-topic="quantum"]')).to_have_attribute("aria-pressed", "true")
         expect(page.locator(".connection-column")).to_have_count(3)
         expect(page.locator(".connection-card").first).to_be_visible()
@@ -89,10 +105,12 @@ def main():
         page.locator('[data-map-topic="security"]').click()
         expect(page.locator("#technology-map img")).to_have_count(0)
         expect(page.locator('#technology-map a[href^="javascript:"]')).to_have_count(0)
-        expect(page.locator(".connection-card")).to_have_count(1)
+        expect(page.locator(".connection-column").last.locator("li")).to_have_count(1)
+        expect(page.locator(".connection-column").last).to_contain_text("<img")
         expect(page.locator("#map-branches")).to_contain_text("coverage gap")
         page.evaluate("ScoutExploration.renderBriefing([], {})")
-        expect(page.locator("#briefing-visual")).to_contain_text("0 distinct source links")
+        expect(page.locator("#briefing-visual")).to_contain_text("Browse all 0 stories")
+        expect(page.locator(".coverage-strip")).to_have_count(0)
         assert not posts, posts
         assert not errors, errors
         context.close()

@@ -30,6 +30,7 @@ def dashboard_fixture() -> dict:
     # Exercise legacy snapshot compatibility independently of curated-feed tests.
     payload.pop("news_intelligence", None)
     now = datetime.now(timezone.utc)
+    payload["collected_at"] = now.isoformat()
     today = now.date().isoformat()
     yesterday = (now - timedelta(days=1)).date().isoformat()
 
@@ -118,6 +119,12 @@ def dashboard_fixture() -> dict:
     ]
     for item, invalid in zip(stories[8:], invalid_previews, strict=True):
         item["image"] = preview(item, **invalid)
+    # Each clickable topic needs three stories under the new coverage threshold.
+    for topic, count in [("quantum", 1), ("ai", 1), ("cloud", 2), ("government", 1)]:
+        stories.extend(
+            story(f"extra-{topic}-{i}", f"Additional {topic} subject {i}", topic)
+            for i in range(count)
+        )
     duplicate = copy.deepcopy(stories[1])
     duplicate.update(
         id="duplicate-quantum",
@@ -250,6 +257,15 @@ def main() -> None:
 
         context.route("**/*", intercept)
         page.goto(base + "/")
+        page.wait_for_function(
+            "typeof state !== 'undefined' && state.data && document.getElementById('main').getAttribute('aria-busy') !== 'true'"
+        )
+        assert not errors, errors
+        assert not page.locator("#desk-error").is_visible(), page.locator(
+            "#desk-error"
+        ).inner_text()
+        for invalid in (None, {}, {"url": "javascript:alert(1)"}, {"url": "not a URL"}):
+            assert page.evaluate("item => ScoutNews.topics(item)", invalid) == []
         expect(page.locator("#news")).to_be_visible()
         expect(page.locator('[data-workspace="news"]')).to_have_attribute("aria-current", "page")
         expect(page.locator("#news article[data-news-id]")).to_have_count(10)
@@ -279,7 +295,7 @@ def main() -> None:
             page.locator("#news-more").click()
             expect(page.locator("#news article[data-news-id]")).not_to_have_count(previous)
         ids = displayed_ids(page)
-        assert len(ids) == 20, ids
+        assert len(ids) == 25, ids  # Original 20 plus five minimum-topic controls.
         assert len(set(ids)) == len(ids)
         assert len({"latest-quantum", "duplicate-quantum"}.intersection(ids)) == 1
         assert ids[-1] == "older-high", ids
@@ -403,16 +419,19 @@ def main() -> None:
         state["payload"]["reading_brief"]["collected_at"] = (
             datetime.now(timezone.utc) - timedelta(days=10)
         ).isoformat()
+        state["payload"]["collected_at"] = state["payload"]["reading_brief"]["collected_at"]
         page.reload()
         expect(page.locator("#news article[data-news-id]")).to_have_count(10)
         expect(page.locator("#news-status")).to_have_attribute("data-freshness", "stale")
         expect(page.locator("#news-status")).to_contain_text("not a live news feed")
         state["payload"]["reading_brief"]["collected_at"] = ""
+        state["payload"]["collected_at"] = ""
         page.reload()
         expect(page.locator("#news-status")).to_have_attribute("data-freshness", "unknown")
         state["payload"]["reading_brief"]["collected_at"] = (
             datetime.now(timezone.utc) + timedelta(days=10)
         ).isoformat()
+        state["payload"]["collected_at"] = state["payload"]["reading_brief"]["collected_at"]
         page.reload()
         expect(page.locator("#news-status")).to_have_attribute("data-freshness", "future")
 

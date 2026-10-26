@@ -67,6 +67,9 @@
   }
 
   function topics(item) {
+    // Shared topic counts also inspect legacy, not-yet-filtered collections.
+    // A malformed source must not crash every workspace during initialization.
+    if (!item || typeof item !== "object" || !sourceUrl(item.url)) return [];
     if (Array.isArray(item.news_topics))
       return item.news_topics.filter(id => id !== "all" && Object.hasOwn(TOPICS, id));
     const haystack = `${text(item.title)} ${text(item.summary)} ${(Array.isArray(item.key_points) ? item.key_points : []).filter(x => typeof x === "string").join(" ")}`;

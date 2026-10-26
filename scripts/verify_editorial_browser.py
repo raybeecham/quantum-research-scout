@@ -321,7 +321,15 @@ def main() -> None:
         expect(dialog).to_be_visible()
         expect(dialog.locator("[data-news-detail-close]")).to_be_focused()
         selected = next(item for item in data["stories"] if item["id"] == lead_id)
-        if selected["news_detail"].get("analysis_specificity") == "stage_only":
+        detail = selected["news_detail"]
+        if (
+            detail.get("analysis_label") == "No additional assessment"
+            or not detail.get("why_it_matters")
+            or detail.get("why_it_matters", "").startswith("No additional impact assessment")
+        ):
+            expect(dialog.locator(".news-detail-analysis, .news-detail-limited")).to_have_count(0)
+            expect(dialog).not_to_contain_text("No additional impact assessment")
+        elif selected["news_detail"].get("analysis_specificity") == "stage_only":
             expect(dialog.get_by_role("region", name="Assessment scope")).to_be_visible()
             expect(dialog.locator("#news-detail-impact-title")).to_have_count(0)
         else:
@@ -349,10 +357,11 @@ def main() -> None:
                 page.evaluate("scrollTo(0, 0)")
                 assert_no_overflow(page)
                 page.screenshot(path=str(args.output / f"front-{theme}-{width}.png"))
-                expect(page.locator("#news-browse")).to_be_visible()
-                page.locator("#news-browse").click()
+                expect(page.locator("#news-browse")).to_have_count(0)
+                page.locator("#news-skip-feature").click()
+                expect(page.locator("#news-latest-heading")).to_be_focused()
+                page.locator("#news-tools > summary").click()
                 assert page.locator("#news-tools").evaluate("node => node.open")
-                expect(page.locator("#news-tools > summary")).to_be_focused()
                 assert_no_overflow(page)
                 page.locator(f'[data-news-detail="{lead_id}"]').click()
                 assert_no_overflow(page, dialog=True)

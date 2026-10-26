@@ -451,10 +451,15 @@ def main() -> None:
             "aria-current", "page"
         )
         open_route(page, "start")
+        expect(page.locator(".start-access-note")).to_contain_text(
+            "Hosted AI and paper search are invite-only"
+        )
+        questions_before_browse = read_questions(page)
         page.locator("#start-interest").fill("Cryptographic inventory coverage")
         page.locator("#start-topic-form").evaluate("form => form.requestSubmit()")
-        expect(page.locator("#questions")).to_be_visible()
-        expect(page.locator("#lab-interest")).to_have_value("Cryptographic inventory coverage")
+        expect(page.locator("#news")).to_be_visible()
+        expect(page.locator("#news-search")).to_have_value("Cryptographic inventory coverage")
+        assert read_questions(page) == questions_before_browse
         assert not posts, posts
         assert not errors, errors
         context.close()

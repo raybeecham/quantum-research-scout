@@ -79,13 +79,21 @@ def main():
         oldest_title = oldest.inner_text()
         oldest_metadata = page.locator("[data-archive-entry]").last.inner_text()
         oldest_observed = re.search(
-            r"Last report observation: (\d{4}-\d{2}-\d{2})", oldest_metadata
+            r"Last report observation: ([A-Z][a-z]{2} \d{1,2}, \d{4})", oldest_metadata
         ).group(1)
         oldest.click()
         expect(page.locator("h1")).to_have_text(oldest_title)
         expect(page.locator(".story-dates")).to_contain_text(oldest_observed)
         page.get_by_role("link", name="Briefing archive", exact=True).click()
-        first_link = page.locator("[data-archive-entry] h2 a").first
+        current = next(
+            row
+            for row in payload["stories"]
+            if row.get("news_detail", {}).get("why_it_matters")
+            and row["news_detail"].get("analysis_label") != "No additional assessment"
+        )
+        first_link = page.locator(
+            f'[data-archive-entry] h2 a[href="{current["story_url"].removeprefix("stories/")}"]'
+        )
         relative = first_link.get_attribute("href")
         assert relative and re.fullmatch(r"[a-f0-9]{24}/index\.html", relative)
         expected_title = first_link.inner_text()
@@ -95,8 +103,17 @@ def main():
         assessment = page.get_by_role(
             "heading", name=re.compile(r"^(What this could change|Assessment scope)$")
         )
-        expect(assessment).to_have_count(1)
-        expect(assessment).to_be_visible()
+        detail = current["news_detail"]
+        has_analysis = (
+            bool(detail.get("why_it_matters"))
+            and detail.get("analysis_label") != "No additional assessment"
+            and not detail.get("why_it_matters", "").startswith("No additional impact assessment")
+        )
+        expect(assessment).to_have_count(1 if has_analysis else 0)
+        if has_analysis:
+            expect(assessment).to_be_visible()
+        else:
+            expect(page.locator("body")).not_to_contain_text("No additional impact assessment")
         expect(page.get_by_role("heading", name="Observation history")).to_be_visible()
         assert (
             page.locator('link[rel="canonical"]')

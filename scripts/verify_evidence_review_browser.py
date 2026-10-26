@@ -70,6 +70,7 @@ def main():
         ]
     }
     payload["evidence_review"] = build_evidence_review(brief, missions, {})
+    payload["news_intelligence"]["stories"] = brief["stories"]
     with sync_playwright() as p:
         browser = p.chromium.launch(channel=args.channel, headless=True)
         context = browser.new_context(viewport={"width": 1440, "height": 1100})
@@ -79,15 +80,35 @@ def main():
         page.on("request", lambda r: posts.append(r.url) if r.method == "POST" else None)
         page.route("**/data/{index,dashboard}.json*", lambda route: route.fulfill(json=payload))
         page.goto(args.url + "/#briefing")
-        review = page.locator("#desk-lead .headline-review")
+        # Appraisal markup remains a reusable component; the duplicate lead feed is gone.
+        # Exercise that component explicitly without restoring obsolete UI in production.
+        review_fixture = next(
+            s["headline_review"] for s in brief["stories"] if s.get("headline_review")
+        )
+
+        def mount_review():
+            page.wait_for_function("window.ScoutEvidenceReview")
+            page.evaluate(
+                """review => {
+                document.getElementById('appraisal-fixture')?.remove();
+                const host = document.createElement('section'); host.id = 'appraisal-fixture';
+                host.innerHTML = ScoutEvidenceReview.headlineMarkup({headline_review: review});
+                document.getElementById('briefing').append(host);
+            }""",
+                review_fixture,
+            )
+
+        mount_review()
+        review = page.locator("#appraisal-fixture .headline-review")
         expect(review).to_be_visible()
         review.locator("summary").click()
-        expect(review).to_contain_text("Independent corroboration not assessed")
+        expect(review).to_contain_text(review_fixture["boundary"])
+        expect(review).to_contain_text(review_fixture["reported"])
         expect(review.locator(".headline-review-grid section")).to_have_count(2)
         review.scroll_into_view_if_needed()
         page.screenshot(path=str(output / "beyond-headline-desktop.png"))
-        page.locator("#desk-lead [data-read]").click()
-        expect(page.locator("#desk-lead .headline-review")).to_have_attribute("open", "")
+        page.locator("#desk-stories [data-read]").first.click()
+        expect(review).to_have_attribute("open", "")
         host = page.locator("#briefing-followups")
         expect(host).to_be_visible()
         expect(host.locator(".followup-card")).to_have_count(2)
@@ -100,6 +121,9 @@ def main():
             "aria-pressed", "true"
         )
         page.reload()
+        page.wait_for_function(
+            "typeof state !== 'undefined' && state.data && document.getElementById('main').getAttribute('aria-busy') !== 'true'"
+        )
         expect(page.locator(f'[data-follow="{first_id}"]')).to_have_attribute(
             "aria-pressed", "true"
         )
@@ -115,14 +139,15 @@ def main():
         page.locator("#followups-more").click()
         assert host.locator(".followup-card").count() > 2
         page.locator("#followups-more").click()
+        mount_review()
         for width in (1920, 1440, 1150, 900, 640, 390):
             page.set_viewport_size({"width": width, "height": 1000})
-            page.locator("#desk-lead .headline-review").evaluate("el => el.open = true")
+            review.evaluate("el => el.open = true")
             host.locator(".followup-timeline").first.evaluate("el => el.open = true")
             assert page.evaluate("document.documentElement.scrollWidth <= innerWidth + 1"), width
         host.scroll_into_view_if_needed()
         page.screenshot(path=str(output / "followups-mobile.png"))
-        page.locator("#desk-lead .headline-review").scroll_into_view_if_needed()
+        review.scroll_into_view_if_needed()
         page.screenshot(path=str(output / "beyond-headline-mobile.png"))
         # Hostile source text remains inert and credentialed/unsafe URLs are not links.
         review_fixture = copy.deepcopy(
@@ -157,6 +182,13 @@ def main():
         # Existing invalid data must never be overwritten by a follow click.
         page.evaluate("localStorage.setItem('quantum-scout:followups:v1', 'corrupt fixture')")
         page.reload()
+        page.wait_for_function(
+            "document.getElementById('main').getAttribute('aria-busy') !== 'true'"
+        )
+        assert not errors, errors
+        assert not page.locator("#desk-error").is_visible(), page.locator(
+            "#desk-error"
+        ).inner_text()
         page.locator("[data-follow]").first.click()
         expect(page.locator("#followup-save-status")).to_contain_text("Cannot save")
         assert (

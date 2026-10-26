@@ -31,6 +31,9 @@ def navigate_workspace(page: Page, route: str) -> None:
 
 
 def assert_home_page(page: Page) -> None:
+    page.wait_for_function(
+        "typeof state !== 'undefined' && state.data && window.ScoutData?.ready('news') && document.getElementById('main').getAttribute('aria-busy') !== 'true'"
+    )
     expect(page.locator("#news")).to_be_visible()
     expect(page.locator('[data-workspace="news"]')).to_have_attribute("aria-current", "page")
     expect(page.locator(".desk-workspace:visible")).to_have_count(1)
@@ -383,93 +386,71 @@ def main() -> None:
         assert not public_api_calls, public_api_calls
         public_context.close()
         assert page.locator(".desk-workspace:visible").count() == 1
-        expect(page.locator('[data-briefing-mode="decisions"]')).to_have_attribute(
+        # Latest owns the feed controls. Briefing is a bounded decision queue.
+        expect(page.locator("#reading-controls")).to_be_hidden()
+        expect(page.locator("#reports")).to_be_visible()
+        expect(page.locator("#desk-result-count")).to_have_text(
+            f"{len(payload['news_intelligence']['stories'])} stories in Latest"
+        )
+        decisions = page.locator("#desk-stories .decision-card")
+        assert 0 < decisions.count() <= 4
+        lead_id = decisions.first.get_attribute("data-story")
+        lead_record = next(s for s in payload["news_intelligence"]["stories"] if s["id"] == lead_id)
+        decisions.first.locator("[data-read]").click()
+        navigate_workspace(page, "news")
+        page.locator("#news-tools > summary").click()
+        page.locator("#news-unread").check()
+        expect(page.locator(f'[data-news-id="{lead_id}"]')).to_have_count(0)
+        page.reload()
+        page.wait_for_function("id => window.ScoutRead?.has(id)", arg=lead_id)
+        if not page.locator("#news-tools").evaluate("el => el.open"):
+            page.locator("#news-tools > summary").click()
+        page.locator("#news-unread").check()
+        expect(page.locator(f'[data-news-id="{lead_id}"]')).to_have_count(0)
+        if not page.locator("#news-tools").evaluate("el => el.open"):
+            page.locator("#news-tools > summary").click()
+        page.locator("#news-unread").uncheck()
+        while page.locator("#news-more").is_visible():
+            page.locator("#news-more").click()
+        page.locator(f'[data-news-read="{lead_id}"]').click()
+        page.locator('[data-news-topic="security"]').click()
+        expect(page.locator('[data-news-topic="security"]')).to_have_attribute(
             "aria-pressed", "true"
         )
-        expect(page.locator('[data-lens="emerging"]')).to_have_attribute("aria-pressed", "true")
-        expect(page.locator("#desk-lead")).to_contain_text("Suggested next step")
-        page.locator('[data-briefing-mode="research"]').click()
-        expect(page.locator('[data-lens="core"]')).to_have_attribute("aria-pressed", "true")
-        core_count = sum(
-            bool(set(s["lenses"]) & {"security", "quantum"})
-            for s in payload["reading_brief"]["stories"]
-        )
-        expect(page.locator("#desk-result-count")).to_contain_text(f"{core_count} reading")
-        expect(page.locator("#reading-window")).to_have_value("week")
-        page.locator('[data-lens="all"]').click()
-        page.locator("#reading-window").select_option("edition")
-        expect(page.locator("#reading-window")).to_have_value("edition")
-        latest_count = len(
-            [
-                s
-                for s in payload["reading_brief"]["stories"]
-                if s["report_date"] == payload["reading_brief"]["edition_date"]
-            ]
-        )
-        expect(page.locator("#desk-result-count")).to_contain_text(f"{latest_count} reading")
-        lead_id = page.locator(".lead-story").get_attribute("data-story")
-        lead_record = next(
-            (s for s in payload["reading_brief"]["stories"] if s["id"] == lead_id), {}
-        )
+        page.locator("#news-sort").select_option("recent")
+        assert page.locator("#news article[data-news-id]").count() > 0
+        page.locator('[data-news-topic="all"]').click()
+        navigate_workspace(page, "briefing")
+        expect(page.locator(f'[data-read="{lead_id}"]')).to_have_attribute("aria-pressed", "false")
+        page.locator(f'#briefing [data-save="{lead_id}"]').click()
+        navigate_workspace(page, "saved")
+        expect(page.locator("#saved-stories .reading-card")).to_have_count(1)
         if lead_record.get("citation", {}).get("kind") == "article":
-            page.locator(".lead-story .citation-details summary").click()
-            expect(page.locator(".lead-story .citation-details")).to_contain_text(
+            page.locator("#saved-stories .citation-details summary").click()
+            expect(page.locator("#saved-stories .citation-details")).to_contain_text(
                 "Article metadata"
             )
-            expect(page.locator(".lead-story .citation-details")).to_contain_text("Publisher")
-            page.locator(".lead-story").screenshot(path=str(args.output / "article-citation.png"))
-            page.locator(".lead-story .citation-details summary").click()
-        page.locator(".lead-story [data-read]").click()
-        expect(page.locator("#reading-progress")).to_contain_text("1 of")
-        page.locator("#unread-only").check()
-        assert page.locator(f'#briefing [data-story="{lead_id}"]').count() == 0
-        page.reload()
-        page.wait_for_selector(".lead-story h2")
-        expect(page.locator("#unread-only")).to_be_checked()
-        assert page.locator(f'#briefing [data-story="{lead_id}"]').count() == 0
-        page.locator("#unread-only").uncheck()
-        page.locator(".lead-story [data-read]").click()
-        page.locator("#reading-window").select_option("week")
-        expect(page.locator("#desk-result-count")).to_contain_text(
-            f"{len(payload['reading_brief']['stories'])} reading"
-        )
-        page.locator("#reading-window").select_option("edition")
-        page.locator("#source-kind").select_option("preprint")
-        preprints = [
-            s
-            for s in payload["reading_brief"]["stories"]
-            if s["report_date"] == payload["reading_brief"]["edition_date"]
-            and s["source_kind"] == "preprint"
-        ]
-        expect(page.locator("#desk-result-count")).to_contain_text(f"{len(preprints)} reading")
-        assert all(
-            text == "Preprint repository"
-            for text in page.locator("#briefing .source-type-label").all_text_contents()
-        )
-        page.reload()
-        page.wait_for_selector(".lead-story h2")
-        expect(page.locator("#source-kind")).to_have_value("preprint")
-        page.locator("#source-kind").select_option("all")
-        original_size = page.locator(".lead-story .story-summary").evaluate(
+            expect(page.locator("#saved-stories .citation-details")).to_contain_text("Publisher")
+            page.locator("#saved-stories .reading-card").screenshot(
+                path=str(args.output / "article-citation.png")
+            )
+            page.locator("#saved-stories .citation-details summary").click()
+        original_size = page.locator("#saved-stories .story-summary").evaluate(
             "el => parseFloat(getComputedStyle(el).fontSize)"
         )
         page.locator("#comfort-type").click()
         assert (
-            page.locator(".lead-story .story-summary").evaluate(
+            page.locator("#saved-stories .story-summary").evaluate(
                 "el => parseFloat(getComputedStyle(el).fontSize)"
             )
             > original_size
         )
         page.reload()
-        page.wait_for_selector(".lead-story h2")
+        page.wait_for_selector("#saved-stories .reading-card")
         expect(page.locator("#comfort-type")).to_have_attribute("aria-pressed", "true")
         page.locator("#comfort-type").click()
-        page.locator(".lead-story .story-evidence summary").click()
-        assert page.locator(".lead-story .story-evidence[open]").count() == 1
-        page.locator('[data-lens="security"]').click()
-        assert page.locator('[data-lens="security"]').get_attribute("aria-pressed") == "true"
-        page.locator(".lead-story [data-save]").click()
-        navigate_workspace(page, "saved")
+        page.locator("#saved-stories .story-evidence summary").click()
+        assert page.locator("#saved-stories .story-evidence[open]").count() == 1
         expect(page.locator("#saved-stories .reading-card")).to_have_count(1)
         page.reload()
         page.wait_for_selector("#saved-stories .reading-card")
@@ -538,7 +519,6 @@ def main() -> None:
         page.reload()
         page.wait_for_selector("#saved-stories .reading-card")
         navigate_workspace(page, "briefing")
-        page.locator('[data-lens="all"]').click()
         page.keyboard.press("/")
         page.locator("#desk-search").fill("quantum")
         expect(page.locator("#search-results a").first).to_be_visible()
@@ -573,7 +553,6 @@ def main() -> None:
             "patents",
             "research",
             "decisions",
-            "library",
             "operations",
         )
         for route in routes:
@@ -585,6 +564,10 @@ def main() -> None:
             assert page.locator('[data-workspace][aria-current="page"]').count() == 1
             page.mouse.move(1000, 20)
             page.screenshot(path=str(args.output / f"{route}-desktop.png"))
+        page.goto(args.url + "/#library")
+        expect(page.locator("#briefing")).to_be_visible()
+        expect(page.locator("#reports")).to_be_visible()
+        expect(page.locator('[data-workspace="library"]')).to_have_count(0)
         navigate_workspace(page, "research")
         navigate_workspace(page, "federal")
         expect(page.locator('[data-federal-view="funding"]')).to_have_attribute(
@@ -643,19 +626,13 @@ def main() -> None:
         page.unroute("**/api/lab/config")
         page.unroute("**/api/lab/generate")
         navigate_workspace(page, "research")
-        expect(page.locator("#landscape-topics [data-topic]")).to_have_count(7)
+        expect(page.locator("#landscape-explorer")).to_be_hidden()
         assert page.locator(".landscape-advanced[open]").count() == 0
-        page.locator('[data-topic="pqc"]').click()
-        expect(page.locator("#landscape-title")).to_have_text("PQC & crypto agility")
-        page.locator("#landscape-search").fill("no-such-research-fixture-12345")
-        expect(page.locator("#landscape-results")).to_contain_text(
-            "does not establish a literature gap"
-        )
-        page.locator("#landscape-search").fill("")
-        page.locator("#landscape-question").click()
-        expect(page.locator("#lab-interest")).to_have_value("PQC & crypto agility")
-        assert not page.locator("#lab-consent").is_checked()
-        expect(page.locator("#lab-status")).to_contain_text("Nothing has been sent to AI")
+        page.locator('[data-map-topic="security"]').click()
+        expect(page.locator("#map-topic-name")).to_have_text("Cyber / PQC")
+        expect(page.locator(".connection-column")).to_have_count(3)
+        page.locator("[data-map-browse]").click()
+        expect(page.locator("#news-active-filters")).to_contain_text("Cybersecurity")
         page.goto(args.url + "/#signals")
         expect(page.locator("#signals")).to_be_visible()
         signal = page.locator(".signal-card-refined").first
@@ -708,7 +685,14 @@ def main() -> None:
         page.screenshot(path=str(args.output / "research-mobile.png"))
         page.set_viewport_size({"width": 1440, "height": 1100})
         navigate_workspace(page, "decisions")
-        expect(page.locator('[data-decision-focus="technology"]')).to_have_attribute(
+        initial_focus = (
+            "technology"
+            if page.evaluate(
+                "state.data.decision_center.items.some(item => decisionTechnologyFocus(item).length)"
+            )
+            else "all"
+        )
+        expect(page.locator(f'[data-decision-focus="{initial_focus}"]')).to_have_attribute(
             "aria-pressed", "true"
         )
         focused_count = page.locator("#analyst-decision-list .analyst-decision-card").count()
@@ -744,7 +728,7 @@ def main() -> None:
         page.wait_for_function("document.getElementById('profile-name').textContent === 'Cisco'")
         page.screenshot(path=str(args.output / "profile-desktop.png"))
         page.goto(args.url + "/#briefing")
-        page.wait_for_selector(".lead-story h2")
+        page.wait_for_selector("#desk-stories .decision-card")
         for width in (390, 768, 1024):
             page.set_viewport_size({"width": width, "height": 900})
             expect(page.locator("#workspace-menu")).to_be_visible()
@@ -775,19 +759,18 @@ def main() -> None:
             page.screenshot(path=str(args.output / f"briefing-{width}.png"), full_page=True)
             if width == 390:
                 page.screenshot(path=str(args.output / "briefing-phone-cover.png"))
-                expect(page.locator("#reading-controls")).not_to_have_attribute("open", "")
-                page.locator("#reading-controls-label").click()
-                expect(page.locator("#reading-window")).to_be_visible()
+                expect(page.locator("#reading-controls")).to_be_hidden()
                 page.locator("#comfort-type").click()
                 assert not page.evaluate("document.documentElement.scrollWidth > innerWidth")
                 page.screenshot(path=str(args.output / "briefing-phone-comfort.png"))
                 page.locator("#comfort-type").click()
-                page.locator("#reading-controls-label").click()
 
         # Retained saved excerpts still work after leaving the seven-day reading window.
         empty = copy.deepcopy(payload)
         empty["reading_brief"]["stories"] = []
         empty["reading_brief"]["collected_at"] = "2001-01-01T00:00:00Z"
+        empty["collected_at"] = empty["reading_brief"]["collected_at"]
+        empty["news_intelligence"]["stories"] = []
         page.route("**/data/{index,dashboard}.json*", lambda route: route.fulfill(json=empty))
         page.goto(args.url + "/?verification=empty#saved")
         page.wait_for_selector("#saved-stories .reading-card")
@@ -795,7 +778,9 @@ def main() -> None:
         expect(page.locator("#saved-stories .saved-snapshot-note")).to_be_visible()
         navigate_workspace(page, "briefing")
         expect(page.locator("#briefing")).to_be_visible()
-        assert "No matching evidence" in page.locator(".lead-story h2").inner_text()
+        expect(page.locator("#desk-stories")).to_contain_text(
+            "No specific prepare, investigate, or test actions"
+        )
         assert page.locator("#freshness-notice").is_visible()
         navigate_workspace(page, "saved")
         page.once("dialog", lambda dialog: dialog.dismiss())
@@ -811,7 +796,7 @@ def main() -> None:
             "Object.defineProperty(Storage.prototype, 'setItem', {value() { throw new Error('Storage blocked'); }});"
         )
         broken.goto(args.url + "/#briefing")
-        broken.wait_for_selector(".lead-story h2")
+        broken.wait_for_selector("#desk-stories .decision-card")
         assert broken.locator("#storage-notice").is_visible()
         broken.close()
         corrupt = context.new_page()
@@ -819,7 +804,7 @@ def main() -> None:
             "localStorage.setItem('quantum-scout:reading-desk:v1', 'not-json');"
         )
         corrupt.goto(args.url + "/#briefing")
-        corrupt.wait_for_selector(".lead-story h2")
+        corrupt.wait_for_selector("#desk-stories .decision-card")
         corrupt.close()
 
         corrupt_archive = context.new_page()
@@ -841,12 +826,18 @@ def main() -> None:
             "edition_date"
         ]
         hostile["reading_brief"]["stories"] = hostile["reading_brief"]["stories"][:1]
+        hostile["reading_brief"]["stories"][0]["story_url"] = ""
+        hostile["reading_brief"]["stories"][0]["decision_brief"] = {
+            "action": "test",
+            "next_step": "Review the hostile fixture safely",
+        }
+        hostile["news_intelligence"]["stories"] = hostile["reading_brief"]["stories"]
         safe = context.new_page()
         safe.route("**/data/{index,dashboard}.json*", lambda route: route.fulfill(json=hostile))
         safe.goto(args.url + "/#briefing")
-        safe.wait_for_selector(".lead-story h2")
-        assert safe.locator(".lead-story h2 img").count() == 0
-        assert safe.locator(".lead-story h2 a").get_attribute("href") == "#"
+        safe.wait_for_selector("#desk-stories .decision-card")
+        assert safe.locator("#desk-stories img").count() == 0
+        assert safe.locator("#desk-stories .decision-card p a").get_attribute("href") == "#"
         assert safe.evaluate("window.scoutInjected || null") is None
         safe.close()
 
@@ -877,12 +868,25 @@ def main() -> None:
         math_page.route(
             "**/data/{index,dashboard}.json*", lambda route: route.fulfill(json=math_data)
         )
-        math_page.goto(args.url + "/#briefing")
-        expect(math_page.locator(".lead-story h2 .katex")).to_have_count(2)
+        # Full source text and citation appraisal now live in the notebook, not a second feed.
+        math_page.add_init_script(
+            "localStorage.setItem('quantum-scout:reading-desk:v1', "
+            + json.dumps(
+                json.dumps(
+                    {
+                        "saved": ["math-verification"],
+                        "stories": math_data["reading_brief"]["stories"],
+                    }
+                )
+            )
+            + ");"
+        )
+        math_page.goto(args.url + "/#saved")
+        expect(math_page.locator("#saved-stories h3 .katex")).to_have_count(2)
         expect(math_page.locator(".story-summary math mfrac")).to_have_count(1)
         expect(math_page.locator(".story-summary math mover")).to_have_count(1)
         assert math_page.locator(".math-fallback").count() == 0
-        math_page.locator('[data-briefing-mode="research"]').click()
+        math_page.reload()
         expect(math_page.locator(".story-summary math mfrac")).to_have_count(1)
         if (
             payload.get("citation_records", {})
@@ -890,20 +894,22 @@ def main() -> None:
             .get("status")
             == "source_metadata"
         ):
-            math_page.locator(".lead-story .citation-details summary").click()
-            expect(math_page.locator(".lead-story .citation-details")).to_contain_text(
+            math_page.locator("#saved-stories .citation-details summary").click()
+            expect(math_page.locator("#saved-stories .citation-details")).to_contain_text(
                 "source-backed"
             )
-            expect(math_page.locator(".lead-story .citation-details")).to_contain_text(
+            expect(math_page.locator("#saved-stories .citation-details")).to_contain_text(
                 "Not verified"
             )
-            expect(math_page.locator(".lead-story .citation-details a")).to_have_attribute(
+            expect(math_page.locator("#saved-stories .citation-details a")).to_have_attribute(
                 "href", "https://eprint.iacr.org/2026/2014"
             )
-            math_page.locator(".lead-story").screenshot(
+            math_page.locator("#saved-stories .reading-card").screenshot(
                 path=str(args.output / "citation-metadata.png")
             )
-        math_page.locator(".lead-story [data-save]").click()
+        expect(
+            math_page.locator('#saved-stories [data-save="math-verification"]')
+        ).to_have_attribute("aria-pressed", "true")
         archived_math = math_page.evaluate(
             "JSON.parse(localStorage.getItem('quantum-scout:reading-desk:v1')).stories.find(x => x.id === 'math-verification')"
         )
@@ -915,7 +921,7 @@ def main() -> None:
         for width in (1440, 390):
             math_page.set_viewport_size({"width": width, "height": 1000})
             assert not math_page.evaluate("document.documentElement.scrollWidth > innerWidth")
-            math_page.locator(".lead-story").screenshot(
+            math_page.locator("#saved-stories .reading-card").screenshot(
                 path=str(args.output / f"math-reading-{width}.png")
             )
         # Ordinary money, malformed TeX, escaped delimiters, and unsafe commands.
@@ -927,7 +933,7 @@ def main() -> None:
             "wide": r"\[\underbrace{a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z}_{long}\]",
         }
         math_page.evaluate(
-            "samples => { for (const [id, text] of Object.entries(samples)) { const p = document.createElement('p'); p.id = 'math-test-' + id; p.textContent = text; document.querySelector('#briefing').append(p); } }",
+            "samples => { for (const [id, text] of Object.entries(samples)) { const p = document.createElement('p'); p.id = 'math-test-' + id; p.textContent = text; document.querySelector('#saved').append(p); } }",
             samples,
         )
         expect(math_page.locator("#math-test-escaped .katex")).to_have_count(1)

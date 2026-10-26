@@ -97,8 +97,8 @@ def main():
         expect(page.locator("#news-visit-summary")).to_contain_text("newly collected")
         page.locator('[data-visit-action="new"]').click()
         expect(page.locator("#news-active-filters")).to_contain_text("New since last visit")
-        page.locator('[data-visit-action="inbox"]').click()
-        expect(page.locator("#news-development-inbox details")).to_have_attribute("open", "")
+        expect(page.locator('[data-visit-action="inbox"]')).to_have_count(0)
+        assert page.evaluate("ScoutStoryReader.summary().pending") == 0
         assert not errors, errors
         browser.close()
         print(

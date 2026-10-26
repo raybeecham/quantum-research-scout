@@ -233,7 +233,10 @@ def main():
                 assert bounds["scroll"] <= bounds["client"] + 1, (theme, width, bounds)
         page.keyboard.press("Escape")
         expect(button).to_be_focused()
-        page.locator("#news-browse").click()
+        page.locator("#news-skip-feature").click()
+        expect(page.locator("#news-latest-heading")).to_be_focused()
+        if not page.locator("#news-tools").evaluate("node => node.open"):
+            page.locator("#news-tools > summary").click()
         page.locator(".news-coverage > summary").click()
         page.locator("#news-coverage-audit > summary").click()
         expect(page.locator("#news-coverage-audit-summary")).to_contain_text("12 source accounts")
