@@ -267,6 +267,15 @@
 .news-status:not([data-freshness="current"]) {
   color: var(--caution);
 }
+.news-edition-note {
+  max-width: 75ch;
+  margin: 0 0 24px;
+  padding: 12px 16px;
+  border-left: 3px solid var(--accent);
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.6;
+}
 .news-loading,
 .news-empty {
   padding: 32px 0;

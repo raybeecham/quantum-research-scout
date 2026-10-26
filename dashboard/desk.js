@@ -889,10 +889,18 @@
   function renderContext() {
     const brief = ui.data.reading_brief || {};
     const comparison = brief.edition_comparison;
+    const latestStories = ui.data.news_intelligence?.stories || brief.stories || [];
+    const emptyNotice = window.ScoutDisplay.editionNotice(brief, latestStories);
     $("briefing-edition-note").hidden = false;
-    $("briefing-edition-note").innerHTML = comparison?.previous_report_date
-      ? `<strong>${Number(comparison.added_count) || 0} added source ${comparison.added_count === 1 ? "link" : "links"}</strong><span>Latest report compared with ${esc(day(comparison.previous_report_date))} · ${Number(comparison.retained_count) || 0} retained · all topics</span><details><summary>What does “added” mean?</summary><p>Absent from the previous available report, not necessarily newly published or never seen before. Counts use unique URLs before related coverage is grouped. Edition: ${esc(day(comparison.current_report_date))}.</p></details>`
-      : "<strong>Report comparison unavailable</strong><span>Two available editions are needed to identify added source links. This is a report snapshot, not a live literature search.</span>";
+    const comparable =
+      comparison?.previous_report_date &&
+      Number.isInteger(comparison.added_count) &&
+      Number.isInteger(comparison.retained_count);
+    $("briefing-edition-note").innerHTML =
+      (comparable
+        ? `<strong>Daily report: ${comparison.added_count} added source ${comparison.added_count === 1 ? "link" : "links"}</strong><span>Compared with ${esc(day(comparison.previous_report_date))}: ${comparison.retained_count} source ${comparison.retained_count === 1 ? "link appears" : "links appear"} in both daily reports.</span><details><summary>Daily report versus rolling collection</summary><p>Added means absent from the previous available daily report, not newly published or never seen before. These counts compare unique source URLs before related coverage is grouped. Latest contains ${window.ScoutDisplay.count(latestStories.length, "story", "stories")} across its rolling report window, not just this daily report. Edition: ${esc(day(comparison.current_report_date))}.</p></details>`
+        : "<strong>Report comparison unavailable</strong><span>Two available editions are needed to identify added source links. This is a report snapshot, not a live literature search.</span>") +
+      (emptyNotice ? `<p>${esc(emptyNotice)}</p>` : "");
     const today = new Intl.DateTimeFormat("en-CA", {
       timeZone: "America/Chicago",
       year: "numeric",

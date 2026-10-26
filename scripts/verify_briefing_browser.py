@@ -76,6 +76,10 @@ def main():
         expect(page.locator("#briefing-shortlist article")).to_have_count(0)
         expect(page.locator("#desk-result-count")).to_have_text("6 stories in Latest")
         expect(page.locator("#briefing-edition-note")).to_contain_text("1 added source link")
+        expect(page.locator("#briefing-edition-note")).to_contain_text(
+            "5 source links appear in both daily reports"
+        )
+        expect(page.locator("#briefing-edition-note")).not_to_contain_text("5 retained")
         expect(page.locator("#desk-changes")).to_contain_text("does not establish")
         ids = cards.evaluate_all("rows => rows.map(r => r.dataset.story)")
         assert len(set(ids)) == 4 and "briefing-test-5" not in ids
@@ -133,6 +137,23 @@ def main():
         expect(page.locator("#desk-changes")).to_contain_text("<script>")
         assert page.evaluate("window.injected === undefined")
         assert page.locator("#desk-changes script").count() == 0
+        brief["edition_comparison"].update(
+            current_report_link_count=0, added_count=0, retained_count=0
+        )
+        page.reload()
+        expect(page.locator("#briefing-edition-note")).to_contain_text(
+            "No source-linked stories were included"
+        )
+        expect(page.locator("#desk-result-count")).to_have_text("6 stories in Latest")
+        page.goto(args.url + "/#news")
+        expect(page.locator("#news-edition-note")).to_contain_text(
+            "No source-linked stories were included"
+        )
+        brief["edition_comparison"]["current_report_link_count"] = 6
+        page.reload()
+        expect(page.locator("#news-lead article")).to_be_visible()
+        expect(page.locator("#news-edition-note")).to_be_hidden()
+        page.goto(args.url + "/#briefing")
         brief.pop("edition_comparison")
         brief["stories"] = []
         payload["news_intelligence"]["stories"] = []

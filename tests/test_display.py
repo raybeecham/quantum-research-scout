@@ -25,6 +25,16 @@ assert.equal(d.dateTime('invalid'),'Date unavailable');
 assert.equal(d.count(1,'program'),'1 program');
 assert.equal(d.count(0,'program'),'0 programs');
 assert.equal(d.count(2,'story','stories'),'2 stories');
+const empty={edition_comparison:{current_report_date:'2026-10-25',current_report_link_count:0,added_count:0}};
+assert.equal(d.editionNotice(empty,[{report_date:'2026-10-24'}]),'No source-linked stories were included in the Oct 25, 2026 daily report. Showing earlier coverage from reports through Oct 24, 2026.');
+assert.match(d.editionNotice(empty,[]),/There are no stories in the current rolling collection/);
+assert.match(d.editionNotice(empty,[{report_date:'2026-10-24'},{report_date:'2026-10-26'}]),/through Oct 24, 2026/);
+assert.match(d.editionNotice(empty,[{}]),/Earlier coverage remains/);
+assert.doesNotThrow(()=>d.editionNotice(empty,null));
+assert.equal(d.editionNotice({edition_comparison:{current_report_date:'2026-10-25',added_count:0}}), '');
+assert.equal(d.editionNotice({edition_comparison:{current_report_date:'2026-10-25',current_report_link_count:2,added_count:0}}), '');
+assert.equal(d.editionNotice({edition_comparison:{current_report_date:'invalid',current_report_link_count:0}}), '');
+assert.equal(d.editionNotice({}), '');
 """,
         ],
         cwd=Path(__file__).resolve().parents[1],

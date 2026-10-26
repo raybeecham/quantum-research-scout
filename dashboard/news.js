@@ -298,6 +298,12 @@
     $("news-status").textContent = status;
     $("news-status").hidden = false;
     $("news-status").dataset.freshness = level;
+    const notice = window.ScoutDisplay.editionNotice(
+      brief,
+      state.data?.news_intelligence?.stories || brief.stories || [],
+    );
+    $("news-edition-note").textContent = notice;
+    $("news-edition-note").hidden = !notice;
   }
 
   function renderPersonalization(all) {

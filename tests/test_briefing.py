@@ -175,6 +175,8 @@ def test_adjacent_available_reports_not_yesterday_or_publication_dates(tmp_path)
     assert delta["previous_report_date"] == "2026-09-01"
     assert delta["added_count"] == 1
     assert delta["retained_count"] == 1
+    assert delta["current_report_link_count"] == 2
+    assert delta["previous_report_link_count"] == 1
     old = next(s for s in result["stories"] if s["url"].endswith("old"))
     assert old["edition_status"] == "added"
     assert old["date"] == "2025-01-01"
@@ -189,6 +191,27 @@ def test_first_edition_has_no_invented_additions(tmp_path):
     assert result["edition_comparison"]["previous_report_date"] is None
     assert result["edition_comparison"]["added_count"] is None
     assert result["stories"][0]["edition_status"] == "uncompared"
+    assert result["edition_comparison"]["current_report_link_count"] == 1
+    assert result["edition_comparison"]["previous_report_link_count"] is None
+
+
+def test_empty_daily_report_keeps_earlier_rolling_coverage(tmp_path):
+    folder = tmp_path / "2026-09"
+    folder.mkdir()
+    (folder / "2026-09-13-digest.md").write_text(
+        entry("Quantum earlier", "https://news.test/earlier"), encoding="utf-8"
+    )
+    (folder / "2026-09-14-digest.md").write_text(
+        "No new items met the current report filters.", encoding="utf-8"
+    )
+    result = build_reading_brief(tmp_path, source_health={}, funding={}, temporal={})
+    delta = result["edition_comparison"]
+    assert delta["current_report_link_count"] == 0
+    assert delta["previous_report_link_count"] == 1
+    assert delta["added_count"] == delta["retained_count"] == 0
+    assert len(result["stories"]) == 1
+    assert result["stories"][0]["edition_status"] == "earlier"
+    assert result["stories"][0]["report_date"] == "2026-09-13"
 
 
 def test_distinct_releases_are_not_grouped_just_for_shared_brand(tmp_path):

@@ -42,7 +42,25 @@
       timeZoneName: "short",
     }).format(new Date(value));
   }
-  const api = Object.freeze({ day, date, dateTime, count });
+  function editionNotice(brief, stories = []) {
+    const comparison = brief?.edition_comparison;
+    const edition = day(comparison?.current_report_date);
+    // Missing metadata or zero additions alone does not establish an empty report.
+    if (!edition || comparison?.current_report_link_count !== 0) return "";
+    const rows = Array.isArray(stories) ? stories : [];
+    const latest = rows
+      .map(story => day(story?.report_date))
+      .filter(value => value && value < edition)
+      .sort()
+      .at(-1);
+    const context = latest
+      ? `Showing earlier coverage from reports through ${date(latest)}.`
+      : rows.length
+        ? "Earlier coverage remains in the rolling collection."
+        : "There are no stories in the current rolling collection.";
+    return `No source-linked stories were included in the ${date(edition)} daily report. ${context}`;
+  }
+  const api = Object.freeze({ day, date, dateTime, count, editionNotice });
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   if (typeof window !== "undefined") window.ScoutDisplay = api;
 })();

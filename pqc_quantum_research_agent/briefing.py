@@ -418,6 +418,8 @@ def build_reading_brief(
         "edition_comparison": {
             "previous_report_date": previous.isoformat() if previous else None,
             "current_report_date": latest.isoformat() if latest else None,
+            "current_report_link_count": len(latest_urls) if latest else None,
+            "previous_report_link_count": len(previous_urls) if previous else None,
             "added_count": len(added_urls) if previous else None,
             "retained_count": len(latest_urls & previous_urls) if previous else None,
             "note": "Unique source URLs compared across the latest two available reports, before related-coverage grouping. Added means absent from the previous report, not newly published or never seen before.",
