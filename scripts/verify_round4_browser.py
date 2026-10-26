@@ -82,6 +82,19 @@ def main():
             for width in (1440, 375):
                 page.set_viewport_size({"width": width, "height": 1000})
                 assert_no_overflow(page, route)
+                if route == "federal":
+                    page.locator(".evidence-ledger-module").evaluate("el => el.open = true")
+                    assert page.locator(".evidence-ledger-layout").evaluate("""grid => {
+                      const parent = grid.parentElement, rect = parent.getBoundingClientRect();
+                      const style = getComputedStyle(parent);
+                      const left = rect.left + parseFloat(style.paddingLeft) + parseFloat(style.borderLeftWidth);
+                      const right = rect.right - parseFloat(style.paddingRight) - parseFloat(style.borderRightWidth);
+                      return [grid, ...grid.children].every(node => {
+                        const r = node.getBoundingClientRect();
+                        return r.left >= left - 1 && r.right <= right + 1 && node.scrollWidth <= node.clientWidth + 1;
+                      });
+                    }"""), f"Federal evidence panels exceed their container at {width}px"
+                    page.locator(".evidence-ledger-module").evaluate("el => el.open = false")
         page.set_viewport_size({"width": 1440, "height": 1000})
         page.goto(base + "/#news")
         ready(page)
