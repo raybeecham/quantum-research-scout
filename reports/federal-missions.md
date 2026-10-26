@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Funding & Procurement](federal-funding.md) · [Standards Timeline](standards-timeline.md) · [Entity Watch](entity-watch.md)
 
-_Updated 2026-10-25 21:46 UTC_
+_Updated 2026-10-26 00:51 UTC_
 
 Named, cross-agency or cross-sector federal science and technology missions, initiatives, and national efforts relevant to quantum technology, AI, cybersecurity, energy, discovery science, and national security. Routine agency mission statements and unrelated operational missions are excluded.
 
@@ -76,7 +76,7 @@ Rigorously determine whether any quantum-computing architecture can achieve util
 Recent official updates:
 - 2026-10-06 — [Four more teams enter Quantum Benchmarking Initiativeâs final stage](https://www.darpa.mil/news/2026/four-more-teams-enter-quantum-benchmarking-initiative-final-stage)
 - 2026-03-10 — [DARPA expands QBI Stage A and reports 11 Stage B organizations](https://www.darpa.mil/news/2026/qbi-stage-a-qbit)
-- 2025-10-06 — [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE RESEARCH...](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700)
+- 2025-10-06 — [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE…](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700)
 - 2024-07-16 — [DARPA announces the Quantum Benchmarking Initiative](https://www.darpa.mil/news/2024/quantum-computing-prototype)
 
 ### [QC-ADDS](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/)

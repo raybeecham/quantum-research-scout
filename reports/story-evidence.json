@@ -865,7 +865,7 @@
       "captures": [
         {
           "excerpts": [
-            "While AI accelerates cyber threats by exposing vulnerabilities more rapidly than ever, it also offers defenders an unprecedented advantage: the ability to stress-test algorithms and secure post-quantum Read More The...",
+            "While AI accelerates cyber threats by exposing vulnerabilities more rapidly than ever, it also offers defenders an unprecedented advantage: the ability to stress-test algorithms and secure post-quantum…",
             "In his latest article for Forbes Technology Council, our CEO and Founder, Ali El Kaafarani explores how AI is reshaping cybersecurity and cryptography ahead of the quantum era"
           ],
           "observations": [
@@ -907,7 +907,7 @@
         {
           "excerpts": [
             "Post-quantum cryptography (PQC) is moving from research and standardization into implementation",
-            "In August 2024, the US National Institute of Standards and Technology Read More The post How to evaluate a post-quantum cryptography provider: 10 questions to ask appeared first on",
+            "In August 2024, the US National Institute of Standards and Technology…",
             "For organizations beginning to assess their post-quantum readiness, that creates a new question: how do you choose the right technology and the best provider to support the transition?"
           ],
           "observations": [
@@ -928,7 +928,7 @@
         {
           "excerpts": [
             "The appointments come at a crucial moment as demand for quantum-safe security rapidly moves from policy planning to active deployment across enterprise, government, and critical national infrastructure",
-            "Together, these appointments strengthen both pillars Read More The post PQShield expands leadership as PQC adoption accelerates appeared fi",
+            "Together, these appointments strengthen both pillars…",
             "PQShield is strengthening its leadership team with the appointment of Hal Conklin as Chief Commercial Officer, and Gemma Ungoed-Thomas as Sovereign Advisor"
           ],
           "observations": [
@@ -968,7 +968,7 @@
         {
           "excerpts": [
             "Security leaders frequently stall their post-quantum preparations by chasing an impossible standard of total visibility",
-            "Just as early cloud migration initiatives bogged down in endless configuration discovery, post-quantum programs risk total gridlock when teams refuse to Read More The post Why perfect crypto inventory stalls quantum...",
+            "Just as early cloud migration initiatives bogged down in endless configuration discovery, post-quantum programs risk total gridlock when teams refuse to…",
             "Attempting to map every single cryptographic dependency across thousands of enterprise systems creates an overwhelming flood of non-actionable data"
           ],
           "observations": [
@@ -1217,7 +1217,6 @@
         {
           "excerpts": [
             "Founded in July 2026 by Dr. Qiao Mu, the company aims to build a 100-logical-qubit fault-tolerant quantum computer and utilize AI for experimental design and hardware control",
-            "The post Chinese Startup FlipFlop Tuoyuan Emerges with Major VC Backing for 100-Logical-Qubit Neutral-Atom Systems appeared first on Quantum Computing Report",
             "FlipFlop Tuoyuan, a Chinese quantum hardware startup, has secured over $14 million in early-stage funding to develop neutral-atom quantum processing units"
           ],
           "observations": [
@@ -1490,14 +1489,30 @@
         {
           "excerpts": [
             "Germany has released national guidelines for migrating to Post-Quantum Cryptography (PQC), aligning with the EU's roadmap",
-            "This initiative mandates hybrid cryptographic mechanisms and PQC readiness in risk management for critical infrastructure",
-            "The post Germany Issues Joint Federal PQC Migration"
+            "This initiative mandates hybrid cryptographic mechanisms and PQC readiness in risk management for critical infrastructure"
           ],
           "observations": [
             {
               "published_date": "2026-10-15",
               "report_date": "2026-10-15",
               "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/germany-issues-joint-federal-pqc-migration-guidelines-to-align-with-eu-post-quantum-roadmap"
+            }
+          ],
+          "title": "Germany Issues Joint Federal PQC Migration Guidelines to Align with EU Post-Quantum Roadmap"
+        },
+        {
+          "excerpts": [
+            "Germany has released national guidelines for migrating to Post-Quantum Cryptography (PQC), aligning with the EU's roadmap",
+            "This initiative mandates hybrid cryptographic mechanisms and PQC readiness in risk management for critical infrastructure",
+            "The strategy, driven by advancements in AI and threats to classical encryption, outlines a three-phase migration timeline, prioritizing high-risk systems by 2030 and aiming for full migration by 2035"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-15",
+              "report_date": "2026-10-15",
+              "sequence": 1,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/germany-issues-joint-federal-pqc-migration-guidelines-to-align-with-eu-post-quantum-roadmap"
             }
@@ -1532,8 +1547,7 @@
         {
           "excerpts": [
             "This technical advance addresses a major bottleneck in fault-tolerant quantum computing by significantly reducing the physical qubit footprint required for generating these essential states, directly validating...",
-            "Google Quantum AI has successfully demonstrated magic state cultivation on its Willow quantum processor, achieving a 40-fold error reduction and producing T-states with 99.99(1)% logical fidelity",
-            "The post Google Quantum AI Demonstrates Magic State"
+            "Google Quantum AI has successfully demonstrated magic state cultivation on its Willow quantum processor, achieving a 40-fold error reduction and producing T-states with 99.99(1)% logical fidelity"
           ],
           "observations": [
             {
@@ -1658,14 +1672,30 @@
         {
           "excerpts": [
             "IBM Research has developed an AI agent factory to automate the design of QEC decoder chips, achieving up to 204x hardware speedup and 11.5x lower AI inference costs",
-            "This system utilizes autonomous multi-agent search and open-weight models, making QEC chip design more economically practical for fault-tolerant quantum systems",
-            "The post IBM Research Automates QEC Decoder Chip Design"
+            "This system utilizes autonomous multi-agent search and open-weight models, making QEC chip design more economically practical for fault-tolerant quantum systems"
           ],
           "observations": [
             {
               "published_date": "2026-10-15",
               "report_date": "2026-10-15",
               "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost"
+            }
+          ],
+          "title": "IBM Research Automates QEC Decoder Chip Design Using Open AI Agent Factories at 11.5x Lower Inference Cost"
+        },
+        {
+          "excerpts": [
+            "IBM Research has developed an AI agent factory to automate the design of QEC decoder chips, achieving up to 204x hardware speedup and 11.5x lower AI inference costs",
+            "This system utilizes autonomous multi-agent search and open-weight models, making QEC chip design more economically practical for fault-tolerant quantum systems",
+            "The agent factory explores architectural transformations to optimize decoding algorithms for high-rate qLDPC codes"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-15",
+              "report_date": "2026-10-15",
+              "sequence": 1,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost"
             }
@@ -1741,7 +1771,6 @@
       "captures": [
         {
           "excerpts": [
-            "The post Neutral-Atom Developer Oratomic Secures $775 Million in Cumulative Funding for Fault-Tolerant System R&D appeared first on Quantum Computing Report",
             "The company focuses on neutral-atom arrays and quantum error correction, aiming for utility-scale quantum computers",
             "Oratomic, a Pasadena-based quantum hardware developer, has secured $775 million in cumulative funding to advance its fault-tolerant quantum computing systems"
           ],
@@ -1826,8 +1855,7 @@
         {
           "excerpts": [
             "The integration simplifies quantum programming by providing software-engineering abstractions, automated qubit allocation, and memory management",
-            "This allows developers to compile and execute Qrisp programs directly on physical QPUs without writing vendor-specific gate-level code",
-            "The post Open Quantum Launches Native Qrisp Integration for High-Level QPU Execution"
+            "This allows developers to compile and execute Qrisp programs directly on physical QPUs without writing vendor-specific gate-level code"
           ],
           "observations": [
             {
@@ -1867,14 +1895,30 @@
         {
           "excerpts": [
             "Pasqal has launched an AI-assisted workflow and an open-source Neutral-Atom Agentic Toolkit, enabling the translation of scientific papers and concepts into quantum experiments",
-            "This toolkit was validated by reproducing results from 258 arXiv quantum theory papers on Pasqal's QPUs",
-            "The post Pasqal Launches Neutral-Atom Age"
+            "This toolkit was validated by reproducing results from 258 arXiv quantum theory papers on Pasqal's QPUs"
           ],
           "observations": [
             {
               "published_date": "2026-10-21",
               "report_date": "2026-10-21",
               "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/pasqal-launches-neutral-atom-agentic-toolkit-and-demonstrates-qpu-workflows-across-258-quantum-physics-papers"
+            }
+          ],
+          "title": "Pasqal Launches Neutral-Atom Agentic Toolkit and Demonstrates QPU Workflows Across 258 Quantum Physics Papers"
+        },
+        {
+          "excerpts": [
+            "Pasqal has launched an AI-assisted workflow and an open-source Neutral-Atom Agentic Toolkit, enabling the translation of scientific papers and concepts into quantum experiments",
+            "This toolkit was validated by reproducing results from 258 arXiv quantum theory papers on Pasqal's QPUs",
+            "The software streamlines quantum computing research by automating the engineering pipeline while keeping human experts in control of scientific interpretation and validation"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-21",
+              "report_date": "2026-10-21",
+              "sequence": 1,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/pasqal-launches-neutral-atom-agentic-toolkit-and-demonstrates-qpu-workflows-across-258-quantum-physics-papers"
             }
@@ -1888,14 +1932,30 @@
         {
           "excerpts": [
             "The company achieved significant technological breakthroughs, including scaling to 1,024 atoms and demonstrating logical qubit execution",
-            "Pasqal reported strong H1 2026 financial results with €312.9M post-SPAC cash and 14% revenue growth",
-            "The post Pasqal Reports H1 2026 Financial Results: €312.9M Post-SPAC Cash Balance, 14% Revenue Growth, and 1,000-Atom Scale appeared first on Quant"
+            "Pasqal reported strong H1 2026 financial results with €312.9M post-SPAC cash and 14% revenue growth"
           ],
           "observations": [
             {
               "published_date": "2026-09-26",
               "report_date": "2026-09-26",
               "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/pasqal-reports-h1-2026-financial-results-e312-9m-post-spac-cash-balance-14-revenue-growth-and-1000-atom-scale"
+            }
+          ],
+          "title": "Pasqal Reports H1 2026 Financial Results: €312.9M Post-SPAC Cash Balance, 14% Revenue Growth, and 1,000-Atom Scale"
+        },
+        {
+          "excerpts": [
+            "The company achieved significant technological breakthroughs, including scaling to 1,024 atoms and demonstrating logical qubit execution",
+            "Pasqal reported strong H1 2026 financial results with €312.9M post-SPAC cash and 14% revenue growth",
+            "Pasqal also expanded commercially with new deployments in Saudi Arabia and Italy, and became an XPRIZE finalist"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-09-26",
+              "report_date": "2026-09-26",
+              "sequence": 1,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/pasqal-reports-h1-2026-financial-results-e312-9m-post-spac-cash-balance-14-revenue-growth-and-1000-atom-scale"
             }
@@ -1928,8 +1988,7 @@
         {
           "excerpts": [
             "This collaboration aims to assess how an institution's post-quantum cryptographic controls can influence insurance policy pricing",
-            "The goal is to incentivize early migration to quantum-resilient security by offering tailored terms and preferential risk assessments to institutions that implement audited post-quantum defenses",
-            "The post Project Eleven and Relm Insu"
+            "The goal is to incentivize early migration to quantum-resilient security by offering tailored terms and preferential risk assessments to institutions that implement audited post-quantum defenses"
           ],
           "observations": [
             {
@@ -2052,7 +2111,6 @@
         {
           "excerpts": [
             "QuantumGate and NEC GCC are partnering to implement sovereign post-quantum cybersecurity solutions across critical infrastructure and telecommunications in the UAE",
-            "The post QuantumGate and NEC GCC Partner to Deploy Sovereign Post-Qua",
             "The collaboration will deploy QuantumGate's cryptographic software, including QSphere, with NEC GCC leading systems integration"
           ],
           "observations": [
@@ -2060,6 +2118,23 @@
               "published_date": "2026-10-06",
               "report_date": "2026-10-06",
               "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/quantumgate-and-nec-gcc-partner-to-deploy-sovereign-post-quantum-cybersecurity-across-uae-critical-infrastructure"
+            }
+          ],
+          "title": "QuantumGate and NEC GCC Partner to Deploy Sovereign Post-Quantum Cybersecurity Across UAE Critical Infrastructure"
+        },
+        {
+          "excerpts": [
+            "QuantumGate and NEC GCC are partnering to implement sovereign post-quantum cybersecurity solutions across critical infrastructure and telecommunications in the UAE",
+            "The collaboration will deploy QuantumGate's cryptographic software, including QSphere, with NEC GCC leading systems integration",
+            "This initiative supports national quantum security directives to protect government, energy, transport, and telecommunications sectors"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-06",
+              "report_date": "2026-10-06",
+              "sequence": 1,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/quantumgate-and-nec-gcc-partner-to-deploy-sovereign-post-quantum-cybersecurity-across-uae-critical-infrastructure"
             }
@@ -2136,7 +2211,6 @@
         {
           "excerpts": [
             "They are also collaborating on research to integrate agentic AI with quantum computing using NVIDIA's NOOA framework",
-            "The post RhymeQ Joins NVIDIA Inception Program and Announces Technical Collaboration on NOOA Agentic AI Framework appeared first on Q",
             "RhymeQ Technologies has joined the NVIDIA Inception program, aligning its RHYME abstraction layer with NVIDIA's CUDA-Q platform"
           ],
           "observations": [
@@ -2144,6 +2218,23 @@
               "published_date": "2026-10-23",
               "report_date": "2026-10-23",
               "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/rhymeq-joins-nvidia-inception-program-and-announces-technical-collaboration-on-nooa-agentic-ai-framework"
+            }
+          ],
+          "title": "RhymeQ Joins NVIDIA Inception Program and Announces Technical Collaboration on NOOA Agentic AI Framework"
+        },
+        {
+          "excerpts": [
+            "They are also collaborating on research to integrate agentic AI with quantum computing using NVIDIA's NOOA framework",
+            "RhymeQ Technologies has joined the NVIDIA Inception program, aligning its RHYME abstraction layer with NVIDIA's CUDA-Q platform",
+            "This initiative aims to enable AI agents to orchestrate workloads between classical GPUs and quantum processing units"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-23",
+              "report_date": "2026-10-23",
+              "sequence": 1,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/rhymeq-joins-nvidia-inception-program-and-announces-technical-collaboration-on-nooa-agentic-ai-framework"
             }
@@ -2220,7 +2311,6 @@
         {
           "excerpts": [
             "SEEQC and NVIDIA have demonstrated a 50% reduction in quantum error correction (QEC) latency and logical error rates",
-            "The post SEEQC and NVIDIA Demonstrate 50% QEC Latency and Error Rate Reduction via Digital Pr",
             "This was achieved by integrating SEEQC's chip-scale pre-decoder technology with NVIDIA's Ising AI model family"
           ],
           "observations": [
@@ -2228,6 +2318,23 @@
               "published_date": "2026-10-22",
               "report_date": "2026-10-22",
               "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/seeqc-and-nvidia-demonstrate-50-qec-latency-and-error-rate-reduction-via-digital-pre-decoder-architecture"
+            }
+          ],
+          "title": "SEEQC and NVIDIA Demonstrate 50% QEC Latency and Error Rate Reduction via Digital Pre-Decoder Architecture"
+        },
+        {
+          "excerpts": [
+            "SEEQC and NVIDIA have demonstrated a 50% reduction in quantum error correction (QEC) latency and logical error rates",
+            "This was achieved by integrating SEEQC's chip-scale pre-decoder technology with NVIDIA's Ising AI model family",
+            "The new architecture filters and compresses data closer to the quantum processing unit, significantly improving communication and overall performance for quantum AI workloads"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-22",
+              "report_date": "2026-10-22",
+              "sequence": 1,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/seeqc-and-nvidia-demonstrate-50-qec-latency-and-error-rate-reduction-via-digital-pre-decoder-architecture"
             }
@@ -2366,14 +2473,30 @@
         {
           "excerpts": [
             "This funding will be used to accelerate the commercial development and scalable manufacturing of trapped-ion quantum computing hardware",
-            "The National Physical Laboratory (NPL) in the UK has received a £230,000 ($307.5K USD) grant from the Government Office for Technology Transfer (GOTT)",
-            "The post UK National Physical Laboratory Secures £230,000 ($307.5K USD) GOTT Gra"
+            "The National Physical Laboratory (NPL) in the UK has received a £230,000 ($307.5K USD) grant from the Government Office for Technology Transfer (GOTT)"
           ],
           "observations": [
             {
               "published_date": "2026-10-22",
               "report_date": "2026-10-22",
               "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/uk-national-physical-laboratory-secures-230000-307-5k-usd-gott-grant-to-scale-quantum-ion-trap-manufacturing"
+            }
+          ],
+          "title": "UK National Physical Laboratory Secures £230,000 ($307.5K USD) GOTT Grant to Scale Quantum Ion-Trap Manufacturing"
+        },
+        {
+          "excerpts": [
+            "This funding will be used to accelerate the commercial development and scalable manufacturing of trapped-ion quantum computing hardware",
+            "The National Physical Laboratory (NPL) in the UK has received a £230,000 ($307.5K USD) grant from the Government Office for Technology Transfer (GOTT)",
+            "The grant aims to improve fabrication yield and packaging processes for ion traps, crucial for scaling quantum computing systems"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-22",
+              "report_date": "2026-10-22",
+              "sequence": 1,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/uk-national-physical-laboratory-secures-230000-307-5k-usd-gott-grant-to-scale-quantum-ion-trap-manufacturing"
             }
@@ -2802,7 +2925,6 @@
       "captures": [
         {
           "excerpts": [
-            "Guest Post By Courtney Olujobi, Principal at Moon Pursuit Capital",
             "From an investment perspective, one of the first significant markets created by quantum computing may have very little to do with buying access to quantum computers themselves"
           ],
           "observations": [
@@ -4339,7 +4461,6 @@
         {
           "excerpts": [
             "Logical Qubit Technology attended as the only quantum computing company representing China",
-            "Guest Post by Liam Wang COO, Logical Qubit Technology",
             "The World Economic Forum’s Quantum Economy Day 2026 was held in Geneva, Switzerland, on October 13–14"
           ],
           "observations": [

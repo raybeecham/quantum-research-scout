@@ -1,6 +1,6 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-10-25T02:40:17.903846+00:00_
+_Updated 2026-10-26T00:51:50.163987+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
@@ -25,7 +25,7 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 ## Quarantined Evidence
 
-### [S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED SCI...](https://www.usaspending.gov/award/ASST_NON_2620285_049)
+### [S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED…](https://www.usaspending.gov/award/ASST_NON_2620285_049)
 
 - Scope: Mission relationships
 - Stage: relationship admission
