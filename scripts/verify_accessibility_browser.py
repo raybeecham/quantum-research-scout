@@ -58,7 +58,9 @@ def keyboard_workflows(page, base, output):
 
     page.goto(base + "/#saved")
     ready(page)
+    expect(page.locator("#saved")).to_be_visible()
     tab_to(page, "#import-notebook")
+    expect(page.locator("#import-notebook")).to_be_focused()
     fixture = {
         "format": "quantum-scout-notebook-v2",
         "readings": [
@@ -72,6 +74,7 @@ def keyboard_workflows(page, base, output):
     with page.expect_file_chooser() as chooser:
         page.keyboard.press("Enter")
     # File chooser is opened with keyboard; Playwright supplies the test file.
+    assert chooser.value.element.get_attribute("id") == "import-notebook"
     chooser.value.set_files(
         {
             "name": "keyboard-notebook.json",
@@ -134,6 +137,21 @@ def main():
 
         context.route("**/*", intercept)
         page = context.new_page()
+        # Subscribe before navigation. Playwright enables native chooser interception
+        # asynchronously when its first listener is added; adding that listener at
+        # the same instant as a raw keyboard press can race the browser command.
+        # Keep expect_file_chooser below: a real keyboard activation is still required.
+        choosers = []
+        page.on("filechooser", lambda chooser: choosers.append(chooser))
+        page.add_init_script("""window.scoutKeyboardTrace = [];
+            for (const type of ['focusin', 'keydown', 'keypress', 'keyup', 'click']) {
+                document.addEventListener(type, event => {
+                    window.scoutKeyboardTrace.push({type, key: event.key,
+                        target: event.target.id, active: document.activeElement?.id,
+                        prevented: event.defaultPrevented});
+                    window.scoutKeyboardTrace = window.scoutKeyboardTrace.slice(-100);
+                });
+            }""")
         modes = (
             [(1440, "dark")]
             if args.quick
@@ -176,7 +194,13 @@ def main():
             page.keyboard.press("Escape")
         (output / "axe-results.json").write_text(json.dumps(audits, indent=2), encoding="utf-8")
         page.set_viewport_size({"width": 1440, "height": 1000})
-        keyboard_workflows(page, base, output)
+        try:
+            keyboard_workflows(page, base, output)
+            assert len(choosers) == 1, "Expected one keyboard-opened notebook file chooser"
+        finally:
+            (output / "keyboard-events.json").write_text(
+                json.dumps(page.evaluate("window.scoutKeyboardTrace"), indent=2), encoding="utf-8"
+            )
         assert not errors, errors
         assert not posts, posts
         failures = [
