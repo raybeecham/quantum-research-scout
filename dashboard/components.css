@@ -3131,16 +3131,25 @@ footer {
 
 .opportunity-radar {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 10px;
 }
 
 .opportunity-card {
   display: grid;
-  grid-template-columns: 74px 1fr;
+  grid-template-columns: 74px minmax(0, 1fr);
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
   background: linear-gradient(145deg, var(--surface-raised), var(--surface));
   overflow: hidden;
+}
+
+.opportunity-card,
+.opportunity-card > *,
+.contractor-card,
+.contractor-card > dl > * {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .opportunity-card.closing_soon {
@@ -3182,6 +3191,7 @@ footer {
 
 .opportunity-meta {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 7px;
   color: var(--cyan);
@@ -3576,7 +3586,7 @@ footer {
 
 .contractor-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
 }
 
@@ -3589,12 +3599,16 @@ footer {
 
 .contractor-head {
   display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
   align-items: center;
   justify-content: space-between;
 }
 
 .contractor-head > div {
   display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
   align-items: center;
   gap: 7px;
 }
@@ -3652,7 +3666,7 @@ footer {
 
 .contractor-card > dl {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 6px;
   margin: 12px 0;
 }
@@ -5072,7 +5086,7 @@ footer {
   }
 
   .contractor-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .decision-grid,
@@ -5109,7 +5123,7 @@ footer {
   }
 
   .opportunity-card {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .opportunity-rank {
