@@ -558,26 +558,42 @@
 
   function renderStories() {
     const all = ui.data.news_intelligence?.stories || ui.data.reading_brief?.stories || [];
-    const decisions = research.sortReadings(all.filter(item =>
-      ["prepare", "investigate", "test"].includes(item.decision_brief?.action)), "decision").slice(0, 4);
+    const decisions = research
+      .sortReadings(
+        all.filter(item =>
+          ["prepare", "investigate", "test"].includes(item.decision_brief?.action),
+        ),
+        "decision",
+      )
+      .slice(0, 4);
     $("briefing").classList.add("decision-view");
     $("briefing-title").textContent = "Decisions, changes, and follow-through";
-    $("briefing-intro-text").textContent = "A short review queue built from this edition. Browse the complete story collection in Latest.";
+    $("briefing-intro-text").textContent =
+      "A short review queue built from this edition. Browse the complete story collection in Latest.";
     $("reading-controls").hidden = true;
     $("briefing").querySelector(".briefing-mode-bar").hidden = true;
     $("desk-overview").hidden = true;
     $("briefing-feed-title").textContent = "Decisions to consider";
-    $("desk-result-count").textContent = window.ScoutDisplay.count(all.length, "story") + " in Latest";
-    $("desk-stories").innerHTML = decisions.map(item => {
-      const d = item.decision_brief;
-      const path = /^stories\/[a-f0-9]{24}\/index\.html$/.test(item.story_url || "") ? item.story_url : link(item.url);
-      return `<article class="reading-card decision-card" data-story="${esc(item.id)}"><span class="decision-action ${esc(d.action)}">${esc(d.action_label || d.action)}</span><h3>${esc(d.next_step || "Review the supporting evidence")}</h3><p>${esc(d.impact || "")}</p><p><a href="${esc(path)}">${esc(item.title)} →</a></p><small>${esc(d.horizon || "Review when relevant")}</small><div class="decision-card-actions">${readButton(item)}${saveButton(item)}</div></article>`;
-    }).join("") || '<p class="desk-empty">No specific prepare, investigate, or test actions in this edition. <a href="#news">Browse the latest coverage →</a></p>';
+    $("desk-result-count").textContent =
+      window.ScoutDisplay.count(all.length, "story", "stories") + " in Latest";
+    $("desk-stories").innerHTML =
+      decisions
+        .map(item => {
+          const d = item.decision_brief;
+          const path = /^stories\/[a-f0-9]{24}\/index\.html$/.test(item.story_url || "")
+            ? item.story_url
+            : link(item.url);
+          return `<article class="reading-card decision-card" data-story="${esc(item.id)}"><span class="decision-action ${esc(d.action)}">${esc(d.action_label || d.action)}</span><h3>${esc(d.next_step || "Review the supporting evidence")}</h3><p>${esc(d.impact || "")}</p><p><a href="${esc(path)}">${esc(item.title)} →</a></p><small>${esc(d.horizon || "Review when relevant")}</small><div class="decision-card-actions">${readButton(item)}${saveButton(item)}</div></article>`;
+        })
+        .join("") ||
+      '<p class="desk-empty">No specific prepare, investigate, or test actions in this edition. <a href="#news">Browse the latest coverage →</a></p>';
     $("desk-more").hidden = true;
     $("saved-count").textContent = saved.size;
     window.ScoutExploration.renderBriefing(all, ui.data.reading_brief || {});
     renderSaved();
   }
+  let selectedPaper = null;
+  const identity = url => research.citationKey(url);
   function questionLinks(url) {
     try {
       const rows = JSON.parse(localStorage.getItem("quantum-scout:question-lab:v1") || "[]");

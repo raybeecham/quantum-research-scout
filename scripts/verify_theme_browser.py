@@ -20,7 +20,7 @@ ROUTES = {
     "questions": "questions",
     "investigations": "investigations",
     "decisions": "decisions-workspace",
-    "library": "library-workspace",
+    "library": "briefing",  # Retained link now opens the consolidated Briefing.
     "start": "start",
     "operations": "operations-workspace",
 }

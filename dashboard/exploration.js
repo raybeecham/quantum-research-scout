@@ -2,7 +2,6 @@
 (() => {
   "use strict";
   const topics = [
-    { id: "government", name: "Government & policy", terms: ["government", "federal"], pattern: /\b(government|federal)\b/i },
     {
       id: "security",
       name: "Cyber / PQC",
@@ -36,6 +35,12 @@
       name: "Cloud & infrastructure",
       terms: ["cloud", "Kubernetes", "container", "data center"],
       pattern: /\b(cloud|kubernetes|containers?|data cent(?:er|re)s?)\b/i,
+    },
+    {
+      id: "government",
+      name: "Government & policy",
+      terms: ["government", "federal"],
+      pattern: /\b(government|federal)\b/i,
     },
   ];
   const resources = [
@@ -246,16 +251,41 @@
     if (!host) return;
     const labels = window.ScoutNews.topicLabels;
     host.hidden = false;
-    host.innerHTML = `<div class="explore-heading"><div><span class="desk-kicker">THE SAME COLLECTION, A DIFFERENT VIEW</span><h2>Coverage at a glance</h2></div><a href="#news">Browse all ${stories.length} stories →</a></div><p class="explore-note">Counts match Latest. Topics overlap; they describe collected coverage, not market size or technical maturity.</p><div class="coverage-strips">${Object.entries(labels).filter(([id]) => id !== "all").map(([id, name]) => ({id, name, count: stories.filter(s => window.ScoutNews.topics(s).includes(id)).length})).filter(t => t.count >= 3).map(t => `<a class="coverage-strip topic-${t.id}" href="#news" data-news-browse="${t.id}"><span>${esc(t.name)}</span><strong>${t.count}</strong></a>`).join("")}</div>`;
-    host.querySelectorAll("[data-news-browse]").forEach(a => a.addEventListener("click", e => {
-      e.preventDefault(); window.ScoutNews.browse("", a.dataset.newsBrowse);
-    }));
+    host.innerHTML = `<div class="explore-heading"><div><span class="desk-kicker">THE SAME COLLECTION, A DIFFERENT VIEW</span><h2>Coverage at a glance</h2></div><a href="#news">Browse all ${stories.length} stories →</a></div><p class="explore-note">Counts match Latest. Topics overlap; they describe collected coverage, not market size or technical maturity.</p><div class="coverage-strips">${Object.entries(
+      labels,
+    )
+      .filter(([id]) => id !== "all")
+      .map(([id, name]) => ({
+        id,
+        name,
+        count: stories.filter(s => window.ScoutNews.topics(s).includes(id)).length,
+      }))
+      .filter(t => t.count >= 3)
+      .map(
+        t =>
+          `<a class="coverage-strip topic-${t.id}" href="#news" data-news-browse="${t.id}"><span>${esc(t.name)}</span><strong>${t.count}</strong></a>`,
+      )
+      .join("")}</div>`;
+    host.querySelectorAll("[data-news-browse]").forEach(a =>
+      a.addEventListener("click", e => {
+        e.preventDefault();
+        window.ScoutNews.browse("", a.dataset.newsBrowse);
+      }),
+    );
   }
   function evidenceCard(r, type) {
     return `<article class="connection-card"><h4>${external(r.url, r.title)}</h4><p class="connection-date">${type === "missions" ? "Curated program context · not a new announcement" : date(r.date) ? `${esc(r.dateLabel || "Evidence date")} · ${esc(window.ScoutDisplay.date(r.date))}` : "Source date unavailable"}${r.reportDate ? ` · Report ${esc(window.ScoutDisplay.date(r.reportDate))}` : ""}</p><p>${esc(r.reason)}</p><details><summary>Inspect supporting evidence${r.count > 1 ? ` · ${r.count} matching links in snapshot` : ""}</summary><p>${esc(r.evidence)}</p><p>${external(r.url, "Open supporting source")}</p></details></article>`;
   }
   function column(label, rows, type) {
-    if (type === "readings") return `<section class="connection-column"><h3>Linked stories <span>${rows.length}</span></h3><p class="explore-note">Supporting links from the Latest collection, not another news feed.</p><ul>${rows.slice(0, 3).map(r => `<li>${external(r.url, r.title)}<p class="explore-note">${esc(r.reason)}</p></li>`).join("")}</ul><a href="#news" data-map-browse="${selected}">Browse this topic in Latest →</a></section>`;
+    if (type === "readings")
+      return `<section class="connection-column"><h3>Linked stories <span>${rows.length}</span></h3><p class="explore-note">Supporting links from the Latest collection, not another news feed.</p><ul>${rows
+        .slice(0, 3)
+        .map(
+          r => `<li>${external(r.url, r.title)}<p class="explore-note">${esc(r.reason)}</p></li>`,
+        )
+        .join(
+          "",
+        )}</ul><a href="#news" data-map-browse="${selected}">Browse this topic in Latest →</a></section>`;
     return `<section class="connection-column"><h3>${esc(label)} <span>${rows.length}</span></h3>${
       rows
         .slice(0, 2)
@@ -302,7 +332,8 @@
       column("Government programs", graph.missions, "missions") +
       column("Research & reporting", graph.readings, "readings");
     branches.querySelector("[data-map-browse]")?.addEventListener("click", e => {
-      e.preventDefault(); window.ScoutNews.browse("", selected);
+      e.preventDefault();
+      window.ScoutNews.browse("", selected);
     });
     document.getElementById("discovery-filter").value = selected;
     renderResources();
