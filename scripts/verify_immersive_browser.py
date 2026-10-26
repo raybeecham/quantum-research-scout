@@ -39,7 +39,12 @@ def main():
         expect(feature).to_be_visible()
         expect(page.locator("#news-title")).to_have_text("Latest intelligence")
         expect(page.locator("#news-visit-summary")).to_contain_text("Your first visit")
-        expect(page.locator(".topic-chapter")).to_have_count(4)
+        expected_topics = page.evaluate(
+            "ScoutNews.availableTopics(state.data.news_intelligence?.stories || state.data.reading_brief.stories)"
+        )
+        expect(page.locator(".topic-chapter")).to_have_count(len(expected_topics))
+        for chapter in page.locator(".topic-chapter-count strong").all():
+            assert int(chapter.inner_text()) >= 3
         expect(page.locator("[data-topic-detail]")).to_have_count(0)
         expect(page.locator(".topic-chapter-quantum")).to_contain_text("source site")
         expect(page.locator(".news-method > summary")).to_have_text("How this feed is selected")

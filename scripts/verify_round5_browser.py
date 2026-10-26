@@ -96,6 +96,25 @@ def main():
         ):
             assert results(short) == results(long), (short, long)
         page.keyboard.press("Escape")
+        page.goto(args.url.rstrip("/") + "/#news")
+        ready(page)
+        allowed = page.evaluate("ScoutNews.availableTopics(state.data.news_intelligence.stories)")
+        for button in page.locator("[data-news-topic]:visible, [data-topic-jump]:visible").all():
+            topic = button.get_attribute("data-news-topic") or button.get_attribute(
+                "data-topic-jump"
+            )
+            assert topic == "all" or topic in allowed
+        for topic in allowed:
+            page.evaluate("topic => ScoutNews.browse('', topic)", topic)
+            expect(page.locator(".news-lead [data-news-category]").first).to_have_attribute(
+                "data-news-category", topic
+            )
+        page.goto(args.url.rstrip("/") + "/#briefing")
+        ready(page)
+        for topic in ("security", "quantum", "ai", "cloud", "government"):
+            button = page.locator(f'[data-lens="{topic}"]')
+            if button.count() and topic not in allowed:
+                expect(button).to_be_hidden()
         assert not errors, errors
         browser.close()
     print("Round 5 browser checks passed")

@@ -558,6 +558,12 @@
 
   function renderStories() {
     const all = ui.data.news_intelligence?.stories || ui.data.reading_brief?.stories || [];
+    const available = window.ScoutNews?.availableTopics(all) || [];
+    document.querySelectorAll("[data-lens]").forEach(button => {
+      const lens = button.dataset.lens;
+      if (["security", "quantum", "ai", "cloud", "government"].includes(lens))
+        button.hidden = !available.includes(lens);
+    });
     const decisions = research
       .sortReadings(
         all.filter(item =>

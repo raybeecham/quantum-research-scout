@@ -121,6 +121,11 @@
     return [...matches];
   }
 
+  const availableTopics = rows =>
+    Object.keys(TOPICS).filter(
+      key => key !== "all" && rows.filter(item => topics(item).includes(key)).length >= 3,
+    );
+
   function stories() {
     const rows =
       state.data?.news_intelligence?.version === 1 &&
@@ -212,7 +217,7 @@
 
   function card(item, variant, usedImages) {
     const relatedTopics = topics(item);
-    const topic = relatedTopics[0] || "all";
+    const topic = state.topic !== "all" ? state.topic : relatedTopics[0] || "all";
     const heading = variant === "lead" ? "h2" : "h3";
     const summary = excerpt(item);
     const save = state.saveButton && text(item.id) ? state.saveButton(item) : "";
@@ -552,7 +557,8 @@
     }
     host.innerHTML =
       `<div class="topic-chapters-heading"><h2>Explore by topic</h2><p>Coverage in this collection. A story can appear in more than one topic.</p></div>` +
-      ["quantum", "security", "ai", "government"]
+      ["quantum", "security", "ai", "cloud", "government"]
+        .filter(key => availableTopics(all).includes(key))
         .map(key => {
           const matches = all.filter(item => topics(item).includes(key));
           const hosts = new Set(
@@ -583,6 +589,7 @@
     try {
       renderEdition();
       const all = stories();
+      if (state.topic !== "all" && !availableTopics(all).includes(state.topic)) state.topic = "all";
       window.ScoutNewsPreferences?.init(all.map(item => ({ ...item, news_topics: topics(item) })));
       renderPersonalization(all);
       renderVisit(all);
@@ -687,8 +694,7 @@
         .querySelectorAll("[data-news-topic]")
         .forEach(button => {
           const topic = button.dataset.newsTopic;
-          button.hidden =
-            topic !== "all" && all.filter(item => topics(item).includes(topic)).length < 3;
+          button.hidden = topic !== "all" && !availableTopics(all).includes(topic);
           button.setAttribute("aria-pressed", String(topic === state.topic));
         });
       $("news-loading").hidden = true;
@@ -849,6 +855,7 @@
     refresh: render,
     topics,
     topicLabels: TOPICS,
+    availableTopics,
     browse(query = "", topic = "all") {
       state.search = query;
       state.topic = Object.hasOwn(TOPICS, topic) ? topic : "all";
