@@ -252,7 +252,8 @@
   }
   function relatedReadings(item, readings) {
     const text = normalize(`${item.title || ""} ${hasTechnicalText(item) ? item.summary : ""}`);
-    const terms = phrases.filter(t => matchesPhrase(text, t));
+    const specific = ["ml kem", "ml dsa", "slh dsa", "kyber", "dilithium", "surface code", "quantum key distribution", "smart dust", "secure boot"];
+    const terms = specific.filter(t => matchesPhrase(text, t));
     const seen = new Set();
     return readings
       .flatMap(r => {
@@ -323,8 +324,8 @@
           .map(f => `<li>${esc(f)}</li>`)
           .join("") || "<li>Scoring factors not supplied.</li>"
       }</ul><p>Matched collector keywords: ${esc(list(item.matched_keywords).join(", ") || "Not supplied")}</p></details>
-      <section class="patent-reading-leads"><h4>Related reading leads</h4><p class="patent-small">Shared phrases in the current Frontier Signal reading window, not patent citations or established prior art.</p>
-      ${related.map(r => `<article>${sourceLink(r.url, r.title)}<p>Shared phrases: ${esc(r.shared.join(", "))} · ${esc(r.source_kind_label || "Source type unverified")}</p></article>`).join("") || "<p>No shared-phrase matches in the current reading window. This is not evidence that related literature does not exist.</p>"}</section>
+      <section class="patent-reading-leads"><h4>Related reading leads</h4><p class="patent-small">Specific algorithm or mechanism matches, not patent citations or established prior art. Broad quantum, AI, cloud, and security labels are excluded.</p>
+      ${related.map(r => `<article>${sourceLink(r.url, r.title)}<p>Connection: shared specific term ${esc(r.shared.join(", "))} · ${esc(r.source_kind_label || "Source type unverified")}</p></article>`).join("") || "<p>No specific mechanism matches in the current reading window. This is not evidence that related literature does not exist.</p>"}</section>
       <details class="patent-inspector-section"><summary>Questions to guide your reading</summary><ul><li>What mechanism do the independent claims describe, and under which assumptions?</li><li>Which published method is the closest comparison? Check dates and versions.</li><li>What experiment would test the proposed benefit against that baseline?</li></ul><p>Reading prompts, not extracted findings or established research gaps.</p></details>`;
     paintEvidence(item);
     $("patent-explore").onclick = () =>

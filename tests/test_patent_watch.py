@@ -153,8 +153,12 @@ def test_reading_leads_require_shared_technical_text_not_assignee_or_tag():
         {"title": "Post quantum authentication bad link", "url": "javascript:alert(1)"},
     ]
     result = run_js("console.log(JSON.stringify(p.relatedReadings(v[0],v[1])))", [data, sources])
+    assert result == []  # Generic PQC/authentication overlap is not a useful connection.
+    data["title"] = "ML-KEM key encapsulation"
+    sources.append({"title": "ML-KEM implementation study", "url": "https://example.org/mlkem"})
+    result = run_js("console.log(JSON.stringify(p.relatedReadings(v[0],v[1])))", [data, sources])
     assert len(result) == 1
-    assert result[0]["shared"] == ["post quantum", "authentication"]
+    assert result[0]["shared"] == ["ml kem"]
 
 
 def test_link_safety_rejects_credentials_and_scripts():
