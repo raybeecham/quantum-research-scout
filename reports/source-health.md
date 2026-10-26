@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-26 00:54 UTC_
+_Updated 2026-10-26 17:25 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -16,7 +16,6 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 |---|---|---:|---:|---:|---|---|---|---|
 | White House Science and Technology Missions | watch | 60% | 30 | 0 | 2026-10-26 | 2026-09-29 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 73% | 25 | 0 | 2026-10-26 | 2026-09-24 | stale | 🟢 healthy |
-| Rigetti News | rss | 83% | 17 | 0 | 2026-10-26 | 2026-09-08 | stale | 🔴 failing |
 | Department of War Strategic Technology News | watch | 86% | 13 | 0 | 2026-10-26 | 2026-10-23 | fresh | 🟢 healthy |
 | Quantum Computing Report | rss | 71% | 9 | 0 | 2026-10-26 | 2026-10-25 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 65% | 9 | 0 | 2026-10-26 | 2026-10-21 | fresh | 🟢 healthy |
@@ -43,6 +42,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-10-26 | 2026-10-22 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-10-26 | 2026-10-06 | stale | 🟢 healthy |
 | DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-10-26 | 2026-10-23 | fresh | 🟢 healthy |
+| DOE Office of Science Updates | watch | 100% | 0 | 0 | — | — | unverified | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-10-26 | — | reference | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-10-26 | 2026-10-22 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-10-26 | 2026-10-22 | fresh | 🟢 healthy |
@@ -77,7 +77,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Keyfactor Quantum and Crypto-Agility | watch | 100% | 0 | 0 | 2026-10-26 | 2026-10-21 | fresh | 🟢 healthy |
 | Kubernetes Blog | rss | 100% | 0 | 0 | 2026-10-26 | 2026-10-14 | fresh | 🟢 healthy |
 | Lockheed Martin Quantum Technology | watch | 98% | 0 | 0 | 2026-10-26 | 2026-07-14 | stale | 🟢 healthy |
-| Microsoft Quantum Blog | rss | 100% | 0 | 0 | 2026-10-26 | 2026-06-02 | stale | 🟢 healthy |
+| Microsoft Quantum Blog | watch | 100% | 0 | 0 | 2026-10-26 | 2026-06-02 | stale | 🟢 healthy |
 | NCSC UK Guidance | rss | 100% | 0 | 0 | 2026-10-26 | 2026-10-15 | fresh | 🟢 healthy |
 | NCSC UK News | rss | 100% | 0 | 0 | 2026-10-26 | 2026-10-21 | fresh | 🟢 healthy |
 | NCSC UK Reports | rss | 100% | 0 | 0 | 2026-10-26 | 2025-05-07 | stale | 🟢 healthy |
@@ -120,42 +120,43 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 
 ## Operational Coverage
 
-- Coverage status: **WATCH**
-- Healthy sources: **102** of **103**
+- Coverage status: **HEALTHY**
+- Healthy sources: **103** of **103**
 - Partial-coverage sources: **0**
 - Critical sources failing: **0**
 
 ## Disabled Sources
 
-- Entrust Blog [url]
-- Keyfactor Blog [rss]
-- MITRE Quantum and PQC [watch]
-- NSA Cybersecurity Advisories [url]
-- Quantum Zeitgeist [rss]
-- QuantumNews.ai [url]
+- Entrust Blog [url]: Disabled in configuration.
+- Keyfactor Blog [rss]: Disabled in configuration.
+- MITRE Quantum and PQC [watch]: Disabled in configuration.
+- NSA Cybersecurity Advisories [url]: Disabled in configuration.
+- Quantum Zeitgeist [rss]: Disabled in configuration.
+- QuantumNews.ai [url]: Disabled in configuration.
+- Rigetti News [rss]: Disabled after the 2026-10-25 audit: investor RSS and news-release endpoints return HTTP 403; the public news page exposes no usable article links to this collector. Recheck before enabling.
 
 ## Recent Warning Details
 
-- 2026-10-25 — **Rigetti News**: Failed to fetch https://investors.rigetti.com/rss/news-releases.xml: 403 Client Error: Forbidden for url: https://investors.rigetti.com/rss/news-releases.xml
 - 2026-10-24 — **White House Science and Technology Missions**: All discovery methods failed: HTML page returned no matching entries.
 - 2026-10-24 — **ETSI Quantum Standards News**: All discovery methods failed: HTML page returned no matching entries.
-- 2026-10-24 — **Rigetti News**: Failed to fetch https://investors.rigetti.com/rss/news-releases.xml: 403 Client Error: Forbidden for url: https://investors.rigetti.com/rss/news-releases.xml
 - 2026-10-24 — **Department of War Strategic Technology News**: All discovery methods failed: Feed returned no parseable entries.; HTML discovery failed: Failed to fetch https://www.war.gov/News/News-Stories/: 403 Client Error: Forbidden for url: https://www.war.gov/News/News-Stories/
 - 2026-10-23 — **White House Science and Technology Missions**: All discovery methods failed: HTML page returned no matching entries.
 - 2026-10-23 — **ETSI Quantum Standards News**: All discovery methods failed: HTML page returned no matching entries.
-- 2026-10-23 — **Rigetti News**: Failed to fetch https://investors.rigetti.com/rss/news-releases.xml: 403 Client Error: Forbidden for url: https://investors.rigetti.com/rss/news-releases.xml
 - 2026-10-23 — **Department of War Strategic Technology News**: All discovery methods failed: Feed returned no parseable entries.; HTML discovery failed: Failed to fetch https://www.war.gov/News/News-Stories/: 403 Client Error: Forbidden for url: https://www.war.gov/News/News-Stories/
 - 2026-10-22 — **White House Science and Technology Missions**: All discovery methods failed: HTML page returned no matching entries.
 - 2026-10-22 — **ETSI Quantum Standards News**: All discovery methods failed: HTML page returned no matching entries.
-- 2026-10-22 — **Rigetti News**: Failed to fetch https://investors.rigetti.com/rss/news-releases.xml: 403 Client Error: Forbidden for url: https://investors.rigetti.com/rss/news-releases.xml
 - 2026-10-22 — **Department of War Strategic Technology News**: All discovery methods failed: Feed returned no parseable entries.; HTML discovery failed: Failed to fetch https://www.war.gov/News/News-Stories/: 403 Client Error: Forbidden for url: https://www.war.gov/News/News-Stories/
 - 2026-10-21 — **White House Science and Technology Missions**: All discovery methods failed: HTML page returned no matching entries.
 - 2026-10-21 — **ETSI Quantum Standards News**: All discovery methods failed: HTML page returned no matching entries.
 - 2026-10-21 — **Quantum Journal**: Failed to fetch https://quantum-journal.org/feed/: HTTPSConnectionPool(host='quantum-journal.org', port=443): Read timed out. (read timeout=20)
 - 2026-10-21 — **Quantum Computing Patents**: USPTO ODP rate limited (HTTP 429): Failed to fetch https://api.uspto.gov/api/v1/patent/applications/search: 429 Client Error:  for url: https://api.uspto.gov/api/v1/patent/applications/search?q=%28applicationMetaData.inventionTitle%3A%22quantum+computing%22+OR+applicationMetaData.inventionTitle%3A%22quantum+processor%22+OR+applicationMetaData.inventionTitle%3Aqubit%29&limit=25
-- 2026-10-21 — **Rigetti News**: Failed to fetch https://investors.rigetti.com/rss/news-releases.xml: 403 Client Error: Forbidden for url: https://investors.rigetti.com/rss/news-releases.xml
 - 2026-10-21 — **Department of War Strategic Technology News**: All discovery methods failed: Feed returned no parseable entries.; HTML discovery failed: Failed to fetch https://www.war.gov/News/News-Stories/: 403 Client Error: Forbidden for url: https://www.war.gov/News/News-Stories/
 - 2026-10-20 — **White House Science and Technology Missions**: All discovery methods failed: HTML page returned no matching entries.
+- 2026-10-20 — **ETSI Quantum Standards News**: All discovery methods failed: HTML page returned no matching entries.
+- 2026-10-20 — **Department of War Strategic Technology News**: All discovery methods failed: Feed returned no parseable entries.; HTML discovery failed: Failed to fetch https://www.war.gov/News/News-Stories/: 403 Client Error: Forbidden for url: https://www.war.gov/News/News-Stories/
+- 2026-10-19 — **White House Science and Technology Missions**: All discovery methods failed: HTML page returned no matching entries.
+- 2026-10-19 — **ETSI Quantum Standards News**: All discovery methods failed: HTML page returned no matching entries.
+- 2026-10-19 — **Department of War Strategic Technology News**: All discovery methods failed: Feed returned no parseable entries.; HTML discovery failed: Failed to fetch https://www.war.gov/News/News-Stories/: 403 Client Error: Forbidden for url: https://www.war.gov/News/News-Stories/
 
 ## Recent Coverage Advisories
 
