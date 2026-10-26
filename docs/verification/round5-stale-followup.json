@@ -1,0 +1,439 @@
+{
+  "checked_at": "2026-10-26T20:14:26.739202+00:00",
+  "baseline_commit": "21ec8237117ce51d555093e3358b09666a7d7561",
+  "remaining_stale_count": 32,
+  "observations_written": false,
+  "expected_idle_exemptions_added": 0,
+  "sources": [
+    {
+      "name": "Accenture Quantum and PQC News",
+      "feed_url": "https://newsroom.accenture.com/",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2025-10-20T00:00:00+00:00",
+      "last_item_url": "https://newsroom.accenture.com/news/2022/accenture-invests-in-good-chemistry-company-to-help-drive-quantum-computing-advancements-in-materials-and-life-sciences",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Public collector returned 11 items (2 dated), zero warnings. No verified newer dated technology update within the configured freshness window; a bounded index check does not establish a reliable idle cadence."
+    },
+    {
+      "name": "Atom Computing News and Research",
+      "feed_url": "https://atom-computing.com/",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-10-07T21:30:00+00:00",
+      "last_item_url": "https://atom-computing.com/atom-computing-selected-by-darpa-for-final-stage-of-quantum-benchmarking-initiative/",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Discovery repaired: dedicated official newsroom and short Read more links return 25 dated articles, including the latest Oct 7 article. The original date is still outside the 14-day freshness window; retain stale."
+    },
+    {
+      "name": "Booz Allen Quantum and PQC",
+      "feed_url": "https://www.boozallen.com/expertise/analytics/quantum-computing.html",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-09-29T00:00:00+00:00",
+      "last_item_url": "https://www.boozallen.com/insights/fast-tracking-results/advancing-quantum-technology.html",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Public collector returned 12 items (12 dated), zero warnings. No verified newer dated technology update within the configured freshness window; a bounded index check does not establish a reliable idle cadence."
+    },
+    {
+      "name": "DARPA Strategic Technology Missions",
+      "feed_url": "https://www.darpa.mil/rss.xml",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-10-06T17:48:30+00:00",
+      "last_item_url": "https://www.darpa.mil/news/2026/four-more-teams-enter-quantum-benchmarking-initiative-final-stage",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Public collector returned 6 items (6 dated), zero warnings. No verified newer dated technology update within the configured freshness window; a bounded index check does not establish a reliable idle cadence."
+    },
+    {
+      "name": "ETSI Quantum Standards News",
+      "feed_url": "https://www.etsi.org/newsroom/",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-09-24T08:53:38+00:00",
+      "last_item_url": "https://www.etsi.org/newsroom/press-releases/etsis-identifies-limitations-of-quantum-random-number-generators/",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Official newsroom is reachable and lists the Sept 24 quantum random-number article; the other visible newer announcements cover AI, smartphone environmental impact and the Cyber Resilience Act. No verified newer quantum-specific item found in the bounded check; retain stale rather than widening source topic or inventing a cadence."
+    },
+    {
+      "name": "Fortanix Quantum Security",
+      "feed_url": "https://www.fortanix.com/blog",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-10-08T00:00:00+00:00",
+      "last_item_url": "https://www.fortanix.com/blog/how-to-prepare-for-post-quantum-cryptography-pqc",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Public collector returned 25 items (25 dated), zero warnings. No verified newer dated technology update within the configured freshness window; a bounded index check does not establish a reliable idle cadence."
+    },
+    {
+      "name": "Grants.gov · AI Forge",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-07-22T00:00:00+00:00",
+      "last_item_url": "https://www.grants.gov/search-results-detail/363269",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "Grants.gov · Cybersecurity",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-10-05T00:00:00+00:00",
+      "last_item_url": "https://www.grants.gov/search-results-detail/364026",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "Grants.gov · Genesis Mission",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-10-08T00:00:00+00:00",
+      "last_item_url": "https://www.grants.gov/search-results-detail/364033",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "Grants.gov · Golden Dome",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-08-27T00:00:00+00:00",
+      "last_item_url": "https://www.grants.gov/search-results-detail/363732",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "Grants.gov · Post-Quantum Cybersecurity",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-09-21T00:00:00+00:00",
+      "last_item_url": "https://www.grants.gov/search-results-detail/363912",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "Grants.gov · Project Triad",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-09-25T00:00:00+00:00",
+      "last_item_url": "https://www.grants.gov/search-results-detail/363971",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "Grants.gov · Quantum Benchmarking Initiative",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-09-14T00:00:00+00:00",
+      "last_item_url": "https://www.grants.gov/search-results-detail/363860",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "Grants.gov · Quantum Genesis",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-06-30T00:00:00+00:00",
+      "last_item_url": "https://www.grants.gov/search-results-detail/359269",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "Grants.gov · Quantum Technologies",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-10-09T00:00:00+00:00",
+      "last_item_url": "https://www.grants.gov/search-results-detail/364054",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "Lockheed Martin Quantum Technology",
+      "feed_url": "https://www.lockheedmartin.com/en-us/capabilities/quantum-technology.html",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-07-14T20:38:03+00:00",
+      "last_item_url": "https://www.lockheedmartin.com/en-us/capabilities/quantum-technology.html",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Official capability/sitemap collector returns three undated pages. The inspected news article exposes last-published-date 2026-23-09 (ambiguous/non-ISO) rather than reliable original publication metadata. Do not infer a fresh date from URL year, sitemap modification, or retrieval time; retain stale pending publisher metadata/confirmed dated feed."
+    },
+    {
+      "name": "Microsoft Quantum Blog",
+      "feed_url": "https://quantum.microsoft.com/en-us/insights/blogs",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-09-22T00:00:00+00:00",
+      "last_item_url": "https://quantum.microsoft.com/en-us/insights/blogs/microsoft-quantum-research-center-maryland",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Official blog index is reachable; actual collector returns two dated Sept 22 articles. No verified newer original publication was found. Retain stale; the public index may not establish complete archive coverage."
+    },
+    {
+      "name": "NCSC UK Reports",
+      "feed_url": "https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2025-05-07T12:00:00+00:00",
+      "last_item_url": "https://www.ncsc.gov.uk/report/impact-ai-cyber-threat-now-2027",
+      "freshness": "stale",
+      "stale_after_days": 180,
+      "expected_idle_days": 0,
+      "reason": "Public collector returned 20 items (20 dated), zero warnings. No verified newer dated technology update within the configured freshness window; a bounded index check does not establish a reliable idle cadence."
+    },
+    {
+      "name": "NSF Strategic Science and Technology Missions",
+      "feed_url": "https://www.nsf.gov/rss/rss_www_news.xml",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-10-08T13:45:03+00:00",
+      "last_item_url": "https://www.nsf.gov/news/nsf-lays-foundation-next-generation-technologies-support",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Public collector returned 6 items (6 dated), zero warnings. No verified newer dated technology update within the configured freshness window; a bounded index check does not establish a reliable idle cadence."
+    },
+    {
+      "name": "Open Quantum Safe",
+      "feed_url": "https://github.com/open-quantum-safe/liboqs/releases.atom",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-07-09T14:59:09+00:00",
+      "last_item_url": "https://github.com/open-quantum-safe/liboqs/releases/tag/0.16.0",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Public collector returned 10 items (10 dated), zero warnings. No verified newer dated technology update within the configured freshness window; a bounded index check does not establish a reliable idle cadence."
+    },
+    {
+      "name": "PsiQuantum News",
+      "feed_url": "https://www.psiquantum.com/news-import?category=Company",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-10-08T14:46:19+00:00",
+      "last_item_url": "https://www.psiquantum.com/news-import/psiquantum-receives-conditional-150-million-loan-commitment-from-the-us-department-of-war",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Public collector returned 20 items (20 dated), zero warnings. No verified newer dated technology update within the configured freshness window; a bounded index check does not establish a reliable idle cadence."
+    },
+    {
+      "name": "QuSecure Press Releases",
+      "feed_url": "https://www.qusecure.com/feed.xml",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-09-22T05:00:00+00:00",
+      "last_item_url": "https://www.qusecure.com/qusecure-gartner-cool-vendor-data-security/",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Public collector returned 21 items (21 dated), zero warnings. No verified newer dated technology update within the configured freshness window; a bounded index check does not establish a reliable idle cadence."
+    },
+    {
+      "name": "SandboxAQ Blog",
+      "feed_url": "https://www.sandboxaq.com/blog",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-10-08T00:00:00+00:00",
+      "last_item_url": "https://www.sandboxaq.com/post/aqpotency-from-sandboxaq-is-now-generally-available-in-aws-marketplace-and-deployable-on-amazon-sagemaker",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Public collector returned 40 items (40 dated), zero warnings. No verified newer dated technology update within the configured freshness window; a bounded index check does not establish a reliable idle cadence."
+    },
+    {
+      "name": "USAspending · AI Forge",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-09-28T00:00:00+00:00",
+      "last_item_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-/",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "USAspending · Artificial Intelligence",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-10-01T00:00:00+00:00",
+      "last_item_url": "https://www.usaspending.gov/award/CONT_AWD_693JJ326F00088N_6925_693JJ322A000004_6925/",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "USAspending · Autonomy and Sensing",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-10-01T00:00:00+00:00",
+      "last_item_url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D232_013/",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "USAspending · Genesis Mission",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-05-19T00:00:00+00:00",
+      "last_item_url": "https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732/",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "USAspending · Golden Dome",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-04-01T00:00:00+00:00",
+      "last_item_url": "https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-/",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "USAspending · Post-Quantum Cybersecurity",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-10-01T00:00:00+00:00",
+      "last_item_url": "https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013/",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "USAspending · Quantum Benchmarking Initiative",
+      "feed_url": "",
+      "last_checked_at": "2026-10-26T00:51:50.163987+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2025-10-06T00:00:00+00:00",
+      "last_item_url": "https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700/",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Government funding search succeeded; the latest matching award/opportunity is older than its configured freshness window. A successful check is operational health, not evidence of a newly published matching award. No supported replacement or justified idle cadence established."
+    },
+    {
+      "name": "White House Science and Technology Missions",
+      "feed_url": "https://www.whitehouse.gov/presidential-actions/?s=science",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-09-29T21:17:25+00:00",
+      "last_item_url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Public collector returned 1 items (1 dated), zero warnings. No verified newer dated technology update within the configured freshness window; a bounded index check does not establish a reliable idle cadence."
+    },
+    {
+      "name": "Wiz Post-Quantum Security",
+      "feed_url": "https://www.wiz.io/blog",
+      "last_checked_at": "2026-10-26T19:51:42.422679+00:00",
+      "last_outcome": "success",
+      "last_item_at": "2026-07-21T19:17:40.706000+00:00",
+      "last_item_url": "https://www.wiz.io/events/the-state-of-post-quantum-cryptography",
+      "freshness": "stale",
+      "stale_after_days": 14,
+      "expected_idle_days": 0,
+      "reason": "Public collector returned 4 items (4 dated), zero warnings. No verified newer dated technology update within the configured freshness window; a bounded index check does not establish a reliable idle cadence."
+    }
+  ],
+  "atom_newsroom_check": {
+    "url": "https://atom-computing.com/news-resources/",
+    "articles": 25,
+    "dated_articles": 25,
+    "warnings": [],
+    "latest_article": {
+      "title": "Atom Computing Selected by DARPA for Final Stage of Quantum Benchmarking Initiative - Atom Computing",
+      "url": "https://atom-computing.com/atom-computing-selected-by-darpa-for-final-stage-of-quantum-benchmarking-initiative/",
+      "published_at": "2026-10-07 21:30:00+00:00",
+      "date_source": "explicit_metadata:article:published_time"
+    }
+  },
+  "official_pages": [
+    {
+      "url": "https://atom-computing.com/news-resources/",
+      "status": 200,
+      "dates": [
+        {
+          "property": "article:modified_time",
+          "content": "2025-06-23T18:08:33+00:00",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "url": "https://quantum.microsoft.com/en-us/insights/blogs",
+      "status": 200,
+      "dates": []
+    },
+    {
+      "url": "https://www.lockheedmartin.com/en-us/news/features/2026/Quantum-Innovation-Center-Advances-Quantum-Capabilities-with-Speed-and-Scale.html",
+      "status": 200,
+      "dates": [
+        {
+          "name": "last-published-date",
+          "content": "2026-23-09",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.etsi.org/newsroom/",
+      "status": 200,
+      "dates": []
+    }
+  ]
+}

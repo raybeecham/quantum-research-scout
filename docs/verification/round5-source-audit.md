@@ -69,3 +69,15 @@ Keyfactor RSS redirects to the blog HTML. The existing official Keyfactor watch 
 NSA advisories, Rigetti investor RSS, Entrust Blog and MITRE newsroom still returned HTTP 403. No access restriction was bypassed. Quantum Zeitgeist RSS returned 200 entries; a subsequent actual collector check returned 40 dated articles with zero warnings, so the feed is restored for the next normal collection (its historical HTTP 403 remains recorded); QuantumNews.ai’s index was reachable, but its historically duplicated/blocked linked coverage has not been cleared. Every disabled source has its recorded reason, current check and recheck-by date.
 
 Raw bounded public checks are in `docs/verification/round5-sources.json`. Historical observations and published reports were not overwritten.
+
+## Bounded follow-up after hourly integration
+
+The final audit keeps **32 of 103 sources stale** in the preserved `21ec823` snapshot. The fewer-than-25 target is **not met**. Every remaining source, its exact configured endpoint (when applicable), last successful check, last item date/URL and disposition is recorded in `round5-stale-followup.json`. No new expected-idle exemptions or historical observations were written.
+
+- Atom Computing's homepage links its official newsroom at https://atom-computing.com/news-resources/ . Switching from the homepage and accepting the newsroom's short “Read more” links repaired incomplete discovery. The actual collector returned 25 dated articles with zero warnings, versus two on the homepage. It retains the October 7 original date of the newest item; this remains older than the existing 14-day threshold. The fixture asserts article discovery, exact source, URL and original publication timestamp.
+- ETSI's official newsroom remains reachable. Its visible quantum article is dated September 24; newer visible AI/network, smartphone and Cyber Resilience Act announcements do not establish a new quantum-specific item. The audit did not broaden this source's topic to manufacture freshness.
+- Microsoft's official Quantum blog remains reachable, with two collected September 22 articles; completeness beyond the public index is not established.
+- Lockheed Martin's inspected quantum news article supplies `last-published-date: 2026-23-09`, not reliable ISO original-publication metadata. The collector's three pages remain undated. Guessing a date from this field, sitemap changes or the URL would compromise date eligibility, so no such workaround was made.
+- The remaining public collectors returned evidence without warnings, but no verified current matching publication or justified idle cadence was established. The 16 government funding searches have successful recorded checks and old matching awards/opportunities. A check succeeding does not make an award newly published.
+
+Supported next step after approval is a normal collection using the repaired sources, retaining historical failures and actual dates. The new primary feeds may improve future diversity, but they cannot guarantee future publication volume. No feed block was bypassed, and no source was relabelled or hidden to meet a numeric target.

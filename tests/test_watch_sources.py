@@ -55,6 +55,27 @@ class MappingClient:
 
 
 class WatchSourceTests(unittest.TestCase):
+    def test_atom_newsroom_reads_short_article_links_and_retains_dates(self):
+        config = load_config(Path(__file__).resolve().parents[1] / "sources.yaml")
+        source = next(
+            row for row in config.watch_sources if row["name"] == "Atom Computing News and Research"
+        )
+        self.assertEqual(source["url"], "https://atom-computing.com/news-resources/")
+        article = "https://atom-computing.com/quantum-benchmarking-initiative/"
+        client = MappingClient(
+            {
+                source["url"]: f'<a href="{article}">Read more</a>',
+                article: ARTICLE,
+            }
+        )
+        result = collect_watch_sources(client, [source], 40)
+        self.assertEqual(result.warnings, [])
+        self.assertEqual(len(result.items), 1)
+        self.assertEqual(result.items[0].url, article)
+        self.assertEqual(result.items[0].source_name, source["name"])
+        self.assertEqual(result.items[0].published_at.isoformat(), "2026-07-20T12:00:00+00:00")
+        self.assertEqual(result.items[0].date_source, "explicit_metadata:article:published_time")
+
     def test_restored_quantum_zeitgeist_keeps_source_and_publication_date(self):
         config = load_config(Path(__file__).resolve().parents[1] / "sources.yaml")
         source = next(row for row in config.rss_feeds if row["name"] == "Quantum Zeitgeist")
