@@ -55,6 +55,36 @@ class MappingClient:
 
 
 class WatchSourceTests(unittest.TestCase):
+    def test_keyfactor_uses_official_html_with_publisher_dates(self):
+        source = next(
+            row
+            for row in load_config(
+                Path(__file__).resolve().parents[1] / "sources.yaml"
+            ).watch_sources
+            if row["name"] == "Keyfactor Quantum and Crypto-Agility"
+        )
+        url = "https://www.keyfactor.com/blog/post-quantum-readiness/"
+        client = MappingClient(
+            {
+                source["url"]: f'<a href="{url}">Read more</a>',
+                url: ARTICLE.replace("Company awarded quantum contract", "Post-Quantum Readiness"),
+            }
+        )
+        result = collect_watch_sources(client, [source], 25)
+        self.assertEqual(result.warnings, [])
+        self.assertEqual(len(result.items), 1)
+        self.assertEqual(result.items[0].url, url)
+        self.assertEqual(result.items[0].published_at.isoformat(), "2026-07-20T12:00:00+00:00")
+        self.assertEqual(result.items[0].source_name, source["name"])
+
+    def test_every_disabled_source_has_explanation_and_recheck_date(self):
+        config = load_config(Path(__file__).resolve().parents[1] / "sources.yaml")
+        for source in [*config.rss_feeds, *config.urls, *config.watch_sources]:
+            if not source.get("enabled", True):
+                self.assertRegex(
+                    source.get("source_note", ""), r"Recheck by \d{4}-\d{2}-\d{2}\.", source["name"]
+                )
+
     def test_configured_department_news_preserves_official_rss_provenance(self) -> None:
         root = Path(__file__).resolve().parents[1]
         source = next(

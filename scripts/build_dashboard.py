@@ -56,6 +56,18 @@ def build_dashboard(
     source_health = _read_json(
         reports / "source-health.json", {"sources": [], "disabled_sources": []}
     )
+    # Policy explanations can change between collection runs; preserve measured health/history.
+    config_path = root / "sources.yaml"
+    if config_path.exists():
+        source_config = load_config(config_path)
+        notes = {
+            row.get("name"): row.get("source_note")
+            for row in [*source_config.rss_feeds, *source_config.urls, *source_config.watch_sources]
+            if row.get("source_note")
+        }
+        for row in source_health.get("disabled_sources", []):
+            if row.get("name") in notes:
+                row["source_note"] = notes[row["name"]]
     data_trust = _read_json(
         reports / "data-trust.json",
         {"summary": {}, "collector_metrics": [], "reason_counts": [], "quarantined_evidence": []},

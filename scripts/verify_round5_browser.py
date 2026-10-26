@@ -118,6 +118,12 @@ def main():
             button = page.locator(f'[data-lens="{topic}"]')
             if button.count() and topic not in allowed:
                 expect(button).to_be_hidden()
+        page.goto(args.url.rstrip("/") + "/#operations")
+        ready(page)
+        for row in page.locator("#disabled-source-list li").all():
+            if row.inner_text() != "No disabled sources.":
+                expect(row).to_contain_text("Recheck by")
+                assert "Disabled in configuration." not in row.inner_text()
         assert not errors, errors
         browser.close()
     print("Round 5 browser checks passed")
