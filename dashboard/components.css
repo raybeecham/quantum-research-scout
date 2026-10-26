@@ -3460,11 +3460,13 @@ footer {
 
 .evidence-ledger-layout {
   display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   gap: 14px;
 }
 
 .evidence-ledger-layout > section {
+  min-width: 0;
+  overflow-wrap: anywhere;
   padding: 12px;
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
@@ -4983,7 +4985,7 @@ footer {
 
 @media (max-width: 880px) {
   .evidence-ledger-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .analyst-decision-list {
