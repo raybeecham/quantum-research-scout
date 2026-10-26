@@ -425,6 +425,18 @@ urls:
     entities: [Entrust]
 
 watch_sources:
+  - name: "NIST Research News"
+    entities: [NIST]
+    rss_url: "https://www.nist.gov/news-events/news/rss.xml"
+    match_patterns: [quantum, cryptograph, cybersecurity, artificial intelligence, computing]
+    max_items: 40
+    source_note: "Official NIST RSS directory: https://www.nist.gov/coo/nist-rss-feeds. First-party research announcements; retain original publication dates."
+  - name: "NIST Cybersecurity Insights"
+    entities: [NIST]
+    rss_url: "https://www.nist.gov/blogs/cybersecurity-insights/rss.xml"
+    match_patterns: [quantum, cryptograph, cybersecurity, artificial intelligence, computing]
+    max_items: 40
+    source_note: "Official NIST RSS directory: https://www.nist.gov/coo/nist-rss-feeds. Complements CSRC releases with technical explanations."
   - name: "Microsoft Quantum Blog"
     entities: [Microsoft Quantum]
     url: "https://quantum.microsoft.com/en-us/insights/blogs"

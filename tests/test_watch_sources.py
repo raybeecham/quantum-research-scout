@@ -55,6 +55,24 @@ class MappingClient:
 
 
 class WatchSourceTests(unittest.TestCase):
+    def test_nist_primary_feeds_preserve_original_evidence(self):
+        config = load_config(Path(__file__).resolve().parents[1] / "sources.yaml")
+        expected = {
+            "NIST Research News": "https://www.nist.gov/news-events/news/rss.xml",
+            "NIST Cybersecurity Insights": "https://www.nist.gov/blogs/cybersecurity-insights/rss.xml",
+        }
+        for name, url in expected.items():
+            source = next(row for row in config.watch_sources if row["name"] == name)
+            self.assertEqual(source["rss_url"], url)
+            article = "https://www.nist.gov/news-events/news/2026/07/quantum-test"
+            client = MappingClient({url: SHORT_RSS.replace("https://example.com/latest", article)})
+            result = collect_watch_sources(client, [source], 40)
+            self.assertEqual(result.warnings, [])
+            self.assertEqual(len(result.items), 1)
+            self.assertEqual(result.items[0].url, article)
+            self.assertEqual(result.items[0].source_name, name)
+            self.assertEqual(result.items[0].published_at.isoformat(), "2026-07-24T12:00:00+00:00")
+
     def test_keyfactor_uses_official_html_with_publisher_dates(self):
         source = next(
             row

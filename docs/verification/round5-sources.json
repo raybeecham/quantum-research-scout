@@ -1,0 +1,660 @@
+{
+  "stale_public_collectors": {
+    "checked_at": "2026-10-26T19:22:26.160966+00:00",
+    "sources": [
+      {
+        "name": "NCSC UK Reports",
+        "items": 20,
+        "dated_items": 20,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "Impact of AI on cyber threat from now to 2027",
+            "url": "https://www.ncsc.gov.uk/report/impact-ai-cyber-threat-now-2027",
+            "published_at": "2025-05-07 12:00:00+00:00"
+          },
+          {
+            "title": "A method to assess 'forgivable' vs 'unforgivable' vulnerabilities",
+            "url": "https://www.ncsc.gov.uk/report/a-method-to-assess-forgivable-vs-unforgivable-vulnerabilities",
+            "published_at": "2025-01-28 12:00:00+00:00"
+          },
+          {
+            "title": "The near-term impact of AI on the cyber threat",
+            "url": "https://www.ncsc.gov.uk/report/impact-of-ai-on-cyber-threat",
+            "published_at": "2024-01-24 12:00:00+00:00"
+          },
+          {
+            "title": "ACD - The Sixth Year",
+            "url": "https://www.ncsc.gov.uk/report/acd-the-sixth-year",
+            "published_at": "2023-07-06 12:00:00+00:00"
+          },
+          {
+            "title": "Cyber Threat Report: UK Legal Sector",
+            "url": "https://www.ncsc.gov.uk/report/cyber-threat-report-uk-legal-sector",
+            "published_at": "2023-06-22 12:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "name": "Google Security Blog",
+        "items": 20,
+        "dated_items": 20,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "Chrome Now Warns Before Insecure HTTP Connections",
+            "url": "https://blog.google/security/chrome-now-warns-before-insecure-http-connections/",
+            "published_at": "2026-10-21 17:00:00+00:00"
+          },
+          {
+            "title": "Protecting Chrome and Android Users from Compromised eMudhra Intermediate CA Certificates",
+            "url": "https://blog.google/security/protecting-chrome-and-android-users-from-compromised-emudhra-intermediate-ca-certificates/",
+            "published_at": "2026-10-20 19:49:00+00:00"
+          },
+          {
+            "title": "Our latest defenses against evolving web scams",
+            "url": "https://blog.google/security/our-latest-defenses-against-evolving-web-scams/",
+            "published_at": "2026-10-20 17:00:00+00:00"
+          },
+          {
+            "title": "New Android protections to help keep you safe from mobile scams",
+            "url": "https://blog.google/security/new-android-scam-protections/",
+            "published_at": "2026-10-14 17:00:00+00:00"
+          },
+          {
+            "title": "Android's Next-Gen Enclave for On-Device AI",
+            "url": "https://blog.google/security/enabling-the-next-gen-enclave-architecture-for-on-device-ai-on-android/",
+            "published_at": "2026-10-07 09:43:00+00:00"
+          }
+        ]
+      },
+      {
+        "name": "Open Quantum Safe",
+        "items": 10,
+        "dated_items": 10,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "liboqs version 0.16.0",
+            "url": "https://github.com/open-quantum-safe/liboqs/releases/tag/0.16.0",
+            "published_at": "2026-07-09 14:59:09+00:00"
+          },
+          {
+            "title": "liboqs version 0.16.0-rc1",
+            "url": "https://github.com/open-quantum-safe/liboqs/releases/tag/0.16.0-rc1",
+            "published_at": "2026-06-24 15:10:52+00:00"
+          },
+          {
+            "title": "liboqs version 0.15.0",
+            "url": "https://github.com/open-quantum-safe/liboqs/releases/tag/0.15.0",
+            "published_at": "2025-11-14 21:37:49+00:00"
+          },
+          {
+            "title": "liboqs version 0.15.0-rc2",
+            "url": "https://github.com/open-quantum-safe/liboqs/releases/tag/0.15.0-rc2",
+            "published_at": "2025-11-12 21:34:48+00:00"
+          },
+          {
+            "title": "liboqs version 0.15.0-rc1",
+            "url": "https://github.com/open-quantum-safe/liboqs/releases/tag/0.15.0-rc1",
+            "published_at": "2025-10-28 00:26:30+00:00"
+          }
+        ]
+      },
+      {
+        "name": "SandboxAQ Blog",
+        "items": 40,
+        "dated_items": 40,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "SandboxAQ AQPotency Available on AWS Marketplace & SageMaker | SandboxAQ",
+            "url": "https://www.sandboxaq.com/post/aqpotency-from-sandboxaq-is-now-generally-available-in-aws-marketplace-and-deployable-on-amazon-sagemaker",
+            "published_at": "2026-10-08 00:00:00+00:00"
+          },
+          {
+            "title": "Breaking the Tether: Resilient Navigation for Autonomous Systems | SandboxAQ",
+            "url": "https://www.sandboxaq.com/post/breaking-the-tether-the-strategic-vulnerability-of-tethered-autonomy",
+            "published_at": "2026-09-29 00:00:00+00:00"
+          },
+          {
+            "title": "SandboxAQ & NVIDIA BioNeMo: Fast, Auditable AI Drug Discovery | SandboxAQ",
+            "url": "https://www.sandboxaq.com/post/provenance-at-interactive-speed-sandboxaq-and-nvidia-bionemo",
+            "published_at": "2026-09-10 00:00:00+00:00"
+          },
+          {
+            "title": "How AQCat Models Magnetic Catalysts Other Tools Get Wrong | SandboxAQ",
+            "url": "https://www.sandboxaq.com/post/how-aqcat-models-magnetic-catalysts-other-tools-get-wrong",
+            "published_at": "2026-08-18 00:00:00+00:00"
+          },
+          {
+            "title": "How AQPotency Ranks Compounds Swiftly, Without a Crystal Structure | SandboxAQ",
+            "url": "https://www.sandboxaq.com/post/how-aqpotency-ranks-compounds-swiftly-without-a-crystal-structure",
+            "published_at": "2026-09-02 00:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft Quantum Blog",
+        "items": 2,
+        "dated_items": 2,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "Microsoft Quantum | Microsoft\u2019s quantum research center opens in Maryland",
+            "url": "https://quantum.microsoft.com/en-us/insights/blogs/microsoft-quantum-research-center-maryland",
+            "published_at": "2026-09-22 00:00:00+00:00"
+          },
+          {
+            "title": "Microsoft Quantum | The scalable logical qubits that will enable utility-scale quantum computing",
+            "url": "https://quantum.microsoft.com/en-us/insights/blogs/scalable-logical-qubits",
+            "published_at": "2026-09-22 00:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "name": "Google Quantum AI",
+        "items": 1,
+        "dated_items": 1,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "Bringing the magic: Google breaks open a bottleneck in quantum computing",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
+            "published_at": "2026-10-15 00:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "name": "White House Science and Technology Missions",
+        "items": 1,
+        "dated_items": 1,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "Inaugurating The Era Of Super Intelligence",
+            "url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
+            "published_at": "2026-09-29 21:17:25+00:00"
+          }
+        ]
+      },
+      {
+        "name": "DARPA Strategic Technology Missions",
+        "items": 6,
+        "dated_items": 6,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "Four more teams enter Quantum Benchmarking Initiative\u00e2\u0080\u0099s final stage",
+            "url": "https://www.darpa.mil/news/2026/four-more-teams-enter-quantum-benchmarking-initiative-final-stage",
+            "published_at": "2026-10-06 17:48:30+00:00"
+          },
+          {
+            "title": "The Vertical Lift Challenger | Ep 97",
+            "url": "https://www.darpa.mil/news/2026/podcast-vertical-lift-challenger-ep-97",
+            "published_at": "2026-09-30 19:45:01+00:00"
+          },
+          {
+            "title": "CIDAR challenge pushes the limits of passive ranging",
+            "url": "https://www.darpa.mil/news/2026/cidar-challenge-pushes-limits-passive-ranging",
+            "published_at": "2026-09-25 12:08:06+00:00"
+          },
+          {
+            "title": "Lift Challenge results",
+            "url": "https://www.darpa.mil/news/2026/lift-challenge-awards",
+            "published_at": "2026-08-09 18:16:23+00:00"
+          },
+          {
+            "title": "It\u00e2\u0080\u0099s about time for quantum manufacturing",
+            "url": "https://www.darpa.mil/news/2026/its-about-time",
+            "published_at": "2026-08-05 19:48:55+00:00"
+          }
+        ]
+      },
+      {
+        "name": "NSF Strategic Science and Technology Missions",
+        "items": 6,
+        "dated_items": 6,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "NSF lays the foundation for the next generation of technologies and support for American talent",
+            "url": "https://www.nsf.gov/news/nsf-lays-foundation-next-generation-technologies-support",
+            "published_at": "2026-10-08 13:45:03+00:00"
+          },
+          {
+            "title": "Podcast: New quantum-enabled materials",
+            "url": "https://www.nsf.gov/news/podcast-new-quantum-enabled-materials",
+            "published_at": "2026-09-30 16:11:09+00:00"
+          },
+          {
+            "title": "NSF invests in translating low-dimensional semiconductor technologies to establish U.S. leadership in microelectronics",
+            "url": "https://www.nsf.gov/news/nsf-invests-translating-low-dimensional-semiconductor",
+            "published_at": "2026-09-17 20:21:43+00:00"
+          },
+          {
+            "title": "NSF announces 3 additional topics as part of the NSF X-Labs initiative to pursue generational breakthrough science and technology efforts",
+            "url": "https://www.nsf.gov/news/nsf-announces-3-additional-topics-part-nsf-x-labs-initiative",
+            "published_at": "2026-09-16 17:13:07+00:00"
+          },
+          {
+            "title": "NSF launches $20M pilot to accelerate commercialization of promising deep technologies from small businesses",
+            "url": "https://www.nsf.gov/news/nsf-launches-20m-pilot-accelerate-commercialization",
+            "published_at": "2026-09-14 14:00:32+00:00"
+          }
+        ]
+      },
+      {
+        "name": "Wiz Post-Quantum Security",
+        "items": 4,
+        "dated_items": 4,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "State of Post Quantum Cryptography | Wiz Blog",
+            "url": "https://www.wiz.io/blog/state-of-post-quantum-cryptography",
+            "published_at": "2026-05-28 13:34:55+00:00"
+          },
+          {
+            "title": "White House PQC Mandates Explained: EO 14409 & M-26-15 | Wiz Blog",
+            "url": "https://www.wiz.io/blog/white-house-post-quantum-cryptography-executive-order",
+            "published_at": "2026-07-02 01:48:01+00:00"
+          },
+          {
+            "title": "Preparing for Post-Quantum Cryptography | Wiz Blog",
+            "url": "https://www.wiz.io/blog/preparing-for-post-quantum-cryptography",
+            "published_at": "2026-01-08 14:51:34+00:00"
+          },
+          {
+            "title": "Post-Quantum Cryptography: What It Is and How to Prepare | Wiz",
+            "url": "https://www.wiz.io/academy/cloud-security/post-quantum-cryptography",
+            "published_at": "2026-01-16 14:10:56+00:00"
+          }
+        ]
+      },
+      {
+        "name": "Fortanix Quantum Security",
+        "items": 25,
+        "dated_items": 25,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "A Peek Inside Post-Quantum Keys",
+            "url": "https://www.fortanix.com/blog/a-peek-inside-post-quantum-key",
+            "published_at": "2025-06-03 00:00:00+00:00"
+          },
+          {
+            "title": "Crypto agility & PQC: why adaptability matters",
+            "url": "https://www.fortanix.com/blog/cryptographic-agility-pqc-why-being-adaptable-matters",
+            "published_at": "2024-02-01 00:00:00+00:00"
+          },
+          {
+            "title": "Difference Between Post-Quantum Crypto & Quantum Crypto",
+            "url": "https://www.fortanix.com/blog/difference-between-post-quantum-crypto-and-quantum-crypto",
+            "published_at": "2025-07-24 00:00:00+00:00"
+          },
+          {
+            "title": "Fortanix Partners with BigID for Upleveling Data Security",
+            "url": "https://www.fortanix.com/blog/fortanix-and-bigid-partners-to-unveil-data-security-for-ai-and-post-quantum-world",
+            "published_at": "2025-09-29 00:00:00+00:00"
+          },
+          {
+            "title": "Guide to Mastering Data Security in Post-Quantum World",
+            "url": "https://www.fortanix.com/blog/guide-to-mastering-data-security-in-post-quantum-world",
+            "published_at": "2026-02-04 00:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "name": "Accenture Quantum and PQC News",
+        "items": 11,
+        "dated_items": 2,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "Accenture Invests in Good Chemistry Company to Help Drive Quantum Computing Advancements in Materials and Life Sciences",
+            "url": "https://newsroom.accenture.com/news/2022/accenture-invests-in-good-chemistry-company-to-help-drive-quantum-computing-advancements-in-materials-and-life-sciences",
+            "published_at": ""
+          },
+          {
+            "title": "Accenture and IonQ collaborate to accelerate quantum computing into the enterprise",
+            "url": "https://newsroom.accenture.com/news/2021/accenture-and-ionq-collaborate-to-accelerate-quantum-computing-into-the-enterprise",
+            "published_at": ""
+          },
+          {
+            "title": "Accenture and SandboxAQ Collaborate to Help Organizations Protect Data Against AI-Driven Cyber Threats and Quantum-Based Decryption Attacks",
+            "url": "https://newsroom.accenture.com/news/2024/accenture-and-sandboxaq-collaborate-to-help-organizations-protect-data-against-ai-driven-cyber-threats-and-quantum-based-decryption-attacks",
+            "published_at": ""
+          },
+          {
+            "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
+            "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility",
+            "published_at": ""
+          },
+          {
+            "title": "Banco Sabadell Collaborates with Accenture and QuSecure to Advance Quantum Safe Infrastructure",
+            "url": "https://newsroom.accenture.com/news/2024/banco-sabadell-collaborates-with-accenture-and-qusecure-to-advance-quantum-safe-infrastructure",
+            "published_at": ""
+          }
+        ]
+      },
+      {
+        "name": "Booz Allen Quantum and PQC",
+        "items": 12,
+        "dated_items": 12,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "Quantum Technologies",
+            "url": "https://www.boozallen.com/expertise/analytics/quantum-computing.html",
+            "published_at": "2024-06-28 00:00:00+00:00"
+          },
+          {
+            "title": "Chinese Threats in the Quantum Era",
+            "url": "https://www.boozallen.com/expertise/analytics/quantum-computing/chinese-cyber-threats-in-the-quantum-era.html",
+            "published_at": "2021-11-18 00:00:00+00:00"
+          },
+          {
+            "title": "Quantum Tech for Positioning, Navigation, and Timing",
+            "url": "https://www.boozallen.com/expertise/analytics/quantum-sensing.html",
+            "published_at": "2023-09-28 00:00:00+00:00"
+          },
+          {
+            "title": "Quantum for Health Sciences and Technology",
+            "url": "https://www.boozallen.com/insights/ai-research/quantum-for-health-sciences-and-technology.html",
+            "published_at": "2022-03-14 00:00:00+00:00"
+          },
+          {
+            "title": "Quantum\u2019s Potential to Unlock Finance Insights",
+            "url": "https://www.boozallen.com/insights/ai-research/quantum-s-potential-to-unlock-finance-insights.html",
+            "published_at": "2022-09-16 00:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "name": "Lockheed Martin Quantum Technology",
+        "items": 3,
+        "dated_items": 0,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "Quantum Technology",
+            "url": "https://www.lockheedmartin.com/en-us/capabilities/quantum-technology.html",
+            "published_at": ""
+          },
+          {
+            "title": "Quantum Innovation Center Advances Quantum Capabilities with Speed and Scale",
+            "url": "https://www.lockheedmartin.com/en-us/news/features/2026/Quantum-Innovation-Center-Advances-Quantum-Capabilities-with-Speed-and-Scale.html",
+            "published_at": ""
+          },
+          {
+            "title": "The Quantum Opportunity Beyond Computing",
+            "url": "https://www.lockheedmartin.com/en-us/news/features/2026/the-quantum-opportunity-beyond-computing.html",
+            "published_at": ""
+          }
+        ]
+      },
+      {
+        "name": "QuSecure Press Releases",
+        "items": 21,
+        "dated_items": 21,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "QuSecure Recognized in the Gartner\u00ae Coolest Vendor Innovations in Data Security Report for its Post-Quantum Cryptography Solution",
+            "url": "https://www.qusecure.com/qusecure-gartner-cool-vendor-data-security/",
+            "published_at": "2026-09-22 05:00:00+00:00"
+          },
+          {
+            "title": "QuSecure Delivers Field-Ready Post-Quantum Cryptography and Crypto-Agility for U.S. Army at Project Convergence Capstone 6",
+            "url": "https://www.qusecure.com/qusecure-army-project-convergence-capstone-6-trl-7/",
+            "published_at": "2026-09-02 05:00:00+00:00"
+          },
+          {
+            "title": "OMB M-23-02: The Memo That Made Federal Cryptographic Inventory a Requirement",
+            "url": "https://www.qusecure.com/omb-m-23-02-federal-cryptographic-inventory/",
+            "published_at": "2026-08-30 11:00:00+00:00"
+          },
+          {
+            "title": "What PCI DSS 4.0 Requirement 12.3.3 Asks of Your Cryptography",
+            "url": "https://www.qusecure.com/pci-dss-4-0-cryptographic-inventory/",
+            "published_at": "2026-08-30 09:00:00+00:00"
+          },
+          {
+            "title": "Case Study: Oil and Gas Operator Validates Post-Quantum Encryption on Systems With No Migration Path",
+            "url": "https://www.qusecure.com/oil-gas-critical-infrastructure-post-quantum-case-study/",
+            "published_at": "2026-08-28 09:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "name": "Atom Computing News and Research",
+        "items": 2,
+        "dated_items": 2,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "Atom Computing Selected by DARPA for Final Stage of Quantum Benchmarking Initiative - Atom Computing",
+            "url": "https://atom-computing.com/atom-computing-selected-by-darpa-for-final-stage-of-quantum-benchmarking-initiative/",
+            "published_at": "2026-10-07 21:30:00+00:00"
+          },
+          {
+            "title": "Atom Computing and Nu Quantum Partner to Unlock Utility-Scale Quantum Computing - Atom Computing",
+            "url": "https://atom-computing.com/atom-computing-and-nu-quantum-partner-to-unlock-utility-scale-quantum-computing/",
+            "published_at": "2026-06-17 12:01:05+00:00"
+          }
+        ]
+      },
+      {
+        "name": "ETSI Quantum Standards News",
+        "items": 1,
+        "dated_items": 1,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "ETSI helps manufacturers improve quantum random number generators - ETSI",
+            "url": "https://www.etsi.org/newsroom/press-releases/etsis-identifies-limitations-of-quantum-random-number-generators/",
+            "published_at": "2026-09-24 08:53:38+00:00"
+          }
+        ]
+      },
+      {
+        "name": "PsiQuantum News",
+        "items": 20,
+        "dated_items": 20,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "PsiQuantum Receives Conditional $150 Million Loan Commitment from the U.S. Department of War to Advance Domestic Quantum Computing \u2014 PsiQuantum",
+            "url": "https://www.psiquantum.com/news-import/psiquantum-receives-conditional-150-million-loan-commitment-from-the-us-department-of-war",
+            "published_at": "2026-10-08 00:00:00+00:00"
+          },
+          {
+            "title": "PsiQuantum at IEEE Quantum Week 2026 \u2014 PsiQuantum",
+            "url": "https://www.psiquantum.com/news-import/psiquantum-at-ieee-quantum-week-2026",
+            "published_at": "2026-09-09 00:00:00+00:00"
+          },
+          {
+            "title": "PsiQuantum Finalizes $100 Million Award with the U.S. Department of Commerce \u2014 PsiQuantum",
+            "url": "https://www.psiquantum.com/news-import/psiquantum-finalizes-100-million-award-with-the-us-department-of-commerce",
+            "published_at": "2026-09-08 00:00:00+00:00"
+          },
+          {
+            "title": "PsiQuantum, Brookhaven Lab Partner to Accelerate Quantum Application Development Using Construct Software Tool \u2014 PsiQuantum",
+            "url": "https://www.psiquantum.com/news-import/psiquantum-brookhaven-lab-partner-to-accelerate-quantum-application-development-using-construct-software-tool",
+            "published_at": "2026-09-02 00:00:00+00:00"
+          },
+          {
+            "title": "PsiQuantum Appoints Niklas Zennstr\u00f6m to Board of Directors \u2014 PsiQuantum",
+            "url": "https://www.psiquantum.com/news-import/psiquantum-appoints-niklas-zennstrom-to-board-of-directors",
+            "published_at": "2026-08-11 00:00:00+00:00"
+          }
+        ]
+      }
+    ]
+  },
+  "nist": {
+    "checked_at": "2026-10-26T19:23:19.068401+00:00",
+    "sources": [
+      {
+        "name": "NIST Research News",
+        "items": 8,
+        "dated_items": 8,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "NIST Awards More Than $1.7 Million to Support Cybersecurity Workforce Development Across 8 States",
+            "url": "https://www.nist.gov/news-events/news/2026/09/nist-awards-more-17-million-support-cybersecurity-workforce-development",
+            "published_at": "2026-09-18 12:00:00+00:00"
+          },
+          {
+            "title": "NIST-Developed Quantum Sensors Improve Nuclear Monitoring",
+            "url": "https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring",
+            "published_at": "2026-09-10 12:00:00+00:00"
+          },
+          {
+            "title": "NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons",
+            "url": "https://www.nist.gov/news-events/news/2026/08/nist-researchers-supersize-quantum-technology-help-detect-faint-photons",
+            "published_at": "2026-08-24 12:00:00+00:00"
+          },
+          {
+            "title": "\u2018Spooky\u2019 Particles Transit DC Suburbs, a Step Toward a Quantum Network",
+            "url": "https://www.nist.gov/news-events/news/2026/08/spooky-particles-transit-dc-suburbs-step-toward-quantum-network",
+            "published_at": "2026-08-05 12:00:00+00:00"
+          },
+          {
+            "title": "NIST Launches Center to Drive the Manufacture of Quantum Technologies",
+            "url": "https://www.nist.gov/news-events/news/2026/06/nist-launches-center-drive-manufacture-quantum-technologies",
+            "published_at": "2026-06-29 12:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "name": "NIST Cybersecurity Insights",
+        "items": 40,
+        "dated_items": 40,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "Kicking off Cybersecurity Career Week with NIST!",
+            "url": "https://www.nist.gov/blogs/cybersecurity-insights/kicking-cybersecurity-career-week-nist",
+            "published_at": "2026-10-14 12:00:00+00:00"
+          },
+          {
+            "title": "Introducing the New Small Business Cybersecurity Support Program Finder",
+            "url": "https://www.nist.gov/blogs/cybersecurity-insights/introducing-new-small-business-cybersecurity-support-program-finder",
+            "published_at": "2026-10-05 12:00:00+00:00"
+          },
+          {
+            "title": "Securing Water and Wastewater Operational Technology Environments",
+            "url": "https://www.nist.gov/blogs/cybersecurity-insights/securing-water-and-wastewater-operational-technology-environments",
+            "published_at": "2026-10-01 12:00:00+00:00"
+          },
+          {
+            "title": "Back to the Future: Why Agentic AI Needs a Strong Identity Foundation",
+            "url": "https://www.nist.gov/blogs/cybersecurity-insights/back-future-why-agentic-ai-needs-strong-identity-foundation",
+            "published_at": "2026-08-27 12:00:00+00:00"
+          },
+          {
+            "title": "NIST Releases Tips & Tactics for Building Automation & Control System Cybersecurity",
+            "url": "https://www.nist.gov/blogs/cybersecurity-insights/nist-releases-tips-tactics-building-automation-control-system",
+            "published_at": "2026-08-19 12:00:00+00:00"
+          }
+        ]
+      }
+    ]
+  },
+  "keyfactor": {
+    "checked_at": "2026-10-26T19:20:51.993829+00:00",
+    "sources": [
+      {
+        "name": "Keyfactor Quantum and Crypto-Agility",
+        "items": 9,
+        "dated_items": 9,
+        "warnings": [],
+        "samples": [
+          {
+            "title": "What Banks in Saudi Arabia Are Already Doing About Quantum Risk",
+            "url": "https://www.keyfactor.com/blog/what-banks-in-saudi-arabia-are-already-doing-about-quantum-risk/",
+            "published_at": "2026-10-06 16:37:24+00:00"
+          },
+          {
+            "title": "Post-Quantum Readiness for Manufacturers: The Timeline Now Has Dates",
+            "url": "https://www.keyfactor.com/blog/post-quantum-readiness-for-manufacturers-the-timeline-now-has-dates/",
+            "published_at": "2026-10-06 11:30:11+00:00"
+          },
+          {
+            "title": "The Identity Foundation for Cloud Workloads and AI Agents",
+            "url": "https://www.keyfactor.com/blog/the-identity-foundation-for-cloud-workloads-and-ai-agents/",
+            "published_at": "2026-10-02 18:23:44+00:00"
+          },
+          {
+            "title": "ISO/SAE 21434: How Cryptography and PKI Keep Connected Vehicles Road Legal",
+            "url": "https://www.keyfactor.com/blog/iso-sae-21434-how-cryptography-and-pki-keep-connected-vehicles-road-legal/",
+            "published_at": "2026-10-02 11:30:22+00:00"
+          },
+          {
+            "title": "ISO/IEC 27001:2022 for Manufacturers: Cryptography, PKI, and Audit-Ready Key Management",
+            "url": "https://www.keyfactor.com/blog/iso-iec-270012022-for-manufacturers-cryptography-pki-and-audit-ready-key-management/",
+            "published_at": "2026-10-01 11:30:58+00:00"
+          }
+        ]
+      }
+    ]
+  },
+  "disabled": [
+    {
+      "name": "Quantum Zeitgeist",
+      "url": "https://quantumzeitgeist.com/feed/",
+      "bytes": 337094,
+      "feed_entries": 200,
+      "title": "<title>Quantum Zeitgeist</title>",
+      "rss_links": []
+    },
+    {
+      "name": "Rigetti News",
+      "url": "https://investors.rigetti.com/rss/news-releases.xml",
+      "error": "Failed to fetch https://investors.rigetti.com/rss/news-releases.xml: 403 Client Error: Forbidden for url: https://investors.rigetti.com/rss/news-releases.xml"
+    },
+    {
+      "name": "Keyfactor Blog",
+      "url": "https://www.keyfactor.com/blog/",
+      "bytes": 191406,
+      "feed_entries": 0,
+      "title": "<title>Blog - Posts on Current Events, Company Culture, &amp; More | Keyfactor</title>",
+      "rss_links": []
+    },
+    {
+      "name": "QuantumNews.ai",
+      "url": "https://quantumnews.ai/",
+      "bytes": 88949,
+      "feed_entries": 0,
+      "title": "<title>QuantumNews \u2014 Quantum computing news and analysis</title>",
+      "rss_links": [
+        [
+          "https://quantumzeitgeist.com/electrical-current-coherence-self-response-feedback-mechanism/",
+          null
+        ],
+        [
+          "/feed.xml",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "NSA Cybersecurity Advisories",
+      "url": "https://www.nsa.gov/Cybersecurity/Cybersecurity-Advisories-Guidance/",
+      "error": "Failed to fetch https://www.nsa.gov/Cybersecurity/Cybersecurity-Advisories-Guidance/: 403 Client Error: Forbidden for url: https://www.nsa.gov/Cybersecurity/Cybersecurity-Advisories-Guidance/"
+    },
+    {
+      "name": "Entrust Blog",
+      "url": "https://www.entrust.com/blog",
+      "error": "Failed to fetch https://www.entrust.com/blog: 403 Client Error: Forbidden for url: https://www.entrust.com/blog"
+    },
+    {
+      "name": "MITRE Quantum and PQC",
+      "url": "https://www.mitre.org/news-insights",
+      "error": "Failed to fetch https://www.mitre.org/news-insights: 403 Client Error: Forbidden for url: https://www.mitre.org/news-insights"
+    }
+  ]
+}
