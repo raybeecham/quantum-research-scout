@@ -2,11 +2,15 @@
 
 Actual collection checks used the existing public HTTP client without credential or header changes. These are local verification results, not a replacement for the published collection history. No failed source was relabelled expected-idle.
 
-## Current edition targets
+## Baseline edition when the audit started
 
 - Published health snapshot: 34 stale of 103 sources; the fewer-than-25 target remains unmet.
 - Current built edition: 48 cards; Quantum Computing Report 25 (52.1%), The Quantum Insider 14 (29.2%). The per-publisher maximum of 40% remains unmet.
 - The existing shortlist keeps one publisher per slot and a research slot. No relevant stories were hidden, dates widened, evidence relabelled, or observations fabricated to improve these figures.
+
+## Reconciled hourly snapshot
+
+Main advanced during final verification to `21ec823` (hourly collection at 2026-10-26T19Z). That update is preserved in the draft branch. Rebuilding the combined code yields 51 cards: Quantum Computing Report 20 (39.2%) and The Quantum Insider 11 (21.6%). Both publisher shares now meet the 40% limit in this snapshot. This improvement comes from the newer hourly evidence, not a quota or removed stories. The newer health report has 32 stale sources out of 103, so the fewer-than-25 target remains unmet. The table below records the earlier audit baseline rather than relabelling those observations.
 
 ## Added primary coverage
 
@@ -17,7 +21,7 @@ NIST links both feeds from https://www.nist.gov/coo/nist-rss-feeds . Actual coll
 
 Existing NIST CSRC, DOE Office of Science, IBM Research and arXiv collectors remain enabled. New feeds affect a future normal collection, subject to publication approval. They are not evidence that this edition already meets the diversity target.
 
-## Every stale source reviewed
+## Every stale source in the audit baseline reviewed
 
 18 public collectors were re-run successfully with no warnings. A successful limited collection does not establish that the upstream index is complete. The other 16 are government funding searches: their recorded successful checks and old latest award/publication dates do not establish a news publication cadence. None has sufficient evidence here for a new expected-idle exemption; all retain their measured status pending further upstream coverage review.
 
