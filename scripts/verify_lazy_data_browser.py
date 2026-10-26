@@ -67,6 +67,8 @@ def main():
                 "typeof state !== 'undefined' && state.data && document.getElementById('main').getAttribute('aria-busy') !== 'true'"
             )
             expect(page.locator("#" + element)).to_be_visible()
+            if route == "federal":
+                assert page.evaluate("Boolean(state.data.claim_ledger?.summary?.active_claims)")
             assert_no_overflow(page, route)
         # Search loads other packs without rerendering/focusing away from the
         # dialog. A later visit must render the now-cached research payload.

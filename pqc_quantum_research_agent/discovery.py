@@ -45,9 +45,18 @@ def write_discovery(payload, archive, output):
     sitemap_ns = "http://www.sitemaps.org/schemas/sitemap/0.9"
     ET.register_namespace("", sitemap_ns)
     sitemap = ET.Element(f"{{{sitemap_ns}}}urlset")
-    for path in ["", "stories/index.html", *sorted(archive["url_registry"]["urls"])]:
+    registry = archive["url_registry"]["urls"]
+    canonical_paths = sorted(path for path, row in registry.items() if not row.get("redirect_to"))
+    records = {record["story_url"]: record for record in archive.get("records", [])}
+    for path in ["", "stories/index.html", *canonical_paths]:
         node = ET.SubElement(sitemap, f"{{{sitemap_ns}}}url")
         ET.SubElement(node, f"{{{sitemap_ns}}}loc").text = base + path
+        record = records.get(path, {})
+        ET.SubElement(node, f"{{{sitemap_ns}}}lastmod").text = (
+            record.get("last_capture_change_report_date")
+            or record.get("last_report_date")
+            or updated
+        )
     ET.ElementTree(sitemap).write(output / "sitemap.xml", encoding="utf-8", xml_declaration=True)
     (output / "robots.txt").write_text(
         f"User-agent: *\nAllow: /\nSitemap: {base}sitemap.xml\n", encoding="utf-8"

@@ -120,13 +120,10 @@ def main():
             .get_attribute("href")
             .endswith("/stories/" + relative)
         )
-        for label in (
-            "Publisher date",
-            "First report observation",
-            "Last report observation",
-            "Captured-content change",
-        ):
-            expect(page.locator(".story-dates dt").filter(has_text=label)).to_be_visible()
+        expect(page.locator(".story-dates dt").filter(has_text="Publisher date")).to_be_visible()
+        dates = page.locator(".story-dates dd").all_text_contents()
+        dated = [value for value in dates if re.search(r"[A-Z][a-z]{2} \d{1,2}, \d{4}", value)]
+        assert len(dated) == len(set(dated)), dates
         story_url = base + "/stories/" + relative
         page.goto(story_url + "?reader=test#history", wait_until="networkidle")
         page.get_by_role("button", name="Copy briefing link").click()

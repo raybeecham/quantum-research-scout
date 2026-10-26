@@ -81,6 +81,7 @@
   });
   window.ScoutRead = Object.freeze({
     has: id => ids.has(id),
+    label: active => (active ? "Mark unread" : "Mark read"),
     add: id => change(id, true),
     delete: id => change(id, false),
     values: () => [...ids],

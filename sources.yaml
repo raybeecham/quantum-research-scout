@@ -295,8 +295,9 @@ rss_feeds:
     max_sitemaps: 1
     sitemap_max_items: 40
   - name: "Quantum Zeitgeist"
+    source_note: "Restored in configuration after the 2026-10-26 check: 40 dated RSS articles, zero warnings. The earlier HTTP 403 is historical; reports predating this repair may still list it as disabled. Recheck by 2026-11-02."
     url: "https://quantumzeitgeist.com/feed/"
-    enabled: false  # HTTP 403 in the September audit; replaced by Quantum Computing Report.
+    enabled: true
   - name: "Quantum Computing Report"
     url: "https://quantumcomputingreport.com/feed/"
   - name: "Quantum Journal"
@@ -356,8 +357,8 @@ rss_feeds:
     url: "https://www.digicert.com/blog/rss.xml"
     entities: [DigiCert]
   - name: "Rigetti News"
+    source_note: "Disabled after the 2026-10-25 audit: investor RSS and news-release endpoints returned HTTP 403. The RSS still returns HTTP 403 on 2026-10-26. Recheck by 2026-11-02."
     enabled: false
-    source_note: "Disabled after the 2026-10-25 audit: investor RSS and news-release endpoints return HTTP 403; the public news page exposes no usable article links to this collector. Recheck before enabling."
     url: "https://investors.rigetti.com/rss/news-releases.xml"
     entities: [Rigetti]
   - name: "Open Quantum Safe"
@@ -378,12 +379,14 @@ rss_feeds:
     url: "https://pqshield.com/feed/"
     entities: [PQShield]
   - name: "Keyfactor Blog"
+    source_note: "Legacy RSS disabled because it redirects to HTML, confirmed 2026-10-26. Replaced by the active Keyfactor Quantum and Crypto-Agility official blog collector. Recheck by 2026-11-02."
     url: "https://www.keyfactor.com/blog/feed/"
     enabled: false  # Official endpoint no longer returns a parseable feed.
     entities: [Keyfactor]
 
 urls:
   - name: "QuantumNews.ai"
+    source_note: "Disabled in the September audit for duplicate aggregator links, blocked articles and intermittent timeouts. The index is reachable on 2026-10-26; this does not verify its linked articles. Recheck by 2026-11-02."
     url: "https://quantumnews.ai/"
     enabled: false  # Duplicate aggregator links, blocked articles, intermittent timeout; use Quantum Journal.
     same_domain_only: false
@@ -393,6 +396,7 @@ urls:
     include_patterns: [/news/20]
     entities: [NIST]
   - name: "NSA Cybersecurity Advisories"
+    source_note: "Disabled because the official advisories page returns HTTP 403 to this collector, confirmed 2026-10-26. No supported working official feed was identified; access restrictions remain respected. Recheck by 2026-11-02."
     url: "https://www.nsa.gov/Cybersecurity/Cybersecurity-Advisories-Guidance/"
     enabled: false  # NSA blocks this automated HTML collector with HTTP 403.
     entities: [NSA]
@@ -415,11 +419,24 @@ urls:
     exclude_patterns: [/blog/author, /blog/category, /blog/tag, "/blog?page"]
     entities: [Thales]
   - name: "Entrust Blog"
+    source_note: "Disabled because the official blog returns HTTP 403 to this collector, confirmed 2026-10-26. Recheck by 2026-11-02."
     url: "https://www.entrust.com/blog"
     enabled: false  # Entrust blocks this automated HTML collector with HTTP 403.
     entities: [Entrust]
 
 watch_sources:
+  - name: "NIST Research News"
+    entities: [NIST]
+    rss_url: "https://www.nist.gov/news-events/news/rss.xml"
+    match_patterns: [quantum, cryptograph, cybersecurity, artificial intelligence, computing]
+    max_items: 40
+    source_note: "Official NIST RSS directory: https://www.nist.gov/coo/nist-rss-feeds. First-party research announcements; retain original publication dates."
+  - name: "NIST Cybersecurity Insights"
+    entities: [NIST]
+    rss_url: "https://www.nist.gov/blogs/cybersecurity-insights/rss.xml"
+    match_patterns: [quantum, cryptograph, cybersecurity, artificial intelligence, computing]
+    max_items: 40
+    source_note: "Official NIST RSS directory: https://www.nist.gov/coo/nist-rss-feeds. Complements CSRC releases with technical explanations."
   - name: "Microsoft Quantum Blog"
     entities: [Microsoft Quantum]
     url: "https://quantum.microsoft.com/en-us/insights/blogs"
@@ -532,6 +549,7 @@ watch_sources:
     match_patterns: [post-quantum, post quantum, quantum-safe, quantum safe, crypto-agil, cryptograph]
     max_items: 25
   - name: "MITRE Quantum and PQC"
+    source_note: "Disabled after newsroom and sitemap HTTP 403 responses. The newsroom still returns HTTP 403 on 2026-10-26. Recheck by 2026-11-02."
     entities: [MITRE]
     enabled: false  # MITRE blocks both sitemap and newsroom collection with HTTP 403.
     sitemap_urls: ["https://www.mitre.org/sitemap.xml"]
@@ -586,14 +604,18 @@ watch_sources:
     max_items: 25
   - name: "Keyfactor Quantum and Crypto-Agility"
     entities: [Keyfactor]
-    sitemap_urls: ["https://www.keyfactor.com/sitemap_index.xml"]
     url: "https://www.keyfactor.com/blog/"
-    include_patterns: [/blog/, /press-releases/, quantum, crypto-agil, cryptograph]
+    include_patterns: ["https://www.keyfactor.com/blog/"]
+    exclude_patterns: [/blog/category/, /blog/tag/, /blog/page/]
     match_patterns: [post-quantum, post quantum, quantum, crypto-agil, cryptograph]
+    min_title_chars: 6
+    source_note: "2026-10-26: collect the official blog directly; the obsolete RSS endpoint redirects to HTML. Dates come from article metadata."
     max_items: 25
   - name: "Atom Computing News and Research"
     entities: [Atom Computing]
-    url: "https://atom-computing.com/"
+    url: "https://atom-computing.com/news-resources/"
+    min_title_chars: 6
+    source_note: "2026-10-26: use the homepage-linked official newsroom and its Read more article links. Retain original article publication dates; older coverage is not a fresh update."
     include_patterns: [quantum, qubit, fault-tolerant, neutral-atom]
     max_items: 25
   - name: "BSI Germany Quantum-Safe Guidance"

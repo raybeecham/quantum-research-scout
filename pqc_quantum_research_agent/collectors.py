@@ -778,6 +778,8 @@ def _collect_sam_opportunities(
         for opportunity in values if isinstance(values, list) else []:
             if not isinstance(opportunity, dict):
                 continue
+            if not _matching_sam_queries(opportunity, [query]):
+                continue
             notice_id = _first_text(opportunity, "noticeId", "noticeid")
             solicitation = _first_text(opportunity, "solicitationNumber")
             key = notice_id or solicitation
@@ -903,21 +905,27 @@ def _collect_sam_snapshot(
 
 
 def _matching_sam_queries(opportunity: dict, queries: list[dict]) -> list[dict]:
+    from .procurement_focus import technology_evidence
+
+    if not technology_evidence(opportunity):
+        return []
     text = " ".join(
         _first_text(opportunity, key)
         for key in (
             "title",
-            "solicitationNumber",
-            "type",
-            "baseType",
-            "fullParentPathName",
-            "additionalInfoLink",
+            "description",
+            "description_text",
+            "naicsCode",
+            "classificationCode",
         )
     )
     normalized_text = re.sub(r"[^a-z0-9]+", " ", text.casefold()).strip()
     matches: list[dict] = []
     for query in queries:
         terms = [query.get("keyword"), *(query.get("match_terms") or [])]
+        terms = [
+            "artificial intelligence" if str(term).casefold() == "ai" else term for term in terms
+        ]
         if any(
             (normalized := re.sub(r"[^a-z0-9]+", " ", str(term).casefold()).strip())
             and f" {normalized} " in f" {normalized_text} "

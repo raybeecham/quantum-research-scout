@@ -55,6 +55,85 @@ class MappingClient:
 
 
 class WatchSourceTests(unittest.TestCase):
+    def test_atom_newsroom_reads_short_article_links_and_retains_dates(self):
+        config = load_config(Path(__file__).resolve().parents[1] / "sources.yaml")
+        source = next(
+            row for row in config.watch_sources if row["name"] == "Atom Computing News and Research"
+        )
+        self.assertEqual(source["url"], "https://atom-computing.com/news-resources/")
+        article = "https://atom-computing.com/quantum-benchmarking-initiative/"
+        client = MappingClient(
+            {
+                source["url"]: f'<a href="{article}">Read more</a>',
+                article: ARTICLE,
+            }
+        )
+        result = collect_watch_sources(client, [source], 40)
+        self.assertEqual(result.warnings, [])
+        self.assertEqual(len(result.items), 1)
+        self.assertEqual(result.items[0].url, article)
+        self.assertEqual(result.items[0].source_name, source["name"])
+        self.assertEqual(result.items[0].published_at.isoformat(), "2026-07-20T12:00:00+00:00")
+        self.assertEqual(result.items[0].date_source, "explicit_metadata:article:published_time")
+
+    def test_restored_quantum_zeitgeist_keeps_source_and_publication_date(self):
+        config = load_config(Path(__file__).resolve().parents[1] / "sources.yaml")
+        source = next(row for row in config.rss_feeds if row["name"] == "Quantum Zeitgeist")
+        self.assertTrue(source["enabled"])
+        self.assertEqual(source["url"], "https://quantumzeitgeist.com/feed/")
+        result = collect_rss_feeds(MappingClient({source["url"]: SHORT_RSS}), [source], 40)
+        self.assertEqual(result.warnings, [])
+        self.assertEqual(result.items[0].source_name, "Quantum Zeitgeist")
+        self.assertEqual(result.items[0].published_at.isoformat(), "2026-07-24T12:00:00+00:00")
+
+    def test_nist_primary_feeds_preserve_original_evidence(self):
+        config = load_config(Path(__file__).resolve().parents[1] / "sources.yaml")
+        expected = {
+            "NIST Research News": "https://www.nist.gov/news-events/news/rss.xml",
+            "NIST Cybersecurity Insights": "https://www.nist.gov/blogs/cybersecurity-insights/rss.xml",
+        }
+        for name, url in expected.items():
+            source = next(row for row in config.watch_sources if row["name"] == name)
+            self.assertEqual(source["rss_url"], url)
+            article = "https://www.nist.gov/news-events/news/2026/07/quantum-test"
+            client = MappingClient({url: SHORT_RSS.replace("https://example.com/latest", article)})
+            result = collect_watch_sources(client, [source], 40)
+            self.assertEqual(result.warnings, [])
+            self.assertEqual(len(result.items), 1)
+            self.assertEqual(result.items[0].url, article)
+            self.assertEqual(result.items[0].source_name, name)
+            self.assertEqual(result.items[0].published_at.isoformat(), "2026-07-24T12:00:00+00:00")
+
+    def test_keyfactor_uses_official_html_with_publisher_dates(self):
+        source = next(
+            row
+            for row in load_config(
+                Path(__file__).resolve().parents[1] / "sources.yaml"
+            ).watch_sources
+            if row["name"] == "Keyfactor Quantum and Crypto-Agility"
+        )
+        url = "https://www.keyfactor.com/blog/post-quantum-readiness/"
+        client = MappingClient(
+            {
+                source["url"]: f'<a href="{url}">Read more</a>',
+                url: ARTICLE.replace("Company awarded quantum contract", "Post-Quantum Readiness"),
+            }
+        )
+        result = collect_watch_sources(client, [source], 25)
+        self.assertEqual(result.warnings, [])
+        self.assertEqual(len(result.items), 1)
+        self.assertEqual(result.items[0].url, url)
+        self.assertEqual(result.items[0].published_at.isoformat(), "2026-07-20T12:00:00+00:00")
+        self.assertEqual(result.items[0].source_name, source["name"])
+
+    def test_every_disabled_source_has_explanation_and_recheck_date(self):
+        config = load_config(Path(__file__).resolve().parents[1] / "sources.yaml")
+        for source in [*config.rss_feeds, *config.urls, *config.watch_sources]:
+            if not source.get("enabled", True):
+                self.assertRegex(
+                    source.get("source_note", ""), r"Recheck by \d{4}-\d{2}-\d{2}\.", source["name"]
+                )
+
     def test_configured_department_news_preserves_official_rss_provenance(self) -> None:
         root = Path(__file__).resolve().parents[1]
         source = next(

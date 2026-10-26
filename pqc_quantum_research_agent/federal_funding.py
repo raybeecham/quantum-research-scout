@@ -33,7 +33,7 @@ DOMAIN_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     ),
     (
         "artificial intelligence",
-        re.compile(r"\b(?:artificial intelligence|machine learning|AI)\b", re.IGNORECASE),
+        re.compile(r"\b(?:artificial intelligence|machine learning)\b", re.IGNORECASE),
     ),
     (
         "cybersecurity",

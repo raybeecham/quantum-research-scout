@@ -17,6 +17,27 @@ from pqc_quantum_research_agent.story_archive import (
 )
 
 
+def test_story_fact_dates_are_distinct_without_losing_different_observations(tmp_path):
+    report(tmp_path, "2026-08-02", points=["Public PQC excerpt"])
+    archive = prepare_story_archive(tmp_path, {"stories": [], "accounts": []})
+    record = archive["records"][0]
+    record["story"].update(date="2026-08-02", date_label="Published")
+    record.update(
+        first_report_date="2026-08-02",
+        last_report_date="2026-08-02",
+        last_capture_change_report_date="2026-08-02",
+    )
+    page = _story_body(record, "https://github.com/example/scout")
+    dates = re.findall(r'<dd><time data-calendar-date="([^"]+)"', page)
+    assert dates == ["2026-08-02"]
+    record["last_report_date"] = "2026-08-04"
+    page = _story_body(record, "https://github.com/example/scout")
+    assert re.findall(r'<dd><time data-calendar-date="([^"]+)"', page) == [
+        "2026-08-02",
+        "2026-08-04",
+    ]
+
+
 def test_optional_story_tools_payload_is_whitelisted_redacted_and_script_safe(tmp_path):
     report(tmp_path, "2026-08-02", points=["Public PQC excerpt api_key=secret-excerpt"])
     archive = prepare_story_archive(tmp_path, {"stories": [], "accounts": []})

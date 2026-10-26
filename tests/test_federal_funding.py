@@ -85,7 +85,7 @@ class FakeFundingClient:
                     "opportunitiesData": [
                         {
                             "noticeId": "NOTICE-1",
-                            "title": "Test Mission Broad Agency Announcement",
+                            "title": "Test Mission Quantum Computing Broad Agency Announcement",
                             "solicitationNumber": "BAA-TEST-1",
                             "type": "Special Notice",
                             "postedDate": "2026-07-22",

@@ -679,9 +679,23 @@ def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None)
             record["last_capture_change_report_date"] or "No change detected in stored captures",
         ),
     ]
+    distinct_dates = []
+    seen_dates = set()
+    for label, value in dates:
+        calendar_date = str(value or "")[:10]
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", calendar_date):
+            if calendar_date in seen_dates:
+                continue
+            seen_dates.add(calendar_date)
+        if (
+            label == "First report observation"
+            and record["first_report_date"] == record["last_report_date"]
+        ):
+            label = "Report observation"
+        distinct_dates.append((label, value))
     facts = "".join(
         f'<div><dt>{_text(label)}</dt><dd><time data-calendar-date="{_text(value)}">{_text(_display_date(value))}</time></dd></div>'
-        for label, value in dates
+        for label, value in distinct_dates
     )
     quotes = _list(
         list(dict.fromkeys(_strings(detail.get("what_happened")))),

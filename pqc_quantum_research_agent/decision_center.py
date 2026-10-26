@@ -7,6 +7,7 @@ from datetime import date, datetime, timezone
 from urllib.parse import urlsplit
 
 from .amendment_intelligence import highest_evidence_url
+from .procurement_focus import technology_evidence
 
 PRIORITY_RANK = {"critical": 0, "high": 1, "medium": 2, "low": 3}
 HIGH_SIGNAL_TERMS = {
@@ -109,6 +110,8 @@ def _amendment_items(procurement: dict) -> list[dict]:
     items: list[dict] = []
     for opportunity in procurement.get("opportunities") or []:
         if not isinstance(opportunity, dict):
+            continue
+        if not technology_evidence(opportunity):
             continue
         impact = opportunity.get("latest_amendment_impact") or {}
         if not isinstance(impact, dict) or not impact.get("detected_this_run"):
@@ -370,6 +373,13 @@ def _conflict_items(changes: dict, claim_ledger: dict) -> list[dict]:
     items: list[dict] = []
     seen: set[str] = set()
     for conflict in conflicts:
+        label = str(conflict.get("subject_label") or "")
+        sources = conflict.get("sources") or []
+        is_procurement = bool(re.match(r"^\d{2}--", label)) or any(
+            "sam.gov" in str(source.get("url") or "") for source in sources
+        )
+        if is_procurement and not technology_evidence({"title": label}):
+            continue
         identity = str(
             conflict.get("conflict_id")
             or "|".join(str(value) for value in conflict.get("claim_ids") or [])
@@ -428,6 +438,11 @@ def _conflict_items(changes: dict, claim_ledger: dict) -> list[dict]:
 
 
 def _government_change_score(event: dict, record: dict, observed_date: date) -> int:
+    subject = event.get("subject") or {}
+    if subject.get("node_type") == "solicitation" and not technology_evidence(
+        {**record, "title": subject.get("label") or record.get("title")}
+    ):
+        return 0
     if str(event.get("authority") or "").casefold() != "authoritative":
         return 0
     source = _first_government_source(event.get("sources") or [])

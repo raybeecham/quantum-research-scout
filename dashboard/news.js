@@ -121,6 +121,11 @@
     return [...matches];
   }
 
+  const availableTopics = rows =>
+    Object.keys(TOPICS).filter(
+      key => key !== "all" && rows.filter(item => topics(item).includes(key)).length >= 3,
+    );
+
   function stories() {
     const rows =
       state.data?.news_intelligence?.version === 1 &&
@@ -212,7 +217,7 @@
 
   function card(item, variant, usedImages) {
     const relatedTopics = topics(item);
-    const topic = relatedTopics[0] || "all";
+    const topic = state.topic !== "all" ? state.topic : relatedTopics[0] || "all";
     const heading = variant === "lead" ? "h2" : "h3";
     const summary = excerpt(item);
     const save = state.saveButton && text(item.id) ? state.saveButton(item) : "";
@@ -233,7 +238,7 @@
       : "";
     const readButton =
       prefs && text(item.id)
-        ? `<button type="button" class="news-read-toggle" data-news-read="${esc(item.id)}" aria-pressed="${Boolean(read)}">${read ? "Mark unread" : "Mark read"}</button>`
+        ? `<button type="button" class="news-read-toggle" data-news-read="${esc(item.id)}" aria-pressed="${Boolean(read)}">${window.ScoutRead.label(read)}</button>`
         : "";
     const whyNow =
       variant === "lead" &&
@@ -434,6 +439,19 @@
       .join(" ");
   }
 
+  function selectionSignal(item) {
+    const kind = item.news_editorial?.kind || "development";
+    const labels = {
+      deployment: "Operational deployment",
+      evaluation: "Evaluation result",
+      release: "Product release",
+      policy: "Policy / standards change",
+      research: "Research result",
+    };
+    const accounts = item.news_event?.account_count || 1;
+    return `${labels[kind] || kind.replaceAll("_", " ")} · ${accounts} source ${accounts === 1 ? "account" : "accounts"} · ${item.date_label || "Source date"}: ${item.date || "unavailable"}`;
+  }
+
   function selectFeatured(filtered) {
     const editorial = state.data?.news_intelligence?.editorial;
     state.featuredReasons.clear();
@@ -480,11 +498,11 @@
         pick?.text && pick?.rule
           ? {
               rule: pick.rule,
-              text: `Edition pick: ${pick.text}`,
+              text: pick.text,
             }
           : {
               rule: "ranked_fallback",
-              text: "Next available edition-ranked story from a different publisher",
+              text: selectionSignal(lookup.get(id)),
             },
       );
       if (selected.length === 4) break;
@@ -493,7 +511,7 @@
       if (selected.length >= 4) break;
       add(item, {
         rule: "eligible_fallback",
-        text: "Next qualifying story from a different publisher",
+        text: selectionSignal(item),
       });
     }
     return selected;
@@ -559,7 +577,8 @@
     }
     host.innerHTML =
       `<div class="topic-chapters-heading"><h2>Explore by topic</h2><p>Coverage in this collection. A story can appear in more than one topic.</p></div>` +
-      ["quantum", "security", "ai", "government"]
+      ["quantum", "security", "ai", "cloud", "government"]
+        .filter(key => availableTopics(all).includes(key))
         .map(key => {
           const matches = all.filter(item => topics(item).includes(key));
           const hosts = new Set(
@@ -590,6 +609,7 @@
     try {
       renderEdition();
       const all = stories();
+      if (state.topic !== "all" && !availableTopics(all).includes(state.topic)) state.topic = "all";
       window.ScoutNewsPreferences?.init(all.map(item => ({ ...item, news_topics: topics(item) })));
       renderPersonalization(all);
       renderVisit(all);
@@ -694,8 +714,7 @@
         .querySelectorAll("[data-news-topic]")
         .forEach(button => {
           const topic = button.dataset.newsTopic;
-          button.hidden =
-            topic !== "all" && all.filter(item => topics(item).includes(topic)).length < 3;
+          button.hidden = topic !== "all" && !availableTopics(all).includes(topic);
           button.setAttribute("aria-pressed", String(topic === state.topic));
         });
       $("news-loading").hidden = true;
@@ -856,6 +875,7 @@
     refresh: render,
     topics,
     topicLabels: TOPICS,
+    availableTopics,
     browse(query = "", topic = "all") {
       state.search = query;
       state.topic = Object.hasOwn(TOPICS, topic) ? topic : "all";

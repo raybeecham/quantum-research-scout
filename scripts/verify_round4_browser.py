@@ -38,7 +38,15 @@ def main():
     registry = json.loads((root / "data/story-urls.json").read_text(encoding="utf-8"))["urls"]
     sitemap = ET.parse(root / "sitemap.xml")
     urls = {node.text for node in sitemap.findall("{*}url/{*}loc")}
-    assert all(any(url.endswith(path) for url in urls) for path in registry)
+    assert all(
+        any(url.endswith(path) for url in urls) == (not row.get("redirect_to"))
+        for path, row in registry.items()
+    )
+    for node in sitemap.findall("{*}url"):
+        assert node.findtext("{*}lastmod")
+        path = node.findtext("{*}loc").split("/quantum-research-scout/")[-1]
+        if path.startswith("stories/"):
+            assert 'http-equiv="refresh"' not in (root / path).read_text(encoding="utf-8")
     feed = ET.parse(root / "feed.xml")
     assert len(feed.findall("{*}entry")) == len(news["stories"])
     assert len({node.findtext("{*}id") for node in feed.findall("{*}entry")}) == len(
@@ -144,7 +152,11 @@ def main():
         )
         card = cards.first
         identifier = card.get_attribute("data-story")
+        expect(card.locator("[data-read]")).to_have_text("Mark read")
+        expect(card.locator("[data-read]")).to_have_attribute("aria-pressed", "false")
         card.locator("[data-read]").click()
+        expect(card.locator("[data-read]")).to_have_text("Mark unread")
+        expect(card.locator("[data-read]")).to_have_attribute("aria-pressed", "true")
         card.locator("[data-save]").click()
         expect(page.locator("#saved-count")).to_have_text("1")
         page.goto(base + "/#news")
@@ -153,18 +165,29 @@ def main():
             page.locator("#news-more").click()
         read_button = page.locator(f'[data-news-read="{identifier}"]')
         expect(read_button).to_have_attribute("aria-pressed", "true")
+        expect(read_button).to_have_text("Mark unread")
         read_button.click()
+        expect(read_button).to_have_text("Mark read")
+        expect(read_button).to_have_attribute("aria-pressed", "false")
         page.goto(base + "/#briefing")
         ready(page)
-        expect(page.locator(f'[data-read="{identifier}"]')).to_have_attribute(
+        expect(page.locator(f'[data-read="{identifier}"]:visible')).to_have_attribute(
             "aria-pressed", "false"
         )
         page.goto(base + "/#saved")
         ready(page)
         expect(page.locator("#saved-result-count")).to_have_text("1 saved reading")
+        expect(page.locator(f'[data-read="{identifier}"]:visible')).to_have_text("Mark read")
+        expect(page.locator(f'[data-read="{identifier}"]:visible')).to_have_attribute(
+            "aria-pressed", "false"
+        )
         expect(page.locator("#notebook-status-select")).to_have_value("To review")
         page.locator("#notebook-status-select").select_option("Reviewed")
         assert page.evaluate("id => ScoutRead.has(id)", identifier)
+        expect(page.locator(f'[data-read="{identifier}"]:visible')).to_have_text("Mark unread")
+        expect(page.locator(f'[data-read="{identifier}"]:visible')).to_have_attribute(
+            "aria-pressed", "true"
+        )
         page.goto(base + "/#news")
         ready(page)
         while page.locator("#news-more").is_visible():

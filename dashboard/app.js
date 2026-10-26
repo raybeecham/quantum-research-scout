@@ -646,10 +646,7 @@ function decisionBriefingWhy(item) {
   const details = item.details || {};
   const predicates = new Set(details.predicates || [details.predicate]);
   if (item.queue_type === "claim_conflict")
-    return (
-      item.why ||
-      "Authoritative evidence remains in conflict and cannot safely support a decision yet."
-    );
+    return `Conflicting ${String(details.predicate || "claim").replaceAll("_", " ")}: ${(details.values || []).join(" / ")}. Evidence for ${item.title || "this record"}.`;
   if (item.queue_type === "amendment_revalidation")
     return (
       item.why || "A material solicitation amendment changed a controlling pursuit assumption."
@@ -666,7 +663,9 @@ function decisionBriefingWhy(item) {
 function decisionBriefingAction(item) {
   const details = item.details || {};
   const predicates = new Set(details.predicates || [details.predicate]);
-  if (item.queue_type === "claim_conflict" || item.queue_type === "amendment_revalidation")
+  if (item.queue_type === "claim_conflict")
+    return `Review the ${String(details.predicate || "claim").replaceAll("_", " ")} evidence for ${item.title || "this record"}.`;
+  if (item.queue_type === "amendment_revalidation")
     return item.recommended_action || "Review the evidence and record a disposition.";
   if (
     details.value === "awarded" ||
@@ -1251,7 +1250,7 @@ function renderDecisionCenter(payload, changePayload = {}) {
       state.decisionFilter === "handled"
         ? "No reviewed or dismissed decisions are stored in this browser."
         : state.decisionFilter === "open"
-          ? "No open analyst decisions. The queue will repopulate when material evidence changes."
+          ? `No open decisions for tracked technologies. Last checked ${formatDate(payload.updated_at)}.`
           : "No decisions currently match this queue.";
     if (state.decisionFilter === "open") {
       const cleared = recentlyClearedChanges(changePayload);
@@ -1273,26 +1272,31 @@ function renderDecisionCenter(payload, changePayload = {}) {
     }
     return;
   }
-  list.innerHTML = filtered
-    .map(item => {
-      const record = state.analystDecisions[item.decision_id] || {};
-      const disposition = record.disposition || "open";
-      const handled = isHandled(item);
-      const evidence = labelDuplicateTitles(dedupeByUrl(item.evidence).slice(0, 4))
-        .map(
-          source =>
-            `<a href="${escapeHtml(safeUrl(source.url))}" target="_blank" rel="noopener">${escapeHtml(source.label)} →</a>`,
-        )
-        .join("");
-      const detailEntries = decisionDetailEntries(item.details || {});
-      const focusBasis = focusById.get(item.decision_id);
-      return `<article class="analyst-decision-card ${escapeHtml(item.priority || "medium")} ${handled ? "handled" : ""}">
+  const conflictGuide = filtered.some(item => item.queue_type === "claim_conflict")
+    ? "<p class=decision-conflict-guide>Equally authoritative sources assert different values. Determine whether the claims describe different scopes or select the controlling evidence.</p>"
+    : "";
+  list.innerHTML =
+    conflictGuide +
+    filtered
+      .map(item => {
+        const record = state.analystDecisions[item.decision_id] || {};
+        const disposition = record.disposition || "open";
+        const handled = isHandled(item);
+        const evidence = labelDuplicateTitles(dedupeByUrl(item.evidence).slice(0, 4))
+          .map(
+            source =>
+              `<a href="${escapeHtml(safeUrl(source.url))}" target="_blank" rel="noopener">${escapeHtml(source.label)} →</a>`,
+          )
+          .join("");
+        const detailEntries = decisionDetailEntries(item.details || {});
+        const focusBasis = focusById.get(item.decision_id);
+        return `<article class="analyst-decision-card ${escapeHtml(item.priority || "medium")} ${handled ? "handled" : ""}">
       <div class="analyst-decision-head"><div><span class="decision-priority ${escapeHtml(item.priority || "medium")}">${escapeHtml(item.priority || "medium")}</span><span class="decision-queue">${escapeHtml(queueLabels[item.queue_type] || item.queue_type || "Decision")}</span></div>${disposition !== "open" ? `<span class="decision-disposition">${escapeHtml(disposition)}</span>` : ""}</div>
       <h3>${escapeHtml(item.title || "Analyst decision")}</h3>
       <p class="analyst-decision-context">${escapeHtml(item.context || "Evidence review")}${item.retained_locally ? " · retained locally" : ""}</p>
       <p class="decision-focus-basis">${focusBasis.length ? `Focus match: ${escapeHtml(focusBasis.join(" · "))}` : "Outside title/metadata technology focus · available for review"}</p>
-      <p class="analyst-decision-why">${escapeHtml(item.why || "New evidence requires review.")}</p>
-      <div class="analyst-decision-action"><b>Recommended action</b>${escapeHtml(item.recommended_action || "Review the supporting evidence.")}</div>
+      <p class="analyst-decision-why">${escapeHtml(item.queue_type === "claim_conflict" ? `Conflicting ${String(item.details?.predicate || "claim").replaceAll("_", " ")}: ${(item.details?.values || []).join(" / ")}` : item.why || "New evidence requires review.")}</p>
+      ${item.queue_type === "claim_conflict" ? "" : `<div class="analyst-decision-action"><b>Recommended action</b>${escapeHtml(item.recommended_action || "Review the supporting evidence.")}</div>`}
       <details class="analyst-decision-detail"><summary>Evidence and decision trace</summary><div class="decision-detail-grid">${detailEntries}${item.observed_at ? `<p><b>Observed:</b> ${escapeHtml(formatDate(item.observed_at))}</p>` : ""}</div><div class="decision-evidence">${evidence || "<span>No direct evidence link is available.</span>"}</div></details>
       <div class="analyst-decision-actions" data-decision-id="${escapeHtml(item.decision_id)}">
         ${decisionActionButton("reviewed", "Mark reviewed", disposition)}
@@ -1301,8 +1305,8 @@ function renderDecisionCenter(payload, changePayload = {}) {
         ${decisionActionButton("dismissed", "Dismiss", disposition)}
       </div>
     </article>`;
-    })
-    .join("");
+      })
+      .join("");
 }
 
 function recentlyClearedChanges(payload) {

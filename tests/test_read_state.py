@@ -24,6 +24,7 @@ function load(){const events={};const context=vm.createContext({localStorage:{ge
 let read=load();assert.deepEqual([...read].sort(),['both','briefing','news','notebook']);
 read.delete('news');read.add('new-item');read=load();
 assert.equal(read.has('news'),false);assert.equal(read.has('new-item'),true);assert.equal(read.has('briefing'),true);
+assert.equal(read.label(true),'Mark unread');assert.equal(read.label(false),'Mark read');
 read.clear();assert.equal(load().values().length,0);
 """,
         ],

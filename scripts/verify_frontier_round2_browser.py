@@ -213,6 +213,9 @@ def main():
             state.data.reading_brief.stories.push({...sample, id: `agency-${index}-${variant}`, title: `${name} announces a program`, source: 'Test source', summary: 'Agency announcement', url: `https://example.org/agency-${index}-${variant}`, related: []});
           }));
           state.data.entity_watch = {};
+          state.data.standards = {};
+          state.data.historical_evidence = {};
+          state.data.citation_records = {};
           state.data.federal_missions = {};
           state.data.federal_funding = {};
           ScoutDesk.init(state.data);
