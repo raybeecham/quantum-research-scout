@@ -335,15 +335,15 @@
       <section id="start" class="desk-workspace" hidden aria-labelledby="start-title">
         <div class="start-hero">
           <div>
-            <span class="desk-kicker">A RESEARCH DESK, NOT JUST A NEWS FEED</span>
+            <span class="desk-kicker">GET MORE FROM FRONTIER SIGNAL</span>
             <h1 id="start-title">
-              Follow the evidence.
+              Find what matters.
               <br />
-              <em>Find your next question.</em>
+              <em>Keep the context.</em>
             </h1>
             <p>
-              Make sense of cybersecurity, post-quantum cryptography, and quantum computing, with AI and cloud in
-              context. Move from a development worth reading to an investigation you can actually pursue.
+              Catch up on emerging technology, understand the evidence, and keep track of developments that affect your
+              work. Most of the site needs no account.
             </p>
             <form id="start-topic-form">
               <label for="start-interest">What are you curious about?</label>
@@ -352,7 +352,7 @@
                   id="start-interest"
                   maxlength="500"
                   required
-                  placeholder="e.g. gaps in cryptographic inventories"
+                  placeholder="e.g. quantum networking or PQC migration"
                 />
                 <button class="desk-button" type="submit">Explore this topic →</button>
               </div>
@@ -390,29 +390,29 @@
           <a class="start-path" href="#news">
             <span class="desk-kicker">DISCOVER</span>
             <h2>
-              Catch up on the evidence
+              Find the latest developments
               <span aria-hidden="true">↗</span>
             </h2>
-            <p>Recent developments, original sources, and questions worth following.</p>
+            <p>Hourly news checks, original sources, and topic filters. Start here for new stories.</p>
             <span class="start-path-action">Browse Latest →</span>
           </a>
-          <a class="start-path" href="#saved">
-            <span class="desk-kicker">DEVELOP</span>
+          <a class="start-path" href="#briefing">
+            <span class="desk-kicker">MAKE SENSE OF IT</span>
             <h2>
-              Build your notebook
+              Decide what to follow up
               <span aria-hidden="true">↗</span>
             </h2>
-            <p>Save useful stories, add notes, and export a backup. No sign-in required.</p>
-            <span class="start-path-action">Open Saved →</span>
+            <p>Suggested checks, older promises to revisit, and upcoming deadlines. Not a second news feed.</p>
+            <span class="start-path-action">Open Briefing →</span>
           </a>
-          <a class="start-path" href="#questions">
-            <span class="desk-kicker">OPTIONAL · INVITE-ONLY AI</span>
+          <a class="start-path" href="#saved">
+            <span class="desk-kicker">KEEP WHAT MATTERS</span>
             <h2>
-              Explore a question
+              Save stories and notes
               <span aria-hidden="true">↗</span>
             </h2>
-            <p>Manual questions work for everyone. Hosted AI and paper search require an invited GitHub account.</p>
-            <span class="start-path-action">Open Question Lab →</span>
+            <p>Build a personal reading list, add your perspective, and export a backup. No sign-in required.</p>
+            <span class="start-path-action">Open Saved →</span>
           </a>
         </div>
         <section id="start-resume" class="start-resume" aria-labelledby="start-resume-title">
@@ -427,7 +427,7 @@
           <summary>Looking for missions, patents, reports, or source coverage?</summary>
           <div class="start-tool-links">
             <a href="#research">
-              Research landscape
+              Tech landscape
               <small>Topics, organizations, and evidence trends</small>
             </a>
             <a href="#federal">
@@ -438,9 +438,9 @@
               Patent watch
               <small>Inventions, families, and relevance</small>
             </a>
-            <a href="#library">
-              Report library
-              <small>Daily, weekly, and monthly reports</small>
+            <a href="#reports">
+              Briefing reports
+              <small>Daily, weekly, and monthly editions</small>
             </a>
             <a href="#decisions">
               Review desk
@@ -449,6 +449,14 @@
             <a href="#operations">
               Sources &amp; methods
               <small>Coverage, freshness, and limitations</small>
+            </a>
+            <a href="#questions">
+              Question lab
+              <small>Optional AI assistance and paper search for invited users</small>
+            </a>
+            <a href="#investigations">
+              Investigations
+              <small>Develop saved questions and compare evidence</small>
             </a>
           </div>
         </details>
@@ -537,7 +545,10 @@
             <span id="reading-progress" role="status" tabindex="-1"></span>
           </div>
         </details>
-        <section id="briefing-visual" class="scout-visual" aria-label="Coverage at a glance" hidden></section>
+        <details id="briefing-coverage" class="workspace-disclosure">
+          <summary>Coverage breakdown &amp; topic links</summary>
+          <section id="briefing-visual" class="scout-visual" aria-label="Coverage at a glance" hidden></section>
+        </details>
         <div class="desk-overview" id="desk-overview" hidden>
           <div class="desk-lead" id="desk-lead"></div>
           <aside class="briefing-shortlist" aria-labelledby="briefing-shortlist-title">
@@ -552,8 +563,7 @@
         <section id="briefing-followups" class="briefing-followups" aria-labelledby="followups-title" hidden></section>
         <section class="briefing-changes" aria-labelledby="briefing-changes-title">
           <p class="briefing-selection-note">
-            These are attributed source claims, not independently verified findings. Suggested review timing is not a
-            deadline or a prediction of technology maturity. Item-specific limits appear with each decision.
+            Recorded claim changes, not another list of news. Check the source before treating a change as resolved.
           </p>
           <div class="briefing-section-heading">
             <div>
@@ -562,10 +572,6 @@
             </div>
             <a href="#decisions">Open review desk →</a>
           </div>
-          <p class="briefing-selection-note">
-            Recorded claim changes across tracked themes, not a list of new papers. Inspect the source before treating a
-            change as resolved.
-          </p>
           <div id="desk-changes"></div>
         </section>
         <div class="desk-feed-heading">
@@ -594,15 +600,15 @@
               <div id="desk-pulse-stats" class="pulse-stats"></div>
               <a href="#research">Explore research landscape →</a>
             </details>
-            <section class="desk-method">
-              <span class="desk-kicker">HOW TO READ THIS</span>
+            <details class="desk-method">
+              <summary>How to use these suggestions</summary>
               <p>
-                Source reports and suggested actions are separate. Decision cues use visible rules, not AI or a
-                full-document review. A release is not proof of readiness, a preprint is not proof of deployment, and
-                related coverage is not independent verification.
+                Source reports and suggested actions are separate. Suggestions use visible rules, not AI or a
+                full-document review. Review timing is not a deadline. A release is not proof of readiness, and related
+                coverage is not independent verification. Open story details for source-specific limits.
               </p>
               <a href="#guide">Understand the labels →</a>
-            </section>
+            </details>
           </aside>
         </div>
         <div class="desk-library-strip">
@@ -999,11 +1005,11 @@
       </section>
       <section id="saved" class="desk-workspace" hidden>
         <div class="workspace-heading">
-          <span class="desk-kicker">FROM READING TO RESEARCH</span>
-          <h1>Research notebook</h1>
+          <span class="desk-kicker">YOUR PERSONAL COLLECTION</span>
+          <h1>Saved stories &amp; notes</h1>
           <p>
-            Your literature, connected to your questions. Choose a paper, read critically, and keep what matters. Notes
-            stay in this browser; export a backup before clearing site data.
+            Keep useful stories, papers, and your own perspective together. Notes stay in this browser; export a backup
+            before clearing site data or switching devices.
           </p>
         </div>
         <div class="saved-tools">
@@ -1132,7 +1138,7 @@
             <div class="panel-heading">
               <div>
                 <span class="panel-kicker">REPORTS</span>
-                <h3>Newest research</h3>
+                <h3>Report editions</h3>
               </div>
               <span>Daily · Weekly · Monthly</span>
             </div>
@@ -1141,18 +1147,17 @@
           <article id="alerts" class="briefing-panel alerts-panel intelligence-briefing-panel">
             <div class="panel-heading">
               <div>
-                <span class="panel-kicker">TODAY</span>
-                <h3>Today’s intelligence</h3>
+                <span class="panel-kicker">BEYOND THE REVIEW QUEUE</span>
+                <h3>Additional monitoring signals</h3>
               </div>
               <span id="alert-summary"></span>
             </div>
             <p class="intelligence-briefing-note">
-              The developments most likely to change a decision, not a list of everything being monitored.
+              Other material events and upcoming milestones. Items already in the decision queue are not repeated here.
             </p>
             <div id="alert-list" class="alert-list intelligence-briefing-list" aria-live="polite"></div>
             <div class="intelligence-panel-links">
               <a class="section-link" href="#decision-center">Open decision center →</a>
-              <a id="alerts-report-link" class="section-link muted" href="#">View monitored conditions →</a>
             </div>
           </article>
         </div>
@@ -1218,6 +1223,7 @@
             </div>
           </details>
         </div>
+        <a id="alerts-report-link" class="section-link" href="#">View monitored conditions →</a>
       </section>
 
       <details id="explore" class="advanced-analysis explore-analysis">
@@ -1261,7 +1267,7 @@
             <div class="section-heading">
               <div>
                 <p class="eyebrow">FEDERAL RESEARCH SUPPORT</p>
-                <h2>Funding, research priorities &amp; procurement</h2>
+                <h2>Funding &amp; procurement</h2>
               </div>
               <p id="funding-summary" class="updated"></p>
             </div>
@@ -1853,23 +1859,46 @@
               run only when their primary feed is empty. Unknown dates remain unknown; future dates do not count as
               fresh evidence.
             </p>
+            <div class="source-controls">
+              <label for="source-search">
+                Find a source
+                <input
+                  id="source-search"
+                  type="search"
+                  placeholder="Publisher, agency, or source type…"
+                  maxlength="200"
+                />
+              </label>
+              <label for="source-filter">
+                Show
+                <select id="source-filter">
+                  <option value="all">All enabled sources</option>
+                  <option value="attention">Needs attention</option>
+                  <option value="failing">Failing or partial checks</option>
+                  <option value="stale">Stale items</option>
+                  <option value="reference">Reference sources</option>
+                </select>
+              </label>
+              <p id="source-result-count" role="status"></p>
+            </div>
             <div class="table-wrap" tabindex="0" role="region" aria-label="Source collection health table">
               <table>
                 <thead>
                   <tr>
                     <th>Source</th>
+                    <th>Latest check</th>
                     <th>Type</th>
                     <th>Reliability</th>
                     <th>Warnings</th>
                     <th>Last checked</th>
                     <th>Latest item</th>
                     <th>Freshness</th>
-                    <th>Status</th>
                   </tr>
                 </thead>
                 <tbody id="source-table"></tbody>
               </table>
             </div>
+            <button id="source-more" type="button" class="desk-more" hidden>Show more sources</button>
             <details>
               <summary>Disabled sources and reasons</summary>
               <ul id="disabled-source-list"></ul>

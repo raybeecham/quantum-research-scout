@@ -72,6 +72,14 @@ def keyboard_workflows(page, base, output):
         ],
     }
     with page.expect_file_chooser() as chooser:
+        # Space activates the native file input in Chromium and Windows Edge.
+        page.keyboard.press("Space")
+    assert chooser.value.element.get_attribute("id") == "import-notebook"
+    chooser.value.set_files([])
+    expect(page.locator("#notebook-import-preview")).to_be_hidden()
+    expect(page.locator("#import-notebook")).to_be_focused()
+    # Retain Enter coverage as well as the tab-cleanup branch's Space check.
+    with page.expect_file_chooser() as chooser:
         page.keyboard.press("Enter")
     # File chooser is opened with keyboard; Playwright supplies the test file.
     assert chooser.value.element.get_attribute("id") == "import-notebook"
@@ -196,7 +204,7 @@ def main():
         page.set_viewport_size({"width": 1440, "height": 1000})
         try:
             keyboard_workflows(page, base, output)
-            assert len(choosers) == 1, "Expected one keyboard-opened notebook file chooser"
+            assert len(choosers) == 2, "Expected Space and Enter to open the notebook file chooser"
         finally:
             (output / "keyboard-events.json").write_text(
                 json.dumps(page.evaluate("window.scoutKeyboardTrace"), indent=2), encoding="utf-8"

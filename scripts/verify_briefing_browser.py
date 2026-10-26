@@ -85,9 +85,9 @@ def main():
         assert len(set(ids)) == 4 and "briefing-test-5" not in ids
         for card in cards.all():
             row = next(item for item in rows if item["id"] == card.get_attribute("data-story"))
-            expect(card.locator("h3")).to_have_text(row["decision_brief"]["next_step"])
-            expect(card.locator("p a")).to_have_text(row["title"] + " →")
-            expect(card.locator("p a")).to_have_attribute("href", row["url"])
+            expect(card.locator("h3 a")).to_have_text(row["title"] + " →")
+            expect(card.locator("h3 a")).to_have_attribute("href", row["url"])
+            expect(card.locator("p")).to_contain_text(row["decision_brief"]["next_step"])
         assert page.locator("#desk-stories script").count() == 0
         assert page.evaluate("window.injected === undefined")
         identifier = ids[0]
@@ -101,6 +101,7 @@ def main():
         expect(page.locator(f'#briefing [data-save="{identifier}"]')).to_have_attribute(
             "aria-pressed", "true"
         )
+        page.locator("#briefing-coverage > summary").click()
         page.locator('[data-news-browse="security"]').click()
         expect(page.locator("#news")).to_be_visible()
         expect(page.locator("#news-active-filters")).to_contain_text("Cybersecurity")
@@ -114,8 +115,9 @@ def main():
         # No assessment or timing may be invented for legacy snapshots.
         for item in rows:
             item.pop("decision_brief", None)
-        brief["news_refresh"] = {}  # This fixture models a stale daily-only snapshot.
         payload["collected_at"] = brief["collected_at"] = "2020-01-01T00:00:00Z"
+        # Model a legacy stale snapshot without inheriting today's hourly receipt.
+        brief.pop("news_refresh", None)
         page.reload()
         expect(cards).to_have_count(0)
         expect(page.locator("#desk-stories")).to_contain_text(

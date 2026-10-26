@@ -56,6 +56,7 @@ def main():
                 expect(page.locator(f'[data-news-browse="{topic}"] strong')).to_have_text(
                     str(count)
                 )
+        page.locator("#briefing-coverage > summary").click()
         page.locator("#briefing-visual").scroll_into_view_if_needed()
         page.screenshot(path=str(output / "exploration-briefing.png"))
         expect(page.locator(".briefing-timeline")).to_have_count(0)
@@ -70,7 +71,7 @@ def main():
         expect(page.locator(".connection-card").first).to_be_visible()
         page.locator("#technology-map").scroll_into_view_if_needed()
         page.screenshot(path=str(output / "exploration-map.png"))
-        page.locator("#map-try-topic").click()
+        page.locator(".hands-on-panel > summary").click()
         expect(page.locator(".hands-on-panel")).to_have_attribute("open", "")
         expect(page.locator(".hands-on-panel > summary")).to_be_focused()
         expect(page.locator(".discovery-card")).to_have_count(3)

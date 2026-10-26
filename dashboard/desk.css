@@ -4517,22 +4517,27 @@ body:has(.profile-hero) > footer {
   color: #fff;
 }
 .map-hub {
-  text-align: center;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  text-align: left;
   background: #183340;
   color: #fff9e7;
-  padding: 1.2rem;
+  padding: 0.8rem 1rem;
   position: relative;
 }
 .map-hub .desk-kicker {
   color: #8cdee1;
+  flex-basis: 100%;
 }
 .map-hub h3 {
-  font-size: 1.55rem;
-  margin: 0.4rem 0;
+  font-size: 1.2rem;
+  margin: 0;
   color: inherit;
 }
 .map-hub p {
-  margin: 0.4rem 0 0;
+  margin: 0;
 }
 .map-branches {
   display: grid;

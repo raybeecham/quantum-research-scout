@@ -142,6 +142,7 @@ jobs:
           python scripts/verify_round4_browser.py --channel chromium
           python scripts/verify_round5_browser.py --channel chromium
           python scripts/verify_hourly_news_browser.py --channel chromium
+          python scripts/verify_tab_cleanup_browser.py --channel chromium
           python scripts/verify_accessibility_browser.py --channel chromium
           xvfb-run -a python scripts/verify_publication_gate.py --channel chromium --headed --prove-regressions
           python scripts/verify_news_browser.py --channel chromium
