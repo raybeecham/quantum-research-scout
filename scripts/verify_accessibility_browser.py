@@ -70,7 +70,8 @@ def keyboard_workflows(page, base, output):
         ],
     }
     with page.expect_file_chooser() as chooser:
-        page.keyboard.press("Enter")
+        # Space activates the native file input in Chromium and Windows Edge.
+        page.keyboard.press("Space")
     # File chooser is opened with keyboard; Playwright supplies the test file.
     chooser.value.set_files(
         {

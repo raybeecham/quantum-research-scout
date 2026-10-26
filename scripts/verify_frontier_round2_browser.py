@@ -123,16 +123,34 @@ def main():
                     comparison_fits(page)
                 if section == "sources":
                     for label in ("degraded", "flaky"):
-                        if any(
-                            row.get("historical_reliability") == label
-                            for row in payload["source_health"]["sources"]
-                        ):
+                        source = next(
+                            (
+                                row
+                                for row in payload["source_health"]["sources"]
+                                if row.get("historical_reliability") == label
+                            ),
+                            None,
+                        )
+                        if source:
+                            page.locator("#source-search").fill(source["name"])
                             expect(page.locator("#sources")).to_contain_text(f"Historical: {label}")
+                    page.locator("#source-search").fill("")
                 # Use the actual jump link, including disclosure-wrapped tools.
                 page.evaluate("hash => { location.hash = hash; }", parent)
                 expect(page.locator(f"#{parent}-workspace")).to_be_visible()
-                page.locator(f'#{parent}-workspace .workspace-jumps a[href="#{section}"]').click()
-                section_at_top(page, section)
+                if parent == "research":
+                    # The duplicate jump list is gone; use the single tool disclosure.
+                    disclosure = page.locator(f"details.landscape-advanced:has(#{section})")
+                    if disclosure.evaluate("el => el.open"):
+                        disclosure.locator(":scope > summary").click()
+                    expect(page.locator(f"#{section}")).to_be_hidden()
+                    disclosure.locator(":scope > summary").click()
+                    expect(page.locator(f"#{section}")).to_be_visible()
+                else:
+                    page.locator(
+                        f'#{parent}-workspace .workspace-jumps a[href="#{section}"]'
+                    ).click()
+                    section_at_top(page, section)
                 checked.append(f"{width}:{section}")
             page.goto(base + "/#news")
             ready(page)

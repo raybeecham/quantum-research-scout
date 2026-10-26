@@ -202,13 +202,13 @@
     federal: ["Federal landscape", ["funding", "missions"]],
     patents: ["Patent watch", ["patents"]],
     research: [
-      "Research landscape",
+      "Tech landscape",
       ["signals", "watch", "trends", "readiness", "standards", "compare"],
     ],
     decisions: ["Review desk", ["decision-center", "alerts"]],
     library: ["Report library", ["reports"]],
     operations: ["Sources & methods", ["sources", "coverage", "data-trust", "guide"]],
-    saved: ["Research notebook", []],
+    saved: ["Saved stories & notes", []],
     questions: ["Research Question Lab", []],
   };
   const descriptions = {
@@ -217,7 +217,7 @@
     patents:
       "Explore emerging inventions and potential technology directions, without mistaking a filing for a demonstrated result.",
     research:
-      "Explore technology trends, organizations, and research directions, grounded in the sources we actually collected.",
+      "See which organizations, programs, and evidence connect to a technology. Latest remains the home for news.",
     decisions: "Review changes, amendments, and conflicts that could affect your next step.",
     library:
       "Daily readings, weekly perspective, and monthly synthesis. Keep the full evidence trail.",
@@ -269,9 +269,17 @@
     node.before(detail);
     detail.append(summary, node);
   }
-  elements.research
-    .querySelector(".workspace-jumps")
-    .setAttribute("aria-label", "Supporting research tools");
+  // Each disclosure already names its tool. A second identical link list adds noise.
+  elements.research.querySelector(".workspace-jumps").remove();
+  for (const id of ["coverage", "data-trust", "guide"]) {
+    const node = $(id);
+    const detail = document.createElement("details");
+    detail.className = "workspace-disclosure";
+    const summary = document.createElement("summary");
+    summary.textContent = node.querySelector("h2").textContent;
+    node.before(detail);
+    detail.append(summary, node);
+  }
   $("advanced")?.remove();
   const federalExplorer = document.createElement("section");
   federalExplorer.id = "federal-research";
@@ -290,6 +298,12 @@
   if (libraryHeading) libraryHeading.remove();
   $("briefing").append($("reports"));
   $("desk-reports").closest(".desk-library-strip").hidden = true;
+  // Actions first, archive follow-through second, optional collection detail last.
+  const actionHeading = $("briefing").querySelector(".desk-feed-heading");
+  const actionColumns = $("briefing").querySelector(".desk-columns");
+  $("briefing-coverage").before(actionHeading, actionColumns);
+  $("briefing-followups").after($("briefing").querySelector(".briefing-changes"));
+  $("reports").before($("briefing-coverage"));
 
   let routeVersion = 0;
   // A short final section still needs enough document below it to reach the
@@ -316,7 +330,8 @@
       advanced: "operations",
       library: "briefing",
     };
-    const target = $(hash);
+    // Older alerts links lead to the queue when no additional signal remains.
+    const target = hash === "alerts" && $("alerts").hidden ? $("decision-center") : $(hash);
     const key =
       aliases[hash] ||
       (views[hash]
@@ -583,7 +598,7 @@
           const path = /^stories\/[a-f0-9]{24}\/index\.html$/.test(item.story_url || "")
             ? item.story_url
             : link(item.url);
-          return `<article class="reading-card decision-card" data-story="${esc(item.id)}"><span class="decision-action ${esc(d.action)}">${esc(d.action_label || d.action)}</span><h3>${esc(d.next_step || "Review the supporting evidence")}</h3><p>${esc(d.impact || "")}</p><p><a href="${esc(path)}">${esc(item.title)} →</a></p><small>${esc(d.horizon || "Review when relevant")}</small><div class="decision-card-actions">${readButton(item)}${saveButton(item)}</div></article>`;
+          return `<article class="reading-card decision-card" data-story="${esc(item.id)}"><span class="decision-action ${esc(d.action)}">${esc(d.action_label || d.action)}</span><h3><a href="${esc(path)}">${esc(item.title)} →</a></h3><p><strong>Suggested check:</strong> ${esc(d.next_step || "Review the supporting evidence")}</p><small>${esc(d.horizon || "Review when relevant")}</small><div class="decision-card-actions">${readButton(item)}${saveButton(item)}</div></article>`;
         })
         .join("") ||
       '<p class="desk-empty">No specific prepare, investigate, or test actions in this edition. <a href="#news">Browse the latest coverage →</a></p>';
@@ -866,7 +881,7 @@
           ? `<div class="notebook-reading-bar"><span class="desk-kicker">FOCUSED READING</span><label>My reading status<select id="notebook-status-select">${["To review", "Reading", "Reviewed"].map(s => `<option ${readingStatus(selected) === s ? "selected" : ""}>${s}</option>`).join("")}</select></label></div>${card(selected, 0, false, true)}<section class="notebook-connections"><h2>Connected questions</h2>${connections.length ? connections.map(c => `<article><span class="desk-kicker">${esc(c.role)}</span><button class="desk-button" data-open-question="${esc(c.id)}">${esc(c.question)}</button>${c.note ? `<details><summary>Attachment context & notes</summary><p>${esc(c.note)}</p></details>` : ""}</article>`).join("") : '<p>No linked questions yet. Attach this saved reading in <a href="#questions">Question Lab</a>.</p>'}</section>${readingAssistantMarkup()}`
           : "") ||
         '<div class="desk-empty"><h2>No saved readings match.</h2><p>Try a broader search or clear the search field.</p></div>'
-      : '<div class="desk-empty"><h2>A place for your next deep read.</h2><p>Use ☆ Save on a briefing story to keep a source-linked copy here. Copies retain their report date and may become outdated.</p><a href="#briefing">Find something worth keeping →</a></div>';
+      : '<div class="desk-empty"><h2>Keep the stories you want to return to.</h2><p>Use ☆ Save in Latest or Briefing, then add notes here. Saved copies keep their original report date and may become outdated.</p><a href="#news">Find something worth keeping →</a></div>';
     if (selected)
       $("reader-preview").textContent =
         `${selected.title}\n\n${selected.summary?.slice(0, 6000) || "No source excerpt available."}`;

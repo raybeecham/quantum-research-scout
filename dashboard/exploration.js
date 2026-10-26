@@ -343,22 +343,16 @@
     const host = document.getElementById("technology-map");
     if (!host) return;
     const coverage = data.reading_brief?.coverage || {};
-    host.innerHTML = `<div class="explore-heading"><div><span class="desk-kicker">FOLLOW THE CONNECTIONS</span><h2>Emerging-tech map</h2></div><a href="#briefing">Back to the briefing →</a></div><p>Choose a technology. See who appears in its coverage, which government programs share its focus, and what to read next.</p>
-      <div class="map-topics" role="group" aria-label="Map technology">${topics.map(t => `<button type="button" class="desk-button topic-${t.id}" data-map-topic="${t.id}" aria-pressed="false">${esc(t.name)}</button>`).join("")}</div><p><button id="map-try-topic" class="desk-button" type="button">Try this topic · hands-on discovery ↓</button></p>
+    host.innerHTML = `<div class="explore-heading"><div><span class="desk-kicker">FOLLOW THE CONNECTIONS</span><h2>Emerging-tech map</h2></div><a href="#news">Browse latest news →</a></div><p>Choose a technology to connect organizations, government programs, and supporting stories.</p>
+      <div class="map-topics" role="group" aria-label="Map technology">${topics.map(t => `<button type="button" class="desk-button topic-${t.id}" data-map-topic="${t.id}" aria-pressed="false">${esc(t.name)}</button>`).join("")}</div>
       <div class="map-hub"><span class="desk-kicker">TOPIC ASSOCIATIONS · NOT PARTNERSHIPS</span><h3 id="map-topic-name"></h3><p id="map-connection-count" role="status"></p></div>
       <div id="map-branches" class="map-branches"></div>
-      <p class="explore-note">Organizations use stored name/alias + topic co-mentions; programs use curated descriptions; readings use title/excerpt matches. These are navigational leads, not independently verified relationships. Readings: ${esc(window.ScoutDisplay.date(coverage.window_start))}–${esc(window.ScoutDisplay.date(coverage.window_end))}. Organization and mission snapshots may contain older evidence. PQC and quantum-safe mentions alone do not count as quantum-computing coverage. Story counts use the same grouped collection as Latest. Organization and program counts describe different record types.</p>
+      <details class="map-method"><summary>How these connections are made</summary><p class="explore-note">Organizations use stored name/alias + topic co-mentions; programs use curated descriptions; readings use title/excerpt matches. These are navigational leads, not independently verified relationships. Readings: ${esc(window.ScoutDisplay.date(coverage.window_start))}–${esc(window.ScoutDisplay.date(coverage.window_end))}. Organization and mission snapshots may contain older evidence. PQC and quantum-safe mentions alone do not count as quantum-computing coverage. Story counts use the same grouped collection as Latest. Organization and program counts describe different record types.</p></details>
       <details class="hands-on-panel"><summary>Hands-on discovery · turn an interest into a small experiment</summary><p>Official projects, tutorials, a demo, and a dataset to explore. “Try this” is Frontier Signal’s suggested exercise, not a claim from the news. Nothing runs or sends data when you browse.</p><div class="discovery-controls"><label>Technology<select id="discovery-filter"><option value="all">All technologies</option>${topics.map(t => `<option value="${t.id}">${esc(t.name)}</option>`).join("")}</select></label><span id="discovery-count" role="status"></span></div><div id="discovery-resources" class="discovery-resources"></div></details>`;
     host
       .querySelectorAll("[data-map-topic]")
       .forEach(b => b.addEventListener("click", () => choose(b.dataset.mapTopic)));
     document.getElementById("discovery-filter").addEventListener("change", renderResources);
-    document.getElementById("map-try-topic").addEventListener("click", () => {
-      const panel = host.querySelector(".hands-on-panel");
-      panel.open = true;
-      panel.scrollIntoView({ block: "start" });
-      panel.querySelector("summary").focus({ preventScroll: true });
-    });
     renderMap();
   }
   const api = {

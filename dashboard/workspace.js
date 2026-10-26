@@ -65,7 +65,7 @@
       text.textContent =
         "No saved questions yet. Start with a topic above, or browse the evidence first.";
       const link = document.createElement("a");
-      link.href = readings.length ? "#saved" : "#briefing";
+      link.href = readings.length ? "#saved" : "#news";
       link.textContent = readings.length
         ? "Open your saved readings →"
         : "Browse without signing in →";

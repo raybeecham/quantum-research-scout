@@ -13,6 +13,9 @@ const state = {
   relationshipMission: "",
   relationshipNode: "",
   contractorQuery: "",
+  sourceQuery: "",
+  sourceFilter: "all",
+  sourceLimit: 12,
 };
 const icons = { rising: "↗", stable: "→", declining: "↘" };
 const definitions = {
@@ -311,7 +314,12 @@ function renderAlerts(payload, temporalPayload = {}) {
     state.data.decision_center || {},
     state.data.federal_missions || {},
     temporalPayload,
+    { omitDecisionQueue: true },
   );
+  document.getElementById("alerts").hidden = !highlights.length;
+  document.querySelectorAll('.workspace-jumps a[href="#alerts"]').forEach(a => {
+    a.hidden = !highlights.length;
+  });
   const timeSensitive = highlights.filter(item => item.timeSensitive).length;
   document.getElementById("alert-summary").textContent = highlights.length
     ? `${highlights.length} prioritized${timeSensitive ? ` · ${timeSensitive} time-sensitive` : ""}`
@@ -345,24 +353,39 @@ function buildBriefingHighlights(
   decisionPayload,
   missionPayload,
   temporalPayload = {},
+  { omitDecisionQueue = false } = {},
 ) {
   const changes = (temporalPayload.priority_events || []).length
     ? temporalChangeHighlights(temporalPayload)
     : meaningfulChangeHighlights(changePayload);
-  const alerts = materialAlertHighlights(alertPayload);
-  const decisions = decisionHighlights(decisionPayload, temporalPayload);
+  const queue = decisionHighlights(decisionPayload, temporalPayload);
+  // Only exact queue identities or matching title/evidence pairs are redundant.
+  // Different claims on the same document remain useful monitoring signals.
+  const inQueue = item =>
+    queue.some(
+      queued =>
+        queued.id === item.id ||
+        (queued.evidenceUrl &&
+          queued.evidenceUrl === item.evidenceUrl &&
+          normalizeBriefingText(queued.title) === normalizeBriefingText(item.title)),
+    );
+  const alerts = materialAlertHighlights(alertPayload).filter(
+    item => !omitDecisionQueue || !inQueue(item),
+  );
+  const decisions = omitDecisionQueue ? [] : queue;
+  const distinctChanges = changes.filter(item => !omitDecisionQueue || !inQueue(item));
   const urgentAlerts = alerts.filter(item => item.timeSensitive);
   const priorityAlerts = alerts.filter(item => !item.timeSensitive);
   const selected = [];
-  const lanes = [changes, urgentAlerts];
-  if (!changes.length) lanes.push(priorityAlerts);
+  const lanes = [distinctChanges, urgentAlerts];
+  if (!distinctChanges.length) lanes.push(priorityAlerts);
   lanes.push(decisions);
   lanes.forEach(lane => {
     if (selected.length >= 3) return;
     const candidate = lane.find(item => !isDuplicateHighlight(item, selected));
     if (candidate) selected.push(candidate);
   });
-  [...changes, ...alerts, ...decisions]
+  [...distinctChanges, ...alerts, ...decisions]
     .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title))
     .forEach(item => {
       if (selected.length < 3 && !isDuplicateHighlight(item, selected)) selected.push(item);
@@ -1976,25 +1999,67 @@ function renderSources(sources) {
           `<li><strong>${escapeHtml(item.name)}</strong>: ${escapeHtml(item.source_note || "Disabled in configuration.")}${item.last_error ? `<small class="source-policy-note">Last error: ${escapeHtml(item.last_error)}</small>` : ""}</li>`,
       )
       .join("") || "<li>No disabled sources.</li>";
-  const order = { failing: 0, degraded: 1, partial: 2, healthy: 3, standby: 4 };
-  document.getElementById("source-table").innerHTML = [...sources]
-    .sort((a, b) => order[a.status] - order[b.status] || a.name.localeCompare(b.name))
-    .map(
-      item =>
-        `<tr><td>${escapeHtml(item.name)}${item.source_note ? `<small class="source-policy-note">${escapeHtml(item.source_note)}</small>` : ""}</td><td>${escapeHtml(item.role === "reference" ? "reference" : item.type)}</td><td>${item.success_rate ?? "Not available"}${item.success_rate == null ? "" : "%"}${item.historical_reliability ? `<small class="source-policy-note">Historical: ${escapeHtml(item.historical_reliability)}</small>` : ""}</td><td>${item.warning_days || 0}</td><td>${escapeHtml(formatShortDate(item.last_checked_at))}</td><td>${escapeHtml(formatShortDate(item.last_item_at))}</td><td><span class="freshness ${escapeHtml(item.freshness || "unverified")}" title="${escapeHtml(item.role === "reference" ? "Publication age does not measure reference validity. Check the document version." : `Latest dated item; review window ${item.stale_after_days || 14} days. Not proof of complete coverage.`)}">${escapeHtml(item.freshness || "unverified")}</span></td><td><span class="health"><i class="dot ${escapeHtml(item.status)}"></i>${escapeHtml([...new Set([item.status, item.verification_status || "unverified"])].join(" · "))}</span></td></tr>`,
-    )
-    .join("");
+  const failing = item => ["failing", "degraded", "partial"].includes(item.status);
+  const attention = item => failing(item) || item.freshness === "stale";
+  const terms = state.sourceQuery.toLowerCase().trim().split(/\s+/).filter(Boolean);
+  const matching = sources
+    .filter(item => {
+      const filter = state.sourceFilter;
+      const text =
+        `${item.name} ${item.type} ${item.role || ""} ${item.source_note || ""}`.toLowerCase();
+      return (
+        terms.every(term => text.includes(term)) &&
+        (filter === "all" ||
+          (filter === "attention" && attention(item)) ||
+          (filter === "failing" && failing(item)) ||
+          (filter === "stale" && item.freshness === "stale") ||
+          (filter === "reference" && item.role === "reference"))
+      );
+    })
+    .sort(
+      (a, b) =>
+        Number(failing(b)) - Number(failing(a)) ||
+        Number(attention(b)) - Number(attention(a)) ||
+        a.name.localeCompare(b.name),
+    );
+  const visible = matching.slice(0, state.sourceLimit);
+  document.getElementById("source-result-count").textContent =
+    `${visible.length} of ${matching.length} matching sources · ${sources.length} enabled. Failing checks and stale items first.`;
+  const more = document.getElementById("source-more");
+  more.hidden = visible.length >= matching.length;
+  more.textContent = `Show ${Math.min(25, matching.length - visible.length)} more sources`;
+  document.getElementById("source-table").innerHTML =
+    visible
+      .map(
+        item =>
+          `<tr><td>${escapeHtml(item.name)}${item.source_note ? `<small class="source-policy-note">${escapeHtml(item.source_note)}</small>` : ""}</td><td><span class="health"><i class="dot ${escapeHtml(item.status)}"></i>${escapeHtml([...new Set([item.status, item.verification_status || "unverified"])].join(" · "))}</span></td><td>${escapeHtml(item.role === "reference" ? "reference" : item.type)}</td><td>${item.success_rate ?? "Not available"}${item.success_rate == null ? "" : "%"}${item.historical_reliability ? `<small class="source-policy-note">Historical: ${escapeHtml(item.historical_reliability)}</small>` : ""}</td><td>${item.warning_days || 0}</td><td>${escapeHtml(formatShortDate(item.last_checked_at))}</td><td>${escapeHtml(formatShortDate(item.last_item_at))}</td><td><span class="freshness ${escapeHtml(item.freshness || "unverified")}" title="${escapeHtml(item.role === "reference" ? "Publication age does not measure reference validity. Check the document version." : `Latest dated item; review window ${item.stale_after_days || 14} days. Not proof of complete coverage.`)}">${escapeHtml(item.freshness || "unverified")}</span></td></tr>`,
+      )
+      .join("") ||
+    '<tr><td colspan="8">No sources match. Clear your search or choose another filter.</td></tr>';
   const rows = document.getElementById("source-table").rows;
-  [...sources]
-    .sort((a, b) => order[a.status] - order[b.status] || a.name.localeCompare(b.name))
-    .forEach((item, index) => {
-      if (!item.last_error) return;
-      const note = document.createElement("small");
-      note.className = "source-policy-note";
-      note.textContent = `Most recent error${item.last_error_at ? ` (${formatShortDate(item.last_error_at)})` : ""}: ${item.last_error}`;
-      rows[index].cells[0].append(note);
-    });
+  visible.forEach((item, index) => {
+    if (!item.last_error) return;
+    const note = document.createElement("small");
+    note.className = "source-policy-note";
+    note.textContent = `Most recent error${item.last_error_at ? ` (${formatShortDate(item.last_error_at)})` : ""}: ${item.last_error}`;
+    rows[index].cells[0].append(note);
+  });
 }
+
+for (const [id, key, event] of [
+  ["source-search", "sourceQuery", "input"],
+  ["source-filter", "sourceFilter", "change"],
+]) {
+  document.getElementById(id).addEventListener(event, e => {
+    state[key] = e.target.value;
+    state.sourceLimit = 12;
+    if (state.data) renderSources(state.data.source_health?.sources || []);
+  });
+}
+document.getElementById("source-more").addEventListener("click", () => {
+  state.sourceLimit += 25;
+  if (state.data) renderSources(state.data.source_health?.sources || []);
+});
 
 function renderDataTrust(payload) {
   const summary = payload.summary || {};

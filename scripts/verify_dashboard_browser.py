@@ -769,6 +769,8 @@ def main() -> None:
         empty = copy.deepcopy(payload)
         empty["reading_brief"]["stories"] = []
         empty["reading_brief"]["collected_at"] = "2001-01-01T00:00:00Z"
+        # This is a legacy stale snapshot, not an old digest with fresh hourly news.
+        empty["reading_brief"].pop("news_refresh", None)
         empty["collected_at"] = empty["reading_brief"]["collected_at"]
         empty["news_intelligence"]["stories"] = []
         page.route("**/data/{index,dashboard}.json*", lambda route: route.fulfill(json=empty))
@@ -837,7 +839,7 @@ def main() -> None:
         safe.goto(args.url + "/#briefing")
         safe.wait_for_selector("#desk-stories .decision-card")
         assert safe.locator("#desk-stories img").count() == 0
-        assert safe.locator("#desk-stories .decision-card p a").get_attribute("href") == "#"
+        assert safe.locator("#desk-stories .decision-card h3 a").get_attribute("href") == "#"
         assert safe.evaluate("window.scoutInjected || null") is None
         safe.close()
 

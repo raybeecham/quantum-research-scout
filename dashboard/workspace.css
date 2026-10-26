@@ -1,4 +1,63 @@
 /* A guided entrance and grouped navigation, retaining the existing research desk. */
+.workspace-disclosure {
+  border-block: 1px solid var(--line);
+  margin: 1.25rem 0;
+}
+.workspace-disclosure > summary {
+  padding: 1.1rem 0;
+  cursor: pointer;
+  font-weight: 650;
+  color: var(--text);
+}
+.workspace-disclosure > .section {
+  margin-top: 0;
+}
+.workspace-disclosure .scout-visual {
+  margin-top: 0;
+}
+.source-controls {
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0 1rem;
+}
+.source-controls label {
+  display: grid;
+  gap: 0.5rem;
+  flex: 1 1 200px;
+  min-width: 0;
+  max-width: 360px;
+}
+.source-controls input,
+.source-controls select {
+  width: 100%;
+  min-width: 0;
+  padding: 0.7rem;
+  border: 1px solid var(--line-strong);
+  color: var(--text);
+  background: var(--surface);
+  font: inherit;
+}
+.source-controls p {
+  flex: 1 1 230px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem;
+}
+.map-method {
+  margin-top: 1rem;
+}
+.desk-method > summary {
+  cursor: pointer;
+  font-weight: 650;
+}
+.workspace-disclosure summary:focus-visible,
+.source-controls :is(input, select):focus-visible,
+.desk-method > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
 .desk-brand {
   margin-bottom: 28px;
 }
