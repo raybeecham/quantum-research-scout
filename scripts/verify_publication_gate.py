@@ -64,6 +64,18 @@ def event_fixture():
                 "key_points": [],
             }
         )
+    # Three genuine quantum subjects keep the filter visible under the new
+    # minimum-coverage rule while the PQC-only negative cases stay excluded.
+    for index in range(3):
+        rows.append(
+            {
+                **separate,
+                "id": f"quantum-control-{index}",
+                "title": f"Logical qubit experiment {index} demonstrates quantum error correction",
+                "url": f"https://example.org/quantum-control-{index}",
+                "key_points": ["Logical qubits were measured in this synthetic test fixture."],
+            }
+        )
     return build(rows)
 
 

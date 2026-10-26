@@ -63,7 +63,7 @@ def main() -> None:
         expect(page.locator("#nav-explore")).not_to_have_attribute("open", "")
         page.screenshot(path=str(args.output / "news-desktop.png"), full_page=True)
         navigate_workspace(page, "briefing")
-        page.wait_for_selector(".lead-story h2", timeout=30000)
+        page.wait_for_selector("#briefing-title", timeout=30000)
         payload = page.evaluate("fetch('data/dashboard.json').then(r => r.json())")
         page.screenshot(path=str(args.output / "briefing-desktop.png"), full_page=True)
         page.screenshot(path=str(args.output / "briefing-cover.png"))
@@ -71,7 +71,7 @@ def main() -> None:
             page.screenshot(path="docs/assets/scout-reading-desk.png")
         print(
             json.dumps(
-                {"title": page.title(), "lead": page.locator(".lead-story h2").inner_text()},
+                {"title": page.title(), "heading": page.locator("#briefing-title").inner_text()},
                 indent=2,
             )
         )

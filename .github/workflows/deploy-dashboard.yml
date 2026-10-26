@@ -121,6 +121,7 @@ jobs:
           trap 'kill "$preview_pid"' EXIT
           python scripts/verify_frontier_round2_browser.py --channel chromium
           python scripts/verify_lazy_data_browser.py --channel chromium
+          python scripts/verify_round4_browser.py --channel chromium
           python scripts/verify_accessibility_browser.py --channel chromium
           xvfb-run -a python scripts/verify_publication_gate.py --channel chromium --headed
 
