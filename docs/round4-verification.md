@@ -1,6 +1,6 @@
 # Round 4 implementation and verification
 
-Local work recorded October 25, 2026 (America/Chicago). This is not a production deployment receipt. Nothing in this pass was pushed.
+Initial local work was recorded October 25, 2026 (America/Chicago). Nothing in that initial pass was pushed. The October 26 release receipt below supersedes that local-only publication status.
 
 ## October 26 release follow-up
 
@@ -12,6 +12,9 @@ The October 25 local-only record below is historical. On October 26, the 30 unpu
 - The source-health report was regenerated from the preserved remote observations, without new collection calls or fabricated successes. It shows 103 enabled sources, zero failing, Rigetti disabled with its explanation, and **34 stale sources**. The under-25 target remains open.
 - Verification after synchronization: **1,167 Python tests and all 26 browser suites passed**, including 96 accessibility audits with zero serious or critical findings. Initial Latest data is 908,160 uncompressed bytes. Ruff lint/format, dashboard Prettier, retained-URL registry, and a non-disclosing credential-pattern check passed. Deployment receipts are reported separately when completed.
 - Final rebuilt-artifact publication gate passed: five merged-event pairs, a negative merge case, topic exclusions, twelve routes, and all 222 retained story URLs. Both deliberate regressions were rejected. The local artifact is `f2769ea3e343`; the live deployment must be checked separately.
+- **Published October 26:** release commit `ecb00419d444f48c70dac58656856da5b28d837e` passed [CI](https://github.com/raybeecham/quantum-research-scout/actions/runs/40370151370) and [Pages deployment](https://github.com/raybeecham/quantum-research-scout/actions/runs/40370151383). The public site serves build **`aebe5dac0f91`**, independently verified through its versioned data and the Round 4 browser checks across all twelve live routes. Its feed contains 48 entries; its sitemap contains 224 URLs; robots and story social-image metadata are present.
+- The first live Federal boundary check exposed cached layout measurements while resizing nested disclosures, not persistent visible clipping. The test now opens ancestor disclosures and scrolls the panel into view before applying the same strict boundary assertions. Visible live panels pass at desktop and 375px.
+- [W3C feed validation](https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fraybeecham.github.io%2Fquantum-research-scout%2Ffeed.xml) passed for the public Atom 1.0 feed. It recommends distinct `updated` values because the entries share a collection timestamp; the feed remains valid. Real messaging previews, a screen-reader listening pass, and genuine issue incident/recovery delivery remain unverified.
 
 ## Acceptance status
 
@@ -23,7 +26,7 @@ The retained malformed-source fixtures also exposed a real initialization regres
 
 Concurrent local runs exposed readiness timeouts. The changed entry checks wait for actual data readiness; the timed-out suites were rerun individually and passed without removing their assertions. CI continues to run the suites sequentially.
 
-Separate outstanding acceptance checks: fewer than 25 stale sources, actual GitHub issue delivery/recovery, external W3C feed validation, messaging-app link previews, and an actual screen-reader listening pass.
+Separate outstanding acceptance checks: fewer than 25 stale sources, actual GitHub issue delivery/recovery, messaging-app link previews, and an actual screen-reader listening pass. The external W3C check passed on October 26.
 
 ## Itemized changes
 
@@ -41,7 +44,7 @@ Separate outstanding acceptance checks: fewer than 25 stale sources, actual GitH
 | 10. Old story URLs | Append-only URL registry and explicit merged-account redirect pages retain published addresses. | 222 retained addresses return 200, including seven redirects with refresh, canonical, and visible fallback links. Archive tests reject missing targets, cycles, and unsafe paths. |
 | 11. AI/cloud subjects | Title-level subject rules reject incidental GPU/vendor mentions. Explicit AI workloads and cloud services remain eligible. Latest and Briefing share the same topic taxonomy and canonical counts. Filters with fewer than three stories are hidden. | Topic regression tests cover the supplied false positives. Built-site checks compare visible counts to the canonical collection and verify sparse filters are hidden. AI and cloud remain separate topics, not a combined category. |
 | 12. Page consolidation | Latest is the full feed. Briefing shows four decision prompts, changes, follow-through, counts, and reports. Tech landscape emphasizes connections. Library leaves the menu; old `#library` links still open Briefing. Public browse/save/notebook features lead onboarding; AI is marked invite-only. | Migrated Briefing, exploration, dashboard, and investigation checks passed, including direct routes, topic counts, notebook preservation, mobile layout, and onboarding without AI calls. Reports still link to their GitHub Markdown; an on-site Markdown reader was not added. |
-| 13. Sharing/discovery | Atom feed linked from the page head and footer; story summary/image social metadata; sitemap of all retained stories; robots file pointing to the sitemap. Verified publisher images are used when available, otherwise a site image. | XML parsing, escaping, unique entries, sitemap completeness, build-manifest packaging, and metadata unit tests passed. External W3C validator and real messaging previews have not been exercised against a deployment. |
+| 13. Sharing/discovery | Atom feed linked from the page head and footer; story summary/image social metadata; sitemap of all retained stories; robots file pointing to the sitemap. Verified publisher images are used when available, otherwise a site image. | XML parsing, escaping, unique entries, sitemap completeness, build-manifest packaging, and metadata unit tests passed. The live feed passed W3C validation on October 26 with a shared-timestamp recommendation. Real messaging previews remain unverified. |
 | 14. Source diversity | Primary sources audited/repaired; Google Security feed moved to its current endpoint; Microsoft article dates extracted from explicit article headings. Shortlist enforces unique publisher hosts and reserves a recent-paper slot when eligible. | Public collectors returned usable items from the requested primary sources. Final focused audit: Google Security 20/20 dated and Microsoft Quantum 2/2 dated, no warnings. Shortlist rules are unit-tested. **33 stale sources remain; the requested under-25 target is not met.** |
 | 15. Aliases | Bidirectional NIST, DOE, DARPA, NSA, CISA, NSF, DoD/DoW aliases, plus existing IBM/NPL and accent folding. | Tests compare complete short/full-name result sets; browser search and singular-result grammar checks passed. |
 | 16. Patent related reading | Broad PQC/quantum/AI overlap no longer creates a link. Only shared specific algorithms or mechanisms qualify, with the reason displayed. | 14 patent tests passed, including rejection of generic post-quantum overlap and acceptance of a shared ML-KEM mechanism. Unmatched patents show no related-reading section. |
@@ -87,4 +90,4 @@ python scripts/verify_question_discovery_browser.py --channel msedge
 
 CI uses Chromium and Xvfb for the visible-page publication check. The complete browser command list remains in `.github/workflows/ci.yml`; run those commands sequentially with `--channel msedge` for the equivalent local browser checks. The approved migration replaces obsolete layout assumptions with replacement-UI checks while retaining behavioral and security coverage.
 
-After eventual deployment, validate `feed.xml` with the W3C feed validator, share a story in a real messaging app, observe a genuine feed incident/recovery in Actions, and perform an NVDA or VoiceOver pass through Latest and Story details. None of those is claimed complete here.
+After deployment, share a story in a real messaging app, observe a genuine feed incident/recovery in Actions, and perform an NVDA or VoiceOver pass through Latest and Story details. Those remain unverified. The W3C feed validation is complete as recorded in the October 26 receipt.

@@ -83,7 +83,13 @@ def main():
                 page.set_viewport_size({"width": width, "height": 1000})
                 assert_no_overflow(page, route)
                 if route == "federal":
-                    page.locator(".evidence-ledger-module").evaluate("el => el.open = true")
+                    # Expanding a nested panel alone can leave its ancestor closed.
+                    # Measure visible, settled layout rather than cached hidden bounds.
+                    page.locator(".evidence-ledger-module").evaluate("""el => {
+                      for (let node = el; node; node = node.parentElement)
+                        if (node.tagName === 'DETAILS') node.open = true;
+                    }""")
+                    page.locator(".evidence-ledger-layout").scroll_into_view_if_needed()
                     assert page.locator(".evidence-ledger-layout").evaluate("""grid => {
                       const parent = grid.parentElement, rect = parent.getBoundingClientRect();
                       const style = getComputedStyle(parent);
