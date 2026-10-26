@@ -432,6 +432,19 @@
       .join(" ");
   }
 
+  function selectionSignal(item) {
+    const kind = item.news_editorial?.kind || "development";
+    const labels = {
+      deployment: "Operational deployment",
+      evaluation: "Evaluation result",
+      release: "Product release",
+      policy: "Policy / standards change",
+      research: "Research result",
+    };
+    const accounts = item.news_event?.account_count || 1;
+    return `${labels[kind] || kind.replaceAll("_", " ")} · ${accounts} source ${accounts === 1 ? "account" : "accounts"} · ${item.date_label || "Source date"}: ${item.date || "unavailable"}`;
+  }
+
   function selectFeatured(filtered) {
     const editorial = state.data?.news_intelligence?.editorial;
     state.featuredReasons.clear();
@@ -478,11 +491,11 @@
         pick?.text && pick?.rule
           ? {
               rule: pick.rule,
-              text: `Edition pick: ${pick.text}`,
+              text: pick.text,
             }
           : {
               rule: "ranked_fallback",
-              text: "Next available edition-ranked story from a different publisher",
+              text: selectionSignal(lookup.get(id)),
             },
       );
       if (selected.length === 4) break;
@@ -491,7 +504,7 @@
       if (selected.length >= 4) break;
       add(item, {
         rule: "eligible_fallback",
-        text: "Next qualifying story from a different publisher",
+        text: selectionSignal(item),
       });
     }
     return selected;

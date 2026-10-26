@@ -767,14 +767,35 @@ def _editorial_picks(candidates, edition):
         rule = (
             "research_slot" if reserved_paper else "lead_rank" if not selected else "diverse_rank"
         )
-        label = {
-            "research_slot": "Recent research: reserved paper slot",
-            "lead_rank": "Highest-ranked eligible recent development",
-            "diverse_rank": "Next highest-ranked development from a different publisher",
-        }[rule]
+        editorial = item["news_editorial"]
+        signal = {
+            "kind": editorial["kind"],
+            "perspective": editorial["source_perspective"],
+            "accounts": (item.get("news_event") or {}).get("account_count", 1),
+            "age_days": (edition - _published(item)).days,
+            "reserved_research": reserved_paper,
+        }
+        kind_label = {
+            "deployment": "Operational deployment",
+            "evaluation": "Evaluation result",
+            "release": "Product release",
+            "policy": "Policy / standards change",
+            "security": "Security development",
+            "announcement": "New announcement",
+            "research": "Research result",
+            "delay": "Reported delay",
+        }.get(signal["kind"], signal["kind"].replace("_", " ").capitalize())
+        label = (
+            f"{'Reserved research slot' if reserved_paper else kind_label} · "
+            f"{signal['perspective'].lower()} · {signal['accounts']} source "
+            f"{'account' if signal['accounts'] == 1 else 'accounts'} · "
+            f"{signal['age_days']} days since publication"
+        )
         reasons[item.get("id")] = {
             "rule": rule,
             "text": label,
+            "signal": signal,
+            "secondary_note": "Publisher diversity" if selected else "Edition lead",
             "score": rank(item, selected)[0],
             "publication_age_days": (edition - _published(item)).days,
             "kind": item["news_editorial"]["kind"],

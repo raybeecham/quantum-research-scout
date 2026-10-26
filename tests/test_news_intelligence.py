@@ -1348,6 +1348,13 @@ def test_recent_preprint_gets_reserved_shortlist_slot_without_publisher_repeats(
     assert reasons[ids[2]]["rule"] == "diverse_rank"
     assert [reasons[i]["slot"] for i in ids] == list(range(4))
     assert len({reasons[i]["publisher_host"] for i in ids}) == 4
+    for key, reason in reasons.items():
+        assert "highest-ranked" not in reason["text"].lower()
+        assert "Edition pick:" not in reason["text"]
+        assert "source account" in reason["text"]
+        for other_key, other in reasons.items():
+            if other_key != key and other["text"] == reason["text"]:
+                assert other["signal"] == reason["signal"]
 
 
 def test_selection_explanations_do_not_claim_a_research_reservation_without_a_paper():

@@ -98,6 +98,9 @@ def main():
         page.keyboard.press("Escape")
         page.goto(args.url.rstrip("/") + "/#news")
         ready(page)
+        for reason in page.locator(".news-selection-reason").all_text_contents():
+            assert "Edition pick:" not in reason and "Next highest" not in reason
+            assert "Next available" not in reason and "Next qualifying" not in reason
         allowed = page.evaluate("ScoutNews.availableTopics(state.data.news_intelligence.stories)")
         for button in page.locator("[data-news-topic]:visible, [data-topic-jump]:visible").all():
             topic = button.get_attribute("data-news-topic") or button.get_attribute(
