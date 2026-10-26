@@ -33,6 +33,15 @@
           /* Preserve other valid history. */
         }
       }
+      // Preserve reviewed notebook entries from before the shared ledger existed.
+      try {
+        const notebook = stored("quantum-scout:reading-desk:v1")?.notebook;
+        for (const row of Array.isArray(notebook) ? notebook : []) {
+          if (row?.reading_status === "Reviewed" && valid(row.id)) ids.add(row.id);
+        }
+      } catch {
+        /* A malformed notebook must not discard valid read histories. */
+      }
       persist();
     }
   } catch {

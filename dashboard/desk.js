@@ -593,7 +593,8 @@
     }
   }
   function readingStatus(item) {
-    return notebook.get(item.id)?.reading_status || (read.has(item.id) ? "Reviewed" : "To review");
+    if (read.has(item.id)) return "Reviewed";
+    return notebook.get(item.id)?.reading_status === "Reading" ? "Reading" : "To review";
   }
   function syncQuestionPapers(questions) {
     if (!notebookStorageReadable) {
