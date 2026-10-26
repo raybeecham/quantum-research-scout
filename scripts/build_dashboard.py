@@ -212,8 +212,20 @@ def build_dashboard(
             "resolved_forecasts": (strategic_forecasts.get("resolved_forecasts") or [])[:20],
         },
         "historical_evidence": {
-            key: historical.get(key)
-            for key in ("updated_at", "lookback_days", "item_count", "dated_count", "undated_count")
+            **{
+                key: historical.get(key)
+                for key in (
+                    "updated_at",
+                    "lookback_days",
+                    "item_count",
+                    "dated_count",
+                    "undated_count",
+                )
+            },
+            "items": [
+                {key: item.get(key) for key in ("title", "url", "source", "summary", "date")}
+                for item in historical.get("items", [])
+            ],
         },
         "patents": _dashboard_patents(patents),
         "reports": _report_links(reports, repo_url.rstrip("/")),

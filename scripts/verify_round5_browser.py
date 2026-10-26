@@ -69,6 +69,33 @@ def main():
             assert page.locator(".evidence-ledger-layout").evaluate("""grid =>
               [...grid.children].every(child => child.getBoundingClientRect().right <= grid.getBoundingClientRect().right + 1)
             """)
+        page.set_viewport_size({"width": 1440, "height": 1000})
+        page.locator("body").click(position={"x": 5, "y": 500})
+        page.keyboard.press("/")
+        expect(page.locator("#desk-search")).to_be_focused()
+
+        def results(query):
+            page.locator("#desk-search").fill(query)
+            expect(page.locator("#search-count")).to_contain_text("shown")
+            while page.locator("#search-more").is_visible():
+                page.locator("#search-more").click()
+            return set(
+                page.locator("#search-results a").evaluate_all("nodes => nodes.map(a => a.href)")
+            )
+
+        for query in ("FIPS 203", "HQC", "Crypto4A", "La Luce"):
+            assert results(query), query
+            expect(page.locator("#search-results")).to_contain_text(query)
+        assert len(results("NIST")) > 1
+        assert any("entity.html?" in url for url in results("Cisco"))
+        expect(page.locator("#search-results")).to_contain_text("Organization")
+        for short, long in (
+            ("NSA", "National Security Agency"),
+            ("DoW", "Department of War"),
+            ("NIST", "National Institute of Standards and Technology"),
+        ):
+            assert results(short) == results(long), (short, long)
+        page.keyboard.press("Escape")
         assert not errors, errors
         browser.close()
     print("Round 5 browser checks passed")

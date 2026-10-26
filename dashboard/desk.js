@@ -1012,17 +1012,17 @@
   ];
   const searchAcronyms = new Set(searchAliases.flat().filter(alias => /^[a-z]{2,5}$/.test(alias)));
   function searchIndex(value) {
-    const normalized = normalizeSearch(value);
-    const words = normalized.replace(/[^a-z0-9]+/g, " ");
-    const aliases = searchAliases.filter(group =>
-      group.some(alias => ` ${words} `.includes(` ${alias} `)),
-    );
-    return `${normalized} ${aliases.flat().join(" ")}`;
+    let normalized = normalizeSearch(value);
+    for (const group of searchAliases) {
+      const alternatives = [...group].sort((a, b) => b.length - a.length).join("|");
+      normalized = normalized.replace(new RegExp(`\\b(?:${alternatives})\\b`, "g"), group[0]);
+    }
+    return normalized;
   }
 
   let searchLoad = null;
   function search() {
-    const query = normalizeSearch($("desk-search").value.trim());
+    const query = searchIndex($("desk-search").value.trim());
     document
       .querySelectorAll("[data-search-kind]")
       .forEach(b => b.setAttribute("aria-pressed", String(b.dataset.searchKind === ui.searchKind)));
@@ -1074,6 +1074,36 @@
           url: x.url,
           kind: "Reading",
         })),
+      ...["entities", "technologies"].flatMap(kind =>
+        (data.entity_watch?.[kind] || [])
+          .flatMap(entity => entity.evidence || [])
+          .map(x => ({
+            title: x.title,
+            detail: `${x.source || ""} · Historical reading · ${(x.themes || []).join(" ")}`,
+            url: x.url,
+            kind: "Reading",
+          })),
+      ),
+      ...(data.standards?.milestones || []).map(x => ({
+        title: x.title,
+        detail: `${x.authority || ""} · ${x.summary || ""} · ${(x.technologies || []).join(" ")}`,
+        url: x.source_url,
+        kind: "Reading",
+      })),
+      ...(data.historical_evidence?.items || []).map(x => ({
+        title: x.title,
+        detail: `${x.source || ""} · Historical reading · ${x.summary || ""}`,
+        url: x.url,
+        kind: "Reading",
+      })),
+      ...Object.entries(data.citation_records || {})
+        .filter(([, x]) => x.title)
+        .map(([url, x]) => ({
+          title: x.title,
+          detail: `${x.repository || x.venue || ""} · Citation metadata · ${(x.authors || []).join("; ")}`,
+          url: x.canonical_url || url,
+          kind: "Reading",
+        })),
       ...(data.patents?.patents || []).map(x => ({
         title: x.title,
         detail: x.assignee,
@@ -1105,7 +1135,12 @@
       })),
     ];
     const terms = query.split(/\s+/);
-    const matches = corpus.flat().filter(x => {
+    const unique = new Map();
+    corpus.flat().forEach(x => {
+      const key = `${x.kind}:${["Organization", "Technology"].includes(x.kind) ? x.url : identity(x.url)}`;
+      if (!unique.has(key)) unique.set(key, x);
+    });
+    const matches = [...unique.values()].filter(x => {
       const index = searchIndex(`${x.title} ${x.detail}`);
       // Entity abbreviations are complete words, not arbitrary substrings:
       // NIST must not match "deterministic" or "administration". Other search
@@ -1119,7 +1154,7 @@
       );
     });
     const score = x => {
-      const title = normalizeSearch(x.title);
+      const title = searchIndex(x.title);
       return (
         (title === query ? 100 : title.startsWith(query) ? 25 : title.includes(query) ? 10 : 0) +
         terms.filter(t => title.includes(t)).length
