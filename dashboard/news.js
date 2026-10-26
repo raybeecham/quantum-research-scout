@@ -299,7 +299,7 @@
       level = "future";
     } else if (age > (hourly ? 3 : 36) * 60 * 60 * 1000) {
       status = hourly
-        ? `Hourly news refresh is overdue · last checked ${window.ScoutDisplay.dateTime(brief.news_refresh.collected_at)}. Earlier coverage remains available.`
+        ? `Hourly news refresh is overdue · last checked ${window.ScoutDisplay.newsCheckTime(brief.news_refresh.collected_at)}. Earlier coverage remains available.`
         : `Collection needs an update · last collected ${dateLabel(state.data.collected_at || brief.collected_at)}. These are archived report items, not a live news feed.`;
       level = "stale";
     } else {
