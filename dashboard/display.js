@@ -30,7 +30,7 @@
   }
   const count = (n, singular, plural = `${singular}s`) =>
     `${n} ${Number(n) === 1 ? singular : plural}`;
-  function dateTime(value, fallback = "Date unavailable") {
+  function dateTime(value, fallback = "Date unavailable", timeZone = "UTC") {
     if (!day(value) || !Number.isFinite(Date.parse(value))) return fallback;
     return new Intl.DateTimeFormat("en-US", {
       month: "short",
@@ -38,10 +38,12 @@
       year: "numeric",
       hour: "numeric",
       minute: "2-digit",
-      timeZone: "UTC",
+      timeZone,
       timeZoneName: "short",
     }).format(new Date(value));
   }
+  // News check labels follow Central daylight/standard time; source dates stay intact.
+  const newsCheckTime = value => dateTime(value, "Date unavailable", "America/Chicago");
   function editionNotice(brief, stories = []) {
     const comparison = brief?.edition_comparison;
     const edition = day(comparison?.current_report_date);
@@ -64,13 +66,21 @@
   }
   function collectionLabel(brief, collectedAt) {
     if (brief?.news_refresh?.collected_at)
-      return `News checked ${dateTime(brief.news_refresh.collected_at)} · hourly schedule`;
+      return `News checked ${newsCheckTime(brief.news_refresh.collected_at)} · hourly schedule`;
     const edition = day(brief?.edition_date);
     return edition
       ? `Report window ends ${date(brief.coverage?.window_end || edition)} · collected ${date(collectedAt || brief.collected_at)}`
       : "Report edition unavailable";
   }
-  const api = Object.freeze({ day, date, dateTime, count, editionNotice, collectionLabel });
+  const api = Object.freeze({
+    day,
+    date,
+    dateTime,
+    newsCheckTime,
+    count,
+    editionNotice,
+    collectionLabel,
+  });
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   if (typeof window !== "undefined") window.ScoutDisplay = api;
 })();

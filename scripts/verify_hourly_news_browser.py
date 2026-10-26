@@ -2,7 +2,8 @@
 
 import argparse
 import json
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
+from pathlib import Path
 from urllib.parse import urlsplit
 
 from playwright.sync_api import expect, sync_playwright
@@ -15,14 +16,29 @@ def main():
     args = parser.parse_args()
     base = args.url.rstrip("/")
     origin = urlsplit(base).netloc
-    checked = datetime.now(timezone.utc).replace(microsecond=0)
+    cases = [
+        ("2026-10-26T23:51:00+00:00", timedelta(), "Oct 26, 2026, 6:51 PM CDT", "current"),
+        ("2026-10-26T23:51:00+00:00", timedelta(hours=3), "Oct 26, 2026, 3:51 PM CDT", "current"),
+        (
+            "2026-10-26T23:51:00+00:00",
+            timedelta(hours=3, seconds=1),
+            "Oct 26, 2026, 3:50 PM CDT",
+            "stale",
+        ),
+        ("2026-10-26T23:51:00+00:00", timedelta(hours=4), "Oct 26, 2026, 2:51 PM CDT", "stale"),
+        ("2026-01-15T23:51:00+00:00", timedelta(hours=4), "Jan 15, 2026, 1:51 PM CST", "stale"),
+        ("2026-07-15T23:51:00+00:00", timedelta(hours=4), "Jul 15, 2026, 2:51 PM CDT", "stale"),
+    ]
     errors = []
     with sync_playwright() as p:
         browser = p.chromium.launch(channel=args.channel)
-        for hours, expected_state in ((0, "current"), (4, "stale")):
-            stamp = (checked - timedelta(hours=hours)).isoformat()
+        for now, age, displayed, expected_state in cases:
+            checked = datetime.fromisoformat(now)
+            stamp = (checked - age).isoformat()
             context = browser.new_context(
-                viewport={"width": 1440, "height": 1000}, reduced_motion="reduce"
+                viewport={"width": 1440, "height": 1000},
+                reduced_motion="reduce",
+                timezone_id="Asia/Tokyo",
             )
             context.on("weberror", lambda e: errors.append(str(e.error)))
 
@@ -51,10 +67,23 @@ def main():
 
             context.route("**/*", intercept)
             page = context.new_page()
+            page.clock.set_fixed_time(checked)
             page.goto(base + "/#news")
-            expect(page.locator("#news-edition")).to_contain_text("News checked")
-            expect(page.locator("#news-edition")).to_contain_text("hourly schedule")
+            expect(page.locator("#news-edition")).to_have_text(
+                f"News checked {displayed} · hourly schedule"
+            )
             expect(page.locator("#news-status")).to_have_attribute("data-freshness", expected_state)
+            if expected_state == "stale":
+                expect(page.locator("#news-status")).to_have_text(
+                    f"Hourly news refresh is overdue · last checked {displayed}. Earlier coverage remains available."
+                )
+            assert page.evaluate("state.data.reading_brief.news_refresh.collected_at") == stamp
+            assert (
+                page.evaluate(
+                    "Date.now() - Date.parse(state.data.reading_brief.news_refresh.collected_at)"
+                )
+                == age.total_seconds() * 1000
+            )
             expect(page.locator("#news-edition-note")).to_contain_text(
                 "separately collected hourly news"
             )
@@ -71,11 +100,15 @@ def main():
                     assert page.evaluate(
                         "document.documentElement.scrollWidth <= innerWidth + 1"
                     ), (section, width)
+                    if displayed == "Oct 26, 2026, 2:51 PM CDT" and section == "news":
+                        output = Path("site/verification/central-time")
+                        output.mkdir(parents=True, exist_ok=True)
+                        page.screenshot(path=str(output / f"hourly-{width}.png"))
             context.close()
         browser.close()
     assert not errors, errors
     print(
-        "Hourly news browser checks passed: timestamps, shared labels, empty daily edition, overdue state and narrow screens."
+        "Hourly news browser checks passed: Central summer/winter labels, shared banners, unchanged UTC inputs and three-hour threshold, empty daily edition and narrow screens."
     )
 
 
