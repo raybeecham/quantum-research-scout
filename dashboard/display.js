@@ -30,7 +30,19 @@
   }
   const count = (n, singular, plural = `${singular}s`) =>
     `${n} ${Number(n) === 1 ? singular : plural}`;
-  const api = Object.freeze({ day, date, count });
+  function dateTime(value, fallback = "Date unavailable") {
+    if (!day(value) || !Number.isFinite(Date.parse(value))) return fallback;
+    return new Intl.DateTimeFormat("en-US", {
+      month: "short",
+      day: "numeric",
+      year: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      timeZone: "UTC",
+      timeZoneName: "short",
+    }).format(new Date(value));
+  }
+  const api = Object.freeze({ day, date, dateTime, count });
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   if (typeof window !== "undefined") window.ScoutDisplay = api;
 })();

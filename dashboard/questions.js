@@ -461,8 +461,12 @@
           .join("")
       : "<p>No evidence attached. A candidate question is not an established research gap.</p>";
     $("lab-history").innerHTML =
-      row.history.map(h => `<p><time>${esc(h.at)}</time> · ${esc(h.question)}</p>`).join("") ||
-      "<p>No question wording revisions yet.</p>";
+      row.history
+        .map(
+          h =>
+            `<p><time datetime="${esc(h.at)}">${esc(window.ScoutDisplay.dateTime(h.at))}</time> · ${esc(h.question)}</p>`,
+        )
+        .join("") || "<p>No question wording revisions yet.</p>";
     const seed = $("lab-paper-seed");
     const previous = seed.value;
     seed.replaceChildren(new Option("This research question", ""));
@@ -678,7 +682,7 @@
         const url = safeUrl(paper.url);
         const card = document.createElement("article");
         card.className = "lab-evidence";
-        const meta = `${(paper.authors || []).join(", ") || "Authors unavailable"} · ${paper.date || "Date unavailable"} · ${paper.venue || "Venue unavailable"}`;
+        const meta = `${(paper.authors || []).join(", ") || "Authors unavailable"} · ${window.ScoutDisplay.date(paper.date)} · ${paper.venue || "Venue unavailable"}`;
         card.innerHTML = `<h4><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(paper.title)} ↗</a></h4><p>${esc(meta)}</p><p>${esc(paper.index)} · ${esc(paper.type)} · Peer review not independently verified</p><p>${esc(paper.match_note)}</p><details><summary>Abstract</summary><p>${esc(paper.abstract || "No abstract supplied by this index. Open the paper to inspect it.")}</p></details><p><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">Open paper ↗</a></p>`;
         const attach = document.createElement("button");
         attach.type = "button";

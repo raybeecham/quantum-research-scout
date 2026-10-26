@@ -62,7 +62,7 @@
     )
       .map(
         e =>
-          `<li><div><time>${esc(e.date || "Date unavailable")}</time><span>${esc(e.label)}</span></div><h4>${sourceLink(e.url, e.title)}</h4>${e.excerpt ? `<p>${esc(e.excerpt)}</p>` : ""}${e.note ? `<p class="review-method">${esc(e.note)}</p>` : ""}</li>`,
+          `<li><div><time>${esc(window.ScoutDisplay.date(e.date))}</time><span>${esc(e.label)}</span></div><h4>${sourceLink(e.url, e.title)}</h4>${e.excerpt ? `<p>${esc(e.excerpt)}</p>` : ""}${e.note ? `<p class="review-method">${esc(e.note)}</p>` : ""}</li>`,
       )
       .join(
         "",

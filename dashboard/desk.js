@@ -433,7 +433,7 @@
   function citationMarkup(item) {
     const c = citationFor(item);
     if (c && ["index_metadata", "imported_unverified"].includes(c.status) && c.authors.length)
-      return `<details class="citation-details"><summary>Bibliographic details · verify before citing</summary><p>${esc(c.authors.join("; "))}</p><p>${esc(c.publication_date || "Date unavailable")} · ${esc(c.venue || "Venue unavailable")}</p><p>DOI: ${esc(c.doi || "Not supplied")}. Index/import-supplied metadata; not independently verified.</p></details>`;
+      return `<details class="citation-details"><summary>Bibliographic details · verify before citing</summary><p>${esc(c.authors.join("; "))}</p><p>${esc(window.ScoutDisplay.date(c.publication_date))} · ${esc(c.venue || "Venue unavailable")}</p><p>DOI: ${esc(c.doi || "Not supplied")}. Index/import-supplied metadata; not independently verified.</p></details>`;
     if (!c || c.status !== "source_metadata") {
       const failed = c?.refresh_status === "failed" || c?.status === "lookup_failed";
       const label = failed
@@ -450,7 +450,7 @@
         article ? "Publisher" : "Repository",
         (article ? c.publisher : c.repository) || "Not supplied",
       ],
-      ["Publication date", c.publication_date || "Not supplied"],
+      ["Publication date", window.ScoutDisplay.date(c.publication_date, "Not supplied")],
       ["Venue (repository-reported)", c.venue || "Not supplied"],
       ["DOI", c.doi || "Not supplied"],
       ["Version", c.version || "Not verified"],
@@ -839,7 +839,7 @@
     $("notebook-list").innerHTML = matching
       .map(
         x =>
-          `<button class="notebook-queue-item" data-paper="${esc(x.id)}" aria-pressed="${x.id === selectedPaper}"><span>${esc(readingStatus(x))}</span><strong>${esc(x.title)}</strong><small>${esc(x.source)} · ${esc(x.date || "Date unavailable")}</small></button>`,
+          `<button class="notebook-queue-item" data-paper="${esc(x.id)}" aria-pressed="${x.id === selectedPaper}"><span>${esc(readingStatus(x))}</span><strong>${esc(x.title)}</strong><small>${esc(x.source)} · ${esc(window.ScoutDisplay.date(x.date))}</small></button>`,
       )
       .join("");
     const selected = matching.find(x => x.id === selectedPaper);

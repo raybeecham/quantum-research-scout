@@ -20,6 +20,8 @@ assert.equal(d.date('2026-02-30'),'Date unavailable');
 assert.equal(d.date(null),'Date unavailable');
 assert.equal(d.date('2026-10'),'Oct 2026');
 assert.equal(d.date('2026'),'2026');
+assert.equal(d.dateTime('2026-10-25T02:40:17.903846+00:00'),'Oct 25, 2026, 2:40 AM UTC');
+assert.equal(d.dateTime('invalid'),'Date unavailable');
 assert.equal(d.count(1,'program'),'1 program');
 assert.equal(d.count(0,'program'),'0 programs');
 assert.equal(d.count(2,'story','stories'),'2 stories');
