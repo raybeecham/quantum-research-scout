@@ -38,7 +38,15 @@ def main():
     registry = json.loads((root / "data/story-urls.json").read_text(encoding="utf-8"))["urls"]
     sitemap = ET.parse(root / "sitemap.xml")
     urls = {node.text for node in sitemap.findall("{*}url/{*}loc")}
-    assert all(any(url.endswith(path) for url in urls) for path in registry)
+    assert all(
+        any(url.endswith(path) for url in urls) == (not row.get("redirect_to"))
+        for path, row in registry.items()
+    )
+    for node in sitemap.findall("{*}url"):
+        assert node.findtext("{*}lastmod")
+        path = node.findtext("{*}loc").split("/quantum-research-scout/")[-1]
+        if path.startswith("stories/"):
+            assert 'http-equiv="refresh"' not in (root / path).read_text(encoding="utf-8")
     feed = ET.parse(root / "feed.xml")
     assert len(feed.findall("{*}entry")) == len(news["stories"])
     assert len({node.findtext("{*}id") for node in feed.findall("{*}entry")}) == len(

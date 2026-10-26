@@ -17,6 +17,9 @@ def test_feed_and_sitemap_escape_content_and_include_retained_urls(tmp_path):
         "news_intelligence": {"stories": [story]},
     }
     archive = {"url_registry": {"urls": {story["story_url"]: {}, "stories/old/index.html": {}}}}
+    archive["url_registry"]["urls"]["stories/merged/index.html"] = {
+        "redirect_to": story["story_url"]
+    }
     write_discovery(payload, archive, tmp_path)
     ns = {"a": "http://www.w3.org/2005/Atom", "s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
     feed = ET.parse(tmp_path / "feed.xml")
@@ -28,6 +31,14 @@ def test_feed_and_sitemap_escape_content_and_include_retained_urls(tmp_path):
     assert sites == {
         base,
         base + "stories/index.html",
-        *(base + path for path in archive["url_registry"]["urls"]),
+        *(
+            base + path
+            for path, row in archive["url_registry"]["urls"].items()
+            if not row.get("redirect_to")
+        ),
     }
+    assert all(
+        node.findtext("s:lastmod", namespaces=ns)
+        for node in ET.parse(tmp_path / "sitemap.xml").findall("s:url", ns)
+    )
     assert base + "sitemap.xml" in (tmp_path / "robots.txt").read_text()
