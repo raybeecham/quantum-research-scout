@@ -60,14 +60,31 @@ def is_topic_subject(title, topic):
     """Adjacent technology needs an explicit subject, not a supplier or GPU mention."""
     title = re.sub(r"\bGoogle Quantum AI\b", "Google Quantum", str(title), flags=re.I)
     if topic == "ai":
-        return bool(re.search(
-            r"\b(?:artificial intelligence|machine learning|deep learning|neural networks?|"
-            r"large language models?|LLMs?|agentic AI|generative AI|AI[- ](?:security|risks?|"
-            r"models?|agents?|inference|training|applications?|workloads?|systems?|safety|evaluation)|"
-            r"(?:PyTorch|TensorFlow|JAX)\b.{0,55}\b(?:training|inference|models?)|"
-            r"(?:security|risks?|inference|training) (?:of|for|in) AI)\b", title, re.I))
+        return bool(
+            re.search(
+                r"\b(?:artificial intelligence|machine learning|deep learning|neural networks?|"
+                r"large language models?|LLMs?|agentic AI|generative AI|AI[- ](?:security|risks?|"
+                r"models?|agents?|inference|training|applications?|workloads?|systems?|safety|evaluation)|"
+                r"(?:PyTorch|TensorFlow|JAX)\b.{0,55}\b(?:training|inference|models?)|"
+                r"(?:security|risks?|inference|training) (?:of|for|in) AI)\b",
+                title,
+                re.I,
+            )
+        )
     if topic == "cloud":
-        return bool(re.search(r"\b(?:cloud|kubernetes|containers?|confidential computing|serverless|edge computing|data cent(?:er|re)s?)\b", title, re.I))
+        if re.search(
+            r"\b(?:AWS (?:WAF|Lambda|S3|EC2|EKS)|Azure (?:Functions|Kubernetes)|Amazon (?:S3|EC2))\b",
+            title,
+            re.I,
+        ):
+            return True
+        return bool(
+            re.search(
+                r"\b(?:cloud|kubernetes|containers?|confidential computing|serverless|edge computing|data cent(?:er|re)s?)\b",
+                title,
+                re.I,
+            )
+        )
     return True
 
 
@@ -91,7 +108,11 @@ def decision_brief(item, edition_date):
         for p in item.get("key_points", [])
     ]
     text = topic_text(f"{item.get('title', '')} {' '.join(excerpts)}")
-    topics = [key for key, (_, pattern) in TOPICS.items() if _match(pattern, text) and is_topic_subject(item.get("title", ""), key)]
+    topics = [
+        key
+        for key, (_, pattern) in TOPICS.items()
+        if _match(pattern, text) and is_topic_subject(item.get("title", ""), key)
+    ]
     matched = list(dict.fromkeys(_match(TOPICS[key][1], text) for key in topics))
     kind = "context"
     cue = ""
