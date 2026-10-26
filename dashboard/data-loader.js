@@ -5,7 +5,7 @@
     news: ["news"],
     briefing: ["news", "research", "federal", "decisions", "reports"],
     research: ["news", "research", "source-health"],
-    federal: ["news", "federal"],
+    federal: ["news", "federal", "decisions"],
     patents: ["patents"],
     saved: ["news", "research"],
     questions: ["news", "research", "federal"],

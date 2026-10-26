@@ -37,6 +37,10 @@ def main():
             page.set_viewport_size({"width": width, "height": 1000})
             page.goto(args.url.rstrip("/") + f"/?round5-open={width}#federal")
             ready(page)
+            assert page.evaluate(
+                "ScoutData.ready('federal') && state.data.claim_ledger.summary.active_claims > 0"
+            )
+            expect(page.locator("#evidence-claim-grid .evidence-claim").first).to_be_attached()
             page.evaluate(
                 "([theme, larger]) => { document.documentElement.dataset.theme = theme; document.body.classList.toggle('reading-comfort', larger); }",
                 [theme, larger],
