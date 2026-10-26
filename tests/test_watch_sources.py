@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import unittest
+from pathlib import Path
 
 from pqc_quantum_research_agent.collectors import collect_rss_feeds, collect_watch_sources
+from pqc_quantum_research_agent.config import load_config
 
 EMPTY_RSS = (
     """<?xml version="1.0"?><rss version="2.0"><channel><title>Empty</title></channel></rss>"""
@@ -53,6 +55,32 @@ class MappingClient:
 
 
 class WatchSourceTests(unittest.TestCase):
+    def test_configured_department_news_preserves_official_rss_provenance(self) -> None:
+        root = Path(__file__).resolve().parents[1]
+        source = next(
+            source
+            for source in load_config(root / "sources.yaml").watch_sources
+            if source["name"] == "Department of War Strategic Technology News"
+        )
+        feed_url = (
+            "https://www.war.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=40"
+        )
+        fixture = (root / "tests/fixtures/dow_news_rss.xml").read_text(encoding="utf-8")
+        client = MappingClient({feed_url: fixture})
+        result = collect_watch_sources(client, [source], 40)
+        self.assertEqual(client.calls, [feed_url])
+        self.assertEqual(result.warnings, [])
+        self.assertEqual(len(result.items), 1)
+        item = result.items[0]
+        self.assertEqual(item.source_name, source["name"])
+        self.assertEqual(item.date_source, "rss_feed_timestamp:watch")
+        self.assertEqual(item.published_at.isoformat(), "2026-10-23T21:52:00+00:00")
+        self.assertEqual(item.authors, "C. Todd Lopez")
+        self.assertIn("/Article/Article/4632827/", item.url)
+        self.assertTrue(item.url.startswith("https://www.war.gov/"))
+        self.assertEqual(item.raw_payload["discovery_method"], "rss")
+        self.assertEqual(item.raw_payload["watch_entities"], ["Department of War"])
+
     def test_rss_source_can_supplement_short_feed_from_newest_sitemap_shard(self) -> None:
         client = MappingClient(
             {
