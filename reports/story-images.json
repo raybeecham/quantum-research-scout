@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T21:45:35.696775+00:00",
+  "updated_at": "2026-10-27T22:45:14.516403+00:00",
   "records": {
     "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547": {
       "page_url": "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547",
@@ -74,6 +74,11 @@
       "status": "failed",
       "fetched_at": "2026-10-27T20:46:25.859169+00:00"
     },
+    "https://eprint.iacr.org/2026/2653": {
+      "page_url": "https://eprint.iacr.org/2026/2653",
+      "status": "failed",
+      "fetched_at": "2026-10-27T21:45:35.696775+00:00"
+    },
     "https://arxiv.org/abs/2610.33862": {
       "page_url": "https://arxiv.org/abs/2610.33862",
       "status": "unavailable",
@@ -100,15 +105,15 @@
       "fetched_at": "2026-10-26T19:53:09.761003+00:00",
       "status": "ok"
     },
-    "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test": {
-      "page_url": "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test",
-      "status": "failed",
-      "fetched_at": "2026-10-27T00:07:21.385584+00:00"
-    },
     "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity": {
       "page_url": "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity",
       "status": "failed",
       "fetched_at": "2026-10-27T19:45:04.137990+00:00"
+    },
+    "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test": {
+      "page_url": "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test",
+      "status": "failed",
+      "fetched_at": "2026-10-27T00:07:21.385584+00:00"
     },
     "https://www.keyfactor.com/blog/the-5-stages-of-pqc-readiness-a-practical-framework-for-enterprise-migration": {
       "image_url": "https://www.keyfactor.com/wp-content/uploads/Blog-1-The-5-Stages-of-PQC-Readiness-.webp",
@@ -568,12 +573,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-24T23:36:07.768034+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2653": {
-      "page_url": "https://eprint.iacr.org/2026/2653",
-      "fetched_at": "2026-10-27T21:45:35.696775+00:00",
-      "status": "failed",
-      "reason": "http_403"
     }
   }
 }
