@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-27 22:45 UTC_
+_Updated 2026-10-27 23:45 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -17,7 +17,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | White House Science and Technology Missions | watch | 68% | 29 | 0 | 2026-10-27 | 2026-09-29 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 78% | 25 | 0 | 2026-10-27 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 89% | 13 | 0 | 2026-10-27 | 2026-10-23 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 67% | 9 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 66% | 9 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🔴 failing |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 65% | 9 | 0 | 2026-10-26 | 2026-10-21 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 65% | 9 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 9 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
@@ -98,7 +98,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | QuSecure Press Releases | watch | 100% | 0 | 0 | 2026-10-27 | 2026-09-22 | stale | 🟢 healthy |
 | Quantinuum News | url | 100% | 0 | 0 | 2026-10-27 | 2026-10-19 | fresh | 🟢 healthy |
 | Quantum Networking and Sensing Patents | patent | 98% | 0 | 0 | 2026-10-27 | 2026-10-15 | fresh | 🟢 healthy |
-| Quantum Zeitgeist | rss | 90% | 0 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🟢 healthy |
+| Quantum Zeitgeist | rss | 91% | 0 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🟢 healthy |
 | SandboxAQ Blog | url | 100% | 0 | 0 | 2026-10-27 | 2026-10-08 | stale | 🟢 healthy |
 | Strategic AI Systems Patents | patent | 99% | 0 | 0 | 2026-10-27 | 2026-10-22 | fresh | 🟢 healthy |
 | Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-10-27 | 2026-10-23 | fresh | 🟢 healthy |
@@ -124,7 +124,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **102** of **106**
+- Healthy sources: **101** of **106**
 - Partial-coverage sources: **1**
 - Critical sources failing: **0**
 - Partial coverage: SAM.gov Opportunities
