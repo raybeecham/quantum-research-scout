@@ -139,6 +139,29 @@ Slack, Teams, generic webhook, email, and GitHub Issue notification routes are i
 
 ## Configure Your Frontier Signal
 
+### SAM.gov snapshot coverage
+
+SAM.gov snapshot mode uses one fixed UTC posting-date window and matches topics
+locally. The [official API](https://open.gsa.gov/api/get-opportunities-public-api/)
+defines `offset` as a zero-based page index: the first two requests use `0` and `1`,
+each with at most 1,000 notices. The current configuration keeps a two-day lookback
+and a two-page budget; the collector caps configurable budgets at five pages.
+It does not widen the window or add requests per keyword to fill coverage gaps.
+
+Coverage counts unique notice identifiers before relevance filtering, so duplicates
+cannot falsely satisfy the reported total. Empty or repeated pages stop pagination.
+Earlier relevant notices survive later request failures. Incomplete coverage stays
+an advisory with the window, count, page requests and stopping reason; HTTP or invalid
+page failures remain failures as well. Missing/changing totals and malformed notices
+are disclosed instead of implying a complete snapshot. A live result set can change
+between requests; even stable totals cannot prove the absence of those changes.
+
+Larger windows can still exceed the bounded budget. Review the advisory before
+changing quota settings; HTTP retries remain subject to the existing bounded retry
+and `Retry-After` policy, and permanent access restrictions stop collection. This
+collector uses the existing `SAM_GOV_API_KEY` and introduces no paid service. Verify
+account access and quota before any manual live collection.
+
 ### Primary-source link collection
 
 The daily workflow refreshes up to 24 public article pages within a 90-second budget using `python scripts/enrich_primary_evidence.py --reports reports --max-items 24 --budget-seconds 90`. It saves only source-link metadata to `reports/primary-evidence.json`, not complete articles or linked documents. The collector rejects non-public destinations, unsafe redirects and oversized/non-HTML responses. Builds remain offline. This optional step does not hold back otherwise valid daily publication; link failures remain unverified. See [Story tools](STORY-TOOLS.md) for provenance and reader-facing limits.
