@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import copy
+import json
+from pathlib import Path
 
 import pytest
 
@@ -791,6 +793,77 @@ def test_near_duplicate_groups_coverage_without_claiming_verification():
     assert len(result["stories"]) == 1
     assert result["stories"][0]["related"][0]["url"] == two["url"]
     assert "not independently verified facts" in result["stories"][0]["news_detail"]["method"]
+
+
+def test_nist_transition_cross_source_fixture_preserves_each_account():
+    # Captured from the 2026-10-27 edition that failed the homepage duplicate gate.
+    inputs = json.loads(
+        (Path(__file__).parent / "fixtures/cross_source_nist_transition.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    original = copy.deepcopy(inputs)
+    results = [
+        build_news_intelligence({"edition_date": "2026-10-27", "stories": rows})
+        for rows in (inputs, list(reversed(inputs)))
+    ]
+    assert inputs == original
+    for result in results:
+        assert len(result["stories"]) == 1
+        assert len(result["accounts"]) == 2
+        representative = result["stories"][0]
+        assert representative["id"] == results[0]["stories"][0]["id"]
+        event = representative["news_event"]
+        assert set(event["member_ids"]) == {row["id"] for row in original}
+        assert event["account_count"] == 2
+        assert {row["source_perspective"] for row in event["accounts"]} == {
+            "Official source",
+            "Publisher report",
+        }
+        assert {row["stage"] for row in event["accounts"]} == {"reported", "announced"}
+        for before in original:
+            account = next(row for row in result["accounts"] if row["id"] == before["id"])
+            for key in ("id", "url", "title", "source", "source_kind", "date", "key_points"):
+                assert account[key] == before[key]
+            coverage = next(row for row in event["accounts"] if row["id"] == before["id"])
+            assert coverage["url"] == before["url"]
+            assert coverage["excerpts"] == before["key_points"]
+
+
+@pytest.mark.parametrize(
+    "kinds", [("official", "other"), ("industry", "official"), ("other", "industry")]
+)
+def test_same_day_headlines_group_across_source_perspectives(kinds):
+    one = story("IBM announces logical quantum error correction milestone", source_kind=kinds[0])
+    two = story(
+        "IBM announces a logical quantum error correction milestone",
+        "https://other.test/two",
+        source_kind=kinds[1],
+    )
+    assert len(build(one, two)["stories"]) == 1
+    assert len(build(two, one)["stories"]) == 1
+
+
+@pytest.mark.parametrize(
+    "changes",
+    [
+        {"date": None},
+        {"date_label": "First observed"},
+        {"date": "2026-09-28"},
+        {"source_kind": "preprint"},
+        {"title": "IBM does not announce logical quantum error correction milestone"},
+        {"title": "IBM announces 100 logical quantum error correction milestone"},
+        {"title": "IBM announces logical quantum networking milestone"},
+    ],
+)
+def test_cross_source_grouping_keeps_distinct_or_unconfirmed_stories_separate(changes):
+    one = story("IBM announces logical quantum error correction milestone", source_kind="official")
+    two = {
+        **story(one["title"], "https://other.test/two", source_kind="other"),
+        **changes,
+    }
+    assert len(build(one, two)["stories"]) == 2
+    assert len(build(two, one)["stories"]) == 2
 
 
 @pytest.mark.parametrize(

@@ -1,9 +1,11 @@
 import copy
 import json
+from pathlib import Path
 
 import pytest
 from test_story_archive import report
 
+from pqc_quantum_research_agent.news_intelligence import build_news_intelligence
 from pqc_quantum_research_agent.story_archive import (
     prepare_story_archive,
     read_story_registry,
@@ -11,6 +13,57 @@ from pqc_quantum_research_agent.story_archive import (
     story_path,
     write_story_archive,
 )
+
+
+def test_cross_source_grouping_preserves_published_paths_and_history(tmp_path):
+    inputs = json.loads(
+        (Path(__file__).parent / "fixtures/cross_source_nist_transition.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    reports, output = tmp_path / "reports", tmp_path / "site"
+    captures = []
+    digest = reports / "2026-10/2026-10-27-digest.md"
+    for row in inputs:
+        report(
+            reports,
+            "2026-10-27",
+            title=row["title"],
+            url=row["url"],
+            points=row["key_points"],
+            published=row["date"],
+            source=row["source"],
+        )
+        captures.append(digest.read_text(encoding="utf-8"))
+    digest.write_text("\n\n".join(captures), encoding="utf-8")
+    before = prepare_story_archive(reports, {})
+    retain_story_urls(reports, before["url_registry"])
+    news = build_news_intelligence({"edition_date": "2026-10-27", "stories": inputs})
+    after = prepare_story_archive(reports, news)
+    assert len(after["records"]) == len(before["records"]) == 2
+    old_records = {row["story_url"]: row for row in before["records"]}
+    for record in after["records"]:
+        old = old_records[record["story_url"]]
+        for field in ("first_report_date", "last_report_date", "versions", "reports"):
+            assert record[field] == old[field]
+    target = news["stories"][0]["story_url"]
+    paths = {story_path(row["url"]) for row in inputs}
+    assert set(after["url_registry"]["urls"]) == paths
+    write_story_archive(
+        after, output, repo_url="https://github.com/example/research", asset_version="test"
+    )
+    canonical_page = (output / target).read_text(encoding="utf-8")
+    for source in inputs:
+        assert source["url"] in canonical_page
+        assert source["source"] in canonical_page
+    for path in paths - {target}:
+        assert after["url_registry"]["urls"][path]["redirect_to"] == target
+        assert 'http-equiv="refresh"' in (output / path).read_text(encoding="utf-8")
+    # A later ranking change must not change the published group's destination.
+    retain_story_urls(reports, after["url_registry"])
+    alternate = next(row for row in news["accounts"] if story_path(row["url"]) != target)
+    later = prepare_story_archive(reports, {**news, "stories": [alternate]})
+    assert later["url_registry"] == after["url_registry"]
 
 
 def test_merged_urls_redirect_and_survive_rotation_and_lost_evidence(tmp_path):

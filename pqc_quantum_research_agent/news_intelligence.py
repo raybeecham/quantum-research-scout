@@ -471,7 +471,11 @@ def _connections(item, entities, missions, funding, patents, standards):
 
 
 def _near_duplicate(left, right):
-    if left.get("source_kind") == "preprint" or left.get("source_kind") != right.get("source_kind"):
+    # Publication type describes each account, not the identity of the event.
+    # An official announcement and publisher coverage can share a headline;
+    # keep their provenance intact while grouping their same-day coverage.
+    # Preprints remain distinct from news and from other manuscript versions.
+    if "preprint" in {left.get("source_kind"), right.get("source_kind")}:
         return False
     if not _published(left) or _published(left) != _published(right):
         return False
