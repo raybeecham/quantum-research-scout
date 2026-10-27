@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-27 10:45 UTC_
+_Updated 2026-10-27 11:44 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -15,9 +15,9 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
 | White House Science and Technology Missions | watch | 64% | 29 | 0 | 2026-10-27 | 2026-09-29 | stale | 🟢 healthy |
-| ETSI Quantum Standards News | watch | 75% | 25 | 0 | 2026-10-27 | 2026-09-24 | stale | 🟢 healthy |
+| ETSI Quantum Standards News | watch | 76% | 25 | 0 | 2026-10-27 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 87% | 13 | 0 | 2026-10-27 | 2026-10-23 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 67% | 9 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🔴 failing |
+| Quantum Computing Report | rss | 65% | 9 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🔴 failing |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 65% | 9 | 0 | 2026-10-26 | 2026-10-21 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 65% | 9 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 9 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
@@ -73,7 +73,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | IETF Post-Quantum Updates | watch | 100% | 0 | 0 | 2026-10-27 | 2026-08-27 | fresh | 🟢 healthy |
 | InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-10-27 | 2026-09-16 | fresh | 🟢 healthy |
 | Intel Quantum Research | watch | 100% | 0 | 0 | 2026-10-27 | — | reference | 🟢 healthy |
-| IonQ News | rss | 100% | 0 | 0 | 2026-10-27 | 2026-10-22 | fresh | 🟢 healthy |
+| IonQ News | rss | 100% | 0 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🟢 healthy |
 | Keyfactor Quantum and Crypto-Agility | watch | 100% | 0 | 0 | 2026-10-27 | 2026-10-26 | fresh | 🟢 healthy |
 | Kubernetes Blog | rss | 100% | 0 | 0 | 2026-10-27 | 2026-10-14 | fresh | 🟢 healthy |
 | Lockheed Martin Quantum Technology | watch | 98% | 0 | 0 | 2026-10-27 | 2026-07-14 | stale | 🟢 healthy |
