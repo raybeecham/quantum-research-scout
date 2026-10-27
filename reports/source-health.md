@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-27 00:07 UTC_
+_Updated 2026-10-27 02:29 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -17,7 +17,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | White House Science and Technology Missions | watch | 61% | 30 | 0 | 2026-10-27 | 2026-09-29 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 74% | 25 | 0 | 2026-10-27 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 86% | 13 | 0 | 2026-10-27 | 2026-10-23 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 70% | 9 | 0 | 2026-10-27 | 2026-10-25 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 68% | 9 | 0 | 2026-10-27 | 2026-10-25 | fresh | 🔴 failing |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 65% | 9 | 0 | 2026-10-26 | 2026-10-21 | fresh | 🟢 healthy |
 | arXiv Quantum Computing | arxiv | 65% | 9 | 0 | 2026-10-26 | 2026-10-22 | fresh | 🟢 healthy |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 9 | 0 | 2026-10-26 | 2026-10-22 | fresh | 🟢 healthy |
@@ -123,8 +123,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 
 ## Operational Coverage
 
-- Coverage status: **HEALTHY**
-- Healthy sources: **106** of **106**
+- Coverage status: **WATCH**
+- Healthy sources: **105** of **106**
 - Partial-coverage sources: **0**
 - Critical sources failing: **0**
 
