@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-27 12:45 UTC_
+_Updated 2026-10-27 13:45 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -17,12 +17,12 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | White House Science and Technology Missions | watch | 65% | 29 | 0 | 2026-10-27 | 2026-09-29 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 76% | 25 | 0 | 2026-10-27 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 88% | 13 | 0 | 2026-10-27 | 2026-10-23 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 64% | 9 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🔴 failing |
+| Quantum Computing Report | rss | 63% | 9 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🔴 failing |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 65% | 9 | 0 | 2026-10-26 | 2026-10-21 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 65% | 9 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 9 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
 | Quantum Computing Patents | patent | 92% | 3 | 0 | 2026-10-27 | 2026-10-22 | fresh | 🟢 healthy |
-| Quantum Journal | rss | 92% | 2 | 0 | 2026-10-27 | 2026-10-23 | fresh | 🟢 healthy |
+| Quantum Journal | rss | 93% | 2 | 0 | 2026-10-27 | 2026-10-23 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 95% | 2 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 95% | 2 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-27 | 2026-10-26 | fresh | 🟢 healthy |
@@ -37,7 +37,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | CISA Cybersecurity Advisories | rss | 100% | 0 | 0 | 2026-10-27 | 2026-10-26 | fresh | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-10-27 | 2026-10-26 | fresh | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-10-27 | 2026-10-22 | fresh | 🟢 healthy |
-| Cloudflare Blog | rss | 100% | 0 | 0 | 2026-10-27 | 2026-10-26 | fresh | 🟢 healthy |
+| Cloudflare Blog | rss | 100% | 0 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🟢 healthy |
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-10-27 | 2026-10-23 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-10-27 | 2026-10-22 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-10-27 | 2026-10-06 | stale | 🟢 healthy |
@@ -84,7 +84,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | NIST CSRC News | url | 100% | 0 | 0 | 2026-10-27 | 2026-10-20 | fresh | 🟢 healthy |
 | NIST Cybersecurity Insights | watch | 100% | 0 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🟢 healthy |
 | NIST Post-Quantum Cryptography Project | watch | 100% | 0 | 0 | 2026-10-27 | 2025-03-07 | reference | 🟢 healthy |
-| NIST Research News | watch | 100% | 0 | 0 | 2026-10-27 | 2026-09-18 | stale | 🟢 healthy |
+| NIST Research News | watch | 100% | 0 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🟢 healthy |
 | NSF Strategic Science and Technology Missions | watch | 100% | 0 | 0 | 2026-10-27 | 2026-10-08 | stale | 🟢 healthy |
 | Open Quantum Safe | rss | 100% | 0 | 0 | 2026-10-27 | 2026-07-09 | stale | 🟢 healthy |
 | OpenSSL Library Releases | rss | 100% | 0 | 0 | 2026-10-27 | 2026-10-23 | fresh | 🟢 healthy |

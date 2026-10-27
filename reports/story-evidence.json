@@ -1159,6 +1159,23 @@
             }
           ],
           "title": "Non-profiled Single-Trace ML-DSA Secret Key Recovery by Horizontal Distribution Analysis"
+        },
+        {
+          "excerpts": [
+            "During the last decade, single-trace side-channel attacks on cryptographic implementations have largely focused on profiled methods, which typically assume that the attacker has a clone device and implementation...",
+            "In this paper, we demonstrate that a much weaker adversary, without the ability to profile, can also mount powerful single-trace attacks",
+            "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards — already featured in Strategic Signals. [Open item](https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 1,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2643"
+            }
+          ],
+          "title": "Non-profiled Single-Trace ML-DSA Secret Key Recovery by Horizontal Distribution Analysis"
         }
       ]
     },
@@ -5461,6 +5478,25 @@
             }
           ],
           "title": "Using TLS to protect data"
+        }
+      ]
+    },
+    "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography": {
+      "captures": [
+        {
+          "excerpts": [
+            "This report describes the timelines and migration activities for federal agencies, and it can serve as a key resource for technology providers and organizations that are developing their quantum-readiness road maps"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "NIST Research News",
+              "url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography"
+            }
+          ],
+          "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards"
         }
       ]
     },
