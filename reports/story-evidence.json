@@ -597,6 +597,26 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2610.34535": {
+      "captures": [
+        {
+          "excerpts": [
+            "Large language model (LLM) agents are increasingly wired to consequential tools that send public alerts, dispatch responders, and query citizen records, where one erroneous tool call carries real-world cost",
+            "Existing agent-safety benchmarks measure generic harm or prompt-injection success and implicitly treat refusing as the safe default"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2610.34535"
+            }
+          ],
+          "title": "SentryBench: A Cost-Sensitive Benchmark for Adversarial Robustness of Tool-Using LLM Agents in Public-Safety Deployments"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
@@ -2077,6 +2097,13 @@
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks"
+            },
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks"
             }
           ],
           "title": "IDEMIA and KT Deploy Quantum-Resistant SIMs Supporting Dual NIST and KpqC Algorithms for South Korean Military Networks"
@@ -3053,6 +3080,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/blockchain-quorum-certificates-post-quantum-bypass-protocol"
+            },
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/blockchain-quorum-certificates-post-quantum-bypass-protocol"
             }
           ],
           "title": "Researchers Bypass Blockchain Certificates in Post-Quantum Protocol"
@@ -3144,6 +3178,13 @@
               "published_date": "2026-10-26",
               "report_date": "2026-10-26",
               "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test"
+            },
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 1,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test"
             }
@@ -5224,6 +5265,25 @@
         }
       ]
     },
+    "https://www.keyfactor.com/blog/how-ready-is-your-cryptography-really-take-the-pqc-lab-assessment": {
+      "captures": [
+        {
+          "excerpts": [
+            "You can't plan a migration from a guess Ask five people on your security team how ready you are for post-quantum cryptography (PQC)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-25",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "Keyfactor Quantum and Crypto-Agility",
+              "url": "https://www.keyfactor.com/blog/how-ready-is-your-cryptography-really-take-the-pqc-lab-assessment"
+            }
+          ],
+          "title": "How Ready Is Your Cryptography, Really? Take the PQC Lab Assessment"
+        }
+      ]
+    },
     "https://www.keyfactor.com/blog/iso-iec-270012022-for-manufacturers-cryptography-pki-and-audit-ready-key-management": {
       "captures": [
         {
@@ -5279,6 +5339,26 @@
             }
           ],
           "title": "Post-Quantum Readiness for Manufacturers: The Timeline Now Has Dates"
+        }
+      ]
+    },
+    "https://www.keyfactor.com/blog/pqc-readiness-stage-4-how-agility-and-automation-enable-pqc-migration-at-scale": {
+      "captures": [
+        {
+          "excerpts": [
+            "See how automation and crypto-agility help PQC migration scale",
+            "Stage 4 of PQC readiness turns your migration plan into repeatable execution"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-25",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "Keyfactor Quantum and Crypto-Agility",
+              "url": "https://www.keyfactor.com/blog/pqc-readiness-stage-4-how-agility-and-automation-enable-pqc-migration-at-scale"
+            }
+          ],
+          "title": "PQC Readiness Stage 4: How Agility and Automation Enable PQC Migration at Scale"
         }
       ]
     },
