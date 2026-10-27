@@ -2,8 +2,9 @@ name: Frontier Signal Hourly News
 
 on:
   schedule:
-    # Off the top of the hour. GitHub schedules are best effort, not an SLA.
-    - cron: "43 * * * *"
+    # Off the top of the hour. GitHub schedules are best effort, not an SLA,
+    # so two slots back each other up; the due job keeps one collection per hour.
+    - cron: "13,43 * * * *"
   workflow_dispatch:
 
 # Share the daily writer's lock so source history and archives cannot race.
@@ -19,8 +20,27 @@ env:
   TZ: America/Chicago
 
 jobs:
+  due:
+    name: Check whether hourly news is due
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      should_run: ${{ steps.slot.outputs.should_run }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Skip a slot when the other one already collected this hour
+        id: slot
+        run: python scripts/hourly_news_due.py --github-output "$GITHUB_OUTPUT"
+
   news:
     name: Collect and publish hourly news
+    needs: due
+    if: needs.due.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 35
     permissions:
