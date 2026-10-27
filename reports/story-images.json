@@ -1,7 +1,12 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T18:45:19.648659+00:00",
+  "updated_at": "2026-10-27T19:45:04.137990+00:00",
   "records": {
+    "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547": {
+      "page_url": "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547",
+      "status": "unavailable",
+      "fetched_at": "2026-10-27T14:45:21.912753+00:00"
+    },
     "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography": {
       "image_url": "https://www.nist.gov/sites/default/files/styles/social/public/images/2023/08/22/PQC_Algo_Pre-standardization-vid.jpg?itok=QoP6Ie_b",
       "page_url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
@@ -9,11 +14,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-27T13:45:07.013960+00:00",
       "status": "ok"
-    },
-    "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547": {
-      "page_url": "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547",
-      "status": "unavailable",
-      "fetched_at": "2026-10-27T14:45:21.912753+00:00"
     },
     "https://quantumzeitgeist.com/kerr-cat-qubits-high-fidelity-entangling-gates": {
       "page_url": "https://quantumzeitgeist.com/kerr-cat-qubits-high-fidelity-entangling-gates",
@@ -24,14 +24,6 @@
       "page_url": "https://quantumzeitgeist.com/mettitech-quantum-proof-coin-shield",
       "status": "failed",
       "fetched_at": "2026-10-27T02:29:04.391280+00:00"
-    },
-    "https://thequantuminsider.com/2026/10/27/ibm-connects-two-120-qubit-processors-with-99-state-transfer-fidelity": {
-      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-at-3.58.24-AM.png",
-      "page_url": "https://thequantuminsider.com/2026/10/27/ibm-connects-two-120-qubit-processors-with-99-state-transfer-fidelity",
-      "publisher": "The Quantum Insider",
-      "provenance": "og:image",
-      "fetched_at": "2026-10-27T10:45:02.230296+00:00",
-      "status": "ok"
     },
     "https://quantumzeitgeist.com/blockchain-quorum-certificates-post-quantum-bypass-protocol": {
       "page_url": "https://quantumzeitgeist.com/blockchain-quorum-certificates-post-quantum-bypass-protocol",
@@ -538,6 +530,36 @@
       "publisher": "The Quantum Insider",
       "provenance": "og:image",
       "fetched_at": "2026-10-24T23:36:07.768034+00:00",
+      "status": "ok"
+    },
+    "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards": {
+      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-at-2.17.42-PM-1.png",
+      "page_url": "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards",
+      "publisher": "The Quantum Insider",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-27T19:45:04.137990+00:00",
+      "status": "ok"
+    },
+    "https://quantumcomputingreport.com/gqi-q3-2026-state-of-play-investment-consolidation-accelerating-q-day-horizons-and-the-shift-to-second-generation-architectures": {
+      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-203.png",
+      "page_url": "https://quantumcomputingreport.com/gqi-q3-2026-state-of-play-investment-consolidation-accelerating-q-day-horizons-and-the-shift-to-second-generation-architectures",
+      "publisher": "Quantum Computing Report",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-27T19:45:04.137990+00:00",
+      "status": "ok"
+    },
+    "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity": {
+      "page_url": "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity",
+      "fetched_at": "2026-10-27T19:45:04.137990+00:00",
+      "status": "failed",
+      "reason": "unsupported_encoding"
+    },
+    "https://quantumcomputingreport.com/ionq-secures-7-5-million-phase-2-afrl-allocation-to-expand-rome-ny-quantum-network-with-free-space-optics-and-frequency-conversion": {
+      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-211.png",
+      "page_url": "https://quantumcomputingreport.com/ionq-secures-7-5-million-phase-2-afrl-allocation-to-expand-rome-ny-quantum-network-with-free-space-optics-and-frequency-conversion",
+      "publisher": "Quantum Computing Report",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-27T19:45:04.137990+00:00",
       "status": "ok"
     }
   }

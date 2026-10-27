@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-27 18:45 UTC_
+_Updated 2026-10-27 19:45 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -17,7 +17,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | White House Science and Technology Missions | watch | 67% | 29 | 0 | 2026-10-27 | 2026-09-29 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 77% | 25 | 0 | 2026-10-27 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 88% | 13 | 0 | 2026-10-27 | 2026-10-23 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 66% | 9 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 67% | 9 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 65% | 9 | 0 | 2026-10-26 | 2026-10-21 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 65% | 9 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 9 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
@@ -41,7 +41,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-10-27 | 2026-10-23 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-10-27 | 2026-10-22 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-10-27 | 2026-10-06 | stale | 🟢 healthy |
-| DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-10-27 | 2026-10-26 | fresh | 🟢 healthy |
+| DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-10-27 | 2026-10-27 | fresh | 🟢 healthy |
 | DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-10-27 | 2026-10-26 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-10-27 | — | reference | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-10-27 | 2026-10-26 | fresh | 🟢 healthy |
