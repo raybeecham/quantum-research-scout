@@ -44,6 +44,20 @@
   }
   // News check labels follow Central daylight/standard time; source dates stay intact.
   const newsCheckTime = value => dateTime(value, "Date unavailable", "America/Chicago");
+  // Same Central day as the report: time only; otherwise the full date and time.
+  function reportGenerated(edition, value) {
+    if (!day(value) || !Number.isFinite(Date.parse(value))) return "";
+    const zone = { timeZone: "America/Chicago" };
+    const local = new Intl.DateTimeFormat("en-CA", zone).format(new Date(value));
+    return local === edition
+      ? new Intl.DateTimeFormat("en-US", {
+          ...zone,
+          hour: "numeric",
+          minute: "2-digit",
+          timeZoneName: "short",
+        }).format(new Date(value))
+      : newsCheckTime(value);
+  }
   function editionNotice(brief, stories = []) {
     const comparison = brief?.edition_comparison;
     const edition = day(comparison?.current_report_date);
@@ -62,7 +76,11 @@
         : rows.length
           ? "Earlier coverage remains in the rolling collection."
           : "There are no stories in the current rolling collection.";
-    return `No source-linked stories were included in the ${date(edition)} daily report. ${context}`;
+    const generated = reportGenerated(edition, comparison.current_report_generated_at);
+    const report = generated
+      ? `${date(edition)} daily report (generated ${generated})`
+      : `${date(edition)} daily report`;
+    return `No source-linked stories were included in the ${report}. ${context}`;
   }
   function collectionLabel(brief, collectedAt) {
     if (brief?.news_refresh?.collected_at)

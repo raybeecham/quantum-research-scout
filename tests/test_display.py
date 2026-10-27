@@ -36,6 +36,10 @@ assert.equal(d.editionNotice({edition_comparison:{current_report_date:'2026-10-2
 assert.equal(d.editionNotice({edition_comparison:{current_report_date:'2026-10-25',current_report_link_count:2,added_count:0}}), '');
 assert.equal(d.editionNotice({edition_comparison:{current_report_date:'invalid',current_report_link_count:0}}), '');
 assert.equal(d.editionNotice({}), '');
+const timed=c=>({edition_comparison:{...empty.edition_comparison,current_report_generated_at:c}});
+assert.equal(d.editionNotice(timed('2026-10-26T00:51:00+00:00'),[{report_date:'2026-10-24'}]),'No source-linked stories were included in the Oct 25, 2026 daily report (generated 7:51 PM CDT). Showing earlier coverage from reports through Oct 24, 2026.');
+assert.ok(d.editionNotice(timed('2026-10-26T06:10:00+00:00'),[]).includes('Oct 25, 2026 daily report (generated Oct 26, 2026, 1:10 AM CDT).'));
+assert.ok(d.editionNotice(timed('invalid'),[]).includes('Oct 25, 2026 daily report. There'));
 const hourly={...empty,news_refresh:{collected_at:'2026-10-26T18:43:00+00:00'}};
 assert.match(d.editionNotice(hourly,[{report_date:'2026-10-26'}]),/separately collected hourly news/);
 assert.equal(d.collectionLabel(hourly),'News checked Oct 26, 2026, 1:43 PM CDT · hourly schedule');

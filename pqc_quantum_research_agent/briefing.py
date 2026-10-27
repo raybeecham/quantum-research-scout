@@ -259,7 +259,7 @@ def build_reading_brief(
     temporal: dict,
     citations: dict | None = None,
 ) -> dict:
-    from .hourly_news import news_paths, read_news_refresh, report_order
+    from .hourly_news import generated_at, news_paths, read_news_refresh, report_order
 
     dated_paths = sorted(
         (report_day, path)
@@ -267,6 +267,7 @@ def build_reading_brief(
         if (report_day := _report_day(path))
     )
     latest = dated_paths[-1][0] if dated_paths else None
+    latest_generated = generated_at(dated_paths[-1][1]) if dated_paths else None
     previous = dated_paths[-2][0] if len(dated_paths) > 1 else None
     edition_urls: dict[str, set[str]] = {}
     # Compare actual adjacent available reports, not a presumed yesterday or build date.
@@ -436,6 +437,9 @@ def build_reading_brief(
         "edition_comparison": {
             "previous_report_date": previous.isoformat() if previous else None,
             "current_report_date": latest.isoformat() if latest else None,
+            "current_report_generated_at": (
+                latest_generated.isoformat() if latest_generated else None
+            ),
             "current_report_link_count": len(latest_urls) if latest else None,
             "previous_report_link_count": len(previous_urls) if previous else None,
             "added_count": len(added_urls) if previous else None,
