@@ -50,14 +50,25 @@ def news_paths(reports: Path) -> list[tuple]:
     )
 
 
+_GENERATED = re.compile(
+    r"Generated timestamp Central: \*\*(\d{4}-\d{2}-\d{2} \d{2}:\d{2}) America/Chicago"
+)
+
+
+def generated_at(path: Path) -> datetime | None:
+    """The time a report says it was generated, in UTC; None when it does not say."""
+    match = _GENERATED.search(path.read_text(encoding="utf-8"))
+    if not match:
+        return None
+    local = datetime.strptime(match[1], "%Y-%m-%d %H:%M")
+    return local.replace(tzinfo=OPERATIONAL_TIMEZONE).astimezone(timezone.utc)
+
+
 def report_order(entry: tuple) -> tuple:
     """Prefer the latest real collection, not alphabetic hourly/daily paths."""
     day, path = entry
     stamp = snapshot_time(path)
-    match = re.search(
-        r"Generated timestamp Central: \*\*(\d{4}-\d{2}-\d{2} \d{2}:\d{2}) America/Chicago",
-        path.read_text(encoding="utf-8"),
-    )
+    match = _GENERATED.search(path.read_text(encoding="utf-8"))
     if match:
         local = datetime.strptime(match[1], "%Y-%m-%d %H:%M")
         # The UTC filename disambiguates repeated fall-back hours.

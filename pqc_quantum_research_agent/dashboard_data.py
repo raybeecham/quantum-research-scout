@@ -69,6 +69,41 @@ def public_payload(payload):
     return data
 
 
+def share_brief_stories(data):
+    """Send briefing stories that repeat a news story as an ID plus the fields that differ.
+
+    The browser rebuilds each one from news_intelligence.stories in the same pack.
+    """
+    brief = data.get("reading_brief") or {}
+    stories = {row["id"]: row for row in data.get("news_intelligence", {}).get("stories", [])}
+    pairs = [
+        (row, stories[row["id"]]) for row in brief.get("stories", []) if row.get("id") in stories
+    ]
+    if not pairs:
+        return data
+    omit = sorted({key for row, base in pairs for key in base.keys() - row.keys()})
+    missing = object()
+    records = {}
+    rows = []
+    for row in brief["stories"]:
+        base = stories.get(row.get("id"))
+        if base is None:
+            rows.append(row)
+            continue
+        delta = {
+            key: value
+            for key, value in row.items()
+            if key != "id" and (key in omit or base.get(key, missing) != value)
+        }
+        if delta:
+            records[row["id"]] = delta
+        rows.append(row["id"])
+    brief["stories"] = rows
+    brief["story_records"] = records
+    brief["story_omit"] = omit
+    return data
+
+
 def write_section_data(payload, output):
     payload = public_payload(payload)
     version = payload["build_id"]
@@ -98,6 +133,8 @@ def write_section_data(payload, output):
     data_dir = output / "data"
     for name, fields in PACKS.items():
         data = {"build_id": version, **{key: payload[key] for key in fields if key in payload}}
+        if name == "news":
+            data = share_brief_stories(copy.deepcopy(data))
         (data_dir / f"{name}.json").write_text(
             json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8"
         )

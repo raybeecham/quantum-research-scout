@@ -23,6 +23,25 @@
   let boot = null;
   function hydrate(value) {
     const news = value.news_intelligence;
+    const brief = value.reading_brief;
+    if (brief && Array.isArray(brief.stories) && brief.story_records) {
+      // Briefing stories that repeat a news story arrive as its ID plus changed fields.
+      const stories = new Map((news?.stories || []).map(row => [row.id, row]));
+      const omit = new Set(brief.story_omit || []);
+      brief.stories = brief.stories.map(row =>
+        typeof row === "string"
+          ? {
+              ...Object.fromEntries(
+                Object.entries(stories.get(row) || {}).filter(([key]) => !omit.has(key)),
+              ),
+              ...brief.story_records[row],
+              id: row,
+            }
+          : row,
+      );
+      delete brief.story_records;
+      delete brief.story_omit;
+    }
     if (news && Array.isArray(news.accounts)) {
       const stories = new Map((news.stories || []).map(row => [row.id, row]));
       news.accounts = news.accounts.map(row =>

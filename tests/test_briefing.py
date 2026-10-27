@@ -186,6 +186,17 @@ def test_adjacent_available_reports_not_yesterday_or_publication_dates(tmp_path)
     )
 
 
+def test_current_report_generated_time_is_read_from_the_report(tmp_path):
+    result = build(
+        tmp_path,
+        "- Generated timestamp Central: **2026-09-14 19:51 America/Chicago**\n"
+        + entry("Quantum paper", "https://eprint.iacr.org/2026/1"),
+    )
+    assert result["edition_comparison"]["current_report_generated_at"] == (
+        "2026-09-15T00:51:00+00:00"
+    )
+
+
 def test_first_edition_has_no_invented_additions(tmp_path):
     result = build(tmp_path, entry("Quantum paper", "https://eprint.iacr.org/2026/1"))
     assert result["edition_comparison"]["previous_report_date"] is None
@@ -206,6 +217,7 @@ def test_empty_daily_report_keeps_earlier_rolling_coverage(tmp_path):
     )
     result = build_reading_brief(tmp_path, source_health={}, funding={}, temporal={})
     delta = result["edition_comparison"]
+    assert delta["current_report_generated_at"] is None
     assert delta["current_report_link_count"] == 0
     assert delta["previous_report_link_count"] == 1
     assert delta["added_count"] == delta["retained_count"] == 0

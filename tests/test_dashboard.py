@@ -545,6 +545,16 @@ class DashboardBuildTests(unittest.TestCase):
                         self.assertEqual(
                             len(pack[field]["accounts"]), len(payload[field]["accounts"])
                         )
+                    elif field == "reading_brief":
+                        # Repeated news stories travel as IDs; the loader restores them.
+                        shared = {"stories", "story_records", "story_omit"}
+                        self.assertEqual(
+                            {k: v for k, v in pack[field].items() if k not in shared},
+                            {k: v for k, v in payload[field].items() if k != "stories"},
+                        )
+                        self.assertEqual(
+                            len(pack[field]["stories"]), len(payload[field]["stories"])
+                        )
                     else:
                         self.assertEqual(pack[field], payload[field])
 
