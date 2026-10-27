@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Document Intelligence](procurement-intelligence.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-10-26T00:56:40.253358+00:00_
+_Updated 2026-10-27T03:13:25.256610+00:00_
 
 Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.
 
@@ -14,7 +14,7 @@ Provisional opportunity qualification based on collected public evidence. Organi
 
 ## [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526)
 
-**QUALIFY · 70 / 100** · Evidence 0 / 100 · Deadline 12/17/2026
+**QUALIFY · 63 / 100** · Evidence 0 / 100 · Deadline 12/17/2026
 
 Agency: PAMS-SC
 
@@ -35,10 +35,10 @@ Unknowns:
 - Confirm submission instructions in the controlling solicitation
 
 Score and evidence trace:
-- **opportunity evidence +78** — strategic significance +27; mission fit +22; critical mission +8; actionable grant_opportunity +9; open_window +4; technology fit +8 · [evidence 1](https://www.grants.gov/search-results-detail/361526)
+- **opportunity evidence +71** — strategic significance +24; mission fit +22; critical mission +8; actionable grant_opportunity +9; open_window +4; technology fit +4 · [evidence 1](https://www.grants.gov/search-results-detail/361526)
 - **document evidence +0** — 0 / 100 document evidence completeness
 - **deadline and evidence risk -8** — No extracted procurement document evidence · [evidence 1](https://www.grants.gov/search-results-detail/361526)
-- Trace hash: `247ab8557f69b67e` · model `public-opportunity-qualification@2`
+- Trace hash: `1ad03602f3c2d4aa` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 

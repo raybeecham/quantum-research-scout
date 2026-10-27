@@ -2,23 +2,30 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-26T00:56:40.253358+00:00_
+_Updated 2026-10-27T03:13:25.256610+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **27**
-- Added / changed / resolved: **0 / 0 / 27**
+- Material changes: **36**
+- Added / changed / resolved: **8 / 1 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- None.
+- **The Genesis Mission: Transforming Science and Energy with AI** — qualification gate: qualify ([evidence](https://www.grants.gov/search-results-detail/361526))
 
 ## New claims
 
-- None.
+- **SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-))
+- **SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING** — awarding agency: National Aeronautics and Space Administration ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-))
+- **SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING** — reported amount: 224986.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-))
+- **SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-))
+- **DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-))
+- **DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.** — awarding agency: District of Columbia Courts ([evidence](https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-))
+- **DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.** — reported amount: 205485.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-))
+- **DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-))
 
 ## Superseded claims
 

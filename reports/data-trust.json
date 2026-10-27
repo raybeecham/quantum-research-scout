@@ -7,9 +7,9 @@
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 93.5,
+      "acceptance_rate": 92.6,
       "accepted": 500,
-      "quarantined": 35,
+      "quarantined": 40,
       "scope": "Federal funding"
     }
   ],
@@ -101,6 +101,28 @@
       "scope": "Federal missions",
       "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
       "stage": "mission evidence admission",
+      "title": "Institute of Education Sciences (IES): National Center on Education Research (NCER): From Seedlings to Scale, Assistance Listing Number (ALN) 84.305J",
+      "url": "https://www.grants.gov/search-results-detail/364086"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-10-16",
+      "key": "grants_gov:ED-GRANTS-101526-001",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "funding evidence admission",
       "title": "Institute of Education Sciences (IES): National Center on Education Research (NCER): From Seedlings to Scale, Assistance Listing Number (ALN) 84.305J",
       "url": "https://www.grants.gov/search-results-detail/364086"
     },
@@ -696,6 +718,28 @@
     },
     {
       "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-09-02",
+      "key": "grants_gov:DFOP0018819",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "funding evidence admission",
+      "title": "Egypt Annual Program Statement",
+      "url": "https://www.grants.gov/search-results-detail/363786"
+    },
+    {
+      "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
         "matched_alias": "Military AI Pace-Setting Projects",
@@ -1012,6 +1056,28 @@
       "scope": "Federal missions",
       "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
       "stage": "mission evidence admission",
+      "title": "Multimodal AI to Accelerate Precision Medicine for Type 1 Diabetes (U01- Clinical Trials Not Allowed)",
+      "url": "https://www.grants.gov/search-results-detail/363678"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-08-20",
+      "key": "grants_gov:RFA-DK-28-116",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
+      "stage": "funding evidence admission",
       "title": "Multimodal AI to Accelerate Precision Medicine for Type 1 Diabetes (U01- Clinical Trials Not Allowed)",
       "url": "https://www.grants.gov/search-results-detail/363678"
     },
@@ -2219,90 +2285,22 @@
       "stage": "mission evidence admission",
       "title": "GREGoRi Technology Integration Center (U01, Clinical Trials Optional)",
       "url": "https://www.grants.gov/search-results-detail/359280"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Genesis Mission",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-16",
-      "key": "https://www.grants.gov/search-results-detail/360436",
-      "mission_id": "genesis-mission",
-      "mission_name": "Genesis Mission",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "mission evidence admission",
-      "title": "Silvio O. Conte Digestive Diseases Research Core Centers (P30-Clinical Trial Optional)",
-      "url": "https://www.grants.gov/search-results-detail/360436"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-16",
-      "key": "grants_gov:RFA-DK-27-119",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Genesis Mission",
-      "stage": "funding evidence admission",
-      "title": "Silvio O. Conte Digestive Diseases Research Core Centers (P30-Clinical Trial Optional)",
-      "url": "https://www.grants.gov/search-results-detail/360436"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Golden Dome",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-16",
-      "key": "https://www.grants.gov/search-results-detail/362828",
-      "mission_id": "golden-dome",
-      "mission_name": "Golden Dome for America",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Golden Dome",
-      "stage": "mission evidence admission",
-      "title": "FY 2027 Fulbright Scholar Program",
-      "url": "https://www.grants.gov/search-results-detail/362828"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 132,
+      "count": 137,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 132,
+      "count": 137,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 96,
+      "count": 101,
       "label": "Official government source"
     },
     {
@@ -2318,14 +2316,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 80.0,
+    "acceptance_rate": 79.4,
     "accepted": 541,
-    "decisions": 676,
-    "funding_quarantine": 32,
+    "decisions": 681,
+    "funding_quarantine": 37,
     "mission_quarantine": 100,
-    "quarantined": 135,
+    "quarantined": 140,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-10-26T00:51:50.163987+00:00",
+  "updated_at": "2026-10-27T03:13:25.256610+00:00",
   "version": 1
 }

@@ -52,6 +52,22 @@
     },
     {
       "active_sources": [],
+      "disabled_sources": [
+        {
+          "enabled": false,
+          "name": "Rigetti News",
+          "type": "rss"
+        }
+      ],
+      "evidence_count": 6,
+      "first_party_evidence_count": 0,
+      "name": "Rigetti",
+      "priority": "medium",
+      "status": "disabled",
+      "type": "company"
+    },
+    {
+      "active_sources": [],
       "disabled_sources": [],
       "evidence_count": 2,
       "first_party_evidence_count": 0,
@@ -109,12 +125,22 @@
         },
         {
           "enabled": true,
+          "name": "NIST Research News",
+          "type": "watch"
+        },
+        {
+          "enabled": true,
+          "name": "NIST Cybersecurity Insights",
+          "type": "watch"
+        },
+        {
+          "enabled": true,
           "name": "NIST Post-Quantum Cryptography Project",
           "type": "watch"
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 18,
+      "evidence_count": 19,
       "first_party_evidence_count": 0,
       "name": "NIST",
       "priority": "critical",
@@ -445,7 +471,7 @@
         {
           "enabled": true,
           "name": "Microsoft Quantum Blog",
-          "type": "rss"
+          "type": "watch"
         }
       ],
       "disabled_sources": [],
@@ -699,27 +725,11 @@
       "priority": "medium",
       "status": "covered",
       "type": "company"
-    },
-    {
-      "active_sources": [
-        {
-          "enabled": true,
-          "name": "Rigetti News",
-          "type": "rss"
-        }
-      ],
-      "disabled_sources": [],
-      "evidence_count": 6,
-      "first_party_evidence_count": 0,
-      "name": "Rigetti",
-      "priority": "medium",
-      "status": "covered",
-      "type": "company"
     }
   ],
   "coverage_summary": {
-    "covered": 35,
-    "disabled": 3,
+    "covered": 34,
+    "disabled": 4,
     "gap": 0,
     "third-party": 5
   },
@@ -729,8 +739,20 @@
         "National Institute of Standards and Technology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 17,
+      "current_evidence_count": 18,
       "evidence": [
+        {
+          "date": "2026-10-26",
+          "key": "https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks",
+          "report": "2026-10/2026-10-26-digest.md",
+          "score": 152,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "IDEMIA and KT Deploy Quantum-Resistant SIMs Supporting Dual NIST and KpqC Algorithms for South Korean Military Networks",
+          "url": "https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks"
+        },
         {
           "date": "2026-10-08",
           "key": "https://arxiv.org/abs/2610.11254",
@@ -960,16 +982,16 @@
           "url": "https://www.keyfactor.com/blog/nist-makes-crypto-agility-official-now-what/"
         }
       ],
-      "evidence_count": 18,
+      "evidence_count": 19,
       "first_seen": "2026-01-06",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-10-08",
-      "momentum": "stable",
+      "latest_seen": "2026-10-26",
+      "momentum": "rising",
       "name": "NIST",
       "prior_count": 0,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware",
@@ -4433,11 +4455,11 @@
       "first_seen": "2026-07-03",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-23",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "PQShield",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -4802,11 +4824,11 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-19",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Quantinuum",
-      "prior_count": 0,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -4926,7 +4948,7 @@
       "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -5954,11 +5976,11 @@
       "first_seen": "2026-08-04",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-20",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Thales",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "AI Security",
@@ -8430,8 +8452,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 43,
+      "current_evidence_count": 44,
       "evidence": [
+        {
+          "date": "2026-10-26",
+          "key": "https://quantumzeitgeist.com/quantum-x-labs-error-correction-program",
+          "report": "2026-10/2026-10-26-digest.md",
+          "score": 36,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Quantum X Labs Launches Quantum Error Correction Program",
+          "url": "https://quantumzeitgeist.com/quantum-x-labs-error-correction-program"
+        },
         {
           "date": "2026-10-22",
           "key": "https://quantumcomputingreport.com/seeqc-and-nvidia-demonstrate-50-qec-latency-and-error-rate-reduction-via-digital-pre-decoder-architecture",
@@ -8911,29 +8945,17 @@
           ],
           "title": "Max Planck Institute for the Science of Light: Researchers Use AI to Design Improved Quantum Error Correction Codes",
           "url": "https://quantumzeitgeist.com/max-planck-institute-science-light-use-ai-quantum-error-correction"
-        },
-        {
-          "date": "2026-07-06",
-          "key": "https://quantumzeitgeist.com/quantum-error-correction-magiqware-575k",
-          "report": "2026-07/2026-07-06-digest.md",
-          "score": 84,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "MagiQware Secures \u20ac575K Pre-Seed to Optimize Quantum Error Correction",
-          "url": "https://quantumzeitgeist.com/quantum-error-correction-magiqware-575k"
         }
       ],
-      "evidence_count": 46,
+      "evidence_count": 47,
       "first_seen": "2026-01-13",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-10-22",
-      "momentum": "declining",
+      "latest_seen": "2026-10-26",
+      "momentum": "stable",
       "name": "Quantum error correction",
       "prior_count": 4,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "AI Security",
@@ -9400,11 +9422,11 @@
       "first_seen": "2025-09-10",
       "historical_evidence_count": 4,
       "latest_seen": "2026-10-19",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Logical qubits",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -9421,8 +9443,20 @@
         "Dilithium"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 6,
+      "current_evidence_count": 7,
       "evidence": [
+        {
+          "date": "2026-10-26",
+          "key": "https://eprint.iacr.org/2026/2643",
+          "report": "2026-10/2026-10-26-digest.md",
+          "score": 144,
+          "source": "IACR ePrint",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Non-profiled Single-Trace ML-DSA Secret Key Recovery by Horizontal Distribution Analysis",
+          "url": "https://eprint.iacr.org/2026/2643"
+        },
         {
           "date": "2026-10-14",
           "key": "https://eprint.iacr.org/2026/2473",
@@ -9496,16 +9530,16 @@
           "url": "https://eprint.iacr.org/2026/1333"
         }
       ],
-      "evidence_count": 6,
+      "evidence_count": 7,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-10-14",
-      "momentum": "declining",
+      "latest_seen": "2026-10-26",
+      "momentum": "stable",
       "name": "ML-DSA",
       "prior_count": 1,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -10056,7 +10090,7 @@
       "latest_seen": "2026-10-14",
       "momentum": "declining",
       "name": "Quantum networking",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -10433,6 +10467,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-10-26T00:56:40.253358+00:00",
+  "updated_at": "2026-10-27T03:23:13.171735+00:00",
   "version": 2
 }

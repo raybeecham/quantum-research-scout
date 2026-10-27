@@ -1,11 +1,624 @@
 {
-  "added": [],
-  "changed": [],
-  "comparison_ended_at": "2026-10-26T00:51:50.163987+00:00",
-  "comparison_started_at": "2026-10-25T21:46:29.088425+00:00",
+  "added": [
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-b70cb8fb0cb0d93b",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "evidence_title": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-",
+      "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0cabeeb643049b02",
+          "locator": "awarding_agency:district of columbia courts",
+          "title": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:95C67826P0387",
+        "label": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+        "node_id": "award:usaspending:95C67826P0387",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-09-30",
+        "explanation": "Frontier Signal first observed this on 2026-10-27; the source date is 2026-09-30.",
+        "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "primary_date": "2026-09-30",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": "District of Columbia Courts"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ce934d7c32bd4a58",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "evidence_title": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-",
+      "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9b26c3e737f38211",
+          "locator": "opportunity_status:awarded",
+          "title": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:95C67826P0387",
+        "label": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+        "node_id": "award:usaspending:95C67826P0387",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-09-30",
+        "explanation": "Frontier Signal first observed this on 2026-10-27; the source date is 2026-09-30.",
+        "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "primary_date": "2026-09-30",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-53e49b39a8dd90a5",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "evidence_title": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-",
+      "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ef65d12fad898eb2",
+          "locator": "reported_amount:205485.0",
+          "title": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:95C67826P0387",
+        "label": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+        "node_id": "award:usaspending:95C67826P0387",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-09-30",
+        "explanation": "Frontier Signal first observed this on 2026-10-27; the source date is 2026-09-30.",
+        "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "primary_date": "2026-09-30",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": 205485.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-a381786c476c2e59",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "evidence_title": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-",
+      "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "object": {
+        "identifier": "uei:YC7GNUHMTLX6",
+        "label": "WIDEPOINT CYBERSECURITY SOLUTIONS CORP",
+        "node_id": "recipient_or_contractor:uei:YC7GNUHMTLX6",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c6d9da61792b9d8d",
+          "locator": "reported_recipient:recipient_or_contractor:uei:YC7GNUHMTLX6",
+          "title": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:95C67826P0387",
+        "label": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+        "node_id": "award:usaspending:95C67826P0387",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-09-30",
+        "explanation": "Frontier Signal first observed this on 2026-10-27; the source date is 2026-09-30.",
+        "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "primary_date": "2026-09-30",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": null
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ce42aa38a5fd7979",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "evidence_title": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-",
+      "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b95acb053e50f9fb",
+          "locator": "awarding_agency:national aeronautics and space administration",
+          "title": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:80NSSC27C0042",
+        "label": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+        "node_id": "award:usaspending:80NSSC27C0042",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-09-30",
+        "explanation": "Frontier Signal first observed this on 2026-10-27; the source date is 2026-09-30.",
+        "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "primary_date": "2026-09-30",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": "National Aeronautics and Space Administration"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-5a1c0573d77dadb5",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "evidence_title": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-",
+      "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6b629ee918251fb0",
+          "locator": "opportunity_status:awarded",
+          "title": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:80NSSC27C0042",
+        "label": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+        "node_id": "award:usaspending:80NSSC27C0042",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-09-30",
+        "explanation": "Frontier Signal first observed this on 2026-10-27; the source date is 2026-09-30.",
+        "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "primary_date": "2026-09-30",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-042f4f5f2d0ae8e0",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "evidence_title": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-",
+      "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fc6db015d8aadaff",
+          "locator": "reported_amount:224986.0",
+          "title": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:80NSSC27C0042",
+        "label": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+        "node_id": "award:usaspending:80NSSC27C0042",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-09-30",
+        "explanation": "Frontier Signal first observed this on 2026-10-27; the source date is 2026-09-30.",
+        "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "primary_date": "2026-09-30",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": 224986.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-34eaf06464ebb720",
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "evidence_title": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-",
+      "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "object": {
+        "identifier": "uei:WTH6GSXPMZS9",
+        "label": "OUTPOST TECHNOLOGIES CORP",
+        "node_id": "recipient_or_contractor:uei:WTH6GSXPMZS9",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-56463304ed871552",
+          "locator": "reported_recipient:recipient_or_contractor:uei:WTH6GSXPMZS9",
+          "title": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:80NSSC27C0042",
+        "label": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+        "node_id": "award:usaspending:80NSSC27C0042",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-09-30",
+        "explanation": "Frontier Signal first observed this on 2026-10-27; the source date is 2026-09-30.",
+        "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "primary_date": "2026-09-30",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": null
+    }
+  ],
+  "changed": [
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-e71fa04ddb76631b",
+      "confidence": "medium",
+      "effective_date": "2026-10-27",
+      "evidence_title": "The Genesis Mission: Transforming Science and Energy with AI",
+      "evidence_url": "https://www.grants.gov/search-results-detail/361526",
+      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+      "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "qualify",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-061fdadc8c8f25df",
+          "locator": "qualification_gate",
+          "title": "The Genesis Mission: Transforming Science and Energy with AI",
+          "url": "https://www.grants.gov/search-results-detail/361526",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:DE-FOA-0003612",
+        "label": "The Genesis Mission: Transforming Science and Energy with AI",
+        "node_id": "opportunity:grants_gov:DE-FOA-0003612",
+        "node_type": "opportunity"
+      },
+      "temporal": {
+        "classification": "evidence_changed_since_prior_run",
+        "date_basis": "Source-reported posting/publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
+        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+        "historical": false,
+        "label": "Evidence trace changed",
+        "last_changed_at": "2026-10-27T03:13:25.256610+00:00",
+        "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "primary_date": "2026-03-17",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-03-17"
+      },
+      "value": "qualify"
+    }
+  ],
+  "comparison_ended_at": "2026-10-27T03:13:25.256610+00:00",
+  "comparison_started_at": "2026-10-26T00:56:40.253358+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-e71fa04ddb76631b",
+      "claim_ids": [
+        "claim-e71fa04ddb76631b"
+      ],
+      "confidence": "medium",
+      "effective_date": "2026-10-27",
+      "evidence_title": "The Genesis Mission: Transforming Science and Energy with AI",
+      "evidence_url": "https://www.grants.gov/search-results-detail/361526",
+      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+      "grouped_event_count": 1,
+      "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "predicates": [
+        "qualification_gate"
+      ],
+      "previous_object": null,
+      "previous_value": "qualify",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-061fdadc8c8f25df",
+          "locator": "qualification_gate",
+          "title": "The Genesis Mission: Transforming Science and Energy with AI",
+          "url": "https://www.grants.gov/search-results-detail/361526",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:DE-FOA-0003612",
+        "label": "The Genesis Mission: Transforming Science and Energy with AI",
+        "node_id": "opportunity:grants_gov:DE-FOA-0003612",
+        "node_type": "opportunity"
+      },
+      "temporal": {
+        "classification": "evidence_changed_since_prior_run",
+        "date_basis": "Source-reported posting/publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
+        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+        "historical": false,
+        "label": "Evidence trace changed",
+        "last_changed_at": "2026-10-27T03:13:25.256610+00:00",
+        "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "primary_date": "2026-03-17",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-03-17"
+      },
+      "value": "qualify"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-b70cb8fb0cb0d93b",
+      "claim_ids": [
+        "claim-53e49b39a8dd90a5",
+        "claim-a381786c476c2e59",
+        "claim-b70cb8fb0cb0d93b",
+        "claim-ce934d7c32bd4a58"
+      ],
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "evidence_title": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-",
+      "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "grouped_event_count": 4,
+      "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "predicates": [
+        "awarding_agency",
+        "opportunity_status",
+        "reported_amount",
+        "reported_recipient"
+      ],
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0cabeeb643049b02",
+          "locator": "awarding_agency:district of columbia courts",
+          "title": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:95C67826P0387",
+        "label": "DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380.",
+        "node_id": "award:usaspending:95C67826P0387",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-09-30",
+        "explanation": "Frontier Signal first observed this on 2026-10-27; the source date is 2026-09-30.",
+        "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "primary_date": "2026-09-30",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": "District of Columbia Courts"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-ce42aa38a5fd7979",
+      "claim_ids": [
+        "claim-042f4f5f2d0ae8e0",
+        "claim-34eaf06464ebb720",
+        "claim-5a1c0573d77dadb5",
+        "claim-ce42aa38a5fd7979"
+      ],
+      "confidence": "high",
+      "effective_date": "2026-09-30",
+      "evidence_title": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-",
+      "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "grouped_event_count": 4,
+      "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "predicates": [
+        "awarding_agency",
+        "opportunity_status",
+        "reported_amount",
+        "reported_recipient"
+      ],
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b95acb053e50f9fb",
+          "locator": "awarding_agency:national aeronautics and space administration",
+          "title": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:80NSSC27C0042",
+        "label": "SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING",
+        "node_id": "award:usaspending:80NSSC27C0042",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-09-30",
+        "explanation": "Frontier Signal first observed this on 2026-10-27; the source date is 2026-09-30.",
+        "first_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-10-27T03:13:25.256610+00:00",
+        "primary_date": "2026-09-30",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": "National Aeronautics and Space Administration"
+    },
     {
       "authority": "authoritative",
       "change_type": "resolved",
@@ -2452,11 +3065,13 @@
   "summary": {
     "actual_or_recent_changes": 0,
     "classifications": {
+      "evidence_changed_since_prior_run": 1,
+      "historical_discovery": 8,
       "resolved": 27
     },
-    "evidence_trace_changes": 0,
-    "historical_discoveries": 0,
-    "material_events": 27,
+    "evidence_trace_changes": 1,
+    "historical_discoveries": 8,
+    "material_events": 36,
     "newly_observed_undated": 0,
     "upcoming": 12
   },
@@ -2464,7 +3079,7 @@
   "upcoming": [
     {
       "date": "2026-09-30",
-      "days_remaining": -26,
+      "days_remaining": -27,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2473,7 +3088,7 @@
     },
     {
       "date": "2026-10-15",
-      "days_remaining": -11,
+      "days_remaining": -12,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2482,7 +3097,7 @@
     },
     {
       "date": "2026-11-14",
-      "days_remaining": 19,
+      "days_remaining": 18,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2491,7 +3106,7 @@
     },
     {
       "date": "2026-11-24",
-      "days_remaining": 29,
+      "days_remaining": 28,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Genesis Mission",
@@ -2500,7 +3115,7 @@
     },
     {
       "date": "2026-12-17",
-      "days_remaining": 52,
+      "days_remaining": 51,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2509,7 +3124,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 54,
+      "days_remaining": 53,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2518,7 +3133,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 54,
+      "days_remaining": 53,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2527,7 +3142,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 54,
+      "days_remaining": 53,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2536,7 +3151,7 @@
     },
     {
       "date": "2026-12-31",
-      "days_remaining": 66,
+      "days_remaining": 65,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "Project Triad",
@@ -2545,7 +3160,7 @@
     },
     {
       "date": "2027-01-12",
-      "days_remaining": 78,
+      "days_remaining": 77,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2554,7 +3169,7 @@
     },
     {
       "date": "2027-03-19",
-      "days_remaining": 144,
+      "days_remaining": 143,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2563,7 +3178,7 @@
     },
     {
       "date": "2027-06-22",
-      "days_remaining": 239,
+      "days_remaining": 238,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -2571,6 +3186,6 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
     }
   ],
-  "updated_at": "2026-10-26T00:51:50.163987+00:00",
+  "updated_at": "2026-10-27T03:13:25.256610+00:00",
   "version": 1
 }

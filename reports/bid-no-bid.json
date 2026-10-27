@@ -5,11 +5,11 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 52,
+      "days_to_close": 51,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
-        "current_score": 70,
+        "current_score": 63,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
@@ -17,23 +17,23 @@
         "previous_score": 70,
         "status": "current"
       },
-      "decision_score": 70,
+      "decision_score": 63,
       "decision_trace": {
         "components": [
           {
             "basis": [
-              "strategic significance +27",
+              "strategic significance +24",
               "mission fit +22",
               "critical mission +8",
               "actionable grant_opportunity +9",
               "open_window +4",
-              "technology fit +8"
+              "technology fit +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/361526"
             ],
-            "points": 78
+            "points": 71
           },
           {
             "basis": [
@@ -57,106 +57,24 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 70,
+        "public_evidence_score": 63,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/361526"
         ],
-        "trace_hash": "247ab8557f69b67e"
+        "trace_hash": "1ad03602f3c2d4aa"
       },
       "eligibility": [],
       "evaluation_criteria": [],
       "evidence_completeness": 0,
       "latest_amendment_impact": null,
-      "likely_market_participants": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "POST QUANTUM LABS LLC",
-          "score": 5,
-          "uei": "H53MXWJZPYU3"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "DELOITTE CONSULTING LLP",
-          "score": 5,
-          "uei": "CKV2L9GZKJK3"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ALVAREZ LLC",
-          "score": 5,
-          "uei": "Y928UVG75CT6"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "YALE UNIV",
-          "score": 2,
-          "uei": "FL6GV84CKN57"
-        }
-      ],
+      "likely_market_participants": [],
       "mission_fit": [
         "Genesis Mission"
       ],
       "opportunity_key": "grants_gov:DE-FOA-0003612",
-      "potential_teaming_candidates": [
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "V3GATE, LLC",
-          "score": 5,
-          "uei": "J4KHM5JY79E3"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "ZCORE GROUP LLC",
-          "score": 2,
-          "uei": "FJ58SNSJTV68"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "YALE UNIV",
-          "score": 2,
-          "uei": "FL6GV84CKN57"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WTIA WORKFORCE INSTITUTE",
-          "score": 2,
-          "uei": "MDM9F73QJ1Z1"
-        },
-        {
-          "basis": [
-            "shared specialties: artificial intelligence"
-          ],
-          "name": "WINTRIO LLC",
-          "score": 2,
-          "uei": "E9GWUWJTVME7"
-        }
-      ],
+      "potential_teaming_candidates": [],
       "provisional_gate": "qualify",
-      "public_evidence_score": 70,
+      "public_evidence_score": 63,
       "record_type": "grant_opportunity",
       "relevant_patents": [],
       "required_actions": [
@@ -175,8 +93,7 @@
         "https://www.grants.gov/search-results-detail/361526"
       ],
       "technology_fit": [
-        "quantum",
-        "artificial intelligence"
+        "quantum"
       ],
       "title": "The Genesis Mission: Transforming Science and Energy with AI",
       "unknowns": [
@@ -192,7 +109,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 78,
+      "days_to_close": 77,
       "deadline": "01/12/2027",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -297,6 +214,6 @@
     "qualify": 1,
     "targeted_review": 1
   },
-  "updated_at": "2026-10-26T00:56:40.253358+00:00",
+  "updated_at": "2026-10-27T03:13:25.256610+00:00",
   "version": 1
 }

@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-10-26T00:51:50.163987+00:00_
+_Updated 2026-10-27T03:13:25.256610+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **541**
-- Quarantined evidence or relationships: **135**
-- Acceptance rate: **80.0%**
+- Quarantined evidence or relationships: **140**
+- Acceptance rate: **79.4%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
 | Federal missions | 41 | 100 | 29.1% |
-| Federal funding | 500 | 35 | 93.5% |
+| Federal funding | 500 | 40 | 92.6% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 132
-- **No relevant term in the evidence itself**: 132
-- **Official government source**: 96
+- **Match appears only in collector query metadata**: 137
+- **No relevant term in the evidence itself**: 137
+- **Official government source**: 101
 - **Source is not an official .gov or .mil domain**: 36
 - **Agency and technology inference only**: 3
 
@@ -50,6 +50,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal missions
 - Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Institute of Education Sciences (IES): National Center on Education Research (NCER): From Seedlings to Scale, Assistance Listing Number (ALN) 84.305J](https://www.grants.gov/search-results-detail/364086)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
@@ -235,6 +242,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
+### [Egypt Annual Program Statement](https://www.grants.gov/search-results-detail/363786)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
 ### [U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)](https://www.grants.gov/search-results-detail/363744)
 
 - Scope: Federal missions
@@ -330,6 +344,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal missions
 - Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [Multimodal AI to Accelerate Precision Medicine for Type 1 Diabetes (U01- Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/363678)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 
@@ -698,27 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [GREGoRi Technology Integration Center (U01, Clinical Trials Optional)](https://www.grants.gov/search-results-detail/359280)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Silvio O. Conte Digestive Diseases Research Core Centers (P30-Clinical Trial Optional)](https://www.grants.gov/search-results-detail/360436)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Silvio O. Conte Digestive Diseases Research Core Centers (P30-Clinical Trial Optional)](https://www.grants.gov/search-results-detail/360436)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [FY 2027 Fulbright Scholar Program](https://www.grants.gov/search-results-detail/362828)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

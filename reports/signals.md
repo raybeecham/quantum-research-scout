@@ -4,19 +4,19 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-26 00:54 UTC_
+_Updated 2026-10-27 03:23 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (2 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-10-20 | 25 |
-| Quantum Hardware | ↗️ rising (19 vs 11) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-24 | 350 |
+| Quantum Networking | ↗️ rising (6 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-26 | 156 |
 | Quantum Sensing | ↗️ rising (3 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-19 | 54 |
 | Quantum Software / Tooling | ↗️ rising (8 vs 5) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-10-23 | 112 |
-| PQC / Crypto Agility | ➡️ stable (18 vs 24) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-24 | 315 |
-| QEC / Fault Tolerance | ➡️ stable (8 vs 7) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-10-24 | 94 |
-| Quantum Networking | ➡️ stable (3 vs 3) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-23 | 153 |
+| PQC / Crypto Agility | ➡️ stable (23 vs 24) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-10-26 | 322 |
+| QEC / Fault Tolerance | ↘️ declining (6 vs 10) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-10-26 | 95 |
+| Quantum Hardware | ➡️ stable (19 vs 14) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-26 | 354 |
 | Standards / Government | ↘️ declining (1 vs 7) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-10-19 | 77 |
 
 ## AI Security
@@ -30,16 +30,16 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-10-03 — [IBM Expands Research Collaborations with IISc and IIT Bombay to Advance Quantum-Centric Supercomputing and Sovereign AI](https://quantumcomputingreport.com/ibm-expands-research-collaborations-with-iisc-and-iit-bombay-to-advance-quantum-centric-supercomputing-and-sovereign-ai) (Quantum Computing Report, score 29)
   - 2026-09-17 — [Adversary simulation: what you need to know](https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know) (NCSC UK Guidance, score 100)
 
-## Quantum Hardware
+## Quantum Networking
 
-- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
-- Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
+- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
+- Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
-  - 2026-10-24 — [New Mexico Deploys JTIP Workforce Grants to Support Quantum Hardware Hiring at IonQ and Bandelier Technologies](https://quantumcomputingreport.com/new-mexico-deploys-jtip-workforce-grants-to-support-quantum-hardware-hiring-at-ionq-and-bandelier-technologies) (Quantum Computing Report, score 26)
-  - 2026-10-23 — [ZuriQ and Rhonexum Form Multi-Year Partnership to Integrate Cryogenic Control ICs into 2D Trapped-Ion Processors](https://quantumcomputingreport.com/zuriq-and-rhonexum-form-multi-year-partnership-to-integrate-cryogenic-control-ics-into-2d-trapped-ion-processors) (Quantum Computing Report, score 47)
-  - 2026-10-23 — [Guest Post: Quantum Computing’s Next Phase May Be Driven by Compounding Breakthroughs](https://thequantuminsider.com/2026/10/23/quantum-computing-compounding-breakthroughs) (The Quantum Insider, score 44)
-  - 2026-10-23 — [IQM and Telefónica Plan Quantum Computer for Madrid University](https://thequantuminsider.com/2026/10/23/madrid-first-quantum-computer-telefonica-iqm) (The Quantum Insider, score 24)
-  - 2026-10-23 — [Quandela And Quanova Partner to Deploy Vietnam’s First Quantum Computer](https://thequantuminsider.com/2026/10/23/quandela-and-quanova-partner-to-deploy-vietnams-first-quantum-computer) (The Quantum Insider, score 24)
+  - 2026-10-26 — [Ramdeobaba University and QClairvoyance Quantum Labs to Set Up Quantum Software and Quantum Communication Labs in Nagpur](https://thequantuminsider.com/2026/10/26/ramdeobaba-university-and-qclairvoyance-quantum-labs-to-set-up-quantum-software-and-quantum-communication-labs-in-nagpur) (The Quantum Insider, score 45)
+  - 2026-10-26 — [Ramdeobaba University Partners with QClairvoyance Quantum Labs to Establish Dedicated Quantum Software and Hardware Facilities](https://quantumcomputingreport.com/ramdeobaba-university-partners-with-qclairvoyance-quantum-labs-to-establish-dedicated-quantum-software-and-hardware-facilities) (Quantum Computing Report, score 43)
+  - 2026-10-26 — [WISeSat.Space to Provide Satellites for Quantum Network](https://quantumzeitgeist.com/wisesatspace-provide-satellites-quantum-network) (Quantum Zeitgeist, score 40)
+  - 2026-10-23 — [Palm Beach State College and FAU Activate First Operational Segment of Florida’s Statewide Quantum-Safe Network](https://quantumcomputingreport.com/palm-beach-state-college-and-fau-activate-first-operational-segment-of-floridas-statewide-quantum-safe-network) (Quantum Computing Report, score 73)
+  - 2026-10-23 — [Telefónica and IQM to Deploy Community of Madrid’s First On-Premises Quantum Computer at Universidad Politécnica de Madrid](https://quantumcomputingreport.com/telefonica-and-iqm-to-deploy-community-of-madrids-first-on-premises-quantum-computer-at-universidad-politecnica-de-madrid) (Quantum Computing Report, score 56)
 
 ## Quantum Sensing
 
@@ -68,33 +68,33 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Quantum Computing Report
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
-  - 2026-10-24 — [Arqit Invests in Sirius to Scale Tactical Edge Quantum-Safe Networking Following NATO Contract Selection](https://quantumcomputingreport.com/arqit-invests-in-sirius-to-scale-tactical-edge-quantum-safe-networking-following-nato-contract-selection) (Quantum Computing Report, score 83)
-  - 2026-10-24 — [NowSecure Benchmark Finds 97% of Mobile Applications Lack Post-Quantum Cryptography Ahead of Mandated Timelines](https://quantumcomputingreport.com/nowsecure-benchmark-finds-97-of-mobile-applications-lack-post-quantum-cryptography-ahead-of-mandated-timelines) (Quantum Computing Report, score 67)
-  - 2026-10-24 — [Project Eleven and Relm Insurance Partner to Introduce Post-Quantum Security Metrics into Digital Asset Underwriting](https://quantumcomputingreport.com/project-eleven-and-relm-insurance-partner-to-introduce-post-quantum-security-metrics-into-digital-asset-underwriting) (Quantum Computing Report, score 55)
-  - 2026-10-23 — [UK and Singapore Align on Post-Quantum Cryptography Migration and Quantum Security Standards in Financial Sector](https://quantumcomputingreport.com/uk-and-singapore-align-on-post-quantum-cryptography-migration-and-quantum-security-standards-in-financial-sector) (Quantum Computing Report, score 81)
-  - 2026-10-23 — [How to evaluate a post-quantum cryptography provider: 10 questions to ask](https://pqshield.com/post-quantum-cryptography-provider) (PQShield, score 67)
+  - 2026-10-26 — [IDEMIA and KT Deploy Quantum-Resistant SIMs Supporting Dual NIST and KpqC Algorithms for South Korean Military Networks](https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks) (Quantum Computing Report, score 152)
+  - 2026-10-26 — [Non-profiled Single-Trace ML-DSA Secret Key Recovery by Horizontal Distribution Analysis](https://eprint.iacr.org/2026/2643) (IACR ePrint, score 144)
+  - 2026-10-26 — [IDEMIA Secure Transactions Collaborates With KT in Advancing Post-Quantum Security For South Korea’s Defense Communications](https://thequantuminsider.com/2026/10/26/idemia-secure-transactions-collaborates-with-kt-in-advancing-post-quantum-security-for-south-koreas-defense-communications) (The Quantum Insider, score 100)
+  - 2026-10-26 — [A Memory-efficient Implementation of Wiedemann XL](https://eprint.iacr.org/2026/2641) (IACR ePrint, score 99)
+  - 2026-10-26 — [IDEMIA and KT test quantum-safe SIMs for Korean defence](https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test) (Quantum Zeitgeist, score 93)
 
 ## QEC / Fault Tolerance
 
 - Organizations/sources: Quantum Zeitgeist, Quantum Computing Report, The Quantum Insider, QuantumNews.ai, arXiv RSS quant-ph
 - Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
 - Recent supporting evidence:
+  - 2026-10-26 — [Quantum X Labs Launches Quantum Error Correction Program](https://quantumzeitgeist.com/quantum-x-labs-error-correction-program) (Quantum Zeitgeist, score 36)
   - 2026-10-24 — [Review Unpacks China’s Surging Neutral-Atom Ecosystem: World-Record Arrays, Commercial Systems, and Scaling Milestones](https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones) (Quantum Computing Report, score 102)
   - 2026-10-22 — [SEEQC and NVIDIA Demonstrate 50% QEC Latency and Error Rate Reduction via Digital Pre-Decoder Architecture](https://quantumcomputingreport.com/seeqc-and-nvidia-demonstrate-50-qec-latency-and-error-rate-reduction-via-digital-pre-decoder-architecture) (Quantum Computing Report, score 73)
   - 2026-10-22 — [SEEQC Combines Chip-Based Processing With NVIDIA AI to Improve Quantum Error Correction](https://thequantuminsider.com/2026/10/22/seeqc-combines-chip-based-processing-with-nvidia-ai-to-improve-quantum-error-correction) (The Quantum Insider, score 49)
   - 2026-10-21 — [Alice & Bob Reports Phase 1 Results of France’s PROQCIMA Quantum Program](https://quantumcomputingreport.com/alice-bob-reports-phase-1-results-of-frances-proqcima-quantum-program) (Quantum Computing Report, score 133)
-  - 2026-10-21 — [Decoding quantum errors with NVIDIA Ising Decoding on AWS](https://aws.amazon.com/blogs/quantum-computing/decoding-quantum-errors-with-nvidia-ising-decoding-on-aws) (AWS Quantum Technologies Blog, score 81)
 
-## Quantum Networking
+## Quantum Hardware
 
-- Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
-- Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
+- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
+- Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
-  - 2026-10-23 — [Palm Beach State College and FAU Activate First Operational Segment of Florida’s Statewide Quantum-Safe Network](https://quantumcomputingreport.com/palm-beach-state-college-and-fau-activate-first-operational-segment-of-floridas-statewide-quantum-safe-network) (Quantum Computing Report, score 73)
-  - 2026-10-23 — [Telefónica and IQM to Deploy Community of Madrid’s First On-Premises Quantum Computer at Universidad Politécnica de Madrid](https://quantumcomputingreport.com/telefonica-and-iqm-to-deploy-community-of-madrids-first-on-premises-quantum-computer-at-universidad-politecnica-de-madrid) (Quantum Computing Report, score 56)
-  - 2026-10-21 — [South Korea Expands Quantum Communications Testbeds Through 2028](https://thequantuminsider.com/2026/10/21/korea-expands-quantum-communications-testbeds-three-hubs) (The Quantum Insider, score 100)
-  - 2026-10-14 — [OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732) (USAspending · Quantum Technologies, score 100)
-  - 2026-10-13 — [QuDef And The Thought Projects Partner to Bring Quantum Security Platform to Asia-Pacific](https://thequantuminsider.com/2026/10/13/qudef-and-the-thought-projects-partner-to-bring-quantum-security-platform-to-asia-pacific) (The Quantum Insider, score 33)
+  - 2026-10-26 — [Quantum Art Research Outlines More Efficient Quantum Approach to Wave Modeling](https://thequantuminsider.com/2026/10/26/quantum-art-research-outlines-more-efficient-quantum-approach-to-wave-modeling) (The Quantum Insider, score 59)
+  - 2026-10-26 — [Quantum leaps forecast 25.8% growth for trapped-ion chips](https://quantumzeitgeist.com/business-research-trapped-25-8-percent) (Quantum Zeitgeist, score 43)
+  - 2026-10-26 — [Qubit’s Own Electric Current Could Offer a Simpler Readout Method](https://thequantuminsider.com/2026/10/26/qubits-own-electric-current-could-offer-a-simpler-readout-method) (The Quantum Insider, score 26)
+  - 2026-10-26 — [Intel to Acquire Classiq to Create a Full-stack Quantum Computing Platform](https://thequantuminsider.com/2026/10/26/intel-to-acquire-classiq-to-create-a-full-stack-quantum-computing-platform) (The Quantum Insider, score 24)
+  - 2026-10-24 — [New Mexico Deploys JTIP Workforce Grants to Support Quantum Hardware Hiring at IonQ and Bandelier Technologies](https://quantumcomputingreport.com/new-mexico-deploys-jtip-workforce-grants-to-support-quantum-hardware-hiring-at-ionq-and-bandelier-technologies) (Quantum Computing Report, score 26)
 
 ## Standards / Government
 

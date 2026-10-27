@@ -842,9 +842,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 10,
+      "evidence_count": 11,
       "historical_evidence_count": 1,
-      "latest_evidence_at": "2026-10-06",
+      "latest_evidence_at": "2026-10-26",
       "name": "NIST",
       "priority": "critical",
       "source_count": 6,
@@ -881,6 +881,22 @@
           "source": "Keyfactor Quantum and Crypto-Agility",
           "title": "NIST Makes Crypto-Agility Official \u2014 Now What?",
           "url": "https://www.keyfactor.com/blog/nist-makes-crypto-agility-official-now-what/"
+        },
+        {
+          "date": "2026-10-26",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "pqc",
+            "quantum-resistant"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Computing Report",
+          "title": "IDEMIA and KT Deploy Quantum-Resistant SIMs Supporting Dual NIST and KpqC Algorithms for South Korean Military Networks",
+          "url": "https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks"
         },
         {
           "date": "2026-10-06",
@@ -956,21 +972,6 @@
           "source": "Quantum Zeitgeist",
           "title": "QoreChain runs NIST\u2019s quantum-safe tools on a live blockchain",
           "url": "https://quantumzeitgeist.com/qorechain-runs-nists-quantum-safe-tools"
-        },
-        {
-          "date": "2026-07-31",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "QuantumNews.ai",
-          "title": "NIST Finalizes Three Post-Quantum Encryption Standards for Secure Data",
-          "url": "https://quantumzeitgeist.com/post-quantum-encryption-standards-nist-finalizes"
         }
       ],
       "type": "government"
@@ -2087,6 +2088,6 @@
     "not_assessed": 19,
     "organizations": 43
   },
-  "updated_at": "2026-10-26T00:56:40.253358+00:00",
+  "updated_at": "2026-10-27T03:23:13.827071+00:00",
   "version": 1
 }
