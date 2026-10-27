@@ -15,25 +15,13 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "tests"))
 
+from feed_boilerplate import BOILERPLATE, find_boilerplate  # noqa: E402
 from playwright.sync_api import expect, sync_playwright  # noqa: E402
 from test_frontier_round2 import PAIRS, accounts, build  # noqa: E402
 from verify_frontier_round2_browser import ready  # noqa: E402
 from verify_theme_browser import ROUTES, assert_no_overflow  # noqa: E402
 
-BOILERPLATE = re.compile(r"appeared first on|\bRead More\b|\bContinue reading\b|^The post ", re.I)
 PLACEHOLDERS = re.compile(r"\bundefined\b|\bNaN\b|\[object Object\]|Invalid Date")
-EXCERPT_FIELDS = {"summary", "excerpt", "excerpts", "description", "abstract", "key_points"}
-
-
-def check_excerpts(value, path="root", field=""):
-    if isinstance(value, dict):
-        for key, child in value.items():
-            check_excerpts(child, f"{path}.{key}", key)
-    elif isinstance(value, list):
-        for i, child in enumerate(value):
-            check_excerpts(child, f"{path}[{i}]", field)
-    elif isinstance(value, str) and field in EXCERPT_FIELDS:
-        assert not BOILERPLATE.search(value.strip()), f"Feed boilerplate: {path}"
 
 
 def event_fixture():
@@ -81,7 +69,8 @@ def event_fixture():
 
 def verify(args):
     payload = json.loads((args.site / "data/dashboard.json").read_text(encoding="utf-8"))
-    check_excerpts(payload)
+    found = find_boilerplate(payload)
+    assert not found, f"Feed boilerplate: {found[:5]}"
     fixture = event_fixture()
     if args.inject_regression == "merge":
         duplicate = copy.deepcopy(fixture["stories"][0])
