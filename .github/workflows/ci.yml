@@ -33,6 +33,24 @@ jobs:
       - run: npm test
       - run: npm run dry-run
 
+  cron-trigger:
+    name: Hourly trigger Worker tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cron-trigger
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: cron-trigger/package-lock.json
+      - run: npm ci
+      - run: npm run check
+      - run: npm test
+      - run: npm run dry-run
+
   lint:
     name: Lint and format
     runs-on: ubuntu-latest

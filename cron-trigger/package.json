@@ -1,0 +1,18 @@
+{
+  "name": "frontier-hourly-trigger",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "types": "wrangler types --strict-vars=false",
+    "check": "wrangler types --strict-vars=false && tsc --noEmit",
+    "test": "vitest run",
+    "deploy": "wrangler deploy",
+    "dry-run": "wrangler deploy --dry-run"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260916.1",
+    "typescript": "~6.0.0",
+    "vitest": "^4.1.11",
+    "wrangler": "^4.133.0"
+  }
+}
