@@ -516,6 +516,87 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2610.33185": {
+      "captures": [
+        {
+          "excerpts": [
+            "In this paper, we show for the first time that post-quantum one-way permutations are sufficient for perfect zero-knowledge classical arguments for all of NP with security guaranteed against quantum adversaries"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.33185"
+            }
+          ],
+          "title": "Post-Quantum Perfect Zero-Knowledge Arguments for NP From Any One-Way Permutation"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.33290": {
+      "captures": [
+        {
+          "excerpts": [
+            "Quantum networking enables advanced communication protocols, distributed quantum computing, and enhanced sensing",
+            "These applications are often hindered by current realizations of quantum network nodes, which utilize noisy and imperfect hardware",
+            "Here, we apply variational optimization to counteract the effects of such imperfections"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.33290"
+            }
+          ],
+          "title": "Variational Quantum Optimization of Noisy Polarization Qubit Experiments"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.33862": {
+      "captures": [
+        {
+          "excerpts": [
+            "Distributed Cyber-Physical Systems (CPS) and Edge AI networks increasingly depend on public-key authentication and key-establishment mechanisms that are vulnerable to cryptographically relevant Quantum Computers (QC)",
+            "Shor's algorithm threatens widely deployed asymmetric primitives, while Grover's algorithm reduces the effective security margins of symmetric and hash-based mechanisms"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2610.33862"
+            }
+          ],
+          "title": "Securing Edge & Physical AI: Post-Quantum IoT Blockchain for Mission-Critical Cyber-Physical Agents"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.34143": {
+      "captures": [
+        {
+          "excerpts": [
+            "Practical fault-tolerant quantum computation requires a large number of physical qubits, posing a major challenge for scaling up individual quantum processors",
+            "Distributed architectures offer a promising solution by interconnecting multiple processors through quantum networks",
+            "However, remote Bell-pair generation remains technically demanding, making it essential to assess computational performance under limited communication resources"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.34143"
+            }
+          ],
+          "title": "Feasibility of Distributed Fault-Tolerant Quantum Computing: From Quantum Links to Algorithms"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
@@ -1020,6 +1101,13 @@
               "sequence": 0,
               "source": "IACR ePrint",
               "url": "https://eprint.iacr.org/2026/2641"
+            },
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2641"
             }
           ],
           "title": "A Memory-efficient Implementation of Wiedemann XL"
@@ -1038,6 +1126,13 @@
             {
               "published_date": "2026-10-26",
               "report_date": "2026-10-26",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2643"
+            },
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
               "sequence": 0,
               "source": "IACR ePrint",
               "url": "https://eprint.iacr.org/2026/2643"
@@ -2997,6 +3092,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/google-qubit-overhead-tenfold-cuts-module"
+            },
+            {
+              "published_date": "2026-10-25",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/google-qubit-overhead-tenfold-cuts-module"
             }
           ],
           "title": "Google and MIT team cut qubit overhead tenfold with module design"
@@ -3015,6 +3117,13 @@
             {
               "published_date": "2026-10-25",
               "report_date": "2026-10-26",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/kerr-cat-qubits-high-fidelity-entangling-gates"
+            },
+            {
+              "published_date": "2026-10-25",
+              "report_date": "2026-10-27",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/kerr-cat-qubits-high-fidelity-entangling-gates"
@@ -3057,6 +3166,22 @@
             }
           ],
           "title": "IDEMIA and KT test quantum-safe SIMs for Korean defence"
+        },
+        {
+          "excerpts": [
+            "IDEMIA and KT are testing Quantum-Resistant SIM technology as part of South Korea’s 2026 Post-Quantum Cryptography project, bolstering defense communications against future threats",
+            "The 5 Stages of PQC Readiness: A Practical Framework for Enterprise Migration — already featured in Strategic Signals. [Open item](https://www.keyfactor.com/blog/the-5-stages-of-pqc-readiness-a-practical-framework-for-enterprise-migration)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test"
+            }
+          ],
+          "title": "IDEMIA and KT test quantum-safe SIMs for Korean defence"
         }
       ]
     },
@@ -3071,6 +3196,13 @@
             {
               "published_date": "2026-10-25",
               "report_date": "2026-10-26",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/magic-state-distillation-nine-input-qubit-bound"
+            },
+            {
+              "published_date": "2026-10-25",
+              "report_date": "2026-10-27",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/magic-state-distillation-nine-input-qubit-bound"
@@ -3091,6 +3223,13 @@
             {
               "published_date": "2026-10-25",
               "report_date": "2026-10-26",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/mettitech-quantum-proof-coin-shield"
+            },
+            {
+              "published_date": "2026-10-25",
+              "report_date": "2026-10-27",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/mettitech-quantum-proof-coin-shield"
@@ -4975,6 +5114,13 @@
               "sequence": 0,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/10/26/idemia-secure-transactions-collaborates-with-kt-in-advancing-post-quantum-security-for-south-koreas-defense-communications"
+            },
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/10/26/idemia-secure-transactions-collaborates-with-kt-in-advancing-post-quantum-security-for-south-koreas-defense-communications"
             }
           ],
           "title": "IDEMIA Secure Transactions Collaborates With KT in Advancing Post-Quantum Security For South Korea’s Defense Communications"
@@ -5133,6 +5279,26 @@
             }
           ],
           "title": "Post-Quantum Readiness for Manufacturers: The Timeline Now Has Dates"
+        }
+      ]
+    },
+    "https://www.keyfactor.com/blog/the-5-stages-of-pqc-readiness-a-practical-framework-for-enterprise-migration": {
+      "captures": [
+        {
+          "excerpts": [
+            "Move from awareness to crypto-agility with a five-stage PQC readiness framework",
+            "See what to do at each stage and where to start"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-25",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "Keyfactor Quantum and Crypto-Agility",
+              "url": "https://www.keyfactor.com/blog/the-5-stages-of-pqc-readiness-a-practical-framework-for-enterprise-migration"
+            }
+          ],
+          "title": "The 5 Stages of PQC Readiness: A Practical Framework for Enterprise Migration"
         }
       ]
     },
