@@ -824,8 +824,11 @@ def _collect_sam_snapshot(
     ]
     result = CollectionResult()
     seen: set[str] = set()
-    total_records = 0
-    fetched_records = 0
+    observed: set[str] = set()
+    total_records: int | None = None
+    coverage_issues: set[str] = set()
+    requests_made = 0
+    stop_reason = "bounded page budget reached"
     resolved_url = endpoint
 
     for page in range(max_pages):
@@ -834,8 +837,11 @@ def _collect_sam_snapshot(
             "postedFrom": start_date,
             "postedTo": end_date,
             "limit": page_size,
-            "offset": page * page_size,
+            # SAM uses a zero-based page index, not a record offset.
+            # https://open.gsa.gov/api/get-opportunities-public-api/
+            "offset": page,
         }
+        requests_made += 1
         try:
             response_text, resolved_url = client.get_text(
                 endpoint,
@@ -843,6 +849,10 @@ def _collect_sam_snapshot(
                 headers={"Accept": "application/json"},
             )
             response = json.loads(response_text)
+            if not isinstance(response, dict) or not isinstance(
+                response.get("opportunitiesData"), list
+            ):
+                raise TypeError("SAM.gov returned an invalid opportunitiesData page.")
         except (RuntimeError, json.JSONDecodeError, TypeError) as exc:
             result.warnings.append(
                 SourceWarning(
@@ -852,20 +862,33 @@ def _collect_sam_snapshot(
                     endpoint,
                 )
             )
+            stop_reason = "page request failed; earlier notices retained"
             break
 
-        values = response.get("opportunitiesData", []) if isinstance(response, dict) else []
-        if not isinstance(values, list):
-            values = []
-        fetched_records += len(values)
-        total_records = max(total_records, int(response.get("totalRecords") or 0))
+        values = response["opportunitiesData"]
+        raw_total = response.get("totalRecords")
+        if (type(raw_total) is int and raw_total >= 0) or (
+            isinstance(raw_total, str) and re.fullmatch(r"[0-9]+", raw_total)
+        ):
+            page_total = int(raw_total)
+            if total_records is not None and page_total != total_records:
+                coverage_issues.add("reported total changed during pagination")
+            total_records = max(total_records or 0, page_total)
+        else:
+            coverage_issues.add("reported total missing or invalid; completeness unverified")
+        before = len(observed)
         for opportunity in values:
             if not isinstance(opportunity, dict):
+                coverage_issues.add("unusable notice records returned")
                 continue
             notice_id = _first_text(opportunity, "noticeId", "noticeid")
             solicitation = _first_text(opportunity, "solicitationNumber")
             key = notice_id or solicitation
-            if not key or key in seen:
+            if not key:
+                coverage_issues.add("notice records without identifiers returned")
+                continue
+            observed.add(key)
+            if key in seen:
                 continue
             matched_queries = _matching_sam_queries(opportunity, queries)
             if not matched_queries:
@@ -879,17 +902,34 @@ def _collect_sam_snapshot(
                     source_name="SAM.gov Opportunities",
                 )
             )
-        if len(values) < page_size or fetched_records >= total_records:
+        if total_records is not None and len(observed) > total_records:
+            coverage_issues.add("unique notice count exceeds reported total")
+        if not values:
+            stop_reason = "empty page returned before the reported total"
+            break
+        if len(observed) == before:
+            stop_reason = "page made no progress in unique notices"
+            break
+        if total_records is not None and len(observed) >= total_records:
+            break
+        if total_records is None and len(values) < page_size:
+            stop_reason = "short page returned without a usable total"
             break
 
-    if total_records and fetched_records < total_records:
+    incomplete = total_records is not None and len(observed) < total_records
+    if incomplete or coverage_issues:
+        reasons = sorted(coverage_issues)
+        if incomplete:
+            reasons.insert(0, stop_reason)
+        total_label = f"{total_records:,}" if total_records is not None else "an unknown total of"
         result.warnings.append(
             SourceWarning(
                 "SAM.gov Opportunities",
                 "procurement",
                 (
-                    f"Partial coverage: recent snapshot was truncated after {fetched_records:,} of "
-                    f"{total_records:,} notices; narrow the window or increase the bounded page budget."
+                    f"Partial coverage: recent snapshot retained {len(observed):,} of "
+                    f"{total_label} unique notices after {requests_made} page request(s) "
+                    f"for {start_date}–{end_date}; {'; '.join(reasons)}."
                 ),
                 endpoint,
                 severity="advisory",
@@ -898,8 +938,8 @@ def _collect_sam_snapshot(
     LOGGER.info(
         "Collected %d locally matched SAM.gov candidates from %d recent notices using %d request(s)",
         len(result.items),
-        fetched_records,
-        min(max_pages, max(1, (fetched_records + page_size - 1) // page_size)),
+        len(observed),
+        requests_made,
     )
     return result
 
