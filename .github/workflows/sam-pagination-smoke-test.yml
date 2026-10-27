@@ -1,0 +1,48 @@
+name: SAM Pagination Smoke Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sam-pagination-smoke-test
+  cancel-in-progress: false
+
+jobs:
+  sam-pagination:
+    name: Check SAM pagination without publishing
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Install agent
+        run: python -m pip install .
+      - name: Make at most two SAM requests, without retries or redirects
+        env:
+          SAM_GOV_API_KEY: ${{ secrets.SAM_GOV_API_KEY }}
+        run: python scripts/check_sam_pagination.py --output "$RUNNER_TEMP/sam-pagination.json"
+      - name: Preserve count-only diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sam-pagination-diagnostics
+          path: ${{ runner.temp }}/sam-pagination.json
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Summarize count-only diagnostics
+        if: always()
+        shell: bash
+        run: |
+          if [ -f "$RUNNER_TEMP/sam-pagination.json" ]; then
+            echo '### SAM pagination diagnostics (no report publication)' >> "$GITHUB_STEP_SUMMARY"
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat "$RUNNER_TEMP/sam-pagination.json" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
