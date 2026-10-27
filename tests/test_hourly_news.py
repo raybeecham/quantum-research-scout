@@ -231,8 +231,12 @@ def test_incompatible_modes_are_rejected(argument):
 def test_hourly_workflow_and_deployment_wiring():
     path = ROOT / ".github/workflows/hourly-news.yml"
     flow = yaml.safe_load(path.read_text(encoding="utf-8"))
-    assert flow[True]["schedule"] == [{"cron": "43 * * * *"}]
+    assert flow[True]["schedule"] == [{"cron": "13,43 * * * *"}]
     assert flow["concurrency"] == {"group": "daily-report-publication", "cancel-in-progress": False}
+    assert flow["jobs"]["news"]["needs"] == "due"
+    assert flow["jobs"]["news"]["if"] == "needs.due.outputs.should_run == 'true'"
+    gate = [step.get("run", "") for step in flow["jobs"]["due"]["steps"]]
+    assert any("scripts/hourly_news_due.py" in run for run in gate)
     names = [step.get("name") for step in flow["jobs"]["news"]["steps"]]
     assert names.index("Validate dashboard and preserve permanent story URLs") < names.index(
         "Commit hourly news refresh"
