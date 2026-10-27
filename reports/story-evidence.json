@@ -941,6 +941,25 @@
         }
       ]
     },
+    "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547": {
+      "captures": [
+        {
+          "excerpts": [
+            "NIST publishes Internal Report (NIST IR) 8547, 'Transition to Post-Quantum Cryptography Standards.'"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-25",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "NIST CSRC News",
+              "url": "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547"
+            }
+          ],
+          "title": "Transition to PQC Standards | NIST IR 8547 | CSRC"
+        }
+      ]
+    },
     "https://eprint.iacr.org/2026/2470": {
       "captures": [
         {
@@ -1159,6 +1178,23 @@
             }
           ],
           "title": "Non-profiled Single-Trace ML-DSA Secret Key Recovery by Horizontal Distribution Analysis"
+        },
+        {
+          "excerpts": [
+            "During the last decade, single-trace side-channel attacks on cryptographic implementations have largely focused on profiled methods, which typically assume that the attacker has a clone device and implementation...",
+            "In this paper, we demonstrate that a much weaker adversary, without the ability to profile, can also mount powerful single-trace attacks",
+            "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards — already featured in Strategic Signals. [Open item](https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 1,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2643"
+            }
+          ],
+          "title": "Non-profiled Single-Trace ML-DSA Secret Key Recovery by Horizontal Distribution Analysis"
         }
       ]
     },
@@ -1179,6 +1215,23 @@
             }
           ],
           "title": "LINE-Break: Cryptanalysis and Reverse Engineering of Letter Sealing"
+        }
+      ]
+    },
+    "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx": {
+      "captures": [
+        {
+          "excerpts": [],
+          "observations": [
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "IonQ News",
+              "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx"
+            }
+          ],
+          "title": "IonQ Awarded $7.5 Million Follow-On Funding from AFRL to Advance Full-Stack Quantum Networking"
         }
       ]
     },
@@ -3167,6 +3220,25 @@
         }
       ]
     },
+    "https://quantumzeitgeist.com/keyfactor-post-quantum-security-you-cant": {
+      "captures": [
+        {
+          "excerpts": [
+            "Most organizations lack visibility into where quantum-vulnerable cryptography exists—in certificates, keys & more"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/keyfactor-post-quantum-security-you-cant"
+            }
+          ],
+          "title": "You can’t fix what you can’t find, planning for post-quantum security"
+        }
+      ]
+    },
     "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test": {
       "captures": [
         {
@@ -3185,6 +3257,13 @@
               "published_date": "2026-10-26",
               "report_date": "2026-10-27",
               "sequence": 1,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test"
+            },
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 3,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test"
             }
@@ -3218,6 +3297,13 @@
               "published_date": "2026-10-26",
               "report_date": "2026-10-27",
               "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test"
+            },
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-27",
+              "sequence": 2,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test"
             }
@@ -5227,6 +5313,26 @@
         }
       ]
     },
+    "https://thequantuminsider.com/2026/10/27/ibm-connects-two-120-qubit-processors-with-99-state-transfer-fidelity": {
+      "captures": [
+        {
+          "excerpts": [
+            "IBM researchers connected two quantum processors through four superconducting cables, demonstrating a way to build larger quantum computers from separate chips",
+            "The links transferred quantum states with an average fidelity of 99% and supported operations between computing elements on different processors, according to a study posted on the preprint server arXiv"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/10/27/ibm-connects-two-120-qubit-processors-with-99-state-transfer-fidelity"
+            }
+          ],
+          "title": "IBM Connects Two 120-Qubit Processors With 99% State-Transfer Fidelity"
+        }
+      ]
+    },
     "https://www.digicert.com/blog/digicert-drives-sae-evpki-trust-platform-launch": {
       "captures": [
         {
@@ -5398,6 +5504,25 @@
             }
           ],
           "title": "Using TLS to protect data"
+        }
+      ]
+    },
+    "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography": {
+      "captures": [
+        {
+          "excerpts": [
+            "This report describes the timelines and migration activities for federal agencies, and it can serve as a key resource for technology providers and organizations that are developing their quantum-readiness road maps"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "NIST Research News",
+              "url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography"
+            }
+          ],
+          "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards"
         }
       ]
     },
