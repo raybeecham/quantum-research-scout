@@ -2464,6 +2464,13 @@
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones"
+            },
+            {
+              "published_date": "2026-10-24",
+              "report_date": "2026-10-26",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones"
             }
           ],
           "title": "Review Unpacks China’s Surging Neutral-Atom Ecosystem: World-Record Arrays, Commercial Systems, and Scaling Milestones"
@@ -2913,6 +2920,86 @@
             }
           ],
           "title": "ZuriQ and Rhonexum Form Multi-Year Partnership to Integrate Cryogenic Control ICs into 2D Trapped-Ion Processors"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/google-qubit-overhead-tenfold-cuts-module": {
+      "captures": [
+        {
+          "excerpts": [
+            "Realizing practical quantum computers requires quantum error correction, but the planar surface code demands a substantial physical qubit overhead",
+            "Partitioning quantum processors into flat modules with non-local inter-module connections provides a solution, reducing the physical qubit overhead by tenfold or more compared to the surface code"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-25",
+              "report_date": "2026-10-26",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/google-qubit-overhead-tenfold-cuts-module"
+            }
+          ],
+          "title": "Google and MIT team cut qubit overhead tenfold with module design"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/kerr-cat-qubits-high-fidelity-entangling-gates": {
+      "captures": [
+        {
+          "excerpts": [
+            "A new design using an ‘asymmetrically threaded SQUID’ (ATS) coupler achieves a noise bias of 9922 under realistic photon loss rates, over 570 times better than standard approaches with Kerr-cat qubits",
+            "This validates the ATS protocol as a key component in scaling towards practical, fault-tolerant computation",
+            "Can an entangling quantum gate simultaneously achieve near-perfect performance *and* preserve inherent error suppression?"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-25",
+              "report_date": "2026-10-26",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/kerr-cat-qubits-high-fidelity-entangling-gates"
+            }
+          ],
+          "title": "Researchers Build Qubit Gates with 99.69% Fidelity"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test": {
+      "captures": [
+        {
+          "excerpts": [
+            "IDEMIA and KT are testing Quantum-Resistant SIM technology as part of South Korea’s 2026 Post-Quantum Cryptography project, bolstering defense communications against future threats"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-26",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test"
+            }
+          ],
+          "title": "IDEMIA and KT test quantum-safe SIMs for Korean defence"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/magic-state-distillation-nine-input-qubit-bound": {
+      "captures": [
+        {
+          "excerpts": [
+            "Nine faulty qubits are now definitively proven to be the minimum required to create one useful qubit via magic-state distillation, overturning previous assumptions about optimising this vital process",
+            "This establishes an absolute lower bound on resource costs, confirming existing designs like the widely used eight-input CCZ factory achieve peak efficiency"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-25",
+              "report_date": "2026-10-26",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/magic-state-distillation-nine-input-qubit-bound"
+            }
+          ],
+          "title": "Researchers Bound Magic-State Distillation to Nine Inputs Per Qubit"
         }
       ]
     },
