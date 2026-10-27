@@ -153,3 +153,53 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  scheduled-deploy-alert:
+    needs: [publication-check, build-and-deploy]
+    # Scheduled collections run unattended, so a blocked deployment would
+    # otherwise leave the live site stale without anyone noticing. Push and
+    # manual deployments are already watched by whoever started them.
+    if: always() && github.event_name == 'workflow_run' && github.event.workflow_run.event == 'schedule'
+    name: Report scheduled deployment outcome
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/github-script@v8
+        env:
+          CHECK_RESULT: ${{ needs.publication-check.result }}
+          DEPLOY_RESULT: ${{ needs.build-and-deploy.result }}
+        with:
+          script: |
+            const marker = '<!-- frontier-deploy:scheduled -->';
+            const { CHECK_RESULT: check, DEPLOY_RESULT: deploy } = process.env;
+            // A skipped deployment means the collection itself did not publish;
+            // feed-health incidents cover that case.
+            const failed = check === 'failure' || ['failure', 'cancelled'].includes(deploy);
+            if (!failed && deploy !== 'success') return;
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              ...context.repo, state: 'open', per_page: 100
+            });
+            const open = issues.find(issue => !issue.pull_request && (issue.body || '').includes(marker));
+            const source = context.payload.workflow_run;
+            const deployRun = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const detail = `Collection: ${source.name} ${source.html_url}\nDeployment: ${deployRun}`;
+            if (failed && open) {
+              await github.rest.issues.createComment({
+                ...context.repo, issue_number: open.number, body: `Failed again.\n\n${detail}`
+              });
+            } else if (failed) {
+              await github.rest.issues.create({
+                ...context.repo,
+                title: 'Scheduled site deployment failed',
+                body: `${marker}\nA scheduled collection finished, but the Pages deployment after it did not, so the live site still shows older data. Open the deployment run to see which step failed. This issue closes after the next successful scheduled deployment.\n\n${detail}`
+              });
+            } else if (open) {
+              await github.rest.issues.createComment({
+                ...context.repo, issue_number: open.number, body: `Recovered.\n\n${detail}`
+              });
+              await github.rest.issues.update({
+                ...context.repo, issue_number: open.number, state: 'closed', state_reason: 'completed'
+              });
+            }

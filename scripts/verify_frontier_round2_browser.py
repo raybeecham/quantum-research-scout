@@ -8,6 +8,7 @@ import re
 from pathlib import Path
 from urllib.parse import urlsplit
 
+from feed_boilerplate import BOILERPLATE, find_boilerplate
 from playwright.sync_api import expect, sync_playwright
 from verify_theme_browser import ROUTES, assert_no_overflow
 
@@ -65,18 +66,15 @@ def main():
     base = args.url.rstrip("/")
     origin = urlsplit(base).netloc
     data_path = Path("site/data/dashboard.json")
-    raw = data_path.read_text(encoding="utf-8")
-    payload = json.loads(raw)
-    bad = re.compile(
-        r"appeared first on|\bRead More\b|\bContinue reading\b|Guest Post by Liam", re.I
-    )
-    # Scan every serialized public field and every permanent source page, not
-    # only visible cards. Historical digest files remain untouched.
-    assert not bad.search(raw), "Feed boilerplate remains in dashboard.json"
+    payload = json.loads(data_path.read_text(encoding="utf-8"))
+    # Scan every story text field and every permanent source page, not only
+    # visible cards. Operator notes may name a publisher's "Read more" links.
+    found = find_boilerplate(payload)
+    assert not found, f"Feed boilerplate remains in dashboard.json: {found[:5]}"
     story_files = sorted(Path("site/stories").glob("*/index.html"))
     assert story_files
     for file in story_files:
-        assert not bad.search(file.read_text(encoding="utf-8")), str(file)
+        assert not BOILERPLATE.search(file.read_text(encoding="utf-8")), str(file)
 
     errors, posts, checked = [], [], []
     with sync_playwright() as p:

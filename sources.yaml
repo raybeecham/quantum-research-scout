@@ -615,7 +615,7 @@ watch_sources:
     entities: [Atom Computing]
     url: "https://atom-computing.com/news-resources/"
     min_title_chars: 6
-    source_note: "2026-10-26: use the homepage-linked official newsroom and its Read more article links. Retain original article publication dates; older coverage is not a fresh update."
+    source_note: "2026-10-26: use the homepage-linked official newsroom and its per-article links. Retain original article publication dates; older coverage is not a fresh update."
     include_patterns: [quantum, qubit, fault-tolerant, neutral-atom]
     max_items: 25
   - name: "BSI Germany Quantum-Safe Guidance"
