@@ -1,11 +1,20 @@
 name: Frontier Signal Hourly News
+# Cron dispatches get their own run name so the Pages alert can tell them apart.
+run-name: ${{ inputs.trigger == 'cron' && 'Frontier Signal Hourly News (cron)' || 'Frontier Signal Hourly News' }}
 
 on:
   schedule:
     # Off the top of the hour. GitHub schedules are best effort, not an SLA,
     # so two slots back each other up; the due job keeps one collection per hour.
+    # The frontier-hourly-trigger Worker (cron-trigger/) dispatches the same slots.
     - cron: "13,43 * * * *"
   workflow_dispatch:
+    inputs:
+      trigger:
+        description: "manual collects now; cron applies the same 45-minute gate as scheduled slots"
+        type: choice
+        options: [manual, cron]
+        default: manual
 
 # Share the daily writer's lock so source history and archives cannot race.
 concurrency:
@@ -35,6 +44,8 @@ jobs:
           python-version: "3.11"
       - name: Skip a slot when the other one already collected this hour
         id: slot
+        env:
+          HOURLY_TRIGGER: ${{ inputs.trigger }}
         run: python scripts/hourly_news_due.py --github-output "$GITHUB_OUTPUT"
 
   news:

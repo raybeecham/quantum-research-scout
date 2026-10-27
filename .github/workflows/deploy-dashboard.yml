@@ -156,10 +156,13 @@ jobs:
 
   scheduled-deploy-alert:
     needs: [publication-check, build-and-deploy]
-    # Scheduled collections run unattended, so a blocked deployment would
-    # otherwise leave the live site stale without anyone noticing. Push and
-    # manual deployments are already watched by whoever started them.
-    if: always() && github.event_name == 'workflow_run' && github.event.workflow_run.event == 'schedule'
+    # Scheduled and Worker-cron collections run unattended, so a blocked
+    # deployment would otherwise leave the live site stale without anyone
+    # noticing. Push and manual deployments are watched by whoever started them.
+    if: >-
+      always() && github.event_name == 'workflow_run' &&
+      (github.event.workflow_run.event == 'schedule' ||
+      github.event.workflow_run.display_title == 'Frontier Signal Hourly News (cron)')
     name: Report scheduled deployment outcome
     runs-on: ubuntu-latest
     timeout-minutes: 5

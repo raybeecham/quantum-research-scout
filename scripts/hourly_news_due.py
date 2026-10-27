@@ -4,8 +4,10 @@ GitHub can delay or drop scheduled events, so two slots each hour back each
 other up. A scheduled slot collects only when the last hourly collection is at
 least 45 minutes old: a normal hour still records one collection and one
 source-health observation, so five consecutive failures still mean about five
-hours. Manual dispatches always collect. This helper uses the standard library
-so the gate needs no package installation.
+hours. The frontier-hourly-trigger Worker dispatches the same slots with
+trigger=cron, which is gated exactly like a scheduled slot; other manual
+dispatches always collect. This helper uses the standard library so the gate
+needs no package installation.
 """
 
 from __future__ import annotations
@@ -19,6 +21,11 @@ from pathlib import Path
 MINIMUM_AGE = timedelta(minutes=45)
 # A collection clock this far ahead is wrong; collect rather than skip forever.
 CLOCK_TOLERANCE = timedelta(minutes=5)
+
+
+def gated_event(event: str, trigger: str) -> str:
+    """Worker cron dispatches arrive as workflow_dispatch but stand in for a scheduled slot."""
+    return "schedule" if event == "workflow_dispatch" and trigger == "cron" else event
 
 
 def plan(reports: Path, now: datetime, event: str) -> dict:
@@ -53,9 +60,11 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--reports-dir", type=Path, default=Path("reports"))
     parser.add_argument("--event", default=os.getenv("GITHUB_EVENT_NAME", "workflow_dispatch"))
+    parser.add_argument("--trigger", default=os.getenv("HOURLY_TRIGGER", ""))
     parser.add_argument("--github-output", type=Path)
     args = parser.parse_args()
-    result = plan(args.reports_dir, datetime.now(timezone.utc), args.event)
+    event = gated_event(args.event, args.trigger)
+    result = plan(args.reports_dir, datetime.now(timezone.utc), event)
     print(json.dumps(result, indent=2))
     if args.github_output:
         with args.github_output.open("a", encoding="utf-8") as handle:

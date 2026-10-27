@@ -235,8 +235,14 @@ def test_hourly_workflow_and_deployment_wiring():
     assert flow["concurrency"] == {"group": "daily-report-publication", "cancel-in-progress": False}
     assert flow["jobs"]["news"]["needs"] == "due"
     assert flow["jobs"]["news"]["if"] == "needs.due.outputs.should_run == 'true'"
-    gate = [step.get("run", "") for step in flow["jobs"]["due"]["steps"]]
-    assert any("scripts/hourly_news_due.py" in run for run in gate)
+    gate = [
+        step for step in flow["jobs"]["due"]["steps"] if "hourly_news_due.py" in step.get("run", "")
+    ]
+    assert gate and gate[0]["env"] == {"HOURLY_TRIGGER": "${{ inputs.trigger }}"}
+    trigger = flow[True]["workflow_dispatch"]["inputs"]["trigger"]
+    assert trigger["options"] == ["manual", "cron"] and trigger["default"] == "manual"
+    cron_title = "Frontier Signal Hourly News (cron)"
+    assert f"'{cron_title}'" in flow["run-name"]
     names = [step.get("name") for step in flow["jobs"]["news"]["steps"]]
     assert names.index("Validate dashboard and preserve permanent story URLs") < names.index(
         "Commit hourly news refresh"
@@ -249,3 +255,16 @@ def test_hourly_workflow_and_deployment_wiring():
     )
     deploy = yaml.safe_load((ROOT / ".github/workflows/deploy-dashboard.yml").read_text())
     assert flow["name"] in deploy[True]["workflow_run"]["workflows"]
+    alert = deploy["jobs"]["scheduled-deploy-alert"]["if"]
+    assert "workflow_run.event == 'schedule'" in alert
+    assert f"workflow_run.display_title == '{cron_title}'" in alert
+
+
+def test_worker_dispatches_the_same_slots_as_a_cron_trigger():
+    worker = (ROOT / "cron-trigger/wrangler.jsonc").read_text(encoding="utf-8")
+    flow = yaml.safe_load((ROOT / ".github/workflows/hourly-news.yml").read_text(encoding="utf-8"))
+    assert f'"crons": ["{flow[True]["schedule"][0]["cron"]}"]' in worker
+    assert '"WORKFLOW_FILE": "hourly-news.yml"' in worker
+    assert '"workers_dev": false' in worker
+    source = (ROOT / "cron-trigger/src/index.ts").read_text(encoding="utf-8")
+    assert 'inputs: { trigger: "cron" }' in source and 'ref: "main"' in source
