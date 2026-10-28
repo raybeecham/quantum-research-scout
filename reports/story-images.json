@@ -1,7 +1,15 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T13:45:19.488303+00:00",
+  "updated_at": "2026-10-28T14:45:48.152473+00:00",
   "records": {
+    "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography": {
+      "image_url": "https://www.nist.gov/sites/default/files/styles/social/public/images/2023/08/22/PQC_Algo_Pre-standardization-vid.jpg?itok=QoP6Ie_b",
+      "page_url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+      "publisher": "NIST Research News",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-27T13:45:07.013960+00:00",
+      "status": "ok"
+    },
     "https://quantumcomputingreport.com/ionq-deploys-intercontinental-hybrid-qkd-and-pqc-architecture-securing-enterprise-links-between-geneva-and-seoul": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-216.png",
       "page_url": "https://quantumcomputingreport.com/ionq-deploys-intercontinental-hybrid-qkd-and-pqc-architecture-securing-enterprise-links-between-geneva-and-seoul",
@@ -61,6 +69,14 @@
       "page_url": "https://quantumzeitgeist.com/quantum-proof-encryption-nist-lays-out",
       "status": "failed",
       "fetched_at": "2026-10-28T01:45:29.386512+00:00"
+    },
+    "https://thequantuminsider.com/2026/10/28/ionq-7-5-million-afrl-full-stack-quantum-networking": {
+      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/10/2026-10-28_17-59.png",
+      "page_url": "https://thequantuminsider.com/2026/10/28/ionq-7-5-million-afrl-full-stack-quantum-networking",
+      "publisher": "The Quantum Insider",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-28T13:45:19.488303+00:00",
+      "status": "ok"
     },
     "https://eprint.iacr.org/2026/2643": {
       "page_url": "https://eprint.iacr.org/2026/2643",
@@ -123,15 +139,15 @@
       "fetched_at": "2026-10-26T19:53:09.761003+00:00",
       "status": "ok"
     },
-    "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity": {
-      "page_url": "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity",
-      "status": "failed",
-      "fetched_at": "2026-10-27T19:45:04.137990+00:00"
-    },
     "https://quantumzeitgeist.com/quantum-safe-cryptography-keyfactor-maps-five": {
       "page_url": "https://quantumzeitgeist.com/quantum-safe-cryptography-keyfactor-maps-five",
       "status": "failed",
       "fetched_at": "2026-10-28T01:45:29.386512+00:00"
+    },
+    "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity": {
+      "page_url": "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity",
+      "status": "failed",
+      "fetched_at": "2026-10-27T19:45:04.137990+00:00"
     },
     "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx": {
       "page_url": "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx",
@@ -157,19 +173,6 @@
       "page_url": "https://arxiv.org/abs/2610.36422",
       "status": "unavailable",
       "fetched_at": "2026-10-28T04:45:42.408406+00:00"
-    },
-    "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547": {
-      "page_url": "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547",
-      "status": "unavailable",
-      "fetched_at": "2026-10-27T14:45:21.912753+00:00"
-    },
-    "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography": {
-      "image_url": "https://www.nist.gov/sites/default/files/styles/social/public/images/2023/08/22/PQC_Algo_Pre-standardization-vid.jpg?itok=QoP6Ie_b",
-      "page_url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
-      "publisher": "NIST Research News",
-      "provenance": "og:image",
-      "fetched_at": "2026-10-27T13:45:07.013960+00:00",
-      "status": "ok"
     },
     "https://quantumzeitgeist.com/kerr-cat-qubits-high-fidelity-entangling-gates": {
       "page_url": "https://quantumzeitgeist.com/kerr-cat-qubits-high-fidelity-entangling-gates",
@@ -594,13 +597,10 @@
       "fetched_at": "2026-10-24T23:36:07.768034+00:00",
       "status": "ok"
     },
-    "https://thequantuminsider.com/2026/10/28/ionq-7-5-million-afrl-full-stack-quantum-networking": {
-      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/10/2026-10-28_17-59.png",
-      "page_url": "https://thequantuminsider.com/2026/10/28/ionq-7-5-million-afrl-full-stack-quantum-networking",
-      "publisher": "The Quantum Insider",
-      "provenance": "og:image",
-      "fetched_at": "2026-10-28T13:45:19.488303+00:00",
-      "status": "ok"
+    "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547": {
+      "page_url": "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547",
+      "fetched_at": "2026-10-28T14:45:48.152473+00:00",
+      "status": "unavailable"
     }
   }
 }
