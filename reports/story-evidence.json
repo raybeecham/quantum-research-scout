@@ -1417,6 +1417,27 @@
         }
       ]
     },
+    "https://eprint.iacr.org/2026/2658": {
+      "captures": [
+        {
+          "excerpts": [
+            "Shuffling is a standard hiding countermeasure against (single-trace) side-channel attacks on the number-theoretic transform (NTT) of lattice-based post-quantum schemes, such as ML-DSA",
+            "The Fisher-Yates algorithm can be used to generate the underlying random permutation",
+            "Recovering this permutation itself from a single trace has so far only been studied for short sequences"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2658"
+            }
+          ],
+          "title": "Unshuffling Fisher-Yates: Practical Recovery of Length-128 Permutations and Application to ML-DSA"
+        }
+      ]
+    },
     "https://huggingface.co/blog/allenai/novelty-bench": {
       "captures": [
         {
