@@ -550,6 +550,13 @@
               "sequence": 0,
               "source": "arXiv RSS quant-ph",
               "url": "https://arxiv.org/abs/2610.33290"
+            },
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.33290"
             }
           ],
           "title": "Variational Quantum Optimization of Noisy Polarization Qubit Experiments"
@@ -591,6 +598,13 @@
               "sequence": 0,
               "source": "arXiv RSS quant-ph",
               "url": "https://arxiv.org/abs/2610.34143"
+            },
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.34143"
             }
           ],
           "title": "Feasibility of Distributed Fault-Tolerant Quantum Computing: From Quantum Links to Algorithms"
@@ -628,6 +642,13 @@
             {
               "published_date": "2026-10-27",
               "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2610.36145"
+            },
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-28",
               "sequence": 0,
               "source": "arXiv RSS cs.CR",
               "url": "https://arxiv.org/abs/2610.36145"
@@ -1272,6 +1293,23 @@
             }
           ],
           "title": "Non-profiled Single-Trace ML-DSA Secret Key Recovery by Horizontal Distribution Analysis"
+        },
+        {
+          "excerpts": [
+            "During the last decade, single-trace side-channel attacks on cryptographic implementations have largely focused on profiled methods, which typically assume that the attacker has a clone device and implementation...",
+            "In this paper, we demonstrate that a much weaker adversary, without the ability to profile, can also mount powerful single-trace attacks",
+            "IonQ Deploys Intercontinental Hybrid QKD and PQC Architecture Securing Enterprise Links Between Geneva and Seoul — already featured in Strategic Signals. [Open item](https://quantumcomputingreport.com/ionq-deploys-intercontinental-hybrid-qkd-and-pqc-architecture-securing-enterprise-links-between-geneva-and-seoul)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2643"
+            }
+          ],
+          "title": "Non-profiled Single-Trace ML-DSA Secret Key Recovery by Horizontal Distribution Analysis"
         }
       ]
     },
@@ -1307,6 +1345,13 @@
             {
               "published_date": "2026-10-26",
               "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2653"
+            },
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-28",
               "sequence": 0,
               "source": "IACR ePrint",
               "url": "https://eprint.iacr.org/2026/2653"
@@ -2165,6 +2210,13 @@
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/gqi-q3-2026-state-of-play-investment-consolidation-accelerating-q-day-horizons-and-the-shift-to-second-generation-architectures"
+            },
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/gqi-q3-2026-state-of-play-investment-consolidation-accelerating-q-day-horizons-and-the-shift-to-second-generation-architectures"
             }
           ],
           "title": "GQI Q3 2026 State of Play: Investment Consolidation, Accelerating Q-Day Horizons, and the Shift to Second-Generation Architectures"
@@ -2328,6 +2380,13 @@
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity"
+            },
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity"
             }
           ],
           "title": "IBM Unveils Meter-Scale Superconducting L-Couplers: Connecting Dual 120-Qubit Processors with 99% State Transfer Fidelity"
@@ -2355,9 +2414,37 @@
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks"
+            },
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks"
             }
           ],
           "title": "IDEMIA and KT Deploy Quantum-Resistant SIMs Supporting Dual NIST and KpqC Algorithms for South Korean Military Networks"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/ionq-deploys-intercontinental-hybrid-qkd-and-pqc-architecture-securing-enterprise-links-between-geneva-and-seoul": {
+      "captures": [
+        {
+          "excerpts": [
+            "This network integrates Quantum Key Distribution (QKD) with Post-Quantum Cryptography (PQC) to protect sensitive data against emerging quantum threats",
+            "IonQ has deployed a hybrid quantum-safe security network connecting its facilities in Geneva, Switzerland, and Seoul, South Korea",
+            "This internal commercial operationalization serves as a blueprint for multinational enterprises and sovereign institutions facing accelerated post-quantum migration deadlines"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/ionq-deploys-intercontinental-hybrid-qkd-and-pqc-architecture-securing-enterprise-links-between-geneva-and-seoul"
+            }
+          ],
+          "title": "IonQ Deploys Intercontinental Hybrid QKD and PQC Architecture Securing Enterprise Links Between Geneva and Seoul"
         }
       ]
     },
@@ -2483,6 +2570,26 @@
             }
           ],
           "title": "New Mexico Deploys JTIP Workforce Grants to Support Quantum Hardware Hiring at IonQ and Bandelier Technologies"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/nist-releases-final-ir-8547-establishing-definitive-post-quantum-cryptography-transition-timeline-and-deprecation-schedules": {
+      "captures": [
+        {
+          "excerpts": [
+            "NIST has released its final roadmap, NIST IR 8547, for transitioning to post-quantum cryptography (PQC) standards, with federal agencies facing binding deadlines to adopt PQC for key establishment by December 31, 2030...",
+            "Classical public-key algorithms will be deprecated after 2030 and disallowed after 2035"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/nist-releases-final-ir-8547-establishing-definitive-post-quantum-cryptography-transition-timeline-and-deprecation-schedules"
+            }
+          ],
+          "title": "NIST Releases Final IR 8547 Establishing Definitive Post-Quantum Cryptography Transition Timeline and Deprecation Schedules"
         }
       ]
     },
@@ -3656,6 +3763,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/quantum-safe-cryptography-keyfactor-maps-five"
+            },
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/quantum-safe-cryptography-keyfactor-maps-five"
             }
           ],
           "title": "Keyfactor maps five stages to quantum-safe cryptography"
@@ -3696,6 +3810,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/quantum-xchange-safe-network-eases-management"
+            },
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/quantum-xchange-safe-network-eases-management"
             }
           ],
           "title": "Quantum XChange eases quantum-safe network management with new console"
@@ -3713,6 +3834,13 @@
             {
               "published_date": "2026-10-27",
               "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/superconducting-qubits-high-fidelity-logical-qubit-operations"
+            },
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-28",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/superconducting-qubits-high-fidelity-logical-qubit-operations"
@@ -5585,6 +5713,13 @@
               "sequence": 0,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/10/26/idemia-secure-transactions-collaborates-with-kt-in-advancing-post-quantum-security-for-south-koreas-defense-communications"
+            },
+            {
+              "published_date": "2026-10-26",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/10/26/idemia-secure-transactions-collaborates-with-kt-in-advancing-post-quantum-security-for-south-koreas-defense-communications"
             }
           ],
           "title": "IDEMIA Secure Transactions Collaborates With KT in Advancing Post-Quantum Security For South Korea’s Defense Communications"
@@ -5701,6 +5836,13 @@
             {
               "published_date": "2026-10-27",
               "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards"
+            },
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-28",
               "sequence": 0,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards"
