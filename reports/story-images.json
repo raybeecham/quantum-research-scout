@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T10:45:39.305043+00:00",
+  "updated_at": "2026-10-28T11:38:23.265705+00:00",
   "records": {
     "https://quantumcomputingreport.com/ionq-deploys-intercontinental-hybrid-qkd-and-pqc-architecture-securing-enterprise-links-between-geneva-and-seoul": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-216.png",
@@ -119,6 +119,11 @@
       "page_url": "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx",
       "status": "failed",
       "fetched_at": "2026-10-27T11:44:57.051776+00:00"
+    },
+    "https://quantumzeitgeist.com/keyfactor-post-quantum-security-you-cant": {
+      "page_url": "https://quantumzeitgeist.com/keyfactor-post-quantum-security-you-cant",
+      "status": "failed",
+      "fetched_at": "2026-10-28T10:45:39.305043+00:00"
     },
     "https://arxiv.org/abs/2610.36711": {
       "page_url": "https://arxiv.org/abs/2610.36711",
@@ -575,12 +580,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-24T23:36:07.768034+00:00",
       "status": "ok"
-    },
-    "https://quantumzeitgeist.com/keyfactor-post-quantum-security-you-cant": {
-      "page_url": "https://quantumzeitgeist.com/keyfactor-post-quantum-security-you-cant",
-      "fetched_at": "2026-10-28T10:45:39.305043+00:00",
-      "status": "failed",
-      "reason": "http_403"
     }
   }
 }
