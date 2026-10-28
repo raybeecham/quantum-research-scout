@@ -524,7 +524,7 @@
           ],
           "observations": [
             {
-              "published_date": "2026-10-26",
+              "published_date": "2026-10-27",
               "report_date": "2026-10-27",
               "sequence": 0,
               "source": "arXiv RSS quant-ph",
@@ -545,7 +545,7 @@
           ],
           "observations": [
             {
-              "published_date": "2026-10-26",
+              "published_date": "2026-10-27",
               "report_date": "2026-10-27",
               "sequence": 0,
               "source": "arXiv RSS quant-ph",
@@ -586,7 +586,7 @@
           ],
           "observations": [
             {
-              "published_date": "2026-10-26",
+              "published_date": "2026-10-27",
               "report_date": "2026-10-27",
               "sequence": 0,
               "source": "arXiv RSS quant-ph",
@@ -614,6 +614,66 @@
             }
           ],
           "title": "SentryBench: A Cost-Sensitive Benchmark for Adversarial Robustness of Tool-Using LLM Agents in Public-Safety Deployments"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.36145": {
+      "captures": [
+        {
+          "excerpts": [
+            "Harvest-now, decrypt-later (HNDL) attacks make the transition to post-quantum cryptography (PQC) urgent for email",
+            "This paper presents a systematic measurement that jointly examines PQC deployment across email service stages, negotiation by communicating peers, and usable message encryption"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2610.36145"
+            }
+          ],
+          "title": "They Will See Johnny's Message: A Measurement Study of Post-Quantum Cryptography Across Email Delivery Paths"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.36711": {
+      "captures": [
+        {
+          "excerpts": [
+            "Reliable evaluation is a critical bottleneck in privacy red-teaming of large language models (LLMs): determining whether a jailbreak response actually reveals personal information can be difficult when disclosures are...",
+            "Existing evaluation approaches increasingly rely on guard models and LLM-as-Judges, yet these evaluators may interpret the same response differently"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2610.36711"
+            }
+          ],
+          "title": "PrivacyEvalClaw: A Tool-Augmented Deliberative Agent for Auditing Privacy Leakage in LLM Jailbreak Responses"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.36808": {
+      "captures": [
+        {
+          "excerpts": [
+            "Stateless post-quantum authenticated key exchanges such as post-quantum WireGuard hedge against unexpected cryptanalytic advances by combining a lattice KEM with code-based Classic McEliece",
+            "However, recent attacks have led Germany's BSI to advise against McEliece, which leaves these protocols with lattices alone"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2610.36808"
+            }
+          ],
+          "title": "HqcLethe: Streaming HQC Encapsulation for Tiny Stateless Servers"
         }
       ]
     },
