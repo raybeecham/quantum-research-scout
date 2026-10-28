@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-28 08:45 UTC_
+_Updated 2026-10-28 09:45 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -17,7 +17,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | White House Science and Technology Missions | watch | 71% | 28 | 0 | 2026-10-28 | 2026-09-29 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 80% | 25 | 0 | 2026-10-28 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 90% | 13 | 0 | 2026-10-28 | 2026-10-23 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 61% | 10 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🔴 failing |
+| Quantum Computing Report | rss | 61% | 10 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 65% | 8 | 0 | 2026-10-26 | 2026-10-21 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 65% | 8 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 8 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
@@ -45,7 +45,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-10-28 | 2026-10-27 | fresh | 🟢 healthy |
 | DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-10-28 | 2026-10-27 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-10-28 | — | reference | 🟢 healthy |
-| DigiCert Blog | rss | 100% | 0 | 0 | 2026-10-28 | 2026-10-26 | fresh | 🟢 healthy |
+| DigiCert Blog | rss | 100% | 0 | 0 | 2026-10-28 | 2026-10-27 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-10-28 | 2026-10-22 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 0 | 2026-10-28 | 2024-03-12 | reference | 🟢 healthy |
 | Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-10-28 | 2026-10-08 | stale | 🟢 healthy |
@@ -102,7 +102,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | SandboxAQ Blog | url | 100% | 0 | 0 | 2026-10-28 | 2026-10-08 | stale | 🟢 healthy |
 | Strategic AI Systems Patents | patent | 99% | 0 | 0 | 2026-10-28 | 2026-10-22 | fresh | 🟢 healthy |
 | Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-10-28 | 2026-10-23 | fresh | 🟢 healthy |
-| The Quantum Insider | rss | 100% | 0 | 0 | 2026-10-28 | 2026-10-27 | fresh | 🟢 healthy |
+| The Quantum Insider | rss | 100% | 0 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
 | Trail of Bits Cryptography | rss | 100% | 0 | 0 | 2026-10-28 | 2026-10-14 | fresh | 🟢 healthy |
 | USAspending · AI Forge | federal_award | 100% | 0 | 0 | 2026-10-28 | 2026-09-28 | stale | 🟢 healthy |
 | USAspending · Advanced Computing | federal_award | 100% | 0 | 0 | 2026-10-28 | 2026-10-19 | fresh | 🟢 healthy |
@@ -124,7 +124,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **101** of **106**
+- Healthy sources: **102** of **106**
 - Partial-coverage sources: **1**
 - Critical sources failing: **0**
 - Partial coverage: SAM.gov Opportunities
