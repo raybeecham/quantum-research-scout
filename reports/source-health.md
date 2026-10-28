@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-28 19:46 UTC_
+_Updated 2026-10-28 20:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -16,8 +16,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 |---|---|---:|---:|---:|---|---|---|---|
 | White House Science and Technology Missions | watch | 73% | 28 | 0 | 2026-10-28 | 2026-09-29 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 81% | 25 | 0 | 2026-10-28 | 2026-09-24 | stale | 🟢 healthy |
-| Department of War Strategic Technology News | watch | 90% | 13 | 0 | 2026-10-28 | 2026-10-23 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 62% | 10 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
+| Department of War Strategic Technology News | watch | 91% | 13 | 0 | 2026-10-28 | 2026-10-23 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 63% | 10 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 65% | 8 | 0 | 2026-10-26 | 2026-10-21 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 65% | 8 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 8 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
@@ -26,7 +26,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv RSS cs.CR | arxiv_rss | 96% | 2 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 96% | 2 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
-| Quantum Zeitgeist | rss | 88% | 1 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
+| Quantum Zeitgeist | rss | 89% | 1 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 21 | 2026-10-28 | 2026-10-27 | fresh | 🟠 partial |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-10-28 | 2026-10-21 | fresh | 🟢 healthy |
 | AWS Security Blog | rss | 100% | 0 | 0 | 2026-10-28 | 2026-10-27 | fresh | 🟢 healthy |
@@ -35,7 +35,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-10-28 | 2026-10-07 | stale | 🟢 healthy |
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-10-28 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-10-28 | 2026-09-29 | stale | 🟢 healthy |
-| CISA Cybersecurity Advisories | rss | 100% | 0 | 0 | 2026-10-28 | 2026-10-27 | fresh | 🟢 healthy |
+| CISA Cybersecurity Advisories | rss | 100% | 0 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-10-28 | 2026-10-26 | fresh | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-10-28 | 2026-10-22 | fresh | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-10-28 | 2026-10-27 | fresh | 🟢 healthy |
