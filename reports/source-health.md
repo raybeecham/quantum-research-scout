@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-28 12:45 UTC_
+_Updated 2026-10-28 13:45 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -17,7 +17,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | White House Science and Technology Missions | watch | 72% | 28 | 0 | 2026-10-28 | 2026-09-29 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 80% | 25 | 0 | 2026-10-28 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 90% | 13 | 0 | 2026-10-28 | 2026-10-23 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 62% | 10 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🔴 failing |
+| Quantum Computing Report | rss | 62% | 10 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 65% | 8 | 0 | 2026-10-26 | 2026-10-21 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 65% | 8 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 8 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
@@ -26,7 +26,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv RSS cs.CR | arxiv_rss | 96% | 2 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 96% | 2 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
-| Quantum Zeitgeist | rss | 89% | 1 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
+| Quantum Zeitgeist | rss | 86% | 1 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🔴 failing |
 | SAM.gov Opportunities | procurement | 98% | 0 | 21 | 2026-10-28 | 2026-10-27 | fresh | 🟠 partial |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-10-28 | 2026-10-21 | fresh | 🟢 healthy |
 | AWS Security Blog | rss | 100% | 0 | 0 | 2026-10-28 | 2026-10-27 | fresh | 🟢 healthy |
@@ -94,7 +94,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | PQShield | rss | 100% | 0 | 0 | 2026-10-28 | 2026-10-23 | fresh | 🟢 healthy |
 | Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-10-28 | 2026-10-22 | fresh | 🟢 healthy |
 | PsiQuantum News | watch | 100% | 0 | 0 | 2026-10-28 | 2026-10-08 | stale | 🟢 healthy |
-| QCi Press Releases | watch | 100% | 0 | 0 | 2026-10-28 | 2026-10-26 | fresh | 🟢 healthy |
+| QCi Press Releases | watch | 100% | 0 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
 | QuEra Press Releases | watch | 100% | 0 | 0 | 2026-10-28 | 2026-10-15 | fresh | 🟢 healthy |
 | QuSecure Press Releases | watch | 100% | 0 | 0 | 2026-10-28 | 2026-09-22 | stale | 🟢 healthy |
 | Quantinuum News | url | 100% | 0 | 0 | 2026-10-28 | 2026-10-19 | fresh | 🟢 healthy |
