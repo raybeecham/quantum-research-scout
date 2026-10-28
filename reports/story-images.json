@@ -1,18 +1,10 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T11:38:23.265705+00:00",
+  "updated_at": "2026-10-28T12:45:11.740196+00:00",
   "records": {
     "https://quantumcomputingreport.com/ionq-deploys-intercontinental-hybrid-qkd-and-pqc-architecture-securing-enterprise-links-between-geneva-and-seoul": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-216.png",
       "page_url": "https://quantumcomputingreport.com/ionq-deploys-intercontinental-hybrid-qkd-and-pqc-architecture-securing-enterprise-links-between-geneva-and-seoul",
-      "publisher": "Quantum Computing Report",
-      "provenance": "og:image",
-      "fetched_at": "2026-10-28T05:33:14.675895+00:00",
-      "status": "ok"
-    },
-    "https://quantumcomputingreport.com/nist-releases-final-ir-8547-establishing-definitive-post-quantum-cryptography-transition-timeline-and-deprecation-schedules": {
-      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-217.png",
-      "page_url": "https://quantumcomputingreport.com/nist-releases-final-ir-8547-establishing-definitive-post-quantum-cryptography-transition-timeline-and-deprecation-schedules",
       "publisher": "Quantum Computing Report",
       "provenance": "og:image",
       "fetched_at": "2026-10-28T05:33:14.675895+00:00",
@@ -24,6 +16,14 @@
       "publisher": "The Quantum Insider",
       "provenance": "og:image",
       "fetched_at": "2026-10-27T19:45:04.137990+00:00",
+      "status": "ok"
+    },
+    "https://quantumcomputingreport.com/nist-releases-final-ir-8547-establishing-definitive-post-quantum-cryptography-transition-timeline-and-deprecation-schedules": {
+      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-217.png",
+      "page_url": "https://quantumcomputingreport.com/nist-releases-final-ir-8547-establishing-definitive-post-quantum-cryptography-transition-timeline-and-deprecation-schedules",
+      "publisher": "Quantum Computing Report",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-28T05:33:14.675895+00:00",
       "status": "ok"
     },
     "https://quantumzeitgeist.com/quantum-xchange-safe-network-eases-management": {
@@ -46,6 +46,11 @@
     },
     "https://quantumzeitgeist.com/hefei-quantum-teleportation-works-surface-code": {
       "page_url": "https://quantumzeitgeist.com/hefei-quantum-teleportation-works-surface-code",
+      "status": "failed",
+      "fetched_at": "2026-10-28T01:45:29.386512+00:00"
+    },
+    "https://quantumzeitgeist.com/quantum-proof-encryption-nist-lays-out": {
+      "page_url": "https://quantumzeitgeist.com/quantum-proof-encryption-nist-lays-out",
       "status": "failed",
       "fetched_at": "2026-10-28T01:45:29.386512+00:00"
     },
@@ -115,11 +120,6 @@
       "status": "failed",
       "fetched_at": "2026-10-27T19:45:04.137990+00:00"
     },
-    "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx": {
-      "page_url": "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx",
-      "status": "failed",
-      "fetched_at": "2026-10-27T11:44:57.051776+00:00"
-    },
     "https://quantumzeitgeist.com/keyfactor-post-quantum-security-you-cant": {
       "page_url": "https://quantumzeitgeist.com/keyfactor-post-quantum-security-you-cant",
       "status": "failed",
@@ -152,11 +152,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-27T13:45:07.013960+00:00",
       "status": "ok"
-    },
-    "https://quantumzeitgeist.com/quantum-proof-encryption-nist-lays-out": {
-      "page_url": "https://quantumzeitgeist.com/quantum-proof-encryption-nist-lays-out",
-      "status": "failed",
-      "fetched_at": "2026-10-28T01:45:29.386512+00:00"
     },
     "https://quantumzeitgeist.com/kerr-cat-qubits-high-fidelity-entangling-gates": {
       "page_url": "https://quantumzeitgeist.com/kerr-cat-qubits-high-fidelity-entangling-gates",
@@ -580,6 +575,26 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-24T23:36:07.768034+00:00",
       "status": "ok"
+    },
+    "https://thequantuminsider.com/2026/10/28/what-nists-post-quantum-cryptography-plan-means-for-companies-and-their-suppliers": {
+      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/10/Reconfiguring-the-enterprise-key-1.png",
+      "page_url": "https://thequantuminsider.com/2026/10/28/what-nists-post-quantum-cryptography-plan-means-for-companies-and-their-suppliers",
+      "publisher": "The Quantum Insider",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-28T12:45:11.740196+00:00",
+      "status": "ok"
+    },
+    "https://quantumzeitgeist.com/aws-adds-encryption-method-guard": {
+      "page_url": "https://quantumzeitgeist.com/aws-adds-encryption-method-guard",
+      "fetched_at": "2026-10-28T12:45:11.740196+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx": {
+      "page_url": "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx",
+      "fetched_at": "2026-10-28T12:45:11.740196+00:00",
+      "status": "failed",
+      "reason": "http_403"
     }
   }
 }
