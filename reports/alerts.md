@@ -4,17 +4,25 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-27 03:23 UTC_
+_Updated 2026-10-28 03:34 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 49 | 6 | 8 | 9 | 32 |
+| 48 | 6 | 11 | 7 | 30 |
+
+## 🔴 Contract: IonQ 🆕
+
+- Severity: **critical**
+- Status: **contract**
+- IonQ matched a contract event: IonQ Awarded $7.5 Million Follow-On Funding from AFRL to Advance Full-Stack Quantum Networking
+- [Open direct evidence](https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx)
+- [Open supporting view](entity-watch.md)
 
 ## 🔴 Critical theme: AI Security
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 AI Security has critical strategic importance and rising momentum.
+- 🔴 AI Security has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: PQC / Crypto Agility
@@ -35,7 +43,7 @@ _Updated 2026-10-27 03:23 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Hardware has critical strategic importance and stable momentum.
+- 🔴 Quantum Hardware has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Networking
@@ -56,7 +64,7 @@ _Updated 2026-10-27 03:23 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Software / Tooling has critical strategic importance and rising momentum.
+- 🔴 Quantum Software / Tooling has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Standards / Government
@@ -66,14 +74,28 @@ _Updated 2026-10-27 03:23 UTC_
 - 🔴 Standards / Government has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: AI Security
+## 🔴 Source failing: Quantum Computing Report 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 64.7% reliability with 10 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: Quantum Zeitgeist 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 84.6% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Actionable signal: Quantum Hardware 🆕
 
 - Severity: **high**
 - Status: **actionable**
-- 🎯 AI Security is actionable with high confidence.
+- 🎯 Quantum Hardware is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Networking 🆕
+## 🟠 Actionable signal: Quantum Networking
 
 - Severity: **high**
 - Status: **actionable**
@@ -87,33 +109,18 @@ _Updated 2026-10-27 03:23 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Software / Tooling
-
-- Severity: **high**
-- Status: **actionable**
-- 🎯 Quantum Software / Tooling is actionable with high confidence.
-- [Open supporting view](signals.md)
-
-## 🟠 Changed: The Genesis Mission: Transforming Science and Energy with AI 🆕
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · qualify
-- [Open direct evidence](https://www.grants.gov/search-results-detail/361526)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Rising momentum: AI Security
+## 🟠 Rising momentum: Quantum Hardware 🆕
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 2 versus 0 in the prior period.
+- ↗️ Recent evidence is 20 versus 13 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Quantum Networking 🆕
+## 🟠 Rising momentum: Quantum Networking
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 6 versus 2 in the prior period.
+- ↗️ Recent evidence is 7 versus 1 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -123,12 +130,13 @@ _Updated 2026-10-27 03:23 UTC_
 - ↗️ Recent evidence is 3 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Quantum Software / Tooling
+## 🟠 Standard: NIST 🆕
 
 - Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 8 versus 5 in the prior period.
-- [Open supporting view](signals.md)
+- Status: **standard**
+- NIST matched a standard event: NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards
+- [Open direct evidence](https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards)
+- [Open supporting view](entity-watch.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
 
@@ -200,13 +208,6 @@ _Updated 2026-10-27 03:23 UTC_
 - The latest dated item is from 2026-08-27; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Post-Quantum Cybersecurity
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-21; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
 ## 🟡 Source stale: Grants.gov · Project Triad
 
 - Severity: **medium**
@@ -247,13 +248,6 @@ _Updated 2026-10-27 03:23 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2025-05-07; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: NIST Research News 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-18; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: NSF Strategic Science and Technology Missions
@@ -340,14 +334,14 @@ _Updated 2026-10-27 03:23 UTC_
 - The latest dated item is from 2025-10-06; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: White House Science and Technology Missions 🆕
+## 🟡 Source stale: White House Science and Technology Missions
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-29; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Wiz Post-Quantum Security 🆕
+## 🟡 Source stale: Wiz Post-Quantum Security
 
 - Severity: **medium**
 - Status: **stale**

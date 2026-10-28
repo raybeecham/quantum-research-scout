@@ -1,7 +1,359 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T03:23:55.540583+00:00",
+  "updated_at": "2026-10-28T03:34:47.595300+00:00",
   "records": {
+    "https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks": {
+      "page_url": "https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks",
+      "resolved_url": "",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "failed",
+      "links": [],
+      "reason": "unsupported_encoding"
+    },
+    "https://thequantuminsider.com/2026/10/26/idemia-secure-transactions-collaborates-with-kt-in-advancing-post-quantum-security-for-south-koreas-defense-communications": {
+      "page_url": "https://thequantuminsider.com/2026/10/26/idemia-secure-transactions-collaborates-with-kt-in-advancing-post-quantum-security-for-south-koreas-defense-communications",
+      "resolved_url": "https://thequantuminsider.com/2026/10/26/idemia-secure-transactions-collaborates-with-kt-in-advancing-post-quantum-security-for-south-koreas-defense-communications/",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test": {
+      "page_url": "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test",
+      "resolved_url": "",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "failed",
+      "links": [],
+      "reason": "http_403"
+    },
+    "https://quantumzeitgeist.com/blockchain-quorum-certificates-post-quantum-bypass-protocol": {
+      "page_url": "https://quantumzeitgeist.com/blockchain-quorum-certificates-post-quantum-bypass-protocol",
+      "resolved_url": "",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "failed",
+      "links": [],
+      "reason": "http_403"
+    },
+    "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography": {
+      "page_url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+      "resolved_url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+          "kind": "government",
+          "label": "Official government source",
+          "title": "released post-quantum cryptography (PQC) standards",
+          "relationship": "publisher_linked",
+          "anchor_text": "released post-quantum cryptography (PQC) standards",
+          "context": "In August 2024, the National Institute of Standards and Technology (NIST) released post-quantum cryptography (PQC) standards made to withstand the assault of a future quantum computer. Now, the agency has released its high-level road map to help organizations switch to these standards.",
+          "referring_url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/ir/8547/final",
+          "kind": "government",
+          "label": "Official government source",
+          "title": "Transition to Post-Quantum Cryptography Standards (NISTIR 8547)",
+          "relationship": "publisher_linked",
+          "anchor_text": "Transition to Post-Quantum Cryptography Standards (NISTIR 8547)",
+          "context": "The report, Transition to Post-Quantum Cryptography Standards (NISTIR 8547), outlines NIST’s official approach and timelines for transitioning away from quantum-vulnerable algorithms to quantum-resistant standards. It is the core technical document meant to inform federal agencies, industry partners and standards organ",
+          "referring_url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        },
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "kind": "government",
+          "label": "Official government source",
+          "title": "Executive Order 14412",
+          "relationship": "publisher_linked",
+          "anchor_text": "Executive Order 14412",
+          "context": "hed the year 2035 as the primary target for completing the migration to PQC across federal systems. Executive Order 14412 accelerated this timeline, requiring federal high-value assets and high-impact systems to migrate by 2030 for key establishment and 2031 for digital signatures. NISTIR 8547 supports these migration",
+          "referring_url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        }
+      ]
+    },
+    "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards": {
+      "page_url": "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards",
+      "resolved_url": "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards/",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+          "kind": "government",
+          "label": "Official government source",
+          "title": "released post-quantum cryptography (PQC) standards",
+          "relationship": "publisher_linked",
+          "anchor_text": "released post-quantum cryptography (PQC) standards",
+          "context": "PRESS RELEASE — In August 2024, the National Institute of Standards and Technology (NIST) released post-quantum cryptography (PQC) standards made to withstand the assault of a future quantum computer. Now, the agency has released its high-level road map to help organizations switch to these standards.",
+          "referring_url": "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards/",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/ir/8547/final",
+          "kind": "government",
+          "label": "Official government source",
+          "title": "Transition to Post-Quantum Cryptography Standards (NISTIR 8547)",
+          "relationship": "publisher_linked",
+          "anchor_text": "Transition to Post-Quantum Cryptography Standards (NISTIR 8547)",
+          "context": "The report, Transition to Post-Quantum Cryptography Standards (NISTIR 8547), outlines NIST’s official approach and timelines for transitioning away from quantum-vulnerable algorithms to quantum-resistant standards. It is the core technical document meant to inform federal agencies, industry partners and standards organ",
+          "referring_url": "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards/",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        },
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "kind": "government",
+          "label": "Official government source",
+          "title": "Executive Order 14412",
+          "relationship": "publisher_linked",
+          "anchor_text": "Executive Order 14412",
+          "context": "hed the year 2035 as the primary target for completing the migration to PQC across federal systems. Executive Order 14412 accelerated this timeline, requiring federal high-value assets and high-impact systems to migrate by 2030 for key establishment and 2031 for digital signatures. NISTIR 8547 supports these migration",
+          "referring_url": "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards/",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/quantum-xchange-safe-network-eases-management": {
+      "page_url": "https://quantumzeitgeist.com/quantum-xchange-safe-network-eases-management",
+      "resolved_url": "",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "failed",
+      "links": [],
+      "reason": "http_403"
+    },
+    "https://quantumzeitgeist.com/quantum-safe-cryptography-keyfactor-maps-five": {
+      "page_url": "https://quantumzeitgeist.com/quantum-safe-cryptography-keyfactor-maps-five",
+      "resolved_url": "",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "failed",
+      "links": [],
+      "reason": "http_403"
+    },
+    "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity": {
+      "page_url": "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity",
+      "resolved_url": "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity/",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2610.29986",
+          "kind": "paper",
+          "label": "Scholarly record or preprint",
+          "title": "arXiv preprint",
+          "relationship": "publisher_linked",
+          "anchor_text": "arXiv preprint",
+          "context": "lers—between two full 120-qubit IBM Quantum Nighthawk R1 superconducting processors. Detailed in an arXiv preprint and an accompanying IBM Research technical overview, the deployment achieved an average inter-chip quantum state transfer fidelity of 99.00% (peaking at 99.29%) and supported inter-processor distant CZ ent",
+          "referring_url": "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity/",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        },
+        {
+          "url": "https://www.ibm.com/quantum/blog/connecting-quantum-processors-with-l-couplers",
+          "kind": "technical",
+          "label": "Official technical source",
+          "title": "IBM Research technical overview",
+          "relationship": "publisher_linked",
+          "anchor_text": "IBM Research technical overview",
+          "context": "Quantum Nighthawk R1 superconducting processors. Detailed in an arXiv preprint and an accompanying IBM Research technical overview, the deployment achieved an average inter-chip quantum state transfer fidelity of 99.00% (peaking at 99.29%) and supported inter-processor distant CZ entangling gates averaging 94.75% fide",
+          "referring_url": "https://quantumcomputingreport.com/ibm-unveils-meter-scale-superconducting-l-couplers-connecting-dual-120-qubit-processors-with-99-state-transfer-fidelity/",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/superconducting-qubits-high-fidelity-logical-qubit-operations": {
+      "page_url": "https://quantumzeitgeist.com/superconducting-qubits-high-fidelity-logical-qubit-operations",
+      "resolved_url": "",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "failed",
+      "links": [],
+      "reason": "http_403"
+    },
+    "https://quantumcomputingreport.com/gqi-q3-2026-state-of-play-investment-consolidation-accelerating-q-day-horizons-and-the-shift-to-second-generation-architectures": {
+      "page_url": "https://quantumcomputingreport.com/gqi-q3-2026-state-of-play-investment-consolidation-accelerating-q-day-horizons-and-the-shift-to-second-generation-architectures",
+      "resolved_url": "",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "failed",
+      "links": [],
+      "reason": "unsupported_encoding"
+    },
+    "https://quantumzeitgeist.com/hefei-quantum-teleportation-works-surface-code": {
+      "page_url": "https://quantumzeitgeist.com/hefei-quantum-teleportation-works-surface-code",
+      "resolved_url": "",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "failed",
+      "links": [],
+      "reason": "http_403"
+    },
+    "https://quantumcomputingreport.com/ionq-secures-7-5-million-phase-2-afrl-allocation-to-expand-rome-ny-quantum-network-with-free-space-optics-and-frequency-conversion": {
+      "page_url": "https://quantumcomputingreport.com/ionq-secures-7-5-million-phase-2-afrl-allocation-to-expand-rome-ny-quantum-network-with-free-space-optics-and-frequency-conversion",
+      "resolved_url": "https://quantumcomputingreport.com/ionq-secures-7-5-million-phase-2-afrl-allocation-to-expand-rome-ny-quantum-network-with-free-space-optics-and-frequency-conversion/",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumzeitgeist.com/quantum-proof-encryption-nist-lays-out": {
+      "page_url": "https://quantumzeitgeist.com/quantum-proof-encryption-nist-lays-out",
+      "resolved_url": "",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "failed",
+      "links": [],
+      "reason": "http_403"
+    },
+    "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx": {
+      "page_url": "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx",
+      "resolved_url": "",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "failed",
+      "links": [],
+      "reason": "http_403"
+    },
+    "https://quantumzeitgeist.com/keyfactor-post-quantum-security-you-cant": {
+      "page_url": "https://quantumzeitgeist.com/keyfactor-post-quantum-security-you-cant",
+      "resolved_url": "",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "failed",
+      "links": [],
+      "reason": "http_403"
+    },
+    "https://quantum-journal.org/papers/q-2026-10-27-2249": {
+      "page_url": "https://quantum-journal.org/papers/q-2026-10-27-2249",
+      "resolved_url": "",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "failed",
+      "links": [],
+      "reason": "article_body_unavailable"
+    },
+    "https://thequantuminsider.com/2026/10/27/beyond-binary-quantum-computing-exploring-higher-dimensional-qudits": {
+      "page_url": "https://thequantuminsider.com/2026/10/27/beyond-binary-quantum-computing-exploring-higher-dimensional-qudits",
+      "resolved_url": "https://thequantuminsider.com/2026/10/27/beyond-binary-quantum-computing-exploring-higher-dimensional-qudits/",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://huggingface.co/blog/allenai/novelty-bench": {
+      "page_url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "resolved_url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2610.02022",
+          "kind": "paper",
+          "label": "Scholarly record or preprint",
+          "title": "Paper",
+          "relationship": "publisher_linked",
+          "anchor_text": "Paper",
+          "context": "📄 Paper | 📊 Data | 💻 Code",
+          "referring_url": "https://huggingface.co/blog/allenai/novelty-bench",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/quantum-art-unveils-geometric-quantum-algorithm-for-wave-propagation-bypassing-condition-number-bottlenecks": {
+      "page_url": "https://quantumcomputingreport.com/quantum-art-unveils-geometric-quantum-algorithm-for-wave-propagation-bypassing-condition-number-bottlenecks",
+      "resolved_url": "https://quantumcomputingreport.com/quantum-art-unveils-geometric-quantum-algorithm-for-wave-propagation-bypassing-condition-number-bottlenecks/",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://arxiv.org/pdf/2609.10282",
+          "kind": "paper",
+          "label": "Scholarly record or preprint",
+          "title": "Solving wave propagation problems via geometric quantum state preparation on dispersion manifolds",
+          "relationship": "publisher_linked",
+          "anchor_text": "Solving wave propagation problems via geometric quantum state preparation on dispersion manifolds",
+          "context": "mathematical foundations underpinning its wave-simulation framework in a research preprint titled “Solving wave propagation problems via geometric quantum state preparation on dispersion manifolds. The research expands upon the company’s initial May 2026 electromagnetic demonstration with an Israeli government agency,",
+          "referring_url": "https://quantumcomputingreport.com/quantum-art-unveils-geometric-quantum-algorithm-for-wave-propagation-bypassing-condition-number-bottlenecks/",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.10282",
+          "kind": "paper",
+          "label": "Scholarly record or preprint",
+          "title": "here",
+          "relationship": "publisher_linked",
+          "anchor_text": "here",
+          "context": "Read the research preprint on the arXiv repository here and review the commercial announcement via PR Newswire here.",
+          "referring_url": "https://quantumcomputingreport.com/quantum-art-unveils-geometric-quantum-algorithm-for-wave-propagation-bypassing-condition-number-bottlenecks/",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        }
+      ]
+    },
+    "https://www.digicert.com/blog/what-users-need-to-know-about-x9-pki-certificates": {
+      "page_url": "https://www.digicert.com/blog/what-users-need-to-know-about-x9-pki-certificates",
+      "resolved_url": "https://www.digicert.com/blog/what-users-need-to-know-about-x9-pki-certificates",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547": {
+      "page_url": "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547",
+      "resolved_url": "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+          "kind": "government",
+          "label": "Official government source",
+          "title": "released post-quantum cryptography (PQC) standards",
+          "relationship": "publisher_linked",
+          "anchor_text": "released post-quantum cryptography (PQC) standards",
+          "context": "In August 2024, NIST released post-quantum cryptography (PQC) standards, made to withstand the assault of a future quantum computer. Now, the agency has released its high-level road map to help organizations switch to these standards.",
+          "referring_url": "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/ir/8547/final",
+          "kind": "government",
+          "label": "Official government source",
+          "title": "Transition to Post-Quantum Cryptography Standards",
+          "relationship": "publisher_linked",
+          "anchor_text": "Transition to Post-Quantum Cryptography Standards",
+          "context": "The report, Transition to Post-Quantum Cryptography Standards (NIST IR 8547), outlines NIST’s official approach and timelines for transitioning away from quantum-vulnerable algorithms to quantum-resistant standards. It is the core technical document meant to inform federal agencies, industry partners, and standards org",
+          "referring_url": "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        },
+        {
+          "url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+          "kind": "government",
+          "label": "Official government source",
+          "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
+          "relationship": "publisher_linked",
+          "anchor_text": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
+          "context": "For an overview, see the NIST article NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards.",
+          "referring_url": "https://csrc.nist.gov/News/2026/transition-to-pqc-standards-nist-ir-8547",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        }
+      ]
+    },
+    "https://www.keyfactor.com/blog/the-5-stages-of-pqc-readiness-a-practical-framework-for-enterprise-migration": {
+      "page_url": "https://www.keyfactor.com/blog/the-5-stages-of-pqc-readiness-a-practical-framework-for-enterprise-migration",
+      "resolved_url": "https://www.keyfactor.com/blog/the-5-stages-of-pqc-readiness-a-practical-framework-for-enterprise-migration/",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://www.keyfactor.com/blog/pqc-readiness-stage-4-how-agility-and-automation-enable-pqc-migration-at-scale": {
+      "page_url": "https://www.keyfactor.com/blog/pqc-readiness-stage-4-how-agility-and-automation-enable-pqc-migration-at-scale",
+      "resolved_url": "https://www.keyfactor.com/blog/pqc-readiness-stage-4-how-agility-and-automation-enable-pqc-migration-at-scale/",
+      "fetched_at": "2026-10-28T03:34:47.595300+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://csrc.nist.gov/pubs/cswp/39/upd1/considerations-for-achieving-crypto-agility/final",
+          "kind": "government",
+          "label": "Official government source",
+          "title": "NIST CSWP 39",
+          "relationship": "publisher_linked",
+          "anchor_text": "NIST CSWP 39",
+          "context": "Cryptographic agility makes that possible. The recently updated NIST CSWP 39 describes it as the capability to replace and adapt cryptographic algorithms while preserving security and ongoing operations. Automated certificate lifecycle management makes it practical at enterprise scale, and Keyfactor’s guide explains wh",
+          "referring_url": "https://www.keyfactor.com/blog/pqc-readiness-stage-4-how-agility-and-automation-enable-pqc-migration-at-scale/",
+          "discovered_at": "2026-10-28T03:34:47.595300+00:00"
+        }
+      ]
+    },
     "https://quantumcomputingreport.com/arqit-invests-in-sirius-to-scale-tactical-edge-quantum-safe-networking-following-nato-contract-selection": {
       "page_url": "https://quantumcomputingreport.com/arqit-invests-in-sirius-to-scale-tactical-edge-quantum-safe-networking-following-nato-contract-selection",
       "resolved_url": "https://quantumcomputingreport.com/arqit-invests-in-sirius-to-scale-tactical-edge-quantum-safe-networking-following-nato-contract-selection/",
@@ -71,28 +423,6 @@
       "status": "no_links",
       "links": []
     },
-    "https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks": {
-      "page_url": "https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks",
-      "resolved_url": "https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks/",
-      "fetched_at": "2026-10-27T03:23:55.540583+00:00",
-      "status": "no_links",
-      "links": []
-    },
-    "https://thequantuminsider.com/2026/10/26/idemia-secure-transactions-collaborates-with-kt-in-advancing-post-quantum-security-for-south-koreas-defense-communications": {
-      "page_url": "https://thequantuminsider.com/2026/10/26/idemia-secure-transactions-collaborates-with-kt-in-advancing-post-quantum-security-for-south-koreas-defense-communications",
-      "resolved_url": "https://thequantuminsider.com/2026/10/26/idemia-secure-transactions-collaborates-with-kt-in-advancing-post-quantum-security-for-south-koreas-defense-communications/",
-      "fetched_at": "2026-10-27T03:23:55.540583+00:00",
-      "status": "no_links",
-      "links": []
-    },
-    "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test": {
-      "page_url": "https://quantumzeitgeist.com/kt-quantum-safe-sims-idemia-test",
-      "resolved_url": "",
-      "fetched_at": "2026-10-27T03:23:55.540583+00:00",
-      "status": "failed",
-      "links": [],
-      "reason": "http_403"
-    },
     "https://thequantuminsider.com/2026/10/26/quantum-art-research-outlines-more-efficient-quantum-approach-to-wave-modeling": {
       "page_url": "https://thequantuminsider.com/2026/10/26/quantum-art-research-outlines-more-efficient-quantum-approach-to-wave-modeling",
       "resolved_url": "https://thequantuminsider.com/2026/10/26/quantum-art-research-outlines-more-efficient-quantum-approach-to-wave-modeling/",
@@ -111,14 +441,6 @@
           "discovered_at": "2026-10-27T03:23:55.540583+00:00"
         }
       ]
-    },
-    "https://quantumzeitgeist.com/blockchain-quorum-certificates-post-quantum-bypass-protocol": {
-      "page_url": "https://quantumzeitgeist.com/blockchain-quorum-certificates-post-quantum-bypass-protocol",
-      "resolved_url": "",
-      "fetched_at": "2026-10-27T03:23:55.540583+00:00",
-      "status": "failed",
-      "links": [],
-      "reason": "http_403"
     },
     "https://thequantuminsider.com/2026/10/26/ramdeobaba-university-and-qclairvoyance-quantum-labs-to-set-up-quantum-software-and-quantum-communication-labs-in-nagpur": {
       "page_url": "https://thequantuminsider.com/2026/10/26/ramdeobaba-university-and-qclairvoyance-quantum-labs-to-set-up-quantum-software-and-quantum-communication-labs-in-nagpur",
@@ -290,56 +612,6 @@
     "https://thequantuminsider.com/2026/10/21/qbraid-announces-qbraid-os-for-operating-quantum-computing-services": {
       "page_url": "https://thequantuminsider.com/2026/10/21/qbraid-announces-qbraid-os-for-operating-quantum-computing-services",
       "resolved_url": "https://thequantuminsider.com/2026/10/21/qbraid-announces-qbraid-os-for-operating-quantum-computing-services/",
-      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
-      "status": "no_links",
-      "links": []
-    },
-    "https://thequantuminsider.com/2026/10/20/nowsecure-97-percent-mobile-apps-no-pqc-code": {
-      "page_url": "https://thequantuminsider.com/2026/10/20/nowsecure-97-percent-mobile-apps-no-pqc-code",
-      "resolved_url": "https://thequantuminsider.com/2026/10/20/nowsecure-97-percent-mobile-apps-no-pqc-code/",
-      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
-      "status": "no_links",
-      "links": []
-    },
-    "https://thequantuminsider.com/2026/10/20/project-eleven-relm-post-quantum-risk-digital-asset-insurance": {
-      "page_url": "https://thequantuminsider.com/2026/10/20/project-eleven-relm-post-quantum-risk-digital-asset-insurance",
-      "resolved_url": "https://thequantuminsider.com/2026/10/20/project-eleven-relm-post-quantum-risk-digital-asset-insurance/",
-      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
-      "status": "no_links",
-      "links": []
-    },
-    "https://thequantuminsider.com/2026/10/20/arqit-invests-sirius-quantum-safe-defence-communications": {
-      "page_url": "https://thequantuminsider.com/2026/10/20/arqit-invests-sirius-quantum-safe-defence-communications",
-      "resolved_url": "https://thequantuminsider.com/2026/10/20/arqit-invests-sirius-quantum-safe-defence-communications/",
-      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
-      "status": "no_links",
-      "links": []
-    },
-    "https://thequantuminsider.com/2026/10/20/tokenised-finance-quantum-security": {
-      "page_url": "https://thequantuminsider.com/2026/10/20/tokenised-finance-quantum-security",
-      "resolved_url": "https://thequantuminsider.com/2026/10/20/tokenised-finance-quantum-security/",
-      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
-      "status": "no_links",
-      "links": []
-    },
-    "https://thequantuminsider.com/2026/10/20/darpa-10-million-xanadu-quantum-research": {
-      "page_url": "https://thequantuminsider.com/2026/10/20/darpa-10-million-xanadu-quantum-research",
-      "resolved_url": "https://thequantuminsider.com/2026/10/20/darpa-10-million-xanadu-quantum-research/",
-      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
-      "status": "no_links",
-      "links": []
-    },
-    "https://quantum-journal.org/papers/q-2026-10-20-2238": {
-      "page_url": "https://quantum-journal.org/papers/q-2026-10-20-2238",
-      "resolved_url": "",
-      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
-      "status": "failed",
-      "links": [],
-      "reason": "article_body_unavailable"
-    },
-    "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report": {
-      "page_url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
-      "resolved_url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
       "fetched_at": "2026-10-25T02:50:08.029835+00:00",
       "status": "no_links",
       "links": []
@@ -729,6 +1001,56 @@
           "discovered_at": "2026-10-26T00:54:42.501912+00:00"
         }
       ]
+    },
+    "https://thequantuminsider.com/2026/10/20/nowsecure-97-percent-mobile-apps-no-pqc-code": {
+      "page_url": "https://thequantuminsider.com/2026/10/20/nowsecure-97-percent-mobile-apps-no-pqc-code",
+      "resolved_url": "https://thequantuminsider.com/2026/10/20/nowsecure-97-percent-mobile-apps-no-pqc-code/",
+      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://thequantuminsider.com/2026/10/20/project-eleven-relm-post-quantum-risk-digital-asset-insurance": {
+      "page_url": "https://thequantuminsider.com/2026/10/20/project-eleven-relm-post-quantum-risk-digital-asset-insurance",
+      "resolved_url": "https://thequantuminsider.com/2026/10/20/project-eleven-relm-post-quantum-risk-digital-asset-insurance/",
+      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://thequantuminsider.com/2026/10/20/arqit-invests-sirius-quantum-safe-defence-communications": {
+      "page_url": "https://thequantuminsider.com/2026/10/20/arqit-invests-sirius-quantum-safe-defence-communications",
+      "resolved_url": "https://thequantuminsider.com/2026/10/20/arqit-invests-sirius-quantum-safe-defence-communications/",
+      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://thequantuminsider.com/2026/10/20/tokenised-finance-quantum-security": {
+      "page_url": "https://thequantuminsider.com/2026/10/20/tokenised-finance-quantum-security",
+      "resolved_url": "https://thequantuminsider.com/2026/10/20/tokenised-finance-quantum-security/",
+      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://thequantuminsider.com/2026/10/20/darpa-10-million-xanadu-quantum-research": {
+      "page_url": "https://thequantuminsider.com/2026/10/20/darpa-10-million-xanadu-quantum-research",
+      "resolved_url": "https://thequantuminsider.com/2026/10/20/darpa-10-million-xanadu-quantum-research/",
+      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantum-journal.org/papers/q-2026-10-20-2238": {
+      "page_url": "https://quantum-journal.org/papers/q-2026-10-20-2238",
+      "resolved_url": "",
+      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
+      "status": "failed",
+      "links": [],
+      "reason": "article_body_unavailable"
+    },
+    "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report": {
+      "page_url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
+      "resolved_url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
+      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
+      "status": "no_links",
+      "links": []
     },
     "https://quantumcomputingreport.com/chinese-startup-flipflop-tuoyuan-emerges-with-major-vc-backing-for-100-logical-qubit-neutral-atom-systems": {
       "page_url": "https://quantumcomputingreport.com/chinese-startup-flipflop-tuoyuan-emerges-with-major-vc-backing-for-100-logical-qubit-neutral-atom-systems",

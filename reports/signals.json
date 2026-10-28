@@ -227,13 +227,22 @@
           "source": "Thales Cybersecurity Blog",
           "title": "Agentic AI Security Risks in Manufacturing | Thales",
           "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
+        },
+        {
+          "date": "2026-10-27",
+          "key": "https://huggingface.co/blog/allenai/novelty-bench",
+          "report": "2026-10/2026-10-27-digest.md",
+          "score": 25,
+          "source": "Hugging Face Technical Blog",
+          "title": "Can we trust LLMs to judge whether a research idea is novel?",
+          "url": "https://huggingface.co/blog/allenai/novelty-bench"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-10-20",
-      "momentum": "rising",
+      "latest_seen": "2026-10-27",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "arXiv RSS cs.CR",
@@ -241,9 +250,9 @@
         "Quantum Computing Report",
         "The Quantum Insider"
       ],
-      "prior_count": 0,
-      "recent_count": 2,
-      "status": "actionable"
+      "prior_count": 2,
+      "recent_count": 1,
+      "status": "watching"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -3145,12 +3154,21 @@
           "source": "Quantum Computing Report",
           "title": "IDEMIA and KT Deploy Quantum-Resistant SIMs Supporting Dual NIST and KpqC Algorithms for South Korean Military Networks",
           "url": "https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks"
+        },
+        {
+          "date": "2026-10-27",
+          "key": "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards",
+          "report": "2026-10/2026-10-27-digest.md",
+          "score": 102,
+          "source": "The Quantum Insider",
+          "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
+          "url": "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-10-26",
+      "latest_seen": "2026-10-27",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -3159,8 +3177,8 @@
         "IACR ePrint",
         "Quantum Computing Report"
       ],
-      "prior_count": 24,
-      "recent_count": 23,
+      "prior_count": 25,
+      "recent_count": 20,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -7226,13 +7244,31 @@
           "source": "The Quantum Insider",
           "title": "Quantum Art Research Outlines More Efficient Quantum Approach to Wave Modeling",
           "url": "https://thequantuminsider.com/2026/10/26/quantum-art-research-outlines-more-efficient-quantum-approach-to-wave-modeling"
+        },
+        {
+          "date": "2026-10-27",
+          "key": "https://thequantuminsider.com/2026/10/27/beyond-binary-quantum-computing-exploring-higher-dimensional-qudits",
+          "report": "2026-10/2026-10-27-digest.md",
+          "score": 17,
+          "source": "The Quantum Insider",
+          "title": "Beyond Binary Quantum Computing: Exploring Higher-Dimensional Qudits",
+          "url": "https://thequantuminsider.com/2026/10/27/beyond-binary-quantum-computing-exploring-higher-dimensional-qudits"
+        },
+        {
+          "date": "2026-10-27",
+          "key": "https://thequantuminsider.com/2026/10/27/ibm-connects-two-120-qubit-processors-with-99-state-transfer-fidelity",
+          "report": "2026-10/2026-10-27-digest.md",
+          "score": 56,
+          "source": "The Quantum Insider",
+          "title": "IBM Connects Two 120-Qubit Processors With 99% State-Transfer Fidelity",
+          "url": "https://thequantuminsider.com/2026/10/27/ibm-connects-two-120-qubit-processors-with-99-state-transfer-fidelity"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-10-26",
-      "momentum": "stable",
+      "latest_seen": "2026-10-27",
+      "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
@@ -7240,9 +7276,9 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 14,
-      "recent_count": 19,
-      "status": "watching"
+      "prior_count": 13,
+      "recent_count": 20,
+      "status": "actionable"
     },
     "Quantum Networking": {
       "confidence": "high",
@@ -8650,12 +8686,21 @@
           "source": "The Quantum Insider",
           "title": "Ramdeobaba University and QClairvoyance Quantum Labs to Set Up Quantum Software and Quantum Communication Labs in Nagpur",
           "url": "https://thequantuminsider.com/2026/10/26/ramdeobaba-university-and-qclairvoyance-quantum-labs-to-set-up-quantum-software-and-quantum-communication-labs-in-nagpur"
+        },
+        {
+          "date": "2026-10-27",
+          "key": "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx",
+          "report": "2026-10/2026-10-27-digest.md",
+          "score": 73,
+          "source": "IonQ News",
+          "title": "IonQ Awarded $7.5 Million Follow-On Funding from AFRL to Advance Full-Stack Quantum Networking",
+          "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-10-26",
+      "latest_seen": "2026-10-27",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -8664,8 +8709,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 2,
-      "recent_count": 6,
+      "prior_count": 1,
+      "recent_count": 7,
       "status": "actionable"
     },
     "Quantum Sensing": {
@@ -10184,13 +10229,22 @@
           "source": "Quantum Computing Report",
           "title": "RhymeQ Joins NVIDIA Inception Program and Announces Technical Collaboration on NOOA Agentic AI Framework",
           "url": "https://quantumcomputingreport.com/rhymeq-joins-nvidia-inception-program-and-announces-technical-collaboration-on-nooa-agentic-ai-framework"
+        },
+        {
+          "date": "2026-10-27",
+          "key": "https://quantum-journal.org/papers/q-2026-10-27-2249",
+          "report": "2026-10/2026-10-27-digest.md",
+          "score": 44,
+          "source": "Quantum Journal",
+          "title": "A General Framework for Gradient-Based Optimization of Superconducting Quantum Circuits using Qubit Discovery as a Case Study",
+          "url": "https://quantum-journal.org/papers/q-2026-10-27-2249"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-10-23",
-      "momentum": "rising",
+      "latest_seen": "2026-10-27",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -10198,9 +10252,9 @@
         "Quantum Computing Report",
         "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 5,
-      "recent_count": 8,
-      "status": "actionable"
+      "prior_count": 8,
+      "recent_count": 5,
+      "status": "watching"
     },
     "Standards / Government": {
       "confidence": "high",
@@ -10916,6 +10970,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-10-27T03:23:12.929453+00:00",
+  "updated_at": "2026-10-28T03:34:02.257179+00:00",
   "version": 1
 }

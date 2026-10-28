@@ -842,9 +842,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 11,
+      "evidence_count": 12,
       "historical_evidence_count": 1,
-      "latest_evidence_at": "2026-10-26",
+      "latest_evidence_at": "2026-10-27",
       "name": "NIST",
       "priority": "critical",
       "source_count": 6,
@@ -881,6 +881,21 @@
           "source": "Keyfactor Quantum and Crypto-Agility",
           "title": "NIST Makes Crypto-Agility Official \u2014 Now What?",
           "url": "https://www.keyfactor.com/blog/nist-makes-crypto-agility-official-now-what/"
+        },
+        {
+          "date": "2026-10-27",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "The Quantum Insider",
+          "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
+          "url": "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards"
         },
         {
           "date": "2026-10-26",
@@ -957,21 +972,6 @@
           "source": "Quantum Zeitgeist",
           "title": "Crypto4A\u2019s module supports all NIST post-quantum algorithms",
           "url": "https://quantumzeitgeist.com/post-quantum-algorithms-crypto4as-module-supports"
-        },
-        {
-          "date": "2026-08-13",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "quantum-safe"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Quantum Zeitgeist",
-          "title": "QoreChain runs NIST\u2019s quantum-safe tools on a live blockchain",
-          "url": "https://quantumzeitgeist.com/qorechain-runs-nists-quantum-safe-tools"
         }
       ],
       "type": "government"
@@ -2088,6 +2088,6 @@
     "not_assessed": 19,
     "organizations": 43
   },
-  "updated_at": "2026-10-27T03:23:13.827071+00:00",
+  "updated_at": "2026-10-28T03:34:03.116503+00:00",
   "version": 1
 }

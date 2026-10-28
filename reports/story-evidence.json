@@ -1277,6 +1277,23 @@
         }
       ]
     },
+    "https://huggingface.co/blog/allenai/novelty-bench": {
+      "captures": [
+        {
+          "excerpts": [],
+          "observations": [
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "Hugging Face Technical Blog",
+              "url": "https://huggingface.co/blog/allenai/novelty-bench"
+            }
+          ],
+          "title": "Can we trust LLMs to judge whether a research idea is novel?"
+        }
+      ]
+    },
     "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx": {
       "captures": [
         {
@@ -1574,6 +1591,27 @@
             }
           ],
           "title": "The three kinds of three-qubit entanglement"
+        }
+      ]
+    },
+    "https://quantum-journal.org/papers/q-2026-10-27-2249": {
+      "captures": [
+        {
+          "excerpts": [
+            "Quantum 10, 2249 (2026). https://doi.org/10.22331/q-2026-10-27-2249 Engineering the Hamiltonian of a quantum system is fundamental to the design of quantum systems",
+            "Automating Hamiltonian design through gradient-based optimization can dramatically accelerate this process",
+            "However, computing the gradients of eigenvalues and eigenvectors of a Hamiltonian–a large, sparse matrix–relative to system properties poses a significant challenge, especially for arbitrary systems"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "Quantum Journal",
+              "url": "https://quantum-journal.org/papers/q-2026-10-27-2249"
+            }
+          ],
+          "title": "A General Framework for Gradient-Based Optimization of Superconducting Quantum Circuits using Qubit Discovery as a Case Study"
         }
       ]
     },
@@ -5549,6 +5587,26 @@
             }
           ],
           "title": "Ramdeobaba University and QClairvoyance Quantum Labs to Set Up Quantum Software and Quantum Communication Labs in Nagpur"
+        }
+      ]
+    },
+    "https://thequantuminsider.com/2026/10/27/beyond-binary-quantum-computing-exploring-higher-dimensional-qudits": {
+      "captures": [
+        {
+          "excerpts": [
+            "Quantum computing is often talked about in terms of qubits, the quantum equivalent of a classical binary bit",
+            "But what if the most efficient way to process quantum information is not always binary?"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-27",
+              "report_date": "2026-10-27",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/10/27/beyond-binary-quantum-computing-exploring-higher-dimensional-qudits"
+            }
+          ],
+          "title": "Beyond Binary Quantum Computing: Exploring Higher-Dimensional Qudits"
         }
       ]
     },

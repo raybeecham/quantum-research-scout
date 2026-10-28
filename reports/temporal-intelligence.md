@@ -2,23 +2,19 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-10-27T03:13:25.256610+00:00_
+_Updated 2026-10-28T03:27:34.420498+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **0**
-- Newly discovered historical evidence: **8**
+- Actual or recent changes: **4**
+- Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **12**
 
 ## Priority timeline
 
-- **Evidence trace changed** · The Genesis Mission: Transforming Science and Energy with AI — qualification gate ([evidence](https://www.grants.gov/search-results-detail/361526))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
-- **Newly discovered historical evidence** · DCSC-26-SAS-65 - PIV-I ISSUANCE AND MAINTENANCE SERVICES. BASE YEAR WITH THREE (3) OPTION YEARS. BASE YEAR: $205,485.00. POTENTIAL VALUE WITH ALL OPTION EXERCISED: $633,380. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_95C67826P0387_9534_-NONE-_-NONE-))
-  - Frontier Signal first observed this on 2026-10-27; the source date is 2026-09-30.
-- **Newly discovered historical evidence** · SBIR PHASE I METAL FLUORIDE PURIFICATION AND MICROGRAVITY FIBER PREFORM MANUFACTURING FOR FIBER MEMORY LOOPS IN QUANTUM COMPUTING — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0042_8000_-NONE-_-NONE-))
-  - Frontier Signal first observed this on 2026-10-27; the source date is 2026-09-30.
+- **Published today** · Cybersecurity and Information Assurance — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/bf0cc659208a4fe59ff56b55dbda53e0/view))
+  - The source publication date is today or within the prior day.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

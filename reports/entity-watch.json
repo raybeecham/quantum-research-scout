@@ -140,7 +140,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 19,
+      "evidence_count": 20,
       "first_party_evidence_count": 0,
       "name": "NIST",
       "priority": "critical",
@@ -384,7 +384,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 40,
+      "evidence_count": 41,
       "first_party_evidence_count": 6,
       "name": "IBM",
       "priority": "high",
@@ -421,8 +421,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 27,
-      "first_party_evidence_count": 2,
+      "evidence_count": 28,
+      "first_party_evidence_count": 3,
       "name": "IonQ",
       "priority": "high",
       "status": "covered",
@@ -739,8 +739,20 @@
         "National Institute of Standards and Technology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 18,
+      "current_evidence_count": 19,
       "evidence": [
+        {
+          "date": "2026-10-27",
+          "key": "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards",
+          "report": "2026-10/2026-10-27-digest.md",
+          "score": 102,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
+          "url": "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards"
+        },
         {
           "date": "2026-10-26",
           "key": "https://quantumcomputingreport.com/idemia-and-kt-deploy-quantum-resistant-sims-supporting-dual-nist-and-kpqc-algorithms-for-south-korean-military-networks",
@@ -982,15 +994,15 @@
           "url": "https://www.keyfactor.com/blog/nist-makes-crypto-agility-official-now-what/"
         }
       ],
-      "evidence_count": 19,
+      "evidence_count": 20,
       "first_seen": "2026-01-06",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-10-26",
+      "latest_seen": "2026-10-27",
       "momentum": "rising",
       "name": "NIST",
       "prior_count": 0,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -1007,8 +1019,20 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 33,
+      "current_evidence_count": 34,
       "evidence": [
+        {
+          "date": "2026-10-27",
+          "key": "https://thequantuminsider.com/2026/10/27/ibm-connects-two-120-qubit-processors-with-99-state-transfer-fidelity",
+          "report": "2026-10/2026-10-27-digest.md",
+          "score": 56,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM Connects Two 120-Qubit Processors With 99% State-Transfer Fidelity",
+          "url": "https://thequantuminsider.com/2026/10/27/ibm-connects-two-120-qubit-processors-with-99-state-transfer-fidelity"
+        },
         {
           "alert_eligible": false,
           "category": "Quantum Software / Tooling",
@@ -1560,29 +1584,17 @@
           ],
           "title": "Quantum Simulation Maps QCD\u2082 Interaction on 100+ Qubit IBM Chip",
           "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%e2%82%82-ibm-maps"
-        },
-        {
-          "date": "2026-06-23",
-          "key": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps",
-          "report": "2026-06/2026-06-23-digest.md",
-          "score": 34,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantum Simulation Maps QCD\u2082 Interaction on 100+ Qubit IBM Chip",
-          "url": "https://quantumzeitgeist.com/quantum-simulation-qcd%E2%82%82-ibm-maps"
         }
       ],
-      "evidence_count": 40,
+      "evidence_count": 41,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 7,
-      "latest_seen": "2026-10-22",
-      "momentum": "stable",
+      "latest_seen": "2026-10-27",
+      "momentum": "rising",
       "name": "IBM",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "AI Security",
@@ -2821,8 +2833,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 27,
+      "current_evidence_count": 28,
       "evidence": [
+        {
+          "date": "2026-10-27",
+          "key": "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx",
+          "report": "2026-10/2026-10-27-digest.md",
+          "score": 73,
+          "source": "IonQ News",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "IonQ Awarded $7.5 Million Follow-On Funding from AFRL to Advance Full-Stack Quantum Networking",
+          "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx"
+        },
         {
           "date": "2026-10-24",
           "key": "https://quantumcomputingreport.com/new-mexico-deploys-jtip-workforce-grants-to-support-quantum-hardware-hiring-at-ionq-and-bandelier-technologies",
@@ -3148,15 +3172,15 @@
           "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
         }
       ],
-      "evidence_count": 27,
+      "evidence_count": 28,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-10-24",
-      "momentum": "stable",
+      "latest_seen": "2026-10-27",
+      "momentum": "rising",
       "name": "IonQ",
       "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -4455,9 +4479,9 @@
       "first_seen": "2026-07-03",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-23",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "PQShield",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -4829,7 +4853,7 @@
       "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "QEC / Fault Tolerance",
@@ -5976,11 +6000,11 @@
       "first_seen": "2026-08-04",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-20",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Thales",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "AI Security",
@@ -6452,7 +6476,7 @@
       "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
-      "status": "quiet",
+      "status": "dormant",
       "themes": [
         "Quantum Software / Tooling",
         "Standards / Government"
@@ -6949,9 +6973,9 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-13",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Infleqtion",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "medium",
       "recent_count": 0,
       "status": "quiet",
@@ -8953,7 +8977,7 @@
       "latest_seen": "2026-10-26",
       "momentum": "stable",
       "name": "Quantum error correction",
-      "prior_count": 4,
+      "prior_count": 3,
       "priority": "critical",
       "recent_count": 3,
       "status": "active",
@@ -9427,7 +9451,7 @@
       "prior_count": 1,
       "priority": "critical",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -9913,8 +9937,20 @@
         "entanglement distribution"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 14,
+      "current_evidence_count": 15,
       "evidence": [
+        {
+          "date": "2026-10-27",
+          "key": "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx",
+          "report": "2026-10/2026-10-27-digest.md",
+          "score": 73,
+          "source": "IonQ News",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "IonQ Awarded $7.5 Million Follow-On Funding from AFRL to Advance Full-Stack Quantum Networking",
+          "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx"
+        },
         {
           "date": "2026-10-14",
           "key": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732",
@@ -10084,16 +10120,16 @@
           "url": "https://thequantuminsider.com/2026/07/16/arq-raises-1-4-million-pre-seed-round-to-lay-the-foundations-for-the-quantum-internet"
         }
       ],
-      "evidence_count": 14,
+      "evidence_count": 15,
       "first_seen": "2026-07-16",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-10-14",
-      "momentum": "declining",
+      "latest_seen": "2026-10-27",
+      "momentum": "stable",
       "name": "Quantum networking",
       "prior_count": 1,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Networking"
       ],
@@ -10467,6 +10503,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-10-27T03:23:13.171735+00:00",
+  "updated_at": "2026-10-28T03:34:02.269990+00:00",
   "version": 2
 }

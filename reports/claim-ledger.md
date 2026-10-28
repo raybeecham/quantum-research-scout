@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-10-27T03:13:25.256610+00:00_
+_Updated 2026-10-28T03:27:34.420498+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **5039**
-- Authoritative claims: **4824**
+- Active claims: **5043**
+- Authoritative claims: **4828**
 - Analytical claims: **210**
 - Conflicted claims: **38**
-- Evidence items / URLs: **5143 / 1389**
+- Evidence items / URLs: **5147 / 1390**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,10 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | Cybersecurity and Information Assurance | opportunity status | awarded | authoritative / high | [Cybersecurity and Information Assurance](https://sam.gov/workspace/contract/opp/bf0cc659208a4fe59ff56b55dbda53e0/view) |
+| active | Cybersecurity and Information Assurance | awarding agency | DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC PHILADELPHIA DIV | authoritative / high | [Cybersecurity and Information Assurance](https://sam.gov/workspace/contract/opp/bf0cc659208a4fe59ff56b55dbda53e0/view) |
+| active | Cybersecurity and Information Assurance | reported amount | 44999004.0 | authoritative / high | [Cybersecurity and Information Assurance](https://sam.gov/workspace/contract/opp/bf0cc659208a4fe59ff56b55dbda53e0/view) |
+| active | Cybersecurity and Information Assurance | reported recipient | SOLIEL LLC | authoritative / high | [Cybersecurity and Information Assurance](https://sam.gov/workspace/contract/opp/bf0cc659208a4fe59ff56b55dbda53e0/view) |
 | active | PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,… | opportunity status | awarded | authoritative / high | [PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,…](https://www.usaspending.gov/award/ASST_NON_70NANB26H386_013) |
 | active | PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,… | awarding agency | Department of Commerce | authoritative / high | [PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,…](https://www.usaspending.gov/award/ASST_NON_70NANB26H386_013) |
 | active | PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,… | reported amount | 199889.0 | authoritative / high | [PURPOSE: SECUREAM PATHWAYS WILL STRENGTHEN OHIO'S CYBERSECURITY WORKFORCE FOR ADVANCED MANUFACTURING THROUGH AN EMPLOYER-LED REGIONAL PARTNERSHIP THAT ALIGNS EDUCATION, INDUSTRY,…](https://www.usaspending.gov/award/ASST_NON_70NANB26H386_013) |
@@ -260,10 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN... | awarding agency | Department of Homeland Security | authoritative / high | [TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...](https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732) |
 | active | TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN... | reported amount | 26688060.78 | authoritative / high | [TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...](https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732) |
 | active | TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN... | reported recipient | 22ND CENTURY TECHNOLOGIES, INC. | authoritative / high | [TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...](https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732) |
-| active | PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST... | opportunity status | awarded | authoritative / high | [PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...](https://www.usaspending.gov/award/ASST_NON_60NANB26D230_013) |
-| active | PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST... | awarding agency | Department of Commerce | authoritative / high | [PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...](https://www.usaspending.gov/award/ASST_NON_60NANB26D230_013) |
-| active | PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST... | reported amount | 1600000.0 | authoritative / high | [PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...](https://www.usaspending.gov/award/ASST_NON_60NANB26D230_013) |
-| active | PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST... | reported recipient | VIRGINIA INSTITUTE OF MARINE SCIENCE | authoritative / high | [PURPOSE: THE REQUESTED FUNDING IS DESIGNED TO PROVIDE EQUIPMENT AND RESOURCES NECESSARY TO KICKSTART AND AMPLIFY THE IMPACT OF A NEW CENTER OF EXCELLENCE IN ENVIRONMENTAL FORECAST...](https://www.usaspending.gov/award/ASST_NON_60NANB26D230_013) |
 
 ## Method
 
