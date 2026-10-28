@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-28 17:46 UTC_
+_Updated 2026-10-28 18:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -17,7 +17,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | White House Science and Technology Missions | watch | 73% | 28 | 0 | 2026-10-28 | 2026-09-29 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 81% | 25 | 0 | 2026-10-28 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 90% | 13 | 0 | 2026-10-28 | 2026-10-23 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 61% | 10 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🔴 failing |
+| Quantum Computing Report | rss | 62% | 10 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 65% | 8 | 0 | 2026-10-26 | 2026-10-21 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 65% | 8 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 8 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
@@ -67,7 +67,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Grants.gov · Quantum Technologies | grant_opportunity | 100% | 0 | 0 | 2026-10-28 | 2026-10-20 | fresh | 🟢 healthy |
 | Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-10-28 | — | unknown | 🟢 healthy |
 | Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
-| IACR ePrint | iacr_eprint | 99% | 0 | 0 | 2026-10-28 | 2026-10-27 | fresh | 🟢 healthy |
+| IACR ePrint | iacr_eprint | 99% | 0 | 0 | 2026-10-28 | 2026-10-28 | fresh | 🟢 healthy |
 | IBM Quantum Blog | url | 100% | 0 | 0 | 2026-10-28 | 2026-10-27 | fresh | 🟢 healthy |
 | IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-10-28 | 2026-10-27 | fresh | 🟢 healthy |
 | IETF PQUIP | watch | 100% | 0 | 0 | 2026-10-28 | — | reference | 🟢 healthy |
@@ -124,7 +124,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **101** of **106**
+- Healthy sources: **102** of **106**
 - Partial-coverage sources: **1**
 - Critical sources failing: **0**
 - Partial coverage: SAM.gov Opportunities
