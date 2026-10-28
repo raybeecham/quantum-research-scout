@@ -6,6 +6,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from pqc_quantum_research_agent.dashboard_data import expand_news_text
 from scripts.build_dashboard import build_dashboard
 
 
@@ -536,6 +537,7 @@ class DashboardBuildTests(unittest.TestCase):
                 pack = json.loads(
                     (data_path.parent / index["packs"][name]).read_text(encoding="utf-8")
                 )
+                pack = expand_news_text(pack)
                 self.assertEqual(pack["build_id"], payload["build_id"])
                 for field in fields:
                     if field not in payload:

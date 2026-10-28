@@ -51,6 +51,14 @@ def main():
         assert set(files) == {"index.json", "news.json"}, files
         initial_bytes = sum((Path("site/data") / file).stat().st_size for file in files)
         assert initial_bytes <= 1_050_000, initial_bytes
+        # The compact wire representation must restore every story field, not
+        # merely enough metadata to render a headline or satisfy the byte gate.
+        complete = json.loads(Path("site/data/dashboard.json").read_text(encoding="utf-8"))
+        for section in ("reading_brief", "news_intelligence"):
+            assert (
+                page.evaluate("section => state.data[section].stories", section)
+                == complete[section]["stories"]
+            ), f"Lossy initial story hydration: {section}"
         for route, element in ROUTES.items():
             page.evaluate("hash => location.hash = hash", route)
             expect(page.locator("#" + element)).to_be_visible()

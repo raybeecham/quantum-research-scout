@@ -1,3 +1,4 @@
+import copy
 import json
 import shutil
 import subprocess
@@ -5,7 +6,112 @@ from pathlib import Path
 
 import pytest
 
-from pqc_quantum_research_agent.dashboard_data import public_payload, write_section_data
+from pqc_quantum_research_agent.dashboard_data import (
+    expand_news_text,
+    public_payload,
+    share_news_text,
+    write_section_data,
+)
+
+
+def browser_expand(pack, tmp_path):
+    if not shutil.which("node"):
+        pytest.skip("Node.js is required for browser helper checks")
+    path = tmp_path / "wire.json"
+    path.write_text(json.dumps(pack), encoding="utf-8")
+    script = r"""
+const fs = require('node:fs'), vm = require('node:vm');
+const [file, loader] = process.argv.slice(1);
+const fetch = async () => ({ok: true, json: async () => JSON.parse(fs.readFileSync(file, 'utf8'))});
+const context = vm.createContext({window: {}, fetch, AbortController, SyntaxError, setTimeout, clearTimeout});
+vm.runInContext(fs.readFileSync(loader, 'utf8'), context);
+context.window.ScoutData.loadRoute('news')
+  .then(data => console.log(JSON.stringify({data})))
+  .catch(error => console.log(JSON.stringify({error: error.message})));
+"""
+    result = subprocess.run(
+        ["node", "-e", script, str(path), str(Path("dashboard/data-loader.js").resolve())],
+        capture_output=True,
+        text=True,
+        check=True,
+        timeout=30,
+    )
+    return json.loads(result.stdout)
+
+
+def test_shared_text_is_lossless_with_unicode_literals_and_source_provenance(tmp_path):
+    excerpt = "Measured λ and naïve quantum-safe café results. <script>plain text</script> " * 4
+    data = {
+        "build_id": "test",
+        "stories": [
+            {
+                "id": str(i),
+                "url": f"https://example.org/paper/{i}",
+                "date": "2026-10-28",
+                "date_label": "Published",
+                "source_kind": "preprint" if i else "official",
+                "excerpt": excerpt,
+                "source_note": excerpt,
+                "nested": [None, True, False, 7, 0.5, "~s:0", "~s:~literal", "~s:bad"],
+                "__proto__": {"unchanged": excerpt},
+            }
+            for i in range(3)
+        ],
+        "prefix_in_table": ["~s:" + "long literal " * 20] * 2,
+    }
+    before = copy.deepcopy(data)
+    pack = share_news_text(data)
+    assert "shared_text" in pack
+    assert data == before
+    assert expand_news_text(pack) == data
+    assert browser_expand(pack, tmp_path) == {"data": data}
+    assert browser_expand(data, tmp_path) == {"data": data}  # Complete/offline legacy payload.
+
+
+def test_growing_edition_keeps_all_unique_stories_with_meaningful_byte_headroom(tmp_path):
+    common = "This is collected source evidence, not independent verification. " * 12
+    data = {
+        "build_id": "test",
+        "stories": [
+            {
+                "id": f"story-{i}",
+                "title": f"Unique quantum experiment {i}",
+                "url": f"https://example.org/source/{i}",
+                "excerpt": f"Distinct source claim {i}. " * 25,
+                "evidence": [
+                    {"note": common, "source": f"https://example.org/{i}"} for _ in range(12)
+                ],
+            }
+            for i in range(120)
+        ],
+    }
+
+    def wire_bytes(value):
+        return len(json.dumps(value, separators=(",", ":")).encode())
+
+    assert wire_bytes(data) > 1_050_000
+    pack = share_news_text(data)
+    assert wire_bytes(pack) < 600_000  # Leave substantial room below the unchanged release limit.
+    assert expand_news_text(pack) == data
+    assert browser_expand(pack, tmp_path) == {"data": data}
+
+
+@pytest.mark.parametrize(
+    "pack",
+    [
+        {"shared_text": None},
+        {"shared_text": {"version": 2, "values": []}},
+        {"shared_text": {"version": 1, "values": [17]}},
+        *[
+            {"shared_text": {"version": 1, "values": ["original"]}, "title": value}
+            for value in ("~s:1", "~s:-1", "~s:bad", "~s:", "~s:9007199254740992")
+        ],
+    ],
+)
+def test_invalid_shared_text_fails_explicitly_without_inventing_missing_text(pack, tmp_path):
+    with pytest.raises(ValueError, match="Invalid shared news text"):
+        expand_news_text(pack)
+    assert "shared news text could not be read" in browser_expand(pack, tmp_path)["error"]
 
 
 def test_account_id_references_and_compact_citation_provenance():

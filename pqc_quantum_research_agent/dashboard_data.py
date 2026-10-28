@@ -2,6 +2,83 @@
 
 import copy
 import json
+from collections import Counter
+
+_TEXT_REF = "~s:"
+
+
+def share_news_text(data):
+    """Losslessly share repeated long text inside one pack; no extra fetch is needed."""
+    counts = Counter()
+
+    def count(value):
+        if isinstance(value, str) and len(value) >= 80:
+            counts[value] += 1
+        elif isinstance(value, dict):
+            for child in value.values():
+                count(child)
+        elif isinstance(value, list):
+            for child in value:
+                count(child)
+
+    count(data)
+    values = [value for value, occurrences in counts.items() if occurrences > 1]
+    if not values:
+        return data
+    references = {value: f"{_TEXT_REF}{index}" for index, value in enumerate(values)}
+
+    def encode(value):
+        if isinstance(value, str):
+            if value in references:
+                return references[value]
+            # Escape literal source text that happens to use our wire prefix.
+            return f"{_TEXT_REF}~{value}" if value.startswith(_TEXT_REF) else value
+        if isinstance(value, dict):
+            return {key: encode(child) for key, child in value.items()}
+        if isinstance(value, list):
+            return [encode(child) for child in value]
+        return value
+
+    packed = {**encode(data), "shared_text": {"version": 1, "values": values}}
+
+    def size(value):
+        return len(json.dumps(value, ensure_ascii=False, separators=(",", ":")).encode())
+
+    return packed if size(packed) < size(data) else data
+
+
+def expand_news_text(data):
+    """Restore the text wire format for offline consumers; the loader mirrors this."""
+    if "shared_text" not in data:
+        return data
+    table = data["shared_text"]
+    if (
+        not isinstance(table, dict)
+        or type(table.get("version")) is not int
+        or table["version"] != 1
+        or not isinstance(table.get("values"), list)
+    ):
+        raise ValueError("Invalid shared news text")
+    values = table["values"]
+    if not all(isinstance(value, str) for value in values):
+        raise ValueError("Invalid shared news text")
+
+    def decode(value):
+        if isinstance(value, str) and value.startswith(_TEXT_REF):
+            index = value[len(_TEXT_REF) :]
+            if index.startswith("~"):
+                return index[1:]
+            if not index.isascii() or not index.isdecimal() or int(index) >= len(values):
+                raise ValueError("Invalid shared news text reference")
+            return values[int(index)]
+        if isinstance(value, dict):
+            return {key: decode(child) for key, child in value.items()}
+        if isinstance(value, list):
+            return [decode(child) for child in value]
+        return value
+
+    return decode({key: value for key, value in data.items() if key != "shared_text"})
+
 
 PACKS = {
     "news": ["reading_brief", "news_intelligence"],
@@ -134,7 +211,7 @@ def write_section_data(payload, output):
     for name, fields in PACKS.items():
         data = {"build_id": version, **{key: payload[key] for key in fields if key in payload}}
         if name == "news":
-            data = share_brief_stories(copy.deepcopy(data))
+            data = share_news_text(share_brief_stories(copy.deepcopy(data)))
         (data_dir / f"{name}.json").write_text(
             json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8"
         )

@@ -21,7 +21,40 @@
   let manifest = null;
   let revision = 0;
   let boot = null;
+  function expandNewsText(value) {
+    if (!Object.hasOwn(value, "shared_text")) return value;
+    const table = value.shared_text;
+    const invalid = () => new Error("The shared news text could not be read. Try again.");
+    if (
+      table?.version !== 1 ||
+      !Array.isArray(table.values) ||
+      !table.values.every(text => typeof text === "string")
+    )
+      throw invalid();
+    function decode(node) {
+      if (typeof node === "string" && node.startsWith("~s:")) {
+        const index = node.slice(3);
+        if (index.startsWith("~")) return index.slice(1);
+        if (
+          !/^\d+$/.test(index) ||
+          !Number.isSafeInteger(Number(index)) ||
+          Number(index) >= table.values.length
+        )
+          throw invalid();
+        // Table entries are original text, never recursively interpreted as references.
+        return table.values[Number(index)];
+      }
+      if (Array.isArray(node)) return node.map(decode);
+      if (node && typeof node === "object")
+        return Object.fromEntries(Object.entries(node).map(([key, child]) => [key, decode(child)]));
+      return node;
+    }
+    return decode(
+      Object.fromEntries(Object.entries(value).filter(([key]) => key !== "shared_text")),
+    );
+  }
   function hydrate(value) {
+    value = expandNewsText(value);
     const news = value.news_intelligence;
     const brief = value.reading_brief;
     if (brief && Array.isArray(brief.stories) && brief.story_records) {

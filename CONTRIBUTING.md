@@ -63,6 +63,12 @@ python scripts/build_dashboard.py --output site
 python -m http.server 8765 --bind 127.0.0.1 --directory site
 ```
 
+The initial `news.json` pack stores repeated long text in a versioned `shared_text`
+table. `data-loader.js` restores it before resolving story references or rendering;
+offline consumers can use `expand_news_text` from `dashboard_data.py`. Literal
+source text using the reference prefix is escaped. `dashboard.json` remains an
+expanded compatibility payload, and the initial-data byte limit remains unchanged.
+
 The presentation is split by responsibility:
 
 - `styles.css`: shared design tokens, elements, layout, and primitives.
