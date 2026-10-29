@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-29 14:46 UTC_
+_Updated 2026-10-29 15:34 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -14,7 +14,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
-| White House Science and Technology Missions | watch | 76% | 27 | 0 | 2026-10-29 | 2026-09-29 | stale | 🟢 healthy |
+| White House Science and Technology Missions | watch | 77% | 27 | 0 | 2026-10-29 | 2026-09-29 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 83% | 25 | 0 | 2026-10-29 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 92% | 13 | 0 | 2026-10-29 | 2026-10-23 | fresh | 🟢 healthy |
 | Quantum Computing Report | rss | 70% | 9 | 0 | 2026-10-29 | 2026-10-29 | fresh | 🟢 healthy |
@@ -35,7 +35,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-10-29 | 2026-10-07 | stale | 🟢 healthy |
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-10-29 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-10-29 | 2026-09-29 | stale | 🟢 healthy |
-| CISA Cybersecurity Advisories | rss | 100% | 0 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🟢 healthy |
+| CISA Cybersecurity Advisories | rss | 100% | 0 | 0 | 2026-10-29 | 2026-10-29 | fresh | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-10-29 | 2026-10-26 | fresh | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-10-29 | 2026-10-22 | fresh | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-10-29 | 2026-10-29 | fresh | 🟢 healthy |
@@ -101,7 +101,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Networking and Sensing Patents | patent | 98% | 0 | 0 | 2026-10-29 | 2026-10-15 | fresh | 🟢 healthy |
 | SandboxAQ Blog | url | 100% | 0 | 0 | 2026-10-29 | 2026-10-08 | stale | 🟢 healthy |
 | Strategic AI Systems Patents | patent | 99% | 0 | 0 | 2026-10-29 | 2026-10-22 | fresh | 🟢 healthy |
-| Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-10-29 | 2026-10-23 | fresh | 🟢 healthy |
+| Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-10-29 | 2026-10-29 | fresh | 🟢 healthy |
 | The Quantum Insider | rss | 100% | 0 | 0 | 2026-10-29 | 2026-10-29 | fresh | 🟢 healthy |
 | Trail of Bits Cryptography | rss | 100% | 0 | 0 | 2026-10-29 | 2026-10-14 | fresh | 🟢 healthy |
 | USAspending · AI Forge | federal_award | 100% | 0 | 0 | 2026-10-29 | 2026-09-28 | stale | 🟢 healthy |
