@@ -7,9 +7,9 @@
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 92.6,
+      "acceptance_rate": 92.3,
       "accepted": 500,
-      "quarantined": 40,
+      "quarantined": 42,
       "scope": "Federal funding"
     }
   ],
@@ -34,6 +34,74 @@
       "stage": "relationship admission",
       "title": "S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED\u2026",
       "url": "https://www.usaspending.gov/award/ASST_NON_2620285_049"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "DARPA Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-10-29",
+      "key": "https://quantumcomputingreport.com/nord-quantique-secures-10-million-darpa-quantum-benchmarking-initiative-stage-b-agreement-extension",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "Quantum Computing Report",
+      "stage": "mission evidence admission",
+      "title": "Nord Quantique Secures $10 Million DARPA Quantum Benchmarking Initiative Stage B Agreement Extension",
+      "url": "https://quantumcomputingreport.com/nord-quantique-secures-10-million-darpa-quantum-benchmarking-initiative-stage-b-agreement-extension"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Project Triad",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-10-28",
+      "key": "https://www.grants.gov/search-results-detail/364144",
+      "mission_id": "project-triad",
+      "mission_name": "Project Triad",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "mission evidence admission",
+      "title": "Landscape Scale Restoration Grant Program for Non-Federal Lands",
+      "url": "https://www.grants.gov/search-results-detail/364144"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-10-28",
+      "key": "grants_gov:USDA-FS-2026-LSR",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Project Triad",
+      "stage": "funding evidence admission",
+      "title": "Landscape Scale Restoration Grant Program for Non-Federal Lands",
+      "url": "https://www.grants.gov/search-results-detail/364144"
     },
     {
       "admission": {
@@ -2217,90 +2285,22 @@
       "stage": "funding evidence admission",
       "title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
       "url": "https://www.grants.gov/search-results-detail/362961"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Project Triad",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-23",
-      "key": "https://www.grants.gov/search-results-detail/362910",
-      "mission_id": "project-triad",
-      "mission_name": "Project Triad",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "mission evidence admission",
-      "title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
-      "url": "https://www.grants.gov/search-results-detail/362910"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-23",
-      "key": "grants_gov:USDA-NRCS-NHQ-RCPP-AFA-26-NOFO0001451",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Project Triad",
-      "stage": "funding evidence admission",
-      "title": "Regional Conservation Partnership Program (RCPP) Alternative Funding Arrangements (AFA) for Federal fiscal year (FY) 2026",
-      "url": "https://www.grants.gov/search-results-detail/362910"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Quantum Benchmarking Initiative",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-18",
-      "key": "https://www.grants.gov/search-results-detail/359280",
-      "mission_id": "darpa-qbi",
-      "mission_name": "DARPA Quantum Benchmarking Initiative",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Quantum Benchmarking Initiative",
-      "stage": "mission evidence admission",
-      "title": "GREGoRi Technology Integration Center (U01, Clinical Trials Optional)",
-      "url": "https://www.grants.gov/search-results-detail/359280"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 137,
+      "count": 139,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 137,
+      "count": 139,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 101,
+      "count": 103,
       "label": "Official government source"
     },
     {
@@ -2316,14 +2316,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 79.4,
+    "acceptance_rate": 79.2,
     "accepted": 541,
-    "decisions": 681,
-    "funding_quarantine": 37,
+    "decisions": 683,
+    "funding_quarantine": 39,
     "mission_quarantine": 100,
-    "quarantined": 140,
+    "quarantined": 142,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-10-28T03:27:34.420498+00:00",
+  "updated_at": "2026-10-29T03:50:20.287402+00:00",
   "version": 1
 }

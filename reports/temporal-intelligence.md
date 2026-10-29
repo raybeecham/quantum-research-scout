@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-10-28T03:27:34.420498+00:00_
+_Updated 2026-10-29T03:50:20.287402+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
@@ -13,8 +13,8 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 
 ## Priority timeline
 
-- **Published today** · Cybersecurity and Information Assurance — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/bf0cc659208a4fe59ff56b55dbda53e0/view))
-  - The source publication date is today or within the prior day.
+- **Occurred 2 days ago** · NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900))
+  - A recent source-reported event was newly incorporated into the ledger.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

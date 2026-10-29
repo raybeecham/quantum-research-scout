@@ -5372,16 +5372,16 @@
       "member_count": 3,
       "members": [
         {
-          "application_number": "19722547",
-          "document_type": "application",
-          "publication_number": "US20260329818A1",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19722547/application-data"
-        },
-        {
           "application_number": "19722507",
           "document_type": "application",
           "publication_number": "US20260329817A1",
           "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19722507/application-data"
+        },
+        {
+          "application_number": "19722547",
+          "document_type": "application",
+          "publication_number": "US20260329818A1",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19722547/application-data"
         },
         {
           "application_number": "19722451",
@@ -5390,8 +5390,8 @@
           "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19722451/application-data"
         }
       ],
-      "primary_publication_number": "US20260329818A1",
-      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19722547/application-data",
+      "primary_publication_number": "US20260329817A1",
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19722507/application-data",
       "significance_label": "notable",
       "strategic_significance_score": 55,
       "title": "GENERATING STRUCTURED DATA FROM UNSTRUCTURED DATA USING A LARGE LANGUAGE MODEL"
@@ -5621,28 +5621,6 @@
       "assignee": "NetApp, Inc.",
       "citation_count": 0,
       "family_basis": "continuation parent application",
-      "family_key": "application:17946382",
-      "grant_count": 0,
-      "member_count": 1,
-      "members": [
-        {
-          "application_number": "19697705",
-          "document_type": "application",
-          "publication_number": "US20260310485A1",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19697705/application-data"
-        }
-      ],
-      "primary_publication_number": "US20260310485A1",
-      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19697705/application-data",
-      "significance_label": "notable",
-      "strategic_significance_score": 53,
-      "title": "HYBRID CLOUD BASED PROTECTION FOR APPLICATIONS AND VIRTUAL MACHINES"
-    },
-    {
-      "application_count": 1,
-      "assignee": "NetApp, Inc.",
-      "citation_count": 0,
-      "family_basis": "continuation parent application",
       "family_key": "application:17692531",
       "grant_count": 0,
       "member_count": 1,
@@ -5659,6 +5637,28 @@
       "significance_label": "notable",
       "strategic_significance_score": 53,
       "title": "CROSS-SITE HIGH-AVAILABILITY DISTRIBUTED CLOUD STORAGE SYSTEM TO PROVIDE MULTIPLE VIRTUAL CHANNELS BETWEEN STORAGE NODES"
+    },
+    {
+      "application_count": 1,
+      "assignee": "NetApp, Inc.",
+      "citation_count": 0,
+      "family_basis": "continuation parent application",
+      "family_key": "application:17946382",
+      "grant_count": 0,
+      "member_count": 1,
+      "members": [
+        {
+          "application_number": "19697705",
+          "document_type": "application",
+          "publication_number": "US20260310485A1",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19697705/application-data"
+        }
+      ],
+      "primary_publication_number": "US20260310485A1",
+      "primary_url": "https://data.uspto.gov/patent-file-wrapper/search/details/19697705/application-data",
+      "significance_label": "notable",
+      "strategic_significance_score": 53,
+      "title": "HYBRID CLOUD BASED PROTECTION FOR APPLICATIONS AND VIRTUAL MACHINES"
     },
     {
       "application_count": 1,
@@ -23507,6 +23507,6 @@
     "unique_assignees": 144,
     "with_citations": 0
   },
-  "updated_at": "2026-10-28T03:27:34.420498+00:00",
+  "updated_at": "2026-10-29T03:50:20.287402+00:00",
   "version": 4
 }

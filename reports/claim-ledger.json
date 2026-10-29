@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-10-28",
+  "as_of_date": "2026-10-29",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-6172a85ba88793a6",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-27",
+      "evidence_ids": [
+        "evidence-4348e572154cad4a"
+      ],
+      "first_seen_at": "2026-10-29T03:50:20.287402+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-29T03:50:20.287402+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4348e572154cad4a",
+          "locator": "opportunity_status:awarded",
+          "title": "NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89303027FIM000232",
+        "label": "NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.",
+        "node_id": "award:usaspending:89303027FIM000232",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6f0203733e982832"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-0709244271d6311f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-27",
+      "evidence_ids": [
+        "evidence-103317068a1322f5"
+      ],
+      "first_seen_at": "2026-10-29T03:50:20.287402+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-29T03:50:20.287402+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-103317068a1322f5",
+          "locator": "awarding_agency:department of energy",
+          "title": "NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89303027FIM000232",
+        "label": "NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.",
+        "node_id": "award:usaspending:89303027FIM000232",
+        "node_type": "award"
+      },
+      "value": "Department of Energy",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ebe5b21544690f0f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-3fa56b00b2e8bc29",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-27",
+      "evidence_ids": [
+        "evidence-3f8d39a777eded72"
+      ],
+      "first_seen_at": "2026-10-29T03:50:20.287402+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-29T03:50:20.287402+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3f8d39a777eded72",
+          "locator": "reported_amount:11066848.98",
+          "title": "NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89303027FIM000232",
+        "label": "NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.",
+        "node_id": "award:usaspending:89303027FIM000232",
+        "node_type": "award"
+      },
+      "value": 11066848.98,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "15f6de8ab9f8a1c6"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-536d0cb862ff1c4c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-27",
+      "evidence_ids": [
+        "evidence-1982e38e0255bd57"
+      ],
+      "first_seen_at": "2026-10-29T03:50:20.287402+00:00",
+      "history": [],
+      "last_seen_at": "2026-10-29T03:50:20.287402+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:C47BNA8GM833",
+        "label": "ACCENTURE FEDERAL SERVICES LLC",
+        "node_id": "recipient_or_contractor:uei:C47BNA8GM833",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1982e38e0255bd57",
+          "locator": "reported_recipient:recipient_or_contractor:uei:C47BNA8GM833",
+          "title": "NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89303027FIM000232",
+        "label": "NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.",
+        "node_id": "award:usaspending:89303027FIM000232",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7ebd7dbf0b40c1a5"
     },
     {
       "authority": "authoritative",
@@ -156881,14 +157066,14 @@
       "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
       "history": [],
       "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:DSLXBD7UWRV6",
         "label": "OLD DOMINION UNIVERSITY RESEARCH FOUNDATION",
         "node_id": "recipient_or_contractor:uei:DSLXBD7UWRV6",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -174441,9 +174626,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -174486,9 +174671,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -174531,9 +174716,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -250658,7 +250843,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250705,7 +250890,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250752,7 +250937,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250799,7 +250984,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250846,7 +251031,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250893,7 +251078,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250940,7 +251125,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -250987,7 +251172,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251034,7 +251219,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251081,7 +251266,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251128,7 +251313,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251175,7 +251360,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251222,7 +251407,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251269,7 +251454,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251316,7 +251501,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251363,7 +251548,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251410,7 +251595,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251457,7 +251642,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251509,7 +251694,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251561,7 +251746,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251613,7 +251798,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251665,7 +251850,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251717,7 +251902,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251769,7 +251954,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251821,7 +252006,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251873,7 +252058,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251925,7 +252110,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-28T03:27:34.420498+00:00",
+      "retracted_at": "2026-10-29T03:50:20.287402+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255497,6 +255682,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-103317068a1322f5",
+      "locator": "awarding_agency:department of energy",
+      "title": "NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-103cc2c8a7954ffd",
       "locator": "legal_business_name:the pennsylvania state university",
       "title": "THE PENNSYLVANIA STATE UNIVERSITY",
@@ -257141,6 +257336,16 @@
       "locator": "awarding_agency:national science foundation",
       "title": "EPSCOR RESEARCH FELLOWS: NSF: PREDICTIVE PRESSURE-DRIVEN STRUCTURAL CONTROL IN CORRELATED QUANTUM MATERIALS -THIS RESEARCH INFRASTRUCTURE IMPROVEMENT (RII) EPSCOR RESEARCH FELLOWS...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2624670_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-1982e38e0255bd57",
+      "locator": "reported_recipient:recipient_or_contractor:uei:C47BNA8GM833",
+      "title": "NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900",
       "verification_status": "source_reported"
     },
     {
@@ -264506,6 +264711,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-3f8d39a777eded72",
+      "locator": "reported_amount:11066848.98",
+      "title": "NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "cd85d4edd8652cb5016a68de4aca2ecb04ec67fd64a2b3c9198e6fd22aebcd0c",
       "controlling_status": "not_established",
       "evidence_id": "evidence-3f9e2ff9e039f283",
@@ -265083,6 +265298,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2415fd600d1843909dadb6bd0a60075a/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-4348e572154cad4a",
+      "locator": "opportunity_status:awarded",
+      "title": "NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -303428,16 +303653,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 5043,
-    "authoritative_claims": 4828,
+    "active_claims": 5047,
+    "authoritative_claims": 4832,
     "conflicted_claims": 38,
     "derived_claims": 210,
-    "evidence_items": 5147,
-    "source_urls": 1390,
-    "subjects": 1039,
+    "evidence_items": 5151,
+    "source_urls": 1391,
+    "subjects": 1040,
     "superseded_claims": 0,
-    "total_claims": 5070
+    "total_claims": 5074
   },
-  "updated_at": "2026-10-28T03:27:34.420498+00:00",
+  "updated_at": "2026-10-29T03:50:20.287402+00:00",
   "version": 1
 }

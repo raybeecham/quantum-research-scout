@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-28T03:27:34.420498+00:00_
+_Updated 2026-10-29T03:50:20.287402+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
@@ -18,10 +18,10 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- **Cybersecurity and Information Assurance** — opportunity status: awarded ([evidence](https://sam.gov/workspace/contract/opp/bf0cc659208a4fe59ff56b55dbda53e0/view))
-- **Cybersecurity and Information Assurance** — awarding agency: DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC PHILADELPHIA DIV ([evidence](https://sam.gov/workspace/contract/opp/bf0cc659208a4fe59ff56b55dbda53e0/view))
-- **Cybersecurity and Information Assurance** — reported amount: 44999004.0 ([evidence](https://sam.gov/workspace/contract/opp/bf0cc659208a4fe59ff56b55dbda53e0/view))
-- **Cybersecurity and Information Assurance** — reported recipient: — ([evidence](https://sam.gov/workspace/contract/opp/bf0cc659208a4fe59ff56b55dbda53e0/view))
+- **NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900))
+- **NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.** — awarding agency: Department of Energy ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900))
+- **NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.** — reported amount: 11066848.98 ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900))
+- **NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900))
 
 ## Superseded claims
 

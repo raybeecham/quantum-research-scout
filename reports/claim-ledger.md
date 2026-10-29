@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-10-28T03:27:34.420498+00:00_
+_Updated 2026-10-29T03:50:20.287402+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **5043**
-- Authoritative claims: **4828**
+- Active claims: **5047**
+- Authoritative claims: **4832**
 - Analytical claims: **210**
 - Conflicted claims: **38**
-- Evidence items / URLs: **5147 / 1390**
+- Evidence items / URLs: **5151 / 1391**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,10 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS. | opportunity status | awarded | authoritative / high | [NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900) |
+| active | NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS. | awarding agency | Department of Energy | authoritative / high | [NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900) |
+| active | NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS. | reported amount | 11066848.98 | authoritative / high | [NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900) |
+| active | NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS. | reported recipient | ACCENTURE FEDERAL SERVICES LLC | authoritative / high | [NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900) |
 | active | Cybersecurity and Information Assurance | opportunity status | awarded | authoritative / high | [Cybersecurity and Information Assurance](https://sam.gov/workspace/contract/opp/bf0cc659208a4fe59ff56b55dbda53e0/view) |
 | active | Cybersecurity and Information Assurance | awarding agency | DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC PHILADELPHIA DIV | authoritative / high | [Cybersecurity and Information Assurance](https://sam.gov/workspace/contract/opp/bf0cc659208a4fe59ff56b55dbda53e0/view) |
 | active | Cybersecurity and Information Assurance | reported amount | 44999004.0 | authoritative / high | [Cybersecurity and Information Assurance](https://sam.gov/workspace/contract/opp/bf0cc659208a4fe59ff56b55dbda53e0/view) |
@@ -260,10 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK | authoritative / high | [New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK](https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view) |
 | active | New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK | reported amount | 47762021.56 | authoritative / high | [New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK](https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view) |
 | active | New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK | reported recipient | GENERAL ELECTRIC COMPANY | authoritative / high | [New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK](https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view) |
-| active | TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN... | opportunity status | awarded | authoritative / high | [TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...](https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732) |
-| active | TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN... | awarding agency | Department of Homeland Security | authoritative / high | [TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...](https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732) |
-| active | TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN... | reported amount | 26688060.78 | authoritative / high | [TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...](https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732) |
-| active | TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN... | reported recipient | 22ND CENTURY TECHNOLOGIES, INC. | authoritative / high | [TSA REQUIRES ROBUST, SCALABLE, AND ADAPTIVE OPERATIONS AND MAINTENANCE SUPPORT. THIS INCLUDES OPERATING, MAINTAINING, AND OPTIMIZING CAPABILITIES, INTEGRATING NEW TECHNOLOGIES, AN...](https://www.usaspending.gov/award/CONT_AWD_70T03026F7667N105_7013_47QTCA24D002S_4732) |
 
 ## Method
 

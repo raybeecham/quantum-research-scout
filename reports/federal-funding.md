@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-10-28 03:27 UTC_
+_Updated 2026-10-29 03:50 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -17,7 +17,7 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Mission-linked records: **19**
 - Missions with activity: **5 of 10**
 - Named recipients and contractors: **333**
-- Known reported award value: **$1.03B**
+- Known reported award value: **$1.04B**
 
 ## Opportunity Radar
 
@@ -125,12 +125,12 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | UNIVERSITY OF UTAH | UEI LL8GLEVH6MG3 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.7M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF WISCONSIN SYSTEM | UEI LCLSJAGTNZQ7 | **36 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.0M | National Science Foundation | Not linked | 0 |
 | PARAGON MICRO INC | UEI E41LV9AJGHQ1 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.0M | Department of Health and Human Services | Not linked | 0 |
+| ACCENTURE FEDERAL SERVICES LLC | UEI C47BNA8GM833 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $28.7M | Department of Energy, General Services Administration | Not linked | 0 |
 | NORTH CAROLINA STATE UNIVERSITY | UEI U3NVH931QJJ3 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.2M | National Science Foundation | Not linked | 0 |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | UEI LMCJKRFW5R81 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | National Science Foundation | Not linked | 0 |
 | GENERAL ELECTRIC COMPANY | Name-resolved | **32 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $48.5M | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK | Not linked | 0 |
 | DUKE UNIVERSITY | UEI TP7EK8DZV6N5 | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $3.4M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF NEW MEXICO | UEI F6XLTRUQJEN4 | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $1.0M | National Science Foundation | Not linked | 0 |
-| THE PENNSYLVANIA STATE UNIVERSITY | UEI NPM2J7MSCF61 | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $969.9K | National Science Foundation | Not linked | 0 |
 
 ## Recipient and Contractor Patent Connections
 

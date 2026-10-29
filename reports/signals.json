@@ -3163,12 +3163,39 @@
           "source": "The Quantum Insider",
           "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
           "url": "https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://thequantuminsider.com/2026/10/28/databrushing-ai-uechain-data-verification",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "title": "DataBrushing.AI Launches UEChain for Data Verification and Trust",
+          "url": "https://thequantuminsider.com/2026/10/28/databrushing-ai-uechain-data-verification"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://quantumzeitgeist.com/post-quantum-security-hallman-joins-symmatrics",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "title": "Hallman joins Symmatrics to bolster post-quantum security",
+          "url": "https://quantumzeitgeist.com/post-quantum-security-hallman-joins-symmatrics"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://thequantuminsider.com/2026/10/28/what-nists-post-quantum-cryptography-plan-means-for-companies-and-their-suppliers",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 85,
+          "source": "The Quantum Insider",
+          "title": "What NIST\u2019s Post-Quantum Cryptography Plan Means For Companies And Their Suppliers",
+          "url": "https://thequantuminsider.com/2026/10/28/what-nists-post-quantum-cryptography-plan-means-for-companies-and-their-suppliers"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-10-27",
+      "latest_seen": "2026-10-28",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -3177,8 +3204,8 @@
         "IACR ePrint",
         "Quantum Computing Report"
       ],
-      "prior_count": 25,
-      "recent_count": 20,
+      "prior_count": 20,
+      "recent_count": 21,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -4038,13 +4065,49 @@
           "source": "Quantum Zeitgeist",
           "title": "Quantum X Labs Launches Quantum Error Correction Program",
           "url": "https://quantumzeitgeist.com/quantum-x-labs-error-correction-program"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://quantumzeitgeist.com/alphaqubit-decoder-complexity-aiding-quantum-state",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 49,
+          "source": "Quantum Zeitgeist",
+          "title": "State-space model cuts decoder complexity, aiding quantum computers",
+          "url": "https://quantumzeitgeist.com/alphaqubit-decoder-complexity-aiding-quantum-state"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://quantumcomputingreport.com/gothenburg-and-chalmers-researchers-develop-modular-graph-neural-decoder-for-surface-code-memory-and-lattice-surgery",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 84,
+          "source": "Quantum Computing Report",
+          "title": "Gothenburg and Chalmers Researchers Develop Modular Graph Neural Decoder for Surface Code Memory and Lattice Surgery",
+          "url": "https://quantumcomputingreport.com/gothenburg-and-chalmers-researchers-develop-modular-graph-neural-decoder-for-surface-code-memory-and-lattice-surgery"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://quantumcomputingreport.com/nord-quantique-secures-10-million-darpa-quantum-benchmarking-initiative-stage-b-agreement-extension",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 88,
+          "source": "Quantum Computing Report",
+          "title": "Nord Quantique Secures $10 Million DARPA Quantum Benchmarking Initiative Stage B Agreement Extension",
+          "url": "https://quantumcomputingreport.com/nord-quantique-secures-10-million-darpa-quantum-benchmarking-initiative-stage-b-agreement-extension"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://quantumcomputingreport.com/university-of-sydney-demonstrates-multi-qubit-logical-entanglement-and-170-round-stability-on-ibm-square-lattice-nighthawk-r2-processor",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 129,
+          "source": "Quantum Computing Report",
+          "title": "University of Sydney Demonstrates Multi-Qubit Logical Entanglement and 170-Round Stability on IBM Square-Lattice Nighthawk r2 Processor",
+          "url": "https://quantumcomputingreport.com/university-of-sydney-demonstrates-multi-qubit-logical-entanglement-and-170-round-stability-on-ibm-square-lattice-nighthawk-r2-processor"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-10-26",
-      "momentum": "declining",
+      "latest_seen": "2026-10-28",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "Quantum Computing Report",
@@ -4053,7 +4116,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 10,
-      "recent_count": 6,
+      "recent_count": 8,
       "status": "watching"
     },
     "Quantum Hardware": {
@@ -7262,13 +7325,67 @@
           "source": "The Quantum Insider",
           "title": "IBM Connects Two 120-Qubit Processors With 99% State-Transfer Fidelity",
           "url": "https://thequantuminsider.com/2026/10/27/ibm-connects-two-120-qubit-processors-with-99-state-transfer-fidelity"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://thequantuminsider.com/2026/10/28/nvision-nature-molecular-qubits-hyperlight",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 30,
+          "source": "The Quantum Insider",
+          "title": "NVision and HyperLight Partner to Develop Photonic Quantum Chips",
+          "url": "https://thequantuminsider.com/2026/10/28/nvision-nature-molecular-qubits-hyperlight"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://quantumzeitgeist.com/guadalajara-entanglement-dynamics-via-interacting",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 32,
+          "source": "Quantum Zeitgeist",
+          "title": "Entanglement dynamics via interacting oscillators",
+          "url": "https://quantumzeitgeist.com/guadalajara-entanglement-dynamics-via-interacting"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://quantumzeitgeist.com/hadamard-states-offer-simpler-path",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 32,
+          "source": "Quantum Zeitgeist",
+          "title": "Hadamard states offer a simpler path to complex entanglement",
+          "url": "https://quantumzeitgeist.com/hadamard-states-offer-simpler-path"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://eprint.iacr.org/2026/2665",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 56,
+          "source": "IACR ePrint",
+          "title": "Shor's algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days",
+          "url": "https://eprint.iacr.org/2026/2665"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://quantumzeitgeist.com/karlsruhe-technology-long-lived-defects-trap",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 59,
+          "source": "Quantum Zeitgeist",
+          "title": "Long-lived defects trap qubit energy, study finds",
+          "url": "https://quantumzeitgeist.com/karlsruhe-technology-long-lived-defects-trap"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://quantumcomputingreport.com/epb-and-ionq-deploy-hybrid-trapped-ion-algorithms-on-forte-enterprise-to-optimize-power-grid-topology",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 84,
+          "source": "Quantum Computing Report",
+          "title": "EPB and IonQ Deploy Hybrid Trapped-Ion Algorithms on Forte Enterprise to Optimize Power Grid Topology",
+          "url": "https://quantumcomputingreport.com/epb-and-ionq-deploy-hybrid-trapped-ion-algorithms-on-forte-enterprise-to-optimize-power-grid-topology"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-10-27",
-      "momentum": "rising",
+      "latest_seen": "2026-10-28",
+      "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
@@ -7276,9 +7393,9 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 13,
-      "recent_count": 20,
-      "status": "actionable"
+      "prior_count": 16,
+      "recent_count": 21,
+      "status": "watching"
     },
     "Quantum Networking": {
       "confidence": "high",
@@ -8695,12 +8812,30 @@
           "source": "IonQ News",
           "title": "IonQ Awarded $7.5 Million Follow-On Funding from AFRL to Advance Full-Stack Quantum Networking",
           "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://thequantuminsider.com/2026/10/28/ionq-7-5-million-afrl-full-stack-quantum-networking",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 73,
+          "source": "The Quantum Insider",
+          "title": "IonQ Receives $7.5 Million from AFRL for Quantum Networking",
+          "url": "https://thequantuminsider.com/2026/10/28/ionq-7-5-million-afrl-full-stack-quantum-networking"
+        },
+        {
+          "date": "2026-10-28",
+          "key": "https://quantumcomputingreport.com/quantum-xchange-releases-phio-tx-cmc-2-0-to-automate-distributed-post-quantum-network-management",
+          "report": "2026-10/2026-10-28-digest.md",
+          "score": 84,
+          "source": "Quantum Computing Report",
+          "title": "Quantum XChange Releases Phio TX-CMC 2.0 to Automate Distributed Post-Quantum Network Management",
+          "url": "https://quantumcomputingreport.com/quantum-xchange-releases-phio-tx-cmc-2-0-to-automate-distributed-post-quantum-network-management"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-10-27",
+      "latest_seen": "2026-10-28",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -8710,7 +8845,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 1,
-      "recent_count": 7,
+      "recent_count": 8,
       "status": "actionable"
     },
     "Quantum Sensing": {
@@ -10970,6 +11105,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-10-28T03:34:02.257179+00:00",
+  "updated_at": "2026-10-29T03:59:37.841124+00:00",
   "version": 1
 }

@@ -842,9 +842,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 12,
+      "evidence_count": 13,
       "historical_evidence_count": 1,
-      "latest_evidence_at": "2026-10-27",
+      "latest_evidence_at": "2026-10-28",
       "name": "NIST",
       "priority": "critical",
       "source_count": 6,
@@ -881,6 +881,21 @@
           "source": "Keyfactor Quantum and Crypto-Agility",
           "title": "NIST Makes Crypto-Agility Official \u2014 Now What?",
           "url": "https://www.keyfactor.com/blog/nist-makes-crypto-agility-official-now-what/"
+        },
+        {
+          "date": "2026-10-28",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "The Quantum Insider",
+          "title": "What NIST\u2019s Post-Quantum Cryptography Plan Means For Companies And Their Suppliers",
+          "url": "https://thequantuminsider.com/2026/10/28/what-nists-post-quantum-cryptography-plan-means-for-companies-and-their-suppliers"
         },
         {
           "date": "2026-10-27",
@@ -957,21 +972,6 @@
           "source": "DigiCert Blog",
           "title": "NIST advances post-quantum signature algorithms | DigiCert",
           "url": "https://www.digicert.com/blog/nist-advances-post-quantum-signature-algorithms"
-        },
-        {
-          "date": "2026-08-20",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Quantum Zeitgeist",
-          "title": "Crypto4A\u2019s module supports all NIST post-quantum algorithms",
-          "url": "https://quantumzeitgeist.com/post-quantum-algorithms-crypto4as-module-supports"
         }
       ],
       "type": "government"
@@ -2088,6 +2088,6 @@
     "not_assessed": 19,
     "organizations": 43
   },
-  "updated_at": "2026-10-28T03:34:03.116503+00:00",
+  "updated_at": "2026-10-29T03:59:38.722317+00:00",
   "version": 1
 }

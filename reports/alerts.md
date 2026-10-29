@@ -4,13 +4,13 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-28 03:34 UTC_
+_Updated 2026-10-29 03:59 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 48 | 6 | 11 | 7 | 30 |
+| 43 | 1 | 9 | 5 | 29 |
 
-## 🔴 Contract: IonQ 🆕
+## 🔴 Contract: IonQ
 
 - Severity: **critical**
 - Status: **contract**
@@ -36,14 +36,14 @@ _Updated 2026-10-28 03:34 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 QEC / Fault Tolerance has critical strategic importance and declining momentum.
+- 🔴 QEC / Fault Tolerance has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Hardware
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Hardware has critical strategic importance and rising momentum.
+- 🔴 Quantum Hardware has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Networking
@@ -74,27 +74,6 @@ _Updated 2026-10-28 03:34 UTC_
 - 🔴 Standards / Government has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Source failing: Quantum Computing Report 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 64.7% reliability with 10 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🔴 Source failing: Quantum Zeitgeist 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 84.6% reliability with 1 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Actionable signal: Quantum Hardware 🆕
-
-- Severity: **high**
-- Status: **actionable**
-- 🎯 Quantum Hardware is actionable with high confidence.
-- [Open supporting view](signals.md)
-
 ## 🟠 Actionable signal: Quantum Networking
 
 - Severity: **high**
@@ -109,18 +88,11 @@ _Updated 2026-10-28 03:34 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Quantum Hardware 🆕
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 20 versus 13 in the prior period.
-- [Open supporting view](signals.md)
-
 ## 🟠 Rising momentum: Quantum Networking
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 7 versus 1 in the prior period.
+- ↗️ Recent evidence is 8 versus 1 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -130,7 +102,7 @@ _Updated 2026-10-28 03:34 UTC_
 - ↗️ Recent evidence is 3 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Standard: NIST 🆕
+## 🟠 Standard: NIST
 
 - Severity: **high**
 - Status: **standard**
@@ -187,6 +159,13 @@ _Updated 2026-10-28 03:34 UTC_
 - The latest dated item is from 2026-07-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: Grants.gov · Artificial Intelligence 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-10-14; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: Grants.gov · Cybersecurity
 
 - Severity: **medium**
@@ -206,13 +185,6 @@ _Updated 2026-10-28 03:34 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-08-27; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Grants.gov · Project Triad
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-25; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Grants.gov · Quantum Benchmarking Initiative
@@ -262,13 +234,6 @@ _Updated 2026-10-28 03:34 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-09; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: PsiQuantum News
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-10-08; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: QuSecure Press Releases

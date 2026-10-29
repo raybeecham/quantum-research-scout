@@ -1458,6 +1458,26 @@
         }
       ]
     },
+    "https://eprint.iacr.org/2026/2665": {
+      "captures": [
+        {
+          "excerpts": [
+            "We present an end-to-end resource estimation of Shor's algorithm on superconducting cat qubits, from its mathematical description to the allocation and scheduling of physical qubits on a chip layout",
+            "After proposing a comprehensive view of the modern versions of Shor's algorithm for RSA, ECDLP and FFDLP, we make explicit their logical circuits and the trade-offs they enable"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-28",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2665"
+            }
+          ],
+          "title": "Shor's algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days"
+        }
+      ]
+    },
     "https://huggingface.co/blog/allenai/novelty-bench": {
       "captures": [
         {
@@ -2299,6 +2319,26 @@
         }
       ]
     },
+    "https://quantumcomputingreport.com/gothenburg-and-chalmers-researchers-develop-modular-graph-neural-decoder-for-surface-code-memory-and-lattice-surgery": {
+      "captures": [
+        {
+          "excerpts": [
+            "Researchers from the University of Gothenburg and Chalmers University of Technology have developed a modular neural decoder for surface code quantum error correction (QEC)",
+            "This decoder demonstrates superior performance compared to traditional methods and is capable of adapting across different hardware architectures, noise profiles, and multi-patch logical operations"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-28",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/gothenburg-and-chalmers-researchers-develop-modular-graph-neural-decoder-for-surface-code-memory-and-lattice-surgery"
+            }
+          ],
+          "title": "Gothenburg and Chalmers Researchers Develop Modular Graph Neural Decoder for Surface Code Memory and Lattice Surgery"
+        }
+      ]
+    },
     "https://quantumcomputingreport.com/gqi-q3-2026-state-of-play-investment-consolidation-accelerating-q-day-horizons-and-the-shift-to-second-generation-architectures": {
       "captures": [
         {
@@ -2700,6 +2740,26 @@
             }
           ],
           "title": "NIST Releases Final IR 8547 Establishing Definitive Post-Quantum Cryptography Transition Timeline and Deprecation Schedules"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/nord-quantique-secures-10-million-darpa-quantum-benchmarking-initiative-stage-b-agreement-extension": {
+      "captures": [
+        {
+          "excerpts": [
+            "This funding supports engineering milestones and prototyping to demonstrate the viability of their approach, which aims for a 1:1 physical-to-logical qubit footprint using superconducting bosonic codes",
+            "Nord Quantique secured a $10 million extension for Stage B of the DARPA Quantum Benchmarking Initiative (QBI) to advance its bosonic quantum error correction (QEC) architecture"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-28",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/nord-quantique-secures-10-million-darpa-quantum-benchmarking-initiative-stage-b-agreement-extension"
+            }
+          ],
+          "title": "Nord Quantique Secures $10 Million DARPA Quantum Benchmarking Initiative Stage B Agreement Extension"
         }
       ]
     },
@@ -3488,6 +3548,26 @@
         }
       ]
     },
+    "https://quantumcomputingreport.com/university-of-sydney-demonstrates-multi-qubit-logical-entanglement-and-170-round-stability-on-ibm-square-lattice-nighthawk-r2-processor": {
+      "captures": [
+        {
+          "excerpts": [
+            "They achieved multi-qubit fault-tolerant logic and sustained error suppression for up to 170 rounds using a novel dynamic \"walking\" syndrome circuit",
+            "University of Sydney researchers have demonstrated significant advancements in quantum error correction on IBM Quantum's ibm_phoenix processor"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-28",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/university-of-sydney-demonstrates-multi-qubit-logical-entanglement-and-170-round-stability-on-ibm-square-lattice-nighthawk-r2-processor"
+            }
+          ],
+          "title": "University of Sydney Demonstrates Multi-Qubit Logical Entanglement and 170-Round Stability on IBM Square-Lattice Nighthawk r2 Processor"
+        }
+      ]
+    },
     "https://quantumcomputingreport.com/us-department-of-energy-releases-national-quantum-roadmap-establishing-2028-fault-tolerance-milestones": {
       "captures": [
         {
@@ -3614,6 +3694,25 @@
         }
       ]
     },
+    "https://quantumzeitgeist.com/alphaqubit-decoder-complexity-aiding-quantum-state": {
+      "captures": [
+        {
+          "excerpts": [
+            "A new Mamba-based decoder, utilizing a state-space model with O(d^2) complexity, matches Transformer performance, potentially speeding up quantum error correction"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-28",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/alphaqubit-decoder-complexity-aiding-quantum-state"
+            }
+          ],
+          "title": "State-space model cuts decoder complexity, aiding quantum computers"
+        }
+      ]
+    },
     "https://quantumzeitgeist.com/aws-adds-encryption-method-guard": {
       "captures": [
         {
@@ -3707,6 +3806,44 @@
         }
       ]
     },
+    "https://quantumzeitgeist.com/guadalajara-entanglement-dynamics-via-interacting": {
+      "captures": [
+        {
+          "excerpts": [
+            "This study explores how interactions between two harmonic oscillators influence two-qubit entanglement, revealing control over entanglement dynamics"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-28",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/guadalajara-entanglement-dynamics-via-interacting"
+            }
+          ],
+          "title": "Entanglement dynamics via interacting oscillators"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/hadamard-states-offer-simpler-path": {
+      "captures": [
+        {
+          "excerpts": [
+            "Researchers found that Hadamard states, a specific qubit class, exhibit greater entanglement—on average—than commonly studied Haar-typical states"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-28",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/hadamard-states-offer-simpler-path"
+            }
+          ],
+          "title": "Hadamard states offer a simpler path to complex entanglement"
+        }
+      ]
+    },
     "https://quantumzeitgeist.com/hefei-quantum-teleportation-works-surface-code": {
       "captures": [
         {
@@ -3730,6 +3867,25 @@
             }
           ],
           "title": "Quantum teleportation works with a surface code up to distance 7"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/karlsruhe-technology-long-lived-defects-trap": {
+      "captures": [
+        {
+          "excerpts": [
+            "Superconducting qubits’ performance is limited by “two-level systems,” or TLSs— defects that retain memory and trap energy, hindering fault tolerance"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-28",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/karlsruhe-technology-long-lived-defects-trap"
+            }
+          ],
+          "title": "Long-lived defects trap qubit energy, study finds"
         }
       ]
     },
@@ -3911,6 +4067,25 @@
             }
           ],
           "title": "MettiTech launches Quantum Proof Coin to shield assets from quantum attacks"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/post-quantum-security-hallman-joins-symmatrics": {
+      "captures": [
+        {
+          "excerpts": [
+            "Symmatrics added Andrew Hallman, former CIA & ODNI leader, to its advisory board"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-28",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/post-quantum-security-hallman-joins-symmatrics"
+            }
+          ],
+          "title": "Hallman joins Symmatrics to bolster post-quantum security"
         }
       ]
     },
@@ -6066,6 +6241,26 @@
         }
       ]
     },
+    "https://thequantuminsider.com/2026/10/28/databrushing-ai-uechain-data-verification": {
+      "captures": [
+        {
+          "excerpts": [
+            "AI DataBrushing Technology Co., Ltd. (DataBrushing.AI) launched S.A.F.E.-AI Trusted Platform – UEChain on October 16, a solution built on Public Key Infrastructure (PKI), a Certificate Authority (CA), and digital...",
+            "UEChain is designed to help enterprises and research institutions answer three critical questions: Who provided the data?"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-28",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/10/28/databrushing-ai-uechain-data-verification"
+            }
+          ],
+          "title": "DataBrushing.AI Launches UEChain for Data Verification and Trust"
+        }
+      ]
+    },
     "https://thequantuminsider.com/2026/10/28/ionq-7-5-million-afrl-full-stack-quantum-networking": {
       "captures": [
         {
@@ -6083,6 +6278,26 @@
             }
           ],
           "title": "IonQ Receives $7.5 Million from AFRL for Quantum Networking"
+        }
+      ]
+    },
+    "https://thequantuminsider.com/2026/10/28/nvision-nature-molecular-qubits-hyperlight": {
+      "captures": [
+        {
+          "excerpts": [
+            "The companies will integrate NVision’s thin-film molecular qubits directly onto advanced photonic integrated circuits (PICs)",
+            "NVision, a quantum technology company, announced the publication of landmark peer-reviewed research in Nature and a strategic partnership with HyperLight Corporation (“HyperLight”), an industry leader in thin-film..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-28",
+              "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/10/28/nvision-nature-molecular-qubits-hyperlight"
+            }
+          ],
+          "title": "NVision and HyperLight Partner to Develop Photonic Quantum Chips"
         }
       ]
     },
@@ -6113,6 +6328,13 @@
               "published_date": "2026-10-28",
               "report_date": "2026-10-28",
               "sequence": 1,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/10/28/what-nists-post-quantum-cryptography-plan-means-for-companies-and-their-suppliers"
+            },
+            {
+              "published_date": "2026-10-28",
+              "report_date": "2026-10-28",
+              "sequence": 3,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/10/28/what-nists-post-quantum-cryptography-plan-means-for-companies-and-their-suppliers"
             }
