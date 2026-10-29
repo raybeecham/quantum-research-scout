@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-29 11:46 UTC_
+_Updated 2026-10-29 12:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -23,8 +23,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 8 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
 | Quantum Computing Patents | patent | 93% | 3 | 0 | 2026-10-29 | 2026-10-22 | fresh | 🟢 healthy |
 | Quantum Journal | rss | 94% | 2 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🟢 healthy |
-| arXiv RSS cs.CR | arxiv_rss | 91% | 2 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🔴 failing |
-| arXiv RSS quant-ph | arxiv_rss | 91% | 2 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🔴 failing |
+| arXiv RSS cs.CR | arxiv_rss | 90% | 2 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🔴 failing |
+| arXiv RSS quant-ph | arxiv_rss | 90% | 2 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🔴 failing |
 | Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 92% | 1 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 22 | 2026-10-29 | 2026-10-28 | fresh | 🟠 partial |
@@ -66,7 +66,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Grants.gov · Quantum Genesis | grant_opportunity | 100% | 0 | 0 | 2026-10-29 | 2026-06-30 | stale | 🟢 healthy |
 | Grants.gov · Quantum Technologies | grant_opportunity | 100% | 0 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🟢 healthy |
 | Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-10-29 | — | unknown | 🟢 healthy |
-| Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🟢 healthy |
+| Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-10-29 | 2026-10-29 | fresh | 🟢 healthy |
 | IACR ePrint | iacr_eprint | 99% | 0 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🟢 healthy |
 | IBM Quantum Blog | url | 100% | 0 | 0 | 2026-10-29 | 2026-10-27 | fresh | 🟢 healthy |
 | IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-10-29 | 2026-10-27 | fresh | 🟢 healthy |
@@ -76,7 +76,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Intel Quantum Research | watch | 100% | 0 | 0 | 2026-10-29 | — | reference | 🟢 healthy |
 | IonQ News | rss | 100% | 0 | 0 | 2026-10-29 | 2026-10-27 | fresh | 🟢 healthy |
 | Keyfactor Quantum and Crypto-Agility | watch | 100% | 0 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🟢 healthy |
-| Kubernetes Blog | rss | 100% | 0 | 0 | 2026-10-29 | 2026-10-27 | fresh | 🟢 healthy |
+| Kubernetes Blog | rss | 100% | 0 | 0 | 2026-10-29 | 2026-10-29 | fresh | 🟢 healthy |
 | Lockheed Martin Quantum Technology | watch | 99% | 0 | 0 | 2026-10-29 | 2026-07-14 | stale | 🟢 healthy |
 | Microsoft Quantum Blog | watch | 100% | 0 | 0 | 2026-10-29 | 2026-09-22 | stale | 🟢 healthy |
 | NCSC UK Guidance | rss | 100% | 0 | 0 | 2026-10-29 | 2026-10-15 | fresh | 🟢 healthy |
