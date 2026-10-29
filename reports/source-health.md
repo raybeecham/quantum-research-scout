@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-29 07:46 UTC_
+_Updated 2026-10-29 08:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -17,14 +17,14 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | White House Science and Technology Missions | watch | 75% | 27 | 0 | 2026-10-29 | 2026-09-29 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 83% | 25 | 0 | 2026-10-29 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 91% | 13 | 0 | 2026-10-29 | 2026-10-23 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 67% | 9 | 0 | 2026-10-29 | 2026-10-29 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 68% | 9 | 0 | 2026-10-29 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 65% | 8 | 0 | 2026-10-26 | 2026-10-21 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 65% | 8 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 8 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
 | Quantum Computing Patents | patent | 93% | 3 | 0 | 2026-10-29 | 2026-10-22 | fresh | 🟢 healthy |
 | Quantum Journal | rss | 94% | 2 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🟢 healthy |
-| arXiv RSS cs.CR | arxiv_rss | 94% | 2 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🔴 failing |
-| arXiv RSS quant-ph | arxiv_rss | 94% | 2 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🔴 failing |
+| arXiv RSS cs.CR | arxiv_rss | 93% | 2 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🔴 failing |
+| arXiv RSS quant-ph | arxiv_rss | 93% | 2 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🔴 failing |
 | Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 91% | 1 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 22 | 2026-10-29 | 2026-10-28 | fresh | 🟠 partial |
@@ -102,7 +102,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | SandboxAQ Blog | url | 100% | 0 | 0 | 2026-10-29 | 2026-10-08 | stale | 🟢 healthy |
 | Strategic AI Systems Patents | patent | 99% | 0 | 0 | 2026-10-29 | 2026-10-22 | fresh | 🟢 healthy |
 | Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-10-29 | 2026-10-23 | fresh | 🟢 healthy |
-| The Quantum Insider | rss | 100% | 0 | 0 | 2026-10-29 | 2026-10-28 | fresh | 🟢 healthy |
+| The Quantum Insider | rss | 100% | 0 | 0 | 2026-10-29 | 2026-10-29 | fresh | 🟢 healthy |
 | Trail of Bits Cryptography | rss | 100% | 0 | 0 | 2026-10-29 | 2026-10-14 | fresh | 🟢 healthy |
 | USAspending · AI Forge | federal_award | 100% | 0 | 0 | 2026-10-29 | 2026-09-28 | stale | 🟢 healthy |
 | USAspending · Advanced Computing | federal_award | 100% | 0 | 0 | 2026-10-29 | 2026-10-19 | fresh | 🟢 healthy |
