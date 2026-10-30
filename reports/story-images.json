@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-30T20:47:17.548974+00:00",
+  "updated_at": "2026-10-30T21:46:14.229657+00:00",
   "records": {
     "https://quantumcomputingreport.com/university-of-sydney-demonstrates-multi-qubit-logical-entanglement-and-170-round-stability-on-ibm-square-lattice-nighthawk-r2-processor": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-231.png",
@@ -438,11 +438,6 @@
       "fetched_at": "2026-10-29T00:46:21.136471+00:00",
       "status": "ok"
     },
-    "https://eprint.iacr.org/2026/2643": {
-      "page_url": "https://eprint.iacr.org/2026/2643",
-      "status": "failed",
-      "fetched_at": "2026-10-29T21:46:05.006449+00:00"
-    },
     "https://arxiv.org/abs/2610.34143": {
       "page_url": "https://arxiv.org/abs/2610.34143",
       "status": "unavailable",
@@ -586,11 +581,6 @@
       "fetched_at": "2026-10-29T03:46:08.263511+00:00",
       "status": "ok"
     },
-    "https://eprint.iacr.org/2026/2641": {
-      "page_url": "https://eprint.iacr.org/2026/2641",
-      "status": "failed",
-      "fetched_at": "2026-10-29T21:46:05.006449+00:00"
-    },
     "https://arxiv.org/abs/2610.33862": {
       "page_url": "https://arxiv.org/abs/2610.33862",
       "status": "unavailable",
@@ -697,51 +687,6 @@
       "fetched_at": "2026-10-27T03:23:52.207680+00:00",
       "status": "ok"
     },
-    "https://arxiv.org/abs/2610.32152": {
-      "page_url": "https://arxiv.org/abs/2610.32152",
-      "status": "unavailable",
-      "fetched_at": "2026-10-29T21:46:05.006449+00:00"
-    },
-    "https://arxiv.org/abs/2610.32347": {
-      "page_url": "https://arxiv.org/abs/2610.32347",
-      "status": "unavailable",
-      "fetched_at": "2026-10-29T21:46:05.006449+00:00"
-    },
-    "https://arxiv.org/abs/2610.32049": {
-      "page_url": "https://arxiv.org/abs/2610.32049",
-      "status": "unavailable",
-      "fetched_at": "2026-10-29T21:46:05.006449+00:00"
-    },
-    "https://arxiv.org/abs/2610.31694": {
-      "page_url": "https://arxiv.org/abs/2610.31694",
-      "status": "unavailable",
-      "fetched_at": "2026-10-29T21:46:05.006449+00:00"
-    },
-    "https://arxiv.org/abs/2610.31995": {
-      "page_url": "https://arxiv.org/abs/2610.31995",
-      "status": "unavailable",
-      "fetched_at": "2026-10-29T21:46:05.006449+00:00"
-    },
-    "https://arxiv.org/abs/2610.32356": {
-      "page_url": "https://arxiv.org/abs/2610.32356",
-      "status": "unavailable",
-      "fetched_at": "2026-10-29T21:46:05.006449+00:00"
-    },
-    "https://arxiv.org/abs/2610.32518": {
-      "page_url": "https://arxiv.org/abs/2610.32518",
-      "status": "unavailable",
-      "fetched_at": "2026-10-29T21:46:05.006449+00:00"
-    },
-    "https://arxiv.org/abs/2610.32803": {
-      "page_url": "https://arxiv.org/abs/2610.32803",
-      "status": "unavailable",
-      "fetched_at": "2026-10-29T21:46:05.006449+00:00"
-    },
-    "https://eprint.iacr.org/2026/2649": {
-      "page_url": "https://eprint.iacr.org/2026/2649",
-      "status": "failed",
-      "fetched_at": "2026-10-29T21:46:05.006449+00:00"
-    },
     "https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-195.png",
       "page_url": "https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones",
@@ -831,6 +776,64 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-25T02:49:22.662220+00:00",
       "status": "ok"
+    },
+    "https://eprint.iacr.org/2026/2643": {
+      "page_url": "https://eprint.iacr.org/2026/2643",
+      "fetched_at": "2026-10-30T21:46:14.229657+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://eprint.iacr.org/2026/2641": {
+      "page_url": "https://eprint.iacr.org/2026/2641",
+      "fetched_at": "2026-10-30T21:46:14.229657+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://arxiv.org/abs/2610.32152": {
+      "page_url": "https://arxiv.org/abs/2610.32152",
+      "fetched_at": "2026-10-30T21:46:14.229657+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2610.32347": {
+      "page_url": "https://arxiv.org/abs/2610.32347",
+      "fetched_at": "2026-10-30T21:46:14.229657+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2610.32049": {
+      "page_url": "https://arxiv.org/abs/2610.32049",
+      "fetched_at": "2026-10-30T21:46:14.229657+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2610.31694": {
+      "page_url": "https://arxiv.org/abs/2610.31694",
+      "fetched_at": "2026-10-30T21:46:14.229657+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2610.31995": {
+      "page_url": "https://arxiv.org/abs/2610.31995",
+      "fetched_at": "2026-10-30T21:46:14.229657+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2610.32356": {
+      "page_url": "https://arxiv.org/abs/2610.32356",
+      "fetched_at": "2026-10-30T21:46:14.229657+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2610.32518": {
+      "page_url": "https://arxiv.org/abs/2610.32518",
+      "fetched_at": "2026-10-30T21:46:14.229657+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2610.32803": {
+      "page_url": "https://arxiv.org/abs/2610.32803",
+      "fetched_at": "2026-10-30T21:46:14.229657+00:00",
+      "status": "unavailable"
+    },
+    "https://eprint.iacr.org/2026/2649": {
+      "page_url": "https://eprint.iacr.org/2026/2649",
+      "fetched_at": "2026-10-30T21:46:14.229657+00:00",
+      "status": "failed",
+      "reason": "http_403"
     }
   }
 }
