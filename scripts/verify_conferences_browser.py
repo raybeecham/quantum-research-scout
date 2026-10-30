@@ -43,6 +43,25 @@ def main():
             )
             page.locator("#conference-reset").click()
             expect(page.locator("#conferences")).to_be_visible()
+            page.get_by_role("combobox", name="Year", exact=True).select_option("2027")
+            expect(page.locator(".conference-card")).to_have_count(36)
+            assert all("2027" in t for t in page.locator(".conference-dates").all_text_contents())
+            page.locator("#conference-more").click()
+            expect(page.locator(".conference-card")).to_have_count(72)
+            page.locator("#conference-topic").select_option("HPC")
+            page.locator("#conference-evidence").select_option("confirmed")
+            assert page.locator(".conference-card").count() > 0
+            assert all("2027" in t for t in page.locator(".conference-dates").all_text_contents())
+            page.evaluate("window.scrollTo(0, 0)")
+            page.screenshot(path=str(output / f"year-2027-{width}.png"), full_page=True)
+            page.locator("#conference-search").fill("GTC")
+            expect(page.locator(".conference-card")).to_have_count(1)
+            page.locator("#conference-period").select_option("past")
+            expect(page.locator("#conference-results")).to_contain_text("No conferences match")
+            expect(page.locator("#conference-more")).to_be_hidden()
+            page.locator("#conference-reset").click()
+            expect(page.locator("#conference-year")).to_have_value("")
+            expect(page.locator("#conference-count")).to_contain_text("Showing 36")
             page.locator("#conference-topic").select_option("Quantum")
             assert page.locator(".conference-card").count() > 3
             page.locator("#conference-search").fill("chicago")
@@ -72,7 +91,11 @@ def main():
         fixture = json.loads(Path("dashboard/conferences.json").read_text(encoding="utf-8"))
         fixture["events"] = [fixture["events"][0]]
         fixture["events"][0].update(
-            status="unannounced", start=None, end=None, verified="2025-01-01"
+            name="Future conference 2027",
+            status="unannounced",
+            start=None,
+            end=None,
+            verified="2025-01-01",
         )
         page.route("**/conferences.json*", lambda route: route.fulfill(json=fixture))
         page.reload()
@@ -80,10 +103,26 @@ def main():
         page.locator("#conference-period").select_option("unannounced")
         expect(page.locator(".conference-card")).to_contain_text("dates unannounced")
         expect(page.locator(".conference-card")).to_contain_text("Recheck due")
+        page.locator("#conference-year").select_option("2027")
+        expect(page.locator(".conference-card")).to_have_count(1)
+        expect(page.locator(".conference-card")).to_contain_text("dates unannounced")
+        expect(page.locator('#conference-year option[value="2025"]')).to_have_count(0)
+        fixture["events"][0].update(name="Future conference without a year", edition="2025")
+        page.reload()
+        expect(page.locator("#conference-year option")).to_have_count(1)
+        page.locator("#conference-period").select_option("unannounced")
+        expect(page.locator(".conference-card")).to_have_count(1)
+        fixture["events"][0].update(
+            name="Cross-year event", status="announced", start="2026-12-30", end="2027-01-02"
+        )
+        page.reload()
+        for year in ("2026", "2027"):
+            page.locator("#conference-year").select_option(year)
+            expect(page.locator(".conference-card")).to_have_count(1)
         assert not errors, errors
         browser.close()
     print(
-        "Conference browser checks passed: desktop/mobile, search/topic/reset, navigation, failure/retry, unannounced dates and freshness."
+        "Conference browser checks passed: desktop/mobile, year/combined filters/reset/pagination, undated and cross-year editions, search/topic/reset, navigation, failure/retry, unannounced dates and freshness."
     )
 
 
