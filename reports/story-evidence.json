@@ -780,6 +780,26 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2610.38479": {
+      "captures": [
+        {
+          "excerpts": [
+            "As the advent of large-scale quantum computing threatens classical encryption, Quasi-Cyclic Moderate Density Parity-Check (QC-MDPC) codes have emerged as a foundational element of Post-Quantum Cryptography (PQC)",
+            "However, decoding these relatively dense codes using classical Belief Propagation algorithms often leads to failures caused by short graph cycles that stall the decoder"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-29",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2610.38479"
+            }
+          ],
+          "title": "Recurrent Bipartite Graph Neural Networks for QC-MDPC Error Decoding in McEliece Cryptosystems"
+        }
+      ]
+    },
     "https://arxiv.org/abs/2610.38632": {
       "captures": [
         {
@@ -4113,6 +4133,27 @@
             }
           ],
           "title": "EU roadmap guides Germany’s shift to quantum-resistant security"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/fibonacci-anyon-gates-low-leakage-gpu-pipeline": {
+      "captures": [
+        {
+          "excerpts": [
+            "This advance opens new avenues towards building more dependable topological qubits by directly compiling high-fidelity gates",
+            "Optimised algorithms combined with GPU acceleration have achieved this fidelity at braid length 69 using Fibonacci anyons, surpassing previous methods reliant on random searches",
+            "A quantum gate with both leakage and error rates around one ten-billionth has been demonstrated, a feat previously beyond reach"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/fibonacci-anyon-gates-low-leakage-gpu-pipeline"
+            }
+          ],
+          "title": "Researchers Find Fibonacci Anyon Gate with Near-Zero Error"
         }
       ]
     },
