@@ -196,6 +196,7 @@
   adaptReadingControls();
   const views = {
     news: ["Latest in emerging tech", []],
+    conferences: ["Conferences", []],
     start: ["Start here", []],
     investigations: ["Investigations", []],
     briefing: ["Technology briefing", []],
@@ -226,6 +227,7 @@
   };
   const elements = {
     news: $("news"),
+    conferences: $("conferences"),
     start: $("start"),
     investigations: $("investigations"),
     briefing: $("briefing"),

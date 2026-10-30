@@ -13,6 +13,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from pqc_quantum_research_agent.briefing import build_reading_brief  # noqa: E402
+from pqc_quantum_research_agent.conferences import validate_directory  # noqa: E402
 from pqc_quantum_research_agent.config import load_config  # noqa: E402
 from pqc_quantum_research_agent.dashboard_data import (  # noqa: E402
     PACKS,
@@ -47,6 +48,7 @@ def build_dashboard(
     root = Path(project_root)
     output = Path(output_dir)
     assets = root / "dashboard"
+    validate_directory(assets / "conferences.json")
     reports = root / "reports"
     citations = _read_json(reports / "citations.json", {"records": {}})
     output.mkdir(parents=True, exist_ok=True)
@@ -301,6 +303,9 @@ def build_dashboard(
         "favicon.svg",
         "desk.css",
         "desk.js",
+        "conferences.js",
+        "conferences.css",
+        "conferences.json",
         "workspace.js",
         "motion.js",
         "motion.css",

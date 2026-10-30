@@ -12,6 +12,12 @@ source_health:
   stale_after_days: 14
   critical_source_types: [federal_award, grant_opportunity, procurement]
   source_policies:
+    IonQ Technical Blog:
+      stale_after_days: 60
+      note: "First-party technical blog; separate from investor news. Performance claims need independent verification."
+    Palo Alto Networks LIVEcommunity Blogs:
+      stale_after_days: 30
+      note: "Vendor/community technical posts; routine product promotion still passes the normal relevance gate."
     NIST Post-Quantum Cryptography Project:
       role: reference
       note: "Standards/project reference; an older publication date is not a collection failure."
@@ -437,6 +443,21 @@ watch_sources:
     match_patterns: [quantum, cryptograph, cybersecurity, artificial intelligence, computing]
     max_items: 40
     source_note: "Official NIST RSS directory: https://www.nist.gov/coo/nist-rss-feeds. Complements CSRC releases with technical explanations."
+  - name: "Palo Alto Networks LIVEcommunity Blogs"
+    entities: [Palo Alto Networks]
+    rss_url: "https://live.paloaltonetworks.com/rss/board?board.id=CommunityBlog"
+    url: "https://live.paloaltonetworks.com/t5/community-blogs/bg-p/CommunityBlog"
+    include_patterns: [/t5/community-blogs/]
+    exclude_patterns: [/bg-p/, /label-name/]
+    max_items: 25
+    source_note: "2026-10-30: verified official CommunityBlog RSS and article URLs. Vendor/community claims remain subject to normal relevance and evidence admission."
+  - name: "IonQ Technical Blog"
+    entities: [IonQ]
+    url: "https://ionq.com/blog"
+    include_patterns: [/blog/]
+    min_title_chars: 6
+    max_items: 25
+    source_note: "2026-10-30: verified recurring blog index, separate from investor press releases. Article publication dates come from the article header; first-party performance claims are not independent validation."
   - name: "Microsoft Quantum Blog"
     entities: [Microsoft Quantum]
     url: "https://quantum.microsoft.com/en-us/insights/blogs"

@@ -12,6 +12,7 @@
     investigations: ["news", "research", "federal", "decisions"],
     decisions: ["decisions", "federal", "research"],
     library: ["reports"],
+    conferences: [],
     start: [],
     operations: ["source-health", "research"],
   };
