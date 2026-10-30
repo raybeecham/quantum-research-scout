@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-30 16:46 UTC_
+_Updated 2026-10-30 17:09 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -75,6 +75,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-10-30 | 2026-09-16 | fresh | 🟢 healthy |
 | Intel Quantum Research | watch | 100% | 0 | 0 | 2026-10-30 | — | reference | 🟢 healthy |
 | IonQ News | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-27 | fresh | 🟢 healthy |
+| IonQ Technical Blog | watch | 100% | 0 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | Keyfactor Quantum and Crypto-Agility | watch | 100% | 0 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | Kubernetes Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | Lockheed Martin Quantum Technology | watch | 99% | 0 | 0 | 2026-10-30 | 2026-07-14 | stale | 🟢 healthy |
@@ -92,6 +93,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | PQCA Blog and News | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-20 | fresh | 🟢 healthy |
 | PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-20 | fresh | 🟢 healthy |
 | PQShield | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-23 | fresh | 🟢 healthy |
+| Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🟢 healthy |
 | Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | PsiQuantum News | watch | 100% | 0 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🟢 healthy |
 | QCi Press Releases | watch | 100% | 0 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🟢 healthy |
@@ -124,7 +126,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **103** of **106**
+- Healthy sources: **105** of **108**
 - Partial-coverage sources: **1**
 - Critical sources failing: **0**
 - Partial coverage: SAM.gov Opportunities
