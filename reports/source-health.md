@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-30 19:47 UTC_
+_Updated 2026-10-30 20:47 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -22,11 +22,11 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv Quantum Computing | arxiv | 66% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | Quantum Computing Patents | patent | 92% | 4 | 0 | 2026-10-30 | 2026-10-22 | fresh | 🔴 failing |
-| Quantum Journal | rss | 95% | 2 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🔴 failing |
+| Quantum Journal | rss | 94% | 2 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🔴 failing |
 | arXiv RSS cs.CR | arxiv_rss | 83% | 2 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
-| arXiv RSS quant-ph | arxiv_rss | 82% | 2 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
+| arXiv RSS quant-ph | arxiv_rss | 83% | 2 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
-| Google Quantum AI | watch | 87% | 1 | 0 | 2026-10-30 | 2026-10-15 | fresh | 🔴 failing |
+| Google Quantum AI | watch | 86% | 1 | 0 | 2026-10-30 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Zeitgeist | rss | 95% | 1 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 22 | 2026-10-30 | 2026-10-29 | fresh | 🟠 partial |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-21 | fresh | 🟢 healthy |
@@ -46,7 +46,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-10-30 | — | reference | 🟢 healthy |
-| DigiCert Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🟢 healthy |
+| DigiCert Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 0 | 2026-10-30 | 2024-03-12 | reference | 🟢 healthy |
 | Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-10-30 | 2026-10-08 | stale | 🟢 healthy |
