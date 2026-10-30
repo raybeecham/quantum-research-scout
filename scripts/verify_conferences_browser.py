@@ -26,19 +26,38 @@ def main():
         for width in (1440, 390):
             page.set_viewport_size({"width": width, "height": 950})
             page.goto(args.url + "/#conferences")
-            expect(page.locator("#conference-count")).to_contain_text("13 of 13")
+            expect(page.locator(".conference-card")).to_have_count(36)
+            expect(page.locator("#conference-freshness")).to_contain_text(
+                "Last successful collection"
+            )
+            page.locator("#conference-more").click()
+            expect(page.locator(".conference-card")).to_have_count(72)
+            page.locator("#conference-evidence").select_option("directory")
+            assert all(
+                "Directory lead" in t for t in page.locator(".conference-badge").all_text_contents()
+            )
+            page.locator("#conference-evidence").select_option("confirmed")
+            assert all(
+                "Organizer dates confirmed" in t
+                for t in page.locator(".conference-badge").all_text_contents()
+            )
+            page.locator("#conference-reset").click()
             expect(page.locator("#conferences")).to_be_visible()
             page.locator("#conference-topic").select_option("Quantum")
-            expect(page.locator(".conference-card")).to_have_count(3)
+            assert page.locator(".conference-card").count() > 3
             page.locator("#conference-search").fill("chicago")
-            expect(page.locator(".conference-card")).to_have_count(1)
-            expect(page.locator(".conference-card")).to_contain_text("Q2B")
+            assert page.locator(".conference-card").count() >= 1
+            assert all(
+                "chicago" in t.lower() for t in page.locator(".conference-card").all_text_contents()
+            )
+            expect(page.locator("#conference-results")).to_contain_text("Q2B")
             page.locator("#conference-search").fill("no-such-event")
             expect(page.locator("#conference-results")).to_contain_text("No conferences match")
             page.locator("#conference-reset").click()
-            expect(page.locator(".conference-card")).to_have_count(13)
+            expect(page.locator(".conference-card")).to_have_count(36)
             assert not page.evaluate("document.documentElement.scrollWidth > innerWidth")
-            page.screenshot(path=str(output / f"conferences-{width}.png"), full_page=True)
+            page.evaluate("window.scrollTo(0, 0)")
+            page.screenshot(path=str(output / f"conferences-{width}.png"))
             for route in ("news", "saved", "research", "operations", "conferences"):
                 page.evaluate("(r) => location.hash=r", route)
                 expect(page.locator(f'[data-workspace="{route}"]')).to_have_attribute(
@@ -49,7 +68,7 @@ def main():
         expect(page.locator("#conference-count")).to_contain_text("could not load")
         page.unroute("**/conferences.json*")
         page.get_by_role("button", name="Retry conference directory").click()
-        expect(page.locator(".conference-card")).to_have_count(13)
+        expect(page.locator(".conference-card")).to_have_count(36)
         fixture = json.loads(Path("dashboard/conferences.json").read_text(encoding="utf-8"))
         fixture["events"] = [fixture["events"][0]]
         fixture["events"][0].update(

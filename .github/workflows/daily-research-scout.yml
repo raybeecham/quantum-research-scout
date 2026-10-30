@@ -121,6 +121,9 @@ jobs:
         continue-on-error: true
         run: python scripts/enrich_citations.py --reports reports --max-items 12
 
+      - name: Refresh public conferences when the daily interval is due
+        timeout-minutes: 6
+        run: python scripts/refresh_conferences.py
       - name: Refresh publisher story previews
         timeout-minutes: 3
         continue-on-error: true

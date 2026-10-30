@@ -1,0 +1,80 @@
+version: 1
+refresh_hours: 24
+request_timeout_seconds: 15
+budget_seconds: 240
+verification_budget: 8
+past_retention_days: 90
+future_horizon_days: 730
+max_events: 1200
+sources:
+  - id: usenix
+    name: USENIX conferences
+    role: organizer
+    parser: usenix
+    urls: ["https://www.usenix.org/conferences"]
+    topics: [Cloud]
+  - id: linuxfoundation
+    name: Linux Foundation events
+    role: organizer
+    parser: linuxfoundation
+    urls: ["https://events.linuxfoundation.org/"]
+    topics: [Cloud, Emerging tech]
+  - id: afcea
+    name: AFCEA International events
+    role: organizer
+    parser: afcea
+    urls: ["https://www.afcea.org/events", "https://www.afcea.org/events?page=1", "https://www.afcea.org/events?page=2"]
+    topics: [Federal, Cybersecurity]
+  - id: hpcforum
+    name: HPC User Forum
+    role: organizer
+    parser: hpcforum
+    urls: ["https://www.hpcuserforum.com/main-event-page/"]
+    topics: [HPC]
+  - id: quantuminfo
+    name: Quantum Technology Lab conference directory
+    role: directory
+    parser: quantum
+    urls: ["https://www.quantum.info/conf/index.html", "https://www.quantum.info/conf/{next_year}.html"]
+    topics: [Quantum]
+  - id: confs-security
+    name: confs.tech security
+    role: directory
+    parser: confs_json
+    urls: ["https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences/{year}/security.json", "https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences/{next_year}/security.json"]
+    topics: [Cybersecurity]
+  - id: confs-data
+    name: confs.tech data and AI
+    role: directory
+    parser: confs_json
+    urls: ["https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences/{year}/data.json", "https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences/{next_year}/data.json"]
+    topics: [AI]
+  - id: confs-devops
+    name: confs.tech DevOps
+    role: directory
+    parser: confs_json
+    urls: ["https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences/{year}/devops.json", "https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences/{next_year}/devops.json"]
+    topics: [Cloud]
+  - id: confs-iot
+    name: confs.tech IoT
+    role: directory
+    parser: confs_json
+    urls: ["https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences/{year}/iot.json", "https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences/{next_year}/iot.json"]
+    topics: [Emerging tech]
+  - id: ai-deadlines
+    name: AI Deadlines community dataset
+    role: directory
+    parser: ai_yaml
+    urls:
+      - "https://raw.githubusercontent.com/tobna/ai-deadlines/main/conferences/aaai.yaml"
+      - "https://raw.githubusercontent.com/tobna/ai-deadlines/main/conferences/aistats.yaml"
+      - "https://raw.githubusercontent.com/tobna/ai-deadlines/main/conferences/iclr.yaml"
+      - "https://raw.githubusercontent.com/tobna/ai-deadlines/main/conferences/icml.yaml"
+      - "https://raw.githubusercontent.com/tobna/ai-deadlines/main/conferences/neurips.yaml"
+      - "https://raw.githubusercontent.com/tobna/ai-deadlines/main/conferences/cvpr.yaml"
+      - "https://raw.githubusercontent.com/tobna/ai-deadlines/main/conferences/iccv.yaml"
+      - "https://raw.githubusercontent.com/tobna/ai-deadlines/main/conferences/acl.yaml"
+      - "https://raw.githubusercontent.com/tobna/ai-deadlines/main/conferences/emnlp.yaml"
+      - "https://raw.githubusercontent.com/tobna/ai-deadlines/main/conferences/kdd.yaml"
+      - "https://raw.githubusercontent.com/tobna/ai-deadlines/main/conferences/ijcai.yaml"
+    topics: [AI]
