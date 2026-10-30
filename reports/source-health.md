@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-30 13:32 UTC_
+_Updated 2026-10-30 14:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -25,8 +25,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Journal | rss | 95% | 2 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 82% | 2 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 82% | 2 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
-| Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
-| Google Quantum AI | watch | 90% | 1 | 0 | 2026-10-30 | 2026-10-15 | fresh | 🔴 failing |
+| Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
+| Google Quantum AI | watch | 89% | 1 | 0 | 2026-10-30 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Zeitgeist | rss | 94% | 1 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 22 | 2026-10-30 | 2026-10-29 | fresh | 🟠 partial |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-21 | fresh | 🟢 healthy |
@@ -39,7 +39,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | CISA Cybersecurity Advisories | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-10-30 | 2026-10-26 | fresh | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-10-30 | 2026-10-22 | fresh | 🟢 healthy |
-| Cloudflare Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
+| Cloudflare Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-23 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-10-30 | 2026-10-06 | stale | 🟢 healthy |
