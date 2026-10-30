@@ -719,6 +719,108 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2610.37807": {
+      "captures": [
+        {
+          "excerpts": [
+            "Magic states are a leading proposal for realizing fault-tolerant and universal quantum computation",
+            "Even simple questions such as what single qubit states have magic remain open",
+            "At the present moment, much of the theory of magic states is not understood"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-29",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.37807"
+            }
+          ],
+          "title": "Lower Bound for Region of Non-Distillable Magic States"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.38189": {
+      "captures": [
+        {
+          "excerpts": [
+            "In fault-tolerant Clifford+T circuits, a Boolean oracle costs T gates and extra qubits, and on four or more qubits every exact Toffoli gate needs an extra qubit",
+            "Gosset, Kothari and Zhang showed that sampling a fresh random circuit for each call makes the T-count of the Toffoli gate independent of its size, but a direct implementation of their sampler uses about one extra..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-29",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.38189"
+            }
+          ],
+          "title": "Ancilla-free randomized Toffoli gates and the T-count of Boolean oracles"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.38283": {
+      "captures": [
+        {
+          "excerpts": [
+            "Heralded atom loss is a dominant noise channel in neutral atom quantum computing platforms, and losses at a two-qubit gate are strongly correlated: when one atom is lost, its gate partner is often lost too",
+            "This work shows how to exploit this correlation to construct a better decoder, focusing on [[144,12,12]] Gross code syndrome extraction circuits"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-29",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.38283"
+            }
+          ],
+          "title": "Maximally-Matched Mixture Decoding for Correlated Atom Loss in Quantum LDPC Codes"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.38632": {
+      "captures": [
+        {
+          "excerpts": [
+            "The simulations use OMNeT++, Veins, INET, and SUMO on two hardware platforms and examine ML-KEM/CRYSTALS-Kyber, ML-DSA/CRYSTALS-Dilithium, and FALCON",
+            "This study comparatively evaluates post-quantum cryptography (PQC) in automotive communication scenarios, considering the threat posed by quantum algorithms such as Shor's and Grover's algorithms"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-29",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2610.38632"
+            }
+          ],
+          "title": "The use of post-quantum cryptography in the automotive context"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.39155": {
+      "captures": [
+        {
+          "excerpts": [
+            "Large language model (LLM) agents often receive access to more files, accounts, and services than a task requires",
+            "Prompt injection turns this excess access into an opportunity to redirect execution toward unrelated resources",
+            "Applying least privilege therefore requires identifying the assets needed by a task, including assets whose identities emerge only during execution"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-29",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2610.39155"
+            }
+          ],
+          "title": "REALM: Identifying Minimal Task Assets for LLM Agents"
+        }
+      ]
+    },
     "https://arxiv.org/abs/2610.39476v1": {
       "captures": [
         {
@@ -3982,6 +4084,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/encryption-consulting-quantum-frost-sullivan-crypto"
+            },
+            {
+              "published_date": "2026-10-29",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/encryption-consulting-quantum-frost-sullivan-crypto"
             }
           ],
           "title": "Quantum Frost & Sullivan report finds crypto discovery is harder than expected"
@@ -4574,6 +4683,13 @@
             {
               "published_date": "2026-10-29",
               "report_date": "2026-10-29",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/verona-quantum-network-upgrade-resist"
+            },
+            {
+              "published_date": "2026-10-29",
+              "report_date": "2026-10-30",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/verona-quantum-network-upgrade-resist"
