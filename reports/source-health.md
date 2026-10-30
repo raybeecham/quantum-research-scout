@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-30 04:46 UTC_
+_Updated 2026-10-30 05:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -14,19 +14,19 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
-| White House Science and Technology Missions | watch | 78% | 26 | 0 | 2026-10-30 | 2026-09-29 | stale | 🟢 healthy |
+| White House Science and Technology Missions | watch | 79% | 26 | 0 | 2026-10-30 | 2026-09-29 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 85% | 24 | 0 | 2026-10-30 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 92% | 13 | 0 | 2026-10-30 | 2026-10-23 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 73% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 74% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 66% | 8 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🟢 healthy |
 | arXiv Quantum Computing | arxiv | 66% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | Quantum Computing Patents | patent | 92% | 4 | 0 | 2026-10-30 | 2026-10-22 | fresh | 🔴 failing |
 | Quantum Journal | rss | 95% | 2 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
-| arXiv RSS cs.CR | arxiv_rss | 82% | 2 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🔴 failing |
+| arXiv RSS cs.CR | arxiv_rss | 81% | 2 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🔴 failing |
 | arXiv RSS quant-ph | arxiv_rss | 81% | 2 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🔴 failing |
 | Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
-| Google Quantum AI | watch | 94% | 1 | 0 | 2026-10-30 | 2026-10-15 | fresh | 🔴 failing |
+| Google Quantum AI | watch | 93% | 1 | 0 | 2026-10-30 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Zeitgeist | rss | 94% | 1 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 22 | 2026-10-30 | 2026-10-29 | fresh | 🟠 partial |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-21 | fresh | 🟢 healthy |
