@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-30 02:46 UTC_
+_Updated 2026-10-30 03:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -15,7 +15,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
 | White House Science and Technology Missions | watch | 78% | 27 | 0 | 2026-10-30 | 2026-09-29 | stale | 🟢 healthy |
-| ETSI Quantum Standards News | watch | 84% | 25 | 0 | 2026-10-30 | 2026-09-24 | stale | 🟢 healthy |
+| ETSI Quantum Standards News | watch | 85% | 25 | 0 | 2026-10-30 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 92% | 13 | 0 | 2026-10-30 | 2026-10-23 | fresh | 🟢 healthy |
 | Quantum Computing Report | rss | 73% | 9 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 65% | 8 | 0 | 2026-10-26 | 2026-10-21 | standby | ⚪ standby |
@@ -49,7 +49,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-10-29 | 2026-10-22 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 0 | 2026-10-29 | 2024-03-12 | reference | 🟢 healthy |
 | Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-10-30 | 2026-10-08 | stale | 🟢 healthy |
-| Google Quantum AI | watch | 96% | 0 | 0 | 2026-10-30 | 2026-10-15 | fresh | 🔴 failing |
+| Google Quantum AI | watch | 95% | 0 | 0 | 2026-10-30 | 2026-10-15 | fresh | 🔴 failing |
 | Google Security Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-21 | fresh | 🟢 healthy |
 | Grants.gov · AI Forge | grant_opportunity | 100% | 0 | 0 | 2026-10-29 | 2026-07-22 | stale | 🟢 healthy |
 | Grants.gov · Advanced Computing | grant_opportunity | 100% | 0 | 0 | 2026-10-29 | 2026-10-16 | fresh | 🟢 healthy |
