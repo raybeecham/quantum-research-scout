@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T23:46:00.776382+00:00",
+  "updated_at": "2026-10-30T00:46:15.561195+00:00",
   "records": {
     "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography": {
       "image_url": "https://www.nist.gov/sites/default/files/styles/social/public/images/2023/08/22/PQC_Algo_Pre-standardization-vid.jpg?itok=QoP6Ie_b",
@@ -294,11 +294,6 @@
       "page_url": "https://arxiv.org/abs/2610.36808",
       "status": "unavailable",
       "fetched_at": "2026-10-29T04:46:02.927519+00:00"
-    },
-    "https://eprint.iacr.org/2026/2654": {
-      "page_url": "https://eprint.iacr.org/2026/2654",
-      "status": "failed",
-      "fetched_at": "2026-10-28T23:46:11.548132+00:00"
     },
     "https://arxiv.org/abs/2610.33185": {
       "page_url": "https://arxiv.org/abs/2610.33185",
@@ -727,6 +722,12 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-24T23:36:07.768034+00:00",
       "status": "ok"
+    },
+    "https://eprint.iacr.org/2026/2654": {
+      "page_url": "https://eprint.iacr.org/2026/2654",
+      "fetched_at": "2026-10-30T00:46:15.561195+00:00",
+      "status": "failed",
+      "reason": "http_403"
     }
   }
 }
