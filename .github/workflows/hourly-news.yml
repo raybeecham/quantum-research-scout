@@ -78,6 +78,9 @@ jobs:
           path: reports/source-health.json
           retention-days: 2
           if-no-files-found: ignore
+      - name: Refresh public conferences when the daily interval is due
+        timeout-minutes: 6
+        run: python scripts/refresh_conferences.py
       - name: Refresh publisher story previews
         timeout-minutes: 2
         continue-on-error: true
@@ -94,6 +97,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/conferences.json reports/conference-state.json
           git add -A reports/hourly
           git add reports/source-observations.json reports/source-health.json reports/source-health.md
           git add reports/story-evidence.json reports/story-urls.json

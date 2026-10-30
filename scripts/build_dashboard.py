@@ -48,7 +48,10 @@ def build_dashboard(
     root = Path(project_root)
     output = Path(output_dir)
     assets = root / "dashboard"
-    validate_directory(assets / "conferences.json")
+    conference_path = root / "reports/conferences.json"
+    if not conference_path.exists():
+        conference_path = assets / "conferences.json"
+    validate_directory(conference_path)
     reports = root / "reports"
     citations = _read_json(reports / "citations.json", {"records": {}})
     output.mkdir(parents=True, exist_ok=True)
@@ -345,13 +348,18 @@ def build_dashboard(
         "math.js",
     )
     version_input = generated_at + "".join(
-        (assets / name).read_text(encoding="utf-8") for name in asset_names
+        (conference_path if name == "conferences.json" else assets / name).read_text(
+            encoding="utf-8"
+        )
+        for name in asset_names
     )
     asset_version = hashlib.sha256(version_input.encode("utf-8")).hexdigest()[:12]
     payload["build_id"] = asset_version
     for name in asset_names:
         content = (
-            (assets / name).read_text(encoding="utf-8").replace("__ASSET_VERSION__", asset_version)
+            (conference_path if name == "conferences.json" else assets / name)
+            .read_text(encoding="utf-8")
+            .replace("__ASSET_VERSION__", asset_version)
         )
         (output / name).write_text(content, encoding="utf-8")
 

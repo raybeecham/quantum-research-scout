@@ -26,7 +26,7 @@ def test_unannounced_editions_cannot_borrow_dates(tmp_path):
     data["events"][0]["status"] = "unannounced"
     p = tmp_path / "events.json"
     p.write_text(json.dumps(data), encoding="utf-8")
-    with pytest.raises(AssertionError, match="invented dates"):
+    with pytest.raises(ValueError, match="invented dates"):
         validate_directory(p)
     data["events"][0].update(start=None, end=None)
     p.write_text(json.dumps(data), encoding="utf-8")

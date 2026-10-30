@@ -108,6 +108,8 @@ Behavior is data-driven. Most changes belong in the YAML configuration rather th
 | File | Controls |
 |---|---|
 | `sources.yaml` | Collectors, queries, and source definitions |
+| `conference_sources.yaml` | Daily public calendar discovery; see [conference maintenance](CONFERENCES.md) |
+| `conference_overrides.json` | Evidence-backed event corrections and exclusions |
 | `missions.yaml` | Federal mission portfolio and discovery rules |
 | `watchlists.yaml` | Tracked organizations, agencies, and technologies |
 | `alerts.yaml` | Alert thresholds and delivery routes |
