@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-30T04:00:03.749966+00:00",
+  "updated_at": "2026-10-30T04:46:29.632288+00:00",
   "records": {
     "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography": {
       "image_url": "https://www.nist.gov/sites/default/files/styles/social/public/images/2023/08/22/PQC_Algo_Pre-standardization-vid.jpg?itok=QoP6Ie_b",
@@ -127,15 +127,15 @@
       "status": "failed",
       "fetched_at": "2026-10-29T17:46:19.936316+00:00"
     },
+    "https://arxiv.org/abs/2610.39476v1": {
+      "page_url": "https://arxiv.org/abs/2610.39476v1",
+      "status": "unavailable",
+      "fetched_at": "2026-10-30T04:00:03.749966+00:00"
+    },
     "https://eprint.iacr.org/2026/2660": {
       "page_url": "https://eprint.iacr.org/2026/2660",
       "status": "failed",
       "fetched_at": "2026-10-29T18:46:45.224759+00:00"
-    },
-    "https://eprint.iacr.org/2026/2665": {
-      "page_url": "https://eprint.iacr.org/2026/2665",
-      "status": "failed",
-      "fetched_at": "2026-10-29T04:00:21.218491+00:00"
     },
     "https://quantumzeitgeist.com/aws-adds-encryption-method-guard": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/duokey-lets-you-test-post-quantum-key-exchange-1200x630.png",
@@ -193,20 +193,20 @@
       "fetched_at": "2026-10-29T07:46:53.920394+00:00",
       "status": "ok"
     },
-    "https://thequantuminsider.com/2026/10/29/pasqal-processor-unexpected-quantum-magnet-behavior": {
-      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/10/2026-10-29_14-50.png",
-      "page_url": "https://thequantuminsider.com/2026/10/29/pasqal-processor-unexpected-quantum-magnet-behavior",
-      "publisher": "The Quantum Insider",
-      "provenance": "og:image",
-      "fetched_at": "2026-10-29T10:46:30.748785+00:00",
-      "status": "ok"
-    },
     "https://quantumzeitgeist.com/post-quantum-security-hallman-joins-symmatrics": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/hallman-joins-symmatrics-bolster-post-quantum-1200x630.jpeg",
       "page_url": "https://quantumzeitgeist.com/post-quantum-security-hallman-joins-symmatrics",
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-10-29T04:00:21.218491+00:00",
+      "status": "ok"
+    },
+    "https://thequantuminsider.com/2026/10/29/pasqal-processor-unexpected-quantum-magnet-behavior": {
+      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/10/2026-10-29_14-50.png",
+      "page_url": "https://thequantuminsider.com/2026/10/29/pasqal-processor-unexpected-quantum-magnet-behavior",
+      "publisher": "The Quantum Insider",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-29T10:46:30.748785+00:00",
       "status": "ok"
     },
     "https://quantumzeitgeist.com/nist-post-quantum-3-8-billion": {
@@ -257,12 +257,36 @@
       "fetched_at": "2026-10-29T04:00:21.218491+00:00",
       "status": "ok"
     },
+    "https://thequantuminsider.com/2026/10/29/researchers-curb-unwanted-transitions-in-ultrafast-quantum-gates": {
+      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/10/Low-Res_2023_10_10_Quant_016_1.jpg",
+      "page_url": "https://thequantuminsider.com/2026/10/29/researchers-curb-unwanted-transitions-in-ultrafast-quantum-gates",
+      "publisher": "The Quantum Insider",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-30T04:00:03.749966+00:00",
+      "status": "ok"
+    },
+    "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report": {
+      "image_url": "https://thalesgroup.widen.net/content/0oiadgoxwq/jpeg/EN-Social-Media-Illustration.jpeg?w=1200&keep=c&crop=yes&quality=80&x.portal_shortcode_generated=ujcpjems&x.collection_sharename=hwdak8ra&x.app=portals",
+      "page_url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
+      "publisher": "Thales Cybersecurity Blog",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-30T04:00:03.749966+00:00",
+      "status": "ok"
+    },
     "https://quantumzeitgeist.com/eu-quantum-skills-mirroring-vietnam-government": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/vietnam-government-can-build-quantum-skills-mirroring-eu.jpg",
       "page_url": "https://quantumzeitgeist.com/eu-quantum-skills-mirroring-vietnam-government",
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-10-30T01:46:01.181127+00:00",
+      "status": "ok"
+    },
+    "https://quantum-journal.org/papers/q-2026-10-29-2256": {
+      "image_url": "https://quantum-journal.org/wp-content/uploads/2017/01/quantum_facebook.png",
+      "page_url": "https://quantum-journal.org/papers/q-2026-10-29-2256",
+      "publisher": "Quantum Journal",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-30T04:00:03.749966+00:00",
       "status": "ok"
     },
     "https://quantumcomputingreport.com/ionq-deploys-intercontinental-hybrid-qkd-and-pqc-architecture-securing-enterprise-links-between-geneva-and-seoul": {
@@ -324,16 +348,6 @@
       "page_url": "https://eprint.iacr.org/2026/2653",
       "status": "failed",
       "fetched_at": "2026-10-29T22:45:58.672128+00:00"
-    },
-    "https://arxiv.org/abs/2610.36145": {
-      "page_url": "https://arxiv.org/abs/2610.36145",
-      "status": "unavailable",
-      "fetched_at": "2026-10-29T04:46:02.927519+00:00"
-    },
-    "https://arxiv.org/abs/2610.36808": {
-      "page_url": "https://arxiv.org/abs/2610.36808",
-      "status": "unavailable",
-      "fetched_at": "2026-10-29T04:46:02.927519+00:00"
     },
     "https://eprint.iacr.org/2026/2654": {
       "page_url": "https://eprint.iacr.org/2026/2654",
@@ -400,21 +414,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-29T04:00:21.218491+00:00",
       "status": "ok"
-    },
-    "https://arxiv.org/abs/2610.36711": {
-      "page_url": "https://arxiv.org/abs/2610.36711",
-      "status": "unavailable",
-      "fetched_at": "2026-10-29T04:46:02.927519+00:00"
-    },
-    "https://arxiv.org/abs/2610.37454": {
-      "page_url": "https://arxiv.org/abs/2610.37454",
-      "status": "unavailable",
-      "fetched_at": "2026-10-29T04:46:02.927519+00:00"
-    },
-    "https://arxiv.org/abs/2610.36422": {
-      "page_url": "https://arxiv.org/abs/2610.36422",
-      "status": "unavailable",
-      "fetched_at": "2026-10-29T04:46:02.927519+00:00"
     },
     "https://thequantuminsider.com/2026/10/28/databrushing-ai-uechain-data-verification": {
       "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/10/2026-10-28_19-02.png",
@@ -768,34 +767,36 @@
       "fetched_at": "2026-10-24T23:36:07.768034+00:00",
       "status": "ok"
     },
-    "https://arxiv.org/abs/2610.39476v1": {
-      "page_url": "https://arxiv.org/abs/2610.39476v1",
-      "fetched_at": "2026-10-30T04:00:03.749966+00:00",
+    "https://eprint.iacr.org/2026/2665": {
+      "page_url": "https://eprint.iacr.org/2026/2665",
+      "fetched_at": "2026-10-30T04:46:29.632288+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://arxiv.org/abs/2610.36145": {
+      "page_url": "https://arxiv.org/abs/2610.36145",
+      "fetched_at": "2026-10-30T04:46:29.632288+00:00",
       "status": "unavailable"
     },
-    "https://thequantuminsider.com/2026/10/29/researchers-curb-unwanted-transitions-in-ultrafast-quantum-gates": {
-      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/10/Low-Res_2023_10_10_Quant_016_1.jpg",
-      "page_url": "https://thequantuminsider.com/2026/10/29/researchers-curb-unwanted-transitions-in-ultrafast-quantum-gates",
-      "publisher": "The Quantum Insider",
-      "provenance": "og:image",
-      "fetched_at": "2026-10-30T04:00:03.749966+00:00",
-      "status": "ok"
+    "https://arxiv.org/abs/2610.36808": {
+      "page_url": "https://arxiv.org/abs/2610.36808",
+      "fetched_at": "2026-10-30T04:46:29.632288+00:00",
+      "status": "unavailable"
     },
-    "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report": {
-      "image_url": "https://thalesgroup.widen.net/content/0oiadgoxwq/jpeg/EN-Social-Media-Illustration.jpeg?w=1200&keep=c&crop=yes&quality=80&x.portal_shortcode_generated=ujcpjems&x.collection_sharename=hwdak8ra&x.app=portals",
-      "page_url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
-      "publisher": "Thales Cybersecurity Blog",
-      "provenance": "og:image",
-      "fetched_at": "2026-10-30T04:00:03.749966+00:00",
-      "status": "ok"
+    "https://arxiv.org/abs/2610.36711": {
+      "page_url": "https://arxiv.org/abs/2610.36711",
+      "fetched_at": "2026-10-30T04:46:29.632288+00:00",
+      "status": "unavailable"
     },
-    "https://quantum-journal.org/papers/q-2026-10-29-2256": {
-      "image_url": "https://quantum-journal.org/wp-content/uploads/2017/01/quantum_facebook.png",
-      "page_url": "https://quantum-journal.org/papers/q-2026-10-29-2256",
-      "publisher": "Quantum Journal",
-      "provenance": "og:image",
-      "fetched_at": "2026-10-30T04:00:03.749966+00:00",
-      "status": "ok"
+    "https://arxiv.org/abs/2610.37454": {
+      "page_url": "https://arxiv.org/abs/2610.37454",
+      "fetched_at": "2026-10-30T04:46:29.632288+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2610.36422": {
+      "page_url": "https://arxiv.org/abs/2610.36422",
+      "fetched_at": "2026-10-30T04:46:29.632288+00:00",
+      "status": "unavailable"
     }
   }
 }
