@@ -16,7 +16,7 @@
       <label>Evidence<select id="conference-evidence"><option value="">All evidence</option><option value="confirmed">Organizer dates confirmed</option><option value="directory">Directory leads</option></select></label>
       <label>Attendance<select id="conference-mode"><option value="">All formats</option><option>In person</option><option>Online</option><option>Hybrid</option><option>Unannounced</option></select></label>
       <button type="button" id="conference-reset" class="desk-button">Reset filters</button>
-    </div><p id="conference-count" role="status">Loading conference directory.</p><div id="conference-results" class="conference-grid"></div><button type="button" id="conference-more" class="desk-button" hidden>Show more conferences</button>`;
+    </div><p id="conference-count" role="status" tabindex="-1">Loading conference directory.</p><nav id="conference-pages-top" class="conference-pagination" aria-label="Conference pages" hidden></nav><div id="conference-results" class="conference-grid"></div><nav id="conference-pages-bottom" class="conference-pagination" aria-label="Conference pages below results" hidden></nav>`;
   document.getElementById("main").append(section);
   const $ = id => document.getElementById(id);
   const assetURL = new URL("conferences.json", document.currentScript.src);
@@ -47,7 +47,8 @@
     }).format(new Date());
   let events = null,
     pending = false,
-    limit = 36;
+    currentPage = 1;
+  const pageSize = 20;
   function text(parent, tag, value, className = "") {
     const node = document.createElement(tag);
     node.textContent = value;
@@ -94,6 +95,42 @@
       );
     }
   }
+  function renderPagination(totalPages, hasResults) {
+    for (const id of ["conference-pages-top", "conference-pages-bottom"]) {
+      const nav = $(id);
+      nav.replaceChildren();
+      nav.hidden = !hasResults || totalPages <= 1;
+      if (nav.hidden) continue;
+      function button(label, target, accessibleLabel, disabled = false) {
+        const node = text(nav, "button", label, "desk-button");
+        node.type = "button";
+        node.disabled = disabled;
+        node.setAttribute("aria-label", accessibleLabel);
+        node.dataset.conferencePage = target;
+        node.addEventListener("click", () => {
+          if (target === currentPage) return;
+          currentPage = target;
+          render();
+          $("conference-count").focus({ preventScroll: true });
+          $("conference-count").scrollIntoView({ block: "start", behavior: "instant" });
+        });
+        return node;
+      }
+      button("Previous", currentPage - 1, "Previous conference page", currentPage === 1);
+      const visible = [...new Set([1, currentPage - 1, currentPage, currentPage + 1, totalPages])]
+        .filter(page => page >= 1 && page <= totalPages)
+        .sort((a, b) => a - b);
+      let previous = 0;
+      for (const page of visible) {
+        if (previous && page - previous > 1)
+          text(nav, "span", "…").setAttribute("aria-hidden", "true");
+        const node = button(String(page), page, `Go to page ${page}`);
+        if (page === currentPage) node.setAttribute("aria-current", "page");
+        previous = page;
+      }
+      button("Next", currentPage + 1, "Next conference page", currentPage === totalPages);
+    }
+  }
   function render() {
     if (!events) return;
     const query = $("conference-search").value.trim().toLowerCase(),
@@ -120,9 +157,13 @@
                   ? e.end < current
                   : e.end >= current && !["cancelled", "postponed"].includes(e.status)))),
     );
-    $("conference-count").textContent =
-      `${rows.length} of ${events.length} listings | Showing ${Math.min(rows.length, limit)}`;
-    $("conference-more").hidden = rows.length <= limit;
+    const totalPages = Math.max(1, Math.ceil(rows.length / pageSize));
+    currentPage = Math.min(Math.max(1, currentPage), totalPages);
+    const offset = (currentPage - 1) * pageSize;
+    $("conference-count").textContent = rows.length
+      ? `Showing ${offset + 1}-${Math.min(offset + pageSize, rows.length)} of ${rows.length} matching conferences | Page ${currentPage} of ${totalPages}`
+      : `0 matching conferences from ${events.length} listings`;
+    renderPagination(totalPages, rows.length > 0);
     const results = $("conference-results");
     results.replaceChildren();
     if (!rows.length)
@@ -131,7 +172,7 @@
         "p",
         "No conferences match these filters. Try another topic or reset the filters.",
       );
-    for (const e of rows.slice(0, limit)) {
+    for (const e of rows.slice(offset, offset + pageSize)) {
       const card = text(results, "article", "", "conference-card");
       text(card, "p", e.topics.join(" / "), "desk-kicker");
       link(text(card, "h2", ""), e.name, e.url);
@@ -267,7 +308,7 @@
     "conference-evidence",
   ])
     $(id).addEventListener("input", () => {
-      limit = 36;
+      currentPage = 1;
       render();
     });
   $("conference-reset").addEventListener("click", () => {
@@ -280,11 +321,7 @@
     ])
       $(id).value = "";
     $("conference-period").value = "upcoming";
-    limit = 36;
-    render();
-  });
-  $("conference-more").addEventListener("click", () => {
-    limit += 36;
+    currentPage = 1;
     render();
   });
   window.addEventListener("hashchange", load);
