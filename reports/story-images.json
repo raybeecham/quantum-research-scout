@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-30T16:46:30.012204+00:00",
+  "updated_at": "2026-10-30T17:46:58.951582+00:00",
   "records": {
     "https://quantumcomputingreport.com/university-of-sydney-demonstrates-multi-qubit-logical-entanglement-and-170-round-stability-on-ibm-square-lattice-nighthawk-r2-processor": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-231.png",
@@ -305,11 +305,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-27T20:46:25.859169+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2658": {
-      "page_url": "https://eprint.iacr.org/2026/2658",
-      "status": "failed",
-      "fetched_at": "2026-10-29T17:46:19.936316+00:00"
     },
     "https://arxiv.org/abs/2610.39476v1": {
       "page_url": "https://arxiv.org/abs/2610.39476v1",
@@ -826,6 +821,17 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-25T02:49:22.662220+00:00",
       "status": "ok"
+    },
+    "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready": {
+      "page_url": "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready",
+      "fetched_at": "2026-10-30T17:46:58.951582+00:00",
+      "status": "unavailable"
+    },
+    "https://eprint.iacr.org/2026/2658": {
+      "page_url": "https://eprint.iacr.org/2026/2658",
+      "fetched_at": "2026-10-30T17:46:58.951582+00:00",
+      "status": "failed",
+      "reason": "http_403"
     }
   }
 }
