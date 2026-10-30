@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-30 09:45 UTC_
+_Updated 2026-10-30 10:45 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -17,14 +17,14 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | White House Science and Technology Missions | watch | 79% | 26 | 0 | 2026-10-30 | 2026-09-29 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 85% | 24 | 0 | 2026-10-30 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 93% | 13 | 0 | 2026-10-30 | 2026-10-23 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 74% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 75% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 66% | 8 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🟢 healthy |
 | arXiv Quantum Computing | arxiv | 66% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | Quantum Computing Patents | patent | 92% | 4 | 0 | 2026-10-30 | 2026-10-22 | fresh | 🔴 failing |
-| Quantum Journal | rss | 95% | 2 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
+| Quantum Journal | rss | 95% | 2 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 82% | 2 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
-| arXiv RSS quant-ph | arxiv_rss | 81% | 2 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
+| arXiv RSS quant-ph | arxiv_rss | 82% | 2 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | Google Quantum AI | watch | 91% | 1 | 0 | 2026-10-30 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Zeitgeist | rss | 94% | 1 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
