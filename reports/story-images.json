@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-30T17:46:58.951582+00:00",
+  "updated_at": "2026-10-30T18:46:13.342394+00:00",
   "records": {
     "https://quantumcomputingreport.com/university-of-sydney-demonstrates-multi-qubit-logical-entanglement-and-170-round-stability-on-ibm-square-lattice-nighthawk-r2-processor": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-231.png",
@@ -133,6 +133,11 @@
       "fetched_at": "2026-10-30T01:46:01.181127+00:00",
       "status": "ok"
     },
+    "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready": {
+      "page_url": "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready",
+      "status": "unavailable",
+      "fetched_at": "2026-10-30T17:46:58.951582+00:00"
+    },
     "https://quantumzeitgeist.com/quantum-safe-payment-cards-idemia-gets": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/idemia-gets-first-emvco-certification-quantum-1200x630.png",
       "page_url": "https://quantumzeitgeist.com/quantum-safe-payment-cards-idemia-gets",
@@ -147,14 +152,6 @@
       "publisher": "The Quantum Insider",
       "provenance": "og:image",
       "fetched_at": "2026-10-29T14:46:28.617077+00:00",
-      "status": "ok"
-    },
-    "https://thequantuminsider.com/2026/10/30/netpoleon-qnu-labs-quantum-safe-security": {
-      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/10/2026-10-30_18-41.png",
-      "page_url": "https://thequantuminsider.com/2026/10/30/netpoleon-qnu-labs-quantum-safe-security",
-      "publisher": "The Quantum Insider",
-      "provenance": "og:image",
-      "fetched_at": "2026-10-30T14:46:47.300083+00:00",
       "status": "ok"
     },
     "https://quantumzeitgeist.com/federal-office-quantum-resistant-security-roadmap": {
@@ -187,6 +184,14 @@
       "publisher": "Quantum Computing Report",
       "provenance": "og:image",
       "fetched_at": "2026-10-29T07:46:53.920394+00:00",
+      "status": "ok"
+    },
+    "https://thequantuminsider.com/2026/10/30/netpoleon-qnu-labs-quantum-safe-security": {
+      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/10/2026-10-30_18-41.png",
+      "page_url": "https://thequantuminsider.com/2026/10/30/netpoleon-qnu-labs-quantum-safe-security",
+      "publisher": "The Quantum Insider",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-30T14:46:47.300083+00:00",
       "status": "ok"
     },
     "https://quantumzeitgeist.com/post-quantum-security-hallman-joins-symmatrics": {
@@ -305,6 +310,11 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-27T20:46:25.859169+00:00",
       "status": "ok"
+    },
+    "https://eprint.iacr.org/2026/2658": {
+      "page_url": "https://eprint.iacr.org/2026/2658",
+      "status": "failed",
+      "fetched_at": "2026-10-30T17:46:58.951582+00:00"
     },
     "https://arxiv.org/abs/2610.39476v1": {
       "page_url": "https://arxiv.org/abs/2610.39476v1",
@@ -821,17 +831,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-25T02:49:22.662220+00:00",
       "status": "ok"
-    },
-    "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready": {
-      "page_url": "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready",
-      "fetched_at": "2026-10-30T17:46:58.951582+00:00",
-      "status": "unavailable"
-    },
-    "https://eprint.iacr.org/2026/2658": {
-      "page_url": "https://eprint.iacr.org/2026/2658",
-      "fetched_at": "2026-10-30T17:46:58.951582+00:00",
-      "status": "failed",
-      "reason": "http_403"
     }
   }
 }
