@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-30 00:46 UTC_
+_Updated 2026-10-30 01:45 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -23,10 +23,10 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 8 | 0 | 2026-10-26 | 2026-10-22 | standby | ⚪ standby |
 | Quantum Computing Patents | patent | 93% | 3 | 0 | 2026-10-29 | 2026-10-22 | fresh | 🟢 healthy |
 | Quantum Journal | rss | 95% | 2 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
-| arXiv RSS cs.CR | arxiv_rss | 84% | 2 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🔴 failing |
+| arXiv RSS cs.CR | arxiv_rss | 83% | 2 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🔴 failing |
 | arXiv RSS quant-ph | arxiv_rss | 83% | 2 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🔴 failing |
 | Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
-| Quantum Zeitgeist | rss | 93% | 1 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🟢 healthy |
+| Quantum Zeitgeist | rss | 93% | 1 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 22 | 2026-10-29 | 2026-10-28 | fresh | 🟠 partial |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-21 | fresh | 🟢 healthy |
 | AWS Security Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-27 | fresh | 🟢 healthy |
@@ -49,7 +49,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-10-29 | 2026-10-22 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 0 | 2026-10-29 | 2024-03-12 | reference | 🟢 healthy |
 | Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-10-30 | 2026-10-08 | stale | 🟢 healthy |
-| Google Quantum AI | watch | 97% | 0 | 0 | 2026-10-30 | 2026-10-15 | fresh | 🔴 failing |
+| Google Quantum AI | watch | 96% | 0 | 0 | 2026-10-30 | 2026-10-15 | fresh | 🔴 failing |
 | Google Security Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-21 | fresh | 🟢 healthy |
 | Grants.gov · AI Forge | grant_opportunity | 100% | 0 | 0 | 2026-10-29 | 2026-07-22 | stale | 🟢 healthy |
 | Grants.gov · Advanced Computing | grant_opportunity | 100% | 0 | 0 | 2026-10-29 | 2026-10-16 | fresh | 🟢 healthy |
