@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-30T22:45:59.920353+00:00",
+  "updated_at": "2026-10-30T23:46:33.719470+00:00",
   "records": {
     "https://quantumcomputingreport.com/university-of-sydney-demonstrates-multi-qubit-logical-entanglement-and-170-round-stability-on-ibm-square-lattice-nighthawk-r2-processor": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-231.png",
@@ -453,6 +453,11 @@
       "status": "unavailable",
       "fetched_at": "2026-10-30T07:47:24.159856+00:00"
     },
+    "https://eprint.iacr.org/2026/2653": {
+      "page_url": "https://eprint.iacr.org/2026/2653",
+      "status": "failed",
+      "fetched_at": "2026-10-30T22:45:59.920353+00:00"
+    },
     "https://arxiv.org/abs/2610.36145": {
       "page_url": "https://arxiv.org/abs/2610.36145",
       "status": "unavailable",
@@ -826,12 +831,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-25T02:49:22.662220+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2653": {
-      "page_url": "https://eprint.iacr.org/2026/2653",
-      "fetched_at": "2026-10-30T22:45:59.920353+00:00",
-      "status": "failed",
-      "reason": "http_403"
     }
   }
 }
