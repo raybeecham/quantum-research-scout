@@ -226,6 +226,15 @@ def extract_page_metadata(
                 re.IGNORECASE,
             )
             date_source = "explicit_metadata:ibm_article_date"
+        elif host in {"ionq.com", "www.ionq.com"} and "/blog/" in base_url:
+            # The visible publication date is beside the calendar icon in the
+            # article header. Do not borrow dates from related blog cards.
+            match = re.search(
+                r'class="articles-info-wrap"[^>]*>\s*<div class="article-info-icon w-embed">\s*<svg\b.*?</svg>\s*</div>\s*<div>\s*([A-Za-z]+ \d{1,2}, \d{4})\s*</div>',
+                html_text,
+                re.IGNORECASE | re.DOTALL,
+            )
+            date_source = "explicit_metadata:ionq_article_header"
         elif host == "research.google":
             match = re.search(r"data-gt-publish-date=[\"\x27](\d{8})[\"\x27]", html_text)
             date_source = "explicit_metadata:google_publish_date"

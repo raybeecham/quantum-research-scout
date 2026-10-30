@@ -12,6 +12,7 @@ from playwright.sync_api import BrowserContext, Page, expect, sync_playwright
 THEME_KEY = "quantum-scout:theme:v1"
 ROUTES = {
     "news": "news",
+    "conferences": "conferences",
     "briefing": "briefing",
     "research": "research-workspace",
     "federal": "federal-workspace",

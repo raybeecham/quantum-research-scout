@@ -50,6 +50,8 @@ class DashboardBuildTests(unittest.TestCase):
                 "favicon.svg",
                 "desk.css",
                 "desk.js",
+                "conferences.js",
+                "conferences.css",
                 "workspace.js",
                 "motion.js",
                 "motion.css",
@@ -90,6 +92,7 @@ class DashboardBuildTests(unittest.TestCase):
             ):
                 content = f"{name}?v=__ASSET_VERSION__"
                 (dashboard / name).write_text(content, encoding="utf-8")
+            (dashboard / "conferences.json").write_text('{"events": []}', encoding="utf-8")
             (dashboard / "images").mkdir()
             image_fixture = b"test-image-bytes"
             (dashboard / "images" / "news-quantum.png").write_bytes(image_fixture)
