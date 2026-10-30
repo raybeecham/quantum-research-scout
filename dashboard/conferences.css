@@ -69,6 +69,33 @@
   cursor: pointer;
   padding: 0.5rem 0;
 }
-#conference-more {
-  margin: 1.5rem 0;
+.conference-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+.conference-pagination[hidden] {
+  display: none;
+}
+.conference-pagination button {
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+}
+.conference-pagination [aria-current="page"] {
+  font-weight: 750;
+  outline: 2px solid currentColor;
+  outline-offset: -3px;
+}
+.conference-pagination button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+#conference-count {
+  scroll-margin-top: 10rem;
+}
+#conference-count:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
 }

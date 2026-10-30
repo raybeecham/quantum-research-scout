@@ -29,7 +29,7 @@ The collector has a 240-second budget, 15-second request timeouts and no retries
 
 Events retain 90 days of history and a two-year horizon. Deduplication uses canonical links, edition, title, location and stable source identities; different cities and years remain separate. Conflicting date ranges stay visible. Date/location/status changes retain a short history. Event dates are local calendar dates, while collection timestamps display Central Time.
 
-`reports/conference-state.json` persists observations for collection only; it is not shipped as a site asset. `reports/conferences.json` is the validated public snapshot, loaded only when Conferences opens, with 36-card pagination. The builder uses the original `dashboard/conferences.json` manual seed only when no collected snapshot exists. The public directory budget is 750 KB and 1,200 events; overflow fails before replacing good data. Existing dashboard budgets and release gates remain in force.
+`reports/conference-state.json` persists observations for collection only; it is not shipped as a site asset. `reports/conferences.json` is the validated public snapshot, loaded only when Conferences opens, with 20 events per page and numbered Previous/Next navigation. The builder uses the original `dashboard/conferences.json` manual seed only when no collected snapshot exists. The public directory budget is 750 KB and 1,200 events; overflow fails before replacing good data. Existing dashboard budgets and release gates remain in force.
 
 ## Maintenance and corrections
 
