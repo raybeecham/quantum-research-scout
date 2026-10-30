@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-30 14:46 UTC_
+_Updated 2026-10-30 15:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -15,9 +15,9 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
 | White House Science and Technology Missions | watch | 80% | 26 | 0 | 2026-10-30 | 2026-09-29 | stale | 🟢 healthy |
-| ETSI Quantum Standards News | watch | 85% | 24 | 0 | 2026-10-30 | 2026-09-24 | stale | 🟢 healthy |
+| ETSI Quantum Standards News | watch | 86% | 24 | 0 | 2026-10-30 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 93% | 13 | 0 | 2026-10-30 | 2026-10-23 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 75% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 76% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 66% | 8 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🟢 healthy |
 | arXiv Quantum Computing | arxiv | 66% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
