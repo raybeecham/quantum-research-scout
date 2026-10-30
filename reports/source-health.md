@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-30 07:47 UTC_
+_Updated 2026-10-30 08:45 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -27,7 +27,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv RSS quant-ph | arxiv_rss | 81% | 2 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | Google Quantum AI | watch | 92% | 1 | 0 | 2026-10-30 | 2026-10-15 | fresh | 🔴 failing |
-| Quantum Zeitgeist | rss | 94% | 1 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
+| Quantum Zeitgeist | rss | 94% | 1 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 22 | 2026-10-30 | 2026-10-29 | fresh | 🟠 partial |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-21 | fresh | 🟢 healthy |
 | AWS Security Blog | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-27 | fresh | 🟢 healthy |
@@ -102,7 +102,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | SandboxAQ Blog | url | 100% | 0 | 0 | 2026-10-30 | 2026-10-08 | stale | 🟢 healthy |
 | Strategic AI Systems Patents | patent | 99% | 0 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
-| The Quantum Insider | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
+| The Quantum Insider | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-30 | fresh | 🟢 healthy |
 | Trail of Bits Cryptography | rss | 100% | 0 | 0 | 2026-10-30 | 2026-10-14 | fresh | 🟢 healthy |
 | USAspending · AI Forge | federal_award | 100% | 0 | 0 | 2026-10-30 | 2026-09-28 | stale | 🟢 healthy |
 | USAspending · Advanced Computing | federal_award | 100% | 0 | 0 | 2026-10-30 | 2026-10-19 | fresh | 🟢 healthy |
