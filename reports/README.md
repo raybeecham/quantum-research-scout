@@ -2,7 +2,7 @@
 
 > **Frontier Signal** · Intelligence archive and operational dashboard
 
-_Updated 2026-10-30 03:59 UTC_
+_Updated 2026-10-30 18:30 UTC_
 
 [Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
 
@@ -11,7 +11,7 @@ _Updated 2026-10-30 03:59 UTC_
 ## Latest Reports
 
 - Daily: [2026-10-29-digest](2026-10/2026-10-29-digest.md)
-- Weekly: [2026-10-19_to_2026-10-23-weekly](weekly/2026/2026-10-19_to_2026-10-23-weekly.md)
+- Weekly: [2026-10-26_to_2026-10-30-weekly](weekly/2026/2026-10-26_to_2026-10-30-weekly.md)
 - Monthly: [2026-09-monthly](monthly/2026/2026-09-monthly.md)
 
 ## Intelligence Tracking
@@ -39,16 +39,17 @@ _Updated 2026-10-30 03:59 UTC_
 ## Current High-Priority Themes
 
 - PQC migration and crypto-agility appeared in 13 signal(s), with emphasis on readiness, inventory, and implementation planning.
+- Watch for TLS, PKI, CBOM, FIPS, HNDL, and inventory-specific movement next week.
 - Quantum-safe platform claims appeared and should be checked against concrete standards alignment.
 - QEC and fault-tolerance signals centered on logical-qubit reliability and code overhead.
 - Track whether decoder, LDPC, surface-code, or logical-qubit results translate into implementation guidance.
 - Hardware activity focused on scaling architectures, qubit modalities, and processor integration choices.
 - The practical question is whether device-level progress connects to lower error rates and manufacturable systems.
 - Networking signals emphasized distributed quantum computing, entanglement, and network resilience.
-- Repeater, QKD, and modular-network activity should be monitored for quantum-internet implications.
 
 ## Recent Weekly Reports
 
+- [2026-10-26_to_2026-10-30-weekly](weekly/2026/2026-10-26_to_2026-10-30-weekly.md)
 - [2026-10-19_to_2026-10-23-weekly](weekly/2026/2026-10-19_to_2026-10-23-weekly.md)
 - [2026-10-12_to_2026-10-16-weekly](weekly/2026/2026-10-12_to_2026-10-16-weekly.md)
 - [2026-10-05_to_2026-10-09-weekly](weekly/2026/2026-10-05_to_2026-10-09-weekly.md)
@@ -60,7 +61,6 @@ _Updated 2026-10-30 03:59 UTC_
 - [2026-08-24_to_2026-08-28-weekly](weekly/2026/2026-08-24_to_2026-08-28-weekly.md)
 - [2026-08-17_to_2026-08-21-weekly](weekly/2026/2026-08-17_to_2026-08-21-weekly.md)
 - [2026-08-10_to_2026-08-14-weekly](weekly/2026/2026-08-10_to_2026-08-14-weekly.md)
-- [2026-08-03_to_2026-08-07-weekly](weekly/2026/2026-08-03_to_2026-08-07-weekly.md)
 
 ## Recent Monthly Reports
 
@@ -73,6 +73,6 @@ _Updated 2026-10-30 03:59 UTC_
 ## Archive Summary
 
 - Daily reports retained: **31**
-- Weekly syntheses retained: **23**
+- Weekly syntheses retained: **24**
 - Monthly syntheses retained: **5**
 - Daily reports use a rolling 30-day retention window; weekly and monthly syntheses are retained indefinitely.
