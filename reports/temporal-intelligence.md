@@ -2,19 +2,19 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-10-29T03:50:20.287402+00:00_
+_Updated 2026-10-30T03:52:33.468921+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **4**
-- Newly discovered historical evidence: **0**
+- Actual or recent changes: **0**
+- Newly discovered historical evidence: **4**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **12**
 
 ## Priority timeline
 
-- **Occurred 2 days ago** · NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS. — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900))
-  - A recent source-reported event was newly incorporated into the ledger.
+- **Newly discovered historical evidence** · (HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097))
+  - Frontier Signal first observed this on 2026-10-30; the source date is 2026-10-01.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

@@ -63,7 +63,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.82,
-      "last_evaluated_at": "2026-10-29T03:50:20.287402+00:00",
+      "last_evaluated_at": "2026-10-30T03:52:33.468921+00:00",
       "outcome": null,
       "probability": 0.82,
       "probability_factors": [
@@ -99,7 +99,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-01-27?",
+      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-01-28?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:ai-forge:2026-Q4",
       "resolution_rule": {
@@ -110,150 +110,6 @@
       "status": "active",
       "subject": "AI Forge",
       "subject_id": "ai-forge",
-      "triggers": [
-        {
-          "direction": "confirming",
-          "indicator": "Additional linked federal opportunity",
-          "status": "not_observed"
-        },
-        {
-          "direction": "disconfirming",
-          "indicator": "Mission delay, rescope, or funding withdrawal",
-          "status": "not_observed"
-        }
-      ]
-    },
-    {
-      "baseline_record_keys": [],
-      "baseline_update_urls": [],
-      "confirming_indicators": [
-        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
-        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
-        "An official funding or program update announces a new competitive workstream."
-      ],
-      "created_at": "2026-07-31T16:06:07.673432+00:00",
-      "disconfirming_indicators": [
-        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
-        "The horizon closes with no additional linked opportunity.",
-        "Execution moves entirely through existing vehicles without a new public notice."
-      ],
-      "dossier": {
-        "announced_funding_value": 0.0,
-        "award_count": 4,
-        "known_award_value": 4406303.41,
-        "lead_agencies": [
-          "Department of War",
-          "Golden Dome for America Office"
-        ],
-        "mission_status": "active",
-        "next_milestone": {},
-        "official_url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/",
-        "open_opportunities": 0,
-        "priority": "critical",
-        "recipients_and_contractors": [
-          "CITY OF HUNTSVILLE",
-          "KPMG LLP"
-        ],
-        "record_count": 5,
-        "related_patent_count": 8,
-        "related_patents": [
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-            "relationship_confidence": "low",
-            "title": "AUTONOMOUS AI AGENT TRAINING USING TIME-BASED SIMULATION MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19557333/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-            "relationship_confidence": "low",
-            "title": "Hardware-Anchored Diagnostic Genesis and Multimodal Sensor-Level Cryptographic Sealing System for Zero-Trust AI Acquisition",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19546361/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-            "relationship_confidence": "low",
-            "title": "Safety Self Talks (SST) by Large Language Model in Semi or Fully Autonomous Vehicles",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455013/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-            "relationship_confidence": "low",
-            "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-            "relationship_confidence": "low",
-            "title": "ACTION-LEVEL CONSTRAINT ENFORCEMENT AND CONTAINMENT INTEGRITY MONITORING FOR AGENTIC LARGE LANGUAGE MODEL SYSTEMS WITH AUTONOMOUS TOOL ACCESS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19645306/application-data"
-          }
-        ]
-      },
-      "evidence": [
-        {
-          "authority": "authoritative",
-          "date": "2026-04-23",
-          "role": "official funding announcement",
-          "title": "Department reports initial architecture, command-and-control consortium, and active contracts",
-          "url": "https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html"
-        },
-        {
-          "authority": "authoritative",
-          "date": null,
-          "role": "official mission",
-          "title": "Golden Dome for America",
-          "url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/"
-        }
-      ],
-      "forecast_id": "forecast-6e261e95b74789bb",
-      "forecast_type": "mission_opportunity_release",
-      "horizon_end": "2026-10-29",
-      "impact": "critical",
-      "initial_probability": 0.74,
-      "last_evaluated_at": "2026-10-29T03:50:20.287402+00:00",
-      "outcome": null,
-      "probability": 0.62,
-      "probability_factors": [
-        {
-          "factor": "base rate",
-          "points": 0.28
-        },
-        {
-          "factor": "critical mission priority",
-          "points": 0.1
-        },
-        {
-          "factor": "recent official funding activity",
-          "points": 0.18
-        },
-        {
-          "factor": "multi-record execution trail",
-          "points": 0.06
-        }
-      ],
-      "probability_history": [
-        {
-          "at": "2026-07-31T16:06:07.673432+00:00",
-          "probability": 0.74,
-          "reason": "Forecast opened"
-        },
-        {
-          "at": "2026-09-29T03:38:05.351699+00:00",
-          "probability": 0.62,
-          "reason": "Evidence factors changed"
-        }
-      ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-29?",
-      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
-      "registry_key": "mission_opportunity_release:golden-dome:2026-Q3",
-      "resolution_rule": {
-        "kind": "new_linked_opportunity",
-        "negative": "No qualifying record appears by the horizon end.",
-        "positive": "A new linked opportunity record appears after forecast creation."
-      },
-      "status": "active",
-      "subject": "Golden Dome for America",
-      "subject_id": "golden-dome",
       "triggers": [
         {
           "direction": "confirming",
@@ -354,7 +210,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.62,
-      "last_evaluated_at": "2026-10-29T03:50:20.287402+00:00",
+      "last_evaluated_at": "2026-10-30T03:52:33.468921+00:00",
       "outcome": null,
       "probability": 0.62,
       "probability_factors": [
@@ -491,7 +347,7 @@
       "horizon_end": "2026-11-21",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-10-29T03:50:20.287402+00:00",
+      "last_evaluated_at": "2026-10-30T03:52:33.468921+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -630,7 +486,7 @@
       "horizon_end": "2026-12-17",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-10-29T03:50:20.287402+00:00",
+      "last_evaluated_at": "2026-10-30T03:52:33.468921+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -769,7 +625,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-10-29T03:50:20.287402+00:00",
+      "last_evaluated_at": "2026-10-30T03:52:33.468921+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -899,7 +755,7 @@
       "horizon_end": "2027-01-07",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-10-29T03:50:20.287402+00:00",
+      "last_evaluated_at": "2026-10-30T03:52:33.468921+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -954,7 +810,7 @@
     }
   ],
   "calibration": {
-    "accuracy_rate": 0.375,
+    "accuracy_rate": 0.333,
     "bins": [
       {
         "count": 5,
@@ -963,8 +819,8 @@
         "range": "40\u201360%"
       },
       {
-        "count": 1,
-        "mean_probability": 0.65,
+        "count": 2,
+        "mean_probability": 0.635,
         "observed_rate": 0.0,
         "range": "60\u201380%"
       },
@@ -976,8 +832,8 @@
       }
     ],
     "label": "Needs calibration",
-    "mean_brier_score": 0.2389,
-    "resolved_count": 8
+    "mean_brier_score": 0.255,
+    "resolved_count": 9
   },
   "forecasts": [
     {
@@ -1043,7 +899,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.82,
-      "last_evaluated_at": "2026-10-29T03:50:20.287402+00:00",
+      "last_evaluated_at": "2026-10-30T03:52:33.468921+00:00",
       "outcome": null,
       "probability": 0.82,
       "probability_factors": [
@@ -1079,7 +935,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-01-27?",
+      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-01-28?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:ai-forge:2026-Q4",
       "resolution_rule": {
@@ -1090,150 +946,6 @@
       "status": "active",
       "subject": "AI Forge",
       "subject_id": "ai-forge",
-      "triggers": [
-        {
-          "direction": "confirming",
-          "indicator": "Additional linked federal opportunity",
-          "status": "not_observed"
-        },
-        {
-          "direction": "disconfirming",
-          "indicator": "Mission delay, rescope, or funding withdrawal",
-          "status": "not_observed"
-        }
-      ]
-    },
-    {
-      "baseline_record_keys": [],
-      "baseline_update_urls": [],
-      "confirming_indicators": [
-        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
-        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
-        "An official funding or program update announces a new competitive workstream."
-      ],
-      "created_at": "2026-07-31T16:06:07.673432+00:00",
-      "disconfirming_indicators": [
-        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
-        "The horizon closes with no additional linked opportunity.",
-        "Execution moves entirely through existing vehicles without a new public notice."
-      ],
-      "dossier": {
-        "announced_funding_value": 0.0,
-        "award_count": 4,
-        "known_award_value": 4406303.41,
-        "lead_agencies": [
-          "Department of War",
-          "Golden Dome for America Office"
-        ],
-        "mission_status": "active",
-        "next_milestone": {},
-        "official_url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/",
-        "open_opportunities": 0,
-        "priority": "critical",
-        "recipients_and_contractors": [
-          "CITY OF HUNTSVILLE",
-          "KPMG LLP"
-        ],
-        "record_count": 5,
-        "related_patent_count": 8,
-        "related_patents": [
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-            "relationship_confidence": "low",
-            "title": "AUTONOMOUS AI AGENT TRAINING USING TIME-BASED SIMULATION MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19557333/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-            "relationship_confidence": "low",
-            "title": "Hardware-Anchored Diagnostic Genesis and Multimodal Sensor-Level Cryptographic Sealing System for Zero-Trust AI Acquisition",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19546361/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-            "relationship_confidence": "low",
-            "title": "Safety Self Talks (SST) by Large Language Model in Semi or Fully Autonomous Vehicles",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455013/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-            "relationship_confidence": "low",
-            "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
-            "relationship_confidence": "low",
-            "title": "ACTION-LEVEL CONSTRAINT ENFORCEMENT AND CONTAINMENT INTEGRITY MONITORING FOR AGENTIC LARGE LANGUAGE MODEL SYSTEMS WITH AUTONOMOUS TOOL ACCESS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19645306/application-data"
-          }
-        ]
-      },
-      "evidence": [
-        {
-          "authority": "authoritative",
-          "date": "2026-04-23",
-          "role": "official funding announcement",
-          "title": "Department reports initial architecture, command-and-control consortium, and active contracts",
-          "url": "https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html"
-        },
-        {
-          "authority": "authoritative",
-          "date": null,
-          "role": "official mission",
-          "title": "Golden Dome for America",
-          "url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/"
-        }
-      ],
-      "forecast_id": "forecast-6e261e95b74789bb",
-      "forecast_type": "mission_opportunity_release",
-      "horizon_end": "2026-10-29",
-      "impact": "critical",
-      "initial_probability": 0.74,
-      "last_evaluated_at": "2026-10-29T03:50:20.287402+00:00",
-      "outcome": null,
-      "probability": 0.62,
-      "probability_factors": [
-        {
-          "factor": "base rate",
-          "points": 0.28
-        },
-        {
-          "factor": "critical mission priority",
-          "points": 0.1
-        },
-        {
-          "factor": "recent official funding activity",
-          "points": 0.18
-        },
-        {
-          "factor": "multi-record execution trail",
-          "points": 0.06
-        }
-      ],
-      "probability_history": [
-        {
-          "at": "2026-07-31T16:06:07.673432+00:00",
-          "probability": 0.74,
-          "reason": "Forecast opened"
-        },
-        {
-          "at": "2026-09-29T03:38:05.351699+00:00",
-          "probability": 0.62,
-          "reason": "Evidence factors changed"
-        }
-      ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-29?",
-      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
-      "registry_key": "mission_opportunity_release:golden-dome:2026-Q3",
-      "resolution_rule": {
-        "kind": "new_linked_opportunity",
-        "negative": "No qualifying record appears by the horizon end.",
-        "positive": "A new linked opportunity record appears after forecast creation."
-      },
-      "status": "active",
-      "subject": "Golden Dome for America",
-      "subject_id": "golden-dome",
       "triggers": [
         {
           "direction": "confirming",
@@ -1334,7 +1046,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.62,
-      "last_evaluated_at": "2026-10-29T03:50:20.287402+00:00",
+      "last_evaluated_at": "2026-10-30T03:52:33.468921+00:00",
       "outcome": null,
       "probability": 0.62,
       "probability_factors": [
@@ -1471,7 +1183,7 @@
       "horizon_end": "2026-11-21",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-10-29T03:50:20.287402+00:00",
+      "last_evaluated_at": "2026-10-30T03:52:33.468921+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -1610,7 +1322,7 @@
       "horizon_end": "2026-12-17",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-10-29T03:50:20.287402+00:00",
+      "last_evaluated_at": "2026-10-30T03:52:33.468921+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -1749,7 +1461,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-10-29T03:50:20.287402+00:00",
+      "last_evaluated_at": "2026-10-30T03:52:33.468921+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -1879,7 +1591,7 @@
       "horizon_end": "2027-01-07",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-10-29T03:50:20.287402+00:00",
+      "last_evaluated_at": "2026-10-30T03:52:33.468921+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -1929,6 +1641,158 @@
           "direction": "disconfirming",
           "indicator": "Delay, cancellation, or rescope",
           "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [],
+      "brier_score": 0.3844,
+      "closing_probability": 0.62,
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 4,
+        "known_award_value": 4406303.41,
+        "lead_agencies": [
+          "Department of War",
+          "Golden Dome for America Office"
+        ],
+        "mission_status": "active",
+        "next_milestone": {},
+        "official_url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "CITY OF HUNTSVILLE",
+          "KPMG LLP"
+        ],
+        "record_count": 5,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "AUTONOMOUS AI AGENT TRAINING USING TIME-BASED SIMULATION MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19557333/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Hardware-Anchored Diagnostic Genesis and Multimodal Sensor-Level Cryptographic Sealing System for Zero-Trust AI Acquisition",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19546361/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Safety Self Talks (SST) by Large Language Model in Semi or Fully Autonomous Vehicles",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455013/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "ACTION-LEVEL CONSTRAINT ENFORCEMENT AND CONTAINMENT INTEGRITY MONITORING FOR AGENTIC LARGE LANGUAGE MODEL SYSTEMS WITH AUTONOMOUS TOOL ACCESS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19645306/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-04-23",
+          "role": "official funding announcement",
+          "title": "Department reports initial architecture, command-and-control consortium, and active contracts",
+          "url": "https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html"
+        },
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "Golden Dome for America",
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/"
+        }
+      ],
+      "forecast_id": "forecast-6e261e95b74789bb",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-10-29",
+      "impact": "critical",
+      "initial_probability": 0.74,
+      "last_evaluated_at": "2026-10-30T03:52:33.468921+00:00",
+      "outcome": false,
+      "outcome_evidence": null,
+      "probability": 0.62,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "recent official funding activity",
+          "points": 0.18
+        },
+        {
+          "factor": "multi-record execution trail",
+          "points": 0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.74,
+          "reason": "Forecast opened"
+        },
+        {
+          "at": "2026-09-29T03:38:05.351699+00:00",
+          "probability": 0.62,
+          "reason": "Evidence factors changed"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-29?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:golden-dome:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "resolved_at": "2026-10-30T03:52:33.468921+00:00",
+      "status": "resolved",
+      "subject": "Golden Dome for America",
+      "subject_id": "golden-dome",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Additional linked federal opportunity",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "evidence": {
+            "date": "2026-10-30",
+            "title": "Forecast horizon passed without qualifying evidence"
+          },
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "observed"
         }
       ]
     },
@@ -3887,6 +3751,158 @@
   "method_note": "Probabilities use bounded, published heuristics from mission priority, recent official activity, funding, awards, open opportunities, and milestone timing. Forecasts retain their probability history and are scored with the Brier rule after resolution. If supporting linkage is corrected, the forecast is withdrawn transparently and is not included in calibration.",
   "resolved_forecasts": [
     {
+      "baseline_record_keys": [],
+      "baseline_update_urls": [],
+      "brier_score": 0.3844,
+      "closing_probability": 0.62,
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-07-31T16:06:07.673432+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 4,
+        "known_award_value": 4406303.41,
+        "lead_agencies": [
+          "Department of War",
+          "Golden Dome for America Office"
+        ],
+        "mission_status": "active",
+        "next_milestone": {},
+        "official_url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [
+          "CITY OF HUNTSVILLE",
+          "KPMG LLP"
+        ],
+        "record_count": 5,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "AUTONOMOUS AI AGENT TRAINING USING TIME-BASED SIMULATION MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19557333/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Hardware-Anchored Diagnostic Genesis and Multimodal Sensor-Level Cryptographic Sealing System for Zero-Trust AI Acquisition",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19546361/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "Safety Self Talks (SST) by Large Language Model in Semi or Fully Autonomous Vehicles",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455013/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_confidence": "low",
+            "title": "ACTION-LEVEL CONSTRAINT ENFORCEMENT AND CONTAINMENT INTEGRITY MONITORING FOR AGENTIC LARGE LANGUAGE MODEL SYSTEMS WITH AUTONOMOUS TOOL ACCESS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19645306/application-data"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": "2026-04-23",
+          "role": "official funding announcement",
+          "title": "Department reports initial architecture, command-and-control consortium, and active contracts",
+          "url": "https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html"
+        },
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "Golden Dome for America",
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/"
+        }
+      ],
+      "forecast_id": "forecast-6e261e95b74789bb",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-10-29",
+      "impact": "critical",
+      "initial_probability": 0.74,
+      "last_evaluated_at": "2026-10-30T03:52:33.468921+00:00",
+      "outcome": false,
+      "outcome_evidence": null,
+      "probability": 0.62,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "recent official funding activity",
+          "points": 0.18
+        },
+        {
+          "factor": "multi-record execution trail",
+          "points": 0.06
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-07-31T16:06:07.673432+00:00",
+          "probability": 0.74,
+          "reason": "Forecast opened"
+        },
+        {
+          "at": "2026-09-29T03:38:05.351699+00:00",
+          "probability": 0.62,
+          "reason": "Evidence factors changed"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-29?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:golden-dome:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "resolved_at": "2026-10-30T03:52:33.468921+00:00",
+      "status": "resolved",
+      "subject": "Golden Dome for America",
+      "subject_id": "golden-dome",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Additional linked federal opportunity",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "evidence": {
+            "date": "2026-10-30",
+            "title": "Forecast horizon passed without qualifying evidence"
+          },
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "observed"
+        }
+      ]
+    },
+    {
       "baseline_record_keys": [
         "grants_gov:DE-FOA-0003612",
         "mission_tracker:https://www.energy.gov/sites/default/files/2026-07/Genesis-Mission-RFI-Analysis.pdf"
@@ -5220,19 +5236,19 @@
   ],
   "scope_note": "Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.",
   "summary": {
-    "accuracy_rate": 0.375,
-    "active": 7,
+    "accuracy_rate": 0.333,
+    "active": 6,
     "calibration_label": "Needs calibration",
-    "due_within_30_days": 2,
+    "due_within_30_days": 1,
     "invalidated": 2,
-    "mean_brier_score": 0.2389,
+    "mean_brier_score": 0.255,
     "observed_triggers": 0,
-    "resolved": 8
+    "resolved": 9
   },
   "temporal_context": {
-    "comparison_started_at": "2026-10-28T03:27:34.420498+00:00",
-    "historical_discoveries": 0
+    "comparison_started_at": "2026-10-29T03:50:20.287402+00:00",
+    "historical_discoveries": 4
   },
-  "updated_at": "2026-10-29T03:50:20.287402+00:00",
+  "updated_at": "2026-10-30T03:52:33.468921+00:00",
   "version": 1
 }

@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-29 03:59 UTC_
+_Updated 2026-10-30 03:59 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 43 | 1 | 9 | 5 | 29 |
+| 49 | 6 | 11 | 7 | 31 |
 
 ## 🔴 Contract: IonQ
 
@@ -22,7 +22,7 @@ _Updated 2026-10-29 03:59 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 AI Security has critical strategic importance and declining momentum.
+- 🔴 AI Security has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: PQC / Crypto Agility
@@ -74,6 +74,27 @@ _Updated 2026-10-29 03:59 UTC_
 - 🔴 Standards / Government has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
+## 🔴 Source failing: Google Quantum AI 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 94.5% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: Quantum Computing Patents 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 91.7% reliability with 4 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Actionable signal: AI Security 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 AI Security is actionable with high confidence.
+- [Open supporting view](signals.md)
+
 ## 🟠 Actionable signal: Quantum Networking
 
 - Severity: **high**
@@ -88,11 +109,18 @@ _Updated 2026-10-29 03:59 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
+## 🟠 Rising momentum: AI Security 🆕
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 2 versus 1 in the prior period.
+- [Open supporting view](signals.md)
+
 ## 🟠 Rising momentum: Quantum Networking
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 8 versus 1 in the prior period.
+- ↗️ Recent evidence is 9 versus 1 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -159,7 +187,7 @@ _Updated 2026-10-29 03:59 UTC_
 - The latest dated item is from 2026-07-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Artificial Intelligence 🆕
+## 🟡 Source stale: Grants.gov · Artificial Intelligence
 
 - Severity: **medium**
 - Status: **stale**
@@ -236,11 +264,25 @@ _Updated 2026-10-29 03:59 UTC_
 - The latest dated item is from 2026-07-09; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: QuEra Press Releases 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-10-15; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: QuSecure Press Releases
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-22; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Quantum Networking and Sensing Patents 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-10-15; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: SandboxAQ Blog

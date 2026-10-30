@@ -62,6 +62,29 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-10-29",
+      "key": "https://thequantuminsider.com/2026/10/29/nord-quantique-10-million-darpa-funding-extension",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "The Quantum Insider",
+      "stage": "mission evidence admission",
+      "title": "Nord Quantique Secures $10 Million DARPA Funding Extension",
+      "url": "https://thequantuminsider.com/2026/10/29/nord-quantique-10-million-darpa-funding-extension"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "Project Triad",
         "reason_codes": [
           "official_source",
@@ -2263,28 +2286,6 @@
       "stage": "mission evidence admission",
       "title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
       "url": "https://www.grants.gov/search-results-detail/362961"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-24",
-      "key": "grants_gov:HT942526CRRPTRA",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Golden Dome",
-      "stage": "funding evidence admission",
-      "title": "DOW Combat Readiness \u2013 Medical Research Program Translational Research Award",
-      "url": "https://www.grants.gov/search-results-detail/362961"
     }
   ],
   "reason_counts": [
@@ -2324,6 +2325,6 @@
     "quarantined": 142,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-10-29T03:50:20.287402+00:00",
+  "updated_at": "2026-10-30T03:52:33.468921+00:00",
   "version": 1
 }

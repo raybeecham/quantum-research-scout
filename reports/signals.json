@@ -220,15 +220,6 @@
           "url": "https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs"
         },
         {
-          "date": "2026-10-20",
-          "key": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
-          "report": "2026-10/2026-10-20-digest.md",
-          "score": 29,
-          "source": "Thales Cybersecurity Blog",
-          "title": "Agentic AI Security Risks in Manufacturing | Thales",
-          "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
-        },
-        {
           "date": "2026-10-27",
           "key": "https://huggingface.co/blog/allenai/novelty-bench",
           "report": "2026-10/2026-10-27-digest.md",
@@ -236,13 +227,22 @@
           "source": "Hugging Face Technical Blog",
           "title": "Can we trust LLMs to judge whether a research idea is novel?",
           "url": "https://huggingface.co/blog/allenai/novelty-bench"
+        },
+        {
+          "date": "2026-10-29",
+          "key": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
+          "report": "2026-10/2026-10-29-digest.md",
+          "score": 29,
+          "source": "Thales Cybersecurity Blog",
+          "title": "Agentic AI Security Risks in Manufacturing | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-10-27",
-      "momentum": "declining",
+      "latest_seen": "2026-10-29",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "arXiv RSS cs.CR",
@@ -250,9 +250,9 @@
         "Quantum Computing Report",
         "The Quantum Insider"
       ],
-      "prior_count": 2,
-      "recent_count": 1,
-      "status": "watching"
+      "prior_count": 1,
+      "recent_count": 2,
+      "status": "actionable"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -3190,12 +3190,21 @@
           "source": "The Quantum Insider",
           "title": "What NIST\u2019s Post-Quantum Cryptography Plan Means For Companies And Their Suppliers",
           "url": "https://thequantuminsider.com/2026/10/28/what-nists-post-quantum-cryptography-plan-means-for-companies-and-their-suppliers"
+        },
+        {
+          "date": "2026-10-29",
+          "key": "https://thequantuminsider.com/2026/10/29/lumen-ai-networking-quantum-research-pqc",
+          "report": "2026-10/2026-10-29-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "title": "Lumen Announces AI Networking, Quantum Research and PQC Plans",
+          "url": "https://thequantuminsider.com/2026/10/29/lumen-ai-networking-quantum-research-pqc"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-10-28",
+      "latest_seen": "2026-10-29",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -3204,8 +3213,8 @@
         "IACR ePrint",
         "Quantum Computing Report"
       ],
-      "prior_count": 20,
-      "recent_count": 21,
+      "prior_count": 16,
+      "recent_count": 18,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -7379,12 +7388,57 @@
           "source": "Quantum Computing Report",
           "title": "EPB and IonQ Deploy Hybrid Trapped-Ion Algorithms on Forte Enterprise to Optimize Power Grid Topology",
           "url": "https://quantumcomputingreport.com/epb-and-ionq-deploy-hybrid-trapped-ion-algorithms-on-forte-enterprise-to-optimize-power-grid-topology"
+        },
+        {
+          "date": "2026-10-29",
+          "key": "https://quantum-journal.org/papers/q-2026-10-29-2256",
+          "report": "2026-10/2026-10-29-digest.md",
+          "score": 22,
+          "source": "Quantum Journal",
+          "title": "Re-uploading quantum data: a universal function approximator for quantum inputs",
+          "url": "https://quantum-journal.org/papers/q-2026-10-29-2256"
+        },
+        {
+          "date": "2026-10-29",
+          "key": "https://thequantuminsider.com/2026/10/29/researchers-curb-unwanted-transitions-in-ultrafast-quantum-gates",
+          "report": "2026-10/2026-10-29-digest.md",
+          "score": 31,
+          "source": "The Quantum Insider",
+          "title": "Researchers Curb Unwanted Transitions in Ultrafast Quantum Gates",
+          "url": "https://thequantuminsider.com/2026/10/29/researchers-curb-unwanted-transitions-in-ultrafast-quantum-gates"
+        },
+        {
+          "date": "2026-10-29",
+          "key": "https://thequantuminsider.com/2026/10/29/iqm-full-chip-entanglement-54-qubit-processor",
+          "report": "2026-10/2026-10-29-digest.md",
+          "score": 47,
+          "source": "The Quantum Insider",
+          "title": "IQM Demonstrates Entanglement Across a Complete 54-Qubit Processor",
+          "url": "https://thequantuminsider.com/2026/10/29/iqm-full-chip-entanglement-54-qubit-processor"
+        },
+        {
+          "date": "2026-10-29",
+          "key": "https://thequantuminsider.com/2026/10/29/pasqal-processor-unexpected-quantum-magnet-behavior",
+          "report": "2026-10/2026-10-29-digest.md",
+          "score": 55,
+          "source": "The Quantum Insider",
+          "title": "Pasqal\u2019s 256-Qubit Processor Finds Unexpected Quantum Magnet Behavior",
+          "url": "https://thequantuminsider.com/2026/10/29/pasqal-processor-unexpected-quantum-magnet-behavior"
+        },
+        {
+          "date": "2026-10-29",
+          "key": "https://thequantuminsider.com/2026/10/29/alice-bob-22593-qubits-break-rsa-2048",
+          "report": "2026-10/2026-10-29-digest.md",
+          "score": 82,
+          "source": "The Quantum Insider",
+          "title": "Alice & Bob Estimates 22,593 Qubits to Break RSA-2048",
+          "url": "https://thequantuminsider.com/2026/10/29/alice-bob-22593-qubits-break-rsa-2048"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-10-28",
+      "latest_seen": "2026-10-29",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -7393,8 +7447,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 16,
-      "recent_count": 21,
+      "prior_count": 20,
+      "recent_count": 22,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -8830,12 +8884,21 @@
           "source": "Quantum Computing Report",
           "title": "Quantum XChange Releases Phio TX-CMC 2.0 to Automate Distributed Post-Quantum Network Management",
           "url": "https://quantumcomputingreport.com/quantum-xchange-releases-phio-tx-cmc-2-0-to-automate-distributed-post-quantum-network-management"
+        },
+        {
+          "date": "2026-10-29",
+          "key": "https://arxiv.org/abs/2610.39476v1",
+          "report": "2026-10/2026-10-29-digest.md",
+          "score": 93,
+          "source": "arXiv Quantum Computing",
+          "title": "SeQUeNCe.DQC: Full-stack Simulation of Distributed Quantum Computing",
+          "url": "https://arxiv.org/abs/2610.39476v1"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-10-28",
+      "latest_seen": "2026-10-29",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -8845,7 +8908,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 1,
-      "recent_count": 8,
+      "recent_count": 9,
       "status": "actionable"
     },
     "Quantum Sensing": {
@@ -11105,6 +11168,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-10-29T03:59:37.841124+00:00",
+  "updated_at": "2026-10-30T03:59:22.668921+00:00",
   "version": 1
 }

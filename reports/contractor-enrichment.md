@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-10-29T03:50:20.287402+00:00_
+_Updated 2026-10-30T03:52:33.468921+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
@@ -45,7 +45,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF UTAH | [UNIVERSITY OF UTAH](https://sam.gov/entity/LL8GLEVH6MG3/coreData) | LL8GLEVH6MG3 | 3T624 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | UNIVERSITY OF OKLAHOMA | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) | EVTSTTLCEWS5 | 3G168 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | [SCIENCE APPLICATIONS INTERNATIONAL CORPORATION](https://sam.gov/entity/MMLKPW9JLX64/coreData) | MMLKPW9JLX64 | 6XWA8 | Active | Business or Organization, For Profit Organization |
-| IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY | [IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY](https://sam.gov/entity/DQDBM7FGJPC5/coreData) | DQDBM7FGJPC5 | 5J949 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | ADVANCED COMPUTER CONCEPTS, INC. | [ADVANCED COMPUTER CONCEPTS, INC.](https://sam.gov/entity/CGE8ABMZLZN9/coreData) | CGE8ABMZLZN9 | 0L850 | Active | Business or Organization, For Profit Organization, Women-Owned Business |
 | UNIVERSITY OF WISCONSIN SYSTEM | [UNIVERSITY OF WISCONSIN SYSTEM](https://sam.gov/entity/LCLSJAGTNZQ7/coreData) | LCLSJAGTNZQ7 | 09FZ2 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | [Regents of the University of California, The](https://sam.gov/entity/GS3YEVSS12N6/coreData) | GS3YEVSS12N6 | 50853 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
@@ -62,7 +61,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | GEORGIA TECH RESEARCH CORP | [GEORGIA TECH RESEARCH CORP](https://sam.gov/entity/EMW9FC8J3HN4/coreData) | EMW9FC8J3HN4 | 1G474 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | DUKE UNIVERSITY | [DUKE UNIVERSITY](https://sam.gov/entity/TP7EK8DZV6N5/coreData) | TP7EK8DZV6N5 | 4B478 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF TEXAS AT DALLAS | [UNIVERSITY OF TEXAS AT DALLAS](https://sam.gov/entity/EJCVPNN1WFS5/coreData) | EJCVPNN1WFS5 | 0W921 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
-| UNIVERSITY OF HOUSTON SYSTEM | [UNIVERSITY OF HOUSTON SYSTEM](https://sam.gov/entity/QKWEF8XLMTT3/coreData) | QKWEF8XLMTT3 | 9B955 | Active | Educational Institution, Hispanic Servicing Institution, State Controlled Institution of Higher Learning |
 | THALES DEFENSE & SECURITY INC | [THALES DEFENSE & SECURITY INC](https://sam.gov/entity/HNNUJXHSXGU3/coreData) | HNNUJXHSXGU3 | 23386 | Active | Business or Organization, For Profit Organization, Foreign Owned |
 | ROCHESTER INSTITUTE OF TECHNOLOGY | [ROCHESTER INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/J6TWTRKC1X14/coreData) | J6TWTRKC1X14 | 0SWS3 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | NEW YORK UNIVERSITY | [NEW YORK UNIVERSITY](https://sam.gov/entity/NX9PXMKW5KW8/coreData) | NX9PXMKW5KW8 | 72061 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
@@ -79,10 +77,12 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | [MASSACHUSETTS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NYLCDML6V1/coreData) | E2NYLCDML6V1 | 80230 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | KEAN UNIVERSITY | [KEAN UNIVERSITY](https://sam.gov/entity/SQ62WM5KNSV8/coreData) | SQ62WM5KNSV8 | 314S6 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
 | FLORIDA INTERNATIONAL UNIVERSITY | [FLORIDA INTERNATIONAL UNIVERSITY](https://sam.gov/entity/Q3KCVK5S9CP1/coreData) | Q3KCVK5S9CP1 | 1JHM5 | Active | Educational Institution, Hispanic Servicing Institution, Minority Institution |
+| UNIVERSITY OF HOUSTON SYSTEM | [UNIVERSITY OF HOUSTON SYSTEM](https://sam.gov/entity/QKWEF8XLMTT3/coreData) | QKWEF8XLMTT3 | 9B955 | Active | Educational Institution, Hispanic Servicing Institution, State Controlled Institution of Higher Learning |
 | TRUSTEES OF BOSTON UNIVERSITY | [TRUSTEES OF BOSTON UNIVERSITY](https://sam.gov/entity/THL6A6JLE1S7/coreData) | THL6A6JLE1S7 | 3A817 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE | [REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE](https://sam.gov/entity/KMH5K9V7S518/coreData) | KMH5K9V7S518 | 4B560 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | ODDBALL, INC. | [ODDBALL, INC.](https://sam.gov/entity/MHNFNJ1J5RF5/coreData) | MHNFNJ1J5RF5 | 7HL75 | Active | Business or Organization, For Profit Organization |
 | KAIZEN LABORATORIES INC. | [Kaizen Laboratories Inc.](https://sam.gov/entity/KZ7NSHFWWSF8/coreData) | KZ7NSHFWWSF8 | 9YHA6 | Active | Business or Organization, For Profit Organization |
+| IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY | [IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY](https://sam.gov/entity/DQDBM7FGJPC5/coreData) | DQDBM7FGJPC5 | 5J949 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | ICF INCORPORATED, L.L.C. | [ICF INCORPORATED, L.L.C.](https://sam.gov/entity/QHBLBNKKV4U3/coreData) | QHBLBNKKV4U3 | 5M571 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | FLORIDA INSTITUTE OF TECHNOLOGY INC | [FLORIDA INSTITUTE OF TECHNOLOGY INC](https://sam.gov/entity/WNN6VH618X58/coreData) | WNN6VH618X58 | 3B476 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | CLEMSON UNIVERSITY | [Clemson University](https://sam.gov/entity/H2BMNX7DSKU8/coreData) | H2BMNX7DSKU8 | 1D5U5 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |

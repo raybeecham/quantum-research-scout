@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-29T03:50:20.287402+00:00_
+_Updated 2026-10-30T03:52:33.468921+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
@@ -18,10 +18,10 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- **NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900))
-- **NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.** — awarding agency: Department of Energy ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900))
-- **NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.** — reported amount: 11066848.98 ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900))
-- **NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900))
+- **(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097))
+- **(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS** — awarding agency: Department of Defense ([evidence](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097))
+- **(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS** — reported amount: 200000.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097))
+- **(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097))
 
 ## Superseded claims
 

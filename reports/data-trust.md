@@ -1,6 +1,6 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-10-29T03:50:20.287402+00:00_
+_Updated 2026-10-30T03:52:33.468921+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
@@ -33,6 +33,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 65
 
 ### [Nord Quantique Secures $10 Million DARPA Quantum Benchmarking Initiative Stage B Agreement Extension](https://quantumcomputingreport.com/nord-quantique-secures-10-million-darpa-quantum-benchmarking-initiative-stage-b-agreement-extension)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [Nord Quantique Secures $10 Million DARPA Funding Extension](https://thequantuminsider.com/2026/10/29/nord-quantique-10-million-darpa-funding-extension)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
@@ -715,13 +722,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal missions
 - Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [DOW Combat Readiness – Medical Research Program Translational Research Award](https://www.grants.gov/search-results-detail/362961)
-
-- Scope: Federal funding
-- Stage: funding evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 

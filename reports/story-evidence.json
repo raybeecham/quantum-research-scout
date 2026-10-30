@@ -719,6 +719,26 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2610.39476v1": {
+      "captures": [
+        {
+          "excerpts": [
+            "Distributed quantum computing (DQC) connects multiple quantum processing units to overcome the scale limits of monolithic hardware",
+            "We introduce SeQUeNCe.DQC, a new top-level module within the SeQUeNCe package that compiles monolithic circuits into topology-aware execution plans and coordinates their execution using SeQUeNCe's existing quantum..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-29",
+              "report_date": "2026-10-29",
+              "sequence": 0,
+              "source": "arXiv Quantum Computing",
+              "url": "https://arxiv.org/abs/2610.39476v1"
+            }
+          ],
+          "title": "SeQUeNCe.DQC: Full-stack Simulation of Distributed Quantum Computing"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
@@ -980,6 +1000,13 @@
             {
               "published_date": "2026-10-20",
               "report_date": "2026-10-20",
+              "sequence": 0,
+              "source": "Thales Cybersecurity Blog",
+              "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
+            },
+            {
+              "published_date": "2026-10-29",
+              "report_date": "2026-10-29",
               "sequence": 0,
               "source": "Thales Cybersecurity Blog",
               "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
@@ -6746,6 +6773,27 @@
             }
           ],
           "title": "Pasqal’s 256-Qubit Processor Finds Unexpected Quantum Magnet Behavior"
+        }
+      ]
+    },
+    "https://thequantuminsider.com/2026/10/29/researchers-curb-unwanted-transitions-in-ultrafast-quantum-gates": {
+      "captures": [
+        {
+          "excerpts": [
+            "Researchers from Jülich, Aachen and Cologne have performed a quantum operation on a qubit in just 6.8 nanoseconds – with more than 99.98 percent accuracy",
+            "Such operations typically take several tens of nanoseconds in superconducting quantum computers",
+            "The paper was published in Nature Communications"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-29",
+              "report_date": "2026-10-29",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/10/29/researchers-curb-unwanted-transitions-in-ultrafast-quantum-gates"
+            }
+          ],
+          "title": "Researchers Curb Unwanted Transitions in Ultrafast Quantum Gates"
         }
       ]
     },

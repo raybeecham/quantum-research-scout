@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-10-29T03:50:20.287402+00:00_
+_Updated 2026-10-30T03:52:33.468921+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **5047**
-- Authoritative claims: **4832**
+- Active claims: **5051**
+- Authoritative claims: **4836**
 - Analytical claims: **210**
 - Conflicted claims: **38**
-- Evidence items / URLs: **5151 / 1391**
+- Evidence items / URLs: **5155 / 1392**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,10 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | (HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS | opportunity status | awarded | authoritative / high | [(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097) |
+| active | (HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS | awarding agency | Department of Defense | authoritative / high | [(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097) |
+| active | (HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS | reported amount | 200000.0 | authoritative / high | [(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097) |
+| active | (HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS | reported recipient | JACKSON STATE UNIVERSITY | authoritative / high | [(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097) |
 | active | NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS. | opportunity status | awarded | authoritative / high | [NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900) |
 | active | NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS. | awarding agency | Department of Energy | authoritative / high | [NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900) |
 | active | NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS. | reported amount | 11066848.98 | authoritative / high | [NEW BPA ORDER UNDER CHIEF INFORMATION OFFICER (CIO) BUSINESS OPERATIONS SUPPORT SERVICES (CBOSS) 2.0 FOR IM30 OFFICE OF CYBERSECURITY PROGRAMS AND OPERATIONS.](https://www.usaspending.gov/award/CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900) |
@@ -260,10 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM... | reported amount | 1031000.0 | authoritative / high | [PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...](https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013) |
 | active | PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM... | reported recipient | OREGON INSTITUTE OF TECHNOLOGY | authoritative / high | [PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...](https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013) |
 | active | New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK | opportunity status | awarded | authoritative / high | [New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK](https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view) |
-| active | New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK | set aside | No Set aside used | authoritative / high | [New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK](https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view) |
-| active | New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK | authoritative / high | [New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK](https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view) |
-| active | New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK | reported amount | 47762021.56 | authoritative / high | [New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK](https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view) |
-| active | New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK | reported recipient | GENERAL ELECTRIC COMPANY | authoritative / high | [New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK](https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view) |
 
 ## Method
 
