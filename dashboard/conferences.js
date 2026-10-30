@@ -11,6 +11,7 @@
     <div class="conference-filters">
       <label>Search conferences<input id="conference-search" type="search" placeholder="Name, city or topic" /></label>
       <label>Topic<select id="conference-topic"><option value="">All topics</option></select></label>
+      <label>Year<select id="conference-year"><option value="">All years</option></select></label>
       <label>When<select id="conference-period"><option value="upcoming">Upcoming &amp; ongoing</option><option value="all">All listed events</option><option value="unannounced">Dates unannounced</option><option value="past">Past events</option><option value="cancelled">Cancelled / postponed</option></select></label>
       <label>Evidence<select id="conference-evidence"><option value="">All evidence</option><option value="confirmed">Organizer dates confirmed</option><option value="directory">Directory leads</option></select></label>
       <label>Attendance<select id="conference-mode"><option value="">All formats</option><option>In person</option><option>Online</option><option>Hybrid</option><option>Unannounced</option></select></label>
@@ -62,6 +63,13 @@
     return a;
   }
   const confirmed = e => !e.verification || ["organizer", "manual"].includes(e.verification);
+  // Calendar dates take precedence. Undated leads need an explicit edition year in the title, never a checked/observed year.
+  const eventYears = e => {
+    const dated = [e.start, e.end]
+      .filter(value => /^20\d{2}-\d{2}-\d{2}$/.test(value || ""))
+      .map(value => value.slice(0, 4));
+    return [...new Set(dated.length ? dated : e.name.match(/\b20\d{2}\b/g) || [])];
+  };
   function health(data) {
     const sources = data.sources || [];
     $("conference-freshness").textContent = sources.length
@@ -91,12 +99,14 @@
     const query = $("conference-search").value.trim().toLowerCase(),
       topic = $("conference-topic").value,
       period = $("conference-period").value,
+      year = $("conference-year").value,
       mode = $("conference-mode").value,
       evidence = $("conference-evidence").value,
       current = today();
     const rows = events.filter(
       e =>
         (!topic || e.topics.includes(topic)) &&
+        (!year || eventYears(e).includes(year)) &&
         (!mode || e.mode === mode) &&
         (!evidence || (evidence === "confirmed" ? confirmed(e) : !confirmed(e))) &&
         (!query || [e.name, e.location, ...e.topics].join(" ").toLowerCase().includes(query)) &&
@@ -230,6 +240,8 @@
         );
       for (const topic of [...new Set(events.flatMap(e => e.topics))].sort())
         text($("conference-topic"), "option", topic).value = topic;
+      for (const year of [...new Set(events.flatMap(eventYears))].sort())
+        text($("conference-year"), "option", year).value = year;
       health(data);
       render();
     } catch {
@@ -249,6 +261,7 @@
   for (const id of [
     "conference-search",
     "conference-topic",
+    "conference-year",
     "conference-period",
     "conference-mode",
     "conference-evidence",
@@ -261,6 +274,7 @@
     for (const id of [
       "conference-search",
       "conference-topic",
+      "conference-year",
       "conference-mode",
       "conference-evidence",
     ])
