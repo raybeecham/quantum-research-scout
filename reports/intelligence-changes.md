@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-30T03:52:33.468921+00:00_
+_Updated 2026-10-31T03:36:55.156376+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
@@ -18,10 +18,10 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- **(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097))
-- **(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS** — awarding agency: Department of Defense ([evidence](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097))
-- **(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS** — reported amount: 200000.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097))
-- **(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097))
+- **FAMIS SERVICENOW SOFTWARE - FY27** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_140DWF27F0001_1406_NNG15SD32B_8000))
+- **FAMIS SERVICENOW SOFTWARE - FY27** — awarding agency: Department of the Interior ([evidence](https://www.usaspending.gov/award/CONT_AWD_140DWF27F0001_1406_NNG15SD32B_8000))
+- **FAMIS SERVICENOW SOFTWARE - FY27** — reported amount: 201056.54 ([evidence](https://www.usaspending.gov/award/CONT_AWD_140DWF27F0001_1406_NNG15SD32B_8000))
+- **FAMIS SERVICENOW SOFTWARE - FY27** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_140DWF27F0001_1406_NNG15SD32B_8000))
 
 ## Superseded claims
 

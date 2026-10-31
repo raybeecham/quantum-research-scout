@@ -1,26 +1,26 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-10-30T03:52:33.468921+00:00_
+_Updated 2026-10-31T03:36:55.156376+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **541**
-- Quarantined evidence or relationships: **142**
-- Acceptance rate: **79.2%**
+- Accepted evidence: **542**
+- Quarantined evidence or relationships: **143**
+- Acceptance rate: **79.1%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 41 | 100 | 29.1% |
-| Federal funding | 500 | 42 | 92.3% |
+| Federal missions | 42 | 100 | 29.6% |
+| Federal funding | 500 | 43 | 92.1% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 139
-- **No relevant term in the evidence itself**: 139
+- **Match appears only in collector query metadata**: 140
+- **No relevant term in the evidence itself**: 140
 - **Official government source**: 103
-- **Source is not an official .gov or .mil domain**: 36
+- **Source is not an official .gov or .mil domain**: 37
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -103,6 +103,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 10
 
 ### [U.S. Department of Energy Allocates $159 Million in Phase II Genesis Mission Awards for Quantum Error Correction and Materials Co-Design](https://quantumcomputingreport.com/u-s-department-of-energy-allocates-159-million-in-phase-ii-genesis-mission-awards-for-quantum-error-correction-and-materials-co-design)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [IonQ | What It Means to Put a Quantum Roadmap to the Test](https://ionq.com/blog/what-it-means-to-put-a-quantum-roadmap-to-the-test)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
@@ -712,13 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027](https://www.grants.gov/search-results-detail/362913)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [DOW Combat Readiness – Medical Research Program Translational Research Award](https://www.grants.gov/search-results-detail/362961)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

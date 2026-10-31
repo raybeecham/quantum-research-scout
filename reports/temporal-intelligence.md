@@ -2,19 +2,19 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-10-30T03:52:33.468921+00:00_
+_Updated 2026-10-31T03:36:55.156376+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **0**
-- Newly discovered historical evidence: **4**
+- Actual or recent changes: **4**
+- Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
-- Upcoming dated events: **12**
+- Upcoming dated events: **11**
 
 ## Priority timeline
 
-- **Newly discovered historical evidence** · (HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097))
-  - Frontier Signal first observed this on 2026-10-30; the source date is 2026-10-01.
+- **Occurred 2 days ago** · FAMIS SERVICENOW SOFTWARE - FY27 — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_140DWF27F0001_1406_NNG15SD32B_8000))
+  - A recent source-reported event was newly incorporated into the ledger.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -54,7 +54,6 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 
 ## Upcoming
 
-- **2026-09-30** · Close the QBIT Stage A full-proposal window — overdue ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-10-15** · Close the QBI independent verification and validation topic — overdue ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-11-14** · Close the umbrella QBI 2026 announcement — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-11-24** · Submit the first annual Genesis Mission progress report — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))

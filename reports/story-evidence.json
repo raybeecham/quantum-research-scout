@@ -2065,6 +2065,47 @@
         }
       ]
     },
+    "https://quantum-journal.org/papers/q-2026-10-30-2257": {
+      "captures": [
+        {
+          "excerpts": [
+            "Quantum 10, 2257 (2026). https://doi.org/10.22331/q-2026-10-30-2257 The notion of a macroscopic quantum state must be pinned down in order to assess how well experiments probe the large-scale limits of quantum mechanics",
+            "However, the issue of quantifying so-called quantum macroscopicity is fraught with multiple approaches having varying interpretations and levels of computability and measurability"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "Quantum Journal",
+              "url": "https://quantum-journal.org/papers/q-2026-10-30-2257"
+            }
+          ],
+          "title": "Macroscopic quantum coherence and entanglement in mechanical systems"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/alice-bob-demonstrates-end-to-end-shors-algorithm-compilation-requiring-23000-cat-qubits-to-break-rsa-2048": {
+      "captures": [
+        {
+          "excerpts": [
+            "Alice & Bob, in collaboration with other researchers, have demonstrated that Shor's algorithm could factor an RSA-2048 integer using 22,593 physical cat qubits in 3.14 days",
+            "This reduces the physical qubit footprint by roughly a factor of 40 compared to previous estimates",
+            "The research highlights the accelerated convergence of algorithmic efficiency and bosonic error correction, reinforcing the need for critical infrastructure to migrate to post-quantum standards by 2035"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/alice-bob-demonstrates-end-to-end-shors-algorithm-compilation-requiring-23000-cat-qubits-to-break-rsa-2048"
+            }
+          ],
+          "title": "Alice & Bob Demonstrates End-to-End Shor’s Algorithm Compilation Requiring 23,000 Cat Qubits to Break RSA-2048"
+        }
+      ]
+    },
     "https://quantumcomputingreport.com/alice-bob-demonstrates-gpu-decoding-for-ldpc-cat-codes-via-nvidia-nvqlink": {
       "captures": [
         {
@@ -2354,6 +2395,26 @@
             }
           ],
           "title": "DigiCert Announces General Availability of Quantum Central Platform for PQC Migration Management"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/e-on-qoro-quantum-and-nqcc-scale-constrained-optimization-on-ibm-heron-qpus-via-distributed-qaoa-and-spatial-packing": {
+      "captures": [
+        {
+          "excerpts": [
+            "They achieved this by decomposing a 1,710-variable problem into 41 subgraphs, each bounded to 50 qubits, to map the PEGASE-1354 European transmission grid benchmark onto 156-qubit IBM Heron processors",
+            "E.ON, Qoro Quantum, and NQCC have successfully demonstrated a distributed hybrid optimization pipeline that reduced quantum execution time by approximately three times on IBM Quantum hardware"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/e-on-qoro-quantum-and-nqcc-scale-constrained-optimization-on-ibm-heron-qpus-via-distributed-qaoa-and-spatial-packing"
+            }
+          ],
+          "title": "E.ON, Qoro Quantum, and NQCC Scale Constrained Optimization on IBM Heron QPUs via Distributed QAOA and Spatial Packing"
         }
       ]
     },
@@ -4235,6 +4296,25 @@
         }
       ]
     },
+    "https://quantumzeitgeist.com/circuit-qed-qubit-links-two-waveguides": {
+      "captures": [
+        {
+          "excerpts": [
+            "Researchers coupled two superconducting waveguides via a transmon qubit, creating a “basic cell” for coherent photon exchange"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/circuit-qed-qubit-links-two-waveguides"
+            }
+          ],
+          "title": "Qubit links two waveguides for photon transfer."
+        }
+      ]
+    },
     "https://quantumzeitgeist.com/encryption-consulting-quantum-frost-sullivan-crypto": {
       "captures": [
         {
@@ -4712,6 +4792,47 @@
         }
       ]
     },
+    "https://quantumzeitgeist.com/post-selection-boosts-quantum-key-rate": {
+      "captures": [
+        {
+          "excerpts": [
+            "Quantum Key Distribution with Entanglement-Swapped Photons from a Quantum Emitter is explored, and researchers found post-selection boosts the quantum key rate",
+            "This work utilizes a quantum emitter to generate the entangled photons necessary for the distribution"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/post-selection-boosts-quantum-key-rate"
+            }
+          ],
+          "title": "Post-selection boosts quantum key rate, researchers find"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/quantum-key-distribution-information-leakage-bound-device-independence": {
+      "captures": [
+        {
+          "excerpts": [
+            "Quantum key distribution now tolerates visibility levels as low as 0",
+            "This advance demonstrates security can be proven by bounding information leakage from all signals, rather than requiring detailed knowledge of QKD system internals",
+            "84, equating to an 8% quantum bit error rate, a marked improvement over the 11% previously achievable with standard methods"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/quantum-key-distribution-information-leakage-bound-device-independence"
+            }
+          ],
+          "title": "Researchers Secure Keys with a New Information Leakage Bound"
+        }
+      ]
+    },
     "https://quantumzeitgeist.com/quantum-networking-fiber-lumen-ohio": {
       "captures": [
         {
@@ -4898,6 +5019,27 @@
             }
           ],
           "title": "Quantum XChange eases quantum-safe network management with new console"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/satellite-quantum-networks-hybrid-simulation-tool-qnetisim": {
+      "captures": [
+        {
+          "excerpts": [
+            "A new simulator, QNETSIM, breaks that cycle by uniting detailed modelling of both the physics *and* the orbits involved in distributing entangled qubits across complex topologies",
+            "Before now, designing dependable space-based quantum networks meant choosing architectures blindfolded, without knowing how real orbital dynamics would impact performance",
+            "This integration allows engineers to explore previously inaccessible design tradeoffs between resources and network architecture itself"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/satellite-quantum-networks-hybrid-simulation-tool-qnetisim"
+            }
+          ],
+          "title": "Luxembourg Team Simulates Hybrid Satellite Quantum Networks"
         }
       ]
     },
@@ -7300,6 +7442,26 @@
         }
       ]
     },
+    "https://thequantuminsider.com/2026/10/30/france-national-quantum-update-october-2026": {
+      "captures": [
+        {
+          "excerpts": [
+            "The activity highlighted international expansion alongside efforts at home to integrate quantum processors with conventional computing and improve error correction",
+            "EXECUTIVE SUMMARY France expanded its quantum technology ties with Vietnam in October, combining a business delegation with agreements covering computing infrastructure, research and workforce development"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/10/30/france-national-quantum-update-october-2026"
+            }
+          ],
+          "title": "France National Quantum Update: October 2026"
+        }
+      ]
+    },
     "https://thequantuminsider.com/2026/10/30/netpoleon-qnu-labs-quantum-safe-security": {
       "captures": [
         {
@@ -7326,6 +7488,22 @@
               "published_date": "2026-10-30",
               "report_date": "2026-10-30",
               "sequence": 1,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/10/30/netpoleon-qnu-labs-quantum-safe-security"
+            }
+          ],
+          "title": "Netpoleon India Partners With QNu Labs on Quantum-Safe Security"
+        },
+        {
+          "excerpts": [
+            "Netpoleon India, a value-added cybersecurity distributor, has onboarded QNu Labs, an India-born deep-tech cybersecurity company, in a strategic collaboration aimed at accelerating quantum-safe cybersecurity...",
+            "Alice & Bob Demonstrates End-to-End Shor’s Algorithm Compilation Requiring 23,000 Cat Qubits to Break RSA-2048 — already featured in Strategic Signals. [Open item](https://quantumcomputingreport.com/alice-bob-demonstrates-end-to-end-shors-algorithm-compilation-requiring-23000-cat-qubits-to-break-rsa-2048)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-30",
+              "sequence": 2,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/10/30/netpoleon-qnu-labs-quantum-safe-security"
             }

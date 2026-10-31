@@ -4,24 +4,24 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-10-30 03:59 UTC_
+_Updated 2026-10-31 03:45 UTC_
 
 ## Organizations
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
 | NIST | ↗️ rising (3 vs 0) | 🔴 critical | active | 2026-01-06 | 2026-10-28 | 21 | 1 |
-| IBM | ➡️ stable (2 vs 2) | 🟠 high | active | 2026-06-23 | 2026-10-28 | 42 | 7 |
+| IBM | ↗️ rising (3 vs 2) | 🟠 high | active | 2026-06-23 | 2026-10-30 | 43 | 7 |
 | Keyfactor | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-11-19 | 2026-10-06 | 32 | 17 |
 | IonQ | ↗️ rising (4 vs 1) | 🟠 high | active | 2026-06-22 | 2026-10-28 | 30 | 0 |
 | QuSecure | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-07 | 2026-09-22 | 29 | 20 |
-| Cisco | ↘️ declining (0 vs 1) | 🟠 high | active | 2026-07-27 | 2026-10-22 | 20 | 0 |
+| Cisco | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-07-27 | 2026-10-22 | 20 | 0 |
 | Fortanix | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2024-10-28 | 2026-10-08 | 19 | 19 |
-| QuEra | ↘️ declining (0 vs 4) | 🟠 high | quiet | 2025-07-28 | 2026-10-17 | 17 | 10 |
-| PQShield | ➡️ stable (1 vs 1) | 🟠 high | active | 2026-07-03 | 2026-10-23 | 15 | 0 |
-| Cloudflare | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-06-23 | 2026-10-23 | 14 | 0 |
+| QuEra | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2025-07-28 | 2026-10-17 | 17 | 10 |
+| PQShield | ↘️ declining (0 vs 2) | 🟠 high | active | 2026-07-03 | 2026-10-23 | 15 | 0 |
+| Cloudflare | ↘️ declining (0 vs 1) | 🟠 high | active | 2026-06-23 | 2026-10-23 | 14 | 0 |
 | Quantinuum | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2026-06-22 | 2026-10-19 | 13 | 0 |
-| DigiCert | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-08-03 | 2026-09-25 | 8 | 0 |
+| DigiCert | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-08-03 | 2026-10-30 | 9 | 0 |
 | PsiQuantum | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-05-08 | 2026-09-02 | 7 | 6 |
 | Accenture / Accenture Federal Services | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-03-31 | 2026-08-27 | 6 | 6 |
 | D-Wave | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-06-30 | 2026-10-01 | 6 | 0 |
@@ -32,7 +32,7 @@ _Updated 2026-10-30 03:59 UTC_
 | Lockheed Martin | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-25 | 2026-07-14 | 4 | 2 |
 | Thales | ➡️ stable (1 vs 1) | 🟠 high | active | 2026-08-04 | 2026-10-29 | 4 | 0 |
 | Wiz | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-01-08 | 2026-07-02 | 4 | 4 |
-| Booz Allen Hamilton | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2025-02-06 | 2026-09-29 | 3 | 2 |
+| Booz Allen Hamilton | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-02-06 | 2026-09-29 | 3 | 2 |
 | IETF | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-08-27 | 2026-08-28 | 3 | 2 |
 | ANSSI | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-06-23 | 2026-09-03 | 2 | 0 |
 | Deloitte | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-08-20 | 2025-08-20 | 2 | 2 |
@@ -40,7 +40,7 @@ _Updated 2026-10-30 03:59 UTC_
 | CISA | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-09-03 | 2026-09-03 | 1 | 0 |
 | Microsoft Quantum | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-09-22 | 2026-09-22 | 1 | 0 |
 | Open Quantum Safe | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-27 | 2026-07-27 | 1 | 0 |
-| Infleqtion | ➡️ stable (0 vs 0) | 🟡 medium | quiet | 2026-06-22 | 2026-10-13 | 31 | 0 |
+| Infleqtion | ↗️ rising (1 vs 0) | 🟡 medium | active | 2026-06-22 | 2026-10-30 | 32 | 0 |
 | Pasqal | ➡️ stable (1 vs 1) | 🟡 medium | active | 2026-06-29 | 2026-10-29 | 25 | 0 |
 | AWS | ↘️ declining (0 vs 1) | 🟡 medium | quiet | 2026-06-24 | 2026-10-21 | 10 | 3 |
 | Rigetti | ↘️ declining (0 vs 1) | 🟡 medium | quiet | 2026-07-29 | 2026-10-17 | 6 | 0 |
@@ -76,7 +76,7 @@ _Updated 2026-10-30 03:59 UTC_
 | ANSSI | third-party | 0 | 2 |
 | D-Wave | third-party | 0 | 6 |
 | ISO/IEC | third-party | 0 | 4 |
-| Infleqtion | third-party | 0 | 31 |
+| Infleqtion | third-party | 0 | 32 |
 | Pasqal | third-party | 0 | 25 |
 | NIST | covered | 4 | 21 |
 | Accenture / Accenture Federal Services | covered | 2 | 6 |
@@ -87,14 +87,14 @@ _Updated 2026-10-30 03:59 UTC_
 | Cisco | covered | 1 | 20 |
 | Cloudflare | covered | 2 | 14 |
 | Deloitte | covered | 1 | 2 |
-| DigiCert | covered | 1 | 8 |
+| DigiCert | covered | 1 | 9 |
 | ENISA | covered | 1 | 0 |
 | ETSI | covered | 1 | 2 |
 | Fortanix | covered | 1 | 19 |
 | Google Quantum AI | covered | 2 | 5 |
-| IBM | covered | 2 | 42 |
+| IBM | covered | 2 | 43 |
 | IETF | covered | 2 | 3 |
-| IonQ | covered | 1 | 30 |
+| IonQ | covered | 2 | 30 |
 | Keyfactor | covered | 1 | 32 |
 | Lockheed Martin | covered | 1 | 4 |
 | Microsoft Quantum | covered | 1 | 1 |

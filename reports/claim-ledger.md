@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-10-30T03:52:33.468921+00:00_
+_Updated 2026-10-31T03:36:55.156376+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **5051**
-- Authoritative claims: **4836**
+- Active claims: **5055**
+- Authoritative claims: **4840**
 - Analytical claims: **210**
 - Conflicted claims: **38**
-- Evidence items / URLs: **5155 / 1392**
+- Evidence items / URLs: **5159 / 1393**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,10 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | FAMIS SERVICENOW SOFTWARE - FY27 | opportunity status | awarded | authoritative / high | [FAMIS SERVICENOW SOFTWARE - FY27](https://www.usaspending.gov/award/CONT_AWD_140DWF27F0001_1406_NNG15SD32B_8000) |
+| active | FAMIS SERVICENOW SOFTWARE - FY27 | awarding agency | Department of the Interior | authoritative / high | [FAMIS SERVICENOW SOFTWARE - FY27](https://www.usaspending.gov/award/CONT_AWD_140DWF27F0001_1406_NNG15SD32B_8000) |
+| active | FAMIS SERVICENOW SOFTWARE - FY27 | reported amount | 201056.54 | authoritative / high | [FAMIS SERVICENOW SOFTWARE - FY27](https://www.usaspending.gov/award/CONT_AWD_140DWF27F0001_1406_NNG15SD32B_8000) |
+| active | FAMIS SERVICENOW SOFTWARE - FY27 | reported recipient | SDVO SOLUTIONS, LLC | authoritative / high | [FAMIS SERVICENOW SOFTWARE - FY27](https://www.usaspending.gov/award/CONT_AWD_140DWF27F0001_1406_NNG15SD32B_8000) |
 | active | (HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS | opportunity status | awarded | authoritative / high | [(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097) |
 | active | (HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS | awarding agency | Department of Defense | authoritative / high | [(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097) |
 | active | (HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS | reported amount | 200000.0 | authoritative / high | [(HBCU) INVESTIGATING ENHANCING SAFETY AND ENVIRONMENTAL AWARENESS OF AI-POWERED AUTONOMOUS SYSTEMS](https://www.usaspending.gov/award/ASST_NON_FA9550261B374_097) |
@@ -260,10 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI... | reported amount | 4000000.0 | authoritative / high | [PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...](https://www.usaspending.gov/award/ASST_NON_60NANB26D142_013) |
 | active | PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI... | reported recipient | MIDDLE TENNESSEE STATE UNIVERSITY | authoritative / high | [PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE RESEARCH AND TECHNICAL CAPACITY NEEDED TO EXPAND QUANTUM ACTIVITIES AT MIDDLE TENNESSEE STATE UNIVERSITY (MTSU). THE FUNDI...](https://www.usaspending.gov/award/ASST_NON_60NANB26D142_013) |
 | active | PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM... | opportunity status | awarded | authoritative / high | [PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...](https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013) |
-| active | PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM... | awarding agency | Department of Commerce | authoritative / high | [PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...](https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013) |
-| active | PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM... | reported amount | 1031000.0 | authoritative / high | [PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...](https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013) |
-| active | PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM... | reported recipient | OREGON INSTITUTE OF TECHNOLOGY | authoritative / high | [PURPOSE: THE PURPOSE OF THIS INITIATIVE IS TO DEVELOP LEADING-EDGE CAPABILITIES IN RESEARCH, EDUCATION, AND TRAINING IN QUANTUM DEVICES AND APPLICATIONS, QUANTUM PHYSICS, QUANTUM...](https://www.usaspending.gov/award/ASST_NON_60NANB26D161_013) |
-| active | New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK | opportunity status | awarded | authoritative / high | [New Manufactured Material J85 Rotor, Compressor, AI_NSN 2840-01-630-9064 OK](https://sam.gov/workspace/contract/opp/7138b33765ae4f9f81e9f9cf3d6d31a4/view) |
 
 ## Method
 

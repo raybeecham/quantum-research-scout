@@ -4,19 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-30 03:59 UTC_
+_Updated 2026-10-31 03:45 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 49 | 6 | 11 | 7 | 31 |
-
-## 🔴 Contract: IonQ
-
-- Severity: **critical**
-- Status: **contract**
-- IonQ matched a contract event: IonQ Awarded $7.5 Million Follow-On Funding from AFRL to Advance Full-Stack Quantum Networking
-- [Open direct evidence](https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx)
-- [Open supporting view](entity-watch.md)
+| 46 | 3 | 9 | 4 | 33 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -57,7 +49,7 @@ _Updated 2026-10-30 03:59 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Sensing has critical strategic importance and rising momentum.
+- 🔴 Quantum Sensing has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Software / Tooling
@@ -74,21 +66,14 @@ _Updated 2026-10-30 03:59 UTC_
 - 🔴 Standards / Government has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Source failing: Google Quantum AI 🆕
+## 🔴 Source failing: Google Quantum AI
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 94.5% reliability with 1 warning day(s).
+- 🔴 83.4% reliability with 2 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: Quantum Computing Patents 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 91.7% reliability with 4 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Actionable signal: AI Security 🆕
+## 🟠 Actionable signal: AI Security
 
 - Severity: **high**
 - Status: **actionable**
@@ -102,14 +87,7 @@ _Updated 2026-10-30 03:59 UTC_
 - 🎯 Quantum Networking is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Sensing
-
-- Severity: **high**
-- Status: **actionable**
-- 🎯 Quantum Sensing is actionable with high confidence.
-- [Open supporting view](signals.md)
-
-## 🟠 Rising momentum: AI Security 🆕
+## 🟠 Rising momentum: AI Security
 
 - Severity: **high**
 - Status: **rising**
@@ -120,23 +98,8 @@ _Updated 2026-10-30 03:59 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 9 versus 1 in the prior period.
+- ↗️ Recent evidence is 11 versus 3 in the prior period.
 - [Open supporting view](signals.md)
-
-## 🟠 Rising momentum: Quantum Sensing
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 3 versus 0 in the prior period.
-- [Open supporting view](signals.md)
-
-## 🟠 Standard: NIST
-
-- Severity: **high**
-- Status: **standard**
-- NIST matched a standard event: NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards
-- [Open direct evidence](https://thequantuminsider.com/2026/10/27/nist-report-provides-guidelines-for-transition-to-post-quantum-cryptography-standards)
-- [Open supporting view](entity-watch.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
 
@@ -187,11 +150,11 @@ _Updated 2026-10-30 03:59 UTC_
 - The latest dated item is from 2026-07-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Artificial Intelligence
+## 🟡 Source stale: Grants.gov · Advanced Computing 🆕
 
 - Severity: **medium**
 - Status: **stale**
-- The latest dated item is from 2026-10-14; collection may be healthy but the content stream is stale.
+- The latest dated item is from 2026-10-16; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Grants.gov · Cybersecurity
@@ -213,6 +176,13 @@ _Updated 2026-10-30 03:59 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-08-27; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Grants.gov · Military AI Pace-Setting Projects 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-10-16; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Grants.gov · Quantum Benchmarking Initiative
@@ -243,6 +213,13 @@ _Updated 2026-10-30 03:59 UTC_
 - The latest dated item is from 2026-09-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: NCSC UK Guidance 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-10-15; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: NCSC UK Reports
 
 - Severity: **medium**
@@ -264,7 +241,7 @@ _Updated 2026-10-30 03:59 UTC_
 - The latest dated item is from 2026-07-09; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: QuEra Press Releases 🆕
+## 🟡 Source stale: QuEra Press Releases
 
 - Severity: **medium**
 - Status: **stale**
@@ -278,7 +255,7 @@ _Updated 2026-10-30 03:59 UTC_
 - The latest dated item is from 2026-09-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Quantum Networking and Sensing Patents 🆕
+## 🟡 Source stale: Quantum Networking and Sensing Patents
 
 - Severity: **medium**
 - Status: **stale**
