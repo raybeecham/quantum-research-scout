@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T17:46:07.830783+00:00",
+  "updated_at": "2026-10-31T18:46:17.864985+00:00",
   "records": {
     "https://quantumcomputingreport.com/pqcee-enters-u-s-public-sector-through-carahsoft-master-aggregator-agreement": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-245.png",
@@ -8,6 +8,14 @@
       "publisher": "Quantum Computing Report",
       "provenance": "og:image",
       "fetched_at": "2026-10-31T02:45:53.901616+00:00",
+      "status": "ok"
+    },
+    "https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration": {
+      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-253.png",
+      "page_url": "https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration",
+      "publisher": "Quantum Computing Report",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-31T17:46:07.830783+00:00",
       "status": "ok"
     },
     "https://quantumzeitgeist.com/innsbruck-logical-qubits-boost-sensitivity-faint": {
@@ -381,11 +389,6 @@
       "fetched_at": "2026-10-30T01:46:01.181127+00:00",
       "status": "ok"
     },
-    "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready": {
-      "page_url": "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready",
-      "status": "unavailable",
-      "fetched_at": "2026-10-30T17:46:58.951582+00:00"
-    },
     "https://quantumzeitgeist.com/quantum-safe-payment-cards-idemia-gets": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/idemia-gets-first-emvco-certification-quantum-1200x630.png",
       "page_url": "https://quantumzeitgeist.com/quantum-safe-payment-cards-idemia-gets",
@@ -550,11 +553,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-28T13:45:19.488303+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2658": {
-      "page_url": "https://eprint.iacr.org/2026/2658",
-      "status": "failed",
-      "fetched_at": "2026-10-30T17:46:58.951582+00:00"
     },
     "https://arxiv.org/abs/2610.39476v1": {
       "page_url": "https://arxiv.org/abs/2610.39476v1",
@@ -1040,13 +1038,16 @@
       "fetched_at": "2026-10-29T03:46:08.263511+00:00",
       "status": "ok"
     },
-    "https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration": {
-      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-253.png",
-      "page_url": "https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration",
-      "publisher": "Quantum Computing Report",
-      "provenance": "og:image",
-      "fetched_at": "2026-10-31T17:46:07.830783+00:00",
-      "status": "ok"
+    "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready": {
+      "page_url": "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready",
+      "fetched_at": "2026-10-31T18:46:17.864985+00:00",
+      "status": "unavailable"
+    },
+    "https://eprint.iacr.org/2026/2658": {
+      "page_url": "https://eprint.iacr.org/2026/2658",
+      "fetched_at": "2026-10-31T18:46:17.864985+00:00",
+      "status": "failed",
+      "reason": "http_403"
     }
   }
 }
