@@ -232,7 +232,7 @@
     const accountCount = Number.isSafeInteger(item.news_event?.account_count)
       ? item.news_event.account_count
       : 1;
-    const status = `<div class="news-story-flags">${editorial?.label ? `<span class="news-event-label" data-event-status="${esc(editorial.status)}">${esc(editorial.label)}</span>` : ""}<span>${esc(editorial?.source_perspective || item.source_kind_label || "Source type unclassified")}</span>${accountCount > 1 ? `<span class="news-accounts-badge">${accountCount} source accounts</span>` : ""}${fresh ? '<span class="news-new-badge">New to your feed</span>' : ""}${read ? '<span class="news-read-badge">Read</span>' : ""}${item.date_label !== "Published" || !day(item.date) ? "<span>Check publication date</span>" : ""}</div>`;
+    const status = `<div class="news-story-flags">${editorial?.label ? `<span class="news-event-label" data-event-status="${esc(editorial.status)}">${esc(editorial.label)}</span>` : ""}${variant === "row" ? "" : `<span>${esc(editorial?.source_perspective || item.source_kind_label || "Source type unclassified")}</span>`}${accountCount > 1 ? `<span class="news-accounts-badge">${accountCount} source accounts</span>` : ""}${fresh ? '<span class="news-new-badge">New to your feed</span>' : ""}${read ? '<span class="news-read-badge">Read</span>' : ""}${item.date_label !== "Published" || !day(item.date) ? "<span>Check publication date</span>" : ""}</div>`;
     const detail = text(item.id)
       ? `<button type="button" class="news-detail-open" data-news-detail="${esc(item.id)}">Story details <span aria-hidden="true">→</span></button>`
       : "";
@@ -270,9 +270,9 @@
       const next = text(item.news_detail?.next_step);
       return `<article class="news-lead news-topic-${topic} immersive-feature${image ? "" : " news-text-only"}" data-news-id="${esc(item.id || canonicalUrl(item.url))}">
         <div class="feature-stage"><p class="news-category" data-news-category="${topic}"><span class="news-lead-marker">${editorial?.eligible ? "IN FOCUS" : "FROM THE COLLECTION"}</span> · ${esc(TOPICS[topic] || "Emerging technology")}</p><h2><a href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></h2>${image}<span class="feature-scroll-cue" aria-hidden="true">THE STORY, IN CONTEXT <span>↓</span></span></div>
-        <div class="news-copy feature-narrative"><section class="feature-chapter"><span class="feature-number" aria-hidden="true">01</span><h3>What happened.</h3>${metadata(item)}${status}<p class="news-summary${summary ? "" : " is-unavailable"}">${esc(summary || "Source excerpt unavailable. Open the original source to see what it reports.")}</p></section>
-        <section class="feature-chapter"><span class="feature-number" aria-hidden="true">02</span><h3>Why it matters.</h3>${context || whyNow || '<p class="feature-limited">There is not enough collected evidence for a specific impact assessment. Start with the original report.</p>'}${selectionLine}${basis}</section>
-        <section class="feature-chapter"><span class="feature-number" aria-hidden="true">03</span><h3>What to watch.</h3><p class="feature-next">${esc(next || "Check the original source for supporting evidence and subsequent updates before drawing conclusions.")}</p><p class="feature-disclosure">A suggested follow-up, not a prediction or an independently verified conclusion.</p><div class="news-actions">${detail}<a class="news-source-link" href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Read original ↗</a>${save}${readButton}</div></section></div></article>`;
+        <div class="news-copy feature-narrative"><section class="feature-chapter"><span class="feature-number" aria-hidden="true">01</span><h3>What happened</h3>${metadata(item)}${status}<p class="news-summary${summary ? "" : " is-unavailable"}">${esc(summary || "Source excerpt unavailable. Open the original source to see what it reports.")}</p></section>
+        <section class="feature-chapter"><span class="feature-number" aria-hidden="true">02</span><h3>${context || whyNow ? "Why it matters" : "Why it leads"}</h3>${context || whyNow}${selectionLine}${basis}</section>
+        <section class="feature-chapter"><span class="feature-number" aria-hidden="true">03</span><h3>What to watch</h3><p class="feature-next">${esc(next || "Check the original source for supporting evidence and subsequent updates before drawing conclusions.")}</p><p class="feature-disclosure">A suggested follow-up, not a prediction or an independently verified conclusion.</p><div class="news-actions">${detail}<a class="news-source-link" href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Read original ↗</a>${save}${readButton}</div></section></div></article>`;
     }
     return `<article class="news-${variant} news-topic-${topic}${image ? "" : " news-text-only"}" data-news-id="${esc(item.id || canonicalUrl(item.url))}">${variant === "lead" ? copy + image : image + copy}</article>`;
   }
@@ -304,7 +304,7 @@
       level = "stale";
     } else {
       status = hourly
-        ? "News checks are scheduled hourly. Collection and publishing can be delayed. Reload for the latest published snapshot."
+        ? "Checked hourly. Publishing can lag collection."
         : "A report snapshot, not a live news feed.";
     }
     $("news-status").textContent = status;
