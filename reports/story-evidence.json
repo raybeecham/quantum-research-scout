@@ -3047,6 +3047,13 @@
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/lumen-expands-quantum-footprint-with-ohio-state-fiber-research-and-fortinet-pqc-sase-rollout"
+            },
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-31",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/lumen-expands-quantum-footprint-with-ohio-state-fiber-research-and-fortinet-pqc-sase-rollout"
             }
           ],
           "title": "Lumen Expands Quantum Footprint with Ohio State Fiber Research and Fortinet PQC SASE Rollout"
@@ -3427,6 +3434,13 @@
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/pqcee-enters-u-s-public-sector-through-carahsoft-master-aggregator-agreement"
+            },
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-31",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/pqcee-enters-u-s-public-sector-through-carahsoft-master-aggregator-agreement"
             }
           ],
           "title": "pQCee Enters U.S. Public Sector Through Carahsoft Master Aggregator Agreement"
@@ -3800,6 +3814,13 @@
             {
               "published_date": "2026-10-30",
               "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/sandia-and-quantinuum-introduce-logical-gate-set-tomography-to-map-fault-tolerant-qubit-noise"
+            },
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-31",
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/sandia-and-quantinuum-introduce-logical-gate-set-tomography-to-map-fault-tolerant-qubit-noise"
@@ -4527,6 +4548,46 @@
         }
       ]
     },
+    "https://quantumzeitgeist.com/higher-dimensional-topological-quantum-error-codes-decoupling": {
+      "captures": [
+        {
+          "excerpts": [
+            "Can higher-dimensional quantum error correction schemes be simplified to stacks of familiar toric codes?",
+            "The result unlocks new avenues for building practical fault-tolerant computers beyond two dimensions",
+            "This work demonstrates they can, provided translation invariance holds *and* residual “gluing” between layers vanishes after coarse-graining by a factor of p^(m-1)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-31",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/higher-dimensional-topological-quantum-error-codes-decoupling"
+            }
+          ],
+          "title": "Researchers Decouple Higher-Dimensional Quantum Error Codes"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/innsbruck-logical-qubits-boost-sensitivity-faint": {
+      "captures": [
+        {
+          "excerpts": [
+            "Using quantum error correction, researchers demonstrated that logical qubits enhance sensitivity to faint signals, discriminating signal from noise via syndrome extraction"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-31",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/innsbruck-logical-qubits-boost-sensitivity-faint"
+            }
+          ],
+          "title": "Logical qubits boost sensitivity to faint, random signals"
+        }
+      ]
+    },
     "https://quantumzeitgeist.com/ionq-pqc-derived-material-cisos-supplement": {
       "captures": [
         {
@@ -5082,6 +5143,27 @@
         }
       ]
     },
+    "https://quantumzeitgeist.com/spin-simulations-hidden-data-extraction-technique": {
+      "captures": [
+        {
+          "excerpts": [
+            "Now, these previously unused states are being repurposed to explore fundamental aspects of quantum systems like Bell state recovery and quantum communication rates",
+            "This offers an efficient route towards deeper insights without requiring entirely new computational efforts, including certification of five-partite entanglement",
+            "Dynamical quantum simulations traditionally calculate specific responses, but discard rich information hidden within the generated many-body states"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-31",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/spin-simulations-hidden-data-extraction-technique"
+            }
+          ],
+          "title": "Researchers Unlock Hidden Data Within Spin Simulations"
+        }
+      ]
+    },
     "https://quantumzeitgeist.com/superconducting-qubits-high-fidelity-logical-qubit-operations": {
       "captures": [
         {
@@ -5113,6 +5195,47 @@
             }
           ],
           "title": "Researchers Entangle Logical Qubits with 93% Fidelity"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/sydney-gottesman-kitaev-preskill-qubit-better": {
+      "captures": [
+        {
+          "excerpts": [
+            "There is a disconnect between the noise model GKP qubits are designed to correct and the conditions affecting GKP qubits in superconducting devices, including realistic noise channels, logical gates, and inefficient...",
+            "The Gottesman-Kitaev-Preskill (GKP) code is a route to fault-tolerant quantum computing, sufficient to achieve universal quantum computing with Gaussian resources and GKP Pauli-eigenstate preparation"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-31",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/sydney-gottesman-kitaev-preskill-qubit-better"
+            }
+          ],
+          "title": "Better read-out boosts Gottesman-Kitaev-Preskill qubit performance"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/trapped-ion-qubits-cubic-scaling-routing-limits": {
+      "captures": [
+        {
+          "excerpts": [
+            "Until now, translating complex algorithms onto trapped ion hardware demanded bespoke compiler design for each unique device layout",
+            "Quantifying routing overhead as cubic or quadratic scaling with qubit number in one- versus two-dimensional designs delivers practical insight needed for future system planning",
+            "This research establishes a common language, an architectural abstraction, allowing generic compilation techniques to be applied across diverse platforms"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-31",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/trapped-ion-qubits-cubic-scaling-routing-limits"
+            }
+          ],
+          "title": "Researchers Find Cubic Scaling Limits Qubit Routing in Trapped Ions"
         }
       ]
     },
@@ -7517,6 +7640,13 @@
               "sequence": 3,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/10/30/netpoleon-qnu-labs-quantum-safe-security"
+            },
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-31",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/10/30/netpoleon-qnu-labs-quantum-safe-security"
             }
           ],
           "title": "Netpoleon India Partners With QNu Labs on Quantum-Safe Security"
@@ -7547,6 +7677,13 @@
             {
               "published_date": "2026-10-30",
               "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/10/30/pqcee-carahsoft-post-quantum-security-government"
+            },
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-31",
               "sequence": 0,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/10/30/pqcee-carahsoft-post-quantum-security-government"
@@ -7608,6 +7745,13 @@
               "sequence": 0,
               "source": "DigiCert Blog",
               "url": "https://www.digicert.com/blog/shorter-certificate-lifespans-time-to-automate"
+            },
+            {
+              "published_date": "2026-10-29",
+              "report_date": "2026-10-31",
+              "sequence": 0,
+              "source": "DigiCert Blog",
+              "url": "https://www.digicert.com/blog/shorter-certificate-lifespans-time-to-automate"
             }
           ],
           "title": "TLS Certificate Lifespans Are Shrinking: Why Automate? | DigiCert"
@@ -7638,6 +7782,13 @@
             {
               "published_date": "2026-10-30",
               "report_date": "2026-10-30",
+              "sequence": 0,
+              "source": "DigiCert Blog",
+              "url": "https://www.digicert.com/blog/what-users-need-to-know-about-x9-pki-certificates"
+            },
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-31",
               "sequence": 0,
               "source": "DigiCert Blog",
               "url": "https://www.digicert.com/blog/what-users-need-to-know-about-x9-pki-certificates"

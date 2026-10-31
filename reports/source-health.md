@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-31 04:46 UTC_
+_Updated 2026-10-31 05:45 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -22,10 +22,10 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 8 | 0 | 2026-10-30 | 2026-10-29 | standby | ⚪ standby |
 | Quantum Computing Report | rss | 78% | 7 | 0 | 2026-10-31 | 2026-10-31 | fresh | 🟢 healthy |
 | Quantum Computing Patents | patent | 92% | 4 | 0 | 2026-10-31 | 2026-10-29 | fresh | 🟢 healthy |
-| Google Quantum AI | watch | 83% | 2 | 0 | 2026-10-31 | 2026-10-15 | fresh | 🔴 failing |
-| Quantum Journal | rss | 94% | 2 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🟢 healthy |
-| arXiv RSS cs.CR | arxiv_rss | 83% | 2 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🔴 failing |
-| arXiv RSS quant-ph | arxiv_rss | 83% | 2 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🔴 failing |
+| Google Quantum AI | watch | 82% | 2 | 0 | 2026-10-31 | 2026-10-15 | fresh | 🔴 failing |
+| Quantum Journal | rss | 95% | 2 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🟢 healthy |
+| arXiv RSS cs.CR | arxiv_rss | 83% | 2 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🟢 healthy |
+| arXiv RSS quant-ph | arxiv_rss | 83% | 2 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 95% | 1 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 21 | 2026-10-31 | 2026-10-29 | fresh | 🟢 healthy |
@@ -126,7 +126,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **102** of **108**
+- Healthy sources: **104** of **108**
 - Partial-coverage sources: **0**
 - Critical sources failing: **0**
 
