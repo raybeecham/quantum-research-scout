@@ -495,17 +495,21 @@ def test_different_hardware_claims_produce_distinct_specific_questions_without_b
 
 
 def test_unmatched_claim_is_not_misrepresented_as_poor_source_evidence():
-    detail = build(
+    detail = enrich_news_story(
         story(
-            "Aster demonstrates a new quantum sensing modality",
+            "Aster demonstrates a new quantum widget",
             key_points=[
-                "The experiment measures magnetic-field response using a documented calibration sweep."
+                "The experiment measures widget response using a documented calibration sweep."
             ],
-        )
-    )["stories"][0]["news_detail"]
+        ),
+        "2026-09-29",
+    )["news_detail"]
     assert detail["analysis_limitation"] == "unmatched_claim"
-    assert detail["analysis_focus"] == "No additional assessment"
-    assert detail["next_step"] == ""
+    assert detail["analysis_focus"] == "Reading guide"
+    assert detail["analysis_specificity"] == "reading_guide"
+    assert "baseline" in detail["next_step"]
+    assert "widget response" in detail["next_step"]
+    assert "No additional impact" not in detail["why_it_matters"]
     assert "too thin" not in detail["why_it_matters"]
     assert detail["evidence_gaps"] == []
 

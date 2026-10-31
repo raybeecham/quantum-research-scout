@@ -391,9 +391,15 @@
   color: var(--muted);
   font: 400 13px/1.6 var(--font-display);
 }
-.news-selection-reason > span {
-  color: var(--text-secondary);
-  font-weight: 600;
+.news-pick-details {
+  margin: 10px 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.news-pick-details summary {
+  color: var(--accent);
+  cursor: pointer;
 }
 .news-roundup-card .news-actions {
   justify-content: start;

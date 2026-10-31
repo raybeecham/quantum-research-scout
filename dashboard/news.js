@@ -227,7 +227,10 @@
     const editorial = item.news_editorial;
     const selectedBy = variant !== "row" && state.featuredReasons.get(item.id);
     const selectionLine = selectedBy
-      ? `<p class="news-selection-reason" data-selection-rule="${esc(selectedBy.rule)}"><span>Why picked:</span> ${esc(selectedBy.text)}</p>`
+      ? `<p class="news-selection-reason" data-selection-rule="${esc(selectedBy.rule)}">${esc(selectedBy.text)}</p>`
+      : "";
+    const selectionDetails = selectionLine
+      ? `<details class="news-pick-details"><summary>Why selected</summary>${selectionLine}</details>`
       : "";
     const accountCount = Number.isSafeInteger(item.news_event?.account_count)
       ? item.news_event.account_count
@@ -249,30 +252,42 @@
         ? `<div class="news-why-now"><span>Reported development</span><p>${esc(editorial.why_now)}</p></div>`
         : "";
     const basis =
-      variant === "lead" && Array.isArray(editorial?.basis)
-        ? `<details class="news-editorial-basis"><summary>Why this leads</summary><p>${esc(state.data?.news_intelligence?.editorial?.method || "Automated selection, not independent verification.")}</p><ul>${editorial.basis
+      variant === "lead" && (selectionLine || Array.isArray(editorial?.basis))
+        ? `<details class="news-editorial-basis"><summary>Why this story was selected</summary>${selectionLine}<p>${esc(state.data?.news_intelligence?.editorial?.method || "Automated selection, not independent verification.")}</p><ul>${(
+            editorial?.basis || []
+          )
             .filter(value => typeof value === "string")
             .map(value => `<li>${esc(value)}</li>`)
             .join("")}</ul></details>`
         : "";
     const leadImpact = item.news_detail?.why_it_matters;
+    const guide = item.news_detail?.analysis_specificity === "reading_guide";
+    const limited = item.news_detail?.analysis_specificity === "stage_only";
     const context =
       variant === "lead" &&
-      item.news_detail?.analysis_specificity !== "stage_only" &&
       Array.isArray(item.news_detail?.analysis_evidence) &&
       item.news_detail.analysis_evidence.length &&
-      text(leadImpact)
-        ? `<div class="news-lead-context"><span>Frontier Signal interpretation</span><p>${esc(leadImpact)}</p></div>`
+      text(leadImpact) &&
+      !leadImpact.startsWith("No additional impact assessment")
+        ? `<div class="news-lead-context"><span>${guide ? "Reading guide, not an impact finding" : limited ? "Evidence boundary" : "Frontier Signal interpretation"}</span><p>${esc(leadImpact)}</p></div>`
         : "";
-    const copy = `<div class="news-copy"><p class="news-category" data-news-category="${topic}">${variant === "lead" ? '<span class="news-lead-marker">' + (editorial?.eligible ? "IN FOCUS" : "FROM THE COLLECTION") + "</span> · " : ""}${esc(topic === "all" ? "Emerging technology" : TOPICS[topic])}</p><${heading}><a href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></${heading}>${metadata(item)}${status}${selectionLine}<p class="news-summary${summary ? "" : " is-unavailable"}">${esc(summary || "Source excerpt unavailable. Open the original source to see what it reports.")}</p>${context || whyNow}${basis}<div class="news-actions">${detail}<a class="news-source-link" href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Read original <span aria-hidden="true">↗</span></a>${save}${readButton}</div></div>`;
+    const copy = `<div class="news-copy"><p class="news-category" data-news-category="${topic}">${variant === "lead" ? '<span class="news-lead-marker">' + (editorial?.eligible ? "IN FOCUS" : "FROM THE COLLECTION") + "</span> · " : ""}${esc(topic === "all" ? "Emerging technology" : TOPICS[topic])}</p><${heading}><a href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></${heading}>${metadata(item)}${status}<p class="news-summary${summary ? "" : " is-unavailable"}">${esc(summary || "Source excerpt unavailable. Open the original source to see what it reports.")}</p>${context || whyNow}${basis || selectionDetails}<div class="news-actions">${detail}<a class="news-source-link" href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Read original <span aria-hidden="true">↗</span></a>${save}${readButton}</div></div>`;
     const image = visual(item, variant === "lead", usedImages);
     if (variant === "lead") {
       const next = text(item.news_detail?.next_step);
+      const assessment = context || whyNow;
+      const assessmentTitle = context
+        ? guide
+          ? "How to read this story."
+          : limited
+            ? "What is established."
+            : "Why it may matter."
+        : "Reported development.";
       return `<article class="news-lead news-topic-${topic} immersive-feature${image ? "" : " news-text-only"}" data-news-id="${esc(item.id || canonicalUrl(item.url))}">
         <div class="feature-stage"><p class="news-category" data-news-category="${topic}"><span class="news-lead-marker">${editorial?.eligible ? "IN FOCUS" : "FROM THE COLLECTION"}</span> · ${esc(TOPICS[topic] || "Emerging technology")}</p><h2><a href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></h2>${image}<span class="feature-scroll-cue" aria-hidden="true">THE STORY, IN CONTEXT <span>↓</span></span></div>
         <div class="news-copy feature-narrative"><section class="feature-chapter"><span class="feature-number" aria-hidden="true">01</span><h3>What happened.</h3>${metadata(item)}${status}<p class="news-summary${summary ? "" : " is-unavailable"}">${esc(summary || "Source excerpt unavailable. Open the original source to see what it reports.")}</p></section>
-        <section class="feature-chapter"><span class="feature-number" aria-hidden="true">02</span><h3>Why it matters.</h3>${context || whyNow || '<p class="feature-limited">There is not enough collected evidence for a specific impact assessment. Start with the original report.</p>'}${selectionLine}${basis}</section>
-        <section class="feature-chapter"><span class="feature-number" aria-hidden="true">03</span><h3>What to watch.</h3><p class="feature-next">${esc(next || "Check the original source for supporting evidence and subsequent updates before drawing conclusions.")}</p><p class="feature-disclosure">A suggested follow-up, not a prediction or an independently verified conclusion.</p><div class="news-actions">${detail}<a class="news-source-link" href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Read original ↗</a>${save}${readButton}</div></section></div></article>`;
+        ${assessment ? `<section class="feature-chapter"><span class="feature-number" aria-hidden="true">02</span><h3>${assessmentTitle}</h3>${assessment}</section>` : ""}
+        <section class="feature-chapter"><span class="feature-number" aria-hidden="true">${assessment ? "03" : "02"}</span><h3>What to watch.</h3><p class="feature-next">${esc(next || "Check the original source for supporting evidence and subsequent updates before drawing conclusions.")}</p><p class="feature-disclosure">A suggested follow-up, not a prediction or an independently verified conclusion.</p><div class="news-actions">${detail}<a class="news-source-link" href="${esc(sourceUrl(item.url))}" target="_blank" rel="noopener noreferrer">Read original ↗</a>${save}${readButton}</div>${basis}</section></div></article>`;
     }
     return `<article class="news-${variant} news-topic-${topic}${image ? "" : " news-text-only"}" data-news-id="${esc(item.id || canonicalUrl(item.url))}">${variant === "lead" ? copy + image : image + copy}</article>`;
   }

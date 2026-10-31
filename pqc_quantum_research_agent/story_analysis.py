@@ -9,6 +9,7 @@ from __future__ import annotations
 import re
 
 from .redaction import redact_text
+from .story_context import supplemental_context
 
 _BACKGROUND = re.compile(
     r"\b(?:also|meanwhile|separately|previously|historically|formerly|in addition|alongside|elsewhere|other offerings|broader portfolio|technology portfolio|product portfolio|future universal|performance targets for)\b",
@@ -552,13 +553,7 @@ def _synthesize(title, statements, editorial, frame):
             r".",
             specific=False,
         )
-    return _result(
-        "No additional assessment",
-        "No additional impact assessment was generated for this story. The collected excerpts remain the source evidence.",
-        "",
-        r".",
-        specific=False,
-    )
+    return supplemental_context(title, body, kind)
 
 
 def analyze_story(item, editorial, segments):
@@ -614,12 +609,16 @@ def analyze_story(item, editorial, segments):
         "interpretation_basis": [
             "The stated result or promised scope determines one distinction and testable follow-up question. Secondary portfolio mentions do not determine it."
         ],
-        "analysis_specificity": "claim_specific" if result["specific"] else "stage_only",
+        "analysis_specificity": "reading_guide"
+        if result.get("guide")
+        else "claim_specific"
+        if result["specific"]
+        else "stage_only",
         "analysis_focus": result["label"],
         "analysis_limitation": ""
         if result["specific"]
         else "unmatched_claim"
-        if result["label"] == "No additional assessment"
+        if result.get("guide")
         else "qualified_claim"
         if result["label"] == "Qualification matters"
         else "insufficient_evidence",

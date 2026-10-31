@@ -52,7 +52,9 @@ def main():
         page.locator(".news-method > summary").click()
         expect(page.locator("#news-scope")).to_contain_text("IP address")
         page.locator(".news-method > summary").click()
-        expect(feature.locator(".feature-chapter")).to_have_count(3)
+        # Legacy cards without an assessment omit that chapter, not a repeated warning.
+        expect(feature.locator(".feature-chapter")).to_have_count(2)
+        expect(feature).not_to_contain_text("There is not enough collected evidence")
         expect(feature.locator(".news-visual")).to_be_visible()
         stage = feature.locator(".feature-stage")
         expect(stage).to_have_css("position", "static")

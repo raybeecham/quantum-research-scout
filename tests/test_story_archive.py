@@ -669,6 +669,7 @@ def test_archive_omits_blank_next_step_but_keeps_visible_interpretation_label(tm
     [
         ("stage_only", "Assessment scope", "What this could change"),
         ("claim_specific", "What this could change", "Assessment scope"),
+        ("reading_guide", "How to read this story", "What this could change"),
     ],
 )
 def test_archive_assessment_heading_tracks_specificity_without_hiding_sources(

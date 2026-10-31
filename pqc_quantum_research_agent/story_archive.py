@@ -636,7 +636,9 @@ def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None)
     )
     editorial = story.get("news_editorial") or {}
     assessment_heading = (
-        "Assessment scope"
+        "How to read this story"
+        if detail.get("analysis_specificity") == "reading_guide"
+        else "Assessment scope"
         if detail.get("analysis_specificity") == "stage_only"
         else "What this could change"
     )

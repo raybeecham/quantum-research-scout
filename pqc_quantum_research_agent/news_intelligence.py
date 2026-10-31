@@ -1056,7 +1056,7 @@ def enrich_news_story(
             "source_kind_label": item.get("source_kind_label") or "Publication type not verified",
         },
         "related_evidence": connections,
-        "method": "Source statements are collected excerpts, not independently verified facts. Potential impact is evidence-specific rule-based context, not AI analysis. The selected claim and follow-up question use details present in those excerpts, not private reading history or a full-document review. Thin evidence stays explicitly limited. Connections disclose exact evidence or named-record matches; contextual links do not establish causation, participation, or technical validation.",
+        "method": "Source statements are collected excerpts, not independently verified facts. Potential impact is evidence-specific rule-based context, not AI analysis. The selected claim and follow-up question use details present in those excerpts, not private reading history or a full-document review. When no claim-specific context matches, a labeled reading guide poses a question about a captured passage instead of claiming an impact. Thin evidence stays explicitly limited. Connections disclose exact evidence or named-record matches; contextual links do not establish causation, participation, or technical validation.",
     }
     return item
 

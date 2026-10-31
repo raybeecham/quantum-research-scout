@@ -285,9 +285,10 @@ def main() -> None:
         assert set(displayed_ids(page)) <= cloud_ids and displayed_ids(page)
         assert set(featured_ids(page)) <= cloud_ids
         for identifier in featured_ids(page):
-            expect(
-                page.locator(f'[data-news-id="{identifier}"] .news-selection-reason')
-            ).to_be_visible()
+            card = page.locator(f'[data-news-id="{identifier}"]')
+            expect(card.locator(".news-selection-reason")).to_be_hidden()
+            card.locator(".news-editorial-basis > summary, .news-pick-details > summary").click()
+            expect(card.locator(".news-selection-reason")).to_be_visible()
         page.locator('[data-news-topic="all"]').click()
         for order, rule in [("recent", "report_date_order"), ("relevance", "relevance_order")]:
             page.locator("#news-sort").select_option(order)
