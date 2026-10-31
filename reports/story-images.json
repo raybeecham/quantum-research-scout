@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T00:47:04.846523+00:00",
+  "updated_at": "2026-10-31T01:46:03.686439+00:00",
   "records": {
     "https://quantumcomputingreport.com/university-of-sydney-demonstrates-multi-qubit-logical-entanglement-and-170-round-stability-on-ibm-square-lattice-nighthawk-r2-processor": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-231.png",
@@ -468,6 +468,11 @@
       "status": "unavailable",
       "fetched_at": "2026-10-30T04:46:29.632288+00:00"
     },
+    "https://eprint.iacr.org/2026/2654": {
+      "page_url": "https://eprint.iacr.org/2026/2654",
+      "status": "failed",
+      "fetched_at": "2026-10-31T00:47:04.846523+00:00"
+    },
     "https://arxiv.org/abs/2610.33185": {
       "page_url": "https://arxiv.org/abs/2610.33185",
       "status": "unavailable",
@@ -777,16 +782,6 @@
       "fetched_at": "2026-10-27T03:23:52.207680+00:00",
       "status": "ok"
     },
-    "https://arxiv.org/abs/2610.32531": {
-      "page_url": "https://arxiv.org/abs/2610.32531",
-      "status": "unavailable",
-      "fetched_at": "2026-10-30T01:46:01.181127+00:00"
-    },
-    "https://arxiv.org/abs/2602.12630": {
-      "page_url": "https://arxiv.org/abs/2602.12630",
-      "status": "unavailable",
-      "fetched_at": "2026-10-30T01:46:01.181127+00:00"
-    },
     "https://quantumcomputingreport.com/ramdeobaba-university-partners-with-qclairvoyance-quantum-labs-to-establish-dedicated-quantum-software-and-hardware-facilities": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/RBU-1-scaled.png",
       "page_url": "https://quantumcomputingreport.com/ramdeobaba-university-partners-with-qclairvoyance-quantum-labs-to-establish-dedicated-quantum-software-and-hardware-facilities",
@@ -827,11 +822,31 @@
       "fetched_at": "2026-10-25T02:49:22.662220+00:00",
       "status": "ok"
     },
-    "https://eprint.iacr.org/2026/2654": {
-      "page_url": "https://eprint.iacr.org/2026/2654",
-      "fetched_at": "2026-10-31T00:47:04.846523+00:00",
-      "status": "failed",
-      "reason": "http_403"
+    "https://quantumcomputingreport.com/appviewx-launches-standalone-quantum-trust-hub-to-automate-post-quantum-cryptographic-posture-management-and-remediation": {
+      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-238.png",
+      "page_url": "https://quantumcomputingreport.com/appviewx-launches-standalone-quantum-trust-hub-to-automate-post-quantum-cryptographic-posture-management-and-remediation",
+      "publisher": "Quantum Computing Report",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-31T01:46:03.686439+00:00",
+      "status": "ok"
+    },
+    "https://quantumcomputingreport.com/idemia-secure-transactions-achieves-industry-first-emvco-certification-for-post-quantum-payment-cards": {
+      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-239-scaled.png",
+      "page_url": "https://quantumcomputingreport.com/idemia-secure-transactions-achieves-industry-first-emvco-certification-for-post-quantum-payment-cards",
+      "publisher": "Quantum Computing Report",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-31T01:46:03.686439+00:00",
+      "status": "ok"
+    },
+    "https://arxiv.org/abs/2610.32531": {
+      "page_url": "https://arxiv.org/abs/2610.32531",
+      "fetched_at": "2026-10-31T01:46:03.686439+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2602.12630": {
+      "page_url": "https://arxiv.org/abs/2602.12630",
+      "fetched_at": "2026-10-31T01:46:03.686439+00:00",
+      "status": "unavailable"
     }
   }
 }
