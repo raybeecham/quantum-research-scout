@@ -4428,19 +4428,19 @@ body:has(.profile-hero) > footer {
   line-height: 1.6;
 }
 .topic-security {
-  --explore-color: #007984;
+  --explore-color: var(--topic-security, #007984);
   --explore-tint: #e7f4f0;
 }
 .topic-quantum {
-  --explore-color: #6c4c9e;
+  --explore-color: var(--topic-quantum, #6c4c9e);
   --explore-tint: #f0eaf7;
 }
 .topic-ai {
-  --explore-color: #9b471e;
+  --explore-color: var(--topic-ai, #9b471e);
   --explore-tint: #f9ede0;
 }
 .topic-cloud {
-  --explore-color: #3266a0;
+  --explore-color: var(--topic-cloud, #3266a0);
   --explore-tint: #e9f0f9;
 }
 .coverage-strips {

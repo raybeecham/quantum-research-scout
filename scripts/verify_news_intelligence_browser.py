@@ -18,7 +18,14 @@ from playwright.sync_api import (
 from playwright.sync_api import (
     TimeoutError as PlaywrightTimeoutError,
 )
-from verify_news_browser import INJECTION, PREVIEW_PNG, dashboard_fixture, displayed_ids, open_tools
+from verify_news_browser import (
+    FONT_STYLESHEET,
+    INJECTION,
+    PREVIEW_PNG,
+    dashboard_fixture,
+    displayed_ids,
+    open_tools,
+)
 
 PREFERENCES_KEY = "quantum-scout:news-preferences:v1"
 
@@ -167,6 +174,13 @@ def main() -> None:
                 route.fulfill(json=payload)
             elif request.resource_type == "image" and url.netloc == "images.example.org":
                 route.fulfill(content_type="image/png", body=PREVIEW_PNG)
+            elif (
+                request.method == "GET"
+                and request.resource_type == "stylesheet"
+                and request.url == FONT_STYLESHEET
+            ):
+                # Exercise font fallback offline; every other external URL still fails.
+                route.fulfill(content_type="text/css", body="")
             elif (url.scheme, url.netloc) == (origin.scheme, origin.netloc):
                 route.continue_()
             else:

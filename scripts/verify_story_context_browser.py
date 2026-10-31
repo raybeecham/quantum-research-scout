@@ -88,7 +88,7 @@ def main():
             errors, posts = [], []
             context.on("weberror", lambda error, errors=errors: errors.append(str(error.error)))
 
-            def route(request, payload=payload, posts=posts):
+            def route(request, *, payload=payload, posts=posts):
                 url = request.request.url
                 if request.request.method != "GET":
                     posts.append(url)

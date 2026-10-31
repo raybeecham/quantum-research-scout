@@ -2,7 +2,8 @@
 .story-tools {
   color: var(--text);
   font:
-    15px/1.65 "Segoe UI",
+    15px/1.65 "IBM Plex Sans",
+    "Segoe UI",
     Arial,
     sans-serif;
   min-width: 0;
@@ -66,7 +67,8 @@
   background: var(--surface);
   color: var(--text);
   font:
-    600 13px/1.5 "Segoe UI",
+    600 13px/1.5 "IBM Plex Sans",
+    "Segoe UI",
     Arial,
     sans-serif;
   cursor: pointer;
@@ -136,7 +138,8 @@
   background: var(--surface);
   color: var(--text);
   font:
-    15px/1.5 "Segoe UI",
+    15px/1.5 "IBM Plex Sans",
+    "Segoe UI",
     Arial,
     sans-serif;
 }

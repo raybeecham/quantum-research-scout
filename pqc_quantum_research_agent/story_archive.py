@@ -599,6 +599,9 @@ def _shell(
 <link rel="alternate" type="application/atom+xml" title="Frontier Signal" href="{relative}feed.xml">
 <script src="{relative}theme.js?v={version}"></script>
 <link rel="icon" href="{relative}favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap">
 <link rel="stylesheet" href="{relative}story.css?v={version}">
 <link rel="stylesheet" href="{relative}story-tools.css?v={version}">
 <link rel="stylesheet" href="{relative}story-reader.css?v={version}">

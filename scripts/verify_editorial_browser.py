@@ -15,6 +15,7 @@ from playwright.sync_api import Page, expect, sync_playwright
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from verify_news_browser import (
+    FONT_STYLESHEET,
     INJECTION,
     NOTEBOOK_KEY,
     PREVIEW_PNG,
@@ -231,6 +232,13 @@ def main() -> None:
                 route.fulfill(json=state["payload"])
             elif request.resource_type == "image" and url.netloc == "images.example.org":
                 route.fulfill(content_type="image/png", body=PREVIEW_PNG)
+            elif (
+                request.method == "GET"
+                and request.resource_type == "stylesheet"
+                and request.url == FONT_STYLESHEET
+            ):
+                # Exercise font fallback offline; every other external URL still fails.
+                route.fulfill(content_type="text/css", body="")
             elif (url.scheme, url.netloc) == (origin.scheme, origin.netloc):
                 route.continue_()
             else:

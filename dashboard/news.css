@@ -23,7 +23,7 @@
   margin-bottom: 20px;
 }
 .news-heading h1 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
   font-size: clamp(32px, 3vw, 42px);
   letter-spacing: -0.045em;
   line-height: 1.1;
@@ -61,7 +61,8 @@
 }
 .news-topics button {
   font:
-    600 14px/1.5 "Segoe UI",
+    600 14px/1.5 "IBM Plex Sans",
+    "Segoe UI",
     sans-serif;
   padding: 13px 1px;
   border: 0;
@@ -111,7 +112,8 @@
   background: var(--surface);
   border-radius: 4px;
   font:
-    600 13px/1.5 "Segoe UI",
+    600 13px/1.5 "IBM Plex Sans",
+    "Segoe UI",
     sans-serif;
   box-shadow: none;
   cursor: pointer;
@@ -204,7 +206,8 @@
   gap: 6px;
   margin: -4px 0 14px;
   font:
-    12px/1.4 "Segoe UI",
+    12px/1.4 "IBM Plex Sans",
+    "Segoe UI",
     sans-serif;
   color: var(--muted);
 }
@@ -326,13 +329,14 @@
 .news-roundup-heading > span,
 .news-section-kicker {
   font:
-    700 10px/1.6 "Segoe UI",
+    700 10px/1.6 "IBM Plex Sans",
+    "Segoe UI",
     sans-serif;
   color: var(--accent);
   letter-spacing: 0.1em;
 }
 .news-roundup-heading h2 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
   font-size: 23px;
   line-height: 1.3;
   margin: 8px 0 3px;
@@ -362,7 +366,7 @@
   display: none;
 }
 .news-roundup-card .news-copy h3 {
-  font-family: "Segoe UI", sans-serif;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: -0.025em;
@@ -553,7 +557,8 @@
 }
 .news-progression-card h3 {
   font:
-    600 20px/1.4 "Segoe UI",
+    600 20px/1.4 "IBM Plex Sans",
+    "Segoe UI",
     sans-serif;
   margin: 8px 0;
   overflow-wrap: anywhere;
@@ -640,7 +645,8 @@
   color: #c8dcec;
   background: #07131fe8;
   font:
-    11px/1.5 "Segoe UI",
+    11px/1.5 "IBM Plex Sans",
+    "Segoe UI",
     sans-serif;
 }
 .news-lead > .news-visual {
@@ -661,21 +667,29 @@
   line-height: 1.5;
   margin: 0 0 14px;
 }
-.news-topic-security .news-category {
-  color: #b9b0ff;
+/* Each card carries its topic colour once; the kicker and the rail both read it.
+   Values come from the shared --topic-* palette, so light mode follows along. */
+.news-topic-quantum {
+  --topic-color: var(--topic-quantum, var(--accent));
 }
-.news-topic-ai .news-category {
-  color: #74ded5;
+.news-topic-security {
+  --topic-color: var(--topic-security, var(--accent));
 }
-.news-topic-government .news-category {
-  color: #efc27d;
+.news-topic-ai {
+  --topic-color: var(--topic-ai, var(--accent));
 }
-.news-topic-cloud .news-category {
-  color: #9cbbff;
+.news-topic-government {
+  --topic-color: var(--topic-government, var(--accent));
+}
+.news-topic-cloud {
+  --topic-color: var(--topic-cloud, var(--accent));
+}
+.news-category {
+  color: var(--topic-color, var(--accent));
 }
 .news-copy :is(h2, h3) {
   color: var(--text);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
   letter-spacing: -0.025em;
   margin: 0 0 14px;
   text-wrap: pretty;
@@ -807,7 +821,7 @@
   border-bottom: 1px solid var(--line);
 }
 .news-feed-heading h2 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
   font-size: 30px;
   line-height: 1.2;
   letter-spacing: -0.02em;
@@ -818,37 +832,57 @@
   color: var(--muted);
   margin: 0;
 }
+/* Feed rows carry a topic rail instead of a thumbnail. At 200px the thumbnail
+   was too small to read and its caption repeated the source line below it. */
 .news-row {
   display: grid;
-  grid-template-columns: 200px minmax(0, 1fr);
-  gap: 26px;
-  padding: 25px 0;
+  grid-template-columns: 4px minmax(0, 1fr);
+  gap: 20px;
+  padding: 20px 0;
   border-bottom: 1px solid var(--line);
 }
-.news-row .news-visual {
-  height: 145px;
+.news-row::before {
+  content: "";
+  grid-column: 1;
+  border-radius: 2px;
+  background: var(--topic-color, var(--accent));
+  opacity: 0.85;
 }
-.news-row .news-visual figcaption {
-  font-size: 10px;
-  padding: 4px 7px;
+.news-row .news-visual {
+  display: none;
+}
+.news-row .news-copy {
+  grid-column: 2;
+  /* Summaries ran past 1300px, roughly double a comfortable line. */
+  max-width: 68ch;
 }
 .news-row .news-category {
-  margin-bottom: 7px;
+  margin-bottom: 6px;
   font-size: 11px;
 }
 .news-row .news-copy h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 22px;
+  margin-bottom: 8px;
 }
 .news-row .news-summary {
   font-size: 14px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
+/* Tighten the stack between headline and summary. In the feed the source line
+   and the single remaining flag are one band of metadata, not two. */
 .news-row .news-meta {
-  margin-bottom: 12px;
+  margin-bottom: 4px;
+  line-height: 1.5;
 }
-.news-lead.news-text-only,
-.news-row.news-text-only {
+.news-row .news-story-flags {
+  margin: 0 0 8px;
+}
+/* Compact controls retain full contrast, including before hover or focus. */
+.news-row .news-actions {
+  margin-top: 4px;
+  opacity: 1;
+}
+.news-lead.news-text-only {
   grid-template-columns: minmax(0, 1fr);
 }
 .news-lead.news-text-only .news-copy {
@@ -962,8 +996,8 @@
     height: 220px;
   }
   .news-row {
-    grid-template-columns: 125px minmax(0, 1fr);
-    gap: 17px;
+    grid-template-columns: 4px minmax(0, 1fr);
+    gap: 15px;
   }
   .news-row .news-copy h3 {
     font-size: 21px;
@@ -1029,10 +1063,8 @@
     width: 100%;
   }
   .news-row {
-    grid-template-columns: minmax(0, 1fr);
-  }
-  .news-row .news-visual {
-    display: none;
+    grid-template-columns: 3px minmax(0, 1fr);
+    gap: 12px;
   }
   .news-heading h1 {
     font-size: 39px;

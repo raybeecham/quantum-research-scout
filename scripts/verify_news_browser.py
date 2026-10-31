@@ -16,6 +16,10 @@ from playwright.sync_api import Page, expect, sync_playwright
 NOTEBOOK_KEY = "quantum-scout:reading-desk:v1"
 INJECTION = '<img src=x onerror="window.newsInjected=true">'
 PREVIEW_ORIGIN = "https://images.example.org"
+FONT_STYLESHEET = (
+    "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700"
+    "&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap"
+)
 PREVIEW_PNG = base64.b64decode(
     "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jZXYAAAAASUVORK5CYII="
 )
@@ -195,6 +199,15 @@ def assert_text_only_card(page: Page, identifier: str) -> None:
         "card => { const styles = getComputedStyle(card); "
         "const available = card.clientWidth - parseFloat(styles.paddingLeft) "
         "- parseFloat(styles.paddingRight); "
+        "const copy = card.querySelector('.news-copy'); "
+        "if (card.classList.contains('news-row')) { "
+        "const tracks = styles.gridTemplateColumns.trim().split(/\\s+/).map(parseFloat); "
+        "const rail = getComputedStyle(card, '::before'); "
+        "const expected = Math.min(available - tracks[0] - parseFloat(styles.columnGap), "
+        "parseFloat(getComputedStyle(copy).maxWidth)); "
+        "return tracks.length === 2 && tracks[0] >= 3 && tracks[0] <= 4 "
+        "&& rail.content !== 'none' && parseFloat(rail.width) <= 4 "
+        "&& Math.abs(copy.getBoundingClientRect().width - expected) <= 2; } "
         "const singleColumn = styles.display !== 'grid' "
         "|| styles.gridTemplateColumns.trim().split(/\\s+/).length === 1; "
         # The lead caps reading width at 900px while still using a single full-width grid track.
@@ -202,7 +215,36 @@ def assert_text_only_card(page: Page, identifier: str) -> None:
         "? Math.min(available, 900) : available; "
         "return card.querySelector('.news-copy').getBoundingClientRect().width "
         ">= readingWidth - 2 && singleColumn; }"
-    ), f"Text-only card {identifier} retained an empty image column"
+    ), f"Text-only card {identifier} retained an empty image column or incorrect reading width"
+
+
+def assert_feed_design(page: Page) -> None:
+    """The rail replaces only row thumbnails, never attribution or usable actions."""
+    assert page.locator("#news .news-row").count() > 0
+    for card in page.locator("#news .news-row").all():
+        expect(card.locator(".news-source")).to_be_visible()
+        expect(card.locator(".news-visual")).to_be_hidden()
+        expect(card.locator(".news-actions")).to_have_css("opacity", "1")
+        expect(card.locator(".news-source-link")).to_be_visible()
+        assert card.evaluate(
+            "card => { const style = getComputedStyle(card); "
+            "const copy = card.querySelector('.news-copy'); "
+            "const rail = getComputedStyle(card, '::before'); "
+            "const category = getComputedStyle(card.querySelector('.news-category')); "
+            "return parseFloat(style.gridTemplateColumns) <= 4 "
+            "&& copy.getBoundingClientRect().width <= parseFloat(getComputedStyle(copy).maxWidth) + 1 "
+            "&& category.color === rail.backgroundColor; }"
+        ), card.get_attribute("data-news-id")
+    for heading in page.locator("#news .feature-chapter h3").all():
+        assert heading.evaluate("el => parseFloat(getComputedStyle(el).fontSize) >= 16")
+    if page.viewport_size["width"] >= 1040:
+        health = page.locator("#desk-health")
+        expect(health).to_be_visible()
+        assert health.evaluate(
+            "el => parseFloat(getComputedStyle(el).fontSize) >= 12 "
+            "&& el.getBoundingClientRect().height >= 32 "
+            "&& el.scrollWidth <= el.clientWidth + 1"
+        ), "Collection health must be readable without hover"
 
 
 def main() -> None:
@@ -381,9 +423,12 @@ def main() -> None:
         expect(page.locator("#news")).to_be_visible()
         reset_filters(page)
 
-        for width in [1440, 1040, 760, 390]:
+        for width in [1440, 1040, 760, 390, 320]:
             page.set_viewport_size({"width": width, "height": 1000 if width > 760 else 844})
             assert_no_overflow(page)
+            for theme in ["light", "dark"]:
+                page.evaluate("theme => document.documentElement.dataset.theme = theme", theme)
+                assert_feed_design(page)
             page.locator("#news-search").fill("networking update")
             # Focus outlines and collection metadata must not overlap at any width.
             for theme in ["light", "dark"]:
@@ -463,7 +508,8 @@ def main() -> None:
                     "distinct_publisher_previews": 3,
                     "invalid_preview_cases": 12,
                     "broken_preview_fallback": "passed",
-                    "viewport_widths": [1440, 1040, 760, 390],
+                    "viewport_widths": [1440, 1040, 760, 390, 320],
+                    "feed_design": "readable topic rails, source attribution and full-contrast controls",
                     "unrequested_posts": len(posts),
                     "page_errors": len(errors),
                 }

@@ -34,9 +34,16 @@
     --retro-grid: transparent;
     --desk-ink: #07131f;
     --desk-border: #263b4e;
-    --font-display: "Segoe UI", Inter, ui-sans-serif, system-ui, sans-serif;
-    --font-instrument: "Segoe UI", Inter, ui-sans-serif, system-ui, sans-serif;
+    --font-display: "IBM Plex Sans", "Segoe UI", Inter, ui-sans-serif, system-ui, sans-serif;
+    --font-instrument: "IBM Plex Sans", "Segoe UI", Inter, ui-sans-serif, system-ui, sans-serif;
     --font-mono: "Cascadia Mono", Consolas, monospace;
+
+    /* Topic palette. One source for the explore cards and the news feed. */
+    --topic-quantum: #c1afff;
+    --topic-security: #80d9b4;
+    --topic-ai: #f0a0bd;
+    --topic-government: #efc27d;
+    --topic-cloud: #91baff;
     --tint-accent-weak: #0b1c2c;
     --tint-accent: #132f46;
     --tint-accent-strong: #1b3c56;
@@ -75,7 +82,7 @@
   body {
     background: var(--bg);
     color: var(--text);
-    font-family: "Segoe UI", Inter, ui-sans-serif, system-ui, sans-serif;
+    font-family: "IBM Plex Sans", "Segoe UI", Inter, ui-sans-serif, system-ui, sans-serif;
   }
   body::before,
   body::after {
@@ -277,18 +284,31 @@
   .workspace-menu {
     display: none;
   }
+  /* The utility bar carries search and controls only. Its breadcrumb repeated
+     the page heading immediately below it, so the bar can be half the height. */
   .desk-topbar {
     position: sticky;
     top: 0;
     z-index: 20;
     margin: 0;
-    min-height: 48px;
-    padding: 6px max(28px, calc((100% - 1324px) / 2));
-    gap: 22px;
+    min-height: 40px;
+    padding: 3px max(28px, calc((100% - 1324px) / 2));
+    gap: 16px;
     border: 0;
     border-bottom: 1px solid var(--line-subtle);
     background: var(--surface-sunken);
     backdrop-filter: none;
+  }
+  .desk-topbar .workspace-label {
+    display: none;
+  }
+  /* Keep the health label readable without requiring hover or focus. */
+  .desk-topbar .collection-pill {
+    display: inline-flex;
+    align-items: center;
+    min-height: 32px;
+    white-space: nowrap;
+    font-size: 12px;
   }
   .workspace-label {
     font-size: 11px;
@@ -733,19 +753,15 @@
     background: var(--surface-sunken);
   }
   .topic-security {
-    --explore-color: #80d9b4;
     --explore-tint: #11372f;
   }
   .topic-quantum {
-    --explore-color: #c1afff;
     --explore-tint: #2c2546;
   }
   .topic-ai {
-    --explore-color: #efc27d;
-    --explore-tint: #382d1d;
+    --explore-tint: #3a2430;
   }
   .topic-cloud {
-    --explore-color: #91baff;
     --explore-tint: #182c49;
   }
   .map-topics button[aria-pressed="true"] {

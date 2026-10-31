@@ -235,7 +235,7 @@
     const accountCount = Number.isSafeInteger(item.news_event?.account_count)
       ? item.news_event.account_count
       : 1;
-    const status = `<div class="news-story-flags">${editorial?.label ? `<span class="news-event-label" data-event-status="${esc(editorial.status)}">${esc(editorial.label)}</span>` : ""}<span>${esc(editorial?.source_perspective || item.source_kind_label || "Source type unclassified")}</span>${accountCount > 1 ? `<span class="news-accounts-badge">${accountCount} source accounts</span>` : ""}${fresh ? '<span class="news-new-badge">New to your feed</span>' : ""}${read ? '<span class="news-read-badge">Read</span>' : ""}${item.date_label !== "Published" || !day(item.date) ? "<span>Check publication date</span>" : ""}</div>`;
+    const status = `<div class="news-story-flags">${editorial?.label ? `<span class="news-event-label" data-event-status="${esc(editorial.status)}">${esc(editorial.label)}</span>` : ""}${variant === "row" ? "" : `<span>${esc(editorial?.source_perspective || item.source_kind_label || "Source type unclassified")}</span>`}${accountCount > 1 ? `<span class="news-accounts-badge">${accountCount} source accounts</span>` : ""}${fresh ? '<span class="news-new-badge">New to your feed</span>' : ""}${read ? '<span class="news-read-badge">Read</span>' : ""}${item.date_label !== "Published" || !day(item.date) ? "<span>Check publication date</span>" : ""}</div>`;
     const detail = text(item.id)
       ? `<button type="button" class="news-detail-open" data-news-detail="${esc(item.id)}">Story details <span aria-hidden="true">→</span></button>`
       : "";
@@ -319,7 +319,7 @@
       level = "stale";
     } else {
       status = hourly
-        ? "News checks are scheduled hourly. Collection and publishing can be delayed. Reload for the latest published snapshot."
+        ? "News checks are scheduled hourly; publishing can lag. Reload for the latest snapshot."
         : "A report snapshot, not a live news feed.";
     }
     $("news-status").textContent = status;

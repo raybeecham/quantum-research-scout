@@ -83,6 +83,13 @@
     --retro-rust: #2a5899;
     --desk-ink: #13283d;
     --desk-border: #cbd6e2;
+
+    /* Topic palette, light counterparts. */
+    --topic-quantum: #62439b;
+    --topic-security: #176247;
+    --topic-ai: #a63a63;
+    --topic-government: #80520c;
+    --topic-cloud: #2a5899;
     --tint-accent-weak: #f3f8fd;
     --tint-accent: #e3effb;
     --tint-accent-strong: #d4e6f8;
@@ -133,19 +140,7 @@
     background: #13283d66;
   }
 
-  /* Headline categories stay distinct, with readable ink on light surfaces. */
-  html[data-theme="light"] .news-topic-security .news-category {
-    color: var(--violet);
-  }
-  html[data-theme="light"] .news-topic-ai .news-category {
-    color: #0b6b67;
-  }
-  html[data-theme="light"] .news-topic-government .news-category {
-    color: var(--caution);
-  }
-  html[data-theme="light"] .news-topic-cloud .news-category {
-    color: var(--info);
-  }
+  /* Headline categories follow the shared --topic-* palette defined above. */
   html[data-theme="light"] .news-lead .news-source-link {
     color: #ffffff;
     background: var(--accent);
@@ -178,21 +173,17 @@
     border-color: var(--line);
   }
 
-  /* Topic map variables are local, so they need their own light counterparts. */
+  /* Explore cards read the shared topic palette; only the tints are local. */
   html[data-theme="light"] .topic-security {
-    --explore-color: #176247;
     --explore-tint: #e2f2e9;
   }
   html[data-theme="light"] .topic-quantum {
-    --explore-color: #62439b;
     --explore-tint: #eee7f8;
   }
   html[data-theme="light"] .topic-ai {
-    --explore-color: #80520c;
-    --explore-tint: #fbf0d9;
+    --explore-tint: #fbe4ec;
   }
   html[data-theme="light"] .topic-cloud {
-    --explore-color: #2a5899;
     --explore-tint: #e6eefb;
   }
   html[data-theme="light"] .map-topics button[aria-pressed="true"] {
