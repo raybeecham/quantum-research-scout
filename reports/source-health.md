@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-31 01:46 UTC_
+_Updated 2026-10-31 02:45 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -17,7 +17,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | White House Science and Technology Missions | watch | 81% | 26 | 0 | 2026-10-31 | 2026-09-29 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 86% | 24 | 0 | 2026-10-31 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 93% | 13 | 0 | 2026-10-31 | 2026-10-23 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 77% | 8 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 77% | 8 | 0 | 2026-10-31 | 2026-10-31 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 66% | 8 | 0 | 2026-10-30 | 2026-10-28 | fresh | 🟢 healthy |
 | arXiv Quantum Computing | arxiv | 66% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv Quantum Networking and Sensing | arxiv | 67% | 8 | 0 | 2026-10-30 | 2026-10-29 | fresh | 🟢 healthy |
@@ -33,7 +33,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | AWS Security Blog | rss | 100% | 0 | 0 | 2026-10-31 | 2026-10-27 | fresh | 🟢 healthy |
 | Accenture Federal Services Quantum Readiness | watch | 100% | 0 | 0 | 2026-10-30 | 2026-08-04 | reference | 🟢 healthy |
 | Accenture Quantum and PQC News | watch | 100% | 0 | 0 | 2026-10-31 | 2025-10-20 | stale | 🟢 healthy |
-| Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-10-31 | 2026-10-07 | stale | 🟠 partial |
+| Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-10-31 | 2026-10-07 | stale | 🟢 healthy |
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-10-30 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-10-31 | 2026-09-29 | stale | 🟢 healthy |
 | CISA Cybersecurity Advisories | rss | 100% | 0 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🟢 healthy |
@@ -126,10 +126,10 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **104** of **108**
-- Partial-coverage sources: **2**
+- Healthy sources: **105** of **108**
+- Partial-coverage sources: **1**
 - Critical sources failing: **0**
-- Partial coverage: Atom Computing News and Research, SAM.gov Opportunities
+- Partial coverage: SAM.gov Opportunities
 
 ## Disabled Sources
 
