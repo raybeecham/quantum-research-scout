@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T11:46:11.472237+00:00",
+  "updated_at": "2026-10-31T12:46:24.583613+00:00",
   "records": {
     "https://quantumcomputingreport.com/pqcee-enters-u-s-public-sector-through-carahsoft-master-aggregator-agreement": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-245.png",
@@ -290,6 +290,11 @@
       "page_url": "https://eprint.iacr.org/2026/2665",
       "status": "failed",
       "fetched_at": "2026-10-31T04:46:39.793265+00:00"
+    },
+    "https://arxiv.org/abs/2610.38479": {
+      "page_url": "https://arxiv.org/abs/2610.38479",
+      "status": "unavailable",
+      "fetched_at": "2026-10-31T11:46:11.472237+00:00"
     },
     "https://arxiv.org/abs/2610.38524": {
       "page_url": "https://arxiv.org/abs/2610.38524",
@@ -978,11 +983,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-29T03:46:08.263511+00:00",
       "status": "ok"
-    },
-    "https://arxiv.org/abs/2610.38479": {
-      "page_url": "https://arxiv.org/abs/2610.38479",
-      "fetched_at": "2026-10-31T11:46:11.472237+00:00",
-      "status": "unavailable"
     }
   }
 }
