@@ -8073,6 +8073,27 @@
         }
       ]
     },
+    "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager": {
+      "captures": [
+        {
+          "excerpts": [
+            "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022",
+            "Keys live only in kernel memory on verified regional servers, and any failed check rejects the request, a fail-closed choice practitioners ask could cause a regional outage",
+            "IBM Launches Unified Quantum Safe Software Suite to Automate Enterprise PQC Migration — already featured in Strategic Signals. [Open item](https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-31",
+              "report_date": "2026-10-31",
+              "sequence": 0,
+              "source": "InfoQ Quantum Computing",
+              "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager"
+            }
+          ],
+          "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption"
+        }
+      ]
+    },
     "https://www.keyfactor.com/blog/how-ready-is-your-cryptography-really-take-the-pqc-lab-assessment": {
       "captures": [
         {

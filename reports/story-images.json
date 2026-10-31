@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T19:36:00.283443+00:00",
+  "updated_at": "2026-10-31T20:48:18.613172+00:00",
   "records": {
     "https://quantumcomputingreport.com/pqcee-enters-u-s-public-sector-through-carahsoft-master-aggregator-agreement": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-245.png",
@@ -569,11 +569,6 @@
       "status": "unavailable",
       "fetched_at": "2026-10-31T04:46:39.793265+00:00"
     },
-    "https://eprint.iacr.org/2026/2660": {
-      "page_url": "https://eprint.iacr.org/2026/2660",
-      "status": "failed",
-      "fetched_at": "2026-10-30T19:47:57.395222+00:00"
-    },
     "https://quantumzeitgeist.com/aws-adds-encryption-method-guard": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/duokey-lets-you-test-post-quantum-key-exchange-1200x630.png",
       "page_url": "https://quantumzeitgeist.com/aws-adds-encryption-method-guard",
@@ -1047,6 +1042,20 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-29T03:46:08.263511+00:00",
       "status": "ok"
+    },
+    "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager": {
+      "image_url": "https://res.infoq.com/news/2026/10/cf-pq-geokey-manager/en/headerimage/generatedHeaderImage-1793376907936.jpg",
+      "page_url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager",
+      "publisher": "InfoQ Quantum Computing",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-31T20:48:18.613172+00:00",
+      "status": "ok"
+    },
+    "https://eprint.iacr.org/2026/2660": {
+      "page_url": "https://eprint.iacr.org/2026/2660",
+      "fetched_at": "2026-10-31T20:48:18.613172+00:00",
+      "status": "failed",
+      "reason": "http_403"
     }
   }
 }
