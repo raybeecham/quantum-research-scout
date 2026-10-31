@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-10-31 03:49 UTC_
+_Updated 2026-10-31 04:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -15,7 +15,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
 | White House Science and Technology Missions | watch | 81% | 25 | 0 | 2026-10-31 | 2026-09-29 | stale | 🟢 healthy |
-| ETSI Quantum Standards News | watch | 86% | 24 | 0 | 2026-10-31 | 2026-09-24 | stale | 🟢 healthy |
+| ETSI Quantum Standards News | watch | 87% | 24 | 0 | 2026-10-31 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 93% | 13 | 0 | 2026-10-31 | 2026-10-23 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 66% | 8 | 0 | 2026-10-30 | 2026-10-28 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 66% | 8 | 0 | 2026-10-30 | 2026-10-29 | standby | ⚪ standby |
@@ -24,8 +24,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Computing Patents | patent | 92% | 4 | 0 | 2026-10-31 | 2026-10-29 | fresh | 🟢 healthy |
 | Google Quantum AI | watch | 83% | 2 | 0 | 2026-10-31 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Journal | rss | 94% | 2 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🟢 healthy |
-| arXiv RSS cs.CR | arxiv_rss | 83% | 2 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🟢 healthy |
-| arXiv RSS quant-ph | arxiv_rss | 83% | 2 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🟢 healthy |
+| arXiv RSS cs.CR | arxiv_rss | 83% | 2 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🔴 failing |
+| arXiv RSS quant-ph | arxiv_rss | 83% | 2 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🔴 failing |
 | Department of War Strategic Technology Releases | watch | 99% | 1 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 95% | 1 | 0 | 2026-10-31 | 2026-10-30 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 21 | 2026-10-31 | 2026-10-29 | fresh | 🟢 healthy |
@@ -126,7 +126,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **104** of **108**
+- Healthy sources: **102** of **108**
 - Partial-coverage sources: **0**
 - Critical sources failing: **0**
 
