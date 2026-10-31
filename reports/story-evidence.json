@@ -4854,6 +4854,27 @@
         }
       ]
     },
+    "https://quantumzeitgeist.com/post-quantum-crypto-masked-convolutional-codes-security-boost": {
+      "captures": [
+        {
+          "excerpts": [
+            "A new framework achieves security margins over classical McEliece and Niederreiter systems by factors greater than 2^200, potentially redefining secure communication in the post-quantum era",
+            "Can code-based encryption offer a safety margin exceeding existing schemes against future cryptanalytic advances?",
+            "This construction conceals algebraic structure using masked convolutional codes while maintaining fast decryption times"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-31",
+              "report_date": "2026-10-31",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/post-quantum-crypto-masked-convolutional-codes-security-boost"
+            }
+          ],
+          "title": "Tel Aviv University Boosts Post-Quantum Crypto Security Efforts"
+        }
+      ]
+    },
     "https://quantumzeitgeist.com/post-quantum-security-hallman-joins-symmatrics": {
       "captures": [
         {
@@ -4911,6 +4932,27 @@
             }
           ],
           "title": "Post-selection boosts quantum key rate, researchers find"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/quantum-key-distribution-cloning-attack-security-analysis": {
+      "captures": [
+        {
+          "excerpts": [
+            "By focusing on scenarios where an adversary clones just one qubit, this research refines state selection for practical quantum communication protocols",
+            "Entangled pairs passing standard quantum security checks, Bell inequality violation and low Quantum Bit Error Rate, aren’t always secure against eavesdropping",
+            "This work identifies that even such seemingly valid states may yield a negative Devetak Winter key rate under specific cloning attacks, meaning no distillable secret key emerges"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-30",
+              "report_date": "2026-10-31",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/quantum-key-distribution-cloning-attack-security-analysis"
+            }
+          ],
+          "title": "Researchers Bound Security of Quantum Keys with Cloning Attacks"
         }
       ]
     },
