@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-01 14:46 UTC_
+_Updated 2026-11-01 15:45 UTC_
 
 Rolling health is inferred from **32** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -15,14 +15,14 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
 | White House Science and Technology Missions | watch | 84% | 25 | 0 | 2026-11-01 | 2026-09-29 | stale | 🟢 healthy |
-| ETSI Quantum Standards News | watch | 88% | 24 | 0 | 2026-11-01 | 2026-09-24 | stale | 🟢 healthy |
+| ETSI Quantum Standards News | watch | 89% | 24 | 0 | 2026-11-01 | 2026-09-24 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 94% | 13 | 0 | 2026-11-01 | 2026-10-23 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 65% | 9 | 0 | 2026-11-01 | 2026-10-28 | fresh | 🔴 failing |
 | arXiv Quantum Computing | arxiv | 65% | 9 | 0 | 2026-11-01 | 2026-10-29 | fresh | 🔴 failing |
 | arXiv Quantum Networking and Sensing | arxiv | 66% | 9 | 0 | 2026-11-01 | 2026-10-29 | fresh | 🔴 failing |
 | Quantum Computing Report | rss | 82% | 7 | 0 | 2026-11-01 | 2026-10-31 | fresh | 🟢 healthy |
 | Quantum Computing Patents | patent | 92% | 4 | 0 | 2026-11-01 | 2026-10-29 | fresh | 🟢 healthy |
-| Google Quantum AI | watch | 71% | 3 | 0 | 2026-11-01 | 2026-10-15 | fresh | 🔴 failing |
+| Google Quantum AI | watch | 70% | 3 | 0 | 2026-11-01 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Journal | rss | 96% | 2 | 0 | 2026-11-01 | 2026-10-30 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 83% | 2 | 0 | 2026-11-01 | 2026-10-30 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 83% | 2 | 0 | 2026-11-01 | 2026-10-30 | fresh | 🟢 healthy |
