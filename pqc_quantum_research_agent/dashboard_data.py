@@ -12,7 +12,7 @@ def share_news_text(data):
     counts = Counter()
 
     def count(value):
-        if isinstance(value, str) and len(value) >= 80:
+        if isinstance(value, str) and len(value) >= 24:
             counts[value] += 1
         elif isinstance(value, dict):
             for child in value.values():
@@ -185,6 +185,7 @@ def write_section_data(payload, output):
     payload = public_payload(payload)
     version = payload["build_id"]
     index = {
+        "refresh_contract": 1,
         "build_id": version,
         "generated_at": payload["generated_at"],
         "collected_at": payload.get("collected_at"),

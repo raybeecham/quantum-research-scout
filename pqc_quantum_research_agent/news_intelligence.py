@@ -17,6 +17,7 @@ from .briefing import _source_url
 from .emerging_tech import emerging_tech_signal
 from .redaction import redact_text
 from .story_analysis import analyze_story
+from .story_facts import capture_comparison
 from .technology_briefing import TOPICS, decision_brief, is_topic_subject, topic_text
 from .text import clean_source_excerpt
 
@@ -899,7 +900,7 @@ def _historical_rows(historical, edition):
     return rows
 
 
-def _progression(candidates, historical, edition, missions, standards):
+def _progression(candidates, historical, edition, missions, standards, limit=3):
     names, identifiers = _specific_names(missions, standards)
     groups, current_ids = {}, set()
     rows = candidates + _historical_rows(historical, edition)
@@ -975,7 +976,7 @@ def _progression(candidates, historical, edition, missions, standards):
                 "events": events,
             }
         )
-        if len(timelines) == 3:
+        if limit is not None and len(timelines) == limit:
             break
     return {
         "timelines": timelines,
@@ -1337,7 +1338,9 @@ def _group_events(candidates, entities, missions, standards):
                     "differences": differences,
                 }
             )
+        comparison = capture_comparison(accounts)
         event = {
+            "capture_comparison": comparison,
             "id": "event-" + hashlib.sha256("|".join(sorted(member_ids)).encode()).hexdigest()[:16],
             "representative_id": representative["id"],
             "account_count": len(members),
@@ -1439,6 +1442,30 @@ def build_news_intelligence(
     ]
     candidates = _group_events(accounts, records[0], records[1], records[4])
     event_grouped = len(accounts) - len(candidates)
+    progression = _progression(candidates, historical, edition, records[1], records[4], limit=None)
+    for timeline in progression["timelines"]:
+        latest = timeline["events"][-1]
+        prior = next(
+            (
+                event
+                for event in reversed(timeline["events"][:-1])
+                if event["date"] < latest["date"] and event["status"] != latest["status"]
+            ),
+            None,
+        )
+        if not prior:
+            continue
+        for item in [*candidates, *accounts]:
+            if _canonical(item["url"]) == _canonical(latest["url"]):
+                item["news_development"] = {
+                    "label": "Reported stage changed",
+                    "current": latest,
+                    "previous": prior,
+                    "basis": timeline["basis"],
+                    "caution": "A change in source-reported stage is not proof that an earlier promise was fulfilled.",
+                }
+    # Keep the homepage compact without withholding comparisons from other story details.
+    progression["timelines"] = progression["timelines"][:3]
     topic_counts = Counter(topic for item in accounts for topic in item["news_topics"])
     source_counts = Counter(item.get("source") or "Source" for item in accounts)
     return {
@@ -1449,7 +1476,7 @@ def build_news_intelligence(
         "stories": candidates,
         "accounts": accounts,
         "editorial": _editorial_picks(candidates, edition),
-        "progression": _progression(candidates, historical, edition, records[1], records[4]),
+        "progression": progression,
         "coverage": {
             "topics": [
                 {

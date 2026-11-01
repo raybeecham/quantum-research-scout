@@ -184,6 +184,18 @@
           <button class="news-digest-link" id="news-skip-feature" type="button">Skip to latest news ↓</button>
         </div>
         <p id="news-status" class="news-status" role="status" hidden></p>
+        <div class="news-update-tools">
+          <button type="button" id="news-update-check">Check for updates</button>
+          <span id="news-update-status" role="status" aria-live="polite"></span>
+        </div>
+        <section id="news-update-notice" class="news-update-notice" aria-label="Available collection update" hidden>
+          <div>
+            <strong id="news-update-description"></strong>
+            <p id="news-update-topics"></p>
+          </div>
+          <button type="button" id="news-update-apply">Show updates</button>
+          <button type="button" id="news-update-later">Later</button>
+        </section>
         <p id="news-edition-note" class="news-edition-note" hidden></p>
         <p id="news-loading" class="news-loading" role="status">Loading collected stories…</p>
         <div id="news-visit-summary" class="news-visit-summary" hidden></div>
@@ -1970,10 +1982,12 @@
     <script src="story-tools.js?v=__ASSET_VERSION__" defer></script>
     <script src="story-reader.js?v=__ASSET_VERSION__" defer></script>
     <script src="news-detail.js?v=__ASSET_VERSION__" defer></script>
+    <script src="story-facts.js?v=__ASSET_VERSION__" defer></script>
     <script src="news.js?v=__ASSET_VERSION__" defer></script>
     <script src="conferences.js?v=__ASSET_VERSION__" defer></script>
     <script src="desk.js?v=__ASSET_VERSION__" defer></script>
     <script src="data-loader.js?v=__ASSET_VERSION__" defer></script>
+    <script src="news-updates.js?v=__ASSET_VERSION__" defer></script>
     <script src="ris-import.js?v=__ASSET_VERSION__" defer></script>
     <script src="comparison-review.js?v=__ASSET_VERSION__" defer></script>
     <script src="paper-comparison.js?v=__ASSET_VERSION__" defer></script>

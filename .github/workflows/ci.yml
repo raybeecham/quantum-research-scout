@@ -160,6 +160,7 @@ jobs:
           python scripts/verify_round4_browser.py --channel chromium
           python scripts/verify_round5_browser.py --channel chromium
           python scripts/verify_hourly_news_browser.py --channel chromium
+          python scripts/verify_news_updates_browser.py --channel chromium
           python scripts/verify_tab_cleanup_browser.py --channel chromium
           python scripts/verify_conferences_browser.py --channel chromium
           python scripts/verify_accessibility_browser.py --channel chromium
@@ -172,6 +173,7 @@ jobs:
           python scripts/verify_editorial_browser.py --channel chromium
           python scripts/verify_story_quality_browser.py --channel chromium
           python scripts/verify_story_context_browser.py --url http://127.0.0.1:8765 --channel chromium
+          python scripts/verify_story_facts_browser.py --channel chromium
           python scripts/verify_story_archive_browser.py --channel chromium
           python scripts/verify_story_tools_browser.py --channel chromium
           python scripts/verify_story_reader_browser.py --channel chromium

@@ -4,6 +4,10 @@ Open **Story details** from a news card, or follow its **Permanent briefing** li
 
 ## Primary evidence and plain-English terms
 
+Story details now separate the **reported change**, **result or scope**, **comparison used**, and **stated limitation or condition**. These are extracted source passages, not generated measurements. Missing fields mean the detail was not captured. The original excerpts remain available under **All collected excerpts**, and the interpretation remains separately labeled. Permanent briefings carry the same fact summary.
+
+When dated coverage explicitly names the same project or document and reports different stages, **What changed in the reporting** puts the latest statement beside the prior one. This is not proof of delivery or a causal link. In grouped coverage, exact normalized excerpt matches are labeled as overlapping wording. Additional or differently worded text is not automatically independent evidence, and shared wording is not proof of syndication.
+
 **Go to the primary evidence** lists papers, official releases and technical documentation explicitly linked in the publisher's article. An official or research origin can also be identified as the story's source of record. These labels establish provenance, not that a claim is true or that a linked paper supports it. The link text, nearby context and referring article remain visible. Destination documents are not automatically read.
 
 Link collection is a bounded, credential-free daily workflow step. Static builds read `reports/primary-evidence.json` without making network requests. Positive records are refreshed after 14 days and negative records after one day. Missing or blocked collection remains visible as unavailable, not evidence of no underlying research. No public cache failure silently becomes verified evidence.
@@ -27,7 +31,7 @@ The response stays in the current story view, not in local storage or a public r
 
 **Follow this development** appears only when the captured text names a sufficiently specific project, system or document. Company names and broad topics alone are not enough. Source-reported stages and changes in retained excerpts can produce an update; another headline at the same stage is not progress. Dates distinguish publication from report observation. A captured-text change is not automatically a publisher correction.
 
-Find the collapsed development inbox under **Browse, filter & follow**, and on permanent briefing pages. Following establishes a baseline so old events do not immediately become new alerts. Reload the page to load a newer published edition, then check the inbox. An update never marks a news article read automatically.
+Find the collapsed development inbox under **Browse, filter & follow**, and on permanent briefing pages. Following establishes a baseline so old events do not immediately become new alerts. On Latest, use **Check for updates** or wait for the five-minute visible-page check, then choose **Show updates**. The page does not replace an edition without your click. Permanent briefing pages still require reloading. An update never marks a news article read automatically.
 
 Desktop notifications require a separate, explicit opt-in and browser permission. They operate only while a page is open and checking the loaded edition. There is no background push service, email subscription, automatic account sync or promise of real-time delivery. Cross-tab delivery is deduplicated where browser coordination is available.
 
@@ -48,6 +52,8 @@ python -m pytest -q -p no:cacheprovider
 python scripts/build_dashboard.py --output site
 python scripts/verify_story_tools_browser.py --channel msedge --url http://127.0.0.1:8765
 python scripts/verify_story_reader_browser.py --channel msedge --url http://127.0.0.1:8765
+python scripts/verify_news_updates_browser.py --channel msedge --url http://127.0.0.1:8765
+python scripts/verify_story_facts_browser.py --channel msedge --url http://127.0.0.1:8765
 ```
 
 Browser tests use synthetic evidence and mocked providers. They do not spend API quota. Check a real story in both themes and at phone width after building. Do not run a rebuild concurrently with browser checks.

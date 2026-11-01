@@ -36,6 +36,10 @@ The **[Latest](https://raybeecham.github.io/quantum-research-scout/#news)** page
 
 **Evidence, then interpretation.** Original links and publication dates stay attached. Review prompts are labeled separately from source excerpts. Related headlines are grouped for reading, not counted as independent confirmation.
 
+**Specific details, fewer assumptions.** Story details extract the reported change, result or scope, comparison, and stated conditions from captured passages. Identical passages appear once under combined labels. Missing details describe gaps in the capture, not necessarily omissions from the full publication. Dated stage comparisons show the latest report beside earlier coverage, and matching excerpt wording is flagged without claiming independent confirmation.
+
+**New editions without losing your place.** Latest checks for a newer published collection every five minutes while visible, pausing on other tabs or with a dialog open. Choose **Show updates** to load it, or **Later** to keep reading. Filters, saved readings, and read markers remain intact. The underlying news collection still runs hourly; checks do not trigger collection or AI calls. A partial deployment leaves the current edition unchanged.
+
 **A briefing you can revisit.** Each source account has a permanent briefing link with its captured evidence and report history. Multiple accounts of one development stay distinct inside the story, including different measurements or claims. Search older briefings in the story archive, even after they leave the homepage. Story-specific checks cite the passages behind them; thin excerpts remain explicitly limited.
 
 **Go deeper without leaving the story.** Find publisher-linked primary sources, explain technical terms, or ask an optional AI question against selected public excerpts. Follow a named development, then review source-reported changes in a compact inbox. Private feedback flags useful, generic, or incomplete briefings for your own review and export. [Story tools, privacy and limits →](docs/STORY-TOOLS.md)

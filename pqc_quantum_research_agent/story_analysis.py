@@ -10,6 +10,7 @@ import re
 
 from .redaction import redact_text
 from .story_context import supplemental_context
+from .story_facts import claim_brief
 
 _BACKGROUND = re.compile(
     r"\b(?:also|meanwhile|separately|previously|historically|formerly|in addition|alongside|elsewhere|other offerings|broader portfolio|technology portfolio|product portfolio|future universal|performance targets for)\b",
@@ -602,6 +603,7 @@ def analyze_story(item, editorial, segments):
         notes.append(result["limit"])
     return {
         "why_it_matters": result["impact"],
+        "claim_brief": claim_brief(item, segments),
         "next_step": result["question"],
         "analysis_evidence": evidence,
         "evidence_gaps": [],

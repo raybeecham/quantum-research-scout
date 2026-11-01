@@ -44,6 +44,8 @@ class DashboardBuildTests(unittest.TestCase):
                 "components.css",
                 "app.js",
                 "data-loader.js",
+                "news-updates.js",
+                "story-facts.js",
                 "display.js",
                 "read-state.js",
                 "entity.js",

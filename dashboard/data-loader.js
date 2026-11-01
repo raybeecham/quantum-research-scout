@@ -94,12 +94,13 @@
       },
     );
   }
-  async function read(file, version) {
+  async function read(file, version, fresh = false) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 20_000);
     try {
       const response = await fetch(`data/${file}?v=${encodeURIComponent(version)}`, {
         signal: controller.signal,
+        ...(fresh ? { cache: "no-store" } : {}),
       });
       if (!response.ok) throw new Error(`Could not load ${file} (HTTP ${response.status}).`);
       const value = await response.json();
@@ -163,7 +164,86 @@
   function has(names) {
     return Boolean(manifest) && (!manifest.packs || names.every(name => loaded.has(name)));
   }
+  // Stage a complete edition before touching the current cache. Failed or mixed
+  // deployments leave the reader's current edition intact.
+  let candidate = null;
+  let checking = null;
+  async function checkUpdate() {
+    if (checking) return checking;
+    checking = (async () => {
+      await index();
+      if (!manifest.packs || !loaded.has("news")) return null;
+      const next = await read("index.json", Date.now(), true);
+      if (next.build_id === manifest.build_id) return null;
+      if (next.refresh_contract !== 1) throw editionChanged();
+      if (
+        !/^[a-f0-9]{12}$/.test(next.build_id || "") ||
+        !next.packs ||
+        JSON.stringify(Object.keys(next.packs).sort()) !==
+          JSON.stringify(Object.keys(manifest.packs).sort()) ||
+        !(Date.parse(next.generated_at) > Date.parse(manifest.generated_at))
+      )
+        return null;
+      if (next.packs.news !== "news.json") throw editionChanged();
+      if (candidate?.manifest.build_id === next.build_id) return candidate.summary;
+      const news = await read("news.json", next.build_id, true);
+      if (
+        news.build_id !== next.build_id ||
+        !Array.isArray(news.news_intelligence?.stories) ||
+        !news.reading_brief
+      )
+        throw editionChanged();
+      const current = new Map((data.news_intelligence?.stories || []).map(s => [s.id, s]));
+      const accounts = new Map();
+      current.forEach(s => (s.news_event?.member_ids || [s.id]).forEach(id => accounts.set(id, s)));
+      const previous = s =>
+        current.get(s.id) ||
+        (s.news_event?.member_ids || []).map(id => accounts.get(id)).find(Boolean);
+      const added = news.news_intelligence.stories.filter(s => !previous(s));
+      const signature = s =>
+        JSON.stringify([s.title, s.news_detail, s.news_event, s.news_development]);
+      const changed = news.news_intelligence.stories.filter(
+        s => previous(s) && signature(s) !== signature(previous(s)),
+      );
+      const summary = {
+        build: next.build_id,
+        added: added.length,
+        changed: changed.length,
+        topics: [...new Set(added.flatMap(s => s.news_topics || []))],
+      };
+      candidate = { manifest: next, news, summary };
+      return summary;
+    })().finally(() => {
+      checking = null;
+    });
+    return checking;
+  }
+  async function applyUpdate(build, canApply = () => true) {
+    if (!candidate || candidate.manifest.build_id !== build) throw editionChanged();
+    const staged = candidate;
+    await Promise.all([...pending.values()]);
+    const names = [...loaded];
+    const expectedRevision = revision;
+    const packs = await Promise.all(
+      names.map(async name => {
+        if (staged.manifest.packs[name] !== `${name}.json`) throw editionChanged();
+        const value = name === "news" ? staged.news : await read(`${name}.json`, build, true);
+        if (value.build_id !== build) throw editionChanged();
+        return value;
+      }),
+    );
+    if (pending.size || revision !== expectedRevision || !canApply()) throw editionChanged();
+    // No awaits between validation and commit; readers cannot see mixed packs.
+    Object.keys(data).forEach(key => delete data[key]);
+    Object.assign(data, staged.manifest, ...packs);
+    manifest = staged.manifest;
+    candidate = null;
+    revision += 1;
+    return data;
+  }
   window.ScoutData = {
+    checkUpdate,
+    applyUpdate,
     get revision() {
       return revision;
     },

@@ -824,6 +824,29 @@ def _story_body(record: dict, repo_url: str, reader_updates: dict | None = None)
         if has_analysis
         else ""
     )
+    brief = detail.get("claim_brief") or []
+    if any(row.get("available") for row in brief):
+        grouped = {}
+        for row in brief:
+            key = (row["text"], row["available"], row["url"])
+            if key in grouped:
+                grouped[key]["label"] += " · " + row["label"]
+            else:
+                grouped[key] = dict(row)
+        fact_rows = "".join(
+            f"<div><dt>{_text(row['label'])}</dt><dd>{_text(row['text'])}"
+            + (f"<small>{_external(row['url'], row['source'])}</small>" if row["available"] else "")
+            + "</dd></div>"
+            for row in grouped.values()
+        )
+        quotes = "<details><summary>All collected excerpts</summary>" + quotes + "</details>"
+        assessment = (
+            '<section><h2>Result, comparison &amp; limits</h2><dl class="story-facts">'
+            + fact_rows
+            + "</dl><p>Extracted source wording, not independently verified. "
+            "Missing detail refers to this capture, not necessarily the full publication.</p></section>"
+            + assessment
+        )
     return f"""<article><p class="eyebrow">SOURCE BRIEFING · {_text(editorial.get("label") or "Captured coverage")}</p>
 <h1>{_text(story["title"])}</h1><p class="source-line">{_text(story.get("source"))} · {_text(editorial.get("source_perspective") or story.get("source_kind_label") or "Source type not verified")}</p>
 <div class="story-actions">{_external(story["url"], "Read original source")}<button type="button" data-copy-link>Copy briefing link</button><span role="status" data-copy-status></span></div>

@@ -146,6 +146,10 @@ window.ScoutData.onRoute = key => {
   return true;
 };
 window.ScoutDesk.route();
+window.addEventListener("scout:edition-updated", () => {
+  renderedDataRevision = window.ScoutData.revision;
+  render();
+});
 
 function render() {
   const themes = state.data.signals?.themes || [];

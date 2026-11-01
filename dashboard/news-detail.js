@@ -94,6 +94,7 @@
       const date = account.date_label === "Published" ? day(account.date) : "";
       const path = storyPath(account.story_url);
       const differences = strings(account.differences);
+      if (text(account.capture_note)) differences.unshift(account.capture_note);
       return `<details class="news-event-account"><summary>${esc(account.source || "Source account")} · ${esc(account.label || "Reported account")}</summary><h4>${outbound(url, account.title)}</h4><p class="news-detail-note">${date ? `Published ${esc(dateLabel(date))}` : "Publication date unavailable"} · ${esc(account.source_perspective || "Perspective unclassified")}</p>${strings(
         account.excerpts,
       )
@@ -103,7 +104,8 @@
         )}${differences.length ? `<p class="news-detail-note">Account differences: ${esc(differences.join(" "))}</p>` : ""}${strings(account.match_basis).length ? `<p class="news-detail-note">Grouping basis: ${esc(strings(account.match_basis).join(" "))}</p>` : ""}${path ? `<a href="${esc(path)}">Open this account's permanent briefing →</a>` : ""}</details>`;
     });
     if (rows.length < 2) return "";
-    return `<section class="news-detail-section news-event-coverage" aria-labelledby="news-event-title"><p class="news-detail-eyebrow">One development, separate accounts</p><h3 id="news-event-title">Compare ${rows.length} source accounts</h3><p class="news-detail-note">The grouping is a reading aid, not proof of independent confirmation. Claims, quantities, and source perspectives remain separate.</p>${strings(event.basis).length ? `<p class="news-detail-note">${esc(strings(event.basis).join(" "))}</p>` : ""}${rows.join("")}</section>`;
+    const repeated = accounts.filter(a => a?.capture_relation === "overlapping_capture").length;
+    return `<section class="news-detail-section news-event-coverage" aria-labelledby="news-event-title"><p class="news-detail-eyebrow">One development, separate accounts</p><h3 id="news-event-title">Compare ${rows.length} source accounts</h3>${repeated ? `<p class="news-capture-summary">${repeated} additional ${repeated === 1 ? "account repeats" : "accounts repeat"} captured wording. This is not additional independent evidence.</p>` : ""}<p class="news-detail-note">The grouping is a reading aid, not proof of independent confirmation. Claims, quantities, and source perspectives remain separate.</p>${strings(event.basis).length ? `<p class="news-detail-note">${esc(strings(event.basis).join(" "))}</p>` : ""}${rows.join("")}</section>`;
   }
 
   async function copyStoryLink() {
@@ -245,6 +247,7 @@
       text(brief.method) ||
       "Context is derived from collected titles, excerpts, and source metadata. It is not a full-document review, independent verification, or a personal recommendation.";
     const save = typeof options.saveButton === "function" ? options.saveButton(story) : "";
+    const facts = window.ScoutStoryFacts?.facts(story) || "";
     const path = storyPath(story.story_url);
     const limited = detail.analysis_specificity === "stage_only";
     const guide = detail.analysis_specificity === "reading_guide";
@@ -266,7 +269,8 @@
     return `<div class="news-detail-topline"><span>Story briefing</span><button type="button" class="news-detail-close" data-news-detail-close aria-label="Close story briefing" autofocus>Close <span aria-hidden="true">×</span></button></div>
       <header class="news-detail-header"><p class="news-detail-eyebrow">${esc(story.news_editorial?.label || story.source_kind_label || source.source_kind_label || "Source context")}</p><h2 id="news-detail-title">${esc(story.title || "Story details")}</h2>${metadata(story)}<div class="news-detail-actions">${original ? outbound(original, "Read the original source", "news-detail-original") : '<span class="news-detail-note">Original source link unavailable</span>'}${share}${save}</div><p id="news-share-status" class="news-detail-note" role="status"></p><input id="news-share-address" class="news-share-address" aria-label="Permanent briefing address" readonly hidden /></header>
       <div class="news-detail-columns"><div class="news-detail-main">
-        <section class="news-detail-section" aria-labelledby="news-detail-happened-title"><p class="news-detail-eyebrow">Source material</p><h3 id="news-detail-happened-title">What happened</h3>${excerpts.length ? `<p class="news-detail-note">Collected source excerpts. Read the original for the complete account.</p><div class="news-detail-excerpts">${excerpts.map(point => `<p>${esc(point)}</p>`).join("")}</div>` : '<p class="news-detail-note">No substantive source excerpt was collected. The headline alone is not enough to establish the claim.</p>'}</section>
+        ${window.ScoutStoryFacts?.development(story) || ""}
+        <section class="news-detail-section" aria-labelledby="news-detail-happened-title"><p class="news-detail-eyebrow">Source material</p><h3 id="news-detail-happened-title">What happened</h3>${facts || (excerpts.length ? `<p class="news-detail-note">Collected source excerpts. Read the original for the complete account.</p><div class="news-detail-excerpts">${excerpts.map(point => `<p>${esc(point)}</p>`).join("")}</div>` : '<p class="news-detail-note">No substantive source excerpt was collected. The headline alone is not enough to establish the claim.</p>')}${facts && excerpts.length ? `<details><summary>All collected excerpts</summary><div class="news-detail-excerpts">${excerpts.map(point => `<p>${esc(point)}</p>`).join("")}</div></details>` : ""}</section>
         ${analysis}
         ${uncertainty.length ? `<section class="news-detail-section news-detail-uncertainty news-evidence-gaps" aria-labelledby="news-detail-unknown-title"><p class="news-detail-eyebrow">Open issues for this story</p><h3 id="news-detail-unknown-title">What is still uncertain</h3><ul>${uncertainty.map(value => `<li>${esc(value)}</li>`).join("")}</ul></section>` : ""}
         ${eventCoverage(story)}

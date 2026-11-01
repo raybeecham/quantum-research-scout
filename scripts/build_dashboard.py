@@ -300,6 +300,8 @@ def build_dashboard(
         "components.css",
         "app.js",
         "data-loader.js",
+        "news-updates.js",
+        "story-facts.js",
         "display.js",
         "read-state.js",
         "entity.js",
