@@ -2,7 +2,7 @@
 
 > **Frontier Signal** · Intelligence archive and operational dashboard
 
-_Updated 2026-11-01 03:53 UTC_
+_Updated 2026-11-01 09:01 UTC_
 
 [Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
 
@@ -12,7 +12,7 @@ _Updated 2026-11-01 03:53 UTC_
 
 - Daily: [2026-10-31-digest](2026-10/2026-10-31-digest.md)
 - Weekly: [2026-10-26_to_2026-10-30-weekly](weekly/2026/2026-10-26_to_2026-10-30-weekly.md)
-- Monthly: [2026-09-monthly](monthly/2026/2026-09-monthly.md)
+- Monthly: [2026-10-monthly](monthly/2026/2026-10-monthly.md)
 
 ## Intelligence Tracking
 
@@ -64,6 +64,7 @@ _Updated 2026-11-01 03:53 UTC_
 
 ## Recent Monthly Reports
 
+- [2026-10-monthly](monthly/2026/2026-10-monthly.md)
 - [2026-09-monthly](monthly/2026/2026-09-monthly.md)
 - [2026-08-monthly](monthly/2026/2026-08-monthly.md)
 - [2026-07-monthly](monthly/2026/2026-07-monthly.md)
@@ -74,5 +75,5 @@ _Updated 2026-11-01 03:53 UTC_
 
 - Daily reports retained: **32**
 - Weekly syntheses retained: **24**
-- Monthly syntheses retained: **5**
+- Monthly syntheses retained: **6**
 - Daily reports use a rolling 30-day retention window; weekly and monthly syntheses are retained indefinitely.
