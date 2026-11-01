@@ -4,24 +4,25 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-11-01 03:53 UTC_
+_Updated 2026-11-01 09:58 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
-Assessed **24 of 43** configured organizations.
+Assessed **23 of 43** configured organizations.
 
 | Organization | Observed stage | Confidence | PQC evidence | Sources | Historical | Latest dated evidence |
 |---|---|---|---:|---:|---:|---|
+| IonQ | Pilot / Testing | high | 7 | 2 | 5 | 2026-10-29 |
 | QuSecure | Pilot / Testing | high | 21 | 4 | 17 | 2026-09-22 |
 | PQShield | Pilot / Testing | medium | 9 | 1 | 0 | 2026-10-23 |
 | Wiz | Pilot / Testing | medium | 4 | 1 | 4 | 2026-07-02 |
 | Accenture / Accenture Federal Services | Planning | high | 4 | 2 | 4 | 2026-08-27 |
-| Cisco | Planning | high | 10 | 2 | 0 | 2026-10-22 |
+| Cisco | Planning | high | 27 | 2 | 17 | 2026-10-22 |
 | DigiCert | Planning | high | 6 | 4 | 0 | 2026-09-25 |
-| Keyfactor | Planning | high | 24 | 3 | 16 | 2026-10-06 |
+| Keyfactor | Planning | high | 14 | 3 | 6 | 2026-10-29 |
 | NIST | Planning | high | 13 | 6 | 1 | 2026-10-28 |
 | AWS | Planning | medium | 3 | 2 | 2 | 2026-07-14 |
-| Fortanix | Planning | medium | 19 | 1 | 19 | 2026-10-08 |
+| Fortanix | Planning | medium | 18 | 1 | 18 | 2026-10-08 |
 | Thales | Planning | medium | 2 | 2 | 0 | 2026-08-05 |
 | CISA | Planning | low | 1 | 1 | 0 | 2026-09-03 |
 | PQCA | Inventory | medium | 2 | 1 | 0 | 2026-10-07 |
@@ -31,11 +32,9 @@ Assessed **24 of 43** configured organizations.
 | IBM | Awareness | medium | 2 | 2 | 0 | 2026-10-31 |
 | IETF | Awareness | medium | 3 | 3 | 2 | 2026-08-28 |
 | ISO/IEC | Awareness | medium | 2 | 2 | 0 | 2026-07-15 |
-| IonQ | Awareness | medium | 2 | 1 | 0 | 2026-09-08 |
 | Booz Allen Hamilton | Awareness | low | 1 | 1 | 1 | 2025-02-06 |
 | Pasqal | Awareness | low | 1 | 1 | 0 | 2026-08-31 |
 | Quantinuum | Awareness | low | 1 | 1 | 0 | 2026-07-29 |
-| Quantum Computing Inc. (QCi) | Awareness | low | 1 | 1 | 1 | Unknown |
 | Atom Computing | Not assessed | none | 0 | 0 | 0 | Unknown |
 | BSI Germany | Not assessed | none | 0 | 0 | 0 | Unknown |
 | D-Wave | Not assessed | none | 0 | 0 | 0 | Unknown |
@@ -52,6 +51,7 @@ Assessed **24 of 43** configured organizations.
 | Open Quantum Safe | Not assessed | none | 0 | 0 | 0 | Unknown |
 | PsiQuantum | Not assessed | none | 0 | 0 | 0 | Unknown |
 | QuEra | Not assessed | none | 0 | 0 | 0 | Unknown |
+| Quantum Computing Inc. (QCi) | Not assessed | none | 0 | 0 | 0 | Unknown |
 | Rigetti | Not assessed | none | 0 | 0 | 0 | Unknown |
 | SandboxAQ | Not assessed | none | 0 | 0 | 0 | Unknown |
 | UK NCSC | Not assessed | none | 0 | 0 | 0 | Unknown |

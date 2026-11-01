@@ -38,6 +38,129 @@
   "organizations": [
     {
       "confidence": "high",
+      "evidence_count": 7,
+      "historical_evidence_count": 5,
+      "latest_evidence_at": "2026-10-29",
+      "name": "IonQ",
+      "priority": "high",
+      "source_count": 2,
+      "stage": "pilot",
+      "stage_label": "Pilot / Testing",
+      "stage_rank": 4,
+      "supporting_evidence": [
+        {
+          "date": "2026-09-18",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "demonstrated"
+          ],
+          "observed_stage": "pilot",
+          "observed_stage_label": "Pilot / Testing",
+          "rank": 4,
+          "source": "IonQ Technical Blog",
+          "title": "IonQ | Innovating, Manufacturing, and Scaling: Highlights from IonQ Investor Day 2026",
+          "url": "https://ionq.com/blog/innovating-manufacturing-and-scaling-highlights-from-ionq-investor-day-2026"
+        },
+        {
+          "date": "2026-10-29",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "pqc",
+            "quantum-safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "IonQ Technical Blog",
+          "title": "IonQ | Protect Network Corridors Before Native PQC Arrives | IonQ",
+          "url": "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready"
+        },
+        {
+          "date": "2026-10-26",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum",
+            "pqc",
+            "quantum-safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "IonQ Technical Blog",
+          "title": "IonQ | Leading with Proof: IonQ\u2019s Blueprint for Quantum-Safe Enterprise Security",
+          "url": "https://ionq.com/blog/leading-with-proof-ionqs-blueprint-for-quantum-safe-enterprise-security"
+        },
+        {
+          "date": "2026-09-16",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "pqc"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "IonQ Technical Blog",
+          "title": "IonQ | PQC Migration Timelines: The Four Clocks That Don't Agree",
+          "url": "https://ionq.com/blog/the-four-clocks-of-pqc-migration-and-why-they-dont-agree"
+        },
+        {
+          "date": "2026-09-08",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum-safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuantumNews.ai",
+          "title": "IonQ and Congruity360 Execute $8.18 Million Commercial Quantum-Safe Network Agreement",
+          "url": "https://quantumcomputingreport.com/ionq-and-congruity360-execute-8-18-million-commercial-quantum-safe-network-agreement"
+        },
+        {
+          "date": "2026-08-04",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "IonQ Technical Blog",
+          "title": "IonQ | Executive Orders Move Quantum from Research to Real Life\u2014and It\u2019s Truly a Watershed Moment",
+          "url": "https://ionq.com/blog/executive-orders-move-quantum-from-research-to-real-life--and-its-truly-a-watershed-moment"
+        },
+        {
+          "date": "2026-08-04",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuantumNews.ai",
+          "title": "IonQ says orders set 2030 deadline for post-quantum crypto migration",
+          "url": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "high",
       "evidence_count": 21,
       "historical_evidence_count": 17,
       "latest_evidence_at": "2026-09-22",
@@ -466,8 +589,8 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 10,
-      "historical_evidence_count": 0,
+      "evidence_count": 27,
+      "historical_evidence_count": 17,
       "latest_evidence_at": "2026-10-22",
       "name": "Cisco",
       "priority": "high",
@@ -522,6 +645,21 @@
           "url": "https://blogs.cisco.com/developer/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12"
         },
         {
+          "date": "2026-09-28",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Automating Post-Quantum IPsec on Cisco Routers - IPsec Series, Part 12",
+          "url": "https://blogs.cisco.com/cisco-devnet/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12"
+        },
+        {
           "date": "2026-09-22",
           "date_confidence": "unknown",
           "date_kind": "unknown",
@@ -552,6 +690,21 @@
           "url": "https://blogs.cisco.com/developer/post-quantum-key-exchange-on-cisco-routers-ipsec-series-part-9"
         },
         {
+          "date": "2026-09-01",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cisco Quantum-Safe Updates",
+          "title": "Post-Quantum Key Exchange on Cisco Routers - IPsec Series, Part 9",
+          "url": "https://blogs.cisco.com/cisco-devnet/post-quantum-key-exchange-on-cisco-routers-ipsec-series-part-9"
+        },
+        {
           "date": "2026-08-25",
           "date_confidence": "unknown",
           "date_kind": "unknown",
@@ -565,36 +718,6 @@
           "source": "QuantumNews.ai",
           "title": "strongSwan helps Cisco build a test for post-quantum IKEv2 security",
           "url": "https://quantumzeitgeist.com/post-quantum-ikev2-security-strongswan-helps"
-        },
-        {
-          "date": "2026-08-24",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "Mutual Post-Quantum Auth over IKEv2 \u2013 IPsec Series, Part 8",
-          "url": "https://blogs.cisco.com/developer/mutual-post-quantum-auth-over-ikev2-ipsec-series-part-8"
-        },
-        {
-          "date": "2026-08-10",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cisco Quantum-Safe Updates",
-          "title": "Who Goes There? Post-Quantum Authentication \u2013 IPsec Series, Part 6",
-          "url": "https://blogs.cisco.com/developer/who-goes-there-post-quantum-authentication-ipsec-series-part-6"
         }
       ],
       "type": "company"
@@ -707,9 +830,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 24,
-      "historical_evidence_count": 16,
-      "latest_evidence_at": "2026-10-06",
+      "evidence_count": 14,
+      "historical_evidence_count": 6,
+      "latest_evidence_at": "2026-10-29",
       "name": "Keyfactor",
       "priority": "high",
       "source_count": 3,
@@ -717,6 +840,84 @@
       "stage_label": "Planning",
       "stage_rank": 3,
       "supporting_evidence": [
+        {
+          "date": "2026-10-26",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness",
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "The 5 Stages of PQC Readiness: A Practical Framework for Enterprise Migration",
+          "url": "https://www.keyfactor.com/blog/the-5-stages-of-pqc-readiness-a-practical-framework-for-enterprise-migration/"
+        },
+        {
+          "date": "2026-10-26",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "PQC Readiness Stage 5: How Continuous Resilience Keeps You Quantum-Ready as Algorithms Evolve",
+          "url": "https://www.keyfactor.com/blog/pqc-readiness-stage-5-how-continuous-resilience-keeps-you-quantum-ready-as-algorithms-evolve/"
+        },
+        {
+          "date": "2026-10-26",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness",
+            "migration plan",
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "PQC Readiness Stage 4: How Agility and Automation Enable PQC Migration at Scale",
+          "url": "https://www.keyfactor.com/blog/pqc-readiness-stage-4-how-agility-and-automation-enable-pqc-migration-at-scale/"
+        },
+        {
+          "date": "2026-10-26",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "PQC Readiness Stage 1: How Awareness and Alignment Lay the Foundation for PQC Migration",
+          "url": "https://www.keyfactor.com/blog/pqc-readiness-stage-1-how-awareness-and-alignment-lay-the-foundation-for-pqc-migration/"
+        },
+        {
+          "date": "2026-10-26",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Keyfactor Quantum and Crypto-Agility",
+          "title": "How Ready Is Your Cryptography, Really? Take the PQC Lab Assessment",
+          "url": "https://www.keyfactor.com/blog/how-ready-is-your-cryptography-really-take-the-pqc-lab-assessment/"
+        },
         {
           "date": "2026-10-06",
           "date_confidence": "unknown",
@@ -731,36 +932,6 @@
           "source": "Keyfactor Quantum and Crypto-Agility",
           "title": "Post-Quantum Readiness for Manufacturers: The Timeline Now Has Dates",
           "url": "https://www.keyfactor.com/blog/post-quantum-readiness-for-manufacturers-the-timeline-now-has-dates"
-        },
-        {
-          "date": "2026-08-14",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "readiness"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Nexus Podcast: Ellen Boehm on Post-Quantum Readiness in Critical Infrastructure",
-          "url": "https://www.keyfactor.com/news/nexus-podcast-ellen-boehm-on-post-quantum-readiness-in-critical-infrastructure/"
-        },
-        {
-          "date": "2026-08-13",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "crypto agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Bringing Crypto Agility And PQC Visibility To The Network With NAV",
-          "url": "https://www.keyfactor.com/news/bringing-crypto-agility-and-pqc-visibility-to-the-network-with-nav/"
         },
         {
           "date": "2026-07-31",
@@ -791,51 +962,6 @@
           "source": "Keyfactor Quantum and Crypto-Agility",
           "title": "Building Crypto-Agility for Financial Services",
           "url": "https://www.keyfactor.com/events/building-crypto-agility-for-financial-services"
-        },
-        {
-          "date": "2026-07-27",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "readiness"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "Post-Quantum PKI: A Practical Readiness Guide for Enterprise Security Teams",
-          "url": "https://www.keyfactor.com/blog/quantum-pki-readiness-a-5-step-guide-for-security-teams"
-        },
-        {
-          "date": "2026-07-22",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "readiness"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "The Quantum Insider",
-          "title": "Keyfactor Expands Partner Program for Post-Quantum Cryptography Readiness",
-          "url": "https://thequantuminsider.com/2026/07/22/keyfactor-expands-partner-program-for-post-quantum-security"
-        },
-        {
-          "date": "2026-01-06",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "crypto-agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "NIST Makes Crypto-Agility Official \u2014 Now What?",
-          "url": "https://www.keyfactor.com/blog/nist-makes-crypto-agility-official-now-what/"
         }
       ],
       "type": "company"
@@ -853,6 +979,21 @@
       "stage_rank": 3,
       "supporting_evidence": [
         {
+          "date": "2026-10-27",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "NIST Research News",
+          "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
+          "url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography"
+        },
+        {
           "date": "2026-06-25",
           "date_confidence": "unknown",
           "date_kind": "unknown",
@@ -866,21 +1007,6 @@
           "source": "Quantum Zeitgeist",
           "title": "NIST Defines Crypto-Agility as Key to PQC Resilience Says Microsoft",
           "url": "https://quantumzeitgeist.com/microsoft-nist-defines-crypto-agility-key"
-        },
-        {
-          "date": "2026-01-06",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "crypto-agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Keyfactor Quantum and Crypto-Agility",
-          "title": "NIST Makes Crypto-Agility Official \u2014 Now What?",
-          "url": "https://www.keyfactor.com/blog/nist-makes-crypto-agility-official-now-what/"
         },
         {
           "date": "2026-10-28",
@@ -1038,8 +1164,8 @@
     },
     {
       "confidence": "medium",
-      "evidence_count": 19,
-      "historical_evidence_count": 19,
+      "evidence_count": 18,
+      "historical_evidence_count": 18,
       "latest_evidence_at": "2026-10-08",
       "name": "Fortanix",
       "priority": "high",
@@ -1661,51 +1787,6 @@
       "type": "standards"
     },
     {
-      "confidence": "medium",
-      "evidence_count": 2,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-09-08",
-      "name": "IonQ",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-09-08",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "quantum-safe"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "QuantumNews.ai",
-          "title": "IonQ and Congruity360 Execute $8.18 Million Commercial Quantum-Safe Network Agreement",
-          "url": "https://quantumcomputingreport.com/ionq-and-congruity360-execute-8-18-million-commercial-quantum-safe-network-agreement"
-        },
-        {
-          "date": "2026-08-04",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "QuantumNews.ai",
-          "title": "IonQ says orders set 2030 deadline for post-quantum crypto migration",
-          "url": "https://quantumzeitgeist.com/post-quantum-crypto-migration-ionq-orders"
-        }
-      ],
-      "type": "company"
-    },
-    {
       "confidence": "low",
       "evidence_count": 1,
       "historical_evidence_count": 1,
@@ -1791,36 +1872,6 @@
           "source": "QuantumNews.ai",
           "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
           "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
-        }
-      ],
-      "type": "company"
-    },
-    {
-      "confidence": "low",
-      "evidence_count": 1,
-      "historical_evidence_count": 1,
-      "latest_evidence_at": null,
-      "name": "Quantum Computing Inc. (QCi)",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": true,
-          "matched_patterns": [
-            "pqc"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "QCi Press Releases",
-          "title": "Quantum Computing Inc. and Ciena Demonstrate Next-Generation Quantum-Secured Communications with High-Speed Encryption using PQC and QKD at OFC 2026 - Quantum Computing Inc",
-          "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-and-ciena-demonstrate-next-generation-quantum-secured-communications-with-high-speed-encryption-using-pqc-and-qkd-at-ofc-2026"
         }
       ],
       "type": "company"
@@ -2054,6 +2105,20 @@
       "evidence_count": 0,
       "historical_evidence_count": 0,
       "latest_evidence_at": null,
+      "name": "Quantum Computing Inc. (QCi)",
+      "priority": "high",
+      "source_count": 0,
+      "stage": "not_assessed",
+      "stage_label": "Not assessed",
+      "stage_rank": 0,
+      "supporting_evidence": [],
+      "type": "company"
+    },
+    {
+      "confidence": "none",
+      "evidence_count": 0,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": null,
       "name": "Rigetti",
       "priority": "medium",
       "source_count": 0,
@@ -2093,17 +2158,17 @@
     }
   ],
   "summary": {
-    "assessed": 24,
+    "assessed": 23,
     "by_stage": {
-      "awareness": 10,
+      "awareness": 8,
       "inventory": 2,
-      "not_assessed": 19,
-      "pilot": 3,
+      "not_assessed": 20,
+      "pilot": 4,
       "planning": 9
     },
-    "not_assessed": 19,
+    "not_assessed": 20,
     "organizations": 43
   },
-  "updated_at": "2026-11-01T03:53:02.276139+00:00",
+  "updated_at": "2026-11-01T09:58:04.402097+00:00",
   "version": 1
 }
