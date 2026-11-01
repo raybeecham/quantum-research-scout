@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-01T18:45:59.502655+00:00",
+  "updated_at": "2026-11-01T19:46:33.794057+00:00",
   "records": {
     "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager": {
       "image_url": "https://res.infoq.com/news/2026/10/cf-pq-geokey-manager/en/headerimage/generatedHeaderImage-1793376907936.jpg",
@@ -439,11 +439,6 @@
       "fetched_at": "2026-10-30T01:46:01.181127+00:00",
       "status": "ok"
     },
-    "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready": {
-      "page_url": "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready",
-      "status": "unavailable",
-      "fetched_at": "2026-10-31T18:46:17.864985+00:00"
-    },
     "https://quantumzeitgeist.com/quantum-safe-payment-cards-idemia-gets": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/idemia-gets-first-emvco-certification-quantum-1200x630.png",
       "page_url": "https://quantumzeitgeist.com/quantum-safe-payment-cards-idemia-gets",
@@ -608,11 +603,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-28T13:45:19.488303+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2658": {
-      "page_url": "https://eprint.iacr.org/2026/2658",
-      "status": "failed",
-      "fetched_at": "2026-10-31T18:46:17.864985+00:00"
     },
     "https://arxiv.org/abs/2610.39476v1": {
       "page_url": "https://arxiv.org/abs/2610.39476v1",
@@ -1097,6 +1087,25 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-29T03:46:08.263511+00:00",
       "status": "ok"
+    },
+    "https://quantumzeitgeist.com/quantum-channel-entanglement-advantage-bounds-disprove-conjecture": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/syracuse-university-bounds-quantum-channel-advantages-1200x630.png",
+      "page_url": "https://quantumzeitgeist.com/quantum-channel-entanglement-advantage-bounds-disprove-conjecture",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-01T19:46:33.794057+00:00",
+      "status": "ok"
+    },
+    "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready": {
+      "page_url": "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready",
+      "fetched_at": "2026-11-01T19:46:33.794057+00:00",
+      "status": "unavailable"
+    },
+    "https://eprint.iacr.org/2026/2658": {
+      "page_url": "https://eprint.iacr.org/2026/2658",
+      "fetched_at": "2026-11-01T19:46:33.794057+00:00",
+      "status": "failed",
+      "reason": "http_403"
     }
   }
 }
