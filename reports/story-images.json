@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T23:46:02.876405+00:00",
+  "updated_at": "2026-11-01T00:46:10.793337+00:00",
   "records": {
     "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager": {
       "image_url": "https://res.infoq.com/news/2026/10/cf-pq-geokey-manager/en/headerimage/generatedHeaderImage-1793376907936.jpg",
@@ -709,6 +709,11 @@
       "status": "unavailable",
       "fetched_at": "2026-10-31T08:45:55.125093+00:00"
     },
+    "https://eprint.iacr.org/2026/2653": {
+      "page_url": "https://eprint.iacr.org/2026/2653",
+      "status": "failed",
+      "fetched_at": "2026-10-31T23:46:02.876405+00:00"
+    },
     "https://arxiv.org/abs/2610.36145": {
       "page_url": "https://arxiv.org/abs/2610.36145",
       "status": "unavailable",
@@ -1050,12 +1055,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-29T03:46:08.263511+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2653": {
-      "page_url": "https://eprint.iacr.org/2026/2653",
-      "fetched_at": "2026-10-31T23:46:02.876405+00:00",
-      "status": "failed",
-      "reason": "http_403"
     }
   }
 }
