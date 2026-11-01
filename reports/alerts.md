@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-10-31 03:45 UTC_
+_Updated 2026-11-01 03:53 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 46 | 3 | 9 | 4 | 33 |
+| 48 | 4 | 12 | 5 | 31 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -70,7 +70,28 @@ _Updated 2026-10-31 03:45 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 83.4% reliability with 2 warning day(s).
+- 🔴 74.3% reliability with 3 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 64.5% reliability with 9 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv Quantum Computing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 64.5% reliability with 9 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv Quantum Networking and Sensing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 66.1% reliability with 9 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -87,6 +108,14 @@ _Updated 2026-10-31 03:45 UTC_
 - 🎯 Quantum Networking is actionable with high confidence.
 - [Open supporting view](signals.md)
 
+## 🟠 Product Launch: IBM 🆕
+
+- Severity: **high**
+- Status: **product-launch**
+- IBM matched a product launch event: IBM Launches Unified Quantum Safe Software Suite to Automate Enterprise PQC Migration
+- [Open direct evidence](https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration)
+- [Open supporting view](entity-watch.md)
+
 ## 🟠 Rising momentum: AI Security
 
 - Severity: **high**
@@ -98,7 +127,7 @@ _Updated 2026-10-31 03:45 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 11 versus 3 in the prior period.
+- ↗️ Recent evidence is 15 versus 3 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -150,7 +179,7 @@ _Updated 2026-10-31 03:45 UTC_
 - The latest dated item is from 2026-07-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Advanced Computing 🆕
+## 🟡 Source stale: Grants.gov · Advanced Computing
 
 - Severity: **medium**
 - Status: **stale**
@@ -178,7 +207,7 @@ _Updated 2026-10-31 03:45 UTC_
 - The latest dated item is from 2026-08-27; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Grants.gov · Military AI Pace-Setting Projects 🆕
+## 🟡 Source stale: Grants.gov · Military AI Pace-Setting Projects
 
 - Severity: **medium**
 - Status: **stale**
@@ -213,7 +242,7 @@ _Updated 2026-10-31 03:45 UTC_
 - The latest dated item is from 2026-09-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: NCSC UK Guidance 🆕
+## 🟡 Source stale: NCSC UK Guidance
 
 - Severity: **medium**
 - Status: **stale**
@@ -283,13 +312,6 @@ _Updated 2026-10-31 03:45 UTC_
 - The latest dated item is from 2026-10-01; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: USAspending · Autonomy and Sensing
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-10-01; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
 ## 🟡 Source stale: USAspending · Genesis Mission
 
 - Severity: **medium**
@@ -302,13 +324,6 @@ _Updated 2026-10-31 03:45 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-04-01; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Post-Quantum Cybersecurity
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-10-01; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: USAspending · Quantum Benchmarking Initiative

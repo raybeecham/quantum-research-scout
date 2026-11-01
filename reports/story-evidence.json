@@ -2252,6 +2252,27 @@
         }
       ]
     },
+    "https://quantumcomputingreport.com/chalmers-university-demonstrates-hardware-level-microwave-crosstalk-suppression-via-parasitic-capacitance-engineering": {
+      "captures": [
+        {
+          "excerpts": [
+            "Physicists at Chalmers University of Technology have developed a new method to eliminate microwave crosstalk in superconducting processors",
+            "Their research shows that by engineering on-chip parasitic capacitances, they can achieve destructive interference among parasitic capacitive channels, suppressing unwanted qubit excitations",
+            "This method offers a practical advantage for floating transmons and allows for alignment of classical microwave crosstalk nulls with quantum ZZ nulls"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-31",
+              "report_date": "2026-10-31",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/chalmers-university-demonstrates-hardware-level-microwave-crosstalk-suppression-via-parasitic-capacitance-engineering"
+            }
+          ],
+          "title": "Chalmers University Demonstrates Hardware-Level Microwave Crosstalk Suppression via Parasitic Capacitance Engineering"
+        }
+      ]
+    },
     "https://quantumcomputingreport.com/chinese-startup-flipflop-tuoyuan-emerges-with-major-vc-backing-for-100-logical-qubit-neutral-atom-systems": {
       "captures": [
         {
@@ -4096,6 +4117,27 @@
             }
           ],
           "title": "University of Saskatchewan Researchers Achieve Record Hyperbolic Surface Code Efficiency for Modular Fault-Tolerant Architectures"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/university-of-stuttgart-deploys-quantum-dot-qkd-link-using-frequency-conversion-over-campus-fiber": {
+      "captures": [
+        {
+          "excerpts": [
+            "The University of Stuttgart, in collaboration with Saarland University and Leibniz IFW Dresden, successfully deployed an entanglement-based quantum key distribution (QKD) link using a quantum dot photon source",
+            "The system generated 14.2 Mbit of secure key material over a 1.59 km fiber link, achieving one-time pad image encryption",
+            "This demonstrates the viability of quantum dots with frequency conversion for metropolitan quantum key networks"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-31",
+              "report_date": "2026-10-31",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/university-of-stuttgart-deploys-quantum-dot-qkd-link-using-frequency-conversion-over-campus-fiber"
+            }
+          ],
+          "title": "University of Stuttgart Deploys Quantum Dot QKD Link Using Frequency Conversion Over Campus Fiber"
         }
       ]
     },
@@ -8086,6 +8128,23 @@
               "published_date": "2026-10-31",
               "report_date": "2026-10-31",
               "sequence": 0,
+              "source": "InfoQ Quantum Computing",
+              "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager"
+            }
+          ],
+          "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption"
+        },
+        {
+          "excerpts": [
+            "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022",
+            "Keys live only in kernel memory on verified regional servers, and any failed check rejects the request, a fail-closed choice practitioners ask could cause a regional outage",
+            "COLLABORATIVE RESEARCH: BRIDGING THE GAP BETWEEN EDUCATION AND INDUSTRY PRACTICES IN COMPUTER ARCHITECTURE THROUGH LEARNER-CENTERED TEACHING -THIS PROJECT AIMS TO SERVE THE… — already featured in Strategic Signals. [Open item](https://www.usaspending.gov/award/ASST_NON_2613412_049)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-31",
+              "report_date": "2026-10-31",
+              "sequence": 1,
               "source": "InfoQ Quantum Computing",
               "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager"
             }

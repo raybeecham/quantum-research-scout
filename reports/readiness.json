@@ -1331,16 +1331,31 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 8,
+      "evidence_count": 9,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-10-23",
+      "latest_evidence_at": "2026-10-31",
       "name": "Cloudflare",
       "priority": "high",
-      "source_count": 3,
+      "source_count": 4,
       "stage": "awareness",
       "stage_label": "Awareness",
       "stage_rank": 1,
       "supporting_evidence": [
+        {
+          "date": "2026-10-31",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "InfoQ Quantum Computing",
+          "title": "Cloudflare\u2019s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
+          "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager"
+        },
         {
           "date": "2026-10-23",
           "date_confidence": "unknown",
@@ -1445,21 +1460,6 @@
           "source": "Cloudflare Post-Quantum Blog",
           "title": "Why we cannot wait for better post-quantum signature algorithms",
           "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
-        },
-        {
-          "date": "2026-06-23",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cloudflare Post-Quantum Blog",
-          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
-          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
         }
       ],
       "type": "company"
@@ -1508,6 +1508,52 @@
         }
       ],
       "type": "government"
+    },
+    {
+      "confidence": "medium",
+      "evidence_count": 2,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-10-31",
+      "name": "IBM",
+      "priority": "high",
+      "source_count": 2,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-10-31",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "pqc",
+            "quantum safe"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Computing Report",
+          "title": "IBM Launches Unified Quantum Safe Software Suite to Automate Enterprise PQC Migration",
+          "url": "https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration"
+        },
+        {
+          "date": "2026-07-29",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuantumNews.ai",
+          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
+          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
+        }
+      ],
+      "type": "company"
     },
     {
       "confidence": "medium",
@@ -1688,36 +1734,6 @@
         }
       ],
       "type": "consulting"
-    },
-    {
-      "confidence": "low",
-      "evidence_count": 1,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-07-29",
-      "name": "IBM",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-07-29",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "QuantumNews.ai",
-          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
-          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
-        }
-      ],
-      "type": "company"
     },
     {
       "confidence": "low",
@@ -2088,6 +2104,6 @@
     "not_assessed": 19,
     "organizations": 43
   },
-  "updated_at": "2026-10-31T03:45:12.062913+00:00",
+  "updated_at": "2026-11-01T03:53:02.276139+00:00",
   "version": 1
 }

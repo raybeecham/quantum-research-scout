@@ -2,12 +2,12 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-10-31T03:36:55.156376+00:00_
+_Updated 2026-11-01T03:42:33.290574+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **31**
-- Added / changed / resolved: **4 / 0 / 27**
+- Material changes: **27**
+- Added / changed / resolved: **0 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
@@ -18,10 +18,7 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- **FAMIS SERVICENOW SOFTWARE - FY27** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_140DWF27F0001_1406_NNG15SD32B_8000))
-- **FAMIS SERVICENOW SOFTWARE - FY27** — awarding agency: Department of the Interior ([evidence](https://www.usaspending.gov/award/CONT_AWD_140DWF27F0001_1406_NNG15SD32B_8000))
-- **FAMIS SERVICENOW SOFTWARE - FY27** — reported amount: 201056.54 ([evidence](https://www.usaspending.gov/award/CONT_AWD_140DWF27F0001_1406_NNG15SD32B_8000))
-- **FAMIS SERVICENOW SOFTWARE - FY27** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_140DWF27F0001_1406_NNG15SD32B_8000))
+- None.
 
 ## Superseded claims
 

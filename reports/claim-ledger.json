@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-10-31",
+  "as_of_date": "2026-11-01",
   "claims": [
     {
       "authority": "authoritative",
@@ -52656,186 +52656,6 @@
     {
       "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
-      "claim_id": "claim-fb97900d6f404cc3",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-31",
-      "evidence_ids": [
-        "evidence-462989fc831ab37f"
-      ],
-      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-462989fc831ab37f",
-          "locator": "legal_business_name:university of texas at dallas",
-          "title": "UNIVERSITY OF TEXAS AT DALLAS",
-          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:EJCVPNN1WFS5",
-        "label": "UNIVERSITY OF TEXAS AT DALLAS",
-        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "UNIVERSITY OF TEXAS AT DALLAS",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "0f48a8bf832dc311"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity uei",
-      "claim_id": "claim-00c2e4d37bc13c41",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-31",
-      "evidence_ids": [
-        "evidence-afa907aafe53fc3c"
-      ],
-      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-afa907aafe53fc3c",
-          "locator": "uei:ejcvpnn1wfs5",
-          "title": "UNIVERSITY OF TEXAS AT DALLAS",
-          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:EJCVPNN1WFS5",
-        "label": "UNIVERSITY OF TEXAS AT DALLAS",
-        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "EJCVPNN1WFS5",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "e61a5ee3c67891c4"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity cage code",
-      "claim_id": "claim-fc74f0bcd89b56cf",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-31",
-      "evidence_ids": [
-        "evidence-dc63d4351ba38908"
-      ],
-      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-dc63d4351ba38908",
-          "locator": "cage_code:0w921",
-          "title": "UNIVERSITY OF TEXAS AT DALLAS",
-          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:EJCVPNN1WFS5",
-        "label": "UNIVERSITY OF TEXAS AT DALLAS",
-        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "0W921",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "34367eaac2f038fa"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity registration status",
-      "claim_id": "claim-bc1d8771611ec991",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-31",
-      "evidence_ids": [
-        "evidence-0d4d264f6d3b7a9e"
-      ],
-      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0d4d264f6d3b7a9e",
-          "locator": "registration_status:active",
-          "title": "UNIVERSITY OF TEXAS AT DALLAS",
-          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:EJCVPNN1WFS5",
-        "label": "UNIVERSITY OF TEXAS AT DALLAS",
-        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "e792494b6726d598"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-bfdc944ac9f1d695",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -53012,6 +52832,186 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "25d668e6a99ff337"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-fb97900d6f404cc3",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-462989fc831ab37f"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-462989fc831ab37f",
+          "locator": "legal_business_name:university of texas at dallas",
+          "title": "UNIVERSITY OF TEXAS AT DALLAS",
+          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:EJCVPNN1WFS5",
+        "label": "UNIVERSITY OF TEXAS AT DALLAS",
+        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "UNIVERSITY OF TEXAS AT DALLAS",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "0f48a8bf832dc311"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-00c2e4d37bc13c41",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-afa907aafe53fc3c"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-afa907aafe53fc3c",
+          "locator": "uei:ejcvpnn1wfs5",
+          "title": "UNIVERSITY OF TEXAS AT DALLAS",
+          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:EJCVPNN1WFS5",
+        "label": "UNIVERSITY OF TEXAS AT DALLAS",
+        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "EJCVPNN1WFS5",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e61a5ee3c67891c4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-fc74f0bcd89b56cf",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-dc63d4351ba38908"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-dc63d4351ba38908",
+          "locator": "cage_code:0w921",
+          "title": "UNIVERSITY OF TEXAS AT DALLAS",
+          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:EJCVPNN1WFS5",
+        "label": "UNIVERSITY OF TEXAS AT DALLAS",
+        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "0W921",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "34367eaac2f038fa"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-bc1d8771611ec991",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-31",
+      "evidence_ids": [
+        "evidence-0d4d264f6d3b7a9e"
+      ],
+      "first_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-31T02:49:14.453701+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0d4d264f6d3b7a9e",
+          "locator": "registration_status:active",
+          "title": "UNIVERSITY OF TEXAS AT DALLAS",
+          "url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:EJCVPNN1WFS5",
+        "label": "UNIVERSITY OF TEXAS AT DALLAS",
+        "node_id": "recipient_or_contractor:uei:EJCVPNN1WFS5",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e792494b6726d598"
     },
     {
       "authority": "authoritative",
@@ -251213,7 +251213,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251260,7 +251260,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251307,7 +251307,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251354,7 +251354,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251401,7 +251401,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251448,7 +251448,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251495,7 +251495,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251542,7 +251542,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251589,7 +251589,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251636,7 +251636,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251683,7 +251683,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251730,7 +251730,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251777,7 +251777,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251824,7 +251824,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251871,7 +251871,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251918,7 +251918,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -251965,7 +251965,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -252012,7 +252012,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -252064,7 +252064,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -252116,7 +252116,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -252168,7 +252168,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -252220,7 +252220,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -252272,7 +252272,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -252324,7 +252324,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -252376,7 +252376,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -252428,7 +252428,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -252480,7 +252480,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-10-31T03:36:55.156376+00:00",
+      "retracted_at": "2026-11-01T03:42:33.290574+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -304113,6 +304113,6 @@
     "superseded_claims": 0,
     "total_claims": 5082
   },
-  "updated_at": "2026-10-31T03:36:55.156376+00:00",
+  "updated_at": "2026-11-01T03:42:33.290574+00:00",
   "version": 1
 }

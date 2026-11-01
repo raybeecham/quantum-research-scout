@@ -2755,7 +2755,7 @@
         "Subchapter S Corporation",
         "Veteran-Owned Business"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "1M6B0",
       "checked_at": "2026-10-31T03:36:55.156376+00:00",
       "contractor_name": "REGENCY CONSULTING INC",
@@ -3767,7 +3767,7 @@
         "Other Not For Profit Organization",
         "State Controlled Institution of Higher Learning"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "314S6",
       "checked_at": "2026-10-31T03:36:55.156376+00:00",
       "contractor_name": "KEAN UNIVERSITY",
@@ -5461,64 +5461,6 @@
     },
     {
       "aliases": [
-        "UNIVERSITY OF TEXAS AT DALLAS"
-      ],
-      "business_types": [
-        "Educational Institution",
-        "State Controlled Institution of Higher Learning",
-        "U.S. State Government"
-      ],
-      "cache_status": "fresh",
-      "cage_code": "0W921",
-      "checked_at": "2026-09-30T03:25:02.178606+00:00",
-      "contractor_name": "UNIVERSITY OF TEXAS AT DALLAS",
-      "contractor_score": 30,
-      "dba_name": null,
-      "entity_structure": "U.S. Government Entity",
-      "exclusion_status": "N",
-      "identity_id": "uei:EJCVPNN1WFS5",
-      "immediate_parent": {
-        "name": null,
-        "uei": null
-      },
-      "legal_business_name": "UNIVERSITY OF TEXAS AT DALLAS",
-      "naics": [
-        {
-          "code": "541715",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "611310",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        }
-      ],
-      "organization_structure": null,
-      "psc": [
-        {
-          "code": null,
-          "name": null
-        }
-      ],
-      "purpose_of_registration": "All Awards",
-      "registration_expiration_date": "2027-02-06",
-      "registration_status": "Active",
-      "resolution_basis": "exact UEI match",
-      "resolution_confidence": "high",
-      "resolution_status": "resolved",
-      "sba_business_types": [],
-      "source_url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
-      "uei": "EJCVPNN1WFS5",
-      "ultimate_parent": {
-        "name": null,
-        "uei": null
-      }
-    },
-    {
-      "aliases": [
         "THALES DEFENSE & SECURITY INC"
       ],
       "business_types": [
@@ -6578,9 +6520,9 @@
         "Business or Organization",
         "Non-Profit Organization"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "1D969",
-      "checked_at": "2026-10-02T03:30:50.857708+00:00",
+      "checked_at": "2026-11-01T03:42:33.290574+00:00",
       "contractor_name": "NATIONAL ACADEMY OF SCIENCES",
       "contractor_score": 29,
       "dba_name": "NATIONAL ACADEMY OF SCIENCES",
@@ -6752,9 +6694,9 @@
         "State Controlled Institution of Higher Learning",
         "U.S. State Government"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "1JHM5",
-      "checked_at": "2026-10-02T03:30:50.857708+00:00",
+      "checked_at": "2026-11-01T03:42:33.290574+00:00",
       "contractor_name": "FLORIDA INTERNATIONAL UNIVERSITY",
       "contractor_score": 29,
       "dba_name": null,
@@ -6856,6 +6798,64 @@
       "sba_business_types": [],
       "source_url": "https://sam.gov/entity/Q3KCVK5S9CP1/coreData",
       "uei": "Q3KCVK5S9CP1",
+      "ultimate_parent": {
+        "name": null,
+        "uei": null
+      }
+    },
+    {
+      "aliases": [
+        "UNIVERSITY OF TEXAS AT DALLAS"
+      ],
+      "business_types": [
+        "Educational Institution",
+        "State Controlled Institution of Higher Learning",
+        "U.S. State Government"
+      ],
+      "cache_status": "refreshed",
+      "cage_code": "0W921",
+      "checked_at": "2026-11-01T03:42:33.290574+00:00",
+      "contractor_name": "UNIVERSITY OF TEXAS AT DALLAS",
+      "contractor_score": 28,
+      "dba_name": null,
+      "entity_structure": "U.S. Government Entity",
+      "exclusion_status": "N",
+      "identity_id": "uei:EJCVPNN1WFS5",
+      "immediate_parent": {
+        "name": null,
+        "uei": null
+      },
+      "legal_business_name": "UNIVERSITY OF TEXAS AT DALLAS",
+      "naics": [
+        {
+          "code": "541715",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "611310",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        }
+      ],
+      "organization_structure": null,
+      "psc": [
+        {
+          "code": null,
+          "name": null
+        }
+      ],
+      "purpose_of_registration": "All Awards",
+      "registration_expiration_date": "2027-02-06",
+      "registration_status": "Active",
+      "resolution_basis": "exact UEI match",
+      "resolution_confidence": "high",
+      "resolution_status": "resolved",
+      "sba_business_types": [],
+      "source_url": "https://sam.gov/entity/EJCVPNN1WFS5/coreData",
+      "uei": "EJCVPNN1WFS5",
       "ultimate_parent": {
         "name": null,
         "uei": null
@@ -12224,7 +12224,7 @@
       "aliases": [
         "GENERAL ELECTRIC COMPANY"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "candidates": [
         {
           "cage_code": "28339",
@@ -13927,6 +13927,6 @@
     "tracked_contractors": 75,
     "uei_coverage_percent": 136.0
   },
-  "updated_at": "2026-10-31T03:36:55.156376+00:00",
+  "updated_at": "2026-11-01T03:42:33.290574+00:00",
   "version": 1
 }
