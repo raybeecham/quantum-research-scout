@@ -1,15 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-01T20:45:54.211283+00:00",
+  "updated_at": "2026-11-01T21:46:05.750786+00:00",
   "records": {
-    "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager": {
-      "image_url": "https://res.infoq.com/news/2026/10/cf-pq-geokey-manager/en/headerimage/generatedHeaderImage-1793376907936.jpg",
-      "page_url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager",
-      "publisher": "InfoQ Quantum Computing",
-      "provenance": "og:image",
-      "fetched_at": "2026-10-31T20:48:18.613172+00:00",
-      "status": "ok"
-    },
     "https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-253.png",
       "page_url": "https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration",
@@ -96,6 +88,14 @@
       "publisher": "Quantum Computing Report",
       "provenance": "og:image",
       "fetched_at": "2026-10-31T04:46:39.793265+00:00",
+      "status": "ok"
+    },
+    "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager": {
+      "image_url": "https://res.infoq.com/news/2026/10/cf-pq-geokey-manager/en/headerimage/generatedHeaderImage-1793376907936.jpg",
+      "page_url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager",
+      "publisher": "InfoQ Quantum Computing",
+      "provenance": "og:image",
+      "fetched_at": "2026-10-31T20:48:18.613172+00:00",
       "status": "ok"
     },
     "https://quantumcomputingreport.com/lumen-expands-quantum-footprint-with-ohio-state-fiber-research-and-fortinet-pqc-sase-rollout": {
@@ -627,11 +627,6 @@
       "status": "unavailable",
       "fetched_at": "2026-11-01T05:46:17.157197+00:00"
     },
-    "https://eprint.iacr.org/2026/2660": {
-      "page_url": "https://eprint.iacr.org/2026/2660",
-      "status": "failed",
-      "fetched_at": "2026-10-31T20:48:18.613172+00:00"
-    },
     "https://quantumzeitgeist.com/aws-adds-encryption-method-guard": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/duokey-lets-you-test-post-quantum-key-exchange-1200x630.png",
       "page_url": "https://quantumzeitgeist.com/aws-adds-encryption-method-guard",
@@ -1105,6 +1100,20 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-29T03:46:08.263511+00:00",
       "status": "ok"
+    },
+    "https://quantumzeitgeist.com/quantum-safe-helps-firms-ibm": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/ibm-quantum-safe-helps-firms-plan-1200x630.jpeg",
+      "page_url": "https://quantumzeitgeist.com/quantum-safe-helps-firms-ibm",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-01T21:46:05.750786+00:00",
+      "status": "ok"
+    },
+    "https://eprint.iacr.org/2026/2660": {
+      "page_url": "https://eprint.iacr.org/2026/2660",
+      "fetched_at": "2026-11-01T21:46:05.750786+00:00",
+      "status": "failed",
+      "reason": "http_403"
     }
   }
 }

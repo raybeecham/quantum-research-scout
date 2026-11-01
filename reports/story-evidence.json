@@ -5336,6 +5336,25 @@
         }
       ]
     },
+    "https://quantumzeitgeist.com/quantum-safe-helps-firms-ibm": {
+      "captures": [
+        {
+          "excerpts": [
+            "IBM Quantum Safe enables firms to plan for post-quantum cryptography migration, as research indicates fault-tolerant quantum computing by 2030"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-01",
+              "report_date": "2026-11-01",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/quantum-safe-helps-firms-ibm"
+            }
+          ],
+          "title": "IBM Quantum Safe helps firms plan a move to quantum-resistant data"
+        }
+      ]
+    },
     "https://quantumzeitgeist.com/quantum-safe-payment-cards-idemia-gets": {
       "captures": [
         {
@@ -8303,6 +8322,22 @@
             {
               "published_date": "2026-10-31",
               "report_date": "2026-10-31",
+              "sequence": 1,
+              "source": "InfoQ Quantum Computing",
+              "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager"
+            }
+          ],
+          "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption"
+        },
+        {
+          "excerpts": [
+            "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022",
+            "Keys live only in kernel memory on verified regional servers, and any failed check rejects the request, a fail-closed choice practitioners ask could cause a regional outage"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-31",
+              "report_date": "2026-11-01",
               "sequence": 1,
               "source": "InfoQ Quantum Computing",
               "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager"
