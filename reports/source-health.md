@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-02 12:46 UTC_
+_Updated 2026-11-02 13:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -14,14 +14,14 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
-| ETSI Quantum Standards News | watch | 89% | 23 | 0 | 2026-11-02 | 2026-09-24 | stale | 🟢 healthy |
-| White House Science and Technology Missions | watch | 85% | 23 | 0 | 2026-11-02 | 2026-09-29 | stale | 🟢 healthy |
+| ETSI Quantum Standards News | watch | 90% | 23 | 0 | 2026-11-02 | 2026-09-24 | stale | 🟢 healthy |
+| White House Science and Technology Missions | watch | 86% | 23 | 0 | 2026-11-02 | 2026-09-29 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 95% | 13 | 0 | 2026-11-02 | 2026-10-23 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 63% | 10 | 0 | 2026-11-02 | 2026-10-28 | fresh | 🔴 failing |
 | arXiv Quantum Computing | arxiv | 63% | 10 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🔴 failing |
 | arXiv Quantum Networking and Sensing | arxiv | 65% | 10 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🔴 failing |
 | Quantum Computing Report | rss | 84% | 6 | 0 | 2026-11-02 | 2026-10-31 | fresh | 🟢 healthy |
-| Google Quantum AI | watch | 65% | 4 | 0 | 2026-11-02 | 2026-10-15 | fresh | 🔴 failing |
+| Google Quantum AI | watch | 64% | 4 | 0 | 2026-11-02 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Computing Patents | patent | 92% | 4 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 84% | 2 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 84% | 2 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
@@ -46,7 +46,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-02 | — | reference | 🟢 healthy |
-| DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-30 | fresh | 🟢 healthy |
+| DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 0 | 2026-11-02 | 2024-03-12 | reference | 🟢 healthy |
 | Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-08 | stale | 🟢 healthy |

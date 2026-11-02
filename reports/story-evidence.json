@@ -1048,6 +1048,21 @@
             }
           ],
           "title": "Time-Domain Multiplexing for Resource-Efficient Heralded GKP State Preparation"
+        },
+        {
+          "excerpts": [
+            "Gottesman-Kitaev-Preskill (GKP) states are key resources for fault-tolerant photonic quantum computing, but their conditional preparation via Gaussian boson sampling involves a trade-off between source count and..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-01",
+              "report_date": "2026-11-02",
+              "sequence": 3,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.41341"
+            }
+          ],
+          "title": "Time-Domain Multiplexing for Resource-Efficient Heralded GKP State Preparation"
         }
       ]
     },
@@ -3097,6 +3112,13 @@
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration"
+            },
+            {
+              "published_date": "2026-10-31",
+              "report_date": "2026-11-02",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration"
             }
           ],
           "title": "IBM Launches Unified Quantum Safe Software Suite to Automate Enterprise PQC Migration"
@@ -4608,6 +4630,25 @@
         }
       ]
     },
+    "https://quantumzeitgeist.com/amazon-braket-track-post-quantum-adoption": {
+      "captures": [
+        {
+          "excerpts": [
+            "Amazon CloudFront now reveals TLS details, including whether connections use post-quantum cryptography (PQC), letting you measure PQC usage and understand adoption rates"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-02",
+              "report_date": "2026-11-02",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/amazon-braket-track-post-quantum-adoption"
+            }
+          ],
+          "title": "Track post-quantum adoption with Amazon CloudFront’s new data"
+        }
+      ]
+    },
     "https://quantumzeitgeist.com/aws-adds-encryption-method-guard": {
       "captures": [
         {
@@ -5398,6 +5439,27 @@
             }
           ],
           "title": "Post-selection boosts quantum key rate, researchers find"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/qldpc-codes-decoding-time-tenfold-reduction-method": {
+      "captures": [
+        {
+          "excerpts": [
+            "This technical advance offers a path toward practical quantum error correction for systems encoding hundreds of logical qubits within approximately one thousand physical qubits",
+            "The Triage decoder achieves state-of-the-art accuracy comparable to optimal algorithmic methods while simultaneously decreasing decoding latency by one to two orders of magnitude",
+            "Can complex quantum data be decoded with both speed *and* precision?"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-02",
+              "report_date": "2026-11-02",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/qldpc-codes-decoding-time-tenfold-reduction-method"
+            }
+          ],
+          "title": "Researchers Cut qLDPC Code Decoding Time Tenfold with New Method"
         }
       ]
     },
