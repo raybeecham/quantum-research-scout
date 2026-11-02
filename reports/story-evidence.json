@@ -1015,6 +1015,22 @@
             }
           ],
           "title": "Time-Domain Multiplexing for Resource-Efficient Heralded GKP State Preparation"
+        },
+        {
+          "excerpts": [
+            "Gottesman-Kitaev-Preskill (GKP) states are key resources for fault-tolerant photonic quantum computing, but their conditional preparation via Gaussian boson sampling involves a trade-off between source count and...",
+            "Distilling Knowledge from Search: Decoder Model Factory for Quantum LDPC Codes — already featured in Strategic Signals. [Open item](https://arxiv.org/abs/2610.41398)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-01",
+              "report_date": "2026-11-02",
+              "sequence": 1,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.41341"
+            }
+          ],
+          "title": "Time-Domain Multiplexing for Resource-Efficient Heralded GKP State Preparation"
         }
       ]
     },
@@ -8448,6 +8464,25 @@
         }
       ]
     },
+    "https://thequantuminsider.com/2026/11/02/idemia-payment-cards-post-quantum-transition": {
+      "captures": [
+        {
+          "excerpts": [
+            "IDEMIA Secure Transactions receives EMVCo certification for a Java Card platform combining post-quantum cryptography and crypto-agility for payment cards"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-02",
+              "report_date": "2026-11-02",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/02/idemia-payment-cards-post-quantum-transition"
+            }
+          ],
+          "title": "IDEMIA Secure Transactions Receives EMVCo Certification for PQC Payment Cards"
+        }
+      ]
+    },
     "https://www.digicert.com/blog/digicert-drives-sae-evpki-trust-platform-launch": {
       "captures": [
         {
@@ -8627,6 +8662,23 @@
               "published_date": "2026-10-31",
               "report_date": "2026-11-02",
               "sequence": 0,
+              "source": "InfoQ Quantum Computing",
+              "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager"
+            }
+          ],
+          "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption"
+        },
+        {
+          "excerpts": [
+            "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022",
+            "Keys live only in kernel memory on verified regional servers, and any failed check rejects the request, a fail-closed choice practitioners ask could cause a regional outage",
+            "IDEMIA Secure Transactions Receives EMVCo Certification for PQC Payment Cards — already featured in Strategic Signals. [Open item](https://thequantuminsider.com/2026/11/02/idemia-payment-cards-post-quantum-transition)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-10-31",
+              "report_date": "2026-11-02",
+              "sequence": 1,
               "source": "InfoQ Quantum Computing",
               "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager"
             }
