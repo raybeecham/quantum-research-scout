@@ -384,7 +384,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 45,
+      "evidence_count": 46,
       "first_party_evidence_count": 6,
       "name": "IBM",
       "priority": "high",
@@ -1084,8 +1084,20 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 38,
+      "current_evidence_count": 39,
       "evidence": [
+        {
+          "date": "2026-11-01",
+          "key": "https://quantumzeitgeist.com/quantum-safe-helps-firms-ibm",
+          "report": "2026-11/2026-11-01-digest.md",
+          "score": 135,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "IBM Quantum Safe helps firms plan a move to quantum-resistant data",
+          "url": "https://quantumzeitgeist.com/quantum-safe-helps-firms-ibm"
+        },
         {
           "date": "2026-10-31",
           "key": "https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration",
@@ -1637,29 +1649,17 @@
           ],
           "title": "Former IBM Quantum Executive Denise Ruffner Joins Haiqu to Expand Quantum Software Adoption",
           "url": "https://thequantuminsider.com/2026/07/16/denise-ruffner-joins-haiqu-to-expand-quantum-software-adoption"
-        },
-        {
-          "date": "2026-07-15",
-          "key": "https://quantumzeitgeist.com/throughput-gain-ibm-quantums-reset",
-          "report": "2026-07/2026-07-15-digest.md",
-          "score": 36,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "25\u00d7 Throughput Gain From IBM Quantum\u2019s New Reset Design",
-          "url": "https://quantumzeitgeist.com/throughput-gain-ibm-quantums-reset"
         }
       ],
-      "evidence_count": 45,
+      "evidence_count": 46,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 7,
-      "latest_seen": "2026-10-31",
+      "latest_seen": "2026-11-01",
       "momentum": "rising",
       "name": "IBM",
       "prior_count": 2,
       "priority": "high",
-      "recent_count": 5,
+      "recent_count": 6,
       "status": "active",
       "themes": [
         "AI Security",
@@ -9635,8 +9635,20 @@
         "fault-tolerant quantum"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 29,
+      "current_evidence_count": 30,
       "evidence": [
+        {
+          "date": "2026-11-01",
+          "key": "https://quantumzeitgeist.com/quantum-surgery-logical-qubit-error-measurement",
+          "report": "2026-11/2026-11-01-digest.md",
+          "score": 97,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Researchers Measure Logical Qubit with 0.72% Error Using Quantum Surgery",
+          "url": "https://quantumzeitgeist.com/quantum-surgery-logical-qubit-error-measurement"
+        },
         {
           "date": "2026-10-19",
           "key": "https://thequantuminsider.com/2026/10/19/nvidia-runs-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre",
@@ -10202,16 +10214,16 @@
           "url": "https://atom-computing.com/improving-the-quality-reliability-and-robustness-of-logical-qubits/"
         }
       ],
-      "evidence_count": 38,
+      "evidence_count": 39,
       "first_seen": "2025-06-12",
       "historical_evidence_count": 9,
-      "latest_seen": "2026-10-19",
-      "momentum": "declining",
+      "latest_seen": "2026-11-01",
+      "momentum": "stable",
       "name": "Logical qubits",
       "prior_count": 1,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -11510,6 +11522,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-11-01T09:58:04.402097+00:00",
+  "updated_at": "2026-11-02T03:53:14.827534+00:00",
   "version": 2
 }

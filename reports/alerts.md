@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-01 03:53 UTC_
+_Updated 2026-11-02 03:53 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 48 | 4 | 12 | 5 | 31 |
+| 48 | 0 | 12 | 5 | 31 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -70,28 +70,28 @@ _Updated 2026-11-01 03:53 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 74.3% reliability with 3 warning day(s).
+- 🔴 66.8% reliability with 4 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography 🆕
+## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 64.5% reliability with 9 warning day(s).
+- 🔴 63.5% reliability with 10 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Computing 🆕
+## 🔴 Source failing: arXiv Quantum Computing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 64.5% reliability with 9 warning day(s).
+- 🔴 63.5% reliability with 10 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Networking and Sensing 🆕
+## 🔴 Source failing: arXiv Quantum Networking and Sensing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 66.1% reliability with 9 warning day(s).
+- 🔴 65.1% reliability with 10 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -108,7 +108,7 @@ _Updated 2026-11-01 03:53 UTC_
 - 🎯 Quantum Networking is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Product Launch: IBM 🆕
+## 🟠 Product Launch: IBM
 
 - Severity: **high**
 - Status: **product-launch**
@@ -127,7 +127,7 @@ _Updated 2026-11-01 03:53 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 15 versus 3 in the prior period.
+- ↗️ Recent evidence is 16 versus 3 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News

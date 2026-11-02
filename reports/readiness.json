@@ -1637,16 +1637,32 @@
     },
     {
       "confidence": "medium",
-      "evidence_count": 2,
+      "evidence_count": 3,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-10-31",
+      "latest_evidence_at": "2026-11-01",
       "name": "IBM",
       "priority": "high",
-      "source_count": 2,
+      "source_count": 3,
       "stage": "awareness",
       "stage_label": "Awareness",
       "stage_rank": 1,
       "supporting_evidence": [
+        {
+          "date": "2026-11-01",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "quantum safe",
+            "quantum-resistant"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "IBM Quantum Safe helps firms plan a move to quantum-resistant data",
+          "url": "https://quantumzeitgeist.com/quantum-safe-helps-firms-ibm"
+        },
         {
           "date": "2026-10-31",
           "date_confidence": "unknown",
@@ -2169,6 +2185,6 @@
     "not_assessed": 20,
     "organizations": 43
   },
-  "updated_at": "2026-11-01T09:58:04.402097+00:00",
+  "updated_at": "2026-11-02T03:53:15.751550+00:00",
   "version": 1
 }
