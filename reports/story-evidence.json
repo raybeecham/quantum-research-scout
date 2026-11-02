@@ -882,6 +882,149 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2610.40744": {
+      "captures": [
+        {
+          "excerpts": [
+            "With the progressive capabilities of large language models (LLMs), researchers are finding ways to integrate them into the control loops of Open Radio Access Network (O-RAN) to enable slicing and resource management..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-01",
+              "report_date": "2026-11-01",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2610.40744"
+            }
+          ],
+          "title": "CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.41017": {
+      "captures": [
+        {
+          "excerpts": [
+            "Here, we realize a bosonic FCI on an IBM Nighthawk superconducting quantum processor using classically optimized variational circuits",
+            "Fractional Chern insulators (FCIs) are lattice analogues of fractional quantum Hall states, hosting topological order and fractionalized anyonic excitations",
+            "Their realization poses a demanding target for quantum simulation"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-01",
+              "report_date": "2026-11-01",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.41017"
+            }
+          ],
+          "title": "Preparation of a Laughlin-like fractional Chern insulator on a superconducting quantum processor"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.41033": {
+      "captures": [
+        {
+          "excerpts": [
+            "A quantum oscillator always carries vacuum fluctuations, and modulating its parameters converts them into correlated pairs of real quanta",
+            "This vacuum amplification underlies squeezed light and Hawking radiation",
+            "In a closed quadratic system, pair creation competes with the energy splitting of the modes, and growth turns exponential only once pairing overcomes the splitting"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-01",
+              "report_date": "2026-11-01",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.41033"
+            }
+          ],
+          "title": "Vacuum amplification across a programmable bosonic Bogoliubov stability boundary in a trapped-ion chain"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.41055": {
+      "captures": [
+        {
+          "excerpts": [
+            "Announce Type: cross Abstract: Federated reinforcement learning supports cooperative vehicular routing without centralizing trajectory data, but model updates may reveal private information and incur communication..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-01",
+              "report_date": "2026-11-01",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2610.41055"
+            }
+          ],
+          "title": "Communication-Efficient Private Federated Reinforcement Learning with Post-Quantum Authentication for Vehicular Networks"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.41341": {
+      "captures": [
+        {
+          "excerpts": [
+            "Gottesman-Kitaev-Preskill (GKP) states are key resources for fault-tolerant photonic quantum computing, but their conditional preparation via Gaussian boson sampling involves a trade-off between source count and...",
+            "Distilling Knowledge from Search: Decoder Model Factory for Quantum LDPC Codes — already featured in Strategic Signals. [Open item](https://arxiv.org/abs/2610.41398)",
+            "Real-time BP decoding of a high-rate QEC code — already featured in Strategic Signals. [Open item](https://arxiv.org/abs/2610.41413)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-01",
+              "report_date": "2026-11-01",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.41341"
+            }
+          ],
+          "title": "Time-Domain Multiplexing for Resource-Efficient Heralded GKP State Preparation"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.41413": {
+      "captures": [
+        {
+          "excerpts": [
+            "We present a real-time FPGA decoder for a high-rate $[[512,174,8]]$ 3D product qLDPC code",
+            "The decoder matches $\\text{BP+OSD-CS}_\\text{10}$ accuracy with one core and Relay-BP accuracy with three cores",
+            "We construct a circuit-level detector-error model for a compact syndrome-extraction schedule and propose a small parallel ensemble of row-wise serial min-sum decoders with cumulative memory"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-01",
+              "report_date": "2026-11-01",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.41413"
+            }
+          ],
+          "title": "Real-time BP decoding of a high-rate QEC code"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2610.41998": {
+      "captures": [
+        {
+          "excerpts": [
+            "The existing best-defended LLM, Meta-SecAlign, is trained with the DPO loss but still suffers from attack success rates (ASRs) approaching 100% under adaptive prompt injections",
+            "Recognized as a top threat to AI agents, prompt injection allows instructions from untrusted data (email, documents, websites) to manipulate the agent's operation",
+            "One reason is that DPO anchors the model around the undefended reference model, which is insecure"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-01",
+              "report_date": "2026-11-01",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2610.41998"
+            }
+          ],
+          "title": "SecPO: Principled Adversarial Training for Prompt Injection Security"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
