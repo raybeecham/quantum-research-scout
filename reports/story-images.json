@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T21:46:59.433544+00:00",
+  "updated_at": "2026-11-02T22:46:19.141877+00:00",
   "records": {
     "https://quantumzeitgeist.com/stealthcores-quantum-resistant-keys-stealthpq-uses": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/stealthpq-uses-quantum-resistant-keys-against-1200x630.jpg",
@@ -123,20 +123,20 @@
       "fetched_at": "2026-11-02T09:46:31.415790+00:00",
       "status": "ok"
     },
-    "https://quantumzeitgeist.com/kisti-quantum-computer-next-year-korea": {
-      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/korea-institutes-hangang-system-will-link-to-a-1-1200x630.jpg",
-      "page_url": "https://quantumzeitgeist.com/kisti-quantum-computer-next-year-korea",
-      "publisher": "Quantum Zeitgeist",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-02T20:46:19.303118+00:00",
-      "status": "ok"
-    },
     "https://quantumzeitgeist.com/exequantum-bluebik-partnership-titans-thailands-quantum": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/exequantum-bluebik-titans-partner-on-thailands-quantum-security.webp",
       "page_url": "https://quantumzeitgeist.com/exequantum-bluebik-partnership-titans-thailands-quantum",
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-11-02T08:46:38.819893+00:00",
+      "status": "ok"
+    },
+    "https://quantumzeitgeist.com/kisti-quantum-computer-next-year-korea": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/korea-institutes-hangang-system-will-link-to-a-1-1200x630.jpg",
+      "page_url": "https://quantumzeitgeist.com/kisti-quantum-computer-next-year-korea",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-02T20:46:19.303118+00:00",
       "status": "ok"
     },
     "https://quantumzeitgeist.com/qldpc-codes-decoding-time-tenfold-reduction-method": {
@@ -784,6 +784,11 @@
       "status": "unavailable",
       "fetched_at": "2026-11-02T06:45:51.941831+00:00"
     },
+    "https://eprint.iacr.org/2026/2660": {
+      "page_url": "https://eprint.iacr.org/2026/2660",
+      "status": "failed",
+      "fetched_at": "2026-11-02T21:46:59.433544+00:00"
+    },
     "https://quantumzeitgeist.com/aws-adds-encryption-method-guard": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/duokey-lets-you-test-post-quantum-key-exchange-1200x630.png",
       "page_url": "https://quantumzeitgeist.com/aws-adds-encryption-method-guard",
@@ -1138,12 +1143,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-27T00:07:21.385584+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2660": {
-      "page_url": "https://eprint.iacr.org/2026/2660",
-      "fetched_at": "2026-11-02T21:46:59.433544+00:00",
-      "status": "failed",
-      "reason": "http_403"
     }
   }
 }
