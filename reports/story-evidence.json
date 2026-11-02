@@ -1031,6 +1031,23 @@
             }
           ],
           "title": "Time-Domain Multiplexing for Resource-Efficient Heralded GKP State Preparation"
+        },
+        {
+          "excerpts": [
+            "Gottesman-Kitaev-Preskill (GKP) states are key resources for fault-tolerant photonic quantum computing, but their conditional preparation via Gaussian boson sampling involves a trade-off between source count and...",
+            "Maryland Team Charts Fault Tolerance in Quantum Circuits — already featured in Strategic Signals. [Open item](https://quantumzeitgeist.com/quantum-circuits-fault-tolerance-spacetime-code-distances)",
+            "Distilling Knowledge from Search: Decoder Model Factory for Quantum LDPC Codes — already featured in Strategic Signals. [Open item](https://arxiv.org/abs/2610.41398)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-01",
+              "report_date": "2026-11-02",
+              "sequence": 2,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2610.41341"
+            }
+          ],
+          "title": "Time-Domain Multiplexing for Resource-Efficient Heralded GKP State Preparation"
         }
       ]
     },
@@ -5263,6 +5280,27 @@
         }
       ]
     },
+    "https://quantumzeitgeist.com/neutral-atom-quantum-computing-loss-decoder": {
+      "captures": [
+        {
+          "excerpts": [
+            "This advance extends successful loss-based strategies beyond surface codes, opening avenues for more resilient neutral atom qubits",
+            "By accounting for correlated atom losses, where losing one qubit often means its partner is lost too, this work unlocks improved performance without overhauling established error correction protocols",
+            "A quantum computation’s reliability just took a leap forward: new decoding techniques reduce errors by up to 25× compared with existing methods"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-02",
+              "report_date": "2026-11-02",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/neutral-atom-quantum-computing-loss-decoder"
+            }
+          ],
+          "title": "Researchers Cut Quantum Errors 25x with New Atom-Loss Decoder"
+        }
+      ]
+    },
     "https://quantumzeitgeist.com/nist-post-quantum-3-8-billion": {
       "captures": [
         {
@@ -5380,6 +5418,26 @@
             }
           ],
           "title": "Syracuse University Bounds Quantum Channel Advantages"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/quantum-circuits-fault-tolerance-spacetime-code-distances": {
+      "captures": [
+        {
+          "excerpts": [
+            "Before now, understanding exactly *where* quantum error correction fails required painstakingly tracing errors through complex calculations",
+            "This work introduces an algebraic framework, a shortcut, to pinpoint those failure points in dynamic codes lacking fixed stabilizers, offering unprecedented insight into building more resilient systems"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-02",
+              "report_date": "2026-11-02",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/quantum-circuits-fault-tolerance-spacetime-code-distances"
+            }
+          ],
+          "title": "Maryland Team Charts Fault Tolerance in Quantum Circuits"
         }
       ]
     },
