@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-02 14:46 UTC_
+_Updated 2026-11-02 15:44 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -26,7 +26,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv RSS cs.CR | arxiv_rss | 84% | 2 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 84% | 2 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 100% | 1 | 0 | 2026-11-02 | 2026-10-30 | fresh | 🟢 healthy |
-| Quantum Journal | rss | 96% | 1 | 0 | 2026-11-02 | 2026-10-30 | fresh | 🟢 healthy |
+| Quantum Journal | rss | 96% | 1 | 0 | 2026-11-02 | 2026-10-30 | fresh | 🔴 failing |
 | Quantum Zeitgeist | rss | 97% | 1 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 19 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-21 | fresh | 🟢 healthy |
@@ -43,7 +43,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-23 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-06 | stale | 🟢 healthy |
-| DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
+| DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-30 | fresh | 🟢 healthy |
 | DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-02 | — | reference | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
@@ -126,7 +126,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **104** of **108**
+- Healthy sources: **103** of **108**
 - Partial-coverage sources: **0**
 - Critical sources failing: **0**
 
