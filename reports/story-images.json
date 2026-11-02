@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-01T23:46:41.348417+00:00",
+  "updated_at": "2026-11-02T00:45:53.782176+00:00",
   "records": {
     "https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-253.png",
@@ -767,6 +767,11 @@
       "status": "unavailable",
       "fetched_at": "2026-11-01T08:46:25.346669+00:00"
     },
+    "https://eprint.iacr.org/2026/2653": {
+      "page_url": "https://eprint.iacr.org/2026/2653",
+      "status": "failed",
+      "fetched_at": "2026-11-01T23:46:41.348417+00:00"
+    },
     "https://arxiv.org/abs/2610.36145": {
       "page_url": "https://arxiv.org/abs/2610.36145",
       "status": "unavailable",
@@ -1108,12 +1113,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-29T03:46:08.263511+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2653": {
-      "page_url": "https://eprint.iacr.org/2026/2653",
-      "fetched_at": "2026-11-01T23:46:41.348417+00:00",
-      "status": "failed",
-      "reason": "http_403"
     }
   }
 }
