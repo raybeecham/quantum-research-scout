@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-02 13:46 UTC_
+_Updated 2026-11-02 14:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -39,7 +39,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | CISA Cybersecurity Advisories | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-30 | fresh | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-26 | fresh | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-02 | 2026-10-22 | fresh | 🟢 healthy |
-| Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-30 | fresh | 🟢 healthy |
+| Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-23 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-06 | stale | 🟢 healthy |
@@ -83,10 +83,10 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | NCSC UK Guidance | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-15 | stale | 🟢 healthy |
 | NCSC UK News | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-21 | fresh | 🟢 healthy |
 | NCSC UK Reports | rss | 100% | 0 | 0 | 2026-11-02 | 2025-05-07 | stale | 🟢 healthy |
-| NIST CSRC News | url | 100% | 0 | 0 | 2026-11-02 | 2026-10-26 | fresh | 🟢 healthy |
+| NIST CSRC News | url | 100% | 0 | 0 | 2026-11-02 | 2026-10-30 | fresh | 🟢 healthy |
 | NIST Cybersecurity Insights | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-27 | fresh | 🟢 healthy |
 | NIST Post-Quantum Cryptography Project | watch | 100% | 0 | 0 | 2026-11-02 | 2025-03-07 | reference | 🟢 healthy |
-| NIST Research News | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-27 | fresh | 🟢 healthy |
+| NIST Research News | watch | 100% | 0 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
 | NSF Strategic Science and Technology Missions | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-08 | stale | 🟢 healthy |
 | Open Quantum Safe | rss | 100% | 0 | 0 | 2026-11-02 | 2026-07-09 | stale | 🟢 healthy |
 | OpenSSL Library Releases | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-23 | fresh | 🟢 healthy |
