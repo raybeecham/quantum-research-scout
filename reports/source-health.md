@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-02 16:46 UTC_
+_Updated 2026-11-02 17:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -21,7 +21,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv Quantum Computing | arxiv | 63% | 10 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🔴 failing |
 | arXiv Quantum Networking and Sensing | arxiv | 65% | 10 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🔴 failing |
 | Quantum Computing Report | rss | 85% | 6 | 0 | 2026-11-02 | 2026-10-31 | fresh | 🟢 healthy |
-| Google Quantum AI | watch | 64% | 4 | 0 | 2026-11-02 | 2026-10-15 | fresh | 🔴 failing |
+| Google Quantum AI | watch | 63% | 4 | 0 | 2026-11-02 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Computing Patents | patent | 92% | 4 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 84% | 2 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 84% | 2 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
@@ -90,7 +90,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | NSF Strategic Science and Technology Missions | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-08 | stale | 🟢 healthy |
 | Open Quantum Safe | rss | 100% | 0 | 0 | 2026-11-02 | 2026-07-09 | stale | 🟢 healthy |
 | OpenSSL Library Releases | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-23 | fresh | 🟢 healthy |
-| PQCA Blog and News | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-20 | fresh | 🟢 healthy |
+| PQCA Blog and News | rss | 100% | 0 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
 | PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-20 | fresh | 🟢 healthy |
 | PQShield | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-23 | fresh | 🟢 healthy |
 | Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
