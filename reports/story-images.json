@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T18:47:13.911279+00:00",
+  "updated_at": "2026-11-02T19:46:42.150987+00:00",
   "records": {
     "https://quantumzeitgeist.com/qtonic-quantum-operations-names-ex-nato": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/qtonic-quantum-names-ex-nato-commander-1200x630.jpg",
@@ -583,11 +583,6 @@
       "fetched_at": "2026-10-30T01:46:01.181127+00:00",
       "status": "ok"
     },
-    "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready": {
-      "page_url": "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready",
-      "status": "unavailable",
-      "fetched_at": "2026-11-01T19:46:33.794057+00:00"
-    },
     "https://quantumzeitgeist.com/quantum-safe-payment-cards-idemia-gets": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/idemia-gets-first-emvco-certification-quantum-1200x630.png",
       "page_url": "https://quantumzeitgeist.com/quantum-safe-payment-cards-idemia-gets",
@@ -752,11 +747,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-28T13:45:19.488303+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2658": {
-      "page_url": "https://eprint.iacr.org/2026/2658",
-      "status": "failed",
-      "fetched_at": "2026-11-01T19:46:33.794057+00:00"
     },
     "https://arxiv.org/abs/2610.39476v1": {
       "page_url": "https://arxiv.org/abs/2610.39476v1",
@@ -1122,6 +1112,17 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-27T00:07:21.385584+00:00",
       "status": "ok"
+    },
+    "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready": {
+      "page_url": "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready",
+      "fetched_at": "2026-11-02T19:46:42.150987+00:00",
+      "status": "unavailable"
+    },
+    "https://eprint.iacr.org/2026/2658": {
+      "page_url": "https://eprint.iacr.org/2026/2658",
+      "fetched_at": "2026-11-02T19:46:42.150987+00:00",
+      "status": "failed",
+      "reason": "http_403"
     }
   }
 }

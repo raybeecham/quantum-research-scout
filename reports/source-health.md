@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-02 18:47 UTC_
+_Updated 2026-11-02 19:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -83,7 +83,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | NCSC UK Guidance | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-15 | stale | 🟢 healthy |
 | NCSC UK News | rss | 100% | 0 | 0 | 2026-11-02 | 2026-10-21 | fresh | 🟢 healthy |
 | NCSC UK Reports | rss | 100% | 0 | 0 | 2026-11-02 | 2025-05-07 | stale | 🟢 healthy |
-| NIST CSRC News | url | 100% | 0 | 0 | 2026-11-02 | 2026-10-30 | fresh | 🟢 healthy |
+| NIST CSRC News | url | 100% | 0 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
 | NIST Cybersecurity Insights | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-27 | fresh | 🟢 healthy |
 | NIST Post-Quantum Cryptography Project | watch | 100% | 0 | 0 | 2026-11-02 | 2025-03-07 | reference | 🟢 healthy |
 | NIST Research News | watch | 100% | 0 | 0 | 2026-11-02 | 2026-11-02 | fresh | 🟢 healthy |
