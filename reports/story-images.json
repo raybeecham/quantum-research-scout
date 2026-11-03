@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T18:47:10.075927+00:00",
+  "updated_at": "2026-11-03T19:47:40.421949+00:00",
   "records": {
     "https://quantumzeitgeist.com/government-cipher-vietnam-drafts-standards-fend": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/vietnam-drafts-standards-to-fend-off-future-quantum-1200x630.webp",
@@ -722,11 +722,6 @@
       "fetched_at": "2026-10-30T01:46:01.181127+00:00",
       "status": "ok"
     },
-    "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready": {
-      "page_url": "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready",
-      "status": "unavailable",
-      "fetched_at": "2026-11-02T19:46:42.150987+00:00"
-    },
     "https://quantumzeitgeist.com/quantum-safe-payment-cards-idemia-gets": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/idemia-gets-first-emvco-certification-quantum-1200x630.png",
       "page_url": "https://quantumzeitgeist.com/quantum-safe-payment-cards-idemia-gets",
@@ -891,11 +886,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-28T13:45:19.488303+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2658": {
-      "page_url": "https://eprint.iacr.org/2026/2658",
-      "status": "failed",
-      "fetched_at": "2026-11-02T19:46:42.150987+00:00"
     },
     "https://arxiv.org/abs/2610.39476v1": {
       "page_url": "https://arxiv.org/abs/2610.39476v1",
@@ -1137,6 +1127,17 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-29T04:00:21.218491+00:00",
       "status": "ok"
+    },
+    "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready": {
+      "page_url": "https://ionq.com/blog/protecting-the-network-before-the-network-is-ready",
+      "fetched_at": "2026-11-03T19:47:40.421949+00:00",
+      "status": "unavailable"
+    },
+    "https://eprint.iacr.org/2026/2658": {
+      "page_url": "https://eprint.iacr.org/2026/2658",
+      "fetched_at": "2026-11-03T19:47:40.421949+00:00",
+      "status": "failed",
+      "reason": "http_403"
     }
   }
 }
