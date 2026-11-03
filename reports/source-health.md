@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-03 07:46 UTC_
+_Updated 2026-11-03 08:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -15,7 +15,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
 | ETSI Quantum Standards News | watch | 90% | 23 | 0 | 2026-11-03 | 2026-09-24 | stale | 🟢 healthy |
-| White House Science and Technology Missions | watch | 86% | 23 | 0 | 2026-11-03 | 2026-09-29 | stale | 🟢 healthy |
+| White House Science and Technology Missions | watch | 87% | 23 | 0 | 2026-11-03 | 2026-09-29 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 95% | 13 | 0 | 2026-11-03 | 2026-10-23 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 63% | 10 | 0 | 2026-11-02 | 2026-10-28 | fresh | 🔴 failing |
 | arXiv Quantum Computing | arxiv | 63% | 10 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🔴 failing |
@@ -23,8 +23,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Computing Report | rss | 86% | 6 | 0 | 2026-11-03 | 2026-11-02 | fresh | 🟢 healthy |
 | Google Quantum AI | watch | 60% | 4 | 0 | 2026-11-03 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Computing Patents | patent | 92% | 4 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
-| arXiv RSS cs.CR | arxiv_rss | 84% | 2 | 0 | 2026-11-03 | 2026-11-02 | fresh | 🔴 failing |
-| arXiv RSS quant-ph | arxiv_rss | 84% | 2 | 0 | 2026-11-03 | 2026-11-02 | fresh | 🔴 failing |
+| arXiv RSS cs.CR | arxiv_rss | 83% | 2 | 0 | 2026-11-03 | 2026-11-02 | fresh | 🔴 failing |
+| arXiv RSS quant-ph | arxiv_rss | 83% | 2 | 0 | 2026-11-03 | 2026-11-02 | fresh | 🔴 failing |
 | Department of War Strategic Technology Releases | watch | 100% | 1 | 0 | 2026-11-03 | 2026-10-30 | fresh | 🟢 healthy |
 | Quantum Journal | rss | 96% | 1 | 0 | 2026-11-03 | 2026-10-30 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 97% | 1 | 0 | 2026-11-03 | 2026-11-02 | fresh | 🟢 healthy |
@@ -93,7 +93,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | PQCA Blog and News | rss | 100% | 0 | 0 | 2026-11-03 | 2026-11-02 | fresh | 🟢 healthy |
 | PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-11-03 | 2026-10-20 | fresh | 🟢 healthy |
 | PQShield | rss | 100% | 0 | 0 | 2026-11-03 | 2026-10-23 | fresh | 🟢 healthy |
-| Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-03 | 2026-11-02 | fresh | 🟢 healthy |
+| Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-03 | 2026-11-03 | fresh | 🟢 healthy |
 | Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | PsiQuantum News | watch | 100% | 0 | 0 | 2026-11-03 | 2026-10-28 | fresh | 🟢 healthy |
 | QCi Press Releases | watch | 100% | 0 | 0 | 2026-11-03 | 2026-10-28 | fresh | 🟢 healthy |
