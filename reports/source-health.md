@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-03 15:46 UTC_
+_Updated 2026-11-03 16:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -21,7 +21,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv Quantum Computing | arxiv | 63% | 10 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🔴 failing |
 | arXiv Quantum Networking and Sensing | arxiv | 65% | 10 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🔴 failing |
 | Quantum Computing Report | rss | 86% | 6 | 0 | 2026-11-03 | 2026-11-02 | fresh | 🟢 healthy |
-| Google Quantum AI | watch | 59% | 4 | 0 | 2026-11-03 | 2026-10-15 | fresh | 🔴 failing |
+| Google Quantum AI | watch | 58% | 4 | 0 | 2026-11-03 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Computing Patents | patent | 92% | 4 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 84% | 2 | 0 | 2026-11-03 | 2026-11-03 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 84% | 2 | 0 | 2026-11-03 | 2026-11-03 | fresh | 🟢 healthy |
@@ -36,7 +36,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-03 | 2026-10-07 | stale | 🟢 healthy |
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-11-03 | 2026-09-29 | stale | 🟢 healthy |
-| CISA Cybersecurity Advisories | rss | 100% | 0 | 0 | 2026-11-03 | 2026-10-30 | fresh | 🟢 healthy |
+| CISA Cybersecurity Advisories | rss | 100% | 0 | 0 | 2026-11-03 | 2026-11-03 | fresh | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-11-03 | 2026-10-26 | fresh | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-02 | 2026-10-22 | fresh | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-03 | 2026-11-03 | fresh | 🟢 healthy |
