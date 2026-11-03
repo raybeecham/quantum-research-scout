@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T02:45:51.903085+00:00",
+  "updated_at": "2026-11-03T03:46:22.428226+00:00",
   "records": {
     "https://quantumzeitgeist.com/stealthcores-quantum-resistant-keys-stealthpq-uses": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/stealthpq-uses-quantum-resistant-keys-against-1200x630.jpg",
@@ -931,11 +931,6 @@
       "status": "unavailable",
       "fetched_at": "2026-11-02T06:45:51.941831+00:00"
     },
-    "https://eprint.iacr.org/2026/2654": {
-      "page_url": "https://eprint.iacr.org/2026/2654",
-      "status": "failed",
-      "fetched_at": "2026-11-02T02:46:45.690516+00:00"
-    },
     "https://arxiv.org/abs/2610.33185": {
       "page_url": "https://arxiv.org/abs/2610.33185",
       "status": "unavailable",
@@ -1143,6 +1138,12 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-27T00:07:21.385584+00:00",
       "status": "ok"
+    },
+    "https://eprint.iacr.org/2026/2654": {
+      "page_url": "https://eprint.iacr.org/2026/2654",
+      "fetched_at": "2026-11-03T03:46:22.428226+00:00",
+      "status": "failed",
+      "reason": "http_403"
     }
   }
 }
