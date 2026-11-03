@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T06:45:49.543485+00:00",
+  "updated_at": "2026-11-03T07:46:02.438796+00:00",
   "records": {
     "https://thequantuminsider.com/2026/11/02/hkust-hkma-launch-pqc-toolkit-banks": {
       "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-02_18-54.png",
@@ -586,11 +586,6 @@
       "status": "unavailable",
       "fetched_at": "2026-11-02T07:46:21.249496+00:00"
     },
-    "https://eprint.iacr.org/2026/2665": {
-      "page_url": "https://eprint.iacr.org/2026/2665",
-      "status": "failed",
-      "fetched_at": "2026-11-02T06:45:51.941831+00:00"
-    },
     "https://arxiv.org/abs/2610.38479": {
       "page_url": "https://arxiv.org/abs/2610.38479",
       "status": "unavailable",
@@ -800,11 +795,6 @@
       "status": "failed",
       "fetched_at": "2026-11-02T19:46:42.150987+00:00"
     },
-    "https://arxiv.org/abs/2610.39476v1": {
-      "page_url": "https://arxiv.org/abs/2610.39476v1",
-      "status": "unavailable",
-      "fetched_at": "2026-11-02T06:45:51.941831+00:00"
-    },
     "https://eprint.iacr.org/2026/2660": {
       "page_url": "https://eprint.iacr.org/2026/2660",
       "status": "failed",
@@ -942,16 +932,6 @@
       "status": "failed",
       "fetched_at": "2026-11-03T00:47:03.283486+00:00"
     },
-    "https://arxiv.org/abs/2610.36145": {
-      "page_url": "https://arxiv.org/abs/2610.36145",
-      "status": "unavailable",
-      "fetched_at": "2026-11-02T06:45:51.941831+00:00"
-    },
-    "https://arxiv.org/abs/2610.36808": {
-      "page_url": "https://arxiv.org/abs/2610.36808",
-      "status": "unavailable",
-      "fetched_at": "2026-11-02T06:45:51.941831+00:00"
-    },
     "https://eprint.iacr.org/2026/2654": {
       "page_url": "https://eprint.iacr.org/2026/2654",
       "status": "failed",
@@ -1018,21 +998,6 @@
       "fetched_at": "2026-10-29T04:00:21.218491+00:00",
       "status": "ok"
     },
-    "https://arxiv.org/abs/2610.36711": {
-      "page_url": "https://arxiv.org/abs/2610.36711",
-      "status": "unavailable",
-      "fetched_at": "2026-11-02T06:45:51.941831+00:00"
-    },
-    "https://arxiv.org/abs/2610.37454": {
-      "page_url": "https://arxiv.org/abs/2610.37454",
-      "status": "unavailable",
-      "fetched_at": "2026-11-02T06:45:51.941831+00:00"
-    },
-    "https://arxiv.org/abs/2610.36422": {
-      "page_url": "https://arxiv.org/abs/2610.36422",
-      "status": "unavailable",
-      "fetched_at": "2026-11-02T06:45:51.941831+00:00"
-    },
     "https://thequantuminsider.com/2026/10/28/databrushing-ai-uechain-data-verification": {
       "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/10/2026-10-28_19-02.png",
       "page_url": "https://thequantuminsider.com/2026/10/28/databrushing-ai-uechain-data-verification",
@@ -1040,6 +1005,42 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-29T04:00:21.218491+00:00",
       "status": "ok"
+    },
+    "https://eprint.iacr.org/2026/2665": {
+      "page_url": "https://eprint.iacr.org/2026/2665",
+      "fetched_at": "2026-11-03T07:46:02.438796+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://arxiv.org/abs/2610.39476v1": {
+      "page_url": "https://arxiv.org/abs/2610.39476v1",
+      "fetched_at": "2026-11-03T07:46:02.438796+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2610.36145": {
+      "page_url": "https://arxiv.org/abs/2610.36145",
+      "fetched_at": "2026-11-03T07:46:02.438796+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2610.36808": {
+      "page_url": "https://arxiv.org/abs/2610.36808",
+      "fetched_at": "2026-11-03T07:46:02.438796+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2610.36711": {
+      "page_url": "https://arxiv.org/abs/2610.36711",
+      "fetched_at": "2026-11-03T07:46:02.438796+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2610.37454": {
+      "page_url": "https://arxiv.org/abs/2610.37454",
+      "fetched_at": "2026-11-03T07:46:02.438796+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2610.36422": {
+      "page_url": "https://arxiv.org/abs/2610.36422",
+      "fetched_at": "2026-11-03T07:46:02.438796+00:00",
+      "status": "unavailable"
     }
   }
 }
