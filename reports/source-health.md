@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-03 11:46 UTC_
+_Updated 2026-11-03 12:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -24,7 +24,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Google Quantum AI | watch | 59% | 4 | 0 | 2026-11-03 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Computing Patents | patent | 92% | 4 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 84% | 2 | 0 | 2026-11-03 | 2026-11-03 | fresh | 🟢 healthy |
-| arXiv RSS quant-ph | arxiv_rss | 83% | 2 | 0 | 2026-11-03 | 2026-11-03 | fresh | 🟢 healthy |
+| arXiv RSS quant-ph | arxiv_rss | 84% | 2 | 0 | 2026-11-03 | 2026-11-03 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 100% | 1 | 0 | 2026-11-03 | 2026-10-30 | fresh | 🟢 healthy |
 | Quantum Journal | rss | 96% | 1 | 0 | 2026-11-03 | 2026-10-30 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 97% | 1 | 0 | 2026-11-03 | 2026-11-03 | fresh | 🟢 healthy |
@@ -81,8 +81,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Lockheed Martin Quantum Technology | watch | 99% | 0 | 0 | 2026-11-03 | 2026-07-14 | stale | 🟢 healthy |
 | Microsoft Quantum Blog | watch | 100% | 0 | 0 | 2026-11-03 | 2026-09-22 | stale | 🟢 healthy |
 | NCSC UK Guidance | rss | 100% | 0 | 0 | 2026-11-03 | 2026-10-15 | stale | 🟢 healthy |
-| NCSC UK News | rss | 100% | 0 | 0 | 2026-11-03 | 2026-10-21 | fresh | 🟢 healthy |
-| NCSC UK Reports | rss | 100% | 0 | 0 | 2026-11-03 | 2025-05-07 | stale | 🟢 healthy |
+| NCSC UK News | rss | 100% | 0 | 0 | 2026-11-03 | 2026-11-03 | fresh | 🟢 healthy |
+| NCSC UK Reports | rss | 100% | 0 | 0 | 2026-11-03 | 2026-11-03 | fresh | 🟢 healthy |
 | NIST CSRC News | url | 100% | 0 | 0 | 2026-11-03 | 2026-11-02 | fresh | 🟢 healthy |
 | NIST Cybersecurity Insights | watch | 100% | 0 | 0 | 2026-11-03 | 2026-10-27 | fresh | 🟢 healthy |
 | NIST Post-Quantum Cryptography Project | watch | 100% | 0 | 0 | 2026-11-02 | 2025-03-07 | reference | 🟢 healthy |
@@ -105,7 +105,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Strategic AI Systems Patents | patent | 99% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-11-03 | 2026-10-29 | fresh | 🟢 healthy |
 | The Quantum Insider | rss | 100% | 0 | 0 | 2026-11-03 | 2026-11-03 | fresh | 🟢 healthy |
-| Trail of Bits Cryptography | rss | 100% | 0 | 0 | 2026-11-03 | 2026-10-14 | fresh | 🟢 healthy |
+| Trail of Bits Cryptography | rss | 100% | 0 | 0 | 2026-11-03 | 2026-11-03 | fresh | 🟢 healthy |
 | USAspending · AI Forge | federal_award | 100% | 0 | 0 | 2026-11-02 | 2026-09-28 | stale | 🟢 healthy |
 | USAspending · Advanced Computing | federal_award | 100% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | USAspending · Artificial Intelligence | federal_award | 100% | 0 | 0 | 2026-11-02 | 2026-10-01 | stale | 🟢 healthy |
