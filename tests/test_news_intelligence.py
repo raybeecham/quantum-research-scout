@@ -1204,6 +1204,181 @@ def test_editorial_lead_uses_development_not_old_relevance_score():
 
 
 @pytest.mark.parametrize(
+    "point",
+    [
+        "This work introduces an algebraic framework to pinpoint failure points in dynamic codes lacking fixed stabilizers.",
+        "Quantum processors use surface-code patches with fixed measurement schedules.",
+        "The quantum team disclosed its fixed equipment costs.",
+        "Researchers exploited quantum interference to improve the calculation.",
+        "The quantum experiment fixes stabilizers. A separate discussion mentions a vulnerability.",
+        "The quantum design uses fixed stabilizers; vulnerability testing is separate.",
+    ],
+)
+def test_generic_fix_patch_and_disclosure_terms_are_not_security_events(point):
+    item = build(
+        story("Maryland Team Charts Fault Tolerance in Quantum Circuits", key_points=[point])
+    )["stories"][0]
+    assert item["news_editorial"]["kind"] != "security"
+
+
+def test_maryland_mathematical_framework_is_research_not_security_or_product_release():
+    item = build(
+        story(
+            "Maryland Team Charts Fault Tolerance in Quantum Circuits",
+            key_points=[
+                "Before now, understanding exactly where quantum error correction fails required painstakingly tracing errors through complex calculations.",
+                "This work introduces an algebraic framework, a shortcut, to pinpoint those failure points in dynamic codes lacking fixed stabilizers, offering unprecedented insight into building more resilient systems.",
+            ],
+        )
+    )["stories"][0]
+    assert item["news_editorial"]["kind"] == "research"
+    assert item["news_editorial"]["eligible"]
+
+
+@pytest.mark.parametrize(
+    "title",
+    [
+        "Maintainer fixes a TLS certificate validation vulnerability",
+        "Maintainer patches CVE-2026-12345 in its cryptographic library",
+        "TLS vulnerability patched by the software maintainer",
+        "CISA discloses a critical vulnerability in TLS software",
+        "Cryptographic software vulnerability actively exploited in the wild",
+        "Security advisory for a TLS certificate validation issue",
+        "Maintainer releases a security patch for critical TLS vulnerability",
+    ],
+)
+def test_security_classification_requires_a_security_specific_statement(title):
+    item = build(story(title, key_points=[]))["stories"][0]
+    assert item["news_editorial"]["kind"] == "security"
+    assert item["news_editorial"]["eligible"]
+
+
+def test_lead_prefers_newest_eligible_publication_not_collection_date_or_score():
+    old = story(
+        "Vendor activates operational quantum processor",
+        "https://ibm.com/old",
+        date="2026-09-28",
+        report_date="2026-09-29",
+    )
+    new = story(
+        "Team announces a quantum computing project",
+        "https://new.test/project",
+        date="2026-09-29",
+        report_date="2026-09-28",
+    )
+    original = copy.deepcopy([old, new])
+    result = build(old, new)
+    assert result["editorial"]["lead_id"] == new["id"]
+    assert result["editorial"]["ranked_ids"][0] == new["id"]
+    assert (
+        "Newest eligible publication day" in result["editorial"]["pick_reasons"][new["id"]]["text"]
+    )
+    assert old["id"] in result["editorial"]["roundup_ids"]
+    assert [old, new] == original
+    assert build(new, old)["editorial"] == result["editorial"]
+
+
+@pytest.mark.parametrize(
+    "title,url",
+    [
+        (
+            "Maintainer patches a critical vulnerability in TLS software",
+            "https://openssl.org/patch",
+        ),
+        (
+            "Maintainer releases security patch for critical TLS vulnerability",
+            "https://openssl.org/release",
+        ),
+        ("TLS software vulnerability actively exploited in the wild", "https://news.test/attack"),
+        (
+            "NIST finalizes post-quantum cryptography migration guidance",
+            "https://nist.gov/guidance",
+        ),
+        ("White House issues executive order on quantum computing", "https://whitehouse.gov/order"),
+    ],
+)
+def test_recent_explicit_security_and_official_policy_can_override_freshness(title, url):
+    priority = story(title, url, date="2026-09-28", key_points=[])
+    fresh = story("Researchers demonstrate a quantum decoder", "https://fresh.test/result")
+    result = build(fresh, priority)
+    assert result["editorial"]["lead_id"] == priority["id"]
+    reason = result["editorial"]["lead_reasons"][priority["id"]]
+    assert reason["text"].startswith(
+        ("Recent urgent security report", "Recent official policy action")
+    )
+    assert "Published 2026-09-28" in reason["text"]
+    assert result["editorial"]["pick_reasons"][priority["id"]]["text"] == reason["text"]
+
+
+@pytest.mark.parametrize(
+    "title,url,point,date",
+    [
+        ("Maintainer patches a TLS vulnerability", "https://openssl.org/patch", "", "2026-09-28"),
+        ("NIST publishes draft PQC guidance", "https://nist.gov/draft", "", "2026-09-28"),
+        ("NIST finalizes PQC guidance", "https://nist.gov/old", "", "2026-09-27"),
+        ("NIST finalizes PQC guidance", "https://news.test/nist-report", "", "2026-09-28"),
+        ("Vendor publishes PQC guidance", "https://ibm.com/advice", "", "2026-09-28"),
+        (
+            "TLS vulnerability actively exploited in the wild",
+            "https://news.test/old",
+            "",
+            "2026-09-27",
+        ),
+        (
+            "TLS vulnerability was not actively exploited",
+            "https://news.test/negative",
+            "",
+            "2026-09-28",
+        ),
+        (
+            "Critical TLS vulnerability could be exploited",
+            "https://news.test/future",
+            "",
+            "2026-09-28",
+        ),
+        (
+            "TLS vulnerability was previously actively exploited",
+            "https://news.test/history",
+            "",
+            "2026-09-28",
+        ),
+        (
+            "Maintainer patches a TLS vulnerability",
+            "https://openssl.org/routine",
+            "The flaw is not actively exploited. A critical vulnerability was patched last year.",
+            "2026-09-28",
+        ),
+    ],
+)
+def test_nonurgent_historical_and_expired_exceptions_do_not_displace_fresh_news(
+    title, url, point, date
+):
+    old = story(title, url, date=date, key_points=[point] if point else [])
+    fresh = story("Team announces quantum computing project", "https://fresh.test/project")
+    result = build(old, fresh)
+    assert result["editorial"]["lead_id"] == fresh["id"]
+
+
+def test_lead_uses_latest_qualifying_day_when_today_has_only_commentary():
+    opinion = story("Opinion: quantum computing outlook", "https://opinion.test/today")
+    older = story("Vendor activates quantum processor", "https://ibm.com/older", date="2026-09-25")
+    newer = story("Team announces quantum project", "https://new.test/newer", date="2026-09-28")
+    result = build(opinion, older, newer)
+    assert result["editorial"]["lead_id"] == newer["id"]
+    assert len(result["stories"]) == 3
+    assert opinion["id"] not in result["editorial"]["ranked_ids"]
+    assert "Published 2026-09-28" in result["editorial"]["lead_reasons"][newer["id"]]["text"]
+
+
+def test_lead_breaks_same_publication_day_ties_using_development_strength():
+    released = story("Vendor releases quantum toolkit", "https://ibm.com/toolkit")
+    evaluated = story("Team demonstrates quantum decoder", "https://research.test/decoder")
+    result = build(released, evaluated)
+    assert result["editorial"]["lead_id"] == evaluated["id"]
+    assert set(result["editorial"]["lead_reasons"]) == set(result["editorial"]["ranked_ids"])
+
+
+@pytest.mark.parametrize(
     "title,point",
     [
         (

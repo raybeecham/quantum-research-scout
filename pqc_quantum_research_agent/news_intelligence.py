@@ -42,7 +42,11 @@ _EDITORIAL_METHOD = (
     "Rule-based editorial picks from dated headlines and collected excerpts, not an AI verdict. "
     "Explicit developments from the last seven edition days are eligible; advice, opinion, "
     "personnel announcements, and undated items remain in Latest but cannot lead. "
-    "Recency, evidence stage, source perspective, and topic variety guide the picks. "
+    "The lead favors the newest eligible publication day, then evidence stage and source perspective. "
+    "An explicit urgent security report or issued official policy action published on the edition day "
+    "or the preceding day can take priority. These exceptions expire after that window. "
+    "Dates are publication days, not precise event times. Older eligible stories remain available "
+    "when there is no newer qualifying development. Topic variety guides the shortlist. "
     "Featured stories use different publisher hosts. One shortlist slot is reserved for a recent research publication when an eligible one is available. "
     "A reported deployment or result is not independently verified."
 )
@@ -74,6 +78,29 @@ _FUTURE = re.compile(
 _NEGATED = re.compile(
     r"\b(?:not|never|no evidence|hasn.t|haven.t|isn.t|aren.t|cannot|can.t)\b", re.I
 )
+# Generic verbs such as "fixed" also describe mathematics, hardware, and business.
+# Require a nearby security-specific object in the same statement, in either order.
+_SECURITY_ACTION = (
+    r"(?:discloses?|disclosed|patches|patched|fixes|fixed|releases?|released|"
+    r"issues?|issued|exploited|exploitation detected)"
+)
+_SECURITY_OBJECT = (
+    r"(?:vulnerabilit(?:y|ies)|CVE-\d{4}-\d{4,}|zero.day|"
+    r"security (?:flaws?|bugs?|issues?|patch(?:es)?)|authentication bypass|remote code execution)"
+)
+_SECURITY_EVENT = (
+    rf"\b(?:security advisor(?:y|ies)|{_SECURITY_ACTION}\b[^.!?;\n]{{0,100}}\b{_SECURITY_OBJECT}|"
+    rf"{_SECURITY_OBJECT}\b[^.!?;\n]{{0,100}}\b{_SECURITY_ACTION})\b"
+)
+_URGENT_SECURITY = re.compile(
+    r"\b(?:actively exploited|exploited in the wild|exploitation detected|"
+    r"critical (?:(?:security|TLS|software|cryptographic) )?(?:vulnerabilit(?:y|ies)|flaws?)|"
+    r"emergency security patch)\b",
+    re.I,
+)
+_HISTORICAL_SECURITY = re.compile(
+    r"\b(?:previously|formerly|last year|years? ago|had been|historical)\b", re.I
+)
 _STAGE_RULES = (
     (
         "delay",
@@ -97,7 +124,7 @@ _STAGE_RULES = (
         "security",
         "reported",
         "Security development",
-        r"\b(?:discloses?|disclosed|patches|patched|fixes|fixed|exploited|exploitation detected|security advisory)\b",
+        _SECURITY_EVENT,
     ),
     (
         "release",
@@ -598,6 +625,12 @@ def _editorial(item, edition):
                 segment,
                 re.I,
             )
+            or re.search(
+                r"\b(?:this|the|our) (?:work|paper|study) (?:introduces|presents|proposes|derives|proves)\b"
+                r"[^.!?\n]{0,100}\b(?:framework|method|algorithm|proof|model|scheme)\b",
+                segment,
+                re.I,
+            )
             for segment in segments[1:]
         )
         policy = next(
@@ -714,6 +747,32 @@ def _editorial(item, edition):
     }
 
 
+def _lead_priority_basis(row, edition):
+    """Only bounded, explicit exceptions may outrank a newer publication day."""
+    if not edition or not _published(row) or not 0 <= (edition - _published(row)).days <= 1:
+        return ""
+    editorial = row["news_editorial"]
+    if (
+        editorial["kind"] == "policy"
+        and editorial["status"] == "issued"
+        and editorial["source_perspective"] == "Official source"
+    ):
+        return "Recent official policy action"
+    if editorial["kind"] == "security":
+        for segment in _editorial_segments(row):
+            for statement in re.split(r"(?<=[.!?;])\s+", segment):
+                if (
+                    re.search(_SECURITY_EVENT, statement, re.I)
+                    and _URGENT_SECURITY.search(statement)
+                    and not any(
+                        pattern.search(statement)
+                        for pattern in (_NEGATED, _FUTURE, _HISTORICAL_SECURITY)
+                    )
+                ):
+                    return "Recent urgent security report"
+    return ""
+
+
 def _editorial_picks(candidates, edition):
     eligible = [row for row in candidates if row["news_editorial"]["eligible"]]
     weights = {
@@ -748,7 +807,32 @@ def _editorial_picks(candidates, edition):
             )
         return points, _published(row).isoformat(), str(row.get("id") or row["url"])
 
-    ranked = sorted(eligible, key=lambda row: rank(row, []), reverse=True)
+    priority_basis = {row["id"]: _lead_priority_basis(row, edition) for row in eligible}
+
+    def lead_rank(row):
+        return (
+            bool(priority_basis[row["id"]]),
+            _published(row).isoformat(),
+            rank(row, [])[0],
+            str(row.get("id") or row["url"]),
+        )
+
+    ranked = sorted(eligible, key=lead_rank, reverse=True)
+    # Separate lead reasons preserve freshness and honest explanations after filtering.
+    lead_reasons = {
+        row["id"]: {
+            "rule": "lead_rank",
+            "text": (
+                f"{priority_basis[row['id']] or 'Newest eligible publication day'} · "
+                f"Published {_published(row).isoformat()} · "
+                f"{row['news_editorial']['label']} · "
+                f"{row['news_editorial']['source_perspective'].lower()} · "
+                f"{(row.get('news_event') or {}).get('account_count', 1)} source "
+                f"{'account' if (row.get('news_event') or {}).get('account_count', 1) == 1 else 'accounts'}"
+            ),
+        }
+        for row in ranked
+    }
     selected = []
     reasons = {}
     while eligible and len(selected) < 4:
@@ -768,7 +852,9 @@ def _editorial_picks(candidates, edition):
         ]
         reserved_paper = bool(len(selected) == 1 and papers)
         pool = papers if reserved_paper else available
-        item = max(pool, key=lambda row: rank(row, selected))
+        item = (
+            max(pool, key=lambda row: rank(row, selected)) if selected else max(pool, key=lead_rank)
+        )
         rule = (
             "research_slot" if reserved_paper else "lead_rank" if not selected else "diverse_rank"
         )
@@ -794,11 +880,11 @@ def _editorial_picks(candidates, edition):
             f"{'Reserved research slot' if reserved_paper else kind_label} · "
             f"{signal['perspective'].lower()} · {signal['accounts']} source "
             f"{'account' if signal['accounts'] == 1 else 'accounts'} · "
-            f"{signal['age_days']} days since publication"
+            f"{signal['age_days']} {'day' if signal['age_days'] == 1 else 'days'} since publication"
         )
         reasons[item.get("id")] = {
             "rule": rule,
-            "text": label,
+            "text": label if selected else lead_reasons[item["id"]]["text"],
             "signal": signal,
             "secondary_note": "Publisher diversity" if selected else "Edition lead",
             "score": rank(item, selected)[0],
@@ -813,6 +899,7 @@ def _editorial_picks(candidates, edition):
         "lead_id": selected[0].get("id") if selected else None,
         "roundup_ids": [row.get("id") for row in selected[1:]],
         "ranked_ids": [row.get("id") for row in ranked],
+        "lead_reasons": lead_reasons,
         "pick_reasons": reasons,
         "method": _EDITORIAL_METHOD,
         "empty_reason": ""

@@ -500,14 +500,17 @@
       state.featuredReasons.set(item.id, reason);
     };
     const lookup = new Map(eligible.map(item => [item.id, item]));
+    const ranked = Array.isArray(editorial.ranked_ids) ? editorial.ranked_ids : [];
+    const filteredLead = ranked.find(id => lookup.has(id)) || editorial.lead_id;
     const preferred = [
-      editorial.lead_id,
+      filteredLead,
       ...(Array.isArray(editorial.roundup_ids) ? editorial.roundup_ids : []),
-      ...(Array.isArray(editorial.ranked_ids) ? editorial.ranked_ids : []),
+      ...ranked,
     ];
     for (const id of preferred) {
       if (!lookup.has(id) || selected.some(item => item.id === id)) continue;
-      const pick = editorial.pick_reasons?.[id];
+      const pick =
+        (selected.length === 0 && editorial.lead_reasons?.[id]) || editorial.pick_reasons?.[id];
       add(
         lookup.get(id),
         pick?.text && pick?.rule
@@ -677,7 +680,7 @@
       $("news-editorial-note").textContent =
         state.sort === "editorial" && state.data?.news_intelligence?.editorial
           ? lead[0]?.news_editorial?.eligible
-            ? "Recent developments first, with a varied shortlist. Source-reported claims, not independent verification."
+            ? "Newest qualifying publication day first, with limited exceptions for urgent security and official policy news. Source-reported claims, not independent verification."
             : text(state.data.news_intelligence.editorial.empty_reason) ||
               "No dated development matches these filters. Showing background from this collection."
           : "Showing your selected order. Dates and source claims have not been independently verified.";
@@ -724,7 +727,7 @@
           ? `Report window: ${dateLabel(coverage.window_start)}–${dateLabel(coverage.window_end)}. `
           : "";
       $("news-scope").textContent =
-        `${range}${state.sort === "editorial" ? "Developments first prioritizes explicit recent changes, with a varied shortlist; advice remains in the collection. This is rule-based selection, not human editorial review." : state.sort === "relevance" ? "Ordered by existing rule-based decision relevance, then report date; this is not a quality rating." : "Ordered by collected report date, then existing Frontier Signal relevance within each date; ties retain collection order. This is not source publication order or a quality rating."} Topic filters match collected evidence, not exhaustive coverage. Images are publisher-provided article previews, loaded directly from their image hosts without a referrer. Image hosts still receive your IP address. Missing, blocked, or repeated previews use text-only cards; publisher artwork may be illustrative.`;
+        `${range}${state.sort === "editorial" ? "Developments first favors the newest eligible publication day for the lead. Explicit urgent security reports and issued official policy actions from the edition day or preceding day can take priority. The shortlist adds variety; advice remains in the collection. This is rule-based selection, not human editorial review." : state.sort === "relevance" ? "Ordered by existing rule-based decision relevance, then report date; this is not a quality rating." : "Ordered by collected report date, then existing Frontier Signal relevance within each date; ties retain collection order. This is not source publication order or a quality rating."} Topic filters match collected evidence, not exhaustive coverage. Images are publisher-provided article previews, loaded directly from their image hosts without a referrer. Image hosts still receive your IP address. Missing, blocked, or repeated previews use text-only cards; publisher artwork may be illustrative.`;
       $("news-filter-buttons")
         .querySelectorAll("[data-news-topic]")
         .forEach(button => {

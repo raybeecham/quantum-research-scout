@@ -180,6 +180,59 @@ def featured_ids(page: Page) -> list[str]:
     )
 
 
+def freshness_fixture() -> dict:
+    payload = dashboard_fixture()
+    today = datetime.now(timezone.utc).date()
+    yesterday = (today - timedelta(days=1)).isoformat()
+
+    def row(identifier, title, host, published, *, points=None, kind="other"):
+        return {
+            "id": identifier,
+            "title": title,
+            "url": f"https://{host}/{identifier}",
+            "source": host,
+            "source_kind": kind,
+            "date": published,
+            "date_label": "Published",
+            "report_date": today.isoformat(),
+            "key_points": points or [],
+        }
+
+    rows = [
+        row(
+            "fresh-policy",
+            "NIST issues TLS certificate validation guidance",
+            "nist.gov",
+            today.isoformat(),
+        ),
+        row(
+            "old-paper",
+            "Quantum computing with constrained decoders",
+            "arxiv.org",
+            yesterday,
+            kind="preprint",
+        ),
+        row(
+            "fresh-quantum",
+            "Researchers demonstrate a quantum error correction decoder",
+            "new.test",
+            today.isoformat(),
+        ),
+        row(
+            "fixed-stabilizers",
+            "Maryland Team Charts Fault Tolerance in Quantum Circuits",
+            "old.test",
+            yesterday,
+            points=[
+                "This work introduces an algebraic framework for dynamic quantum codes lacking fixed stabilizers."
+            ],
+        ),
+    ]
+    payload["reading_brief"].update(stories=rows, edition_date=today.isoformat())
+    payload["news_intelligence"] = build_news_intelligence(payload["reading_brief"])
+    return payload
+
+
 def open_customization(page: Page) -> None:
     open_tools(page)
     if not page.locator("#news-personalize").evaluate("node => node.open"):
@@ -427,6 +480,37 @@ def main() -> None:
         page.reload()
         expect(page.locator("#news-progression")).to_be_hidden()
 
+        # A reserved older paper must not become the lead when filtering out policy.
+        state["payload"] = freshness_fixture()
+        fresh_data = state["payload"]["news_intelligence"]
+        assert fresh_data["editorial"]["lead_id"] == "fresh-policy"
+        assert fresh_data["editorial"]["roundup_ids"][0] == "old-paper"
+        assert (
+            next(row for row in fresh_data["stories"] if row["id"] == "fixed-stabilizers")[
+                "news_editorial"
+            ]["kind"]
+            != "security"
+        )
+        page.reload()
+        expect(page.locator("#news-lead article")).to_have_attribute("data-news-id", "fresh-policy")
+        expect(page.locator("#news-lead .news-selection-reason")).to_contain_text(
+            "Recent official policy action"
+        )
+        open_tools(page)
+        page.locator('[data-news-topic="quantum"]').click()
+        expect(page.locator("#news-lead article")).to_have_attribute(
+            "data-news-id", "fresh-quantum"
+        )
+        expect(page.locator("#news-lead .news-selection-reason")).to_contain_text(
+            "Newest eligible publication day"
+        )
+        expect(page.locator("#news-lead .news-selection-reason")).not_to_contain_text(
+            "Reserved research slot"
+        )
+        assert "old-paper" in displayed_ids(page)
+        assert "fixed-stabilizers" in displayed_ids(page)
+        assert_no_overflow(page)
+
         # A weak edition may show background, but must not manufacture a news pick.
         for item in state["payload"]["news_intelligence"]["stories"]:
             item["news_editorial"]["eligible"] = False
@@ -458,6 +542,8 @@ def main() -> None:
                     "story-first controls",
                     "unique lead and roundup",
                     "filter-aware editorial selection",
+                    "freshness-first filtered lead and bounded policy exception",
+                    "fixed stabilizers do not trigger security priority",
                     "source-backed progression and safe text",
                     "following/new/read state",
                     "save and modal focus",
