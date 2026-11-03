@@ -180,6 +180,7 @@ jobs:
           python scripts/verify_theme_browser.py --channel chromium
           python scripts/verify_briefing_browser.py --channel chromium
           python scripts/verify_exploration_browser.py --channel chromium
+          python scripts/verify_watch_browser.py --channel chromium
           python scripts/verify_evidence_review_browser.py --channel chromium
           python scripts/verify_patent_browser.py --channel chromium
           python scripts/verify_question_discovery_browser.py --channel chromium

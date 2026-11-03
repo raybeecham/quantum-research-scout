@@ -1575,15 +1575,27 @@
           <section id="watch" class="section watch-section">
             <div class="section-heading">
               <div>
-                <p class="eyebrow">ENTITY WATCH</p>
+                <p class="eyebrow">DIRECTORY</p>
                 <h2>Organizations and technologies</h2>
               </div>
               <div id="watch-tabs" class="filters" aria-label="Watchlist type">
-                <button data-watch="entities" class="active">Organizations</button>
-                <button data-watch="technologies">Technologies</button>
+                <button type="button" data-watch="entities" class="active" aria-pressed="true">Organizations</button>
+                <button type="button" data-watch="technologies" aria-pressed="false">Technologies</button>
               </div>
             </div>
-            <div id="watch-grid" class="watch-grid" aria-live="polite"></div>
+            <p class="watch-intro">
+              Compare recent coverage, then open the latest source or an item's profile. Counts reflect our collection,
+              not performance or technical maturity.
+            </p>
+            <div class="watch-controls">
+              <label for="watch-search">
+                Find a name or topic
+                <input id="watch-search" type="search" placeholder="NIST, IBM, crypto agility…" maxlength="200" />
+              </label>
+              <button id="watch-clear" type="button" hidden>Clear search</button>
+              <p id="watch-result-count" role="status" aria-live="polite"></p>
+            </div>
+            <div id="watch-grid" class="watch-grid"></div>
           </section>
         </div>
       </details>

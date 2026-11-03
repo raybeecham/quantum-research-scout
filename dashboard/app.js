@@ -4,6 +4,7 @@ const state = {
   query: "",
   trendDays: 30,
   watchType: "entities",
+  watchQuery: "",
   compareFirst: "",
   compareSecond: "",
   opportunityFilter: "all",
@@ -1819,15 +1820,47 @@ function renderPatents(payload) {
 
 function renderWatch() {
   const payload = state.data.entity_watch || { entities: [], technologies: [] };
-  const items = payload[state.watchType] || [];
-  const unseen = payload[`unseen_${state.watchType}`] || [];
+  const query = state.watchQuery.trim().toLowerCase();
+  const matches = item =>
+    [item.name, item.type, ...(item.themes || []), ...(item.aliases || [])]
+      .join(" ")
+      .toLowerCase()
+      .includes(query);
+  const items = (payload[state.watchType] || []).filter(matches);
+  const unseen = (payload[`unseen_${state.watchType}`] || []).filter(matches);
+  const count = value =>
+    Number.isSafeInteger(value) && value >= 0 ? String(value) : "Not recorded";
+  const label = value =>
+    value ? String(value).replace(/^./, first => first.toUpperCase()) : "Not recorded";
   const watchCard = item => {
     const evidence = item.evidence?.[0];
-    return `<article class="watch-card"><span class="watch-type">${escapeHtml(item.type || state.watchType)}</span><h3><a class="profile-link" href="${escapeHtml(profileUrl(item.name, state.watchType))}">${escapeHtml(item.name)}</a></h3><div class="badges"><span class="badge ${escapeHtml(item.momentum)}" title="Momentum">${escapeHtml(item.momentum)}</span><span class="badge ${escapeHtml(item.priority)}" title="Priority">${escapeHtml(item.priority)}</span><span class="badge ${escapeHtml(item.status)}" title="Activity status">${escapeHtml(item.status)}</span></div><div class="watch-stats"><div><span>Evidence</span><strong>${item.evidence_count}</strong></div><div><span>Recent</span><strong>${item.recent_count}</strong></div><div><span>Prior</span><strong>${item.prior_count}</strong></div></div><p class="themes">${escapeHtml((item.themes || []).slice(0, 3).join(" · "))}</p><div class="watch-actions"><a class="watch-link" href="${escapeHtml(profileUrl(item.name, state.watchType))}">View profile →</a>${evidence ? `<a class="watch-link muted-link" href="${escapeHtml(safeUrl(evidence.url))}" target="_blank" rel="noopener">Latest evidence ↗</a>` : ""}</div></article>`;
+    let url = "#";
+    try {
+      const parsed = new URL(evidence?.url);
+      if (["http:", "https:"].includes(parsed.protocol) && !parsed.username && !parsed.password)
+        url = parsed.href;
+    } catch {
+      // Missing or unsafe source links are not navigation targets.
+    }
+    const momentum = ["rising", "stable", "declining"].includes(item.momentum)
+      ? item.momentum
+      : "unknown";
+    const movement =
+      item.recent_count === 0 && item.prior_count === 0
+        ? "No recent coverage"
+        : label(item.momentum);
+    return `<article class="watch-card">
+      <div class="watch-identity"><span class="watch-type">${escapeHtml(item.type || (state.watchType === "entities" ? "Organization" : "Technology"))}</span><h3><a class="profile-link" href="${escapeHtml(profileUrl(item.name, state.watchType))}" aria-label="${escapeHtml(item.name)} profile">${escapeHtml(item.name)} <span aria-hidden="true">→</span></a></h3><p class="watch-total">${count(item.evidence_count)} collected items</p></div>
+      <div class="watch-activity"><span class="watch-field-label">Recent 7 days</span><div class="watch-activity-count"><strong>${count(item.recent_count)}</strong><span>vs ${count(item.prior_count)} prior</span></div><span class="watch-momentum ${momentum}">${escapeHtml(icons[momentum] || "")} ${escapeHtml(movement)}</span></div>
+      <div class="watch-latest"><span class="watch-field-label">Latest collected source</span>${evidence && url !== "#" ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(evidence.title || "Open supporting source")} ↗</a><p>${escapeHtml(evidence.source || "Source not recorded")} · ${escapeHtml(window.ScoutDisplay.date(evidence.date, "Source date unavailable"))}</p>` : "<p>No source link is available in this snapshot.</p>"}</div>
+      <details class="watch-details"><summary aria-label="Topics &amp; classifications for ${escapeHtml(item.name)}">Topics &amp; classifications</summary><div class="watch-detail-body"><dl><div><dt>Watchlist priority</dt><dd><span class="badge ${escapeHtml(item.priority)}">${escapeHtml(label(item.priority))}</span></dd></div><div><dt>Activity status</dt><dd><span class="badge ${escapeHtml(item.status)}">${escapeHtml(label(item.status))}</span></dd></div><div><dt>Coverage momentum</dt><dd>${escapeHtml(label(item.momentum))}</dd></div></dl><div class="watch-topic-list"><h4>Tracked topics</h4>${item.themes?.length ? `<ul>${item.themes.map(theme => `<li>${escapeHtml(theme)}</li>`).join("")}</ul>` : "<p>No topics recorded.</p>"}</div><p class="watch-definition">Recent and prior compare consecutive seven-day windows ending on the snapshot's latest evidence date, not today. Priority is configured in the watchlist; activity status reflects the age of dated evidence. These labels are not endorsements or readiness ratings.</p></div></details>
+    </article>`;
   };
   const matched = items.length
     ? items.slice(0, 6).map(watchCard).join("")
-    : "<p>No configured watch items have matched evidence yet.</p>";
+    : query
+      ? '<p class="watch-empty">No items with evidence match this search. Try another name or topic, or clear the search.</p>'
+      : '<p class="watch-empty">No configured watch items have matched evidence yet.</p>';
   const more =
     items.length > 6
       ? `<details class="watch-more"><summary>Show ${items.length - 6} more matched items</summary><div class="watch-more-grid">${items.slice(6).map(watchCard).join("")}</div></details>`
@@ -1836,6 +1869,9 @@ function renderWatch() {
     ? `<details class="watch-unseen"><summary>${unseen.length} configured ${state.watchType === "entities" ? "organizations" : "technologies"} awaiting evidence</summary><div>${unseen.map(item => `<a href="${escapeHtml(profileUrl(item.name, state.watchType))}"><strong>${escapeHtml(item.name)}</strong> · ${escapeHtml(item.type)} · ${escapeHtml(item.priority)}</a>`).join("")}</div></details>`
     : "";
   document.getElementById("watch-grid").innerHTML = matched + more + awaiting;
+  document.getElementById("watch-result-count").textContent =
+    `${items.length} with evidence${unseen.length ? ` · ${unseen.length} awaiting evidence` : ""}`;
+  document.getElementById("watch-clear").hidden = !query;
 }
 
 function renderReadiness() {
@@ -2141,10 +2177,21 @@ document.getElementById("trend-ranges").addEventListener("click", event => {
 document.getElementById("watch-tabs").addEventListener("click", event => {
   if (!event.target.dataset.watch) return;
   state.watchType = event.target.dataset.watch;
-  document
-    .querySelectorAll("#watch-tabs button")
-    .forEach(x => x.classList.toggle("active", x === event.target));
+  document.querySelectorAll("#watch-tabs button").forEach(x => {
+    x.classList.toggle("active", x === event.target);
+    x.setAttribute("aria-pressed", String(x === event.target));
+  });
   if (state.data) renderWatch();
+});
+document.getElementById("watch-search").addEventListener("input", event => {
+  state.watchQuery = event.target.value;
+  if (state.data) renderWatch();
+});
+document.getElementById("watch-clear").addEventListener("click", () => {
+  state.watchQuery = "";
+  document.getElementById("watch-search").value = "";
+  if (state.data) renderWatch();
+  document.getElementById("watch-search").focus();
 });
 document.getElementById("compare-first").addEventListener("change", event => {
   state.compareFirst = event.target.value;

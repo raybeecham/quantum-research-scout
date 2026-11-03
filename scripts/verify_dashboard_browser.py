@@ -645,12 +645,15 @@ def main() -> None:
         signal.screenshot(path=str(args.output / "signal-card-refined.png"))
         assert page.locator(".landscape-advanced[open]").count() == 1
         page.goto(args.url + "/#watch")
-        expect(page.locator("#watch .badge.active").first).to_be_visible()
-        assert page.locator("#watch .badge.active").first.evaluate(
-            "e => getComputedStyle(e).backgroundColor"
-        ) != page.locator("#watch .badge.stable").first.evaluate(
-            "e => getComputedStyle(e).backgroundColor"
+        expect(page.locator("#watch .watch-momentum.rising").first).to_be_visible()
+        assert page.locator("#watch .watch-momentum.rising").first.evaluate(
+            "e => getComputedStyle(e).color"
+        ) != page.locator("#watch .watch-momentum.stable").first.evaluate(
+            "e => getComputedStyle(e).color"
         )
+        page.locator("#watch .watch-details > summary").first.click()
+        expect(page.locator("#watch .watch-details .badge.active").first).to_be_visible()
+        page.locator("#watch .watch-details > summary").first.click()
         page.locator("#watch").screenshot(path=str(args.output / "watch-label-colors.png"))
         page.goto(args.url + "/#trends")
         expect(page.locator("#trend-insight")).to_contain_text("selected chart window")
