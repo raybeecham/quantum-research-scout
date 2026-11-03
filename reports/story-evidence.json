@@ -1173,6 +1173,87 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2611.00404": {
+      "captures": [
+        {
+          "excerpts": [
+            "With recent improvements to syndrome extraction scheduling and decoding, and the availability of complete transversal Clifford operations and lattice surgery, color code is an especially promising platform for quantum...",
+            "The key ingredient for universal computation is thus generating useful magic states with limited resources"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-02",
+              "report_date": "2026-11-03",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.00404"
+            }
+          ],
+          "title": "Early Fault-Tolerant Magic State Synthesis and Spacetime Efficient Analog Rotations with Color Code on a Superconducting Quantum Processor"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.00694": {
+      "captures": [
+        {
+          "excerpts": [
+            "Photon loss somewhat limits fault-tolerant photonic quantum computing",
+            "We obtain photon-loss threshold estimates for the surface-GKP code using nearest-lattice-point inner GKP decoding and minimum-weight perfect matching for the outer surface code",
+            "We investigate its effect on finite-energy Gottesman--Kitaev--Preskill (GKP) states by modeling the pure-loss channel directly"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-02",
+              "report_date": "2026-11-03",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.00694"
+            }
+          ],
+          "title": "Photon-loss tolerance of the surface-GKP code with anti-photon-loss decoding"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.01144": {
+      "captures": [
+        {
+          "excerpts": [
+            "This includes all standard algorithms selected the National Institute of Standards and Technology (NIST) such as Kyber/ML-KEM, Dilithium/ML-DSA, Falcon/FN-DSA and SPHINCS+/SLH-DSA",
+            "Despite their theoretical quantum attack resistance, practical implementations of post-quantum cryptography (PQC) algorithms remain susceptible to side-channel attacks"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-02",
+              "report_date": "2026-11-03",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.01144"
+            }
+          ],
+          "title": "Side-Channel Attack Prevention for Post Quantum Cryptography Algorithms: A 3D-Shield Approach"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.01976": {
+      "captures": [
+        {
+          "excerpts": [
+            "Large language model based agents increasingly rely on external tools to invoke services and interact with web resources",
+            "These tools can evolve through software updates, yet agentic frameworks may continue trusting them without re-verifying their safety after implementation changes"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-02",
+              "report_date": "2026-11-03",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.01976"
+            }
+          ],
+          "title": "Beyond Prompt Injection: The Tool Update Gap in LLM Agent Security"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
@@ -8982,6 +9063,25 @@
             }
           ],
           "title": "IDEMIA Secure Transactions Receives EMVCo Certification for PQC Payment Cards"
+        }
+      ]
+    },
+    "https://thequantuminsider.com/2026/11/03/specterai-hpt-pqc-migration-vietnam": {
+      "captures": [
+        {
+          "excerpts": [
+            "SpecterAI Quantum Security, a post-quantum cryptography (PQC) company, and HPT Vietnam Corporation signed the detailed schedules and action roadmap of their Strategic Partnership Agreement on October 28, 2026"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-03",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/03/specterai-hpt-pqc-migration-vietnam"
+            }
+          ],
+          "title": "SpecterAI and HPT Set Out PQC Migration Plans for Vietnam"
         }
       ]
     },
