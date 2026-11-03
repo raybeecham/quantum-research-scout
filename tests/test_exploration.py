@@ -25,7 +25,7 @@ assert.equal(e.matches({title:'Post-quantum safety against quantum computers'}, 
 assert.equal(e.hasName('a (b) example', '(b)'), true);
 assert.equal(e.matches({title:'Fair cloudless weather'}, e.topics[2]), '');
 assert.equal(e.matches({title:'Fair cloudless weather'}, e.topics[3]), '');
-const story = {title:'IBM tests PQC', url:'https://example.org/pqc', report_date:'2026-09-30', date:'2024-01-01'};
+const story = {title:'IBM tests PQC', source:'Example Publisher', date_label:'Published', url:'https://example.org/pqc', report_date:'2026-09-30', date:'2024-01-01'};
 const data = {reading_brief:{stories:[story, story, {title:'PQC',url:'javascript:x'}]},
  entity_watch:{entities:[
    {name:'IBM', evidence:[story, story]},
@@ -42,8 +42,12 @@ const graph = e.connections(data, 'security');
 assert.equal(graph.organizations.length, 1);
 assert.equal(graph.organizations[0].title, 'IBM');
 assert.equal(graph.organizations[0].count, 1);
+assert.equal(graph.organizations[0].evidenceTitle, story.title);
+assert.equal(graph.organizations[0].source, story.source);
+assert.equal(graph.organizations[0].dateLabel, 'Published');
 assert.match(graph.organizations[0].reason, /same stored title/);
 assert.equal(graph.readings.length, 1);
+assert.equal(graph.readings[0].source, story.source);
 assert.equal(e.connections(data, 'quantum').missions.length, 1);
 assert.equal(e.connections({}, 'ai').readings.length, 0);
 const view = e.overview([story, story, {title:'AI and cloud',url:'https://example.org/ai',report_date:'bad'}]);

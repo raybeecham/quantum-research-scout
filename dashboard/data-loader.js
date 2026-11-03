@@ -4,7 +4,8 @@
   const routes = {
     news: ["news"],
     briefing: ["news", "research", "federal", "decisions", "reports"],
-    research: ["news", "research", "source-health"],
+    // The landscape's government-program panel needs the mission registry on a cold visit.
+    research: ["news", "research", "source-health", "federal"],
     federal: ["news", "federal", "decisions"],
     patents: ["patents"],
     saved: ["news", "research"],

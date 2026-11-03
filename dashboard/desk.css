@@ -4906,6 +4906,300 @@ body:has(.profile-hero) > footer {
   outline: 3px solid #cc7135;
   outline-offset: 3px;
 }
+/* Tech landscape: readable evidence panels, not a three-column node diagram. */
+#research-workspace {
+  font-size: 17px;
+  line-height: 1.65;
+}
+#research-workspace .workspace-heading {
+  margin-bottom: 28px;
+}
+#research-workspace .workspace-heading > p {
+  max-width: 70ch;
+  font-size: 18px;
+  line-height: 1.65;
+}
+#research-workspace #technology-map {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+#research-workspace .map-instruction {
+  margin: 0 0 10px;
+  color: var(--text-secondary);
+  font-size: 15px;
+  font-weight: 600;
+}
+#research-workspace .map-topics {
+  gap: 10px;
+  margin: 0 0 28px;
+}
+#research-workspace .topic-government {
+  --explore-color: var(--topic-government, var(--accent));
+}
+#research-workspace .map-topics button {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text-secondary);
+  box-shadow: none;
+  font:
+    600 15px/1.5 "IBM Plex Sans",
+    "Segoe UI",
+    sans-serif;
+}
+#research-workspace .map-topics button[aria-pressed="true"] {
+  color: var(--text);
+  background: var(--surface-high);
+  border-color: var(--explore-color);
+  box-shadow: inset 0 -3px var(--explore-color);
+}
+#research-workspace .map-topic-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--explore-color);
+  flex-shrink: 0;
+}
+#research-workspace .map-hub {
+  display: block;
+  padding: 0;
+  background: transparent;
+  color: var(--text);
+}
+#research-workspace .map-hub h2 {
+  margin: 0 0 6px;
+  font-size: clamp(24px, 2.5vw, 30px);
+  line-height: 1.3;
+}
+#research-workspace #map-topic-description {
+  max-width: 70ch;
+  color: var(--text-secondary);
+}
+#research-workspace #map-connection-count {
+  margin-top: 12px;
+  color: var(--text-secondary);
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+#research-workspace .map-boundary {
+  margin: 8px 0 24px;
+  color: var(--muted);
+  font-size: 14px;
+}
+#research-workspace .map-boundary a {
+  white-space: nowrap;
+}
+#research-workspace .map-branches {
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#research-workspace .map-branches::before,
+#research-workspace .connection-column::before {
+  display: none;
+}
+#research-workspace .connection-column {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+#research-workspace .connection-column > h3 {
+  justify-content: flex-start;
+  margin: 0;
+  gap: 12px;
+  font-size: 21px;
+  line-height: 1.4;
+}
+#research-workspace .connection-column > h3 span {
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 2px 8px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+#research-workspace .connection-intro,
+#research-workspace .connection-empty {
+  color: var(--text-secondary);
+  margin: 8px 0 0;
+  font-size: 16px;
+}
+#research-workspace .connection-card {
+  padding: 20px 0;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+}
+#research-workspace .connection-card h4,
+#research-workspace .connection-stories h4 {
+  margin: 0;
+  font-size: 19px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+#research-workspace .connection-column h4 a {
+  color: var(--text);
+  text-decoration: none;
+}
+#research-workspace .connection-column h4 a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+#research-workspace .connection-card p,
+#research-workspace .connection-stories details p {
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 68ch;
+}
+#research-workspace .connection-context {
+  color: var(--text-secondary);
+  margin: 10px 0;
+}
+#research-workspace .connection-column .connection-date {
+  margin: 8px 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+#research-workspace .connection-column summary {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--accent);
+}
+#research-workspace .connection-more > summary {
+  padding: 12px 0 0;
+  background: transparent;
+  font-weight: 600;
+}
+#research-workspace .connection-stories ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#research-workspace .connection-stories li {
+  border-bottom: 1px solid var(--line);
+  padding: 20px 0;
+}
+#research-workspace .map-browse {
+  display: inline-block;
+  margin-top: 18px;
+  font-size: 15px;
+  font-weight: 600;
+}
+#research-workspace .connection-missions {
+  grid-column: 1 / -1;
+}
+#research-workspace .connection-missions.is-empty {
+  padding-block: 20px;
+  background: transparent;
+  border-style: dashed;
+}
+#research-workspace .map-method,
+#research-workspace .hands-on-panel {
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  margin: 0;
+  padding: 18px 0;
+}
+#research-workspace .map-method {
+  margin-top: 20px;
+}
+#research-workspace :is(.map-method, .hands-on-panel) > summary {
+  font:
+    600 16px/1.6 "IBM Plex Sans",
+    "Segoe UI",
+    sans-serif;
+  color: var(--text-secondary);
+}
+#research-workspace .map-method p {
+  max-width: 78ch;
+  font-size: 16px;
+}
+#research-workspace .landscape-tools {
+  margin-top: 44px;
+}
+#research-workspace .landscape-tools-heading h2 {
+  margin: 0;
+  font-size: 26px;
+}
+#research-workspace .landscape-tools-heading p {
+  margin: 6px 0 20px;
+  color: var(--text-secondary);
+}
+#research-workspace .landscape-tools-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+#research-workspace .landscape-advanced {
+  margin: 0;
+  min-width: 0;
+  border-radius: 8px;
+}
+#research-workspace .landscape-advanced[open] {
+  grid-column: 1 / -1;
+}
+#research-workspace .landscape-advanced > summary {
+  padding: 20px;
+  font:
+    600 17px/1.5 "IBM Plex Sans",
+    "Segoe UI",
+    sans-serif;
+  color: var(--text);
+  cursor: pointer;
+}
+#research-workspace .landscape-tool-description {
+  display: block;
+  padding-left: 20px;
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--text-secondary);
+}
+#research-workspace :is(a, button, summary, select):focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+}
+@media (max-width: 850px) {
+  #research-workspace .map-branches,
+  #research-workspace .landscape-tools-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  #research-workspace .connection-column {
+    padding: 18px;
+  }
+  #research-workspace .map-topics {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+  #research-workspace .map-topics button {
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+  }
+  #research-workspace .workspace-heading > p {
+    font-size: 17px;
+  }
+  #research-workspace .landscape-advanced > summary {
+    padding: 16px;
+  }
+}
 @media (max-width: 1150px) {
   .followup-list {
     grid-template-columns: minmax(0, 1fr);

@@ -218,7 +218,7 @@
     patents:
       "Explore emerging inventions and potential technology directions, without mistaking a filing for a demonstrated result.",
     research:
-      "See which organizations, programs, and evidence connect to a technology. Latest remains the home for news.",
+      "Explore who is working on emerging technology, the evidence behind it, and the programs worth following.",
     decisions: "Review changes, amendments, and conflicts that could affect your next step.",
     library:
       "Daily readings, weekly perspective, and monthly synthesis. Keep the full evidence trail.",
@@ -261,15 +261,39 @@
   technologyMap.id = "technology-map";
   technologyMap.className = "scout-exploration";
   landscape.before(technologyMap);
+  const landscapeTools = document.createElement("section");
+  landscapeTools.className = "landscape-tools";
+  landscapeTools.setAttribute("aria-labelledby", "landscape-tools-title");
+  landscapeTools.innerHTML =
+    '<div class="landscape-tools-heading"><h2 id="landscape-tools-title">Go deeper</h2><p>Open a view when you need more detail.</p></div><div class="landscape-tools-grid"></div>';
+  const toolDescriptions = {
+    signals: ["Topic signals", "See changes in collected activity and the evidence behind them."],
+    watch: [
+      "Organization directory",
+      "Explore tracked organizations, technologies, and source profiles.",
+    ],
+    trends: ["Coverage over time", "Compare collection activity across days and weeks."],
+    readiness: [
+      "PQC readiness",
+      "Review publicly observed migration activity, not internal readiness.",
+    ],
+    standards: [
+      "Standards & deadlines",
+      "Track migration milestones and the source for each date.",
+    ],
+    compare: ["Compare organizations", "Put two organizations and their evidence side by side."],
+  };
+  elements.research.append(landscapeTools);
   for (const id of views.research[1]) {
     const node = $(id);
     if (!node) continue;
     const detail = document.createElement("details");
     detail.className = "landscape-advanced";
     const summary = document.createElement("summary");
-    summary.textContent = node.querySelector("h2,h3")?.textContent || id;
-    node.before(detail);
+    const [title, description] = toolDescriptions[id];
+    summary.innerHTML = `<span class="landscape-tool-title">${esc(title)}</span><span class="landscape-tool-description">${esc(description)}</span>`;
     detail.append(summary, node);
+    landscapeTools.querySelector(".landscape-tools-grid").append(detail);
   }
   // Each disclosure already names its tool. A second identical link list adds noise.
   elements.research.querySelector(".workspace-jumps").remove();
@@ -334,8 +358,11 @@
     };
     // Older alerts links lead to the queue when no additional signal remains.
     const target = hash === "alerts" && $("alerts").hidden ? $("decision-center") : $(hash);
+    // These anchors are created after their workspace data arrives.
+    const dynamicViews = { "map-method": "research" };
     const key =
       aliases[hash] ||
+      dynamicViews[hash] ||
       (views[hash]
         ? hash
         : Object.keys(views).find(

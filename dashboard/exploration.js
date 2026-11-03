@@ -5,6 +5,8 @@
     {
       id: "security",
       name: "Cyber / PQC",
+      description:
+        "Follow cryptographic migration, security tooling, and quantum-safe deployments.",
       terms: [
         "PQC",
         "post-quantum",
@@ -21,24 +23,30 @@
     {
       id: "quantum",
       name: "Quantum computing",
+      description:
+        "Follow the hardware, error correction, and algorithms behind quantum computing.",
       terms: ["quantum", "qubit", "fault tolerance"],
       pattern: /\b(quantum|qubits?|fault[- ]toleran\w*)\b/i,
     },
     {
       id: "ai",
       name: "Artificial intelligence",
+      description: "Follow AI systems, security, and the organizations putting models to work.",
       terms: ["AI", "LLM", "machine learning"],
       pattern: /\b(ai|artificial intelligence|llms?|machine learning|language models?|genai)\b/i,
     },
     {
       id: "cloud",
       name: "Cloud & infrastructure",
+      description:
+        "Follow cloud platforms, infrastructure, and changes to how systems are deployed.",
       terms: ["cloud", "Kubernetes", "container", "data center"],
       pattern: /\b(cloud|kubernetes|containers?|data cent(?:er|re)s?)\b/i,
     },
     {
       id: "government",
       name: "Government & policy",
+      description: "Follow public-sector priorities, technology programs, and policy developments.",
       terms: ["government", "federal"],
       pattern: /\b(government|federal)\b/i,
     },
@@ -180,6 +188,9 @@
             title: entity.name,
             date: evidence[0].date,
             url: evidence[0].url,
+            evidenceTitle: evidence[0].title,
+            source: evidence[0].source,
+            dateLabel: evidence[0].date_label,
             evidence: textOf(evidence[0]),
             reason: `Name/alias and “${matches(evidence[0], topic)}” occur in the same stored title or excerpt.`,
             count: evidence.length,
@@ -212,6 +223,7 @@
         date: s.date,
         dateLabel: s.date_label || "Source date",
         reportDate: date(s.report_date),
+        source: s.source,
         evidence: s.summary || "No stored excerpt; review the source.",
         reason: `Title/excerpt matches “${matches(s, topic)}”.`,
         count: 1,
@@ -274,24 +286,37 @@
     );
   }
   function evidenceCard(r, type) {
-    return `<article class="connection-card"><h4>${external(r.url, r.title)}</h4><p class="connection-date">${type === "missions" ? "Curated program context · not a new announcement" : date(r.date) ? `${esc(r.dateLabel || "Evidence date")} · ${esc(window.ScoutDisplay.date(r.date))}` : "Source date unavailable"}${r.reportDate ? ` · Report ${esc(window.ScoutDisplay.date(r.reportDate))}` : ""}</p><p>${esc(r.reason)}</p><details><summary>Inspect supporting evidence${r.count > 1 ? ` · ${r.count} matching links in snapshot` : ""}</summary><p>${esc(r.evidence)}</p><p>${external(r.url, "Open supporting source")}</p></details></article>`;
+    const program = type === "missions";
+    return `<article class="connection-card"><h4>${external(r.url, r.title)}</h4><p class="connection-date">${program ? "Curated program context · not a new announcement" : sourceMeta(r)}</p><p class="connection-context">${esc(program ? r.evidence : r.evidenceTitle || "Open the source for the collected context.")}</p><details><summary>Why linked${r.count > 1 ? ` · ${r.count} matching source links` : ""}</summary><p>${esc(r.reason)}</p>${program ? "" : `<p>${esc(r.evidence)}</p>`}<p>${external(r.url, "Open supporting source")}</p></details></article>`;
+  }
+  function sourceMeta(r) {
+    return [
+      r.source ? esc(r.source) : "",
+      date(r.date)
+        ? `${esc(r.dateLabel || "Evidence date")} ${esc(window.ScoutDisplay.date(r.date))}`
+        : "Source date unavailable",
+    ]
+      .filter(Boolean)
+      .join(" · ");
   }
   function column(label, rows, type) {
+    const heading = `<h3>${esc(label)} <span aria-label="${rows.length} ${esc(label.toLowerCase())}">${rows.length}</span></h3>`;
     if (type === "readings")
-      return `<section class="connection-column"><h3>Linked stories <span>${rows.length}</span></h3><p class="explore-note">Supporting links from the Latest collection, not another news feed.</p><ul>${rows
+      return `<section class="connection-column connection-stories" data-connection-type="readings">${heading}<p class="connection-intro">A few starting points from the current collection.</p><ul>${rows
         .slice(0, 3)
         .map(
-          r => `<li>${external(r.url, r.title)}<p class="explore-note">${esc(r.reason)}</p></li>`,
+          r =>
+            `<li><h4>${external(r.url, r.title)}</h4><p class="connection-date">${sourceMeta(r)}</p><details><summary>Source context</summary><p>${esc(r.evidence)}</p><p>${esc(r.reason)}</p>${r.reportDate ? `<p class="connection-date">Collected in report ${esc(window.ScoutDisplay.date(r.reportDate))}</p>` : ""}</details></li>`,
         )
         .join(
           "",
-        )}</ul><a href="#news" data-map-browse="${selected}">Browse this topic in Latest →</a></section>`;
-    return `<section class="connection-column"><h3>${esc(label)} <span>${rows.length}</span></h3>${
+        )}</ul>${rows.length ? "" : '<p class="connection-empty">No matching stories in this collection. This is a coverage gap, not proof of no activity.</p>'}<a class="map-browse" href="#news" data-map-browse="${selected}">Browse this topic in Latest →</a></section>`;
+    return `<section class="connection-column connection-${type}${rows.length ? "" : " is-empty"}" data-connection-type="${type}">${heading}${type === "organizations" && rows.length ? '<p class="connection-intro">Latest matching evidence for each organization.</p>' : ""}${
       rows
         .slice(0, 2)
         .map(r => evidenceCard(r, type))
         .join("") ||
-      '<p class="explore-note">No supported matches in this snapshot. This is a coverage gap, not proof of no activity.</p>'
+      '<p class="connection-empty">No supported matches in this snapshot. This is a coverage gap, not proof of no activity.</p>'
     }${
       rows.length > 2
         ? `<details class="connection-more"><summary>Show ${rows.length - 2} more</summary>${rows
@@ -299,7 +324,7 @@
             .map(r => evidenceCard(r, type))
             .join("")}</details>`
         : ""
-    }</section>`;
+    }${type === "missions" ? '<a class="map-browse" href="#federal">Explore the Federal landscape →</a>' : ""}</section>`;
   }
   function renderResources() {
     const host = document.getElementById("discovery-resources");
@@ -323,14 +348,15 @@
       .querySelectorAll("[data-map-topic]")
       .forEach(b => b.setAttribute("aria-pressed", String(b.dataset.mapTopic === selected)));
     document.getElementById("map-topic-name").textContent = topic.name;
+    document.getElementById("map-topic-description").textContent = topic.description;
     document.getElementById("map-connection-count").textContent =
-      `${window.ScoutDisplay.count(graph.organizations.length, "organization")} · ${window.ScoutDisplay.count(graph.missions.length, "program")} · ${window.ScoutDisplay.count(graph.readings.length, "reading")}`;
+      `${window.ScoutDisplay.count(graph.organizations.length, "organization")} · ${window.ScoutDisplay.count(graph.missions.length, "program")} · ${window.ScoutDisplay.count(graph.readings.length, "story", "stories")}`;
     const branches = document.getElementById("map-branches");
     branches.className = `map-branches topic-${selected}`;
     branches.innerHTML =
       column("Organizations", graph.organizations, "organizations") +
-      column("Government programs", graph.missions, "missions") +
-      column("Research & reporting", graph.readings, "readings");
+      column("Related stories", graph.readings, "readings") +
+      column("Government programs", graph.missions, "missions");
     branches.querySelector("[data-map-browse]")?.addEventListener("click", e => {
       e.preventDefault();
       window.ScoutNews.browse("", selected);
@@ -343,12 +369,13 @@
     const host = document.getElementById("technology-map");
     if (!host) return;
     const coverage = data.reading_brief?.coverage || {};
-    host.innerHTML = `<div class="explore-heading"><div><span class="desk-kicker">FOLLOW THE CONNECTIONS</span><h2>Emerging-tech map</h2></div><a href="#news">Browse latest news →</a></div><p>Choose a technology to connect organizations, government programs, and supporting stories.</p>
-      <div class="map-topics" role="group" aria-label="Map technology">${topics.map(t => `<button type="button" class="desk-button topic-${t.id}" data-map-topic="${t.id}" aria-pressed="false">${esc(t.name)}</button>`).join("")}</div>
-      <div class="map-hub"><span class="desk-kicker">TOPIC ASSOCIATIONS · NOT PARTNERSHIPS</span><h3 id="map-topic-name"></h3><p id="map-connection-count" role="status"></p></div>
+    host.innerHTML = `<p class="map-instruction" id="map-picker-label">Explore a technology</p>
+      <div class="map-topics" role="group" aria-labelledby="map-picker-label">${topics.map(t => `<button type="button" class="desk-button topic-${t.id}" data-map-topic="${t.id}" aria-pressed="false"><span class="map-topic-dot" aria-hidden="true"></span>${esc(t.name)}</button>`).join("")}</div>
+      <div class="map-hub"><div><h2 id="map-topic-name"></h2><p id="map-topic-description"></p></div><p id="map-connection-count" role="status" aria-live="polite"></p></div>
+      <p class="map-boundary">Connections from collected evidence, not confirmed partnerships. <a href="#map-method">How this works ↓</a></p>
       <div id="map-branches" class="map-branches"></div>
-      <details class="map-method"><summary>How these connections are made</summary><p class="explore-note">Organizations use stored name/alias + topic co-mentions; programs use curated descriptions; readings use title/excerpt matches. These are navigational leads, not independently verified relationships. Readings: ${esc(window.ScoutDisplay.date(coverage.window_start))}–${esc(window.ScoutDisplay.date(coverage.window_end))}. Organization and mission snapshots may contain older evidence. PQC and quantum-safe mentions alone do not count as quantum-computing coverage. Story counts use the same grouped collection as Latest. Organization and program counts describe different record types.</p></details>
-      <details class="hands-on-panel"><summary>Hands-on discovery · turn an interest into a small experiment</summary><p>Official projects, tutorials, a demo, and a dataset to explore. “Try this” is Frontier Signal’s suggested exercise, not a claim from the news. Nothing runs or sends data when you browse.</p><div class="discovery-controls"><label>Technology<select id="discovery-filter"><option value="all">All technologies</option>${topics.map(t => `<option value="${t.id}">${esc(t.name)}</option>`).join("")}</select></label><span id="discovery-count" role="status"></span></div><div id="discovery-resources" class="discovery-resources"></div></details>`;
+      <details id="map-method" class="map-method"><summary>How these connections are made</summary><p class="explore-note">Organizations use stored name/alias + topic co-mentions; programs use curated descriptions; stories use title/excerpt matches. These are navigational leads, not independently verified relationships.</p><p class="explore-note">Story window: ${esc(window.ScoutDisplay.date(coverage.window_start))} to ${esc(window.ScoutDisplay.date(coverage.window_end))}. Organization and mission snapshots may contain older evidence. PQC and quantum-safe mentions alone do not count as quantum-computing coverage. Story counts use the same grouped collection as Latest. Organization and program counts describe different record types.</p></details>
+      <details class="hands-on-panel"><summary>Tools &amp; hands-on guides</summary><p>Official projects, tutorials, a demo, and a dataset to explore. “Try this” is Frontier Signal’s suggested exercise, not a claim from the news. Nothing runs or sends data when you browse.</p><div class="discovery-controls"><label>Technology<select id="discovery-filter"><option value="all">All technologies</option>${topics.map(t => `<option value="${t.id}">${esc(t.name)}</option>`).join("")}</select></label><span id="discovery-count" role="status"></span></div><div id="discovery-resources" class="discovery-resources"></div></details>`;
     host
       .querySelectorAll("[data-map-topic]")
       .forEach(b => b.addEventListener("click", () => choose(b.dataset.mapTopic)));

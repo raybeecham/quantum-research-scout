@@ -77,7 +77,22 @@ def main():
             expect(page.locator("#" + element)).to_be_visible()
             if route == "federal":
                 assert page.evaluate("Boolean(state.data.claim_ledger?.summary?.active_claims)")
+            if route == "research":
+                assert page.evaluate("state.data.federal_missions") == complete["federal_missions"]
+                for topic in ("security", "quantum", "ai", "cloud", "government"):
+                    page.locator(f'[data-map-topic="{topic}"]').click()
+                    expected = page.evaluate(
+                        "topic => ScoutExploration.connections(state.data, topic).missions.length",
+                        topic,
+                    )
+                    expect(page.locator(".connection-missions h3 > span")).to_have_text(
+                        str(expected)
+                    )
             assert_no_overflow(page, route)
+        page.goto(args.url + "/#map-method")
+        expect(page.locator("#research-workspace")).to_be_visible()
+        expect(page.locator("#map-method")).to_have_attribute("open", "")
+        expect(page.locator("#map-method")).to_be_focused()
         # Search loads other packs without rerendering/focusing away from the
         # dialog. A later visit must render the now-cached research payload.
         page.goto(args.url + "/#news")

@@ -3,12 +3,61 @@
 import argparse
 import copy
 import json
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
 
 from playwright.sync_api import expect, sync_playwright
 from verify_editorial_browser import editorial_fixture
+
+
+def assert_update_button_styles(page):
+    """All update actions use the shared control styling in either theme."""
+    original_theme = page.locator("html").get_attribute("data-theme")
+    original_viewport = page.viewport_size
+    page.mouse.move(0, 0)
+    for width in (1440, 390, 320):
+        page.set_viewport_size({"width": width, "height": 1000})
+        for theme in ("dark", "light"):
+            page.evaluate("t => document.documentElement.dataset.theme = t", theme)
+            colors = page.evaluate("""() => {
+                const probe = document.createElement('span');
+                probe.style.cssText = 'background:var(--surface);color:var(--text-secondary);border:1px solid var(--line)';
+                document.body.append(probe);
+                const style = getComputedStyle(probe);
+                const colors = {
+                    'background-color': style.backgroundColor,
+                    'color': style.color,
+                    'border-top-color': style.borderTopColor,
+                };
+                probe.remove();
+                return colors;
+            }""")
+            for action in ("check", "apply", "later"):
+                button = page.locator(f"#news-update-{action}")
+                expect(button).to_be_visible()
+                expect(button).to_be_enabled()
+                expect(button).to_have_css("font-family", re.compile(r'^"?IBM Plex Sans"?,'))
+                for property_name, value in {
+                    "font-size": "13px",
+                    "font-weight": "600",
+                    "border-top-width": "1px",
+                    "border-top-style": "solid",
+                    "border-radius": "4px",
+                    "padding": "8px 12px",
+                    **colors,
+                }.items():
+                    expect(button).to_have_css(property_name, value)
+            assert page.evaluate("document.documentElement.scrollWidth <= innerWidth + 1")
+    page.set_viewport_size(original_viewport)
+    page.evaluate(
+        """theme => {
+        if (theme === null) delete document.documentElement.dataset.theme;
+        else document.documentElement.dataset.theme = theme;
+    }""",
+        original_theme,
+    )
 
 
 def main():
@@ -81,6 +130,7 @@ def main():
         page = context.new_page()
         page.clock.install()
         page.goto(base + "/#research")
+        expect(page.locator("#map-topic-name")).to_have_text("Cyber / PQC")
         expect(page.locator("#main")).to_have_attribute("aria-busy", "false")
         page.evaluate("location.hash = 'news'")
         expect(page.locator("#news-lead article")).to_be_visible()
@@ -99,6 +149,7 @@ def main():
         server["new"] = True
         page.locator("#news-update-check").click()
         expect(page.locator("#news-update-description")).to_have_text("1 new story available")
+        assert_update_button_styles(page)
         assert page.locator("#news-featured").inner_text() == before
         assert page.evaluate("state.data.build_id") == old_build
         page.locator("#news-update-later").click()
@@ -152,7 +203,7 @@ def main():
         assert not errors, errors
         browser.close()
     print(
-        "Edition updates passed: explicit apply, Later, atomic multi-pack failure/retry, filters/saves/read state, offline recovery, route-aware polling, both themes and mobile."
+        "Edition updates passed: explicit apply, Later, atomic multi-pack failure/retry, filters/saves/read state, offline recovery, route-aware polling, styled controls in both themes and mobile."
     )
 
 
