@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T23:46:31.305037+00:00",
+  "updated_at": "2026-11-03T00:47:03.283486+00:00",
   "records": {
     "https://quantumzeitgeist.com/stealthcores-quantum-resistant-keys-stealthpq-uses": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/stealthpq-uses-quantum-resistant-keys-against-1200x630.jpg",
@@ -901,6 +901,11 @@
       "fetched_at": "2026-10-29T00:46:21.136471+00:00",
       "status": "ok"
     },
+    "https://eprint.iacr.org/2026/2643": {
+      "page_url": "https://eprint.iacr.org/2026/2643",
+      "status": "failed",
+      "fetched_at": "2026-11-02T23:46:31.305037+00:00"
+    },
     "https://arxiv.org/abs/2610.34143": {
       "page_url": "https://arxiv.org/abs/2610.34143",
       "status": "unavailable",
@@ -910,11 +915,6 @@
       "page_url": "https://arxiv.org/abs/2610.33290",
       "status": "unavailable",
       "fetched_at": "2026-11-02T08:46:38.819893+00:00"
-    },
-    "https://eprint.iacr.org/2026/2653": {
-      "page_url": "https://eprint.iacr.org/2026/2653",
-      "status": "failed",
-      "fetched_at": "2026-11-01T23:46:41.348417+00:00"
     },
     "https://arxiv.org/abs/2610.36145": {
       "page_url": "https://arxiv.org/abs/2610.36145",
@@ -1044,6 +1044,11 @@
       "fetched_at": "2026-10-29T03:46:08.263511+00:00",
       "status": "ok"
     },
+    "https://eprint.iacr.org/2026/2641": {
+      "page_url": "https://eprint.iacr.org/2026/2641",
+      "status": "failed",
+      "fetched_at": "2026-11-02T23:46:31.305037+00:00"
+    },
     "https://arxiv.org/abs/2610.33862": {
       "page_url": "https://arxiv.org/abs/2610.33862",
       "status": "unavailable",
@@ -1134,15 +1139,9 @@
       "fetched_at": "2026-10-27T00:07:21.385584+00:00",
       "status": "ok"
     },
-    "https://eprint.iacr.org/2026/2643": {
-      "page_url": "https://eprint.iacr.org/2026/2643",
-      "fetched_at": "2026-11-02T23:46:31.305037+00:00",
-      "status": "failed",
-      "reason": "http_403"
-    },
-    "https://eprint.iacr.org/2026/2641": {
-      "page_url": "https://eprint.iacr.org/2026/2641",
-      "fetched_at": "2026-11-02T23:46:31.305037+00:00",
+    "https://eprint.iacr.org/2026/2653": {
+      "page_url": "https://eprint.iacr.org/2026/2653",
+      "fetched_at": "2026-11-03T00:47:03.283486+00:00",
       "status": "failed",
       "reason": "http_403"
     }
