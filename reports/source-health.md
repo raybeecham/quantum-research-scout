@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-04 20:47 UTC_
+_Updated 2026-11-04 21:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -36,7 +36,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-04 | 2026-10-07 | stale | 🟢 healthy |
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-11-04 | 2026-09-29 | stale | 🟢 healthy |
-| CISA Cybersecurity Advisories | rss | 99% | 0 | 0 | 2026-11-04 | 2026-11-03 | fresh | 🔴 failing |
+| CISA Cybersecurity Advisories | rss | 98% | 0 | 0 | 2026-11-04 | 2026-11-03 | fresh | 🔴 failing |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-11-04 | 2026-10-26 | fresh | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-02 | 2026-10-22 | fresh | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-04 | 2026-11-04 | fresh | 🟢 healthy |
@@ -44,9 +44,9 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-04 | 2026-10-06 | stale | 🟢 healthy |
 | DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-04 | 2026-11-04 | fresh | 🟢 healthy |
-| DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-04 | 2026-10-30 | fresh | 🟢 healthy |
+| DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-04 | 2026-11-04 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-02 | — | reference | 🟢 healthy |
-| DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-04 | 2026-11-02 | fresh | 🟢 healthy |
+| DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-04 | 2026-11-04 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 0 | 2026-11-02 | 2024-03-12 | reference | 🟢 healthy |
 | Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-11-04 | 2026-10-08 | stale | 🟢 healthy |
