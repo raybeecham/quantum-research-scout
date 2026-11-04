@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-04 02:46 UTC_
+_Updated 2026-11-04 03:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -27,7 +27,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv RSS quant-ph | arxiv_rss | 85% | 2 | 0 | 2026-11-04 | 2026-11-03 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 100% | 1 | 0 | 2026-11-04 | 2026-10-30 | fresh | 🟢 healthy |
 | Quantum Journal | rss | 96% | 1 | 0 | 2026-11-04 | 2026-11-03 | fresh | 🟢 healthy |
-| Quantum Zeitgeist | rss | 97% | 1 | 0 | 2026-11-04 | 2026-11-03 | fresh | 🟢 healthy |
+| Quantum Zeitgeist | rss | 98% | 1 | 0 | 2026-11-04 | 2026-11-03 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 19 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-04 | 2026-10-21 | fresh | 🟢 healthy |
 | AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-04 | 2026-11-02 | fresh | 🟢 healthy |
