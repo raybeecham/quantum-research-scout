@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-04 00:46 UTC_
+_Updated 2026-11-04 01:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -23,7 +23,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Computing Report | rss | 87% | 6 | 0 | 2026-11-04 | 2026-11-03 | fresh | 🟢 healthy |
 | Google Quantum AI | watch | 57% | 4 | 0 | 2026-11-04 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Computing Patents | patent | 92% | 4 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
-| arXiv RSS cs.CR | arxiv_rss | 84% | 2 | 0 | 2026-11-04 | 2026-11-03 | fresh | 🟢 healthy |
+| arXiv RSS cs.CR | arxiv_rss | 85% | 2 | 0 | 2026-11-04 | 2026-11-03 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 84% | 2 | 0 | 2026-11-04 | 2026-11-03 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 100% | 1 | 0 | 2026-11-04 | 2026-10-30 | fresh | 🟢 healthy |
 | Quantum Journal | rss | 96% | 1 | 0 | 2026-11-04 | 2026-11-03 | fresh | 🟢 healthy |
