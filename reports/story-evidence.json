@@ -1254,6 +1254,106 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2611.03788": {
+      "captures": [
+        {
+          "excerpts": [
+            "Entanglement-based quantum key distribution from ground to satellite has been proposed as a scalable primitive for global quantum networks and will be demonstrated as part of the imminent QEYSSat mission",
+            "Both theoretical studies and experimental emulations have shown that a significant asymptotic key rate can be expected"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-03",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.03788"
+            }
+          ],
+          "title": "Optimised finite key for satellite up-link entangled quantum key distribution"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.04075": {
+      "captures": [
+        {
+          "excerpts": [
+            "In Fault-Tolerant Quantum Computing (FTQC) using surface codes, reducing $T$-count is critical for efficient computation due to the high cost of $T$-state distillation",
+            "Probabilistic Quantum Circuit with Fallback (PQF) synthesis significantly lowers $T$-counts compared to standard protocols like Gridsynth, but introduces high circuit dynamism through extra gates inserted at runtime"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-03",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.04075"
+            }
+          ],
+          "title": "Runtime Compilation for Quantum Circuits with PQF-Enabled $R_z$ Synthesis"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.04128": {
+      "captures": [
+        {
+          "excerpts": [
+            "Jointly supporting communication and distributed sensing over a shared, limited pool of entanglement resources is an attractive prospect for future quantum networks",
+            "We develop a network-level quantum integrated sensing and communication (Q-ISAC) framework in which a quantum base station dynamically allocates elementary Bell pairs between communication users and distributed sensing"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-03",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.04128"
+            }
+          ],
+          "title": "Entanglement Allocation for Quantum Integrated Sensing and Communication"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.04526": {
+      "captures": [
+        {
+          "excerpts": [
+            "Quantum memory is a core enabling device for large-scale quantum networks, serving as the fundamental building block for quantum repeaters and transportable quantum memories",
+            "Among various physical platforms, rare-earth-ion-doped crystals stand out as one of the most promising solid-state candidates for long-lived photonic quantum memories, owing to their exceptionally long spin..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-03",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.04526"
+            }
+          ],
+          "title": "Long-lived quantum memories with rare-earth ions doped in crystals"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.04876": {
+      "captures": [
+        {
+          "excerpts": [
+            "Leakage-resilient cryptography protects secrets against side-channel attacks, in which a physical implementation reveals partial information about its internal state",
+            "A fundamental primitive in this area is a leakage-resilient storage, which allows a secret to be stored in a way that remains secure even if an adversary learns some information about the storage's internal state"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-03",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.04876"
+            }
+          ],
+          "title": "Leakage-Resilient Computation via Matrix Refreshing"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
@@ -6009,6 +6109,13 @@
               "published_date": "2026-11-03",
               "report_date": "2026-11-03",
               "sequence": 6,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/quantum-era-sectigo-see-78-percent"
+            },
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-03",
+              "sequence": 8,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/quantum-era-sectigo-see-78-percent"
             }
