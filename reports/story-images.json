@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T22:46:38.749202+00:00",
+  "updated_at": "2026-11-04T23:46:31.088213+00:00",
   "records": {
     "https://quantumzeitgeist.com/government-cipher-vietnam-drafts-standards-fend": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/vietnam-drafts-standards-to-fend-off-future-quantum-1200x630.webp",
@@ -1028,6 +1028,11 @@
       "status": "unavailable",
       "fetched_at": "2026-11-04T08:46:13.112516+00:00"
     },
+    "https://eprint.iacr.org/2026/2660": {
+      "page_url": "https://eprint.iacr.org/2026/2660",
+      "status": "failed",
+      "fetched_at": "2026-11-04T22:46:38.749202+00:00"
+    },
     "https://quantumzeitgeist.com/aws-adds-encryption-method-guard": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/duokey-lets-you-test-post-quantum-key-exchange-1200x630.png",
       "page_url": "https://quantumzeitgeist.com/aws-adds-encryption-method-guard",
@@ -1099,12 +1104,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-30T04:00:03.749966+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2660": {
-      "page_url": "https://eprint.iacr.org/2026/2660",
-      "fetched_at": "2026-11-04T22:46:38.749202+00:00",
-      "status": "failed",
-      "reason": "http_403"
     }
   }
 }
