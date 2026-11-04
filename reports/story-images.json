@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T01:46:18.647391+00:00",
+  "updated_at": "2026-11-04T02:46:21.942981+00:00",
   "records": {
     "https://quantumzeitgeist.com/government-cipher-vietnam-drafts-standards-fend": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/vietnam-drafts-standards-to-fend-off-future-quantum-1200x630.webp",
@@ -1042,6 +1042,11 @@
       "status": "unavailable",
       "fetched_at": "2026-11-03T08:46:58.813244+00:00"
     },
+    "https://eprint.iacr.org/2026/2653": {
+      "page_url": "https://eprint.iacr.org/2026/2653",
+      "status": "failed",
+      "fetched_at": "2026-11-04T01:46:18.647391+00:00"
+    },
     "https://arxiv.org/abs/2610.36145": {
       "page_url": "https://arxiv.org/abs/2610.36145",
       "status": "unavailable",
@@ -1140,12 +1145,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-29T04:00:21.218491+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2653": {
-      "page_url": "https://eprint.iacr.org/2026/2653",
-      "fetched_at": "2026-11-04T01:46:18.647391+00:00",
-      "status": "failed",
-      "reason": "http_403"
     }
   }
 }
