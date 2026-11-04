@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-04 15:47 UTC_
+_Updated 2026-11-04 16:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -43,7 +43,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-04 | 2026-10-23 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-04 | 2026-10-06 | stale | 🟢 healthy |
-| DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-04 | 2026-10-30 | fresh | 🟢 healthy |
+| DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-04 | 2026-11-04 | fresh | 🟢 healthy |
 | DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-04 | 2026-10-30 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-02 | — | reference | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-04 | 2026-11-02 | fresh | 🟢 healthy |
@@ -67,7 +67,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Grants.gov · Quantum Technologies | grant_opportunity | 100% | 0 | 0 | 2026-11-02 | 2026-10-28 | fresh | 🟢 healthy |
 | Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-11-02 | — | unknown | 🟢 healthy |
 | Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-04 | 2026-11-03 | fresh | 🟢 healthy |
-| IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-04 | 2026-10-31 | fresh | 🟢 healthy |
+| IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-04 | 2026-11-01 | fresh | 🟢 healthy |
 | IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-04 | 2026-10-27 | fresh | 🟢 healthy |
 | IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-04 | 2026-10-27 | fresh | 🟢 healthy |
 | IETF PQUIP | watch | 100% | 0 | 0 | 2026-11-02 | — | reference | 🟢 healthy |
@@ -83,7 +83,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | NCSC UK Guidance | rss | 100% | 0 | 0 | 2026-11-04 | 2026-10-15 | stale | 🟢 healthy |
 | NCSC UK News | rss | 100% | 0 | 0 | 2026-11-04 | 2026-11-03 | fresh | 🟢 healthy |
 | NCSC UK Reports | rss | 100% | 0 | 0 | 2026-11-04 | 2026-11-03 | fresh | 🟢 healthy |
-| NIST CSRC News | url | 100% | 0 | 0 | 2026-11-04 | 2026-11-02 | fresh | 🟢 healthy |
+| NIST CSRC News | url | 100% | 0 | 0 | 2026-11-04 | 2026-11-04 | fresh | 🟢 healthy |
 | NIST Cybersecurity Insights | watch | 100% | 0 | 0 | 2026-11-04 | 2026-10-27 | fresh | 🟢 healthy |
 | NIST Post-Quantum Cryptography Project | watch | 100% | 0 | 0 | 2026-11-02 | 2025-03-07 | reference | 🟢 healthy |
 | NIST Research News | watch | 100% | 0 | 0 | 2026-11-04 | 2026-11-02 | fresh | 🟢 healthy |
@@ -91,7 +91,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Open Quantum Safe | rss | 100% | 0 | 0 | 2026-11-04 | 2026-07-09 | stale | 🟢 healthy |
 | OpenSSL Library Releases | rss | 100% | 0 | 0 | 2026-11-04 | 2026-10-23 | fresh | 🟢 healthy |
 | PQCA Blog and News | rss | 100% | 0 | 0 | 2026-11-04 | 2026-11-02 | fresh | 🟢 healthy |
-| PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-11-04 | 2026-10-20 | fresh | 🟢 healthy |
+| PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-11-04 | 2026-10-20 | stale | 🟢 healthy |
 | PQShield | rss | 100% | 0 | 0 | 2026-11-04 | 2026-11-04 | fresh | 🟢 healthy |
 | Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-04 | 2026-11-04 | fresh | 🟢 healthy |
 | Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
