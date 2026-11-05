@@ -2213,6 +2213,108 @@
         }
       ]
     },
+    "https://eprint.iacr.org/2026/2730": {
+      "captures": [
+        {
+          "excerpts": [
+            "For example, while NIST standardized structured-lattice-based ML-KEM, European agencies like BSI and ANSSI favor unstructured-lattice-based FrodoKEM",
+            "With deployment of standardized post-quantum cryptography well on the way, discussions continue about concrete choices of schemes and parameter sets"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-04",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2730"
+            }
+          ],
+          "title": "Kaiburr: ML-KEM at (much) higher security"
+        }
+      ]
+    },
+    "https://eprint.iacr.org/2026/2731": {
+      "captures": [
+        {
+          "excerpts": [
+            "Falcon, a NIST-standardized post-quantum signature algorithm, offers compact signatures but relies on hardware-intensive floating-point arithmetic",
+            "Building on recent theoretical fixed-point formulations, we present a completely floating-point-free hardware architecture for SamplerZ, Falcon’s primary signing bottleneck"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-04",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2731"
+            }
+          ],
+          "title": "FixSampZ: A Fixed-Point Hardware-Efficient Discrete Gaussian Sampler for Falcon Signatures"
+        }
+      ]
+    },
+    "https://eprint.iacr.org/2026/2733": {
+      "captures": [
+        {
+          "excerpts": [
+            "MinRank is an NP-complete problem underlying the security of several post-quantum schemes",
+            "It is the hardness assumption of the NIST second-round signature candidate Mirath and of the encryption schemes of Chatterjee et al.\\ and Debris-Alazard et al.\\ at Eurocrypt 2026",
+            "Moreover, it is ubiquitous in the cryptanalysis of multivariate schemes, among them the third-round candidates UOV, MAYO, QR-UOV, and SNOVA"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-04",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2733"
+            }
+          ],
+          "title": "Cryptanalysis of MinRank 2.0"
+        }
+      ]
+    },
+    "https://eprint.iacr.org/2026/2739": {
+      "captures": [
+        {
+          "excerpts": [
+            "A blockchain that signs every transaction with FIPS 204 ML-DSA-87 keeps 4,627 bytes of signature per transaction forever",
+            "We describe and measure an archive certificate: one hash-based proof, for a range of already validated blocks, of knowledge of canonical FIPS 204 signatures on exactly the recorded messages under the keys resolved..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-04",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2739"
+            }
+          ],
+          "title": "Archive Certificates for ML-DSA-87 Authorizations from an Exact Bounded Relation"
+        }
+      ]
+    },
+    "https://eprint.iacr.org/2026/2741": {
+      "captures": [
+        {
+          "excerpts": [
+            "Leakage-resilient cryptography protects secrets against side-channel attacks, in which a physical implementation reveals partial information about its internal state",
+            "A fundamental primitive in this area is a leakage-resilient storage, which allows a secret to be stored in a way that remains secure even if an adversary learns some information about the storage's internal state",
+            "A popular approach represents a secret as the inner product of two $n$-bit vectors, called shares"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-04",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2741"
+            }
+          ],
+          "title": "Leakage-Resilient Computation via Matrix Refreshing"
+        }
+      ]
+    },
     "https://huggingface.co/blog/allenai/novelty-bench": {
       "captures": [
         {
@@ -5584,6 +5686,23 @@
               "published_date": "2026-11-04",
               "report_date": "2026-11-04",
               "sequence": 1,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less"
+            }
+          ],
+          "title": "A sign-less key exchange aims to secure IoT networks post-quantum"
+        },
+        {
+          "excerpts": [
+            "HPQ-AKE, a sign-less authenticated key exchange protocol, secures bandwidth-constrained IoT networks using ML-KEM-768 and RSA-OAEP",
+            "FixSampZ: A Fixed-Point Hardware-Efficient Discrete Gaussian Sampler for Falcon Signatures — already featured in Strategic Signals. [Open item](https://eprint.iacr.org/2026/2731)",
+            "Cryptanalysis of MinRank 2.0 — already featured in Strategic Signals. [Open item](https://eprint.iacr.org/2026/2733)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-04",
+              "sequence": 2,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less"
             }
