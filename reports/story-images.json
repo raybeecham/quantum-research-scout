@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T08:47:11.006386+00:00",
+  "updated_at": "2026-11-05T09:46:02.164848+00:00",
   "records": {
     "https://eprint.iacr.org/2026/2751": {
       "page_url": "https://eprint.iacr.org/2026/2751",
@@ -854,6 +854,11 @@
       "status": "unavailable",
       "fetched_at": "2026-11-04T09:46:18.992501+00:00"
     },
+    "https://eprint.iacr.org/2026/2665": {
+      "page_url": "https://eprint.iacr.org/2026/2665",
+      "status": "failed",
+      "fetched_at": "2026-11-05T08:47:11.006386+00:00"
+    },
     "https://arxiv.org/abs/2610.38479": {
       "page_url": "https://arxiv.org/abs/2610.38479",
       "status": "unavailable",
@@ -1001,12 +1006,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-30T01:46:01.181127+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2665": {
-      "page_url": "https://eprint.iacr.org/2026/2665",
-      "fetched_at": "2026-11-05T08:47:11.006386+00:00",
-      "status": "failed",
-      "reason": "http_403"
     }
   }
 }
