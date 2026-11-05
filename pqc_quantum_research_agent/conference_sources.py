@@ -26,6 +26,17 @@ def clean(value: object) -> str:
 def date_span(value: str, year: int | None = None) -> tuple[str, str]:
     """Parse explicit calendar ranges, including cross-month/year ranges, without UTC shifts."""
     value = re.sub(WEEKDAYS, "", clean(value), flags=re.I).replace("–", "-").replace("—", "-")
+    # Organizer calendars also use day-first dates, including cross-month spans.
+    day_first = re.fullmatch(r"(\d{1,2})(?:\s*-\s*(\d{1,2}))?\s+([A-Za-z]+),?\s+(20\d{2})", value)
+    cross_month = re.fullmatch(
+        r"(\d{1,2})\s+([A-Za-z]+)\s*-\s*(\d{1,2})\s+([A-Za-z]+),?\s+(20\d{2})", value
+    )
+    if day_first:
+        first, last, month, explicit_year = day_first.groups()
+        value = f"{month} {first}-{last or first}, {explicit_year}"
+    elif cross_month:
+        first, month, last, last_month, explicit_year = cross_month.groups()
+        value = f"{month} {first}-{last_month} {last}, {explicit_year}"
     pattern = r"([A-Za-z]+)\s+(\d{1,2})(?:,?\s+(20\d{2}))?\s*(?:(?:-|to)\s*(?:([A-Za-z]+)\s+)?(\d{1,2})(?:,?\s+(20\d{2}))?)?\s*:?$"
     m = re.fullmatch(pattern, value)
     if not m:
@@ -130,7 +141,81 @@ def parse_source(text: str, source: dict, url: str) -> tuple[list[dict], int]:
         except (ValueError, KeyError, TypeError):
             rejected += 1
 
-    if parser == "confs_json":
+    if parser == "blackhat":
+        for card in soup.select(".photo-splash"):
+            heading, details = card.find("h2"), card.find("p")
+            logo = card.find("img", alt=True)
+            name = clean(heading.get_text(" ") if heading else logo.get("alt", "") if logo else "")
+            if not details or not name or re.search(r"trainings?|masterclass|webinar", name, re.I):
+                continue
+            parts = [clean(part) for part in details.stripped_strings if clean(part)]
+            if len(parts) < 2:
+                rejected += 1
+                continue
+            dates, location = parts[0], ", ".join(part.strip(", ") for part in parts[1:])
+            name = re.sub(r"\s+-\s+a Black Hat event$", "", name, flags=re.I)
+            # City text after the edition belongs to location, not event identity.
+            name = re.split(r"(?<=\d)\s+(?=[A-Za-z])", name, maxsplit=1)[0]
+            explicit_year = re.search(r"\b20\d{2}\b", name + " " + dates)
+            if not explicit_year:
+                rejected += 1
+                continue
+            if not re.search(r"\b20\d{2}\b", name):
+                name += " " + explicit_year.group()
+            try:
+                parsed_dates = (None, None) if dates.upper() in {"TBA", "TBD"} else date_span(dates)
+                if parsed_dates[0] and parsed_dates[0][:4] != explicit_year.group():
+                    raise ValueError("Event heading and date editions disagree")
+            except (ValueError, KeyError):
+                rejected += 1
+                continue
+            # Span cards may link only to last year's site or a hotel form.
+            # Use the organizer calendar itself rather than either of those links.
+            link = card.get("href") if card.name == "a" else url
+            add(
+                name,
+                link or url,
+                parsed_dates,
+                location,
+                mode="Unannounced" if dates.upper() in {"TBA", "TBD"} else "In person",
+                native_id=name,
+                note="Organizer's full event span; training and briefing days may differ. Check the event program.",
+            )
+    elif parser == "quantumtech":
+        headers = soup.select(".s-header__default__dates")
+        visible = set()
+        for header in headers:
+            text = clean(header.get_text(" "))
+            parts = re.split(r"\s*[·|]\s*", text, maxsplit=1)
+            if len(parts) != 2:
+                continue
+            start, end = date_span(parts[0])
+            visible.add((start, end, parts[1]))
+        if len(visible) != 1:
+            raise ValueError("Missing or conflicting Quantum.Tech main-event header dates")
+        start, end, location = visible.pop()
+        note = "Main event dates displayed in the organizer's header; side events and registration deadlines are excluded."
+        metadata = [
+            r
+            for r in structured_events(text=str(soup), url=url)
+            if re.search(r"quantum\.?tech", r["name"], re.I)
+        ]
+        if any((r["start"], r["end"]) != (start, end) for r in metadata):
+            note += " Embedded Event metadata gives a different date span; verify the program before booking."
+        # The organizer markets this venue as Boston; retain the actual town too
+        # so the existing Boston directory lead merges without hiding its location.
+        if location == "Encore Boston Harbor" and re.search(r"\bEverett\b", soup.get_text(" ")):
+            location = "Boston, Massachusetts, USA (Encore Boston Harbor, Everett)"
+        add(
+            f"Quantum.Tech World {start[:4]}",
+            url,
+            (start, end),
+            location,
+            mode="In person",
+            native_id=f"quantumtech-world-{start[:4]}",
+            note=note,
+        )
+    elif parser == "confs_json":
         data = json.loads(text)
         if not isinstance(data, list):
             raise ValueError("Expected conference JSON array")

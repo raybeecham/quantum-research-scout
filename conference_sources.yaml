@@ -7,6 +7,20 @@ past_retention_days: 90
 future_horizon_days: 730
 max_events: 1200
 sources:
+  - id: blackhat
+    name: Black Hat official event calendar
+    role: organizer
+    parser: blackhat
+    urls: ["https://blackhat.com/upcoming.html"]
+    robots_url: "https://blackhat.com/robots.txt"
+    topics: [Cybersecurity]
+  - id: quantumtech
+    name: Quantum.Tech World organizer
+    role: organizer
+    parser: quantumtech
+    urls: ["https://www.quantumtechexpo.com/"]
+    robots_url: "https://www.quantumtechexpo.com/robots.txt"
+    topics: [Quantum, HPC, AI, Cybersecurity]
   - id: usenix
     name: USENIX conferences
     role: organizer

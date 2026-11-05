@@ -11,11 +11,14 @@ from collections import Counter
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from urllib.robotparser import RobotFileParser
 
 import yaml
 
 from .conference_sources import afcea_conference, clean, parse_source, structured_events
 from .http import HttpClient
+
+CONFERENCE_USER_AGENT = "FrontierSignal/1.0 (+https://github.com/raybeecham/quantum-research-scout)"
 
 
 def canonical_url(value: str) -> str:
@@ -319,7 +322,7 @@ def refresh_conferences(
             "last_attempted_at": last,
         }
     client = client or HttpClient(
-        "FrontierSignal/1.0 (+https://github.com/raybeecham/quantum-research-scout)",
+        CONFERENCE_USER_AGENT,
         timeout_seconds=config.get("request_timeout_seconds", 15),
         retries=0,
     )
@@ -335,6 +338,7 @@ def refresh_conferences(
     }
     sources = {k: v for k, v in state["sources"].items() if k in active_endpoints}
     attempted = successful = 0
+    robots_cache = {}
     for source in config["sources"]:
         for template in source["urls"]:
             url = template.format(year=now.year, next_year=now.year + 1)
@@ -358,7 +362,26 @@ def refresh_conferences(
             attempted += 1
             health["attempted_at"] = stamp
             try:
+                if robots_url := source.get("robots_url"):
+                    if robots_url not in robots_cache:
+                        robots_text, robots_resolved = client.get_text(robots_url)
+                        if urlsplit(robots_resolved).netloc != urlsplit(robots_url).netloc:
+                            raise ValueError("Robots policy redirected to another origin")
+                        if "<html" in robots_text.lower() or "<script" in robots_text.lower():
+                            raise ValueError("Robots policy returned an HTML page")
+                        policy = RobotFileParser()
+                        policy.parse(robots_text.splitlines())
+                        robots_cache[robots_url] = policy
+                    if not robots_cache[robots_url].can_fetch(CONFERENCE_USER_AGENT, url):
+                        raise ValueError("Organizer robots policy disallows this calendar")
                 text, resolved = client.get_text(url)
+                if source.get("robots_url") and (
+                    urlsplit(resolved).netloc != urlsplit(url).netloc
+                    or not robots_cache[source["robots_url"]].can_fetch(
+                        CONFERENCE_USER_AGENT, resolved
+                    )
+                ):
+                    raise ValueError("Calendar redirected outside the checked robots policy")
                 parsed, rejected = parse_source(text, source, resolved)
                 if not parsed and source["parser"] not in {"confs_json", "ai_yaml"}:
                     raise ValueError(
