@@ -1,7 +1,12 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T22:46:23.733734+00:00",
+  "updated_at": "2026-11-05T23:46:39.375619+00:00",
   "records": {
+    "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors": {
+      "page_url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+      "status": "unavailable",
+      "fetched_at": "2026-11-05T22:46:23.733734+00:00"
+    },
     "https://eprint.iacr.org/2026/2765": {
       "page_url": "https://eprint.iacr.org/2026/2765",
       "status": "failed",
@@ -70,20 +75,20 @@
       "fetched_at": "2026-11-04T17:46:35.792374+00:00",
       "status": "ok"
     },
-    "https://investors.ionq.com/news/news-details/2026/IonQ-Completes-Acquisition-of-Elisity-Extending-Quantum-Security-for-Enterprises-and-Government/default.aspx": {
-      "image_url": "https://investors.ionq.com/files/images/ionq-og-2021-10-11.jpg",
-      "page_url": "https://investors.ionq.com/news/news-details/2026/IonQ-Completes-Acquisition-of-Elisity-Extending-Quantum-Security-for-Enterprises-and-Government/default.aspx",
-      "publisher": "IonQ News",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-04T14:46:45.556276+00:00",
-      "status": "ok"
-    },
     "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/ionq-buys-elisity-quantum-security-firms.jpeg",
       "page_url": "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity",
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-11-04T17:46:35.792374+00:00",
+      "status": "ok"
+    },
+    "https://investors.ionq.com/news/news-details/2026/IonQ-Completes-Acquisition-of-Elisity-Extending-Quantum-Security-for-Enterprises-and-Government/default.aspx": {
+      "image_url": "https://investors.ionq.com/files/images/ionq-og-2021-10-11.jpg",
+      "page_url": "https://investors.ionq.com/news/news-details/2026/IonQ-Completes-Acquisition-of-Elisity-Extending-Quantum-Security-for-Enterprises-and-Government/default.aspx",
+      "publisher": "IonQ News",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-04T14:46:45.556276+00:00",
       "status": "ok"
     },
     "https://thequantuminsider.com/2026/11/04/crypto-agility-post-quantum-security-banks": {
@@ -1057,11 +1062,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-30T01:46:01.181127+00:00",
       "status": "ok"
-    },
-    "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors": {
-      "page_url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
-      "fetched_at": "2026-11-05T22:46:23.733734+00:00",
-      "status": "unavailable"
     }
   }
 }
