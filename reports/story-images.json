@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T11:46:08.728194+00:00",
+  "updated_at": "2026-11-05T12:45:55.389548+00:00",
   "records": {
     "https://eprint.iacr.org/2026/2751": {
       "page_url": "https://eprint.iacr.org/2026/2751",
@@ -36,6 +36,11 @@
       "page_url": "https://eprint.iacr.org/2026/2741",
       "status": "failed",
       "fetched_at": "2026-11-05T03:46:19.145382+00:00"
+    },
+    "https://eprint.iacr.org/2026/2752": {
+      "page_url": "https://eprint.iacr.org/2026/2752",
+      "status": "failed",
+      "fetched_at": "2026-11-05T11:46:08.728194+00:00"
     },
     "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/a-sign-less-key-exchange-aims-to-secure-1200x630.png",
@@ -1006,12 +1011,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-30T01:46:01.181127+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2752": {
-      "page_url": "https://eprint.iacr.org/2026/2752",
-      "fetched_at": "2026-11-05T11:46:08.728194+00:00",
-      "status": "failed",
-      "reason": "http_403"
     }
   }
 }
