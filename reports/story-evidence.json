@@ -1423,6 +1423,13 @@
               "sequence": 0,
               "source": "arXiv RSS quant-ph",
               "url": "https://arxiv.org/abs/2611.05722"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.05722"
             }
           ],
           "title": "Trinetra.Q: Statistical and Behavioral Detection of Attacks on the Quantum-Error-Correction Layer and Classical Control Stack of Quantum Computing Systems"
@@ -2288,6 +2295,13 @@
               "sequence": 0,
               "source": "IACR ePrint",
               "url": "https://eprint.iacr.org/2026/2733"
+            },
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2733"
             }
           ],
           "title": "Cryptanalysis of MinRank 2.0"
@@ -2305,6 +2319,13 @@
             {
               "published_date": "2026-11-03",
               "report_date": "2026-11-04",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2739"
+            },
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-05",
               "sequence": 0,
               "source": "IACR ePrint",
               "url": "https://eprint.iacr.org/2026/2739"
@@ -2353,6 +2374,22 @@
             }
           ],
           "title": "Phantom Timing Leaks on Cortex-M4: A Pre-registered Evaluation of ML-KEM Decapsulation"
+        },
+        {
+          "excerpts": [
+            "We report a pre-registered evaluation of ML-KEM decapsulation on an STM32F411 (Cortex-M4) covering nine implementations of PQM4 (clean, m4fspeed, m4fstack for ML-KEM-512/768/1024) and a positive control in which we...",
+            "Fixed-versus-random timing tests in the style of dudect are a cheap first check of constant-time behaviour, and on microcontrollers the cycle counter makes them exact to the cycle"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2744"
+            }
+          ],
+          "title": "Phantom Timing Leaks on Cortex-M4: A Pre-registered Evaluation of ML-KEM Decapsulation"
         }
       ]
     },
@@ -2371,9 +2408,37 @@
               "sequence": 0,
               "source": "IACR ePrint",
               "url": "https://eprint.iacr.org/2026/2751"
+            },
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2751"
             }
           ],
           "title": "An efficient Failure Probability Estimator for LWE-based encryption, and application to IBE"
+        }
+      ]
+    },
+    "https://eprint.iacr.org/2026/2753": {
+      "captures": [
+        {
+          "excerpts": [
+            "The stateless hash-based digital signature algorithm (SLH-DSA) repeatedly processes a fixed secret seed with varying public addresses",
+            "This paper presents non-profiled correlation power analysis of the address-based pseudorandom function for all six SHA-2 parameter sets, using separate recovery paths through SHA-256 compression rounds and message...",
+            "The procedures account for the input layout in which a 22-byte compressed address precedes the secret seed"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2753"
+            }
+          ],
+          "title": "Correlation Power Analysis on SHA-2-Based SLH-DSA"
         }
       ]
     },
@@ -2433,6 +2498,13 @@
             {
               "published_date": "2026-11-04",
               "report_date": "2026-11-04",
+              "sequence": 0,
+              "source": "IonQ News",
+              "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Completes-Acquisition-of-Elisity-Extending-Quantum-Security-for-Enterprises-and-Government/default.aspx"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
               "sequence": 0,
               "source": "IonQ News",
               "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Completes-Acquisition-of-Elisity-Extending-Quantum-Security-for-Enterprises-and-Government/default.aspx"
@@ -5021,6 +5093,13 @@
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/universal-quantum-details-iterative-redecode-scheme-for-fast-transversal-fault-tolerant-logic"
+            },
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/universal-quantum-details-iterative-redecode-scheme-for-fast-transversal-fault-tolerant-logic"
             }
           ],
           "title": "Universal Quantum Details Iterative Redecode Scheme for Fast Transversal Fault-Tolerant Logic"
@@ -5786,6 +5865,21 @@
             }
           ],
           "title": "A sign-less key exchange aims to secure IoT networks post-quantum"
+        },
+        {
+          "excerpts": [
+            "HPQ-AKE, a sign-less authenticated key exchange protocol, secures bandwidth-constrained IoT networks using ML-KEM-768 and RSA-OAEP"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less"
+            }
+          ],
+          "title": "A sign-less key exchange aims to secure IoT networks post-quantum"
         }
       ]
     },
@@ -6329,6 +6423,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/qecert-quantum-error-correction-lean-library"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/qecert-quantum-error-correction-lean-library"
             }
           ],
           "title": "Lean library links quantum codes to their error-correction criteria"
@@ -6829,6 +6930,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity"
             }
           ],
           "title": "IonQ’s $1.15B stock deal unlocks quantum Elisity acquisition"
@@ -7202,6 +7310,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/unitary-foundation-win-quantum-wins-software"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/unitary-foundation-win-quantum-wins-software"
             }
           ],
           "title": "Unitary Foundation wins NSF award to build open quantum software"
@@ -7245,6 +7360,13 @@
             {
               "published_date": "2026-11-04",
               "report_date": "2026-11-04",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/versasec-unlocks-quantum-safe-benefits-thales"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/versasec-unlocks-quantum-safe-benefits-thales"
@@ -9993,6 +10115,13 @@
               "sequence": 0,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/11/04/crypto-agility-post-quantum-security-banks"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/04/crypto-agility-post-quantum-security-banks"
             }
           ],
           "title": "Guest Post: Why Crypto-Agility Matters for Financial Institutions Preparing for PQC"
@@ -10009,6 +10138,13 @@
             {
               "published_date": "2026-11-04",
               "report_date": "2026-11-04",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/04/ionq-completes-acquisition-zero-trust-security-company-elisity"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
               "sequence": 0,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/11/04/ionq-completes-acquisition-zero-trust-security-company-elisity"
