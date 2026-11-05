@@ -56,7 +56,9 @@ def test_blackhat_ignores_training_and_rejects_missing_or_invalid_year():
     html = '<a class="photo-splash"><h2>Black Hat Online Trainings 2027</h2><p>May 1-2, 2027<br>Online</p></a>'
     html += '<a class="photo-splash"><h2>Black Hat Asia</h2><p>May 1-2<br>Singapore</p></a>'
     html += '<a class="photo-splash"><h2>Black Hat USA 2027</h2><p>July 40-45, 2027<br>Las Vegas</p></a>'
-    html += '<a class="photo-splash"><h2>Black Hat USA 2027</h2><p>July 1-3, 2026<br>Las Vegas</p></a>'
+    html += (
+        '<a class="photo-splash"><h2>Black Hat USA 2027</h2><p>July 1-3, 2026<br>Las Vegas</p></a>'
+    )
     rows, rejected = parse("blackhat", text=html)
     assert rows == [] and rejected == 3
 
