@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-05 20:46 UTC_
+_Updated 2026-11-05 21:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -21,7 +21,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv Quantum Computing | arxiv | 63% | 10 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🔴 failing |
 | arXiv Quantum Networking and Sensing | arxiv | 65% | 10 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🔴 failing |
 | Quantum Computing Report | rss | 89% | 6 | 0 | 2026-11-05 | 2026-11-05 | fresh | 🟢 healthy |
-| Google Quantum AI | watch | 50% | 4 | 0 | 2026-11-05 | 2026-10-15 | fresh | 🔴 failing |
+| Google Quantum AI | watch | 49% | 4 | 0 | 2026-11-05 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Computing Patents | patent | 92% | 4 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 87% | 2 | 0 | 2026-11-05 | 2026-11-05 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 87% | 2 | 0 | 2026-11-05 | 2026-11-05 | fresh | 🟢 healthy |
@@ -43,8 +43,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-05 | 2026-10-23 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-05 | 2026-10-06 | stale | 🟢 healthy |
-| DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-05 | 2026-11-04 | fresh | 🟢 healthy |
-| DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-05 | 2026-11-04 | fresh | 🟢 healthy |
+| DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-05 | 2026-11-05 | fresh | 🟢 healthy |
+| DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-05 | 2026-11-05 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-02 | — | reference | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-05 | 2026-11-04 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
@@ -74,7 +74,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | IETF Post-Quantum Updates | watch | 100% | 0 | 0 | 2026-11-05 | 2026-08-27 | fresh | 🟢 healthy |
 | InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-11-05 | 2026-10-31 | fresh | 🟢 healthy |
 | Intel Quantum Research | watch | 100% | 0 | 0 | 2026-11-02 | — | reference | 🟢 healthy |
-| IonQ News | rss | 100% | 0 | 0 | 2026-11-05 | 2026-11-04 | fresh | 🟢 healthy |
+| IonQ News | rss | 100% | 0 | 0 | 2026-11-05 | 2026-11-05 | fresh | 🟢 healthy |
 | IonQ Technical Blog | watch | 100% | 0 | 0 | 2026-11-05 | 2026-11-04 | fresh | 🟢 healthy |
 | Keyfactor Quantum and Crypto-Agility | watch | 100% | 0 | 0 | 2026-11-05 | 2026-10-29 | fresh | 🟢 healthy |
 | Kubernetes Blog | rss | 100% | 0 | 0 | 2026-11-05 | 2026-10-29 | fresh | 🟢 healthy |
