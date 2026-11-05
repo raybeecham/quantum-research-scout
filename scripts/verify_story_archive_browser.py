@@ -101,7 +101,8 @@ def main():
         expect(page.locator("h1")).to_have_text(expected_title)
         expect(page.get_by_role("heading", name="What the source reports")).to_be_visible()
         assessment = page.get_by_role(
-            "heading", name=re.compile(r"^(What this could change|Assessment scope)$")
+            "heading",
+            name=re.compile(r"^(What this could change|Assessment scope|How to read this story)$"),
         )
         detail = current["news_detail"]
         has_analysis = (
@@ -112,6 +113,12 @@ def main():
         expect(assessment).to_have_count(1 if has_analysis else 0)
         if has_analysis:
             expect(assessment).to_be_visible()
+            expected_heading = {
+                "reading_guide": "How to read this story",
+                "stage_only": "Assessment scope",
+            }.get(detail.get("analysis_specificity"), "What this could change")
+            expect(assessment).to_have_text(expected_heading)
+            expect(assessment.locator("..")).to_contain_text(detail["why_it_matters"])
         else:
             expect(page.locator("body")).not_to_contain_text("No additional impact assessment")
         expect(page.get_by_role("heading", name="Observation history")).to_be_visible()

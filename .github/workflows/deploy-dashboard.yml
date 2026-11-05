@@ -8,6 +8,9 @@ on:
       - "reports/**"
       - "scripts/build_dashboard.py"
       - "scripts/package_dashboard.py"
+      - "scripts/run_release_gate.sh"
+      - "scripts/verify*_browser.py"
+      - "scripts/verify_publication_gate.py"
       - "pqc_quantum_research_agent/publication.py"
       - "scripts/enrich_story_images.py"
       - "pqc_quantum_research_agent/story_images.py"
@@ -81,6 +84,8 @@ jobs:
     if: needs.publication-check.outputs.deploy == 'true'
     name: Build and deploy dashboard
     runs-on: ubuntu-latest
+    # Bound the Pages lock even if setup, a browser, or artifact upload hangs.
+    timeout-minutes: 35
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -117,21 +122,12 @@ jobs:
         run: npm ci --ignore-scripts --no-audit --no-fund
 
       - name: Gate this exact artifact before deployment
-        run: |
-          python -m http.server 8765 --bind 127.0.0.1 --directory site &
-          preview_pid=$!
-          trap 'kill "$preview_pid"' EXIT
-          python scripts/verify_frontier_round2_browser.py --channel chromium
-          python scripts/verify_lazy_data_browser.py --channel chromium
-          python scripts/verify_round4_browser.py --channel chromium
-          python scripts/verify_hourly_news_browser.py --channel chromium
-          python scripts/verify_tab_cleanup_browser.py --channel chromium
-          python scripts/verify_conferences_browser.py --channel chromium
-          python scripts/verify_accessibility_browser.py --channel chromium
-          xvfb-run -a python scripts/verify_publication_gate.py --channel chromium --headed
+        timeout-minutes: 25
+        run: bash scripts/run_release_gate.sh
 
       - name: Preserve release gate evidence separately
         if: always()
+        timeout-minutes: 2
         uses: actions/upload-artifact@v4
         with:
           name: release-gate-evidence
