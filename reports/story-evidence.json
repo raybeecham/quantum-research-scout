@@ -1436,6 +1436,26 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2611.06124": {
+      "captures": [
+        {
+          "excerpts": [
+            "Interactive hashing, introduced by Ostrovsky, Venkatesan, and Yung [OVY93], is a building block in many cryptographic protocols, including perfectly hiding commitments from one-way permutations [NOVY92]",
+            "Its multi-output generalization is a key ingredient in constructions of statistical zero-knowledge arguments for NP and statistically hiding commitments from arbitrary one-way functions [NOV06,HR07]"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.06124"
+            }
+          ],
+          "title": "A Post-Quantum Interactive Hashing Theorem"
+        }
+      ]
+    },
     "https://arxiv.org/abs/2611.06553": {
       "captures": [
         {
@@ -7421,6 +7441,22 @@
             }
           ],
           "title": "Versasec unlocks quantum-safe 3 benefits with vSEC, CMS 7.5 & Thales integration"
+        },
+        {
+          "excerpts": [
+            "Versasec’s vSEC:CMS 7.5 accelerates enterprise transitions to quantum-safe security, offering PQC HSM migration & Thales integration",
+            "Information Loss Is All You Need: TC⁰ Pseudorandomness from Worst-Case Lattices — already featured in Strategic Signals. [Open item](https://eprint.iacr.org/2026/2752)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
+              "sequence": 1,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/versasec-unlocks-quantum-safe-benefits-thales"
+            }
+          ],
+          "title": "Versasec unlocks quantum-safe 3 benefits with vSEC, CMS 7.5 & Thales integration"
         }
       ]
     },
@@ -10214,6 +10250,25 @@
             }
           ],
           "title": "IonQ Completes Acquisition of Zero Trust Security Company Elisity"
+        }
+      ]
+    },
+    "https://thequantuminsider.com/2026/11/05/bitcoin-cash-proposal-seeks-path-to-quantum-resistant-transactions": {
+      "captures": [
+        {
+          "excerpts": [
+            "Bitcoin Cash developers are reviewing a proposal to support post-quantum and hybrid signatures, with potential lock-in on Nov"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/05/bitcoin-cash-proposal-seeks-path-to-quantum-resistant-transactions"
+            }
+          ],
+          "title": "Bitcoin Cash Proposal Seeks Path to Quantum-Resistant Transactions"
         }
       ]
     },
