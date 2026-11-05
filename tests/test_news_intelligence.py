@@ -6,7 +6,11 @@ from pathlib import Path
 
 import pytest
 
-from pqc_quantum_research_agent.news_intelligence import build_news_intelligence, enrich_news_story
+from pqc_quantum_research_agent.news_intelligence import (
+    _matching_preprint_crosspost,
+    build_news_intelligence,
+    enrich_news_story,
+)
 
 
 def story(title="IBM demonstrates quantum error correction", url="https://news.test/one", **kwargs):
@@ -897,6 +901,71 @@ def test_what_happened_only_contains_collected_excerpts():
     assert "Unsubstantiated" not in str(detail)
     assert detail["analysis_label"] == "Rule-based context"
     assert "not AI analysis" in detail["method"]
+
+
+def preprint_crossposts():
+    excerpts = [
+        "Leakage-resilient cryptography protects secrets against side-channel attacks, in which a physical implementation reveals partial information about its internal state",
+        "A fundamental primitive in this area is a leakage-resilient storage, which allows a secret to be stored in a way that remains secure even if an adversary learns some information about the storage's internal state",
+    ]
+    return [
+        story(
+            "Leakage-Resilient Computation via Matrix Refreshing",
+            url,
+            source_kind="preprint",
+            summary=excerpts[0],
+            key_points=excerpts
+            + (["A popular approach represents a secret as two shares."] if index else []),
+        )
+        for index, url in enumerate(
+            ["https://arxiv.org/abs/2609.12345", "https://eprint.iacr.org/2026/1234"]
+        )
+    ]
+
+
+def test_matching_preprint_crossposts_keep_both_accounts_under_one_headline():
+    one, two = preprint_crossposts()
+    for items in [(one, two), (two, one)]:
+        result = build(*items)
+        assert len(result["stories"]) == 1
+        assert len(result["accounts"]) == 2
+        accounts = result["stories"][0]["news_event"]["accounts"]
+        assert {row["url"] for row in accounts} == {one["url"], two["url"]}
+        assert {row["url"]: row["excerpts"] for row in accounts} == {
+            row["url"]: row["key_points"] for row in items
+        }
+        assert "not independent corroboration" in str(result["stories"][0]["news_event"]["basis"])
+
+
+@pytest.mark.parametrize(
+    "changes",
+    [
+        {"url": "https://arxiv.org/abs/2609.12345v2"},
+        {"url": "https://eprint.iacr.org/2026/5678"},
+        {"url": "https://unknown.test/abs/2609.12345"},
+        {"date": "2026-09-28"},
+        {"date_label": "First observed"},
+        {"title": "Leakage-Resilient Computation via Matrix Refreshing v2"},
+        {"key_points": ["Cryptography result.", "Another result."]},
+        {"source_kind": "official"},
+    ],
+)
+def test_preprint_crosspost_matching_rejects_ambiguous_or_distinct_records(changes):
+    one, two = preprint_crossposts()
+    one.update(changes)
+    assert len(build(one, two)["stories"]) == 2
+
+
+def test_preprint_crosspost_matching_rejects_conflicting_excerpts():
+    one, two = preprint_crossposts()
+    one["key_points"][1] += " This result was withdrawn."
+    assert len(build(one, two)["stories"]) == 2
+
+
+def test_preprint_crosspost_matching_requires_excerpts():
+    one, two = preprint_crossposts()
+    one["key_points"] = []
+    assert not _matching_preprint_crosspost(one, two)
 
 
 def test_headline_only_has_no_invented_excerpt():

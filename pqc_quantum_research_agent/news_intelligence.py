@@ -1310,6 +1310,10 @@ def _event_features(item, registry, names, identifiers):
 
 
 def _event_match(left, right, left_features, right_features):
+    if _matching_preprint_crosspost(left, right):
+        return [
+            "Matching title, confirmed publication date and collected excerpts across arXiv and IACR ePrint; likely cross-posted manuscript, not independent corroboration."
+        ]
     if _near_duplicate(left, right):
         return [
             "Near-identical headlines on the same confirmed publication date, with matching quantities and no conflicting headline wording."
@@ -1359,6 +1363,34 @@ def _event_match(left, right, left_features, right_features):
         f"The publication dates are {distance} {'day' if distance == 1 else 'days'} apart; the recorded stages are {ea['status']} and {eb['status']}.",
         "This groups likely coverage of one development, not independently confirmed facts or a consensus claim.",
     ]
+
+
+def _matching_preprint_crosspost(left, right):
+    """Group narrowly evidenced cross-posts, never title-only or version matches."""
+    if any(row.get("source_kind") != "preprint" for row in (left, right)):
+        return False
+    if not _published(left) or _published(left) != _published(right):
+        return False
+    urls = [urlsplit(row["url"]) for row in (left, right)]
+    if {url.hostname for url in urls} != {"arxiv.org", "eprint.iacr.org"}:
+        return False
+    for url in urls:
+        pattern = r"/abs/\d{4}\.\d{4,5}" if url.hostname == "arxiv.org" else r"/\d{4}/\d+"
+        if not re.fullmatch(pattern, url.path) or url.query or url.fragment:
+            return False
+
+    def normalize(text):
+        return " ".join(str(text or "").split()).casefold()
+
+    if not normalize(left.get("title")) or normalize(left.get("title")) != normalize(
+        right.get("title")
+    ):
+        return False
+    excerpts = [[normalize(text) for text in row.get("key_points", [])] for row in (left, right)]
+    shorter, longer = sorted(excerpts, key=len)
+    # Require substantial matching evidence, allowing one feed to truncate its
+    # excerpt list. Any differing captured sentence keeps the records separate.
+    return len(shorter) >= 2 and sum(map(len, shorter)) >= 200 and shorter == longer[: len(shorter)]
 
 
 def _group_events(candidates, entities, missions, standards):
