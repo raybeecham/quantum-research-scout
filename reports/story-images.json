@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T15:46:46.759901+00:00",
+  "updated_at": "2026-11-05T16:46:25.407947+00:00",
   "records": {
     "https://eprint.iacr.org/2026/2751": {
       "page_url": "https://eprint.iacr.org/2026/2751",
@@ -42,17 +42,14 @@
       "status": "failed",
       "fetched_at": "2026-11-05T11:46:08.728194+00:00"
     },
+    "https://arxiv.org/abs/2611.06124": {
+      "page_url": "https://arxiv.org/abs/2611.06124",
+      "status": "unavailable",
+      "fetched_at": "2026-11-05T15:46:46.759901+00:00"
+    },
     "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/a-sign-less-key-exchange-aims-to-secure-1200x630.png",
       "page_url": "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less",
-      "publisher": "Quantum Zeitgeist",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-04T17:46:35.792374+00:00",
-      "status": "ok"
-    },
-    "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity": {
-      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/ionq-buys-elisity-quantum-security-firms.jpeg",
-      "page_url": "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity",
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-11-04T17:46:35.792374+00:00",
@@ -64,6 +61,14 @@
       "publisher": "IonQ News",
       "provenance": "og:image",
       "fetched_at": "2026-11-04T14:46:45.556276+00:00",
+      "status": "ok"
+    },
+    "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/ionq-buys-elisity-quantum-security-firms.jpeg",
+      "page_url": "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-04T17:46:35.792374+00:00",
       "status": "ok"
     },
     "https://thequantuminsider.com/2026/11/04/crypto-agility-post-quantum-security-banks": {
@@ -106,10 +111,31 @@
       "fetched_at": "2026-11-04T17:46:35.792374+00:00",
       "status": "ok"
     },
+    "https://thequantuminsider.com/2026/11/05/bitcoin-cash-proposal-seeks-path-to-quantum-resistant-transactions": {
+      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/uxdu0gg5pqq.jpg",
+      "page_url": "https://thequantuminsider.com/2026/11/05/bitcoin-cash-proposal-seeks-path-to-quantum-resistant-transactions",
+      "publisher": "The Quantum Insider",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-05T15:46:46.759901+00:00",
+      "status": "ok"
+    },
+    "https://quantumcomputingreport.com/ionq-partners-with-quantumct-to-provide-trapped-ion-cloud-access-across-connecticut": {
+      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-7.png",
+      "page_url": "https://quantumcomputingreport.com/ionq-partners-with-quantumct-to-provide-trapped-ion-cloud-access-across-connecticut",
+      "publisher": "Quantum Computing Report",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-04T17:46:35.792374+00:00",
+      "status": "ok"
+    },
     "https://arxiv.org/abs/2611.06553": {
       "page_url": "https://arxiv.org/abs/2611.06553",
       "status": "unavailable",
       "fetched_at": "2026-11-05T13:46:06.922915+00:00"
+    },
+    "https://eprint.iacr.org/2026/2760": {
+      "page_url": "https://eprint.iacr.org/2026/2760",
+      "status": "failed",
+      "fetched_at": "2026-11-05T15:46:46.759901+00:00"
     },
     "https://quantumzeitgeist.com/government-cipher-vietnam-drafts-standards-fend": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/vietnam-drafts-standards-to-fend-off-future-quantum-1200x630.webp",
@@ -194,11 +220,6 @@
       "status": "unavailable",
       "fetched_at": "2026-11-05T06:46:30.797550+00:00"
     },
-    "https://arxiv.org/abs/2611.04129": {
-      "page_url": "https://arxiv.org/abs/2611.04129",
-      "status": "unavailable",
-      "fetched_at": "2026-11-04T15:47:39.971757+00:00"
-    },
     "https://thequantuminsider.com/2026/11/02/idemia-payment-cards-post-quantum-transition": {
       "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-02_13-59.png",
       "page_url": "https://thequantuminsider.com/2026/11/02/idemia-payment-cards-post-quantum-transition",
@@ -221,14 +242,6 @@
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-11-04T12:46:07.418700+00:00",
-      "status": "ok"
-    },
-    "https://quantumcomputingreport.com/ionq-partners-with-quantumct-to-provide-trapped-ion-cloud-access-across-connecticut": {
-      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-7.png",
-      "page_url": "https://quantumcomputingreport.com/ionq-partners-with-quantumct-to-provide-trapped-ion-cloud-access-across-connecticut",
-      "publisher": "Quantum Computing Report",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-04T17:46:35.792374+00:00",
       "status": "ok"
     },
     "https://thequantuminsider.com/2026/11/03/specterai-hpt-pqc-migration-vietnam": {
@@ -874,11 +887,6 @@
       "status": "unavailable",
       "fetched_at": "2026-11-05T13:46:06.922915+00:00"
     },
-    "https://arxiv.org/abs/2610.38524": {
-      "page_url": "https://arxiv.org/abs/2610.38524",
-      "status": "unavailable",
-      "fetched_at": "2026-11-04T15:47:39.971757+00:00"
-    },
     "https://quantumzeitgeist.com/verona-quantum-network-upgrade-resist": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/verona-launches-a-network-upgrade-to-resist-quantum-1200x630.png",
       "page_url": "https://quantumzeitgeist.com/verona-quantum-network-upgrade-resist",
@@ -1017,24 +1025,41 @@
       "fetched_at": "2026-10-30T01:46:01.181127+00:00",
       "status": "ok"
     },
-    "https://arxiv.org/abs/2611.06124": {
-      "page_url": "https://arxiv.org/abs/2611.06124",
-      "fetched_at": "2026-11-05T15:46:46.759901+00:00",
-      "status": "unavailable"
-    },
-    "https://thequantuminsider.com/2026/11/05/bitcoin-cash-proposal-seeks-path-to-quantum-resistant-transactions": {
-      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/uxdu0gg5pqq.jpg",
-      "page_url": "https://thequantuminsider.com/2026/11/05/bitcoin-cash-proposal-seeks-path-to-quantum-resistant-transactions",
-      "publisher": "The Quantum Insider",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-05T15:46:46.759901+00:00",
-      "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2760": {
-      "page_url": "https://eprint.iacr.org/2026/2760",
-      "fetched_at": "2026-11-05T15:46:46.759901+00:00",
+    "https://eprint.iacr.org/2026/2765": {
+      "page_url": "https://eprint.iacr.org/2026/2765",
+      "fetched_at": "2026-11-05T16:46:25.407947+00:00",
       "status": "failed",
       "reason": "http_403"
+    },
+    "https://eprint.iacr.org/2026/2766": {
+      "page_url": "https://eprint.iacr.org/2026/2766",
+      "fetched_at": "2026-11-05T16:46:25.407947+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://eprint.iacr.org/2026/2767": {
+      "page_url": "https://eprint.iacr.org/2026/2767",
+      "fetched_at": "2026-11-05T16:46:25.407947+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://thequantuminsider.com/2026/11/05/sealsq-eco-wave-power-digital-energy-transactions-ai-data-centers": {
+      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-05_20-45.png",
+      "page_url": "https://thequantuminsider.com/2026/11/05/sealsq-eco-wave-power-digital-energy-transactions-ai-data-centers",
+      "publisher": "The Quantum Insider",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-05T16:46:25.407947+00:00",
+      "status": "ok"
+    },
+    "https://arxiv.org/abs/2611.04129": {
+      "page_url": "https://arxiv.org/abs/2611.04129",
+      "fetched_at": "2026-11-05T16:46:25.407947+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2610.38524": {
+      "page_url": "https://arxiv.org/abs/2610.38524",
+      "fetched_at": "2026-11-05T16:46:25.407947+00:00",
+      "status": "unavailable"
     }
   }
 }

@@ -2510,6 +2510,68 @@
         }
       ]
     },
+    "https://eprint.iacr.org/2026/2765": {
+      "captures": [
+        {
+          "excerpts": [
+            "The Number Theoretic Transform (NTT) is the arithmetic core of ML-KEM (FIPS 203) and a prominent side-channel target in hardware",
+            "Because the transform is linear, first-order arithmetic masking applies share-wise without fresh randomness, which leaves one design decision open: when each share is processed"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2765"
+            }
+          ],
+          "title": "BASTION: Lock-Step, Staggered and Sequential Share Schedules for a First-Order Masked ML-KEM NTT on FPGA"
+        }
+      ]
+    },
+    "https://eprint.iacr.org/2026/2766": {
+      "captures": [
+        {
+          "excerpts": [
+            "ML-KEM (FIPS 203) is now being deployed in real-world applications to provide security against adversaries with quantum computers",
+            "Therefore, the resistance of ML-KEM’s implementations to physical attacks requires thorough evaluation",
+            "So far, fault attacks on ML-KEM have targeted the decapsulation operation"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2766"
+            }
+          ],
+          "title": "Keyber: Recovering the Signal by Amplifying the Noise in ML-KEM"
+        }
+      ]
+    },
+    "https://eprint.iacr.org/2026/2767": {
+      "captures": [
+        {
+          "excerpts": [
+            "Stateless post-quantum authenticated key exchanges such as post-quantum WireGuard hedge against unexpected cryptanalytic advances by combining a lattice KEM with code-based Classic McEliece",
+            "HQC, the code-based KEM that NIST selected, could restore diversity, but its keys do not fit in a single packet, so a server would have to buffer multi-packet handshakes",
+            "However, recent attacks have led Germany's BSI to advise against McEliece, which leaves these protocols with lattices alone"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2767"
+            }
+          ],
+          "title": "HqcLethe: Streaming HQC Encapsulation for Tiny Stateless Servers"
+        }
+      ]
+    },
     "https://huggingface.co/blog/allenai/novelty-bench": {
       "captures": [
         {
@@ -4016,6 +4078,13 @@
             {
               "published_date": "2026-11-04",
               "report_date": "2026-11-04",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/ionq-partners-with-quantumct-to-provide-trapped-ion-cloud-access-across-connecticut"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/ionq-partners-with-quantumct-to-provide-trapped-ion-cloud-access-across-connecticut"
@@ -10269,6 +10338,23 @@
             }
           ],
           "title": "Bitcoin Cash Proposal Seeks Path to Quantum-Resistant Transactions"
+        }
+      ]
+    },
+    "https://thequantuminsider.com/2026/11/05/sealsq-eco-wave-power-digital-energy-transactions-ai-data-centers": {
+      "captures": [
+        {
+          "excerpts": [],
+          "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/05/sealsq-eco-wave-power-digital-energy-transactions-ai-data-centers"
+            }
+          ],
+          "title": "SEALSQ and Eco Wave Power Demonstrate Digital Energy Transactions for AI Data Centers"
         }
       ]
     },
