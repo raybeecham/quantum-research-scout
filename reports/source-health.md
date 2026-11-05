@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-05 06:46 UTC_
+_Updated 2026-11-05 07:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -15,7 +15,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
 | ETSI Quantum Standards News | watch | 92% | 23 | 0 | 2026-11-05 | 2026-09-24 | stale | 🟢 healthy |
-| White House Science and Technology Missions | watch | 88% | 23 | 0 | 2026-11-05 | 2026-09-29 | stale | 🟢 healthy |
+| White House Science and Technology Missions | watch | 89% | 23 | 0 | 2026-11-05 | 2026-09-29 | stale | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 96% | 13 | 0 | 2026-11-05 | 2026-10-23 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 63% | 10 | 0 | 2026-11-02 | 2026-10-28 | fresh | 🔴 failing |
 | arXiv Quantum Computing | arxiv | 63% | 10 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🔴 failing |
@@ -36,7 +36,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-05 | 2026-10-07 | stale | 🟢 healthy |
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-11-02 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-11-05 | 2026-09-29 | stale | 🟢 healthy |
-| CISA Cybersecurity Advisories | rss | 96% | 0 | 0 | 2026-11-05 | 2026-11-03 | fresh | 🔴 failing |
+| CISA Cybersecurity Advisories | rss | 95% | 0 | 0 | 2026-11-05 | 2026-11-03 | fresh | 🔴 failing |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-11-05 | 2026-10-26 | fresh | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-02 | 2026-10-22 | fresh | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-05 | 2026-11-04 | fresh | 🟢 healthy |
