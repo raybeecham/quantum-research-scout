@@ -1436,6 +1436,26 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2611.06553": {
+      "captures": [
+        {
+          "excerpts": [
+            "Announce Type: cross Abstract: Large language models (LLMs) undergo safety alignment to prevent harmful generations, yet they remain vulnerable to jailbreak attacks",
+            "Recent work reveals a deeper structural weakness: safety alignment can be highly sparse, such that pruning a small number of safety-critical neurons or ablating a single refusal direction can substantially undermine..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.06553"
+            }
+          ],
+          "title": "Addition by Subtraction: Toward Mitigating Fragile Safety Alignment in Large Language Models"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {

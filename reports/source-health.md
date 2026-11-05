@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-05 12:45 UTC_
+_Updated 2026-11-05 13:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -26,7 +26,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv RSS cs.CR | arxiv_rss | 87% | 2 | 0 | 2026-11-05 | 2026-11-05 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 87% | 2 | 0 | 2026-11-05 | 2026-11-05 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 100% | 1 | 0 | 2026-11-05 | 2026-11-04 | fresh | 🟢 healthy |
-| Quantum Journal | rss | 96% | 1 | 0 | 2026-11-05 | 2026-11-03 | fresh | 🟢 healthy |
+| Quantum Journal | rss | 96% | 1 | 0 | 2026-11-05 | 2026-11-05 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 98% | 1 | 0 | 2026-11-05 | 2026-11-05 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 19 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-05 | 2026-10-21 | fresh | 🟢 healthy |
@@ -68,8 +68,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-11-02 | — | unknown | 🟢 healthy |
 | Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-05 | 2026-11-05 | fresh | 🟢 healthy |
 | IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-05 | 2026-11-04 | fresh | 🟢 healthy |
-| IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-05 | 2026-10-27 | fresh | 🟢 healthy |
-| IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-05 | 2026-10-27 | fresh | 🟢 healthy |
+| IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-05 | 2026-11-05 | fresh | 🟢 healthy |
+| IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-05 | 2026-11-05 | fresh | 🟢 healthy |
 | IETF PQUIP | watch | 100% | 0 | 0 | 2026-11-02 | — | reference | 🟢 healthy |
 | IETF Post-Quantum Updates | watch | 100% | 0 | 0 | 2026-11-05 | 2026-08-27 | fresh | 🟢 healthy |
 | InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-11-05 | 2026-10-31 | fresh | 🟢 healthy |
