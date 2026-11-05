@@ -2315,6 +2315,48 @@
         }
       ]
     },
+    "https://eprint.iacr.org/2026/2744": {
+      "captures": [
+        {
+          "excerpts": [
+            "We report a pre-registered evaluation of ML-KEM decapsulation on an STM32F411 (Cortex-M4) covering nine implementations of PQM4 (clean, m4fspeed, m4fstack for ML-KEM-512/768/1024) and a positive control in which we...",
+            "Fixed-versus-random timing tests in the style of dudect are a cheap first check of constant-time behaviour, and on microcontrollers the cycle counter makes them exact to the cycle",
+            "Guest Post: Why Crypto-Agility Matters for Financial Institutions Preparing for PQC — already featured in Strategic Signals. [Open item](https://thequantuminsider.com/2026/11/04/crypto-agility-post-quantum-security-banks)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-04",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2744"
+            }
+          ],
+          "title": "Phantom Timing Leaks on Cortex-M4: A Pre-registered Evaluation of ML-KEM Decapsulation"
+        }
+      ]
+    },
+    "https://eprint.iacr.org/2026/2751": {
+      "captures": [
+        {
+          "excerpts": [
+            "In particular, the blueprint of Learning With Errors (LWE) encryption enabled the creation of Kyber, chosen by NIST to be standardized as ML-KEM",
+            "In recent years, lattice-based cryptography has proven to be a source of post-quantum cryptosystems",
+            "Because of the structure of LWE encryption, the decryption of a ciphertext can give an incorrect plaintext"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-03",
+              "report_date": "2026-11-04",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2751"
+            }
+          ],
+          "title": "An efficient Failure Probability Estimator for LWE-based encryption, and application to IBE"
+        }
+      ]
+    },
     "https://huggingface.co/blog/allenai/novelty-bench": {
       "captures": [
         {
@@ -5703,6 +5745,22 @@
               "published_date": "2026-11-04",
               "report_date": "2026-11-04",
               "sequence": 2,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less"
+            }
+          ],
+          "title": "A sign-less key exchange aims to secure IoT networks post-quantum"
+        },
+        {
+          "excerpts": [
+            "HPQ-AKE, a sign-less authenticated key exchange protocol, secures bandwidth-constrained IoT networks using ML-KEM-768 and RSA-OAEP",
+            "FixSampZ: A Fixed-Point Hardware-Efficient Discrete Gaussian Sampler for Falcon Signatures — already featured in Strategic Signals. [Open item](https://eprint.iacr.org/2026/2731)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-04",
+              "sequence": 3,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less"
             }
