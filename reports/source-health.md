@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-05 19:46 UTC_
+_Updated 2026-11-05 20:46 UTC_
 
 Rolling health is inferred from **31** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -95,7 +95,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | PQShield | rss | 100% | 0 | 0 | 2026-11-05 | 2026-11-04 | fresh | 🟢 healthy |
 | Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-05 | 2026-11-04 | fresh | 🟢 healthy |
 | Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-11-02 | 2026-10-29 | fresh | 🟢 healthy |
-| PsiQuantum News | watch | 100% | 0 | 0 | 2026-11-05 | 2026-10-28 | fresh | 🔴 failing |
+| PsiQuantum News | watch | 100% | 0 | 0 | 2026-11-05 | 2026-10-28 | fresh | 🟢 healthy |
 | QCi Press Releases | watch | 100% | 0 | 0 | 2026-11-05 | 2026-10-28 | fresh | 🟢 healthy |
 | QuEra Press Releases | watch | 100% | 0 | 0 | 2026-11-05 | 2026-10-15 | stale | 🟢 healthy |
 | QuSecure Press Releases | watch | 100% | 0 | 0 | 2026-11-05 | 2026-09-22 | stale | 🟢 healthy |
@@ -126,7 +126,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **102** of **108**
+- Healthy sources: **103** of **108**
 - Partial-coverage sources: **0**
 - Critical sources failing: **0**
 
