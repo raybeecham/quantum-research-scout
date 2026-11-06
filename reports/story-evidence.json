@@ -1476,6 +1476,46 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2611.07175": {
+      "captures": [
+        {
+          "excerpts": [
+            "Distributed Quantum Computing (DQC) offers a promising pathway to scale superconducting quantum hardware, but restricted inter- and intra-module connectivity creates a major transpilation bottleneck",
+            "Current DQC transpilation methods often assume idealized hardware connectivity, ignore subsequent intra-module routing, or suffer from substantial computational overheads that limit their applicability at scale"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-06",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.07175"
+            }
+          ],
+          "title": "Scalable Transpilation for Overcoming Restricted Connectivity in Distributed Superconducting Quantum Architectures"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.07530": {
+      "captures": [
+        {
+          "excerpts": [
+            "As large language models (LLMs) are increasingly deployed as general-purpose conversational assistants, they must handle diverse user requests while reliably refusing harmful ones",
+            "Jailbreak attacks craft adversarial instructions or conversational contexts to elicit unsafe responses despite these safeguards"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-06",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.07530"
+            }
+          ],
+          "title": "JailBound: FOL-Guided Jailbreak Evaluation for Exploring LLM Behavioral Boundaries"
+        }
+      ]
+    },
     "https://arxiv.org/abs/2611.08200": {
       "captures": [
         {
@@ -1489,9 +1529,36 @@
               "sequence": 0,
               "source": "arXiv RSS cs.CR",
               "url": "https://arxiv.org/abs/2611.08200"
+            },
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-06",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.08200"
             }
           ],
           "title": "Zirah: A Post-Quantum True Random Number Generator Hardware Signer With an Avalanche Noise"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.08442": {
+      "captures": [
+        {
+          "excerpts": [
+            "Announce Type: cross Abstract: Standardised post-quantum cryptography (PQC) is critical for protecting software systems against future quantum threats, but standardised algorithms alone do not provide a pathway for...",
+            "This paper presents a Systematisation of Knowledge (SoK) of PQC integration in software development, synthesising existing approaches across implementation, migration, and developer education"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-06",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.08442"
+            }
+          ],
+          "title": "SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions"
         }
       ]
     },
@@ -2543,6 +2610,13 @@
               "sequence": 0,
               "source": "IACR ePrint",
               "url": "https://eprint.iacr.org/2026/2765"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-06",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2765"
             }
           ],
           "title": "BASTION: Lock-Step, Staggered and Sequential Share Schedules for a First-Order Masked ML-KEM NTT on FPGA"
@@ -2564,6 +2638,13 @@
               "sequence": 0,
               "source": "IACR ePrint",
               "url": "https://eprint.iacr.org/2026/2766"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-06",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2766"
             }
           ],
           "title": "Keyber: Recovering the Signal by Amplifying the Noise in ML-KEM"
@@ -2582,6 +2663,13 @@
             {
               "published_date": "2026-11-04",
               "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2767"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-06",
               "sequence": 0,
               "source": "IACR ePrint",
               "url": "https://eprint.iacr.org/2026/2767"
@@ -2654,6 +2742,13 @@
             {
               "published_date": "2026-11-04",
               "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "IonQ News",
+              "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Completes-Acquisition-of-Elisity-Extending-Quantum-Security-for-Enterprises-and-Government/default.aspx"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-06",
               "sequence": 0,
               "source": "IonQ News",
               "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Completes-Acquisition-of-Elisity-Extending-Quantum-Security-for-Enterprises-and-Government/default.aspx"
@@ -3841,6 +3936,13 @@
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/horizon-quantum-signs-letter-of-intent-to-acquire-entropica-labs-for-27-million"
+            },
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-06",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/horizon-quantum-signs-letter-of-intent-to-acquire-entropica-labs-for-27-million"
             }
           ],
           "title": "Horizon Quantum Signs Letter of Intent to Acquire Entropica Labs for $27 Million"
@@ -3977,6 +4079,13 @@
             {
               "published_date": "2026-11-05",
               "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie"
+            },
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-06",
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie"
@@ -4794,6 +4903,13 @@
             {
               "published_date": "2026-11-05",
               "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029"
+            },
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-06",
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029"
@@ -6688,6 +6804,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/qecert-quantum-error-correction-lean-library"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-06",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/qecert-quantum-error-correction-lean-library"
             }
           ],
           "title": "Lean library links quantum codes to their error-correction criteria"
@@ -7572,6 +7695,13 @@
             {
               "published_date": "2026-11-04",
               "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/unitary-foundation-win-quantum-wins-software"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-06",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/unitary-foundation-win-quantum-wins-software"
@@ -10418,6 +10548,13 @@
               "sequence": 1,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/11/04/crypto-agility-post-quantum-security-banks"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-06",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/04/crypto-agility-post-quantum-security-banks"
             }
           ],
           "title": "Guest Post: Why Crypto-Agility Matters for Financial Institutions Preparing for PQC"
@@ -10497,6 +10634,13 @@
             {
               "published_date": "2026-11-05",
               "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "CISA Cybersecurity Advisories",
+              "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors"
+            },
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-06",
               "sequence": 0,
               "source": "CISA Cybersecurity Advisories",
               "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors"
