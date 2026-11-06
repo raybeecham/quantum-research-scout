@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T03:46:08.401191+00:00",
+  "updated_at": "2026-11-06T04:48:34.738993+00:00",
   "records": {
     "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors": {
       "page_url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
@@ -30,11 +30,6 @@
       "status": "failed",
       "fetched_at": "2026-11-05T16:46:25.407947+00:00"
     },
-    "https://eprint.iacr.org/2026/2739": {
-      "page_url": "https://eprint.iacr.org/2026/2739",
-      "status": "failed",
-      "fetched_at": "2026-11-05T03:46:19.145382+00:00"
-    },
     "https://eprint.iacr.org/2026/2744": {
       "page_url": "https://eprint.iacr.org/2026/2744",
       "status": "failed",
@@ -50,20 +45,10 @@
       "status": "failed",
       "fetched_at": "2026-11-05T16:46:25.407947+00:00"
     },
-    "https://eprint.iacr.org/2026/2733": {
-      "page_url": "https://eprint.iacr.org/2026/2733",
-      "status": "failed",
-      "fetched_at": "2026-11-05T03:46:19.145382+00:00"
-    },
     "https://arxiv.org/abs/2611.05722": {
       "page_url": "https://arxiv.org/abs/2611.05722",
       "status": "unavailable",
       "fetched_at": "2026-11-05T05:46:18.882203+00:00"
-    },
-    "https://eprint.iacr.org/2026/2741": {
-      "page_url": "https://eprint.iacr.org/2026/2741",
-      "status": "failed",
-      "fetched_at": "2026-11-05T03:46:19.145382+00:00"
     },
     "https://eprint.iacr.org/2026/2752": {
       "page_url": "https://eprint.iacr.org/2026/2752",
@@ -91,20 +76,20 @@
       "fetched_at": "2026-11-06T01:46:21.039835+00:00",
       "status": "ok"
     },
-    "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity": {
-      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/ionq-buys-elisity-quantum-security-firms.jpeg",
-      "page_url": "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity",
-      "publisher": "Quantum Zeitgeist",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-04T17:46:35.792374+00:00",
-      "status": "ok"
-    },
     "https://investors.ionq.com/news/news-details/2026/IonQ-Completes-Acquisition-of-Elisity-Extending-Quantum-Security-for-Enterprises-and-Government/default.aspx": {
       "image_url": "https://investors.ionq.com/files/images/ionq-og-2021-10-11.jpg",
       "page_url": "https://investors.ionq.com/news/news-details/2026/IonQ-Completes-Acquisition-of-Elisity-Extending-Quantum-Security-for-Enterprises-and-Government/default.aspx",
       "publisher": "IonQ News",
       "provenance": "og:image",
       "fetched_at": "2026-11-04T14:46:45.556276+00:00",
+      "status": "ok"
+    },
+    "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/ionq-buys-elisity-quantum-security-firms.jpeg",
+      "page_url": "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-04T17:46:35.792374+00:00",
       "status": "ok"
     },
     "https://thequantuminsider.com/2026/11/04/crypto-agility-post-quantum-security-banks": {
@@ -236,16 +221,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-11-02T14:46:25.619339+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2730": {
-      "page_url": "https://eprint.iacr.org/2026/2730",
-      "status": "failed",
-      "fetched_at": "2026-11-05T03:46:19.145382+00:00"
-    },
-    "https://eprint.iacr.org/2026/2731": {
-      "page_url": "https://eprint.iacr.org/2026/2731",
-      "status": "failed",
-      "fetched_at": "2026-11-05T03:46:19.145382+00:00"
     },
     "https://arxiv.org/abs/2611.04075": {
       "page_url": "https://arxiv.org/abs/2611.04075",
@@ -1086,6 +1061,36 @@
       "provenance": "og:image",
       "fetched_at": "2026-10-30T01:46:01.181127+00:00",
       "status": "ok"
+    },
+    "https://eprint.iacr.org/2026/2739": {
+      "page_url": "https://eprint.iacr.org/2026/2739",
+      "fetched_at": "2026-11-06T04:48:34.738993+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://eprint.iacr.org/2026/2733": {
+      "page_url": "https://eprint.iacr.org/2026/2733",
+      "fetched_at": "2026-11-06T04:48:34.738993+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://eprint.iacr.org/2026/2741": {
+      "page_url": "https://eprint.iacr.org/2026/2741",
+      "fetched_at": "2026-11-06T04:48:34.738993+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://eprint.iacr.org/2026/2730": {
+      "page_url": "https://eprint.iacr.org/2026/2730",
+      "fetched_at": "2026-11-06T04:48:34.738993+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://eprint.iacr.org/2026/2731": {
+      "page_url": "https://eprint.iacr.org/2026/2731",
+      "fetched_at": "2026-11-06T04:48:34.738993+00:00",
+      "status": "failed",
+      "reason": "http_403"
     }
   }
 }
