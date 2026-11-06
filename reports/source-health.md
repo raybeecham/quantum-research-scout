@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-06 19:46 UTC_
+_Updated 2026-11-06 20:46 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -68,8 +68,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-11-06 | — | unknown | 🟢 healthy |
 | Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-06 | 2026-11-06 | fresh | 🟢 healthy |
 | IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-06 | 2026-11-04 | fresh | 🟢 healthy |
-| IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-06 | 2026-11-05 | fresh | 🟢 healthy |
-| IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-06 | 2026-11-05 | fresh | 🟢 healthy |
+| IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-06 | 2026-11-06 | fresh | 🟢 healthy |
+| IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-06 | 2026-11-06 | fresh | 🟢 healthy |
 | IETF PQUIP | watch | 100% | 0 | 0 | 2026-11-06 | — | reference | 🟢 healthy |
 | IETF Post-Quantum Updates | watch | 100% | 0 | 0 | 2026-11-06 | 2026-08-27 | fresh | 🟢 healthy |
 | InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-11-06 | 2026-10-31 | fresh | 🟢 healthy |
