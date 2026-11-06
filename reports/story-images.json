@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T07:06:28.635692+00:00",
+  "updated_at": "2026-11-06T07:46:04.567509+00:00",
   "records": {
     "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors": {
       "page_url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
@@ -45,12 +45,28 @@
       "status": "unavailable",
       "fetched_at": "2026-11-06T06:45:53.726749+00:00"
     },
+    "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/a-sign-less-key-exchange-aims-to-secure-1200x630.png",
+      "page_url": "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-04T17:46:35.792374+00:00",
+      "status": "ok"
+    },
     "https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-15.png",
       "page_url": "https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029",
       "publisher": "Quantum Computing Report",
       "provenance": "og:image",
       "fetched_at": "2026-11-06T01:46:21.039835+00:00",
+      "status": "ok"
+    },
+    "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/ionq-buys-elisity-quantum-security-firms.jpeg",
+      "page_url": "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-04T17:46:35.792374+00:00",
       "status": "ok"
     },
     "https://investors.ionq.com/news/news-details/2026/IonQ-Completes-Acquisition-of-Elisity-Extending-Quantum-Security-for-Enterprises-and-Government/default.aspx": {
@@ -98,6 +114,14 @@
       "status": "unavailable",
       "fetched_at": "2026-11-06T06:45:53.726749+00:00"
     },
+    "https://thequantuminsider.com/2026/11/05/orange-joins-acceleronix-idemia-quantum-safe-esim-provisioning": {
+      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-05_15-37.png",
+      "page_url": "https://thequantuminsider.com/2026/11/05/orange-joins-acceleronix-idemia-quantum-safe-esim-provisioning",
+      "publisher": "The Quantum Insider",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
+      "status": "ok"
+    },
     "https://eprint.iacr.org/2026/2751": {
       "page_url": "https://eprint.iacr.org/2026/2751",
       "status": "failed",
@@ -112,6 +136,11 @@
       "page_url": "https://eprint.iacr.org/2026/2744",
       "status": "failed",
       "fetched_at": "2026-11-06T05:47:34.120399+00:00"
+    },
+    "https://eprint.iacr.org/2026/2753": {
+      "page_url": "https://eprint.iacr.org/2026/2753",
+      "status": "failed",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
     },
     "https://eprint.iacr.org/2026/2733": {
       "page_url": "https://eprint.iacr.org/2026/2733",
@@ -138,21 +167,25 @@
       "status": "unavailable",
       "fetched_at": "2026-11-05T15:46:46.759901+00:00"
     },
-    "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less": {
-      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/a-sign-less-key-exchange-aims-to-secure-1200x630.png",
-      "page_url": "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less",
-      "publisher": "Quantum Zeitgeist",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-04T17:46:35.792374+00:00",
-      "status": "ok"
+    "https://arxiv.org/abs/2611.07861": {
+      "page_url": "https://arxiv.org/abs/2611.07861",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
     },
-    "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity": {
-      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/ionq-buys-elisity-quantum-security-firms.jpeg",
-      "page_url": "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity",
-      "publisher": "Quantum Zeitgeist",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-04T17:46:35.792374+00:00",
-      "status": "ok"
+    "https://arxiv.org/abs/2611.07476": {
+      "page_url": "https://arxiv.org/abs/2611.07476",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
+    },
+    "https://arxiv.org/abs/2611.07440": {
+      "page_url": "https://arxiv.org/abs/2611.07440",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
+    },
+    "https://arxiv.org/abs/2501.18158": {
+      "page_url": "https://arxiv.org/abs/2501.18158",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
     },
     "https://quantumcomputingreport.com/universal-quantum-details-iterative-redecode-scheme-for-fast-transversal-fault-tolerant-logic": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-5.png",
@@ -261,6 +294,31 @@
       "page_url": "https://eprint.iacr.org/2026/2731",
       "status": "failed",
       "fetched_at": "2026-11-06T04:48:34.738993+00:00"
+    },
+    "https://arxiv.org/abs/2611.04075": {
+      "page_url": "https://arxiv.org/abs/2611.04075",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
+    },
+    "https://arxiv.org/abs/2611.04526": {
+      "page_url": "https://arxiv.org/abs/2611.04526",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
+    },
+    "https://arxiv.org/abs/2611.03788": {
+      "page_url": "https://arxiv.org/abs/2611.03788",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
+    },
+    "https://arxiv.org/abs/2611.04876": {
+      "page_url": "https://arxiv.org/abs/2611.04876",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
+    },
+    "https://arxiv.org/abs/2611.04128": {
+      "page_url": "https://arxiv.org/abs/2611.04128",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
     },
     "https://arxiv.org/abs/2611.04129": {
       "page_url": "https://arxiv.org/abs/2611.04129",
@@ -449,6 +507,11 @@
       "status": "unavailable",
       "fetched_at": "2026-11-05T10:46:15.317721+00:00"
     },
+    "https://live.paloaltonetworks.com/t5/community-blogs/from-visibility-to-installation-ai-agents-for-end-to-end/ba-p/1267323": {
+      "page_url": "https://live.paloaltonetworks.com/t5/community-blogs/from-visibility-to-installation-ai-agents-for-end-to-end/ba-p/1267323",
+      "status": "failed",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
+    },
     "https://thequantuminsider.com/2026/11/02/south-korea-hangang-supercomputer-quantum-integration": {
       "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-02_18-23.png",
       "page_url": "https://thequantuminsider.com/2026/11/02/south-korea-hangang-supercomputer-quantum-integration",
@@ -496,6 +559,31 @@
       "provenance": "og:image",
       "fetched_at": "2026-11-01T03:53:43.959613+00:00",
       "status": "ok"
+    },
+    "https://arxiv.org/abs/2610.41341": {
+      "page_url": "https://arxiv.org/abs/2610.41341",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
+    },
+    "https://arxiv.org/abs/2610.41413": {
+      "page_url": "https://arxiv.org/abs/2610.41413",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
+    },
+    "https://arxiv.org/abs/2610.41055": {
+      "page_url": "https://arxiv.org/abs/2610.41055",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
+    },
+    "https://arxiv.org/abs/2610.41033": {
+      "page_url": "https://arxiv.org/abs/2610.41033",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
+    },
+    "https://arxiv.org/abs/2610.41017": {
+      "page_url": "https://arxiv.org/abs/2610.41017",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
     },
     "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager": {
       "image_url": "https://res.infoq.com/news/2026/10/cf-pq-geokey-manager/en/headerimage/generatedHeaderImage-1793376907936.jpg",
@@ -777,96 +865,6 @@
       "page_url": "https://www.usaspending.gov/award/ASST_NON_2613412_049",
       "status": "unavailable",
       "fetched_at": "2026-11-05T07:46:09.843963+00:00"
-    },
-    "https://thequantuminsider.com/2026/11/05/orange-joins-acceleronix-idemia-quantum-safe-esim-provisioning": {
-      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-05_15-37.png",
-      "page_url": "https://thequantuminsider.com/2026/11/05/orange-joins-acceleronix-idemia-quantum-safe-esim-provisioning",
-      "publisher": "The Quantum Insider",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2753": {
-      "page_url": "https://eprint.iacr.org/2026/2753",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "failed",
-      "reason": "http_403"
-    },
-    "https://arxiv.org/abs/2611.07861": {
-      "page_url": "https://arxiv.org/abs/2611.07861",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2611.07476": {
-      "page_url": "https://arxiv.org/abs/2611.07476",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2611.07440": {
-      "page_url": "https://arxiv.org/abs/2611.07440",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2501.18158": {
-      "page_url": "https://arxiv.org/abs/2501.18158",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2611.04075": {
-      "page_url": "https://arxiv.org/abs/2611.04075",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2611.04526": {
-      "page_url": "https://arxiv.org/abs/2611.04526",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2611.03788": {
-      "page_url": "https://arxiv.org/abs/2611.03788",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2611.04876": {
-      "page_url": "https://arxiv.org/abs/2611.04876",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2611.04128": {
-      "page_url": "https://arxiv.org/abs/2611.04128",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "unavailable"
-    },
-    "https://live.paloaltonetworks.com/t5/community-blogs/from-visibility-to-installation-ai-agents-for-end-to-end/ba-p/1267323": {
-      "page_url": "https://live.paloaltonetworks.com/t5/community-blogs/from-visibility-to-installation-ai-agents-for-end-to-end/ba-p/1267323",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "failed",
-      "reason": "http_403"
-    },
-    "https://arxiv.org/abs/2610.41341": {
-      "page_url": "https://arxiv.org/abs/2610.41341",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2610.41413": {
-      "page_url": "https://arxiv.org/abs/2610.41413",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2610.41055": {
-      "page_url": "https://arxiv.org/abs/2610.41055",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2610.41033": {
-      "page_url": "https://arxiv.org/abs/2610.41033",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2610.41017": {
-      "page_url": "https://arxiv.org/abs/2610.41017",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00",
-      "status": "unavailable"
     }
   }
 }
