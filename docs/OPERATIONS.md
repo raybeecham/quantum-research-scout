@@ -145,7 +145,7 @@ SAM.gov snapshot mode uses one fixed UTC posting-date window and matches topics
 locally. The [official API](https://open.gsa.gov/api/get-opportunities-public-api/)
 defines `offset` as a zero-based page index: the first two requests use `0` and `1`,
 each with at most 1,000 notices. The current configuration keeps a two-day lookback
-and a two-page budget; the collector caps configurable budgets at five pages.
+and a three-page budget (indices 0, 1, 2); the collector caps configurable budgets at five pages.
 It does not widen the window or add requests per keyword to fill coverage gaps.
 
 Coverage counts unique notice identifiers before relevance filtering, so duplicates
@@ -161,6 +161,38 @@ changing quota settings; HTTP retries remain subject to the existing bounded ret
 and `Retry-After` policy, and permanent access restrictions stop collection. This
 collector uses the existing `SAM_GOV_API_KEY` and introduces no paid service. Verify
 account access and quota before any manual live collection.
+
+The November 6, 2026 diagnostic observed 2,929 notices in the November 4–6 UTC
+posting window: two successful pages returned 2,000 distinct notices without
+duplicates. Three pages can cover that count if the responses remain consistent;
+this is not a guarantee that a later window fits. The collector stops early when
+all reported unique notices arrive and still discloses truncation, invalid or
+changing totals, repeated pages, and request failures. The daily publication guard
+is unchanged: critical failures block publication; partial-only coverage is a
+visible `watch` advisory, not a claim of complete coverage.
+
+The manual **SAM Pagination Smoke Test** accepts `max_requests` from 1 through 5.
+Its default remains 2, independent of the production setting. After checking quota,
+an explicitly selected budget of 3 can verify the larger snapshot without publishing.
+It sends no retries or redirects, retains count-only diagnostics, and returns failure
+unless coverage is complete. Do not use repeated diagnostics to discover a quota.
+
+Quota is account-specific. The Opportunities API documentation says limits depend
+on account role but does not provide a remaining-quota endpoint. The
+[Entity API rate-limit table](https://open.gsa.gov/api/entity-api/)
+lists 10 requests/day for a non-federal personal account without a role, 1,000 for
+role-bearing non-federal/federal personal accounts and non-federal system accounts,
+and 10,000 for federal system accounts. That table does not establish this key's
+Opportunities allowance, remaining balance, or whether endpoint quotas are shared.
+The existing diagnostic did not record quota headers. Confirm the actual account
+allowance and remaining usage with the account owner/SAM support before a live test
+or recovery. Production retries, enrichment calls, and failed recovery attempts
+can consume additional requests beyond the snapshot's three-page budget.
+
+Historical recovery limitation: `report_date` does not rewind the SAM posting
+window, which is based on the current UTC date minus the configured lookback.
+SAM returns the latest active version, not a historical snapshot. A November 5
+briefing recovered later must not imply that its SAM evidence was frozen on that day.
 
 ### Primary-source link collection
 
