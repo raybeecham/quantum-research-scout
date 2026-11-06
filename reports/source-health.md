@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-06 20:46 UTC_
+_Updated 2026-11-06 21:46 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -30,13 +30,13 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Zeitgeist | rss | 98% | 1 | 0 | 2026-11-06 | 2026-11-06 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 17 | 2026-11-06 | 2026-11-05 | fresh | 🟢 healthy |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-06 | 2026-10-21 | fresh | 🟢 healthy |
-| AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-06 | 2026-11-05 | fresh | 🟢 healthy |
+| AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-06 | 2026-11-06 | fresh | 🟢 healthy |
 | Accenture Federal Services Quantum Readiness | watch | 100% | 0 | 0 | 2026-11-06 | 2026-08-04 | reference | 🟢 healthy |
 | Accenture Quantum and PQC News | watch | 100% | 0 | 0 | 2026-11-06 | 2025-10-20 | stale | 🟢 healthy |
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-06 | 2026-10-07 | stale | 🟢 healthy |
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-11-06 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-11-06 | 2026-09-29 | stale | 🟢 healthy |
-| CISA Cybersecurity Advisories | rss | 92% | 0 | 0 | 2026-11-06 | 2026-11-05 | fresh | 🟢 healthy |
+| CISA Cybersecurity Advisories | rss | 92% | 0 | 0 | 2026-11-06 | 2026-11-06 | fresh | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-11-06 | 2026-10-26 | fresh | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-06 | 2026-11-05 | fresh | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-06 | 2026-11-06 | fresh | 🟢 healthy |
