@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T13:46:28.516772+00:00",
+  "updated_at": "2026-11-06T14:46:18.589014+00:00",
   "records": {
     "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors": {
       "page_url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
@@ -250,6 +250,11 @@
       "provenance": "og:image",
       "fetched_at": "2026-11-04T17:46:35.792374+00:00",
       "status": "ok"
+    },
+    "https://arxiv.org/abs/2611.06553": {
+      "page_url": "https://arxiv.org/abs/2611.06553",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T13:46:28.516772+00:00"
     },
     "https://thequantuminsider.com/2026/11/05/sealsq-eco-wave-power-digital-energy-transactions-ai-data-centers": {
       "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-05_20-45.png",
@@ -893,10 +898,21 @@
       "status": "unavailable",
       "fetched_at": "2026-11-06T08:46:08.285404+00:00"
     },
-    "https://arxiv.org/abs/2611.06553": {
-      "page_url": "https://arxiv.org/abs/2611.06553",
-      "fetched_at": "2026-11-06T13:46:28.516772+00:00",
-      "status": "unavailable"
+    "https://quantumzeitgeist.com/quantum-proof-cryptography-vendors-problem-cisa": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/quantum-proof-cryptography-vendors-problem-cisa-1200x630.png",
+      "page_url": "https://quantumzeitgeist.com/quantum-proof-cryptography-vendors-problem-cisa",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-06T14:46:18.589014+00:00",
+      "status": "ok"
+    },
+    "https://quantumzeitgeist.com/sok-post-quantum-cryptography-software-developers": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/software-developers-face-gaps-migrating-post-1200x630.jpeg",
+      "page_url": "https://quantumzeitgeist.com/sok-post-quantum-cryptography-software-developers",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-06T14:46:18.589014+00:00",
+      "status": "ok"
     }
   }
 }
