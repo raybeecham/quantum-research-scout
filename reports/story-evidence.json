@@ -1476,6 +1476,25 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2611.08200": {
+      "captures": [
+        {
+          "excerpts": [
+            "Zirah is a hardware signer built around an STM32F407 microcontroller, and its purpose is to find out, on inexpensive hardware, where a post-quantum signing key is exposed and what actually protects it"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.08200"
+            }
+          ],
+          "title": "Zirah: A Post-Quantum True Random Number Generator Hardware Signer With an Avalanche Noise"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
@@ -6090,6 +6109,13 @@
               "published_date": "2026-11-04",
               "report_date": "2026-11-05",
               "sequence": 1,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less"
+            },
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
+              "sequence": 3,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less"
             }
