@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-06 14:46 UTC_
+_Updated 2026-11-06 15:46 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -40,13 +40,13 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-11-06 | 2026-10-26 | fresh | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-06 | 2026-11-05 | fresh | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-06 | 2026-11-06 | fresh | 🟢 healthy |
-| Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-06 | 2026-10-23 | fresh | 🟢 healthy |
+| Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-06 | 2026-11-06 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-06 | 2026-11-05 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-06 | 2026-11-04 | fresh | 🟢 healthy |
 | DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-06 | 2026-11-05 | fresh | 🟢 healthy |
 | DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-06 | 2026-11-05 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-06 | — | reference | 🟢 healthy |
-| DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-06 | 2026-11-04 | fresh | 🟢 healthy |
+| DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-06 | 2026-11-06 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-11-06 | 2026-11-05 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 0 | 2026-11-06 | 2024-03-12 | reference | 🟢 healthy |
 | Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-11-06 | 2026-10-08 | stale | 🟢 healthy |
