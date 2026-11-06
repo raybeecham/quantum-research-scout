@@ -3807,6 +3807,27 @@
         }
       ]
     },
+    "https://quantumcomputingreport.com/horizon-quantum-signs-letter-of-intent-to-acquire-entropica-labs-for-27-million": {
+      "captures": [
+        {
+          "excerpts": [
+            "This acquisition combines Horizon's quantum program synthesis with Entropica's quantum error correction software",
+            "The goal is to automate the translation of high-level code into fault-tolerant circuits, integrating application synthesis and error correction",
+            "Horizon Quantum Holdings Ltd. intends to acquire Entropica Labs Pte"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/horizon-quantum-signs-letter-of-intent-to-acquire-entropica-labs-for-27-million"
+            }
+          ],
+          "title": "Horizon Quantum Signs Letter of Intent to Acquire Entropica Labs for $27 Million"
+        }
+      ]
+    },
     "https://quantumcomputingreport.com/ibm-and-rutgers-control-quantum-chaos-across-100-qubits-on-heron-processor": {
       "captures": [
         {
@@ -3923,6 +3944,26 @@
             }
           ],
           "title": "IBM Launches Unified Quantum Safe Software Suite to Automate Enterprise PQC Migration"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie": {
+      "captures": [
+        {
+          "excerpts": [
+            "IBM, ORNL, and AMD have launched a co-located quantum error correction (QEC) platform in Poughkeepsie, combining IBM's 120-qubit Quantum Nighthawk r2 processor with ORNL's Umbra HPC system (powered by AMD) to...",
+            "This setup enables real-time error correction for fault-tolerant quantum computing, focusing on scaling multi-layered error-correcting codes and targeting applications in condensed matter physics and neutron..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie"
+            }
+          ],
+          "title": "IBM, ORNL, and AMD Deploy Co-Located Quantum Error Correction Platform in Poughkeepsie"
         }
       ]
     },
@@ -4719,6 +4760,27 @@
             }
           ],
           "title": "Quantinuum Demonstrates 99.9995% Logical Memory Fidelity on Helios Trapped-Ion Processor"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029": {
+      "captures": [
+        {
+          "excerpts": [
+            "This platform will transition developers from physical qubit experimentation to logical, fault-tolerant execution, aligning with Quantinuum's hardware progression",
+            "Quantinuum has unveiled its Nexus roadmap, outlining a platform to automate fault-tolerant quantum application deployment through 2029",
+            "Nexus will progressively automate quantum error correction, runtime telemetry, and hybrid classical-quantum orchestration, with tools organized across Develop, Optimize, and Deploy lifecycle phases"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029"
+            }
+          ],
+          "title": "Quantinuum Unveils Nexus Roadmap to Automate Fault-Tolerant Application Deployment Through 2029"
         }
       ]
     },
@@ -6028,6 +6090,23 @@
               "published_date": "2026-11-04",
               "report_date": "2026-11-05",
               "sequence": 1,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less"
+            }
+          ],
+          "title": "A sign-less key exchange aims to secure IoT networks post-quantum"
+        },
+        {
+          "excerpts": [
+            "HPQ-AKE, a sign-less authenticated key exchange protocol, secures bandwidth-constrained IoT networks using ML-KEM-768 and RSA-OAEP",
+            "Post-Quantum Questions to Ask Your Vendors — already featured in Strategic Signals. [Open item](https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors)",
+            "HqcLethe: Streaming HQC Encapsulation for Tiny Stateless Servers — already featured in Strategic Signals. [Open item](https://eprint.iacr.org/2026/2767)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-04",
+              "report_date": "2026-11-05",
+              "sequence": 2,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less"
             }
