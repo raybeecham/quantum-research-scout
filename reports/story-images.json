@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T16:46:40.897199+00:00",
+  "updated_at": "2026-11-06T17:46:42.564052+00:00",
   "records": {
     "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors": {
       "page_url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
@@ -39,10 +39,25 @@
       "fetched_at": "2026-11-06T14:46:18.589014+00:00",
       "status": "ok"
     },
+    "https://eprint.iacr.org/2026/2765": {
+      "page_url": "https://eprint.iacr.org/2026/2765",
+      "status": "failed",
+      "fetched_at": "2026-11-06T16:46:40.897199+00:00"
+    },
     "https://arxiv.org/abs/2611.08200": {
       "page_url": "https://arxiv.org/abs/2611.08200",
       "status": "unavailable",
       "fetched_at": "2026-11-06T05:47:34.120399+00:00"
+    },
+    "https://eprint.iacr.org/2026/2766": {
+      "page_url": "https://eprint.iacr.org/2026/2766",
+      "status": "failed",
+      "fetched_at": "2026-11-06T16:46:40.897199+00:00"
+    },
+    "https://eprint.iacr.org/2026/2767": {
+      "page_url": "https://eprint.iacr.org/2026/2767",
+      "status": "failed",
+      "fetched_at": "2026-11-06T16:46:40.897199+00:00"
     },
     "https://arxiv.org/abs/2611.08442": {
       "page_url": "https://arxiv.org/abs/2611.08442",
@@ -195,6 +210,11 @@
       "status": "failed",
       "fetched_at": "2026-11-06T11:46:08.831842+00:00"
     },
+    "https://arxiv.org/abs/2611.06124": {
+      "page_url": "https://arxiv.org/abs/2611.06124",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T16:46:40.897199+00:00"
+    },
     "https://arxiv.org/abs/2611.07861": {
       "page_url": "https://arxiv.org/abs/2611.07861",
       "status": "unavailable",
@@ -259,6 +279,11 @@
       "provenance": "og:image",
       "fetched_at": "2026-11-05T16:46:25.407947+00:00",
       "status": "ok"
+    },
+    "https://eprint.iacr.org/2026/2760": {
+      "page_url": "https://eprint.iacr.org/2026/2760",
+      "status": "failed",
+      "fetched_at": "2026-11-06T16:46:40.897199+00:00"
     },
     "https://quantumzeitgeist.com/government-cipher-vietnam-drafts-standards-fend": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/vietnam-drafts-standards-to-fend-off-future-quantum-1200x630.webp",
@@ -342,6 +367,11 @@
       "page_url": "https://arxiv.org/abs/2611.04128",
       "status": "unavailable",
       "fetched_at": "2026-11-06T07:06:28.635692+00:00"
+    },
+    "https://arxiv.org/abs/2611.04129": {
+      "page_url": "https://arxiv.org/abs/2611.04129",
+      "status": "unavailable",
+      "fetched_at": "2026-11-06T16:46:40.897199+00:00"
     },
     "https://thequantuminsider.com/2026/11/02/idemia-payment-cards-post-quantum-transition": {
       "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-02_13-59.png",
@@ -884,39 +914,13 @@
       "status": "unavailable",
       "fetched_at": "2026-11-06T08:46:08.285404+00:00"
     },
-    "https://eprint.iacr.org/2026/2765": {
-      "page_url": "https://eprint.iacr.org/2026/2765",
-      "fetched_at": "2026-11-06T16:46:40.897199+00:00",
-      "status": "failed",
-      "reason": "http_403"
-    },
-    "https://eprint.iacr.org/2026/2766": {
-      "page_url": "https://eprint.iacr.org/2026/2766",
-      "fetched_at": "2026-11-06T16:46:40.897199+00:00",
-      "status": "failed",
-      "reason": "http_403"
-    },
-    "https://eprint.iacr.org/2026/2767": {
-      "page_url": "https://eprint.iacr.org/2026/2767",
-      "fetched_at": "2026-11-06T16:46:40.897199+00:00",
-      "status": "failed",
-      "reason": "http_403"
-    },
-    "https://arxiv.org/abs/2611.06124": {
-      "page_url": "https://arxiv.org/abs/2611.06124",
-      "fetched_at": "2026-11-06T16:46:40.897199+00:00",
-      "status": "unavailable"
-    },
-    "https://eprint.iacr.org/2026/2760": {
-      "page_url": "https://eprint.iacr.org/2026/2760",
-      "fetched_at": "2026-11-06T16:46:40.897199+00:00",
-      "status": "failed",
-      "reason": "http_403"
-    },
-    "https://arxiv.org/abs/2611.04129": {
-      "page_url": "https://arxiv.org/abs/2611.04129",
-      "fetched_at": "2026-11-06T16:46:40.897199+00:00",
-      "status": "unavailable"
+    "https://thequantuminsider.com/2026/11/06/qnu-labs-corporate-training-quantum-safe-security": {
+      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-06_13-50.png",
+      "page_url": "https://thequantuminsider.com/2026/11/06/qnu-labs-corporate-training-quantum-safe-security",
+      "publisher": "The Quantum Insider",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-06T17:46:42.564052+00:00",
+      "status": "ok"
     }
   }
 }
