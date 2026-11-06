@@ -1,4 +1,4 @@
-"""Run the production SAM collector with at most two requests and count-only output."""
+"""Run the SAM collector with an explicit bounded request budget and count-only output."""
 
 from __future__ import annotations
 
@@ -25,6 +25,7 @@ from pqc_quantum_research_agent.redaction import redact_text  # noqa: E402
 
 ENDPOINT = "https://api.sam.gov/opportunities/v2/search"
 MAX_REQUESTS = 2
+HARD_MAX_REQUESTS = 5
 MAX_BYTES = 32 * 1024 * 1024
 
 
@@ -37,7 +38,10 @@ def safe_message(value: object) -> str:
 class BoundedSamClient:
     """No retries, redirects, detail downloads, or credential-bearing diagnostic URLs."""
 
-    def __init__(self, user_agent: str) -> None:
+    def __init__(self, user_agent: str, max_requests: int = MAX_REQUESTS) -> None:
+        if type(max_requests) is not int or not 1 <= max_requests <= HARD_MAX_REQUESTS:
+            raise ValueError("SAM diagnostic request budget must be an integer from 1 to 5.")
+        self.max_requests = max_requests
         self.session = requests.Session()
         self.session.headers["User-Agent"] = user_agent
         self.session.mount("https://", requests.adapters.HTTPAdapter(max_retries=0))
@@ -46,7 +50,7 @@ class BoundedSamClient:
         self.window: dict[str, str] = {}
 
     def get_text(self, url: str, params: dict, headers: dict) -> tuple[str, str]:
-        if len(self.pages) >= MAX_REQUESTS:
+        if len(self.pages) >= self.max_requests:
             raise RuntimeError("SAM test request limit reached; no additional request sent.")
         if (
             url != ENDPOINT
@@ -126,7 +130,7 @@ def run_check(config, client: BoundedSamClient) -> dict:
     """Exercise deployed collector logic, without calling any report writers."""
     report = {
         "checked_at": datetime.now(timezone.utc).isoformat(),
-        "request_limit": MAX_REQUESTS,
+        "request_limit": client.max_requests,
         "automatic_retries": 0,
         "redirects_followed": 0,
         "status": "failed",
@@ -143,7 +147,11 @@ def run_check(config, client: BoundedSamClient) -> dict:
             raise RuntimeError("SAM_GOV_API_KEY is unavailable; no request sent.")
         if not provider.get("enabled", True):
             raise RuntimeError("SAM collector is disabled; no request sent.")
-        provider.update(collection_mode="snapshot", max_pages_per_run=2, max_items_per_request=1000)
+        provider.update(
+            collection_mode="snapshot",
+            max_pages_per_run=client.max_requests,
+            max_items_per_request=1000,
+        )
         funding = {
             "enabled": True,
             "usaspending": {"enabled": False},
@@ -202,6 +210,13 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--config", default="sources.yaml")
     parser.add_argument("--output", type=Path)
+    parser.add_argument(
+        "--max-requests",
+        type=int,
+        choices=range(1, HARD_MAX_REQUESTS + 1),
+        default=MAX_REQUESTS,
+        help="Explicit request budget after checking account quota (default: 2; no retries).",
+    )
     args = parser.parse_args()
     if args.output and (PROJECT_ROOT / "reports") in args.output.resolve().parents:
         parser.error("Diagnostic output must not be written to reports/.")
@@ -210,7 +225,7 @@ def main() -> int:
     except Exception:
         print("SAM test configuration could not be loaded; no request sent.", file=sys.stderr)
         return 2
-    report = run_check(config, BoundedSamClient(config.settings.user_agent))
+    report = run_check(config, BoundedSamClient(config.settings.user_agent, args.max_requests))
     output = json.dumps(report, indent=2) + "\n"
     if args.output:
         args.output.write_text(output, encoding="utf-8")

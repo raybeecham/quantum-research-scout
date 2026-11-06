@@ -75,6 +75,49 @@ def test_two_page_production_collector_check_emits_counts_only(client):
     assert client.session.get.call_count == 2
 
 
+@pytest.mark.parametrize("total,expected_status", [(2929, "complete"), (3001, "partial")])
+def test_explicit_three_request_budget_checks_all_unique_notices(
+    monkeypatch, total, expected_status
+):
+    monkeypatch.setenv("SAM_GOV_API_KEY", "private-test-secret")
+    client = smoke.BoundedSamClient("test", max_requests=3)
+    client.session.get = Mock(
+        side_effect=[
+            page(total, [notice(n) for n in range(start, min(start + 1000, total))])
+            for start in (0, 1000, 2000)
+        ]
+    )
+    report = smoke.run_check(config(), client)
+    assert report["request_limit"] == report["requests_attempted"] == 3
+    assert report["unique_notices"] == min(total, 3000)
+    assert report["status"] == expected_status
+    assert report["complete_multi_page_snapshot"] == (expected_status == "complete")
+    assert not report["historical_snapshot_replayed"]
+    assert [p["page_index"] for p in report["pages"]] == [0, 1, 2]
+    assert "private-" not in json.dumps(report)
+    with pytest.raises(RuntimeError, match="limit reached"):
+        client.get_text(smoke.ENDPOINT, {}, {})
+    assert client.session.get.call_count == 3
+
+
+@pytest.mark.parametrize("budget", [0, 6, -1, True, 2.5, "3"])
+def test_invalid_request_budget_is_rejected_before_session_creation(budget, monkeypatch):
+    session = Mock()
+    monkeypatch.setattr(smoke.requests, "Session", session)
+    with pytest.raises(ValueError, match="request budget"):
+        smoke.BoundedSamClient("test", max_requests=budget)
+    session.assert_not_called()
+
+
+def test_cli_rejects_over_budget_before_loading_config(monkeypatch):
+    load = Mock()
+    monkeypatch.setattr(smoke, "load_config", load)
+    monkeypatch.setattr("sys.argv", ["check_sam_pagination.py", "--max-requests", "6"])
+    with pytest.raises(SystemExit, match="2"):
+        smoke.main()
+    load.assert_not_called()
+
+
 @pytest.mark.parametrize("status", [301, 302, 401, 403, 429, 500])
 def test_stops_on_first_http_error_without_retry_or_error_body_output(client, status):
     client.session.get.return_value = response(

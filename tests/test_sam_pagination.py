@@ -2,12 +2,14 @@ from __future__ import annotations
 
 import json
 from datetime import datetime, timezone
+from pathlib import Path
 from unittest.mock import Mock, patch
 
 import pytest
 import requests
 
 from pqc_quantum_research_agent.collectors import collect_federal_funding
+from pqc_quantum_research_agent.config import load_config
 from pqc_quantum_research_agent.http import HttpClient
 
 
@@ -79,6 +81,28 @@ def test_complete_1161_notice_snapshot_uses_page_indices_and_fixed_window():
     assert all(item.published_at.date().isoformat() == "2026-10-26" for item in result.items)
     assert all(item.raw_payload["mission_ids"] == ["quantum"] for item in result.items)
     assert not result.warnings
+
+
+@pytest.mark.parametrize("total", [2929, 3001])
+def test_configured_production_budget_covers_third_page_and_discloses_overflow(total):
+    config = load_config(Path(__file__).resolve().parents[1] / "sources.yaml")
+    records = [notice(n, "Office supplies") for n in range(total)]
+    records[2928] = notice(2928)
+    client = PagesClient([page(total, *records[start : start + 1000]) for start in (0, 1000, 2000)])
+    funding = dict(config.federal_funding)
+    funding.update(usaspending={"enabled": False}, grants_gov={"enabled": False})
+    with patch.dict("os.environ", {"SAM_GOV_API_KEY": "test-key"}):
+        result = collect_federal_funding(client, funding, 20)
+    assert [call["offset"] for call in client.calls] == [0, 1, 2]
+    assert len({(call["postedFrom"], call["postedTo"]) for call in client.calls}) == 1
+    assert any(item.url == records[2928]["uiLink"] for item in result.items)
+    if total == 2929:
+        assert not result.warnings
+    else:
+        assert len(result.warnings) == 1
+        assert result.warnings[0].severity == "advisory"
+        assert "3,000 of 3,001 unique notices" in result.warnings[0].message
+        assert "bounded page budget" in result.warnings[0].message
 
 
 def test_short_page_does_not_hide_advertised_remaining_notices():

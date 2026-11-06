@@ -194,11 +194,14 @@ federal_funding:
     endpoint: "https://api.sam.gov/opportunities/v2/search"
     api_key_env: "SAM_GOV_API_KEY"
     # One recent snapshot replaces one API request per keyword. All topic and
-    # mission matching happens locally so a basic personal key stays under quota.
+    # mission matching happens locally. Confirm account quota before live runs;
+    # retries, recovery attempts and enrichment can consume additional requests.
     collection_mode: "snapshot"
     lookback_days: 2
     max_items_per_request: 1000
-    max_pages_per_run: 2
+    # Three pages cover the observed 2,929-notice window; larger windows remain
+    # explicitly partial. This is a per-run page budget, not an account quota.
+    max_pages_per_run: 3
   document_intelligence:
     enabled: true
     max_opportunities: 20
