@@ -236,23 +236,41 @@
           "source": "Thales Cybersecurity Blog",
           "title": "Agentic AI Security Risks in Manufacturing | Thales",
           "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://arxiv.org/abs/2501.18158",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 53,
+          "source": "arXiv RSS cs.CR",
+          "title": "Large Language Models for Cryptocurrency Transaction Analysis: A Bitcoin Case Study",
+          "url": "https://arxiv.org/abs/2501.18158"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://arxiv.org/abs/2611.07530",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 70,
+          "source": "arXiv RSS cs.CR",
+          "title": "JailBound: FOL-Guided Jailbreak Evaluation for Exploring LLM Behavioral Boundaries",
+          "url": "https://arxiv.org/abs/2611.07530"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-10-29",
-      "momentum": "rising",
+      "latest_seen": "2026-11-05",
+      "momentum": "stable",
       "organizations": [
-        "Quantum Zeitgeist",
         "arXiv RSS cs.CR",
+        "Quantum Zeitgeist",
         "QuantumNews.ai",
         "Quantum Computing Report",
         "The Quantum Insider"
       ],
-      "prior_count": 1,
+      "prior_count": 2,
       "recent_count": 2,
-      "status": "actionable"
+      "status": "watching"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -3280,12 +3298,75 @@
           "source": "Quantum Zeitgeist",
           "title": "IBM Quantum Safe helps firms plan a move to quantum-resistant data",
           "url": "https://quantumzeitgeist.com/quantum-safe-helps-firms-ibm"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://thequantuminsider.com/2026/11/05/orange-joins-acceleronix-idemia-quantum-safe-esim-provisioning",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 55,
+          "source": "The Quantum Insider",
+          "title": "Orange Joins Acceleronix and IDEMIA\u2019s Quantum-Safe eSIM Provisioning Program",
+          "url": "https://thequantuminsider.com/2026/11/05/orange-joins-acceleronix-idemia-quantum-safe-esim-provisioning"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://arxiv.org/abs/2611.07476",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 58,
+          "source": "arXiv RSS cs.CR",
+          "title": "AMORT-V1: Checkpointed Post-Quantum Attestation for Industrial Controllers",
+          "url": "https://arxiv.org/abs/2611.07476"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://thequantuminsider.com/2026/11/05/sealsq-eco-wave-power-digital-energy-transactions-ai-data-centers",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 61,
+          "source": "The Quantum Insider",
+          "title": "SEALSQ and Eco Wave Power Demonstrate Digital Energy Transactions for AI Data Centers",
+          "url": "https://thequantuminsider.com/2026/11/05/sealsq-eco-wave-power-digital-energy-transactions-ai-data-centers"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://thequantuminsider.com/2026/11/05/bitcoin-cash-proposal-seeks-path-to-quantum-resistant-transactions",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 62,
+          "source": "The Quantum Insider",
+          "title": "Bitcoin Cash Proposal Seeks Path to Quantum-Resistant Transactions",
+          "url": "https://thequantuminsider.com/2026/11/05/bitcoin-cash-proposal-seeks-path-to-quantum-resistant-transactions"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://arxiv.org/abs/2611.08442",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 74,
+          "source": "arXiv RSS cs.CR",
+          "title": "SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions",
+          "url": "https://arxiv.org/abs/2611.08442"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 109,
+          "source": "CISA Cybersecurity Advisories",
+          "title": "Post-Quantum Questions to Ask Your Vendors",
+          "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://arxiv.org/abs/2611.08200",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 144,
+          "source": "arXiv RSS cs.CR",
+          "title": "Zirah: A Post-Quantum True Random Number Generator Hardware Signer With an Avalanche Noise",
+          "url": "https://arxiv.org/abs/2611.08200"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-11-01",
+      "latest_seen": "2026-11-05",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -3295,7 +3376,7 @@
         "Quantum Computing Report"
       ],
       "prior_count": 18,
-      "recent_count": 21,
+      "recent_count": 16,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -4218,12 +4299,39 @@
           "source": "Quantum Zeitgeist",
           "title": "Researchers Measure Logical Qubit with 0.72% Error Using Quantum Surgery",
           "url": "https://quantumzeitgeist.com/quantum-surgery-logical-qubit-error-measurement"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://quantumcomputingreport.com/horizon-quantum-signs-letter-of-intent-to-acquire-entropica-labs-for-27-million",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 80,
+          "source": "Quantum Computing Report",
+          "title": "Horizon Quantum Signs Letter of Intent to Acquire Entropica Labs for $27 Million",
+          "url": "https://quantumcomputingreport.com/horizon-quantum-signs-letter-of-intent-to-acquire-entropica-labs-for-27-million"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 103,
+          "source": "Quantum Computing Report",
+          "title": "Quantinuum Unveils Nexus Roadmap to Automate Fault-Tolerant Application Deployment Through 2029",
+          "url": "https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 109,
+          "source": "Quantum Computing Report",
+          "title": "IBM, ORNL, and AMD Deploy Co-Located Quantum Error Correction Platform in Poughkeepsie",
+          "url": "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-11-01",
+      "latest_seen": "2026-11-05",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -4232,8 +4340,8 @@
         "QuantumNews.ai",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 8,
-      "recent_count": 8,
+      "prior_count": 6,
+      "recent_count": 6,
       "status": "watching"
     },
     "Quantum Hardware": {
@@ -9163,13 +9271,40 @@
           "source": "Quantum Zeitgeist",
           "title": "Syracuse University Bounds Quantum Channel Advantages",
           "url": "https://quantumzeitgeist.com/quantum-channel-entanglement-advantage-bounds-disprove-conjecture"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://arxiv.org/abs/2611.07440",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 56,
+          "source": "arXiv RSS quant-ph",
+          "title": "Information flow control in hybrid quantum networks",
+          "url": "https://arxiv.org/abs/2611.07440"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://arxiv.org/abs/2611.07861",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 59,
+          "source": "arXiv RSS quant-ph",
+          "title": "Continuous variable payload transmitter for the SPOQC mission",
+          "url": "https://arxiv.org/abs/2611.07861"
+        },
+        {
+          "date": "2026-11-05",
+          "key": "https://arxiv.org/abs/2611.07175",
+          "report": "2026-11/2026-11-05-digest.md",
+          "score": 62,
+          "source": "arXiv RSS quant-ph",
+          "title": "Scalable Transpilation for Overcoming Restricted Connectivity in Distributed Superconducting Quantum Architectures",
+          "url": "https://arxiv.org/abs/2611.07175"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-11-01",
-      "momentum": "rising",
+      "latest_seen": "2026-11-05",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -9177,9 +9312,9 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 3,
-      "recent_count": 16,
-      "status": "actionable"
+      "prior_count": 9,
+      "recent_count": 12,
+      "status": "watching"
     },
     "Quantum Sensing": {
       "confidence": "high",
@@ -11453,9 +11588,9 @@
       ],
       "prior_count": 7,
       "recent_count": 1,
-      "status": "watching"
+      "status": "stale"
     }
   },
-  "updated_at": "2026-11-02T03:53:14.813369+00:00",
+  "updated_at": "2026-11-06T07:05:48.699825+00:00",
   "version": 1
 }

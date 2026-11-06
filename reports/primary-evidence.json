@@ -1,7 +1,292 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T03:53:56.555832+00:00",
+  "updated_at": "2026-11-06T07:06:31.047752+00:00",
   "records": {
+    "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors": {
+      "page_url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+      "resolved_url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie": {
+      "page_url": "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie",
+      "resolved_url": "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://www.ibm.com/quantum/blog/ornl-amd-error-correction-co-design-platform",
+          "kind": "technical",
+          "label": "Official technical source",
+          "title": "here",
+          "relationship": "publisher_linked",
+          "anchor_text": "here",
+          "context": "ership Computing Facility (OLCF). Technical workflows are detailed in the IBM Official News Release here, architectural context is outlined in the IBM Quantum Research Blog here, and hardware integration strategies are available via the AMD Corporate Announcement here; related QCR reporting on Nighthawk deployments inc",
+          "referring_url": "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie/",
+          "discovered_at": "2026-11-06T07:06:31.047752+00:00"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029": {
+      "page_url": "https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029",
+      "resolved_url": "https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://doi.org/10.1103/PhysRevResearch.8.013134",
+          "kind": "paper",
+          "label": "Scholarly record or preprint",
+          "title": "Physical Review Research",
+          "relationship": "publisher_linked",
+          "anchor_text": "Physical Review Research",
+          "context": "ng ground-state energies of oxygen, calcium, and nickel isotopes within sub-percent relative error (Physical Review Research).",
+          "referring_url": "https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029/",
+          "discovered_at": "2026-11-06T07:06:31.047752+00:00"
+        },
+        {
+          "url": "https://www.quantinuum.com/press-releases/quantinuum-unveils-nexus-roadmap-to-deliver-the-first-developer-platform-designed-for-the-fault-tolerant-quantum-era",
+          "kind": "official_release",
+          "label": "Organization's own announcement",
+          "title": "here",
+          "relationship": "publisher_linked",
+          "anchor_text": "here",
+          "context": "o Helios. Architectural roadmaps and onboarding details are available in the Official Press Release here, the Quantinuum Hardware & Platform Roadmap here, the Nexus Console Documentation here, and the Nexus Registration Portal here; readers can also review QCR’s analysis of the OCI deployment in Quantinuum and Oracle P",
+          "referring_url": "https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029/",
+          "discovered_at": "2026-11-06T07:06:31.047752+00:00"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/horizon-quantum-signs-letter-of-intent-to-acquire-entropica-labs-for-27-million": {
+      "page_url": "https://quantumcomputingreport.com/horizon-quantum-signs-letter-of-intent-to-acquire-entropica-labs-for-27-million",
+      "resolved_url": "https://quantumcomputingreport.com/horizon-quantum-signs-letter-of-intent-to-acquire-entropica-labs-for-27-million/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://investors.ionq.com/news/news-details/2026/IonQ-Completes-Acquisition-of-Elisity-Extending-Quantum-Security-for-Enterprises-and-Government/default.aspx": {
+      "page_url": "https://investors.ionq.com/news/news-details/2026/IonQ-Completes-Acquisition-of-Elisity-Extending-Quantum-Security-for-Enterprises-and-Government/default.aspx",
+      "resolved_url": "",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "failed",
+      "links": [],
+      "reason": "article_body_unavailable"
+    },
+    "https://thequantuminsider.com/2026/11/04/crypto-agility-post-quantum-security-banks": {
+      "page_url": "https://thequantuminsider.com/2026/11/04/crypto-agility-post-quantum-security-banks",
+      "resolved_url": "https://thequantuminsider.com/2026/11/04/crypto-agility-post-quantum-security-banks/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+          "kind": "government",
+          "label": "Official government source",
+          "title": "NIST finalized",
+          "relationship": "publisher_linked",
+          "anchor_text": "NIST finalized",
+          "context": "Governments and standards bodies are rapidly preparing for this possibility. NIST finalized its first post-quantum cryptography standards in 2024. That urgency was reinforced in June 2026 by White House Executive Order 14412, which directs the transition of federal information systems to NIST-approved post-quantum cryp",
+          "referring_url": "https://thequantuminsider.com/2026/11/04/crypto-agility-post-quantum-security-banks/",
+          "discovered_at": "2026-11-06T07:06:31.047752+00:00"
+        },
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "kind": "government",
+          "label": "Official government source",
+          "title": "White House Executive Order 14412",
+          "relationship": "publisher_linked",
+          "anchor_text": "White House Executive Order 14412",
+          "context": "its first post-quantum cryptography standards in 2024. That urgency was reinforced in June 2026 by White House Executive Order 14412, which directs the transition of federal information systems to NIST-approved post-quantum cryptography standards. The U.S. Treasury has also signaled the sector’s need to prepare. In Au",
+          "referring_url": "https://thequantuminsider.com/2026/11/04/crypto-agility-post-quantum-security-banks/",
+          "discovered_at": "2026-11-06T07:06:31.047752+00:00"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0615",
+          "kind": "government",
+          "label": "Official government source",
+          "title": "also signaled",
+          "relationship": "publisher_linked",
+          "anchor_text": "also signaled",
+          "context": "ral information systems to NIST-approved post-quantum cryptography standards. The U.S. Treasury has also signaled the sector’s need to prepare. In August 2026, it announced a Quantum-Readiness Task Force to identify critical dependencies, improve cryptographic agility, and address third-party implementation challenges.",
+          "referring_url": "https://thequantuminsider.com/2026/11/04/crypto-agility-post-quantum-security-banks/",
+          "discovered_at": "2026-11-06T07:06:31.047752+00:00"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/qecert-quantum-error-correction-lean-library": {
+      "page_url": "https://quantumzeitgeist.com/qecert-quantum-error-correction-lean-library",
+      "resolved_url": "https://quantumzeitgeist.com/qecert-quantum-error-correction-lean-library/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://arxiv.org/html/2611.05047v1",
+          "kind": "paper",
+          "label": "Scholarly record or preprint",
+          "title": "https://arxiv.org/html/2611.05047v1",
+          "relationship": "publisher_linked",
+          "anchor_text": "https://arxiv.org/html/2611.05047v1",
+          "context": "g (The Hong Kong University of Science and Technology (Guangzhou), Guangdong 511453, China)🧠 ArXiv: https://arxiv.org/html/2611.05047v1",
+          "referring_url": "https://quantumzeitgeist.com/qecert-quantum-error-correction-lean-library/",
+          "discovered_at": "2026-11-06T07:06:31.047752+00:00"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/unitary-foundation-win-quantum-wins-software": {
+      "page_url": "https://quantumzeitgeist.com/unitary-foundation-win-quantum-wins-software",
+      "resolved_url": "https://quantumzeitgeist.com/unitary-foundation-win-quantum-wins-software/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://thequantuminsider.com/2026/11/05/bitcoin-cash-proposal-seeks-path-to-quantum-resistant-transactions": {
+      "page_url": "https://thequantuminsider.com/2026/11/05/bitcoin-cash-proposal-seeks-path-to-quantum-resistant-transactions",
+      "resolved_url": "https://thequantuminsider.com/2026/11/05/bitcoin-cash-proposal-seeks-path-to-quantum-resistant-transactions/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://thequantuminsider.com/2026/11/05/orange-joins-acceleronix-idemia-quantum-safe-esim-provisioning": {
+      "page_url": "https://thequantuminsider.com/2026/11/05/orange-joins-acceleronix-idemia-quantum-safe-esim-provisioning",
+      "resolved_url": "https://thequantuminsider.com/2026/11/05/orange-joins-acceleronix-idemia-quantum-safe-esim-provisioning/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://thequantuminsider.com/2026/11/05/sealsq-eco-wave-power-digital-energy-transactions-ai-data-centers": {
+      "page_url": "https://thequantuminsider.com/2026/11/05/sealsq-eco-wave-power-digital-energy-transactions-ai-data-centers",
+      "resolved_url": "https://thequantuminsider.com/2026/11/05/sealsq-eco-wave-power-digital-energy-transactions-ai-data-centers/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less": {
+      "page_url": "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less",
+      "resolved_url": "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity": {
+      "page_url": "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity",
+      "resolved_url": "https://quantumzeitgeist.com/quantum-security-firms-ionq-buys-elisity/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumzeitgeist.com/versasec-unlocks-quantum-safe-benefits-thales": {
+      "page_url": "https://quantumzeitgeist.com/versasec-unlocks-quantum-safe-benefits-thales",
+      "resolved_url": "https://quantumzeitgeist.com/versasec-unlocks-quantum-safe-benefits-thales/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumcomputingreport.com/ionq-partners-with-quantumct-to-provide-trapped-ion-cloud-access-across-connecticut": {
+      "page_url": "https://quantumcomputingreport.com/ionq-partners-with-quantumct-to-provide-trapped-ion-cloud-access-across-connecticut",
+      "resolved_url": "https://quantumcomputingreport.com/ionq-partners-with-quantumct-to-provide-trapped-ion-cloud-access-across-connecticut/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumcomputingreport.com/universal-quantum-details-iterative-redecode-scheme-for-fast-transversal-fault-tolerant-logic": {
+      "page_url": "https://quantumcomputingreport.com/universal-quantum-details-iterative-redecode-scheme-for-fast-transversal-fault-tolerant-logic",
+      "resolved_url": "https://quantumcomputingreport.com/universal-quantum-details-iterative-redecode-scheme-for-fast-transversal-fault-tolerant-logic/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://arxiv.org/pdf/2610.26784",
+          "kind": "paper",
+          "label": "Scholarly record or preprint",
+          "title": "Iterative Redecode Scheme (IRS)",
+          "relationship": "publisher_linked",
+          "anchor_text": "Iterative Redecode Scheme (IRS)",
+          "context": "on hardware developer Universal Quantum has published a comprehensive technical study detailing its Iterative Redecode Scheme (IRS), a decoding architecture designed to resolve the error-correlation bottleneck in fast transversal quantum logic. Authored by Mark Webber and colleagues (arXiv:2610.26784), the research dem",
+          "referring_url": "https://quantumcomputingreport.com/universal-quantum-details-iterative-redecode-scheme-for-fast-transversal-fault-tolerant-logic/",
+          "discovered_at": "2026-11-06T07:06:31.047752+00:00"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.26784",
+          "kind": "paper",
+          "label": "Scholarly record or preprint",
+          "title": "here",
+          "relationship": "publisher_linked",
+          "anchor_text": "here",
+          "context": "The full technical paper is available on arXiv here, with organizational commentary detailed in Universal Quantum’s Knowledge Hub here.",
+          "referring_url": "https://quantumcomputingreport.com/universal-quantum-details-iterative-redecode-scheme-for-fast-transversal-fault-tolerant-logic/",
+          "discovered_at": "2026-11-06T07:06:31.047752+00:00"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/quantum-safe-encryption-keyfactor-maps-five": {
+      "page_url": "https://quantumzeitgeist.com/quantum-safe-encryption-keyfactor-maps-five",
+      "resolved_url": "https://quantumzeitgeist.com/quantum-safe-encryption-keyfactor-maps-five/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumzeitgeist.com/acceleronix-idemia-orange-offer-single-quantum": {
+      "page_url": "https://quantumzeitgeist.com/acceleronix-idemia-orange-offer-single-quantum",
+      "resolved_url": "https://quantumzeitgeist.com/acceleronix-idemia-orange-offer-single-quantum/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumzeitgeist.com/hqc-intel-chips-speed-post-quantum": {
+      "page_url": "https://quantumzeitgeist.com/hqc-intel-chips-speed-post-quantum",
+      "resolved_url": "https://quantumzeitgeist.com/hqc-intel-chips-speed-post-quantum/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumzeitgeist.com/government-cipher-vietnam-drafts-standards-fend": {
+      "page_url": "https://quantumzeitgeist.com/government-cipher-vietnam-drafts-standards-fend",
+      "resolved_url": "https://quantumzeitgeist.com/government-cipher-vietnam-drafts-standards-fend/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumzeitgeist.com/quantum-era-sectigo-see-78-percent": {
+      "page_url": "https://quantumzeitgeist.com/quantum-era-sectigo-see-78-percent",
+      "resolved_url": "https://quantumzeitgeist.com/quantum-era-sectigo-see-78-percent/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumzeitgeist.com/stmicroelectronics-post-quantum-mcu-hardware-cryptography": {
+      "page_url": "https://quantumzeitgeist.com/stmicroelectronics-post-quantum-mcu-hardware-cryptography",
+      "resolved_url": "https://quantumzeitgeist.com/stmicroelectronics-post-quantum-mcu-hardware-cryptography/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumzeitgeist.com/kisti-rectangular-codes-quantum-networks-reduce": {
+      "page_url": "https://quantumzeitgeist.com/kisti-rectangular-codes-quantum-networks-reduce",
+      "resolved_url": "https://quantumzeitgeist.com/kisti-rectangular-codes-quantum-networks-reduce/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2607.11238v1",
+          "kind": "paper",
+          "label": "Scholarly record or preprint",
+          "title": "https://arxiv.org/abs/2607.11238v1",
+          "relationship": "publisher_linked",
+          "anchor_text": "https://arxiv.org/abs/2607.11238v1",
+          "context": "Institute of Science and Technology Information (KISTI), Daejeon 34141, Republic of Korea)🧠 ArXiv: https://arxiv.org/abs/2607.11238v1",
+          "referring_url": "https://quantumzeitgeist.com/kisti-rectangular-codes-quantum-networks-reduce/",
+          "discovered_at": "2026-11-06T07:06:31.047752+00:00"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/yang-fault-tolerant-code-qubits-constant": {
+      "page_url": "https://quantumzeitgeist.com/yang-fault-tolerant-code-qubits-constant",
+      "resolved_url": "https://quantumzeitgeist.com/yang-fault-tolerant-code-qubits-constant/",
+      "fetched_at": "2026-11-06T07:06:31.047752+00:00",
+      "status": "no_links",
+      "links": []
+    },
     "https://thequantuminsider.com/2026/10/30/pqcee-carahsoft-post-quantum-security-government": {
       "page_url": "https://thequantuminsider.com/2026/10/30/pqcee-carahsoft-post-quantum-security-government",
       "resolved_url": "https://thequantuminsider.com/2026/10/30/pqcee-carahsoft-post-quantum-security-government/",
@@ -434,20 +719,6 @@
         }
       ]
     },
-    "https://quantumcomputingreport.com/idemia-secure-transactions-achieves-industry-first-emvco-certification-for-post-quantum-payment-cards": {
-      "page_url": "https://quantumcomputingreport.com/idemia-secure-transactions-achieves-industry-first-emvco-certification-for-post-quantum-payment-cards",
-      "resolved_url": "https://quantumcomputingreport.com/idemia-secure-transactions-achieves-industry-first-emvco-certification-for-post-quantum-payment-cards/",
-      "fetched_at": "2026-10-31T03:45:59.848201+00:00",
-      "status": "no_links",
-      "links": []
-    },
-    "https://quantumcomputingreport.com/appviewx-launches-standalone-quantum-trust-hub-to-automate-post-quantum-cryptographic-posture-management-and-remediation": {
-      "page_url": "https://quantumcomputingreport.com/appviewx-launches-standalone-quantum-trust-hub-to-automate-post-quantum-cryptographic-posture-management-and-remediation",
-      "resolved_url": "https://quantumcomputingreport.com/appviewx-launches-standalone-quantum-trust-hub-to-automate-post-quantum-cryptographic-posture-management-and-remediation/",
-      "fetched_at": "2026-10-31T03:45:59.848201+00:00",
-      "status": "no_links",
-      "links": []
-    },
     "https://quantumzeitgeist.com/fibonacci-anyon-gates-low-leakage-gpu-pipeline": {
       "page_url": "https://quantumzeitgeist.com/fibonacci-anyon-gates-low-leakage-gpu-pipeline",
       "resolved_url": "https://quantumzeitgeist.com/fibonacci-anyon-gates-low-leakage-gpu-pipeline/",
@@ -486,25 +757,6 @@
         }
       ]
     },
-    "https://quantumcomputingreport.com/alice-bob-demonstrates-end-to-end-shors-algorithm-compilation-requiring-23000-cat-qubits-to-break-rsa-2048": {
-      "page_url": "https://quantumcomputingreport.com/alice-bob-demonstrates-end-to-end-shors-algorithm-compilation-requiring-23000-cat-qubits-to-break-rsa-2048",
-      "resolved_url": "https://quantumcomputingreport.com/alice-bob-demonstrates-end-to-end-shors-algorithm-compilation-requiring-23000-cat-qubits-to-break-rsa-2048/",
-      "fetched_at": "2026-10-31T03:45:59.848201+00:00",
-      "status": "ok",
-      "links": [
-        {
-          "url": "https://eprint.iacr.org/2026/2665",
-          "kind": "paper",
-          "label": "Scholarly record or preprint",
-          "title": "Shor’s algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days",
-          "relationship": "publisher_linked",
-          "anchor_text": "Shor’s algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days",
-          "context": "published via the International Association for Cryptologic Research (IACR ePrint 2026/2665) titled Shor’s algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days, the study provides a complete schedule down to physical routing, magic-state factory floor plans, and adder operations, lowering the physi",
-          "referring_url": "https://quantumcomputingreport.com/alice-bob-demonstrates-end-to-end-shors-algorithm-compilation-requiring-23000-cat-qubits-to-break-rsa-2048/",
-          "discovered_at": "2026-10-31T03:45:59.848201+00:00"
-        }
-      ]
-    },
     "https://quantumzeitgeist.com/satellite-quantum-networks-hybrid-simulation-tool-qnetisim": {
       "page_url": "https://quantumzeitgeist.com/satellite-quantum-networks-hybrid-simulation-tool-qnetisim",
       "resolved_url": "https://quantumzeitgeist.com/satellite-quantum-networks-hybrid-simulation-tool-qnetisim/",
@@ -524,25 +776,6 @@
         }
       ]
     },
-    "https://quantumcomputingreport.com/e-on-qoro-quantum-and-nqcc-scale-constrained-optimization-on-ibm-heron-qpus-via-distributed-qaoa-and-spatial-packing": {
-      "page_url": "https://quantumcomputingreport.com/e-on-qoro-quantum-and-nqcc-scale-constrained-optimization-on-ibm-heron-qpus-via-distributed-qaoa-and-spatial-packing",
-      "resolved_url": "https://quantumcomputingreport.com/e-on-qoro-quantum-and-nqcc-scale-constrained-optimization-on-ibm-heron-qpus-via-distributed-qaoa-and-spatial-packing/",
-      "fetched_at": "2026-10-31T03:45:59.848201+00:00",
-      "status": "ok",
-      "links": [
-        {
-          "url": "https://arxiv.org/abs/2610.10772",
-          "kind": "paper",
-          "label": "Scholarly record or preprint",
-          "title": "Scaling Quantum Optimization to the Thousand-Qubit Scale with Distributed Quantum Sampling",
-          "relationship": "publisher_linked",
-          "anchor_text": "Scaling Quantum Optimization to the Thousand-Qubit Scale with Distributed Quantum Sampling",
-          "context": "time on IBM Quantum hardware by approximately 3×. The investigation, detailed in a preprint titled Scaling Quantum Optimization to the Thousand-Qubit Scale with Distributed Quantum Sampling, focuses on the Minimum Birkhoff Decomposition (MBD)—an NP-hard problem central to network scheduling, optical routing, and decen",
-          "referring_url": "https://quantumcomputingreport.com/e-on-qoro-quantum-and-nqcc-scale-constrained-optimization-on-ibm-heron-qpus-via-distributed-qaoa-and-spatial-packing/",
-          "discovered_at": "2026-10-31T03:45:59.848201+00:00"
-        }
-      ]
-    },
     "https://quantumzeitgeist.com/quantum-key-distribution-information-leakage-bound-device-independence": {
       "page_url": "https://quantumzeitgeist.com/quantum-key-distribution-information-leakage-bound-device-independence",
       "resolved_url": "https://quantumzeitgeist.com/quantum-key-distribution-information-leakage-bound-device-independence/",
@@ -558,6 +791,58 @@
           "anchor_text": "https://arxiv.org/abs/2610.37296",
           "context": "uandó and Stefano Pironio (Université libre de Bruxelles); Armin Tavakoli (Lund University)🧠 ArXiv: https://arxiv.org/abs/2610.37296",
           "referring_url": "https://quantumzeitgeist.com/quantum-key-distribution-information-leakage-bound-device-independence/",
+          "discovered_at": "2026-10-31T03:45:59.848201+00:00"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/idemia-secure-transactions-achieves-industry-first-emvco-certification-for-post-quantum-payment-cards": {
+      "page_url": "https://quantumcomputingreport.com/idemia-secure-transactions-achieves-industry-first-emvco-certification-for-post-quantum-payment-cards",
+      "resolved_url": "https://quantumcomputingreport.com/idemia-secure-transactions-achieves-industry-first-emvco-certification-for-post-quantum-payment-cards/",
+      "fetched_at": "2026-10-31T03:45:59.848201+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumcomputingreport.com/appviewx-launches-standalone-quantum-trust-hub-to-automate-post-quantum-cryptographic-posture-management-and-remediation": {
+      "page_url": "https://quantumcomputingreport.com/appviewx-launches-standalone-quantum-trust-hub-to-automate-post-quantum-cryptographic-posture-management-and-remediation",
+      "resolved_url": "https://quantumcomputingreport.com/appviewx-launches-standalone-quantum-trust-hub-to-automate-post-quantum-cryptographic-posture-management-and-remediation/",
+      "fetched_at": "2026-10-31T03:45:59.848201+00:00",
+      "status": "no_links",
+      "links": []
+    },
+    "https://quantumcomputingreport.com/alice-bob-demonstrates-end-to-end-shors-algorithm-compilation-requiring-23000-cat-qubits-to-break-rsa-2048": {
+      "page_url": "https://quantumcomputingreport.com/alice-bob-demonstrates-end-to-end-shors-algorithm-compilation-requiring-23000-cat-qubits-to-break-rsa-2048",
+      "resolved_url": "https://quantumcomputingreport.com/alice-bob-demonstrates-end-to-end-shors-algorithm-compilation-requiring-23000-cat-qubits-to-break-rsa-2048/",
+      "fetched_at": "2026-10-31T03:45:59.848201+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://eprint.iacr.org/2026/2665",
+          "kind": "paper",
+          "label": "Scholarly record or preprint",
+          "title": "Shor’s algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days",
+          "relationship": "publisher_linked",
+          "anchor_text": "Shor’s algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days",
+          "context": "published via the International Association for Cryptologic Research (IACR ePrint 2026/2665) titled Shor’s algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days, the study provides a complete schedule down to physical routing, magic-state factory floor plans, and adder operations, lowering the physi",
+          "referring_url": "https://quantumcomputingreport.com/alice-bob-demonstrates-end-to-end-shors-algorithm-compilation-requiring-23000-cat-qubits-to-break-rsa-2048/",
+          "discovered_at": "2026-10-31T03:45:59.848201+00:00"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/e-on-qoro-quantum-and-nqcc-scale-constrained-optimization-on-ibm-heron-qpus-via-distributed-qaoa-and-spatial-packing": {
+      "page_url": "https://quantumcomputingreport.com/e-on-qoro-quantum-and-nqcc-scale-constrained-optimization-on-ibm-heron-qpus-via-distributed-qaoa-and-spatial-packing",
+      "resolved_url": "https://quantumcomputingreport.com/e-on-qoro-quantum-and-nqcc-scale-constrained-optimization-on-ibm-heron-qpus-via-distributed-qaoa-and-spatial-packing/",
+      "fetched_at": "2026-10-31T03:45:59.848201+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2610.10772",
+          "kind": "paper",
+          "label": "Scholarly record or preprint",
+          "title": "Scaling Quantum Optimization to the Thousand-Qubit Scale with Distributed Quantum Sampling",
+          "relationship": "publisher_linked",
+          "anchor_text": "Scaling Quantum Optimization to the Thousand-Qubit Scale with Distributed Quantum Sampling",
+          "context": "time on IBM Quantum hardware by approximately 3×. The investigation, detailed in a preprint titled Scaling Quantum Optimization to the Thousand-Qubit Scale with Distributed Quantum Sampling, focuses on the Minimum Birkhoff Decomposition (MBD)—an NP-hard problem central to network scheduling, optical routing, and decen",
+          "referring_url": "https://quantumcomputingreport.com/e-on-qoro-quantum-and-nqcc-scale-constrained-optimization-on-ibm-heron-qpus-via-distributed-qaoa-and-spatial-packing/",
           "discovered_at": "2026-10-31T03:45:59.848201+00:00"
         }
       ]
@@ -1520,25 +1805,6 @@
       "links": [],
       "reason": "http_403"
     },
-    "https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones": {
-      "page_url": "https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones",
-      "resolved_url": "https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones/",
-      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
-      "status": "ok",
-      "links": [
-        {
-          "url": "https://arxiv.org/abs/2608.05010",
-          "kind": "paper",
-          "label": "Scholarly record or preprint",
-          "title": "arXiv:2608.05010",
-          "relationship": "publisher_linked",
-          "anchor_text": "arXiv:2608.05010",
-          "context": "prehensive research review published on arXiv by researchers at Information Engineering University (arXiv:2608.05010) provides a detailed panoramic analysis of global neutral-atom quantum computing progress from 2000 through mid-2026. While tracking international milestones across leaders such as QuEra, Atom Computing,",
-          "referring_url": "https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones/",
-          "discovered_at": "2026-10-25T02:50:08.029835+00:00"
-        }
-      ]
-    },
     "https://quantumcomputingreport.com/arqit-invests-in-sirius-to-scale-tactical-edge-quantum-safe-networking-following-nato-contract-selection": {
       "page_url": "https://quantumcomputingreport.com/arqit-invests-in-sirius-to-scale-tactical-edge-quantum-safe-networking-following-nato-contract-selection",
       "resolved_url": "https://quantumcomputingreport.com/arqit-invests-in-sirius-to-scale-tactical-edge-quantum-safe-networking-following-nato-contract-selection/",
@@ -1652,6 +1918,25 @@
           "context": "The research, published in the journal Science Advances, also involved scientists from Polytechnique Montréal, Canada.",
           "referring_url": "https://thequantuminsider.com/2026/10/19/advance-could-lead-to-bigger-more-reliable-quantum-computers-university-of-edinburgh-scientists-say/",
           "discovered_at": "2026-10-26T00:54:42.501912+00:00"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones": {
+      "page_url": "https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones",
+      "resolved_url": "https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones/",
+      "fetched_at": "2026-10-25T02:50:08.029835+00:00",
+      "status": "ok",
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2608.05010",
+          "kind": "paper",
+          "label": "Scholarly record or preprint",
+          "title": "arXiv:2608.05010",
+          "relationship": "publisher_linked",
+          "anchor_text": "arXiv:2608.05010",
+          "context": "prehensive research review published on arXiv by researchers at Information Engineering University (arXiv:2608.05010) provides a detailed panoramic analysis of global neutral-atom quantum computing progress from 2000 through mid-2026. While tracking international milestones across leaders such as QuEra, Atom Computing,",
+          "referring_url": "https://quantumcomputingreport.com/review-unpacks-chinas-surging-neutral-atom-ecosystem-world-record-arrays-commercial-systems-and-scaling-milestones/",
+          "discovered_at": "2026-10-25T02:50:08.029835+00:00"
         }
       ]
     },

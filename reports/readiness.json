@@ -1164,6 +1164,51 @@
     },
     {
       "confidence": "medium",
+      "evidence_count": 2,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-11-05",
+      "name": "CISA",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": "2026-09-03",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "preparing for"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "CISA Cybersecurity Advisories",
+          "title": "Preparing for the Post-Quantum Era: A Call to Action",
+          "url": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action"
+        },
+        {
+          "date": "2026-11-05",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "CISA Cybersecurity Advisories",
+          "title": "Post-Quantum Questions to Ask Your Vendors",
+          "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors"
+        }
+      ],
+      "type": "government"
+    },
+    {
+      "confidence": "medium",
       "evidence_count": 18,
       "historical_evidence_count": 18,
       "latest_evidence_at": "2026-10-08",
@@ -1349,36 +1394,6 @@
         }
       ],
       "type": "company"
-    },
-    {
-      "confidence": "low",
-      "evidence_count": 1,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-09-03",
-      "name": "CISA",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "planning",
-      "stage_label": "Planning",
-      "stage_rank": 3,
-      "supporting_evidence": [
-        {
-          "date": "2026-09-03",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "preparing for"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "CISA Cybersecurity Advisories",
-          "title": "Preparing for the Post-Quantum Era: A Call to Action",
-          "url": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action"
-        }
-      ],
-      "type": "government"
     },
     {
       "confidence": "medium",
@@ -2185,6 +2200,6 @@
     "not_assessed": 20,
     "organizations": 43
   },
-  "updated_at": "2026-11-02T03:53:15.751550+00:00",
+  "updated_at": "2026-11-06T07:05:49.404555+00:00",
   "version": 1
 }

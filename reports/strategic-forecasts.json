@@ -63,7 +63,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.82,
-      "last_evaluated_at": "2026-11-02T03:48:27.661639+00:00",
+      "last_evaluated_at": "2026-11-06T06:54:48.602420+00:00",
       "outcome": null,
       "probability": 0.82,
       "probability_factors": [
@@ -99,7 +99,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-01-31?",
+      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-02-04?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:ai-forge:2026-Q4",
       "resolution_rule": {
@@ -124,7 +124,9 @@
       ]
     },
     {
-      "baseline_record_keys": [],
+      "baseline_record_keys": [
+        "sam_gov:HQ0202-26-S-0001"
+      ],
       "baseline_update_urls": [],
       "confirming_indicators": [
         "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
@@ -148,13 +150,13 @@
         "mission_status": "active",
         "next_milestone": {},
         "official_url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/",
-        "open_opportunities": 0,
+        "open_opportunities": 1,
         "priority": "critical",
         "recipients_and_contractors": [
           "CITY OF HUNTSVILLE",
           "KPMG LLP"
         ],
-        "record_count": 5,
+        "record_count": 7,
         "related_patent_count": 8,
         "related_patents": [
           {
@@ -164,38 +166,38 @@
             "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19557333/application-data"
           },
           {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
             "relationship_confidence": "low",
-            "title": "Hardware-Anchored Diagnostic Genesis and Multimodal Sensor-Level Cryptographic Sealing System for Zero-Trust AI Acquisition",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19546361/application-data"
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
           },
           {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
             "relationship_confidence": "low",
-            "title": "Safety Self Talks (SST) by Large Language Model in Semi or Fully Autonomous Vehicles",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455013/application-data"
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
           },
           {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_basis": "analytical domain overlap: autonomy and sensing",
             "relationship_confidence": "low",
-            "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
+            "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
           },
           {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_basis": "analytical domain overlap: autonomy and sensing",
             "relationship_confidence": "low",
-            "title": "ACTION-LEVEL CONSTRAINT ENFORCEMENT AND CONTAINMENT INTEGRITY MONITORING FOR AGENTIC LARGE LANGUAGE MODEL SYSTEMS WITH AUTONOMOUS TOOL ACCESS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19645306/application-data"
+            "title": "SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
           }
         ]
       },
       "evidence": [
         {
           "authority": "authoritative",
-          "date": "2026-04-23",
+          "date": "2026-11-04",
           "role": "official funding announcement",
-          "title": "Department reports initial architecture, command-and-control consortium, and active contracts",
-          "url": "https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html"
+          "title": "Golden Dome for America Commercial Solutions Opening",
+          "url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
         },
         {
           "authority": "authoritative",
@@ -210,9 +212,9 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.62,
-      "last_evaluated_at": "2026-11-02T03:48:27.661639+00:00",
+      "last_evaluated_at": "2026-11-06T06:54:48.602420+00:00",
       "outcome": null,
-      "probability": 0.62,
+      "probability": 0.7,
       "probability_factors": [
         {
           "factor": "base rate",
@@ -227,6 +229,10 @@
           "points": 0.18
         },
         {
+          "factor": "existing acquisition activity",
+          "points": 0.08
+        },
+        {
           "factor": "multi-record execution trail",
           "points": 0.06
         }
@@ -236,9 +242,14 @@
           "at": "2026-10-01T03:31:08.575959+00:00",
           "probability": 0.62,
           "reason": "Forecast opened"
+        },
+        {
+          "at": "2026-11-06T06:54:48.602420+00:00",
+          "probability": 0.7,
+          "reason": "Evidence factors changed"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-01-18?",
+      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-02-04?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:golden-dome:2026-Q4",
       "resolution_rule": {
@@ -347,7 +358,7 @@
       "horizon_end": "2026-11-21",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-11-02T03:48:27.661639+00:00",
+      "last_evaluated_at": "2026-11-06T06:54:48.602420+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -486,7 +497,7 @@
       "horizon_end": "2026-12-17",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-11-02T03:48:27.661639+00:00",
+      "last_evaluated_at": "2026-11-06T06:54:48.602420+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -625,7 +636,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-11-02T03:48:27.661639+00:00",
+      "last_evaluated_at": "2026-11-06T06:54:48.602420+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -755,7 +766,7 @@
       "horizon_end": "2027-01-07",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-11-02T03:48:27.661639+00:00",
+      "last_evaluated_at": "2026-11-06T06:54:48.602420+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -899,7 +910,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.82,
-      "last_evaluated_at": "2026-11-02T03:48:27.661639+00:00",
+      "last_evaluated_at": "2026-11-06T06:54:48.602420+00:00",
       "outcome": null,
       "probability": 0.82,
       "probability_factors": [
@@ -935,7 +946,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-01-31?",
+      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-02-04?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:ai-forge:2026-Q4",
       "resolution_rule": {
@@ -960,7 +971,9 @@
       ]
     },
     {
-      "baseline_record_keys": [],
+      "baseline_record_keys": [
+        "sam_gov:HQ0202-26-S-0001"
+      ],
       "baseline_update_urls": [],
       "confirming_indicators": [
         "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
@@ -984,13 +997,13 @@
         "mission_status": "active",
         "next_milestone": {},
         "official_url": "https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/",
-        "open_opportunities": 0,
+        "open_opportunities": 1,
         "priority": "critical",
         "recipients_and_contractors": [
           "CITY OF HUNTSVILLE",
           "KPMG LLP"
         ],
-        "record_count": 5,
+        "record_count": 7,
         "related_patent_count": 8,
         "related_patents": [
           {
@@ -1000,38 +1013,38 @@
             "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19557333/application-data"
           },
           {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
             "relationship_confidence": "low",
-            "title": "Hardware-Anchored Diagnostic Genesis and Multimodal Sensor-Level Cryptographic Sealing System for Zero-Trust AI Acquisition",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19546361/application-data"
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
           },
           {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
             "relationship_confidence": "low",
-            "title": "Safety Self Talks (SST) by Large Language Model in Semi or Fully Autonomous Vehicles",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19455013/application-data"
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
           },
           {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_basis": "analytical domain overlap: autonomy and sensing",
             "relationship_confidence": "low",
-            "title": "SYSTEMS AND METHODS FOR AUTOMATIC ENVIRONMENTAL PLANNING AND DECISION SUPPORT USING ARTIFICIAL INTELLIGENCE AND DATA FUSION TECHNIQUES ON DISTRIBUTED SENSOR NETWORK DATA",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19441577/application-data"
+            "title": "QUANTUM-SAFE ATTRIBUTION FOR BCI-ROBOTIC ENERGY GRIDS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19453540/application-data"
           },
           {
-            "relationship_basis": "analytical domain overlap: artificial intelligence, autonomy and sensing",
+            "relationship_basis": "analytical domain overlap: autonomy and sensing",
             "relationship_confidence": "low",
-            "title": "ACTION-LEVEL CONSTRAINT ENFORCEMENT AND CONTAINMENT INTEGRITY MONITORING FOR AGENTIC LARGE LANGUAGE MODEL SYSTEMS WITH AUTONOMOUS TOOL ACCESS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19645306/application-data"
+            "title": "SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data"
           }
         ]
       },
       "evidence": [
         {
           "authority": "authoritative",
-          "date": "2026-04-23",
+          "date": "2026-11-04",
           "role": "official funding announcement",
-          "title": "Department reports initial architecture, command-and-control consortium, and active contracts",
-          "url": "https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html"
+          "title": "Golden Dome for America Commercial Solutions Opening",
+          "url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
         },
         {
           "authority": "authoritative",
@@ -1046,9 +1059,9 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.62,
-      "last_evaluated_at": "2026-11-02T03:48:27.661639+00:00",
+      "last_evaluated_at": "2026-11-06T06:54:48.602420+00:00",
       "outcome": null,
-      "probability": 0.62,
+      "probability": 0.7,
       "probability_factors": [
         {
           "factor": "base rate",
@@ -1063,6 +1076,10 @@
           "points": 0.18
         },
         {
+          "factor": "existing acquisition activity",
+          "points": 0.08
+        },
+        {
           "factor": "multi-record execution trail",
           "points": 0.06
         }
@@ -1072,9 +1089,14 @@
           "at": "2026-10-01T03:31:08.575959+00:00",
           "probability": 0.62,
           "reason": "Forecast opened"
+        },
+        {
+          "at": "2026-11-06T06:54:48.602420+00:00",
+          "probability": 0.7,
+          "reason": "Evidence factors changed"
         }
       ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-01-18?",
+      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-02-04?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:golden-dome:2026-Q4",
       "resolution_rule": {
@@ -1183,7 +1205,7 @@
       "horizon_end": "2026-11-21",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-11-02T03:48:27.661639+00:00",
+      "last_evaluated_at": "2026-11-06T06:54:48.602420+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -1322,7 +1344,7 @@
       "horizon_end": "2026-12-17",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-11-02T03:48:27.661639+00:00",
+      "last_evaluated_at": "2026-11-06T06:54:48.602420+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -1461,7 +1483,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-11-02T03:48:27.661639+00:00",
+      "last_evaluated_at": "2026-11-06T06:54:48.602420+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -1591,7 +1613,7 @@
       "horizon_end": "2027-01-07",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-11-02T03:48:27.661639+00:00",
+      "last_evaluated_at": "2026-11-06T06:54:48.602420+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -5246,9 +5268,9 @@
     "resolved": 9
   },
   "temporal_context": {
-    "comparison_started_at": "2026-11-01T09:58:04.402097+00:00",
+    "comparison_started_at": "2026-11-02T03:48:27.661639+00:00",
     "historical_discoveries": 0
   },
-  "updated_at": "2026-11-02T03:48:27.661639+00:00",
+  "updated_at": "2026-11-06T06:54:48.602420+00:00",
   "version": 1
 }

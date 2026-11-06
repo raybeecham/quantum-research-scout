@@ -1,6 +1,44 @@
 {
   "pursuits": [
     {
+      "agency": "DEPT OF DEFENSE.IMMEDIATE OFFICE OF THE SECRETARY OF DEFENSE.DIRECTOR OF GOLDEN DOME",
+      "amendment_review_status": "revalidation_required",
+      "checklist_complete": 0,
+      "checklist_percent": 0,
+      "checklist_total": 0,
+      "days_to_deadline": 1607,
+      "days_to_decision": null,
+      "deadline": "2031-04-01",
+      "decision_due": null,
+      "decision_revalidation_required": true,
+      "decision_score": 76,
+      "evidence_completeness": 84,
+      "impacted_checklist_items": 0,
+      "latest_amendment_impact_summary": {
+        "baseline_status": "unavailable",
+        "detected_at": "2026-11-06T06:54:48.602420+00:00",
+        "evidence_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download",
+        "highest_materiality": "high",
+        "impact_id": "impact:87733837412a57455b72",
+        "material_change_count": 1
+      },
+      "managed": false,
+      "mission_fit": [
+        "Golden Dome for America"
+      ],
+      "next_milestone": null,
+      "opportunity_key": "sam_gov:HQ0202-26-S-0001",
+      "overdue_milestones": 0,
+      "provisional_gate": "qualify",
+      "public_evidence_score": 76,
+      "public_summary": "Auto-seeded from the public qualification radar; add it to a pursuit configuration to assign ownership and manage execution.",
+      "stage": "qualify",
+      "technology_fit": [],
+      "title": "Golden Dome for America Commercial Solutions Opening",
+      "url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view",
+      "visibility": "public"
+    },
+    {
       "agency": "PAMS-SC",
       "amendment_review_status": "current",
       "checklist_complete": 0,
@@ -36,18 +74,18 @@
   ],
   "scope_note": "Public-safe pursuit status derived from tracked configuration and qualification evidence. Internal notes, questions, partners, and capability evidence are excluded.",
   "summary": {
-    "active": 1,
-    "auto_seeded": 1,
+    "active": 2,
+    "auto_seeded": 2,
     "decisions_due_7_days": 0,
-    "decisions_revalidation_required": 0,
+    "decisions_revalidation_required": 1,
     "impacted_checklist_items": 0,
     "managed": 0,
     "overdue_milestones": 0,
     "stages": {
-      "qualify": 1
+      "qualify": 2
     },
-    "total": 1
+    "total": 2
   },
-  "updated_at": "2026-11-02T03:48:27.661639+00:00",
+  "updated_at": "2026-11-06T06:54:48.602420+00:00",
   "version": 1
 }

@@ -1,6 +1,26 @@
 {
   "method": "Source-specific briefings reconstructed from dated daily digests and hourly news snapshots, not full article copies. Publication dates come from explicit Published metadata. First and last observations are report dates, not publication or publisher update times. Captured-content changes compare titles and collected excerpts only; they do not establish that the publisher changed an article. Public evidence is retained before old daily digests are pruned. Excerpts are capped at 3,000 characters each. Current rule-based interpretation may evolve when Frontier Signal's rules change.",
   "records": {
+    "https://arxiv.org/abs/2501.18158": {
+      "captures": [
+        {
+          "excerpts": [
+            "This paper investigates the capabilities of large language models (LLMs) in analyzing real-world Bitcoin transaction graphs through a three-level framework: foundational metrics, characteristic overview, and...",
+            "Announce Type: replace Abstract: Cryptocurrency transaction analysis often relies on black-box machine learning models that achieve high predictive performance but offer limited interpretability of transaction behaviors"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2501.18158"
+            }
+          ],
+          "title": "Large Language Models for Cryptocurrency Transaction Analysis: A Bitcoin Case Study"
+        }
+      ]
+    },
     "https://arxiv.org/abs/2602.12630": {
       "captures": [
         {
@@ -1486,6 +1506,13 @@
           "observations": [
             {
               "published_date": "2026-11-05",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.07175"
+            },
+            {
+              "published_date": "2026-11-05",
               "report_date": "2026-11-06",
               "sequence": 0,
               "source": "arXiv RSS quant-ph",
@@ -1493,6 +1520,47 @@
             }
           ],
           "title": "Scalable Transpilation for Overcoming Restricted Connectivity in Distributed Superconducting Quantum Architectures"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.07440": {
+      "captures": [
+        {
+          "excerpts": [
+            "Long-distance entanglement supports information transfer between nodes lacking a direct connection",
+            "This entanglement link not only modifies the stationary effective connectivity of the network but can also be used to suppress undesirable classical dynamics",
+            "Quantum resources can change the dynamical features and operational behaviors of conventional networks"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.07440"
+            }
+          ],
+          "title": "Information flow control in hybrid quantum networks"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.07476": {
+      "captures": [
+        {
+          "excerpts": [
+            "Prior measurements of OpenPLC attestation show that post-quantum signing can consume 88--99% of round-trip latency and that durable state can further limit throughput",
+            "Programmable logic controllers often remain deployed for decades, making post-quantum attestation a long-term requirement"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.07476"
+            }
+          ],
+          "title": "AMORT-V1: Checkpointed Post-Quantum Attestation for Industrial Controllers"
         }
       ]
     },
@@ -1506,6 +1574,13 @@
           "observations": [
             {
               "published_date": "2026-11-05",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.07530"
+            },
+            {
+              "published_date": "2026-11-05",
               "report_date": "2026-11-06",
               "sequence": 0,
               "source": "arXiv RSS cs.CR",
@@ -1513,6 +1588,27 @@
             }
           ],
           "title": "JailBound: FOL-Guided Jailbreak Evaluation for Exploring LLM Behavioral Boundaries"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.07861": {
+      "captures": [
+        {
+          "excerpts": [
+            "The continuous variable (CV) quantum key distribution (QKD) scheme enables two parties to share a secret key separated by a certain distance",
+            "This is part of the SPOQC mission by Quantum Communications Hub, UK which was successfully launched on March 2026",
+            "Here we propose, design, build, test and show results of a CV payload transmitter, intended to demonstrate downlink based QKD from a CubeSat in low earth orbit"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.07861"
+            }
+          ],
+          "title": "Continuous variable payload transmitter for the SPOQC mission"
         }
       ]
     },
@@ -1550,6 +1646,13 @@
             "This paper presents a Systematisation of Knowledge (SoK) of PQC integration in software development, synthesising existing approaches across implementation, migration, and developer education"
           ],
           "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.08442"
+            },
             {
               "published_date": "2026-11-05",
               "report_date": "2026-11-06",
@@ -10603,6 +10706,25 @@
             }
           ],
           "title": "Bitcoin Cash Proposal Seeks Path to Quantum-Resistant Transactions"
+        }
+      ]
+    },
+    "https://thequantuminsider.com/2026/11/05/orange-joins-acceleronix-idemia-quantum-safe-esim-provisioning": {
+      "captures": [
+        {
+          "excerpts": [
+            "Orange, one of the world’s leading telecom operators, has joined the global quantum-safe In-Factory Profile Provisioning (IFPP) program, jointly launched by Acceleronix and IDEMIA Secure Transactions at MWC..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-05",
+              "report_date": "2026-11-05",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/05/orange-joins-acceleronix-idemia-quantum-safe-esim-provisioning"
+            }
+          ],
+          "title": "Orange Joins Acceleronix and IDEMIA’s Quantum-Safe eSIM Provisioning Program"
         }
       ]
     },

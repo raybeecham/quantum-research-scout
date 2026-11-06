@@ -4,17 +4,17 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-02 03:53 UTC_
+_Updated 2026-11-06 07:05 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 48 | 0 | 12 | 5 | 31 |
+| 43 | 5 | 10 | 3 | 30 |
 
 ## 🔴 Critical theme: AI Security
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 AI Security has critical strategic importance and rising momentum.
+- 🔴 AI Security has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: PQC / Crypto Agility
@@ -42,7 +42,7 @@ _Updated 2026-11-02 03:53 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Networking has critical strategic importance and rising momentum.
+- 🔴 Quantum Networking has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Sensing
@@ -70,65 +70,39 @@ _Updated 2026-11-02 03:53 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 66.8% reliability with 4 warning day(s).
+- 🔴 48.0% reliability with 5 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography
+## 🔴 Source failing: Quantum Computing Patents 🆕
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 63.5% reliability with 10 warning day(s).
+- 🔴 91.0% reliability with 4 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Computing
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 63.5% reliability with 10 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🔴 Source failing: arXiv Quantum Networking and Sensing
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 65.1% reliability with 10 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Actionable signal: AI Security
+## 🟠 New high-priority federal opportunity: Golden Dome for America Commercial Solutions Opening 🆕
 
 - Severity: **high**
-- Status: **actionable**
-- 🎯 AI Security is actionable with high confidence.
-- [Open supporting view](signals.md)
+- Status: **new-opportunity**
+- Radar score 68 · Review technical fit, eligibility, and submission requirements.
+- [Open direct evidence](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view)
+- [Open supporting view](federal-funding.md)
 
-## 🟠 Actionable signal: Quantum Networking
-
-- Severity: **high**
-- Status: **actionable**
-- 🎯 Quantum Networking is actionable with high confidence.
-- [Open supporting view](signals.md)
-
-## 🟠 Product Launch: IBM
+## 🟠 Procurement amendment impact: Golden Dome for America Commercial Solutions Opening 🆕
 
 - Severity: **high**
-- Status: **product-launch**
-- IBM matched a product launch event: IBM Launches Unified Quantum Safe Software Suite to Automate Enterprise PQC Migration
-- [Open direct evidence](https://quantumcomputingreport.com/ibm-launches-unified-quantum-safe-software-suite-to-automate-enterprise-pqc-migration)
+- Status: **decision-revalidation-required**
+- New amendment observed; no tracker baseline is available for an automatic comparison. Prior qualification and bid/no-bid assumptions require analyst revalidation; no analyst decision was changed automatically.
+- [Open direct evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download)
+- [Open supporting view](procurement-intelligence.md)
+
+## 🟠 Standard: Quantinuum 🆕
+
+- Severity: **high**
+- Status: **standard**
+- Quantinuum matched a standard event: Quantinuum Unveils Nexus Roadmap to Automate Fault-Tolerant Application Deployment Through 2029
+- [Open direct evidence](https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029)
 - [Open supporting view](entity-watch.md)
-
-## 🟠 Rising momentum: AI Security
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 2 versus 1 in the prior period.
-- [Open supporting view](signals.md)
-
-## 🟠 Rising momentum: Quantum Networking
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 16 versus 3 in the prior period.
-- [Open supporting view](signals.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
 
@@ -151,13 +125,6 @@ _Updated 2026-11-02 03:53 UTC_
 - The latest dated item is from 2026-09-29; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: DARPA Strategic Technology Missions
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-10-06; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
 ## 🟡 Source stale: ETSI Quantum Standards News
 
 - Severity: **medium**
@@ -170,6 +137,13 @@ _Updated 2026-11-02 03:53 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-08; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Google Security Blog 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-10-21; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Grants.gov · AI Forge
@@ -218,7 +192,7 @@ _Updated 2026-11-02 03:53 UTC_
 
 - Severity: **medium**
 - Status: **stale**
-- The latest dated item is from 2026-09-14; collection may be healthy but the content stream is stale.
+- The latest dated item is from 2026-09-21; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Grants.gov · Quantum Genesis
@@ -247,13 +221,6 @@ _Updated 2026-11-02 03:53 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-15; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: NCSC UK Reports
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2025-05-07; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: NSF Strategic Science and Technology Missions

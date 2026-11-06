@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-11-02T03:48:27.661639+00:00_
+_Updated 2026-11-06T06:54:48.602420+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 82% · AI Forge
 
-Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-01-31?
+Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-02-04?
 
 **Horizon:** 2026-12-30
 
@@ -39,9 +39,9 @@ Will Frontier Signal observe an additional federal solicitation, grant opportuni
 - The horizon closes with no additional linked opportunity.
 - Execution moves entirely through existing vehicles without a new public notice.
 
-### 62% · Golden Dome for America
+### 70% · Golden Dome for America
 
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-01-18?
+Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-02-04?
 
 **Horizon:** 2026-12-30
 
@@ -49,7 +49,7 @@ Will Scout observe an additional federal solicitation, grant opportunity, BAA, o
 
 **Evidence**
 
-- [Department reports initial architecture, command-and-control consortium, and active contracts](https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html) — official funding announcement · 2026-04-23
+- [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view) — official funding announcement · 2026-11-04
 - [Golden Dome for America](https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/) — official mission · date not reported
 
 **Confirming indicators**

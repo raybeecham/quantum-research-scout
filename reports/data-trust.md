@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-11-02T03:48:27.661639+00:00_
+_Updated 2026-11-06T06:54:48.602420+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **542**
-- Quarantined evidence or relationships: **142**
-- Acceptance rate: **79.2%**
+- Accepted evidence: **543**
+- Quarantined evidence or relationships: **141**
+- Acceptance rate: **79.4%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 42 | 100 | 29.6% |
-| Federal funding | 500 | 42 | 92.3% |
+| Federal missions | 43 | 100 | 30.1% |
+| Federal funding | 500 | 41 | 92.4% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 139
-- **No relevant term in the evidence itself**: 139
-- **Official government source**: 102
+- **Match appears only in collector query metadata**: 138
+- **No relevant term in the evidence itself**: 138
+- **Official government source**: 101
 - **Source is not an official .gov or .mil domain**: 37
 - **Agency and technology inference only**: 3
 
@@ -220,6 +220,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: mission evidence admission
 - Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 10
+
+### [Fiscal Year (FY) 2027 Department of War Multidisciplinary Research Program of the University Research Initiative (MURI)](https://www.grants.gov/search-results-detail/363906)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [EO 14412: What the federal PQC mandate means for you | DigiCert](https://www.digicert.com/blog/what-the-federal-pqc-mandate-means-for-you)
 
@@ -715,13 +722,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - Scope: Federal funding
 - Stage: funding evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Young Southeast Asian Leaders Initiative (YSEALI) Summit 2027](https://www.grants.gov/search-results-detail/362913)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
 - Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
 - Admission score: 25
 

@@ -2,16 +2,41 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-11-02T03:48:27.661639+00:00_
+_Updated 2026-11-06T06:54:48.602420+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
-- Opportunities reviewed: **0**
-- Documents extracted: **0** / **0** discovered
+- Opportunities reviewed: **1**
+- Documents extracted: **2** / **3** discovered
 - Changed documents: **0**
-- New amendments: **0**
-- Material amendment impacts this run: **0**
-- Decisions requiring revalidation: **0**
+- New amendments: **2**
+- Material amendment impacts this run: **1**
+- Decisions requiring revalidation: **1**
+
+## [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view)
+
+Evidence completeness: **84 / 100** · Deadline: **2031-04-01T23:59:00-04:00**
+
+Requirements evidence:
+- t submission tracks: Track 1: Optional Pre-Screening via Two-Page Technical Executive Summary (Strongly Encouraged, Not Mandatory): a. Step 1 (Pre-Screening Submission): Respondents are strongly encouraged to submit a concise, two-page Technical Executive Summary via the Golden Dome Ecosystem Hub…
+- te paper directly for award. To be eligible for a direct award under the One-Step Process, the respondent’s white paper MUST include a firm, binding price proposal (such as a fixed-price milestone schedule) with sufficient detail regarding the technical approach, scope of work, deliverables, and…
+- applicable statutes, regulations, and the security requirements of this effort, are encouraged to respond. Participants must be registered in the System for Award Management (SAM.gov) prior to award. HQ020226S0001 P0001 Page 5 of 10 2. Statutory Requirements for Other Transaction (OT) Prototype…
+- ards: In accordance with 10 U.S.C. § 4022(d), to be eligible for the award of an OT prototype agreement, the submission must meet at least one of the following criteria: a. At least one nontraditional defense contractor (NDC) or nonprofit research institution participates to a significant extent…
+- Senior Procurement Executive determines in writing that exceptional circumstances justify the use of an OT. Respondents MUST explicitly identify in their White Paper submission which of these eligibility criteria they satisfy, along with a brief supporting justification. 3. Definition of…
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download) — extracted · **new amendment**
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fd59850985794279860e819fcc0174dd/download) — extracted · **new amendment**
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6150c7f02584434a9ea90adeb8260b15) — no_text
+
+### Changes since the previous tracker snapshot
+
+**HIGH · 1 change(s) · decision revalidation required**
+
+_No tracker baseline was available; compare the official amendment against the controlling solicitation manually._
+
+| Impact | Change | Before | After | Evidence |
+|---|---|---|---|---|
+| HIGH | New amendment observed; no tracker baseline is available for an automatic comparison. | — | t submission tracks: Track 1: Optional Pre-Screening via Two-Page Technical Executive Summary (Strongly Encouraged,… | [Open](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download) |
 
 ## Method
 
