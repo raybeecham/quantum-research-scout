@@ -1472,9 +1472,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 9,
+      "evidence_count": 10,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-10-31",
+      "latest_evidence_at": "2026-11-06",
       "name": "Cloudflare",
       "priority": "high",
       "source_count": 4,
@@ -1482,6 +1482,21 @@
       "stage_label": "Awareness",
       "stage_rank": 1,
       "supporting_evidence": [
+        {
+          "date": "2026-11-06",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Cloudflare Blog",
+          "title": "The post-quantum future of web privacy",
+          "url": "https://blog.cloudflare.com/vole-mole"
+        },
         {
           "date": "2026-10-31",
           "date_confidence": "unknown",
@@ -1586,21 +1601,6 @@
           "source": "Cloudflare Blog",
           "title": "Post-quantum authentication to origins is now supported",
           "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
-        },
-        {
-          "date": "2026-07-09",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cloudflare Post-Quantum Blog",
-          "title": "Why we cannot wait for better post-quantum signature algorithms",
-          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
         }
       ],
       "type": "company"
@@ -2200,6 +2200,6 @@
     "not_assessed": 20,
     "organizations": 43
   },
-  "updated_at": "2026-11-06T07:05:49.404555+00:00",
+  "updated_at": "2026-11-07T04:06:22.646740+00:00",
   "version": 1
 }

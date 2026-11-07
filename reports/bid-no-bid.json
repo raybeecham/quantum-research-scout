@@ -13,7 +13,7 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 1607,
+      "days_to_close": 1606,
       "deadline": "2031-04-01T23:59:00-04:00",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -21,8 +21,8 @@
         "evidence_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download",
         "impact_id": "impact:87733837412a57455b72",
         "note": "The latest amendment impact requires analyst revalidation. The tracker did not change an authorized bid/no-bid decision.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "qualify",
+        "previous_score": 76,
         "status": "revalidation_required"
       },
       "decision_score": 76,
@@ -136,7 +136,7 @@
           }
         ],
         "detected_at": "2026-11-06T06:54:48.602420+00:00",
-        "detected_this_run": true,
+        "detected_this_run": false,
         "highest_materiality": "high",
         "history_completeness": "tracker_observed",
         "impact_id": "impact:87733837412a57455b72",
@@ -197,7 +197,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 41,
+      "days_to_close": 40,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -301,7 +301,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 67,
+      "days_to_close": 66,
       "deadline": "01/12/2027",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -395,17 +395,230 @@
         "Confirm submission instructions in the controlling solicitation"
       ],
       "url": "https://www.grants.gov/search-results-detail/364033"
+    },
+    {
+      "agency": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
+      "amount": null,
+      "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
+      "contacts": [
+        {
+          "email": "innovationiwm@gsa.gov",
+          "full_name": "Vivian Panagakis",
+          "phone": "",
+          "title": "",
+          "type": "primary"
+        },
+        {
+          "email": "innovationiwm@gsa.gov",
+          "full_name": "Samuel Barksdale",
+          "phone": "",
+          "title": "",
+          "type": "secondary"
+        }
+      ],
+      "days_to_close": 30,
+      "deadline": "2026-12-07T23:59:00-05:00",
+      "decision_freshness": {
+        "current_gate": "targeted review",
+        "current_score": 44,
+        "evidence_url": "",
+        "impact_id": null,
+        "note": "No unreviewed material amendment impact is currently identified.",
+        "previous_gate": null,
+        "previous_score": null,
+        "status": "current"
+      },
+      "decision_score": 44,
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +12",
+              "actionable rfi +6",
+              "closing_this_month +9",
+              "technology fit +12",
+              "new since yesterday +5"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
+            ],
+            "points": 44
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
+            ],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No public risk penalty"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
+            ],
+            "points": 0
+          }
+        ],
+        "input_claim_ids": [],
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 44,
+        "source_urls": [
+          "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
+        ],
+        "trace_hash": "474b3f1d43e9c4d5"
+      },
+      "eligibility": [],
+      "evaluation_criteria": [],
+      "evidence_completeness": 0,
+      "latest_amendment_impact": null,
+      "likely_market_participants": [
+        {
+          "basis": [
+            "shared agency history",
+            "shared specialties: cybersecurity, post-quantum cryptography"
+          ],
+          "name": "SCALAR LLC",
+          "score": 8,
+          "uei": "CABMJKLWXN43"
+        },
+        {
+          "basis": [
+            "shared agency history",
+            "shared specialties: cybersecurity, post-quantum cryptography"
+          ],
+          "name": "DUNU TECH, LLC",
+          "score": 8,
+          "uei": "H8UVK64KWLQ3"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity, post-quantum cryptography"
+          ],
+          "name": "POST QUANTUM LABS LLC",
+          "score": 7,
+          "uei": "H53MXWJZPYU3"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity, post-quantum cryptography"
+          ],
+          "name": "DELOITTE CONSULTING LLP",
+          "score": 7,
+          "uei": "CKV2L9GZKJK3"
+        },
+        {
+          "basis": [
+            "shared specialties: cybersecurity, post-quantum cryptography"
+          ],
+          "name": "ALVAREZ LLC",
+          "score": 7,
+          "uei": "Y928UVG75CT6"
+        }
+      ],
+      "mission_fit": [],
+      "opportunity_key": "sam_gov:1106202612072026",
+      "potential_teaming_candidates": [
+        {
+          "basis": [
+            "shared agency history",
+            "shared specialties: cybersecurity, post-quantum cryptography"
+          ],
+          "name": "SCALAR LLC",
+          "score": 8,
+          "uei": "CABMJKLWXN43"
+        },
+        {
+          "basis": [
+            "shared agency history",
+            "shared specialties: cybersecurity, post-quantum cryptography"
+          ],
+          "name": "DUNU TECH, LLC",
+          "score": 8,
+          "uei": "H8UVK64KWLQ3"
+        },
+        {
+          "basis": [
+            "shared agency history",
+            "shared specialties: cybersecurity"
+          ],
+          "name": "CLEARAVENUE LLC",
+          "score": 6,
+          "uei": "TZJXKXNHDLX1"
+        },
+        {
+          "basis": [
+            "shared agency history",
+            "shared specialties: cybersecurity"
+          ],
+          "name": "BOOZ ALLEN HAMILTON INC",
+          "score": 6,
+          "uei": "JCBMLGPE6Z71"
+        },
+        {
+          "basis": [
+            "shared agency history",
+            "shared specialties: cybersecurity"
+          ],
+          "name": "ACCENTURE FEDERAL SERVICES LLC",
+          "score": 6,
+          "uei": "C47BNA8GM833"
+        }
+      ],
+      "provisional_gate": "targeted review",
+      "public_evidence_score": 44,
+      "record_type": "rfi",
+      "relevant_patents": [],
+      "required_actions": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Record an authorized bid/no-bid decision with owner and rationale"
+      ],
+      "requirements": [],
+      "risks": [
+        "Document evidence is incomplete; review the controlling files manually",
+        "Set-aside or eligibility status is not established in collected metadata"
+      ],
+      "set_aside": "",
+      "source_urls": [
+        "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
+      ],
+      "technology_fit": [
+        "quantum",
+        "post-quantum cryptography",
+        "cybersecurity"
+      ],
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "unknowns": [
+        "Confirm controlling requirements in the controlling solicitation",
+        "Confirm evaluation criteria in the controlling solicitation",
+        "Confirm eligibility and set-aside terms in the controlling solicitation",
+        "Confirm submission instructions in the controlling solicitation"
+      ],
+      "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
     }
   ],
   "scope_note": "Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.",
   "summary": {
-    "brief_count": 3,
+    "brief_count": 4,
     "decisions_revalidation_required": 1,
     "hold": 0,
     "priority_qualification": 0,
     "qualify": 2,
-    "targeted_review": 1
+    "targeted_review": 2
   },
-  "updated_at": "2026-11-06T06:54:48.602420+00:00",
+  "updated_at": "2026-11-07T04:01:16.987059+00:00",
   "version": 1
 }

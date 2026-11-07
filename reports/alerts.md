@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-06 07:05 UTC_
+_Updated 2026-11-07 04:06 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 43 | 5 | 10 | 3 | 30 |
+| 45 | 4 | 9 | 6 | 30 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -35,7 +35,7 @@ _Updated 2026-11-06 07:05 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Hardware has critical strategic importance and stable momentum.
+- 🔴 Quantum Hardware has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Networking
@@ -56,31 +56,38 @@ _Updated 2026-11-06 07:05 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Software / Tooling has critical strategic importance and declining momentum.
+- 🔴 Quantum Software / Tooling has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Standards / Government
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Standards / Government has critical strategic importance and declining momentum.
+- 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Source failing: Google Quantum AI
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 48.0% reliability with 5 warning day(s).
+- 🔴 45.2% reliability with 6 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: Quantum Computing Patents 🆕
+## 🟠 Actionable signal: Quantum Software / Tooling 🆕
 
-- Severity: **critical**
-- Status: **failing**
-- 🔴 91.0% reliability with 4 warning day(s).
-- [Open supporting view](source-health.md)
+- Severity: **high**
+- Status: **actionable**
+- 🎯 Quantum Software / Tooling is actionable with high confidence.
+- [Open supporting view](signals.md)
 
-## 🟠 New high-priority federal opportunity: Golden Dome for America Commercial Solutions Opening 🆕
+## 🟠 Actionable signal: Standards / Government 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 Standards / Government is actionable with high confidence.
+- [Open supporting view](signals.md)
+
+## 🟠 New high-priority federal opportunity: Golden Dome for America Commercial Solutions Opening
 
 - Severity: **high**
 - Status: **new-opportunity**
@@ -88,15 +95,21 @@ _Updated 2026-11-06 07:05 UTC_
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view)
 - [Open supporting view](federal-funding.md)
 
-## 🟠 Procurement amendment impact: Golden Dome for America Commercial Solutions Opening 🆕
+## 🟠 Rising momentum: Quantum Software / Tooling 🆕
 
 - Severity: **high**
-- Status: **decision-revalidation-required**
-- New amendment observed; no tracker baseline is available for an automatic comparison. Prior qualification and bid/no-bid assumptions require analyst revalidation; no analyst decision was changed automatically.
-- [Open direct evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download)
-- [Open supporting view](procurement-intelligence.md)
+- Status: **rising**
+- ↗️ Recent evidence is 3 versus 1 in the prior period.
+- [Open supporting view](signals.md)
 
-## 🟠 Standard: Quantinuum 🆕
+## 🟠 Rising momentum: Standards / Government 🆕
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 1 versus 0 in the prior period.
+- [Open supporting view](signals.md)
+
+## 🟠 Standard: Quantinuum
 
 - Severity: **high**
 - Status: **standard**
@@ -139,7 +152,7 @@ _Updated 2026-11-06 07:05 UTC_
 - The latest dated item is from 2026-10-08; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Google Security Blog 🆕
+## 🟡 Source stale: Google Security Blog
 
 - Severity: **medium**
 - Status: **stale**

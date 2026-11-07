@@ -4,19 +4,19 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-11-06 06:54 UTC_
+_Updated 2026-11-07 04:01 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
 USAspending records describe reported awards; Grants.gov and SAM.gov records describe opportunities or notices. Analytical mission and patent links are not evidence that a patent was funded by, used by, or formally associated with a mission.
 
 - Tracked records: **500**
-- Awards / grant opportunities / procurement opportunities: **491 / 3 / 3**
-- Open opportunities: **3** (including 0 BAA and 2 RFI records)
-- Opportunity radar: **3 mission-linked**, **0 closing within 30 days**, **1 new since yesterday**
+- Awards / grant opportunities / procurement opportunities: **490 / 3 / 4**
+- Open opportunities: **4** (including 0 BAA and 3 RFI records)
+- Opportunity radar: **3 mission-linked**, **1 closing within 30 days**, **2 new since yesterday**
 - Mission-linked records: **21**
 - Missions with activity: **5 of 10**
-- Named recipients and contractors: **329**
+- Named recipients and contractors: **328**
 - Known reported award value: **$1.04B**
 
 ## Opportunity Radar
@@ -28,6 +28,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum | **71 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 | 2 | [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view) · NEW | PROCUREMENT_OPPORTUNITY | 2031-04-01T23:59:00-04:00 | Golden Dome for America | General | **68 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 | 3 | [Genesis Mission Graduate Fellowship Pilot](https://www.grants.gov/search-results-detail/364033) | GRANT_OPPORTUNITY | 01/12/2027 | Genesis Mission | General | **65 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
+| 4 | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view) · NEW | RFI | 2026-12-07T23:59:00-05:00 | Not linked | quantum, post-quantum cryptography, cybersecurity | **44 · QUALIFY** | Qualify fit, identify partners, and prepare the response. |
 
 ## Mission Funding Portfolios
 
@@ -51,6 +52,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | PAMS-SC | 12/17/2026 | Genesis Mission (high) | **54 · NOTABLE** |
 | [Genesis Mission Graduate Fellowship Pilot](https://www.grants.gov/search-results-detail/364033) | GRANT_OPPORTUNITY | PAMS-SC | 01/12/2027 | Genesis Mission (high) | **49 · NOTABLE** |
 | [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view) | PROCUREMENT_OPPORTUNITY | DEPT OF DEFENSE.IMMEDIATE OFFICE OF THE SECRETARY OF DEFENSE.DIRECTOR OF GOLDEN DOME | 2031-04-01T23:59:00-04:00 | Golden Dome for America (high) | **47 · NOTABLE** |
+| [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view) | RFI | GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT | 2026-12-07T23:59:00-05:00 | Not linked | **27 · MONITOR** |
 
 ## Awards and Funding Announcements
 
@@ -69,6 +71,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [THIS ACTION IS PROVIDING WORKFLOW AND WORKSTREAM ESTABLISHMENT FOR THE GOLDEN DOME FOR AMERICA PROGRAM OFFICE.](https://www.usaspending.gov/award/CONT_AWD_FA714626C0012_9700_-NONE-_-NONE-) | 2026-04-01 | Not listed | $5 | Golden Dome for America |
 | [VENUE TO SUPPORT THE GOLDEN DOME FOR AMERICA INDUSTRY SUMMIT, JUNE 10-11, 2025](https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-) | 2025-06-10 | CITY OF HUNTSVILLE | $11.9K | Golden Dome for America |
 | [VENUE TO SUPPORT THE GOLDEN DOME FOR AMERICA INDUSTRY SUMMIT, JUNE 10-11, 2025](https://www.usaspending.gov/award/CONT_AWD_HQ085425PE001_9700_-NONE-_-NONE-) | 2025-06-10 | Not listed | $11 | Golden Dome for America |
+| [SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...](https://www.usaspending.gov/award/ASST_NON_2534400_049) | 2026-05-15 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | $1.2M | Not linked |
 | [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view) | 2026-11-04 | Not listed | Not reported | Golden Dome for America |
 | [REU SITE: CRYPTOGRAPHY, CODING THEORY AND QUANTUM COMPUTING AT THE USF -THIS RESEARCH EXPERIENCES FOR UNDERGRADUATES (REU) SITE AWARD FUNDS A RENEWAL OF A SITE FOCUSED ON…](https://www.usaspending.gov/award/ASST_NON_2548160_049) | 2026-10-01 | UNIVERSITY OF SOUTH FLORIDA | $471.4K | Not linked |
 | [Department reports initial architecture, command-and-control consortium, and active contracts](https://www.war.gov/serve-from-netstorage/News/Releases/Release/Article/4468089/department-of-war-showcases-progress-on-golden-dome-for-america-the-nations-nex/index.html) | 2026-04-23 | Not listed | Not reported | Golden Dome for America |
@@ -85,7 +88,6 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [INFORMATION SYSTEMS SECURITY SUPPORT SERVICES - CALL ORDER 6 POST QUANTUM CRYPTOGRAPHY](https://www.usaspending.gov/award/CONT_AWD_91990025F0111_9100_91990023A0002_9100) | 2025-09-30 | VALIANT SOLUTIONS, LLC | $1.5M | Not linked |
 | [BPA CALL 2 TRUSTED INTERNET CONNECTIONS (TIC) 3.0 MODERNIZATION AND POST QUANTUM CRYPTOGRAPHY INVENTORY AND DATA LOGGING](https://www.usaspending.gov/award/CONT_AWD_75N92025F00001_7529_75N92025A00002_7529) | 2025-09-29 | DELOITTE CONSULTING LLP | $2.3M | Not linked |
 | [70B04C26F00001201 CTO/TECHNOLOGY ROADMAP FOR ARTIFICIAL INTELLIGENCE AND NEXT-GENERATION COMPUTING (TRAIN-C) AND CSPD/TRADE IT MODERNIZATION PROJECTS.](https://www.usaspending.gov/award/CONT_AWD_70B04C26F00001201_7014_47QREA21D0001_4732) | 2026-09-30 | BOOZ ALLEN HAMILTON INC | $14.2M | Not linked |
-| [OU77-FY26-101-NEW NCCOE CYBERSECURITY RESEARCH, DEVELOPMENT, AND ENGINEERING SUPPORT SERVICE](https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB770131_1341_DOCSB134114CQ0010_1341) | 2026-09-30 | THE MITRE CORPORATION | $13.6M | Not linked |
 
 ## Contractor Intelligence Profiles
 
@@ -127,12 +129,12 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | FLORIDA ATLANTIC UNIVERSITY | UEI Q266L2NDAVP1 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1000.0K | Department of Commerce, National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF WISCONSIN SYSTEM | UEI LCLSJAGTNZQ7 | **36 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.0M | National Science Foundation | Not linked | 0 |
 | PARAGON MICRO INC | UEI E41LV9AJGHQ1 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.0M | Department of Health and Human Services | Not linked | 0 |
+| MASSACHUSETTS INSTITUTE OF TECHNOLOGY | UEI E2NYLCDML6V1 | **34 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $1.2M | National Science Foundation | Not linked | 1 |
 | ACCENTURE FEDERAL SERVICES LLC | UEI C47BNA8GM833 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $28.7M | Department of Energy, General Services Administration | Not linked | 0 |
 | NORTH CAROLINA STATE UNIVERSITY | UEI U3NVH931QJJ3 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.2M | National Science Foundation | Not linked | 0 |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | UEI LMCJKRFW5R81 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | National Science Foundation | Not linked | 0 |
 | GENERAL ELECTRIC COMPANY | Name-resolved | **32 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $48.5M | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK | Not linked | 0 |
 | DUKE UNIVERSITY | UEI TP7EK8DZV6N5 | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $3.4M | National Science Foundation | Not linked | 0 |
-| UNIVERSITY OF NEW MEXICO | UEI F6XLTRUQJEN4 | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $1.0M | National Science Foundation | Not linked | 0 |
 
 ## Recipient and Contractor Patent Connections
 
@@ -145,6 +147,7 @@ These are assignee-name matches, not proof that an award funded a patent.
 | UNIVERSITY OF SOUTH FLORIDA | 4 | $3.2M | 1 | Not linked |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | 2 | $9.4M | 2 | darpa-qbi |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | 3 | $2.5M | 1 | Not linked |
+| MASSACHUSETTS INSTITUTE OF TECHNOLOGY | 2 | $1.2M | 1 | Not linked |
 | MORGAN STATE UNIVERSITY | 1 | $10.0M | 1 | Not linked |
 | NEW YORK UNIVERSITY | 1 | $640.0K | 2 | Not linked |
 | THALES DEFENSE & SECURITY INC | 2 | $378.1K | 1 | Not linked |

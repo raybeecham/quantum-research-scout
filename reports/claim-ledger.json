@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-11-06",
+  "as_of_date": "2026-11-07",
   "claims": [
     {
       "authority": "authoritative",
@@ -1842,6 +1842,141 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
+      "claim_id": "claim-3d88cbbba09dbac8",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-06",
+      "evidence_ids": [
+        "evidence-b6582720a0446ad0"
+      ],
+      "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-b6582720a0446ad0",
+          "locator": "opportunity_status:open",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "385e368607e7659b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-ac611233cb50f2ba",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-06",
+      "evidence_ids": [
+        "evidence-412858b7c6c5f36d"
+      ],
+      "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-412858b7c6c5f36d",
+          "locator": "deadline:2026-12-07t23:59:00-05:00",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "2026-12-07T23:59:00-05:00",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "50fa18e3277ae0ee"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-3fa667a5192a67f7",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-06",
+      "evidence_ids": [
+        "evidence-e4fb939abea90ef0"
+      ],
+      "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e4fb939abea90ef0",
+          "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8d2e0bfd9bca6ec5"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
       "claim_id": "claim-4fc10d0866b017ed",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -3606,9 +3741,9 @@
       "first_seen_at": "2026-10-30T03:52:33.468921+00:00",
       "history": [],
       "last_seen_at": "2026-10-30T03:52:33.468921+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -3651,9 +3786,9 @@
       "first_seen_at": "2026-10-30T03:52:33.468921+00:00",
       "history": [],
       "last_seen_at": "2026-10-30T03:52:33.468921+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -3696,9 +3831,9 @@
       "first_seen_at": "2026-10-30T03:52:33.468921+00:00",
       "history": [],
       "last_seen_at": "2026-10-30T03:52:33.468921+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -3741,14 +3876,14 @@
       "first_seen_at": "2026-10-30T03:52:33.468921+00:00",
       "history": [],
       "last_seen_at": "2026-10-30T03:52:33.468921+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:WFVHMSF6BU45",
         "label": "JACKSON STATE UNIVERSITY",
         "node_id": "recipient_or_contractor:uei:WFVHMSF6BU45",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -134381,6 +134516,191 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
+      "claim_id": "claim-9920e7feaae2321e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-05-15",
+      "evidence_ids": [
+        "evidence-286da359618a9020"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-286da359618a9020",
+          "locator": "opportunity_status:awarded",
+          "title": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2607804_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2607804",
+        "label": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
+        "node_id": "award:usaspending:2607804",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "be7d7c84e22766bb"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-3a21009150ed4186",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-05-15",
+      "evidence_ids": [
+        "evidence-37229fa1e1140bb4"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-37229fa1e1140bb4",
+          "locator": "awarding_agency:national science foundation",
+          "title": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2607804_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2607804",
+        "label": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
+        "node_id": "award:usaspending:2607804",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "f1518eb3a901679b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-7ca9421301e67414",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-05-15",
+      "evidence_ids": [
+        "evidence-92e30ad93589950a"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-92e30ad93589950a",
+          "locator": "reported_amount:25000.0",
+          "title": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2607804_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2607804",
+        "label": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
+        "node_id": "award:usaspending:2607804",
+        "node_type": "award"
+      },
+      "value": 25000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "2f5e443490483d52"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-68a570a30e807355",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-05-15",
+      "evidence_ids": [
+        "evidence-06c7a2227bfd4d8c"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:E2NYLCDML6V1",
+        "label": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+        "node_id": "recipient_or_contractor:uei:E2NYLCDML6V1",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-06c7a2227bfd4d8c",
+          "locator": "reported_recipient:recipient_or_contractor:uei:E2NYLCDML6V1",
+          "title": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2607804_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2607804",
+        "label": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
+        "node_id": "award:usaspending:2607804",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9e528e342c321c3e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
       "claim_id": "claim-69b81fc55a870106",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -137297,191 +137617,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "3640d0c8e812fce3"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-9920e7feaae2321e",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-05-15",
-      "evidence_ids": [
-        "evidence-286da359618a9020"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-286da359618a9020",
-          "locator": "opportunity_status:awarded",
-          "title": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2607804_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2607804",
-        "label": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
-        "node_id": "award:usaspending:2607804",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "be7d7c84e22766bb"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-3a21009150ed4186",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-05-15",
-      "evidence_ids": [
-        "evidence-37229fa1e1140bb4"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-37229fa1e1140bb4",
-          "locator": "awarding_agency:national science foundation",
-          "title": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2607804_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2607804",
-        "label": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
-        "node_id": "award:usaspending:2607804",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "f1518eb3a901679b"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-7ca9421301e67414",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-05-15",
-      "evidence_ids": [
-        "evidence-92e30ad93589950a"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-92e30ad93589950a",
-          "locator": "reported_amount:25000.0",
-          "title": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2607804_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2607804",
-        "label": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
-        "node_id": "award:usaspending:2607804",
-        "node_type": "award"
-      },
-      "value": 25000.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "2f5e443490483d52"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-68a570a30e807355",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-05-15",
-      "evidence_ids": [
-        "evidence-06c7a2227bfd4d8c"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:E2NYLCDML6V1",
-        "label": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
-        "node_id": "recipient_or_contractor:uei:E2NYLCDML6V1",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-06c7a2227bfd4d8c",
-          "locator": "reported_recipient:recipient_or_contractor:uei:E2NYLCDML6V1",
-          "title": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2607804_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2607804",
-        "label": "CONFERENCE: ANTS XVII: ALGORITHMIC NUMBER THEORY SYMPOSIUM 2026 -THIS PROJECT WILL PROVIDE TRAVEL SUPPORT TO HELP U.S.-BASED RESEARCHERS (GRADUATE STUDENTS, POSTDOCS, AND TENURE-T...",
-        "node_id": "award:usaspending:2607804",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "9e528e342c321c3e"
     },
     {
       "authority": "authoritative",
@@ -153587,6 +153722,56 @@
     {
       "authority": "authoritative",
       "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-2148c2567faad63d",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-05-15",
+      "evidence_ids": [
+        "evidence-c856b0a46b0390d5"
+      ],
+      "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
+      "history": [],
+      "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:E2NYLCDML6V1",
+        "label": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+        "node_id": "recipient_or_contractor:uei:E2NYLCDML6V1",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c856b0a46b0390d5",
+          "locator": "reported_recipient:recipient_or_contractor:uei:E2NYLCDML6V1",
+          "title": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2534400_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2534400",
+        "label": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
+        "node_id": "award:usaspending:2534400",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "faa8950a4b134c6b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
       "claim_id": "claim-92a7d2e73b97b320",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -153833,56 +154018,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "2307ad26f2bfdd6c"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-2148c2567faad63d",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-05-15",
-      "evidence_ids": [
-        "evidence-c856b0a46b0390d5"
-      ],
-      "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "history": [],
-      "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:E2NYLCDML6V1",
-        "label": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
-        "node_id": "recipient_or_contractor:uei:E2NYLCDML6V1",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c856b0a46b0390d5",
-          "locator": "reported_recipient:recipient_or_contractor:uei:E2NYLCDML6V1",
-          "title": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2534400_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2534400",
-        "label": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
-        "node_id": "award:usaspending:2534400",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "faa8950a4b134c6b"
     },
     {
       "authority": "authoritative",
@@ -162282,6 +162417,141 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
+      "claim_id": "claim-2deef2742623c2fe",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-05-15",
+      "evidence_ids": [
+        "evidence-d5bd20bdcd02981c"
+      ],
+      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "history": [],
+      "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d5bd20bdcd02981c",
+          "locator": "opportunity_status:awarded",
+          "title": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2534400_049/",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2534400",
+        "label": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
+        "node_id": "award:usaspending:2534400",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "812e095802233b32"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-2769425311ad1532",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-05-15",
+      "evidence_ids": [
+        "evidence-022babd90103e648"
+      ],
+      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "history": [],
+      "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-022babd90103e648",
+          "locator": "awarding_agency:national science foundation",
+          "title": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2534400_049/",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2534400",
+        "label": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
+        "node_id": "award:usaspending:2534400",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c8eb926bb0c32ee7"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-16cee38d7b9b2b43",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-05-15",
+      "evidence_ids": [
+        "evidence-d9f88e4beb77dc42"
+      ],
+      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "history": [],
+      "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d9f88e4beb77dc42",
+          "locator": "reported_amount:1200000.0",
+          "title": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2534400_049/",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2534400",
+        "label": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
+        "node_id": "award:usaspending:2534400",
+        "node_type": "award"
+      },
+      "value": 1200000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6bd855e7e86f7e09"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
       "claim_id": "claim-7154040d8c1df94f",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -162998,141 +163268,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "3e8f672f5354673d"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-2deef2742623c2fe",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-05-15",
-      "evidence_ids": [
-        "evidence-d5bd20bdcd02981c"
-      ],
-      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "history": [],
-      "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d5bd20bdcd02981c",
-          "locator": "opportunity_status:awarded",
-          "title": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2534400_049/",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2534400",
-        "label": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
-        "node_id": "award:usaspending:2534400",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "812e095802233b32"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-2769425311ad1532",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-05-15",
-      "evidence_ids": [
-        "evidence-022babd90103e648"
-      ],
-      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "history": [],
-      "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-022babd90103e648",
-          "locator": "awarding_agency:national science foundation",
-          "title": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2534400_049/",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2534400",
-        "label": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
-        "node_id": "award:usaspending:2534400",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "c8eb926bb0c32ee7"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-16cee38d7b9b2b43",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-05-15",
-      "evidence_ids": [
-        "evidence-d9f88e4beb77dc42"
-      ],
-      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "history": [],
-      "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d9f88e4beb77dc42",
-          "locator": "reported_amount:1200000.0",
-          "title": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2534400_049/",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2534400",
-        "label": "SATC 2.0: RES: FOUNDATIONS OF QUANTUM CRYPTOGRAPHY -RECENT YEARS HAVE WITNESSED RAPID PROGRESS IN BUILDING LARGE-SCALE QUANTUM COMPUTERS, THE EXISTENCE OF WHICH COULD MAKE CURRENT...",
-        "node_id": "award:usaspending:2534400",
-        "node_type": "award"
-      },
-      "value": 1200000.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "6bd855e7e86f7e09"
     },
     {
       "authority": "authoritative",
@@ -227800,6 +227935,56 @@
     },
     {
       "authority": "analytical",
+      "basis": "assignee match",
+      "claim_id": "claim-12e5924711237567",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "federal_funding._organization_patents"
+      },
+      "effective_date": null,
+      "evidence_ids": [
+        "evidence-821b4cfea23c31e2"
+      ],
+      "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "US20260352345A1",
+        "label": "Resource-efficient coherent optical frequency transfer for distributed quantum computing and the quantum internet of things",
+        "node_id": "patent:US20260352345A1",
+        "node_type": "patent"
+      },
+      "observation_status": "observed",
+      "predicate": "has_related_patent",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-821b4cfea23c31e2",
+          "locator": "has_related_patent:patent:US20260352345A1",
+          "title": "Resource-efficient coherent optical frequency transfer for distributed quantum computing and the quantum internet of things",
+          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19744969/application-data",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:E2NYLCDML6V1",
+        "label": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+        "node_id": "recipient_or_contractor:uei:E2NYLCDML6V1",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "892b0fa8f97fca1d"
+    },
+    {
+      "authority": "analytical",
       "basis": "named program match: Golden Dome for America",
       "claim_id": "claim-6b62f94bec54591f",
       "confidence": "high",
@@ -230497,6 +230682,145 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "ee392fdab0f095cc"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 44 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-2819bf22431f6cc4",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +12",
+              "actionable rfi +6",
+              "closing_this_month +9",
+              "technology fit +12",
+              "new since yesterday +5"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
+            ],
+            "points": 44
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
+            ],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No public risk penalty"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
+            ],
+            "points": 0
+          }
+        ],
+        "evidence_ids": [
+          "evidence-075bdcb08b78b6b5",
+          "evidence-27179ad3aaea8d8e",
+          "evidence-412858b7c6c5f36d",
+          "evidence-568c7feab6ac7056"
+        ],
+        "input_claim_hashes": {
+          "claim-ac611233cb50f2ba": "50fa18e3277ae0ee"
+        },
+        "input_claim_ids": [
+          "claim-ac611233cb50f2ba"
+        ],
+        "input_claim_versions": {
+          "claim-ac611233cb50f2ba": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 44,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
+        ],
+        "trace_complete": true,
+        "trace_hash": "9508fa9ff287ad3b",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-ac611233cb50f2ba"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-11-07",
+      "evidence_ids": [
+        "evidence-568c7feab6ac7056",
+        "evidence-27179ad3aaea8d8e",
+        "evidence-075bdcb08b78b6b5"
+      ],
+      "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-568c7feab6ac7056",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-27179ad3aaea8d8e",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "targeted review",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "69a3e8f7da29af6a"
     },
     {
       "authority": "analytical",
@@ -255358,7 +255682,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255405,7 +255729,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255452,7 +255776,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255499,7 +255823,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255546,7 +255870,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255593,7 +255917,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255640,7 +255964,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255687,7 +256011,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255734,7 +256058,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255781,7 +256105,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255828,7 +256152,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255875,7 +256199,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255922,7 +256246,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255969,7 +256293,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256016,7 +256340,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256063,7 +256387,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256110,7 +256434,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256157,7 +256481,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256209,7 +256533,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256261,7 +256585,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256313,7 +256637,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256365,7 +256689,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256417,7 +256741,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256469,7 +256793,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256521,7 +256845,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256573,7 +256897,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256625,7 +256949,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-06T06:54:48.602420+00:00",
+      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258279,8 +258603,8 @@
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-075bdcb08b78b6b5",
       "locator": "qualification_gate",
-      "title": "Golden Dome for America Commercial Solutions Opening",
-      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6150c7f02584434a9ea90adeb8260b15",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
       "verification_status": "source_reported"
     },
     {
@@ -264657,6 +264981,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-27179ad3aaea8d8e",
+      "locator": "qualification_gate",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-271fb8af80109977",
       "locator": "reported_amount:1999999.0",
       "title": "AGRICULTURE AND AQUACULTURE ARE ESSENTIAL TO AMERICA'S FOOD SUPPLY, ECONOMIC STRENGTH, AND NATIONAL SECURITY. FARMERS AND PRODUCERS FACE LABOR SHORTAGES, RISING PRODUCTION COSTS,\u2026",
@@ -269796,6 +270130,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-412858b7c6c5f36d",
+      "locator": "deadline:2026-12-07t23:59:00-05:00",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "ab22c50dda8e9dfb1a27c60441d6339acae48232790c60815f7f580d458d4da9",
       "controlling_status": "not_established",
       "evidence_id": "evidence-4137f01ee9e996e4",
@@ -274342,6 +274686,16 @@
       "locator": "reported_amount:109123.0",
       "title": "(D)OISP(TM) AN ADVANCEMENT IN DECENTRALIZED, POST-QUANTUM AUTHENTICATION AND SECURITY IN A ZERO TRUST IMPLEMENTATION.",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA864926P0255_9700_-NONE-_-NONE-",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-568c7feab6ac7056",
+      "locator": "qualification_gate",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
       "verification_status": "source_reported"
     },
     {
@@ -282902,6 +283256,16 @@
       "locator": "uei:uer4ajlub8d5",
       "title": "THUNDERCAT TECHNOLOGY, LLC",
       "url": "https://sam.gov/entity/UER4AJLUB8D5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-821b4cfea23c31e2",
+      "locator": "has_related_patent:patent:US20260352345A1",
+      "title": "Resource-efficient coherent optical frequency transfer for distributed quantum computing and the quantum internet of things",
+      "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19744969/application-data",
       "verification_status": "source_reported"
     },
     {
@@ -293658,6 +294022,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-b6582720a0446ad0",
+      "locator": "opportunity_status:open",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-b65dbf6f3c12faff",
       "locator": "uei:wnn6vh618x58",
       "title": "FLORIDA INSTITUTE OF TECHNOLOGY INC",
@@ -303498,6 +303872,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e4fb939abea90ef0",
+      "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-e50e9b63d74bae8c",
       "locator": "awarding_agency:national aeronautics and space administration",
       "title": "STTR PHASE I LOW-SWAP QUANTUM MAGNETOMETRY FOR SPACEBORNE MAGNETIC FIELD MEASUREMENTS",
@@ -309118,16 +309502,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 5141,
-    "authoritative_claims": 4922,
+    "active_claims": 5146,
+    "authoritative_claims": 4925,
     "conflicted_claims": 38,
-    "derived_claims": 213,
-    "evidence_items": 5246,
-    "source_urls": 1404,
-    "subjects": 1051,
+    "derived_claims": 215,
+    "evidence_items": 5252,
+    "source_urls": 1408,
+    "subjects": 1052,
     "superseded_claims": 0,
-    "total_claims": 5168
+    "total_claims": 5173
   },
-  "updated_at": "2026-11-06T06:54:48.602420+00:00",
+  "updated_at": "2026-11-07T04:01:16.987059+00:00",
   "version": 1
 }

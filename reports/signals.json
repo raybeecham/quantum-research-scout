@@ -3361,12 +3361,84 @@
           "source": "arXiv RSS cs.CR",
           "title": "Zirah: A Post-Quantum True Random Number Generator Hardware Signer With an Avalanche Noise",
           "url": "https://arxiv.org/abs/2611.08200"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://live.paloaltonetworks.com/t5/community-blogs/from-managing-trust-to-issuing-it-next-gen-ca-in-ngts/ba-p/1267907",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 34,
+          "source": "Palo Alto Networks LIVEcommunity Blogs",
+          "title": "From Managing Trust to Issuing It: Next-Gen CA in NGTS",
+          "url": "https://live.paloaltonetworks.com/t5/community-blogs/from-managing-trust-to-issuing-it-next-gen-ca-in-ngts/ba-p/1267907"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://www.digicert.com/blog/your-tls-certificate-may-expire-soon",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 39,
+          "source": "DigiCert Blog",
+          "title": "Your TLS certificate may unexpectedly expire soon | DigiCert",
+          "url": "https://www.digicert.com/blog/your-tls-certificate-may-expire-soon"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://quantumzeitgeist.com/sealsq-techagency-partnership-quantum-guide-firms",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 47,
+          "source": "Quantum Zeitgeist",
+          "title": "SEALSQ, TechAgency partner to guide firms through quantum shift",
+          "url": "https://quantumzeitgeist.com/sealsq-techagency-partnership-quantum-guide-firms"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://quantumzeitgeist.com/j-warren-checkpointing-cuts-cost-quantum",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "title": "Checkpointing cuts the cost of quantum-safe industrial controllers by 90x",
+          "url": "https://quantumzeitgeist.com/j-warren-checkpointing-cuts-cost-quantum"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://quantumzeitgeist.com/quantum-safe-guidance-monetary-authority-comment",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "title": "Monetary Authority of Singapore invites banks to comment on quantum-safe guidance",
+          "url": "https://quantumzeitgeist.com/quantum-safe-guidance-monetary-authority-comment"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://blog.cloudflare.com/vole-mole",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 55,
+          "source": "Cloudflare Blog",
+          "title": "The post-quantum future of web privacy",
+          "url": "https://blog.cloudflare.com/vole-mole"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://quantumzeitgeist.com/sok-post-quantum-cryptography-software-developers",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 67,
+          "source": "Quantum Zeitgeist",
+          "title": "Software developers face gaps in migrating to post-quantum cryptography",
+          "url": "https://quantumzeitgeist.com/sok-post-quantum-cryptography-software-developers"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://quantumzeitgeist.com/quantum-proof-cryptography-vendors-problem-cisa",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 105,
+          "source": "Quantum Zeitgeist",
+          "title": "Quantum-proof cryptography is a vendor\u2019s problem, says CISA",
+          "url": "https://quantumzeitgeist.com/quantum-proof-cryptography-vendors-problem-cisa"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-11-05",
+      "latest_seen": "2026-11-06",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -3375,8 +3447,8 @@
         "IACR ePrint",
         "Quantum Computing Report"
       ],
-      "prior_count": 18,
-      "recent_count": 16,
+      "prior_count": 20,
+      "recent_count": 19,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -7730,13 +7802,22 @@
           "source": "Quantum Zeitgeist",
           "title": "Researchers Measure Entanglement on 12-Qubit System Via Resets",
           "url": "https://quantumzeitgeist.com/quantum-system-resets-measure-twelve-qubit-entanglement"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://thequantuminsider.com/2026/11/06/pasqal-q3-revenue-decline-services-growth",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "title": "Pasqal Reports Third-Quarter Revenue Decline as QPU Services Revenue Grows",
+          "url": "https://thequantuminsider.com/2026/11/06/pasqal-q3-revenue-decline-services-growth"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-11-01",
-      "momentum": "stable",
+      "latest_seen": "2026-11-06",
+      "momentum": "declining",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
@@ -7744,8 +7825,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 19,
-      "recent_count": 26,
+      "prior_count": 23,
+      "recent_count": 5,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -9298,12 +9379,39 @@
           "source": "arXiv RSS quant-ph",
           "title": "Scalable Transpilation for Overcoming Restricted Connectivity in Distributed Superconducting Quantum Architectures",
           "url": "https://arxiv.org/abs/2611.07175"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://thequantuminsider.com/2026/11/06/toshiba-uk-contract-quantum-networking-technologies",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 65,
+          "source": "The Quantum Insider",
+          "title": "Toshiba Secures UK Contract to Develop Quantum Networking Technologies",
+          "url": "https://thequantuminsider.com/2026/11/06/toshiba-uk-contract-quantum-networking-technologies"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://thequantuminsider.com/2026/11/06/qnu-labs-corporate-training-quantum-safe-security",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 67,
+          "source": "The Quantum Insider",
+          "title": "QNu Labs Launches Corporate Training Programme on Quantum-Safe Security",
+          "url": "https://thequantuminsider.com/2026/11/06/qnu-labs-corporate-training-quantum-safe-security"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://thequantuminsider.com/2026/11/06/zerotier-redapt-post-quantum-networking-partnership",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 88,
+          "source": "The Quantum Insider",
+          "title": "ZeroTier Partners With Redapt to Deliver Post-Quantum Networking",
+          "url": "https://thequantuminsider.com/2026/11/06/zerotier-redapt-post-quantum-networking-partnership"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-11-05",
+      "latest_seen": "2026-11-06",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -9312,8 +9420,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 9,
-      "recent_count": 12,
+      "prior_count": 11,
+      "recent_count": 11,
       "status": "watching"
     },
     "Quantum Sensing": {
@@ -10859,13 +10967,31 @@
           "source": "Quantum Zeitgeist",
           "title": "Meet NAKO, A Benchmarking Framework for Evaluating and Diagnosing Neutral-Atom Quantum Compilers",
           "url": "https://quantumzeitgeist.com/meet-nako-a-benchmarking-framework-for-evaluating-and-diagnosing-neutral-atom-quantum-compilers"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://quantumcomputingreport.com/nqcc-signs-enterprise-agreement-with-phasecraft-to-provide-quantum-software-via-sparq-access",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 25,
+          "source": "Quantum Computing Report",
+          "title": "NQCC Signs Enterprise Agreement with Phasecraft to Provide Quantum Software via SparQ Access",
+          "url": "https://quantumcomputingreport.com/nqcc-signs-enterprise-agreement-with-phasecraft-to-provide-quantum-software-via-sparq-access"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://quantum-journal.org/papers/q-2026-11-06-2260",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 30,
+          "source": "Quantum Journal",
+          "title": "Bounding the entanglement of a state from its spectrum",
+          "url": "https://quantum-journal.org/papers/q-2026-11-06-2260"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-11-01",
-      "momentum": "declining",
+      "latest_seen": "2026-11-06",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -10873,9 +10999,9 @@
         "Quantum Computing Report",
         "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 6,
-      "recent_count": 2,
-      "status": "watching"
+      "prior_count": 1,
+      "recent_count": 3,
+      "status": "actionable"
     },
     "Standards / Government": {
       "confidence": "high",
@@ -11572,13 +11698,22 @@
           "source": "The Quantum Insider",
           "title": "UKRI Backs UK Quantum Businesses With Share of \u00a350 Million",
           "url": "https://thequantuminsider.com/2026/10/19/ukri-backs-uk-quantum-businesses-with-share-of-50-million"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://thequantuminsider.com/2026/11/06/uk-announces-new-funding-to-support-quantum-technology-commercialisation",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "UK Announces New Funding to Support Quantum Technology Commercialisation",
+          "url": "https://thequantuminsider.com/2026/11/06/uk-announces-new-funding-to-support-quantum-technology-commercialisation"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-10-19",
-      "momentum": "declining",
+      "latest_seen": "2026-11-06",
+      "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
         "QuantumNews.ai",
@@ -11586,11 +11721,11 @@
         "Quantum Zeitgeist",
         "USAspending \u00b7 Advanced Computing"
       ],
-      "prior_count": 7,
+      "prior_count": 0,
       "recent_count": 1,
-      "status": "stale"
+      "status": "actionable"
     }
   },
-  "updated_at": "2026-11-06T07:05:48.699825+00:00",
+  "updated_at": "2026-11-07T04:06:22.126418+00:00",
   "version": 1
 }

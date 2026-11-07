@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-11-06T06:54:48.602420+00:00_
+_Updated 2026-11-07T04:01:16.987059+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **5141**
-- Authoritative claims: **4922**
-- Analytical claims: **213**
+- Active claims: **5146**
+- Authoritative claims: **4925**
+- Analytical claims: **215**
 - Conflicted claims: **38**
-- Evidence items / URLs: **5246 / 1404**
+- Evidence items / URLs: **5252 / 1408**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,9 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | Post Quantum Cryptography (PQC) Readiness and Validation Status | opportunity status | open | authoritative / high | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view) |
+| active | Post Quantum Cryptography (PQC) Readiness and Validation Status | deadline | 2026-12-07T23:59:00-05:00 | authoritative / high | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view) |
+| active | Post Quantum Cryptography (PQC) Readiness and Validation Status | awarding agency | GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT | authoritative / high | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view) |
 | active | Golden Dome for America Commercial Solutions Opening | opportunity status | open | authoritative / high | [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view) |
 | active | Golden Dome for America Commercial Solutions Opening | deadline | 2031-04-01T23:59:00-04:00 | authoritative / high | [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view) |
 | active | Golden Dome for America Commercial Solutions Opening | set aside | No Set aside used | authoritative / high | [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view) |
@@ -261,9 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA. | opportunity status | awarded | authoritative / high | [THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.](https://www.usaspending.gov/award/CONT_AWD_70FA3126C00000003_7022_-NONE-_-NONE-) |
 | active | THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA. | awarding agency | Department of Homeland Security | authoritative / high | [THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.](https://www.usaspending.gov/award/CONT_AWD_70FA3126C00000003_7022_-NONE-_-NONE-) |
 | active | THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA. | reported amount | 7533121.0 | authoritative / high | [THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.](https://www.usaspending.gov/award/CONT_AWD_70FA3126C00000003_7022_-NONE-_-NONE-) |
-| active | THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA. | reported recipient | SEMPRE, INC. | authoritative / high | [THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.](https://www.usaspending.gov/award/CONT_AWD_70FA3126C00000003_7022_-NONE-_-NONE-) |
-| active | SAMHSA CYBERSECURITY AND MANAGEMENT SUPPORT | opportunity status | awarded | authoritative / high | [SAMHSA CYBERSECURITY AND MANAGEMENT SUPPORT](https://www.usaspending.gov/award/CONT_AWD_75S20326F80005_7522_HHSN316201500002W_7529) |
-| active | SAMHSA CYBERSECURITY AND MANAGEMENT SUPPORT | awarding agency | Department of Health and Human Services | authoritative / high | [SAMHSA CYBERSECURITY AND MANAGEMENT SUPPORT](https://www.usaspending.gov/award/CONT_AWD_75S20326F80005_7522_HHSN316201500002W_7529) |
 
 ## Method
 
