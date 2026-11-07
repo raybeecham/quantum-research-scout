@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T06:45:44.135032+00:00",
+  "updated_at": "2026-11-07T07:45:48.421693+00:00",
   "records": {
     "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors": {
       "page_url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
@@ -140,6 +140,11 @@
       "status": "failed",
       "fetched_at": "2026-11-06T16:46:40.897199+00:00"
     },
+    "https://arxiv.org/abs/2611.08200": {
+      "page_url": "https://arxiv.org/abs/2611.08200",
+      "status": "unavailable",
+      "fetched_at": "2026-11-07T06:45:44.135032+00:00"
+    },
     "https://eprint.iacr.org/2026/2766": {
       "page_url": "https://eprint.iacr.org/2026/2766",
       "status": "failed",
@@ -149,26 +154,6 @@
       "page_url": "https://eprint.iacr.org/2026/2767",
       "status": "failed",
       "fetched_at": "2026-11-06T16:46:40.897199+00:00"
-    },
-    "https://arxiv.org/abs/2611.08442": {
-      "page_url": "https://arxiv.org/abs/2611.08442",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T06:45:53.726749+00:00"
-    },
-    "https://arxiv.org/abs/2611.07175": {
-      "page_url": "https://arxiv.org/abs/2611.07175",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T06:45:53.726749+00:00"
-    },
-    "https://arxiv.org/abs/2611.07861": {
-      "page_url": "https://arxiv.org/abs/2611.07861",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
-    },
-    "https://arxiv.org/abs/2611.07476": {
-      "page_url": "https://arxiv.org/abs/2611.07476",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
     },
     "https://quantumzeitgeist.com/ho-chi-key-exchange-aims-less": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/a-sign-less-key-exchange-aims-to-secure-1200x630.png",
@@ -234,11 +219,6 @@
       "fetched_at": "2026-11-07T04:07:03.721589+00:00",
       "status": "ok"
     },
-    "https://arxiv.org/abs/2611.07530": {
-      "page_url": "https://arxiv.org/abs/2611.07530",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T06:45:53.726749+00:00"
-    },
     "https://quantumcomputingreport.com/nqcc-signs-enterprise-agreement-with-phasecraft-to-provide-quantum-software-via-sparq-access": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-18.png",
       "page_url": "https://quantumcomputingreport.com/nqcc-signs-enterprise-agreement-with-phasecraft-to-provide-quantum-software-via-sparq-access",
@@ -268,20 +248,30 @@
       "fetched_at": "2026-11-06T07:06:28.635692+00:00",
       "status": "ok"
     },
+    "https://eprint.iacr.org/2026/2751": {
+      "page_url": "https://eprint.iacr.org/2026/2751",
+      "status": "failed",
+      "fetched_at": "2026-11-07T06:45:44.135032+00:00"
+    },
     "https://eprint.iacr.org/2026/2739": {
       "page_url": "https://eprint.iacr.org/2026/2739",
       "status": "failed",
       "fetched_at": "2026-11-07T05:46:11.873592+00:00"
     },
-    "https://eprint.iacr.org/2026/2753": {
-      "page_url": "https://eprint.iacr.org/2026/2753",
+    "https://eprint.iacr.org/2026/2744": {
+      "page_url": "https://eprint.iacr.org/2026/2744",
       "status": "failed",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
+      "fetched_at": "2026-11-07T06:45:44.135032+00:00"
     },
     "https://eprint.iacr.org/2026/2733": {
       "page_url": "https://eprint.iacr.org/2026/2733",
       "status": "failed",
       "fetched_at": "2026-11-07T05:46:11.873592+00:00"
+    },
+    "https://arxiv.org/abs/2611.05722": {
+      "page_url": "https://arxiv.org/abs/2611.05722",
+      "status": "unavailable",
+      "fetched_at": "2026-11-07T06:45:44.135032+00:00"
     },
     "https://eprint.iacr.org/2026/2741": {
       "page_url": "https://eprint.iacr.org/2026/2741",
@@ -297,16 +287,6 @@
       "page_url": "https://arxiv.org/abs/2611.06124",
       "status": "unavailable",
       "fetched_at": "2026-11-06T16:46:40.897199+00:00"
-    },
-    "https://arxiv.org/abs/2611.07440": {
-      "page_url": "https://arxiv.org/abs/2611.07440",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
-    },
-    "https://arxiv.org/abs/2501.18158": {
-      "page_url": "https://arxiv.org/abs/2501.18158",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
     },
     "https://quantumcomputingreport.com/universal-quantum-details-iterative-redecode-scheme-for-fast-transversal-fault-tolerant-logic": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-5.png",
@@ -407,31 +387,6 @@
       "page_url": "https://eprint.iacr.org/2026/2731",
       "status": "failed",
       "fetched_at": "2026-11-07T05:46:11.873592+00:00"
-    },
-    "https://arxiv.org/abs/2611.04075": {
-      "page_url": "https://arxiv.org/abs/2611.04075",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
-    },
-    "https://arxiv.org/abs/2611.04526": {
-      "page_url": "https://arxiv.org/abs/2611.04526",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
-    },
-    "https://arxiv.org/abs/2611.03788": {
-      "page_url": "https://arxiv.org/abs/2611.03788",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
-    },
-    "https://arxiv.org/abs/2611.04876": {
-      "page_url": "https://arxiv.org/abs/2611.04876",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
-    },
-    "https://arxiv.org/abs/2611.04128": {
-      "page_url": "https://arxiv.org/abs/2611.04128",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
     },
     "https://arxiv.org/abs/2611.04129": {
       "page_url": "https://arxiv.org/abs/2611.04129",
@@ -620,11 +575,6 @@
       "status": "unavailable",
       "fetched_at": "2026-11-06T11:46:08.831842+00:00"
     },
-    "https://live.paloaltonetworks.com/t5/community-blogs/from-visibility-to-installation-ai-agents-for-end-to-end/ba-p/1267323": {
-      "page_url": "https://live.paloaltonetworks.com/t5/community-blogs/from-visibility-to-installation-ai-agents-for-end-to-end/ba-p/1267323",
-      "status": "failed",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
-    },
     "https://thequantuminsider.com/2026/11/02/south-korea-hangang-supercomputer-quantum-integration": {
       "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-02_18-23.png",
       "page_url": "https://thequantuminsider.com/2026/11/02/south-korea-hangang-supercomputer-quantum-integration",
@@ -672,31 +622,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-11-01T03:53:43.959613+00:00",
       "status": "ok"
-    },
-    "https://arxiv.org/abs/2610.41341": {
-      "page_url": "https://arxiv.org/abs/2610.41341",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
-    },
-    "https://arxiv.org/abs/2610.41413": {
-      "page_url": "https://arxiv.org/abs/2610.41413",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
-    },
-    "https://arxiv.org/abs/2610.41055": {
-      "page_url": "https://arxiv.org/abs/2610.41055",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
-    },
-    "https://arxiv.org/abs/2610.41033": {
-      "page_url": "https://arxiv.org/abs/2610.41033",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
-    },
-    "https://arxiv.org/abs/2610.41017": {
-      "page_url": "https://arxiv.org/abs/2610.41017",
-      "status": "unavailable",
-      "fetched_at": "2026-11-06T07:06:28.635692+00:00"
     },
     "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager": {
       "image_url": "https://res.infoq.com/news/2026/10/cf-pq-geokey-manager/en/headerimage/generatedHeaderImage-1793376907936.jpg",
@@ -841,26 +766,65 @@
       "fetched_at": "2026-10-31T03:45:50.786935+00:00",
       "status": "ok"
     },
-    "https://arxiv.org/abs/2611.08200": {
-      "page_url": "https://arxiv.org/abs/2611.08200",
-      "fetched_at": "2026-11-07T06:45:44.135032+00:00",
+    "https://arxiv.org/abs/2611.08442": {
+      "page_url": "https://arxiv.org/abs/2611.08442",
+      "fetched_at": "2026-11-07T07:45:48.421693+00:00",
       "status": "unavailable"
     },
-    "https://eprint.iacr.org/2026/2751": {
-      "page_url": "https://eprint.iacr.org/2026/2751",
-      "fetched_at": "2026-11-07T06:45:44.135032+00:00",
+    "https://arxiv.org/abs/2611.07175": {
+      "page_url": "https://arxiv.org/abs/2611.07175",
+      "fetched_at": "2026-11-07T07:45:48.421693+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.07861": {
+      "page_url": "https://arxiv.org/abs/2611.07861",
+      "fetched_at": "2026-11-07T07:45:48.421693+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.07476": {
+      "page_url": "https://arxiv.org/abs/2611.07476",
+      "fetched_at": "2026-11-07T07:45:48.421693+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.07530": {
+      "page_url": "https://arxiv.org/abs/2611.07530",
+      "fetched_at": "2026-11-07T07:45:48.421693+00:00",
+      "status": "unavailable"
+    },
+    "https://eprint.iacr.org/2026/2753": {
+      "page_url": "https://eprint.iacr.org/2026/2753",
+      "fetched_at": "2026-11-07T07:45:48.421693+00:00",
       "status": "failed",
       "reason": "http_403"
     },
-    "https://eprint.iacr.org/2026/2744": {
-      "page_url": "https://eprint.iacr.org/2026/2744",
-      "fetched_at": "2026-11-07T06:45:44.135032+00:00",
-      "status": "failed",
-      "reason": "http_403"
+    "https://arxiv.org/abs/2611.07440": {
+      "page_url": "https://arxiv.org/abs/2611.07440",
+      "fetched_at": "2026-11-07T07:45:48.421693+00:00",
+      "status": "unavailable"
     },
-    "https://arxiv.org/abs/2611.05722": {
-      "page_url": "https://arxiv.org/abs/2611.05722",
-      "fetched_at": "2026-11-07T06:45:44.135032+00:00",
+    "https://arxiv.org/abs/2501.18158": {
+      "page_url": "https://arxiv.org/abs/2501.18158",
+      "fetched_at": "2026-11-07T07:45:48.421693+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.04075": {
+      "page_url": "https://arxiv.org/abs/2611.04075",
+      "fetched_at": "2026-11-07T07:45:48.421693+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.04526": {
+      "page_url": "https://arxiv.org/abs/2611.04526",
+      "fetched_at": "2026-11-07T07:45:48.421693+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.03788": {
+      "page_url": "https://arxiv.org/abs/2611.03788",
+      "fetched_at": "2026-11-07T07:45:48.421693+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.04876": {
+      "page_url": "https://arxiv.org/abs/2611.04876",
+      "fetched_at": "2026-11-07T07:45:48.421693+00:00",
       "status": "unavailable"
     }
   }
