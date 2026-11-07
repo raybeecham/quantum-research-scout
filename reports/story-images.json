@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T04:45:52.090928+00:00",
+  "updated_at": "2026-11-07T05:46:11.873592+00:00",
   "records": {
     "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors": {
       "page_url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
@@ -50,14 +50,6 @@
     "https://quantumzeitgeist.com/quantum-safe-guidance-monetary-authority-comment": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/monetary-authority-singapore-invites-banks-comment-1200x630.jpeg",
       "page_url": "https://quantumzeitgeist.com/quantum-safe-guidance-monetary-authority-comment",
-      "publisher": "Quantum Zeitgeist",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-07T04:07:03.721589+00:00",
-      "status": "ok"
-    },
-    "https://quantumzeitgeist.com/j-warren-checkpointing-cuts-cost-quantum": {
-      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/checkpointing-cuts-the-cost-of-quantum-safe-industrial-1200x630.png",
-      "page_url": "https://quantumzeitgeist.com/j-warren-checkpointing-cuts-cost-quantum",
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-11-07T04:07:03.721589+00:00",
@@ -207,6 +199,14 @@
       "fetched_at": "2026-11-07T04:07:03.721589+00:00",
       "status": "ok"
     },
+    "https://quantumzeitgeist.com/j-warren-checkpointing-cuts-cost-quantum": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/checkpointing-cuts-the-cost-of-quantum-safe-industrial-1200x630.png",
+      "page_url": "https://quantumzeitgeist.com/j-warren-checkpointing-cuts-cost-quantum",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-07T04:07:03.721589+00:00",
+      "status": "ok"
+    },
     "https://quantumzeitgeist.com/sealsq-techagency-partnership-quantum-guide-firms": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/sealsq-techagency-guide-firms-quantum-shift-1200x630.png",
       "page_url": "https://quantumzeitgeist.com/sealsq-techagency-partnership-quantum-guide-firms",
@@ -278,11 +278,6 @@
       "status": "failed",
       "fetched_at": "2026-11-06T05:47:34.120399+00:00"
     },
-    "https://eprint.iacr.org/2026/2739": {
-      "page_url": "https://eprint.iacr.org/2026/2739",
-      "status": "failed",
-      "fetched_at": "2026-11-06T04:48:34.738993+00:00"
-    },
     "https://eprint.iacr.org/2026/2744": {
       "page_url": "https://eprint.iacr.org/2026/2744",
       "status": "failed",
@@ -293,20 +288,10 @@
       "status": "failed",
       "fetched_at": "2026-11-06T07:06:28.635692+00:00"
     },
-    "https://eprint.iacr.org/2026/2733": {
-      "page_url": "https://eprint.iacr.org/2026/2733",
-      "status": "failed",
-      "fetched_at": "2026-11-06T04:48:34.738993+00:00"
-    },
     "https://arxiv.org/abs/2611.05722": {
       "page_url": "https://arxiv.org/abs/2611.05722",
       "status": "unavailable",
       "fetched_at": "2026-11-06T05:47:34.120399+00:00"
-    },
-    "https://eprint.iacr.org/2026/2741": {
-      "page_url": "https://eprint.iacr.org/2026/2741",
-      "status": "failed",
-      "fetched_at": "2026-11-06T04:48:34.738993+00:00"
     },
     "https://eprint.iacr.org/2026/2752": {
       "page_url": "https://eprint.iacr.org/2026/2752",
@@ -417,16 +402,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-11-02T14:46:25.619339+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2730": {
-      "page_url": "https://eprint.iacr.org/2026/2730",
-      "status": "failed",
-      "fetched_at": "2026-11-06T04:48:34.738993+00:00"
-    },
-    "https://eprint.iacr.org/2026/2731": {
-      "page_url": "https://eprint.iacr.org/2026/2731",
-      "status": "failed",
-      "fetched_at": "2026-11-06T04:48:34.738993+00:00"
     },
     "https://arxiv.org/abs/2611.04075": {
       "page_url": "https://arxiv.org/abs/2611.04075",
@@ -998,6 +973,36 @@
       "page_url": "https://www.usaspending.gov/award/ASST_NON_2613412_049",
       "status": "unavailable",
       "fetched_at": "2026-11-06T08:46:08.285404+00:00"
+    },
+    "https://eprint.iacr.org/2026/2739": {
+      "page_url": "https://eprint.iacr.org/2026/2739",
+      "fetched_at": "2026-11-07T05:46:11.873592+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://eprint.iacr.org/2026/2733": {
+      "page_url": "https://eprint.iacr.org/2026/2733",
+      "fetched_at": "2026-11-07T05:46:11.873592+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://eprint.iacr.org/2026/2741": {
+      "page_url": "https://eprint.iacr.org/2026/2741",
+      "fetched_at": "2026-11-07T05:46:11.873592+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://eprint.iacr.org/2026/2730": {
+      "page_url": "https://eprint.iacr.org/2026/2730",
+      "fetched_at": "2026-11-07T05:46:11.873592+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://eprint.iacr.org/2026/2731": {
+      "page_url": "https://eprint.iacr.org/2026/2731",
+      "fetched_at": "2026-11-07T05:46:11.873592+00:00",
+      "status": "failed",
+      "reason": "http_403"
     }
   }
 }
