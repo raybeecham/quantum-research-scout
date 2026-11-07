@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-07 13:46 UTC_
+_Updated 2026-11-07 14:45 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -74,7 +74,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | IETF Post-Quantum Updates | watch | 100% | 0 | 0 | 2026-11-07 | 2026-08-27 | fresh | 🟢 healthy |
 | InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-11-07 | 2026-10-31 | fresh | 🟢 healthy |
 | Intel Quantum Research | watch | 100% | 0 | 0 | 2026-11-07 | — | reference | 🟢 healthy |
-| IonQ News | rss | 100% | 0 | 0 | 2026-11-07 | 2026-11-05 | fresh | 🟢 healthy |
+| IonQ News | rss | 100% | 0 | 0 | 2026-11-07 | 2026-11-05 | fresh | 🔴 failing |
 | IonQ Technical Blog | watch | 100% | 0 | 0 | 2026-11-07 | 2026-11-04 | fresh | 🟢 healthy |
 | Keyfactor Quantum and Crypto-Agility | watch | 100% | 0 | 0 | 2026-11-07 | 2026-10-29 | fresh | 🟢 healthy |
 | Kubernetes Blog | rss | 100% | 0 | 0 | 2026-11-07 | 2026-10-29 | fresh | 🟢 healthy |
@@ -126,7 +126,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **104** of **108**
+- Healthy sources: **103** of **108**
 - Partial-coverage sources: **0**
 - Critical sources failing: **0**
 
