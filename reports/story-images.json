@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T17:45:52.243605+00:00",
+  "updated_at": "2026-11-08T18:31:50.452281+00:00",
   "records": {
     "https://quantumzeitgeist.com/lets-encrypt-sovereign-tech-investment-fund": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/sovereign-tech-fund-invests-in-lets-encrypts-quantum.png",
@@ -252,25 +252,10 @@
       "fetched_at": "2026-11-06T11:46:08.831842+00:00",
       "status": "ok"
     },
-    "https://eprint.iacr.org/2026/2765": {
-      "page_url": "https://eprint.iacr.org/2026/2765",
-      "status": "failed",
-      "fetched_at": "2026-11-07T17:46:05.610996+00:00"
-    },
     "https://arxiv.org/abs/2611.08200": {
       "page_url": "https://arxiv.org/abs/2611.08200",
       "status": "unavailable",
       "fetched_at": "2026-11-08T06:45:52.550239+00:00"
-    },
-    "https://eprint.iacr.org/2026/2766": {
-      "page_url": "https://eprint.iacr.org/2026/2766",
-      "status": "failed",
-      "fetched_at": "2026-11-07T17:46:05.610996+00:00"
-    },
-    "https://eprint.iacr.org/2026/2767": {
-      "page_url": "https://eprint.iacr.org/2026/2767",
-      "status": "failed",
-      "fetched_at": "2026-11-07T17:46:05.610996+00:00"
     },
     "https://arxiv.org/abs/2611.08442": {
       "page_url": "https://arxiv.org/abs/2611.08442",
@@ -409,11 +394,6 @@
       "status": "failed",
       "fetched_at": "2026-11-08T12:45:59.140986+00:00"
     },
-    "https://arxiv.org/abs/2611.06124": {
-      "page_url": "https://arxiv.org/abs/2611.06124",
-      "status": "unavailable",
-      "fetched_at": "2026-11-07T17:46:05.610996+00:00"
-    },
     "https://arxiv.org/abs/2611.07440": {
       "page_url": "https://arxiv.org/abs/2611.07440",
       "status": "unavailable",
@@ -460,11 +440,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-11-05T16:46:25.407947+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2760": {
-      "page_url": "https://eprint.iacr.org/2026/2760",
-      "status": "failed",
-      "fetched_at": "2026-11-07T17:46:05.610996+00:00"
     },
     "https://quantumzeitgeist.com/government-cipher-vietnam-drafts-standards-fend": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/vietnam-drafts-standards-to-fend-off-future-quantum-1200x630.webp",
@@ -548,11 +523,6 @@
       "page_url": "https://arxiv.org/abs/2611.04128",
       "status": "unavailable",
       "fetched_at": "2026-11-08T08:45:48.407429+00:00"
-    },
-    "https://arxiv.org/abs/2611.04129": {
-      "page_url": "https://arxiv.org/abs/2611.04129",
-      "status": "unavailable",
-      "fetched_at": "2026-11-07T17:46:05.610996+00:00"
     },
     "https://thequantuminsider.com/2026/11/02/idemia-payment-cards-post-quantum-transition": {
       "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-02_13-59.png",
@@ -852,6 +822,40 @@
       "page_url": "https://arxiv.org/abs/2610.41398",
       "status": "unavailable",
       "fetched_at": "2026-11-08T10:46:31.263601+00:00"
+    },
+    "https://eprint.iacr.org/2026/2765": {
+      "page_url": "https://eprint.iacr.org/2026/2765",
+      "fetched_at": "2026-11-08T18:31:50.452281+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://eprint.iacr.org/2026/2766": {
+      "page_url": "https://eprint.iacr.org/2026/2766",
+      "fetched_at": "2026-11-08T18:31:50.452281+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://eprint.iacr.org/2026/2767": {
+      "page_url": "https://eprint.iacr.org/2026/2767",
+      "fetched_at": "2026-11-08T18:31:50.452281+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://arxiv.org/abs/2611.06124": {
+      "page_url": "https://arxiv.org/abs/2611.06124",
+      "fetched_at": "2026-11-08T18:31:50.452281+00:00",
+      "status": "unavailable"
+    },
+    "https://eprint.iacr.org/2026/2760": {
+      "page_url": "https://eprint.iacr.org/2026/2760",
+      "fetched_at": "2026-11-08T18:31:50.452281+00:00",
+      "status": "failed",
+      "reason": "http_403"
+    },
+    "https://arxiv.org/abs/2611.04129": {
+      "page_url": "https://arxiv.org/abs/2611.04129",
+      "fetched_at": "2026-11-08T18:31:50.452281+00:00",
+      "status": "unavailable"
     }
   }
 }
