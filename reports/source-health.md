@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-08 09:46 UTC_
+_Updated 2026-11-08 10:46 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -89,7 +89,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | NIST Research News | watch | 100% | 0 | 0 | 2026-11-08 | 2026-11-02 | fresh | 🟢 healthy |
 | NSF Strategic Science and Technology Missions | watch | 100% | 0 | 0 | 2026-11-08 | 2026-10-08 | stale | 🟢 healthy |
 | Open Quantum Safe | rss | 100% | 0 | 0 | 2026-11-08 | 2026-07-09 | stale | 🟢 healthy |
-| OpenSSL Library Releases | rss | 100% | 0 | 0 | 2026-11-08 | 2026-10-23 | fresh | 🟢 healthy |
+| OpenSSL Library Releases | rss | 100% | 0 | 0 | 2026-11-08 | 2026-10-23 | fresh | 🔴 failing |
 | PQCA Blog and News | rss | 100% | 0 | 0 | 2026-11-08 | 2026-11-02 | fresh | 🟢 healthy |
 | PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-11-08 | 2026-11-04 | fresh | 🟢 healthy |
 | PQShield | rss | 100% | 0 | 0 | 2026-11-08 | 2026-11-04 | fresh | 🟢 healthy |
@@ -126,7 +126,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **104** of **108**
+- Healthy sources: **103** of **108**
 - Partial-coverage sources: **0**
 - Critical sources failing: **0**
 
