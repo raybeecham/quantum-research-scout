@@ -4,16 +4,19 @@
 
 [Entity Watch](entity-watch.md) · [Readiness Scorecards](readiness.md) · [Report Index](README.md)
 
-_Updated 2026-11-01 09:58 UTC_
+_Updated 2026-11-08 09:48 UTC_
 
 This bounded ledger retains up to **730 days** of official-source history. Backfilled records enrich profiles but never create retroactive alerts.
 
 - Evidence: **139** (114 dated; 25 undated)
-- Last run: **136 accepted** from 338 collected
-- Source warnings: **1**
+- Last run: **136 accepted** from 335 collected
+- Source warnings: **2**
 
 | Date | Date basis | Confidence | Source | Evidence | Score |
 |---|---|---|---|---|---:|
+| 2026-11-06 | published | high | Palo Alto Networks LIVEcommunity Blogs | [From Managing Trust to Issuing It: Next-Gen CA in NGTS](https://live.paloaltonetworks.com/t5/community-blogs/from-managing-trust-to-issuing-it-next-gen-ca-in-ngts/ba-p/1267907) | 34 |
+| 2026-11-03 | published | high | Palo Alto Networks LIVEcommunity Blogs | [Delivering More Value to CyberArk Machine Identity SaaS Customers with NGTS](https://live.paloaltonetworks.com/t5/community-blogs/delivering-more-value-to-cyberark-machine-identity-saas/ba-p/1267315) | 26 |
+| 2026-11-02 | published | high | Palo Alto Networks LIVEcommunity Blogs | [From Visibility to Installation: AI Agents for End-to-End Certificate Lifecycle Management in NGTS](https://live.paloaltonetworks.com/t5/community-blogs/from-visibility-to-installation-ai-agents-for-end-to-end/ba-p/1267323) | 18 |
 | 2026-10-29 | unknown | high | IonQ Technical Blog | [IonQ \| Protect Network Corridors Before Native PQC Arrives \| IonQ](https://ionq.com/blog/protecting-the-network-before-the-network-is-ready) | 92 |
 | 2026-10-29 | published | high | Keyfactor Quantum and Crypto-Agility | [AI is Changing the Clock on Cryptography](https://www.keyfactor.com/blog/ai-is-changing-the-clock-on-cryptography/) | 26 |
 | 2026-10-27 | published | high | NIST Research News | [NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards](https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography) | 100 |
@@ -43,14 +46,11 @@ This bounded ledger retains up to **730 days** of official-source history. Backf
 | 2026-09-28 | published | high | Cisco Quantum-Safe Updates | [Automating Post-Quantum IPsec on Cisco Routers - IPsec Series, Part 12](https://blogs.cisco.com/cisco-devnet/automating-post-quantum-ipsec-on-cisco-routers-ipsec-series-part-12) | 158 |
 | 2026-09-24 | unknown | high | IonQ Technical Blog | [IonQ \| Quantum Change Detection on Satellite Radar Data](https://ionq.com/blog/from-signal-to-insight-evaluating-quantum-generative-models-on-real-satellite-radar) | 36 |
 | 2026-09-24 | published | high | ETSI Quantum Standards News | [ETSI helps manufacturers improve quantum random number generators - ETSI](https://www.etsi.org/newsroom/press-releases/etsis-identifies-limitations-of-quantum-random-number-generators/) | 16 |
-| 2026-09-23 | published | high | Palo Alto Networks LIVEcommunity Blogs | [Automated Certificate Lifecycle Management Available Soon in FedRAMP Moderate Strata Cloud Manager](https://live.paloaltonetworks.com/t5/community-blogs/automated-certificate-lifecycle-management-available-soon-in/ba-p/1264902) | 42 |
 | 2026-09-22 | unknown | high | QuEra Press Releases | [QuEra and HPE Bring Fault-Tolerant Quantum to On-Prem HPC](https://www.quera.com/press-releases/quera-computing-collaborates-with-hpe-to-bring-fault-tolerant-quantum-computing-to-on-premises-hpc-environments) | 89 |
-| 2026-09-22 | unknown | high | Microsoft Quantum Blog | [Microsoft Quantum \| The scalable logical qubits that will enable utility-scale quantum computing](https://quantum.microsoft.com/en-us/insights/blogs/scalable-logical-qubits) | 75 |
+| 2026-09-22 | published | high | Microsoft Quantum Blog | [Microsoft Quantum \| The scalable logical qubits that will enable utility-scale quantum computing](https://quantum.microsoft.com/en-us/insights/blogs/scalable-logical-qubits) | 75 |
 | 2026-09-22 | published | high | QuSecure Press Releases | [QuSecure Recognized in the Gartner® Coolest Vendor Innovations in Data Security Report for its Post-Quantum Cryptography Solution](https://www.qusecure.com/qusecure-gartner-cool-vendor-data-security/) | 50 |
 | 2026-09-18 | unknown | high | IonQ Technical Blog | [IonQ \| Innovating, Manufacturing, and Scaling: Highlights from IonQ Investor Day 2026](https://ionq.com/blog/innovating-manufacturing-and-scaling-highlights-from-ionq-investor-day-2026) | 96 |
 | 2026-09-16 | unknown | high | IonQ Technical Blog | [IonQ \| PQC Migration Timelines: The Four Clocks That Don't Agree](https://ionq.com/blog/the-four-clocks-of-pqc-migration-and-why-they-dont-agree) | 42 |
-| 2026-09-15 | published | high | IBM Research Quantum and Cryptography | [From error mitigation to fault-tolerant quantum computing](https://research.ibm.com/blog/qec-continuum?utm_medium=rss&utm_source=rss) | 129 |
-| 2026-09-15 | published | high | IBM Research Quantum and Cryptography | [A theoretical separation between quantum computers & LLMs](https://research.ibm.com/blog/quantum-circuits-vs-llms?utm_medium=rss&utm_source=rss) | 32 |
 | 2026-09-10 | published | high | NIST Research News | [NIST-Developed Quantum Sensors Improve Nuclear Monitoring](https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring) | 100 |
 | 2026-09-02 | published | high | QuSecure Press Releases | [QuSecure Delivers Field-Ready Post-Quantum Cryptography and Crypto-Agility for U.S. Army at Project Convergence Capstone 6](https://www.qusecure.com/qusecure-army-project-convergence-capstone-6-trl-7/) | 118 |
 | 2026-09-01 | published | high | Cisco Quantum-Safe Updates | [Post-Quantum Key Exchange on Cisco Routers - IPsec Series, Part 9](https://blogs.cisco.com/cisco-devnet/post-quantum-key-exchange-on-cisco-routers-ipsec-series-part-9) | 106 |
@@ -118,3 +118,4 @@ This bounded ledger retains up to **730 days** of official-source history. Backf
 ## Collection Warnings
 
 - **Google Quantum AI**: All discovery methods failed: HTML page returned no matching entries.
+- **Department of War Strategic Technology News**: All discovery methods failed: RSS returned no matching entries; HTML discovery failed: Failed to fetch https://www.war.gov/News/News-Stories/: 403 Client Error: Forbidden for url: https://www.war.gov/News/News-Stories/

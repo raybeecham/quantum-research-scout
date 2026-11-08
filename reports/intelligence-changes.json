@@ -280,73 +280,10 @@
   ],
   "added": [],
   "baseline_initialized": false,
-  "changed": [
-    {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-1a9e6dcf478cc634",
-      "confidence": "medium",
-      "effective_date": "2026-11-08",
-      "first_observed_at": "2026-11-06T06:54:48.602420+00:00",
-      "last_observed_at": "2026-11-08T03:47:01.184790+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "qualify",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-247b2490e698b6a3",
-          "locator": "qualification_gate",
-          "title": "Golden Dome for America Commercial Solutions Opening",
-          "url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f381b6501c710d8b",
-          "locator": "qualification_gate",
-          "title": "Golden Dome for America Commercial Solutions Opening",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3169bbd17d6f8d59",
-          "locator": "qualification_gate",
-          "title": "Golden Dome for America Commercial Solutions Opening",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fd59850985794279860e819fcc0174dd/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "Golden Dome for America Commercial Solutions Opening",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6150c7f02584434a9ea90adeb8260b15",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:HQ0202-26-S-0001",
-        "label": "Golden Dome for America Commercial Solutions Opening",
-        "node_id": "opportunity:sam_gov:HQ0202-26-S-0001",
-        "node_type": "opportunity"
-      },
-      "value": "qualify"
-    }
-  ],
+  "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-11-08T03:47:01.184790+00:00",
-  "comparison_started_at": "2026-11-07T04:01:16.987059+00:00",
+  "comparison_ended_at": "2026-11-08T09:48:23.270169+00:00",
+  "comparison_started_at": "2026-11-08T03:47:01.184790+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1262,19 +1199,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-11-07T04:01:16.987059+00:00",
+  "since": "2026-11-08T03:47:01.184790+00:00",
   "summary": {
     "active_claims": 5146,
     "added": 0,
-    "changed": 1,
+    "changed": 0,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 28,
+    "material_changes": 27,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-11-08T03:47:01.184790+00:00",
+  "updated_at": "2026-11-08T09:48:23.270169+00:00",
   "version": 1
 }

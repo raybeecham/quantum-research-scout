@@ -3,6 +3,197 @@
   "opportunities": [
     {
       "active": "Yes",
+      "agency": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
+      "changed_document": false,
+      "classification_code": null,
+      "contacts": [
+        {
+          "email": "innovationiwm@gsa.gov",
+          "full_name": "Vivian Panagakis",
+          "phone": "",
+          "title": "",
+          "type": "primary"
+        },
+        {
+          "email": "innovationiwm@gsa.gov",
+          "full_name": "Samuel Barksdale",
+          "phone": "",
+          "title": "",
+          "type": "secondary"
+        }
+      ],
+      "current_snapshot": {
+        "document_version_ids": [
+          "version:a6a9d4c9624d68afd745",
+          "version:b736cdfc5c8ae442e987"
+        ],
+        "evidence_units": [],
+        "history_completeness": "tracker_observed",
+        "metadata": {
+          "active": {
+            "authority": "official_sam_metadata",
+            "category": "status",
+            "claim_id": "claim:a44706e3095c27ede300",
+            "controlling_status": "analyst_verification_required",
+            "source": {
+              "locator": {
+                "field": "active"
+              },
+              "opportunity_key": "sam_gov:1106202612072026",
+              "retrieved_at": "2026-11-08T09:48:23.270169+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
+            },
+            "value": "Yes"
+          },
+          "deadline": {
+            "authority": "official_sam_metadata",
+            "category": "deadline",
+            "claim_id": "claim:df54f707bade209121d8",
+            "controlling_status": "analyst_verification_required",
+            "source": {
+              "locator": {
+                "field": "deadline"
+              },
+              "opportunity_key": "sam_gov:1106202612072026",
+              "retrieved_at": "2026-11-08T09:48:23.270169+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
+            },
+            "value": "2026-12-07T23:59:00-05:00"
+          },
+          "status": {
+            "authority": "official_sam_metadata",
+            "category": "status",
+            "claim_id": "claim:2ecd6c3922c84cdd9dd4",
+            "controlling_status": "analyst_verification_required",
+            "source": {
+              "locator": {
+                "field": "status"
+              },
+              "opportunity_key": "sam_gov:1106202612072026",
+              "retrieved_at": "2026-11-08T09:48:23.270169+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
+            },
+            "value": "open"
+          }
+        },
+        "observed_at": "2026-11-08T09:48:23.270169+00:00",
+        "snapshot_id": "snapshot:7aed659a315ac16662e8"
+      },
+      "days_to_close": 29,
+      "deadline": "2026-12-07T23:59:00-05:00",
+      "deadline_mentions": [],
+      "deliverables": [],
+      "document_completeness_score": 0,
+      "documents": [
+        {
+          "active": true,
+          "byte_count": 12769,
+          "cache_status": "unavailable",
+          "content_type": "application/octet-stream",
+          "current_version_id": "version:a6a9d4c9624d68afd745",
+          "deadline_mentions": [],
+          "deliverables": [],
+          "document_id": "document:bbfc6359c9ea6597c897",
+          "document_role": "attachment",
+          "eligibility": [],
+          "emails": [],
+          "error": "No download client or run download budget available",
+          "evaluation_criteria": [],
+          "extraction_status": "no_text",
+          "fetched_at": "2026-11-07T04:01:16.987059+00:00",
+          "format": "xlsx",
+          "is_amendment": false,
+          "is_changed": false,
+          "name": "download",
+          "new_amendment": false,
+          "phones": [],
+          "requirements": [],
+          "sha256": "fd5a0c338c458ab79e21f3748aeab856beaa55216d77c09f66abcd201b4a1127",
+          "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "submission_instructions": [],
+          "unsupported_format": true,
+          "versions": [
+            {
+              "content_sha256": "fd5a0c338c458ab79e21f3748aeab856beaa55216d77c09f66abcd201b4a1127",
+              "document_role": "attachment",
+              "evidence_units": [],
+              "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
+              "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
+              "version_id": "version:a6a9d4c9624d68afd745"
+            }
+          ]
+        },
+        {
+          "active": true,
+          "byte_count": 4376,
+          "cache_status": "unavailable",
+          "content_type": "application/hal+json",
+          "current_version_id": "version:b736cdfc5c8ae442e987",
+          "deadline_mentions": [],
+          "deliverables": [],
+          "document_id": "document:0dfefc427f8d26093cf4",
+          "document_role": "attachment",
+          "eligibility": [],
+          "emails": [],
+          "error": "No download client or run download budget available",
+          "evaluation_criteria": [],
+          "extraction_status": "no_text",
+          "fetched_at": "2026-11-07T04:01:16.987059+00:00",
+          "format": "application/hal+json",
+          "is_amendment": false,
+          "is_changed": false,
+          "name": "noticedesc",
+          "new_amendment": false,
+          "phones": [],
+          "requirements": [],
+          "sha256": "f48c830f77c8bb82b0a5cb2ff57dd086c9ad20cdc6b6e6e6237f69b4425019a0",
+          "source_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
+          "submission_instructions": [],
+          "unsupported_format": true,
+          "versions": [
+            {
+              "content_sha256": "f48c830f77c8bb82b0a5cb2ff57dd086c9ad20cdc6b6e6e6237f69b4425019a0",
+              "document_role": "attachment",
+              "evidence_units": [],
+              "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
+              "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
+              "version_id": "version:b736cdfc5c8ae442e987"
+            }
+          ]
+        }
+      ],
+      "eligibility": [],
+      "emails": [],
+      "evaluation_criteria": [],
+      "latest_amendment_impact": null,
+      "mission_links": [],
+      "naics_code": null,
+      "new_amendment": false,
+      "notice_id": null,
+      "notice_type": null,
+      "opportunity_key": "sam_gov:1106202612072026",
+      "opportunity_score": 44,
+      "phones": [],
+      "requirements": [],
+      "set_aside": "",
+      "snapshot_history": [],
+      "solicitation_number": null,
+      "source_urls": [
+        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
+      ],
+      "status": "open",
+      "submission_instructions": [],
+      "technology_domains": [
+        "quantum",
+        "post-quantum cryptography",
+        "cybersecurity"
+      ],
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
+    },
+    {
+      "active": "Yes",
       "agency": "DEPT OF DEFENSE.IMMEDIATE OFFICE OF THE SECRETARY OF DEFENSE.DIRECTOR OF GOLDEN DOME",
       "changed_document": false,
       "classification_code": null,
@@ -995,7 +1186,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:HQ0202-26-S-0001",
-              "retrieved_at": "2026-11-08T03:47:01.184790+00:00",
+              "retrieved_at": "2026-11-08T09:48:23.270169+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
             },
             "value": "Yes"
@@ -1010,7 +1201,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:HQ0202-26-S-0001",
-              "retrieved_at": "2026-11-08T03:47:01.184790+00:00",
+              "retrieved_at": "2026-11-08T09:48:23.270169+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
             },
             "value": "2031-04-01T23:59:00-04:00"
@@ -1025,7 +1216,7 @@
                 "field": "set_aside"
               },
               "opportunity_key": "sam_gov:HQ0202-26-S-0001",
-              "retrieved_at": "2026-11-08T03:47:01.184790+00:00",
+              "retrieved_at": "2026-11-08T09:48:23.270169+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
             },
             "value": "No Set aside used"
@@ -1040,13 +1231,13 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:HQ0202-26-S-0001",
-              "retrieved_at": "2026-11-08T03:47:01.184790+00:00",
+              "retrieved_at": "2026-11-08T09:48:23.270169+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-11-08T03:47:01.184790+00:00",
+        "observed_at": "2026-11-08T09:48:23.270169+00:00",
         "snapshot_id": "snapshot:253c2371821b36951b27"
       },
       "days_to_close": 1605,
@@ -1069,7 +1260,7 @@
         {
           "active": true,
           "byte_count": 346272,
-          "cache_status": "refreshed",
+          "cache_status": "fresh",
           "characters_extracted": 21520,
           "content_type": "application/octet-stream",
           "current_version_id": "version:c92d71634023dead76cb",
@@ -1704,7 +1895,7 @@
         {
           "active": true,
           "byte_count": 217013,
-          "cache_status": "refreshed",
+          "cache_status": "fresh",
           "characters_extracted": 17396,
           "content_type": "application/octet-stream",
           "current_version_id": "version:de29a7e752bb9327fd9f",
@@ -2171,7 +2362,7 @@
         {
           "active": true,
           "byte_count": 3440,
-          "cache_status": "refreshed",
+          "cache_status": "fresh",
           "content_type": "application/hal+json",
           "current_version_id": "version:91db374496ef9f52b09d",
           "deadline_mentions": [],
@@ -2355,195 +2546,6 @@
       "technology_domains": [],
       "title": "Golden Dome for America Commercial Solutions Opening",
       "url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
-    },
-    {
-      "active": "Yes",
-      "agency": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
-      "changed_document": false,
-      "classification_code": null,
-      "contacts": [
-        {
-          "email": "innovationiwm@gsa.gov",
-          "full_name": "Vivian Panagakis",
-          "phone": "",
-          "title": "",
-          "type": "primary"
-        },
-        {
-          "email": "innovationiwm@gsa.gov",
-          "full_name": "Samuel Barksdale",
-          "phone": "",
-          "title": "",
-          "type": "secondary"
-        }
-      ],
-      "current_snapshot": {
-        "document_version_ids": [
-          "version:a6a9d4c9624d68afd745",
-          "version:b736cdfc5c8ae442e987"
-        ],
-        "evidence_units": [],
-        "history_completeness": "tracker_observed",
-        "metadata": {
-          "active": {
-            "authority": "official_sam_metadata",
-            "category": "status",
-            "claim_id": "claim:a44706e3095c27ede300",
-            "controlling_status": "analyst_verification_required",
-            "source": {
-              "locator": {
-                "field": "active"
-              },
-              "opportunity_key": "sam_gov:1106202612072026",
-              "retrieved_at": "2026-11-08T03:47:01.184790+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
-            },
-            "value": "Yes"
-          },
-          "deadline": {
-            "authority": "official_sam_metadata",
-            "category": "deadline",
-            "claim_id": "claim:df54f707bade209121d8",
-            "controlling_status": "analyst_verification_required",
-            "source": {
-              "locator": {
-                "field": "deadline"
-              },
-              "opportunity_key": "sam_gov:1106202612072026",
-              "retrieved_at": "2026-11-08T03:47:01.184790+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
-            },
-            "value": "2026-12-07T23:59:00-05:00"
-          },
-          "status": {
-            "authority": "official_sam_metadata",
-            "category": "status",
-            "claim_id": "claim:2ecd6c3922c84cdd9dd4",
-            "controlling_status": "analyst_verification_required",
-            "source": {
-              "locator": {
-                "field": "status"
-              },
-              "opportunity_key": "sam_gov:1106202612072026",
-              "retrieved_at": "2026-11-08T03:47:01.184790+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
-            },
-            "value": "open"
-          }
-        },
-        "observed_at": "2026-11-08T03:47:01.184790+00:00",
-        "snapshot_id": "snapshot:7aed659a315ac16662e8"
-      },
-      "days_to_close": 29,
-      "deadline": "2026-12-07T23:59:00-05:00",
-      "deadline_mentions": [],
-      "deliverables": [],
-      "document_completeness_score": 0,
-      "documents": [
-        {
-          "active": true,
-          "byte_count": 12769,
-          "cache_status": "fresh",
-          "content_type": "application/octet-stream",
-          "current_version_id": "version:a6a9d4c9624d68afd745",
-          "deadline_mentions": [],
-          "deliverables": [],
-          "document_id": "document:bbfc6359c9ea6597c897",
-          "document_role": "attachment",
-          "eligibility": [],
-          "emails": [],
-          "evaluation_criteria": [],
-          "extraction_status": "no_text",
-          "fetched_at": "2026-11-07T04:01:16.987059+00:00",
-          "format": "xlsx",
-          "is_amendment": false,
-          "is_changed": false,
-          "name": "download",
-          "new_amendment": false,
-          "phones": [],
-          "requirements": [],
-          "sha256": "fd5a0c338c458ab79e21f3748aeab856beaa55216d77c09f66abcd201b4a1127",
-          "source_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
-          "submission_instructions": [],
-          "unsupported_format": true,
-          "versions": [
-            {
-              "content_sha256": "fd5a0c338c458ab79e21f3748aeab856beaa55216d77c09f66abcd201b4a1127",
-              "document_role": "attachment",
-              "evidence_units": [],
-              "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
-              "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
-              "version_id": "version:a6a9d4c9624d68afd745"
-            }
-          ]
-        },
-        {
-          "active": true,
-          "byte_count": 4376,
-          "cache_status": "fresh",
-          "content_type": "application/hal+json",
-          "current_version_id": "version:b736cdfc5c8ae442e987",
-          "deadline_mentions": [],
-          "deliverables": [],
-          "document_id": "document:0dfefc427f8d26093cf4",
-          "document_role": "attachment",
-          "eligibility": [],
-          "emails": [],
-          "evaluation_criteria": [],
-          "extraction_status": "no_text",
-          "fetched_at": "2026-11-07T04:01:16.987059+00:00",
-          "format": "application/hal+json",
-          "is_amendment": false,
-          "is_changed": false,
-          "name": "noticedesc",
-          "new_amendment": false,
-          "phones": [],
-          "requirements": [],
-          "sha256": "f48c830f77c8bb82b0a5cb2ff57dd086c9ad20cdc6b6e6e6237f69b4425019a0",
-          "source_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
-          "submission_instructions": [],
-          "unsupported_format": true,
-          "versions": [
-            {
-              "content_sha256": "f48c830f77c8bb82b0a5cb2ff57dd086c9ad20cdc6b6e6e6237f69b4425019a0",
-              "document_role": "attachment",
-              "evidence_units": [],
-              "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
-              "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
-              "version_id": "version:b736cdfc5c8ae442e987"
-            }
-          ]
-        }
-      ],
-      "eligibility": [],
-      "emails": [],
-      "evaluation_criteria": [],
-      "latest_amendment_impact": null,
-      "mission_links": [],
-      "naics_code": null,
-      "new_amendment": false,
-      "notice_id": null,
-      "notice_type": null,
-      "opportunity_key": "sam_gov:1106202612072026",
-      "opportunity_score": 44,
-      "phones": [],
-      "requirements": [],
-      "set_aside": "",
-      "snapshot_history": [],
-      "solicitation_number": null,
-      "source_urls": [
-        "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
-        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
-      ],
-      "status": "open",
-      "submission_instructions": [],
-      "technology_domains": [
-        "quantum",
-        "post-quantum cryptography",
-        "cybersecurity"
-      ],
-      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
     }
   ],
   "scope_note": "Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.",
@@ -2558,6 +2560,6 @@
     "new_amendments": 0,
     "opportunities_reviewed": 2
   },
-  "updated_at": "2026-11-08T03:47:01.184790+00:00",
+  "updated_at": "2026-11-08T09:48:23.270169+00:00",
   "version": 2
 }
