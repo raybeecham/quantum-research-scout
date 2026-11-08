@@ -2,21 +2,19 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-11-07T04:01:16.987059+00:00_
+_Updated 2026-11-08T03:47:01.184790+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **5**
+- Actual or recent changes: **0**
 - Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **12**
 
 ## Priority timeline
 
-- **Published today** · Post Quantum Cryptography (PQC) Readiness and Validation Status — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view))
-  - The source publication date is today or within the prior day.
-- **Published 2 days ago** · MASSACHUSETTS INSTITUTE OF TECHNOLOGY — has related patent ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/19744969/application-data))
-  - A recently published source was newly incorporated into the ledger.
+- **Evidence trace changed** · Golden Dome for America Commercial Solutions Opening — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view))
+  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

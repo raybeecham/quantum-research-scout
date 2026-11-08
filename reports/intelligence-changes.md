@@ -2,27 +2,23 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-11-07T04:01:16.987059+00:00_
+_Updated 2026-11-08T03:47:01.184790+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **32**
-- Added / changed / resolved: **5 / 0 / 27**
+- Material changes: **28**
+- Added / changed / resolved: **0 / 1 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- None.
+- **Golden Dome for America Commercial Solutions Opening** — qualification gate: qualify ([evidence](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view))
 
 ## New claims
 
-- **MASSACHUSETTS INSTITUTE OF TECHNOLOGY** — has related patent: — ([evidence](https://data.uspto.gov/patent-file-wrapper/search/details/19744969/application-data))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — deadline: 2026-12-07T23:59:00-05:00 ([evidence](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — awarding agency: GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT ([evidence](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — qualification gate: targeted review ([evidence](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view))
+- None.
 
 ## Superseded claims
 

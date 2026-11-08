@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-07 04:06 UTC_
+_Updated 2026-11-08 03:53 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 45 | 4 | 9 | 6 | 30 |
+| 50 | 6 | 12 | 7 | 31 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -42,7 +42,7 @@ _Updated 2026-11-07 04:06 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Networking has critical strategic importance and stable momentum.
+- 🔴 Quantum Networking has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Sensing
@@ -70,39 +70,68 @@ _Updated 2026-11-07 04:06 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 45.2% reliability with 6 warning day(s).
+- 🔴 42.4% reliability with 7 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Actionable signal: Quantum Software / Tooling 🆕
+## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 62.5% reliability with 9 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv Quantum Computing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 62.5% reliability with 9 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv Quantum Networking and Sensing 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 64.1% reliability with 9 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Actionable signal: Quantum Software / Tooling
 
 - Severity: **high**
 - Status: **actionable**
 - 🎯 Quantum Software / Tooling is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Standards / Government 🆕
+## 🟠 Actionable signal: Standards / Government
 
 - Severity: **high**
 - Status: **actionable**
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 New high-priority federal opportunity: Golden Dome for America Commercial Solutions Opening
+## 🟠 Changed: Golden Dome for America Commercial Solutions Opening 🆕
 
 - Severity: **high**
-- Status: **new-opportunity**
-- Radar score 68 · Review technical fit, eligibility, and submission requirements.
+- Status: **changed**
+- qualification gate · authority analytical · qualify
 - [Open direct evidence](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view)
-- [Open supporting view](federal-funding.md)
+- [Open supporting view](intelligence-changes.md)
 
-## 🟠 Rising momentum: Quantum Software / Tooling 🆕
+## 🟠 Product Launch: IonQ 🆕
+
+- Severity: **high**
+- Status: **product-launch**
+- IonQ matched a product launch event: South Korea Launches 614 PFLOPS Hangang Supercomputer Ahead of May 2027 IonQ Quantum Link
+- [Open direct evidence](https://quantumcomputingreport.com/south-korea-launches-614-pflops-hangang-supercomputer-ahead-of-may-2027-ionq-quantum-link)
+- [Open supporting view](entity-watch.md)
+
+## 🟠 Rising momentum: Quantum Software / Tooling
 
 - Severity: **high**
 - Status: **rising**
 - ↗️ Recent evidence is 3 versus 1 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Standards / Government 🆕
+## 🟠 Rising momentum: Standards / Government
 
 - Severity: **high**
 - Status: **rising**
@@ -136,6 +165,13 @@ _Updated 2026-11-07 04:06 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-29; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Department of War Strategic Technology News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-10-23; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: ETSI Quantum Standards News

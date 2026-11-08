@@ -278,161 +278,50 @@
       ]
     }
   ],
-  "added": [
+  "added": [],
+  "baseline_initialized": false,
+  "changed": [
     {
       "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-12e5924711237567",
-      "confidence": "high",
-      "effective_date": null,
-      "first_observed_at": "2026-11-07T04:01:16.987059+00:00",
-      "last_observed_at": "2026-11-07T04:01:16.987059+00:00",
-      "object": {
-        "identifier": "US20260352345A1",
-        "label": "Resource-efficient coherent optical frequency transfer for distributed quantum computing and the quantum internet of things",
-        "node_id": "patent:US20260352345A1",
-        "node_type": "patent"
-      },
-      "predicate": "has_related_patent",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-821b4cfea23c31e2",
-          "locator": "has_related_patent:patent:US20260352345A1",
-          "title": "Resource-efficient coherent optical frequency transfer for distributed quantum computing and the quantum internet of things",
-          "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19744969/application-data",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "uei:E2NYLCDML6V1",
-        "label": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
-        "node_id": "recipient_or_contractor:uei:E2NYLCDML6V1",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": null
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3d88cbbba09dbac8",
-      "confidence": "high",
-      "effective_date": "2026-11-06",
-      "first_observed_at": "2026-11-07T04:01:16.987059+00:00",
-      "last_observed_at": "2026-11-07T04:01:16.987059+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-b6582720a0446ad0",
-          "locator": "opportunity_status:open",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "value": "open"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-ac611233cb50f2ba",
-      "confidence": "high",
-      "effective_date": "2026-11-06",
-      "first_observed_at": "2026-11-07T04:01:16.987059+00:00",
-      "last_observed_at": "2026-11-07T04:01:16.987059+00:00",
-      "object": null,
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-412858b7c6c5f36d",
-          "locator": "deadline:2026-12-07t23:59:00-05:00",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "value": "2026-12-07T23:59:00-05:00"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3fa667a5192a67f7",
-      "confidence": "high",
-      "effective_date": "2026-11-06",
-      "first_observed_at": "2026-11-07T04:01:16.987059+00:00",
-      "last_observed_at": "2026-11-07T04:01:16.987059+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e4fb939abea90ef0",
-          "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "value": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-2819bf22431f6cc4",
+      "change_type": "changed",
+      "claim_id": "claim-1a9e6dcf478cc634",
       "confidence": "medium",
-      "effective_date": "2026-11-07",
-      "first_observed_at": "2026-11-07T04:01:16.987059+00:00",
-      "last_observed_at": "2026-11-07T04:01:16.987059+00:00",
+      "effective_date": "2026-11-08",
+      "first_observed_at": "2026-11-06T06:54:48.602420+00:00",
+      "last_observed_at": "2026-11-08T03:47:01.184790+00:00",
       "object": null,
       "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "qualify",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-568c7feab6ac7056",
+          "evidence_id": "evidence-247b2490e698b6a3",
           "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+          "title": "Golden Dome for America Commercial Solutions Opening",
+          "url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view",
           "verification_status": "source_reported"
         },
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-27179ad3aaea8d8e",
+          "evidence_id": "evidence-f381b6501c710d8b",
           "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "title": "Golden Dome for America Commercial Solutions Opening",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3169bbd17d6f8d59",
+          "locator": "qualification_gate",
+          "title": "Golden Dome for America Commercial Solutions Opening",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fd59850985794279860e819fcc0174dd/download",
           "verification_status": "source_reported"
         },
         {
@@ -441,25 +330,23 @@
           "controlling_status": "not_asserted",
           "evidence_id": "evidence-075bdcb08b78b6b5",
           "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
+          "title": "Golden Dome for America Commercial Solutions Opening",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6150c7f02584434a9ea90adeb8260b15",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
+        "identifier": "sam_gov:HQ0202-26-S-0001",
+        "label": "Golden Dome for America Commercial Solutions Opening",
+        "node_id": "opportunity:sam_gov:HQ0202-26-S-0001",
         "node_type": "opportunity"
       },
-      "value": "targeted review"
+      "value": "qualify"
     }
   ],
-  "baseline_initialized": false,
-  "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-11-07T04:01:16.987059+00:00",
-  "comparison_started_at": "2026-11-06T06:54:48.602420+00:00",
+  "comparison_ended_at": "2026-11-08T03:47:01.184790+00:00",
+  "comparison_started_at": "2026-11-07T04:01:16.987059+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1375,19 +1262,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-11-06T06:54:48.602420+00:00",
+  "since": "2026-11-07T04:01:16.987059+00:00",
   "summary": {
     "active_claims": 5146,
-    "added": 5,
-    "changed": 0,
+    "added": 0,
+    "changed": 1,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 32,
+    "material_changes": 28,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-11-07T04:01:16.987059+00:00",
+  "updated_at": "2026-11-08T03:47:01.184790+00:00",
   "version": 1
 }

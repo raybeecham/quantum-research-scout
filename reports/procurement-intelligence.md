@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-11-07T04:01:16.987059+00:00_
+_Updated 2026-11-08T03:47:01.184790+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
@@ -12,13 +12,6 @@ Bounded extraction of public procurement attachments and descriptions linked by 
 - New amendments: **0**
 - Material amendment impacts this run: **0**
 - Decisions requiring revalidation: **1**
-
-## [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view)
-
-Evidence completeness: **0 / 100** · Deadline: **2026-12-07T23:59:00-05:00**
-
-- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download) — no_text
-- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710) — no_text
 
 ## [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view)
 
@@ -34,6 +27,13 @@ Requirements evidence:
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download) — extracted
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fd59850985794279860e819fcc0174dd/download) — extracted
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6150c7f02584434a9ea90adeb8260b15) — no_text
+
+## [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view)
+
+Evidence completeness: **0 / 100** · Deadline: **2026-12-07T23:59:00-05:00**
+
+- [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download) — no_text
+- [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710) — no_text
 
 ## Method
 

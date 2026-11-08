@@ -3433,12 +3433,57 @@
           "source": "Quantum Zeitgeist",
           "title": "Quantum-proof cryptography is a vendor\u2019s problem, says CISA",
           "url": "https://quantumzeitgeist.com/quantum-proof-cryptography-vendors-problem-cisa"
+        },
+        {
+          "date": "2026-11-07",
+          "key": "https://quantumzeitgeist.com/scanosss-earnie-maps-crypto-code",
+          "report": "2026-11/2026-11-07-digest.md",
+          "score": 47,
+          "source": "Quantum Zeitgeist",
+          "title": "SCANOSS\u2019s Earnie maps crypto in code, flags quantum risks",
+          "url": "https://quantumzeitgeist.com/scanosss-earnie-maps-crypto-code"
+        },
+        {
+          "date": "2026-11-07",
+          "key": "https://quantumzeitgeist.com/ethereum-post-quantum-iot-data-batching",
+          "report": "2026-11/2026-11-07-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "title": "Batching signatures lowers the cost of post-quantum IoT data on Ethereum",
+          "url": "https://quantumzeitgeist.com/ethereum-post-quantum-iot-data-batching"
+        },
+        {
+          "date": "2026-11-07",
+          "key": "https://quantumzeitgeist.com/lets-encrypt-sovereign-tech-investment-fund",
+          "report": "2026-11/2026-11-07-digest.md",
+          "score": 67,
+          "source": "Quantum Zeitgeist",
+          "title": "Sovereign Tech Fund invests in Let\u2019s Encrypt\u2019s quantum-resistant infrastructure",
+          "url": "https://quantumzeitgeist.com/lets-encrypt-sovereign-tech-investment-fund"
+        },
+        {
+          "date": "2026-11-07",
+          "key": "https://quantumzeitgeist.com/equip-quantum-safe-cryptography-european-project",
+          "report": "2026-11/2026-11-07-digest.md",
+          "score": 93,
+          "source": "Quantum Zeitgeist",
+          "title": "European project aims to harden quantum-safe cryptography against attack",
+          "url": "https://quantumzeitgeist.com/equip-quantum-safe-cryptography-european-project"
+        },
+        {
+          "date": "2026-11-07",
+          "key": "https://quantumcomputingreport.com/hkma-and-hkust-launch-pqc-toolkit-to-accelerate-banking-sector-transition-by-2030",
+          "report": "2026-11/2026-11-07-digest.md",
+          "score": 126,
+          "source": "Quantum Computing Report",
+          "title": "HKMA and HKUST Launch PQC Toolkit to Accelerate Banking Sector Transition by 2030",
+          "url": "https://quantumcomputingreport.com/hkma-and-hkust-launch-pqc-toolkit-to-accelerate-banking-sector-transition-by-2030"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-11-06",
+      "latest_seen": "2026-11-07",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -3448,7 +3493,7 @@
         "Quantum Computing Report"
       ],
       "prior_count": 20,
-      "recent_count": 19,
+      "recent_count": 21,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -7811,12 +7856,39 @@
           "source": "The Quantum Insider",
           "title": "Pasqal Reports Third-Quarter Revenue Decline as QPU Services Revenue Grows",
           "url": "https://thequantuminsider.com/2026/11/06/pasqal-q3-revenue-decline-services-growth"
+        },
+        {
+          "date": "2026-11-07",
+          "key": "https://quantumcomputingreport.com/ibm-deploys-quantum-system-two-at-hyde-park-labs-to-anchor-illinois-quantum-ecosystem",
+          "report": "2026-11/2026-11-07-digest.md",
+          "score": 22,
+          "source": "Quantum Computing Report",
+          "title": "IBM Deploys Quantum System Two at Hyde Park Labs to Anchor Illinois Quantum Ecosystem",
+          "url": "https://quantumcomputingreport.com/ibm-deploys-quantum-system-two-at-hyde-park-labs-to-anchor-illinois-quantum-ecosystem"
+        },
+        {
+          "date": "2026-11-07",
+          "key": "https://quantumcomputingreport.com/adelaide-university-engineers-synthetic-area-spread-to-unlock-high-sensitivity-absolute-quantum-magnetometers",
+          "report": "2026-11/2026-11-07-digest.md",
+          "score": 24,
+          "source": "Quantum Computing Report",
+          "title": "Adelaide University Engineers Synthetic Area Spread to Unlock High-Sensitivity Absolute Quantum Magnetometers",
+          "url": "https://quantumcomputingreport.com/adelaide-university-engineers-synthetic-area-spread-to-unlock-high-sensitivity-absolute-quantum-magnetometers"
+        },
+        {
+          "date": "2026-11-07",
+          "key": "https://quantumcomputingreport.com/south-korea-launches-614-pflops-hangang-supercomputer-ahead-of-may-2027-ionq-quantum-link",
+          "report": "2026-11/2026-11-07-digest.md",
+          "score": 28,
+          "source": "Quantum Computing Report",
+          "title": "South Korea Launches 614 PFLOPS Hangang Supercomputer Ahead of May 2027 IonQ Quantum Link",
+          "url": "https://quantumcomputingreport.com/south-korea-launches-614-pflops-hangang-supercomputer-ahead-of-may-2027-ionq-quantum-link"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-11-06",
+      "latest_seen": "2026-11-07",
       "momentum": "declining",
       "organizations": [
         "The Quantum Insider",
@@ -7825,7 +7897,7 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 23,
+      "prior_count": 25,
       "recent_count": 5,
       "status": "watching"
     },
@@ -9406,13 +9478,31 @@
           "source": "The Quantum Insider",
           "title": "ZeroTier Partners With Redapt to Deliver Post-Quantum Networking",
           "url": "https://thequantuminsider.com/2026/11/06/zerotier-redapt-post-quantum-networking-partnership"
+        },
+        {
+          "date": "2026-11-07",
+          "key": "https://quantumzeitgeist.com/toshiba-quantum-contract-awarded-advance-networking",
+          "report": "2026-11/2026-11-07-digest.md",
+          "score": 65,
+          "source": "Quantum Zeitgeist",
+          "title": "Toshiba Awarded Contract to Advance Quantum Networking in UK",
+          "url": "https://quantumzeitgeist.com/toshiba-quantum-contract-awarded-advance-networking"
+        },
+        {
+          "date": "2026-11-07",
+          "key": "https://quantumcomputingreport.com/qnu-labs-introduces-corporate-quantum-safe-training-supported-by-national-quantum-mission",
+          "report": "2026-11/2026-11-07-digest.md",
+          "score": 95,
+          "source": "Quantum Computing Report",
+          "title": "QNu Labs Introduces Corporate Quantum-Safe Training Supported by National Quantum Mission",
+          "url": "https://quantumcomputingreport.com/qnu-labs-introduces-corporate-quantum-safe-training-supported-by-national-quantum-mission"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-11-06",
-      "momentum": "stable",
+      "latest_seen": "2026-11-07",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -9420,8 +9510,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 11,
-      "recent_count": 11,
+      "prior_count": 15,
+      "recent_count": 9,
       "status": "watching"
     },
     "Quantum Sensing": {
@@ -11726,6 +11816,6 @@
       "status": "actionable"
     }
   },
-  "updated_at": "2026-11-07T04:06:22.126418+00:00",
+  "updated_at": "2026-11-08T03:53:48.548318+00:00",
   "version": 1
 }

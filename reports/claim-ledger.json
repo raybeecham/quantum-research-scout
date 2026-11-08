@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-11-07",
+  "as_of_date": "2026-11-08",
   "claims": [
     {
       "authority": "authoritative",
@@ -230685,146 +230685,7 @@
     },
     {
       "authority": "analytical",
-      "basis": "Deterministic qualification score 44 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-2819bf22431f6cc4",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +12",
-              "actionable rfi +6",
-              "closing_this_month +9",
-              "technology fit +12",
-              "new since yesterday +5"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
-            ],
-            "points": 44
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [
-              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
-              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
-            ],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No public risk penalty"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
-            ],
-            "points": 0
-          }
-        ],
-        "evidence_ids": [
-          "evidence-075bdcb08b78b6b5",
-          "evidence-27179ad3aaea8d8e",
-          "evidence-412858b7c6c5f36d",
-          "evidence-568c7feab6ac7056"
-        ],
-        "input_claim_hashes": {
-          "claim-ac611233cb50f2ba": "50fa18e3277ae0ee"
-        },
-        "input_claim_ids": [
-          "claim-ac611233cb50f2ba"
-        ],
-        "input_claim_versions": {
-          "claim-ac611233cb50f2ba": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 44,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
-          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
-          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
-        ],
-        "trace_complete": true,
-        "trace_hash": "9508fa9ff287ad3b",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-ac611233cb50f2ba"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-11-07",
-      "evidence_ids": [
-        "evidence-568c7feab6ac7056",
-        "evidence-27179ad3aaea8d8e",
-        "evidence-075bdcb08b78b6b5"
-      ],
-      "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
-      "history": [],
-      "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-568c7feab6ac7056",
-          "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-27179ad3aaea8d8e",
-          "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "value": "targeted review",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "69a3e8f7da29af6a"
-    },
-    {
-      "authority": "analytical",
-      "basis": "Deterministic qualification score 76 / 100 with 84 / 100 evidence completeness",
+      "basis": "Deterministic qualification score 71 / 100 with 84 / 100 evidence completeness",
       "claim_id": "claim-1a9e6dcf478cc634",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -230836,14 +230697,13 @@
               "mission fit +22",
               "critical mission +8",
               "actionable procurement_opportunity +8",
-              "open_window +4",
-              "new since yesterday +5"
+              "open_window +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
             ],
-            "points": 68
+            "points": 63
           },
           {
             "basis": [
@@ -230986,7 +230846,7 @@
         },
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 76,
+        "public_evidence_score": 71,
         "requires_revalidation": false,
         "source_urls": [
           "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view",
@@ -231028,7 +230888,7 @@
         ],
         "rule": "procurement_intelligence._build_decision_briefs"
       },
-      "effective_date": "2026-11-06",
+      "effective_date": "2026-11-08",
       "evidence_ids": [
         "evidence-247b2490e698b6a3",
         "evidence-f381b6501c710d8b",
@@ -231036,8 +230896,27 @@
         "evidence-075bdcb08b78b6b5"
       ],
       "first_seen_at": "2026-11-06T06:54:48.602420+00:00",
-      "history": [],
-      "last_seen_at": "2026-11-06T06:54:48.602420+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 76 / 100 with 84 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-247b2490e698b6a3",
+            "evidence-f381b6501c710d8b",
+            "evidence-3169bbd17d6f8d59",
+            "evidence-075bdcb08b78b6b5"
+          ],
+          "first_seen_at": "2026-11-06T06:54:48.602420+00:00",
+          "last_seen_at": "2026-11-06T06:54:48.602420+00:00",
+          "object": null,
+          "status": "active",
+          "value": "qualify",
+          "version": 1,
+          "version_hash": "81b804c9926657cc"
+        }
+      ],
+      "last_seen_at": "2026-11-08T03:47:01.184790+00:00",
       "missing_observations": 0,
       "object": null,
       "observation_status": "observed",
@@ -231093,8 +230972,147 @@
       },
       "value": "qualify",
       "verification_status": "source_reported",
+      "version": 2,
+      "version_hash": "08f04ebef6aa71ed"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 44 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-2819bf22431f6cc4",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +12",
+              "actionable rfi +6",
+              "closing_this_month +9",
+              "technology fit +12",
+              "new since yesterday +5"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
+            ],
+            "points": 44
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
+            ],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No public risk penalty"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
+            ],
+            "points": 0
+          }
+        ],
+        "evidence_ids": [
+          "evidence-075bdcb08b78b6b5",
+          "evidence-27179ad3aaea8d8e",
+          "evidence-412858b7c6c5f36d",
+          "evidence-568c7feab6ac7056"
+        ],
+        "input_claim_hashes": {
+          "claim-ac611233cb50f2ba": "50fa18e3277ae0ee"
+        },
+        "input_claim_ids": [
+          "claim-ac611233cb50f2ba"
+        ],
+        "input_claim_versions": {
+          "claim-ac611233cb50f2ba": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 44,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
+        ],
+        "trace_complete": true,
+        "trace_hash": "9508fa9ff287ad3b",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-ac611233cb50f2ba"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-11-07",
+      "evidence_ids": [
+        "evidence-568c7feab6ac7056",
+        "evidence-27179ad3aaea8d8e",
+        "evidence-075bdcb08b78b6b5"
+      ],
+      "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-568c7feab6ac7056",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-27179ad3aaea8d8e",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "targeted review",
+      "verification_status": "source_reported",
       "version": 1,
-      "version_hash": "81b804c9926657cc"
+      "version_hash": "69a3e8f7da29af6a"
     },
     {
       "authority": "analytical",
@@ -255682,7 +255700,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255729,7 +255747,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255776,7 +255794,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255823,7 +255841,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255870,7 +255888,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255917,7 +255935,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255964,7 +255982,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256011,7 +256029,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256058,7 +256076,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256105,7 +256123,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256152,7 +256170,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256199,7 +256217,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256246,7 +256264,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256293,7 +256311,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256340,7 +256358,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256387,7 +256405,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256434,7 +256452,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256481,7 +256499,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256533,7 +256551,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256585,7 +256603,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256637,7 +256655,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256689,7 +256707,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256741,7 +256759,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256793,7 +256811,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256845,7 +256863,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256897,7 +256915,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256949,7 +256967,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-07T04:01:16.987059+00:00",
+      "retracted_at": "2026-11-08T03:47:01.184790+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258603,8 +258621,8 @@
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-075bdcb08b78b6b5",
       "locator": "qualification_gate",
-      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
+      "title": "Golden Dome for America Commercial Solutions Opening",
+      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6150c7f02584434a9ea90adeb8260b15",
       "verification_status": "source_reported"
     },
     {
@@ -309512,6 +309530,6 @@
     "superseded_claims": 0,
     "total_claims": 5173
   },
-  "updated_at": "2026-11-07T04:01:16.987059+00:00",
+  "updated_at": "2026-11-08T03:47:01.184790+00:00",
   "version": 1
 }

@@ -13,11 +13,11 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 1606,
+      "days_to_close": 1605,
       "deadline": "2031-04-01T23:59:00-04:00",
       "decision_freshness": {
         "current_gate": "qualify",
-        "current_score": 76,
+        "current_score": 71,
         "evidence_url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download",
         "impact_id": "impact:87733837412a57455b72",
         "note": "The latest amendment impact requires analyst revalidation. The tracker did not change an authorized bid/no-bid decision.",
@@ -25,7 +25,7 @@
         "previous_score": 76,
         "status": "revalidation_required"
       },
-      "decision_score": 76,
+      "decision_score": 71,
       "decision_trace": {
         "components": [
           {
@@ -34,14 +34,13 @@
               "mission fit +22",
               "critical mission +8",
               "actionable procurement_opportunity +8",
-              "open_window +4",
-              "new since yesterday +5"
+              "open_window +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
             ],
-            "points": 68
+            "points": 63
           },
           {
             "basis": [
@@ -69,14 +68,14 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 76,
+        "public_evidence_score": 71,
         "source_urls": [
           "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view",
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download",
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fd59850985794279860e819fcc0174dd/download",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6150c7f02584434a9ea90adeb8260b15"
         ],
-        "trace_hash": "7e45b1ff6d185e16"
+        "trace_hash": "c884ad5df79d6b32"
       },
       "eligibility": [
         "r a one-step or two-step process. \u2022 One-Step Process: The Government may select a white paper directly for award. To be eligible for a direct award under the One-Step Process, the respondent\u2019s white paper MUST include a firm, binding price proposal (such as a fixed-price milestone schedule) with\u2026",
@@ -161,7 +160,7 @@
       "opportunity_key": "sam_gov:HQ0202-26-S-0001",
       "potential_teaming_candidates": [],
       "provisional_gate": "qualify",
-      "public_evidence_score": 76,
+      "public_evidence_score": 71,
       "record_type": "procurement_opportunity",
       "relevant_patents": [],
       "required_actions": [
@@ -197,7 +196,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 40,
+      "days_to_close": 39,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -301,7 +300,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 66,
+      "days_to_close": 65,
       "deadline": "01/12/2027",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -416,7 +415,7 @@
           "type": "secondary"
         }
       ],
-      "days_to_close": 30,
+      "days_to_close": 29,
       "deadline": "2026-12-07T23:59:00-05:00",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -424,8 +423,8 @@
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
-        "previous_gate": null,
-        "previous_score": null,
+        "previous_gate": "targeted review",
+        "previous_score": 44,
         "status": "current"
       },
       "decision_score": 44,
@@ -619,6 +618,6 @@
     "qualify": 2,
     "targeted_review": 2
   },
-  "updated_at": "2026-11-07T04:01:16.987059+00:00",
+  "updated_at": "2026-11-08T03:47:01.184790+00:00",
   "version": 1
 }

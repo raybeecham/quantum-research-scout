@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Document Intelligence](procurement-intelligence.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-11-07T04:01:16.987059+00:00_
+_Updated 2026-11-08T03:47:01.184790+00:00_
 
 Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.
 
@@ -14,7 +14,7 @@ Provisional opportunity qualification based on collected public evidence. Organi
 
 ## [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view)
 
-**QUALIFY · 76 / 100** · Evidence 84 / 100 · Deadline 2031-04-01T23:59:00-04:00
+**QUALIFY · 71 / 100** · Evidence 84 / 100 · Deadline 2031-04-01T23:59:00-04:00
 
 Agency: DEPT OF DEFENSE.IMMEDIATE OFFICE OF THE SECRETARY OF DEFENSE.DIRECTOR OF GOLDEN DOME
 
@@ -33,10 +33,10 @@ The latest amendment impact requires analyst revalidation. The tracker did not c
 [Open amendment evidence](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download)
 
 Score and evidence trace:
-- **opportunity evidence +68** — strategic significance +21; mission fit +22; critical mission +8; actionable procurement_opportunity +8; open_window +4; new since yesterday +5 · [evidence 1](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view)
+- **opportunity evidence +63** — strategic significance +21; mission fit +22; critical mission +8; actionable procurement_opportunity +8; open_window +4 · [evidence 1](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view)
 - **document evidence +8** — 84 / 100 document evidence completeness · [evidence 1](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download) · [evidence 2](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fd59850985794279860e819fcc0174dd/download) · [evidence 3](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6150c7f02584434a9ea90adeb8260b15)
 - **deadline and evidence risk +0** — No public risk penalty · [evidence 1](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view)
-- Trace hash: `7e45b1ff6d185e16` · model `public-opportunity-qualification@2`
+- Trace hash: `c884ad5df79d6b32` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
