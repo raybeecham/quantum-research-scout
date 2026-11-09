@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-09 20:46 UTC_
+_Updated 2026-11-09 21:46 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -20,12 +20,12 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 62% | 10 | 0 | 2026-11-09 | 2026-10-28 | fresh | 🔴 failing |
 | arXiv Quantum Computing | arxiv | 62% | 10 | 0 | 2026-11-09 | 2026-10-29 | fresh | 🔴 failing |
 | arXiv Quantum Networking and Sensing | arxiv | 63% | 10 | 0 | 2026-11-09 | 2026-10-29 | fresh | 🔴 failing |
-| Google Quantum AI | watch | 39% | 8 | 0 | 2026-11-09 | 2026-10-15 | fresh | 🔴 failing |
+| Google Quantum AI | watch | 38% | 8 | 0 | 2026-11-09 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Computing Report | rss | 92% | 5 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | Quantum Computing Patents | patent | 91% | 4 | 0 | 2026-11-09 | 2026-11-05 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 89% | 2 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 89% | 2 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
-| Department of War Strategic Technology Releases | watch | 100% | 1 | 0 | 2026-11-09 | 2026-11-04 | fresh | 🟢 healthy |
+| Department of War Strategic Technology Releases | watch | 100% | 1 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | Quantum Journal | rss | 97% | 1 | 0 | 2026-11-09 | 2026-11-06 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 14 | 2026-11-09 | 2026-11-06 | fresh | 🟢 healthy |
@@ -99,7 +99,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | QCi Press Releases | watch | 100% | 0 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | QuEra Press Releases | watch | 100% | 0 | 0 | 2026-11-09 | 2026-10-15 | stale | 🟢 healthy |
 | QuSecure Press Releases | watch | 100% | 0 | 0 | 2026-11-09 | 2026-09-22 | stale | 🟢 healthy |
-| Quantinuum News | url | 100% | 0 | 0 | 2026-11-09 | 2026-11-05 | fresh | 🟢 healthy |
+| Quantinuum News | url | 100% | 0 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | Quantum Networking and Sensing Patents | patent | 98% | 0 | 0 | 2026-11-09 | 2026-10-15 | stale | 🟢 healthy |
 | SandboxAQ Blog | url | 100% | 0 | 0 | 2026-11-09 | 2026-10-08 | stale | 🟢 healthy |
 | Strategic AI Systems Patents | patent | 99% | 0 | 0 | 2026-11-09 | 2026-11-05 | fresh | 🟢 healthy |
