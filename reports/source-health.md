@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-09 13:45 UTC_
+_Updated 2026-11-09 14:46 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -21,7 +21,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv Quantum Computing | arxiv | 62% | 10 | 0 | 2026-11-09 | 2026-10-29 | fresh | 🔴 failing |
 | arXiv Quantum Networking and Sensing | arxiv | 63% | 10 | 0 | 2026-11-09 | 2026-10-29 | fresh | 🔴 failing |
 | Google Quantum AI | watch | 39% | 8 | 0 | 2026-11-09 | 2026-10-15 | fresh | 🔴 failing |
-| Quantum Computing Report | rss | 91% | 5 | 0 | 2026-11-09 | 2026-11-08 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 92% | 5 | 0 | 2026-11-09 | 2026-11-08 | fresh | 🟢 healthy |
 | Quantum Computing Patents | patent | 91% | 4 | 0 | 2026-11-09 | 2026-11-05 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 88% | 2 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 88% | 2 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
@@ -46,7 +46,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-09 | 2026-11-07 | fresh | 🟢 healthy |
 | DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-09 | 2026-11-07 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-09 | — | reference | 🟢 healthy |
-| DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-09 | 2026-11-06 | fresh | 🟢 healthy |
+| DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-11-09 | 2026-11-05 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 0 | 2026-11-09 | 2024-03-12 | reference | 🟢 healthy |
 | Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-11-09 | 2026-10-08 | stale | 🟢 healthy |
@@ -72,7 +72,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-09 | 2026-11-06 | fresh | 🟢 healthy |
 | IETF PQUIP | watch | 100% | 0 | 0 | 2026-11-09 | — | reference | 🟢 healthy |
 | IETF Post-Quantum Updates | watch | 100% | 0 | 0 | 2026-11-09 | 2026-08-27 | fresh | 🟢 healthy |
-| InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-11-09 | 2026-10-31 | fresh | 🟢 healthy |
+| InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | Intel Quantum Research | watch | 100% | 0 | 0 | 2026-11-09 | — | reference | 🟢 healthy |
 | IonQ News | rss | 100% | 0 | 0 | 2026-11-09 | 2026-11-05 | fresh | 🟢 healthy |
 | IonQ Technical Blog | watch | 100% | 0 | 0 | 2026-11-09 | 2026-11-04 | fresh | 🟢 healthy |
