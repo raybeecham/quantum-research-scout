@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-08 03:53 UTC_
+_Updated 2026-11-09 04:06 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 6 | 12 | 7 | 31 |
+| 49 | 1 | 12 | 6 | 31 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -70,28 +70,28 @@ _Updated 2026-11-08 03:53 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 42.4% reliability with 7 warning day(s).
+- 🔴 40.0% reliability with 8 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography 🆕
+## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 62.5% reliability with 9 warning day(s).
+- 🔴 61.5% reliability with 10 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Computing 🆕
+## 🔴 Source failing: arXiv Quantum Computing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 62.5% reliability with 9 warning day(s).
+- 🔴 61.5% reliability with 10 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Networking and Sensing 🆕
+## 🔴 Source failing: arXiv Quantum Networking and Sensing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 64.1% reliability with 9 warning day(s).
+- 🔴 63.1% reliability with 10 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: Quantum Software / Tooling
@@ -108,15 +108,15 @@ _Updated 2026-11-08 03:53 UTC_
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: Golden Dome for America Commercial Solutions Opening 🆕
+## 🟠 Changed: Post Quantum Cryptography (PQC) Readiness and Validation Status 🆕
 
 - Severity: **high**
 - Status: **changed**
-- qualification gate · authority analytical · qualify
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view)
+- qualification gate · authority analytical · hold
+- [Open direct evidence](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view)
 - [Open supporting view](intelligence-changes.md)
 
-## 🟠 Product Launch: IonQ 🆕
+## 🟠 Product Launch: IonQ
 
 - Severity: **high**
 - Status: **product-launch**
@@ -137,14 +137,6 @@ _Updated 2026-11-08 03:53 UTC_
 - Status: **rising**
 - ↗️ Recent evidence is 1 versus 0 in the prior period.
 - [Open supporting view](signals.md)
-
-## 🟠 Standard: Quantinuum
-
-- Severity: **high**
-- Status: **standard**
-- Quantinuum matched a standard event: Quantinuum Unveils Nexus Roadmap to Automate Fault-Tolerant Application Deployment Through 2029
-- [Open direct evidence](https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029)
-- [Open supporting view](entity-watch.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
 
@@ -167,7 +159,7 @@ _Updated 2026-11-08 03:53 UTC_
 - The latest dated item is from 2026-09-29; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Department of War Strategic Technology News 🆕
+## 🟡 Source stale: Department of War Strategic Technology News
 
 - Severity: **medium**
 - Status: **stale**

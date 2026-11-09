@@ -2,19 +2,19 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-11-08T09:48:23.270169+00:00_
+_Updated 2026-11-09T03:58:55.745926+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **27**
-- Added / changed / resolved: **0 / 0 / 27**
+- Material changes: **28**
+- Added / changed / resolved: **0 / 1 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- None.
+- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view))
 
 ## New claims
 

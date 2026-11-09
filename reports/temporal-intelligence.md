@@ -2,19 +2,19 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-11-08T03:47:01.184790+00:00_
+_Updated 2026-11-09T03:58:55.745926+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **0**
+- Actual or recent changes: **1**
 - Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **12**
 
 ## Priority timeline
 
-- **Evidence trace changed** · Golden Dome for America Commercial Solutions Opening — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Changed since prior run** · Post Quantum Cryptography (PQC) Readiness and Validation Status — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view))
+  - The assertion changed relative to the prior successful ledger build.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

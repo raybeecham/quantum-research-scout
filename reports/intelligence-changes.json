@@ -280,10 +280,63 @@
   ],
   "added": [],
   "baseline_initialized": false,
-  "changed": [],
+  "changed": [
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-2819bf22431f6cc4",
+      "confidence": "medium",
+      "effective_date": "2026-11-09",
+      "first_observed_at": "2026-11-07T04:01:16.987059+00:00",
+      "last_observed_at": "2026-11-09T03:58:55.745926+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "targeted review",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-568c7feab6ac7056",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-27179ad3aaea8d8e",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "hold"
+    }
+  ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-11-08T09:48:23.270169+00:00",
-  "comparison_started_at": "2026-11-08T03:47:01.184790+00:00",
+  "comparison_ended_at": "2026-11-09T03:58:55.745926+00:00",
+  "comparison_started_at": "2026-11-08T09:48:23.270169+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1199,19 +1252,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-11-08T03:47:01.184790+00:00",
+  "since": "2026-11-08T09:48:23.270169+00:00",
   "summary": {
     "active_claims": 5146,
     "added": 0,
-    "changed": 0,
+    "changed": 1,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 27,
+    "material_changes": 28,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-11-08T09:48:23.270169+00:00",
+  "updated_at": "2026-11-09T03:58:55.745926+00:00",
   "version": 1
 }

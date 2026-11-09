@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-11-08 09:48 UTC_
+_Updated 2026-11-09 03:58 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -13,7 +13,7 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Tracked records: **500**
 - Awards / grant opportunities / procurement opportunities: **490 / 3 / 4**
 - Open opportunities: **4** (including 0 BAA and 3 RFI records)
-- Opportunity radar: **3 mission-linked**, **1 closing within 30 days**, **1 new since yesterday**
+- Opportunity radar: **3 mission-linked**, **1 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **21**
 - Missions with activity: **5 of 10**
 - Named recipients and contractors: **328**
@@ -28,7 +28,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum | **71 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 | 2 | [Genesis Mission Graduate Fellowship Pilot](https://www.grants.gov/search-results-detail/364033) | GRANT_OPPORTUNITY | 01/12/2027 | Genesis Mission | General | **65 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 | 3 | [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view) | PROCUREMENT_OPPORTUNITY | 2031-04-01T23:59:00-04:00 | Golden Dome for America | General | **63 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
-| 4 | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view) · NEW | RFI | 2026-12-07T23:59:00-05:00 | Not linked | quantum, post-quantum cryptography, cybersecurity | **44 · QUALIFY** | Qualify fit, identify partners, and prepare the response. |
+| 4 | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view) | RFI | 2026-12-07T23:59:00-05:00 | Not linked | quantum, post-quantum cryptography, cybersecurity | **39 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
 
 ## Mission Funding Portfolios
 

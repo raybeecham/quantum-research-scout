@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-11-08T09:48:23.270169+00:00_
+_Updated 2026-11-09T03:58:55.745926+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
@@ -19,10 +19,10 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF SOUTH FLORIDA | [UNIVERSITY OF SOUTH FLORIDA](https://sam.gov/entity/NKAZLXLL7Z91/coreData) | NKAZLXLL7Z91 | 1F202 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | AUBURN UNIVERSITY | [AUBURN UNIVERSITY](https://sam.gov/entity/DMQNDJDHTDG4/coreData) | DMQNDJDHTDG4 | 8H404 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | [The Research Foundation for The State University of New York](https://sam.gov/entity/LMCJKRFW5R81/coreData) | LMCJKRFW5R81 | 3GQT6 | Active | Business or Organization, Non-Profit Organization |
+| PURDUE UNIVERSITY | [PURDUE UNIVERSITY](https://sam.gov/entity/YRXVL4JYCEF5/coreData) | YRXVL4JYCEF5 | 6D418 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | MISSISSIPPI STATE UNIVERSITY | [MISSISSIPPI STATE UNIVERSITY](https://sam.gov/entity/NTXJM52SHKS7/coreData) | NTXJM52SHKS7 | 4E756 | Active | 1862 Land Grant College, Educational Institution, U.S. State Government |
 | CARNEGIE-MELLON UNIVERSITY | [CARNEGIE-MELLON UNIVERSITY](https://sam.gov/entity/U3NKNFLNQ613/coreData) | U3NKNFLNQ613 | 97668 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | THE REGENTS OF THE UNIVERSITY OF COLORADO | [The Regents of the University of Colorado](https://sam.gov/entity/SPVKK1RC2MZ3/coreData) | SPVKK1RC2MZ3 | 4B475 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
-| PURDUE UNIVERSITY | [PURDUE UNIVERSITY](https://sam.gov/entity/YRXVL4JYCEF5/coreData) | YRXVL4JYCEF5 | 6D418 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | [VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY](https://sam.gov/entity/QDE5UHE5XD16/coreData) | QDE5UHE5XD16 | 4B976 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | UNIVERSITY OF WASHINGTON | [UNIVERSITY OF WASHINGTON](https://sam.gov/entity/HD1WMN6945W6/coreData) | HD1WMN6945W6 | 1HEX5 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. Local Government |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | [UNIVERSITY OF MARYLAND, COLLEGE PARK](https://sam.gov/entity/NPU8ULVAAS23/coreData) | NPU8ULVAAS23 | 0UB92 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |

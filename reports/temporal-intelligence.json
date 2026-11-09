@@ -4,46 +4,36 @@
     {
       "authority": "analytical",
       "change_type": "changed",
-      "claim_id": "claim-1a9e6dcf478cc634",
+      "claim_id": "claim-2819bf22431f6cc4",
       "confidence": "medium",
-      "effective_date": "2026-11-08",
-      "evidence_title": "Golden Dome for America Commercial Solutions Opening",
-      "evidence_url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view",
-      "first_observed_at": "2026-11-06T06:54:48.602420+00:00",
-      "last_observed_at": "2026-11-08T03:47:01.184790+00:00",
+      "effective_date": "2026-11-09",
+      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+      "first_observed_at": "2026-11-07T04:01:16.987059+00:00",
+      "last_observed_at": "2026-11-09T03:58:55.745926+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "previous_object": null,
-      "previous_value": "qualify",
+      "previous_value": "targeted review",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-247b2490e698b6a3",
+          "evidence_id": "evidence-568c7feab6ac7056",
           "locator": "qualification_gate",
-          "title": "Golden Dome for America Commercial Solutions Opening",
-          "url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
           "verification_status": "source_reported"
         },
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f381b6501c710d8b",
+          "evidence_id": "evidence-27179ad3aaea8d8e",
           "locator": "qualification_gate",
-          "title": "Golden Dome for America Commercial Solutions Opening",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3169bbd17d6f8d59",
-          "locator": "qualification_gate",
-          "title": "Golden Dome for America Commercial Solutions Opening",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fd59850985794279860e819fcc0174dd/download",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
           "verification_status": "source_reported"
         },
         {
@@ -52,90 +42,80 @@
           "controlling_status": "not_asserted",
           "evidence_id": "evidence-075bdcb08b78b6b5",
           "locator": "qualification_gate",
-          "title": "Golden Dome for America Commercial Solutions Opening",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6150c7f02584434a9ea90adeb8260b15",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:HQ0202-26-S-0001",
-        "label": "Golden Dome for America Commercial Solutions Opening",
-        "node_id": "opportunity:sam_gov:HQ0202-26-S-0001",
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
         "node_type": "opportunity"
       },
       "temporal": {
-        "classification": "evidence_changed_since_prior_run",
+        "classification": "changed_since_prior_run",
         "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
         "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-11-06T06:54:48.602420+00:00",
+        "explanation": "The assertion changed relative to the prior successful ledger build.",
+        "first_observed_at": "2026-11-07T04:01:16.987059+00:00",
         "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-11-08T03:47:01.184790+00:00",
-        "last_observed_at": "2026-11-08T03:47:01.184790+00:00",
-        "primary_date": "2026-11-04",
+        "label": "Changed since prior run",
+        "last_changed_at": "2026-11-09T03:58:55.745926+00:00",
+        "last_observed_at": "2026-11-09T03:58:55.745926+00:00",
+        "primary_date": "2026-11-06",
         "primary_date_role": "publication_date",
-        "publication_date": "2026-11-04"
+        "publication_date": "2026-11-06"
       },
-      "value": "qualify"
+      "value": "hold"
     }
   ],
-  "comparison_ended_at": "2026-11-08T03:47:01.184790+00:00",
-  "comparison_started_at": "2026-11-07T04:01:16.987059+00:00",
+  "comparison_ended_at": "2026-11-09T03:58:55.745926+00:00",
+  "comparison_started_at": "2026-11-08T09:48:23.270169+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
     {
       "authority": "analytical",
       "change_type": "changed",
-      "claim_id": "claim-1a9e6dcf478cc634",
+      "claim_id": "claim-2819bf22431f6cc4",
       "claim_ids": [
-        "claim-1a9e6dcf478cc634"
+        "claim-2819bf22431f6cc4"
       ],
       "confidence": "medium",
-      "effective_date": "2026-11-08",
-      "evidence_title": "Golden Dome for America Commercial Solutions Opening",
-      "evidence_url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view",
-      "first_observed_at": "2026-11-06T06:54:48.602420+00:00",
+      "effective_date": "2026-11-09",
+      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+      "first_observed_at": "2026-11-07T04:01:16.987059+00:00",
       "grouped_event_count": 1,
-      "last_observed_at": "2026-11-08T03:47:01.184790+00:00",
+      "last_observed_at": "2026-11-09T03:58:55.745926+00:00",
       "object": null,
       "predicate": "qualification_gate",
       "predicates": [
         "qualification_gate"
       ],
       "previous_object": null,
-      "previous_value": "qualify",
+      "previous_value": "targeted review",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-247b2490e698b6a3",
+          "evidence_id": "evidence-568c7feab6ac7056",
           "locator": "qualification_gate",
-          "title": "Golden Dome for America Commercial Solutions Opening",
-          "url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
           "verification_status": "source_reported"
         },
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f381b6501c710d8b",
+          "evidence_id": "evidence-27179ad3aaea8d8e",
           "locator": "qualification_gate",
-          "title": "Golden Dome for America Commercial Solutions Opening",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d11ce1092c2f4dcc9b51bc5cf0a127e9/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3169bbd17d6f8d59",
-          "locator": "qualification_gate",
-          "title": "Golden Dome for America Commercial Solutions Opening",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fd59850985794279860e819fcc0174dd/download",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
           "verification_status": "source_reported"
         },
         {
@@ -144,33 +124,33 @@
           "controlling_status": "not_asserted",
           "evidence_id": "evidence-075bdcb08b78b6b5",
           "locator": "qualification_gate",
-          "title": "Golden Dome for America Commercial Solutions Opening",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6150c7f02584434a9ea90adeb8260b15",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "sam_gov:HQ0202-26-S-0001",
-        "label": "Golden Dome for America Commercial Solutions Opening",
-        "node_id": "opportunity:sam_gov:HQ0202-26-S-0001",
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
         "node_type": "opportunity"
       },
       "temporal": {
-        "classification": "evidence_changed_since_prior_run",
+        "classification": "changed_since_prior_run",
         "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
         "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-11-06T06:54:48.602420+00:00",
+        "explanation": "The assertion changed relative to the prior successful ledger build.",
+        "first_observed_at": "2026-11-07T04:01:16.987059+00:00",
         "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-11-08T03:47:01.184790+00:00",
-        "last_observed_at": "2026-11-08T03:47:01.184790+00:00",
-        "primary_date": "2026-11-04",
+        "label": "Changed since prior run",
+        "last_changed_at": "2026-11-09T03:58:55.745926+00:00",
+        "last_observed_at": "2026-11-09T03:58:55.745926+00:00",
+        "primary_date": "2026-11-06",
         "primary_date_role": "publication_date",
-        "publication_date": "2026-11-04"
+        "publication_date": "2026-11-06"
       },
-      "value": "qualify"
+      "value": "hold"
     },
     {
       "authority": "authoritative",
@@ -2616,12 +2596,12 @@
   ],
   "scope_note": "Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.",
   "summary": {
-    "actual_or_recent_changes": 0,
+    "actual_or_recent_changes": 1,
     "classifications": {
-      "evidence_changed_since_prior_run": 1,
+      "changed_since_prior_run": 1,
       "resolved": 27
     },
-    "evidence_trace_changes": 1,
+    "evidence_trace_changes": 0,
     "historical_discoveries": 0,
     "material_events": 28,
     "newly_observed_undated": 0,
@@ -2631,7 +2611,7 @@
   "upcoming": [
     {
       "date": "2026-10-15",
-      "days_remaining": -24,
+      "days_remaining": -25,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2640,7 +2620,7 @@
     },
     {
       "date": "2026-11-14",
-      "days_remaining": 6,
+      "days_remaining": 5,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2649,7 +2629,7 @@
     },
     {
       "date": "2026-11-24",
-      "days_remaining": 16,
+      "days_remaining": 15,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Genesis Mission",
@@ -2658,7 +2638,7 @@
     },
     {
       "date": "2026-12-07",
-      "days_remaining": 29,
+      "days_remaining": 28,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
@@ -2667,7 +2647,7 @@
     },
     {
       "date": "2026-12-17",
-      "days_remaining": 39,
+      "days_remaining": 38,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2676,7 +2656,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 41,
+      "days_remaining": 40,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2685,7 +2665,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 41,
+      "days_remaining": 40,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2694,7 +2674,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 41,
+      "days_remaining": 40,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2703,7 +2683,7 @@
     },
     {
       "date": "2026-12-31",
-      "days_remaining": 53,
+      "days_remaining": 52,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "Project Triad",
@@ -2712,7 +2692,7 @@
     },
     {
       "date": "2027-01-12",
-      "days_remaining": 65,
+      "days_remaining": 64,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2721,7 +2701,7 @@
     },
     {
       "date": "2027-03-19",
-      "days_remaining": 131,
+      "days_remaining": 130,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2730,7 +2710,7 @@
     },
     {
       "date": "2027-06-22",
-      "days_remaining": 226,
+      "days_remaining": 225,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -2738,6 +2718,6 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
     }
   ],
-  "updated_at": "2026-11-08T03:47:01.184790+00:00",
+  "updated_at": "2026-11-09T03:58:55.745926+00:00",
   "version": 1
 }
