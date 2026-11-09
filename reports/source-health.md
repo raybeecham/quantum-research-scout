@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-09 18:48 UTC_
+_Updated 2026-11-09 19:46 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -21,7 +21,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv Quantum Computing | arxiv | 62% | 10 | 0 | 2026-11-09 | 2026-10-29 | fresh | 🔴 failing |
 | arXiv Quantum Networking and Sensing | arxiv | 63% | 10 | 0 | 2026-11-09 | 2026-10-29 | fresh | 🔴 failing |
 | Google Quantum AI | watch | 39% | 8 | 0 | 2026-11-09 | 2026-10-15 | fresh | 🔴 failing |
-| Quantum Computing Report | rss | 92% | 5 | 0 | 2026-11-09 | 2026-11-08 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 92% | 5 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | Quantum Computing Patents | patent | 91% | 4 | 0 | 2026-11-09 | 2026-11-05 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 89% | 2 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 89% | 2 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
@@ -83,7 +83,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | NCSC UK Guidance | rss | 100% | 0 | 0 | 2026-11-09 | 2026-10-15 | stale | 🟢 healthy |
 | NCSC UK News | rss | 100% | 0 | 0 | 2026-11-09 | 2026-11-03 | fresh | 🟢 healthy |
 | NCSC UK Reports | rss | 100% | 0 | 0 | 2026-11-09 | 2026-11-03 | fresh | 🟢 healthy |
-| NIST CSRC News | url | 100% | 0 | 0 | 2026-11-09 | 2026-11-04 | fresh | 🟢 healthy |
+| NIST CSRC News | url | 100% | 0 | 0 | 2026-11-09 | 2026-11-06 | fresh | 🟢 healthy |
 | NIST Cybersecurity Insights | watch | 100% | 0 | 0 | 2026-11-09 | 2026-10-27 | fresh | 🟢 healthy |
 | NIST Post-Quantum Cryptography Project | watch | 100% | 0 | 0 | 2026-11-09 | 2025-03-07 | reference | 🟢 healthy |
 | NIST Research News | watch | 100% | 0 | 0 | 2026-11-09 | 2026-11-02 | fresh | 🟢 healthy |
