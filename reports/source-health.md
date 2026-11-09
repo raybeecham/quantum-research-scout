@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-09 07:46 UTC_
+_Updated 2026-11-09 08:46 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -20,14 +20,14 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 62% | 10 | 0 | 2026-11-09 | 2026-10-28 | fresh | 🔴 failing |
 | arXiv Quantum Computing | arxiv | 62% | 10 | 0 | 2026-11-09 | 2026-10-29 | fresh | 🔴 failing |
 | arXiv Quantum Networking and Sensing | arxiv | 63% | 10 | 0 | 2026-11-09 | 2026-10-29 | fresh | 🔴 failing |
-| Google Quantum AI | watch | 40% | 8 | 0 | 2026-11-09 | 2026-10-15 | fresh | 🔴 failing |
+| Google Quantum AI | watch | 39% | 8 | 0 | 2026-11-09 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Computing Report | rss | 91% | 5 | 0 | 2026-11-09 | 2026-11-08 | fresh | 🟢 healthy |
 | Quantum Computing Patents | patent | 91% | 4 | 0 | 2026-11-09 | 2026-11-05 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 88% | 2 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 88% | 2 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 100% | 1 | 0 | 2026-11-09 | 2026-11-04 | fresh | 🟢 healthy |
 | Quantum Journal | rss | 97% | 1 | 0 | 2026-11-09 | 2026-11-06 | fresh | 🟢 healthy |
-| Quantum Zeitgeist | rss | 98% | 1 | 0 | 2026-11-09 | 2026-11-08 | fresh | 🟢 healthy |
+| Quantum Zeitgeist | rss | 98% | 1 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 14 | 2026-11-09 | 2026-11-06 | fresh | 🟢 healthy |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-09 | 2026-10-21 | fresh | 🟢 healthy |
 | AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-09 | 2026-11-06 | fresh | 🟢 healthy |
@@ -104,7 +104,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | SandboxAQ Blog | url | 100% | 0 | 0 | 2026-11-09 | 2026-10-08 | stale | 🟢 healthy |
 | Strategic AI Systems Patents | patent | 99% | 0 | 0 | 2026-11-09 | 2026-11-05 | fresh | 🟢 healthy |
 | Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-11-09 | 2026-11-05 | fresh | 🟢 healthy |
-| The Quantum Insider | rss | 100% | 0 | 0 | 2026-11-09 | 2026-11-06 | fresh | 🟢 healthy |
+| The Quantum Insider | rss | 100% | 0 | 0 | 2026-11-09 | 2026-11-09 | fresh | 🟢 healthy |
 | Trail of Bits Cryptography | rss | 100% | 0 | 0 | 2026-11-09 | 2026-11-03 | fresh | 🟢 healthy |
 | USAspending · AI Forge | federal_award | 100% | 0 | 0 | 2026-11-09 | 2026-09-28 | stale | 🟢 healthy |
 | USAspending · Advanced Computing | federal_award | 100% | 0 | 0 | 2026-11-09 | 2026-10-29 | fresh | 🟢 healthy |
