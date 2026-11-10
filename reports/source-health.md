@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-10 20:46 UTC_
+_Updated 2026-11-10 21:46 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -37,7 +37,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-10 | 2026-10-07 | stale | 🟢 healthy |
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-11-10 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-11-10 | 2026-09-29 | stale | 🟢 healthy |
-| CISA Cybersecurity Advisories | rss | 94% | 0 | 0 | 2026-11-10 | 2026-11-09 | fresh | 🟢 healthy |
+| CISA Cybersecurity Advisories | rss | 94% | 0 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-11-10 | 2026-10-26 | stale | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-10 | 2026-11-05 | fresh | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-10 | 2026-11-09 | fresh | 🟢 healthy |
@@ -67,7 +67,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Grants.gov · Quantum Technologies | grant_opportunity | 100% | 0 | 0 | 2026-11-10 | 2026-10-28 | fresh | 🟢 healthy |
 | Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-11-10 | — | unknown | 🟢 healthy |
 | Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
-| IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-10 | 2026-11-06 | fresh | 🟢 healthy |
+| IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-10 | 2026-11-07 | fresh | 🟢 healthy |
 | IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-10 | 2026-11-06 | fresh | 🟢 healthy |
 | IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-10 | 2026-11-06 | fresh | 🟢 healthy |
 | IETF PQUIP | watch | 100% | 0 | 0 | 2026-11-10 | — | reference | 🟢 healthy |
