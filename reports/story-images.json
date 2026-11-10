@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T09:46:06.554048+00:00",
+  "updated_at": "2026-11-10T10:46:38.972106+00:00",
   "records": {
     "https://thequantuminsider.com/2026/11/09/malaysia-quantum-resistant-security-transition": {
       "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-09_17-23.png",
@@ -99,6 +99,14 @@
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-11-09T15:46:10.592058+00:00",
+      "status": "ok"
+    },
+    "https://quantumcomputingreport.com/why-quantum-hardware-needs-its-own-threat-model": {
+      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-44.png",
+      "page_url": "https://quantumcomputingreport.com/why-quantum-hardware-needs-its-own-threat-model",
+      "publisher": "Quantum Computing Report",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-10T05:40:04.863234+00:00",
       "status": "ok"
     },
     "https://quantumcomputingreport.com/physics-reports-analysis-evaluates-emergence-of-hybrid-semiconductor-superconducting-qubit-architectures": {
@@ -293,14 +301,6 @@
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-11-07T16:46:22.130172+00:00",
-      "status": "ok"
-    },
-    "https://quantumcomputingreport.com/why-quantum-hardware-needs-its-own-threat-model": {
-      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-44.png",
-      "page_url": "https://quantumcomputingreport.com/why-quantum-hardware-needs-its-own-threat-model",
-      "publisher": "Quantum Computing Report",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-10T05:40:04.863234+00:00",
       "status": "ok"
     },
     "https://quantumzeitgeist.com/colorado-boulder-temperature-independent-loss-limits": {
@@ -790,6 +790,41 @@
       "fetched_at": "2026-11-02T14:46:25.619339+00:00",
       "status": "ok"
     },
+    "https://eprint.iacr.org/2026/2730": {
+      "page_url": "https://eprint.iacr.org/2026/2730",
+      "status": "failed",
+      "fetched_at": "2026-11-10T09:46:06.554048+00:00"
+    },
+    "https://eprint.iacr.org/2026/2731": {
+      "page_url": "https://eprint.iacr.org/2026/2731",
+      "status": "failed",
+      "fetched_at": "2026-11-10T09:46:06.554048+00:00"
+    },
+    "https://arxiv.org/abs/2611.04075": {
+      "page_url": "https://arxiv.org/abs/2611.04075",
+      "status": "unavailable",
+      "fetched_at": "2026-11-10T09:46:06.554048+00:00"
+    },
+    "https://arxiv.org/abs/2611.04526": {
+      "page_url": "https://arxiv.org/abs/2611.04526",
+      "status": "unavailable",
+      "fetched_at": "2026-11-10T09:46:06.554048+00:00"
+    },
+    "https://arxiv.org/abs/2611.03788": {
+      "page_url": "https://arxiv.org/abs/2611.03788",
+      "status": "unavailable",
+      "fetched_at": "2026-11-10T09:46:06.554048+00:00"
+    },
+    "https://arxiv.org/abs/2611.04876": {
+      "page_url": "https://arxiv.org/abs/2611.04876",
+      "status": "unavailable",
+      "fetched_at": "2026-11-10T09:46:06.554048+00:00"
+    },
+    "https://arxiv.org/abs/2611.04128": {
+      "page_url": "https://arxiv.org/abs/2611.04128",
+      "status": "unavailable",
+      "fetched_at": "2026-11-10T09:46:06.554048+00:00"
+    },
     "https://arxiv.org/abs/2611.04129": {
       "page_url": "https://arxiv.org/abs/2611.04129",
       "status": "unavailable",
@@ -872,42 +907,13 @@
       "fetched_at": "2026-11-03T10:45:59.667963+00:00",
       "status": "ok"
     },
-    "https://eprint.iacr.org/2026/2730": {
-      "page_url": "https://eprint.iacr.org/2026/2730",
-      "fetched_at": "2026-11-10T09:46:06.554048+00:00",
-      "status": "failed",
-      "reason": "http_403"
-    },
-    "https://eprint.iacr.org/2026/2731": {
-      "page_url": "https://eprint.iacr.org/2026/2731",
-      "fetched_at": "2026-11-10T09:46:06.554048+00:00",
-      "status": "failed",
-      "reason": "http_403"
-    },
-    "https://arxiv.org/abs/2611.04075": {
-      "page_url": "https://arxiv.org/abs/2611.04075",
-      "fetched_at": "2026-11-10T09:46:06.554048+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2611.04526": {
-      "page_url": "https://arxiv.org/abs/2611.04526",
-      "fetched_at": "2026-11-10T09:46:06.554048+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2611.03788": {
-      "page_url": "https://arxiv.org/abs/2611.03788",
-      "fetched_at": "2026-11-10T09:46:06.554048+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2611.04876": {
-      "page_url": "https://arxiv.org/abs/2611.04876",
-      "fetched_at": "2026-11-10T09:46:06.554048+00:00",
-      "status": "unavailable"
-    },
-    "https://arxiv.org/abs/2611.04128": {
-      "page_url": "https://arxiv.org/abs/2611.04128",
-      "fetched_at": "2026-11-10T09:46:06.554048+00:00",
-      "status": "unavailable"
+    "https://quantumzeitgeist.com/taqcit-quantum-finance-taiwan-computing-hosts": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/taiwan-quantum-computing-group-hosts-finance-debate-1200x630.jpg",
+      "page_url": "https://quantumzeitgeist.com/taqcit-quantum-finance-taiwan-computing-hosts",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-10T10:46:38.972106+00:00",
+      "status": "ok"
     }
   }
 }
