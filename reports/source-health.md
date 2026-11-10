@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-10 19:46 UTC_
+_Updated 2026-11-10 20:46 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -20,7 +20,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 61% | 11 | 0 | 2026-11-10 | 2026-10-28 | fresh | 🔴 failing |
 | arXiv Quantum Computing | arxiv | 61% | 11 | 0 | 2026-11-10 | 2026-10-29 | fresh | 🔴 failing |
 | arXiv Quantum Networking and Sensing | arxiv | 62% | 11 | 0 | 2026-11-10 | 2026-10-29 | fresh | 🔴 failing |
-| Google Quantum AI | watch | 37% | 9 | 0 | 2026-11-10 | 2026-10-15 | fresh | 🔴 failing |
+| Google Quantum AI | watch | 36% | 9 | 0 | 2026-11-10 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Computing Patents | patent | 91% | 4 | 0 | 2026-11-10 | 2026-11-05 | fresh | 🟢 healthy |
 | Quantum Computing Report | rss | 92% | 4 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 88% | 3 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
@@ -38,7 +38,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-11-10 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-11-10 | 2026-09-29 | stale | 🟢 healthy |
 | CISA Cybersecurity Advisories | rss | 94% | 0 | 0 | 2026-11-10 | 2026-11-09 | fresh | 🟢 healthy |
-| Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-11-10 | 2026-10-26 | fresh | 🟢 healthy |
+| Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-11-10 | 2026-10-26 | stale | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-10 | 2026-11-05 | fresh | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-10 | 2026-11-09 | fresh | 🟢 healthy |
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-10 | 2026-11-06 | fresh | 🟢 healthy |
