@@ -1920,6 +1920,13 @@
               "sequence": 2,
               "source": "arXiv RSS cs.CR",
               "url": "https://arxiv.org/abs/2611.10026"
+            },
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
+              "sequence": 4,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.10026"
             }
           ],
           "title": "MetaPI: Constructing Prompt Injection Benchmarks from LLM Agent Benchmark"
@@ -6053,6 +6060,27 @@
         }
       ]
     },
+    "https://quantumcomputingreport.com/riken-upgrades-reimei-fugaku-hybrid-quantum-platform-with-56-qubit-quantinuum-h2-processor": {
+      "captures": [
+        {
+          "excerpts": [
+            "RIKEN has upgraded its Reimei-Fugaku hybrid quantum platform with Quantinuum's 56-qubit System Model H2 trapped-ion quantum computer, replacing the 20-qubit H1",
+            "This upgrade enhances physical capacity, gate fidelity, and computational active space, allowing for more complex quantum chemistry simulations",
+            "The platform links Quantinuum's quantum computer directly to the Fugaku supercomputer, creating a powerful testbed for hybrid quantum-classical computing"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-10",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/riken-upgrades-reimei-fugaku-hybrid-quantum-platform-with-56-qubit-quantinuum-h2-processor"
+            }
+          ],
+          "title": "RIKEN Upgrades Reimei-Fugaku Hybrid Quantum Platform with 56-Qubit Quantinuum H2 Processor"
+        }
+      ]
+    },
     "https://quantumcomputingreport.com/riverlane-and-nvidia-demonstrate-accelerated-qec-decoder-calibration-using-gpu-processing": {
       "captures": [
         {
@@ -6381,6 +6409,26 @@
             }
           ],
           "title": "UK National Physical Laboratory Secures £230,000 ($307.5K USD) GOTT Grant to Scale Quantum Ion-Trap Manufacturing"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/uk-unveils-189-million-quantum-deployment-package-spanning-networking-testbeds-commercialization-and-procurement": {
+      "captures": [
+        {
+          "excerpts": [
+            "This includes £35 million for quantum networking testbeds, a £12 million commercialization consortium called the UK Quantum SuperConnector, and £138 million for cross-government quantum procurement",
+            "The UK government has announced a £189 million quantum deployment package to advance quantum technologies from research to practical application"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-10",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/uk-unveils-189-million-quantum-deployment-package-spanning-networking-testbeds-commercialization-and-procurement"
+            }
+          ],
+          "title": "UK Unveils £189 Million Quantum Deployment Package Spanning Networking Testbeds, Commercialization, and Procurement"
         }
       ]
     },
