@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-11-09 03:58 UTC_
+_Updated 2026-11-10 05:32 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -28,7 +28,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum | **71 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 | 2 | [Genesis Mission Graduate Fellowship Pilot](https://www.grants.gov/search-results-detail/364033) | GRANT_OPPORTUNITY | 01/12/2027 | Genesis Mission | General | **65 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 | 3 | [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view) | PROCUREMENT_OPPORTUNITY | 2031-04-01T23:59:00-04:00 | Golden Dome for America | General | **63 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
-| 4 | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view) | RFI | 2026-12-07T23:59:00-05:00 | Not linked | quantum, post-quantum cryptography, cybersecurity | **39 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 4 | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view) | RFI | 2026-12-07T23:59:00-05:00 | Not linked | quantum, post-quantum cryptography, cybersecurity | **39 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
 
 ## Mission Funding Portfolios
 
@@ -52,7 +52,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | PAMS-SC | 12/17/2026 | Genesis Mission (high) | **54 · NOTABLE** |
 | [Genesis Mission Graduate Fellowship Pilot](https://www.grants.gov/search-results-detail/364033) | GRANT_OPPORTUNITY | PAMS-SC | 01/12/2027 | Genesis Mission (high) | **49 · NOTABLE** |
 | [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view) | PROCUREMENT_OPPORTUNITY | DEPT OF DEFENSE.IMMEDIATE OFFICE OF THE SECRETARY OF DEFENSE.DIRECTOR OF GOLDEN DOME | 2031-04-01T23:59:00-04:00 | Golden Dome for America (high) | **47 · NOTABLE** |
-| [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view) | RFI | GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT | 2026-12-07T23:59:00-05:00 | Not linked | **27 · MONITOR** |
+| [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view) | RFI | GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT | 2026-12-07T23:59:00-05:00 | Not linked | **27 · MONITOR** |
 
 ## Awards and Funding Announcements
 

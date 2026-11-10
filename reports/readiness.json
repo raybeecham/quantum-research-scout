@@ -1472,9 +1472,9 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 10,
+      "evidence_count": 11,
       "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-11-06",
+      "latest_evidence_at": "2026-11-09",
       "name": "Cloudflare",
       "priority": "high",
       "source_count": 4,
@@ -1482,6 +1482,21 @@
       "stage_label": "Awareness",
       "stage_rank": 1,
       "supporting_evidence": [
+        {
+          "date": "2026-11-09",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "InfoQ Quantum Computing",
+          "title": "Cloudflare Develops Public Certificate Authority for Post-Quantum Web Security",
+          "url": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates"
+        },
         {
           "date": "2026-11-06",
           "date_confidence": "unknown",
@@ -1586,21 +1601,6 @@
           "source": "The Quantum Insider",
           "title": "Cloudflare Expands Quantum-Safe Government Security Platform With FedRAMP High Authorization",
           "url": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high"
-        },
-        {
-          "date": "2026-07-29",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Cloudflare Blog",
-          "title": "Post-quantum authentication to origins is now supported",
-          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
         }
       ],
       "type": "company"
@@ -2200,6 +2200,6 @@
     "not_assessed": 20,
     "organizations": 43
   },
-  "updated_at": "2026-11-09T04:06:16.450353+00:00",
+  "updated_at": "2026-11-10T05:39:25.161685+00:00",
   "version": 1
 }

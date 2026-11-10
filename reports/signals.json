@@ -3478,13 +3478,58 @@
           "source": "Quantum Computing Report",
           "title": "HKMA and HKUST Launch PQC Toolkit to Accelerate Banking Sector Transition by 2030",
           "url": "https://quantumcomputingreport.com/hkma-and-hkust-launch-pqc-toolkit-to-accelerate-banking-sector-transition-by-2030"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://quantumzeitgeist.com/monashs-post-quantum-safety-testing-arc",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 37,
+          "source": "Quantum Zeitgeist",
+          "title": "ARC Hub to strengthen Australian quantum safety testing",
+          "url": "https://quantumzeitgeist.com/monashs-post-quantum-safety-testing-arc"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 60,
+          "source": "InfoQ Quantum Computing",
+          "title": "Cloudflare Develops Public Certificate Authority for Post-Quantum Web Security",
+          "url": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://quantumzeitgeist.com/niagara-networks-post-quantum-gbps-decryption",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 71,
+          "source": "Quantum Zeitgeist",
+          "title": "Niagara Networks launches 90 Gbps TLS decryption with post-quantum crypto",
+          "url": "https://quantumzeitgeist.com/niagara-networks-post-quantum-gbps-decryption"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://thequantuminsider.com/2026/11/09/malaysia-quantum-resistant-security-transition",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "Malaysia Considers Faster Transition to Quantum-Resistant Security",
+          "url": "https://thequantuminsider.com/2026/11/09/malaysia-quantum-resistant-security-transition"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://thequantuminsider.com/2026/11/09/pqsecure-technologies-carahsoft-pqc-partnership",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "PQSecure Technologies Partners with Carahsoft to Distribute PQC Solutions",
+          "url": "https://thequantuminsider.com/2026/11/09/pqsecure-technologies-carahsoft-pqc-partnership"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-11-07",
-      "momentum": "stable",
+      "latest_seen": "2026-11-09",
+      "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
@@ -3492,9 +3537,9 @@
         "IACR ePrint",
         "Quantum Computing Report"
       ],
-      "prior_count": 20,
-      "recent_count": 21,
-      "status": "watching"
+      "prior_count": 14,
+      "recent_count": 25,
+      "status": "actionable"
     },
     "QEC / Fault Tolerance": {
       "confidence": "high",
@@ -4443,13 +4488,22 @@
           "source": "Quantum Computing Report",
           "title": "IBM, ORNL, and AMD Deploy Co-Located Quantum Error Correction Platform in Poughkeepsie",
           "url": "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://quantumcomputingreport.com/why-quantum-hardware-needs-its-own-threat-model",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 51,
+          "source": "Quantum Computing Report",
+          "title": "Why Quantum Hardware Needs Its Own Threat Model",
+          "url": "https://quantumcomputingreport.com/why-quantum-hardware-needs-its-own-threat-model"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-11-05",
-      "momentum": "stable",
+      "latest_seen": "2026-11-09",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "Quantum Computing Report",
@@ -4457,8 +4511,8 @@
         "QuantumNews.ai",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 6,
-      "recent_count": 6,
+      "prior_count": 7,
+      "recent_count": 4,
       "status": "watching"
     },
     "Quantum Hardware": {
@@ -7883,12 +7937,57 @@
           "source": "Quantum Computing Report",
           "title": "South Korea Launches 614 PFLOPS Hangang Supercomputer Ahead of May 2027 IonQ Quantum Link",
           "url": "https://quantumcomputingreport.com/south-korea-launches-614-pflops-hangang-supercomputer-ahead-of-may-2027-ionq-quantum-link"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://quantumcomputingreport.com/horizon-quantum-integrates-triple-alpha-ide-with-oqcs-toshiko-processor-for-pulse-level-control",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 22,
+          "source": "Quantum Computing Report",
+          "title": "Horizon Quantum Integrates Triple Alpha IDE with OQC\u2019s Toshiko Processor for Pulse-Level Control",
+          "url": "https://quantumcomputingreport.com/horizon-quantum-integrates-triple-alpha-ide-with-oqcs-toshiko-processor-for-pulse-level-control"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://quantumcomputingreport.com/q-block-computing-establishes-ottawa-headquarters-to-expand-quantum-hardware-rd",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 24,
+          "source": "Quantum Computing Report",
+          "title": "Q-Block Computing Establishes Ottawa Headquarters to Expand Quantum Hardware R&D",
+          "url": "https://quantumcomputingreport.com/q-block-computing-establishes-ottawa-headquarters-to-expand-quantum-hardware-rd"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://thequantuminsider.com/2026/11/09/ev-group-manufacturing-support-quantum-computing",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 28,
+          "source": "The Quantum Insider",
+          "title": "EV Group Helps Accelerate Qubit Scaling for Quantum Computing Through Advanced Packaging Expertise",
+          "url": "https://thequantuminsider.com/2026/11/09/ev-group-manufacturing-support-quantum-computing"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://thequantuminsider.com/2026/11/09/qant-photonic-processors-ionos-cloud-infrastructure",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 28,
+          "source": "The Quantum Insider",
+          "title": "Q.ANT and IONOS Launch Pilot for Photonic Computing",
+          "url": "https://thequantuminsider.com/2026/11/09/qant-photonic-processors-ionos-cloud-infrastructure"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://quantumcomputingreport.com/physics-reports-analysis-evaluates-emergence-of-hybrid-semiconductor-superconducting-qubit-architectures",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 41,
+          "source": "Quantum Computing Report",
+          "title": "Physics Reports Analysis Evaluates Emergence of Hybrid Semiconductor\u2013Superconducting Qubit Architectures",
+          "url": "https://quantumcomputingreport.com/physics-reports-analysis-evaluates-emergence-of-hybrid-semiconductor-superconducting-qubit-architectures"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-11-07",
+      "latest_seen": "2026-11-09",
       "momentum": "declining",
       "organizations": [
         "The Quantum Insider",
@@ -7897,8 +7996,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 25,
-      "recent_count": 5,
+      "prior_count": 22,
+      "recent_count": 9,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -9496,13 +9595,22 @@
           "source": "Quantum Computing Report",
           "title": "QNu Labs Introduces Corporate Quantum-Safe Training Supported by National Quantum Mission",
           "url": "https://quantumcomputingreport.com/qnu-labs-introduces-corporate-quantum-safe-training-supported-by-national-quantum-mission"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://quantumzeitgeist.com/physics-molecules-entanglement-laser-cooled-record",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 27,
+          "source": "Quantum Zeitgeist",
+          "title": "Laser-cooled molecules achieve record entanglement despite higher temperatures",
+          "url": "https://quantumzeitgeist.com/physics-molecules-entanglement-laser-cooled-record"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-11-07",
-      "momentum": "declining",
+      "latest_seen": "2026-11-09",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -9510,7 +9618,7 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 15,
+      "prior_count": 13,
       "recent_count": 9,
       "status": "watching"
     },
@@ -11075,12 +11183,21 @@
           "source": "Quantum Journal",
           "title": "Bounding the entanglement of a state from its spectrum",
           "url": "https://quantum-journal.org/papers/q-2026-11-06-2260"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://quantumcomputingreport.com/dlr-develops-scalable-unitary-data-encoding-beating-exponential-state-preparation-depth",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 34,
+          "source": "Quantum Computing Report",
+          "title": "DLR Develops Scalable Unitary Data Encoding Beating Exponential State-Preparation Depth",
+          "url": "https://quantumcomputingreport.com/dlr-develops-scalable-unitary-data-encoding-beating-exponential-state-preparation-depth"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-11-06",
+      "latest_seen": "2026-11-09",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -11089,7 +11206,7 @@
         "Quantum Computing Report",
         "USAspending \u00b7 Quantum Technologies"
       ],
-      "prior_count": 1,
+      "prior_count": 2,
       "recent_count": 3,
       "status": "actionable"
     },
@@ -11797,12 +11914,30 @@
           "source": "The Quantum Insider",
           "title": "UK Announces New Funding to Support Quantum Technology Commercialisation",
           "url": "https://thequantuminsider.com/2026/11/06/uk-announces-new-funding-to-support-quantum-technology-commercialisation"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://thequantuminsider.com/2026/11/09/ionq-carahsoft-quantum-technologies-government",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "IonQ and Carahsoft Partner to Bring Quantum Solutions to the Public Sector",
+          "url": "https://thequantuminsider.com/2026/11/09/ionq-carahsoft-quantum-technologies-government"
+        },
+        {
+          "date": "2026-11-09",
+          "key": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0020_8000_-NONE-_-NONE-",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 100,
+          "source": "USAspending \u00b7 Quantum Technologies",
+          "title": "SBIR PHASE II - QUANTUM WAVEGUIDE INFRARED PHOTODETECTOR FOR HETERODYNE SPECTROSCOPY",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0020_8000_-NONE-_-NONE-"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-11-06",
+      "latest_seen": "2026-11-09",
       "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
@@ -11812,10 +11947,10 @@
         "USAspending \u00b7 Advanced Computing"
       ],
       "prior_count": 0,
-      "recent_count": 1,
+      "recent_count": 3,
       "status": "actionable"
     }
   },
-  "updated_at": "2026-11-09T04:06:15.497511+00:00",
+  "updated_at": "2026-11-10T05:39:24.633598+00:00",
   "version": 1
 }

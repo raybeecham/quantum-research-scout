@@ -2,19 +2,21 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-11-09T03:58:55.745926+00:00_
+_Updated 2026-11-10T05:32:14.119303+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **1**
-- Newly discovered historical evidence: **0**
+- Actual or recent changes: **4**
+- Newly discovered historical evidence: **4**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **12**
 
 ## Priority timeline
 
-- **Changed since prior run** · Post Quantum Cryptography (PQC) Readiness and Validation Status — qualification gate ([evidence](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view))
-  - The assertion changed relative to the prior successful ledger build.
+- **Published today** · Post Quantum Cryptography (PQC) Readiness and Validation Status — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view))
+  - The source publication date is today or within the prior day.
+- **Newly discovered historical evidence** · WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN… — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_20273843047635_012))
+  - Frontier Signal first observed this on 2026-11-10; the source date is 2026-10-15.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -57,7 +59,7 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 - **2026-10-15** · Close the QBI independent verification and validation topic — overdue ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-11-14** · Close the umbrella QBI 2026 announcement — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-11-24** · Submit the first annual Genesis Mission progress report — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
-- **2026-12-07** · Post Quantum Cryptography (PQC) Readiness and Validation Status — closing_this_month ([source](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view))
+- **2026-12-07** · Post Quantum Cryptography (PQC) Readiness and Validation Status — closing_this_month ([source](https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view))
 - **2026-12-17** · The Genesis Mission: Transforming Science and Energy with AI — open_window ([source](https://www.grants.gov/search-results-detail/361526))
 - **2026-12-19** · Establish a national quantum-computing assessment center — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
 - **2026-12-19** · Explore private-sector partnership models and commercial contribution plans — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))

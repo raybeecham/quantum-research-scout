@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-11-09T03:58:55.745926+00:00_
+_Updated 2026-11-10T05:32:14.119303+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **5146**
-- Authoritative claims: **4925**
-- Analytical claims: **215**
+- Active claims: **5154**
+- Authoritative claims: **4932**
+- Analytical claims: **216**
 - Conflicted claims: **38**
-- Evidence items / URLs: **5252 / 1408**
+- Evidence items / URLs: **5260 / 1411**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,13 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN… | opportunity status | awarded | authoritative / high | [WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN…](https://www.usaspending.gov/award/ASST_NON_20273843047635_012) |
+| active | WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN… | awarding agency | Department of Agriculture | authoritative / high | [WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN…](https://www.usaspending.gov/award/ASST_NON_20273843047635_012) |
+| active | WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN… | reported amount | 1111579.12 | authoritative / high | [WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN…](https://www.usaspending.gov/award/ASST_NON_20273843047635_012) |
+| active | WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN… | reported recipient | WEST VIRGINIA STATE UNIVERSITY RESEARCH AND DEVELOPMENT CORPORATION | authoritative / high | [WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN…](https://www.usaspending.gov/award/ASST_NON_20273843047635_012) |
+| active | Post Quantum Cryptography (PQC) Readiness and Validation Status | opportunity status | open | authoritative / high | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view) |
+| active | Post Quantum Cryptography (PQC) Readiness and Validation Status | deadline | 2026-12-07T23:59:00-05:00 | authoritative / high | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view) |
+| active | Post Quantum Cryptography (PQC) Readiness and Validation Status | awarding agency | GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT | authoritative / high | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view) |
 | active | Post Quantum Cryptography (PQC) Readiness and Validation Status | opportunity status | open | authoritative / high | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view) |
 | active | Post Quantum Cryptography (PQC) Readiness and Validation Status | deadline | 2026-12-07T23:59:00-05:00 | authoritative / high | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view) |
 | active | Post Quantum Cryptography (PQC) Readiness and Validation Status | awarding agency | GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT | authoritative / high | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view) |
@@ -257,13 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC... | awarding agency | Department of Homeland Security | authoritative / high | [THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC...](https://www.usaspending.gov/award/CONT_AWD_70FA3126F00000065_7022_47QTCB21D0332_4732) |
 | active | THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC... | reported amount | 3451680.0 | authoritative / high | [THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC...](https://www.usaspending.gov/award/CONT_AWD_70FA3126F00000065_7022_47QTCB21D0332_4732) |
 | active | THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC... | reported recipient | NEEVSYS INC. | authoritative / high | [THE PURPOSE OF THIS FIRM-FIXED-PRICE ORDER IS TO PROVIDE ROBOTIC PROCESS AUTOMATION (RPA), ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING AND RELATED AUTOMATION SOFTWARE AND SERVIC...](https://www.usaspending.gov/award/CONT_AWD_70FA3126F00000065_7022_47QTCB21D0332_4732) |
-| active | AI OSINT ECHO Software Support Services | opportunity status | awarded | authoritative / high | [AI OSINT ECHO Software Support Services](https://sam.gov/workspace/contract/opp/a0449fb119644aa6a87707cd6fe723be/view) |
-| active | AI OSINT ECHO Software Support Services | awarding agency | DEPT OF DEFENSE.WASHINGTON HEADQUARTERS SERVICES (WHS).WASHINGTON HEADQUARTERS SERVICES | authoritative / high | [AI OSINT ECHO Software Support Services](https://sam.gov/workspace/contract/opp/a0449fb119644aa6a87707cd6fe723be/view) |
-| active | AI OSINT ECHO Software Support Services | reported amount | 15473420.22 | authoritative / high | [AI OSINT ECHO Software Support Services](https://sam.gov/workspace/contract/opp/a0449fb119644aa6a87707cd6fe723be/view) |
-| active | AI OSINT ECHO Software Support Services | reported recipient | Agility Consulting, LLC | authoritative / high | [AI OSINT ECHO Software Support Services](https://sam.gov/workspace/contract/opp/a0449fb119644aa6a87707cd6fe723be/view) |
-| active | THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA. | opportunity status | awarded | authoritative / high | [THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.](https://www.usaspending.gov/award/CONT_AWD_70FA3126C00000003_7022_-NONE-_-NONE-) |
-| active | THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA. | awarding agency | Department of Homeland Security | authoritative / high | [THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.](https://www.usaspending.gov/award/CONT_AWD_70FA3126C00000003_7022_-NONE-_-NONE-) |
-| active | THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA. | reported amount | 7533121.0 | authoritative / high | [THE PURPOSE OF THIS FIRM-FIXED-PRICE SOLICITATION IS TO ACQUIRE AN INTEGRATED, SECURE, AND RESILIENT TRANSPORTABLE COMMUNICATIONS AND CYBERSECURITY CAPABILITY IN SUPPORT OF FEMA.](https://www.usaspending.gov/award/CONT_AWD_70FA3126C00000003_7022_-NONE-_-NONE-) |
 
 ## Method
 

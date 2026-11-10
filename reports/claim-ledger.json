@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-11-09",
+  "as_of_date": "2026-11-10",
   "claims": [
     {
       "authority": "authoritative",
@@ -1842,6 +1842,326 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
+      "claim_id": "claim-8ab7a16a674c314e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-15",
+      "evidence_ids": [
+        "evidence-0820968cef92a78b"
+      ],
+      "first_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0820968cef92a78b",
+          "locator": "opportunity_status:awarded",
+          "title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+          "url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:20273843047635",
+        "label": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+        "node_id": "award:usaspending:20273843047635",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5bc4c4af71b29d25"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-2a9cdd0c174ab9c5",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-15",
+      "evidence_ids": [
+        "evidence-f247d655540d99cb"
+      ],
+      "first_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f247d655540d99cb",
+          "locator": "awarding_agency:department of agriculture",
+          "title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+          "url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:20273843047635",
+        "label": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+        "node_id": "award:usaspending:20273843047635",
+        "node_type": "award"
+      },
+      "value": "Department of Agriculture",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "39195bf33abcf421"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-de8a5d5764c9d6ca",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-15",
+      "evidence_ids": [
+        "evidence-ee466800f3abc85d"
+      ],
+      "first_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ee466800f3abc85d",
+          "locator": "reported_amount:1111579.12",
+          "title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+          "url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:20273843047635",
+        "label": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+        "node_id": "award:usaspending:20273843047635",
+        "node_type": "award"
+      },
+      "value": 1111579.12,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "971e0d80c400e2d0"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-2bb08afa220e6d94",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-15",
+      "evidence_ids": [
+        "evidence-98442261bb38e292"
+      ],
+      "first_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:NG22FMM6Y8Q2",
+        "label": "WEST VIRGINIA STATE UNIVERSITY RESEARCH AND DEVELOPMENT CORPORATION",
+        "node_id": "recipient_or_contractor:uei:NG22FMM6Y8Q2",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-98442261bb38e292",
+          "locator": "reported_recipient:recipient_or_contractor:uei:NG22FMM6Y8Q2",
+          "title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+          "url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:20273843047635",
+        "label": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+        "node_id": "award:usaspending:20273843047635",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9ffb59e9a143d7dc"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-41adb3dbfd33217e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-09",
+      "evidence_ids": [
+        "evidence-6ce01b1523ecbdef"
+      ],
+      "first_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6ce01b1523ecbdef",
+          "locator": "opportunity_status:open",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e166687e97d7b2a6"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-c83b4246f91fc195",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-09",
+      "evidence_ids": [
+        "evidence-eebc31e2b779c024"
+      ],
+      "first_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-eebc31e2b779c024",
+          "locator": "deadline:2026-12-07t23:59:00-05:00",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "2026-12-07T23:59:00-05:00",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "87c0b39393a0aae5"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-8201093624d2eb82",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-09",
+      "evidence_ids": [
+        "evidence-244b329aca496f11"
+      ],
+      "first_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-244b329aca496f11",
+          "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5efa8af99e1d30c3"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
       "claim_id": "claim-3d88cbbba09dbac8",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -1856,9 +2176,9 @@
       "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
       "history": [],
       "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -1901,9 +2221,9 @@
       "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
       "history": [],
       "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "deadline",
       "sources": [
         {
@@ -1946,9 +2266,9 @@
       "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
       "history": [],
       "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -159086,14 +159406,14 @@
       "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
       "history": [],
       "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:J9CDGR596MN3",
         "label": "THE CURATORS OF THE UNIVERSITY OF MISSOURI",
         "node_id": "recipient_or_contractor:uei:J9CDGR596MN3",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -176561,9 +176881,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -176606,9 +176926,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -176651,9 +176971,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -230686,6 +231006,157 @@
     {
       "authority": "analytical",
       "basis": "Deterministic qualification score 39 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-157bc01b9b50c236",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +12",
+              "actionable rfi +6",
+              "closing_this_month +9",
+              "technology fit +12"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view"
+            ],
+            "points": 39
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
+            ],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No public risk penalty"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view"
+            ],
+            "points": 0
+          }
+        ],
+        "evidence_ids": [
+          "evidence-075bdcb08b78b6b5",
+          "evidence-27179ad3aaea8d8e",
+          "evidence-9aed9b660063c781",
+          "evidence-eebc31e2b779c024"
+        ],
+        "input_claim_hashes": {
+          "claim-c83b4246f91fc195": "87c0b39393a0aae5"
+        },
+        "input_claim_ids": [
+          "claim-c83b4246f91fc195"
+        ],
+        "input_claim_versions": {
+          "claim-c83b4246f91fc195": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 39,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
+        ],
+        "trace_complete": true,
+        "trace_hash": "f3f65ab5ed6d80e8",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-c83b4246f91fc195"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-11-10",
+      "evidence_ids": [
+        "evidence-9aed9b660063c781",
+        "evidence-27179ad3aaea8d8e",
+        "evidence-075bdcb08b78b6b5",
+        "evidence-075bdcb08b78b6b5"
+      ],
+      "first_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9aed9b660063c781",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-27179ad3aaea8d8e",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ce51d6763661e999"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 39 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-2819bf22431f6cc4",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -230791,9 +231262,9 @@
         }
       ],
       "last_seen_at": "2026-11-09T03:58:55.745926+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -255717,7 +256188,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255764,7 +256235,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255811,7 +256282,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255858,7 +256329,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255905,7 +256376,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255952,7 +256423,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -255999,7 +256470,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256046,7 +256517,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256093,7 +256564,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256140,7 +256611,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256187,7 +256658,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256234,7 +256705,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256281,7 +256752,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256328,7 +256799,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256375,7 +256846,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256422,7 +256893,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256469,7 +256940,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256516,7 +256987,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256568,7 +257039,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256620,7 +257091,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256672,7 +257143,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256724,7 +257195,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256776,7 +257247,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256828,7 +257299,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256880,7 +257351,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256932,7 +257403,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256984,7 +257455,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-09T03:58:55.745926+00:00",
+      "retracted_at": "2026-11-10T05:32:14.119303+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258639,7 +259110,7 @@
       "evidence_id": "evidence-075bdcb08b78b6b5",
       "locator": "qualification_gate",
       "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
+      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5",
       "verification_status": "source_reported"
     },
     {
@@ -258831,6 +259302,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2795a5f4a3f94f349c46fff7ea924a99/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0820968cef92a78b",
+      "locator": "opportunity_status:awarded",
+      "title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+      "url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -264371,6 +264852,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5f461691122e4e8db8d72944a4b95fd1/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-244b329aca496f11",
+      "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -279127,6 +279618,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-6ce01b1523ecbdef",
+      "locator": "opportunity_status:open",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-6d07c951d9896818",
       "locator": "awarding_agency:national science foundation",
       "title": "EPSCOR RESEARCH FELLOWS: NSF: MONOCHROMATED STEM EELS OF INTERCALATED 2D MATERIALS BILAYERS -THIS RESEARCH INFRASTRUCTURE IMPROVEMENT (RII) EPSCOR RESEARCH FELLOWS PROJECT PROVIDE...",
@@ -287887,6 +288388,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-98442261bb38e292",
+      "locator": "reported_recipient:recipient_or_contractor:uei:NG22FMM6Y8Q2",
+      "title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+      "url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-984df697de07b4db",
       "locator": "opportunity_status:awarded",
       "title": "EPSCOR RESEARCH FELLOWS: NSF: DEVELOPING A PRACTICAL PHYSICS-INFORMED AI BENCHMARK FOR ESTUARINE PHYSICAL-BIOGEOCHEMICAL PREDICTION AND DATA ASSIMILATION -THIS RESEARCH INFRASTRUC...",
@@ -288391,6 +288902,16 @@
       "locator": "opportunity_status:awarded",
       "title": "Award Notice: Aircraft Sensor Support Services",
       "url": "https://sam.gov/workspace/contract/opp/7147a9f246d64084a8007978abc6eeb2/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-9aed9b660063c781",
+      "locator": "qualification_gate",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
       "verification_status": "source_reported"
     },
     {
@@ -305787,6 +306308,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ee466800f3abc85d",
+      "locator": "reported_amount:1111579.12",
+      "title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+      "url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-ee4e952f71e3b8a3",
       "locator": "registration_status:active",
       "title": "BOOZ ALLEN HAMILTON INC",
@@ -305851,6 +306382,16 @@
       "locator": "opportunity_status:awarded",
       "title": "THIS A DELIVERY ORDER AGAINST NASA SEWP V FOR BRAND NAME QBT R&D POST QUANTUM CRYPTOGRAPHY.",
       "url": "https://www.usaspending.gov/award/CONT_AWD_70US0925F1DHS2444_7009_NNG15SD19B_8000/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-eebc31e2b779c024",
+      "locator": "deadline:2026-12-07t23:59:00-05:00",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
       "verification_status": "source_reported"
     },
     {
@@ -306751,6 +307292,16 @@
       "locator": "awarding_agency:national science foundation",
       "title": "CAREER: VEHICLE ADAPTIVE SHARED CONTROL: PREDICTING HUMAN DRIVER COGNITIVE AND INTENT STATES FOR PERSONALIZED CONTROL DECISIONS BY AUTOMATED VEHICLES -AUTOMATED VEHICLES ARE BECOM...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2541931_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-f247d655540d99cb",
+      "locator": "awarding_agency:department of agriculture",
+      "title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+      "url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
       "verification_status": "source_reported"
     },
     {
@@ -309537,16 +310088,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 5146,
-    "authoritative_claims": 4925,
+    "active_claims": 5154,
+    "authoritative_claims": 4932,
     "conflicted_claims": 38,
-    "derived_claims": 215,
-    "evidence_items": 5252,
-    "source_urls": 1408,
-    "subjects": 1052,
+    "derived_claims": 216,
+    "evidence_items": 5260,
+    "source_urls": 1411,
+    "subjects": 1053,
     "superseded_claims": 0,
-    "total_claims": 5173
+    "total_claims": 5181
   },
-  "updated_at": "2026-11-09T03:58:55.745926+00:00",
+  "updated_at": "2026-11-10T05:32:14.119303+00:00",
   "version": 1
 }

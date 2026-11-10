@@ -1,29 +1,167 @@
 {
-  "added": [],
-  "changed": [
+  "added": [
     {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-2819bf22431f6cc4",
-      "confidence": "medium",
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8201093624d2eb82",
+      "confidence": "high",
       "effective_date": "2026-11-09",
       "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "evidence_url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
-      "first_observed_at": "2026-11-07T04:01:16.987059+00:00",
-      "last_observed_at": "2026-11-09T03:58:55.745926+00:00",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+      "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
       "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "targeted review",
+      "predicate": "awarding_agency",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-568c7feab6ac7056",
+          "evidence_id": "evidence-244b329aca496f11",
+          "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "temporal": {
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "historical": false,
+        "label": "Published today",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "primary_date": "2026-11-09",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-11-09"
+      },
+      "value": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-c83b4246f91fc195",
+      "confidence": "high",
+      "effective_date": "2026-11-09",
+      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+      "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-eebc31e2b779c024",
+          "locator": "deadline:2026-12-07t23:59:00-05:00",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "temporal": {
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
+        "effective_date": "2026-12-07",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "historical": false,
+        "label": "Published today",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "primary_date": "2026-11-09",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-11-09"
+      },
+      "value": "2026-12-07T23:59:00-05:00"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-41adb3dbfd33217e",
+      "confidence": "high",
+      "effective_date": "2026-11-09",
+      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+      "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6ce01b1523ecbdef",
+          "locator": "opportunity_status:open",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "temporal": {
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "historical": false,
+        "label": "Published today",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "primary_date": "2026-11-09",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-11-09"
+      },
+      "value": "open"
+    },
+    {
+      "authority": "analytical",
+      "change_type": "added",
+      "claim_id": "claim-157bc01b9b50c236",
+      "confidence": "medium",
+      "effective_date": "2026-11-10",
+      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+      "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9aed9b660063c781",
           "locator": "qualification_gate",
           "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+          "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
           "verification_status": "source_reported"
         },
         {
@@ -34,6 +172,16 @@
           "locator": "qualification_gate",
           "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
           "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5",
           "verification_status": "source_reported"
         },
         {
@@ -54,78 +202,256 @@
         "node_type": "opportunity"
       },
       "temporal": {
-        "classification": "changed_since_prior_run",
+        "classification": "published_today",
         "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
         "event_date": null,
-        "explanation": "The assertion changed relative to the prior successful ledger build.",
-        "first_observed_at": "2026-11-07T04:01:16.987059+00:00",
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
         "historical": false,
-        "label": "Changed since prior run",
-        "last_changed_at": "2026-11-09T03:58:55.745926+00:00",
-        "last_observed_at": "2026-11-09T03:58:55.745926+00:00",
-        "primary_date": "2026-11-06",
+        "label": "Published today",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "primary_date": "2026-11-09",
         "primary_date_role": "publication_date",
-        "publication_date": "2026-11-06"
+        "publication_date": "2026-11-09"
       },
       "value": "hold"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-2a9cdd0c174ab9c5",
+      "confidence": "high",
+      "effective_date": "2026-10-15",
+      "evidence_title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+      "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f247d655540d99cb",
+          "locator": "awarding_agency:department of agriculture",
+          "title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+          "url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:20273843047635",
+        "label": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+        "node_id": "award:usaspending:20273843047635",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-10-15",
+        "explanation": "Frontier Signal first observed this on 2026-11-10; the source date is 2026-10-15.",
+        "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "primary_date": "2026-10-15",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": "Department of Agriculture"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8ab7a16a674c314e",
+      "confidence": "high",
+      "effective_date": "2026-10-15",
+      "evidence_title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+      "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0820968cef92a78b",
+          "locator": "opportunity_status:awarded",
+          "title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+          "url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:20273843047635",
+        "label": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+        "node_id": "award:usaspending:20273843047635",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-10-15",
+        "explanation": "Frontier Signal first observed this on 2026-11-10; the source date is 2026-10-15.",
+        "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "primary_date": "2026-10-15",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-de8a5d5764c9d6ca",
+      "confidence": "high",
+      "effective_date": "2026-10-15",
+      "evidence_title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+      "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ee466800f3abc85d",
+          "locator": "reported_amount:1111579.12",
+          "title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+          "url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:20273843047635",
+        "label": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+        "node_id": "award:usaspending:20273843047635",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-10-15",
+        "explanation": "Frontier Signal first observed this on 2026-11-10; the source date is 2026-10-15.",
+        "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "primary_date": "2026-10-15",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": 1111579.12
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-2bb08afa220e6d94",
+      "confidence": "high",
+      "effective_date": "2026-10-15",
+      "evidence_title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+      "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "object": {
+        "identifier": "uei:NG22FMM6Y8Q2",
+        "label": "WEST VIRGINIA STATE UNIVERSITY RESEARCH AND DEVELOPMENT CORPORATION",
+        "node_id": "recipient_or_contractor:uei:NG22FMM6Y8Q2",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-98442261bb38e292",
+          "locator": "reported_recipient:recipient_or_contractor:uei:NG22FMM6Y8Q2",
+          "title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+          "url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:20273843047635",
+        "label": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+        "node_id": "award:usaspending:20273843047635",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-10-15",
+        "explanation": "Frontier Signal first observed this on 2026-11-10; the source date is 2026-10-15.",
+        "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "primary_date": "2026-10-15",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": null
     }
   ],
-  "comparison_ended_at": "2026-11-09T03:58:55.745926+00:00",
-  "comparison_started_at": "2026-11-08T09:48:23.270169+00:00",
+  "changed": [],
+  "comparison_ended_at": "2026-11-10T05:32:14.119303+00:00",
+  "comparison_started_at": "2026-11-09T03:58:55.745926+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
     {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-2819bf22431f6cc4",
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-8201093624d2eb82",
       "claim_ids": [
-        "claim-2819bf22431f6cc4"
+        "claim-157bc01b9b50c236",
+        "claim-41adb3dbfd33217e",
+        "claim-8201093624d2eb82",
+        "claim-c83b4246f91fc195"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "effective_date": "2026-11-09",
       "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "evidence_url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
-      "first_observed_at": "2026-11-07T04:01:16.987059+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-11-09T03:58:55.745926+00:00",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+      "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "grouped_event_count": 4,
+      "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
       "object": null,
-      "predicate": "qualification_gate",
+      "predicate": "awarding_agency",
       "predicates": [
+        "awarding_agency",
+        "deadline",
+        "opportunity_status",
         "qualification_gate"
       ],
-      "previous_object": null,
-      "previous_value": "targeted review",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-568c7feab6ac7056",
-          "locator": "qualification_gate",
+          "evidence_id": "evidence-244b329aca496f11",
+          "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
           "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-27179ad3aaea8d8e",
-          "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
+          "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
           "verification_status": "source_reported"
         }
       ],
@@ -136,21 +462,81 @@
         "node_type": "opportunity"
       },
       "temporal": {
-        "classification": "changed_since_prior_run",
+        "classification": "published_today",
         "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
         "event_date": null,
-        "explanation": "The assertion changed relative to the prior successful ledger build.",
-        "first_observed_at": "2026-11-07T04:01:16.987059+00:00",
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
         "historical": false,
-        "label": "Changed since prior run",
-        "last_changed_at": "2026-11-09T03:58:55.745926+00:00",
-        "last_observed_at": "2026-11-09T03:58:55.745926+00:00",
-        "primary_date": "2026-11-06",
+        "label": "Published today",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "primary_date": "2026-11-09",
         "primary_date_role": "publication_date",
-        "publication_date": "2026-11-06"
+        "publication_date": "2026-11-09"
       },
-      "value": "hold"
+      "value": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-2a9cdd0c174ab9c5",
+      "claim_ids": [
+        "claim-2a9cdd0c174ab9c5",
+        "claim-2bb08afa220e6d94",
+        "claim-8ab7a16a674c314e",
+        "claim-de8a5d5764c9d6ca"
+      ],
+      "confidence": "high",
+      "effective_date": "2026-10-15",
+      "evidence_title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+      "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "grouped_event_count": 4,
+      "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "predicates": [
+        "awarding_agency",
+        "opportunity_status",
+        "reported_amount",
+        "reported_recipient"
+      ],
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f247d655540d99cb",
+          "locator": "awarding_agency:department of agriculture",
+          "title": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+          "url": "https://www.usaspending.gov/award/ASST_NON_20273843047635_012",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:20273843047635",
+        "label": "WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN\u2026",
+        "node_id": "award:usaspending:20273843047635",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "historical_discovery",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-10-15",
+        "explanation": "Frontier Signal first observed this on 2026-11-10; the source date is 2026-10-15.",
+        "first_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "historical": true,
+        "label": "Newly discovered historical evidence",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-10T05:32:14.119303+00:00",
+        "primary_date": "2026-10-15",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": "Department of Agriculture"
     },
     {
       "authority": "authoritative",
@@ -2596,14 +2982,15 @@
   ],
   "scope_note": "Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.",
   "summary": {
-    "actual_or_recent_changes": 1,
+    "actual_or_recent_changes": 4,
     "classifications": {
-      "changed_since_prior_run": 1,
+      "historical_discovery": 4,
+      "published_today": 4,
       "resolved": 27
     },
     "evidence_trace_changes": 0,
-    "historical_discoveries": 0,
-    "material_events": 28,
+    "historical_discoveries": 4,
+    "material_events": 35,
     "newly_observed_undated": 0,
     "upcoming": 12
   },
@@ -2611,7 +2998,7 @@
   "upcoming": [
     {
       "date": "2026-10-15",
-      "days_remaining": -25,
+      "days_remaining": -26,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2620,7 +3007,7 @@
     },
     {
       "date": "2026-11-14",
-      "days_remaining": 5,
+      "days_remaining": 4,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2629,7 +3016,7 @@
     },
     {
       "date": "2026-11-24",
-      "days_remaining": 15,
+      "days_remaining": 14,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Genesis Mission",
@@ -2638,16 +3025,16 @@
     },
     {
       "date": "2026-12-07",
-      "days_remaining": 28,
+      "days_remaining": 27,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
       "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view"
+      "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view"
     },
     {
       "date": "2026-12-17",
-      "days_remaining": 38,
+      "days_remaining": 37,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2656,7 +3043,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 40,
+      "days_remaining": 39,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2665,7 +3052,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 40,
+      "days_remaining": 39,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2674,7 +3061,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 40,
+      "days_remaining": 39,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2683,7 +3070,7 @@
     },
     {
       "date": "2026-12-31",
-      "days_remaining": 52,
+      "days_remaining": 51,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "Project Triad",
@@ -2692,7 +3079,7 @@
     },
     {
       "date": "2027-01-12",
-      "days_remaining": 64,
+      "days_remaining": 63,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2701,7 +3088,7 @@
     },
     {
       "date": "2027-03-19",
-      "days_remaining": 130,
+      "days_remaining": 129,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2710,7 +3097,7 @@
     },
     {
       "date": "2027-06-22",
-      "days_remaining": 225,
+      "days_remaining": 224,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -2718,6 +3105,6 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
     }
   ],
-  "updated_at": "2026-11-09T03:58:55.745926+00:00",
+  "updated_at": "2026-11-10T05:32:14.119303+00:00",
   "version": 1
 }

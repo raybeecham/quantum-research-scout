@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-09 04:06 UTC_
+_Updated 2026-11-10 05:39 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 49 | 1 | 12 | 6 | 31 |
+| 50 | 4 | 14 | 7 | 29 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -21,14 +21,14 @@ _Updated 2026-11-09 04:06 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 PQC / Crypto Agility has critical strategic importance and stable momentum.
+- 🔴 PQC / Crypto Agility has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: QEC / Fault Tolerance
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 QEC / Fault Tolerance has critical strategic importance and stable momentum.
+- 🔴 QEC / Fault Tolerance has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Hardware
@@ -42,7 +42,7 @@ _Updated 2026-11-09 04:06 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Networking has critical strategic importance and declining momentum.
+- 🔴 Quantum Networking has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Sensing
@@ -70,29 +70,50 @@ _Updated 2026-11-09 04:06 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 40.0% reliability with 8 warning day(s).
+- 🔴 37.7% reliability with 9 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 61.5% reliability with 10 warning day(s).
+- 🔴 60.6% reliability with 11 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: arXiv Quantum Computing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 61.5% reliability with 10 warning day(s).
+- 🔴 60.6% reliability with 11 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🔴 Source failing: arXiv Quantum Networking and Sensing
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 63.1% reliability with 10 warning day(s).
+- 🔴 62.1% reliability with 11 warning day(s).
 - [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv RSS cs.CR 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 88.7% reliability with 3 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🔴 Source failing: arXiv RSS quant-ph 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 88.6% reliability with 3 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Actionable signal: PQC / Crypto Agility 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 PQC / Crypto Agility is actionable with high confidence.
+- [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: Quantum Software / Tooling
 
@@ -108,14 +129,6 @@ _Updated 2026-11-09 04:06 UTC_
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: Post Quantum Cryptography (PQC) Readiness and Validation Status 🆕
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · hold
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view)
-- [Open supporting view](intelligence-changes.md)
-
 ## 🟠 Product Launch: IonQ
 
 - Severity: **high**
@@ -124,18 +137,25 @@ _Updated 2026-11-09 04:06 UTC_
 - [Open direct evidence](https://quantumcomputingreport.com/south-korea-launches-614-pflops-hangang-supercomputer-ahead-of-may-2027-ionq-quantum-link)
 - [Open supporting view](entity-watch.md)
 
+## 🟠 Rising momentum: PQC / Crypto Agility 🆕
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 25 versus 14 in the prior period.
+- [Open supporting view](signals.md)
+
 ## 🟠 Rising momentum: Quantum Software / Tooling
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 3 versus 1 in the prior period.
+- ↗️ Recent evidence is 3 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Standards / Government
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 1 versus 0 in the prior period.
+- ↗️ Recent evidence is 3 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -339,18 +359,4 @@ _Updated 2026-11-09 04:06 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2025-10-06; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: White House Science and Technology Missions
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-29; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Wiz Post-Quantum Security
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-07-21; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

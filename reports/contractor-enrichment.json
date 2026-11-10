@@ -347,7 +347,7 @@
         "State Controlled Institution of Higher Learning",
         "Veterinary College"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "8H404",
       "checked_at": "2026-11-09T03:58:55.745926+00:00",
       "contractor_name": "AUBURN UNIVERSITY",
@@ -679,7 +679,7 @@
         "Educational Institution",
         "Other Not For Profit Organization"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "6D418",
       "checked_at": "2026-11-09T03:58:55.745926+00:00",
       "contractor_name": "PURDUE UNIVERSITY",
@@ -1134,7 +1134,7 @@
         "State Controlled Institution of Higher Learning",
         "U.S. Local Government"
       ],
-      "cache_status": "refreshed",
+      "cache_status": "fresh",
       "cage_code": "1HEX5",
       "checked_at": "2026-11-09T03:58:55.745926+00:00",
       "contractor_name": "UNIVERSITY OF WASHINGTON",
@@ -2740,6 +2740,66 @@
     },
     {
       "aliases": [
+        "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE"
+      ],
+      "business_types": [
+        "1862 Land Grant College",
+        "Business or Organization",
+        "Educational Institution",
+        "Minority Institution",
+        "Other Not For Profit Organization"
+      ],
+      "cache_status": "refreshed",
+      "cage_code": "50853",
+      "checked_at": "2026-11-10T05:32:14.119303+00:00",
+      "contractor_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+      "contractor_score": 40,
+      "dba_name": "University of California, Berkeley",
+      "entity_structure": "Other",
+      "exclusion_status": "N",
+      "identity_id": "uei:GS3YEVSS12N6",
+      "immediate_parent": {
+        "name": null,
+        "uei": null
+      },
+      "legal_business_name": "Regents of the University of California, The",
+      "naics": [
+        {
+          "code": "541715",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "611310",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        }
+      ],
+      "organization_structure": null,
+      "psc": [
+        {
+          "code": null,
+          "name": null
+        }
+      ],
+      "purpose_of_registration": "All Awards",
+      "registration_expiration_date": "2027-01-28",
+      "registration_status": "Active",
+      "resolution_basis": "exact UEI match",
+      "resolution_confidence": "high",
+      "resolution_status": "resolved",
+      "sba_business_types": [],
+      "source_url": "https://sam.gov/entity/GS3YEVSS12N6/coreData",
+      "uei": "GS3YEVSS12N6",
+      "ultimate_parent": {
+        "name": null,
+        "uei": null
+      }
+    },
+    {
+      "aliases": [
         "REGENCY CONSULTING INC"
       ],
       "business_types": [
@@ -2953,9 +3013,9 @@
         "Service-Disabled Veteran-Owned Business",
         "Veteran-Owned Business"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "1YS78",
-      "checked_at": "2026-10-06T04:14:31.500278+00:00",
+      "checked_at": "2026-11-10T05:32:14.119303+00:00",
       "contractor_name": "FOUR POINTS TECHNOLOGY, L.L.C.",
       "contractor_score": 40,
       "dba_name": null,
@@ -2969,55 +3029,7 @@
       "legal_business_name": "FOUR POINTS TECHNOLOGY, L.L.C.",
       "naics": [
         {
-          "code": "334111",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541512",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
           "code": "333912",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541519",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "518210",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541513",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "512250",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541519",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "541511",
           "name": null,
           "primary": null,
           "small_business": null
@@ -3029,7 +3041,7 @@
           "small_business": null
         },
         {
-          "code": "811210",
+          "code": "513210",
           "name": null,
           "primary": null,
           "small_business": null
@@ -3041,19 +3053,37 @@
           "small_business": null
         },
         {
-          "code": "513210",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
           "code": "333914",
           "name": null,
           "primary": null,
           "small_business": null
         },
         {
-          "code": "333413",
+          "code": "518210",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "334111",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "334510",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541511",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541519",
           "name": null,
           "primary": null,
           "small_business": null
@@ -3065,7 +3095,37 @@
           "small_business": null
         },
         {
-          "code": "334510",
+          "code": "811210",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "512250",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541513",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "333413",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541512",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541519",
           "name": null,
           "primary": null,
           "small_business": null
@@ -3079,7 +3139,7 @@
         }
       ],
       "purpose_of_registration": "All Awards",
-      "registration_expiration_date": "2027-07-17",
+      "registration_expiration_date": "2027-10-08",
       "registration_status": "Active",
       "resolution_basis": "exact UEI match",
       "resolution_confidence": "high",
@@ -3102,9 +3162,9 @@
         "State Controlled Institution of Higher Learning",
         "U.S. State Government"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "4B808",
-      "checked_at": "2026-10-07T03:41:21.303454+00:00",
+      "checked_at": "2026-11-10T05:32:14.119303+00:00",
       "contractor_name": "UNIVERSITY OF ILLINOIS",
       "contractor_score": 39,
       "dba_name": "The Board of Trustees of the University of Illinois",
@@ -4079,66 +4139,6 @@
       "sba_business_types": [],
       "source_url": "https://sam.gov/entity/LCLSJAGTNZQ7/coreData",
       "uei": "LCLSJAGTNZQ7",
-      "ultimate_parent": {
-        "name": null,
-        "uei": null
-      }
-    },
-    {
-      "aliases": [
-        "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE"
-      ],
-      "business_types": [
-        "1862 Land Grant College",
-        "Business or Organization",
-        "Educational Institution",
-        "Minority Institution",
-        "Other Not For Profit Organization"
-      ],
-      "cache_status": "fresh",
-      "cage_code": "50853",
-      "checked_at": "2026-10-11T03:18:45.667446+00:00",
-      "contractor_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
-      "contractor_score": 35,
-      "dba_name": "University of California, Berkeley",
-      "entity_structure": "Other",
-      "exclusion_status": "N",
-      "identity_id": "uei:GS3YEVSS12N6",
-      "immediate_parent": {
-        "name": null,
-        "uei": null
-      },
-      "legal_business_name": "Regents of the University of California, The",
-      "naics": [
-        {
-          "code": "541715",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "611310",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        }
-      ],
-      "organization_structure": null,
-      "psc": [
-        {
-          "code": null,
-          "name": null
-        }
-      ],
-      "purpose_of_registration": "All Awards",
-      "registration_expiration_date": "2027-01-28",
-      "registration_status": "Active",
-      "resolution_basis": "exact UEI match",
-      "resolution_confidence": "high",
-      "resolution_status": "resolved",
-      "sba_business_types": [],
-      "source_url": "https://sam.gov/entity/GS3YEVSS12N6/coreData",
-      "uei": "GS3YEVSS12N6",
       "ultimate_parent": {
         "name": null,
         "uei": null
@@ -13940,6 +13940,6 @@
     "tracked_contractors": 75,
     "uei_coverage_percent": 136.0
   },
-  "updated_at": "2026-11-09T03:58:55.745926+00:00",
+  "updated_at": "2026-11-10T05:32:14.119303+00:00",
   "version": 1
 }
