@@ -1916,6 +1916,23 @@
             }
           ],
           "title": "MetaPI: Constructing Prompt Injection Benchmarks from LLM Agent Benchmark"
+        },
+        {
+          "excerpts": [
+            "Large language model (LLM) agents increasingly perform complex tasks using high-privilege tools, making indirect prompt injection (IPI) a critical security risk",
+            "However, IPI benchmarks lag behind their rapidly evolving utility counterparts, only offering limited task and environment coverage and relying on narrow, static attack scenarios",
+            "Beyond AUROC: Deployment-Aware Evaluation of Model-Internal Jailbreak Detectors — already featured in Strategic Signals. [Open item](https://arxiv.org/abs/2611.11067)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
+              "sequence": 1,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.10026"
+            }
+          ],
+          "title": "MetaPI: Constructing Prompt Injection Benchmarks from LLM Agent Benchmark"
         }
       ]
     },
@@ -2059,6 +2076,23 @@
               "published_date": "2026-11-09",
               "report_date": "2026-11-10",
               "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.10756"
+            }
+          ],
+          "title": "Mirage: Provable Defense Against LLM KV Cache Timing Side Channels with Topology-Aware Isolation"
+        },
+        {
+          "excerpts": [
+            "Large Language Models (LLMs) are increasingly deployed as shared multi-tenant services, relying on advanced optimizations like KV cache and prefix sharing to improve throughput and reduce latency",
+            "However, these optimizations introduce a critical vulnerability: attackers can exploit time-to-first-token (TTFT) variations between KV cache hits and misses to infer sensitive prompt tokens via prefix-matching side...",
+            "Cloudflare reports 65% of traffic uses key exchange. — already featured in Strategic Signals. [Open item](https://quantumzeitgeist.com/superqubit-key-exchange-cloudflare-65-percent)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
+              "sequence": 1,
               "source": "arXiv RSS cs.CR",
               "url": "https://arxiv.org/abs/2611.10756"
             }
@@ -7013,6 +7047,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/ev-qubit-counts-must-rise-quantum"
+            },
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/ev-qubit-counts-must-rise-quantum"
             }
           ],
           "title": "Qubit counts must rise for quantum computers to work, EV Group says"
@@ -7538,6 +7579,13 @@
             {
               "published_date": "2026-11-09",
               "report_date": "2026-11-09",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/ionq-quantum-tech-carahsoft-resell-government"
+            },
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/ionq-quantum-tech-carahsoft-resell-government"
@@ -9262,6 +9310,13 @@
             {
               "published_date": "2026-11-09",
               "report_date": "2026-11-09",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/superqubit-key-exchange-cloudflare-65-percent"
+            },
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/superqubit-key-exchange-cloudflare-65-percent"
