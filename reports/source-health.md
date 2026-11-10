@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-10 14:46 UTC_
+_Updated 2026-11-10 15:46 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -22,7 +22,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv Quantum Networking and Sensing | arxiv | 62% | 11 | 0 | 2026-11-10 | 2026-10-29 | fresh | 🔴 failing |
 | Google Quantum AI | watch | 37% | 9 | 0 | 2026-11-10 | 2026-10-15 | fresh | 🔴 failing |
 | Quantum Computing Patents | patent | 91% | 4 | 0 | 2026-11-10 | 2026-11-05 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 92% | 4 | 0 | 2026-11-10 | 2026-11-09 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 92% | 4 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 88% | 3 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 88% | 3 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 100% | 1 | 0 | 2026-11-10 | 2026-11-09 | fresh | 🟢 healthy |
@@ -66,7 +66,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Grants.gov · Quantum Genesis | grant_opportunity | 100% | 0 | 0 | 2026-11-10 | 2026-06-30 | stale | 🟢 healthy |
 | Grants.gov · Quantum Technologies | grant_opportunity | 100% | 0 | 0 | 2026-11-10 | 2026-10-28 | fresh | 🟢 healthy |
 | Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-11-10 | — | unknown | 🟢 healthy |
-| Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-10 | 2026-11-09 | fresh | 🟢 healthy |
+| Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
 | IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-10 | 2026-11-06 | fresh | 🟢 healthy |
 | IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-10 | 2026-11-06 | fresh | 🟢 healthy |
 | IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-10 | 2026-11-06 | fresh | 🟢 healthy |
@@ -97,7 +97,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-11-10 | 2026-11-05 | fresh | 🟢 healthy |
 | PsiQuantum News | watch | 100% | 0 | 0 | 2026-11-10 | 2026-10-28 | fresh | 🟢 healthy |
 | QCi Press Releases | watch | 100% | 0 | 0 | 2026-11-10 | 2026-11-09 | fresh | 🟢 healthy |
-| QuEra Press Releases | watch | 100% | 0 | 0 | 2026-11-10 | 2026-10-15 | stale | 🟢 healthy |
+| QuEra Press Releases | watch | 100% | 0 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
 | QuSecure Press Releases | watch | 100% | 0 | 0 | 2026-11-10 | 2026-09-22 | stale | 🟢 healthy |
 | Quantinuum News | url | 100% | 0 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
 | Quantum Networking and Sensing Patents | patent | 98% | 0 | 0 | 2026-11-10 | 2026-10-15 | stale | 🟢 healthy |
