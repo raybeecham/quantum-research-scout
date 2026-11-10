@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T12:47:34.682613+00:00",
+  "updated_at": "2026-11-10T13:46:09.382508+00:00",
   "records": {
     "https://thequantuminsider.com/2026/11/09/malaysia-quantum-resistant-security-transition": {
       "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-09_17-23.png",
@@ -58,6 +58,11 @@
       "fetched_at": "2026-11-10T05:40:04.863234+00:00",
       "status": "ok"
     },
+    "https://arxiv.org/abs/2611.10756": {
+      "page_url": "https://arxiv.org/abs/2611.10756",
+      "status": "unavailable",
+      "fetched_at": "2026-11-10T08:46:11.816986+00:00"
+    },
     "https://arxiv.org/abs/2611.10966": {
       "page_url": "https://arxiv.org/abs/2611.10966",
       "status": "unavailable",
@@ -94,14 +99,6 @@
       "publisher": "The Quantum Insider",
       "provenance": "og:image",
       "fetched_at": "2026-11-09T17:16:43.464067+00:00",
-      "status": "ok"
-    },
-    "https://thequantuminsider.com/2026/11/09/ionq-carahsoft-quantum-technologies-government": {
-      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-09_22-40.png",
-      "page_url": "https://thequantuminsider.com/2026/11/09/ionq-carahsoft-quantum-technologies-government",
-      "publisher": "The Quantum Insider",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-09T18:48:44.354658+00:00",
       "status": "ok"
     },
     "https://quantumzeitgeist.com/ev-qubit-counts-must-rise-quantum": {
@@ -189,10 +186,13 @@
       "status": "unavailable",
       "fetched_at": "2026-11-10T08:46:11.816986+00:00"
     },
-    "https://arxiv.org/abs/2611.10756": {
-      "page_url": "https://arxiv.org/abs/2611.10756",
-      "status": "unavailable",
-      "fetched_at": "2026-11-10T08:46:11.816986+00:00"
+    "https://thequantuminsider.com/2026/11/09/ionq-carahsoft-quantum-technologies-government": {
+      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-09_22-40.png",
+      "page_url": "https://thequantuminsider.com/2026/11/09/ionq-carahsoft-quantum-technologies-government",
+      "publisher": "The Quantum Insider",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-09T18:48:44.354658+00:00",
+      "status": "ok"
     },
     "https://arxiv.org/abs/2611.11067": {
       "page_url": "https://arxiv.org/abs/2611.11067",
@@ -688,6 +688,11 @@
       "status": "failed",
       "fetched_at": "2026-11-10T07:46:14.388542+00:00"
     },
+    "https://eprint.iacr.org/2026/2752": {
+      "page_url": "https://eprint.iacr.org/2026/2752",
+      "status": "failed",
+      "fetched_at": "2026-11-10T12:47:34.682613+00:00"
+    },
     "https://arxiv.org/abs/2611.06124": {
       "page_url": "https://arxiv.org/abs/2611.06124",
       "status": "unavailable",
@@ -910,11 +915,13 @@
       "fetched_at": "2026-11-03T10:45:59.667963+00:00",
       "status": "ok"
     },
-    "https://eprint.iacr.org/2026/2752": {
-      "page_url": "https://eprint.iacr.org/2026/2752",
-      "fetched_at": "2026-11-10T12:47:34.682613+00:00",
-      "status": "failed",
-      "reason": "http_403"
+    "https://thequantuminsider.com/2026/11/10/ibm-education-workforce-development-cohort": {
+      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-10_17-44.png",
+      "page_url": "https://thequantuminsider.com/2026/11/10/ibm-education-workforce-development-cohort",
+      "publisher": "The Quantum Insider",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-10T13:46:09.382508+00:00",
+      "status": "ok"
     }
   }
 }
