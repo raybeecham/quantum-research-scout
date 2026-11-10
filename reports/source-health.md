@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-10 17:46 UTC_
+_Updated 2026-11-10 18:46 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -31,7 +31,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | SAM.gov Opportunities | procurement | 98% | 0 | 13 | 2026-11-10 | 2026-11-09 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 1 | 2026-11-10 | 2024-03-12 | reference | 🟠 partial |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-10 | 2026-10-21 | fresh | 🟢 healthy |
-| AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-10 | 2026-11-09 | fresh | 🟢 healthy |
+| AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
 | Accenture Federal Services Quantum Readiness | watch | 100% | 0 | 0 | 2026-11-10 | 2026-08-04 | reference | 🟢 healthy |
 | Accenture Quantum and PQC News | watch | 100% | 0 | 0 | 2026-11-10 | 2025-10-20 | stale | 🟢 healthy |
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-10 | 2026-10-07 | stale | 🟢 healthy |
@@ -44,8 +44,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-10 | 2026-11-06 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-10 | 2026-11-05 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-10 | 2026-11-04 | fresh | 🟢 healthy |
-| DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-10 | 2026-11-07 | fresh | 🟢 healthy |
-| DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-10 | 2026-11-07 | fresh | 🟢 healthy |
+| DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
+| DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-10 | — | reference | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-11-10 | 2026-11-05 | fresh | 🟢 healthy |
@@ -103,7 +103,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Networking and Sensing Patents | patent | 98% | 0 | 0 | 2026-11-10 | 2026-10-15 | stale | 🟢 healthy |
 | SandboxAQ Blog | url | 100% | 0 | 0 | 2026-11-10 | 2026-10-08 | stale | 🟢 healthy |
 | Strategic AI Systems Patents | patent | 99% | 0 | 0 | 2026-11-10 | 2026-11-05 | fresh | 🟢 healthy |
-| Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-11-10 | 2026-11-05 | fresh | 🟢 healthy |
+| Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
 | The Quantum Insider | rss | 100% | 0 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
 | Trail of Bits Cryptography | rss | 100% | 0 | 0 | 2026-11-10 | 2026-11-03 | fresh | 🟢 healthy |
 | USAspending · AI Forge | federal_award | 100% | 0 | 0 | 2026-11-10 | 2026-09-28 | stale | 🟢 healthy |
