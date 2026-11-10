@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-10 06:46 UTC_
+_Updated 2026-11-10 07:46 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -99,7 +99,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | QCi Press Releases | watch | 100% | 0 | 0 | 2026-11-10 | 2026-11-09 | fresh | 🟢 healthy |
 | QuEra Press Releases | watch | 100% | 0 | 0 | 2026-11-10 | 2026-10-15 | stale | 🟢 healthy |
 | QuSecure Press Releases | watch | 100% | 0 | 0 | 2026-11-10 | 2026-09-22 | stale | 🟢 healthy |
-| Quantinuum News | url | 100% | 0 | 0 | 2026-11-10 | 2026-11-09 | fresh | 🟢 healthy |
+| Quantinuum News | url | 100% | 0 | 0 | 2026-11-10 | 2026-11-10 | fresh | 🟢 healthy |
 | Quantum Networking and Sensing Patents | patent | 98% | 0 | 0 | 2026-11-10 | 2026-10-15 | stale | 🟢 healthy |
 | SandboxAQ Blog | url | 100% | 0 | 0 | 2026-11-10 | 2026-10-08 | stale | 🟢 healthy |
 | Strategic AI Systems Patents | patent | 99% | 0 | 0 | 2026-11-10 | 2026-11-05 | fresh | 🟢 healthy |
