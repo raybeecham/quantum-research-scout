@@ -1899,6 +1899,171 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2611.10026": {
+      "captures": [
+        {
+          "excerpts": [
+            "Large language model (LLM) agents increasingly perform complex tasks using high-privilege tools, making indirect prompt injection (IPI) a critical security risk",
+            "However, IPI benchmarks lag behind their rapidly evolving utility counterparts, only offering limited task and environment coverage and relying on narrow, static attack scenarios"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.10026"
+            }
+          ],
+          "title": "MetaPI: Constructing Prompt Injection Benchmarks from LLM Agent Benchmark"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.10119": {
+      "captures": [
+        {
+          "excerpts": [
+            "Quantum communication networks are best supported by maximally entangled states, but imperfections in entanglement generation and distribution generally limit the distributed states to being only partially entangled",
+            "Therefore, protocols typically consisting of local operations and classical communication are required to create suitably entangled networks"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.10119"
+            }
+          ],
+          "title": "Entanglement percolation enhanced by the power of choice"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.10351": {
+      "captures": [
+        {
+          "excerpts": [
+            "We implement a quantum reservoir network (QRN) for forecasting high-dimensional unstructured PDEs using up to 52 qubits on IBM superconducting hardware",
+            "Simulating high dimensional unstructured Partial Differential Equations (PDEs) with quantum processors is a major challenge with significant potential benefit",
+            "Existing methods have been demonstrated at small qubit counts, on simplifications of realistic problems"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.10351"
+            }
+          ],
+          "title": "Realizing Unstructured PDE Forecasting on Superconducting Quantum Processors"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.10403": {
+      "captures": [
+        {
+          "excerpts": [
+            "We present QUASI, a newly conceived class of protocols that enable a group of parties to produce a publicly verifiable attestation about a pre-validated statement",
+            "Designed for quorum-based systems, QUASI enables parties to attest to external entities that the statement is valid",
+            "Surprisingly, each party need not sign the entire statement: authenticating only a small subset of symbols suffices for the quorum to attest to the whole"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.10403"
+            }
+          ],
+          "title": "QUASI: Post-Quantum Quorum Attestation of Pre-Validated Statements"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.10670": {
+      "captures": [
+        {
+          "excerpts": [
+            "We demonstrate a novel QKD protocol, named \\texttt{Bridge[$d,q$]}, which generalizes the \\texttt{SARG04} protocol to $d$ dimensions and $q$ bases",
+            "We present an experimental demonstration of the \\texttt{Bridge[$2,3$]} protocol",
+            "In this protocol, Alice and Bob gain only partial knowledge about each other's raw key"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.10670"
+            }
+          ],
+          "title": "Demonstration of a partial knowledge quantum key distribution protocol"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.10687": {
+      "captures": [
+        {
+          "excerpts": [
+            "Here, we prepare a three-electron $\\nu=1/3$ Laughlin state on the Haldane sphere using seven superconducting qubits and reconstruct its many-body density matrix",
+            "Fractional quantum Hall (FQH) states support fractionalized excitations and geometric phases, yet experimentally resolving the many-body coherence encoded in their wave functions remains challenging"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.10687"
+            }
+          ],
+          "title": "Hidden Coherence and Controlled Quasihole Motion in a Fermionic Laughlin State on a Superconducting Quantum Processor"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.10756": {
+      "captures": [
+        {
+          "excerpts": [
+            "Large Language Models (LLMs) are increasingly deployed as shared multi-tenant services, relying on advanced optimizations like KV cache and prefix sharing to improve throughput and reduce latency",
+            "However, these optimizations introduce a critical vulnerability: attackers can exploit time-to-first-token (TTFT) variations between KV cache hits and misses to infer sensitive prompt tokens via prefix-matching side...",
+            "PQC-Corpus: A Dataset of Linked Development Histories for Post-Quantum Cryptography — already featured in Strategic Signals. [Open item](https://arxiv.org/abs/2611.10966)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.10756"
+            }
+          ],
+          "title": "Mirage: Provable Defense Against LLM KV Cache Timing Side Channels with Topology-Aware Isolation"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.10966": {
+      "captures": [
+        {
+          "excerpts": [
+            "As post-quantum cryptography (PQC) standards evolve, developers must adapt implementations, tests, and protocols",
+            "We present PQC-Corpus, a dataset of linked development histories from 179 public GitHub repositories, spanning cryptographic libraries and general-purpose projects",
+            "Studying this work requires connecting code changes to problem reports and developer reviews"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.10966"
+            }
+          ],
+          "title": "PQC-Corpus: A Dataset of Linked Development Histories for Post-Quantum Cryptography"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
@@ -12472,6 +12637,21 @@
               "published_date": "2026-11-09",
               "report_date": "2026-11-10",
               "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/09/malaysia-quantum-resistant-security-transition"
+            }
+          ],
+          "title": "Malaysia Considers Faster Transition to Quantum-Resistant Security"
+        },
+        {
+          "excerpts": [
+            "Malaysia is considering accelerating its transition to quantum-resistant security as the government explores measures to protect national"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-09",
+              "report_date": "2026-11-10",
+              "sequence": 1,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/11/09/malaysia-quantum-resistant-security-transition"
             }
