@@ -1,7 +1,10 @@
 from __future__ import annotations
 
 import logging
+import math
 import time
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from typing import Any
 
 import requests
@@ -9,6 +12,18 @@ import requests
 from .redaction import redact_text, redact_url
 
 LOGGER = logging.getLogger(__name__)
+
+
+class FetchError(RuntimeError):
+    """Redacted fetch failure with provider retry guidance for collectors."""
+
+    def __init__(self, message: str, cause: Exception | None) -> None:
+        super().__init__(message)
+        response = getattr(cause, "response", None)
+        self.status_code = response.status_code if response is not None else None
+        self.retry_after_seconds = (
+            _retry_after_seconds(response.headers.get("Retry-After")) if response is not None else 0
+        )
 
 
 class HttpClient:
@@ -67,7 +82,9 @@ class HttpClient:
                     time.sleep(1 + attempt)
                     continue
                 LOGGER.warning("Fetch failed for %s: %s", redact_url(url), redact_text(exc))
-        raise RuntimeError(f"Failed to fetch {redact_url(url)}: {redact_text(last_error)}")
+        raise FetchError(
+            f"Failed to fetch {redact_url(url)}: {redact_text(last_error)}", last_error
+        )
 
     def get_bytes(
         self,
@@ -189,19 +206,29 @@ def _http_retry_delay(
     status = response.status_code
     if status == 429:
         retry_after = _retry_after_seconds(response.headers.get("Retry-After"))
-        return float(retry_after) if retry_after > 0 else None
+        # A long provider delay means defer, never retry early at our sleep cap.
+        return float(retry_after) if 0 < retry_after <= max_seconds else None
     if status in {408, 425} or status >= 500:
         return _exponential_backoff_seconds(attempt, base_seconds, max_seconds)
     return None
 
 
-def _retry_after_seconds(value: str | None) -> int:
+def _retry_after_seconds(value: str | None, *, now: datetime | None = None) -> int:
+    """Parse delta-seconds or HTTP-date without shortening provider cooldowns."""
     if not value:
         return 0
     try:
-        return max(0, min(int(value), 60))
+        return max(0, int(value))
     except ValueError:
-        return 0
+        try:
+            deadline = parsedate_to_datetime(value)
+            if deadline.tzinfo is None:
+                deadline = deadline.replace(tzinfo=timezone.utc)
+            return max(
+                0, math.ceil((deadline - (now or datetime.now(timezone.utc))).total_seconds())
+            )
+        except (ValueError, TypeError, OverflowError):
+            return 0
 
 
 def _exponential_backoff_seconds(attempt: int, base_seconds: float, max_seconds: float) -> float:

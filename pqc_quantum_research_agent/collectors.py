@@ -10,6 +10,7 @@ from collections.abc import Callable
 from datetime import datetime, timedelta, timezone
 from urllib.parse import unquote, urlencode, urlsplit
 
+from .arxiv_cooldown import read_cooldown, write_cooldown
 from .config import AgentConfig
 from .dates import parse_datetime
 from .feed_parser import parse_feed
@@ -1142,12 +1143,69 @@ def collect_arxiv_rss(
         url = feed.get("url")
         if not url:
             continue
-        collected = _collect_feed(
-            client, name, "arxiv_rss", url, int(feed.get("max_items", max_items_per_source))
+        collected = _collect_arxiv_feed(
+            client, name, url, int(feed.get("max_items", max_items_per_source))
         )
         result.items.extend(collected.items)
         result.warnings.extend(collected.warnings)
     LOGGER.info("Collected %d arXiv RSS candidates", len(result.items))
+    return result
+
+
+def _parse_arxiv_feed(xml_text: str):
+    """Reject malformed/error payloads while accepting valid zero-entry feeds."""
+    root = ET.fromstring(xml_text.encode("utf-8"))
+    kind = _xml_local_name(root.tag)
+    if kind not in {"rss", "feed"} or (kind == "rss" and root.find("channel") is None):
+        raise ValueError("Response is not an RSS or Atom feed")
+    entries = parse_feed(xml_text)
+    raw_count = sum(_xml_local_name(node.tag) in {"item", "entry"} for node in root.iter())
+    if len(entries) != raw_count:
+        raise ValueError("Feed contains entries missing required title or URL")
+    if any("/api/errors" in entry.url for entry in entries):
+        raise ValueError("arXiv returned an API error feed")
+    return entries
+
+
+def _collect_arxiv_feed(client: HttpClient, name: str, url: str, limit: int) -> CollectionResult:
+    result = CollectionResult()
+    try:
+        xml_text, resolved_url = client.get_text(url)
+        entries = _parse_arxiv_feed(xml_text)
+    except (RuntimeError, ValueError, ET.ParseError) as exc:
+        result.warnings.append(SourceWarning(name, "arxiv_rss", f"arXiv feed failed: {exc}", url))
+        return result
+    entries.sort(
+        key=lambda entry: entry.published_at or datetime.min.replace(tzinfo=timezone.utc),
+        reverse=True,
+    )
+    limit = max(0, limit)
+    if len(entries) > limit:
+        result.warnings.append(
+            SourceWarning(
+                name,
+                "arxiv_rss",
+                f"Partial coverage: feed returned {len(entries)} entries; retained {limit} before "
+                "classification. Relevant papers may be omitted by this collection limit.",
+                url,
+                severity="advisory",
+            )
+        )
+    for entry in entries[:limit]:
+        result.items.append(
+            ResearchItem(
+                source_name=name,
+                source_type="arxiv_rss",
+                title=entry.title,
+                url=entry.url,
+                summary=compact_summary(entry.summary, 500),
+                authors=entry.authors,
+                published_at=entry.published_at,
+                date_source="rss_feed_timestamp:arxiv_rss",
+                date_confidence="high" if entry.published_at else "unknown",
+                raw_payload={"feed_url": url, "resolved_url": resolved_url},
+            )
+        )
     return result
 
 
@@ -1157,30 +1215,36 @@ def collect_arxiv_sources(
     arxiv_config: dict,
     max_items_per_source: int,
 ) -> CollectionResult:
-    """Use lightweight feeds first and fall back to the official search API when empty."""
+    """Use RSS first; fall back only for categories whose feeds failed or are absent."""
     rss = collect_arxiv_rss(client, feeds, max_items_per_source)
-    api_enabled = bool(arxiv_config.get("enabled", False))
-    fallback_only = bool(arxiv_config.get("fallback_only", True))
-    if not api_enabled or (fallback_only and rss.items):
-        if api_enabled:
-            rss.skipped_sources.update(
-                query.get("name", "arXiv")
-                for query in arxiv_config.get("queries", [])
-                if query.get("enabled", True)
-            )
+    if not arxiv_config.get("enabled", False):
         return rss
-
-    api = collect_arxiv(client, arxiv_config)
-    if not api.warnings:
-        rss.warnings = [
-            warning
-            for warning in rss.warnings
-            if "no parseable entries" not in warning.message.casefold()
-        ]
-    return CollectionResult(
-        items=[*rss.items, *api.items],
-        warnings=[*rss.warnings, *api.warnings],
-    )
+    queries = []
+    failed = {w.source_name for w in rss.warnings if w.severity == "failure"}
+    enabled_feeds = [f for f in feeds if f.get("enabled", True) and f.get("url")]
+    healthy_categories = {
+        str(f.get("category") or urlsplit(f["url"]).path.rstrip("/").rsplit("/", 1)[-1])
+        for f in enabled_feeds
+        if (f.get("name") or f["url"]) not in failed
+    }
+    for query in arxiv_config.get("queries", []):
+        if not query.get("enabled", True):
+            continue
+        categories = set(re.findall(r"\bcat:([\w.-]+)", str(query.get("search_query", ""))))
+        covered = (
+            categories <= healthy_categories if categories else bool(enabled_feeds) and not failed
+        )
+        if arxiv_config.get("fallback_only", True) and covered:
+            rss.skipped_sources.add(query.get("name", "arXiv"))
+        else:
+            queries.append(query)
+    if queries:
+        api = collect_arxiv(client, {**arxiv_config, "queries": queries})
+        rss.items.extend(api.items)
+        # API success does not erase an RSS failure or claim RSS recovery.
+        rss.warnings.extend(api.warnings)
+        rss.skipped_sources.update(api.skipped_sources)
+    return rss
 
 
 def collect_arxiv(client: HttpClient, arxiv_config: dict) -> CollectionResult:
@@ -1193,6 +1257,7 @@ def collect_arxiv(client: HttpClient, arxiv_config: dict) -> CollectionResult:
     sort_order = arxiv_config.get("sort_order", "descending")
     pause_seconds = float(arxiv_config.get("request_pause_seconds", DEFAULT_ARXIV_PAUSE_SECONDS))
     last_request_at = 0.0
+    cooldown_until = read_cooldown(arxiv_config.get("cooldown_path"))
 
     for query in arxiv_config.get("queries", []):
         if not query.get("enabled", True):
@@ -1202,6 +1267,9 @@ def collect_arxiv(client: HttpClient, arxiv_config: dict) -> CollectionResult:
         if not search_query:
             continue
 
+        if cooldown_until > time.time():
+            result.skipped_sources.add(name)
+            continue
         params = {
             "search_query": search_query,
             "start": 0,
@@ -1216,10 +1284,14 @@ def collect_arxiv(client: HttpClient, arxiv_config: dict) -> CollectionResult:
             result.warnings.append(
                 SourceWarning(name, "arxiv", _source_failure_message(exc, "arXiv"), ARXIV_API_URL)
             )
+            if getattr(exc, "status_code", None) == 429 or "429" in str(exc):
+                cooldown_until = time.time() + max(3600, getattr(exc, "retry_after_seconds", 0))
+                if not arxiv_config.get("cooldown_read_only", False):
+                    write_cooldown(arxiv_config.get("cooldown_path"), cooldown_until)
             continue
 
         try:
-            entries = parse_feed(xml_text)
+            entries = _parse_arxiv_feed(xml_text)
         except Exception as exc:  # pragma: no cover - parser hardening fallback
             LOGGER.warning("Failed to parse arXiv response for %s: %s", name, exc)
             result.warnings.append(
@@ -1227,6 +1299,17 @@ def collect_arxiv(client: HttpClient, arxiv_config: dict) -> CollectionResult:
             )
             continue
 
+        if max_results > 0 and len(entries) >= max_results:
+            result.warnings.append(
+                SourceWarning(
+                    name,
+                    "arxiv",
+                    f"Partial coverage: API result limit of {max_results} reached; "
+                    "additional matching papers may exist.",
+                    resolved_url,
+                    severity="advisory",
+                )
+            )
         for entry in entries:
             result.items.append(
                 ResearchItem(
@@ -1558,6 +1641,8 @@ def _collect_watch_page(
     result = CollectionResult()
     try:
         html_text, resolved_url = client.get_text(source_url)
+        if not _watch_allowed_host(resolved_url, source):
+            raise ValueError("HTML discovery resolved outside allowed hosts")
         page_title, page_description, links = extract_links(
             html_text, resolved_url, same_domain_only=bool(source.get("same_domain_only", True))
         )
@@ -1588,23 +1673,50 @@ def _collect_watch_page(
 
     min_title_chars = int(source.get("min_title_chars", 12))
     metadata_failures = 0
+    seen_urls: set[str] = set()
     for link in links:
         if len(result.items) >= max_items:
             break
         title = strip_html(link.title)
         if (
             link.url == resolved_url
+            or not _watch_allowed_host(link.url, source)
+            or (source.get("deduplicate_article_urls") and _watch_url_key(link.url) in seen_urls)
             or len(title) < min_title_chars
             or not _watch_candidate(link.url, title, source)
         ):
             continue
+        seen_urls.add(_watch_url_key(link.url))
         metadata = None
         article_url = link.url
         try:
             article_html, article_url = client.get_text(link.url)
+            if not _watch_allowed_host(article_url, source):
+                continue
+            if (
+                source.get("deduplicate_article_urls")
+                and _watch_url_key(article_url) != _watch_url_key(link.url)
+                and _watch_url_key(article_url) in seen_urls
+            ):
+                continue
+            seen_urls.add(_watch_url_key(article_url))
             metadata = extract_page_metadata(article_html, article_url, source_name)
         except Exception:
             metadata_failures += 1
+        # Some sources are news-only: do not promote evergreen pages or infer a
+        # publication date from a URL, a modified timestamp, or discovery time.
+        if source.get("require_publication_date") and (
+            not metadata
+            or not metadata.published_at
+            or not (
+                (
+                    metadata.date_source.startswith("explicit_metadata:")
+                    and metadata.date_source != "explicit_metadata:time.datetime"
+                )
+                or metadata.date_source == "json_ld:datePublished"
+            )
+        ):
+            continue
         item_title = metadata.title if metadata and metadata.title else title
         result.items.append(
             ResearchItem(
@@ -1625,8 +1737,14 @@ def _collect_watch_page(
             SourceWarning(
                 source_name,
                 "watch",
-                f"Partial coverage: {metadata_failures} article pages could not be read; "
-                "their link titles are available but article metadata is unverified.",
+                (
+                    f"Partial coverage: {metadata_failures} article pages could not be read; "
+                    + (
+                        "entries without verified publication dates were excluded."
+                        if source.get("require_publication_date")
+                        else "their link titles are available but article metadata is unverified."
+                    )
+                ),
                 source_url,
                 severity="advisory",
             )
@@ -1638,6 +1756,30 @@ def _collect_watch_page(
             )
         )
     return result
+
+
+def _watch_allowed_host(url: str, source: dict) -> bool:
+    """Allow cross-domain discovery only within an explicit publisher host list."""
+    allowed = _string_list(source.get("allowed_hosts"))
+    if not allowed:
+        return True
+    try:
+        parsed = urlsplit(url)
+        return (
+            parsed.scheme == "https"
+            and parsed.hostname in {host.casefold() for host in allowed}
+            and parsed.port in {None, 443}
+            and not parsed.username
+            and not parsed.password
+        )
+    except ValueError:
+        return False
+
+
+def _watch_url_key(url: str) -> str:
+    # Discovery fragments and tracking parameters do not identify another article.
+    parsed = urlsplit(url)
+    return parsed._replace(query="", fragment="", path=parsed.path.rstrip("/")).geturl()
 
 
 def _sitemap_page_entries(root: ET.Element) -> list[tuple[str, str]]:

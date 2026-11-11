@@ -13,6 +13,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from pqc_quantum_research_agent.arxiv_cooldown import merge_cooldown
 from pqc_quantum_research_agent.report_index import write_report_index
 from scripts.report_schedule import report_path, validate_report
 
@@ -43,6 +44,7 @@ def stage(reports: Path, snapshot: Path, target: date) -> None:
     observations = reports / "source-observations.json"
     if observations.is_file():
         shutil.copyfile(observations, snapshot / observations.name)
+    merge_cooldown(reports / "arxiv-cooldown.json", snapshot / "arxiv-cooldown.json")
 
 
 def publish(reports: Path, snapshot: Path, target: date) -> None:
@@ -71,6 +73,9 @@ def publish(reports: Path, snapshot: Path, target: date) -> None:
     audit = reports / "weekly" / "snapshots" / f"{target:%Y}" / f"{target}-morning.md"
     audit.parent.mkdir(parents=True, exist_ok=True)
     audit.write_text(morning, encoding="utf-8")
+    # Provider cooldown is operational state, not an isolated observation ledger.
+    # A weekly 429 must protect the next daily run, without replacing a later deadline.
+    merge_cooldown(snapshot / "arxiv-cooldown.json", reports / "arxiv-cooldown.json")
     write_report_index(reports)
 
 

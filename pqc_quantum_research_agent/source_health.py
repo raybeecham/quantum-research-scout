@@ -181,9 +181,20 @@ def write_source_health_report(
             or source.get("feed_url")
             or (urls[0] if urls else "")
         )
+        note = source.get("source_note") or policies.get(name, {}).get("note", "")
+        if name in {query.get("name", "arXiv") for query in config.arxiv.get("queries", [])}:
+            url = "https://export.arxiv.org/api/query"
+            availability = (
+                "unavailable at last attempt"
+                if observation.get("last_outcome") == "failing"
+                else "available at last attempt"
+                if observation.get("last_success_at")
+                else "unverified"
+            )
+            note = f"{note} API backup {availability}. RSS health is measured separately.".strip()
         return {
             "feed_url": redact_url(url),
-            "source_note": source.get("source_note") or policies.get(name, {}).get("note", ""),
+            "source_note": note,
             "last_error": redact_text(
                 observation.get("last_error") or observation.get("last_warning") or ""
             ),
@@ -339,6 +350,16 @@ def write_source_health_report(
                 "last_run_items": observation.get("last_run_items"),
                 "consecutive_failures": observation.get("consecutive_failures", 0),
                 "last_outcome": observation.get("last_outcome"),
+                "collection_state": observation.get("collection_state"),
+                "backup_status": (
+                    "unavailable"
+                    if observation.get("last_outcome") == "failing"
+                    else "available"
+                    if observation.get("last_success_at")
+                    else "unverified"
+                )
+                if source_type == "arxiv"
+                else None,
             }
         )
     health_by_name = {str(item["name"]): item for item in health_entries}
@@ -357,6 +378,25 @@ def write_source_health_report(
             f"| {name} | {source_type} | {success_rate:.0f}% | {failure_days} | {advisory_days} | {_short_date(health.get('last_checked_at'))} | "
             f"{_short_date(health.get('last_item_at'))} | {health['freshness']} | {health_icon(status)} {status} |"
         )
+
+    backups = [item for item in health_entries if item["type"] == "arxiv"]
+    if backups:
+        lines.extend(
+            [
+                "",
+                "## arXiv API Backup",
+                "",
+                "RSS and API are measured separately. Standby means no API request was made; "
+                "working RSS does not prove API recovery. Last real API attempts remain below.",
+                "",
+            ]
+        )
+        for item in backups:
+            lines.append(
+                f"- **{item['name']}**: backup {item['backup_status']}; "
+                f"last API attempt {item.get('last_checked_at') or 'never'}. "
+                f"Last error: {item.get('last_error') or 'none recorded'}."
+            )
 
     operational_summary = _operational_summary(
         health_entries,

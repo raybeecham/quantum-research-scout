@@ -273,3 +273,28 @@ def test_pages_publication_gate(run, steps, expected):
         check=True,
     )
     assert result.stdout == expected
+
+
+@pytest.mark.parametrize("published_deadline, snapshot_deadline", [(1000, 2000), (3000, 2000)])
+def test_weekly_carries_provider_cooldown_without_shortening_deadlines(
+    tmp_path, published_deadline, snapshot_deadline
+):
+    from pqc_quantum_research_agent.arxiv_cooldown import read_cooldown, write_cooldown
+
+    reports, snapshot = tmp_path / "reports", tmp_path / "snapshot"
+    for days in range(5):
+        daily(reports, FRIDAY - timedelta(days=days))
+    published = reports / "arxiv-cooldown.json"
+    isolated = snapshot / "arxiv-cooldown.json"
+    write_cooldown(published, 1000)
+    stage(reports, snapshot, FRIDAY)
+    assert read_cooldown(isolated) == 1000
+    # A provider denial in the isolated run must survive staging retries.
+    write_cooldown(isolated, snapshot_deadline)
+    stage(reports, snapshot, FRIDAY)
+    assert read_cooldown(isolated) == snapshot_deadline
+    write_cooldown(published, published_deadline)
+    daily(snapshot, FRIDAY, "08:00")
+    write_weekly_report(snapshot, week_end=FRIDAY)
+    publish(reports, snapshot, FRIDAY)
+    assert read_cooldown(published) == max(published_deadline, snapshot_deadline)

@@ -225,3 +225,55 @@ python scripts/record_pursuit_feedback.py `
 ```
 
 The recorder snapshots the pre-decision evidence and scores into the gitignored `pursuit-feedback.local.jsonl` ledger. Win/loss outcomes must reference a prior bid or submitted event, preventing future information from leaking backward into the training snapshot. Review `.local-intelligence/scoring-calibration.md` before changing calibration from `shadow` to `active`.
+
+### arXiv fallback health and coverage
+
+RSS remains the primary source. A valid empty feed is a successful check, not an
+API failure. In runs where the API is enabled, fallback is decided per category:
+a successful `cs.CR` feed does not hide a failed `quant-ph` feed. Hourly runs keep
+their existing API suppression. Malformed and API-error feeds count as failures.
+
+The retained-item cap still applies before topical classification. When a feed
+has more entries than the cap, health reports show partial coverage and both
+counts; the retained candidates are not a complete literature search.
+
+After an API HTTP 429, the remaining API queries are put on standby for at least
+one hour, or longer when required by `Retry-After` (seconds or HTTP-date). The
+provider deadline is saved atomically in `reports/arxiv-cooldown.json`, carried
+with the normal report commit, and read on the next run. Dry runs read but do not
+write it. Long provider delays are deferred rather than shortened to the HTTP
+client's maximum sleep. Standby preserves the last actual API attempt/error;
+working RSS does not prove the API recovered and does not close its incident.
+Only a new successful API attempt can do that. Stale standby observations do not
+create or reopen incidents.
+
+### Pages artifact readiness and recovery
+
+After the release gate, retained-address check, packaging, and upload, deployment
+waits for the **exact artifact ID returned by this run's upload** to appear as the
+single, non-expired, nonempty `github-pages` artifact in the current run's Actions
+artifact listing. This mitigates a transient upload/discovery visibility gap; it
+does not prove that the Pages backend will accept or finish a deployment.
+
+`scripts/wait_for_pages_artifact.py` makes only authenticated GET requests. It
+uses a 120-second polling budget, at most 24 reads, five-second pauses, and
+10-second request timeouts (capped by the remaining budget). The workflow step
+has a three-minute hard timeout, including HTTP and interpreter overhead. Missing
+or not-yet-populated artifacts, HTTP 404/429/500/502/503/504, and transport
+timeouts/connection errors may retry within those bounds. On HTTP 429/503,
+`Retry-After` seconds or HTTP dates set a minimum pause. A pause that leaves no
+polling budget, or an invalid header, fails closed without an early retry.
+Authorization failures,
+redirects, malformed responses, duplicate artifacts and expired uploads fail
+closed. Logs include the run, expected upload ID, attempts and API request IDs,
+without tokens or response bodies. The preflight cannot repair a persistent
+service outage and does not extend the existing 35-minute job bound.
+
+There remains exactly one `deploy-pages` submission. A failure to find the
+artifact is different from a deployment timeout: a timeout after submission may
+leave a deployment running. Do not automatically resubmit or cancel that unknown
+outcome. Inspect the run's deployment ID and Pages status first. The existing
+serial Pages lock, release gates and scheduled-failure issue alerts remain in
+place. A later successful scheduled/no-op build can recover the site through the
+normal gated workflow. Validate a real subsequent run before calling the incident
+resolved; local tests cover preflight behavior, not GitHub service availability.

@@ -87,6 +87,9 @@ def synchronize(payload, api):
         checked = str(row.get("last_checked_at") or "")
         if not name or not checked:
             continue
+        # A skipped backup has no new evidence: neither reopen nor resolve an incident.
+        if row.get("collection_state") == "standby" or row.get("status") == "standby":
+            continue
         matching = [issue for issue in opened if marker(name) in (issue.get("body") or "")]
         if any(
             (match := re.search(r"<!-- feed-observation:(.*?) -->", issue.get("body") or ""))
@@ -106,6 +109,12 @@ def synchronize(payload, api):
         if outcome == "failing" and int(row.get("consecutive_failures", 0)) >= 5:
             body = issue_body(row)
             # A newer incident must also prevent creation from an old artifact.
+            if not existing and any(
+                (match := re.search(r"<!-- feed-observation:(.*?) -->", issue.get("body") or ""))
+                and match[1] >= checked
+                for issue in matching
+            ):
+                continue
             if not existing:
                 opened.append(api.create(f"Feed failure: {redact_text(name)[:180]}", body))
                 result["created"] += 1

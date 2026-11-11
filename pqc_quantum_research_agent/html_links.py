@@ -76,6 +76,7 @@ class LinkExtractor(HTMLParser):
         self.updated_date_text = ""
         self.updated_date_source = ""
         self.time_datetime_text = ""
+        self.time_published_text = ""
         self.json_ld_blocks: list[str] = []
         self._active_href = ""
         self._active_text: list[str] = []
@@ -99,7 +100,15 @@ class LinkExtractor(HTMLParser):
             self._in_title = self._interrupted_titles < MAX_TITLE_RECOVERY_PASSES
         elif tag.lower() == "time":
             datetime_text = normalize_whitespace(attr_map.get("datetime", ""))
-            if datetime_text and not self.time_datetime_text:
+            semantics = attr_map.get("itemprop", "").casefold().split()
+            if "datemodified" in semantics:
+                if datetime_text and not self.updated_date_text:
+                    self.updated_date_text = datetime_text
+                    self.updated_date_source = "time.dateModified"
+            elif "datepublished" in semantics:
+                if datetime_text and not self.time_published_text:
+                    self.time_published_text = datetime_text
+            elif datetime_text and not self.time_datetime_text:
                 self.time_datetime_text = datetime_text
         elif tag.lower() == "script":
             script_type = attr_map.get("type", "").lower()
@@ -279,14 +288,6 @@ def _best_publication_date(
 
     candidates.append(
         (
-            _parse_date_candidate(parser.time_datetime_text),
-            "explicit_metadata:time.datetime",
-            parser.time_datetime_text,
-            "high",
-        )
-    )
-    candidates.append(
-        (
             _parse_date_candidate(parser.published_date_text),
             f"explicit_metadata:{parser.published_date_source}"
             if parser.published_date_source
@@ -299,6 +300,24 @@ def _best_publication_date(
     json_published, json_modified = _json_ld_dates(parser.json_ld_blocks)
     candidates.append(
         (_parse_date_candidate(json_published), "json_ld:datePublished", json_published, "high")
+    )
+    # An unqualified <time> can describe an update or a related story. Prefer
+    # explicit publication metadata, regardless of document order.
+    candidates.append(
+        (
+            _parse_date_candidate(parser.time_published_text),
+            "explicit_metadata:time.datePublished",
+            parser.time_published_text,
+            "high",
+        )
+    )
+    candidates.append(
+        (
+            _parse_date_candidate(parser.time_datetime_text),
+            "explicit_metadata:time.datetime",
+            parser.time_datetime_text,
+            "high",
+        )
     )
     candidates.append(
         (_parse_date_candidate(json_modified), "json_ld:dateModified", json_modified, "medium")
