@@ -8,6 +8,7 @@ on:
       - "reports/**"
       - "scripts/build_dashboard.py"
       - "scripts/package_dashboard.py"
+      - "scripts/wait_for_pages_artifact.py"
       - "scripts/run_release_gate.sh"
       - "scripts/verify*_browser.py"
       - "scripts/verify_publication_gate.py"
@@ -142,14 +143,25 @@ jobs:
         run: python scripts/package_dashboard.py --site site --output "$RUNNER_TEMP/pages-public"
 
       - name: Upload Pages artifact
+        id: pages-upload
         # Test evidence stays in the separate release-gate-evidence artifact.
         uses: actions/upload-pages-artifact@v4
         with:
           path: ${{ runner.temp }}/pages-public
+          name: github-pages
+
+      - name: Wait for this Pages artifact to be discoverable
+        timeout-minutes: 3
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGES_ARTIFACT_ID: ${{ steps.pages-upload.outputs.artifact_id }}
+        run: python scripts/wait_for_pages_artifact.py
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages
 
   scheduled-deploy-alert:
     needs: [publication-check, build-and-deploy]

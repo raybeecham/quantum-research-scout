@@ -125,7 +125,7 @@ class ArxivCollectorTests(unittest.TestCase):
         self.assertGreaterEqual(item.score, 3)
         self.assertIn("ml-kem", item.matched_keywords)
 
-    def test_empty_rss_uses_api_fallback_without_empty_feed_warning(self) -> None:
+    def test_valid_empty_rss_is_healthy_without_api_fallback(self) -> None:
         client = SequenceClient([EMPTY_ATOM_FEED, RSS_FEED])
 
         result = collect_arxiv_sources(
@@ -140,14 +140,13 @@ class ArxivCollectorTests(unittest.TestCase):
             10,
         )
 
-        self.assertEqual(len(result.items), 1)
-        self.assertEqual(result.items[0].source_type, "arxiv")
+        self.assertEqual(result.items, [])
+        self.assertEqual(result.skipped_sources, {"arXiv API"})
         self.assertEqual(result.warnings, [])
         self.assertEqual(
             [call[0] for call in client.calls],
             [
                 "https://rss.arxiv.org/rss/cs.CR",
-                ARXIV_API_URL,
             ],
         )
 

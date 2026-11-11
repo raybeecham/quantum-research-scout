@@ -100,6 +100,7 @@ jobs:
           git add reports/conferences.json reports/conference-state.json
           git add -A reports/hourly
           git add reports/source-observations.json reports/source-health.json reports/source-health.md
+          if [ -f reports/arxiv-cooldown.json ]; then git add reports/arxiv-cooldown.json; fi
           git add reports/story-evidence.json reports/story-urls.json
           if [ -f reports/story-images.json ]; then git add reports/story-images.json; fi
           if git diff --cached --quiet; then

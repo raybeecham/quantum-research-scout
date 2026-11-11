@@ -307,6 +307,7 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     config = load_config(args.config)
+    observation_config = config
     if args.hourly_news:
         config = news_config(config)
     source_weights = load_weight_file(args.source_weights)
@@ -355,17 +356,30 @@ def main(argv: list[str] | None = None) -> int:
             else "Central day to runtime"
         ),
     )
+    config.arxiv["cooldown_path"] = str(Path(args.reports_dir) / "arxiv-cooldown.json")
+    config.arxiv["cooldown_read_only"] = args.dry_run
     collection = collect_all(config)
+    if args.hourly_news:
+        # The hourly collector deliberately suppresses the API. Preserve its last
+        # real outcome, but do not present that old attempt as this run's failure.
+        collection.skipped_sources.update(
+            name for name, kind in _configured_sources(observation_config)[0] if kind == "arxiv"
+        )
+    checked_sources = (
+        {name for name, _ in _configured_sources(config)[0]} | collection.skipped_sources
+        if args.hourly_news
+        else None
+    )
     candidates = collection.items
     if args.hourly_news and not candidates:
         # Do not stamp an entirely failed/empty collection as a fresh news pass.
         if not args.dry_run:
             write_source_observations(
                 Path(args.reports_dir),
-                config,
+                observation_config,
                 collection,
                 generated_at=generated_at,
-                checked_sources={name for name, _ in _configured_sources(config)[0]},
+                checked_sources=checked_sources,
             )
             write_source_health_report(Path(args.reports_dir), args.config)
         raise SystemExit(
@@ -493,12 +507,10 @@ def main(argv: list[str] | None = None) -> int:
     # Friday snapshot, before optional enrichment can fail.
     write_source_observations(
         Path(args.reports_dir),
-        config,
+        observation_config,
         collection,
         generated_at=generated_at,
-        checked_sources={name for name, _ in _configured_sources(config)[0]}
-        if args.hourly_news
-        else None,
+        checked_sources=checked_sources,
     )
     write_source_health_report(Path(args.reports_dir), args.config)
     if args.hourly_news:

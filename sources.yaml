@@ -497,8 +497,17 @@ watch_sources:
   - name: "Google Quantum AI"
     entities: [Google Quantum AI]
     url: "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/"
-    include_patterns: [/quantum-computing/]
-    source_note: "2026-10-25: collect the dedicated Google Quantum AI publishing hub, including hardware results missing from the older Research label page."
+    urls:
+      - "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/"
+      - "https://quantumai.google/"
+    same_domain_only: false
+    allowed_hosts: [blog.google, research.google, quantumai.google]
+    include_patterns: [quantum, qubit]
+    exclude_patterns: [/privacy, /terms, /careers, /about, /resources, /learning]
+    require_publication_date: true
+    deduplicate_article_urls: true
+    min_title_chars: 4
+    source_note: "2026-11-11: fall back to the official Quantum AI homepage when the topic hub has no articles; allow cross-path Google articles with verified publication dates."
     match_patterns: [quantum, qubit]
     max_items: 15
   - name: "DOE Federal Science Missions"

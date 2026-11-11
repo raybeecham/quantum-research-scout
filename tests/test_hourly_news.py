@@ -42,7 +42,7 @@ def test_hourly_config_excludes_api_heavy_and_reference_sources():
     assert any("White House" in name for name in names)
 
 
-def run_hourly(tmp_path, monkeypatch, *, now=NOW, items=None):
+def run_hourly(tmp_path, monkeypatch, *, now=NOW, items=None, extra_config=None):
     class Clock(datetime):
         @classmethod
         def now(cls, tz=None):
@@ -55,6 +55,7 @@ def run_hourly(tmp_path, monkeypatch, *, now=NOW, items=None):
             {
                 "rss_feeds": [{"name": "News", "url": "https://news.test/feed"}],
                 "iacr_eprint": {"enabled": False},
+                **(extra_config or {}),
             }
         ),
         encoding="utf-8",
@@ -249,6 +250,9 @@ def test_hourly_workflow_and_deployment_wiring():
     )
     raw = path.read_text()
     assert (
+        "if [ -f reports/arxiv-cooldown.json ]; then git add reports/arxiv-cooldown.json; fi" in raw
+    )
+    assert (
         "API_KEY" not in raw
         and "prepare_notifications" not in raw
         and "report_schedule.py record" not in raw
@@ -268,3 +272,44 @@ def test_worker_dispatches_the_same_slots_as_a_cron_trigger():
     assert '"workers_dev": false' in worker
     source = (ROOT / "cron-trigger/src/index.ts").read_text(encoding="utf-8")
     assert 'inputs: { trigger: "cron" }' in source and 'ref: "main"' in source
+
+
+@pytest.mark.parametrize("empty", [False, True])
+def test_hourly_marks_old_api_failure_standby_without_claiming_recovery(
+    tmp_path, monkeypatch, empty
+):
+    from unittest.mock import Mock
+
+    from scripts.sync_feed_issues import issue_body, synchronize
+
+    reports = tmp_path / "reports"
+    reports.mkdir()
+    prior = {
+        "name": "API",
+        "type": "arxiv",
+        "collection_state": "checked",
+        "last_checked_at": "2026-10-25T00:00:00+00:00",
+        "last_outcome": "failing",
+        "last_error": "HTTP 429",
+        "last_error_at": "2026-10-25T00:00:00+00:00",
+        "consecutive_failures": 5,
+        "runs_observed": 5,
+        "failure_runs": 5,
+    }
+    (reports / "source-observations.json").write_text(json.dumps({"sources": [prior]}))
+    extra = {"arxiv": {"enabled": True, "queries": [{"name": "API", "search_query": "cat:cs.CR"}]}}
+    if empty:
+        with pytest.raises(SystemExit, match="no candidates"):
+            run_hourly(tmp_path, monkeypatch, items=[], extra_config=extra)
+    else:
+        assert run_hourly(tmp_path, monkeypatch, extra_config=extra) == 0
+    observations = json.loads((reports / "source-observations.json").read_text())
+    after = next(row for row in observations["sources"] if row["name"] == "API")
+    assert after == {**prior, "collection_state": "standby"}
+    health = json.loads((reports / "source-health.json").read_text())
+    api_row = next(row for row in health["sources"] if row["name"] == "API")
+    assert api_row["status"] == "standby" and api_row["backup_status"] == "unavailable"
+    api = Mock()
+    api.opened.return_value = [{"number": 39, "state": "open", "body": issue_body(prior)}]
+    assert synchronize(health, api) == {"created": 0, "updated": 0, "closed": 0}
+    api.update.assert_not_called()

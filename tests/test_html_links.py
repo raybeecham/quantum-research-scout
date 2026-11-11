@@ -169,3 +169,41 @@ class SafeUrlJoinTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+def test_explicit_publication_metadata_precedes_generic_and_modified_time():
+    for time_attrs in ['itemprop="dateModified"', ""]:
+        for published, expected_source in [
+            (
+                '<meta property="article:published_time" content="2026-03-24">',
+                "explicit_metadata:article:published_time",
+            ),
+            (
+                '<script type="application/ld+json">{"datePublished":"2026-03-24"}</script>',
+                "json_ld:datePublished",
+            ),
+        ]:
+            metadata = extract_page_metadata(
+                f'<time {time_attrs} datetime="2026-11-11">Updated</time>' + published,
+                BASE_URL,
+            )
+            assert metadata.published_at.isoformat() == "2026-03-24T00:00:00+00:00"
+            assert metadata.date_source == expected_source
+
+
+def test_modified_time_is_only_a_low_confidence_modified_fallback():
+    metadata = extract_page_metadata(
+        '<time itemprop="dateModified" datetime="2026-11-11">Updated</time>', BASE_URL
+    )
+    assert metadata.date_source == "opengraph_fallback:time.dateModified"
+    assert metadata.date_confidence == "low"
+
+
+def test_publication_time_wins_over_earlier_modified_time():
+    metadata = extract_page_metadata(
+        '<time itemprop="dateModified" datetime="2026-11-11">Updated</time>'
+        '<time itemprop="datePublished" datetime="2026-03-24">Published</time>',
+        BASE_URL,
+    )
+    assert metadata.published_at.isoformat() == "2026-03-24T00:00:00+00:00"
+    assert metadata.date_source == "explicit_metadata:time.datePublished"
