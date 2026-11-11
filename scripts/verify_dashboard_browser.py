@@ -10,6 +10,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from playwright.sync_api import Page, expect, sync_playwright
+from verify_watch_browser import fixture as watch_fixture
 
 
 def navigate_workspace(page: Page, route: str) -> None:
@@ -645,7 +646,16 @@ def main() -> None:
         signal.screenshot(path=str(args.output / "signal-card-refined.png"))
         assert page.locator(".landscape-advanced[open]").count() == 1
         page.goto(args.url + "/#watch")
+        expect(page.locator("#watch .watch-card").first).to_be_visible()
+        # Live report ordering can put all rising items behind Show more. Exercise
+        # label semantics with known states rather than requiring today's data to
+        # contain a visible rising/stable pair and an active first organization.
+        original_watch = page.evaluate("state.data.entity_watch")
+        page.evaluate(
+            "payload => {state.data.entity_watch = payload; renderWatch();}", watch_fixture()
+        )
         expect(page.locator("#watch .watch-momentum.rising").first).to_be_visible()
+        expect(page.locator("#watch .watch-momentum.stable").first).to_be_visible()
         assert page.locator("#watch .watch-momentum.rising").first.evaluate(
             "e => getComputedStyle(e).color"
         ) != page.locator("#watch .watch-momentum.stable").first.evaluate(
@@ -655,6 +665,9 @@ def main() -> None:
         expect(page.locator("#watch .watch-details .badge.active").first).to_be_visible()
         page.locator("#watch .watch-details > summary").first.click()
         page.locator("#watch").screenshot(path=str(args.output / "watch-label-colors.png"))
+        page.evaluate(
+            "payload => {state.data.entity_watch = payload; renderWatch();}", original_watch
+        )
         page.goto(args.url + "/#trends")
         expect(page.locator("#trend-insight")).to_contain_text("selected chart window")
         recorded = page.locator("#trend-chart .trend-recorded").count()
