@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-11 11:46 UTC_
+_Updated 2026-11-11 12:46 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -68,8 +68,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-11-11 | — | unknown | 🟢 healthy |
 | Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-11 | 2026-11-11 | fresh | 🟢 healthy |
 | IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-11 | 2026-11-08 | fresh | 🟢 healthy |
-| IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-11 | 2026-11-06 | fresh | 🟢 healthy |
-| IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-11 | 2026-11-06 | fresh | 🟢 healthy |
+| IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-11 | 2026-11-11 | fresh | 🟢 healthy |
+| IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-11 | 2026-11-11 | fresh | 🟢 healthy |
 | IETF PQUIP | watch | 100% | 0 | 0 | 2026-11-11 | — | reference | 🟢 healthy |
 | IETF Post-Quantum Updates | watch | 100% | 0 | 0 | 2026-11-11 | 2026-08-27 | fresh | 🟢 healthy |
 | InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-11-11 | 2026-11-09 | fresh | 🟢 healthy |
@@ -81,10 +81,10 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Lockheed Martin Quantum Technology | watch | 100% | 0 | 0 | 2026-11-11 | 2026-07-14 | stale | 🟢 healthy |
 | Microsoft Quantum Blog | watch | 100% | 0 | 0 | 2026-11-11 | 2026-09-22 | stale | 🟢 healthy |
 | NCSC UK Guidance | rss | 100% | 0 | 0 | 2026-11-11 | 2026-10-15 | stale | 🟢 healthy |
-| NCSC UK News | rss | 100% | 0 | 0 | 2026-11-11 | 2026-11-03 | fresh | 🟢 healthy |
+| NCSC UK News | rss | 100% | 0 | 0 | 2026-11-11 | 2026-11-11 | fresh | 🟢 healthy |
 | NCSC UK Reports | rss | 100% | 0 | 0 | 2026-11-11 | 2026-11-03 | fresh | 🟢 healthy |
 | NIST CSRC News | url | 100% | 0 | 0 | 2026-11-11 | 2026-11-06 | fresh | 🟢 healthy |
-| NIST Cybersecurity Insights | watch | 100% | 0 | 0 | 2026-11-11 | 2026-10-27 | fresh | 🟢 healthy |
+| NIST Cybersecurity Insights | watch | 100% | 0 | 0 | 2026-11-11 | 2026-10-27 | stale | 🟢 healthy |
 | NIST Post-Quantum Cryptography Project | watch | 100% | 0 | 0 | 2026-11-11 | 2025-03-07 | reference | 🟢 healthy |
 | NIST Research News | watch | 100% | 0 | 0 | 2026-11-11 | 2026-11-02 | fresh | 🟢 healthy |
 | NSF Strategic Science and Technology Missions | watch | 100% | 0 | 0 | 2026-11-11 | 2026-10-08 | stale | 🟢 healthy |
