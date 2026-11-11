@@ -2164,6 +2164,105 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2611.13111": {
+      "captures": [
+        {
+          "excerpts": [
+            "Quantum error correction (QEC) decoding has traditionally been organized around fixed decoding instances: a monolithic space-time detector error model (DEM), or a predetermined temporal window, is handed to a..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-10",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.13111"
+            }
+          ],
+          "title": "FusionQ: A Generic and Optimal Decoding Framework for Ultra-Low-Latency Quantum Error Correction"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.13174": {
+      "captures": [
+        {
+          "excerpts": [
+            "Fault-tolerant quantum computers hand pieces of each logical qubit to separate decoder modules and shared readout lines",
+            "We prove that for any region and any Pauli noise, including correlated noise, an observer's optimal advantage in learning a logical bit is exactly 1 - 2 P_fail, where P_fail is the failure probability of maximum..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-10",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.13174"
+            }
+          ],
+          "title": "How wide must an eavesdropper be? Leakage of a toric-code logical bit to a strip and the Nishimori point"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.13301": {
+      "captures": [
+        {
+          "excerpts": [
+            "Fault-tolerant quantum computing (FTQC) needs compiler intermediate representations (IRs) that preserve error-correcting-code choices, syndrome information, and non-Clifford resource requirements through analysis..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-10",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.13301"
+            }
+          ],
+          "title": "A Compiler for Fault Tolerant Quantum Computing"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.13371": {
+      "captures": [
+        {
+          "excerpts": [
+            "Quantum low-density parity-check (qLDPC) codes can reduce the number of data qubits required per logical qubit, but their checks require long-range interactions on a planar device",
+            "We develop a singlet fabric for bivariate-bicycle codes on a silicon node network",
+            "Spin singlets are generated on shuttling lanes and distributed between nodes, where local operations consume them to measure non-local stabilizers"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-10",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.13371"
+            }
+          ],
+          "title": "Syndrome extraction for quantum LDPC codes in silicon: Distributed entanglement and mobile ancillas"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.13799": {
+      "captures": [
+        {
+          "excerpts": [
+            "Fast, non-destructive qubit readout is essential for repeated sampling, mid-circuit measurement, and fault-tolerant neutral-atom quantum processing, but camera-based fluorescence detection introduces electronic...",
+            "We propose coherent readout of the state-dependent resonant fluorescence using balanced homodyne detection with photodiodes"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-10",
+              "report_date": "2026-11-10",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.13799"
+            }
+          ],
+          "title": "Coherent Optical Readout of Neutral-Atom Qubits via Homodyne Detection of Resonant Fluorescence"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
