@@ -4,17 +4,17 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-10 05:39 UTC_
+_Updated 2026-11-11 04:14 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 4 | 14 | 7 | 29 |
+| 50 | 7 | 10 | 9 | 31 |
 
 ## 🔴 Critical theme: AI Security
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 AI Security has critical strategic importance and stable momentum.
+- 🔴 AI Security has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: PQC / Crypto Agility
@@ -28,7 +28,7 @@ _Updated 2026-11-10 05:39 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 QEC / Fault Tolerance has critical strategic importance and declining momentum.
+- 🔴 QEC / Fault Tolerance has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Hardware
@@ -70,45 +70,24 @@ _Updated 2026-11-10 05:39 UTC_
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 37.7% reliability with 9 warning day(s).
+- 🔴 35.8% reliability with 10 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv PQC and Quantum-Safe Cryptography
+## 🔴 Source failing: Quantum Computing Patents 🆕
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 60.6% reliability with 11 warning day(s).
+- 🔴 90.5% reliability with 5 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🔴 Source failing: arXiv Quantum Computing
+## 🟠 Actionable signal: AI Security 🆕
 
-- Severity: **critical**
-- Status: **failing**
-- 🔴 60.6% reliability with 11 warning day(s).
-- [Open supporting view](source-health.md)
+- Severity: **high**
+- Status: **actionable**
+- 🎯 AI Security is actionable with high confidence.
+- [Open supporting view](signals.md)
 
-## 🔴 Source failing: arXiv Quantum Networking and Sensing
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 62.1% reliability with 11 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🔴 Source failing: arXiv RSS cs.CR 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 88.7% reliability with 3 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🔴 Source failing: arXiv RSS quant-ph 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 88.6% reliability with 3 warning day(s).
-- [Open supporting view](source-health.md)
-
-## 🟠 Actionable signal: PQC / Crypto Agility 🆕
+## 🟠 Actionable signal: PQC / Crypto Agility
 
 - Severity: **high**
 - Status: **actionable**
@@ -129,33 +108,40 @@ _Updated 2026-11-10 05:39 UTC_
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Product Launch: IonQ
+## 🟠 Partnership: IonQ 🆕
 
 - Severity: **high**
-- Status: **product-launch**
-- IonQ matched a product launch event: South Korea Launches 614 PFLOPS Hangang Supercomputer Ahead of May 2027 IonQ Quantum Link
-- [Open direct evidence](https://quantumcomputingreport.com/south-korea-launches-614-pflops-hangang-supercomputer-ahead-of-may-2027-ionq-quantum-link)
+- Status: **partnership**
+- IonQ matched a partnership event: Carahsoft Builds Federal Quantum Catalog with IonQ and PQSecure Partnerships
+- [Open direct evidence](https://quantumcomputingreport.com/carahsoft-builds-federal-quantum-catalog-with-ionq-and-pqsecure-partnerships)
 - [Open supporting view](entity-watch.md)
 
-## 🟠 Rising momentum: PQC / Crypto Agility 🆕
+## 🟠 Rising momentum: AI Security 🆕
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 25 versus 14 in the prior period.
+- ↗️ Recent evidence is 3 versus 1 in the prior period.
+- [Open supporting view](signals.md)
+
+## 🟠 Rising momentum: PQC / Crypto Agility
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 28 versus 13 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Software / Tooling
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 3 versus 2 in the prior period.
+- ↗️ Recent evidence is 4 versus 1 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Standards / Government
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 3 versus 0 in the prior period.
+- ↗️ Recent evidence is 7 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -177,6 +163,13 @@ _Updated 2026-11-10 05:39 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-29; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Cisco Quantum-Safe Updates 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-10-26; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Department of War Strategic Technology News
@@ -221,6 +214,13 @@ _Updated 2026-11-10 05:39 UTC_
 - The latest dated item is from 2026-10-16; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: Grants.gov · Autonomy and Sensing 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-10-27; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: Grants.gov · Cybersecurity
 
 - Severity: **medium**
@@ -247,6 +247,13 @@ _Updated 2026-11-10 05:39 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-16; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Grants.gov · Post-Quantum Cybersecurity 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-10-27; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Grants.gov · Quantum Benchmarking Initiative
@@ -296,13 +303,6 @@ _Updated 2026-11-10 05:39 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-09; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: QuEra Press Releases
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-10-15; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: QuSecure Press Releases

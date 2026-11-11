@@ -254,13 +254,22 @@
           "source": "arXiv RSS cs.CR",
           "title": "JailBound: FOL-Guided Jailbreak Evaluation for Exploring LLM Behavioral Boundaries",
           "url": "https://arxiv.org/abs/2611.07530"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://quantumcomputingreport.com/google-deepmind-and-google-quantum-ai-use-lean-4-to-discover-formally-verified-quantum-algorithms",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 79,
+          "source": "Quantum Computing Report",
+          "title": "Google DeepMind and Google Quantum AI Use Lean 4 to Discover Formally Verified Quantum Algorithms",
+          "url": "https://quantumcomputingreport.com/google-deepmind-and-google-quantum-ai-use-lean-4-to-discover-formally-verified-quantum-algorithms"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-11-05",
-      "momentum": "stable",
+      "latest_seen": "2026-11-10",
+      "momentum": "rising",
       "organizations": [
         "arXiv RSS cs.CR",
         "Quantum Zeitgeist",
@@ -268,9 +277,9 @@
         "Quantum Computing Report",
         "The Quantum Insider"
       ],
-      "prior_count": 2,
-      "recent_count": 2,
-      "status": "watching"
+      "prior_count": 1,
+      "recent_count": 3,
+      "status": "actionable"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -3373,15 +3382,6 @@
         },
         {
           "date": "2026-11-06",
-          "key": "https://www.digicert.com/blog/your-tls-certificate-may-expire-soon",
-          "report": "2026-11/2026-11-06-digest.md",
-          "score": 39,
-          "source": "DigiCert Blog",
-          "title": "Your TLS certificate may unexpectedly expire soon | DigiCert",
-          "url": "https://www.digicert.com/blog/your-tls-certificate-may-expire-soon"
-        },
-        {
-          "date": "2026-11-06",
           "key": "https://quantumzeitgeist.com/sealsq-techagency-partnership-quantum-guide-firms",
           "report": "2026-11/2026-11-06-digest.md",
           "score": 47,
@@ -3523,12 +3523,48 @@
           "source": "The Quantum Insider",
           "title": "PQSecure Technologies Partners with Carahsoft to Distribute PQC Solutions",
           "url": "https://thequantuminsider.com/2026/11/09/pqsecure-technologies-carahsoft-pqc-partnership"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://www.digicert.com/blog/your-tls-certificate-may-expire-soon",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 39,
+          "source": "DigiCert Blog",
+          "title": "Your TLS certificate may unexpectedly expire soon | DigiCert",
+          "url": "https://www.digicert.com/blog/your-tls-certificate-may-expire-soon"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://www.digicert.com/blog/pki-in-transition-lessons-from-emudhra",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 41,
+          "source": "DigiCert Blog",
+          "title": "PKI in transition: Lessons to learn from eMudhra | DigiCert",
+          "url": "https://www.digicert.com/blog/pki-in-transition-lessons-from-emudhra"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 50,
+          "source": "Thales Cybersecurity Blog",
+          "title": "Secure AI Connectivity with Post-Quantum Encryption | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://quantumcomputingreport.com/carahsoft-builds-federal-quantum-catalog-with-ionq-and-pqsecure-partnerships",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 100,
+          "source": "Quantum Computing Report",
+          "title": "Carahsoft Builds Federal Quantum Catalog with IonQ and PQSecure Partnerships",
+          "url": "https://quantumcomputingreport.com/carahsoft-builds-federal-quantum-catalog-with-ionq-and-pqsecure-partnerships"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-11-09",
+      "latest_seen": "2026-11-10",
       "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
@@ -3537,8 +3573,8 @@
         "IACR ePrint",
         "Quantum Computing Report"
       ],
-      "prior_count": 14,
-      "recent_count": 25,
+      "prior_count": 13,
+      "recent_count": 28,
       "status": "actionable"
     },
     "QEC / Fault Tolerance": {
@@ -4497,13 +4533,22 @@
           "source": "Quantum Computing Report",
           "title": "Why Quantum Hardware Needs Its Own Threat Model",
           "url": "https://quantumcomputingreport.com/why-quantum-hardware-needs-its-own-threat-model"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://quantum-journal.org/papers/q-2026-11-10-2267",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 33,
+          "source": "Quantum Journal",
+          "title": "Lower-depth local encoding circuits for the surface code",
+          "url": "https://quantum-journal.org/papers/q-2026-11-10-2267"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-11-09",
-      "momentum": "declining",
+      "latest_seen": "2026-11-10",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "Quantum Computing Report",
@@ -4512,7 +4557,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 7,
-      "recent_count": 4,
+      "recent_count": 5,
       "status": "watching"
     },
     "Quantum Hardware": {
@@ -7982,12 +8027,39 @@
           "source": "Quantum Computing Report",
           "title": "Physics Reports Analysis Evaluates Emergence of Hybrid Semiconductor\u2013Superconducting Qubit Architectures",
           "url": "https://quantumcomputingreport.com/physics-reports-analysis-evaluates-emergence-of-hybrid-semiconductor-superconducting-qubit-architectures"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://thequantuminsider.com/2026/11/10/xanadu-hyperlight-photonic-switch-loss-7-mdb",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 28,
+          "source": "The Quantum Insider",
+          "title": "Xanadu and HyperLight Reduce Photonic Switch Loss to 7 mdB",
+          "url": "https://thequantuminsider.com/2026/11/10/xanadu-hyperlight-photonic-switch-loss-7-mdb"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://thequantuminsider.com/2026/11/10/quix-quantum-leads-national-mission-100-qubit-photonic-quantum-computer",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 39,
+          "source": "The Quantum Insider",
+          "title": "QuiX Quantum Leads National Mission to Develop 100+ Qubit Photonic Quantum Computer",
+          "url": "https://thequantuminsider.com/2026/11/10/quix-quantum-leads-national-mission-100-qubit-photonic-quantum-computer"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://quantumcomputingreport.com/riken-and-quantinuum-demonstrate-heterogeneous-multi-qpu-workflows-on-fugaku",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 63,
+          "source": "Quantum Computing Report",
+          "title": "RIKEN and Quantinuum Demonstrate Heterogeneous Multi-QPU Workflows on Fugaku",
+          "url": "https://quantumcomputingreport.com/riken-and-quantinuum-demonstrate-heterogeneous-multi-qpu-workflows-on-fugaku"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-11-09",
+      "latest_seen": "2026-11-10",
       "momentum": "declining",
       "organizations": [
         "The Quantum Insider",
@@ -7996,8 +8068,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 22,
-      "recent_count": 9,
+      "prior_count": 20,
+      "recent_count": 12,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -9604,12 +9676,21 @@
           "source": "Quantum Zeitgeist",
           "title": "Laser-cooled molecules achieve record entanglement despite higher temperatures",
           "url": "https://quantumzeitgeist.com/physics-molecules-entanglement-laser-cooled-record"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://quantumcomputingreport.com/uk-unveils-189-million-quantum-deployment-package-spanning-networking-testbeds-commercialization-and-procurement",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 100,
+          "source": "Quantum Computing Report",
+          "title": "UK Unveils \u00a3189 Million Quantum Deployment Package Spanning Networking Testbeds, Commercialization, and Procurement",
+          "url": "https://quantumcomputingreport.com/uk-unveils-189-million-quantum-deployment-package-spanning-networking-testbeds-commercialization-and-procurement"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-11-09",
+      "latest_seen": "2026-11-10",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -9618,8 +9699,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 13,
-      "recent_count": 9,
+      "prior_count": 12,
+      "recent_count": 10,
       "status": "watching"
     },
     "Quantum Sensing": {
@@ -11192,22 +11273,31 @@
           "source": "Quantum Computing Report",
           "title": "DLR Develops Scalable Unitary Data Encoding Beating Exponential State-Preparation Depth",
           "url": "https://quantumcomputingreport.com/dlr-develops-scalable-unitary-data-encoding-beating-exponential-state-preparation-depth"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://quantum-journal.org/papers/q-2026-11-10-2269",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 30,
+          "source": "Quantum Journal",
+          "title": "Geometric characterization of non-Gaussian entanglement for finite stellar rank states",
+          "url": "https://quantum-journal.org/papers/q-2026-11-10-2269"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-11-09",
+      "latest_seen": "2026-11-10",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
         "QuantumNews.ai",
         "Quantum Computing Report",
-        "USAspending \u00b7 Quantum Technologies"
+        "Quantum Journal"
       ],
-      "prior_count": 2,
-      "recent_count": 3,
+      "prior_count": 1,
+      "recent_count": 4,
       "status": "actionable"
     },
     "Standards / Government": {
@@ -11932,12 +12022,48 @@
           "source": "USAspending \u00b7 Quantum Technologies",
           "title": "SBIR PHASE II - QUANTUM WAVEGUIDE INFRARED PHOTODETECTOR FOR HETERODYNE SPECTROSCOPY",
           "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0020_8000_-NONE-_-NONE-"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://thequantuminsider.com/2026/11/10/d-wave-revenue-rises-21-as-customer-deployments-expand-and-chips-agreement-advances",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 23,
+          "source": "The Quantum Insider",
+          "title": "D-Wave Revenue Rises 21% as Customer Deployments Expand And CHIPS Agreement Advances",
+          "url": "https://thequantuminsider.com/2026/11/10/d-wave-revenue-rises-21-as-customer-deployments-expand-and-chips-agreement-advances"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://thequantuminsider.com/2026/11/10/draft-eu-quantum-act-would-favor-european-suppliers-set-computing-and-security-targets",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 23,
+          "source": "The Quantum Insider",
+          "title": "Draft EU Quantum Act Would Favor European Suppliers, Set Computing and Security Targets",
+          "url": "https://thequantuminsider.com/2026/11/10/draft-eu-quantum-act-would-favor-european-suppliers-set-computing-and-security-targets"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://thequantuminsider.com/2026/11/10/ibm-education-workforce-development-cohort",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "IBM Selects Four Organisations for AI and Quantum Workforce Programme",
+          "url": "https://thequantuminsider.com/2026/11/10/ibm-education-workforce-development-cohort"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://quantumcomputingreport.com/university-of-chicago-and-tohoku-university-establish-joint-quantum-materials-hub-in-japan",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 100,
+          "source": "Quantum Computing Report",
+          "title": "University of Chicago and Tohoku University Establish Joint Quantum Materials Hub in Japan",
+          "url": "https://quantumcomputingreport.com/university-of-chicago-and-tohoku-university-establish-joint-quantum-materials-hub-in-japan"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-11-09",
+      "latest_seen": "2026-11-10",
       "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
@@ -11947,10 +12073,10 @@
         "USAspending \u00b7 Advanced Computing"
       ],
       "prior_count": 0,
-      "recent_count": 3,
+      "recent_count": 7,
       "status": "actionable"
     }
   },
-  "updated_at": "2026-11-10T05:39:24.633598+00:00",
+  "updated_at": "2026-11-11T04:14:44.952638+00:00",
   "version": 1
 }

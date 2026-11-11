@@ -2,12 +2,12 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-11-10T05:32:14.119303+00:00_
+_Updated 2026-11-11T04:03:38.341244+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **35**
-- Added / changed / resolved: **8 / 0 / 27**
+- Material changes: **31**
+- Added / changed / resolved: **4 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
@@ -18,14 +18,10 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- **WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN…** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_20273843047635_012))
-- **WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN…** — awarding agency: Department of Agriculture ([evidence](https://www.usaspending.gov/award/ASST_NON_20273843047635_012))
-- **WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN…** — reported amount: 1111579.12 ([evidence](https://www.usaspending.gov/award/ASST_NON_20273843047635_012))
-- **WEST VIRGINIA STATE UNIVERSITY (WVSU) HAS EXPANDED ITS AGRICULTURAL WORKFORCE DEVELOPMENT EFFORTS SINCE REGAINING LAND-GRANT STATUS IN 1999. ITS 1890 SCHOLARSHIP PROGRAM BEGAN…** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_20273843047635_012))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — deadline: 2026-12-07T23:59:00-05:00 ([evidence](https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — awarding agency: GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT ([evidence](https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view))
+- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/d168c9a2ace94efabe21990c977105c7/view))
+- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — deadline: 2026-12-07T23:59:00-05:00 ([evidence](https://sam.gov/workspace/contract/opp/d168c9a2ace94efabe21990c977105c7/view))
+- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — awarding agency: GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT ([evidence](https://sam.gov/workspace/contract/opp/d168c9a2ace94efabe21990c977105c7/view))
+- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/d168c9a2ace94efabe21990c977105c7/view))
 
 ## Superseded claims
 

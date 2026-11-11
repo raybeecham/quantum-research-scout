@@ -79,7 +79,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 6,
+      "evidence_count": 7,
       "first_party_evidence_count": 0,
       "name": "D-Wave",
       "priority": "high",
@@ -294,8 +294,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 10,
-      "first_party_evidence_count": 7,
+      "evidence_count": 11,
+      "first_party_evidence_count": 8,
       "name": "DigiCert",
       "priority": "high",
       "status": "covered",
@@ -363,7 +363,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "first_party_evidence_count": 2,
       "name": "Google Quantum AI",
       "priority": "high",
@@ -384,7 +384,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 46,
+      "evidence_count": 47,
       "first_party_evidence_count": 4,
       "name": "IBM",
       "priority": "high",
@@ -426,8 +426,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 46,
-      "first_party_evidence_count": 11,
+      "evidence_count": 47,
+      "first_party_evidence_count": 10,
       "name": "IonQ",
       "priority": "high",
       "status": "covered",
@@ -597,7 +597,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 14,
+      "evidence_count": 15,
       "first_party_evidence_count": 0,
       "name": "Quantinuum",
       "priority": "high",
@@ -645,8 +645,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 4,
-      "first_party_evidence_count": 2,
+      "evidence_count": 5,
+      "first_party_evidence_count": 3,
       "name": "Thales",
       "priority": "high",
       "status": "covered",
@@ -1065,7 +1065,7 @@
       "latest_seen": "2026-10-28",
       "momentum": "declining",
       "name": "NIST",
-      "prior_count": 3,
+      "prior_count": 1,
       "priority": "critical",
       "recent_count": 0,
       "status": "quiet",
@@ -1084,8 +1084,20 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 41,
+      "current_evidence_count": 42,
       "evidence": [
+        {
+          "date": "2026-11-10",
+          "key": "https://thequantuminsider.com/2026/11/10/ibm-education-workforce-development-cohort",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "IBM Selects Four Organisations for AI and Quantum Workforce Programme",
+          "url": "https://thequantuminsider.com/2026/11/10/ibm-education-workforce-development-cohort"
+        },
         {
           "date": "2026-11-07",
           "key": "https://quantumcomputingreport.com/ibm-deploys-quantum-system-two-at-hyde-park-labs-to-anchor-illinois-quantum-ecosystem",
@@ -1613,29 +1625,17 @@
           ],
           "title": "IBM Improves Qubit Reset by 25x and Releases Qiskit v2.5",
           "url": "https://quantumcomputingreport.com/ibm-improves-qubit-reset-by-25x-and-releases-qiskit-v2-5"
-        },
-        {
-          "date": "2026-07-16",
-          "key": "https://thequantuminsider.com/2026/07/16/denise-ruffner-joins-haiqu-to-expand-quantum-software-adoption",
-          "report": "2026-07/2026-07-16-digest.md",
-          "score": 35,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "Former IBM Quantum Executive Denise Ruffner Joins Haiqu to Expand Quantum Software Adoption",
-          "url": "https://thequantuminsider.com/2026/07/16/denise-ruffner-joins-haiqu-to-expand-quantum-software-adoption"
         }
       ],
-      "evidence_count": 46,
+      "evidence_count": 47,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 5,
-      "latest_seen": "2026-11-07",
+      "latest_seen": "2026-11-10",
       "momentum": "declining",
       "name": "IBM",
-      "prior_count": 6,
+      "prior_count": 5,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "AI Security",
@@ -1643,15 +1643,28 @@
         "QEC / Fault Tolerance",
         "Quantum Hardware",
         "Quantum Networking",
-        "Quantum Software / Tooling"
+        "Quantum Software / Tooling",
+        "Standards / Government"
       ],
       "type": "company"
     },
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 32,
+      "current_evidence_count": 33,
       "evidence": [
+        {
+          "date": "2026-11-10",
+          "key": "https://quantumcomputingreport.com/carahsoft-builds-federal-quantum-catalog-with-ionq-and-pqsecure-partnerships",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 100,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Carahsoft Builds Federal Quantum Catalog with IonQ and PQSecure Partnerships",
+          "url": "https://quantumcomputingreport.com/carahsoft-builds-federal-quantum-catalog-with-ionq-and-pqsecure-partnerships"
+        },
         {
           "date": "2026-11-09",
           "key": "https://thequantuminsider.com/2026/11/09/ionq-carahsoft-quantum-technologies-government",
@@ -2203,41 +2216,17 @@
           ],
           "title": "IonQ | Blueprint for Fault-Tolerant Trapped-Ion Quantum Computing: The Walking Cat Architecture",
           "url": "https://ionq.com/blog/blueprint-for-fault-tolerant-trapped-ion-quantum-computing-the-walking-cat-architecture"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Software / Tooling",
-          "date": "2026-04-14",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:ionq_article_header",
-          "entities": [
-            "IonQ"
-          ],
-          "historical": true,
-          "key": "https://ionq.com/blog/beyond-qubit-counts-introducing-ionqs-application-centric-benchmarking-framework",
-          "observed_at": "2026-11-08T09:48:23.270169+00:00",
-          "published_at": "2026-04-14T00:00:00+00:00",
-          "score": 34,
-          "source": "IonQ Technical Blog",
-          "source_type": "watch",
-          "summary": "IonQ introduces a quantum benchmarking framework covering application-level benchmarks. See how Time-to-Solution and solution quality compare across quantum systems.",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "IonQ | Beyond Qubit Counts: Introducing IonQ\u2019s Application-Centric Benchmarking Framework",
-          "url": "https://ionq.com/blog/beyond-qubit-counts-introducing-ionqs-application-centric-benchmarking-framework"
         }
       ],
-      "evidence_count": 46,
+      "evidence_count": 47,
       "first_seen": "2025-10-21",
       "historical_evidence_count": 14,
-      "latest_seen": "2026-11-09",
-      "momentum": "declining",
+      "latest_seen": "2026-11-10",
+      "momentum": "stable",
       "name": "IonQ",
-      "prior_count": 4,
+      "prior_count": 3,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -5146,8 +5135,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 14,
+      "current_evidence_count": 15,
       "evidence": [
+        {
+          "date": "2026-11-10",
+          "key": "https://quantumcomputingreport.com/riken-and-quantinuum-demonstrate-heterogeneous-multi-qpu-workflows-on-fugaku",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 63,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "RIKEN and Quantinuum Demonstrate Heterogeneous Multi-QPU Workflows on Fugaku",
+          "url": "https://quantumcomputingreport.com/riken-and-quantinuum-demonstrate-heterogeneous-multi-qpu-workflows-on-fugaku"
+        },
         {
           "date": "2026-11-05",
           "key": "https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029",
@@ -5317,15 +5318,15 @@
           "url": "https://quantumzeitgeist.com/quantinuum-qnt"
         }
       ],
-      "evidence_count": 14,
+      "evidence_count": 15,
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-11-05",
+      "latest_seen": "2026-11-10",
       "momentum": "rising",
       "name": "Quantinuum",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -5337,12 +5338,24 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 10,
+      "current_evidence_count": 11,
       "evidence": [
         {
-          "date": "2026-11-06",
+          "date": "2026-11-10",
+          "key": "https://www.digicert.com/blog/pki-in-transition-lessons-from-emudhra",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 41,
+          "source": "DigiCert Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "PKI in transition: Lessons to learn from eMudhra | DigiCert",
+          "url": "https://www.digicert.com/blog/pki-in-transition-lessons-from-emudhra"
+        },
+        {
+          "date": "2026-11-10",
           "key": "https://www.digicert.com/blog/your-tls-certificate-may-expire-soon",
-          "report": "2026-11/2026-11-06-digest.md",
+          "report": "2026-11/2026-11-10-digest.md",
           "score": 39,
           "source": "DigiCert Blog",
           "themes": [
@@ -5460,18 +5473,128 @@
           "url": "https://quantumzeitgeist.com/post-quantum-cryptography-digicerts-edition-simplifies"
         }
       ],
-      "evidence_count": 10,
+      "evidence_count": 11,
       "first_seen": "2026-08-03",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-11-06",
-      "momentum": "stable",
+      "latest_seen": "2026-11-10",
+      "momentum": "rising",
       "name": "DigiCert",
       "prior_count": 1,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "D-Wave Quantum"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 7,
+      "evidence": [
+        {
+          "date": "2026-11-10",
+          "key": "https://thequantuminsider.com/2026/11/10/d-wave-revenue-rises-21-as-customer-deployments-expand-and-chips-agreement-advances",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 23,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "D-Wave Revenue Rises 21% as Customer Deployments Expand And CHIPS Agreement Advances",
+          "url": "https://thequantuminsider.com/2026/11/10/d-wave-revenue-rises-21-as-customer-deployments-expand-and-chips-agreement-advances"
+        },
+        {
+          "date": "2026-10-01",
+          "key": "https://quantumcomputingreport.com/d-wave-launches-gate-model-simulator-beta-program-featuring-21-qubit-dual-rail-erasure-emulation",
+          "report": "2026-10/2026-10-01-digest.md",
+          "score": 42,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "D-Wave Launches Gate-Model Simulator Beta Program Featuring 21-Qubit Dual-Rail Erasure Emulation",
+          "url": "https://quantumcomputingreport.com/d-wave-launches-gate-model-simulator-beta-program-featuring-21-qubit-dual-rail-erasure-emulation"
+        },
+        {
+          "date": "2026-10-01",
+          "key": "https://thequantuminsider.com/2026/10/01/d-wave-gate-model-quantum-simulator-beta",
+          "report": "2026-10/2026-10-01-digest.md",
+          "score": 24,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "D-Wave Launches Gate-Model Quantum Simulator Beta",
+          "url": "https://thequantuminsider.com/2026/10/01/d-wave-gate-model-quantum-simulator-beta"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://thequantuminsider.com/2026/09/08/d-wave-signs-100m-us-government-agreement-quantum-computing-rd",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "D-Wave Finalizes $100M U.S. Government Agreement for Quantum Computing R&D",
+          "url": "https://thequantuminsider.com/2026/09/08/d-wave-signs-100m-us-government-agreement-quantum-computing-rd"
+        },
+        {
+          "date": "2026-08-05",
+          "key": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing",
+          "report": "2026-08/2026-08-05-digest.md",
+          "score": 91,
+          "source": "The Quantum Insider",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "D-Wave Publishes Research on Dual-Rail Qubit Gate for Quantum Error Correction",
+          "url": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing"
+        },
+        {
+          "date": "2026-07-02",
+          "key": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical",
+          "report": "2026-07/2026-07-02-digest.md",
+          "score": 146,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "D-Wave Targets 100 Logical Qubits With Million-Operation Fault Tolerance",
+          "url": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical"
+        },
+        {
+          "date": "2026-06-30",
+          "key": "https://quantumcomputingreport.com/d-wave-selected-for-1-5-million-nsf-grant-to-provide-dual-rail-hardware-for-yale-led-fault-tolerant-erase-project",
+          "report": "2026-06/2026-06-30-digest.md",
+          "score": 66,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "D-Wave Selected for $1.5 Million NSF Grant to Provide Dual-Rail Hardware for Yale-Led Fault-Tolerant 'ERASE' Project",
+          "url": "https://quantumcomputingreport.com/d-wave-selected-for-1-5-million-nsf-grant-to-provide-dual-rail-hardware-for-yale-led-fault-tolerant-erase-project"
+        }
+      ],
+      "evidence_count": 7,
+      "first_seen": "2026-06-30",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-11-10",
+      "momentum": "rising",
+      "name": "D-Wave",
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
       "themes": [
-        "PQC / Crypto Agility"
+        "QEC / Fault Tolerance",
+        "Quantum Hardware",
+        "Quantum Software / Tooling",
+        "Standards / Government"
       ],
       "type": "company"
     },
@@ -5650,99 +5773,124 @@
     },
     {
       "aliases": [
-        "D-Wave Quantum"
+        "Google Quantum",
+        "Google AI Quantum"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 6,
+      "current_evidence_count": 4,
       "evidence": [
         {
-          "date": "2026-10-01",
-          "key": "https://quantumcomputingreport.com/d-wave-launches-gate-model-simulator-beta-program-featuring-21-qubit-dual-rail-erasure-emulation",
-          "report": "2026-10/2026-10-01-digest.md",
-          "score": 42,
+          "date": "2026-11-10",
+          "key": "https://quantumcomputingreport.com/google-deepmind-and-google-quantum-ai-use-lean-4-to-discover-formally-verified-quantum-algorithms",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 79,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "Google DeepMind and Google Quantum AI Use Lean 4 to Discover Formally Verified Quantum Algorithms",
+          "url": "https://quantumcomputingreport.com/google-deepmind-and-google-quantum-ai-use-lean-4-to-discover-formally-verified-quantum-algorithms"
+        },
+        {
+          "date": "2026-10-15",
+          "key": "https://quantumcomputingreport.com/google-quantum-ai-deepmind-demonstrate-modular-hyperbolic-codes-for-over-30x-qec-overhead-reduction",
+          "report": "2026-10/2026-10-15-digest.md",
+          "score": 93,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Google Quantum AI & DeepMind Demonstrate Modular Hyperbolic Codes for Over 30x QEC Overhead Reduction",
+          "url": "https://quantumcomputingreport.com/google-quantum-ai-deepmind-demonstrate-modular-hyperbolic-codes-for-over-30x-qec-overhead-reduction"
+        },
+        {
+          "date": "2026-10-15",
+          "key": "https://quantumcomputingreport.com/google-quantum-ai-demonstrates-magic-state-cultivation-on-willow-processor-in-science-milestone",
+          "report": "2026-10/2026-10-15-digest.md",
+          "score": 90,
           "source": "Quantum Computing Report",
           "themes": [
             "Quantum Software / Tooling"
           ],
-          "title": "D-Wave Launches Gate-Model Simulator Beta Program Featuring 21-Qubit Dual-Rail Erasure Emulation",
-          "url": "https://quantumcomputingreport.com/d-wave-launches-gate-model-simulator-beta-program-featuring-21-qubit-dual-rail-erasure-emulation"
+          "title": "Google Quantum AI Demonstrates Magic State Cultivation on Willow Processor in Science Milestone",
+          "url": "https://quantumcomputingreport.com/google-quantum-ai-demonstrates-magic-state-cultivation-on-willow-processor-in-science-milestone"
         },
         {
-          "date": "2026-10-01",
-          "key": "https://thequantuminsider.com/2026/10/01/d-wave-gate-model-quantum-simulator-beta",
-          "report": "2026-10/2026-10-01-digest.md",
-          "score": 24,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "D-Wave Launches Gate-Model Quantum Simulator Beta",
-          "url": "https://thequantuminsider.com/2026/10/01/d-wave-gate-model-quantum-simulator-beta"
-        },
-        {
-          "date": "2026-09-08",
-          "key": "https://thequantuminsider.com/2026/09/08/d-wave-signs-100m-us-government-agreement-quantum-computing-rd",
-          "report": "2026-09/2026-09-08-digest.md",
-          "score": 100,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Standards / Government"
-          ],
-          "title": "D-Wave Finalizes $100M U.S. Government Agreement for Quantum Computing R&D",
-          "url": "https://thequantuminsider.com/2026/09/08/d-wave-signs-100m-us-government-agreement-quantum-computing-rd"
-        },
-        {
-          "date": "2026-08-05",
-          "key": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing",
-          "report": "2026-08/2026-08-05-digest.md",
-          "score": 91,
-          "source": "The Quantum Insider",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "D-Wave Publishes Research on Dual-Rail Qubit Gate for Quantum Error Correction",
-          "url": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing"
-        },
-        {
-          "date": "2026-07-02",
-          "key": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical",
-          "report": "2026-07/2026-07-02-digest.md",
-          "score": 146,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "D-Wave Targets 100 Logical Qubits With Million-Operation Fault Tolerance",
-          "url": "https://quantumzeitgeist.com/d-wave-fault-tolerance-100-logical"
-        },
-        {
-          "date": "2026-06-30",
-          "key": "https://quantumcomputingreport.com/d-wave-selected-for-1-5-million-nsf-grant-to-provide-dual-rail-hardware-for-yale-led-fault-tolerant-erase-project",
-          "report": "2026-06/2026-06-30-digest.md",
-          "score": 66,
+          "date": "2026-06-27",
+          "key": "https://quantumzeitgeist.com/google-quantum-computing",
+          "report": "2026-06/2026-06-27-digest.md",
+          "score": 51,
           "source": "QuantumNews.ai",
           "themes": [
             "Quantum Hardware"
           ],
-          "title": "D-Wave Selected for $1.5 Million NSF Grant to Provide Dual-Rail Hardware for Yale-Led Fault-Tolerant 'ERASE' Project",
-          "url": "https://quantumcomputingreport.com/d-wave-selected-for-1-5-million-nsf-grant-to-provide-dual-rail-hardware-for-yale-led-fault-tolerant-erase-project"
+          "title": "Google Quantum Computing",
+          "url": "https://quantumzeitgeist.com/google-quantum-computing"
+        },
+        {
+          "alert_eligible": false,
+          "category": "QEC / Fault Tolerance",
+          "date": "2026-01-13",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:google_publish_date",
+          "entities": [
+            "Google Quantum AI"
+          ],
+          "historical": true,
+          "key": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction",
+          "observed_at": "2026-10-26T00:56:40.253358+00:00",
+          "published_at": "2026-01-13T00:00:00+00:00",
+          "score": 58,
+          "source": "Google Quantum AI",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Dynamic surface codes open new avenues for quantum error correction",
+          "url": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Software / Tooling",
+          "date": "2025-11-13",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:google_publish_date",
+          "entities": [
+            "Google Quantum AI"
+          ],
+          "historical": true,
+          "key": "https://research.google/blog/a-new-quantum-toolkit-for-optimization",
+          "observed_at": "2026-10-26T00:56:40.253358+00:00",
+          "published_at": "2025-11-13T00:00:00+00:00",
+          "score": 31,
+          "source": "Google Quantum AI",
+          "source_type": "watch",
+          "summary": "",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "A new quantum toolkit for optimization",
+          "url": "https://research.google/blog/a-new-quantum-toolkit-for-optimization/"
         }
       ],
       "evidence_count": 6,
-      "first_seen": "2026-06-30",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-10-01",
-      "momentum": "stable",
-      "name": "D-Wave",
+      "first_seen": "2025-11-13",
+      "historical_evidence_count": 2,
+      "latest_seen": "2026-11-10",
+      "momentum": "rising",
+      "name": "Google Quantum AI",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 0,
-      "status": "dormant",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
+        "AI Security",
         "QEC / Fault Tolerance",
         "Quantum Hardware",
-        "Quantum Software / Tooling",
-        "Standards / Government"
+        "Quantum Software / Tooling"
       ],
       "type": "company"
     },
@@ -6045,116 +6193,6 @@
     },
     {
       "aliases": [
-        "Google Quantum",
-        "Google AI Quantum"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 3,
-      "evidence": [
-        {
-          "date": "2026-10-15",
-          "key": "https://quantumcomputingreport.com/google-quantum-ai-deepmind-demonstrate-modular-hyperbolic-codes-for-over-30x-qec-overhead-reduction",
-          "report": "2026-10/2026-10-15-digest.md",
-          "score": 93,
-          "source": "Quantum Computing Report",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Google Quantum AI & DeepMind Demonstrate Modular Hyperbolic Codes for Over 30x QEC Overhead Reduction",
-          "url": "https://quantumcomputingreport.com/google-quantum-ai-deepmind-demonstrate-modular-hyperbolic-codes-for-over-30x-qec-overhead-reduction"
-        },
-        {
-          "date": "2026-10-15",
-          "key": "https://quantumcomputingreport.com/google-quantum-ai-demonstrates-magic-state-cultivation-on-willow-processor-in-science-milestone",
-          "report": "2026-10/2026-10-15-digest.md",
-          "score": 90,
-          "source": "Quantum Computing Report",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "Google Quantum AI Demonstrates Magic State Cultivation on Willow Processor in Science Milestone",
-          "url": "https://quantumcomputingreport.com/google-quantum-ai-demonstrates-magic-state-cultivation-on-willow-processor-in-science-milestone"
-        },
-        {
-          "date": "2026-06-27",
-          "key": "https://quantumzeitgeist.com/google-quantum-computing",
-          "report": "2026-06/2026-06-27-digest.md",
-          "score": 51,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Google Quantum Computing",
-          "url": "https://quantumzeitgeist.com/google-quantum-computing"
-        },
-        {
-          "alert_eligible": false,
-          "category": "QEC / Fault Tolerance",
-          "date": "2026-01-13",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:google_publish_date",
-          "entities": [
-            "Google Quantum AI"
-          ],
-          "historical": true,
-          "key": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction",
-          "observed_at": "2026-10-26T00:56:40.253358+00:00",
-          "published_at": "2026-01-13T00:00:00+00:00",
-          "score": 58,
-          "source": "Google Quantum AI",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Dynamic surface codes open new avenues for quantum error correction",
-          "url": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Software / Tooling",
-          "date": "2025-11-13",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:google_publish_date",
-          "entities": [
-            "Google Quantum AI"
-          ],
-          "historical": true,
-          "key": "https://research.google/blog/a-new-quantum-toolkit-for-optimization",
-          "observed_at": "2026-10-26T00:56:40.253358+00:00",
-          "published_at": "2025-11-13T00:00:00+00:00",
-          "score": 31,
-          "source": "Google Quantum AI",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "A new quantum toolkit for optimization",
-          "url": "https://research.google/blog/a-new-quantum-toolkit-for-optimization/"
-        }
-      ],
-      "evidence_count": 5,
-      "first_seen": "2025-11-13",
-      "historical_evidence_count": 2,
-      "latest_seen": "2026-10-15",
-      "momentum": "stable",
-      "name": "Google Quantum AI",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
-      "themes": [
-        "QEC / Fault Tolerance",
-        "Quantum Hardware",
-        "Quantum Software / Tooling"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [
         "Post-Quantum Cryptography Alliance"
       ],
       "case_sensitive_aliases": [],
@@ -6235,6 +6273,90 @@
         "PQC / Crypto Agility"
       ],
       "type": "consortium"
+    },
+    {
+      "aliases": [
+        "Thales Group"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 5,
+      "evidence": [
+        {
+          "date": "2026-11-10",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 50,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Secure AI Connectivity with Post-Quantum Encryption | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix"
+        },
+        {
+          "date": "2026-10-29",
+          "key": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
+          "report": "2026-10/2026-10-29-digest.md",
+          "score": 29,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "Agentic AI Security Risks in Manufacturing | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 67,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
+        },
+        {
+          "date": "2026-08-05",
+          "key": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption",
+          "report": "2026-08/2026-08-05-digest.md",
+          "score": 64,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
+          "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 89,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
+          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
+        }
+      ],
+      "evidence_count": 5,
+      "first_seen": "2026-08-04",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-11-10",
+      "momentum": "stable",
+      "name": "Thales",
+      "prior_count": 1,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "AI Security",
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
     },
     {
       "aliases": [
@@ -6528,78 +6650,6 @@
         "Quantum Hardware",
         "Quantum Networking",
         "Quantum Software / Tooling"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [
-        "Thales Group"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 4,
-      "evidence": [
-        {
-          "date": "2026-10-29",
-          "key": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
-          "report": "2026-10/2026-10-29-digest.md",
-          "score": 29,
-          "source": "Thales Cybersecurity Blog",
-          "themes": [
-            "AI Security"
-          ],
-          "title": "Agentic AI Security Risks in Manufacturing | Thales",
-          "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
-        },
-        {
-          "date": "2026-10-19",
-          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-10/2026-10-19-digest.md",
-          "score": 67,
-          "source": "Thales Cybersecurity Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
-        },
-        {
-          "date": "2026-08-05",
-          "key": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption",
-          "report": "2026-08/2026-08-05-digest.md",
-          "score": 64,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
-          "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 89,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
-          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
-        }
-      ],
-      "evidence_count": 4,
-      "first_seen": "2026-08-04",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-10-29",
-      "momentum": "declining",
-      "name": "Thales",
-      "prior_count": 1,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
-      "themes": [
-        "AI Security",
-        "PQC / Crypto Agility"
       ],
       "type": "company"
     },
@@ -8369,8 +8419,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 47,
+      "current_evidence_count": 48,
       "evidence": [
+        {
+          "date": "2026-11-10",
+          "key": "https://quantum-journal.org/papers/q-2026-11-10-2267",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 33,
+          "source": "Quantum Journal",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Lower-depth local encoding circuits for the surface code",
+          "url": "https://quantum-journal.org/papers/q-2026-11-10-2267"
+        },
         {
           "date": "2026-11-05",
           "key": "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie",
@@ -8850,29 +8912,17 @@
           ],
           "title": "MIT and Caltech Researchers Create Single Ion Achieving Quantum Error Correction (QEC)",
           "url": "https://quantumzeitgeist.com/mit-caltech-single-ion-qec"
-        },
-        {
-          "date": "2026-07-13",
-          "key": "https://thequantuminsider.com/2026/07/13/ord-quantique-quantum-error-correction-sub-01-percent-spam-errors",
-          "report": "2026-07/2026-07-13-digest.md",
-          "score": 79,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Nord Quantique Advances Quantum Error Correction with Sub-0.1% SPAM Errors",
-          "url": "https://thequantuminsider.com/2026/07/13/ord-quantique-quantum-error-correction-sub-01-percent-spam-errors"
         }
       ],
-      "evidence_count": 51,
+      "evidence_count": 52,
       "first_seen": "2026-01-08",
       "historical_evidence_count": 4,
-      "latest_seen": "2026-11-05",
-      "momentum": "declining",
+      "latest_seen": "2026-11-10",
+      "momentum": "stable",
       "name": "Quantum error correction",
       "prior_count": 2,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "AI Security",
@@ -11162,7 +11212,7 @@
       "latest_seen": "2026-11-07",
       "momentum": "rising",
       "name": "Quantum networking",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 3,
       "status": "active",
@@ -11570,6 +11620,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-11-10T05:39:24.643727+00:00",
+  "updated_at": "2026-11-11T04:14:44.967275+00:00",
   "version": 2
 }
