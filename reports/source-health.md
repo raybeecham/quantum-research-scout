@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-11 17:46 UTC_
+_Updated 2026-11-11 18:41 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -30,8 +30,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-11 | 2026-11-11 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 13 | 2026-11-11 | 2026-11-10 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 1 | 2026-11-11 | 2024-03-12 | reference | 🟢 healthy |
-| AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-11 | 2026-10-21 | fresh | 🟢 healthy |
-| AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-11 | 2026-11-10 | fresh | 🟢 healthy |
+| AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-11 | 2026-10-21 | fresh | 🔴 failing |
+| AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-11 | 2026-11-10 | fresh | 🔴 failing |
 | Accenture Federal Services Quantum Readiness | watch | 100% | 0 | 0 | 2026-11-11 | 2026-08-04 | reference | 🟢 healthy |
 | Accenture Quantum and PQC News | watch | 100% | 0 | 0 | 2026-11-11 | 2025-10-20 | stale | 🟢 healthy |
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-11 | 2026-10-07 | stale | 🟢 healthy |
@@ -67,7 +67,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Grants.gov · Quantum Technologies | grant_opportunity | 100% | 0 | 0 | 2026-11-11 | 2026-10-28 | fresh | 🟢 healthy |
 | Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-11-11 | — | unknown | 🟢 healthy |
 | Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-11 | 2026-11-11 | fresh | 🟢 healthy |
-| IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-11 | 2026-11-08 | fresh | 🟢 healthy |
+| IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-11 | 2026-11-09 | fresh | 🟢 healthy |
 | IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-11 | 2026-11-11 | fresh | 🟢 healthy |
 | IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-11 | 2026-11-11 | fresh | 🟢 healthy |
 | IETF PQUIP | watch | 100% | 0 | 0 | 2026-11-11 | — | reference | 🟢 healthy |
@@ -126,7 +126,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **103** of **108**
+- Healthy sources: **101** of **108**
 - Partial-coverage sources: **0**
 - Critical sources failing: **0**
 
