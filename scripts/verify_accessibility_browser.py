@@ -36,11 +36,17 @@ def keyboard_workflows(page, base, output):
     for control in ("#compare-first", "#compare-second"):
         tab_to(page, control)
         before = page.locator(control).input_value()
-        page.keyboard.press("End")
+        # Choose the opposite boundary so the test changes the selection even
+        # when data refreshes reorder options or the default is already last.
+        options = page.locator(f"{control} option").evaluate_all(
+            "(nodes) => nodes.filter(n => !n.disabled && n.value).map(n => n.value)"
+        )
+        assert len(set(options)) >= 2, (control, options)
+        target = options[-1] if before != options[-1] else options[0]
+        page.keyboard.press("End" if target == options[-1] else "Home")
         page.keyboard.press("Tab")
-        after = page.locator(control).input_value()
-        assert before != after, (control, before, after)
-        expect(page.locator("#compare-results")).to_contain_text(after)
+        expect(page.locator(control)).to_have_value(target)
+        expect(page.locator("#compare-results")).to_contain_text(target)
 
     page.goto(base + "/#questions")
     ready(page)
