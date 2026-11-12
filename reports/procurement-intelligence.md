@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-11-11T04:03:38.341244+00:00_
+_Updated 2026-11-12T05:17:25.012353+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
@@ -19,16 +19,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-12-07T23:59:00-05:00**
 
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download) — no_text
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7) — no_text
-
-### Changes since the previous tracker snapshot
-
-**LOW · 1 change(s) · review recommended**
-
-_Version history is tracker-observed and may not include revisions published before monitoring began._
-
-| Impact | Change | Before | After | Evidence |
-|---|---|---|---|---|
-| LOW | The set of tracked solicitation document versions changed. | — | — | — |
 
 ## [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view)
 

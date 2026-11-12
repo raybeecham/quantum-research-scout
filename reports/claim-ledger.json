@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-11-11",
+  "as_of_date": "2026-11-12",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,746 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-2088b36772bbddba",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-29",
+      "evidence_ids": [
+        "evidence-237d9c75a5b2553e"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-237d9c75a5b2553e",
+          "locator": "opportunity_status:awarded",
+          "title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
+          "url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:DEAR0002199",
+        "label": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
+        "node_id": "award:usaspending:DEAR0002199",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1a44886c9447576c"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-c6a3845774ad75e7",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-29",
+      "evidence_ids": [
+        "evidence-4f8ab638ffdb5ad2"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4f8ab638ffdb5ad2",
+          "locator": "awarding_agency:department of energy",
+          "title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
+          "url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:DEAR0002199",
+        "label": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
+        "node_id": "award:usaspending:DEAR0002199",
+        "node_type": "award"
+      },
+      "value": "Department of Energy",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "650407df5d12ef59"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-a54e6e925b3bfa7b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-29",
+      "evidence_ids": [
+        "evidence-c75e7f5be26c6057"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c75e7f5be26c6057",
+          "locator": "reported_amount:19885227.0",
+          "title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
+          "url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:DEAR0002199",
+        "label": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
+        "node_id": "award:usaspending:DEAR0002199",
+        "node_type": "award"
+      },
+      "value": 19885227.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1c23ad103effece3"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-3fd3b703979f8216",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-29",
+      "evidence_ids": [
+        "evidence-70858612de80cc04"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:CHA2WRBRFDF5",
+        "label": "XSCAPE PHOTONICS INC.",
+        "node_id": "recipient_or_contractor:uei:CHA2WRBRFDF5",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-70858612de80cc04",
+          "locator": "reported_recipient:recipient_or_contractor:uei:CHA2WRBRFDF5",
+          "title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
+          "url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:DEAR0002199",
+        "label": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
+        "node_id": "award:usaspending:DEAR0002199",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ca7e0e5484def8a7"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-cd4d71b45ecab9ac",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-064ecbf9774ee4a1"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-064ecbf9774ee4a1",
+          "locator": "opportunity_status:awarded",
+          "title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:140A1627F0128",
+        "label": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+        "node_id": "award:usaspending:140A1627F0128",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "54adfa1245ab28af"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-77371b43fae02e62",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-20168308041ccb39"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-20168308041ccb39",
+          "locator": "awarding_agency:department of the interior",
+          "title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:140A1627F0128",
+        "label": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+        "node_id": "award:usaspending:140A1627F0128",
+        "node_type": "award"
+      },
+      "value": "Department of the Interior",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e242d412381f0f9a"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-4166e904e499a399",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-7eb88b16b45c7ab9"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7eb88b16b45c7ab9",
+          "locator": "reported_amount:1227142.16",
+          "title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:140A1627F0128",
+        "label": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+        "node_id": "award:usaspending:140A1627F0128",
+        "node_type": "award"
+      },
+      "value": 1227142.16,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "42dfece66aaa7db1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-81c1a479fa312488",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-255df7bf7d901db5"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:XQJFSL4MCKR9",
+        "label": "AKIMA DATA MANAGEMENT LLC",
+        "node_id": "recipient_or_contractor:uei:XQJFSL4MCKR9",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-255df7bf7d901db5",
+          "locator": "reported_recipient:recipient_or_contractor:uei:XQJFSL4MCKR9",
+          "title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:140A1627F0128",
+        "label": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+        "node_id": "award:usaspending:140A1627F0128",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "acf5a62fcd8269f6"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-3d2bf6fafdd1635a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-08",
+      "evidence_ids": [
+        "evidence-a68a6fd47e793b2a"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a68a6fd47e793b2a",
+          "locator": "opportunity_status:awarded",
+          "title": "CYBERSECURITY AND INFORMATION ASSURANCE",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2099CF27F00006",
+        "label": "CYBERSECURITY AND INFORMATION ASSURANCE",
+        "node_id": "award:usaspending:2099CF27F00006",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "236b5d36206d171e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-a0e874bfe6f94c5c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-08",
+      "evidence_ids": [
+        "evidence-17a48d87f74849ce"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-17a48d87f74849ce",
+          "locator": "awarding_agency:department of the treasury",
+          "title": "CYBERSECURITY AND INFORMATION ASSURANCE",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2099CF27F00006",
+        "label": "CYBERSECURITY AND INFORMATION ASSURANCE",
+        "node_id": "award:usaspending:2099CF27F00006",
+        "node_type": "award"
+      },
+      "value": "Department of the Treasury",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7df761088e30958f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-0aa893f0255c89dc",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-08",
+      "evidence_ids": [
+        "evidence-88443f1bdb412050"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-88443f1bdb412050",
+          "locator": "reported_amount:1313076.56",
+          "title": "CYBERSECURITY AND INFORMATION ASSURANCE",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2099CF27F00006",
+        "label": "CYBERSECURITY AND INFORMATION ASSURANCE",
+        "node_id": "award:usaspending:2099CF27F00006",
+        "node_type": "award"
+      },
+      "value": 1313076.56,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "55e68ddeea229712"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-31229ec2b0d62b48",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-08",
+      "evidence_ids": [
+        "evidence-ef143d29cc28784d"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:F9KSDU7L9VP6",
+        "label": "DELOITTE & TOUCHE LLP",
+        "node_id": "recipient_or_contractor:uei:F9KSDU7L9VP6",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ef143d29cc28784d",
+          "locator": "reported_recipient:recipient_or_contractor:uei:F9KSDU7L9VP6",
+          "title": "CYBERSECURITY AND INFORMATION ASSURANCE",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2099CF27F00006",
+        "label": "CYBERSECURITY AND INFORMATION ASSURANCE",
+        "node_id": "award:usaspending:2099CF27F00006",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3f3f9270e53cd056"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-fcba57a64d47ffe1",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-05",
+      "evidence_ids": [
+        "evidence-31c6831a6349aff5"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-31c6831a6349aff5",
+          "locator": "opportunity_status:awarded",
+          "title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2031ZB27F00005",
+        "label": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
+        "node_id": "award:usaspending:2031ZB27F00005",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "28f5b46b0307c346"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-1ddc3960e6806dce",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-05",
+      "evidence_ids": [
+        "evidence-59089f5cfd920b33"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-59089f5cfd920b33",
+          "locator": "awarding_agency:department of the treasury",
+          "title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2031ZB27F00005",
+        "label": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
+        "node_id": "award:usaspending:2031ZB27F00005",
+        "node_type": "award"
+      },
+      "value": "Department of the Treasury",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c141762078853207"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-c114d6ac7f35c134",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-05",
+      "evidence_ids": [
+        "evidence-eee1d05803030b03"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-eee1d05803030b03",
+          "locator": "reported_amount:1173030.4",
+          "title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2031ZB27F00005",
+        "label": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
+        "node_id": "award:usaspending:2031ZB27F00005",
+        "node_type": "award"
+      },
+      "value": 1173030.4,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "216f4b1264381f47"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-67b5a9c5d6d60207",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-05",
+      "evidence_ids": [
+        "evidence-55239630a48b79c6"
+      ],
+      "first_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-12T05:17:25.012353+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:XKKLFPG6AHF5",
+        "label": "APTNEXUS LLC",
+        "node_id": "recipient_or_contractor:uei:XKKLFPG6AHF5",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-55239630a48b79c6",
+          "locator": "reported_recipient:recipient_or_contractor:uei:XKKLFPG6AHF5",
+          "title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2031ZB27F00005",
+        "label": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
+        "node_id": "award:usaspending:2031ZB27F00005",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "f7827b785c6dc867"
     },
     {
       "authority": "authoritative",
@@ -42709,191 +43449,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-f04a2a42c3132c77",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-4b5b6260a8d05c81"
-      ],
-      "first_seen_at": "2026-09-13T02:31:49.784910+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-13T02:31:49.784910+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4b5b6260a8d05c81",
-          "locator": "opportunity_status:awarded",
-          "title": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2605835_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2605835",
-        "label": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
-        "node_id": "award:usaspending:2605835",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "72ac549bcc5adc99"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-2549b182051a14fd",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-496bfc4075e16f6a"
-      ],
-      "first_seen_at": "2026-09-13T02:31:49.784910+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-13T02:31:49.784910+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-496bfc4075e16f6a",
-          "locator": "awarding_agency:national science foundation",
-          "title": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2605835_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2605835",
-        "label": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
-        "node_id": "award:usaspending:2605835",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "dda99b92c3878e96"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-8d94ddbe0211106f",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-6e9b40313848848f"
-      ],
-      "first_seen_at": "2026-09-13T02:31:49.784910+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-13T02:31:49.784910+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6e9b40313848848f",
-          "locator": "reported_amount:229937.0",
-          "title": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2605835_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2605835",
-        "label": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
-        "node_id": "award:usaspending:2605835",
-        "node_type": "award"
-      },
-      "value": 229937.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "5785972d5897dfe4"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-2ec8d8dfe0d7ec47",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-71134bdd27c194d7"
-      ],
-      "first_seen_at": "2026-09-13T02:31:49.784910+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-13T02:31:49.784910+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:W8LKB16HV1K5",
-        "label": "FLORIDA A & M UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:W8LKB16HV1K5",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-71134bdd27c194d7",
-          "locator": "reported_recipient:recipient_or_contractor:uei:W8LKB16HV1K5",
-          "title": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2605835_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2605835",
-        "label": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
-        "node_id": "award:usaspending:2605835",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "701158187b01d2ee"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-a6ba40f53557a481",
       "confidence": "high",
@@ -43071,6 +43626,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "3777cc269d0ef359"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-f04a2a42c3132c77",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-4b5b6260a8d05c81"
+      ],
+      "first_seen_at": "2026-09-13T02:31:49.784910+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-13T02:31:49.784910+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4b5b6260a8d05c81",
+          "locator": "opportunity_status:awarded",
+          "title": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2605835_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2605835",
+        "label": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
+        "node_id": "award:usaspending:2605835",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "72ac549bcc5adc99"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-2549b182051a14fd",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-496bfc4075e16f6a"
+      ],
+      "first_seen_at": "2026-09-13T02:31:49.784910+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-13T02:31:49.784910+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-496bfc4075e16f6a",
+          "locator": "awarding_agency:national science foundation",
+          "title": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2605835_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2605835",
+        "label": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
+        "node_id": "award:usaspending:2605835",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "dda99b92c3878e96"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-8d94ddbe0211106f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-6e9b40313848848f"
+      ],
+      "first_seen_at": "2026-09-13T02:31:49.784910+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-13T02:31:49.784910+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6e9b40313848848f",
+          "locator": "reported_amount:229937.0",
+          "title": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2605835_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2605835",
+        "label": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
+        "node_id": "award:usaspending:2605835",
+        "node_type": "award"
+      },
+      "value": 229937.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5785972d5897dfe4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-2ec8d8dfe0d7ec47",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-71134bdd27c194d7"
+      ],
+      "first_seen_at": "2026-09-13T02:31:49.784910+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-13T02:31:49.784910+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:W8LKB16HV1K5",
+        "label": "FLORIDA A & M UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:W8LKB16HV1K5",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-71134bdd27c194d7",
+          "locator": "reported_recipient:recipient_or_contractor:uei:W8LKB16HV1K5",
+          "title": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2605835_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2605835",
+        "label": "COLLABORATIVE RESEARCH: TARGETED INFUSION PROJECT: INFUSING AI-DRIVEN DIGITAL FORENSICS INTO CYBERSECURITY EDUCATION -FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY, IN COLLABORAT...",
+        "node_id": "award:usaspending:2605835",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "701158187b01d2ee"
     },
     {
       "authority": "authoritative",
@@ -135666,191 +136406,6 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
-      "claim_id": "claim-46263a41104ed969",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-28",
-      "evidence_ids": [
-        "evidence-ddb6c6789a020f09"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ddb6c6789a020f09",
-          "locator": "opportunity_status:awarded",
-          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:89233126FNA400803",
-        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-        "node_id": "award:usaspending:89233126FNA400803",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "4ad1251862272913"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-46c83b9968b1db7b",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-28",
-      "evidence_ids": [
-        "evidence-ac12546ed45dc713"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ac12546ed45dc713",
-          "locator": "awarding_agency:department of energy",
-          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:89233126FNA400803",
-        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-        "node_id": "award:usaspending:89233126FNA400803",
-        "node_type": "award"
-      },
-      "value": "Department of Energy",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "16dfb63f9c75461f"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-0be012d3ff20cfd6",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-28",
-      "evidence_ids": [
-        "evidence-2dd84c67d8af32a5"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2dd84c67d8af32a5",
-          "locator": "reported_amount:5769619.0",
-          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:89233126FNA400803",
-        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-        "node_id": "award:usaspending:89233126FNA400803",
-        "node_type": "award"
-      },
-      "value": 5769619.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "279c68f27691da4d"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-6b6f93d36efcffcd",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-28",
-      "evidence_ids": [
-        "evidence-91377444069f9f72"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:KC3CH2MSK7Q3",
-        "label": "ANDURIL INDUSTRIES, INC.",
-        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-91377444069f9f72",
-          "locator": "reported_recipient:recipient_or_contractor:uei:KC3CH2MSK7Q3",
-          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:89233126FNA400803",
-        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-        "node_id": "award:usaspending:89233126FNA400803",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "37c239300a0a0314"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
       "claim_id": "claim-98ab91ca97b1a9db",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -141542,6 +142097,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "99be6c84dd488946"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-46263a41104ed969",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-28",
+      "evidence_ids": [
+        "evidence-ddb6c6789a020f09"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ddb6c6789a020f09",
+          "locator": "opportunity_status:awarded",
+          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89233126FNA400803",
+        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
+        "node_id": "award:usaspending:89233126FNA400803",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4ad1251862272913"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-46c83b9968b1db7b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-28",
+      "evidence_ids": [
+        "evidence-ac12546ed45dc713"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ac12546ed45dc713",
+          "locator": "awarding_agency:department of energy",
+          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89233126FNA400803",
+        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
+        "node_id": "award:usaspending:89233126FNA400803",
+        "node_type": "award"
+      },
+      "value": "Department of Energy",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "16dfb63f9c75461f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-0be012d3ff20cfd6",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-28",
+      "evidence_ids": [
+        "evidence-2dd84c67d8af32a5"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2dd84c67d8af32a5",
+          "locator": "reported_amount:5769619.0",
+          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89233126FNA400803",
+        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
+        "node_id": "award:usaspending:89233126FNA400803",
+        "node_type": "award"
+      },
+      "value": 5769619.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "279c68f27691da4d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-6b6f93d36efcffcd",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-28",
+      "evidence_ids": [
+        "evidence-91377444069f9f72"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:KC3CH2MSK7Q3",
+        "label": "ANDURIL INDUSTRIES, INC.",
+        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-91377444069f9f72",
+          "locator": "reported_recipient:recipient_or_contractor:uei:KC3CH2MSK7Q3",
+          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89233126FNA400803",
+        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
+        "node_id": "award:usaspending:89233126FNA400803",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "37c239300a0a0314"
     },
     {
       "authority": "authoritative",
@@ -159441,14 +160181,14 @@
       "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
       "history": [],
       "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:N4KREMF5G8R8",
         "label": "RIDER UNIVERSITY A NEW JERSEY NON-PROFIT CORP",
         "node_id": "recipient_or_contractor:uei:N4KREMF5G8R8",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -159491,14 +160231,14 @@
       "first_seen_at": "2026-07-31T16:06:07.673432+00:00",
       "history": [],
       "last_seen_at": "2026-07-31T16:06:07.673432+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": {
         "identifier": "uei:NSCKLFSSABF2",
         "label": "UNIVERSITY OF HAWAII",
         "node_id": "recipient_or_contractor:uei:NSCKLFSSABF2",
         "node_type": "recipient_or_contractor"
       },
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_recipient",
       "sources": [
         {
@@ -176746,9 +177486,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -176791,9 +177531,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -176836,9 +177576,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -176881,9 +177621,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -176926,9 +177666,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -176971,9 +177711,9 @@
       "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
       "history": [],
       "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "reported_amount",
       "sources": [
         {
@@ -256487,7 +257227,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256534,7 +257274,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256581,7 +257321,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256628,7 +257368,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256675,7 +257415,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256722,7 +257462,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256769,7 +257509,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256816,7 +257556,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256863,7 +257603,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256910,7 +257650,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -256957,7 +257697,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257004,7 +257744,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257051,7 +257791,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257098,7 +257838,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257145,7 +257885,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257192,7 +257932,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257239,7 +257979,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257286,7 +258026,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257338,7 +258078,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257390,7 +258130,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257442,7 +258182,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257494,7 +258234,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257546,7 +258286,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257598,7 +258338,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257650,7 +258390,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257702,7 +258442,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257754,7 +258494,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-11T04:03:38.341244+00:00",
+      "retracted_at": "2026-11-12T05:17:25.012353+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259170,6 +259910,16 @@
       "locator": "opportunity_status:awarded",
       "title": "REU SITE: APPLIED AND COMPUTATIONAL MATHEMATICS -THE UNIVERSITY OF CALIFORNIA, LOS ANGELES RESEARCH EXPERIENCES FOR UNDERGRADUATES (REU) SITE WILL PROVIDE INTENSIVE SUMMER RESEARC...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2548181_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-064ecbf9774ee4a1",
+      "locator": "opportunity_status:awarded",
+      "title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
       "verification_status": "source_reported"
     },
     {
@@ -262776,6 +263526,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-17a48d87f74849ce",
+      "locator": "awarding_agency:department of the treasury",
+      "title": "CYBERSECURITY AND INFORMATION ASSURANCE",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-17ae7caa25c71875",
       "locator": "reported_recipient:recipient_or_contractor:uei:XKUDY4MDJHX5",
       "title": "PURPOSE: VMEC WILL CONTINUE TO STRENGTHEN THE COMPETITIVENESS, PRODUCTIVITY, RESILIENCE, AND TECHNOLOGICAL CAPABILITY OF VERMONT?S SMALL AND MEDIUM-SIZED MANUFACTURERS (SMMS) BY S...",
@@ -264386,6 +265146,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-20168308041ccb39",
+      "locator": "awarding_agency:department of the interior",
+      "title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-201a5c2fc3c8581d",
       "locator": "reported_recipient:recipient_or_contractor:uei:N4WWJC8T2593",
       "title": "COLLABORATIVE RESEARCH: AF: RESOURCE-EFFICIENT BYZANTINE PROTOCOLS -SOCIETY DEPENDS ON THE PERFORMANCE AND INTEGRITY OF DISTRIBUTED NETWORKS THAT SPAN THE GLOBE. POORLY PERFORMING...",
@@ -264994,6 +265764,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-237d9c75a5b2553e",
+      "locator": "opportunity_status:awarded",
+      "title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
+      "url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "5b6e9e92ad74a96d07a8285dbb76c23ac2102572a7c5d1540fd2719cdec64feb",
       "controlling_status": "not_established",
       "evidence_id": "evidence-239924715e6030a8",
@@ -265450,6 +266230,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:M7PNRH24BBM8",
       "title": "EPSCOR RESEARCH FELLOWS: NSF: FROM MAGNETIC COMPETITION TO FUNCTION: SPONTANEOUS MAGNETIZATION REVERSAL AS A DESIGN PRINCIPLE -THIS RESEARCH INFRASTRUCTURE IMPROVEMENT (RII) EPSCO...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2624499_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-255df7bf7d901db5",
+      "locator": "reported_recipient:recipient_or_contractor:uei:XQJFSL4MCKR9",
+      "title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
       "verification_status": "source_reported"
     },
     {
@@ -268011,6 +268801,16 @@
       "locator": "qualification_gate",
       "title": "Optical Cryogenic Quantum System",
       "url": "https://sam.gov/workspace/contract/opp/ca6450dfbd644aa386fcb9e564e0c772/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-31c6831a6349aff5",
+      "locator": "opportunity_status:awarded",
+      "title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
       "verification_status": "source_reported"
     },
     {
@@ -273977,6 +274777,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-4f8ab638ffdb5ad2",
+      "locator": "awarding_agency:department of energy",
+      "title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
+      "url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-4facd8cc3b8d6cd6",
       "locator": "awarding_agency:department of defense",
       "title": "PROPOSAL NO. F2D-12896 - NEXT GENERATION SECURE VPN NETWORKS FOR AGILE COMBAT EMPLOYMENT (ACE) WITH POST-QUANTUM ENCRYPTION",
@@ -275207,6 +276017,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-55239630a48b79c6",
+      "locator": "reported_recipient:recipient_or_contractor:uei:XKKLFPG6AHF5",
+      "title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-552ec4ed1db32503",
       "locator": "awarding_agency:department of commerce",
       "title": "ARTIFICIAL INTELLIGENCE FOR NUMERICAL WEATHER PREDICTION (AI4NWP): FROM TRAINING DATA/REANALYSIS TO MODEL DESIGN IN ACCORDANCE WITH THE PERFORMANCE WORK STATEMENT (PWS).",
@@ -276021,6 +276841,16 @@
       "locator": "opportunity_status:awarded",
       "title": "OU77-FY26-136-NEW SPACE SYSTEMS COMMAND (SSC) S6 CYBERSECURITY TECHNICAL SUPPORT",
       "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB770121_1341_DOCSB134114CQ0010_1341",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-59089f5cfd920b33",
+      "locator": "awarding_agency:department of the treasury",
+      "title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
       "verification_status": "source_reported"
     },
     {
@@ -280747,6 +281577,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-70858612de80cc04",
+      "locator": "reported_recipient:recipient_or_contractor:uei:CHA2WRBRFDF5",
+      "title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
+      "url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-7085b8350583d3d4",
       "locator": "reported_amount:500000.0",
       "title": "COLLABORATIVE RESEARCH: CSR: CO-DESIGNING INTEGRATED AI-ENABLED COMPILER-RUNTIME SYSTEMS FOR FUTURE HPC ARCHITECTURES -MODERN SUPERCOMPUTERS COMBINE DIVERSE PROCESSORS AND ACCELER...",
@@ -283507,6 +284347,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7eb88b16b45c7ab9",
+      "locator": "reported_amount:1227142.16",
+      "title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-7ecc0d83c5af1460",
       "locator": "reported_amount:350000.0",
       "title": "29--SENSOR,ENGINE COOLANT TEMPERATURE,EM",
@@ -285631,6 +286481,16 @@
       "locator": "opportunity_status:announced",
       "title": "Tribal Colleges Research Grants Program",
       "url": "https://www.grants.gov/search-results-detail/362029",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-88443f1bdb412050",
+      "locator": "reported_amount:1313076.56",
+      "title": "CYBERSECURITY AND INFORMATION ASSURANCE",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
       "verification_status": "source_reported"
     },
     {
@@ -291641,6 +292501,16 @@
       "locator": "reported_recipient:recipient_or_contractor:name:thundercat technology",
       "title": "GW OT CYBERSECURITY MONITORING SYSTEM",
       "url": "https://www.usaspending.gov/award/CONT_AWD_15F06726F0000844_1549_NNG15SC92B_8000/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-a68a6fd47e793b2a",
+      "locator": "opportunity_status:awarded",
+      "title": "CYBERSECURITY AND INFORMATION ASSURANCE",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
       "verification_status": "source_reported"
     },
     {
@@ -298422,6 +299292,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c31a6fcf8ba04194acd817d4412b98ce/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-c75e7f5be26c6057",
+      "locator": "reported_amount:19885227.0",
+      "title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
+      "url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -306817,6 +307697,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-eee1d05803030b03",
+      "locator": "reported_amount:1173030.4",
+      "title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-eeef15da34877983",
       "locator": "cage_code:3r2b4",
       "title": "UNIVERSITY OF ALASKA FAIRBANKS",
@@ -306831,6 +307721,16 @@
       "locator": "awarding_agency:department of labor",
       "title": "ARTIFICIAL INTELLIGENCE (AI) WORKFORCE HUB SUPPORT SERVICES",
       "url": "https://www.usaspending.gov/award/CONT_AWD_1605C226F00028_1605_1605C223A0036_1605",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ef143d29cc28784d",
+      "locator": "reported_recipient:recipient_or_contractor:uei:F9KSDU7L9VP6",
+      "title": "CYBERSECURITY AND INFORMATION ASSURANCE",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
       "verification_status": "source_reported"
     },
     {
@@ -310427,16 +311327,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 5158,
-    "authoritative_claims": 4935,
+    "active_claims": 5174,
+    "authoritative_claims": 4951,
     "conflicted_claims": 38,
     "derived_claims": 217,
-    "evidence_items": 5264,
-    "source_urls": 1413,
-    "subjects": 1053,
+    "evidence_items": 5280,
+    "source_urls": 1417,
+    "subjects": 1057,
     "superseded_claims": 0,
-    "total_claims": 5185
+    "total_claims": 5201
   },
-  "updated_at": "2026-11-11T04:03:38.341244+00:00",
+  "updated_at": "2026-11-12T05:17:25.012353+00:00",
   "version": 1
 }

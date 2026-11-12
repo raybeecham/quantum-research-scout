@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-11T04:03:38.341244+00:00_
+_Updated 2026-11-12T05:17:25.012353+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -15,7 +15,7 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Automated recent discoveries: **248**
 - Published in the last 30 days: **50**
 - Unique named assignees: **139**
-- Patent families: **289**
+- Patent families: **292**
 - Applications / grants: **241 / 9**
 - Known legal status: **229 of 250**
 - Publications with citation evidence: **0**
@@ -258,6 +258,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [DEVICE AND METHOD FOR UPDATING NETWORK INFORMATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147505/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [DEVICE AND METHOD FOR CARRYING OUT LINK SET CONFIGURATION-BASED QUANTUM RESOURCE ALLOCATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147275/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [APPARATUS AND METHOD FOR PERFORMING QUANTUM STATE MODULATION ON BASIS OF QUANTUM SECURE DIRECT COMMUNICATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19128044/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
+| [APPARATUS AND METHOD FOR DETERMINING RESOURCE-EFFICIENT OPTIMAL LINK SET OF ENTANGLEMENT ROUTING IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19501825/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [JOINT MODULAR MULTIPLICATIVE INVERSE OPERATIONS FOR ACTIVE VOLUME QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19489704/application-data)<br><small>Publication number unavailable</small> | Application · Pending | PsiQuantum, Corp. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [LARGE LANGUAGE MODEL RESPONSE OPTIMIZATION FOR DATA PIPELINE GENERATION](https://data.uspto.gov/patent-file-wrapper/search/details/19723600/application-data)<br><small>US20260329885A1</small> | Application · Pending | Palantir Technologies Inc. | 2 member(s) · 0 citation(s) | **60 · HIGH** |
 | [LARGE LANGUAGE MODEL RESPONSE OPTIMIZATION FOR DATA PIPELINE GENERATION](https://data.uspto.gov/patent-file-wrapper/search/details/19723658/application-data)<br><small>US20260329886A1</small> | Application · Pending | Palantir Technologies Inc. | 2 member(s) · 0 citation(s) | **60 · HIGH** |
@@ -309,4 +310,3 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [ASSISTING USER(S) IN INTERACTIONS WITH LARGE LANGUAGE MODEL(S)](https://data.uspto.gov/patent-file-wrapper/search/details/19673675/application-data)<br><small>US20260277398A1</small> | Application · Pending | GOOGLE LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [METHODS AND APPARATUS TO SELF-GUARDRAIL LARGE LANGUAGE MODEL RESPONSES](https://data.uspto.gov/patent-file-wrapper/search/details/19664519/application-data)<br><small>US20260268098A1</small> | Application · Pending | McAfee, LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [LARGE LANGUAGE MODEL-BASED METHOD FOR TRANSLATING A PROMPT INTO A PLANNING PROBLEM](https://data.uspto.gov/patent-file-wrapper/search/details/19664934/application-data)<br><small>US20260268082A1</small> | Application · Pending | Intuit, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
-| [IDENTIFYING HALLUCINATIONS IN LARGE LANGUAGE MODEL OUTPUT](https://data.uspto.gov/patent-file-wrapper/search/details/19662424/application-data)<br><small>US20260267900A1</small> | Application · Pending | Microsoft Technology Licensing, LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |

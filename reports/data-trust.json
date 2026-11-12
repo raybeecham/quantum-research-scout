@@ -39,6 +39,29 @@
       "admission": {
         "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
         "confidence": "low",
+        "matched_alias": "Quantum Benchmarking Initiative",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-11-11",
+      "key": "https://ionq.com/blog/the-prove-it-stage-what-darpas-stage-c-means-for-ionq",
+      "mission_id": "darpa-qbi",
+      "mission_name": "DARPA Quantum Benchmarking Initiative",
+      "scope": "Federal missions",
+      "source": "IonQ Technical Blog",
+      "stage": "mission evidence admission",
+      "title": "IonQ | The \u201cProve It\u201d Stage: What DARPA\u2019s Stage C Means for IonQ",
+      "url": "https://ionq.com/blog/the-prove-it-stage-what-darpas-stage-c-means-for-ionq"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
         "matched_alias": "DARPA Quantum Benchmarking Initiative",
         "reason_codes": [
           "non_government_source",
@@ -2264,28 +2287,6 @@
       "stage": "mission evidence admission",
       "title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
       "url": "https://www.grants.gov/search-results-detail/362987"
-    },
-    {
-      "admission": {
-        "basis": "The search configuration supplied context that the returned record does not contain.",
-        "confidence": "low",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-26",
-      "key": "grants_gov:ETA-TEGL-15-25",
-      "mission_id": null,
-      "mission_name": null,
-      "scope": "Federal funding",
-      "source": "Grants.gov \u00b7 Golden Dome",
-      "stage": "funding evidence admission",
-      "title": "Rapid Reskill Employment Recovery National Dislocated Worker Grants",
-      "url": "https://www.grants.gov/search-results-detail/362987"
     }
   ],
   "reason_counts": [
@@ -2301,12 +2302,12 @@
     },
     {
       "code": "official_source",
-      "count": 101,
+      "count": 100,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 37,
+      "count": 38,
       "label": "Source is not an official .gov or .mil domain"
     },
     {
@@ -2325,6 +2326,6 @@
     "quarantined": 141,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-11-11T04:03:38.341244+00:00",
+  "updated_at": "2026-11-12T05:17:25.012353+00:00",
   "version": 1
 }

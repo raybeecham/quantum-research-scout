@@ -4,19 +4,19 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-11 04:14 UTC_
+_Updated 2026-11-12 05:23 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (3 vs 1) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-11-10 | 29 |
-| PQC / Crypto Agility | ↗️ rising (28 vs 13) | 🔴 critical | high | 🎯 actionable | 2026-06-21 | 2026-11-10 | 364 |
-| Quantum Software / Tooling | ↗️ rising (4 vs 1) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-11-10 | 118 |
+| PQC / Crypto Agility | ↗️ rising (32 vs 10) | 🔴 critical | high | 🎯 actionable | 2026-06-21 | 2026-11-11 | 368 |
+| Quantum Software / Tooling | ↗️ rising (6 vs 1) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-11-11 | 120 |
 | Standards / Government | ↗️ rising (7 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-11-10 | 84 |
 | QEC / Fault Tolerance | ➡️ stable (5 vs 7) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-11-10 | 107 |
-| Quantum Hardware | ↘️ declining (12 vs 20) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-10 | 388 |
-| Quantum Networking | ➡️ stable (10 vs 12) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-10 | 179 |
+| Quantum Hardware | ➡️ stable (20 vs 14) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-11 | 396 |
+| Quantum Networking | ➡️ stable (11 vs 10) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-11 | 180 |
 | Quantum Sensing | ➡️ stable (1 vs 1) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-30 | 55 |
 
 ## AI Security
@@ -35,22 +35,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Quantum Computing Report
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-11-11 — [Patero and Horizen Labs Partner on Enterprise Post-Quantum Migration and Network Protection](https://quantumcomputingreport.com/patero-and-horizen-labs-partner-on-enterprise-post-quantum-migration-and-network-protection) (Quantum Computing Report, score 93)
+  - 2026-11-11 — [Patero and Horizen Labs Collaborate to Help Organizations Prepare for Post-Quantum Security](https://thequantuminsider.com/2026/11/11/patero-horizen-labs-post-quantum-security-migration) (The Quantum Insider, score 81)
+  - 2026-11-11 — [Patero and Horizen Labs team up on post-quantum security plans](https://quantumzeitgeist.com/post-quantum-security-patero-horizen-labs) (Quantum Zeitgeist, score 55)
+  - 2026-11-11 — [Guest Post: Quantum-Resistant Wallets Could Support Institutional Blockchain Adoption](https://thequantuminsider.com/2026/11/11/quantum-resistant-wallets-wall-street-capital-on-chain) (The Quantum Insider, score 39)
   - 2026-11-10 — [Carahsoft Builds Federal Quantum Catalog with IonQ and PQSecure Partnerships](https://quantumcomputingreport.com/carahsoft-builds-federal-quantum-catalog-with-ionq-and-pqsecure-partnerships) (Quantum Computing Report, score 100)
-  - 2026-11-10 — [Secure AI Connectivity with Post-Quantum Encryption | Thales](https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix) (Thales Cybersecurity Blog, score 50)
-  - 2026-11-10 — [PKI in transition: Lessons to learn from eMudhra | DigiCert](https://www.digicert.com/blog/pki-in-transition-lessons-from-emudhra) (DigiCert Blog, score 41)
-  - 2026-11-10 — [Your TLS certificate may unexpectedly expire soon | DigiCert](https://www.digicert.com/blog/your-tls-certificate-may-expire-soon) (DigiCert Blog, score 39)
-  - 2026-11-09 — [Malaysia Considers Faster Transition to Quantum-Resistant Security](https://thequantuminsider.com/2026/11/09/malaysia-quantum-resistant-security-transition) (The Quantum Insider, score 100)
 
 ## Quantum Software / Tooling
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, Quantum Journal
 - Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
 - Recent supporting evidence:
+  - 2026-11-11 — [IHRD and Bloq Quantum Partner to Expand Quantum Computing Education in Kerala](https://thequantuminsider.com/2026/11/11/ihrd-bloq-quantum-quantum-computing-education-kerala) (The Quantum Insider, score 100)
+  - 2026-11-11 — [IBM, Mitsubishi Chemical, and Keio Train Generative Quantum Eigensolvers on 70-Qubit Hardware](https://quantumcomputingreport.com/ibm-mitsubishi-chemical-and-keio-train-generative-quantum-eigensolvers-on-70-qubit-hardware) (Quantum Computing Report, score 39)
   - 2026-11-10 — [Geometric characterization of non-Gaussian entanglement for finite stellar rank states](https://quantum-journal.org/papers/q-2026-11-10-2269) (Quantum Journal, score 30)
   - 2026-11-09 — [DLR Develops Scalable Unitary Data Encoding Beating Exponential State-Preparation Depth](https://quantumcomputingreport.com/dlr-develops-scalable-unitary-data-encoding-beating-exponential-state-preparation-depth) (Quantum Computing Report, score 34)
   - 2026-11-06 — [Bounding the entanglement of a state from its spectrum](https://quantum-journal.org/papers/q-2026-11-06-2260) (Quantum Journal, score 30)
-  - 2026-11-06 — [NQCC Signs Enterprise Agreement with Phasecraft to Provide Quantum Software via SparQ Access](https://quantumcomputingreport.com/nqcc-signs-enterprise-agreement-with-phasecraft-to-provide-quantum-software-via-sparq-access) (Quantum Computing Report, score 25)
-  - 2026-11-01 — [Meet NAKO, A Benchmarking Framework for Evaluating and Diagnosing Neutral-Atom Quantum Compilers](https://quantumzeitgeist.com/meet-nako-a-benchmarking-framework-for-evaluating-and-diagnosing-neutral-atom-quantum-compilers) (Quantum Zeitgeist, score 59)
 
 ## Standards / Government
 
@@ -79,22 +79,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
-  - 2026-11-10 — [RIKEN and Quantinuum Demonstrate Heterogeneous Multi-QPU Workflows on Fugaku](https://quantumcomputingreport.com/riken-and-quantinuum-demonstrate-heterogeneous-multi-qpu-workflows-on-fugaku) (Quantum Computing Report, score 63)
-  - 2026-11-10 — [QuiX Quantum Leads National Mission to Develop 100+ Qubit Photonic Quantum Computer](https://thequantuminsider.com/2026/11/10/quix-quantum-leads-national-mission-100-qubit-photonic-quantum-computer) (The Quantum Insider, score 39)
-  - 2026-11-10 — [Xanadu and HyperLight Reduce Photonic Switch Loss to 7 mdB](https://thequantuminsider.com/2026/11/10/xanadu-hyperlight-photonic-switch-loss-7-mdb) (The Quantum Insider, score 28)
-  - 2026-11-09 — [Physics Reports Analysis Evaluates Emergence of Hybrid Semiconductor–Superconducting Qubit Architectures](https://quantumcomputingreport.com/physics-reports-analysis-evaluates-emergence-of-hybrid-semiconductor-superconducting-qubit-architectures) (Quantum Computing Report, score 41)
-  - 2026-11-09 — [EV Group Helps Accelerate Qubit Scaling for Quantum Computing Through Advanced Packaging Expertise](https://thequantuminsider.com/2026/11/09/ev-group-manufacturing-support-quantum-computing) (The Quantum Insider, score 28)
+  - 2026-11-11 — [IBM’s Starling chip could need ten times fewer qubits for error correction](https://quantumzeitgeist.com/ibm-starling-chip-need-ten-error) (Quantum Zeitgeist, score 77)
+  - 2026-11-11 — [Cloud access lets researchers compare nine quantum processors at once](https://quantumzeitgeist.com/ikerlan-technology-nine-quantum-processors-cloud) (Quantum Zeitgeist, score 57)
+  - 2026-11-11 — [Xanadu Reports Q3 2026 Results with $286M Cash Balance and Expanding R&D Commitments](https://quantumcomputingreport.com/xanadu-reports-q3-2026-results-with-286m-cash-balance-and-expanding-rd-commitments) (Quantum Computing Report, score 53)
+  - 2026-11-11 — [NVIDIA’s Alice & Bob decodes cat-qubit errors on GPUs with NVQLink](https://quantumzeitgeist.com/quantum-machines-nvidia-alice-bob-decodes) (Quantum Zeitgeist, score 42)
+  - 2026-11-11 — [IBM Plans 1,040-Qubit Quantum System with Next-Generation Nighthawk Processors](https://thequantuminsider.com/2026/11/11/ibm-nighthawk-r3-processor-520-programmable-qubits) (The Quantum Insider, score 38)
 
 ## Quantum Networking
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
+  - 2026-11-11 — [IBM aims to turn quantum advantage into real-world applications](https://quantumzeitgeist.com/quantum-advantage-ibm-aims-turn-applications) (Quantum Zeitgeist, score 46)
   - 2026-11-10 — [UK Unveils £189 Million Quantum Deployment Package Spanning Networking Testbeds, Commercialization, and Procurement](https://quantumcomputingreport.com/uk-unveils-189-million-quantum-deployment-package-spanning-networking-testbeds-commercialization-and-procurement) (Quantum Computing Report, score 100)
   - 2026-11-09 — [Laser-cooled molecules achieve record entanglement despite higher temperatures](https://quantumzeitgeist.com/physics-molecules-entanglement-laser-cooled-record) (Quantum Zeitgeist, score 27)
   - 2026-11-07 — [QNu Labs Introduces Corporate Quantum-Safe Training Supported by National Quantum Mission](https://quantumcomputingreport.com/qnu-labs-introduces-corporate-quantum-safe-training-supported-by-national-quantum-mission) (Quantum Computing Report, score 95)
   - 2026-11-07 — [Toshiba Awarded Contract to Advance Quantum Networking in UK](https://quantumzeitgeist.com/toshiba-quantum-contract-awarded-advance-networking) (Quantum Zeitgeist, score 65)
-  - 2026-11-06 — [ZeroTier Partners With Redapt to Deliver Post-Quantum Networking](https://thequantuminsider.com/2026/11/06/zerotier-redapt-post-quantum-networking-partnership) (The Quantum Insider, score 88)
 
 ## Quantum Sensing
 

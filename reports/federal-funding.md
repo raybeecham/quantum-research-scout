@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-11-11 04:03 UTC_
+_Updated 2026-11-12 05:17 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -16,8 +16,8 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Opportunity radar: **3 mission-linked**, **1 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **21**
 - Missions with activity: **5 of 10**
-- Named recipients and contractors: **328**
-- Known reported award value: **$1.04B**
+- Named recipients and contractors: **327**
+- Known reported award value: **$1.06B**
 
 ## Opportunity Radar
 
@@ -64,7 +64,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [Energy Department Announces $293 Million in Funding to Support Genesis Mission National Science and Technology Challenges](https://www.energy.gov/articles/energy-department-announces-293-million-funding-support-genesis-mission-national-science) | 2026-09-16 | Not listed | $293.0M | Genesis Mission |
 | [QUANTUM BENCHMARKING INITIATIVE (QBI) EFFORT UNDER THE UNIVERSITY OF MARYLAND (UMD) APPLIED RESEARCH LABORATORY FOR INTELLIGENCE AND SECURITY (ARLIS) UNIVERSITY AFFILIATE…](https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700) | 2025-10-06 | Not listed | $8 | DARPA Quantum Benchmarking Initiative |
 | [AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-) | 2026-09-28 | REGENCY CONSULTING INC | $250.0K | AI Forge |
-| [Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science) | 2026-11-10 | Not listed | Not reported | Genesis Mission |
+| [Energy Department Announces New Genesis Mission Awards to Advance Super Intelligence for Science](https://www.energy.gov/articles/energy-department-announces-new-genesis-mission-awards-advance-super-intelligence-science) | 2026-10-08 | Not listed | Not reported | Genesis Mission |
 | [AI-DRIVEN (AI FORGE) DEVELOPMENT AUTOMATION PROOF OF CONCEPT](https://www.usaspending.gov/award/CONT_AWD_75N98026P01822_7529_-NONE-_-NONE-) | 2026-09-28 | Not listed | $250 | AI Forge |
 | [Genesis Mission RFA Awards List](https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf) | 2026-08-21 | Not listed | Not reported | Genesis Mission |
 | [GENESIS MISSION ACCELERATION](https://www.usaspending.gov/award/CONT_AWD_89303026FSC400007_8900_47QRAA22D00E3_4732) | 2026-05-19 | Not listed | $700 | Genesis Mission |
@@ -131,10 +131,10 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | PARAGON MICRO INC | UEI E41LV9AJGHQ1 | **35 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.0M | Department of Health and Human Services | Not linked | 0 |
 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | UEI E2NYLCDML6V1 | **34 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $1.2M | National Science Foundation | Not linked | 1 |
 | ACCENTURE FEDERAL SERVICES LLC | UEI C47BNA8GM833 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $28.7M | Department of Energy, General Services Administration | Not linked | 0 |
+| DELOITTE & TOUCHE LLP | UEI F9KSDU7L9VP6 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.8M | Department of the Treasury, Social Security Administration | Not linked | 0 |
 | NORTH CAROLINA STATE UNIVERSITY | UEI U3NVH931QJJ3 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.2M | National Science Foundation | Not linked | 0 |
 | THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | UEI LMCJKRFW5R81 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | National Science Foundation | Not linked | 0 |
 | GENERAL ELECTRIC COMPANY | Name-resolved | **32 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $48.5M | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK | Not linked | 0 |
-| DUKE UNIVERSITY | UEI TP7EK8DZV6N5 | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $3.4M | National Science Foundation | Not linked | 0 |
 
 ## Recipient and Contractor Patent Connections
 

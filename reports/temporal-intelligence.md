@@ -2,19 +2,25 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-11-11T04:03:38.341244+00:00_
+_Updated 2026-11-12T05:17:25.012353+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **4**
-- Newly discovered historical evidence: **0**
+- Actual or recent changes: **8**
+- Newly discovered historical evidence: **4**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **12**
 
 ## Priority timeline
 
-- **Published today** · Post Quantum Cryptography (PQC) Readiness and Validation Status — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/d168c9a2ace94efabe21990c977105c7/view))
-  - The source publication date is today or within the prior day.
+- **Occurred 4 days ago** · CYBERSECURITY AND INFORMATION ASSURANCE — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Occurred 7 days ago** · [BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS… — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732))
+  - A recent source-reported event was newly incorporated into the ledger.
+- **Upcoming event date** · CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450))
+  - The source date is in the future; Frontier Signal first observed it on 2026-11-12.
+- **Newly discovered historical evidence** · XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF… — awarding agency ([evidence](https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089))
+  - Frontier Signal first observed this on 2026-11-12; the source date is 2026-10-29.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

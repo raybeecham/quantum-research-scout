@@ -13,7 +13,7 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 1602,
+      "days_to_close": 1601,
       "deadline": "2031-04-01T23:59:00-04:00",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -196,7 +196,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 36,
+      "days_to_close": 35,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -300,7 +300,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 62,
+      "days_to_close": 61,
       "deadline": "01/12/2027",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -415,7 +415,7 @@
           "type": "secondary"
         }
       ],
-      "days_to_close": 26,
+      "days_to_close": 25,
       "deadline": "2026-12-07T23:59:00-05:00",
       "decision_freshness": {
         "current_gate": "hold",
@@ -509,7 +509,7 @@
           }
         ],
         "detected_at": "2026-11-11T04:03:38.341244+00:00",
-        "detected_this_run": true,
+        "detected_this_run": false,
         "highest_materiality": "low",
         "history_completeness": "tracker_observed",
         "impact_id": "impact:1f433ccead637a1e2175",
@@ -666,6 +666,6 @@
     "qualify": 2,
     "targeted_review": 1
   },
-  "updated_at": "2026-11-11T04:03:38.341244+00:00",
+  "updated_at": "2026-11-12T05:17:25.012353+00:00",
   "version": 1
 }

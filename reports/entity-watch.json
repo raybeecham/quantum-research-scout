@@ -384,7 +384,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 47,
+      "evidence_count": 51,
       "first_party_evidence_count": 4,
       "name": "IBM",
       "priority": "high",
@@ -1063,9 +1063,9 @@
       "first_seen": "2025-06-12",
       "historical_evidence_count": 3,
       "latest_seen": "2026-10-28",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "NIST",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "critical",
       "recent_count": 0,
       "status": "quiet",
@@ -1084,8 +1084,56 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 42,
+      "current_evidence_count": 46,
       "evidence": [
+        {
+          "date": "2026-11-11",
+          "key": "https://quantumzeitgeist.com/ibm-starling-chip-need-ten-error",
+          "report": "2026-11/2026-11-11-digest.md",
+          "score": 77,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM\u2019s Starling chip could need ten times fewer qubits for error correction",
+          "url": "https://quantumzeitgeist.com/ibm-starling-chip-need-ten-error"
+        },
+        {
+          "date": "2026-11-11",
+          "key": "https://quantumzeitgeist.com/quantum-advantage-ibm-aims-turn-applications",
+          "report": "2026-11/2026-11-11-digest.md",
+          "score": 46,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "IBM aims to turn quantum advantage into real-world applications",
+          "url": "https://quantumzeitgeist.com/quantum-advantage-ibm-aims-turn-applications"
+        },
+        {
+          "date": "2026-11-11",
+          "key": "https://quantumcomputingreport.com/ibm-mitsubishi-chemical-and-keio-train-generative-quantum-eigensolvers-on-70-qubit-hardware",
+          "report": "2026-11/2026-11-11-digest.md",
+          "score": 39,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "IBM, Mitsubishi Chemical, and Keio Train Generative Quantum Eigensolvers on 70-Qubit Hardware",
+          "url": "https://quantumcomputingreport.com/ibm-mitsubishi-chemical-and-keio-train-generative-quantum-eigensolvers-on-70-qubit-hardware"
+        },
+        {
+          "date": "2026-11-11",
+          "key": "https://thequantuminsider.com/2026/11/11/ibm-nighthawk-r3-processor-520-programmable-qubits",
+          "report": "2026-11/2026-11-11-digest.md",
+          "score": 38,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "IBM Plans 1,040-Qubit Quantum System with Next-Generation Nighthawk Processors",
+          "url": "https://thequantuminsider.com/2026/11/11/ibm-nighthawk-r3-processor-520-programmable-qubits"
+        },
         {
           "date": "2026-11-10",
           "key": "https://thequantuminsider.com/2026/11/10/ibm-education-workforce-development-cohort",
@@ -1577,65 +1625,17 @@
           ],
           "title": "IBM and Algorithmiq Develop Framework for Verifying Quantum Computations Beyond Classical Simulation",
           "url": "https://thequantuminsider.com/2026/07/30/ibm-algorithmiq-quantum-computation-verification-framework"
-        },
-        {
-          "date": "2026-07-29",
-          "key": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography",
-          "report": "2026-07/2026-07-29-digest.md",
-          "score": 60,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "IBM Heron vs Quantinuum H2: Evaluating Post-Quantum Cryptography",
-          "url": "https://quantumnews.ai/cryptography/ibm-heron-vs-quantinuum-h2-evaluating-post-quantum-cryptography"
-        },
-        {
-          "date": "2026-07-27",
-          "key": "https://quantumnews.ai/hardware/ibm-heron-vs-room-temp-photonics-superconducting-qubit-integration",
-          "report": "2026-07/2026-07-27-digest.md",
-          "score": 36,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IBM Heron vs Room-Temp Photonics: Superconducting Qubit Integration",
-          "url": "https://quantumnews.ai/hardware/ibm-heron-vs-room-temp-photonics-superconducting-qubit-integration"
-        },
-        {
-          "date": "2026-07-20",
-          "key": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication",
-          "report": "2026-07/2026-07-20-digest.md",
-          "score": 14,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Quantinuum H2 vs. IBM Heron: Cost-Effective Quantum Fabrication",
-          "url": "https://quantumnews.ai/hardware/quantinuum-h2-vs-ibm-heron-cost-effective-quantum-fabrication"
-        },
-        {
-          "date": "2026-07-17",
-          "key": "https://quantumcomputingreport.com/ibm-improves-qubit-reset-by-25x-and-releases-qiskit-v2-5",
-          "report": "2026-07/2026-07-17-digest.md",
-          "score": 26,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "IBM Improves Qubit Reset by 25x and Releases Qiskit v2.5",
-          "url": "https://quantumcomputingreport.com/ibm-improves-qubit-reset-by-25x-and-releases-qiskit-v2-5"
         }
       ],
-      "evidence_count": 47,
+      "evidence_count": 51,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 5,
-      "latest_seen": "2026-11-10",
-      "momentum": "declining",
+      "latest_seen": "2026-11-11",
+      "momentum": "rising",
       "name": "IBM",
-      "prior_count": 5,
+      "prior_count": 4,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 7,
       "status": "active",
       "themes": [
         "AI Security",
@@ -2222,9 +2222,9 @@
       "first_seen": "2025-10-21",
       "historical_evidence_count": 14,
       "latest_seen": "2026-11-10",
-      "momentum": "stable",
+      "momentum": "rising",
       "name": "IonQ",
-      "prior_count": 3,
+      "prior_count": 1,
       "priority": "high",
       "recent_count": 3,
       "status": "active",
@@ -8918,9 +8918,9 @@
       "first_seen": "2026-01-08",
       "historical_evidence_count": 4,
       "latest_seen": "2026-11-10",
-      "momentum": "stable",
+      "momentum": "rising",
       "name": "Quantum error correction",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "critical",
       "recent_count": 2,
       "status": "active",
@@ -11212,7 +11212,7 @@
       "latest_seen": "2026-11-07",
       "momentum": "rising",
       "name": "Quantum networking",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 3,
       "status": "active",
@@ -11620,6 +11620,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-11-11T04:14:44.967275+00:00",
+  "updated_at": "2026-11-12T05:23:33.618217+00:00",
   "version": 2
 }
