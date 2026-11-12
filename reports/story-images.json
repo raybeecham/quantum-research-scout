@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T01:03:12.882354+00:00",
+  "updated_at": "2026-11-12T02:18:17.888308+00:00",
   "records": {
     "https://quantumzeitgeist.com/peking-international-completion-qubits-allow-measurements": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/completion-qubits-allow-fault-tolerant-logical-1200x630.jpeg",
@@ -67,11 +67,6 @@
       "status": "unavailable",
       "fetched_at": "2026-11-11T05:46:16.919694+00:00"
     },
-    "https://quantumcomputingreport.com/carahsoft-builds-federal-quantum-catalog-with-ionq-and-pqsecure-partnerships": {
-      "page_url": "https://quantumcomputingreport.com/carahsoft-builds-federal-quantum-catalog-with-ionq-and-pqsecure-partnerships",
-      "status": "unavailable",
-      "fetched_at": "2026-11-11T03:46:30.340672+00:00"
-    },
     "https://thequantuminsider.com/2026/11/11/ihrd-bloq-quantum-quantum-computing-education-kerala": {
       "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-11_16-50.png",
       "page_url": "https://thequantuminsider.com/2026/11/11/ihrd-bloq-quantum-quantum-computing-education-kerala",
@@ -79,6 +74,11 @@
       "provenance": "og:image",
       "fetched_at": "2026-11-11T12:46:47.340476+00:00",
       "status": "ok"
+    },
+    "https://quantumcomputingreport.com/carahsoft-builds-federal-quantum-catalog-with-ionq-and-pqsecure-partnerships": {
+      "page_url": "https://quantumcomputingreport.com/carahsoft-builds-federal-quantum-catalog-with-ionq-and-pqsecure-partnerships",
+      "status": "unavailable",
+      "fetched_at": "2026-11-11T03:46:30.340672+00:00"
     },
     "https://thequantuminsider.com/2026/11/09/pqsecure-technologies-carahsoft-pqc-partnership": {
       "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-09_21-24.png",
@@ -140,6 +140,11 @@
       "page_url": "https://www.quera.com/press-releases/harvard-anthropic-and-quera-breakthrough-research-uniquely-shows-ai-can-reduce-the-resources-quantum-applications-need-significantly-accelerating-the-era-of-useful-quantum-computing",
       "status": "unavailable",
       "fetched_at": "2026-11-11T16:46:29.855669+00:00"
+    },
+    "https://quantumzeitgeist.com/quantum-technology-progress-assessment-report": {
+      "page_url": "https://quantumzeitgeist.com/quantum-technology-progress-assessment-report",
+      "status": "failed",
+      "fetched_at": "2026-11-12T01:03:12.882354+00:00"
     },
     "https://arxiv.org/abs/2611.13922": {
       "page_url": "https://arxiv.org/abs/2611.13922",
@@ -674,11 +679,6 @@
       "status": "failed",
       "fetched_at": "2026-11-11T06:47:07.907613+00:00"
     },
-    "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors": {
-      "page_url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
-      "status": "unavailable",
-      "fetched_at": "2026-11-11T01:46:24.735183+00:00"
-    },
     "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-13.png",
       "page_url": "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie",
@@ -1019,11 +1019,26 @@
       "status": "failed",
       "fetched_at": "2026-11-11T19:47:11.820464+00:00"
     },
-    "https://quantumzeitgeist.com/quantum-technology-progress-assessment-report": {
-      "page_url": "https://quantumzeitgeist.com/quantum-technology-progress-assessment-report",
-      "fetched_at": "2026-11-12T01:03:12.882354+00:00",
-      "status": "failed",
-      "reason": "http_429"
+    "https://quantumcomputingreport.com/patero-and-horizen-labs-partner-on-enterprise-post-quantum-migration-and-network-protection": {
+      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/Patero-scaled.png",
+      "page_url": "https://quantumcomputingreport.com/patero-and-horizen-labs-partner-on-enterprise-post-quantum-migration-and-network-protection",
+      "publisher": "Quantum Computing Report",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-12T02:18:17.888308+00:00",
+      "status": "ok"
+    },
+    "https://quantumzeitgeist.com/ikerlan-technology-nine-quantum-processors-cloud": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/cloud-access-lets-researchers-compare-nine-quantum-processors-1-1200x630.png",
+      "page_url": "https://quantumzeitgeist.com/ikerlan-technology-nine-quantum-processors-cloud",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-12T02:18:17.888308+00:00",
+      "status": "ok"
+    },
+    "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors": {
+      "page_url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+      "fetched_at": "2026-11-12T02:18:17.888308+00:00",
+      "status": "unavailable"
     }
   }
 }
