@@ -30,17 +30,43 @@ def tab_to(page, selector):
     raise AssertionError(f"Keyboard cannot reach {selector}")
 
 
+def comparison_key(options, before, other=None):
+    """Pick one native key without colliding with the first comparison selection."""
+    assert len(set(options)) >= 2, options
+    assert before in options, (before, options)
+    for key, target in (("End", options[-1]), ("Home", options[0])):
+        if target not in (before, other):
+            return key, target
+    # Both boundaries are occupied. Move one option inward, avoiding intermediate
+    # change events that could trigger the application's duplicate-selection reset.
+    index = options.index(before)
+    for key, neighbor in (("ArrowDown", index + 1), ("ArrowUp", index - 1)):
+        if 0 <= neighbor < len(options) and options[neighbor] not in (before, other):
+            return key, options[neighbor]
+    # With exactly two organizations, the second has no different valid choice.
+    # Exercise the collision and verify the app keeps the only distinct choice.
+    assert len(options) == 2 and other in options and before != other
+    return ("Home" if other == options[0] else "End"), before
+
+
 def keyboard_workflows(page, base, output):
     page.goto(base + "/#compare")
     ready(page)
     for control in ("#compare-first", "#compare-second"):
         tab_to(page, control)
         before = page.locator(control).input_value()
-        page.keyboard.press("End")
+        options = page.locator(f"{control} option").evaluate_all(
+            "(nodes) => nodes.filter(n => !n.disabled && n.value).map(n => n.value)"
+        )
+        other = page.locator("#compare-first").input_value() if control.endswith("second") else None
+        key, target = comparison_key(options, before, other)
+        page.keyboard.press(key)
         page.keyboard.press("Tab")
-        after = page.locator(control).input_value()
-        assert before != after, (control, before, after)
-        expect(page.locator("#compare-results")).to_contain_text(after)
+        expect(page.locator(control)).to_have_value(target)
+        expect(page.locator("#compare-results")).to_contain_text(target)
+        expect(page.locator("#compare-second")).not_to_have_value(
+            page.locator("#compare-first").input_value()
+        )
 
     page.goto(base + "/#questions")
     ready(page)
