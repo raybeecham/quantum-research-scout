@@ -19,6 +19,10 @@ MAX_ATTEMPTS = 24
 RETRY_STATUSES = {404, 429, 500, 502, 503, 504}
 
 
+class ArtifactReadinessError(RuntimeError):
+    """An actionable diagnostic containing only validated fields and fixed text."""
+
+
 def wait_for_artifact(
     *,
     repository: str,
@@ -37,9 +41,9 @@ def wait_for_artifact(
     single workflow action: a deployment timeout does not mean it never started.
     """
     if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repository):
-        raise ValueError("Invalid GITHUB_REPOSITORY")
+        raise ArtifactReadinessError("Invalid GITHUB_REPOSITORY")
     if not run_id.isdecimal() or not artifact_id.isdecimal() or not token:
-        raise ValueError("Require run ID, upload artifact ID and Actions token")
+        raise ArtifactReadinessError("Require run ID, upload artifact ID and Actions token")
     url = f"https://api.github.com/repos/{repository}/actions/runs/{run_id}/artifacts"
     deadline = clock() + WAIT_SECONDS
     detail = "not yet listed"
@@ -66,26 +70,55 @@ def wait_for_artifact(
         else:
             status = response.status_code
             request_id = response.headers.get("x-github-request-id", "unavailable")
+            if not re.fullmatch(r"[A-Za-z0-9:-]{1,128}", request_id) or token in request_id:
+                request_id = "unavailable"
             detail = f"HTTP {status}, request {request_id}"
             if status == 200:
-                payload = response.json()
-                artifacts = payload["artifacts"]
-                count = payload["total_count"]
-                if not isinstance(artifacts, list) or not isinstance(count, int) or count < 0:
-                    raise ValueError("Malformed artifact listing")
+                try:
+                    payload = response.json()
+                except (ValueError, TypeError) as exc:
+                    raise ArtifactReadinessError(
+                        f"Invalid JSON in artifact listing; {detail}"
+                    ) from exc
+                if not isinstance(payload, dict):
+                    raise ArtifactReadinessError(f"Malformed artifact listing object; {detail}")
+                artifacts = payload.get("artifacts")
+                count = payload.get("total_count")
+                if not isinstance(artifacts, list) or type(count) is not int or count < 0:
+                    raise ArtifactReadinessError(f"Malformed artifact listing fields; {detail}")
                 if count > 1 or len(artifacts) > 1:
-                    raise RuntimeError(
-                        "Multiple github-pages artifacts: refusing ambiguous deployment"
+                    raise ArtifactReadinessError(
+                        f"Multiple github-pages artifacts: refusing ambiguous deployment; {detail}"
                     )
-                if count != len(artifacts):
-                    raise ValueError("Inconsistent artifact listing")
                 if artifacts:
                     artifact = artifacts[0]
-                    if artifact["name"] != ARTIFACT_NAME:
-                        raise RuntimeError("Artifact listing returned an unexpected name")
+                    if not isinstance(artifact, dict):
+                        raise ArtifactReadinessError(f"Malformed artifact record; {detail}")
+                    if artifact.get("name") != ARTIFACT_NAME:
+                        raise ArtifactReadinessError(
+                            f"Artifact listing returned an unexpected name; {detail}"
+                        )
+                    if (
+                        type(artifact.get("id")) is not int
+                        or artifact["id"] <= 0
+                        or type(artifact.get("expired")) is not bool
+                        or type(artifact.get("size_in_bytes")) is not int
+                        or artifact["size_in_bytes"] < 0
+                    ):
+                        raise ArtifactReadinessError(f"Malformed artifact record fields; {detail}")
+                    if str(artifact["id"]) == artifact_id and artifact["expired"]:
+                        raise ArtifactReadinessError(
+                            f"Uploaded Pages artifact is expired; {detail}"
+                        )
+                if count != len(artifacts):
+                    # The listing's count and records can become visible separately.
+                    # Retry the observation, never admit an inconsistent snapshot.
+                    detail += (
+                        f"; inconsistent artifact listing: total_count={count}, "
+                        f"records={len(artifacts)}; awaiting a consistent snapshot"
+                    )
+                elif artifacts:
                     if str(artifact["id"]) == artifact_id:
-                        if artifact["expired"]:
-                            raise RuntimeError("Uploaded Pages artifact is expired")
                         if artifact["size_in_bytes"] > 0:
                             log(
                                 f"Pages artifact ready: repository={repository} run={run_id} "
@@ -109,13 +142,13 @@ def wait_for_artifact(
                             raise ValueError("Retry-After date needs a timezone")
                         server_delay = max(0, retry_at.timestamp() - wall_clock())
                 except (ValueError, TypeError, OverflowError) as exc:
-                    raise RuntimeError(
+                    raise ArtifactReadinessError(
                         f"Artifact discovery deferred: invalid Retry-After; {detail}"
                     ) from exc
                 retry_delay = max(POLL_SECONDS, server_delay)
                 detail += f"; Retry-After requires {retry_delay:g}s pause"
             elif status not in RETRY_STATUSES:
-                raise RuntimeError(f"Artifact discovery cannot continue: {detail}")
+                raise ArtifactReadinessError(f"Artifact discovery cannot continue: {detail}")
         log(
             f"Pages artifact pending: run={run_id} artifact={artifact_id} attempt={attempt}; {detail}"
         )
@@ -126,7 +159,7 @@ def wait_for_artifact(
             detail += "; required pause leaves no polling budget, deferring without retry"
             break
         sleep(retry_delay)
-    raise RuntimeError(
+    raise ArtifactReadinessError(
         f"Pages artifact readiness exhausted ({WAIT_SECONDS}s budget/{MAX_ATTEMPTS} reads): "
         f"repository={repository} run={run_id} artifact={artifact_id}; {detail}. "
         "No deployment was submitted by this check."
@@ -142,9 +175,9 @@ def main() -> int:
             token=os.environ.get("GH_TOKEN", ""),
         )
     except (RuntimeError, ValueError, KeyError, TypeError) as exc:
-        # RuntimeError messages above carry safe diagnostics. Parsing failures
-        # intentionally omit the untrusted API response body.
-        message = str(exc) if isinstance(exc, RuntimeError) else type(exc).__name__
+        # Only our fixed/validated diagnostics are safe to print. Unexpected
+        # exceptions may carry provider response bodies or credentials.
+        message = str(exc) if isinstance(exc, ArtifactReadinessError) else type(exc).__name__
         print(f"::error::Pages artifact readiness failed: {message}", file=sys.stderr)
         return 1
     return 0
