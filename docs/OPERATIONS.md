@@ -259,13 +259,17 @@ does not prove that the Pages backend will accept or finish a deployment.
 uses a 120-second polling budget, at most 24 reads, five-second pauses, and
 10-second request timeouts (capped by the remaining budget). The workflow step
 has a three-minute hard timeout, including HTTP and interpreter overhead. Missing
-or not-yet-populated artifacts, HTTP 404/429/500/502/503/504, and transport
+or not-yet-populated artifacts, a zero/one count that temporarily disagrees with
+the zero/one listed records, HTTP 404/429/500/502/503/504, and transport
 timeouts/connection errors may retry within those bounds. On HTTP 429/503,
 `Retry-After` seconds or HTTP dates set a minimum pause. A pause that leaves no
 polling budget, or an invalid header, fails closed without an early retry.
-Authorization failures,
-redirects, malformed responses, duplicate artifacts and expired uploads fail
-closed. Logs include the run, expected upload ID, attempts and API request IDs,
+An inconsistent listing never passes: both the count and record must agree before
+the exact upload can be admitted. Multiple artifacts (in either the count or
+records), authorization failures, redirects, malformed JSON/schema and expired
+uploads still fail closed without retry. Logs include safe specific failure
+reasons, count/record mismatches, the run, expected upload ID, attempts and
+validated API request IDs,
 without tokens or response bodies. The preflight cannot repair a persistent
 service outage and does not extend the existing 35-minute job bound.
 

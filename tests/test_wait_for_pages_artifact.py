@@ -5,7 +5,13 @@ import pytest
 import requests
 import yaml
 
-from scripts.wait_for_pages_artifact import MAX_ATTEMPTS, WAIT_SECONDS, wait_for_artifact
+from scripts import wait_for_pages_artifact as readiness
+from scripts.wait_for_pages_artifact import (
+    MAX_ATTEMPTS,
+    WAIT_SECONDS,
+    ArtifactReadinessError,
+    wait_for_artifact,
+)
 
 
 def response(*artifacts, status=200, total=None, headers=None):
@@ -145,7 +151,7 @@ def test_elapsed_budget_caps_reads_and_last_sleep():
 )
 def test_invalid_inputs_fail_before_any_request(overrides):
     options, calls, _, _ = run_check([], **overrides)
-    with pytest.raises(ValueError):
+    with pytest.raises(ArtifactReadinessError):
         wait_for_artifact(**options)
     assert not calls
 
@@ -179,11 +185,136 @@ def test_workflow_preserves_single_deployment_and_gates():
     assert "always()" in alert["if"]
 
 
-def test_malformed_listing_fails_closed_without_retry():
-    options, calls, sleeps, _ = run_check([response(artifact(), total=0)])
-    with pytest.raises(ValueError, match="Inconsistent"):
+@pytest.mark.parametrize("first", [response(total=1), response(artifact(), total=0)])
+def test_count_list_visibility_mismatch_retries_without_admitting_snapshot(first):
+    options, calls, sleeps, logs = run_check([first, response(artifact())])
+    wait_for_artifact(**options)
+    assert len(calls) == 2 and sleeps == [5]
+    assert "inconsistent artifact listing" in logs[0]
+    assert "HTTP 200, request request-123" in logs[0]
+    assert "attempt=2" in logs[-1] and "Pages artifact ready" in logs[-1]
+
+
+@pytest.mark.parametrize("result", [response(total=1), response(artifact(), total=0)])
+def test_persistent_count_list_mismatch_exhausts_bounded_reads_without_admission(result):
+    options, calls, sleeps, logs = run_check([result] * MAX_ATTEMPTS)
+    with pytest.raises(ArtifactReadinessError, match="inconsistent artifact listing") as exc:
         wait_for_artifact(**options)
+    assert "No deployment was submitted" in str(exc.value)
+    assert len(calls) == MAX_ATTEMPTS and sum(sleeps) < WAIT_SECONDS
+    assert not any("Pages artifact ready" in line for line in logs)
+
+
+def test_count_list_mismatch_cannot_extend_elapsed_budget():
+    options, calls, sleeps, _ = run_check([response(total=1)] * MAX_ATTEMPTS, elapsed_per_request=9)
+    with pytest.raises(ArtifactReadinessError, match="readiness exhausted"):
+        wait_for_artifact(**options)
+    assert len(calls) == 9 and sum(sleeps) == 40
+    assert calls[-1][1]["timeout"] == 8
+
+
+def test_retry_after_mismatch_still_requires_exact_id_and_nonempty_artifact():
+    options, calls, sleeps, logs = run_check(
+        [
+            response(total=1),
+            response(artifact(id=455)),
+            response(artifact(size_in_bytes=0)),
+            response(artifact()),
+        ]
+    )
+    wait_for_artifact(**options)
+    assert len(calls) == 4 and sleeps == [5, 5, 5]
+    assert "listed artifact 455 is not upload 456" in logs[1]
+    assert "uploaded artifact is empty" in logs[2]
+
+
+@pytest.mark.parametrize(
+    "result, message",
+    [
+        (response(artifact(), artifact(id=455), total=0), "Multiple"),
+        (response(total=2), "Multiple"),
+        (response(artifact(expired=True), total=0), "expired"),
+        (response(artifact(name="other-artifact"), total=0), "unexpected name"),
+    ],
+)
+def test_mismatch_cannot_hide_ambiguous_expired_or_wrong_name_artifact(result, message):
+    options, calls, sleeps, _ = run_check([response(total=1), result])
+    with pytest.raises(ArtifactReadinessError, match=message):
+        wait_for_artifact(**options)
+    assert len(calls) == 2 and sleeps == [5]
+
+
+@pytest.mark.parametrize(
+    "payload",
+    [
+        [],
+        {},
+        {"artifacts": [], "total_count": True},
+        {"artifacts": [], "total_count": "1"},
+        {"artifacts": [], "total_count": -1},
+        {"artifacts": "secret-token", "total_count": 0},
+        {"artifacts": ["secret-token"], "total_count": 0},
+        {"artifacts": [artifact(id="secret-token")], "total_count": 0},
+        {"artifacts": [artifact(id=True)], "total_count": 1},
+        {"artifacts": [artifact(expired="false")], "total_count": 0},
+        {"artifacts": [artifact(size_in_bytes=True)], "total_count": 1},
+        {"artifacts": [artifact(size_in_bytes=-1)], "total_count": 1},
+    ],
+)
+def test_malformed_schema_fails_closed_without_retry_or_response_disclosure(payload):
+    result = response()
+    result.json = lambda: payload
+    options, calls, sleeps, _ = run_check([result])
+    with pytest.raises(ArtifactReadinessError, match="Malformed artifact") as exc:
+        wait_for_artifact(**options)
+    assert "secret-token" not in str(exc.value)
+    assert "HTTP 200, request request-123" in str(exc.value)
     assert len(calls) == 1 and not sleeps
+
+
+def test_invalid_json_has_safe_specific_main_diagnostic(monkeypatch, capsys):
+    result = response()
+
+    def invalid_json():
+        raise ValueError("secret-token provider response")
+
+    result.json = invalid_json
+    options, calls, sleeps, _ = run_check([result])
+    monkeypatch.setattr(readiness, "wait_for_artifact", lambda **_: wait_for_artifact(**options))
+    assert readiness.main() == 1
+    error = capsys.readouterr().err
+    assert "Invalid JSON in artifact listing; HTTP 200, request request-123" in error
+    assert "secret-token" not in error and "provider response" not in error
+    assert len(calls) == 1 and not sleeps
+
+
+def test_main_preserves_safe_exhaustion_reason_and_count_details(monkeypatch, capsys):
+    options, _, _, _ = run_check([response(total=1)] * MAX_ATTEMPTS)
+    monkeypatch.setattr(readiness, "wait_for_artifact", lambda **_: wait_for_artifact(**options))
+    assert readiness.main() == 1
+    error = capsys.readouterr().err
+    assert "inconsistent artifact listing: total_count=1, records=0" in error
+    assert "No deployment was submitted" in error
+    assert "secret-token" not in error
+
+
+def test_main_does_not_disclose_unexpected_exception_message(monkeypatch, capsys):
+    def unexpected(**_):
+        raise RuntimeError("secret-token provider response")
+
+    monkeypatch.setattr(readiness, "wait_for_artifact", unexpected)
+    assert readiness.main() == 1
+    assert capsys.readouterr().err == "::error::Pages artifact readiness failed: RuntimeError\n"
+
+
+@pytest.mark.parametrize("request_id", ["bad\n::error::injected", "x" * 129, "secret-token"])
+def test_untrusted_request_id_is_not_echoed(request_id):
+    options, _, _, logs = run_check(
+        [response(total=1, headers={"x-github-request-id": request_id}), response(artifact())]
+    )
+    wait_for_artifact(**options)
+    assert "request unavailable" in logs[0]
+    assert request_id not in "\n".join(logs)
 
 
 @pytest.mark.parametrize("status", [429, 503])
