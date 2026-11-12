@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-12 11:16 UTC_
+_Updated 2026-11-12 12:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -24,10 +24,10 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Computing Patents | patent | 91% | 5 | 0 | 2026-11-12 | 2026-11-05 | fresh | 🟢 healthy |
 | Quantum Computing Report | rss | 93% | 4 | 0 | 2026-11-12 | 2026-11-12 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 90% | 3 | 0 | 2026-11-12 | 2026-11-11 | fresh | 🟢 healthy |
-| arXiv RSS quant-ph | arxiv_rss | 89% | 3 | 0 | 2026-11-12 | 2026-11-11 | fresh | 🟢 healthy |
+| arXiv RSS quant-ph | arxiv_rss | 90% | 3 | 0 | 2026-11-12 | 2026-11-11 | fresh | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 100% | 1 | 0 | 2026-11-12 | 2026-11-09 | fresh | 🟢 healthy |
 | Quantum Journal | rss | 97% | 1 | 0 | 2026-11-12 | 2026-11-10 | fresh | 🟢 healthy |
-| Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-12 | 2026-11-11 | fresh | 🟢 healthy |
+| Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-12 | 2026-11-12 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 13 | 2026-11-12 | 2026-11-10 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 2 | 2026-11-12 | 2024-03-12 | reference | 🟠 partial |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-12 | 2026-10-21 | fresh | 🟢 healthy |
@@ -103,7 +103,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Networking and Sensing Patents | patent | 98% | 0 | 0 | 2026-11-12 | 2026-10-15 | stale | 🟢 healthy |
 | SandboxAQ Blog | url | 100% | 0 | 0 | 2026-11-12 | 2026-10-08 | stale | 🟢 healthy |
 | Strategic AI Systems Patents | patent | 99% | 0 | 0 | 2026-11-12 | 2026-11-05 | fresh | 🟢 healthy |
-| Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-11-12 | 2026-11-10 | fresh | 🟢 healthy |
+| Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-11-12 | 2026-11-12 | fresh | 🟢 healthy |
 | The Quantum Insider | rss | 100% | 0 | 0 | 2026-11-12 | 2026-11-12 | fresh | 🟢 healthy |
 | Trail of Bits Cryptography | rss | 100% | 0 | 0 | 2026-11-12 | 2026-11-03 | fresh | 🟢 healthy |
 | USAspending · AI Forge | federal_award | 100% | 0 | 0 | 2026-11-12 | 2026-09-28 | stale | 🟢 healthy |
