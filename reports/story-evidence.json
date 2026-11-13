@@ -2298,6 +2298,148 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2611.14623": {
+      "captures": [
+        {
+          "excerpts": [
+            "We investigate quantum gate teleportation as a primitive for satellite-enabled distributed quantum computing",
+            "This entanglement is then used to implement a nonlocal controlled-NOT gate between two circuit qubits located in different processors",
+            "In the considered architecture, a satellite distributes entangled photon pairs to two optical ground stations, which transfer the shared quantum resource to remote quantum processing units"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.14623"
+            }
+          ],
+          "title": "Towards Distributed Quantum Computing: Quantum Gate Teleportation via Satellite-Distributed Entanglement under Atmospheric Depolarization"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.15013": {
+      "captures": [
+        {
+          "excerpts": [
+            "Machine unlearning lets the owner of large language models (LLMs) remove specific entities from a trained model without retraining from scratch",
+            "However, we observe that the representations of distinct entities in an LLM may overlap in shared parameter subspaces, a phenomenon known as knowledge superposition",
+            "Existing machine unlearning methods focus on removing the requested entities while maintaining utility"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.15013"
+            }
+          ],
+          "title": "Protecting Sensitive Knowledge Under LLM Unlearning: The Proxy Threat and a Superposition-Aware Defense"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.15021": {
+      "captures": [
+        {
+          "excerpts": [
+            "Two level systems (TLSs) are a major source of loss in superconducting devices, limiting the performance of qubits, detectors, and resonators",
+            "These defects arise from a range of sources, including surface oxides, crystal defects, as well as fabrication residues which are often difficult to remove"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.15021"
+            }
+          ],
+          "title": "Reducing TLS Losses in Superconducting Circuits Using Solid Neon"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.15104": {
+      "captures": [
+        {
+          "excerpts": [
+            "The latency of quantum measurement and classical decoding constrains the execution of adaptive fault-tolerant circuits",
+            "In neutral-atom processors, this requirement couples spatially resolved fluorescence detection to classical inference",
+            "Here we implement cascaded readout and decoding in a heterogeneous architecture that overlaps acquisition and processing at two spatial scales"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.15104"
+            }
+          ],
+          "title": "An Architecture for Real-Time Quantum Error Correction with Neutral Atoms"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.15250": {
+      "captures": [
+        {
+          "excerpts": [
+            "We introduce the multi-head quantum neural network (QNN), a quantum module compatible with noisy intermediate-scale quantum (NISQ) devices that can replace transformer blocks inside pre-trained large language models..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.15250"
+            }
+          ],
+          "title": "Multi-head Quantum Neural Networks: Replacing Transformer Blocks with NISQ Modules inside a 30-Billion-Parameter LLM"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.15374": {
+      "captures": [
+        {
+          "excerpts": [
+            "We demonstrate a reconfigurable, four-user, full-mesh quantum key distribution network using polarization entanglement, integrated with a software-defined key management system to orchestrate dynamic optical switching..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.15374"
+            }
+          ],
+          "title": "Full Mesh Dynamic Four-User Entanglement-based Switched QKD Network Integrated with SD-KMS"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.17003": {
+      "captures": [
+        {
+          "excerpts": [
+            "Crypto agility maturity models aim to support organizations in preparing for cryptographic transitions, such as migrating to post-quantum cryptography",
+            "Recognizing the importance of measurable maturity, NIST references several such models in its guidance",
+            "Given NIST's influence on cybersecurity practice, these models may shape organizational planning and governance mechanisms"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.17003"
+            }
+          ],
+          "title": "Maturity$^2$: Assessing the Maturity of Crypto Agility Maturity Models"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
