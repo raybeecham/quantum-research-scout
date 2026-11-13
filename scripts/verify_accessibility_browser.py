@@ -84,8 +84,9 @@ def delayed_route_focus(page, base, output):
             page.goto("about:blank")
             held_requests = []
             if interaction == "cold-keyboard":
-
-                def hold_research(route, held=held_requests):
+                # Playwright supplies Request as a second positional argument.
+                # Keep the captured collection keyword-only, not in that slot.
+                def hold_research(route, *, held=held_requests):
                     held.append(route)
                     page.evaluate("window.scoutResearchHeld = true")
 
