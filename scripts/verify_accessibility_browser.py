@@ -82,16 +82,26 @@ def delayed_route_focus(page, base, output):
             # A fragment-only goto can reuse the previous document and its data.
             # Isolate each case, including its held-frame listeners and cache.
             page.goto("about:blank")
-            held_requests = []
             if interaction == "cold-keyboard":
-                # Playwright supplies Request as a second positional argument.
-                # Keep the captured collection keyword-only, not in that slot.
-                def hold_research(route, *, held=held_requests):
-                    held.append(route)
-                    page.evaluate("window.scoutResearchHeld = true")
-
-                page.route("**/data/research.json?*", hold_research)
-                page.goto(base + "/#compare")
+                # Hold delivery, not a returned synchronous Route handler (which
+                # can fall through to the context's request interceptor).
+                # The query guard leaves all later documents unaffected.
+                page.add_init_script("""(() => {
+                    if (new URL(location.href).searchParams.get('focus-regression') !== 'cold') return;
+                    const fetch = window.fetch.bind(window);
+                    window.fetch = async (...args) => {
+                        const response = await fetch(...args);
+                        const url = new URL(args[0] instanceof Request ? args[0].url : String(args[0]), location.href);
+                        if (url.pathname.endsWith('/data/research.json')) {
+                            await new Promise(resolve => {
+                                window.scoutReleaseResearch = resolve;
+                                window.scoutResearchHeld = true;
+                            });
+                        }
+                        return response;
+                    };
+                })();""")
+                page.goto(base + "/?focus-regression=cold#compare")
                 page.wait_for_function("window.scoutResearchHeld === true", polling=10)
                 expect(page.locator("#main")).to_have_attribute("aria-busy", "true")
                 hold_route_frames(page)
@@ -119,10 +129,8 @@ def delayed_route_focus(page, base, output):
                 page.evaluate("location.hash = 'standards'")
                 page.wait_for_function("window.scoutHeldRouteHash === '#standards'", polling=10)
             row["before_release"] = focus_snapshot(page)
-            if held_requests:
-                page.unroute("**/data/research.json?*", hold_research)
-                for request in held_requests:
-                    request.continue_()
+            if interaction == "cold-keyboard":
+                page.evaluate("window.scoutReleaseResearch()")
                 ready(page)
             page.evaluate("window.scoutReleaseFrames()")
             row["after_release"] = focus_snapshot(page)
