@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-13 06:16 UTC_
+_Updated 2026-11-13 07:17 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -49,7 +49,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Department of War Strategic Technology Releases | watch | 100% | 0 | 0 | 2026-11-13 | 2026-11-09 | fresh | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-13 | 2026-11-11 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-11-13 | 2026-11-05 | fresh | 🟢 healthy |
-| Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-11-13 | 2026-10-08 | stale | 🟢 healthy |
+| Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-11-13 | 2026-11-12 | fresh | 🟢 healthy |
 | Google Security Blog | rss | 100% | 0 | 0 | 2026-11-13 | 2026-10-21 | stale | 🟢 healthy |
 | Grants.gov · AI Forge | grant_opportunity | 100% | 0 | 0 | 2026-11-13 | 2026-07-22 | stale | 🟢 healthy |
 | Grants.gov · Advanced Computing | grant_opportunity | 100% | 0 | 0 | 2026-11-13 | 2026-10-16 | stale | 🟢 healthy |
