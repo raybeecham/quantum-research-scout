@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-13 20:15 UTC_
+_Updated 2026-11-13 21:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -30,13 +30,13 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | SAM.gov Opportunities | procurement | 98% | 0 | 13 | 2026-11-13 | 2026-11-12 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 2 | 2026-11-13 | 2024-03-12 | reference | 🟢 healthy |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-13 | 2026-10-21 | fresh | 🟢 healthy |
-| AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-13 | 2026-11-11 | fresh | 🟢 healthy |
+| AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-13 | 2026-11-13 | fresh | 🟢 healthy |
 | Accenture Federal Services Quantum Readiness | watch | 100% | 0 | 0 | 2026-11-13 | 2026-08-04 | reference | 🟢 healthy |
 | Accenture Quantum and PQC News | watch | 100% | 0 | 0 | 2026-11-13 | 2025-10-20 | stale | 🟢 healthy |
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-13 | 2026-11-13 | fresh | 🟢 healthy |
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-11-13 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-11-13 | 2026-09-29 | stale | 🟢 healthy |
-| CISA Cybersecurity Advisories | rss | 95% | 0 | 0 | 2026-11-13 | 2026-11-12 | fresh | 🟢 healthy |
+| CISA Cybersecurity Advisories | rss | 95% | 0 | 0 | 2026-11-13 | 2026-11-13 | fresh | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-11-13 | 2026-10-26 | stale | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-13 | 2026-11-12 | fresh | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-13 | 2026-11-13 | fresh | 🟢 healthy |
@@ -76,7 +76,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Intel Quantum Research | watch | 100% | 0 | 0 | 2026-11-13 | — | reference | 🟢 healthy |
 | IonQ News | rss | 100% | 0 | 0 | 2026-11-13 | 2026-11-13 | fresh | 🟢 healthy |
 | IonQ Technical Blog | watch | 100% | 0 | 0 | 2026-11-13 | 2026-11-11 | fresh | 🟢 healthy |
-| Keyfactor Quantum and Crypto-Agility | watch | 100% | 0 | 0 | 2026-11-13 | 2026-10-29 | fresh | 🟢 healthy |
+| Keyfactor Quantum and Crypto-Agility | watch | 100% | 0 | 0 | 2026-11-13 | 2026-10-29 | stale | 🟢 healthy |
 | Kubernetes Blog | rss | 100% | 0 | 0 | 2026-11-13 | 2026-10-29 | fresh | 🟢 healthy |
 | Lockheed Martin Quantum Technology | watch | 100% | 0 | 0 | 2026-11-13 | 2026-07-14 | stale | 🟢 healthy |
 | Microsoft Quantum Blog | watch | 100% | 0 | 0 | 2026-11-13 | 2026-09-22 | stale | 🟢 healthy |
