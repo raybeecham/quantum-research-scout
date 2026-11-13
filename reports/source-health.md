@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-13 13:16 UTC_
+_Updated 2026-11-13 14:15 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -39,7 +39,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | CISA Cybersecurity Advisories | rss | 95% | 0 | 0 | 2026-11-13 | 2026-11-12 | fresh | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-11-13 | 2026-10-26 | stale | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-13 | 2026-11-12 | fresh | 🟢 healthy |
-| Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-13 | 2026-11-11 | fresh | 🟢 healthy |
+| Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-13 | 2026-11-13 | fresh | 🟢 healthy |
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-13 | 2026-11-06 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-13 | 2026-11-12 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-13 | 2026-11-04 | fresh | 🟢 healthy |
@@ -66,7 +66,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Grants.gov · Quantum Genesis | grant_opportunity | 100% | 0 | 0 | 2026-11-13 | 2026-06-30 | stale | 🟢 healthy |
 | Grants.gov · Quantum Technologies | grant_opportunity | 100% | 0 | 0 | 2026-11-13 | 2026-10-28 | stale | 🟢 healthy |
 | Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-11-13 | — | unknown | 🟢 healthy |
-| Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-13 | 2026-11-12 | fresh | 🟢 healthy |
+| Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-13 | 2026-11-13 | fresh | 🟢 healthy |
 | IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-13 | 2026-11-11 | fresh | 🟢 healthy |
 | IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-13 | 2026-11-11 | fresh | 🟢 healthy |
 | IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-13 | 2026-11-12 | fresh | 🟢 healthy |
@@ -74,7 +74,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | IETF Post-Quantum Updates | watch | 100% | 0 | 0 | 2026-11-13 | 2026-08-27 | fresh | 🟢 healthy |
 | InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-11-13 | 2026-11-09 | fresh | 🟢 healthy |
 | Intel Quantum Research | watch | 100% | 0 | 0 | 2026-11-13 | — | reference | 🟢 healthy |
-| IonQ News | rss | 100% | 0 | 0 | 2026-11-13 | 2026-11-10 | fresh | 🟢 healthy |
+| IonQ News | rss | 100% | 0 | 0 | 2026-11-13 | 2026-11-13 | fresh | 🟢 healthy |
 | IonQ Technical Blog | watch | 100% | 0 | 0 | 2026-11-13 | 2026-11-11 | fresh | 🟢 healthy |
 | Keyfactor Quantum and Crypto-Agility | watch | 100% | 0 | 0 | 2026-11-13 | 2026-10-29 | fresh | 🟢 healthy |
 | Kubernetes Blog | rss | 100% | 0 | 0 | 2026-11-13 | 2026-10-29 | fresh | 🟢 healthy |
