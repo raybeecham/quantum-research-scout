@@ -2675,6 +2675,13 @@
               "sequence": 0,
               "source": "Thales Cybersecurity Blog",
               "url": "https://cpl.thalesgroup.com/blog/encryption/crypto-agility-cost-of-security-updates"
+            },
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "Thales Cybersecurity Blog",
+              "url": "https://cpl.thalesgroup.com/blog/encryption/crypto-agility-cost-of-security-updates"
             }
           ],
           "title": "Crypto Agility: Cut the Cost of Security Updates | Thales"
@@ -3518,6 +3525,47 @@
             }
           ],
           "title": "HqcLethe: Streaming HQC Encapsulation for Tiny Stateless Servers"
+        }
+      ]
+    },
+    "https://eprint.iacr.org/2026/2864": {
+      "captures": [
+        {
+          "excerpts": [
+            "In the post-quantum (PQ) migration of the TLS~1.3 handshake, the classical Diffie--Hellman key exchange is replaced with a post-quantum key encapsulation mechanism (KEM)",
+            "Furthermore, KEMTLS builds upon PQ TLS~1.3 by replacing signature-based authentication with KEM-based authentication",
+            "However, all existing analyses of PQ TLS~1.3 and KEMTLS incur at least quadratic reduction losses in the number of sessions, and achieving a tightly secure construction remains an open problem"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-11",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2864"
+            }
+          ],
+          "title": "Tightly Secure and Modular Post-Quantum TLS Handshakes"
+        }
+      ]
+    },
+    "https://eprint.iacr.org/2026/2865": {
+      "captures": [
+        {
+          "excerpts": [
+            "In physical implementations of the post-quantum standards ML-KEM and ML-DSA, the Number-Theoretic Transform (NTT) directly processes secret polynomials and is a primary target for single-trace side-channel key recovery",
+            "Existing Soft Analytical Side-Channel Attacks (SASCA) apply loopy Belief Propagation (BP) over cyclic $\\mathbb{Z}_q$ factor graphs, where BP fails under high noise and $O(q^2)$ updates make ML-DSA infeasible"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-11",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2865"
+            }
+          ],
+          "title": "HIT: Single-Pass Inference for Single-Trace NTT Side-Channel Attacks"
         }
       ]
     },
@@ -5353,6 +5401,13 @@
             {
               "published_date": "2026-11-11",
               "report_date": "2026-11-12",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/ibm-unveils-520-qubit-nighthawk-r3-processor-1040-qubit-linked-roadmap-and-managed-hybrid-workflows-at-qdc-2026"
+            },
+            {
+              "published_date": "2026-11-11",
+              "report_date": "2026-11-13",
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/ibm-unveils-520-qubit-nighthawk-r3-processor-1040-qubit-linked-roadmap-and-managed-hybrid-workflows-at-qdc-2026"
@@ -7587,6 +7642,13 @@
               "sequence": 5,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/cyberrisk-collaborative-quantum-security-event"
+            },
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/cyberrisk-collaborative-quantum-security-event"
             }
           ],
           "title": "CyberRisk Collaborative launches quantum security event for CISOs"
@@ -8960,6 +9022,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/neutral-atom-qubits-pasqal-cnrs-joint"
+            },
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/neutral-atom-qubits-pasqal-cnrs-joint"
             }
           ],
           "title": "Pasqal and CNRS open joint lab to advance neutral-atom qubits"
@@ -9080,6 +9149,13 @@
             {
               "published_date": "2026-11-12",
               "report_date": "2026-11-12",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/physics-resonant-fluorescence-readout-bypasses-camera"
+            },
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/physics-resonant-fluorescence-readout-bypasses-camera"
@@ -10114,6 +10190,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/quantum-x-logical-qubits-labs"
+            },
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/quantum-x-logical-qubits-labs"
             }
           ],
           "title": "Quantum X Labs details path to 800 logical qubits by 2030"
@@ -10131,6 +10214,13 @@
             {
               "published_date": "2026-11-12",
               "report_date": "2026-11-12",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/quantum-xchange-phio-gains-cybersecurity-certification"
+            },
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/quantum-xchange-phio-gains-cybersecurity-certification"
@@ -14278,6 +14368,13 @@
               "sequence": 0,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/11/11/patero-horizen-labs-post-quantum-security-migration"
+            },
+            {
+              "published_date": "2026-11-11",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/11/patero-horizen-labs-post-quantum-security-migration"
             }
           ],
           "title": "Patero and Horizen Labs Collaborate to Help Organizations Prepare for Post-Quantum Security"
@@ -14436,6 +14533,13 @@
               "published_date": "2026-11-12",
               "report_date": "2026-11-12",
               "sequence": 6,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/12/cyberrisk-collaborative-virtual-event-post-quantum-readiness"
+            },
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
+              "sequence": 0,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/11/12/cyberrisk-collaborative-virtual-event-post-quantum-readiness"
             }
