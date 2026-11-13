@@ -333,6 +333,7 @@
 
   let routeVersion = 0;
   let routeInputVersion = 0;
+  let routeIntent = null;
   // Navigation may finish after a visitor has already started using the page.
   // Never let its delayed focus/scroll take over from that newer interaction.
   for (const type of ["keydown", "pointerdown", "wheel", "touchstart"]) {
@@ -343,10 +344,19 @@
   const routeTail = document.createElement("div");
   routeTail.setAttribute("aria-hidden", "true");
   $("main").append(routeTail);
-  function route() {
+  function route(event) {
     const version = ++routeVersion;
-    const inputVersion = routeInputVersion;
     const routeHash = location.hash;
+    // Rendering loaded data calls route again. Keep the original navigation's
+    // input baseline so that typing during a slow load also cancels its handoff.
+    if (
+      !routeIntent ||
+      routeIntent.hash !== routeHash ||
+      event?.type === "hashchange" ||
+      event?.type === "click"
+    )
+      routeIntent = { hash: routeHash, inputVersion: routeInputVersion };
+    const inputVersion = routeIntent.inputVersion;
     routeTail.style.height = "0px";
     let hash;
     try {
@@ -1683,7 +1693,7 @@
     const retry = event.target.closest("[data-retry-section]");
     if (!retry) return;
     if (retry.dataset.retrySection === "reload") location.reload();
-    else route();
+    else route(event);
   });
   window.ScoutDesk = {
     init,

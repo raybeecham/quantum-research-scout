@@ -17,7 +17,8 @@ AXE = Path(__file__).parent / "browser/node_modules/axe-core/axe.min.js"
 
 def ready(page):
     page.wait_for_function(
-        "typeof state !== 'undefined' && state.data && document.getElementById('main').getAttribute('aria-busy') !== 'true'"
+        "typeof state !== 'undefined' && state.data && document.getElementById('main').getAttribute('aria-busy') !== 'true'",
+        polling=10,
     )
 
 
@@ -50,6 +51,23 @@ def focus_snapshot(page):
     }""")
 
 
+def hold_route_frames(page):
+    page.evaluate("""() => {
+        const original = window.requestAnimationFrame;
+        const callbacks = [];
+        window.scoutHeldFrames = callbacks;
+        window.requestAnimationFrame = callback => callbacks.push(callback);
+        window.addEventListener('hashchange', () => {
+            window.scoutHeldRouteHash = location.hash;
+        });
+        window.scoutReleaseFrames = () => new Promise(resolve => {
+            window.requestAnimationFrame = original;
+            for (const callback of callbacks.splice(0)) original(callback);
+            original(() => original(resolve));
+        });
+    }""")
+
+
 def delayed_route_focus(page, base, output):
     """Hold route animation frames until after real input, then release them.
 
@@ -57,33 +75,33 @@ def delayed_route_focus(page, base, output):
     slow runner. No programmatic focus or select_option replaces user input.
     """
     results = []
-    for interaction in ("none", "keyboard", "pointer", "new-route"):
+    for interaction in ("none", "keyboard", "pointer", "new-route", "cold-keyboard"):
         row = {"interaction": interaction}
         results.append(row)
         try:
-            page.goto(base + "/#research")
-            ready(page)
-            page.evaluate("""() => {
-                const original = window.requestAnimationFrame;
-                const callbacks = [];
-                window.scoutHeldFrames = callbacks;
-                window.requestAnimationFrame = callback => callbacks.push(callback);
-                window.addEventListener('hashchange', () => {
-                    window.scoutHeldRouteHash = location.hash;
-                });
-                window.scoutReleaseFrames = () => new Promise(resolve => {
-                    window.requestAnimationFrame = original;
-                    for (const callback of callbacks.splice(0)) original(callback);
-                    original(() => original(resolve));
-                });
-                location.hash = 'compare';
-            }""")
-            page.wait_for_function(
-                "window.scoutHeldRouteHash === '#compare' && window.scoutHeldFrames.length > 0",
-                polling=10,
-            )
+            held_requests = []
+            if interaction == "cold-keyboard":
+
+                def hold_research(route, held=held_requests):
+                    held.append(route)
+                    page.evaluate("window.scoutResearchHeld = true")
+
+                page.route("**/data/research.json?*", hold_research)
+                page.goto(base + "/#compare")
+                page.wait_for_function("window.scoutResearchHeld === true", polling=10)
+                expect(page.locator("#main")).to_have_attribute("aria-busy", "true")
+                hold_route_frames(page)
+            else:
+                page.goto(base + "/#research")
+                ready(page)
+                hold_route_frames(page)
+                page.evaluate("location.hash = 'compare'")
+                page.wait_for_function(
+                    "window.scoutHeldRouteHash === '#compare' && window.scoutHeldFrames.length > 0",
+                    polling=10,
+                )
             expect(page.locator("#compare")).to_be_visible()
-            if interaction == "keyboard":
+            if interaction in {"keyboard", "cold-keyboard"}:
                 tab_to(page, "#compare-first")
                 expect(page.locator("#compare-first")).to_be_focused()
             elif interaction == "pointer":
@@ -97,16 +115,24 @@ def delayed_route_focus(page, base, output):
                 page.evaluate("location.hash = 'standards'")
                 page.wait_for_function("window.scoutHeldRouteHash === '#standards'", polling=10)
             row["before_release"] = focus_snapshot(page)
+            if held_requests:
+                page.unroute("**/data/research.json?*", hold_research)
+                for request in held_requests:
+                    request.continue_()
+                ready(page)
             page.evaluate("window.scoutReleaseFrames()")
             row["after_release"] = focus_snapshot(page)
-            if interaction in {"keyboard", "pointer"}:
+            if interaction in {"keyboard", "pointer", "cold-keyboard"}:
                 expect(page.locator("#compare-first")).to_be_focused()
-                assert row["after_release"]["scrollY"] == row["before_release"]["scrollY"]
+                # Cold rendering can change document height and native anchoring;
+                # the warm cases isolate only the delayed route's scrolling.
+                if interaction != "cold-keyboard":
+                    assert row["after_release"]["scrollY"] == row["before_release"]["scrollY"]
             elif interaction == "new-route":
                 section_focused(page, "standards")
             else:
                 section_focused(page, "compare")
-            if interaction == "keyboard":
+            if interaction in {"keyboard", "cold-keyboard"}:
                 control = page.locator("#compare-first")
                 options = page.locator("#compare-first option").evaluate_all(
                     "nodes => nodes.filter(n => !n.disabled && n.value).map(n => n.value)"
@@ -360,7 +386,7 @@ def main():
                     "axe_version": "4.14.0",
                     "audits": len(audits),
                     "keyboard": "comparison, question editor, notebook import/export",
-                    "delayed_route_focus": "no input, keyboard, pointer, superseded navigation",
+                    "delayed_route_focus": "no input, keyboard, pointer, superseded navigation, cold-load keyboard",
                     "screen_reader": "manual NVDA/VoiceOver pass still required",
                 }
             )
