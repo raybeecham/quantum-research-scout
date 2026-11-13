@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Document Intelligence](procurement-intelligence.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-11-12T05:17:25.012353+00:00_
+_Updated 2026-11-13T04:30:52.691410+00:00_
 
 Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.
 
@@ -99,7 +99,7 @@ Score and evidence trace:
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
-## [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/d168c9a2ace94efabe21990c977105c7/view)
+## [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view)
 
 **HOLD · 39 / 100** · Evidence 0 / 100 · Deadline 2026-12-07T23:59:00-05:00
 
@@ -121,9 +121,9 @@ Unknowns:
 - Confirm submission instructions in the controlling solicitation
 
 Score and evidence trace:
-- **opportunity evidence +39** — strategic significance +12; actionable rfi +6; closing_this_month +9; technology fit +12 · [evidence 1](https://sam.gov/workspace/contract/opp/d168c9a2ace94efabe21990c977105c7/view)
-- **document evidence +0** — 0 / 100 document evidence completeness · [evidence 1](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download) · [evidence 2](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7) · [evidence 3](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5) · [evidence 4](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710)
-- **deadline and evidence risk +0** — No public risk penalty · [evidence 1](https://sam.gov/workspace/contract/opp/d168c9a2ace94efabe21990c977105c7/view)
-- Trace hash: `eedc9af95ff3d409` · model `public-opportunity-qualification@2`
+- **opportunity evidence +39** — strategic significance +12; actionable rfi +6; closing_this_month +9; technology fit +12 · [evidence 1](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view)
+- **document evidence +0** — 0 / 100 document evidence completeness · [evidence 1](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download) · [evidence 2](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497) · [evidence 3](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7) · [evidence 4](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5) · [evidence 5](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710)
+- **deadline and evidence risk +0** — No public risk penalty · [evidence 1](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view)
+- Trace hash: `48fe7dd32f797496` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._

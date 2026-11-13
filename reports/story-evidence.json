@@ -3538,6 +3538,23 @@
         }
       ]
     },
+    "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite": {
+      "captures": [
+        {
+          "excerpts": [],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-12",
+              "sequence": 0,
+              "source": "Hugging Face Technical Blog",
+              "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+            }
+          ],
+          "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B"
+        }
+      ]
+    },
     "https://investors.ionq.com/news/news-details/2026/IonQ-Awarded-7-5-Million-Follow-On-Funding-from-AFRL-to-Advance-Full-Stack-Quantum-Networking/default.aspx": {
       "captures": [
         {
@@ -4457,6 +4474,26 @@
             }
           ],
           "title": "Classiq Launches Fault Tolerance Engine for Hardware-Aware Quantum Application Synthesis"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/cleveland-clinic-riken-and-ibm-cross-12000-atom-barrier-in-heterogeneous-quantum-classical-drug-binding-simulations": {
+      "captures": [
+        {
+          "excerpts": [
+            "This research utilized 156-qubit IBM Heron r2 processors and leadership supercomputers to significantly advance molecular size and fragment energy accuracy in drug binding simulations",
+            "A collaboration between Cleveland Clinic, RIKEN, and IBM Quantum has achieved the largest heterogeneous quantum-classical (HQC) electronic-structure calculation to date, simulating protein-ligand complexes exceeding..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-12",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/cleveland-clinic-riken-and-ibm-cross-12000-atom-barrier-in-heterogeneous-quantum-classical-drug-binding-simulations"
+            }
+          ],
+          "title": "Cleveland Clinic, RIKEN, and IBM Cross 12,000-Atom Barrier in Heterogeneous Quantum-Classical Drug Binding Simulations"
         }
       ]
     },
@@ -5536,6 +5573,27 @@
             }
           ],
           "title": "Kipu Quantum Demonstrates Neutral-Atom Quantum Feature Extraction for Molecular Toxicity Classification on QuEra Hardware"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/ltm-becomes-first-global-systems-integrator-to-launch-function-in-ibm-quantum-functions-catalog-with-ai-qem": {
+      "captures": [
+        {
+          "excerpts": [
+            "It has demonstrated high accuracy on up to 100-qubit circuits and provides a more efficient alternative to conventional error-mitigation protocols",
+            "LTM has launched its AI-QEM software in the IBM Quantum Functions Catalog, becoming the first global systems integrator to do so",
+            "This software utilizes an AI-powered approach to mitigate hardware noise in quantum circuits without additional quantum processing unit (QPU) runtime"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-12",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/ltm-becomes-first-global-systems-integrator-to-launch-function-in-ibm-quantum-functions-catalog-with-ai-qem"
+            }
+          ],
+          "title": "LTM Becomes First Global Systems Integrator to Launch Function in IBM Quantum Functions Catalog with AI-QEM"
         }
       ]
     },
@@ -8374,6 +8432,26 @@
         }
       ]
     },
+    "https://quantumzeitgeist.com/iqm-quantum-machine-learning-tests-emerald": {
+      "captures": [
+        {
+          "excerpts": [
+            "IQM researchers tested whether a quantum model running on IQM Emerald (54 qubits) and IQM Garnet (20 qubits) can outperform classical machine learning models on a classification task, using up to 45 qubits",
+            "The experiments used a dataset of images from Fashion-MNIST and a quantum kernel method, comparing results from a referee and a challenger"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-12",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/iqm-quantum-machine-learning-tests-emerald"
+            }
+          ],
+          "title": "IQM tests quantum machine learning on its Emerald and Garnet chips"
+        }
+      ]
+    },
     "https://quantumzeitgeist.com/j-warren-checkpointing-cuts-cost-quantum": {
       "captures": [
         {
@@ -8989,6 +9067,25 @@
             }
           ],
           "title": "Laser-cooled molecules achieve record entanglement despite higher temperatures"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/physics-resonant-fluorescence-readout-bypasses-camera": {
+      "captures": [
+        {
+          "excerpts": [
+            "Neutral-atom qubits benefit from fast, non-destructive state detection, but cameras introduce latency"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-12",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/physics-resonant-fluorescence-readout-bypasses-camera"
+            }
+          ],
+          "title": "Resonant fluorescence readout bypasses camera latency for qubits"
         }
       ]
     },
@@ -10753,6 +10850,25 @@
             }
           ],
           "title": "Researchers build fault-tolerant code for constant-excitation qubits"
+        }
+      ]
+    },
+    "https://research.ibm.com/blog/spin-qubits-explained": {
+      "captures": [
+        {
+          "excerpts": [
+            "A possible path toward building larger quantum computers involves encoding quantum information in the spins of electrons"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-12",
+              "sequence": 0,
+              "source": "IBM Research Quantum and Cryptography",
+              "url": "https://research.ibm.com/blog/spin-qubits-explained"
+            }
+          ],
+          "title": "What is a spin qubit?"
         }
       ]
     },
@@ -14318,6 +14434,46 @@
             }
           ],
           "title": "CyberRisk Collaborative Announces Virtual Event on Post-Quantum Readiness"
+        }
+      ]
+    },
+    "https://thequantuminsider.com/2026/11/12/quantum-elements-helps-rigetti-predict-quantum-hardware-behavior": {
+      "captures": [
+        {
+          "excerpts": [
+            "Rigetti Computing is using Quantum Elements’ Constellation platform to simulate quantum processor behavior"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-12",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/12/quantum-elements-helps-rigetti-predict-quantum-hardware-behavior"
+            }
+          ],
+          "title": "Quantum Elements Helps Rigetti Predict Quantum Hardware Behavior"
+        }
+      ]
+    },
+    "https://thequantuminsider.com/2026/11/13/the-geometry-of-quantum-memory-how-anyons-rewrite-the-rules-of-remembering-and-computation-in-the-quantum-realm": {
+      "captures": [
+        {
+          "excerpts": [
+            "It carries much of the qubit’s information and is very easy to disturb",
+            "An ordinary qubit remembers too much and listens too well",
+            "Its delicate phase is the hidden part of a qubit’s state"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-12",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/13/the-geometry-of-quantum-memory-how-anyons-rewrite-the-rules-of-remembering-and-computation-in-the-quantum-realm"
+            }
+          ],
+          "title": "The Geometry of Quantum Memory: How Anyons Rewrite the Rules of Remembering and Computation in the Quantum Realm"
         }
       ]
     },

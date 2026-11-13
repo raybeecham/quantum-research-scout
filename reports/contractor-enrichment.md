@@ -2,14 +2,14 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-11-12T05:17:25.012353+00:00_
+_Updated 2026-11-13T04:30:52.691410+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
-- SAM.gov-resolved entities: **102** (**136.0%** coverage)
-- Newly resolved this run: **0**
-- Pending bounded enrichment: **117**
+- SAM.gov-resolved entities: **103** (**137.3%** coverage)
+- Newly resolved this run: **1**
+- Pending bounded enrichment: **116**
 - Ambiguous / no match: **8 / 1**
 
 | Contractor | SAM.gov entity | UEI | CAGE | Registration | Business types |
@@ -36,7 +36,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF NORTH TEXAS | [UNIVERSITY OF NORTH TEXAS](https://sam.gov/entity/G47WN1XZNWX9/coreData) | G47WN1XZNWX9 | 6B783 | Active | Educational Institution, Hispanic Servicing Institution, Minority Institution |
 | POST QUANTUM LABS LLC | [Post Quantum Labs LLC](https://sam.gov/entity/H53MXWJZPYU3/coreData) | H53MXWJZPYU3 | 9T5C5 | Active | Business or Organization, For Profit Organization, Individual or concern, other than one of the preceding |
 | ALVAREZ LLC | [Alvarez LLC](https://sam.gov/entity/Y928UVG75CT6/coreData) | Y928UVG75CT6 | 35LK3 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
-| NORTH CAROLINA STATE UNIVERSITY | [NORTH CAROLINA STATE UNIVERSITY](https://sam.gov/entity/U3NVH931QJJ3/coreData) | U3NVH931QJJ3 | 1E7H9 | Active | 1862 Land Grant College, Educational Institution, U.S. State Government |
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | [Regents of the University of California, The](https://sam.gov/entity/GS3YEVSS12N6/coreData) | GS3YEVSS12N6 | 50853 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | REGENCY CONSULTING INC | [REGENCY CONSULTING INC](https://sam.gov/entity/SC8LMLWA6H51/coreData) | SC8LMLWA6H51 | 1M6B0 | Active | American Indian Owned, Business or Organization, For Profit Organization |
 | FOUR POINTS TECHNOLOGY, L.L.C. | [FOUR POINTS TECHNOLOGY, L.L.C.](https://sam.gov/entity/H1KHJPJH9R51/coreData) | H1KHJPJH9R51 | 1YS78 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
@@ -51,6 +50,9 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF WISCONSIN SYSTEM | [UNIVERSITY OF WISCONSIN SYSTEM](https://sam.gov/entity/LCLSJAGTNZQ7/coreData) | LCLSJAGTNZQ7 | 09FZ2 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | PARAGON MICRO INC | [PARAGON MICRO INC](https://sam.gov/entity/E41LV9AJGHQ1/coreData) | E41LV9AJGHQ1 | 4ZHT8 | Active | Business or Organization, For Profit Organization |
 | QUANTUM FOODS INC | [QUANTUM FOODS INC](https://sam.gov/entity/S6M6AJJGH6C3/coreData) | S6M6AJJGH6C3 | 87Q54 | Active | Business or Organization, For Profit Organization, Self Certified Small Disadvantaged Business |
+| MASSACHUSETTS INSTITUTE OF TECHNOLOGY | [MASSACHUSETTS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NYLCDML6V1/coreData) | E2NYLCDML6V1 | 80230 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
+| NORTH CAROLINA STATE UNIVERSITY | [NORTH CAROLINA STATE UNIVERSITY](https://sam.gov/entity/U3NVH931QJJ3/coreData) | U3NVH931QJJ3 | 1E7H9 | Active | 1862 Land Grant College, Educational Institution, U.S. State Government |
+| DELOITTE & TOUCHE LLP | [DELOITTE & TOUCHE LLP](https://sam.gov/entity/F9KSDU7L9VP6/coreData) | F9KSDU7L9VP6 | 3CCJ5 | Active | Business or Organization, For Profit Organization |
 | ACCENTURE FEDERAL SERVICES LLC | [ACCENTURE FEDERAL SERVICES LLC](https://sam.gov/entity/C47BNA8GM833/coreData) | C47BNA8GM833 | 1ZD18 | Active | Business or Organization, For Profit Organization, Foreign Owned |
 | THE ARDIAN GROUP, INC | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) | UE9KZJJCMAS9 | 3BR42 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
 | MORGAN STATE UNIVERSITY | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) | KULSKCCZJT27 | 8U547 | Active | Educational Institution, Historically Black College or University, Minority Institution |
@@ -74,7 +76,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | OLD DOMINION UNIVERSITY RESEARCH FOUNDATION | [OLD DOMINION UNIVERSITY RESEARCH FOUNDATION](https://sam.gov/entity/DSLXBD7UWRV6/coreData) | DSLXBD7UWRV6 | 5D075 | Active | Business or Organization, Foundation, Non-Profit Organization |
 | NORTHEASTERN UNIVERSITY | [NORTHEASTERN UNIVERSITY](https://sam.gov/entity/HLTMVS2JZBS6/coreData) | HLTMVS2JZBS6 | 9A140 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | NATIONAL ACADEMY OF SCIENCES | [NATIONAL ACADEMY OF SCIENCES](https://sam.gov/entity/PKFJZHG2MLG9/coreData) | PKFJZHG2MLG9 | 1D969 | Active | Business or Organization, Non-Profit Organization |
-| MASSACHUSETTS INSTITUTE OF TECHNOLOGY | [MASSACHUSETTS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NYLCDML6V1/coreData) | E2NYLCDML6V1 | 80230 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | FLORIDA INTERNATIONAL UNIVERSITY | [FLORIDA INTERNATIONAL UNIVERSITY](https://sam.gov/entity/Q3KCVK5S9CP1/coreData) | Q3KCVK5S9CP1 | 1JHM5 | Active | Educational Institution, Hispanic Servicing Institution, Minority Institution |
 | UNIVERSITY OF TEXAS AT DALLAS | [UNIVERSITY OF TEXAS AT DALLAS](https://sam.gov/entity/EJCVPNN1WFS5/coreData) | EJCVPNN1WFS5 | 0W921 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | UNIVERSITY OF HOUSTON SYSTEM | [UNIVERSITY OF HOUSTON SYSTEM](https://sam.gov/entity/QKWEF8XLMTT3/coreData) | QKWEF8XLMTT3 | 9B955 | Active | Educational Institution, Hispanic Servicing Institution, State Controlled Institution of Higher Learning |
@@ -88,7 +89,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | CLEMSON UNIVERSITY | [Clemson University](https://sam.gov/entity/H2BMNX7DSKU8/coreData) | H2BMNX7DSKU8 | 1D5U5 | Active | 1862 Land Grant College, Educational Institution, School of Forestry |
 | AUGUST SCHELL ENTERPRISES, INC. | [AUGUST SCHELL ENTERPRISES, INC.](https://sam.gov/entity/PPMBFPRXNAJ9/coreData) | PPMBFPRXNAJ9 | 1W5J9 | Active | Business or Organization, For Profit Organization, Subchapter S Corporation |
 | ALLIANCE TECHNOLOGY GROUP, LLC | [Alliance Technology Group, LLC](https://sam.gov/entity/UCM7WPGJBZ67/coreData) | UCM7WPGJBZ67 | 1YBR8 | Active | SBA-Certified Women-Owned Small Business |
-| VIRGINIA COMMONWEALTH UNIVERSITY | [VIRGINIA COMMONWEALTH UNIVERSITY](https://sam.gov/entity/MLQFL4JSSAA9/coreData) | MLQFL4JSSAA9 | 46050 | Active | Educational Institution, Minority Institution, State Controlled Institution of Higher Learning |
 
 ## Method
 

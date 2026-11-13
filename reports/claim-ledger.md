@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-11-12T05:17:25.012353+00:00_
+_Updated 2026-11-13T04:30:52.691410+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **5174**
-- Authoritative claims: **4951**
-- Analytical claims: **217**
+- Active claims: **5182**
+- Authoritative claims: **4958**
+- Analytical claims: **218**
 - Conflicted claims: **38**
-- Evidence items / URLs: **5280 / 1417**
+- Evidence items / URLs: **5288 / 1420**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -52,6 +52,13 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | Post Quantum Cryptography (PQC) Readiness and Validation Status | opportunity status | open | authoritative / high | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view) |
+| active | Post Quantum Cryptography (PQC) Readiness and Validation Status | deadline | 2026-12-07T23:59:00-05:00 | authoritative / high | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view) |
+| active | Post Quantum Cryptography (PQC) Readiness and Validation Status | awarding agency | GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT | authoritative / high | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view) |
+| active | DELOITTE & TOUCHE LLP | legal business name | DELOITTE & TOUCHE LLP | authoritative / high | [DELOITTE & TOUCHE LLP](https://sam.gov/entity/F9KSDU7L9VP6/coreData) |
+| active | DELOITTE & TOUCHE LLP | uei | F9KSDU7L9VP6 | authoritative / high | [DELOITTE & TOUCHE LLP](https://sam.gov/entity/F9KSDU7L9VP6/coreData) |
+| active | DELOITTE & TOUCHE LLP | cage code | 3CCJ5 | authoritative / high | [DELOITTE & TOUCHE LLP](https://sam.gov/entity/F9KSDU7L9VP6/coreData) |
+| active | DELOITTE & TOUCHE LLP | registration status | Active | authoritative / high | [DELOITTE & TOUCHE LLP](https://sam.gov/entity/F9KSDU7L9VP6/coreData) |
 | active | XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF… | opportunity status | awarded | authoritative / high | [XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF…](https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089) |
 | active | XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF… | awarding agency | Department of Energy | authoritative / high | [XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF…](https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089) |
 | active | XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF… | reported amount | 19885227.0 | authoritative / high | [XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF…](https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089) |
@@ -257,13 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | DELIVERY ORDER UNDER THE NASA SEWP CONTRACT VEHICLE FOR ADVANCED CYBERSECURITY NETWORK ANALYZER (ACNA) FLY-AWAY KIT AND SOFTWARE MAINTENANCE & SUPPORT | opportunity status | awarded | authoritative / high | [DELIVERY ORDER UNDER THE NASA SEWP CONTRACT VEHICLE FOR ADVANCED CYBERSECURITY NETWORK ANALYZER (ACNA) FLY-AWAY KIT AND SOFTWARE MAINTENANCE & SUPPORT](https://www.usaspending.gov/award/CONT_AWD_70T05026F5900N033_7013_NNG15SD71B_8000) |
 | active | DELIVERY ORDER UNDER THE NASA SEWP CONTRACT VEHICLE FOR ADVANCED CYBERSECURITY NETWORK ANALYZER (ACNA) FLY-AWAY KIT AND SOFTWARE MAINTENANCE & SUPPORT | awarding agency | Department of Homeland Security | authoritative / high | [DELIVERY ORDER UNDER THE NASA SEWP CONTRACT VEHICLE FOR ADVANCED CYBERSECURITY NETWORK ANALYZER (ACNA) FLY-AWAY KIT AND SOFTWARE MAINTENANCE & SUPPORT](https://www.usaspending.gov/award/CONT_AWD_70T05026F5900N033_7013_NNG15SD71B_8000) |
 | active | DELIVERY ORDER UNDER THE NASA SEWP CONTRACT VEHICLE FOR ADVANCED CYBERSECURITY NETWORK ANALYZER (ACNA) FLY-AWAY KIT AND SOFTWARE MAINTENANCE & SUPPORT | reported amount | 958748.7 | authoritative / high | [DELIVERY ORDER UNDER THE NASA SEWP CONTRACT VEHICLE FOR ADVANCED CYBERSECURITY NETWORK ANALYZER (ACNA) FLY-AWAY KIT AND SOFTWARE MAINTENANCE & SUPPORT](https://www.usaspending.gov/award/CONT_AWD_70T05026F5900N033_7013_NNG15SD71B_8000) |
-| active | DELIVERY ORDER UNDER THE NASA SEWP CONTRACT VEHICLE FOR ADVANCED CYBERSECURITY NETWORK ANALYZER (ACNA) FLY-AWAY KIT AND SOFTWARE MAINTENANCE & SUPPORT | reported recipient | CMA TECHNOLOGY INC | authoritative / high | [DELIVERY ORDER UNDER THE NASA SEWP CONTRACT VEHICLE FOR ADVANCED CYBERSECURITY NETWORK ANALYZER (ACNA) FLY-AWAY KIT AND SOFTWARE MAINTENANCE & SUPPORT](https://www.usaspending.gov/award/CONT_AWD_70T05026F5900N033_7013_NNG15SD71B_8000) |
-| active | VISN 1 RADIOLOGY ARTIFICIAL INTELLIGENCE PLATFORM | reported amount | 745500.0 | authoritative / high | [VISN 1 RADIOLOGY ARTIFICIAL INTELLIGENCE PLATFORM](https://www.usaspending.gov/award/CONT_AWD_36C24126P0730_3600_-NONE-_-NONE-) |
-| active | 29--SENSOR,DETONATION | opportunity status | awarded | authoritative / high | [29--SENSOR,DETONATION](https://sam.gov/workspace/contract/opp/8d2d4cdad8f14b76b50394dfb4381e53/view) |
-| active | 29--SENSOR,DETONATION | awarding agency | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND COLUMBUS.DLA LAND AND MARITIME | authoritative / high | [29--SENSOR,DETONATION](https://sam.gov/workspace/contract/opp/8d2d4cdad8f14b76b50394dfb4381e53/view) |
-| active | 29--SENSOR,DETONATION | reported amount | 350000.0 | authoritative / high | [29--SENSOR,DETONATION](https://sam.gov/workspace/contract/opp/8d2d4cdad8f14b76b50394dfb4381e53/view) |
-| active | 29--SENSOR,DETONATION | reported recipient | ALLIED DEFENSE INDUSTRIES, LLC | authoritative / high | [29--SENSOR,DETONATION](https://sam.gov/workspace/contract/opp/8d2d4cdad8f14b76b50394dfb4381e53/view) |
-| active | THE PURPOSE OF THIS CONTRACT IS TO SUPPORT ANALYTICAL AI DEVELOPMENT OF THE SECURSAIL SOLUTION, INCLUDING ARTIFICIAL INTELLIGENCE AND AUTOMATIC TARGET RECOGNITION ALGORITHMS TO IM... | opportunity status | awarded | authoritative / high | [THE PURPOSE OF THIS CONTRACT IS TO SUPPORT ANALYTICAL AI DEVELOPMENT OF THE SECURSAIL SOLUTION, INCLUDING ARTIFICIAL INTELLIGENCE AND AUTOMATIC TARGET RECOGNITION ALGORITHMS TO IM...](https://www.usaspending.gov/award/CONT_AWD_70T04026C7573N007_7013_-NONE-_-NONE-) |
 
 ## Method
 

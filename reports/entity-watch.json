@@ -59,7 +59,7 @@
           "type": "rss"
         }
       ],
-      "evidence_count": 6,
+      "evidence_count": 7,
       "first_party_evidence_count": 0,
       "name": "Rigetti",
       "priority": "medium",
@@ -384,8 +384,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 51,
-      "first_party_evidence_count": 4,
+      "evidence_count": 56,
+      "first_party_evidence_count": 5,
       "name": "IBM",
       "priority": "high",
       "status": "covered",
@@ -645,8 +645,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 5,
-      "first_party_evidence_count": 3,
+      "evidence_count": 6,
+      "first_party_evidence_count": 4,
       "name": "Thales",
       "priority": "high",
       "status": "covered",
@@ -1084,8 +1084,68 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 46,
+      "current_evidence_count": 51,
       "evidence": [
+        {
+          "date": "2026-11-12",
+          "key": "https://quantumcomputingreport.com/qunova-computing-achieves-chemical-accuracy-at-80-qubits-on-iron-sulfur-cluster-using-ibm-quantum-system-two-and-fugaku",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 36,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Qunova Computing Achieves Chemical Accuracy at 80 Qubits on Iron-Sulfur Cluster Using IBM Quantum System Two and Fugaku",
+          "url": "https://quantumcomputingreport.com/qunova-computing-achieves-chemical-accuracy-at-80-qubits-on-iron-sulfur-cluster-using-ibm-quantum-system-two-and-fugaku"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://research.ibm.com/blog/spin-qubits-explained",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 33,
+          "source": "IBM Research Quantum and Cryptography",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "What is a spin qubit?",
+          "url": "https://research.ibm.com/blog/spin-qubits-explained"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://quantumcomputingreport.com/ltm-becomes-first-global-systems-integrator-to-launch-function-in-ibm-quantum-functions-catalog-with-ai-qem",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 28,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "LTM Becomes First Global Systems Integrator to Launch Function in IBM Quantum Functions Catalog with AI-QEM",
+          "url": "https://quantumcomputingreport.com/ltm-becomes-first-global-systems-integrator-to-launch-function-in-ibm-quantum-functions-catalog-with-ai-qem"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://quantumcomputingreport.com/kipu-quantum-launches-rimay-quantum-feature-extraction-in-ibm-quantum-functions-catalog",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 23,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "Kipu Quantum Launches Rimay Quantum Feature Extraction in IBM Quantum Functions Catalog",
+          "url": "https://quantumcomputingreport.com/kipu-quantum-launches-rimay-quantum-feature-extraction-in-ibm-quantum-functions-catalog"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://quantumcomputingreport.com/cleveland-clinic-riken-and-ibm-cross-12000-atom-barrier-in-heterogeneous-quantum-classical-drug-binding-simulations",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 22,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Cleveland Clinic, RIKEN, and IBM Cross 12,000-Atom Barrier in Heterogeneous Quantum-Classical Drug Binding Simulations",
+          "url": "https://quantumcomputingreport.com/cleveland-clinic-riken-and-ibm-cross-12000-atom-barrier-in-heterogeneous-quantum-classical-drug-binding-simulations"
+        },
         {
           "date": "2026-11-11",
           "key": "https://quantumzeitgeist.com/ibm-starling-chip-need-ten-error",
@@ -1565,77 +1625,17 @@
           ],
           "title": "QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow with IBM Quantum Hardware",
           "url": "https://thequantuminsider.com/2026/08/07/qc-ware-hybrid-quantum-classical-chemistry-workflow-ibm-quantum"
-        },
-        {
-          "date": "2026-08-02",
-          "key": "https://quantumzeitgeist.com/bluequbit-ibm-riken-quantum-potential",
-          "report": "2026-08/2026-08-02-digest.md",
-          "score": 24,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "BlueQubit, IBM, and RIKEN Demonstrate Quantum R&D Potential",
-          "url": "https://quantumzeitgeist.com/bluequbit-ibm-riken-quantum-potential"
-        },
-        {
-          "date": "2026-08-01",
-          "key": "https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago",
-          "report": "2026-08/2026-08-01-digest.md",
-          "score": 63,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IBM & Chicago Verify Quantum Advantage With New Error Correction",
-          "url": "https://quantumzeitgeist.com/quantum-error-correction-ibm-chicago"
-        },
-        {
-          "date": "2026-07-31",
-          "key": "https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 63,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "BlueQubit Supports Qedma, IBM and RIKEN Study on Error-Mitigated Quantum Simulation",
-          "url": "https://thequantuminsider.com/2026/07/31/bluequbit-qedma-ibm-riken-quantum-simulation-study"
-        },
-        {
-          "date": "2026-07-30",
-          "key": "https://thequantuminsider.com/2026/07/30/cleveland-clinic-and-ibm-researchers-create-quantum-machine-learning-framework-to-predict-neoantigen-immune-response",
-          "report": "2026-07/2026-07-30-digest.md",
-          "score": 24,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "Cleveland Clinic and IBM Researchers Create Quantum Machine Learning Framework to Predict Neoantigen Immune Response",
-          "url": "https://thequantuminsider.com/2026/07/30/cleveland-clinic-and-ibm-researchers-create-quantum-machine-learning-framework-to-predict-neoantigen-immune-response"
-        },
-        {
-          "date": "2026-07-30",
-          "key": "https://thequantuminsider.com/2026/07/30/ibm-algorithmiq-quantum-computation-verification-framework",
-          "report": "2026-07/2026-07-30-digest.md",
-          "score": 24,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "IBM and Algorithmiq Develop Framework for Verifying Quantum Computations Beyond Classical Simulation",
-          "url": "https://thequantuminsider.com/2026/07/30/ibm-algorithmiq-quantum-computation-verification-framework"
         }
       ],
-      "evidence_count": 51,
+      "evidence_count": 56,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 5,
-      "latest_seen": "2026-11-11",
+      "latest_seen": "2026-11-12",
       "momentum": "rising",
       "name": "IBM",
-      "prior_count": 4,
+      "prior_count": 5,
       "priority": "high",
-      "recent_count": 7,
+      "recent_count": 11,
       "status": "active",
       "themes": [
         "AI Security",
@@ -2224,7 +2224,7 @@
       "latest_seen": "2026-11-10",
       "momentum": "rising",
       "name": "IonQ",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 3,
       "status": "active",
@@ -3884,9 +3884,9 @@
       "first_seen": "2026-07-06",
       "historical_evidence_count": 6,
       "latest_seen": "2026-10-29",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Keyfactor",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5322,11 +5322,11 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-10",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Quantinuum",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -6050,6 +6050,102 @@
       "type": "company"
     },
     {
+      "aliases": [
+        "Thales Group"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 6,
+      "evidence": [
+        {
+          "date": "2026-11-12",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/crypto-agility-cost-of-security-updates",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 45,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Crypto Agility: Cut the Cost of Security Updates | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/crypto-agility-cost-of-security-updates"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 50,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Secure AI Connectivity with Post-Quantum Encryption | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix"
+        },
+        {
+          "date": "2026-10-29",
+          "key": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
+          "report": "2026-10/2026-10-29-digest.md",
+          "score": 29,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "Agentic AI Security Risks in Manufacturing | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 67,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
+        },
+        {
+          "date": "2026-08-05",
+          "key": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption",
+          "report": "2026-08/2026-08-05-digest.md",
+          "score": 64,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
+          "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 89,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
+          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
+        }
+      ],
+      "evidence_count": 6,
+      "first_seen": "2026-08-04",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-11-12",
+      "momentum": "rising",
+      "name": "Thales",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "AI Security",
+        "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
       "aliases": [],
       "case_sensitive_aliases": [],
       "current_evidence_count": 0,
@@ -6273,90 +6369,6 @@
         "PQC / Crypto Agility"
       ],
       "type": "consortium"
-    },
-    {
-      "aliases": [
-        "Thales Group"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 5,
-      "evidence": [
-        {
-          "date": "2026-11-10",
-          "key": "https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix",
-          "report": "2026-11/2026-11-10-digest.md",
-          "score": 50,
-          "source": "Thales Cybersecurity Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Secure AI Connectivity with Post-Quantum Encryption | Thales",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix"
-        },
-        {
-          "date": "2026-10-29",
-          "key": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
-          "report": "2026-10/2026-10-29-digest.md",
-          "score": 29,
-          "source": "Thales Cybersecurity Blog",
-          "themes": [
-            "AI Security"
-          ],
-          "title": "Agentic AI Security Risks in Manufacturing | Thales",
-          "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
-        },
-        {
-          "date": "2026-10-19",
-          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-10/2026-10-19-digest.md",
-          "score": 67,
-          "source": "Thales Cybersecurity Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
-        },
-        {
-          "date": "2026-08-05",
-          "key": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption",
-          "report": "2026-08/2026-08-05-digest.md",
-          "score": 64,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
-          "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 89,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
-          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
-        }
-      ],
-      "evidence_count": 5,
-      "first_seen": "2026-08-04",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-11-10",
-      "momentum": "stable",
-      "name": "Thales",
-      "prior_count": 1,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "AI Security",
-        "PQC / Crypto Agility"
-      ],
-      "type": "company"
     },
     {
       "aliases": [
@@ -6906,11 +6918,11 @@
       "first_seen": "2026-09-03",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-06",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "CISA",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -8013,9 +8025,9 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-06",
-      "momentum": "stable",
+      "momentum": "rising",
       "name": "Pasqal",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "medium",
       "recent_count": 1,
       "status": "active",
@@ -8213,8 +8225,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 6,
+      "current_evidence_count": 7,
       "evidence": [
+        {
+          "date": "2026-11-12",
+          "key": "https://thequantuminsider.com/2026/11/12/quantum-elements-helps-rigetti-predict-quantum-hardware-behavior",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 23,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Quantum Elements Helps Rigetti Predict Quantum Hardware Behavior",
+          "url": "https://thequantuminsider.com/2026/11/12/quantum-elements-helps-rigetti-predict-quantum-hardware-behavior"
+        },
         {
           "date": "2026-10-17",
           "key": "https://quantumcomputingreport.com/open-quantum-launches-native-qrisp-integration-for-high-level-qpu-execution-across-ionq-rigetti-iqm-and-aqt-hardware",
@@ -8288,16 +8312,16 @@
           "url": "https://quantumzeitgeist.com/rigetti-computing-superconducting-qubit-temperature-bridges"
         }
       ],
-      "evidence_count": 6,
+      "evidence_count": 7,
       "first_seen": "2026-07-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-10-17",
-      "momentum": "stable",
+      "latest_seen": "2026-11-12",
+      "momentum": "rising",
       "name": "Rigetti",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Hardware",
         "Quantum Software / Tooling"
@@ -8918,11 +8942,11 @@
       "first_seen": "2026-01-08",
       "historical_evidence_count": 4,
       "latest_seen": "2026-11-10",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Quantum error correction",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "AI Security",
@@ -8940,8 +8964,20 @@
         "cryptographic inventory"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 17,
+      "current_evidence_count": 18,
       "evidence": [
+        {
+          "date": "2026-11-12",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/crypto-agility-cost-of-security-updates",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 45,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Crypto Agility: Cut the Cost of Security Updates | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/crypto-agility-cost-of-security-updates"
+        },
         {
           "alert_eligible": false,
           "category": "PQC",
@@ -9673,42 +9709,18 @@
           ],
           "title": "Accenture Invests in QuSecure to Protect Against Future Quantum Threats with Crypto Agility",
           "url": "https://newsroom.accenture.com/news/2025/accenture-invests-in-qusecure-to-protect-against-future-quantum-threats-with-crypto-agility"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Crypto Agility",
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "date_source": "",
-          "entities": [
-            "Deloitte"
-          ],
-          "historical": true,
-          "key": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf",
-          "observed_at": "2026-11-08T09:48:23.270169+00:00",
-          "published_at": null,
-          "score": 43,
-          "source": "Deloitte Quantum Cyber Readiness",
-          "source_type": "watch",
-          "summary": "",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Intro to Deloitte's crypto-inventory methodology Deloitte's crypto-inventory methodology provides a deeper look into what steps to take to effectively conduct a cryptographic inventory.",
-          "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/risk-advisory/2024/intro-to-deloitte-crypto-inventory-methodology.pdf"
         }
       ],
-      "evidence_count": 40,
+      "evidence_count": 41,
       "first_seen": "2025-08-06",
       "historical_evidence_count": 23,
-      "latest_seen": "2026-10-29",
-      "momentum": "declining",
+      "latest_seen": "2026-11-12",
+      "momentum": "rising",
       "name": "Crypto-agility",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility",
         "Standards / Government"
@@ -11620,6 +11632,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-11-12T05:23:33.618217+00:00",
+  "updated_at": "2026-11-13T04:36:07.426575+00:00",
   "version": 2
 }

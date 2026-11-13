@@ -263,23 +263,32 @@
           "source": "Quantum Computing Report",
           "title": "Google DeepMind and Google Quantum AI Use Lean 4 to Discover Formally Verified Quantum Algorithms",
           "url": "https://quantumcomputingreport.com/google-deepmind-and-google-quantum-ai-use-lean-4-to-discover-formally-verified-quantum-algorithms"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 25,
+          "source": "Hugging Face Technical Blog",
+          "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+          "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-11-10",
-      "momentum": "rising",
+      "latest_seen": "2026-11-12",
+      "momentum": "stable",
       "organizations": [
         "arXiv RSS cs.CR",
         "Quantum Zeitgeist",
         "QuantumNews.ai",
         "Quantum Computing Report",
-        "The Quantum Insider"
+        "Hugging Face Technical Blog"
       ],
-      "prior_count": 1,
-      "recent_count": 3,
-      "status": "actionable"
+      "prior_count": 2,
+      "recent_count": 2,
+      "status": "watching"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -3595,12 +3604,39 @@
           "source": "Quantum Computing Report",
           "title": "Patero and Horizen Labs Partner on Enterprise Post-Quantum Migration and Network Protection",
           "url": "https://quantumcomputingreport.com/patero-and-horizen-labs-partner-on-enterprise-post-quantum-migration-and-network-protection"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/crypto-agility-cost-of-security-updates",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 45,
+          "source": "Thales Cybersecurity Blog",
+          "title": "Crypto Agility: Cut the Cost of Security Updates | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/crypto-agility-cost-of-security-updates"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://quantumzeitgeist.com/cyberrisk-collaborative-quantum-security-event",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 47,
+          "source": "Quantum Zeitgeist",
+          "title": "CyberRisk Collaborative launches quantum security event for CISOs",
+          "url": "https://quantumzeitgeist.com/cyberrisk-collaborative-quantum-security-event"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://thequantuminsider.com/2026/11/12/cyberrisk-collaborative-virtual-event-post-quantum-readiness",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 50,
+          "source": "The Quantum Insider",
+          "title": "CyberRisk Collaborative Announces Virtual Event on Post-Quantum Readiness",
+          "url": "https://thequantuminsider.com/2026/11/12/cyberrisk-collaborative-virtual-event-post-quantum-readiness"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-11-11",
+      "latest_seen": "2026-11-12",
       "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
@@ -3609,8 +3645,8 @@
         "IACR ePrint",
         "Quantum Computing Report"
       ],
-      "prior_count": 10,
-      "recent_count": 32,
+      "prior_count": 16,
+      "recent_count": 28,
       "status": "actionable"
     },
     "QEC / Fault Tolerance": {
@@ -8162,13 +8198,94 @@
           "source": "Quantum Zeitgeist",
           "title": "IBM\u2019s Starling chip could need ten times fewer qubits for error correction",
           "url": "https://quantumzeitgeist.com/ibm-starling-chip-need-ten-error"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://quantumzeitgeist.com/iqm-quantum-machine-learning-tests-emerald",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 17,
+          "source": "Quantum Zeitgeist",
+          "title": "IQM tests quantum machine learning on its Emerald and Garnet chips",
+          "url": "https://quantumzeitgeist.com/iqm-quantum-machine-learning-tests-emerald"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://quantumcomputingreport.com/cleveland-clinic-riken-and-ibm-cross-12000-atom-barrier-in-heterogeneous-quantum-classical-drug-binding-simulations",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 22,
+          "source": "Quantum Computing Report",
+          "title": "Cleveland Clinic, RIKEN, and IBM Cross 12,000-Atom Barrier in Heterogeneous Quantum-Classical Drug Binding Simulations",
+          "url": "https://quantumcomputingreport.com/cleveland-clinic-riken-and-ibm-cross-12000-atom-barrier-in-heterogeneous-quantum-classical-drug-binding-simulations"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://thequantuminsider.com/2026/11/13/the-geometry-of-quantum-memory-how-anyons-rewrite-the-rules-of-remembering-and-computation-in-the-quantum-realm",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 22,
+          "source": "The Quantum Insider",
+          "title": "The Geometry of Quantum Memory: How Anyons Rewrite the Rules of Remembering and Computation in the Quantum Realm",
+          "url": "https://thequantuminsider.com/2026/11/13/the-geometry-of-quantum-memory-how-anyons-rewrite-the-rules-of-remembering-and-computation-in-the-quantum-realm"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://thequantuminsider.com/2026/11/12/quantum-elements-helps-rigetti-predict-quantum-hardware-behavior",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 23,
+          "source": "The Quantum Insider",
+          "title": "Quantum Elements Helps Rigetti Predict Quantum Hardware Behavior",
+          "url": "https://thequantuminsider.com/2026/11/12/quantum-elements-helps-rigetti-predict-quantum-hardware-behavior"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://quantumcomputingreport.com/ltm-becomes-first-global-systems-integrator-to-launch-function-in-ibm-quantum-functions-catalog-with-ai-qem",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 28,
+          "source": "Quantum Computing Report",
+          "title": "LTM Becomes First Global Systems Integrator to Launch Function in IBM Quantum Functions Catalog with AI-QEM",
+          "url": "https://quantumcomputingreport.com/ltm-becomes-first-global-systems-integrator-to-launch-function-in-ibm-quantum-functions-catalog-with-ai-qem"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://research.ibm.com/blog/spin-qubits-explained",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 33,
+          "source": "IBM Research Quantum and Cryptography",
+          "title": "What is a spin qubit?",
+          "url": "https://research.ibm.com/blog/spin-qubits-explained"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://quantumcomputingreport.com/qunova-computing-achieves-chemical-accuracy-at-80-qubits-on-iron-sulfur-cluster-using-ibm-quantum-system-two-and-fugaku",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 36,
+          "source": "Quantum Computing Report",
+          "title": "Qunova Computing Achieves Chemical Accuracy at 80 Qubits on Iron-Sulfur Cluster Using IBM Quantum System Two and Fugaku",
+          "url": "https://quantumcomputingreport.com/qunova-computing-achieves-chemical-accuracy-at-80-qubits-on-iron-sulfur-cluster-using-ibm-quantum-system-two-and-fugaku"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://quantumzeitgeist.com/physics-resonant-fluorescence-readout-bypasses-camera",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 39,
+          "source": "Quantum Zeitgeist",
+          "title": "Resonant fluorescence readout bypasses camera latency for qubits",
+          "url": "https://quantumzeitgeist.com/physics-resonant-fluorescence-readout-bypasses-camera"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://thequantuminsider.com/2026/11/12/xanadu-reports-revenue-growth-as-photonic-partnerships-and-government-support-expand",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "Xanadu Reports Revenue Growth as Photonic Partnerships and Government Support Expand",
+          "url": "https://thequantuminsider.com/2026/11/12/xanadu-reports-revenue-growth-as-photonic-partnerships-and-government-support-expand"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-11-11",
-      "momentum": "stable",
+      "latest_seen": "2026-11-12",
+      "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
@@ -8176,9 +8293,9 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 14,
-      "recent_count": 20,
-      "status": "watching"
+      "prior_count": 9,
+      "recent_count": 29,
+      "status": "actionable"
     },
     "Quantum Networking": {
       "confidence": "high",
@@ -12193,12 +12310,30 @@
           "source": "Quantum Computing Report",
           "title": "University of Chicago and Tohoku University Establish Joint Quantum Materials Hub in Japan",
           "url": "https://quantumcomputingreport.com/university-of-chicago-and-tohoku-university-establish-joint-quantum-materials-hub-in-japan"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://quantumcomputingreport.com/kipu-quantum-launches-rimay-quantum-feature-extraction-in-ibm-quantum-functions-catalog",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 23,
+          "source": "Quantum Computing Report",
+          "title": "Kipu Quantum Launches Rimay Quantum Feature Extraction in IBM Quantum Functions Catalog",
+          "url": "https://quantumcomputingreport.com/kipu-quantum-launches-rimay-quantum-feature-extraction-in-ibm-quantum-functions-catalog"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://thequantuminsider.com/2026/11/12/haiqu-appoints-kortny-rolston-duce-ecosystem-development-marketing",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "title": "Haiqu Appoints Kortny Rolston-Duce to Lead Ecosystem Development and Marketing",
+          "url": "https://thequantuminsider.com/2026/11/12/haiqu-appoints-kortny-rolston-duce-ecosystem-development-marketing"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-11-10",
+      "latest_seen": "2026-11-12",
       "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
@@ -12208,10 +12343,10 @@
         "USAspending \u00b7 Advanced Computing"
       ],
       "prior_count": 0,
-      "recent_count": 7,
+      "recent_count": 9,
       "status": "actionable"
     }
   },
-  "updated_at": "2026-11-12T05:23:33.605569+00:00",
+  "updated_at": "2026-11-13T04:36:07.411234+00:00",
   "version": 1
 }

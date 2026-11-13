@@ -2,12 +2,12 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-11-12T05:17:25.012353+00:00_
+_Updated 2026-11-13T04:30:52.691410+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **43**
-- Added / changed / resolved: **16 / 0 / 27**
+- Material changes: **35**
+- Added / changed / resolved: **8 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
@@ -18,22 +18,14 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- **XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF…** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089))
-- **XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF…** — awarding agency: Department of Energy ([evidence](https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089))
-- **XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF…** — reported amount: 19885227.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089))
-- **XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF…** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089))
-- **CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450))
-- **CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ** — awarding agency: Department of the Interior ([evidence](https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450))
-- **CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ** — reported amount: 1227142.16 ([evidence](https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450))
-- **CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450))
-- **CYBERSECURITY AND INFORMATION ASSURANCE** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036))
-- **CYBERSECURITY AND INFORMATION ASSURANCE** — awarding agency: Department of the Treasury ([evidence](https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036))
-- **CYBERSECURITY AND INFORMATION ASSURANCE** — reported amount: 1313076.56 ([evidence](https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036))
-- **CYBERSECURITY AND INFORMATION ASSURANCE** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036))
-- **[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS…** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732))
-- **[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS…** — awarding agency: Department of the Treasury ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732))
-- **[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS…** — reported amount: 1173030.4 ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732))
-- **[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS…** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732))
+- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view))
+- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — deadline: 2026-12-07T23:59:00-05:00 ([evidence](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view))
+- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — awarding agency: GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT ([evidence](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view))
+- **DELOITTE & TOUCHE LLP** — legal business name: DELOITTE & TOUCHE LLP ([evidence](https://sam.gov/entity/F9KSDU7L9VP6/coreData))
+- **DELOITTE & TOUCHE LLP** — uei: F9KSDU7L9VP6 ([evidence](https://sam.gov/entity/F9KSDU7L9VP6/coreData))
+- **DELOITTE & TOUCHE LLP** — cage code: 3CCJ5 ([evidence](https://sam.gov/entity/F9KSDU7L9VP6/coreData))
+- **DELOITTE & TOUCHE LLP** — registration status: Active ([evidence](https://sam.gov/entity/F9KSDU7L9VP6/coreData))
+- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view))
 
 ## Superseded claims
 

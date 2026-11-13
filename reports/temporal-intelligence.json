@@ -3,13 +3,13 @@
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-a0e874bfe6f94c5c",
+      "claim_id": "claim-d7a022b924991fb8",
       "confidence": "high",
-      "effective_date": "2026-11-08",
-      "evidence_title": "CYBERSECURITY AND INFORMATION ASSURANCE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
+      "effective_date": "2026-11-12",
+      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
+      "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
+      "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "sources": [
@@ -17,46 +17,93 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-17a48d87f74849ce",
-          "locator": "awarding_agency:department of the treasury",
-          "title": "CYBERSECURITY AND INFORMATION ASSURANCE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
+          "evidence_id": "evidence-2c4ac8c41cbec12f",
+          "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2099CF27F00006",
-        "label": "CYBERSECURITY AND INFORMATION ASSURANCE",
-        "node_id": "award:usaspending:2099CF27F00006",
-        "node_type": "award"
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
       },
       "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-11-08",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
         "historical": false,
-        "label": "Occurred 4 days ago",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-11-08",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
+        "primary_date": "2026-11-12",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-11-12"
       },
-      "value": "Department of the Treasury"
+      "value": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-3d2bf6fafdd1635a",
+      "claim_id": "claim-d4b2517c21ad658d",
       "confidence": "high",
-      "effective_date": "2026-11-08",
-      "evidence_title": "CYBERSECURITY AND INFORMATION ASSURANCE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
+      "effective_date": "2026-11-12",
+      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
+      "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
+      "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
+      "object": null,
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9d08b20669872b12",
+          "locator": "deadline:2026-12-07t23:59:00-05:00",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "temporal": {
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
+        "effective_date": "2026-12-07",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
+        "historical": false,
+        "label": "Published today",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
+        "primary_date": "2026-11-12",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-11-12"
+      },
+      "value": "2026-12-07T23:59:00-05:00"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-07ca81b0e15505a0",
+      "confidence": "high",
+      "effective_date": "2026-11-12",
+      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
+      "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
+      "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
       "object": null,
       "predicate": "opportunity_status",
       "sources": [
@@ -64,960 +111,447 @@
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a68a6fd47e793b2a",
-          "locator": "opportunity_status:awarded",
-          "title": "CYBERSECURITY AND INFORMATION ASSURANCE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
+          "evidence_id": "evidence-22e28d28de9f6ed1",
+          "locator": "opportunity_status:open",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2099CF27F00006",
-        "label": "CYBERSECURITY AND INFORMATION ASSURANCE",
-        "node_id": "award:usaspending:2099CF27F00006",
-        "node_type": "award"
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
       },
       "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-11-08",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
         "historical": false,
-        "label": "Occurred 4 days ago",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-11-08",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
+        "primary_date": "2026-11-12",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-11-12"
       },
-      "value": "awarded"
+      "value": "open"
     },
     {
-      "authority": "authoritative",
+      "authority": "analytical",
       "change_type": "added",
-      "claim_id": "claim-0aa893f0255c89dc",
-      "confidence": "high",
-      "effective_date": "2026-11-08",
-      "evidence_title": "CYBERSECURITY AND INFORMATION ASSURANCE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
+      "claim_id": "claim-74f330a0eab2276d",
+      "confidence": "medium",
+      "effective_date": "2026-11-13",
+      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
+      "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
+      "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
       "object": null,
-      "predicate": "reported_amount",
+      "predicate": "qualification_gate",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-88443f1bdb412050",
-          "locator": "reported_amount:1313076.56",
-          "title": "CYBERSECURITY AND INFORMATION ASSURANCE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
+          "evidence_id": "evidence-7eae26f59ce57a4f",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-27179ad3aaea8d8e",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2099CF27F00006",
-        "label": "CYBERSECURITY AND INFORMATION ASSURANCE",
-        "node_id": "award:usaspending:2099CF27F00006",
-        "node_type": "award"
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
       },
       "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-11-08",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
         "historical": false,
-        "label": "Occurred 4 days ago",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-11-08",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
+        "primary_date": "2026-11-12",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-11-12"
       },
-      "value": 1313076.56
+      "value": "hold"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-31229ec2b0d62b48",
+      "claim_id": "claim-d98932d8b2a132f6",
       "confidence": "high",
-      "effective_date": "2026-11-08",
-      "evidence_title": "CYBERSECURITY AND INFORMATION ASSURANCE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "object": {
+      "effective_date": "2026-11-13",
+      "evidence_title": "DELOITTE & TOUCHE LLP",
+      "evidence_url": "https://sam.gov/entity/F9KSDU7L9VP6/coreData",
+      "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
+      "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
+      "object": null,
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-af497ebbfe2f6a40",
+          "locator": "cage_code:3ccj5",
+          "title": "DELOITTE & TOUCHE LLP",
+          "url": "https://sam.gov/entity/F9KSDU7L9VP6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
         "identifier": "uei:F9KSDU7L9VP6",
         "label": "DELOITTE & TOUCHE LLP",
         "node_id": "recipient_or_contractor:uei:F9KSDU7L9VP6",
         "node_type": "recipient_or_contractor"
       },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ef143d29cc28784d",
-          "locator": "reported_recipient:recipient_or_contractor:uei:F9KSDU7L9VP6",
-          "title": "CYBERSECURITY AND INFORMATION ASSURANCE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2099CF27F00006",
-        "label": "CYBERSECURITY AND INFORMATION ASSURANCE",
-        "node_id": "award:usaspending:2099CF27F00006",
-        "node_type": "award"
-      },
       "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
+        "classification": "newly_observed",
+        "date_basis": "No source-reported event or publication date",
         "effective_date": null,
-        "event_date": "2026-11-08",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
+        "event_date": null,
+        "explanation": "Frontier Signal observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
+        "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
         "historical": false,
-        "label": "Occurred 4 days ago",
+        "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-11-08",
-        "primary_date_role": "event_date",
+        "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": null
+      "value": "3CCJ5"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-1ddc3960e6806dce",
+      "claim_id": "claim-eb9fd531a89c9f82",
       "confidence": "high",
-      "effective_date": "2026-11-05",
-      "evidence_title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
+      "effective_date": "2026-11-13",
+      "evidence_title": "DELOITTE & TOUCHE LLP",
+      "evidence_url": "https://sam.gov/entity/F9KSDU7L9VP6/coreData",
+      "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
+      "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
       "object": null,
-      "predicate": "awarding_agency",
+      "predicate": "legal_business_name",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-59089f5cfd920b33",
-          "locator": "awarding_agency:department of the treasury",
-          "title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
+          "evidence_id": "evidence-729556f4a089b06d",
+          "locator": "legal_business_name:deloitte & touche llp",
+          "title": "DELOITTE & TOUCHE LLP",
+          "url": "https://sam.gov/entity/F9KSDU7L9VP6/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2031ZB27F00005",
-        "label": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-        "node_id": "award:usaspending:2031ZB27F00005",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-11-05",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "historical": false,
-        "label": "Occurred 7 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-11-05",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of the Treasury"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-fcba57a64d47ffe1",
-      "confidence": "high",
-      "effective_date": "2026-11-05",
-      "evidence_title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-31c6831a6349aff5",
-          "locator": "opportunity_status:awarded",
-          "title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2031ZB27F00005",
-        "label": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-        "node_id": "award:usaspending:2031ZB27F00005",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-11-05",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "historical": false,
-        "label": "Occurred 7 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-11-05",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c114d6ac7f35c134",
-      "confidence": "high",
-      "effective_date": "2026-11-05",
-      "evidence_title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-eee1d05803030b03",
-          "locator": "reported_amount:1173030.4",
-          "title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2031ZB27F00005",
-        "label": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-        "node_id": "award:usaspending:2031ZB27F00005",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-11-05",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "historical": false,
-        "label": "Occurred 7 days ago",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-11-05",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 1173030.4
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-67b5a9c5d6d60207",
-      "confidence": "high",
-      "effective_date": "2026-11-05",
-      "evidence_title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "object": {
-        "identifier": "uei:XKKLFPG6AHF5",
-        "label": "APTNEXUS LLC",
-        "node_id": "recipient_or_contractor:uei:XKKLFPG6AHF5",
+        "identifier": "uei:F9KSDU7L9VP6",
+        "label": "DELOITTE & TOUCHE LLP",
+        "node_id": "recipient_or_contractor:uei:F9KSDU7L9VP6",
         "node_type": "recipient_or_contractor"
       },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-55239630a48b79c6",
-          "locator": "reported_recipient:recipient_or_contractor:uei:XKKLFPG6AHF5",
-          "title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:2031ZB27F00005",
-        "label": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-        "node_id": "award:usaspending:2031ZB27F00005",
-        "node_type": "award"
-      },
       "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
+        "classification": "newly_observed",
+        "date_basis": "No source-reported event or publication date",
         "effective_date": null,
-        "event_date": "2026-11-05",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
+        "event_date": null,
+        "explanation": "Frontier Signal observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
+        "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
         "historical": false,
-        "label": "Occurred 7 days ago",
+        "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-11-05",
-        "primary_date_role": "event_date",
+        "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": null
+      "value": "DELOITTE & TOUCHE LLP"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-77371b43fae02e62",
+      "claim_id": "claim-1483432a7bb34e0b",
       "confidence": "high",
-      "effective_date": "2027-01-01",
-      "evidence_title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
+      "effective_date": "2026-11-13",
+      "evidence_title": "DELOITTE & TOUCHE LLP",
+      "evidence_url": "https://sam.gov/entity/F9KSDU7L9VP6/coreData",
+      "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
+      "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
       "object": null,
-      "predicate": "awarding_agency",
+      "predicate": "registration_status",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-20168308041ccb39",
-          "locator": "awarding_agency:department of the interior",
-          "title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
+          "evidence_id": "evidence-27e23faca37617cc",
+          "locator": "registration_status:active",
+          "title": "DELOITTE & TOUCHE LLP",
+          "url": "https://sam.gov/entity/F9KSDU7L9VP6/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:140A1627F0128",
-        "label": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-        "node_id": "award:usaspending:140A1627F0128",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2027-01-01",
-        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-12.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2027-01-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of the Interior"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-cd4d71b45ecab9ac",
-      "confidence": "high",
-      "effective_date": "2027-01-01",
-      "evidence_title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-064ecbf9774ee4a1",
-          "locator": "opportunity_status:awarded",
-          "title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:140A1627F0128",
-        "label": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-        "node_id": "award:usaspending:140A1627F0128",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2027-01-01",
-        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-12.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2027-01-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4166e904e499a399",
-      "confidence": "high",
-      "effective_date": "2027-01-01",
-      "evidence_title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7eb88b16b45c7ab9",
-          "locator": "reported_amount:1227142.16",
-          "title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:140A1627F0128",
-        "label": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-        "node_id": "award:usaspending:140A1627F0128",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2027-01-01",
-        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-12.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2027-01-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 1227142.16
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-81c1a479fa312488",
-      "confidence": "high",
-      "effective_date": "2027-01-01",
-      "evidence_title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "object": {
-        "identifier": "uei:XQJFSL4MCKR9",
-        "label": "AKIMA DATA MANAGEMENT LLC",
-        "node_id": "recipient_or_contractor:uei:XQJFSL4MCKR9",
+        "identifier": "uei:F9KSDU7L9VP6",
+        "label": "DELOITTE & TOUCHE LLP",
+        "node_id": "recipient_or_contractor:uei:F9KSDU7L9VP6",
         "node_type": "recipient_or_contractor"
       },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-255df7bf7d901db5",
-          "locator": "reported_recipient:recipient_or_contractor:uei:XQJFSL4MCKR9",
-          "title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:140A1627F0128",
-        "label": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-        "node_id": "award:usaspending:140A1627F0128",
-        "node_type": "award"
-      },
       "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
+        "classification": "newly_observed",
+        "date_basis": "No source-reported event or publication date",
         "effective_date": null,
-        "event_date": "2027-01-01",
-        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-12.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
+        "event_date": null,
+        "explanation": "Frontier Signal observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
+        "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
         "historical": false,
-        "label": "Upcoming event date",
+        "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2027-01-01",
-        "primary_date_role": "event_date",
+        "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": null
+      "value": "Active"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-c6a3845774ad75e7",
+      "claim_id": "claim-54a4de076c2cc792",
       "confidence": "high",
-      "effective_date": "2026-10-29",
-      "evidence_title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
+      "effective_date": "2026-11-13",
+      "evidence_title": "DELOITTE & TOUCHE LLP",
+      "evidence_url": "https://sam.gov/entity/F9KSDU7L9VP6/coreData",
+      "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
+      "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
       "object": null,
-      "predicate": "awarding_agency",
+      "predicate": "uei",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4f8ab638ffdb5ad2",
-          "locator": "awarding_agency:department of energy",
-          "title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-          "url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
+          "evidence_id": "evidence-822760dc46f93f54",
+          "locator": "uei:f9ksdu7l9vp6",
+          "title": "DELOITTE & TOUCHE LLP",
+          "url": "https://sam.gov/entity/F9KSDU7L9VP6/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:DEAR0002199",
-        "label": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-        "node_id": "award:usaspending:DEAR0002199",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "historical_discovery",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-10-29",
-        "explanation": "Frontier Signal first observed this on 2026-11-12; the source date is 2026-10-29.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "historical": true,
-        "label": "Newly discovered historical evidence",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-10-29",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Energy"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-2088b36772bbddba",
-      "confidence": "high",
-      "effective_date": "2026-10-29",
-      "evidence_title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-237d9c75a5b2553e",
-          "locator": "opportunity_status:awarded",
-          "title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-          "url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:DEAR0002199",
-        "label": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-        "node_id": "award:usaspending:DEAR0002199",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "historical_discovery",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-10-29",
-        "explanation": "Frontier Signal first observed this on 2026-11-12; the source date is 2026-10-29.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "historical": true,
-        "label": "Newly discovered historical evidence",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-10-29",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a54e6e925b3bfa7b",
-      "confidence": "high",
-      "effective_date": "2026-10-29",
-      "evidence_title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-c75e7f5be26c6057",
-          "locator": "reported_amount:19885227.0",
-          "title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-          "url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:DEAR0002199",
-        "label": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-        "node_id": "award:usaspending:DEAR0002199",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "historical_discovery",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-10-29",
-        "explanation": "Frontier Signal first observed this on 2026-11-12; the source date is 2026-10-29.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "historical": true,
-        "label": "Newly discovered historical evidence",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-10-29",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 19885227.0
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3fd3b703979f8216",
-      "confidence": "high",
-      "effective_date": "2026-10-29",
-      "evidence_title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "object": {
-        "identifier": "uei:CHA2WRBRFDF5",
-        "label": "XSCAPE PHOTONICS INC.",
-        "node_id": "recipient_or_contractor:uei:CHA2WRBRFDF5",
+        "identifier": "uei:F9KSDU7L9VP6",
+        "label": "DELOITTE & TOUCHE LLP",
+        "node_id": "recipient_or_contractor:uei:F9KSDU7L9VP6",
         "node_type": "recipient_or_contractor"
       },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-70858612de80cc04",
-          "locator": "reported_recipient:recipient_or_contractor:uei:CHA2WRBRFDF5",
-          "title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-          "url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:DEAR0002199",
-        "label": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-        "node_id": "award:usaspending:DEAR0002199",
-        "node_type": "award"
-      },
       "temporal": {
-        "classification": "historical_discovery",
-        "date_basis": "USAspending action date",
+        "classification": "newly_observed",
+        "date_basis": "No source-reported event or publication date",
         "effective_date": null,
-        "event_date": "2026-10-29",
-        "explanation": "Frontier Signal first observed this on 2026-11-12; the source date is 2026-10-29.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "historical": true,
-        "label": "Newly discovered historical evidence",
+        "event_date": null,
+        "explanation": "Frontier Signal observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
+        "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
+        "historical": false,
+        "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-10-29",
-        "primary_date_role": "event_date",
+        "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": null
+      "value": "F9KSDU7L9VP6"
     }
   ],
   "changed": [],
-  "comparison_ended_at": "2026-11-12T05:17:25.012353+00:00",
-  "comparison_started_at": "2026-11-11T04:03:38.341244+00:00",
+  "comparison_ended_at": "2026-11-13T04:30:52.691410+00:00",
+  "comparison_started_at": "2026-11-12T05:17:25.012353+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-a0e874bfe6f94c5c",
+      "claim_id": "claim-d7a022b924991fb8",
       "claim_ids": [
-        "claim-0aa893f0255c89dc",
-        "claim-31229ec2b0d62b48",
-        "claim-3d2bf6fafdd1635a",
-        "claim-a0e874bfe6f94c5c"
+        "claim-07ca81b0e15505a0",
+        "claim-74f330a0eab2276d",
+        "claim-d4b2517c21ad658d",
+        "claim-d7a022b924991fb8"
       ],
       "confidence": "high",
-      "effective_date": "2026-11-08",
-      "evidence_title": "CYBERSECURITY AND INFORMATION ASSURANCE",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
+      "effective_date": "2026-11-12",
+      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "evidence_url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
+      "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
       "grouped_event_count": 4,
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
+      "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
       "object": null,
       "predicate": "awarding_agency",
       "predicates": [
         "awarding_agency",
+        "deadline",
         "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
+        "qualification_gate"
       ],
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-17a48d87f74849ce",
-          "locator": "awarding_agency:department of the treasury",
-          "title": "CYBERSECURITY AND INFORMATION ASSURANCE",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2099CF27F00006_2001_20341221A00001_2036",
+          "evidence_id": "evidence-2c4ac8c41cbec12f",
+          "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2099CF27F00006",
-        "label": "CYBERSECURITY AND INFORMATION ASSURANCE",
-        "node_id": "award:usaspending:2099CF27F00006",
-        "node_type": "award"
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
       },
       "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
+        "classification": "published_today",
+        "date_basis": "Source-reported posting/publication date",
         "effective_date": null,
-        "event_date": "2026-11-08",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
+        "event_date": null,
+        "explanation": "The source publication date is today or within the prior day.",
+        "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
         "historical": false,
-        "label": "Occurred 4 days ago",
+        "label": "Published today",
         "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-11-08",
-        "primary_date_role": "event_date",
-        "publication_date": null
+        "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
+        "primary_date": "2026-11-12",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-11-12"
       },
-      "value": "Department of the Treasury"
+      "value": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT"
     },
     {
       "authority": "authoritative",
       "change_type": "added",
-      "claim_id": "claim-1ddc3960e6806dce",
+      "claim_id": "claim-d98932d8b2a132f6",
       "claim_ids": [
-        "claim-1ddc3960e6806dce",
-        "claim-67b5a9c5d6d60207",
-        "claim-c114d6ac7f35c134",
-        "claim-fcba57a64d47ffe1"
+        "claim-1483432a7bb34e0b",
+        "claim-54a4de076c2cc792",
+        "claim-d98932d8b2a132f6",
+        "claim-eb9fd531a89c9f82"
       ],
       "confidence": "high",
-      "effective_date": "2026-11-05",
-      "evidence_title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
+      "effective_date": "2026-11-13",
+      "evidence_title": "DELOITTE & TOUCHE LLP",
+      "evidence_url": "https://sam.gov/entity/F9KSDU7L9VP6/coreData",
+      "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
       "grouped_event_count": 4,
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
+      "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
       "object": null,
-      "predicate": "awarding_agency",
+      "predicate": "cage_code",
       "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
+        "cage_code",
+        "legal_business_name",
+        "registration_status",
+        "uei"
       ],
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-59089f5cfd920b33",
-          "locator": "awarding_agency:department of the treasury",
-          "title": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB27F00005_2041_47QTCA25D00FD_4732",
+          "evidence_id": "evidence-af497ebbfe2f6a40",
+          "locator": "cage_code:3ccj5",
+          "title": "DELOITTE & TOUCHE LLP",
+          "url": "https://sam.gov/entity/F9KSDU7L9VP6/coreData",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "usaspending:2031ZB27F00005",
-        "label": "[BRIDGE] CYBERSECURITY COMPLIANCE & PRIVACY PROGRAM SUPPORT: CONTRACTOR PROVIDES TECHNICAL & PROGRAMMATIC EXPERTISE IN THE AREAS OF SECURITY PROGRAM MANAGEMENT AS WELL AS\u2026",
-        "node_id": "award:usaspending:2031ZB27F00005",
-        "node_type": "award"
+        "identifier": "uei:F9KSDU7L9VP6",
+        "label": "DELOITTE & TOUCHE LLP",
+        "node_id": "recipient_or_contractor:uei:F9KSDU7L9VP6",
+        "node_type": "recipient_or_contractor"
       },
       "temporal": {
-        "classification": "recent_event",
-        "date_basis": "USAspending action date",
+        "classification": "newly_observed",
+        "date_basis": "No source-reported event or publication date",
         "effective_date": null,
-        "event_date": "2026-11-05",
-        "explanation": "A recent source-reported event was newly incorporated into the ledger.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
+        "event_date": null,
+        "explanation": "Frontier Signal observed the assertion during this comparison, but the source does not provide a reliable event or publication date.",
+        "first_observed_at": "2026-11-13T04:30:52.691410+00:00",
         "historical": false,
-        "label": "Occurred 7 days ago",
+        "label": "Newly observed \u00b7 event date unknown",
         "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-11-05",
-        "primary_date_role": "event_date",
+        "last_observed_at": "2026-11-13T04:30:52.691410+00:00",
+        "primary_date": null,
+        "primary_date_role": "observation_time",
         "publication_date": null
       },
-      "value": "Department of the Treasury"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-77371b43fae02e62",
-      "claim_ids": [
-        "claim-4166e904e499a399",
-        "claim-77371b43fae02e62",
-        "claim-81c1a479fa312488",
-        "claim-cd4d71b45ecab9ac"
-      ],
-      "confidence": "high",
-      "effective_date": "2027-01-01",
-      "evidence_title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-20168308041ccb39",
-          "locator": "awarding_agency:department of the interior",
-          "title": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0128_1450_140A1624D0036_1450",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:140A1627F0128",
-        "label": "CYBERSECURITY - CYBERSECURITY MONITORING, INCIDENT RESPONSE, AND SECURITY ENGINEERING SUPPORT (CIRT) FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-        "node_id": "award:usaspending:140A1627F0128",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2027-01-01",
-        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-12.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2027-01-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of the Interior"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-c6a3845774ad75e7",
-      "claim_ids": [
-        "claim-2088b36772bbddba",
-        "claim-3fd3b703979f8216",
-        "claim-a54e6e925b3bfa7b",
-        "claim-c6a3845774ad75e7"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-10-29",
-      "evidence_title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
-      "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4f8ab638ffdb5ad2",
-          "locator": "awarding_agency:department of energy",
-          "title": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-          "url": "https://www.usaspending.gov/award/ASST_NON_DEAR0002199_089",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:DEAR0002199",
-        "label": "XSCAPE PHOTONICS IS ADDRESSING ONE OF THE CRITICAL CHALLENGES IN MODERN COMPUTING, THAT IS, THE ESCALATING DATA BANDWIDTH AND ENERGY BOTTLENECKS THAT LIMIT THE SCALABILITY OF\u2026",
-        "node_id": "award:usaspending:DEAR0002199",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "historical_discovery",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2026-10-29",
-        "explanation": "Frontier Signal first observed this on 2026-11-12; the source date is 2026-10-29.",
-        "first_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "historical": true,
-        "label": "Newly discovered historical evidence",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-12T05:17:25.012353+00:00",
-        "primary_date": "2026-10-29",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of Energy"
+      "value": "3CCJ5"
     },
     {
       "authority": "authoritative",
@@ -3463,24 +2997,23 @@
   ],
   "scope_note": "Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.",
   "summary": {
-    "actual_or_recent_changes": 8,
+    "actual_or_recent_changes": 4,
     "classifications": {
-      "historical_discovery": 4,
-      "recent_event": 8,
-      "resolved": 27,
-      "upcoming": 4
+      "newly_observed": 4,
+      "published_today": 4,
+      "resolved": 27
     },
     "evidence_trace_changes": 0,
-    "historical_discoveries": 4,
-    "material_events": 43,
-    "newly_observed_undated": 0,
+    "historical_discoveries": 0,
+    "material_events": 35,
+    "newly_observed_undated": 4,
     "upcoming": 12
   },
   "superseded": [],
   "upcoming": [
     {
       "date": "2026-10-15",
-      "days_remaining": -28,
+      "days_remaining": -29,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -3489,7 +3022,7 @@
     },
     {
       "date": "2026-11-14",
-      "days_remaining": 2,
+      "days_remaining": 1,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -3498,7 +3031,7 @@
     },
     {
       "date": "2026-11-24",
-      "days_remaining": 12,
+      "days_remaining": 11,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Genesis Mission",
@@ -3507,16 +3040,16 @@
     },
     {
       "date": "2026-12-07",
-      "days_remaining": 25,
+      "days_remaining": 24,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
       "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "url": "https://sam.gov/workspace/contract/opp/d168c9a2ace94efabe21990c977105c7/view"
+      "url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view"
     },
     {
       "date": "2026-12-17",
-      "days_remaining": 35,
+      "days_remaining": 34,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -3525,7 +3058,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 37,
+      "days_remaining": 36,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -3534,7 +3067,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 37,
+      "days_remaining": 36,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -3543,7 +3076,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 37,
+      "days_remaining": 36,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -3552,7 +3085,7 @@
     },
     {
       "date": "2026-12-31",
-      "days_remaining": 49,
+      "days_remaining": 48,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "Project Triad",
@@ -3561,7 +3094,7 @@
     },
     {
       "date": "2027-01-12",
-      "days_remaining": 61,
+      "days_remaining": 60,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -3570,7 +3103,7 @@
     },
     {
       "date": "2027-03-19",
-      "days_remaining": 127,
+      "days_remaining": 126,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -3579,7 +3112,7 @@
     },
     {
       "date": "2027-06-22",
-      "days_remaining": 222,
+      "days_remaining": 221,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -3587,6 +3120,6 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
     }
   ],
-  "updated_at": "2026-11-12T05:17:25.012353+00:00",
+  "updated_at": "2026-11-13T04:30:52.691410+00:00",
   "version": 1
 }

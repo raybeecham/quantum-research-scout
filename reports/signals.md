@@ -4,42 +4,42 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-12 05:23 UTC_
+_Updated 2026-11-13 04:36 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
-| AI Security | ↗️ rising (3 vs 1) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-11-10 | 29 |
-| PQC / Crypto Agility | ↗️ rising (32 vs 10) | 🔴 critical | high | 🎯 actionable | 2026-06-21 | 2026-11-11 | 368 |
+| PQC / Crypto Agility | ↗️ rising (28 vs 16) | 🔴 critical | high | 🎯 actionable | 2026-06-21 | 2026-11-12 | 371 |
+| Quantum Hardware | ↗️ rising (29 vs 9) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-11-12 | 405 |
 | Quantum Software / Tooling | ↗️ rising (6 vs 1) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-11-11 | 120 |
-| Standards / Government | ↗️ rising (7 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-11-10 | 84 |
+| Standards / Government | ↗️ rising (9 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-11-12 | 86 |
+| AI Security | ➡️ stable (2 vs 2) | 🔴 critical | high | 👁️ watching | 2026-07-01 | 2026-11-12 | 30 |
 | QEC / Fault Tolerance | ➡️ stable (5 vs 7) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-11-10 | 107 |
-| Quantum Hardware | ➡️ stable (20 vs 14) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-11 | 396 |
 | Quantum Networking | ➡️ stable (11 vs 10) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-11 | 180 |
 | Quantum Sensing | ➡️ stable (1 vs 1) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-10-30 | 55 |
-
-## AI Security
-
-- Organizations/sources: arXiv RSS cs.CR, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, The Quantum Insider
-- Recommended follow-up: Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.
-- Recent supporting evidence:
-  - 2026-11-10 — [Google DeepMind and Google Quantum AI Use Lean 4 to Discover Formally Verified Quantum Algorithms](https://quantumcomputingreport.com/google-deepmind-and-google-quantum-ai-use-lean-4-to-discover-formally-verified-quantum-algorithms) (Quantum Computing Report, score 79)
-  - 2026-11-05 — [JailBound: FOL-Guided Jailbreak Evaluation for Exploring LLM Behavioral Boundaries](https://arxiv.org/abs/2611.07530) (arXiv RSS cs.CR, score 70)
-  - 2026-11-05 — [Large Language Models for Cryptocurrency Transaction Analysis: A Bitcoin Case Study](https://arxiv.org/abs/2501.18158) (arXiv RSS cs.CR, score 53)
-  - 2026-10-29 — [Agentic AI Security Risks in Manufacturing | Thales](https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report) (Thales Cybersecurity Blog, score 29)
-  - 2026-10-27 — [Can we trust LLMs to judge whether a research idea is novel?](https://huggingface.co/blog/allenai/novelty-bench) (Hugging Face Technical Blog, score 25)
 
 ## PQC / Crypto Agility
 
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Quantum Computing Report
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-11-12 — [CyberRisk Collaborative Announces Virtual Event on Post-Quantum Readiness](https://thequantuminsider.com/2026/11/12/cyberrisk-collaborative-virtual-event-post-quantum-readiness) (The Quantum Insider, score 50)
+  - 2026-11-12 — [CyberRisk Collaborative launches quantum security event for CISOs](https://quantumzeitgeist.com/cyberrisk-collaborative-quantum-security-event) (Quantum Zeitgeist, score 47)
+  - 2026-11-12 — [Crypto Agility: Cut the Cost of Security Updates | Thales](https://cpl.thalesgroup.com/blog/encryption/crypto-agility-cost-of-security-updates) (Thales Cybersecurity Blog, score 45)
   - 2026-11-11 — [Patero and Horizen Labs Partner on Enterprise Post-Quantum Migration and Network Protection](https://quantumcomputingreport.com/patero-and-horizen-labs-partner-on-enterprise-post-quantum-migration-and-network-protection) (Quantum Computing Report, score 93)
   - 2026-11-11 — [Patero and Horizen Labs Collaborate to Help Organizations Prepare for Post-Quantum Security](https://thequantuminsider.com/2026/11/11/patero-horizen-labs-post-quantum-security-migration) (The Quantum Insider, score 81)
-  - 2026-11-11 — [Patero and Horizen Labs team up on post-quantum security plans](https://quantumzeitgeist.com/post-quantum-security-patero-horizen-labs) (Quantum Zeitgeist, score 55)
-  - 2026-11-11 — [Guest Post: Quantum-Resistant Wallets Could Support Institutional Blockchain Adoption](https://thequantuminsider.com/2026/11/11/quantum-resistant-wallets-wall-street-capital-on-chain) (The Quantum Insider, score 39)
-  - 2026-11-10 — [Carahsoft Builds Federal Quantum Catalog with IonQ and PQSecure Partnerships](https://quantumcomputingreport.com/carahsoft-builds-federal-quantum-catalog-with-ionq-and-pqsecure-partnerships) (Quantum Computing Report, score 100)
+
+## Quantum Hardware
+
+- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
+- Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
+- Recent supporting evidence:
+  - 2026-11-12 — [Xanadu Reports Revenue Growth as Photonic Partnerships and Government Support Expand](https://thequantuminsider.com/2026/11/12/xanadu-reports-revenue-growth-as-photonic-partnerships-and-government-support-expand) (The Quantum Insider, score 100)
+  - 2026-11-12 — [Resonant fluorescence readout bypasses camera latency for qubits](https://quantumzeitgeist.com/physics-resonant-fluorescence-readout-bypasses-camera) (Quantum Zeitgeist, score 39)
+  - 2026-11-12 — [Qunova Computing Achieves Chemical Accuracy at 80 Qubits on Iron-Sulfur Cluster Using IBM Quantum System Two and Fugaku](https://quantumcomputingreport.com/qunova-computing-achieves-chemical-accuracy-at-80-qubits-on-iron-sulfur-cluster-using-ibm-quantum-system-two-and-fugaku) (Quantum Computing Report, score 36)
+  - 2026-11-12 — [What is a spin qubit?](https://research.ibm.com/blog/spin-qubits-explained) (IBM Research Quantum and Cryptography, score 33)
+  - 2026-11-12 — [LTM Becomes First Global Systems Integrator to Launch Function in IBM Quantum Functions Catalog with AI-QEM](https://quantumcomputingreport.com/ltm-becomes-first-global-systems-integrator-to-launch-function-in-ibm-quantum-functions-catalog-with-ai-qem) (Quantum Computing Report, score 28)
 
 ## Quantum Software / Tooling
 
@@ -57,11 +57,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, QuantumNews.ai, USAspending · Quantum Technologies, Quantum Zeitgeist, USAspending · Advanced Computing
 - Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
 - Recent supporting evidence:
+  - 2026-11-12 — [Haiqu Appoints Kortny Rolston-Duce to Lead Ecosystem Development and Marketing](https://thequantuminsider.com/2026/11/12/haiqu-appoints-kortny-rolston-duce-ecosystem-development-marketing) (The Quantum Insider, score 100)
+  - 2026-11-12 — [Kipu Quantum Launches Rimay Quantum Feature Extraction in IBM Quantum Functions Catalog](https://quantumcomputingreport.com/kipu-quantum-launches-rimay-quantum-feature-extraction-in-ibm-quantum-functions-catalog) (Quantum Computing Report, score 23)
   - 2026-11-10 — [IBM Selects Four Organisations for AI and Quantum Workforce Programme](https://thequantuminsider.com/2026/11/10/ibm-education-workforce-development-cohort) (The Quantum Insider, score 100)
   - 2026-11-10 — [University of Chicago and Tohoku University Establish Joint Quantum Materials Hub in Japan](https://quantumcomputingreport.com/university-of-chicago-and-tohoku-university-establish-joint-quantum-materials-hub-in-japan) (Quantum Computing Report, score 100)
   - 2026-11-10 — [D-Wave Revenue Rises 21% as Customer Deployments Expand And CHIPS Agreement Advances](https://thequantuminsider.com/2026/11/10/d-wave-revenue-rises-21-as-customer-deployments-expand-and-chips-agreement-advances) (The Quantum Insider, score 23)
-  - 2026-11-10 — [Draft EU Quantum Act Would Favor European Suppliers, Set Computing and Security Targets](https://thequantuminsider.com/2026/11/10/draft-eu-quantum-act-would-favor-european-suppliers-set-computing-and-security-targets) (The Quantum Insider, score 23)
-  - 2026-11-09 — [IonQ and Carahsoft Partner to Bring Quantum Solutions to the Public Sector](https://thequantuminsider.com/2026/11/09/ionq-carahsoft-quantum-technologies-government) (The Quantum Insider, score 100)
+
+## AI Security
+
+- Organizations/sources: arXiv RSS cs.CR, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, Hugging Face Technical Blog
+- Recommended follow-up: Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.
+- Recent supporting evidence:
+  - 2026-11-12 — [LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B](https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite) (Hugging Face Technical Blog, score 25)
+  - 2026-11-10 — [Google DeepMind and Google Quantum AI Use Lean 4 to Discover Formally Verified Quantum Algorithms](https://quantumcomputingreport.com/google-deepmind-and-google-quantum-ai-use-lean-4-to-discover-formally-verified-quantum-algorithms) (Quantum Computing Report, score 79)
+  - 2026-11-05 — [JailBound: FOL-Guided Jailbreak Evaluation for Exploring LLM Behavioral Boundaries](https://arxiv.org/abs/2611.07530) (arXiv RSS cs.CR, score 70)
+  - 2026-11-05 — [Large Language Models for Cryptocurrency Transaction Analysis: A Bitcoin Case Study](https://arxiv.org/abs/2501.18158) (arXiv RSS cs.CR, score 53)
+  - 2026-10-29 — [Agentic AI Security Risks in Manufacturing | Thales](https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report) (Thales Cybersecurity Blog, score 29)
 
 ## QEC / Fault Tolerance
 
@@ -73,17 +84,6 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-11-05 — [IBM, ORNL, and AMD Deploy Co-Located Quantum Error Correction Platform in Poughkeepsie](https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie) (Quantum Computing Report, score 109)
   - 2026-11-05 — [Quantinuum Unveils Nexus Roadmap to Automate Fault-Tolerant Application Deployment Through 2029](https://quantumcomputingreport.com/quantinuum-unveils-nexus-roadmap-to-automate-fault-tolerant-application-deployment-through-2029) (Quantum Computing Report, score 103)
   - 2026-11-05 — [Horizon Quantum Signs Letter of Intent to Acquire Entropica Labs for $27 Million](https://quantumcomputingreport.com/horizon-quantum-signs-letter-of-intent-to-acquire-entropica-labs-for-27-million) (Quantum Computing Report, score 80)
-
-## Quantum Hardware
-
-- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
-- Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
-- Recent supporting evidence:
-  - 2026-11-11 — [IBM’s Starling chip could need ten times fewer qubits for error correction](https://quantumzeitgeist.com/ibm-starling-chip-need-ten-error) (Quantum Zeitgeist, score 77)
-  - 2026-11-11 — [Cloud access lets researchers compare nine quantum processors at once](https://quantumzeitgeist.com/ikerlan-technology-nine-quantum-processors-cloud) (Quantum Zeitgeist, score 57)
-  - 2026-11-11 — [Xanadu Reports Q3 2026 Results with $286M Cash Balance and Expanding R&D Commitments](https://quantumcomputingreport.com/xanadu-reports-q3-2026-results-with-286m-cash-balance-and-expanding-rd-commitments) (Quantum Computing Report, score 53)
-  - 2026-11-11 — [NVIDIA’s Alice & Bob decodes cat-qubit errors on GPUs with NVQLink](https://quantumzeitgeist.com/quantum-machines-nvidia-alice-bob-decodes) (Quantum Zeitgeist, score 42)
-  - 2026-11-11 — [IBM Plans 1,040-Qubit Quantum System with Next-Generation Nighthawk Processors](https://thequantuminsider.com/2026/11/11/ibm-nighthawk-r3-processor-520-programmable-qubits) (The Quantum Insider, score 38)
 
 ## Quantum Networking
 

@@ -1,6 +1,6 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-11-12T05:17:25.012353+00:00_
+_Updated 2026-11-13T04:30:52.691410+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
@@ -19,8 +19,8 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - **Match appears only in collector query metadata**: 138
 - **No relevant term in the evidence itself**: 138
-- **Official government source**: 100
-- **Source is not an official .gov or .mil domain**: 38
+- **Official government source**: 99
+- **Source is not an official .gov or .mil domain**: 39
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -31,6 +31,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [IonQ quantum system faces DARPA test for real-world value](https://quantumzeitgeist.com/ionq-stage-c-validation)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [IonQ | The “Prove It” Stage: What DARPA’s Stage C Means for IonQ](https://ionq.com/blog/the-prove-it-stage-what-darpas-stage-c-means-for-ionq)
 
@@ -712,13 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/359271)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Rapid Reskill Employment Recovery National Dislocated Worker Grants](https://www.grants.gov/search-results-detail/362987)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
