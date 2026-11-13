@@ -30,6 +30,101 @@ def tab_to(page, selector):
     raise AssertionError(f"Keyboard cannot reach {selector}")
 
 
+def section_focused(page, section):
+    """Data readiness precedes the two-frame deep-link focus handoff."""
+    page.wait_for_function(
+        """id => {
+            const target = document.getElementById(id);
+            return document.activeElement === target?.querySelector('h1,h2,h3');
+        }""",
+        arg=section,
+    )
+
+
+def focus_snapshot(page):
+    return page.evaluate("""() => {
+        const active = document.activeElement;
+        return {hash: location.hash, tag: active?.tagName, id: active?.id,
+            text: active?.textContent?.trim().slice(0, 100), value: active?.value,
+            scrollY: window.scrollY};
+    }""")
+
+
+def delayed_route_focus(page, base, output):
+    """Hold route animation frames until after real input, then release them.
+
+    This makes the focus-stealing race deterministic rather than relying on a
+    slow runner. No programmatic focus or select_option replaces user input.
+    """
+    results = []
+    for interaction in ("none", "keyboard", "pointer", "new-route"):
+        row = {"interaction": interaction}
+        results.append(row)
+        try:
+            page.goto(base + "/#research")
+            ready(page)
+            page.evaluate("""() => {
+                const original = window.requestAnimationFrame;
+                const callbacks = [];
+                window.scoutHeldFrames = callbacks;
+                window.requestAnimationFrame = callback => callbacks.push(callback);
+                window.addEventListener('hashchange', () => {
+                    window.scoutHeldRouteHash = location.hash;
+                });
+                window.scoutReleaseFrames = () => new Promise(resolve => {
+                    window.requestAnimationFrame = original;
+                    for (const callback of callbacks.splice(0)) original(callback);
+                    original(() => original(resolve));
+                });
+                location.hash = 'compare';
+            }""")
+            page.wait_for_function(
+                "window.scoutHeldRouteHash === '#compare' && window.scoutHeldFrames.length > 0",
+                polling=10,
+            )
+            expect(page.locator("#compare")).to_be_visible()
+            if interaction == "keyboard":
+                tab_to(page, "#compare-first")
+                expect(page.locator("#compare-first")).to_be_focused()
+            elif interaction == "pointer":
+                # Frames are deliberately paused, so send a real pointer click
+                # without Playwright's animation-frame-based stability polling.
+                box = page.locator("#compare-first").bounding_box()
+                assert box
+                page.mouse.click(box["x"] + box["width"] / 2, box["y"] + box["height"] / 2)
+                expect(page.locator("#compare-first")).to_be_focused()
+            elif interaction == "new-route":
+                page.evaluate("location.hash = 'standards'")
+                page.wait_for_function("window.scoutHeldRouteHash === '#standards'", polling=10)
+            row["before_release"] = focus_snapshot(page)
+            page.evaluate("window.scoutReleaseFrames()")
+            row["after_release"] = focus_snapshot(page)
+            if interaction in {"keyboard", "pointer"}:
+                expect(page.locator("#compare-first")).to_be_focused()
+                assert row["after_release"]["scrollY"] == row["before_release"]["scrollY"]
+            elif interaction == "new-route":
+                section_focused(page, "standards")
+            else:
+                section_focused(page, "compare")
+            if interaction == "keyboard":
+                control = page.locator("#compare-first")
+                options = page.locator("#compare-first option").evaluate_all(
+                    "nodes => nodes.filter(n => !n.disabled && n.value).map(n => n.value)"
+                )
+                key, target = comparison_key(options, control.input_value())
+                page.keyboard.press(key)
+                page.keyboard.press("Tab")
+                expect(control).to_have_value(target)
+                expect(page.locator("#compare-results")).to_contain_text(target)
+                row["selection"] = {"key": key, "expected": target, "actual": control.input_value()}
+            row["passed"] = True
+        finally:
+            row["events"] = page.evaluate("window.scoutKeyboardTrace || []")
+            (output / "delayed-route-focus.json").write_text(
+                json.dumps(results, indent=2), encoding="utf-8"
+            )
+
+
 def comparison_key(options, before, other=None):
     """Pick one native key without colliding with the first comparison selection."""
     assert len(set(options)) >= 2, options
@@ -52,14 +147,17 @@ def comparison_key(options, before, other=None):
 def keyboard_workflows(page, base, output):
     page.goto(base + "/#compare")
     ready(page)
+    section_focused(page, "compare")
     for control in ("#compare-first", "#compare-second"):
         tab_to(page, control)
+        expect(page.locator(control)).to_be_focused()
         before = page.locator(control).input_value()
         options = page.locator(f"{control} option").evaluate_all(
             "(nodes) => nodes.filter(n => !n.disabled && n.value).map(n => n.value)"
         )
         other = page.locator("#compare-first").input_value() if control.endswith("second") else None
         key, target = comparison_key(options, before, other)
+        expect(page.locator(control)).to_be_focused()
         page.keyboard.press(key)
         page.keyboard.press("Tab")
         expect(page.locator(control)).to_have_value(target)
@@ -181,7 +279,11 @@ def main():
             for (const type of ['focusin', 'keydown', 'keypress', 'keyup', 'click']) {
                 document.addEventListener(type, event => {
                     window.scoutKeyboardTrace.push({type, key: event.key,
-                        target: event.target.id, active: document.activeElement?.id,
+                        time: performance.now(), hash: location.hash,
+                        target: event.target.id, targetTag: event.target.tagName,
+                        targetText: event.target.textContent?.trim().slice(0, 100),
+                        active: document.activeElement?.id,
+                        activeTag: document.activeElement?.tagName,
                         prevented: event.defaultPrevented});
                     window.scoutKeyboardTrace = window.scoutKeyboardTrace.slice(-100);
                 });
@@ -229,6 +331,7 @@ def main():
         (output / "axe-results.json").write_text(json.dumps(audits, indent=2), encoding="utf-8")
         page.set_viewport_size({"width": 1440, "height": 1000})
         try:
+            delayed_route_focus(page, base, output)
             keyboard_workflows(page, base, output)
             assert len(choosers) == 2, "Expected Space and Enter to open the notebook file chooser"
         finally:
@@ -257,6 +360,7 @@ def main():
                     "axe_version": "4.14.0",
                     "audits": len(audits),
                     "keyboard": "comparison, question editor, notebook import/export",
+                    "delayed_route_focus": "no input, keyboard, pointer, superseded navigation",
                     "screen_reader": "manual NVDA/VoiceOver pass still required",
                 }
             )

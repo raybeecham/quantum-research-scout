@@ -332,6 +332,12 @@
   $("reports").before($("briefing-coverage"));
 
   let routeVersion = 0;
+  let routeInputVersion = 0;
+  // Navigation may finish after a visitor has already started using the page.
+  // Never let its delayed focus/scroll take over from that newer interaction.
+  for (const type of ["keydown", "pointerdown", "wheel", "touchstart"]) {
+    document.addEventListener(type, () => ++routeInputVersion, { capture: true, passive: true });
+  }
   // A short final section still needs enough document below it to reach the
   // sticky header. This tail is only as large as the current anchor requires.
   const routeTail = document.createElement("div");
@@ -339,6 +345,8 @@
   $("main").append(routeTail);
   function route() {
     const version = ++routeVersion;
+    const inputVersion = routeInputVersion;
+    const routeHash = location.hash;
     routeTail.style.height = "0px";
     let hash;
     try {
@@ -406,7 +414,13 @@
       // Cancel obsolete callbacks if another route is selected in the meantime.
       requestAnimationFrame(() =>
         requestAnimationFrame(() => {
-          if (version !== routeVersion) return;
+          if (
+            version !== routeVersion ||
+            inputVersion !== routeInputVersion ||
+            routeHash !== location.hash ||
+            !target.isConnected
+          )
+            return;
           const heading = target.querySelector("h1,h2,h3") || target;
           heading.setAttribute("tabindex", "-1");
           heading.focus({ preventScroll: true });
