@@ -79,6 +79,9 @@ def delayed_route_focus(page, base, output):
         row = {"interaction": interaction}
         results.append(row)
         try:
+            # A fragment-only goto can reuse the previous document and its data.
+            # Isolate each case, including its held-frame listeners and cache.
+            page.goto("about:blank")
             held_requests = []
             if interaction == "cold-keyboard":
 
