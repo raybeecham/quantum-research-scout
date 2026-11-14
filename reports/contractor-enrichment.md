@@ -2,13 +2,13 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-11-13T04:30:52.691410+00:00_
+_Updated 2026-11-14T04:27:25.885161+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
 - Tracked contractor profiles: **75**
 - SAM.gov-resolved entities: **103** (**137.3%** coverage)
-- Newly resolved this run: **1**
+- Newly resolved this run: **0**
 - Pending bounded enrichment: **116**
 - Ambiguous / no match: **8 / 1**
 
@@ -55,7 +55,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | DELOITTE & TOUCHE LLP | [DELOITTE & TOUCHE LLP](https://sam.gov/entity/F9KSDU7L9VP6/coreData) | F9KSDU7L9VP6 | 3CCJ5 | Active | Business or Organization, For Profit Organization |
 | ACCENTURE FEDERAL SERVICES LLC | [ACCENTURE FEDERAL SERVICES LLC](https://sam.gov/entity/C47BNA8GM833/coreData) | C47BNA8GM833 | 1ZD18 | Active | Business or Organization, For Profit Organization, Foreign Owned |
 | THE ARDIAN GROUP, INC | [THE ARDIAN GROUP, INC](https://sam.gov/entity/UE9KZJJCMAS9/coreData) | UE9KZJJCMAS9 | 3BR42 | Active | Asian-Pacific American Owned, Business or Organization, For Profit Organization |
-| MORGAN STATE UNIVERSITY | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) | KULSKCCZJT27 | 8U547 | Active | Educational Institution, Historically Black College or University, Minority Institution |
 | UNIVERSITY OF NEW MEXICO | [University Of New Mexico](https://sam.gov/entity/F6XLTRUQJEN4/coreData) | F6XLTRUQJEN4 | 6T086 | Active | Business or Organization, Educational Institution, Hispanic Servicing Institution |
 | THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY | [THE TRUSTEES OF THE STEVENS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/JJ6CN5Y5A2R5/coreData) | JJ6CN5Y5A2R5 | 07069 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | THE PENNSYLVANIA STATE UNIVERSITY | [THE PENNSYLVANIA STATE UNIVERSITY](https://sam.gov/entity/NPM2J7MSCF61/coreData) | NPM2J7MSCF61 | 7A720 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
@@ -66,6 +65,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | THALES DEFENSE & SECURITY INC | [THALES DEFENSE & SECURITY INC](https://sam.gov/entity/HNNUJXHSXGU3/coreData) | HNNUJXHSXGU3 | 23386 | Active | Business or Organization, For Profit Organization, Foreign Owned |
 | ROCHESTER INSTITUTE OF TECHNOLOGY | [ROCHESTER INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/J6TWTRKC1X14/coreData) | J6TWTRKC1X14 | 0SWS3 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | NEW YORK UNIVERSITY | [NEW YORK UNIVERSITY](https://sam.gov/entity/NX9PXMKW5KW8/coreData) | NX9PXMKW5KW8 | 72061 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| MORGAN STATE UNIVERSITY | [MORGAN STATE UNIVERSITY](https://sam.gov/entity/KULSKCCZJT27/coreData) | KULSKCCZJT27 | 8U547 | Active | Educational Institution, Historically Black College or University, Minority Institution |
 | KPMG LLP | [KPMG LLP](https://sam.gov/entity/MAA3SBSDQVM1/coreData) | MAA3SBSDQVM1 | 7QEG9 | Active | Business or Organization, For Profit Organization |
 | ILLINOIS INSTITUTE OF TECHNOLOGY | [ILLINOIS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NDENMDUEG8/coreData) | E2NDENMDUEG8 | 8B088 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | VANDERBILT UNIVERSITY | [VANDERBILT UNIVERSITY](https://sam.gov/entity/GTNBNWXJ12D5/coreData) | GTNBNWXJ12D5 | 5E694 | Active | Business or Organization, Educational Institution, Non-Profit Organization |

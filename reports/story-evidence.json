@@ -2500,6 +2500,25 @@
         }
       ]
     },
+    "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents": {
+      "captures": [
+        {
+          "excerpts": [
+            "5, 2026, Amazon’s MadPot, a globally distributed network of decoy threat sensors, captured requests from AI agents that included operating memory from offensive campaigns that threat actors ran on ARTEX, an open..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-13",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "AWS Security Blog",
+              "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents"
+            }
+          ],
+          "title": "Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents"
+        }
+      ]
+    },
     "https://blog.cloudflare.com/cloudflare-certificate-authority": {
       "captures": [
         {
@@ -4977,6 +4996,26 @@
         }
       ]
     },
+    "https://quantumcomputingreport.com/german-aerospace-center-dlr-researchers-demonstrate-low-cost-benchmarked-noise-error-mitigation-across-100-qubit-ibm-and-iqm-processors": {
+      "captures": [
+        {
+          "excerpts": [
+            "This method enhances expectation-value accuracy without increasing measurement shot budgets, validated on 100-qubit IBM and IQM processors",
+            "Researchers at the German Aerospace Center (DLR) have developed an improved quantum error mitigation protocol, randomized benchmarked-noise zero-noise extrapolation (bnZNE)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-13",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/german-aerospace-center-dlr-researchers-demonstrate-low-cost-benchmarked-noise-error-mitigation-across-100-qubit-ibm-and-iqm-processors"
+            }
+          ],
+          "title": "German Aerospace Center (DLR) Researchers Demonstrate Low-Cost Benchmarked-Noise Error Mitigation Across 100-Qubit IBM and IQM Processors"
+        }
+      ]
+    },
     "https://quantumcomputingreport.com/germany-advances-key-consortia-in-e640-million-717-2-million-usd-fault-tolerant-quantum-computing-competition": {
       "captures": [
         {
@@ -6487,6 +6526,26 @@
         }
       ]
     },
+    "https://quantumcomputingreport.com/qodex-quantum-nvidia-rtx-bbn-and-u-s-navy-researchers-forecast-unstructured-pdes-on-52-qubit-ibm-hardware": {
+      "captures": [
+        {
+          "excerpts": [
+            "A research team from QodeX Quantum, NVIDIA, RTX BBN, and U.S. Navy researchers successfully demonstrated gradient-free forecasting of nonlinear partial differential equations (PDEs) on unstructured engineering...",
+            "Their hybrid quantum reservoir network (QRN) achieved significant error reduction compared to classical baselines and executed circuits far longer than typical qubit coherence times"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-13",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/qodex-quantum-nvidia-rtx-bbn-and-u-s-navy-researchers-forecast-unstructured-pdes-on-52-qubit-ibm-hardware"
+            }
+          ],
+          "title": "QodeX Quantum, NVIDIA, RTX BBN, and U.S. Navy Researchers Forecast Unstructured PDEs on 52-Qubit IBM Hardware"
+        }
+      ]
+    },
     "https://quantumcomputingreport.com/quantinuum-and-the-university-of-western-australia-partner-to-advance-australias-hybrid-quantum-ai-hpc-ecosystem": {
       "captures": [
         {
@@ -7270,6 +7329,27 @@
         }
       ]
     },
+    "https://quantumcomputingreport.com/university-of-osaka-integrates-domestic-superconducting-quantum-processors-with-octopus-supercomputer-via-seafood-platform": {
+      "captures": [
+        {
+          "excerpts": [
+            "The University of Osaka has launched SEAFOOD, a hybrid computing platform integrating its OCTOPUS supercomputer with domestic superconducting quantum processors",
+            "The project, supported by various Japanese initiatives, will offer trial access to research teams in 2027",
+            "This platform, the first of its kind in Japan, aims to tackle complex computational problems in fields like drug discovery and materials engineering by distributing workloads across classical and quantum systems"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-13",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/university-of-osaka-integrates-domestic-superconducting-quantum-processors-with-octopus-supercomputer-via-seafood-platform"
+            }
+          ],
+          "title": "University of Osaka Integrates Domestic Superconducting Quantum Processors with OCTOPUS Supercomputer via SEAFOOD Platform"
+        }
+      ]
+    },
     "https://quantumcomputingreport.com/university-of-saskatchewan-researchers-achieve-record-hyperbolic-surface-code-efficiency-for-modular-fault-tolerant-architectures": {
       "captures": [
         {
@@ -7666,6 +7746,25 @@
         }
       ]
     },
+    "https://quantumzeitgeist.com/beijing-posts-continuous-mode-cv-qkd": {
+      "captures": [
+        {
+          "excerpts": [
+            "Researchers found device imperfections shift continuous-variable quantum key distribution (CV-QKD) systems toward continuous-mode operation, creating a gap between theory & real-world performance"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-13",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/beijing-posts-continuous-mode-cv-qkd"
+            }
+          ],
+          "title": "Continuous-mode CV-QKD better reflects practical optical systems"
+        }
+      ]
+    },
     "https://quantumzeitgeist.com/blockchain-quorum-certificates-post-quantum-bypass-protocol": {
       "captures": [
         {
@@ -7781,6 +7880,26 @@
             }
           ],
           "title": "Temperature-independent loss limits superconducting qubit lifetimes"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/cornell-university-laser-cooling-quantum-computers": {
+      "captures": [
+        {
+          "excerpts": [
+            "9 in PRX Quantum, demonstrate how laser beams delivered through a microfabricated chip can cool multiple types of atomic motion simultaneously",
+            "Researchers at Cornell have developed a laser-cooling technique that could remove a significant bottleneck in the development of larger, faster quantum computers"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-13",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/cornell-university-laser-cooling-quantum-computers"
+            }
+          ],
+          "title": "Cornell’s laser cooling could speed up trapped-ion quantum computers"
         }
       ]
     },
@@ -14912,6 +15031,23 @@
               "published_date": "2026-11-13",
               "report_date": "2026-11-13",
               "sequence": 3,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/13/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-award"
+            }
+          ],
+          "title": "Atom Computing Finalizes $100 Million U.S. Department of Commerce R&D Award"
+        },
+        {
+          "excerpts": [
+            "Atom Computing today announced it has signed an agreement for up to $100 million with the U.S. Department of Commerce to accelerate research and development of fault-tolerant, utility-scale quantum computers",
+            "Hardware constraints now shape quantum error correction circuits — already featured in Strategic Signals. [Open item](https://quantumzeitgeist.com/freie-berlin-quantum-error-correction-circuits)",
+            "Rigetti Computing Integrates Quantum Elements Constellation Platform into Error Correction Pipeline — already featured in Strategic Signals. [Open item](https://quantumcomputingreport.com/rigetti-computing-integrates-quantum-elements-constellation-platform-into-error-correction-pipeline)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-13",
+              "report_date": "2026-11-13",
+              "sequence": 5,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/11/13/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-award"
             }

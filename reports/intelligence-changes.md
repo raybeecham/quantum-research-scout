@@ -2,12 +2,12 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-11-13T04:30:52.691410+00:00_
+_Updated 2026-11-14T04:27:25.885161+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **35**
-- Added / changed / resolved: **8 / 0 / 27**
+- Material changes: **27**
+- Added / changed / resolved: **0 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
@@ -18,14 +18,7 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — deadline: 2026-12-07T23:59:00-05:00 ([evidence](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — awarding agency: GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT ([evidence](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view))
-- **DELOITTE & TOUCHE LLP** — legal business name: DELOITTE & TOUCHE LLP ([evidence](https://sam.gov/entity/F9KSDU7L9VP6/coreData))
-- **DELOITTE & TOUCHE LLP** — uei: F9KSDU7L9VP6 ([evidence](https://sam.gov/entity/F9KSDU7L9VP6/coreData))
-- **DELOITTE & TOUCHE LLP** — cage code: 3CCJ5 ([evidence](https://sam.gov/entity/F9KSDU7L9VP6/coreData))
-- **DELOITTE & TOUCHE LLP** — registration status: Active ([evidence](https://sam.gov/entity/F9KSDU7L9VP6/coreData))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view))
+- None.
 
 ## Superseded claims
 

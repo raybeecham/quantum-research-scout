@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T04:16:08.199009+00:00",
+  "updated_at": "2026-11-14T04:31:30.982572+00:00",
   "records": {
     "https://quantumcomputingreport.com/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-agreement-for-fault-tolerant-quantum-systems": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-87.png",
@@ -620,6 +620,11 @@
       "status": "unavailable",
       "fetched_at": "2026-11-14T02:16:01.890278+00:00"
     },
+    "https://arxiv.org/abs/2611.13578": {
+      "page_url": "https://arxiv.org/abs/2611.13578",
+      "status": "unavailable",
+      "fetched_at": "2026-11-14T04:16:08.199009+00:00"
+    },
     "https://quantumzeitgeist.com/ionq-quantum-tech-carahsoft-resell-government": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/carahsoft-resell-ionq-quantum-tech-us-1200x630.jpeg",
       "page_url": "https://quantumzeitgeist.com/ionq-quantum-tech-carahsoft-resell-government",
@@ -1082,6 +1087,11 @@
       "status": "failed",
       "fetched_at": "2026-11-13T07:17:17.681932+00:00"
     },
+    "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors": {
+      "page_url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+      "status": "unavailable",
+      "fetched_at": "2026-11-14T04:16:08.199009+00:00"
+    },
     "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-13.png",
       "page_url": "https://quantumcomputingreport.com/ibm-ornl-and-amd-deploy-co-located-quantum-error-correction-platform-in-poughkeepsie",
@@ -1162,15 +1172,61 @@
       "fetched_at": "2026-11-08T03:54:31.738039+00:00",
       "status": "ok"
     },
-    "https://arxiv.org/abs/2611.13578": {
-      "page_url": "https://arxiv.org/abs/2611.13578",
-      "fetched_at": "2026-11-14T04:16:08.199009+00:00",
-      "status": "unavailable"
+    "https://quantumzeitgeist.com/cornell-university-laser-cooling-quantum-computers": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/cornells-laser-cooling-could-speed-up-trapped-ion-1200x630.jpg",
+      "page_url": "https://quantumzeitgeist.com/cornell-university-laser-cooling-quantum-computers",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-14T04:31:30.982572+00:00",
+      "status": "ok"
     },
-    "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors": {
-      "page_url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
-      "fetched_at": "2026-11-14T04:16:08.199009+00:00",
-      "status": "unavailable"
+    "https://quantumzeitgeist.com/beijing-posts-continuous-mode-cv-qkd": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/continuous-mode-cv-qkd-better-reflects-practical-optical-1-1200x630.png",
+      "page_url": "https://quantumzeitgeist.com/beijing-posts-continuous-mode-cv-qkd",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-14T04:31:30.982572+00:00",
+      "status": "ok"
+    },
+    "https://quantumcomputingreport.com/german-aerospace-center-dlr-researchers-demonstrate-low-cost-benchmarked-noise-error-mitigation-across-100-qubit-ibm-and-iqm-processors": {
+      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-86.png",
+      "page_url": "https://quantumcomputingreport.com/german-aerospace-center-dlr-researchers-demonstrate-low-cost-benchmarked-noise-error-mitigation-across-100-qubit-ibm-and-iqm-processors",
+      "publisher": "Quantum Computing Report",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-14T04:31:30.982572+00:00",
+      "status": "ok"
+    },
+    "https://quantumcomputingreport.com/university-of-osaka-integrates-domestic-superconducting-quantum-processors-with-octopus-supercomputer-via-seafood-platform": {
+      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-88.png",
+      "page_url": "https://quantumcomputingreport.com/university-of-osaka-integrates-domestic-superconducting-quantum-processors-with-octopus-supercomputer-via-seafood-platform",
+      "publisher": "Quantum Computing Report",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-14T04:31:30.982572+00:00",
+      "status": "ok"
+    },
+    "https://quantumcomputingreport.com/qodex-quantum-nvidia-rtx-bbn-and-u-s-navy-researchers-forecast-unstructured-pdes-on-52-qubit-ibm-hardware": {
+      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-85.png",
+      "page_url": "https://quantumcomputingreport.com/qodex-quantum-nvidia-rtx-bbn-and-u-s-navy-researchers-forecast-unstructured-pdes-on-52-qubit-ibm-hardware",
+      "publisher": "Quantum Computing Report",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-14T04:31:30.982572+00:00",
+      "status": "ok"
+    },
+    "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents": {
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/06/16/security-padlock-digital-1260x630.jpg",
+      "page_url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents",
+      "publisher": "AWS Security Blog",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-14T04:31:30.982572+00:00",
+      "status": "ok"
+    },
+    "https://thequantuminsider.com/2026/11/13/u-s-quantum-ambitions-face-a-supply-chain-test-policy-analysts-warn": {
+      "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/11/ipuim-36tag.jpg",
+      "page_url": "https://thequantuminsider.com/2026/11/13/u-s-quantum-ambitions-face-a-supply-chain-test-policy-analysts-warn",
+      "publisher": "The Quantum Insider",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-14T04:31:30.982572+00:00",
+      "status": "ok"
     }
   }
 }

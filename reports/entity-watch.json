@@ -59,7 +59,7 @@
           "type": "rss"
         }
       ],
-      "evidence_count": 7,
+      "evidence_count": 8,
       "first_party_evidence_count": 0,
       "name": "Rigetti",
       "priority": "medium",
@@ -177,7 +177,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 5,
+      "evidence_count": 7,
       "first_party_evidence_count": 5,
       "name": "Atom Computing",
       "priority": "high",
@@ -384,7 +384,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 56,
+      "evidence_count": 58,
       "first_party_evidence_count": 5,
       "name": "IBM",
       "priority": "high",
@@ -708,8 +708,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 10,
-      "first_party_evidence_count": 4,
+      "evidence_count": 11,
+      "first_party_evidence_count": 5,
       "name": "AWS",
       "priority": "medium",
       "status": "covered",
@@ -1084,8 +1084,32 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 51,
+      "current_evidence_count": 53,
       "evidence": [
+        {
+          "date": "2026-11-13",
+          "key": "https://quantumcomputingreport.com/qodex-quantum-nvidia-rtx-bbn-and-u-s-navy-researchers-forecast-unstructured-pdes-on-52-qubit-ibm-hardware",
+          "report": "2026-11/2026-11-13-digest.md",
+          "score": 38,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QodeX Quantum, NVIDIA, RTX BBN, and U.S. Navy Researchers Forecast Unstructured PDEs on 52-Qubit IBM Hardware",
+          "url": "https://quantumcomputingreport.com/qodex-quantum-nvidia-rtx-bbn-and-u-s-navy-researchers-forecast-unstructured-pdes-on-52-qubit-ibm-hardware"
+        },
+        {
+          "date": "2026-11-13",
+          "key": "https://quantumcomputingreport.com/german-aerospace-center-dlr-researchers-demonstrate-low-cost-benchmarked-noise-error-mitigation-across-100-qubit-ibm-and-iqm-processors",
+          "report": "2026-11/2026-11-13-digest.md",
+          "score": 26,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "German Aerospace Center (DLR) Researchers Demonstrate Low-Cost Benchmarked-Noise Error Mitigation Across 100-Qubit IBM and IQM Processors",
+          "url": "https://quantumcomputingreport.com/german-aerospace-center-dlr-researchers-demonstrate-low-cost-benchmarked-noise-error-mitigation-across-100-qubit-ibm-and-iqm-processors"
+        },
         {
           "date": "2026-11-12",
           "key": "https://quantumcomputingreport.com/qunova-computing-achieves-chemical-accuracy-at-80-qubits-on-iron-sulfur-cluster-using-ibm-quantum-system-two-and-fugaku",
@@ -1601,41 +1625,17 @@
           ],
           "title": "Yonsei to Install IBM Nighthawk Quantum Processor for Research and Industry Applications",
           "url": "https://thequantuminsider.com/2026/08/12/yonsei-quantum-initiative-ibm-nighthawk-processor-installation"
-        },
-        {
-          "date": "2026-08-08",
-          "key": "https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum",
-          "report": "2026-08/2026-08-08-digest.md",
-          "score": 35,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow Using Promethium and IBM Quantum",
-          "url": "https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum"
-        },
-        {
-          "date": "2026-08-07",
-          "key": "https://thequantuminsider.com/2026/08/07/qc-ware-hybrid-quantum-classical-chemistry-workflow-ibm-quantum",
-          "report": "2026-08/2026-08-07-digest.md",
-          "score": 50,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow with IBM Quantum Hardware",
-          "url": "https://thequantuminsider.com/2026/08/07/qc-ware-hybrid-quantum-classical-chemistry-workflow-ibm-quantum"
         }
       ],
-      "evidence_count": 56,
+      "evidence_count": 58,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 5,
-      "latest_seen": "2026-11-12",
+      "latest_seen": "2026-11-13",
       "momentum": "rising",
       "name": "IBM",
-      "prior_count": 5,
+      "prior_count": 4,
       "priority": "high",
-      "recent_count": 11,
+      "recent_count": 13,
       "status": "active",
       "themes": [
         "AI Security",
@@ -4567,11 +4567,11 @@
       "first_seen": "2026-06-23",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-09",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Cloudflare",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "AI Security",
@@ -5479,12 +5479,179 @@
       "latest_seen": "2026-11-10",
       "momentum": "rising",
       "name": "DigiCert",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 2,
+      "evidence": [
+        {
+          "date": "2026-11-13",
+          "key": "https://quantumcomputingreport.com/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-agreement-for-fault-tolerant-quantum-systems",
+          "report": "2026-11/2026-11-13-digest.md",
+          "score": 119,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Atom Computing Finalizes $100 Million U.S. Department of Commerce R&D Agreement for Fault-Tolerant Quantum Systems",
+          "url": "https://quantumcomputingreport.com/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-agreement-for-fault-tolerant-quantum-systems"
+        },
+        {
+          "date": "2026-11-13",
+          "key": "https://thequantuminsider.com/2026/11/13/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-award",
+          "report": "2026-11/2026-11-13-digest.md",
+          "score": 79,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Atom Computing Finalizes $100 Million U.S. Department of Commerce R&D Award",
+          "url": "https://thequantuminsider.com/2026/11/13/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-award"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2026-06-16",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:article:published_time",
+          "entities": [
+            "Atom Computing"
+          ],
+          "historical": true,
+          "key": "https://atom-computing.com/atom-computing-raises-more-than-300-million-to-accelerate-deployment-of-fault-tolerant-neutral-atom-quantum-computers",
+          "observed_at": "2026-11-08T09:48:23.270169+00:00",
+          "published_at": "2026-06-16T13:03:00+00:00",
+          "score": 86,
+          "source": "Atom Computing News and Research",
+          "source_type": "watch",
+          "summary": "Press Release",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Atom Computing Raises More Than $300 Million to Accelerate Deployment of Fault-Tolerant, Neutral-Atom Quantum Computers - Atom Computing",
+          "url": "https://atom-computing.com/atom-computing-raises-more-than-300-million-to-accelerate-deployment-of-fault-tolerant-neutral-atom-quantum-computers/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Networking",
+          "date": "2026-03-25",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:article:published_time",
+          "entities": [
+            "Atom Computing"
+          ],
+          "historical": true,
+          "key": "https://atom-computing.com/atom-computing-announces-strategic-collaboration-with-cisco-to-advance-scalable-networked-and-distributed-quantum-computing",
+          "observed_at": "2026-11-08T09:48:23.270169+00:00",
+          "published_at": "2026-03-25T13:03:00+00:00",
+          "score": 48,
+          "source": "Atom Computing News and Research",
+          "source_type": "watch",
+          "summary": "Press Release",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Atom Computing Announces Strategic Collaboration with Cisco to Advance Scalable, Networked, and Distributed Quantum Computing - Atom Computing",
+          "url": "https://atom-computing.com/atom-computing-announces-strategic-collaboration-with-cisco-to-advance-scalable-networked-and-distributed-quantum-computing/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-11-07",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:article:published_time",
+          "entities": [
+            "Atom Computing"
+          ],
+          "historical": true,
+          "key": "https://atom-computing.com/atom-computing-selected-by-darpa-for-the-next-stage-of-exploring-near-term-utility-scale-quantum-computing-with-neutral-atoms",
+          "observed_at": "2026-11-08T09:48:23.270169+00:00",
+          "published_at": "2025-11-07T15:00:00+00:00",
+          "score": 24,
+          "source": "Atom Computing News and Research",
+          "source_type": "watch",
+          "summary": "Press Release",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Atom Computing selected by DARPA for the next stage of exploring near-term utility-scale quantum computing with neutral atoms - Atom Computing",
+          "url": "https://atom-computing.com/atom-computing-selected-by-darpa-for-the-next-stage-of-exploring-near-term-utility-scale-quantum-computing-with-neutral-atoms/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-06-12",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:article:published_time",
+          "entities": [
+            "Atom Computing"
+          ],
+          "historical": true,
+          "key": "https://atom-computing.com/improving-the-quality-reliability-and-robustness-of-logical-qubits",
+          "observed_at": "2026-11-08T09:48:23.270169+00:00",
+          "published_at": "2025-06-12T15:00:00+00:00",
+          "score": 66,
+          "source": "Atom Computing News and Research",
+          "source_type": "watch",
+          "summary": "Tech Perspective",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Improving the Quality, Reliability, and Robustness of Logical Qubits - Atom Computing",
+          "url": "https://atom-computing.com/improving-the-quality-reliability-and-robustness-of-logical-qubits/"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-04-03",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "date_source": "explicit_metadata:article:published_time",
+          "entities": [
+            "Atom Computing"
+          ],
+          "historical": true,
+          "key": "https://atom-computing.com/atom-computing-selected-by-darpa-to-explore-near-term-utility-scale-quantum-computing-with-neutral-atoms",
+          "observed_at": "2026-11-08T09:48:23.270169+00:00",
+          "published_at": "2025-04-03T15:20:00+00:00",
+          "score": 24,
+          "source": "Atom Computing News and Research",
+          "source_type": "watch",
+          "summary": "Press Release",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Atom Computing selected by DARPA to explore near-term utility-scale quantum computing with neutral atoms - Atom Computing",
+          "url": "https://atom-computing.com/atom-computing-selected-by-darpa-to-explore-near-term-utility-scale-quantum-computing-with-neutral-atoms/"
+        }
+      ],
+      "evidence_count": 7,
+      "first_seen": "2025-04-03",
+      "historical_evidence_count": 5,
+      "latest_seen": "2026-11-13",
+      "momentum": "rising",
+      "name": "Atom Computing",
+      "prior_count": 0,
+      "priority": "high",
+      "recent_count": 2,
+      "status": "active",
+      "themes": [
+        "QEC / Fault Tolerance",
+        "Quantum Hardware",
+        "Quantum Networking"
       ],
       "type": "company"
     },
@@ -6146,148 +6313,6 @@
       "type": "company"
     },
     {
-      "aliases": [],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 0,
-      "evidence": [
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2026-06-16",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "explicit_metadata:article:published_time",
-          "entities": [
-            "Atom Computing"
-          ],
-          "historical": true,
-          "key": "https://atom-computing.com/atom-computing-raises-more-than-300-million-to-accelerate-deployment-of-fault-tolerant-neutral-atom-quantum-computers",
-          "observed_at": "2026-11-08T09:48:23.270169+00:00",
-          "published_at": "2026-06-16T13:03:00+00:00",
-          "score": 86,
-          "source": "Atom Computing News and Research",
-          "source_type": "watch",
-          "summary": "Press Release",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Atom Computing Raises More Than $300 Million to Accelerate Deployment of Fault-Tolerant, Neutral-Atom Quantum Computers - Atom Computing",
-          "url": "https://atom-computing.com/atom-computing-raises-more-than-300-million-to-accelerate-deployment-of-fault-tolerant-neutral-atom-quantum-computers/"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Networking",
-          "date": "2026-03-25",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "explicit_metadata:article:published_time",
-          "entities": [
-            "Atom Computing"
-          ],
-          "historical": true,
-          "key": "https://atom-computing.com/atom-computing-announces-strategic-collaboration-with-cisco-to-advance-scalable-networked-and-distributed-quantum-computing",
-          "observed_at": "2026-11-08T09:48:23.270169+00:00",
-          "published_at": "2026-03-25T13:03:00+00:00",
-          "score": 48,
-          "source": "Atom Computing News and Research",
-          "source_type": "watch",
-          "summary": "Press Release",
-          "themes": [
-            "Quantum Networking"
-          ],
-          "title": "Atom Computing Announces Strategic Collaboration with Cisco to Advance Scalable, Networked, and Distributed Quantum Computing - Atom Computing",
-          "url": "https://atom-computing.com/atom-computing-announces-strategic-collaboration-with-cisco-to-advance-scalable-networked-and-distributed-quantum-computing/"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2025-11-07",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "explicit_metadata:article:published_time",
-          "entities": [
-            "Atom Computing"
-          ],
-          "historical": true,
-          "key": "https://atom-computing.com/atom-computing-selected-by-darpa-for-the-next-stage-of-exploring-near-term-utility-scale-quantum-computing-with-neutral-atoms",
-          "observed_at": "2026-11-08T09:48:23.270169+00:00",
-          "published_at": "2025-11-07T15:00:00+00:00",
-          "score": 24,
-          "source": "Atom Computing News and Research",
-          "source_type": "watch",
-          "summary": "Press Release",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Atom Computing selected by DARPA for the next stage of exploring near-term utility-scale quantum computing with neutral atoms - Atom Computing",
-          "url": "https://atom-computing.com/atom-computing-selected-by-darpa-for-the-next-stage-of-exploring-near-term-utility-scale-quantum-computing-with-neutral-atoms/"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2025-06-12",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "explicit_metadata:article:published_time",
-          "entities": [
-            "Atom Computing"
-          ],
-          "historical": true,
-          "key": "https://atom-computing.com/improving-the-quality-reliability-and-robustness-of-logical-qubits",
-          "observed_at": "2026-11-08T09:48:23.270169+00:00",
-          "published_at": "2025-06-12T15:00:00+00:00",
-          "score": 66,
-          "source": "Atom Computing News and Research",
-          "source_type": "watch",
-          "summary": "Tech Perspective",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Improving the Quality, Reliability, and Robustness of Logical Qubits - Atom Computing",
-          "url": "https://atom-computing.com/improving-the-quality-reliability-and-robustness-of-logical-qubits/"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2025-04-03",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "date_source": "explicit_metadata:article:published_time",
-          "entities": [
-            "Atom Computing"
-          ],
-          "historical": true,
-          "key": "https://atom-computing.com/atom-computing-selected-by-darpa-to-explore-near-term-utility-scale-quantum-computing-with-neutral-atoms",
-          "observed_at": "2026-11-08T09:48:23.270169+00:00",
-          "published_at": "2025-04-03T15:20:00+00:00",
-          "score": 24,
-          "source": "Atom Computing News and Research",
-          "source_type": "watch",
-          "summary": "Press Release",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Atom Computing selected by DARPA to explore near-term utility-scale quantum computing with neutral atoms - Atom Computing",
-          "url": "https://atom-computing.com/atom-computing-selected-by-darpa-to-explore-near-term-utility-scale-quantum-computing-with-neutral-atoms/"
-        }
-      ],
-      "evidence_count": 5,
-      "first_seen": "2025-04-03",
-      "historical_evidence_count": 5,
-      "latest_seen": "2026-06-16",
-      "momentum": "stable",
-      "name": "Atom Computing",
-      "prior_count": 0,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "dormant",
-      "themes": [
-        "Quantum Hardware",
-        "Quantum Networking"
-      ],
-      "type": "company"
-    },
-    {
       "aliases": [
         "Post-Quantum Cryptography Alliance"
       ],
@@ -6918,11 +6943,11 @@
       "first_seen": "2026-09-03",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-06",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "CISA",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -7687,9 +7712,9 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-10-30",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Infleqtion",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "medium",
       "recent_count": 0,
       "status": "quiet",
@@ -8025,11 +8050,11 @@
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-06",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Pasqal",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "medium",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -8044,8 +8069,20 @@
         "AWS Braket"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 7,
+      "current_evidence_count": 8,
       "evidence": [
+        {
+          "date": "2026-11-13",
+          "key": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents",
+          "report": "2026-11/2026-11-13-digest.md",
+          "score": 18,
+          "source": "AWS Security Blog",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents",
+          "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents"
+        },
         {
           "date": "2026-10-21",
           "key": "https://aws.amazon.com/blogs/quantum-computing/decoding-quantum-errors-with-nvidia-ising-decoding-on-aws",
@@ -8203,16 +8240,16 @@
           "url": "https://thequantuminsider.com/2026/06/24/classiq-and-hatch-advance-quantum-chemistry-in-singapore-running-on-aws"
         }
       ],
-      "evidence_count": 10,
+      "evidence_count": 11,
       "first_seen": "2026-06-24",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-10-21",
-      "momentum": "stable",
+      "latest_seen": "2026-11-13",
+      "momentum": "rising",
       "name": "AWS",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility",
         "QEC / Fault Tolerance",
@@ -8225,8 +8262,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 7,
+      "current_evidence_count": 8,
       "evidence": [
+        {
+          "date": "2026-11-13",
+          "key": "https://quantumcomputingreport.com/rigetti-computing-integrates-quantum-elements-constellation-platform-into-error-correction-pipeline",
+          "report": "2026-11/2026-11-13-digest.md",
+          "score": 68,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Rigetti Computing Integrates Quantum Elements Constellation Platform into Error Correction Pipeline",
+          "url": "https://quantumcomputingreport.com/rigetti-computing-integrates-quantum-elements-constellation-platform-into-error-correction-pipeline"
+        },
         {
           "date": "2026-11-12",
           "key": "https://thequantuminsider.com/2026/11/12/quantum-elements-helps-rigetti-predict-quantum-hardware-behavior",
@@ -8312,17 +8361,18 @@
           "url": "https://quantumzeitgeist.com/rigetti-computing-superconducting-qubit-temperature-bridges"
         }
       ],
-      "evidence_count": 7,
+      "evidence_count": 8,
       "first_seen": "2026-07-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-11-12",
+      "latest_seen": "2026-11-13",
       "momentum": "rising",
       "name": "Rigetti",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
+        "QEC / Fault Tolerance",
         "Quantum Hardware",
         "Quantum Software / Tooling"
       ],
@@ -8443,8 +8493,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 48,
+      "current_evidence_count": 49,
       "evidence": [
+        {
+          "date": "2026-11-13",
+          "key": "https://quantumzeitgeist.com/freie-berlin-quantum-error-correction-circuits",
+          "report": "2026-11/2026-11-13-digest.md",
+          "score": 77,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Hardware constraints now shape quantum error correction circuits",
+          "url": "https://quantumzeitgeist.com/freie-berlin-quantum-error-correction-circuits"
+        },
         {
           "date": "2026-11-10",
           "key": "https://quantum-journal.org/papers/q-2026-11-10-2267",
@@ -8924,29 +8986,17 @@
           ],
           "title": "NVIDIA QEC Ising Decoding Cuts Color Code Errors Over 347x",
           "url": "https://quantumzeitgeist.com/nvidia-ising-decoding-cuts-color"
-        },
-        {
-          "date": "2026-07-14",
-          "key": "https://quantumzeitgeist.com/mit-caltech-single-ion-qec",
-          "report": "2026-07/2026-07-14-digest.md",
-          "score": 83,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "MIT and Caltech Researchers Create Single Ion Achieving Quantum Error Correction (QEC)",
-          "url": "https://quantumzeitgeist.com/mit-caltech-single-ion-qec"
         }
       ],
-      "evidence_count": 52,
+      "evidence_count": 53,
       "first_seen": "2026-01-08",
       "historical_evidence_count": 4,
-      "latest_seen": "2026-11-10",
-      "momentum": "declining",
+      "latest_seen": "2026-11-13",
+      "momentum": "stable",
       "name": "Quantum error correction",
       "prior_count": 2,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "AI Security",
@@ -9733,8 +9783,20 @@
         "fault-tolerant quantum"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 30,
+      "current_evidence_count": 31,
       "evidence": [
+        {
+          "date": "2026-11-13",
+          "key": "https://quantumcomputingreport.com/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-agreement-for-fault-tolerant-quantum-systems",
+          "report": "2026-11/2026-11-13-digest.md",
+          "score": 119,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Atom Computing Finalizes $100 Million U.S. Department of Commerce R&D Agreement for Fault-Tolerant Quantum Systems",
+          "url": "https://quantumcomputingreport.com/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-agreement-for-fault-tolerant-quantum-systems"
+        },
         {
           "date": "2026-11-01",
           "key": "https://quantumzeitgeist.com/quantum-surgery-logical-qubit-error-measurement",
@@ -10288,16 +10350,16 @@
           "url": "https://atom-computing.com/improving-the-quality-reliability-and-robustness-of-logical-qubits/"
         }
       ],
-      "evidence_count": 38,
+      "evidence_count": 39,
       "first_seen": "2025-06-12",
       "historical_evidence_count": 8,
-      "latest_seen": "2026-11-01",
-      "momentum": "declining",
+      "latest_seen": "2026-11-13",
+      "momentum": "stable",
       "name": "Logical qubits",
       "prior_count": 1,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -10662,8 +10724,20 @@
       "case_sensitive_aliases": [
         "QKD"
       ],
-      "current_evidence_count": 19,
+      "current_evidence_count": 20,
       "evidence": [
+        {
+          "date": "2026-11-13",
+          "key": "https://quantumzeitgeist.com/beijing-posts-continuous-mode-cv-qkd",
+          "report": "2026-11/2026-11-13-digest.md",
+          "score": 37,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Continuous-mode CV-QKD better reflects practical optical systems",
+          "url": "https://quantumzeitgeist.com/beijing-posts-continuous-mode-cv-qkd"
+        },
         {
           "date": "2026-10-31",
           "key": "https://quantumcomputingreport.com/university-of-stuttgart-deploys-quantum-dot-qkd-link-using-frequency-conversion-over-campus-fiber",
@@ -10965,16 +11039,16 @@
           "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-to-showcase-quantum-secure-communications-beyond-quantum-key-distribution-at-ecoc-2026"
         }
       ],
-      "evidence_count": 22,
+      "evidence_count": 23,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-10-31",
-      "momentum": "declining",
+      "latest_seen": "2026-11-13",
+      "momentum": "stable",
       "name": "Quantum key distribution",
       "prior_count": 1,
       "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Networking"
       ],
@@ -11222,11 +11296,11 @@
       "first_seen": "2026-07-16",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-07",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Quantum networking",
-      "prior_count": 0,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -11632,6 +11706,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-11-13T04:36:07.426575+00:00",
+  "updated_at": "2026-11-14T04:30:49.554165+00:00",
   "version": 2
 }

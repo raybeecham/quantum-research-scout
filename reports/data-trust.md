@@ -1,6 +1,6 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-11-13T04:30:52.691410+00:00_
+_Updated 2026-11-14T04:27:25.885161+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
@@ -19,8 +19,8 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 - **Match appears only in collector query metadata**: 138
 - **No relevant term in the evidence itself**: 138
-- **Official government source**: 99
-- **Source is not an official .gov or .mil domain**: 39
+- **Official government source**: 98
+- **Source is not an official .gov or .mil domain**: 40
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -31,6 +31,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [Atom Computing Finalizes $100 Million U.S. Department of Commerce R&D Agreement for Fault-Tolerant Quantum Systems](https://quantumcomputingreport.com/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-agreement-for-fault-tolerant-quantum-systems)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [IonQ quantum system faces DARPA test for real-world value](https://quantumzeitgeist.com/ionq-stage-c-validation)
 
@@ -705,13 +712,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [Logistics Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U24 Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/359268)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/359271)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
