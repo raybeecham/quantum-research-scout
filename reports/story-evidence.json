@@ -1,6 +1,26 @@
 {
   "method": "Source-specific briefings reconstructed from dated daily digests and hourly news snapshots, not full article copies. Publication dates come from explicit Published metadata. First and last observations are report dates, not publication or publisher update times. Captured-content changes compare titles and collected excerpts only; they do not establish that the publisher changed an article. Public evidence is retained before old daily digests are pruned. Excerpts are capped at 3,000 characters each. Current rule-based interpretation may evolve when Frontier Signal's rules change.",
   "records": {
+    "http://www.ietf.org/blog/iab-pq-workshop-impressions": {
+      "captures": [
+        {
+          "excerpts": [
+            "In October, the Internet Architecture Board (IAB) held a two-day workshop in Prague with people who are deploying post-quantum authentication",
+            "These are the first impressions from the co-chairs, ahead of the full workshop report"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-12",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "IETF Post-Quantum Updates",
+              "url": "http://www.ietf.org/blog/iab-pq-workshop-impressions"
+            }
+          ],
+          "title": "Post-Quantum Authentication: Lessons from Prague"
+        }
+      ]
+    },
     "https://arxiv.org/abs/2501.18158": {
       "captures": [
         {
@@ -6639,6 +6659,26 @@
             }
           ],
           "title": "Quantum Art Unveils Geometric Quantum Algorithm for Wave Propagation, Bypassing Condition-Number Bottlenecks"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/quantum-xchange-phio-tx-becomes-first-post-quantum-cryptographic-management-platform-to-earn-eucc-certification": {
+      "captures": [
+        {
+          "excerpts": [
+            "Quantum XChange's Phio TX cryptographic management software (version 4.5.6) is the first post-quantum cryptography (PQC) management platform to achieve EUCC certification, adding to its existing U.S. FIPS validation",
+            "This certification, valid until November 9, 2031, allows for the secure deployment of post-quantum algorithms and quantum key distribution interfaces within the European Union, simplifying procurement and supporting..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-13",
+              "report_date": "2026-11-13",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/quantum-xchange-phio-tx-becomes-first-post-quantum-cryptographic-management-platform-to-earn-eucc-certification"
+            }
+          ],
+          "title": "Quantum XChange Phio TX Becomes First Post-Quantum Cryptographic Management Platform to Earn EUCC Certification"
         }
       ]
     },
