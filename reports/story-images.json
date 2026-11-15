@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T06:15:44.860819+00:00",
+  "updated_at": "2026-11-15T07:15:40.627501+00:00",
   "records": {
     "https://quantumcomputingreport.com/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-agreement-for-fault-tolerant-quantum-systems": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-87.png",
@@ -48,6 +48,14 @@
       "publisher": "Quantum Computing Report",
       "provenance": "og:image",
       "fetched_at": "2026-11-15T01:15:32.944748+00:00",
+      "status": "ok"
+    },
+    "https://quantumzeitgeist.com/lumen-investment-quantum-invests-networking-research": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/lumen-invests-in-quantum-networking-research-at-ohio.jpg",
+      "page_url": "https://quantumzeitgeist.com/lumen-investment-quantum-invests-networking-research",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-13T16:17:13.323874+00:00",
       "status": "ok"
     },
     "https://quantumcomputingreport.com/university-of-osaka-integrates-domestic-superconducting-quantum-processors-with-octopus-supercomputer-via-seafood-platform": {
@@ -144,14 +152,6 @@
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-11-13T12:15:40.314056+00:00",
-      "status": "ok"
-    },
-    "https://quantumzeitgeist.com/lumen-investment-quantum-invests-networking-research": {
-      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/lumen-invests-in-quantum-networking-research-at-ohio.jpg",
-      "page_url": "https://quantumzeitgeist.com/lumen-investment-quantum-invests-networking-research",
-      "publisher": "Quantum Zeitgeist",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-13T16:17:13.323874+00:00",
       "status": "ok"
     },
     "https://thequantuminsider.com/2026/11/12/cyberrisk-collaborative-virtual-event-post-quantum-readiness": {
@@ -620,31 +620,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-11-11T19:47:11.820464+00:00",
       "status": "ok"
-    },
-    "https://arxiv.org/abs/2611.13301": {
-      "page_url": "https://arxiv.org/abs/2611.13301",
-      "status": "unavailable",
-      "fetched_at": "2026-11-14T07:15:33.505341+00:00"
-    },
-    "https://arxiv.org/abs/2611.13174": {
-      "page_url": "https://arxiv.org/abs/2611.13174",
-      "status": "unavailable",
-      "fetched_at": "2026-11-14T07:15:33.505341+00:00"
-    },
-    "https://arxiv.org/abs/2611.13799": {
-      "page_url": "https://arxiv.org/abs/2611.13799",
-      "status": "unavailable",
-      "fetched_at": "2026-11-14T07:15:33.505341+00:00"
-    },
-    "https://arxiv.org/abs/2611.13371": {
-      "page_url": "https://arxiv.org/abs/2611.13371",
-      "status": "unavailable",
-      "fetched_at": "2026-11-14T07:15:33.505341+00:00"
-    },
-    "https://arxiv.org/abs/2611.13111": {
-      "page_url": "https://arxiv.org/abs/2611.13111",
-      "status": "unavailable",
-      "fetched_at": "2026-11-14T07:15:33.505341+00:00"
     },
     "https://quantumcomputingreport.com/carahsoft-builds-federal-quantum-catalog-with-ionq-and-pqsecure-partnerships": {
       "page_url": "https://quantumcomputingreport.com/carahsoft-builds-federal-quantum-catalog-with-ionq-and-pqsecure-partnerships",
@@ -1139,15 +1114,40 @@
       "status": "unavailable",
       "fetched_at": "2026-11-14T08:15:38.116707+00:00"
     },
-    "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0020_8000_-NONE-_-NONE-": {
-      "page_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0020_8000_-NONE-_-NONE-",
-      "status": "unavailable",
-      "fetched_at": "2026-11-14T07:15:33.505341+00:00"
-    },
     "https://arxiv.org/abs/2611.09734": {
       "page_url": "https://arxiv.org/abs/2611.09734",
       "status": "unavailable",
       "fetched_at": "2026-11-14T08:15:38.116707+00:00"
+    },
+    "https://arxiv.org/abs/2611.13301": {
+      "page_url": "https://arxiv.org/abs/2611.13301",
+      "fetched_at": "2026-11-15T07:15:40.627501+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.13174": {
+      "page_url": "https://arxiv.org/abs/2611.13174",
+      "fetched_at": "2026-11-15T07:15:40.627501+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.13799": {
+      "page_url": "https://arxiv.org/abs/2611.13799",
+      "fetched_at": "2026-11-15T07:15:40.627501+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.13371": {
+      "page_url": "https://arxiv.org/abs/2611.13371",
+      "fetched_at": "2026-11-15T07:15:40.627501+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.13111": {
+      "page_url": "https://arxiv.org/abs/2611.13111",
+      "fetched_at": "2026-11-15T07:15:40.627501+00:00",
+      "status": "unavailable"
+    },
+    "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0020_8000_-NONE-_-NONE-": {
+      "page_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC27C0020_8000_-NONE-_-NONE-",
+      "fetched_at": "2026-11-15T07:15:40.627501+00:00",
+      "status": "unavailable"
     }
   }
 }
