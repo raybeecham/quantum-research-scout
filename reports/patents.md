@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-14T04:27:25.885161+00:00_
+_Updated 2026-11-15T04:12:35.301684+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -13,9 +13,9 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Tracked publications: **250**
 - Curated notable patents: **2**
 - Automated recent discoveries: **248**
-- Published in the last 30 days: **56**
+- Published in the last 30 days: **48**
 - Unique named assignees: **141**
-- Patent families: **291**
+- Patent families: **292**
 - Applications / grants: **241 / 9**
 - Known legal status: **228 of 250**
 - Publications with citation evidence: **0**
@@ -262,6 +262,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [QUANTUM DIALOGUE METHOD AND DEVICE IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19500156/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [Large-scale multi-qubit trapped-ion gates](https://data.uspto.gov/patent-file-wrapper/search/details/19489905/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Quantum Art Ltd., YEDA RESEARCH AND DEVELOPMENT CO. LTD. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
+| [Fluxonium-Qubit Control via Baseband Voltage Pulses](https://data.uspto.gov/patent-file-wrapper/search/details/19517421/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Agustin DI PAOLO, Google LLC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [DEVICE AND METHOD FOR UPDATING NETWORK INFORMATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147505/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [DEVICE AND METHOD FOR CARRYING OUT LINK SET CONFIGURATION-BASED QUANTUM RESOURCE ALLOCATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147275/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [APPARATUS AND METHOD FOR PERFORMING QUANTUM STATE MODULATION ON BASIS OF QUANTUM SECURE DIRECT COMMUNICATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19128044/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
@@ -309,4 +310,3 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [SECURE LARGE LANGUAGE MODEL (LLM) DEPLOYMENT IN AN ENTERPRISE](https://data.uspto.gov/patent-file-wrapper/search/details/19701884/application-data)<br><small>US20260303321A1</small> | Application · Pending | Constructor Education and Research Genossenschaft, Constructor Technology AG | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [LARGE LANGUAGE MODEL (LLM) WITH SOLVER SELECTION FOR OPTIMIZATION PROBLEMS](https://data.uspto.gov/patent-file-wrapper/search/details/19631780/application-data)<br><small>US20260300425A1</small> | Application · Pending | PwC Product Sales LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [DYNAMICALLY PREPROCESSING OF STREAMING VIDEO DATA AND REVIEW OF THE VIDEO DATA BY A LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19698880/application-data)<br><small>US20260303932A1</small> | Application · Pending | Insight Direct USA, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
-| [DETECTION AND FILTRATION OF PHANTOM PACKAGES IN LARGE LANGUAGE MODEL GENERATED CODE](https://data.uspto.gov/patent-file-wrapper/search/details/19692121/application-data)<br><small>US20260288954A1</small> | Application · Pending | INTUIT INC. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |

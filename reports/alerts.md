@@ -4,13 +4,13 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-14 04:30 UTC_
+_Updated 2026-11-15 04:16 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 5 | 9 | 7 | 34 |
+| 50 | 4 | 9 | 11 | 30 |
 
-## 🔴 Contract: Atom Computing 🆕
+## 🔴 Contract: Atom Computing
 
 - Severity: **critical**
 - Status: **contract**
@@ -36,7 +36,7 @@ _Updated 2026-11-14 04:30 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 QEC / Fault Tolerance has critical strategic importance and stable momentum.
+- 🔴 QEC / Fault Tolerance has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Hardware
@@ -57,7 +57,7 @@ _Updated 2026-11-14 04:30 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Sensing has critical strategic importance and stable momentum.
+- 🔴 Quantum Sensing has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Software / Tooling
@@ -74,11 +74,25 @@ _Updated 2026-11-14 04:30 UTC_
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
+## 🟠 Actionable signal: QEC / Fault Tolerance 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 QEC / Fault Tolerance is actionable with high confidence.
+- [Open supporting view](signals.md)
+
 ## 🟠 Actionable signal: Quantum Hardware
 
 - Severity: **high**
 - Status: **actionable**
 - 🎯 Quantum Hardware is actionable with high confidence.
+- [Open supporting view](signals.md)
+
+## 🟠 Actionable signal: Quantum Sensing 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: Quantum Software / Tooling
@@ -103,18 +117,32 @@ _Updated 2026-11-14 04:30 UTC_
 - [Open direct evidence](https://quantumcomputingreport.com/kipu-quantum-launches-rimay-quantum-feature-extraction-in-ibm-quantum-functions-catalog)
 - [Open supporting view](entity-watch.md)
 
+## 🟠 Rising momentum: QEC / Fault Tolerance 🆕
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 7 versus 4 in the prior period.
+- [Open supporting view](signals.md)
+
 ## 🟠 Rising momentum: Quantum Hardware
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 33 versus 5 in the prior period.
+- ↗️ Recent evidence is 32 versus 5 in the prior period.
+- [Open supporting view](signals.md)
+
+## 🟠 Rising momentum: Quantum Sensing 🆕
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 1 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Software / Tooling
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 5 versus 3 in the prior period.
+- ↗️ Recent evidence is 6 versus 3 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Standards / Government
@@ -250,7 +278,7 @@ _Updated 2026-11-14 04:30 UTC_
 - The latest dated item is from 2026-10-28; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Keyfactor Quantum and Crypto-Agility 🆕
+## 🟡 Source stale: Keyfactor Quantum and Crypto-Agility
 
 - Severity: **medium**
 - Status: **stale**
@@ -332,32 +360,4 @@ _Updated 2026-11-14 04:30 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-01; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Genesis Mission
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Golden Dome 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-04-01; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Quantum Benchmarking Initiative 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2025-10-06; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: White House Science and Technology Missions 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-29; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
