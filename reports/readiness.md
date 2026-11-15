@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-11-15 04:16 UTC_
+_Updated 2026-11-15 10:16 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
@@ -14,23 +14,23 @@ Assessed **23 of 43** configured organizations.
 |---|---|---|---:|---:|---:|---|
 | IonQ | Pilot / Testing | high | 7 | 2 | 5 | 2026-10-29 |
 | QuSecure | Pilot / Testing | high | 21 | 4 | 17 | 2026-09-22 |
+| Fortanix | Pilot / Testing | medium | 18 | 1 | 18 | 2026-11-12 |
 | PQShield | Pilot / Testing | medium | 9 | 1 | 0 | 2026-10-23 |
 | Wiz | Pilot / Testing | medium | 4 | 1 | 4 | 2026-07-02 |
 | Accenture / Accenture Federal Services | Planning | high | 4 | 2 | 4 | 2026-08-27 |
-| Cisco | Planning | high | 27 | 2 | 17 | 2026-10-22 |
+| Cisco | Planning | high | 22 | 2 | 12 | 2026-10-22 |
 | DigiCert | Planning | high | 6 | 4 | 0 | 2026-09-25 |
 | Keyfactor | Planning | high | 14 | 3 | 6 | 2026-10-29 |
 | NIST | Planning | high | 13 | 6 | 1 | 2026-10-28 |
 | AWS | Planning | medium | 3 | 2 | 2 | 2026-07-14 |
 | CISA | Planning | medium | 2 | 1 | 0 | 2026-11-05 |
-| Fortanix | Planning | medium | 18 | 1 | 18 | 2026-10-08 |
 | Thales | Planning | medium | 3 | 3 | 0 | 2026-11-10 |
 | PQCA | Inventory | medium | 2 | 1 | 0 | 2026-10-07 |
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
 | Cloudflare | Awareness | high | 11 | 4 | 0 | 2026-11-09 |
+| IETF | Awareness | high | 4 | 3 | 3 | 2026-11-12 |
 | ANSSI | Awareness | medium | 2 | 1 | 0 | 2026-09-03 |
 | IBM | Awareness | medium | 2 | 2 | 0 | 2026-11-01 |
-| IETF | Awareness | medium | 3 | 3 | 2 | 2026-08-28 |
 | ISO/IEC | Awareness | medium | 2 | 2 | 0 | 2026-07-15 |
 | Booz Allen Hamilton | Awareness | low | 1 | 1 | 1 | 2025-02-06 |
 | Pasqal | Awareness | low | 1 | 1 | 0 | 2026-08-31 |

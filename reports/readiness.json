@@ -298,6 +298,149 @@
     },
     {
       "confidence": "medium",
+      "evidence_count": 18,
+      "historical_evidence_count": 18,
+      "latest_evidence_at": "2026-11-12",
+      "name": "Fortanix",
+      "priority": "high",
+      "source_count": 1,
+      "stage": "pilot",
+      "stage_label": "Pilot / Testing",
+      "stage_rank": 4,
+      "supporting_evidence": [
+        {
+          "date": "2026-11-12",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "testing"
+          ],
+          "observed_stage": "pilot",
+          "observed_stage_label": "Pilot / Testing",
+          "rank": 4,
+          "source": "Fortanix Quantum Security",
+          "title": "Roadmap for Post-Quantum Cryptography (PQC) Migration",
+          "url": "https://www.fortanix.com/blog/practical-roadmap-for-post-quantum-cryptography-pqc-migration"
+        },
+        {
+          "date": "2026-10-08",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "prepare for"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "How to Prepare for Post-Quantum Cryptography",
+          "url": "https://www.fortanix.com/blog/how-to-prepare-for-post-quantum-cryptography-pqc"
+        },
+        {
+          "date": "2026-10-05",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness",
+            "migration plan",
+            "crypto-agility",
+            "risk assessment"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "A Guide to Post-Quantum Cryptography (PQC) Readiness",
+          "url": "https://www.fortanix.com/blog/post-quantum-cryptography-pqc-readiness-guide"
+        },
+        {
+          "date": "2026-07-30",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "prepare for",
+            "preparing for",
+            "crypto agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "Quantum-Safe Encryption with HSM: Preparing for the Future",
+          "url": "https://www.fortanix.com/blog/quantum-safe-encryption-with-hsm-preparing-for-the-future"
+        },
+        {
+          "date": "2026-02-04",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness",
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "Guide to Mastering Data Security in Post-Quantum World",
+          "url": "https://www.fortanix.com/blog/guide-to-mastering-data-security-in-post-quantum-world"
+        },
+        {
+          "date": "2026-01-15",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "readiness",
+            "crypto agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "How Crypto Agility Defines the Next-Gen HSM",
+          "url": "https://www.fortanix.com/blog/how-crypto-agility-defines-the-next-gen-hsm"
+        },
+        {
+          "date": "2026-01-14",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility",
+            "governance"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "Quantum Data Governance: Securing AI Training Data in a Post-Quantum World",
+          "url": "https://www.fortanix.com/blog/quantum-data-governance-securing-ai-training-data-in-a-post-quantum-world"
+        },
+        {
+          "date": "2025-08-06",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "prepare for"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Fortanix Quantum Security",
+          "title": "Quantum Key Encryption in a Post-Quantum World",
+          "url": "https://www.fortanix.com/blog/quantum-key-encryption-in-a-post-quantum-world"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "medium",
       "evidence_count": 9,
       "historical_evidence_count": 0,
       "latest_evidence_at": "2026-10-23",
@@ -589,8 +732,8 @@
     },
     {
       "confidence": "high",
-      "evidence_count": 27,
-      "historical_evidence_count": 17,
+      "evidence_count": 22,
+      "historical_evidence_count": 12,
       "latest_evidence_at": "2026-10-22",
       "name": "Cisco",
       "priority": "high",
@@ -841,7 +984,7 @@
       "stage_rank": 3,
       "supporting_evidence": [
         {
-          "date": "2026-10-26",
+          "date": "2026-10-27",
           "date_confidence": "high",
           "date_kind": "published",
           "historical": true,
@@ -857,7 +1000,7 @@
           "url": "https://www.keyfactor.com/blog/the-5-stages-of-pqc-readiness-a-practical-framework-for-enterprise-migration/"
         },
         {
-          "date": "2026-10-26",
+          "date": "2026-10-27",
           "date_confidence": "high",
           "date_kind": "published",
           "historical": true,
@@ -872,7 +1015,7 @@
           "url": "https://www.keyfactor.com/blog/pqc-readiness-stage-5-how-continuous-resilience-keeps-you-quantum-ready-as-algorithms-evolve/"
         },
         {
-          "date": "2026-10-26",
+          "date": "2026-10-27",
           "date_confidence": "high",
           "date_kind": "published",
           "historical": true,
@@ -889,7 +1032,7 @@
           "url": "https://www.keyfactor.com/blog/pqc-readiness-stage-4-how-agility-and-automation-enable-pqc-migration-at-scale/"
         },
         {
-          "date": "2026-10-26",
+          "date": "2026-10-27",
           "date_confidence": "high",
           "date_kind": "published",
           "historical": true,
@@ -904,7 +1047,7 @@
           "url": "https://www.keyfactor.com/blog/pqc-readiness-stage-1-how-awareness-and-alignment-lay-the-foundation-for-pqc-migration/"
         },
         {
-          "date": "2026-10-26",
+          "date": "2026-10-27",
           "date_confidence": "high",
           "date_kind": "published",
           "historical": true,
@@ -1209,149 +1352,6 @@
     },
     {
       "confidence": "medium",
-      "evidence_count": 18,
-      "historical_evidence_count": 18,
-      "latest_evidence_at": "2026-10-08",
-      "name": "Fortanix",
-      "priority": "high",
-      "source_count": 1,
-      "stage": "planning",
-      "stage_label": "Planning",
-      "stage_rank": 3,
-      "supporting_evidence": [
-        {
-          "date": "2026-10-08",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "prepare for"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Fortanix Quantum Security",
-          "title": "How to Prepare for Post-Quantum Cryptography",
-          "url": "https://www.fortanix.com/blog/how-to-prepare-for-post-quantum-cryptography-pqc"
-        },
-        {
-          "date": "2026-10-05",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "readiness",
-            "migration plan",
-            "crypto-agility",
-            "risk assessment"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Fortanix Quantum Security",
-          "title": "A Guide to Post-Quantum Cryptography (PQC) Readiness",
-          "url": "https://www.fortanix.com/blog/post-quantum-cryptography-pqc-readiness-guide"
-        },
-        {
-          "date": "2026-07-30",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "prepare for",
-            "preparing for",
-            "crypto agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Fortanix Quantum Security",
-          "title": "Quantum-Safe Encryption with HSM: Preparing for the Future",
-          "url": "https://www.fortanix.com/blog/quantum-safe-encryption-with-hsm-preparing-for-the-future"
-        },
-        {
-          "date": "2026-02-04",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "readiness",
-            "crypto-agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Fortanix Quantum Security",
-          "title": "Guide to Mastering Data Security in Post-Quantum World",
-          "url": "https://www.fortanix.com/blog/guide-to-mastering-data-security-in-post-quantum-world"
-        },
-        {
-          "date": "2026-01-15",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "readiness",
-            "crypto agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Fortanix Quantum Security",
-          "title": "How Crypto Agility Defines the Next-Gen HSM",
-          "url": "https://www.fortanix.com/blog/how-crypto-agility-defines-the-next-gen-hsm"
-        },
-        {
-          "date": "2026-01-14",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "crypto-agility",
-            "governance"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Fortanix Quantum Security",
-          "title": "Quantum Data Governance: Securing AI Training Data in a Post-Quantum World",
-          "url": "https://www.fortanix.com/blog/quantum-data-governance-securing-ai-training-data-in-a-post-quantum-world"
-        },
-        {
-          "date": "2025-08-06",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "prepare for"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Fortanix Quantum Security",
-          "title": "Quantum Key Encryption in a Post-Quantum World",
-          "url": "https://www.fortanix.com/blog/quantum-key-encryption-in-a-post-quantum-world"
-        },
-        {
-          "date": "2025-07-23",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "prepare for"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "Fortanix Quantum Security",
-          "title": "Quantum Security for Post-Quantum Cryptography",
-          "url": "https://www.fortanix.com/blog/quantum-security-for-post-quantum-cryptography"
-        }
-      ],
-      "type": "company"
-    },
-    {
-      "confidence": "medium",
       "evidence_count": 3,
       "historical_evidence_count": 0,
       "latest_evidence_at": "2026-11-10",
@@ -1621,6 +1621,81 @@
       "type": "company"
     },
     {
+      "confidence": "high",
+      "evidence_count": 4,
+      "historical_evidence_count": 3,
+      "latest_evidence_at": "2026-11-12",
+      "name": "IETF",
+      "priority": "high",
+      "source_count": 3,
+      "stage": "awareness",
+      "stage_label": "Awareness",
+      "stage_rank": 1,
+      "supporting_evidence": [
+        {
+          "date": "2026-11-12",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "IETF Post-Quantum Updates",
+          "title": "Post-Quantum Authentication: Lessons from Prague",
+          "url": "http://www.ietf.org/blog/iab-pq-workshop-impressions/"
+        },
+        {
+          "date": "2026-08-28",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "IETF workshop to speed up post-quantum authentication rollout",
+          "url": "https://quantumzeitgeist.com/nist-post-quantum-authentication-ietf-workshop"
+        },
+        {
+          "date": "2026-08-27",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "IETF Post-Quantum Updates",
+          "title": "Post-Quantum Authentication: Up Next",
+          "url": "http://www.ietf.org/blog/iab-pq-workshop-cfp/"
+        },
+        {
+          "date": null,
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "IETF PQUIP",
+          "title": "Post-Quantum Use In Protocols (pquip)",
+          "url": "https://datatracker.ietf.org/group/pquip/about/"
+        }
+      ],
+      "type": "standards"
+    },
+    {
       "confidence": "medium",
       "evidence_count": 2,
       "historical_evidence_count": 0,
@@ -1711,66 +1786,6 @@
         }
       ],
       "type": "company"
-    },
-    {
-      "confidence": "medium",
-      "evidence_count": 3,
-      "historical_evidence_count": 2,
-      "latest_evidence_at": "2026-08-28",
-      "name": "IETF",
-      "priority": "high",
-      "source_count": 3,
-      "stage": "awareness",
-      "stage_label": "Awareness",
-      "stage_rank": 1,
-      "supporting_evidence": [
-        {
-          "date": "2026-08-28",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Quantum Zeitgeist",
-          "title": "IETF workshop to speed up post-quantum authentication rollout",
-          "url": "https://quantumzeitgeist.com/nist-post-quantum-authentication-ietf-workshop"
-        },
-        {
-          "date": "2026-08-27",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "IETF Post-Quantum Updates",
-          "title": "Post-Quantum Authentication: Up Next",
-          "url": "http://www.ietf.org/blog/iab-pq-workshop-cfp/"
-        },
-        {
-          "date": null,
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": true,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "IETF PQUIP",
-          "title": "Post-Quantum Use In Protocols (pquip)",
-          "url": "https://datatracker.ietf.org/group/pquip/about/"
-        }
-      ],
-      "type": "standards"
     },
     {
       "confidence": "medium",
@@ -2194,12 +2209,12 @@
       "awareness": 8,
       "inventory": 2,
       "not_assessed": 20,
-      "pilot": 4,
-      "planning": 9
+      "pilot": 5,
+      "planning": 8
     },
     "not_assessed": 20,
     "organizations": 43
   },
-  "updated_at": "2026-11-15T04:16:44.083577+00:00",
+  "updated_at": "2026-11-15T10:16:38.716048+00:00",
   "version": 1
 }

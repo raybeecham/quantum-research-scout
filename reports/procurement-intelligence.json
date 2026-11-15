@@ -40,7 +40,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:1106202612072026",
-              "retrieved_at": "2026-11-15T04:12:35.301684+00:00",
+              "retrieved_at": "2026-11-15T10:16:38.716048+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view"
             },
             "value": "Yes"
@@ -55,7 +55,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:1106202612072026",
-              "retrieved_at": "2026-11-15T04:12:35.301684+00:00",
+              "retrieved_at": "2026-11-15T10:16:38.716048+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view"
             },
             "value": "2026-12-07T23:59:00-05:00"
@@ -70,13 +70,13 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:1106202612072026",
-              "retrieved_at": "2026-11-15T04:12:35.301684+00:00",
+              "retrieved_at": "2026-11-15T10:16:38.716048+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-11-15T04:12:35.301684+00:00",
+        "observed_at": "2026-11-15T10:16:38.716048+00:00",
         "snapshot_id": "snapshot:bb86e649d0f7207a0ab2"
       },
       "days_to_close": 22,
@@ -88,7 +88,7 @@
         {
           "active": true,
           "byte_count": 12769,
-          "cache_status": "fresh",
+          "cache_status": "unavailable",
           "content_type": "application/octet-stream",
           "current_version_id": "version:a6a9d4c9624d68afd745",
           "deadline_mentions": [],
@@ -97,6 +97,7 @@
           "document_role": "attachment",
           "eligibility": [],
           "emails": [],
+          "error": "No download client or run download budget available",
           "evaluation_criteria": [],
           "extraction_status": "no_text",
           "fetched_at": "2026-11-14T04:27:25.885161+00:00",
@@ -125,7 +126,7 @@
         {
           "active": true,
           "byte_count": 4445,
-          "cache_status": "refreshed",
+          "cache_status": "fresh",
           "content_type": "application/hal+json",
           "current_version_id": "version:c425a6f83904f5086393",
           "deadline_mentions": [],
@@ -1516,7 +1517,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:HQ0202-26-S-0001",
-              "retrieved_at": "2026-11-15T04:12:35.301684+00:00",
+              "retrieved_at": "2026-11-15T10:16:38.716048+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
             },
             "value": "Yes"
@@ -1531,7 +1532,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:HQ0202-26-S-0001",
-              "retrieved_at": "2026-11-15T04:12:35.301684+00:00",
+              "retrieved_at": "2026-11-15T10:16:38.716048+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
             },
             "value": "2031-04-01T23:59:00-04:00"
@@ -1546,7 +1547,7 @@
                 "field": "set_aside"
               },
               "opportunity_key": "sam_gov:HQ0202-26-S-0001",
-              "retrieved_at": "2026-11-15T04:12:35.301684+00:00",
+              "retrieved_at": "2026-11-15T10:16:38.716048+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
             },
             "value": "No Set aside used"
@@ -1561,13 +1562,13 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:HQ0202-26-S-0001",
-              "retrieved_at": "2026-11-15T04:12:35.301684+00:00",
+              "retrieved_at": "2026-11-15T10:16:38.716048+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-11-15T04:12:35.301684+00:00",
+        "observed_at": "2026-11-15T10:16:38.716048+00:00",
         "snapshot_id": "snapshot:253c2371821b36951b27"
       },
       "days_to_close": 1598,
@@ -1590,7 +1591,7 @@
         {
           "active": true,
           "byte_count": 346272,
-          "cache_status": "fresh",
+          "cache_status": "unavailable",
           "characters_extracted": 21520,
           "content_type": "application/octet-stream",
           "current_version_id": "version:c92d71634023dead76cb",
@@ -1614,6 +1615,7 @@
           "emails": [
             "osd.pentagon.ousd-r-e.mbx.gda-contracting@mail.mil"
           ],
+          "error": "No download client or run download budget available",
           "evaluation_criteria": [
             "include a firm, binding price proposal (such as a fixed-price milestone schedule) with sufficient detail regarding the technical approach, scope of work, deliverables, and price to support a fair and reasonable determination. \u2022 Two-Step Process: The Government may first review a white paper\u2026",
             "the technical quality of the submission based on the following: \u2022 Technical Merit, Novelty, & Innovation: The proposed technical approach is innovative, feasible, achievable, and complete. \u2022 Technical Team Capabilities & Qualifications: The proposed technical approach has operational utility,\u2026",
@@ -2225,7 +2227,7 @@
         {
           "active": true,
           "byte_count": 217013,
-          "cache_status": "refreshed",
+          "cache_status": "fresh",
           "characters_extracted": 17396,
           "content_type": "application/octet-stream",
           "current_version_id": "version:de29a7e752bb9327fd9f",
@@ -2692,7 +2694,7 @@
         {
           "active": true,
           "byte_count": 3440,
-          "cache_status": "refreshed",
+          "cache_status": "fresh",
           "content_type": "application/hal+json",
           "current_version_id": "version:91db374496ef9f52b09d",
           "deadline_mentions": [],
@@ -2890,6 +2892,6 @@
     "new_amendments": 0,
     "opportunities_reviewed": 2
   },
-  "updated_at": "2026-11-15T04:12:35.301684+00:00",
+  "updated_at": "2026-11-15T10:16:38.716048+00:00",
   "version": 2
 }
