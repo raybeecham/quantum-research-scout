@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-15 19:15 UTC_
+_Updated 2026-11-15 20:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -16,7 +16,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 |---|---|---:|---:|---:|---|---|---|---|
 | Department of War Strategic Technology News | watch | 98% | 10 | 0 | 2026-11-15 | 2026-10-23 | stale | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 95% | 10 | 0 | 2026-11-15 | 2026-09-24 | stale | 🟢 healthy |
-| Google Quantum AI | watch | 45% | 10 | 0 | 2026-11-15 | 2026-10-15 | fresh | 🟢 healthy |
+| Google Quantum AI | watch | 46% | 10 | 0 | 2026-11-15 | 2026-10-15 | fresh | 🟢 healthy |
 | White House Science and Technology Missions | watch | 94% | 10 | 0 | 2026-11-15 | 2026-09-29 | stale | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 61% | 7 | 0 | 2026-11-10 | 2026-10-28 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 61% | 7 | 0 | 2026-11-10 | 2026-10-29 | standby | ⚪ standby |
@@ -25,7 +25,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Computing Report | rss | 94% | 3 | 0 | 2026-11-15 | 2026-11-14 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 91% | 1 | 1 | 2026-11-15 | 2026-11-13 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 91% | 1 | 1 | 2026-11-15 | 2026-11-13 | fresh | 🟢 healthy |
-| Quantum Journal | rss | 97% | 1 | 0 | 2026-11-15 | 2026-11-10 | fresh | 🟢 healthy |
+| Quantum Journal | rss | 97% | 1 | 0 | 2026-11-15 | 2026-11-10 | fresh | 🔴 failing |
 | Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-15 | 2026-11-15 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 11 | 2026-11-15 | 2026-11-13 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 3 | 2026-11-15 | 2024-03-12 | reference | 🟢 healthy |
@@ -133,8 +133,8 @@ RSS and API are measured separately. Standby means no API request was made; work
 
 ## Operational Coverage
 
-- Coverage status: **HEALTHY**
-- Healthy sources: **105** of **108**
+- Coverage status: **WATCH**
+- Healthy sources: **104** of **108**
 - Partial-coverage sources: **0**
 - Critical sources failing: **0**
 
