@@ -7,9 +7,9 @@
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 92.4,
+      "acceptance_rate": 92.6,
       "accepted": 500,
-      "quarantined": 41,
+      "quarantined": 40,
       "scope": "Federal funding"
     }
   ],
@@ -2292,17 +2292,17 @@
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 138,
+      "count": 137,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 138,
+      "count": 137,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 98,
+      "count": 97,
       "label": "Official government source"
     },
     {
@@ -2318,14 +2318,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 79.4,
+    "acceptance_rate": 79.5,
     "accepted": 543,
-    "decisions": 684,
-    "funding_quarantine": 38,
+    "decisions": 683,
+    "funding_quarantine": 37,
     "mission_quarantine": 100,
-    "quarantined": 141,
+    "quarantined": 140,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-11-15T04:12:35.301684+00:00",
+  "updated_at": "2026-11-16T04:12:00.159922+00:00",
   "version": 1
 }

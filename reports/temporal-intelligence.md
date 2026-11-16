@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-11-15T04:12:35.301684+00:00_
+_Updated 2026-11-16T04:12:00.159922+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
@@ -52,7 +52,7 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 
 ## Upcoming
 
-- **2026-11-14** · Close the umbrella QBI 2026 announcement — due_soon ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
+- **2026-11-14** · Close the umbrella QBI 2026 announcement — overdue ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-11-24** · Submit the first annual Genesis Mission progress report — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
 - **2026-12-07** · Post Quantum Cryptography (PQC) Readiness and Validation Status — closing_this_month ([source](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view))
 - **2026-12-17** · The Genesis Mission: Transforming Science and Energy with AI — open_window ([source](https://www.grants.gov/search-results-detail/361526))

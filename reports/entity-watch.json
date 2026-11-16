@@ -1609,7 +1609,7 @@
       "latest_seen": "2026-11-13",
       "momentum": "rising",
       "name": "IBM",
-      "prior_count": 3,
+      "prior_count": 2,
       "priority": "high",
       "recent_count": 13,
       "status": "active",
@@ -10164,7 +10164,7 @@
       "latest_seen": "2026-11-14",
       "momentum": "rising",
       "name": "Logical qubits",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "critical",
       "recent_count": 2,
       "status": "active",
@@ -10532,8 +10532,20 @@
       "case_sensitive_aliases": [
         "QKD"
       ],
-      "current_evidence_count": 20,
+      "current_evidence_count": 21,
       "evidence": [
+        {
+          "date": "2026-11-15",
+          "key": "https://quantumzeitgeist.com/quantum-industrial-1d-gaussian-modulation-simplifies",
+          "report": "2026-11/2026-11-15-digest.md",
+          "score": 27,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "1D Gaussian modulation simplifies CV-QKD complexity",
+          "url": "https://quantumzeitgeist.com/quantum-industrial-1d-gaussian-modulation-simplifies"
+        },
         {
           "date": "2026-11-13",
           "key": "https://quantumzeitgeist.com/beijing-posts-continuous-mode-cv-qkd",
@@ -10847,15 +10859,15 @@
           "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-to-showcase-quantum-secure-communications-beyond-quantum-key-distribution-at-ecoc-2026"
         }
       ],
-      "evidence_count": 23,
+      "evidence_count": 24,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-11-13",
+      "latest_seen": "2026-11-15",
       "momentum": "rising",
       "name": "Quantum key distribution",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "Quantum Networking"
@@ -11514,6 +11526,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-11-15T10:16:38.716048+00:00",
+  "updated_at": "2026-11-16T04:15:01.703884+00:00",
   "version": 2
 }

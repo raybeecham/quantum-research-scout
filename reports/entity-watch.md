@@ -4,14 +4,14 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-11-15 10:16 UTC_
+_Updated 2026-11-16 04:15 UTC_
 
 ## Organizations
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
 | NIST | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2025-06-12 | 2026-10-28 | 23 | 3 |
-| IBM | ↗️ rising (13 vs 3) | 🟠 high | active | 2026-06-23 | 2026-11-13 | 56 | 3 |
+| IBM | ↗️ rising (13 vs 2) | 🟠 high | active | 2026-06-23 | 2026-11-13 | 56 | 3 |
 | IonQ | ↗️ rising (3 vs 1) | 🟠 high | active | 2025-11-17 | 2026-11-11 | 47 | 14 |
 | Cisco | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-03-25 | 2026-10-22 | 33 | 13 |
 | QuSecure | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-07 | 2026-09-22 | 29 | 20 |
@@ -56,10 +56,10 @@ _Updated 2026-11-15 10:16 UTC_
 |---|---|---|---|---|---|---:|---:|
 | Quantum error correction | ↗️ rising (2 vs 1) | 🔴 critical | active | 2026-01-08 | 2026-11-13 | 51 | 2 |
 | Crypto-agility | ↗️ rising (2 vs 0) | 🔴 critical | active | 2025-08-06 | 2026-11-12 | 42 | 24 |
-| Logical qubits | ↗️ rising (2 vs 1) | 🔴 critical | active | 2025-11-20 | 2026-11-14 | 38 | 6 |
+| Logical qubits | ↗️ rising (2 vs 0) | 🔴 critical | active | 2025-11-20 | 2026-11-14 | 38 | 6 |
 | ML-DSA | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2026-06-29 | 2026-10-26 | 10 | 3 |
 | ML-KEM | ➡️ stable (0 vs 0) | 🔴 critical | dormant | 2026-07-27 | 2026-10-14 | 7 | 5 |
-| Quantum key distribution | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-06-29 | 2026-11-13 | 23 | 3 |
+| Quantum key distribution | ↗️ rising (2 vs 0) | 🟠 high | active | 2026-06-29 | 2026-11-15 | 24 | 3 |
 | Quantum networking | ↘️ declining (0 vs 3) | 🟠 high | quiet | 2026-07-16 | 2026-11-07 | 19 | 0 |
 | Hybrid TLS | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-10-08 | 2026-10-08 | 1 | 0 |
 | SLH-DSA | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-08-10 | 2026-08-10 | 1 | 1 |

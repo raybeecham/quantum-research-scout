@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-15 04:16 UTC_
+_Updated 2026-11-16 04:15 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 4 | 9 | 11 | 30 |
+| 50 | 2 | 9 | 10 | 31 |
 
 ## 🔴 Contract: Atom Computing
 
@@ -50,7 +50,7 @@ _Updated 2026-11-15 04:16 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Networking has critical strategic importance and declining momentum.
+- 🔴 Quantum Networking has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Sensing
@@ -74,7 +74,7 @@ _Updated 2026-11-15 04:16 UTC_
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: QEC / Fault Tolerance 🆕
+## 🟠 Actionable signal: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **actionable**
@@ -88,7 +88,7 @@ _Updated 2026-11-15 04:16 UTC_
 - 🎯 Quantum Hardware is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Sensing 🆕
+## 🟠 Actionable signal: Quantum Sensing
 
 - Severity: **high**
 - Status: **actionable**
@@ -109,15 +109,7 @@ _Updated 2026-11-15 04:16 UTC_
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Product Launch: IBM
-
-- Severity: **high**
-- Status: **product-launch**
-- IBM matched a product launch event: Kipu Quantum Launches Rimay Quantum Feature Extraction in IBM Quantum Functions Catalog
-- [Open direct evidence](https://quantumcomputingreport.com/kipu-quantum-launches-rimay-quantum-feature-extraction-in-ibm-quantum-functions-catalog)
-- [Open supporting view](entity-watch.md)
-
-## 🟠 Rising momentum: QEC / Fault Tolerance 🆕
+## 🟠 Rising momentum: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **rising**
@@ -128,10 +120,10 @@ _Updated 2026-11-15 04:16 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 32 versus 5 in the prior period.
+- ↗️ Recent evidence is 35 versus 4 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Quantum Sensing 🆕
+## 🟠 Rising momentum: Quantum Sensing
 
 - Severity: **high**
 - Status: **rising**
@@ -348,16 +340,23 @@ _Updated 2026-11-15 04:16 UTC_
 - The latest dated item is from 2026-09-28; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: USAspending · Advanced Computing
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-10-29; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
 ## 🟡 Source stale: USAspending · Artificial Intelligence
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-01; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · Autonomy and Sensing 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-11-01; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · Genesis Mission 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

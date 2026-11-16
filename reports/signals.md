@@ -4,20 +4,20 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-15 04:16 UTC_
+_Updated 2026-11-16 04:15 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
 | QEC / Fault Tolerance | ↗️ rising (7 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-11-14 | 112 |
-| Quantum Hardware | ↗️ rising (32 vs 5) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-11-14 | 412 |
+| Quantum Hardware | ↗️ rising (35 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-11-15 | 415 |
 | Quantum Sensing | ↗️ rising (1 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-11-14 | 56 |
 | Quantum Software / Tooling | ↗️ rising (6 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-11-14 | 122 |
 | Standards / Government | ↗️ rising (9 vs 1) | 🔴 critical | high | 🎯 actionable | 2026-07-21 | 2026-11-13 | 87 |
 | AI Security | ➡️ stable (2 vs 2) | 🔴 critical | high | 👁️ watching | 2026-07-01 | 2026-11-12 | 30 |
-| PQC / Crypto Agility | ➡️ stable (22 vs 18) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-11-13 | 372 |
-| Quantum Networking | ↘️ declining (5 vs 9) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-14 | 182 |
+| PQC / Crypto Agility | ➡️ stable (18 vs 19) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-11-15 | 373 |
+| Quantum Networking | ➡️ stable (6 vs 8) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-15 | 183 |
 
 ## QEC / Fault Tolerance
 
@@ -35,11 +35,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-11-15 — [Cross-Platform Cloud Benchmark Reveals Wide Gap Between Physical Qubit Counts and Entangled GHZ State Sizes](https://quantumcomputingreport.com/cross-platform-cloud-benchmark-reveals-wide-gap-between-physical-qubit-counts-and-entangled-ghz-state-sizes) (Quantum Computing Report, score 52)
+  - 2026-11-15 — [Neon film cuts energy loss in superconducting qubits, study finds](https://quantumzeitgeist.com/arxiv-neon-film-cuts-energy-loss) (Quantum Zeitgeist, score 39)
+  - 2026-11-15 — [Qubit parity symmetry protects against dielectric loss](https://quantumzeitgeist.com/physique-lecole-qubit-parity-symmetry-protects) (Quantum Zeitgeist, score 26)
   - 2026-11-14 — [Commerce Dept. funds Atom Computing with up to $100M for quantum development.](https://quantumzeitgeist.com/atom-computing-quantum-commerce-dept-100m) (Quantum Zeitgeist, score 37)
   - 2026-11-14 — [Quantum battery charging bound tested for up to five qubits](https://quantumzeitgeist.com/dicke-quantum-battery-charging-bound-tested) (Quantum Zeitgeist, score 26)
-  - 2026-11-13 — [Atom Computing Finalizes $100 Million U.S. Department of Commerce R&D Award](https://thequantuminsider.com/2026/11/13/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-award) (The Quantum Insider, score 79)
-  - 2026-11-13 — [Cornell’s laser cooling could speed up trapped-ion quantum computers](https://quantumzeitgeist.com/cornell-university-laser-cooling-quantum-computers) (Quantum Zeitgeist, score 45)
-  - 2026-11-13 — [University of Osaka Integrates Domestic Superconducting Quantum Processors with OCTOPUS Supercomputer via SEAFOOD Platform](https://quantumcomputingreport.com/university-of-osaka-integrates-domestic-superconducting-quantum-processors-with-octopus-supercomputer-via-seafood-platform) (Quantum Computing Report, score 41)
 
 ## Quantum Sensing
 
@@ -87,22 +87,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 
 ## PQC / Crypto Agility
 
-- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, IACR ePrint, Quantum Computing Report
+- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, IACR ePrint
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-11-15 — [Qatar Ministry of Communications and Information Technology Signs Post-Quantum Readiness Agreement with SignQuantum and QANplatform](https://quantumcomputingreport.com/qatar-ministry-of-communications-and-information-technology-signs-post-quantum-readiness-agreement-with-signquantum-and-qanplatform) (Quantum Computing Report, score 79)
   - 2026-11-13 — [Project Eleven launches Strongpoint MPC for post-quantum digital assets](https://quantumzeitgeist.com/project-eleven-post-quantum-strongpoint-digital) (Quantum Zeitgeist, score 55)
   - 2026-11-12 — [CyberRisk Collaborative Announces Virtual Event on Post-Quantum Readiness](https://thequantuminsider.com/2026/11/12/cyberrisk-collaborative-virtual-event-post-quantum-readiness) (The Quantum Insider, score 50)
   - 2026-11-12 — [CyberRisk Collaborative launches quantum security event for CISOs](https://quantumzeitgeist.com/cyberrisk-collaborative-quantum-security-event) (Quantum Zeitgeist, score 47)
   - 2026-11-12 — [Crypto Agility: Cut the Cost of Security Updates | Thales](https://cpl.thalesgroup.com/blog/encryption/crypto-agility-cost-of-security-updates) (Thales Cybersecurity Blog, score 45)
-  - 2026-11-11 — [Patero and Horizen Labs Partner on Enterprise Post-Quantum Migration and Network Protection](https://quantumcomputingreport.com/patero-and-horizen-labs-partner-on-enterprise-post-quantum-migration-and-network-protection) (Quantum Computing Report, score 93)
 
 ## Quantum Networking
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
+  - 2026-11-15 — [1D Gaussian modulation simplifies CV-QKD complexity](https://quantumzeitgeist.com/quantum-industrial-1d-gaussian-modulation-simplifies) (Quantum Zeitgeist, score 27)
   - 2026-11-14 — [Quantum optical combs stabilise timing to 0.85 fs over 100km fibre](https://quantumzeitgeist.com/beijing-posts-quantum-optical-combs-stabilise) (Quantum Zeitgeist, score 36)
   - 2026-11-13 — [Continuous-mode CV-QKD better reflects practical optical systems](https://quantumzeitgeist.com/beijing-posts-continuous-mode-cv-qkd) (Quantum Zeitgeist, score 37)
   - 2026-11-11 — [IBM aims to turn quantum advantage into real-world applications](https://quantumzeitgeist.com/quantum-advantage-ibm-aims-turn-applications) (Quantum Zeitgeist, score 46)
   - 2026-11-10 — [UK Unveils £189 Million Quantum Deployment Package Spanning Networking Testbeds, Commercialization, and Procurement](https://quantumcomputingreport.com/uk-unveils-189-million-quantum-deployment-package-spanning-networking-testbeds-commercialization-and-procurement) (Quantum Computing Report, score 100)
-  - 2026-11-09 — [Laser-cooled molecules achieve record entanglement despite higher temperatures](https://quantumzeitgeist.com/physics-molecules-entanglement-laser-cooled-record) (Quantum Zeitgeist, score 27)
