@@ -48,6 +48,26 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2508.00910": {
+      "captures": [
+        {
+          "excerpts": [
+            "Announce Type: replace Abstract: Large Language Models (LLMs) have achieved remarkable success in software engineering tasks when trained with executable runtime environments, particularly in resolving GitHub issues",
+            "However, such runtime environments are often unavailable in other domains, especially cybersecurity, where challenge configurations and execution contexts are ephemeral or restricted"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-15",
+              "report_date": "2026-11-15",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2508.00910"
+            }
+          ],
+          "title": "Cyber-Zero: Training Cybersecurity Agents without Runtime"
+        }
+      ]
+    },
     "https://arxiv.org/abs/2602.12630": {
       "captures": [
         {
@@ -731,6 +751,22 @@
             {
               "published_date": "2026-10-27",
               "report_date": "2026-10-28",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2610.36145"
+            }
+          ],
+          "title": "They Will See Johnny's Message: A Measurement Study of Post-Quantum Cryptography Across Email Delivery Paths"
+        },
+        {
+          "excerpts": [
+            "Announce Type: replace Abstract: Harvest-now, decrypt-later (HNDL) attacks make the transition to post-quantum cryptography (PQC) urgent for email",
+            "This paper presents a systematic measurement that jointly examines PQC deployment across email service stages, negotiation by communicating peers, and usable message encryption"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-15",
+              "report_date": "2026-11-15",
               "sequence": 0,
               "source": "arXiv RSS cs.CR",
               "url": "https://arxiv.org/abs/2610.36145"
@@ -2464,6 +2500,166 @@
             }
           ],
           "title": "Maturity$^2$: Assessing the Maturity of Crypto Agility Maturity Models"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.17395": {
+      "captures": [
+        {
+          "excerpts": [
+            "Recent advances in weight-space programming (WSP) have demonstrated that large language models (LLMs) can directly inspect and modify neural network weights without conventional gradient-based training",
+            "While this capability opens new possibilities for model improvement, it also raises an important security question: Can LLMs exploit weight-space programming to inject backdoors into neural networks?"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-15",
+              "report_date": "2026-11-15",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.17395"
+            }
+          ],
+          "title": "Can LLMs Write Backdoors? An Empirical Security Study of Weight-Space Programming"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.17451": {
+      "captures": [
+        {
+          "excerpts": [
+            "The interaction of traveling photonic pulses with quantum systems is a fundamental process for many quantum technologies such as quantum communication, control, and measurement protocols",
+            "The so-called SLH formalism, named for the triple of operators that parametrize the dynamics, in combination with virtual emission and absorption cavities provides a general toolbox to describe such processes"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-15",
+              "report_date": "2026-11-15",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.17451"
+            }
+          ],
+          "title": "QuantumInputOutput.jl: A Julia framework for input-output theory with quantum pulses and the SLH formalism"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.17562": {
+      "captures": [
+        {
+          "excerpts": [
+            "Scalable control remains a major challenge for superconducting quantum processors due to the wiring, thermal load, and hardware complexity associated with conventional microwave-based architectures",
+            "A framework for qubit control based on Single Flux Quantum (SFQ) digital electronics is presented"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-15",
+              "report_date": "2026-11-15",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.17562"
+            }
+          ],
+          "title": "DRAG-Inspired Single Flux Quantum Control of Superconducting Qubits"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.17623": {
+      "captures": [
+        {
+          "excerpts": [
+            "Dicke states are an elementary family of many-body quantum states, consisting of equal superpositions of all configurations of $L$ qubits with $n$ excitations",
+            "We show that their magic, as measured by the stabilizer R\\'enyi entropy (SRE), is extensive at every filling $f=n/L$ except half-filling, and we obtain the magic density analytically, together with the subleading terms"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-15",
+              "report_date": "2026-11-15",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.17623"
+            }
+          ],
+          "title": "Magic of Dicke states: density, cost and yield"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.17761": {
+      "captures": [
+        {
+          "excerpts": [
+            "Many cyber-physical systems (CPS) are multi-mode: they switch between operating modes with different tasksets and timing parameters in response to physical events or user activity"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-15",
+              "report_date": "2026-11-15",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.17761"
+            }
+          ],
+          "title": "Inferring Sensitive Events in Multi-Mode Cyber-Physical Systems via Scheduling Side Channels"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.17818": {
+      "captures": [
+        {
+          "excerpts": [
+            "Jailbreak attacks can circumvent the safety mechanisms of Large Language Models (LLMs) and lead to the generation of harmful or policy-violating content",
+            "We first examine eight jailbreak methods against an LLM-based filter and observe that requests resembling normal user queries tend to have higher filter pass rates than those containing obvious anomalous patterns"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-15",
+              "report_date": "2026-11-15",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.17818"
+            }
+          ],
+          "title": "LLMs are Vulnerable to Malicious Requests with Indistinguishable Intent"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.17941": {
+      "captures": [
+        {
+          "excerpts": [
+            "The capability to create large entanglement resources is a key performance attribute of quantum processors, and the size of the resource is often used as a benchmark of processor scale",
+            "Recent graph-state experiments have reported entanglement clusters spanning entire chips with hundreds of qubits",
+            "However, cluster size alone does not capture the entanglement quality of individual couplings or differences in coupling topology"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-15",
+              "report_date": "2026-11-15",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.17941"
+            }
+          ],
+          "title": "Benchmarking superconducting quantum processors with percolating entanglement quality"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.18071": {
+      "captures": [
+        {
+          "excerpts": [
+            "Quantum algorithms based on the classical post-processing of measurement samples have emerged as effective and robust methods to approximate low-energy wavefunctions of many-body quantum systems on present-day and...",
+            "This paper introduces a generic framework for enforcing spin symmetry within these approaches"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-15",
+              "report_date": "2026-11-15",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.18071"
+            }
+          ],
+          "title": "Spin-adapted sample-based quantum diagonalization with randomized time evolution"
         }
       ]
     },
