@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-16 14:16 UTC_
+_Updated 2026-11-16 15:15 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -83,7 +83,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | NCSC UK Guidance | rss | 100% | 0 | 0 | 2026-11-16 | 2026-10-15 | stale | 🟢 healthy |
 | NCSC UK News | rss | 100% | 0 | 0 | 2026-11-16 | 2026-11-11 | fresh | 🟢 healthy |
 | NCSC UK Reports | rss | 100% | 0 | 0 | 2026-11-16 | 2026-11-03 | fresh | 🟢 healthy |
-| NIST CSRC News | url | 100% | 0 | 0 | 2026-11-16 | 2026-11-06 | fresh | 🟢 healthy |
+| NIST CSRC News | url | 100% | 0 | 0 | 2026-11-16 | 2026-11-12 | fresh | 🟢 healthy |
 | NIST Cybersecurity Insights | watch | 100% | 0 | 0 | 2026-11-16 | 2026-10-27 | stale | 🟢 healthy |
 | NIST Post-Quantum Cryptography Project | watch | 100% | 0 | 0 | 2026-11-16 | 2025-03-07 | reference | 🟢 healthy |
 | NIST Research News | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-02 | fresh | 🟢 healthy |
@@ -93,7 +93,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | PQCA Blog and News | rss | 100% | 0 | 0 | 2026-11-16 | 2026-11-02 | fresh | 🟢 healthy |
 | PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-11-16 | 2026-11-04 | fresh | 🟢 healthy |
 | PQShield | rss | 100% | 0 | 0 | 2026-11-16 | 2026-11-04 | fresh | 🟢 healthy |
-| Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-12 | fresh | 🟢 healthy |
+| Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-16 | fresh | 🟢 healthy |
 | Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-11-16 | 2026-11-05 | fresh | 🟢 healthy |
 | PsiQuantum News | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-12 | fresh | 🟢 healthy |
 | QCi Press Releases | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-09 | fresh | 🟢 healthy |
