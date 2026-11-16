@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-16 15:15 UTC_
+_Updated 2026-11-16 16:15 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -46,7 +46,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-10 | fresh | 🟢 healthy |
 | DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-10 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-16 | — | reference | 🟢 healthy |
-| Department of War Strategic Technology Releases | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-13 | fresh | 🟢 healthy |
+| Department of War Strategic Technology Releases | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-16 | fresh | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-16 | 2026-11-11 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-11-16 | 2026-11-05 | fresh | 🟢 healthy |
 | Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-12 | fresh | 🟢 healthy |
@@ -68,8 +68,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-11-16 | — | unknown | 🟢 healthy |
 | Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-16 | 2026-11-13 | fresh | 🟢 healthy |
 | IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-16 | 2026-11-12 | fresh | 🟢 healthy |
-| IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-16 | 2026-11-11 | fresh | 🟢 healthy |
-| IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-12 | fresh | 🟢 healthy |
+| IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-16 | 2026-11-16 | fresh | 🟢 healthy |
+| IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-16 | fresh | 🟢 healthy |
 | IETF PQUIP | watch | 100% | 0 | 0 | 2026-11-16 | — | reference | 🟢 healthy |
 | IETF Post-Quantum Updates | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-12 | fresh | 🟢 healthy |
 | InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-11-16 | 2026-11-09 | fresh | 🟢 healthy |
