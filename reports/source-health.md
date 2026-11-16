@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-16 02:15 UTC_
+_Updated 2026-11-16 03:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -75,7 +75,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-11-16 | 2026-11-09 | fresh | 🟢 healthy |
 | Intel Quantum Research | watch | 100% | 0 | 0 | 2026-11-15 | — | reference | 🟢 healthy |
 | IonQ News | rss | 100% | 0 | 0 | 2026-11-16 | 2026-11-13 | fresh | 🟢 healthy |
-| IonQ Technical Blog | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-11 | fresh | 🟢 healthy |
+| IonQ Technical Blog | watch | 100% | 0 | 0 | 2026-11-16 | 2026-11-13 | fresh | 🟢 healthy |
 | Keyfactor Quantum and Crypto-Agility | watch | 100% | 0 | 0 | 2026-11-16 | 2026-10-29 | stale | 🟢 healthy |
 | Kubernetes Blog | rss | 100% | 0 | 0 | 2026-11-16 | 2026-10-29 | fresh | 🟢 healthy |
 | Lockheed Martin Quantum Technology | watch | 100% | 0 | 0 | 2026-11-16 | 2026-07-14 | stale | 🟢 healthy |
