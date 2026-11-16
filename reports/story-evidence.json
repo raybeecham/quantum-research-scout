@@ -5715,6 +5715,27 @@
         }
       ]
     },
+    "https://quantumcomputingreport.com/ibm-and-amd-open-source-pelagos-gpu-decoder-framework-for-large-scale-qldpc-error-correction-simulations": {
+      "captures": [
+        {
+          "excerpts": [
+            "IBM and AMD have open-sourced Pelagos, a GPU-accelerated quantum error-correction (QEC) decoding framework for evaluating qLDPC codes at supercomputing scale",
+            "This release, announced at SC26, aims to advance quantum computing through vendor-neutral, efficient error correction, building on a joint QEC co-design platform",
+            "Pelagos offers significant speedups and efficient multi-GPU orchestration, enabling large-scale simulations crucial for fault-tolerant quantum computing"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-16",
+              "report_date": "2026-11-16",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/ibm-and-amd-open-source-pelagos-gpu-decoder-framework-for-large-scale-qldpc-error-correction-simulations"
+            }
+          ],
+          "title": "IBM and AMD Open-Source Pelagos GPU Decoder Framework for Large-Scale qLDPC Error Correction Simulations"
+        }
+      ]
+    },
     "https://quantumcomputingreport.com/ibm-and-rutgers-control-quantum-chaos-across-100-qubits-on-heron-processor": {
       "captures": [
         {
@@ -16537,6 +16558,25 @@
             }
           ],
           "title": "Roadmap for Post-Quantum Cryptography (PQC) Migration"
+        }
+      ]
+    },
+    "https://www.ibm.com/quantum/blog/pelagos": {
+      "captures": [
+        {
+          "excerpts": [
+            "New open-source tool from IBM and AMD helps researchers evaluate quantum error-correction decoders at scale for future fault-tolerant quantum systems"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-16",
+              "report_date": "2026-11-16",
+              "sequence": 0,
+              "source": "IBM Quantum Blog",
+              "url": "https://www.ibm.com/quantum/blog/pelagos"
+            }
+          ],
+          "title": "IBM, AMD advance quantum error correction decoding at scale | IBM Quantum Computing Blog"
         }
       ]
     },
