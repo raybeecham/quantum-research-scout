@@ -280,10 +280,43 @@
   ],
   "added": [],
   "baseline_initialized": false,
-  "changed": [],
+  "changed": [
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-e71fa04ddb76631b",
+      "confidence": "medium",
+      "effective_date": "2026-11-17",
+      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+      "last_observed_at": "2026-11-17T05:58:49.885461+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "qualify",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-061fdadc8c8f25df",
+          "locator": "qualification_gate",
+          "title": "The Genesis Mission: Transforming Science and Energy with AI",
+          "url": "https://www.grants.gov/search-results-detail/361526",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:DE-FOA-0003612",
+        "label": "The Genesis Mission: Transforming Science and Energy with AI",
+        "node_id": "opportunity:grants_gov:DE-FOA-0003612",
+        "node_type": "opportunity"
+      },
+      "value": "qualify"
+    }
+  ],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-11-16T04:12:00.159922+00:00",
-  "comparison_started_at": "2026-11-15T10:16:38.716048+00:00",
+  "comparison_ended_at": "2026-11-17T05:58:49.885461+00:00",
+  "comparison_started_at": "2026-11-16T04:12:00.159922+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1199,19 +1232,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-11-15T10:16:38.716048+00:00",
+  "since": "2026-11-16T04:12:00.159922+00:00",
   "summary": {
     "active_claims": 5182,
     "added": 0,
-    "changed": 0,
+    "changed": 1,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 27,
+    "material_changes": 28,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-11-16T04:12:00.159922+00:00",
+  "updated_at": "2026-11-17T05:58:49.885461+00:00",
   "version": 1
 }

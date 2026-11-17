@@ -1,11 +1,117 @@
 {
   "added": [],
-  "changed": [],
-  "comparison_ended_at": "2026-11-16T04:12:00.159922+00:00",
-  "comparison_started_at": "2026-11-15T10:16:38.716048+00:00",
+  "changed": [
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-e71fa04ddb76631b",
+      "confidence": "medium",
+      "effective_date": "2026-11-17",
+      "evidence_title": "The Genesis Mission: Transforming Science and Energy with AI",
+      "evidence_url": "https://www.grants.gov/search-results-detail/361526",
+      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+      "last_observed_at": "2026-11-17T05:58:49.885461+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "previous_object": null,
+      "previous_value": "qualify",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-061fdadc8c8f25df",
+          "locator": "qualification_gate",
+          "title": "The Genesis Mission: Transforming Science and Energy with AI",
+          "url": "https://www.grants.gov/search-results-detail/361526",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:DE-FOA-0003612",
+        "label": "The Genesis Mission: Transforming Science and Energy with AI",
+        "node_id": "opportunity:grants_gov:DE-FOA-0003612",
+        "node_type": "opportunity"
+      },
+      "temporal": {
+        "classification": "evidence_changed_since_prior_run",
+        "date_basis": "Source-reported posting/publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
+        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+        "historical": false,
+        "label": "Evidence trace changed",
+        "last_changed_at": "2026-11-17T05:58:49.885461+00:00",
+        "last_observed_at": "2026-11-17T05:58:49.885461+00:00",
+        "primary_date": "2026-03-17",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-03-17"
+      },
+      "value": "qualify"
+    }
+  ],
+  "comparison_ended_at": "2026-11-17T05:58:49.885461+00:00",
+  "comparison_started_at": "2026-11-16T04:12:00.159922+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
+    {
+      "authority": "analytical",
+      "change_type": "changed",
+      "claim_id": "claim-e71fa04ddb76631b",
+      "claim_ids": [
+        "claim-e71fa04ddb76631b"
+      ],
+      "confidence": "medium",
+      "effective_date": "2026-11-17",
+      "evidence_title": "The Genesis Mission: Transforming Science and Energy with AI",
+      "evidence_url": "https://www.grants.gov/search-results-detail/361526",
+      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+      "grouped_event_count": 1,
+      "last_observed_at": "2026-11-17T05:58:49.885461+00:00",
+      "object": null,
+      "predicate": "qualification_gate",
+      "predicates": [
+        "qualification_gate"
+      ],
+      "previous_object": null,
+      "previous_value": "qualify",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-061fdadc8c8f25df",
+          "locator": "qualification_gate",
+          "title": "The Genesis Mission: Transforming Science and Energy with AI",
+          "url": "https://www.grants.gov/search-results-detail/361526",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "grants_gov:DE-FOA-0003612",
+        "label": "The Genesis Mission: Transforming Science and Energy with AI",
+        "node_id": "opportunity:grants_gov:DE-FOA-0003612",
+        "node_type": "opportunity"
+      },
+      "temporal": {
+        "classification": "evidence_changed_since_prior_run",
+        "date_basis": "Source-reported posting/publication date",
+        "effective_date": null,
+        "event_date": null,
+        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
+        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+        "historical": false,
+        "label": "Evidence trace changed",
+        "last_changed_at": "2026-11-17T05:58:49.885461+00:00",
+        "last_observed_at": "2026-11-17T05:58:49.885461+00:00",
+        "primary_date": "2026-03-17",
+        "primary_date_role": "publication_date",
+        "publication_date": "2026-03-17"
+      },
+      "value": "qualify"
+    },
     {
       "authority": "authoritative",
       "change_type": "resolved",
@@ -2452,11 +2558,12 @@
   "summary": {
     "actual_or_recent_changes": 0,
     "classifications": {
+      "evidence_changed_since_prior_run": 1,
       "resolved": 27
     },
-    "evidence_trace_changes": 0,
+    "evidence_trace_changes": 1,
     "historical_discoveries": 0,
-    "material_events": 27,
+    "material_events": 28,
     "newly_observed_undated": 0,
     "upcoming": 11
   },
@@ -2464,7 +2571,7 @@
   "upcoming": [
     {
       "date": "2026-11-14",
-      "days_remaining": -2,
+      "days_remaining": -3,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2473,7 +2580,7 @@
     },
     {
       "date": "2026-11-24",
-      "days_remaining": 8,
+      "days_remaining": 7,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Genesis Mission",
@@ -2482,7 +2589,7 @@
     },
     {
       "date": "2026-12-07",
-      "days_remaining": 21,
+      "days_remaining": 20,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
@@ -2491,16 +2598,16 @@
     },
     {
       "date": "2026-12-17",
-      "days_remaining": 31,
+      "days_remaining": 30,
       "kind": "opportunity_deadline",
-      "status": "open_window",
+      "status": "closing_this_month",
       "subject": "PAMS-SC",
       "title": "The Genesis Mission: Transforming Science and Energy with AI",
       "url": "https://www.grants.gov/search-results-detail/361526"
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 33,
+      "days_remaining": 32,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2509,7 +2616,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 33,
+      "days_remaining": 32,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2518,7 +2625,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 33,
+      "days_remaining": 32,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2527,7 +2634,7 @@
     },
     {
       "date": "2026-12-31",
-      "days_remaining": 45,
+      "days_remaining": 44,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "Project Triad",
@@ -2536,7 +2643,7 @@
     },
     {
       "date": "2027-01-12",
-      "days_remaining": 57,
+      "days_remaining": 56,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2545,7 +2652,7 @@
     },
     {
       "date": "2027-03-19",
-      "days_remaining": 123,
+      "days_remaining": 122,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2554,7 +2661,7 @@
     },
     {
       "date": "2027-06-22",
-      "days_remaining": 218,
+      "days_remaining": 217,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -2562,6 +2669,6 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
     }
   ],
-  "updated_at": "2026-11-16T04:12:00.159922+00:00",
+  "updated_at": "2026-11-17T05:58:49.885461+00:00",
   "version": 1
 }

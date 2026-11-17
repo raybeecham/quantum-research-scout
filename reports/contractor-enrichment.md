@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-11-16T04:12:00.159922+00:00_
+_Updated 2026-11-17T05:58:49.885461+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
@@ -18,7 +18,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | BOOZ ALLEN HAMILTON INC | [BOOZ ALLEN HAMILTON INC](https://sam.gov/entity/JCBMLGPE6Z71/coreData) | JCBMLGPE6Z71 | 17038 | Active | Business or Organization, For Profit Organization |
 | UNIVERSITY OF SOUTH FLORIDA | [UNIVERSITY OF SOUTH FLORIDA](https://sam.gov/entity/NKAZLXLL7Z91/coreData) | NKAZLXLL7Z91 | 1F202 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | AUBURN UNIVERSITY | [AUBURN UNIVERSITY](https://sam.gov/entity/DMQNDJDHTDG4/coreData) | DMQNDJDHTDG4 | 8H404 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
-| THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | [The Research Foundation for The State University of New York](https://sam.gov/entity/LMCJKRFW5R81/coreData) | LMCJKRFW5R81 | 3GQT6 | Active | Business or Organization, Non-Profit Organization |
 | PURDUE UNIVERSITY | [PURDUE UNIVERSITY](https://sam.gov/entity/YRXVL4JYCEF5/coreData) | YRXVL4JYCEF5 | 6D418 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
 | MISSISSIPPI STATE UNIVERSITY | [MISSISSIPPI STATE UNIVERSITY](https://sam.gov/entity/NTXJM52SHKS7/coreData) | NTXJM52SHKS7 | 4E756 | Active | 1862 Land Grant College, Educational Institution, U.S. State Government |
 | CARNEGIE-MELLON UNIVERSITY | [CARNEGIE-MELLON UNIVERSITY](https://sam.gov/entity/U3NKNFLNQ613/coreData) | U3NKNFLNQ613 | 97668 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
@@ -51,6 +50,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | PARAGON MICRO INC | [PARAGON MICRO INC](https://sam.gov/entity/E41LV9AJGHQ1/coreData) | E41LV9AJGHQ1 | 4ZHT8 | Active | Business or Organization, For Profit Organization |
 | QUANTUM FOODS INC | [QUANTUM FOODS INC](https://sam.gov/entity/S6M6AJJGH6C3/coreData) | S6M6AJJGH6C3 | 87Q54 | Active | Business or Organization, For Profit Organization, Self Certified Small Disadvantaged Business |
 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY | [MASSACHUSETTS INSTITUTE OF TECHNOLOGY](https://sam.gov/entity/E2NYLCDML6V1/coreData) | E2NYLCDML6V1 | 80230 | Active | 1862 Land Grant College, Business or Organization, Educational Institution |
+| THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | [The Research Foundation for The State University of New York](https://sam.gov/entity/LMCJKRFW5R81/coreData) | LMCJKRFW5R81 | 3GQT6 | Active | Business or Organization, Non-Profit Organization |
 | NORTH CAROLINA STATE UNIVERSITY | [NORTH CAROLINA STATE UNIVERSITY](https://sam.gov/entity/U3NVH931QJJ3/coreData) | U3NVH931QJJ3 | 1E7H9 | Active | 1862 Land Grant College, Educational Institution, U.S. State Government |
 | DELOITTE & TOUCHE LLP | [DELOITTE & TOUCHE LLP](https://sam.gov/entity/F9KSDU7L9VP6/coreData) | F9KSDU7L9VP6 | 3CCJ5 | Active | Business or Organization, For Profit Organization |
 | ACCENTURE FEDERAL SERVICES LLC | [ACCENTURE FEDERAL SERVICES LLC](https://sam.gov/entity/C47BNA8GM833/coreData) | C47BNA8GM833 | 1ZD18 | Active | Business or Organization, For Profit Organization, Foreign Owned |

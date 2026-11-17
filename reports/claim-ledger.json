@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-11-16",
+  "as_of_date": "2026-11-17",
   "claims": [
     {
       "authority": "authoritative",
@@ -101998,186 +101998,6 @@
     {
       "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
-      "claim_id": "claim-e003131cc5d31dc6",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-18",
-      "evidence_ids": [
-        "evidence-9505be9fb43d4249"
-      ],
-      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9505be9fb43d4249",
-          "locator": "legal_business_name:the research foundation for the state university of new york",
-          "title": "The Research Foundation for The State University of New York",
-          "url": "https://sam.gov/entity/LMCJKRFW5R81/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:LMCJKRFW5R81",
-        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "The Research Foundation for The State University of New York",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "bea8124702eafe26"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity uei",
-      "claim_id": "claim-8dff571b0c5b08e1",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-18",
-      "evidence_ids": [
-        "evidence-7e3404b97a5d70b4"
-      ],
-      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7e3404b97a5d70b4",
-          "locator": "uei:lmcjkrfw5r81",
-          "title": "The Research Foundation for The State University of New York",
-          "url": "https://sam.gov/entity/LMCJKRFW5R81/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:LMCJKRFW5R81",
-        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "LMCJKRFW5R81",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "c2d95bb18bfb3515"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity cage code",
-      "claim_id": "claim-717955481007b6ca",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-18",
-      "evidence_ids": [
-        "evidence-032124b3d4b68c4a"
-      ],
-      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-032124b3d4b68c4a",
-          "locator": "cage_code:3gqt6",
-          "title": "The Research Foundation for The State University of New York",
-          "url": "https://sam.gov/entity/LMCJKRFW5R81/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:LMCJKRFW5R81",
-        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "3GQT6",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "bf620d20c48c81ef"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity registration status",
-      "claim_id": "claim-401f570e8cf0242b",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-18",
-      "evidence_ids": [
-        "evidence-fc56f7b771c38a4a"
-      ],
-      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fc56f7b771c38a4a",
-          "locator": "registration_status:active",
-          "title": "The Research Foundation for The State University of New York",
-          "url": "https://sam.gov/entity/LMCJKRFW5R81/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:LMCJKRFW5R81",
-        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "108e475124b1508b"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-bbb1199cb4e4f1ed",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -102354,6 +102174,186 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "d3bff482eb4a2277"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-e003131cc5d31dc6",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-18",
+      "evidence_ids": [
+        "evidence-9505be9fb43d4249"
+      ],
+      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9505be9fb43d4249",
+          "locator": "legal_business_name:the research foundation for the state university of new york",
+          "title": "The Research Foundation for The State University of New York",
+          "url": "https://sam.gov/entity/LMCJKRFW5R81/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:LMCJKRFW5R81",
+        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "The Research Foundation for The State University of New York",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "bea8124702eafe26"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-8dff571b0c5b08e1",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-18",
+      "evidence_ids": [
+        "evidence-7e3404b97a5d70b4"
+      ],
+      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7e3404b97a5d70b4",
+          "locator": "uei:lmcjkrfw5r81",
+          "title": "The Research Foundation for The State University of New York",
+          "url": "https://sam.gov/entity/LMCJKRFW5R81/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:LMCJKRFW5R81",
+        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "LMCJKRFW5R81",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c2d95bb18bfb3515"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-717955481007b6ca",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-18",
+      "evidence_ids": [
+        "evidence-032124b3d4b68c4a"
+      ],
+      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-032124b3d4b68c4a",
+          "locator": "cage_code:3gqt6",
+          "title": "The Research Foundation for The State University of New York",
+          "url": "https://sam.gov/entity/LMCJKRFW5R81/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:LMCJKRFW5R81",
+        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "3GQT6",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "bf620d20c48c81ef"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-401f570e8cf0242b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-18",
+      "evidence_ids": [
+        "evidence-fc56f7b771c38a4a"
+      ],
+      "first_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-18T00:49:54.498894+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fc56f7b771c38a4a",
+          "locator": "registration_status:active",
+          "title": "The Research Foundation for The State University of New York",
+          "url": "https://sam.gov/entity/LMCJKRFW5R81/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:LMCJKRFW5R81",
+        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "108e475124b1508b"
     },
     {
       "authority": "authoritative",
@@ -232195,6 +232195,163 @@
     },
     {
       "authority": "analytical",
+      "basis": "Deterministic qualification score 68 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-e71fa04ddb76631b",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +24",
+              "mission fit +22",
+              "critical mission +8",
+              "actionable grant_opportunity +9",
+              "closing_this_month +9",
+              "technology fit +4"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/361526"
+            ],
+            "points": 76
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No extracted procurement document evidence"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://www.grants.gov/search-results-detail/361526"
+            ],
+            "points": -8
+          }
+        ],
+        "evidence_ids": [
+          "evidence-061fdadc8c8f25df",
+          "evidence-241f367a072bf846"
+        ],
+        "input_claim_hashes": {
+          "claim-1879afd1eca23abd": "f898d2dad5d13cf1"
+        },
+        "input_claim_ids": [
+          "claim-1879afd1eca23abd"
+        ],
+        "input_claim_versions": {
+          "claim-1879afd1eca23abd": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 68,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://www.grants.gov/search-results-detail/361526"
+        ],
+        "trace_complete": true,
+        "trace_hash": "03c584db9ba7f848",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-1879afd1eca23abd"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-11-17",
+      "evidence_ids": [
+        "evidence-061fdadc8c8f25df"
+      ],
+      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+      "history": [
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 75 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-061fdadc8c8f25df"
+          ],
+          "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "object": null,
+          "status": "active",
+          "value": "qualify",
+          "version": 1,
+          "version_hash": "7eb8a0c4c12f4fcc"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 70 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-061fdadc8c8f25df"
+          ],
+          "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
+          "object": null,
+          "status": "active",
+          "value": "qualify",
+          "version": 2,
+          "version_hash": "989744983a367309"
+        },
+        {
+          "authority": "analytical",
+          "basis": "Deterministic qualification score 63 / 100 with 0 / 100 evidence completeness",
+          "confidence": "medium",
+          "evidence_ids": [
+            "evidence-061fdadc8c8f25df"
+          ],
+          "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
+          "last_seen_at": "2026-10-27T03:13:25.256610+00:00",
+          "object": null,
+          "status": "active",
+          "value": "qualify",
+          "version": 3,
+          "version_hash": "8feb8e80b0039388"
+        }
+      ],
+      "last_seen_at": "2026-11-17T05:58:49.885461+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-061fdadc8c8f25df",
+          "locator": "qualification_gate",
+          "title": "The Genesis Mission: Transforming Science and Energy with AI",
+          "url": "https://www.grants.gov/search-results-detail/361526",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "grants_gov:DE-FOA-0003612",
+        "label": "The Genesis Mission: Transforming Science and Energy with AI",
+        "node_id": "opportunity:grants_gov:DE-FOA-0003612",
+        "node_type": "opportunity"
+      },
+      "value": "qualify",
+      "verification_status": "source_reported",
+      "version": 4,
+      "version_hash": "d5e3428ef195af80"
+    },
+    {
+      "authority": "analytical",
       "basis": "Deterministic qualification score 39 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-74f330a0eab2276d",
       "confidence": "medium",
@@ -233132,148 +233289,6 @@
       "verification_status": "source_reported",
       "version": 2,
       "version_hash": "08f04ebef6aa71ed"
-    },
-    {
-      "authority": "analytical",
-      "basis": "Deterministic qualification score 63 / 100 with 0 / 100 evidence completeness",
-      "claim_id": "claim-e71fa04ddb76631b",
-      "confidence": "medium",
-      "controlling_status": "not_asserted",
-      "decision_trace": {
-        "components": [
-          {
-            "basis": [
-              "strategic significance +24",
-              "mission fit +22",
-              "critical mission +8",
-              "actionable grant_opportunity +9",
-              "open_window +4",
-              "technology fit +4"
-            ],
-            "code": "opportunity_evidence",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/361526"
-            ],
-            "points": 71
-          },
-          {
-            "basis": [
-              "0 / 100 document evidence completeness"
-            ],
-            "code": "document_evidence",
-            "evidence_urls": [],
-            "points": 0
-          },
-          {
-            "basis": [
-              "No extracted procurement document evidence"
-            ],
-            "code": "deadline_and_evidence_risk",
-            "evidence_urls": [
-              "https://www.grants.gov/search-results-detail/361526"
-            ],
-            "points": -8
-          }
-        ],
-        "evidence_ids": [
-          "evidence-061fdadc8c8f25df",
-          "evidence-241f367a072bf846"
-        ],
-        "input_claim_hashes": {
-          "claim-1879afd1eca23abd": "f898d2dad5d13cf1"
-        },
-        "input_claim_ids": [
-          "claim-1879afd1eca23abd"
-        ],
-        "input_claim_versions": {
-          "claim-1879afd1eca23abd": 1
-        },
-        "model": {
-          "id": "opportunity_qualification",
-          "version": "1.0.0"
-        },
-        "model_id": "public-opportunity-qualification",
-        "model_version": "2",
-        "public_evidence_score": 63,
-        "requires_revalidation": false,
-        "source_urls": [
-          "https://www.grants.gov/search-results-detail/361526"
-        ],
-        "trace_complete": true,
-        "trace_hash": "03c584db9ba7f848",
-        "unresolved_input_claim_ids": []
-      },
-      "derivation": {
-        "input_claim_ids": [
-          "claim-1879afd1eca23abd"
-        ],
-        "rule": "procurement_intelligence._build_decision_briefs"
-      },
-      "effective_date": "2026-10-27",
-      "evidence_ids": [
-        "evidence-061fdadc8c8f25df"
-      ],
-      "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-      "history": [
-        {
-          "authority": "analytical",
-          "basis": "Deterministic qualification score 75 / 100 with 0 / 100 evidence completeness",
-          "confidence": "medium",
-          "evidence_ids": [
-            "evidence-061fdadc8c8f25df"
-          ],
-          "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-          "last_seen_at": "2026-07-30T23:59:11.557572+00:00",
-          "object": null,
-          "status": "active",
-          "value": "qualify",
-          "version": 1,
-          "version_hash": "7eb8a0c4c12f4fcc"
-        },
-        {
-          "authority": "analytical",
-          "basis": "Deterministic qualification score 70 / 100 with 0 / 100 evidence completeness",
-          "confidence": "medium",
-          "evidence_ids": [
-            "evidence-061fdadc8c8f25df"
-          ],
-          "first_seen_at": "2026-07-30T23:59:11.557572+00:00",
-          "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-          "object": null,
-          "status": "active",
-          "value": "qualify",
-          "version": 2,
-          "version_hash": "989744983a367309"
-        }
-      ],
-      "last_seen_at": "2026-10-27T03:13:25.256610+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-061fdadc8c8f25df",
-          "locator": "qualification_gate",
-          "title": "The Genesis Mission: Transforming Science and Energy with AI",
-          "url": "https://www.grants.gov/search-results-detail/361526",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "grants_gov:DE-FOA-0003612",
-        "label": "The Genesis Mission: Transforming Science and Energy with AI",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003612",
-        "node_type": "opportunity"
-      },
-      "value": "qualify",
-      "verification_status": "source_reported",
-      "version": 3,
-      "version_hash": "8feb8e80b0039388"
     },
     {
       "authority": "analytical",
@@ -257719,7 +257734,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257766,7 +257781,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257813,7 +257828,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257860,7 +257875,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257907,7 +257922,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257954,7 +257969,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258001,7 +258016,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258048,7 +258063,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258095,7 +258110,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258142,7 +258157,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258189,7 +258204,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258236,7 +258251,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258283,7 +258298,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258330,7 +258345,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258377,7 +258392,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258424,7 +258439,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258471,7 +258486,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258518,7 +258533,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258570,7 +258585,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258622,7 +258637,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258674,7 +258689,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258726,7 +258741,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258778,7 +258793,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258830,7 +258845,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258882,7 +258897,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258934,7 +258949,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258986,7 +259001,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-16T04:12:00.159922+00:00",
+      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -311909,6 +311924,6 @@
     "superseded_claims": 0,
     "total_claims": 5209
   },
-  "updated_at": "2026-11-16T04:12:00.159922+00:00",
+  "updated_at": "2026-11-17T05:58:49.885461+00:00",
   "version": 1
 }

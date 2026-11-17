@@ -4,25 +4,17 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-16 04:15 UTC_
+_Updated 2026-11-17 06:05 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 2 | 9 | 10 | 31 |
-
-## 🔴 Contract: Atom Computing
-
-- Severity: **critical**
-- Status: **contract**
-- Atom Computing matched a contract event: Atom Computing Finalizes $100 Million U.S. Department of Commerce R&D Award
-- [Open direct evidence](https://thequantuminsider.com/2026/11/13/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-award)
-- [Open supporting view](entity-watch.md)
+| 50 | 4 | 9 | 13 | 28 |
 
 ## 🔴 Critical theme: AI Security
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 AI Security has critical strategic importance and stable momentum.
+- 🔴 AI Security has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: PQC / Crypto Agility
@@ -74,6 +66,20 @@ _Updated 2026-11-16 04:15 UTC_
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
+## 🔴 Source failing: Department of War Strategic Technology News 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 96.1% reliability with 9 warning day(s).
+- [Open supporting view](source-health.md)
+
+## 🟠 Actionable signal: AI Security 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 AI Security is actionable with high confidence.
+- [Open supporting view](signals.md)
+
 ## 🟠 Actionable signal: QEC / Fault Tolerance
 
 - Severity: **high**
@@ -109,18 +115,33 @@ _Updated 2026-11-16 04:15 UTC_
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
+## 🟠 Changed: The Genesis Mission: Transforming Science and Energy with AI 🆕
+
+- Severity: **high**
+- Status: **changed**
+- qualification gate · authority analytical · qualify
+- [Open direct evidence](https://www.grants.gov/search-results-detail/361526)
+- [Open supporting view](intelligence-changes.md)
+
+## 🟠 Rising momentum: AI Security 🆕
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 3 versus 2 in the prior period.
+- [Open supporting view](signals.md)
+
 ## 🟠 Rising momentum: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 7 versus 4 in the prior period.
+- ↗️ Recent evidence is 8 versus 4 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Hardware
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 35 versus 4 in the prior period.
+- ↗️ Recent evidence is 31 versus 9 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -141,7 +162,7 @@ _Updated 2026-11-16 04:15 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 9 versus 1 in the prior period.
+- ↗️ Recent evidence is 8 versus 3 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
@@ -198,13 +219,6 @@ _Updated 2026-11-16 04:15 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-16; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Grants.gov · Autonomy and Sensing
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-10-27; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Grants.gov · Cybersecurity
@@ -345,18 +359,4 @@ _Updated 2026-11-16 04:15 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-01; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Autonomy and Sensing 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-11-01; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Genesis Mission 🆕
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

@@ -272,23 +272,32 @@
           "source": "Hugging Face Technical Blog",
           "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
           "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://quantumzeitgeist.com/fault-tolerant-circuits-llm-designs-error",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 101,
+          "source": "Quantum Zeitgeist",
+          "title": "LLM designs fault-tolerant circuits for quantum error correction",
+          "url": "https://quantumzeitgeist.com/fault-tolerant-circuits-llm-designs-error"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-11-12",
-      "momentum": "stable",
+      "latest_seen": "2026-11-16",
+      "momentum": "rising",
       "organizations": [
-        "arXiv RSS cs.CR",
         "Quantum Zeitgeist",
+        "arXiv RSS cs.CR",
         "QuantumNews.ai",
         "Quantum Computing Report",
         "Hugging Face Technical Blog"
       ],
       "prior_count": 2,
-      "recent_count": 2,
-      "status": "watching"
+      "recent_count": 3,
+      "status": "actionable"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -3649,12 +3658,57 @@
           "source": "Quantum Computing Report",
           "title": "Qatar Ministry of Communications and Information Technology Signs Post-Quantum Readiness Agreement with SignQuantum and QANplatform",
           "url": "https://quantumcomputingreport.com/qatar-ministry-of-communications-and-information-technology-signs-post-quantum-readiness-agreement-with-signquantum-and-qanplatform"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://thequantuminsider.com/2026/11/16/liquid-c2-graphiant-quantum-secure-networking-africa",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 42,
+          "source": "The Quantum Insider",
+          "title": "Liquid C2 and Graphiant Partner on Quantum-Secure Networking in Africa",
+          "url": "https://thequantuminsider.com/2026/11/16/liquid-c2-graphiant-quantum-secure-networking-africa"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://thequantuminsider.com/2026/11/16/qatar-mcit-signquantum-post-quantum-cybersecurity",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 50,
+          "source": "The Quantum Insider",
+          "title": "Qatar's MCIT Partners with SignQuantum on Post-Quantum Cybersecurity",
+          "url": "https://thequantuminsider.com/2026/11/16/qatar-mcit-signquantum-post-quantum-cybersecurity"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://thequantuminsider.com/2026/11/16/saltgrain-ntt-research-post-quantum-attribute-based-encryption",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 55,
+          "source": "The Quantum Insider",
+          "title": "Saltgrain and NTT Research Develop Large-Universe Post-Quantum Encryption",
+          "url": "https://thequantuminsider.com/2026/11/16/saltgrain-ntt-research-post-quantum-attribute-based-encryption"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://quantumzeitgeist.com/qatar-signquantum-collaboration-collaborate-quantum-safe",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 93,
+          "source": "Quantum Zeitgeist",
+          "title": "Qatar and SignQuantum collaborate on quantum-safe cybersecurity",
+          "url": "https://quantumzeitgeist.com/qatar-signquantum-collaboration-collaborate-quantum-safe"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://quantumcomputingreport.com/nec-and-ibm-japan-demonstrate-hybrid-qkd-and-post-quantum-cryptography-tls-proxy-architecture",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 123,
+          "source": "Quantum Computing Report",
+          "title": "NEC and IBM Japan Demonstrate Hybrid QKD and Post-Quantum Cryptography TLS Proxy Architecture",
+          "url": "https://quantumcomputingreport.com/nec-and-ibm-japan-demonstrate-hybrid-qkd-and-post-quantum-cryptography-tls-proxy-architecture"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-11-15",
+      "latest_seen": "2026-11-16",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -3663,7 +3717,7 @@
         "Quantum Computing Report",
         "IACR ePrint"
       ],
-      "prior_count": 19,
+      "prior_count": 24,
       "recent_count": 18,
       "status": "watching"
     },
@@ -4677,12 +4731,30 @@
           "source": "Quantum Zeitgeist",
           "title": "Atom Computing Says it secures $100 million to build fault-tolerant quantum computers",
           "url": "https://quantumzeitgeist.com/atom-computing-fault-tolerant-100-million"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://www.ibm.com/quantum/blog/pelagos",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 89,
+          "source": "IBM Quantum Blog",
+          "title": "IBM, AMD advance quantum error correction decoding at scale | IBM Quantum Computing Blog",
+          "url": "https://www.ibm.com/quantum/blog/pelagos"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://quantumcomputingreport.com/ibm-and-amd-open-source-pelagos-gpu-decoder-framework-for-large-scale-qldpc-error-correction-simulations",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 124,
+          "source": "Quantum Computing Report",
+          "title": "IBM and AMD Open-Source Pelagos GPU Decoder Framework for Large-Scale qLDPC Error Correction Simulations",
+          "url": "https://quantumcomputingreport.com/ibm-and-amd-open-source-pelagos-gpu-decoder-framework-for-large-scale-qldpc-error-correction-simulations"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-11-14",
+      "latest_seen": "2026-11-16",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -4692,7 +4764,7 @@
         "arXiv RSS quant-ph"
       ],
       "prior_count": 4,
-      "recent_count": 7,
+      "recent_count": 8,
       "status": "actionable"
     },
     "Quantum Hardware": {
@@ -8432,12 +8504,21 @@
           "source": "Quantum Computing Report",
           "title": "Cross-Platform Cloud Benchmark Reveals Wide Gap Between Physical Qubit Counts and Entangled GHZ State Sizes",
           "url": "https://quantumcomputingreport.com/cross-platform-cloud-benchmark-reveals-wide-gap-between-physical-qubit-counts-and-entangled-ghz-state-sizes"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://quantumcomputingreport.com/turkiye-signs-agreement-with-iqm-quantum-computers-to-deploy-54-qubit-radiance-r3-system-at-tubitak-in-2027",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 35,
+          "source": "Quantum Computing Report",
+          "title": "T\u00fcrkiye Signs Agreement with IQM Quantum Computers to Deploy 54-Qubit Radiance R3 System at T\u00dcB\u0130TAK in 2027",
+          "url": "https://quantumcomputingreport.com/turkiye-signs-agreement-with-iqm-quantum-computers-to-deploy-54-qubit-radiance-r3-system-at-tubitak-in-2027"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-11-15",
+      "latest_seen": "2026-11-16",
       "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
@@ -8446,8 +8527,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 4,
-      "recent_count": 35,
+      "prior_count": 9,
+      "recent_count": 31,
       "status": "actionable"
     },
     "Quantum Networking": {
@@ -10099,12 +10180,30 @@
           "source": "Quantum Zeitgeist",
           "title": "1D Gaussian modulation simplifies CV-QKD complexity",
           "url": "https://quantumzeitgeist.com/quantum-industrial-1d-gaussian-modulation-simplifies"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://quantumzeitgeist.com/quantum-network-flow-linear-equation-solver",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 47,
+          "source": "Quantum Zeitgeist",
+          "title": "Quantum network flow could solve linear equations with linked nodes",
+          "url": "https://quantumzeitgeist.com/quantum-network-flow-linear-equation-solver"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://quantumzeitgeist.com/quantum-key-distribution-four-user-full-mesh-network",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 99,
+          "source": "Quantum Zeitgeist",
+          "title": "National and Kapodistrian University of Athens achieves Four-User quantum Network",
+          "url": "https://quantumzeitgeist.com/quantum-key-distribution-four-user-full-mesh-network"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-11-15",
+      "latest_seen": "2026-11-16",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -10113,8 +10212,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 8,
-      "recent_count": 6,
+      "prior_count": 9,
+      "recent_count": 7,
       "status": "watching"
     },
     "Quantum Sensing": {
@@ -11741,12 +11840,21 @@
           "source": "Quantum Computing Report",
           "title": "Making Quantum SDKs More Accessible: Lessons from Contributing to Qiskit",
           "url": "https://quantumcomputingreport.com/making-quantum-sdks-more-accessiblelessons-from-contributing-to-qiskit"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://quantumcomputingreport.com/alice-bob-details-qrmi-and-slurm-26-11-hierarchical-resource-integration-for-cat-qubit-systems-at-sc26",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 37,
+          "source": "Quantum Computing Report",
+          "title": "Alice & Bob Details QRMI and Slurm 26.11 Hierarchical Resource Integration for Cat-Qubit Systems at SC26",
+          "url": "https://quantumcomputingreport.com/alice-bob-details-qrmi-and-slurm-26-11-hierarchical-resource-integration-for-cat-qubit-systems-at-sc26"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-11-14",
+      "latest_seen": "2026-11-16",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -12544,12 +12652,21 @@
           "source": "The Quantum Insider",
           "title": "U.S. Quantum Ambitions Face a Supply Chain Test, Policy Analysts Warn",
           "url": "https://thequantuminsider.com/2026/11/13/u-s-quantum-ambitions-face-a-supply-chain-test-policy-analysts-warn"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://quantumzeitgeist.com/quera-computing-partnership-government-quantum",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 100,
+          "source": "Quantum Zeitgeist",
+          "title": "QuEra Computing says government is now quantum\u2019s key partner",
+          "url": "https://quantumzeitgeist.com/quera-computing-partnership-government-quantum"
         }
       ],
       "first_seen": "2026-07-21",
       "follow_up": "Monitor deadlines, procurement language, final standards, and implementation guidance.",
       "importance": "critical",
-      "latest_seen": "2026-11-13",
+      "latest_seen": "2026-11-16",
       "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
@@ -12558,11 +12675,11 @@
         "Quantum Zeitgeist",
         "USAspending \u00b7 Advanced Computing"
       ],
-      "prior_count": 1,
-      "recent_count": 9,
+      "prior_count": 3,
+      "recent_count": 8,
       "status": "actionable"
     }
   },
-  "updated_at": "2026-11-16T04:15:01.688877+00:00",
+  "updated_at": "2026-11-17T06:05:03.181335+00:00",
   "version": 1
 }

@@ -13,7 +13,7 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 1597,
+      "days_to_close": 1596,
       "deadline": "2031-04-01T23:59:00-04:00",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -196,11 +196,11 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 31,
+      "days_to_close": 30,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
-        "current_score": 63,
+        "current_score": 68,
         "evidence_url": "",
         "impact_id": null,
         "note": "No unreviewed material amendment impact is currently identified.",
@@ -208,7 +208,7 @@
         "previous_score": 63,
         "status": "current"
       },
-      "decision_score": 63,
+      "decision_score": 68,
       "decision_trace": {
         "components": [
           {
@@ -217,14 +217,14 @@
               "mission fit +22",
               "critical mission +8",
               "actionable grant_opportunity +9",
-              "open_window +4",
+              "closing_this_month +9",
               "technology fit +4"
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
               "https://www.grants.gov/search-results-detail/361526"
             ],
-            "points": 71
+            "points": 76
           },
           {
             "basis": [
@@ -248,11 +248,11 @@
         "input_claim_ids": [],
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
-        "public_evidence_score": 63,
+        "public_evidence_score": 68,
         "source_urls": [
           "https://www.grants.gov/search-results-detail/361526"
         ],
-        "trace_hash": "1ad03602f3c2d4aa"
+        "trace_hash": "7a619cedd450f852"
       },
       "eligibility": [],
       "evaluation_criteria": [],
@@ -265,7 +265,7 @@
       "opportunity_key": "grants_gov:DE-FOA-0003612",
       "potential_teaming_candidates": [],
       "provisional_gate": "qualify",
-      "public_evidence_score": 63,
+      "public_evidence_score": 68,
       "record_type": "grant_opportunity",
       "relevant_patents": [],
       "required_actions": [
@@ -300,7 +300,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 57,
+      "days_to_close": 56,
       "deadline": "01/12/2027",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -415,7 +415,7 @@
           "type": "secondary"
         }
       ],
-      "days_to_close": 21,
+      "days_to_close": 20,
       "deadline": "2026-12-07T23:59:00-05:00",
       "decision_freshness": {
         "current_gate": "hold",
@@ -669,6 +669,6 @@
     "qualify": 2,
     "targeted_review": 1
   },
-  "updated_at": "2026-11-16T04:12:00.159922+00:00",
+  "updated_at": "2026-11-17T05:58:49.885461+00:00",
   "version": 1
 }

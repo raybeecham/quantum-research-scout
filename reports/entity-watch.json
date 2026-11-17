@@ -384,8 +384,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 56,
-      "first_party_evidence_count": 3,
+      "evidence_count": 59,
+      "first_party_evidence_count": 4,
       "name": "IBM",
       "priority": "high",
       "status": "covered",
@@ -565,7 +565,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 17,
+      "evidence_count": 18,
       "first_party_evidence_count": 10,
       "name": "QuEra",
       "priority": "high",
@@ -1084,8 +1084,44 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 53,
+      "current_evidence_count": 56,
       "evidence": [
+        {
+          "date": "2026-11-16",
+          "key": "https://quantumcomputingreport.com/ibm-and-amd-open-source-pelagos-gpu-decoder-framework-for-large-scale-qldpc-error-correction-simulations",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 124,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "IBM and AMD Open-Source Pelagos GPU Decoder Framework for Large-Scale qLDPC Error Correction Simulations",
+          "url": "https://quantumcomputingreport.com/ibm-and-amd-open-source-pelagos-gpu-decoder-framework-for-large-scale-qldpc-error-correction-simulations"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://quantumcomputingreport.com/nec-and-ibm-japan-demonstrate-hybrid-qkd-and-post-quantum-cryptography-tls-proxy-architecture",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 123,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "NEC and IBM Japan Demonstrate Hybrid QKD and Post-Quantum Cryptography TLS Proxy Architecture",
+          "url": "https://quantumcomputingreport.com/nec-and-ibm-japan-demonstrate-hybrid-qkd-and-post-quantum-cryptography-tls-proxy-architecture"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://www.ibm.com/quantum/blog/pelagos",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 89,
+          "source": "IBM Quantum Blog",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "IBM, AMD advance quantum error correction decoding at scale | IBM Quantum Computing Blog",
+          "url": "https://www.ibm.com/quantum/blog/pelagos"
+        },
         {
           "date": "2026-11-13",
           "key": "https://quantumcomputingreport.com/qodex-quantum-nvidia-rtx-bbn-and-u-s-navy-researchers-forecast-unstructured-pdes-on-52-qubit-ibm-hardware",
@@ -1565,53 +1601,17 @@
           ],
           "title": "SIT and IBM will test quantum security at new Punggol center",
           "url": "https://quantumzeitgeist.com/sit-ibm-test-quantum-security"
-        },
-        {
-          "date": "2026-08-12",
-          "key": "https://thequantuminsider.com/2026/08/12/yonsei-quantum-initiative-ibm-nighthawk-processor-installation",
-          "report": "2026-08/2026-08-12-digest.md",
-          "score": 28,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Yonsei to Install IBM Nighthawk Quantum Processor for Research and Industry Applications",
-          "url": "https://thequantuminsider.com/2026/08/12/yonsei-quantum-initiative-ibm-nighthawk-processor-installation"
-        },
-        {
-          "date": "2026-08-08",
-          "key": "https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum",
-          "report": "2026-08/2026-08-08-digest.md",
-          "score": 35,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow Using Promethium and IBM Quantum",
-          "url": "https://quantumcomputingreport.com/qc-ware-demonstrates-hybrid-quantum-classical-chemistry-workflow-using-promethium-and-ibm-quantum"
-        },
-        {
-          "date": "2026-08-07",
-          "key": "https://thequantuminsider.com/2026/08/07/qc-ware-hybrid-quantum-classical-chemistry-workflow-ibm-quantum",
-          "report": "2026-08/2026-08-07-digest.md",
-          "score": 50,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "QC Ware Demonstrates Hybrid Quantum-Classical Chemistry Workflow with IBM Quantum Hardware",
-          "url": "https://thequantuminsider.com/2026/08/07/qc-ware-hybrid-quantum-classical-chemistry-workflow-ibm-quantum"
         }
       ],
-      "evidence_count": 56,
+      "evidence_count": 59,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-11-13",
+      "latest_seen": "2026-11-16",
       "momentum": "rising",
       "name": "IBM",
       "prior_count": 2,
       "priority": "high",
-      "recent_count": 13,
+      "recent_count": 16,
       "status": "active",
       "themes": [
         "AI Security",
@@ -2198,11 +2198,11 @@
       "first_seen": "2025-11-17",
       "historical_evidence_count": 14,
       "latest_seen": "2026-11-11",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "IonQ",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -4210,239 +4210,24 @@
       "type": "company"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "QuEra Computing"
+      ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 17,
+      "current_evidence_count": 8,
       "evidence": [
         {
-          "date": "2026-11-09",
-          "key": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates",
-          "report": "2026-11/2026-11-09-digest.md",
-          "score": 60,
-          "source": "InfoQ Quantum Computing",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Cloudflare Develops Public Certificate Authority for Post-Quantum Web Security",
-          "url": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates"
-        },
-        {
-          "date": "2026-11-06",
-          "key": "https://blog.cloudflare.com/vole-mole",
-          "report": "2026-11/2026-11-06-digest.md",
-          "score": 55,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The post-quantum future of web privacy",
-          "url": "https://blog.cloudflare.com/vole-mole"
-        },
-        {
-          "date": "2026-10-31",
-          "key": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager",
-          "report": "2026-10/2026-10-31-digest.md",
-          "score": 116,
-          "source": "InfoQ Quantum Computing",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Cloudflare\u2019s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
-          "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager"
-        },
-        {
-          "date": "2026-10-23",
-          "key": "https://blog.cloudflare.com/post-quantum-geo-key-manager",
-          "report": "2026-10/2026-10-23-digest.md",
-          "score": 55,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Bringing post-quantum cryptography to geographically fenced key management",
-          "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager"
-        },
-        {
-          "date": "2026-10-01",
-          "key": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support",
-          "report": "2026-10/2026-10-01-digest.md",
-          "score": 169,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Support for modern cryptographic algorithms in Workers",
-          "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support"
-        },
-        {
-          "date": "2026-09-29",
-          "key": "https://blog.cloudflare.com/pq-ca-with-mtcs",
-          "report": "2026-09/2026-09-29-digest.md",
-          "score": 69,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
-          "url": "https://blog.cloudflare.com/pq-ca-with-mtcs"
-        },
-        {
-          "date": "2026-09-29",
-          "key": "https://blog.cloudflare.com/cloudflare-certificate-authority",
-          "report": "2026-09/2026-09-29-digest.md",
-          "score": 47,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Building a certificate authority for the whole Internet",
-          "url": "https://blog.cloudflare.com/cloudflare-certificate-authority"
-        },
-        {
-          "date": "2026-09-29",
-          "key": "https://blog.cloudflare.com/ipsec-downgrade-protection",
-          "report": "2026-09/2026-09-29-digest.md",
-          "score": 47,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Preventing quantum downgrade attacks against IPsec",
-          "url": "https://blog.cloudflare.com/ipsec-downgrade-protection"
-        },
-        {
-          "date": "2026-09-10",
-          "key": "https://blog.cloudflare.com/post-quantum-dnssec-1111",
-          "report": "2026-09/2026-09-10-digest.md",
-          "score": 144,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
-          "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111"
-        },
-        {
-          "date": "2026-09-08",
-          "key": "https://blog.cloudflare.com/automatic-key-exchange-for-origins",
-          "report": "2026-09/2026-09-08-digest.md",
-          "score": 69,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
-          "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins"
-        },
-        {
-          "date": "2026-08-11",
-          "key": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government",
-          "report": "2026-08/2026-08-11-digest.md",
+          "date": "2026-11-16",
+          "key": "https://quantumzeitgeist.com/quera-computing-partnership-government-quantum",
+          "report": "2026-11/2026-11-16-digest.md",
           "score": 100,
           "source": "Quantum Zeitgeist",
           "themes": [
             "Standards / Government"
           ],
-          "title": "Cloudflare achieves quantum-secure FedRAMP High for U.S. government work",
-          "url": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government"
+          "title": "QuEra Computing says government is now quantum\u2019s key partner",
+          "url": "https://quantumzeitgeist.com/quera-computing-partnership-government-quantum"
         },
-        {
-          "date": "2026-08-10",
-          "key": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high",
-          "report": "2026-08/2026-08-10-digest.md",
-          "score": 100,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Cloudflare Expands Quantum-Safe Government Security Platform With FedRAMP High Authorization",
-          "url": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high"
-        },
-        {
-          "date": "2026-08-06",
-          "key": "https://blog.cloudflare.com/mcp-v2",
-          "report": "2026-08/2026-08-06-digest.md",
-          "score": 26,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The next generation of MCP",
-          "url": "https://blog.cloudflare.com/mcp-v2"
-        },
-        {
-          "date": "2026-08-03",
-          "key": "https://blog.cloudflare.com/smaller-faster-safer-models",
-          "report": "2026-08/2026-08-03-digest.md",
-          "score": 22,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "AI Security"
-          ],
-          "title": "Smaller, faster, safer: running Kimi and GLM at scale",
-          "url": "https://blog.cloudflare.com/smaller-faster-safer-models"
-        },
-        {
-          "date": "2026-07-29",
-          "key": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
-          "report": "2026-07/2026-07-29-digest.md",
-          "score": 55,
-          "source": "Cloudflare Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Post-quantum authentication to origins is now supported",
-          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
-        },
-        {
-          "date": "2026-07-09",
-          "key": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
-          "report": "2026-07/2026-07-09-digest.md",
-          "score": 139,
-          "source": "Cloudflare Post-Quantum Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Why we cannot wait for better post-quantum signature algorithms",
-          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
-        },
-        {
-          "date": "2026-06-23",
-          "key": "https://blog.cloudflare.com/post-quantum-eo-2026",
-          "report": "2026-06/2026-06-23-digest.md",
-          "score": 50,
-          "source": "Cloudflare Post-Quantum Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
-          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
-        }
-      ],
-      "evidence_count": 17,
-      "first_seen": "2026-06-23",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-11-09",
-      "momentum": "stable",
-      "name": "Cloudflare",
-      "prior_count": 1,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "AI Security",
-        "PQC / Crypto Agility",
-        "Standards / Government"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [
-        "QuEra Computing"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 7,
-      "evidence": [
         {
           "alert_eligible": false,
           "category": "Quantum Hardware",
@@ -4768,20 +4553,247 @@
           "url": "https://www.quera.com/press-releases/quera-computing-and-deloitte-form-alliance-to-accelerate-enterprise-adoption-of-neutral-atom-quantum-computing"
         }
       ],
-      "evidence_count": 17,
+      "evidence_count": 18,
       "first_seen": "2025-08-20",
       "historical_evidence_count": 10,
-      "latest_seen": "2026-11-10",
+      "latest_seen": "2026-11-16",
       "momentum": "rising",
       "name": "QuEra",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "AI Security",
         "Quantum Hardware",
         "Quantum Software / Tooling",
+        "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 17,
+      "evidence": [
+        {
+          "date": "2026-11-09",
+          "key": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates",
+          "report": "2026-11/2026-11-09-digest.md",
+          "score": 60,
+          "source": "InfoQ Quantum Computing",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Cloudflare Develops Public Certificate Authority for Post-Quantum Web Security",
+          "url": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates"
+        },
+        {
+          "date": "2026-11-06",
+          "key": "https://blog.cloudflare.com/vole-mole",
+          "report": "2026-11/2026-11-06-digest.md",
+          "score": 55,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The post-quantum future of web privacy",
+          "url": "https://blog.cloudflare.com/vole-mole"
+        },
+        {
+          "date": "2026-10-31",
+          "key": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager",
+          "report": "2026-10/2026-10-31-digest.md",
+          "score": 116,
+          "source": "InfoQ Quantum Computing",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Cloudflare\u2019s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
+          "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager"
+        },
+        {
+          "date": "2026-10-23",
+          "key": "https://blog.cloudflare.com/post-quantum-geo-key-manager",
+          "report": "2026-10/2026-10-23-digest.md",
+          "score": 55,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Bringing post-quantum cryptography to geographically fenced key management",
+          "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager"
+        },
+        {
+          "date": "2026-10-01",
+          "key": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support",
+          "report": "2026-10/2026-10-01-digest.md",
+          "score": 169,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Support for modern cryptographic algorithms in Workers",
+          "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://blog.cloudflare.com/pq-ca-with-mtcs",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 69,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+          "url": "https://blog.cloudflare.com/pq-ca-with-mtcs"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://blog.cloudflare.com/cloudflare-certificate-authority",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 47,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Building a certificate authority for the whole Internet",
+          "url": "https://blog.cloudflare.com/cloudflare-certificate-authority"
+        },
+        {
+          "date": "2026-09-29",
+          "key": "https://blog.cloudflare.com/ipsec-downgrade-protection",
+          "report": "2026-09/2026-09-29-digest.md",
+          "score": 47,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Preventing quantum downgrade attacks against IPsec",
+          "url": "https://blog.cloudflare.com/ipsec-downgrade-protection"
+        },
+        {
+          "date": "2026-09-10",
+          "key": "https://blog.cloudflare.com/post-quantum-dnssec-1111",
+          "report": "2026-09/2026-09-10-digest.md",
+          "score": 144,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+          "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111"
+        },
+        {
+          "date": "2026-09-08",
+          "key": "https://blog.cloudflare.com/automatic-key-exchange-for-origins",
+          "report": "2026-09/2026-09-08-digest.md",
+          "score": 69,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+          "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins"
+        },
+        {
+          "date": "2026-08-11",
+          "key": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government",
+          "report": "2026-08/2026-08-11-digest.md",
+          "score": 100,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "Cloudflare achieves quantum-secure FedRAMP High for U.S. government work",
+          "url": "https://quantumzeitgeist.com/quantum-fedramp-high-cloudflare-government"
+        },
+        {
+          "date": "2026-08-10",
+          "key": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high",
+          "report": "2026-08/2026-08-10-digest.md",
+          "score": 100,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Cloudflare Expands Quantum-Safe Government Security Platform With FedRAMP High Authorization",
+          "url": "https://thequantuminsider.com/2026/08/10/cloudflare-quantum-safe-government-security-fedramp-high"
+        },
+        {
+          "date": "2026-08-06",
+          "key": "https://blog.cloudflare.com/mcp-v2",
+          "report": "2026-08/2026-08-06-digest.md",
+          "score": 26,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The next generation of MCP",
+          "url": "https://blog.cloudflare.com/mcp-v2"
+        },
+        {
+          "date": "2026-08-03",
+          "key": "https://blog.cloudflare.com/smaller-faster-safer-models",
+          "report": "2026-08/2026-08-03-digest.md",
+          "score": 22,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+          "url": "https://blog.cloudflare.com/smaller-faster-safer-models"
+        },
+        {
+          "date": "2026-07-29",
+          "key": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
+          "report": "2026-07/2026-07-29-digest.md",
+          "score": 55,
+          "source": "Cloudflare Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Post-quantum authentication to origins is now supported",
+          "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins"
+        },
+        {
+          "date": "2026-07-09",
+          "key": "https://blog.cloudflare.com/ml-dsa-will-have-to-do",
+          "report": "2026-07/2026-07-09-digest.md",
+          "score": 139,
+          "source": "Cloudflare Post-Quantum Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Why we cannot wait for better post-quantum signature algorithms",
+          "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do"
+        },
+        {
+          "date": "2026-06-23",
+          "key": "https://blog.cloudflare.com/post-quantum-eo-2026",
+          "report": "2026-06/2026-06-23-digest.md",
+          "score": 50,
+          "source": "Cloudflare Post-Quantum Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "The post-quantum EO is an important milestone. Now it\u2019s time to get to work",
+          "url": "https://blog.cloudflare.com/post-quantum-eo-2026"
+        }
+      ],
+      "evidence_count": 17,
+      "first_seen": "2026-06-23",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-11-09",
+      "momentum": "declining",
+      "name": "Cloudflare",
+      "prior_count": 2,
+      "priority": "high",
+      "recent_count": 0,
+      "status": "quiet",
+      "themes": [
+        "AI Security",
+        "PQC / Crypto Agility",
         "Standards / Government"
       ],
       "type": "company"
@@ -8349,8 +8361,32 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 49,
+      "current_evidence_count": 51,
       "evidence": [
+        {
+          "date": "2026-11-16",
+          "key": "https://quantumzeitgeist.com/fault-tolerant-circuits-llm-designs-error",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 101,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "LLM designs fault-tolerant circuits for quantum error correction",
+          "url": "https://quantumzeitgeist.com/fault-tolerant-circuits-llm-designs-error"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://www.ibm.com/quantum/blog/pelagos",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 89,
+          "source": "IBM Quantum Blog",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "IBM, AMD advance quantum error correction decoding at scale | IBM Quantum Computing Blog",
+          "url": "https://www.ibm.com/quantum/blog/pelagos"
+        },
         {
           "date": "2026-11-13",
           "key": "https://quantumzeitgeist.com/freie-berlin-quantum-error-correction-circuits",
@@ -8806,41 +8842,17 @@
           ],
           "title": "Rice University Team Presents Topological Subsystem Code Framework for Quantum Error Correction",
           "url": "https://quantumzeitgeist.com/rice-university-presents-topological-subsystem-code-framework-quantum"
-        },
-        {
-          "date": "2026-07-15",
-          "key": "https://quantumzeitgeist.com/nvidia-ising-decoding-cuts-color",
-          "report": "2026-07/2026-07-15-digest.md",
-          "score": 97,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "NVIDIA QEC Ising Decoding Cuts Color Code Errors Over 347x",
-          "url": "https://quantumzeitgeist.com/nvidia-ising-decoding-cuts-color"
-        },
-        {
-          "date": "2026-07-14",
-          "key": "https://quantumzeitgeist.com/mit-caltech-single-ion-qec",
-          "report": "2026-07/2026-07-14-digest.md",
-          "score": 83,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "MIT and Caltech Researchers Create Single Ion Achieving Quantum Error Correction (QEC)",
-          "url": "https://quantumzeitgeist.com/mit-caltech-single-ion-qec"
         }
       ],
-      "evidence_count": 51,
+      "evidence_count": 53,
       "first_seen": "2026-01-08",
       "historical_evidence_count": 2,
-      "latest_seen": "2026-11-13",
+      "latest_seen": "2026-11-16",
       "momentum": "rising",
       "name": "Quantum error correction",
       "prior_count": 1,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "AI Security",
@@ -10532,8 +10544,20 @@
       "case_sensitive_aliases": [
         "QKD"
       ],
-      "current_evidence_count": 21,
+      "current_evidence_count": 22,
       "evidence": [
+        {
+          "date": "2026-11-16",
+          "key": "https://quantumcomputingreport.com/nec-and-ibm-japan-demonstrate-hybrid-qkd-and-post-quantum-cryptography-tls-proxy-architecture",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 123,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "NEC and IBM Japan Demonstrate Hybrid QKD and Post-Quantum Cryptography TLS Proxy Architecture",
+          "url": "https://quantumcomputingreport.com/nec-and-ibm-japan-demonstrate-hybrid-qkd-and-post-quantum-cryptography-tls-proxy-architecture"
+        },
         {
           "date": "2026-11-15",
           "key": "https://quantumzeitgeist.com/quantum-industrial-1d-gaussian-modulation-simplifies",
@@ -10859,17 +10883,18 @@
           "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-to-showcase-quantum-secure-communications-beyond-quantum-key-distribution-at-ecoc-2026"
         }
       ],
-      "evidence_count": 24,
+      "evidence_count": 25,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-11-15",
+      "latest_seen": "2026-11-16",
       "momentum": "rising",
       "name": "Quantum key distribution",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 3,
       "status": "active",
       "themes": [
+        "PQC / Crypto Agility",
         "Quantum Networking"
       ],
       "type": "technology"
@@ -11526,6 +11551,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-11-16T04:15:01.703884+00:00",
+  "updated_at": "2026-11-17T06:05:03.194161+00:00",
   "version": 2
 }

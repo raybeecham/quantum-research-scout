@@ -2,19 +2,19 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-11-16T04:12:00.159922+00:00_
+_Updated 2026-11-17T05:58:49.885461+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **27**
-- Added / changed / resolved: **0 / 0 / 27**
+- Material changes: **28**
+- Added / changed / resolved: **0 / 1 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- None.
+- **The Genesis Mission: Transforming Science and Energy with AI** — qualification gate: qualify ([evidence](https://www.grants.gov/search-results-detail/361526))
 
 ## New claims
 
