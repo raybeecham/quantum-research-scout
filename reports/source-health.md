@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-17 16:16 UTC_
+_Updated 2026-11-17 17:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -14,7 +14,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
-| Google Quantum AI | watch | 49% | 10 | 0 | 2026-11-17 | 2026-10-15 | fresh | 🟢 healthy |
+| Google Quantum AI | watch | 50% | 10 | 0 | 2026-11-17 | 2026-10-15 | fresh | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 94% | 9 | 0 | 2026-11-17 | 2026-10-23 | stale | 🔴 failing |
 | ETSI Quantum Standards News | watch | 96% | 8 | 0 | 2026-11-17 | 2026-09-24 | stale | 🟢 healthy |
 | White House Science and Technology Missions | watch | 94% | 8 | 0 | 2026-11-17 | 2026-09-29 | stale | 🟢 healthy |
@@ -30,13 +30,13 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | SAM.gov Opportunities | procurement | 98% | 0 | 9 | 2026-11-17 | 2026-11-16 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 4 | 2026-11-17 | 2024-03-12 | reference | 🟠 partial |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-17 | 2026-10-21 | fresh | 🟢 healthy |
-| AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-17 | 2026-11-13 | fresh | 🟢 healthy |
+| AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-17 | 2026-11-17 | fresh | 🟢 healthy |
 | Accenture Federal Services Quantum Readiness | watch | 100% | 0 | 0 | 2026-11-17 | 2026-08-04 | reference | 🟢 healthy |
 | Accenture Quantum and PQC News | watch | 100% | 0 | 0 | 2026-11-17 | 2025-10-20 | stale | 🟢 healthy |
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-17 | 2026-11-13 | fresh | 🟢 healthy |
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-11-17 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-11-17 | 2026-09-29 | stale | 🟢 healthy |
-| CISA Cybersecurity Advisories | rss | 95% | 0 | 0 | 2026-11-17 | 2026-11-13 | fresh | 🟢 healthy |
+| CISA Cybersecurity Advisories | rss | 95% | 0 | 0 | 2026-11-17 | 2026-11-17 | fresh | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-11-17 | 2026-10-26 | stale | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-17 | 2026-11-12 | fresh | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-17 | 2026-11-13 | fresh | 🟢 healthy |
@@ -90,7 +90,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | NSF Strategic Science and Technology Missions | watch | 100% | 0 | 0 | 2026-11-17 | 2026-10-08 | stale | 🟢 healthy |
 | Open Quantum Safe | rss | 100% | 0 | 0 | 2026-11-17 | 2026-07-09 | stale | 🟢 healthy |
 | OpenSSL Library Releases | rss | 100% | 0 | 0 | 2026-11-17 | 2026-10-23 | fresh | 🟢 healthy |
-| PQCA Blog and News | rss | 100% | 0 | 0 | 2026-11-17 | 2026-11-02 | fresh | 🟢 healthy |
+| PQCA Blog and News | rss | 100% | 0 | 0 | 2026-11-17 | 2026-11-02 | stale | 🟢 healthy |
 | PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-11-17 | 2026-11-04 | fresh | 🟢 healthy |
 | PQShield | rss | 100% | 0 | 0 | 2026-11-17 | 2026-11-04 | fresh | 🟢 healthy |
 | Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-17 | 2026-11-16 | fresh | 🟢 healthy |
