@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-17 11:15 UTC_
+_Updated 2026-11-17 12:15 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -86,7 +86,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | NIST CSRC News | url | 100% | 0 | 0 | 2026-11-17 | 2026-11-12 | fresh | 🟢 healthy |
 | NIST Cybersecurity Insights | watch | 100% | 0 | 0 | 2026-11-17 | 2026-10-27 | stale | 🟢 healthy |
 | NIST Post-Quantum Cryptography Project | watch | 100% | 0 | 0 | 2026-11-17 | 2025-03-07 | reference | 🟢 healthy |
-| NIST Research News | watch | 100% | 0 | 0 | 2026-11-17 | 2026-11-02 | fresh | 🟢 healthy |
+| NIST Research News | watch | 100% | 0 | 0 | 2026-11-17 | 2026-11-02 | stale | 🟢 healthy |
 | NSF Strategic Science and Technology Missions | watch | 100% | 0 | 0 | 2026-11-17 | 2026-10-08 | stale | 🟢 healthy |
 | Open Quantum Safe | rss | 100% | 0 | 0 | 2026-11-17 | 2026-07-09 | stale | 🟢 healthy |
 | OpenSSL Library Releases | rss | 100% | 0 | 0 | 2026-11-17 | 2026-10-23 | fresh | 🟢 healthy |
