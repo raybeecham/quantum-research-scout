@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-17 01:15 UTC_
+_Updated 2026-11-17 02:15 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -22,7 +22,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv Quantum Computing | arxiv | 61% | 7 | 0 | 2026-11-10 | 2026-10-29 | standby | ⚪ standby |
 | arXiv Quantum Networking and Sensing | arxiv | 62% | 7 | 0 | 2026-11-10 | 2026-10-29 | standby | ⚪ standby |
 | Quantum Computing Patents | patent | 91% | 5 | 0 | 2026-11-16 | 2026-11-12 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 94% | 3 | 0 | 2026-11-17 | 2026-11-16 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 94% | 3 | 0 | 2026-11-17 | 2026-11-17 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 92% | 1 | 1 | 2026-11-17 | 2026-11-16 | fresh | 🟠 partial |
 | arXiv RSS quant-ph | arxiv_rss | 92% | 1 | 1 | 2026-11-17 | 2026-11-16 | fresh | 🟠 partial |
 | Quantum Journal | rss | 97% | 1 | 0 | 2026-11-17 | 2026-11-10 | fresh | 🟢 healthy |
@@ -69,7 +69,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-17 | 2026-11-16 | fresh | 🟢 healthy |
 | IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-17 | 2026-11-13 | fresh | 🟢 healthy |
 | IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-17 | 2026-11-16 | fresh | 🟢 healthy |
-| IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-17 | 2026-11-16 | fresh | 🔴 failing |
+| IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-17 | 2026-11-16 | fresh | 🟢 healthy |
 | IETF PQUIP | watch | 100% | 0 | 0 | 2026-11-16 | — | reference | 🟢 healthy |
 | IETF Post-Quantum Updates | watch | 100% | 0 | 0 | 2026-11-17 | 2026-11-12 | fresh | 🟢 healthy |
 | InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-11-17 | 2026-11-09 | fresh | 🟢 healthy |
@@ -134,7 +134,7 @@ RSS and API are measured separately. Standby means no API request was made; work
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **101** of **108**
+- Healthy sources: **102** of **108**
 - Partial-coverage sources: **2**
 - Critical sources failing: **0**
 - Partial coverage: arXiv RSS cs.CR, arXiv RSS quant-ph
