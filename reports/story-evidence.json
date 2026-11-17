@@ -2733,6 +2733,105 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2611.18881": {
+      "captures": [
+        {
+          "excerpts": [
+            "The Quantum Singular Value Transformation (QSVT) is an algorithmic framework which encompasses a wide range of problems, including Hamiltonian dynamics, ground state preparation, Gibbs state preparation, amplitude..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-16",
+              "report_date": "2026-11-17",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.18881"
+            }
+          ],
+          "title": "Double-Randomized Quantum Singular Value Transformations For Early Fault-Tolerant Quantum Computers"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.19090": {
+      "captures": [
+        {
+          "excerpts": [
+            "As Large Language Models (LLMs) become used more commonly across a variety of fields, a growing body of research has highlighted particular concerns surrounding model security",
+            "Notably, prompt injection attacks, where malicious instructions are inserted into prompts, are particularly simple to implement yet capable of inducing devastating effects on the fidelity of model outputs"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-16",
+              "report_date": "2026-11-17",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.19090"
+            }
+          ],
+          "title": "When the Spec Sheet Lies: Injection Attacks on LLM-Generated Compliance Artifacts"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.19130": {
+      "captures": [
+        {
+          "excerpts": [
+            "We present Spatiotemporal Covariance-Optimized Parallel Ensemble (SCOPE), a physics-informed framework for real-time decoding of quantum low-density parity-check codes (qLDPC)",
+            "Fault-tolerant quantum computation requires reconciling the computational demands of accurate decoding with the stringent timing constraints of real-time error correction"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-16",
+              "report_date": "2026-11-17",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.19130"
+            }
+          ],
+          "title": "Accurate qLDPC decoding under real-time constraints"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.19715": {
+      "captures": [
+        {
+          "excerpts": [
+            "The fault-tolerant performance of quantum error correction codes relies critically on the scheduling of parity checks in syndrome extraction circuits (SECs)",
+            "For general CSS-type quantum low-density parity-check (qLDPC) codes, the vast scheduling space and intricate error-propagation patterns make it computationally prohibitive to directly optimize the logical error rate..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-16",
+              "report_date": "2026-11-17",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.19715"
+            }
+          ],
+          "title": "Proxima: Optimizing Syndrome Extraction Circuit Scheduling for Practical Quantum LDPC Codes"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.20277": {
+      "captures": [
+        {
+          "excerpts": [
+            "A notable example is the Bleichenbacher attack on RSA with PKCS#1 v1.5 padding and all the improvements that have been suggested over the decades",
+            "Oracle attacks show the importance of a correct implementation of cryptographic standards when translated into code"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-16",
+              "report_date": "2026-11-17",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.20277"
+            }
+          ],
+          "title": "A Bleichenbacher bit-by-bit oracle attack from partial message knowledge"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
