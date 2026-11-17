@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-17 02:15 UTC_
+_Updated 2026-11-17 03:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -42,7 +42,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-17 | 2026-11-13 | fresh | 🟢 healthy |
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-17 | 2026-11-06 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-16 | 2026-11-12 | fresh | 🟢 healthy |
-| DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-17 | 2026-11-04 | fresh | 🟢 healthy |
+| DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-17 | 2026-11-16 | fresh | 🟢 healthy |
 | DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-17 | 2026-11-10 | fresh | 🟢 healthy |
 | DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-17 | 2026-11-10 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-16 | — | reference | 🟢 healthy |
