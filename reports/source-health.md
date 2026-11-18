@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-18 14:16 UTC_
+_Updated 2026-11-18 15:18 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -16,17 +16,17 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 |---|---|---:|---:|---:|---|---|---|---|
 | Google Quantum AI | watch | 51% | 10 | 0 | 2026-11-18 | 2026-10-15 | fresh | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 91% | 9 | 0 | 2026-11-18 | 2026-10-23 | stale | 🔴 failing |
-| ETSI Quantum Standards News | watch | 96% | 7 | 0 | 2026-11-18 | 2026-09-24 | stale | 🟢 healthy |
+| ETSI Quantum Standards News | watch | 96% | 7 | 0 | 2026-11-18 | 2026-09-24 | stale | 🟠 partial |
 | White House Science and Technology Missions | watch | 94% | 7 | 0 | 2026-11-18 | 2026-09-29 | stale | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 61% | 6 | 0 | 2026-11-10 | 2026-10-28 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 61% | 6 | 0 | 2026-11-10 | 2026-10-29 | standby | ⚪ standby |
 | arXiv Quantum Networking and Sensing | arxiv | 62% | 6 | 0 | 2026-11-10 | 2026-10-29 | standby | ⚪ standby |
 | Quantum Computing Patents | patent | 91% | 4 | 0 | 2026-11-18 | 2026-11-12 | fresh | 🟢 healthy |
-| Quantum Computing Report | rss | 95% | 2 | 0 | 2026-11-18 | 2026-11-18 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 95% | 2 | 0 | 2026-11-18 | 2026-11-18 | fresh | 🔴 failing |
 | arXiv RSS cs.CR | arxiv_rss | 92% | 1 | 2 | 2026-11-18 | 2026-11-18 | fresh | 🟠 partial |
 | arXiv RSS quant-ph | arxiv_rss | 92% | 1 | 2 | 2026-11-18 | 2026-11-18 | fresh | 🟠 partial |
 | Quantum Journal | rss | 97% | 1 | 0 | 2026-11-18 | 2026-11-18 | fresh | 🟢 healthy |
-| Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-18 | 2026-11-17 | fresh | 🟢 healthy |
+| Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-18 | 2026-11-18 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 10 | 2026-11-18 | 2026-11-17 | fresh | 🟠 partial |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 4 | 2026-11-18 | 2024-03-12 | reference | 🟢 healthy |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-18 | 2026-11-17 | fresh | 🟢 healthy |
@@ -39,7 +39,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | CISA Cybersecurity Advisories | rss | 96% | 0 | 0 | 2026-11-18 | 2026-11-17 | fresh | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-11-18 | 2026-10-26 | stale | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-18 | 2026-11-12 | fresh | 🟢 healthy |
-| Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-18 | 2026-11-17 | fresh | 🟢 healthy |
+| Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-18 | 2026-11-18 | fresh | 🟢 healthy |
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-18 | 2026-11-06 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-18 | 2026-11-12 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-18 | 2026-11-16 | fresh | 🟢 healthy |
@@ -66,7 +66,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Grants.gov · Quantum Genesis | grant_opportunity | 100% | 0 | 0 | 2026-11-18 | 2026-06-30 | stale | 🟢 healthy |
 | Grants.gov · Quantum Technologies | grant_opportunity | 100% | 0 | 0 | 2026-11-18 | 2026-10-28 | stale | 🟢 healthy |
 | Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-11-18 | — | unknown | 🟢 healthy |
-| Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-18 | 2026-11-16 | fresh | 🟢 healthy |
+| Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-18 | 2026-11-18 | fresh | 🟢 healthy |
 | IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-18 | 2026-11-14 | fresh | 🟢 healthy |
 | IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-18 | 2026-11-16 | fresh | 🟢 healthy |
 | IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-18 | 2026-11-16 | fresh | 🟢 healthy |
@@ -134,10 +134,10 @@ RSS and API are measured separately. Standby means no API request was made; work
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **101** of **108**
-- Partial-coverage sources: **3**
+- Healthy sources: **99** of **108**
+- Partial-coverage sources: **4**
 - Critical sources failing: **0**
-- Partial coverage: SAM.gov Opportunities, arXiv RSS cs.CR, arXiv RSS quant-ph
+- Partial coverage: ETSI Quantum Standards News, SAM.gov Opportunities, arXiv RSS cs.CR, arXiv RSS quant-ph
 
 ## Disabled Sources
 
