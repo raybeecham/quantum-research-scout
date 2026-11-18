@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-18 22:16 UTC_
+_Updated 2026-11-18 23:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -30,7 +30,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | SAM.gov Opportunities | procurement | 98% | 0 | 10 | 2026-11-18 | 2026-11-17 | fresh | 🟠 partial |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 4 | 2026-11-18 | 2024-03-12 | reference | 🟢 healthy |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-18 | 2026-11-17 | fresh | 🟢 healthy |
-| AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-18 | 2026-11-17 | fresh | 🟢 healthy |
+| AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-18 | 2026-11-18 | fresh | 🟢 healthy |
 | Accenture Federal Services Quantum Readiness | watch | 100% | 0 | 0 | 2026-11-18 | 2026-08-04 | reference | 🟢 healthy |
 | Accenture Quantum and PQC News | watch | 100% | 0 | 0 | 2026-11-18 | 2025-10-20 | stale | 🟢 healthy |
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-18 | 2026-11-13 | fresh | 🟢 healthy |
@@ -93,7 +93,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | PQCA Blog and News | rss | 100% | 0 | 0 | 2026-11-18 | 2026-11-02 | stale | 🟢 healthy |
 | PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-11-18 | 2026-11-04 | fresh | 🟢 healthy |
 | PQShield | rss | 100% | 0 | 0 | 2026-11-18 | 2026-11-04 | fresh | 🟢 healthy |
-| Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-18 | 2026-11-16 | fresh | 🟢 healthy |
+| Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-18 | 2026-11-18 | fresh | 🟢 healthy |
 | Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-11-18 | 2026-11-05 | fresh | 🟢 healthy |
 | PsiQuantum News | watch | 100% | 0 | 0 | 2026-11-18 | 2026-11-12 | fresh | 🟢 healthy |
 | QCi Press Releases | watch | 100% | 0 | 0 | 2026-11-18 | 2026-11-17 | fresh | 🟢 healthy |
