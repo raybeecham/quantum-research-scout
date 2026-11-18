@@ -140,7 +140,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 23,
+      "evidence_count": 24,
       "first_party_evidence_count": 3,
       "name": "NIST",
       "priority": "critical",
@@ -384,7 +384,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 59,
+      "evidence_count": 60,
       "first_party_evidence_count": 4,
       "name": "IBM",
       "priority": "high",
@@ -426,7 +426,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 47,
+      "evidence_count": 48,
       "first_party_evidence_count": 10,
       "name": "IonQ",
       "priority": "high",
@@ -744,8 +744,20 @@
         "National Institute of Standards and Technology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 20,
+      "current_evidence_count": 21,
       "evidence": [
+        {
+          "date": "2026-11-17",
+          "key": "https://quantumzeitgeist.com/nist-partnership-quantum-warns-computers-encryption",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 82,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "NIST warns quantum computers threaten encryption, security teams prepare now",
+          "url": "https://quantumzeitgeist.com/nist-partnership-quantum-warns-computers-encryption"
+        },
         {
           "date": "2026-10-28",
           "key": "https://thequantuminsider.com/2026/10/28/what-nists-post-quantum-cryptography-plan-means-for-companies-and-their-suppliers",
@@ -1059,16 +1071,16 @@
           "url": "https://www.nist.gov/blogs/cybersecurity-insights/impact-artificial-intelligence-cybersecurity-workforce"
         }
       ],
-      "evidence_count": 23,
+      "evidence_count": 24,
       "first_seen": "2025-06-12",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-10-28",
-      "momentum": "stable",
+      "latest_seen": "2026-11-17",
+      "momentum": "rising",
       "name": "NIST",
       "prior_count": 0,
       "priority": "critical",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware",
@@ -1084,8 +1096,20 @@
         "IBM Research"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 56,
+      "current_evidence_count": 57,
       "evidence": [
+        {
+          "date": "2026-11-17",
+          "key": "https://quantumzeitgeist.com/quantum-keys-post-security-nec-japan",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 121,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "NEC and IBM Japan link quantum keys with post-quantum security",
+          "url": "https://quantumzeitgeist.com/quantum-keys-post-security-nec-japan"
+        },
         {
           "date": "2026-11-16",
           "key": "https://quantumcomputingreport.com/ibm-and-amd-open-source-pelagos-gpu-decoder-framework-for-large-scale-qldpc-error-correction-simulations",
@@ -1589,27 +1613,15 @@
           ],
           "title": "QuSecure Featured in TechNewsWorld: IBM Advances the Path to Scalable Quantum Computing",
           "url": "https://www.qusecure.com/technewsworld-scalable-quantum-computing-ibm/"
-        },
-        {
-          "date": "2026-08-18",
-          "key": "https://quantumzeitgeist.com/sit-ibm-test-quantum-security",
-          "report": "2026-08/2026-08-18-digest.md",
-          "score": 75,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "SIT and IBM will test quantum security at new Punggol center",
-          "url": "https://quantumzeitgeist.com/sit-ibm-test-quantum-security"
         }
       ],
-      "evidence_count": 59,
+      "evidence_count": 60,
       "first_seen": "2026-06-23",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-11-16",
+      "latest_seen": "2026-11-17",
       "momentum": "rising",
       "name": "IBM",
-      "prior_count": 2,
+      "prior_count": 3,
       "priority": "high",
       "recent_count": 16,
       "status": "active",
@@ -1627,8 +1639,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 33,
+      "current_evidence_count": 34,
       "evidence": [
+        {
+          "date": "2026-11-17",
+          "key": "https://quantumzeitgeist.com/quantum-key-distribution-ionq-idemia-validate",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 100,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "IonQ and Idemia validate quantum key distribution for networks",
+          "url": "https://quantumzeitgeist.com/quantum-key-distribution-ionq-idemia-validate"
+        },
         {
           "alert_eligible": false,
           "category": "Standards / Policy",
@@ -2180,27 +2204,15 @@
           ],
           "title": "IonQ\u2019s SkyWater Deal Secures U.S. Quantum Chip Supply",
           "url": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal"
-        },
-        {
-          "date": "2026-06-22",
-          "key": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator",
-          "report": "2026-06/2026-06-22-digest.md",
-          "score": 24,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "Fixstars Amplify adds IonQ\u2019s Quantum Computing Environment to its Standard Machines",
-          "url": "https://thequantuminsider.com/2026/06/22/fixstars-amplify-integrates-ionq-quantum-simulator"
         }
       ],
-      "evidence_count": 47,
+      "evidence_count": 48,
       "first_seen": "2025-11-17",
       "historical_evidence_count": 14,
-      "latest_seen": "2026-11-11",
-      "momentum": "stable",
+      "latest_seen": "2026-11-17",
+      "momentum": "declining",
       "name": "IonQ",
-      "prior_count": 2,
+      "prior_count": 3,
       "priority": "high",
       "recent_count": 2,
       "status": "active",
@@ -4557,11 +4569,11 @@
       "first_seen": "2025-08-20",
       "historical_evidence_count": 10,
       "latest_seen": "2026-11-16",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "QuEra",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "AI Security",
@@ -5190,11 +5202,11 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-10",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Quantinuum",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -5345,11 +5357,11 @@
       "first_seen": "2026-08-03",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-10",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "DigiCert",
-      "prior_count": 0,
+      "prior_count": 2,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility"
@@ -5619,11 +5631,11 @@
       "first_seen": "2026-06-30",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-10",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "D-Wave",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -5915,11 +5927,11 @@
       "first_seen": "2024-12-09",
       "historical_evidence_count": 2,
       "latest_seen": "2026-11-10",
-      "momentum": "rising",
+      "momentum": "declining",
       "name": "Google Quantum AI",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 1,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "AI Security",
@@ -6013,11 +6025,11 @@
       "first_seen": "2026-08-04",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-12",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "Thales",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "AI Security",
@@ -8361,8 +8373,44 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 51,
+      "current_evidence_count": 54,
       "evidence": [
+        {
+          "date": "2026-11-17",
+          "key": "https://arxiv.org/abs/2611.21928",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 69,
+          "source": "arXiv RSS quant-ph",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Simplifying models of noisy stabilizer QEC on leakage qubits by Pauli twirling",
+          "url": "https://arxiv.org/abs/2611.21928"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://arxiv.org/abs/2611.22247",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 64,
+          "source": "arXiv RSS quant-ph",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "CHEQ: A Concurrent Hardware Evaluation Platform for QEC Decoders via Batch-Invariant Circuit-Level Noise Sampling",
+          "url": "https://arxiv.org/abs/2611.22247"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://quantumcomputingreport.com/quantum-machines-demonstrates-sub-microsecond-surface-code-decoding-on-opx1000-using-nvidia-cuda-q-qec-and-nvqlink",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 57,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Quantum Machines Demonstrates Sub-Microsecond Surface-Code Decoding on OPX1000 Using NVIDIA CUDA-Q QEC and NVQLink",
+          "url": "https://quantumcomputingreport.com/quantum-machines-demonstrates-sub-microsecond-surface-code-decoding-on-opx1000-using-nvidia-cuda-q-qec-and-nvqlink"
+        },
         {
           "date": "2026-11-16",
           "key": "https://quantumzeitgeist.com/fault-tolerant-circuits-llm-designs-error",
@@ -8806,53 +8854,17 @@
           ],
           "title": "Rice joins Department of Energy\u2019s Quantum Science Center to Advance QEC Research",
           "url": "https://thequantuminsider.com/2026/07/22/rice-university-doe-quantum-error-correction-research"
-        },
-        {
-          "date": "2026-07-21",
-          "key": "https://arxiv.org/abs/2607.18374",
-          "report": "2026-07/2026-07-21-digest.md",
-          "score": 79,
-          "source": "arXiv RSS quant-ph",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Nishimori Threshold Estimation for Bayesian Inference and $\\mathbb{Z}_q$ Surface Code Decoding",
-          "url": "https://arxiv.org/abs/2607.18374"
-        },
-        {
-          "date": "2026-07-18",
-          "key": "https://quantumzeitgeist.com/instituto-superior-tecnico-binary-gauss-stabilizers",
-          "report": "2026-07/2026-07-18-digest.md",
-          "score": 33,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Binary Gauss Stabilizers Simplify Quantum Error Correction Without Extra Qubits",
-          "url": "https://quantumzeitgeist.com/instituto-superior-tecnico-binary-gauss-stabilizers"
-        },
-        {
-          "date": "2026-07-16",
-          "key": "https://quantumzeitgeist.com/rice-university-presents-topological-subsystem-code-framework-quantum",
-          "report": "2026-07/2026-07-16-digest.md",
-          "score": 43,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Rice University Team Presents Topological Subsystem Code Framework for Quantum Error Correction",
-          "url": "https://quantumzeitgeist.com/rice-university-presents-topological-subsystem-code-framework-quantum"
         }
       ],
-      "evidence_count": 53,
+      "evidence_count": 56,
       "first_seen": "2026-01-08",
       "historical_evidence_count": 2,
-      "latest_seen": "2026-11-16",
+      "latest_seen": "2026-11-17",
       "momentum": "rising",
       "name": "Quantum error correction",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 4,
+      "recent_count": 6,
       "status": "active",
       "themes": [
         "AI Security",
@@ -10544,8 +10556,20 @@
       "case_sensitive_aliases": [
         "QKD"
       ],
-      "current_evidence_count": 22,
+      "current_evidence_count": 23,
       "evidence": [
+        {
+          "date": "2026-11-17",
+          "key": "https://quantumzeitgeist.com/quantum-key-distribution-ionq-idemia-validate",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 100,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "IonQ and Idemia validate quantum key distribution for networks",
+          "url": "https://quantumzeitgeist.com/quantum-key-distribution-ionq-idemia-validate"
+        },
         {
           "date": "2026-11-16",
           "key": "https://quantumcomputingreport.com/nec-and-ibm-japan-demonstrate-hybrid-qkd-and-post-quantum-cryptography-tls-proxy-architecture",
@@ -10883,15 +10907,15 @@
           "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-to-showcase-quantum-secure-communications-beyond-quantum-key-distribution-at-ecoc-2026"
         }
       ],
-      "evidence_count": 25,
+      "evidence_count": 26,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-11-16",
+      "latest_seen": "2026-11-17",
       "momentum": "rising",
       "name": "Quantum key distribution",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 3,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -11551,6 +11575,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-11-17T06:05:03.194161+00:00",
+  "updated_at": "2026-11-18T05:38:50.738579+00:00",
   "version": 2
 }

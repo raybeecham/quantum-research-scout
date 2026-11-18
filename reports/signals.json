@@ -281,23 +281,32 @@
           "source": "Quantum Zeitgeist",
           "title": "LLM designs fault-tolerant circuits for quantum error correction",
           "url": "https://quantumzeitgeist.com/fault-tolerant-circuits-llm-designs-error"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://arxiv.org/abs/2611.22761",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 72,
+          "source": "arXiv RSS cs.CR",
+          "title": "Network-Exposed Configuration Attacks on LLM-Controlled Social Robots",
+          "url": "https://arxiv.org/abs/2611.22761"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-11-16",
-      "momentum": "rising",
+      "latest_seen": "2026-11-17",
+      "momentum": "stable",
       "organizations": [
-        "Quantum Zeitgeist",
         "arXiv RSS cs.CR",
+        "Quantum Zeitgeist",
         "QuantumNews.ai",
         "Quantum Computing Report",
         "Hugging Face Technical Blog"
       ],
-      "prior_count": 2,
+      "prior_count": 3,
       "recent_count": 3,
-      "status": "actionable"
+      "status": "watching"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -3703,13 +3712,22 @@
           "source": "Quantum Computing Report",
           "title": "NEC and IBM Japan Demonstrate Hybrid QKD and Post-Quantum Cryptography TLS Proxy Architecture",
           "url": "https://quantumcomputingreport.com/nec-and-ibm-japan-demonstrate-hybrid-qkd-and-post-quantum-cryptography-tls-proxy-architecture"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://quantumzeitgeist.com/nist-partnership-quantum-warns-computers-encryption",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 82,
+          "source": "Quantum Zeitgeist",
+          "title": "NIST warns quantum computers threaten encryption, security teams prepare now",
+          "url": "https://quantumzeitgeist.com/nist-partnership-quantum-warns-computers-encryption"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-11-16",
-      "momentum": "stable",
+      "latest_seen": "2026-11-17",
+      "momentum": "declining",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
@@ -3717,8 +3735,8 @@
         "Quantum Computing Report",
         "IACR ePrint"
       ],
-      "prior_count": 24,
-      "recent_count": 18,
+      "prior_count": 28,
+      "recent_count": 15,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -4749,12 +4767,75 @@
           "source": "Quantum Computing Report",
           "title": "IBM and AMD Open-Source Pelagos GPU Decoder Framework for Large-Scale qLDPC Error Correction Simulations",
           "url": "https://quantumcomputingreport.com/ibm-and-amd-open-source-pelagos-gpu-decoder-framework-for-large-scale-qldpc-error-correction-simulations"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://quantumcomputingreport.com/quantum-machines-demonstrates-sub-microsecond-surface-code-decoding-on-opx1000-using-nvidia-cuda-q-qec-and-nvqlink",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 57,
+          "source": "Quantum Computing Report",
+          "title": "Quantum Machines Demonstrates Sub-Microsecond Surface-Code Decoding on OPX1000 Using NVIDIA CUDA-Q QEC and NVQLink",
+          "url": "https://quantumcomputingreport.com/quantum-machines-demonstrates-sub-microsecond-surface-code-decoding-on-opx1000-using-nvidia-cuda-q-qec-and-nvqlink"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://arxiv.org/abs/2611.22247",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 64,
+          "source": "arXiv RSS quant-ph",
+          "title": "CHEQ: A Concurrent Hardware Evaluation Platform for QEC Decoders via Batch-Invariant Circuit-Level Noise Sampling",
+          "url": "https://arxiv.org/abs/2611.22247"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://arxiv.org/abs/2611.21928",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 69,
+          "source": "arXiv RSS quant-ph",
+          "title": "Simplifying models of noisy stabilizer QEC on leakage qubits by Pauli twirling",
+          "url": "https://arxiv.org/abs/2611.21928"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://quantumzeitgeist.com/quantum-decoder-layered-algorithms-speed-boost",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 73,
+          "source": "Quantum Zeitgeist",
+          "title": "Quantum decoder designs could boost speed by layering algorithms and code structures",
+          "url": "https://quantumzeitgeist.com/quantum-decoder-layered-algorithms-speed-boost"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://arxiv.org/abs/2611.21709",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 75,
+          "source": "arXiv RSS quant-ph",
+          "title": "QEDist: Practical Exact Distance Certification for Stabilizer Codes",
+          "url": "https://arxiv.org/abs/2611.21709"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://quantumzeitgeist.com/qudit-qldpc-codes-near-linear-scaling-data-size",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 85,
+          "source": "Quantum Zeitgeist",
+          "title": "Qudit quantum codes could offer near-linear scaling of data size to code length",
+          "url": "https://quantumzeitgeist.com/qudit-qldpc-codes-near-linear-scaling-data-size"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://arxiv.org/abs/2611.21906",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 93,
+          "source": "arXiv RSS quant-ph",
+          "title": "Probing the real-time decoding accuracy bounds in trapped ion architectures",
+          "url": "https://arxiv.org/abs/2611.21906"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-11-16",
+      "latest_seen": "2026-11-17",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -4763,8 +4844,8 @@
         "QuantumNews.ai",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 4,
-      "recent_count": 8,
+      "prior_count": 5,
+      "recent_count": 14,
       "status": "actionable"
     },
     "Quantum Hardware": {
@@ -8513,12 +8594,39 @@
           "source": "Quantum Computing Report",
           "title": "T\u00fcrkiye Signs Agreement with IQM Quantum Computers to Deploy 54-Qubit Radiance R3 System at T\u00dcB\u0130TAK in 2027",
           "url": "https://quantumcomputingreport.com/turkiye-signs-agreement-with-iqm-quantum-computers-to-deploy-54-qubit-radiance-r3-system-at-tubitak-in-2027"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://arxiv.org/abs/2611.22035",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 58,
+          "source": "arXiv RSS quant-ph",
+          "title": "Magic state cultivation with lattice-surgery escape on superconducting hardware",
+          "url": "https://arxiv.org/abs/2611.22035"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://quantumcomputingreport.com/classiq-collaborations-with-shionogi-kddi-research-and-softbank-earn-awards-in-japans-nedo-quantum-challenge",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 68,
+          "source": "Quantum Computing Report",
+          "title": "Classiq Collaborations with Shionogi, KDDI Research, and SoftBank Earn Awards in Japan\u2019s NEDO Quantum Challenge",
+          "url": "https://quantumcomputingreport.com/classiq-collaborations-with-shionogi-kddi-research-and-softbank-earn-awards-in-japans-nedo-quantum-challenge"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://quantumcomputingreport.com/qluster-raises-e4-7-million-pre-seed-round-led-by-quantonation-to-build-continuous-variable-photonic-quantum-computers",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 74,
+          "source": "Quantum Computing Report",
+          "title": "Qluster Raises \u20ac4.7 Million Pre-Seed Round Led by Quantonation to Build Continuous-Variable Photonic Quantum Computers",
+          "url": "https://quantumcomputingreport.com/qluster-raises-e4-7-million-pre-seed-round-led-by-quantonation-to-build-continuous-variable-photonic-quantum-computers"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-11-16",
+      "latest_seen": "2026-11-17",
       "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
@@ -8527,7 +8635,7 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 9,
+      "prior_count": 12,
       "recent_count": 31,
       "status": "actionable"
     },
@@ -10198,12 +10306,30 @@
           "source": "Quantum Zeitgeist",
           "title": "National and Kapodistrian University of Athens achieves Four-User quantum Network",
           "url": "https://quantumzeitgeist.com/quantum-key-distribution-four-user-full-mesh-network"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://quantumzeitgeist.com/quantum-key-distribution-ionq-idemia-validate",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 100,
+          "source": "Quantum Zeitgeist",
+          "title": "IonQ and Idemia validate quantum key distribution for networks",
+          "url": "https://quantumzeitgeist.com/quantum-key-distribution-ionq-idemia-validate"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://quantumzeitgeist.com/quantum-keys-post-security-nec-japan",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 121,
+          "source": "Quantum Zeitgeist",
+          "title": "NEC and IBM Japan link quantum keys with post-quantum security",
+          "url": "https://quantumzeitgeist.com/quantum-keys-post-security-nec-japan"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-11-16",
+      "latest_seen": "2026-11-17",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -10212,8 +10338,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 9,
-      "recent_count": 7,
+      "prior_count": 10,
+      "recent_count": 8,
       "status": "watching"
     },
     "Quantum Sensing": {
@@ -11849,12 +11975,21 @@
           "source": "Quantum Computing Report",
           "title": "Alice & Bob Details QRMI and Slurm 26.11 Hierarchical Resource Integration for Cat-Qubit Systems at SC26",
           "url": "https://quantumcomputingreport.com/alice-bob-details-qrmi-and-slurm-26-11-hierarchical-resource-integration-for-cat-qubit-systems-at-sc26"
+        },
+        {
+          "date": "2026-11-17",
+          "key": "https://quantumcomputingreport.com/unitary-foundation-releases-2026-quantum-open-source-survey-covering-sdk-adoption-hybrid-hpc-workflows-and-ai-tooling",
+          "report": "2026-11/2026-11-17-digest.md",
+          "score": 67,
+          "source": "Quantum Computing Report",
+          "title": "Unitary Foundation Releases 2026 Quantum Open Source Survey Covering SDK Adoption, Hybrid HPC Workflows, and AI Tooling",
+          "url": "https://quantumcomputingreport.com/unitary-foundation-releases-2026-quantum-open-source-survey-covering-sdk-adoption-hybrid-hpc-workflows-and-ai-tooling"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-11-16",
+      "latest_seen": "2026-11-17",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -11863,7 +11998,7 @@
         "Quantum Computing Report",
         "Quantum Journal"
       ],
-      "prior_count": 3,
+      "prior_count": 4,
       "recent_count": 6,
       "status": "actionable"
     },
@@ -12680,6 +12815,6 @@
       "status": "actionable"
     }
   },
-  "updated_at": "2026-11-17T06:05:03.181335+00:00",
+  "updated_at": "2026-11-18T05:38:50.721620+00:00",
   "version": 1
 }

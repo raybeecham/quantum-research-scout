@@ -278,45 +278,138 @@
       ]
     }
   ],
-  "added": [],
-  "baseline_initialized": false,
-  "changed": [
+  "added": [
     {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-e71fa04ddb76631b",
-      "confidence": "medium",
-      "effective_date": "2026-11-17",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "last_observed_at": "2026-11-17T05:58:49.885461+00:00",
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-33b8214d734b7799",
+      "confidence": "high",
+      "effective_date": "2026-11-19",
+      "first_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "last_observed_at": "2026-11-18T05:28:20.697330+00:00",
       "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "qualify",
+      "predicate": "opportunity_status",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-061fdadc8c8f25df",
-          "locator": "qualification_gate",
-          "title": "The Genesis Mission: Transforming Science and Energy with AI",
-          "url": "https://www.grants.gov/search-results-detail/361526",
+          "evidence_id": "evidence-754a3b09d3733b48",
+          "locator": "opportunity_status:awarded",
+          "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:DE-FOA-0003612",
-        "label": "The Genesis Mission: Transforming Science and Energy with AI",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003612",
-        "node_type": "opportunity"
+        "identifier": "usaspending:75N98027F00014",
+        "label": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+        "node_id": "award:usaspending:75N98027F00014",
+        "node_type": "award"
       },
-      "value": "qualify"
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-e76b1b97a1a98926",
+      "confidence": "high",
+      "effective_date": "2026-11-19",
+      "first_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "last_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-050587fd89a1178b",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75N98027F00014",
+        "label": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+        "node_id": "award:usaspending:75N98027F00014",
+        "node_type": "award"
+      },
+      "value": "Department of Health and Human Services"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1645238c67be5937",
+      "confidence": "high",
+      "effective_date": "2026-11-19",
+      "first_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "last_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5b1d0cc6871ba977",
+          "locator": "reported_amount:466304.0",
+          "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75N98027F00014",
+        "label": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+        "node_id": "award:usaspending:75N98027F00014",
+        "node_type": "award"
+      },
+      "value": 466304.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-2794461db8e3c86e",
+      "confidence": "high",
+      "effective_date": "2026-11-19",
+      "first_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "last_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "object": {
+        "identifier": "uei:C9SMLYDYA3Y7",
+        "label": "FEDERATE SYSTEMS CORP",
+        "node_id": "recipient_or_contractor:uei:C9SMLYDYA3Y7",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6b512af4c613ae86",
+          "locator": "reported_recipient:recipient_or_contractor:uei:C9SMLYDYA3Y7",
+          "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75N98027F00014",
+        "label": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+        "node_id": "award:usaspending:75N98027F00014",
+        "node_type": "award"
+      },
+      "value": null
     }
   ],
+  "baseline_initialized": false,
+  "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-11-17T05:58:49.885461+00:00",
-  "comparison_started_at": "2026-11-16T04:12:00.159922+00:00",
+  "comparison_ended_at": "2026-11-18T05:28:20.697330+00:00",
+  "comparison_started_at": "2026-11-17T05:58:49.885461+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1232,19 +1325,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-11-16T04:12:00.159922+00:00",
+  "since": "2026-11-17T05:58:49.885461+00:00",
   "summary": {
-    "active_claims": 5182,
-    "added": 0,
-    "changed": 1,
+    "active_claims": 5186,
+    "added": 4,
+    "changed": 0,
     "conflicts": 17,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 28,
+    "material_changes": 31,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-11-17T05:58:49.885461+00:00",
+  "updated_at": "2026-11-18T05:28:20.697330+00:00",
   "version": 1
 }

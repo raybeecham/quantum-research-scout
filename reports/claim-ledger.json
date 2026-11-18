@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-11-17",
+  "as_of_date": "2026-11-18",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-33b8214d734b7799",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-19",
+      "evidence_ids": [
+        "evidence-754a3b09d3733b48"
+      ],
+      "first_seen_at": "2026-11-18T05:28:20.697330+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-18T05:28:20.697330+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-754a3b09d3733b48",
+          "locator": "opportunity_status:awarded",
+          "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98027F00014",
+        "label": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+        "node_id": "award:usaspending:75N98027F00014",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "71ffc51027968dc2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-e76b1b97a1a98926",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-19",
+      "evidence_ids": [
+        "evidence-050587fd89a1178b"
+      ],
+      "first_seen_at": "2026-11-18T05:28:20.697330+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-18T05:28:20.697330+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-050587fd89a1178b",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98027F00014",
+        "label": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+        "node_id": "award:usaspending:75N98027F00014",
+        "node_type": "award"
+      },
+      "value": "Department of Health and Human Services",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "818b72ed5ce7be6f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-1645238c67be5937",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-19",
+      "evidence_ids": [
+        "evidence-5b1d0cc6871ba977"
+      ],
+      "first_seen_at": "2026-11-18T05:28:20.697330+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-18T05:28:20.697330+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5b1d0cc6871ba977",
+          "locator": "reported_amount:466304.0",
+          "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98027F00014",
+        "label": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+        "node_id": "award:usaspending:75N98027F00014",
+        "node_type": "award"
+      },
+      "value": 466304.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1ff7167d857a9fbd"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-2794461db8e3c86e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-19",
+      "evidence_ids": [
+        "evidence-6b512af4c613ae86"
+      ],
+      "first_seen_at": "2026-11-18T05:28:20.697330+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-18T05:28:20.697330+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:C9SMLYDYA3Y7",
+        "label": "FEDERATE SYSTEMS CORP",
+        "node_id": "recipient_or_contractor:uei:C9SMLYDYA3Y7",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6b512af4c613ae86",
+          "locator": "reported_recipient:recipient_or_contractor:uei:C9SMLYDYA3Y7",
+          "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98027F00014",
+        "label": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+        "node_id": "award:usaspending:75N98027F00014",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5a8d3b977abc16a4"
     },
     {
       "authority": "authoritative",
@@ -81236,191 +81421,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-b7e0354d33e83f04",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-7479d5e9593ae412"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7479d5e9593ae412",
-          "locator": "opportunity_status:awarded",
-          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2612144_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2612144",
-        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
-        "node_id": "award:usaspending:2612144",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "164948520451bb6b"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-ec18eeb9696ef783",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-f83664ba770fd02e"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f83664ba770fd02e",
-          "locator": "awarding_agency:national science foundation",
-          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2612144_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2612144",
-        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
-        "node_id": "award:usaspending:2612144",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "dde67e32cacfa982"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-a06302461ad8abe2",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-181538e066173137"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-181538e066173137",
-          "locator": "reported_amount:230058.0",
-          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2612144_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2612144",
-        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
-        "node_id": "award:usaspending:2612144",
-        "node_type": "award"
-      },
-      "value": 230058.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "2a89b4ca0fd6d64f"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-bd1adf4da0807deb",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-f96ad7284e0d7742"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:QDE5UHE5XD16",
-        "label": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
-        "node_id": "recipient_or_contractor:uei:QDE5UHE5XD16",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f96ad7284e0d7742",
-          "locator": "reported_recipient:recipient_or_contractor:uei:QDE5UHE5XD16",
-          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2612144_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2612144",
-        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
-        "node_id": "award:usaspending:2612144",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "ad50f2e7d1d6df74"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-3913515cac70dd4b",
       "confidence": "high",
@@ -81778,6 +81778,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "81b9ae5813e7e883"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-b7e0354d33e83f04",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-7479d5e9593ae412"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7479d5e9593ae412",
+          "locator": "opportunity_status:awarded",
+          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2612144_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2612144",
+        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
+        "node_id": "award:usaspending:2612144",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "164948520451bb6b"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-ec18eeb9696ef783",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-f83664ba770fd02e"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f83664ba770fd02e",
+          "locator": "awarding_agency:national science foundation",
+          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2612144_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2612144",
+        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
+        "node_id": "award:usaspending:2612144",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "dde67e32cacfa982"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-a06302461ad8abe2",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-181538e066173137"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-181538e066173137",
+          "locator": "reported_amount:230058.0",
+          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2612144_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2612144",
+        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
+        "node_id": "award:usaspending:2612144",
+        "node_type": "award"
+      },
+      "value": 230058.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "2a89b4ca0fd6d64f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-bd1adf4da0807deb",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-f96ad7284e0d7742"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:QDE5UHE5XD16",
+        "label": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:QDE5UHE5XD16",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f96ad7284e0d7742",
+          "locator": "reported_recipient:recipient_or_contractor:uei:QDE5UHE5XD16",
+          "title": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2612144_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2612144",
+        "label": "COLLABORATIVE RESEARCH: CYBERTRAINING: IMPLEMENTATION: SMALL: CITY-AI: CYBERTRAINING FOR AI-ENABLED INTELLIGENT URBAN INFORMATICS AND SMART CITY INNOVATION -CITIES ARE INCREASINGL...",
+        "node_id": "award:usaspending:2612144",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ad50f2e7d1d6df74"
     },
     {
       "authority": "authoritative",
@@ -257734,7 +257919,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257781,7 +257966,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257828,7 +258013,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257875,7 +258060,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257922,7 +258107,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257969,7 +258154,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258016,7 +258201,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258063,7 +258248,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258110,7 +258295,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258157,7 +258342,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258204,7 +258389,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258251,7 +258436,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258298,7 +258483,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258345,7 +258530,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258392,7 +258577,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258439,7 +258624,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258486,7 +258671,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258533,7 +258718,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258585,7 +258770,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258637,7 +258822,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258689,7 +258874,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258741,7 +258926,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258793,7 +258978,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258845,7 +259030,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258897,7 +259082,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258949,7 +259134,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259001,7 +259186,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-17T05:58:49.885461+00:00",
+      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260138,6 +260323,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2125eed5affc4140ad1213961e444424/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-050587fd89a1178b",
+      "locator": "awarding_agency:department of health and human services",
+      "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -277822,6 +278017,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-5b1d0cc6871ba977",
+      "locator": "reported_amount:466304.0",
+      "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "0568b4550118c7ccda9afa98a424dda0c33a240584893bfd287d01b537a2be84",
       "controlling_status": "not_established",
       "evidence_id": "evidence-5b207999a5854124",
@@ -280954,6 +281159,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-6b512af4c613ae86",
+      "locator": "reported_recipient:recipient_or_contractor:uei:C9SMLYDYA3Y7",
+      "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-6b56cbb6e49c572a",
       "locator": "reported_recipient:recipient_or_contractor:uei:C47BNA8GM833",
       "title": "THIS AWARD IS IN SUPPORT OF THE CHIEF DATA ARTIFICIAL INTELLIGENCE OFFICE CDAO WAR DATA PLATFORM WDP CORE INTEGRATION CI",
@@ -283088,6 +283303,16 @@
       "locator": "opportunity_status:awarded",
       "title": "COLLABORATIVE RESEARCH: SHF: SCALABLE CROSS-LAYER CO-DESIGN FOR STABLE MIXED-PRECISION ACCELERATION -THE MOST CONSEQUENTIAL COMPUTING WORKLOADS TODAY ALL FACE SUBSTANTIAL CHALLENG...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2621700_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-754a3b09d3733b48",
+      "locator": "opportunity_status:awarded",
+      "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
       "verification_status": "source_reported"
     },
     {
@@ -311914,16 +312139,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 5182,
-    "authoritative_claims": 4958,
+    "active_claims": 5186,
+    "authoritative_claims": 4962,
     "conflicted_claims": 38,
     "derived_claims": 218,
-    "evidence_items": 5288,
-    "source_urls": 1420,
-    "subjects": 1058,
+    "evidence_items": 5292,
+    "source_urls": 1421,
+    "subjects": 1059,
     "superseded_claims": 0,
-    "total_claims": 5209
+    "total_claims": 5213
   },
-  "updated_at": "2026-11-17T05:58:49.885461+00:00",
+  "updated_at": "2026-11-18T05:28:20.697330+00:00",
   "version": 1
 }

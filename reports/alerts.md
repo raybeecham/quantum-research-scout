@@ -4,24 +4,24 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-17 06:05 UTC_
+_Updated 2026-11-18 05:38 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 4 | 9 | 13 | 28 |
+| 50 | 3 | 9 | 10 | 31 |
 
 ## 🔴 Critical theme: AI Security
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 AI Security has critical strategic importance and rising momentum.
+- 🔴 AI Security has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: PQC / Crypto Agility
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 PQC / Crypto Agility has critical strategic importance and stable momentum.
+- 🔴 PQC / Crypto Agility has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: QEC / Fault Tolerance
@@ -66,19 +66,12 @@ _Updated 2026-11-17 06:05 UTC_
 - 🔴 Standards / Government has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Source failing: Department of War Strategic Technology News 🆕
+## 🔴 Source failing: Department of War Strategic Technology News
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 96.1% reliability with 9 warning day(s).
+- 🔴 92.4% reliability with 9 warning day(s).
 - [Open supporting view](source-health.md)
-
-## 🟠 Actionable signal: AI Security 🆕
-
-- Severity: **high**
-- Status: **actionable**
-- 🎯 AI Security is actionable with high confidence.
-- [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: QEC / Fault Tolerance
 
@@ -115,33 +108,18 @@ _Updated 2026-11-17 06:05 UTC_
 - 🎯 Standards / Government is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Changed: The Genesis Mission: Transforming Science and Energy with AI 🆕
-
-- Severity: **high**
-- Status: **changed**
-- qualification gate · authority analytical · qualify
-- [Open direct evidence](https://www.grants.gov/search-results-detail/361526)
-- [Open supporting view](intelligence-changes.md)
-
-## 🟠 Rising momentum: AI Security 🆕
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 3 versus 2 in the prior period.
-- [Open supporting view](signals.md)
-
 ## 🟠 Rising momentum: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 8 versus 4 in the prior period.
+- ↗️ Recent evidence is 14 versus 5 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Hardware
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 31 versus 9 in the prior period.
+- ↗️ Recent evidence is 31 versus 12 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -155,7 +133,7 @@ _Updated 2026-11-17 06:05 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 6 versus 3 in the prior period.
+- ↗️ Recent evidence is 6 versus 4 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Standards / Government
@@ -319,6 +297,13 @@ _Updated 2026-11-17 06:05 UTC_
 - The latest dated item is from 2026-10-27; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: NIST Research News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-11-02; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: NSF Strategic Science and Technology Missions
 
 - Severity: **medium**
@@ -331,6 +316,13 @@ _Updated 2026-11-17 06:05 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-07-09; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: PQCA Blog and News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-11-02; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: QuSecure Press Releases
@@ -359,4 +351,11 @@ _Updated 2026-11-17 06:05 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-01; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · Autonomy and Sensing 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-11-01; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

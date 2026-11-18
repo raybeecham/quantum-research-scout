@@ -1,116 +1,264 @@
 {
-  "added": [],
-  "changed": [
+  "added": [
     {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-e71fa04ddb76631b",
-      "confidence": "medium",
-      "effective_date": "2026-11-17",
-      "evidence_title": "The Genesis Mission: Transforming Science and Energy with AI",
-      "evidence_url": "https://www.grants.gov/search-results-detail/361526",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "last_observed_at": "2026-11-17T05:58:49.885461+00:00",
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-e76b1b97a1a98926",
+      "confidence": "high",
+      "effective_date": "2026-11-19",
+      "evidence_title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+      "first_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "last_observed_at": "2026-11-18T05:28:20.697330+00:00",
       "object": null,
-      "predicate": "qualification_gate",
-      "previous_object": null,
-      "previous_value": "qualify",
+      "predicate": "awarding_agency",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-061fdadc8c8f25df",
-          "locator": "qualification_gate",
-          "title": "The Genesis Mission: Transforming Science and Energy with AI",
-          "url": "https://www.grants.gov/search-results-detail/361526",
+          "evidence_id": "evidence-050587fd89a1178b",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:DE-FOA-0003612",
-        "label": "The Genesis Mission: Transforming Science and Energy with AI",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003612",
-        "node_type": "opportunity"
+        "identifier": "usaspending:75N98027F00014",
+        "label": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+        "node_id": "award:usaspending:75N98027F00014",
+        "node_type": "award"
       },
       "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
+        "classification": "upcoming",
+        "date_basis": "USAspending action date",
         "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+        "event_date": "2026-11-19",
+        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-18.",
+        "first_observed_at": "2026-11-18T05:28:20.697330+00:00",
         "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-11-17T05:58:49.885461+00:00",
-        "last_observed_at": "2026-11-17T05:58:49.885461+00:00",
-        "primary_date": "2026-03-17",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-03-17"
+        "label": "Upcoming event date",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-18T05:28:20.697330+00:00",
+        "primary_date": "2026-11-19",
+        "primary_date_role": "event_date",
+        "publication_date": null
       },
-      "value": "qualify"
+      "value": "Department of Health and Human Services"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-33b8214d734b7799",
+      "confidence": "high",
+      "effective_date": "2026-11-19",
+      "evidence_title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+      "first_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "last_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-754a3b09d3733b48",
+          "locator": "opportunity_status:awarded",
+          "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75N98027F00014",
+        "label": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+        "node_id": "award:usaspending:75N98027F00014",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "upcoming",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-11-19",
+        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-18.",
+        "first_observed_at": "2026-11-18T05:28:20.697330+00:00",
+        "historical": false,
+        "label": "Upcoming event date",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-18T05:28:20.697330+00:00",
+        "primary_date": "2026-11-19",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-1645238c67be5937",
+      "confidence": "high",
+      "effective_date": "2026-11-19",
+      "evidence_title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+      "first_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "last_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5b1d0cc6871ba977",
+          "locator": "reported_amount:466304.0",
+          "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75N98027F00014",
+        "label": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+        "node_id": "award:usaspending:75N98027F00014",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "upcoming",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-11-19",
+        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-18.",
+        "first_observed_at": "2026-11-18T05:28:20.697330+00:00",
+        "historical": false,
+        "label": "Upcoming event date",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-18T05:28:20.697330+00:00",
+        "primary_date": "2026-11-19",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": 466304.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-2794461db8e3c86e",
+      "confidence": "high",
+      "effective_date": "2026-11-19",
+      "evidence_title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+      "first_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "last_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "object": {
+        "identifier": "uei:C9SMLYDYA3Y7",
+        "label": "FEDERATE SYSTEMS CORP",
+        "node_id": "recipient_or_contractor:uei:C9SMLYDYA3Y7",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6b512af4c613ae86",
+          "locator": "reported_recipient:recipient_or_contractor:uei:C9SMLYDYA3Y7",
+          "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:75N98027F00014",
+        "label": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+        "node_id": "award:usaspending:75N98027F00014",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "upcoming",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-11-19",
+        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-18.",
+        "first_observed_at": "2026-11-18T05:28:20.697330+00:00",
+        "historical": false,
+        "label": "Upcoming event date",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-18T05:28:20.697330+00:00",
+        "primary_date": "2026-11-19",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": null
     }
   ],
-  "comparison_ended_at": "2026-11-17T05:58:49.885461+00:00",
-  "comparison_started_at": "2026-11-16T04:12:00.159922+00:00",
+  "changed": [],
+  "comparison_ended_at": "2026-11-18T05:28:20.697330+00:00",
+  "comparison_started_at": "2026-11-17T05:58:49.885461+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
     {
-      "authority": "analytical",
-      "change_type": "changed",
-      "claim_id": "claim-e71fa04ddb76631b",
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-e76b1b97a1a98926",
       "claim_ids": [
-        "claim-e71fa04ddb76631b"
+        "claim-1645238c67be5937",
+        "claim-2794461db8e3c86e",
+        "claim-33b8214d734b7799",
+        "claim-e76b1b97a1a98926"
       ],
-      "confidence": "medium",
-      "effective_date": "2026-11-17",
-      "evidence_title": "The Genesis Mission: Transforming Science and Energy with AI",
-      "evidence_url": "https://www.grants.gov/search-results-detail/361526",
-      "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
-      "grouped_event_count": 1,
-      "last_observed_at": "2026-11-17T05:58:49.885461+00:00",
+      "confidence": "high",
+      "effective_date": "2026-11-19",
+      "evidence_title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
+      "first_observed_at": "2026-11-18T05:28:20.697330+00:00",
+      "grouped_event_count": 4,
+      "last_observed_at": "2026-11-18T05:28:20.697330+00:00",
       "object": null,
-      "predicate": "qualification_gate",
+      "predicate": "awarding_agency",
       "predicates": [
-        "qualification_gate"
+        "awarding_agency",
+        "opportunity_status",
+        "reported_amount",
+        "reported_recipient"
       ],
-      "previous_object": null,
-      "previous_value": "qualify",
       "sources": [
         {
           "authority": "authoritative",
           "content_hash": null,
           "controlling_status": "not_asserted",
-          "evidence_id": "evidence-061fdadc8c8f25df",
-          "locator": "qualification_gate",
-          "title": "The Genesis Mission: Transforming Science and Energy with AI",
-          "url": "https://www.grants.gov/search-results-detail/361526",
+          "evidence_id": "evidence-050587fd89a1178b",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732",
           "verification_status": "source_reported"
         }
       ],
       "subject": {
-        "identifier": "grants_gov:DE-FOA-0003612",
-        "label": "The Genesis Mission: Transforming Science and Energy with AI",
-        "node_id": "opportunity:grants_gov:DE-FOA-0003612",
-        "node_type": "opportunity"
+        "identifier": "usaspending:75N98027F00014",
+        "label": "NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL\u2026",
+        "node_id": "award:usaspending:75N98027F00014",
+        "node_type": "award"
       },
       "temporal": {
-        "classification": "evidence_changed_since_prior_run",
-        "date_basis": "Source-reported posting/publication date",
+        "classification": "upcoming",
+        "date_basis": "USAspending action date",
         "effective_date": null,
-        "event_date": null,
-        "explanation": "The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.",
-        "first_observed_at": "2026-07-30T23:59:11.557572+00:00",
+        "event_date": "2026-11-19",
+        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-18.",
+        "first_observed_at": "2026-11-18T05:28:20.697330+00:00",
         "historical": false,
-        "label": "Evidence trace changed",
-        "last_changed_at": "2026-11-17T05:58:49.885461+00:00",
-        "last_observed_at": "2026-11-17T05:58:49.885461+00:00",
-        "primary_date": "2026-03-17",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-03-17"
+        "label": "Upcoming event date",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-18T05:28:20.697330+00:00",
+        "primary_date": "2026-11-19",
+        "primary_date_role": "event_date",
+        "publication_date": null
       },
-      "value": "qualify"
+      "value": "Department of Health and Human Services"
     },
     {
       "authority": "authoritative",
@@ -2558,12 +2706,12 @@
   "summary": {
     "actual_or_recent_changes": 0,
     "classifications": {
-      "evidence_changed_since_prior_run": 1,
-      "resolved": 27
+      "resolved": 27,
+      "upcoming": 4
     },
-    "evidence_trace_changes": 1,
+    "evidence_trace_changes": 0,
     "historical_discoveries": 0,
-    "material_events": 28,
+    "material_events": 31,
     "newly_observed_undated": 0,
     "upcoming": 11
   },
@@ -2571,7 +2719,7 @@
   "upcoming": [
     {
       "date": "2026-11-14",
-      "days_remaining": -3,
+      "days_remaining": -4,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2580,7 +2728,7 @@
     },
     {
       "date": "2026-11-24",
-      "days_remaining": 7,
+      "days_remaining": 6,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Genesis Mission",
@@ -2589,7 +2737,7 @@
     },
     {
       "date": "2026-12-07",
-      "days_remaining": 20,
+      "days_remaining": 19,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
@@ -2598,7 +2746,7 @@
     },
     {
       "date": "2026-12-17",
-      "days_remaining": 30,
+      "days_remaining": 29,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "PAMS-SC",
@@ -2607,7 +2755,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 32,
+      "days_remaining": 31,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2616,7 +2764,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 32,
+      "days_remaining": 31,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2625,7 +2773,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 32,
+      "days_remaining": 31,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2634,7 +2782,7 @@
     },
     {
       "date": "2026-12-31",
-      "days_remaining": 44,
+      "days_remaining": 43,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "Project Triad",
@@ -2643,7 +2791,7 @@
     },
     {
       "date": "2027-01-12",
-      "days_remaining": 56,
+      "days_remaining": 55,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2652,7 +2800,7 @@
     },
     {
       "date": "2027-03-19",
-      "days_remaining": 122,
+      "days_remaining": 121,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2661,7 +2809,7 @@
     },
     {
       "date": "2027-06-22",
-      "days_remaining": 217,
+      "days_remaining": 216,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -2669,6 +2817,6 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
     }
   ],
-  "updated_at": "2026-11-17T05:58:49.885461+00:00",
+  "updated_at": "2026-11-18T05:28:20.697330+00:00",
   "version": 1
 }

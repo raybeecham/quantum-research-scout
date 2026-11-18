@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-11-17 05:58 UTC_
+_Updated 2026-11-18 05:28 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -16,7 +16,7 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Opportunity radar: **3 mission-linked**, **2 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **21**
 - Missions with activity: **5 of 10**
-- Named recipients and contractors: **327**
+- Named recipients and contractors: **328**
 - Known reported award value: **$1.06B**
 
 ## Opportunity Radar
@@ -107,7 +107,6 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | UEI SMNWM6HN79X5 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 6 | $25.8M | Department of Commerce, Department of Homeland Security, Department of the Interior | Not linked | 0 |
 | UNIVERSITY OF WASHINGTON | UEI HD1WMN6945W6 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $13.2M | Department of Commerce, National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UEI NPU8ULVAAS23 | **46 · DEVELOPING** | Active Incumbent | Declining | 2 | $666.7K | Department of Defense, National Science Foundation | darpa-qbi | 2 |
-| VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | UEI QDE5UHE5XD16 | **46 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $2.6M | Department of Transportation, National Science Foundation | Not linked | 0 |
 | LOUISIANA STATE UNIVERSITY | UEI ECQEYCHRNKJ4 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.9M | National Science Foundation | Not linked | 0 |
 | BROWN UNIVERSITY | UEI E3FDXZ6TBHW3 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.7M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF ALABAMA | UEI RCNJEHZ83EV6 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.4M | National Science Foundation | Not linked | 0 |
@@ -116,6 +115,7 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | POST QUANTUM LABS LLC | UEI H53MXWJZPYU3 | **43 · DEVELOPING** | Established Incumbent | Declining | 5 | $140.0K | Department of Defense | Not linked | 0 |
 | CARAHSOFT TECHNOLOGY CORP | UEI DT8KJHZXVJH5 | **42 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $19.0M | Department of Homeland Security, Department of the Treasury, General Services Administration | Not linked | 0 |
 | ALVAREZ LLC | UEI Y928UVG75CT6 | **42 · DEVELOPING** | Established Incumbent | Rising | 3 | $5.9M | Department of Health and Human Services, Department of Homeland Security, Department of the Treasury | Not linked | 0 |
+| VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY | UEI QDE5UHE5XD16 | **42 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.4M | Department of Transportation, National Science Foundation | Not linked | 0 |
 | FOUR POINTS TECHNOLOGY, L.L.C. | UEI H1KHJPJH9R51 | **40 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $15.4M | Department of Commerce, Department of Health and Human Services | Not linked | 0 |
 | REGENCY CONSULTING INC | UEI SC8LMLWA6H51 | **40 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $15.2M | Department of Health and Human Services | ai-forge | 0 |
 | DELOITTE CONSULTING LLP | UEI CKV2L9GZKJK3 | **40 · DEVELOPING** | Established Incumbent | Rising | 3 | $2.8M | Department of Health and Human Services, Pension Benefit Guaranty Corporation | Not linked | 0 |

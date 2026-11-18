@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-11-17T05:58:49.885461+00:00_
+_Updated 2026-11-18T05:28:20.697330+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
@@ -13,8 +13,8 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 
 ## Priority timeline
 
-- **Evidence trace changed** · The Genesis Mission: Transforming Science and Energy with AI — qualification gate ([evidence](https://www.grants.gov/search-results-detail/361526))
-  - The source, derivation, or evidence trace changed relative to the prior run; the asserted value itself did not change.
+- **Upcoming event date** · NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL… — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732))
+  - The source date is in the future; Frontier Signal first observed it on 2026-11-18.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

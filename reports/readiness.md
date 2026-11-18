@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-11-17 06:05 UTC_
+_Updated 2026-11-18 05:38 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
@@ -28,9 +28,9 @@ Assessed **23 of 43** configured organizations.
 | PQCA | Inventory | medium | 2 | 1 | 0 | 2026-10-07 |
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
 | Cloudflare | Awareness | high | 11 | 4 | 0 | 2026-11-09 |
+| IBM | Awareness | high | 4 | 2 | 0 | 2026-11-17 |
 | IETF | Awareness | high | 4 | 3 | 3 | 2026-11-12 |
 | ANSSI | Awareness | medium | 2 | 1 | 0 | 2026-09-03 |
-| IBM | Awareness | medium | 3 | 2 | 0 | 2026-11-16 |
 | ISO/IEC | Awareness | medium | 2 | 2 | 0 | 2026-07-15 |
 | Booz Allen Hamilton | Awareness | low | 1 | 1 | 1 | 2025-02-06 |
 | Pasqal | Awareness | low | 1 | 1 | 0 | 2026-08-31 |

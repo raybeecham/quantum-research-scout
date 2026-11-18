@@ -2,23 +2,26 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-11-17T05:58:49.885461+00:00_
+_Updated 2026-11-18T05:28:20.697330+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **28**
-- Added / changed / resolved: **0 / 1 / 27**
+- Material changes: **31**
+- Added / changed / resolved: **4 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
 
 ## Changed claims
 
-- **The Genesis Mission: Transforming Science and Energy with AI** — qualification gate: qualify ([evidence](https://www.grants.gov/search-results-detail/361526))
+- None.
 
 ## New claims
 
-- None.
+- **NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL…** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732))
+- **NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL…** — awarding agency: Department of Health and Human Services ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732))
+- **NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL…** — reported amount: 466304.0 ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732))
+- **NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL…** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732))
 
 ## Superseded claims
 
