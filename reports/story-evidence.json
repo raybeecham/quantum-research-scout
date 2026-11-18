@@ -2832,6 +2832,128 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2611.21709": {
+      "captures": [
+        {
+          "excerpts": [
+            "We present QEDist, a method and software package that certifies the distance of qubit stabilizer codes",
+            "Building on tree-search methods, QEDist constructs candidate logical operators one qubit at a time, using sparse parity checks, stabilizer equivalence, and verified symmetries to reduce the work",
+            "For a cutoff $W$, a completed search either finds a nontrivial logical operator of weight at most $W$ or proves that none exists"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-17",
+              "report_date": "2026-11-17",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.21709"
+            }
+          ],
+          "title": "QEDist: Practical Exact Distance Certification for Stabilizer Codes"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.21906": {
+      "captures": [
+        {
+          "excerpts": [
+            "Fault tolerant quantum computers will rely on real-time decoders that process syndromes faster than the QEC cycle duration",
+            "The millisecond cycle times offered by trapped ion platforms relax low-latency decoding demands, but simulations and experiments have not yet exploited this time budget to reach maximum logical error suppression"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-17",
+              "report_date": "2026-11-17",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.21906"
+            }
+          ],
+          "title": "Probing the real-time decoding accuracy bounds in trapped ion architectures"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.21928": {
+      "captures": [
+        {
+          "excerpts": [
+            "The growing capabilities of quantum error-correction (QEC) experiments make it increasingly important to develop methods that predict or assess logical performance over many QEC cycles",
+            "Prior work has shown that a stabilizer QEC cycle subject to Pauli-stochastic noise can be modeled by a classical Markov process over syndrome states, with a logical Pauli channel attached to each syndrome transition"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-17",
+              "report_date": "2026-11-17",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.21928"
+            }
+          ],
+          "title": "Simplifying models of noisy stabilizer QEC on leakage qubits by Pauli twirling"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.22035": {
+      "captures": [
+        {
+          "excerpts": [
+            "Magic state cultivation (MSC) is a low-overhead protocol for fault-tolerantly preparing logical magic states",
+            "In this work, we implement two MSC variants to prepare a magic state in a distance-5 code on a publicly available IBM Nighthawk processor",
+            "The first is a lattice-surgery escape, recently proposed by Hirano et al. and experimentally studied here for the first time"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-17",
+              "report_date": "2026-11-17",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.22035"
+            }
+          ],
+          "title": "Magic state cultivation with lattice-surgery escape on superconducting hardware"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.22247": {
+      "captures": [
+        {
+          "excerpts": [
+            "Hardware quantum error correction (QEC) decoders require validation of logical error suppression and timing compliance before deployment",
+            "Rare logical failures and deadline violations demand extensive sampling, while algorithm-level software evaluation does not directly measure hardware response times"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-17",
+              "report_date": "2026-11-17",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.22247"
+            }
+          ],
+          "title": "CHEQ: A Concurrent Hardware Evaluation Platform for QEC Decoders via Batch-Invariant Circuit-Level Noise Sampling"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.22761": {
+      "captures": [
+        {
+          "excerpts": [
+            "Large language models (LLMs) in embodied robots create security dependencies beyond inference",
+            "We investigate a network-exposed configuration attack on the Pollen Robotics Reachy Mini Lite, allowing an unauthenticated attacker to replace personality settings and the cloud LLM's system prompt through a..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-17",
+              "report_date": "2026-11-17",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.22761"
+            }
+          ],
+          "title": "Network-Exposed Configuration Attacks on LLM-Controlled Social Robots"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
@@ -5610,6 +5732,13 @@
               "published_date": "2026-11-10",
               "report_date": "2026-11-10",
               "sequence": 1,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/google-deepmind-and-google-quantum-ai-use-lean-4-to-discover-formally-verified-quantum-algorithms"
+            },
+            {
+              "published_date": "2026-11-10",
+              "report_date": "2026-11-10",
+              "sequence": 3,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/google-deepmind-and-google-quantum-ai-use-lean-4-to-discover-formally-verified-quantum-algorithms"
             },
