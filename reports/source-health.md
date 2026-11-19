@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-19 17:16 UTC_
+_Updated 2026-11-19 18:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -91,7 +91,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Open Quantum Safe | rss | 100% | 0 | 0 | 2026-11-19 | 2026-07-09 | stale | 🟢 healthy |
 | OpenSSL Library Releases | rss | 100% | 0 | 0 | 2026-11-19 | 2026-10-23 | fresh | 🟢 healthy |
 | PQCA Blog and News | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-02 | stale | 🟢 healthy |
-| PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-04 | fresh | 🟢 healthy |
+| PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-04 | stale | 🟢 healthy |
 | PQShield | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-04 | stale | 🟢 healthy |
 | Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
 | Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-11-19 | 2026-11-05 | fresh | 🟢 healthy |
