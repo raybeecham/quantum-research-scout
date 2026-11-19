@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-19 21:16 UTC_
+_Updated 2026-11-19 22:15 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -14,7 +14,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
-| Google Quantum AI | watch | 53% | 10 | 0 | 2026-11-19 | 2026-10-15 | fresh | 🟢 healthy |
+| Google Quantum AI | watch | 54% | 10 | 0 | 2026-11-19 | 2026-10-15 | fresh | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 87% | 9 | 0 | 2026-11-19 | 2026-10-23 | stale | 🔴 failing |
 | ETSI Quantum Standards News | watch | 96% | 6 | 0 | 2026-11-19 | 2026-09-24 | stale | 🟢 healthy |
 | White House Science and Technology Missions | watch | 95% | 6 | 0 | 2026-11-19 | 2026-09-29 | stale | 🟢 healthy |
@@ -47,7 +47,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-10 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-19 | — | reference | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-16 | fresh | 🟢 healthy |
-| DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
+| DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-19 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-11-19 | 2026-11-05 | fresh | 🟢 healthy |
 | Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-12 | fresh | 🟢 healthy |
 | Google Security Blog | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-19 | fresh | 🟢 healthy |
