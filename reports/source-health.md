@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-19 09:15 UTC_
+_Updated 2026-11-19 10:17 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -17,7 +17,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Google Quantum AI | watch | 53% | 10 | 0 | 2026-11-19 | 2026-10-15 | fresh | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 88% | 9 | 0 | 2026-11-19 | 2026-10-23 | stale | 🔴 failing |
 | ETSI Quantum Standards News | watch | 96% | 6 | 0 | 2026-11-19 | 2026-09-24 | stale | 🟢 healthy |
-| White House Science and Technology Missions | watch | 94% | 6 | 0 | 2026-11-19 | 2026-09-29 | stale | 🟢 healthy |
+| White House Science and Technology Missions | watch | 95% | 6 | 0 | 2026-11-19 | 2026-09-29 | stale | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 61% | 5 | 0 | 2026-11-10 | 2026-10-28 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 61% | 5 | 0 | 2026-11-10 | 2026-10-29 | standby | ⚪ standby |
 | arXiv Quantum Networking and Sensing | arxiv | 62% | 5 | 0 | 2026-11-10 | 2026-10-29 | standby | ⚪ standby |
@@ -25,7 +25,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv RSS cs.CR | arxiv_rss | 93% | 1 | 3 | 2026-11-19 | 2026-11-19 | fresh | 🟠 partial |
 | arXiv RSS quant-ph | arxiv_rss | 93% | 1 | 3 | 2026-11-19 | 2026-11-19 | fresh | 🟠 partial |
 | Quantum Computing Report | rss | 95% | 1 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
-| Quantum Journal | rss | 97% | 1 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
+| Quantum Journal | rss | 97% | 1 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🔴 failing |
 | Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 11 | 2026-11-19 | 2026-11-18 | fresh | 🟠 partial |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 5 | 2026-11-19 | 2024-03-12 | reference | 🟠 partial |
@@ -134,7 +134,7 @@ RSS and API are measured separately. Standby means no API request was made; work
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **100** of **108**
+- Healthy sources: **99** of **108**
 - Partial-coverage sources: **4**
 - Critical sources failing: **0**
 - Partial coverage: ENISA Cryptography and PQC, SAM.gov Opportunities, arXiv RSS cs.CR, arXiv RSS quant-ph
