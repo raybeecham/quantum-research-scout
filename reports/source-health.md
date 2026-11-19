@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-19 04:16 UTC_
+_Updated 2026-11-19 05:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -23,8 +23,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv Quantum Networking and Sensing | arxiv | 62% | 6 | 0 | 2026-11-10 | 2026-10-29 | standby | ⚪ standby |
 | Quantum Computing Patents | patent | 91% | 4 | 0 | 2026-11-18 | 2026-11-12 | fresh | 🟢 healthy |
 | Quantum Computing Report | rss | 95% | 2 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
-| arXiv RSS cs.CR | arxiv_rss | 93% | 1 | 2 | 2026-11-19 | 2026-11-18 | fresh | 🟠 partial |
-| arXiv RSS quant-ph | arxiv_rss | 93% | 1 | 2 | 2026-11-19 | 2026-11-18 | fresh | 🟠 partial |
+| arXiv RSS cs.CR | arxiv_rss | 93% | 1 | 2 | 2026-11-19 | 2026-11-19 | fresh | 🟠 partial |
+| arXiv RSS quant-ph | arxiv_rss | 93% | 1 | 2 | 2026-11-19 | 2026-11-19 | fresh | 🟠 partial |
 | Quantum Journal | rss | 97% | 1 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 10 | 2026-11-18 | 2026-11-17 | fresh | 🟠 partial |
@@ -33,7 +33,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
 | Accenture Federal Services Quantum Readiness | watch | 100% | 0 | 0 | 2026-11-18 | 2026-08-04 | reference | 🟢 healthy |
 | Accenture Quantum and PQC News | watch | 100% | 0 | 0 | 2026-11-19 | 2025-10-20 | stale | 🟢 healthy |
-| Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-13 | fresh | 🟢 healthy |
+| Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-13 | fresh | 🟠 partial |
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-11-18 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-11-19 | 2026-09-29 | stale | 🟢 healthy |
 | CISA Cybersecurity Advisories | rss | 96% | 0 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
@@ -134,10 +134,10 @@ RSS and API are measured separately. Standby means no API request was made; work
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **101** of **108**
-- Partial-coverage sources: **3**
+- Healthy sources: **100** of **108**
+- Partial-coverage sources: **4**
 - Critical sources failing: **0**
-- Partial coverage: SAM.gov Opportunities, arXiv RSS cs.CR, arXiv RSS quant-ph
+- Partial coverage: Atom Computing News and Research, SAM.gov Opportunities, arXiv RSS cs.CR, arXiv RSS quant-ph
 
 ## Disabled Sources
 
