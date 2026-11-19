@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-19 16:16 UTC_
+_Updated 2026-11-19 17:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -24,7 +24,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Computing Patents | patent | 91% | 4 | 0 | 2026-11-19 | 2026-11-12 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 93% | 1 | 3 | 2026-11-19 | 2026-11-19 | fresh | 🟠 partial |
 | arXiv RSS quant-ph | arxiv_rss | 93% | 1 | 3 | 2026-11-19 | 2026-11-19 | fresh | 🟠 partial |
-| Quantum Computing Report | rss | 95% | 1 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🔴 failing |
+| Quantum Computing Report | rss | 95% | 1 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
 | Quantum Journal | rss | 97% | 1 | 0 | 2026-11-19 | 2026-11-19 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-19 | 2026-11-19 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 11 | 2026-11-19 | 2026-11-18 | fresh | 🟠 partial |
@@ -50,7 +50,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-11-19 | 2026-11-05 | fresh | 🟢 healthy |
 | Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-12 | fresh | 🟢 healthy |
-| Google Security Blog | rss | 100% | 0 | 0 | 2026-11-19 | 2026-10-21 | stale | 🟢 healthy |
+| Google Security Blog | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-19 | fresh | 🟢 healthy |
 | Grants.gov · AI Forge | grant_opportunity | 100% | 0 | 0 | 2026-11-19 | 2026-07-22 | stale | 🟢 healthy |
 | Grants.gov · Advanced Computing | grant_opportunity | 100% | 0 | 0 | 2026-11-19 | 2026-10-16 | stale | 🟢 healthy |
 | Grants.gov · Artificial Intelligence | grant_opportunity | 100% | 0 | 0 | 2026-11-19 | 2026-11-04 | stale | 🟢 healthy |
@@ -134,7 +134,7 @@ RSS and API are measured separately. Standby means no API request was made; work
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **99** of **108**
+- Healthy sources: **100** of **108**
 - Partial-coverage sources: **4**
 - Critical sources failing: **0**
 - Partial coverage: ENISA Cryptography and PQC, SAM.gov Opportunities, arXiv RSS cs.CR, arXiv RSS quant-ph
