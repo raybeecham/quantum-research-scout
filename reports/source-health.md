@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-19 15:16 UTC_
+_Updated 2026-11-19 16:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -15,7 +15,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
 | Google Quantum AI | watch | 53% | 10 | 0 | 2026-11-19 | 2026-10-15 | fresh | 🟢 healthy |
-| Department of War Strategic Technology News | watch | 88% | 9 | 0 | 2026-11-19 | 2026-10-23 | stale | 🔴 failing |
+| Department of War Strategic Technology News | watch | 87% | 9 | 0 | 2026-11-19 | 2026-10-23 | stale | 🔴 failing |
 | ETSI Quantum Standards News | watch | 96% | 6 | 0 | 2026-11-19 | 2026-09-24 | stale | 🟢 healthy |
 | White House Science and Technology Missions | watch | 95% | 6 | 0 | 2026-11-19 | 2026-09-29 | stale | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 61% | 5 | 0 | 2026-11-10 | 2026-10-28 | standby | ⚪ standby |
@@ -24,7 +24,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Computing Patents | patent | 91% | 4 | 0 | 2026-11-19 | 2026-11-12 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 93% | 1 | 3 | 2026-11-19 | 2026-11-19 | fresh | 🟠 partial |
 | arXiv RSS quant-ph | arxiv_rss | 93% | 1 | 3 | 2026-11-19 | 2026-11-19 | fresh | 🟠 partial |
-| Quantum Computing Report | rss | 95% | 1 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 95% | 1 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🔴 failing |
 | Quantum Journal | rss | 97% | 1 | 0 | 2026-11-19 | 2026-11-19 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-19 | 2026-11-19 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 11 | 2026-11-19 | 2026-11-18 | fresh | 🟠 partial |
@@ -36,8 +36,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-13 | fresh | 🟢 healthy |
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-11-19 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-11-19 | 2026-09-29 | stale | 🟢 healthy |
-| CISA Cybersecurity Advisories | rss | 96% | 0 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
-| Cisco Quantum-Safe Updates | watch | 99% | 0 | 0 | 2026-11-19 | 2026-10-26 | stale | 🔴 failing |
+| CISA Cybersecurity Advisories | rss | 96% | 0 | 0 | 2026-11-19 | 2026-11-19 | fresh | 🟢 healthy |
+| Cisco Quantum-Safe Updates | watch | 99% | 0 | 0 | 2026-11-19 | 2026-10-26 | stale | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-19 | 2026-11-12 | fresh | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-19 | fresh | 🟢 healthy |
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-06 | fresh | 🟢 healthy |
@@ -83,7 +83,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | NCSC UK Guidance | rss | 100% | 0 | 0 | 2026-11-19 | 2026-10-15 | stale | 🟢 healthy |
 | NCSC UK News | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-11 | fresh | 🟢 healthy |
 | NCSC UK Reports | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-03 | fresh | 🟢 healthy |
-| NIST CSRC News | url | 100% | 0 | 0 | 2026-11-19 | 2026-11-12 | fresh | 🟢 healthy |
+| NIST CSRC News | url | 100% | 0 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
 | NIST Cybersecurity Insights | watch | 100% | 0 | 0 | 2026-11-19 | 2026-10-27 | stale | 🟢 healthy |
 | NIST Post-Quantum Cryptography Project | watch | 100% | 0 | 0 | 2026-11-19 | 2025-03-07 | reference | 🟢 healthy |
 | NIST Research News | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
@@ -92,7 +92,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | OpenSSL Library Releases | rss | 100% | 0 | 0 | 2026-11-19 | 2026-10-23 | fresh | 🟢 healthy |
 | PQCA Blog and News | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-02 | stale | 🟢 healthy |
 | PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-04 | fresh | 🟢 healthy |
-| PQShield | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-04 | fresh | 🟢 healthy |
+| PQShield | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-04 | stale | 🟢 healthy |
 | Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
 | Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-11-19 | 2026-11-05 | fresh | 🟢 healthy |
 | PsiQuantum News | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-12 | fresh | 🟢 healthy |
