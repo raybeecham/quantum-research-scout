@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-19 13:15 UTC_
+_Updated 2026-11-19 14:18 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -37,9 +37,9 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-11-19 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-11-19 | 2026-09-29 | stale | 🟢 healthy |
 | CISA Cybersecurity Advisories | rss | 96% | 0 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
-| Cisco Quantum-Safe Updates | watch | 100% | 0 | 0 | 2026-11-19 | 2026-10-26 | stale | 🟢 healthy |
+| Cisco Quantum-Safe Updates | watch | 99% | 0 | 0 | 2026-11-19 | 2026-10-26 | stale | 🔴 failing |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-19 | 2026-11-12 | fresh | 🟢 healthy |
-| Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-18 | fresh | 🟢 healthy |
+| Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-19 | fresh | 🟢 healthy |
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-06 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-19 | 2026-11-12 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-16 | fresh | 🟢 healthy |
@@ -134,7 +134,7 @@ RSS and API are measured separately. Standby means no API request was made; work
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **100** of **108**
+- Healthy sources: **99** of **108**
 - Partial-coverage sources: **4**
 - Critical sources failing: **0**
 - Partial coverage: ENISA Cryptography and PQC, SAM.gov Opportunities, arXiv RSS cs.CR, arXiv RSS quant-ph
