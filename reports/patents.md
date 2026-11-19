@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-18T05:28:20.697330+00:00_
+_Updated 2026-11-19T05:25:47.860457+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -17,7 +17,7 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Unique named assignees: **141**
 - Patent families: **292**
 - Applications / grants: **241 / 9**
-- Known legal status: **228 of 250**
+- Known legal status: **227 of 250**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -111,7 +111,6 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [THREAT DETECTION AND MITIGATION IN A NETWORKED ENVIRONMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19742319/application-data)<br><small>US20260350189A1</small> | Application · Pending | The Toronto-Dominion Bank | 4 member(s) · 0 citation(s) | **69 · HIGH** |
 | [THREAT DETECTION AND MITIGATION IN A NETWORKED ENVIRONMENT](https://data.uspto.gov/patent-file-wrapper/search/details/19742333/application-data)<br><small>US20260350190A1</small> | Application · Pending | The Toronto-Dominion Bank | 4 member(s) · 0 citation(s) | **69 · HIGH** |
 | [Quantum-Resistant Dynamic Key Management, Secure Model Update, and Verifiable Fine-Tuning System for Hardware-Anchored AI Agents and Generated Artifacts](https://data.uspto.gov/patent-file-wrapper/search/details/64054318/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Not listed | 2 member(s) · 0 citation(s) | **68 · HIGH** |
-| [QUANTUM RESISTANT ENCRYPTION PLATFORM](https://data.uspto.gov/patent-file-wrapper/search/details/19518715/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Cocoon Data Holdings Limited | 1 member(s) · 0 citation(s) | **68 · HIGH** |
 | [Mechanism for Post-Quantum Cryptographic Key Material Resilience](https://data.uspto.gov/patent-file-wrapper/search/details/63915370/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Not listed | 2 member(s) · 0 citation(s) | **68 · HIGH** |
 | [AI-ORCHESTRATED DIRECTED ELECTROMAGNETIC WIRELESS POWER INFRASTRUCTURE WITH POST-QUANTUM BLOCKCHAIN-AUTHENTICATED DEVICE AUTHORIZATION](https://data.uspto.gov/patent-file-wrapper/search/details/19675215/application-data)<br><small>Publication number unavailable</small> | Application · Pending | VOICE LIFE HOLDINGS Limited | 1 member(s) · 0 citation(s) | **68 · HIGH** |
 | [SYSTEMS AND METHODS FOR NON-INVASIVE DETECTION OF NEURONAL FIRINGS IN HUMANS VIA QUANTUM SENSING MAGNETIC RESONANCE IMAGING](https://data.uspto.gov/patent-file-wrapper/search/details/19485192/application-data)<br><small>US20260314933A1</small> | Application · Pending | NEW YORK UNIVERSITY | 2 member(s) · 0 citation(s) | **68 · HIGH** |
@@ -252,12 +251,12 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [ADVERTISEMENT OF CONFIDENTIAL COMPUTING ENVIRONMENTS](https://data.uspto.gov/patent-file-wrapper/search/details/19459792/application-data)<br><small>US20260156002A1</small> | Application · Pending | Cisco Technology, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [Conditional SSH Tunneling as a Policy Enforcement Point for Seamless Zero Trust Integration](https://data.uspto.gov/patent-file-wrapper/search/details/19448597/application-data)<br><small>US20260142947A1</small> | Application · Pending | Bank of America Corporation | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [STABLECOIN ECOSYSTEM WITH MULTI-ASSET COLLATERAL, AI-GOVERNED MONETARY POLICY, POST-QUANTUM CRYPTOGRAPHY, AND INTEGRATED UGC LICENSING](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026023741/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | RUCKER CAPITAL ADVISORS LLC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
+| [QUANTUM RESISTANT ENCRYPTION PLATFORM](https://data.uspto.gov/patent-file-wrapper/search/details/19518715/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | Cocoon Data Holdings Limited | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [POST-QUANTUM-READY AUTHENTICATOR](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026016665/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | NOVAONYX CORPORATION | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [POST-QUANTUM SAFE MUTUAL AUTHENTICATION COMMUNICATION SYSTEMS](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026014407/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | MICROSOFT TECHNOLOGY LICENSING, LLC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [POST-QUANTUM CRYPTOGRAPHY ENCRYPTION KEY DELIVERY](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025042236/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | QUANTUMXCHANGE, INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [METHOD FOR OPTIMIZING AN EXECUTION OF A GENERATION OF A CRYSTALS-DILITHIUM POST-QUANTUM SIGNATURE](https://data.uspto.gov/patent-file-wrapper/search/details/19157393/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | THALES DIS FRANCE SAS | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [AI-DRIVEN CROSS-CHANNEL FINANCIAL FRAUD DETECTION SYSTEM WITH QUANTUM-RESISTANT ENCRYPTION AND BLOCKCHAIN INTEGRATION](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025043982/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CYBERSMARTS.AI LLC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
-| [SYSTEM AND METHOD FOR SPATIAL ADDRESSING OF INDIVIDUAL ATOMIC QUBIT](https://data.uspto.gov/patent-file-wrapper/search/details/19520796/application-data)<br><small>Publication number unavailable</small> | Application · Pending | NATIONAL UNIVERSITY OF SINGAPORE | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUBIT INITIALISATION METHOD AND DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19497230/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Diraq Pty Ltd | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM STATE CODING DEVICE, METHOD, AND SOFTWARE-DEFINED QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19480652/application-data)<br><small>Publication number unavailable</small> | Application · Pending | CHINA ACADEMY OF ELECTRONICS AND INFORMATION TECHNOLOGY OF CETC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM STATE CODING DEVICE, METHOD, AND SOFTWARE-DEFINED QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19480725/application-data)<br><small>Publication number unavailable</small> | Application · Pending | CHINA ACADEMY OF ELECTRONICS AND INFORMATION TECHNOLOGY OF CETC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
@@ -310,3 +309,4 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [COMPUTING DEVICE CONTROL USING A LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19636622/application-data)<br><small>US20260310614A1</small> | Application · Pending | CargoSense, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [SECURE LARGE LANGUAGE MODEL (LLM) DEPLOYMENT IN AN ENTERPRISE](https://data.uspto.gov/patent-file-wrapper/search/details/19701884/application-data)<br><small>US20260303321A1</small> | Application · Pending | Constructor Education and Research Genossenschaft, Constructor Technology AG | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [LARGE LANGUAGE MODEL (LLM) WITH SOLVER SELECTION FOR OPTIMIZATION PROBLEMS](https://data.uspto.gov/patent-file-wrapper/search/details/19631780/application-data)<br><small>US20260300425A1</small> | Application · Pending | PwC Product Sales LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
+| [DYNAMICALLY PREPROCESSING OF STREAMING VIDEO DATA AND REVIEW OF THE VIDEO DATA BY A LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19698880/application-data)<br><small>US20260303932A1</small> | Application · Pending | Insight Direct USA, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |

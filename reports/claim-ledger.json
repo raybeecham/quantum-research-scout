@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-11-18",
+  "as_of_date": "2026-11-19",
   "claims": [
     {
       "authority": "authoritative",
@@ -1842,6 +1842,326 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
+      "claim_id": "claim-84c2a6edfa66a76c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-aa64549ed8d95d93"
+      ],
+      "first_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-aa64549ed8d95d93",
+          "locator": "opportunity_status:awarded",
+          "title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:140A1627F0129",
+        "label": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+        "node_id": "award:usaspending:140A1627F0129",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "728feb53f3801e9e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-3dea901ed280b868",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-fb8e87d9eea662cb"
+      ],
+      "first_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fb8e87d9eea662cb",
+          "locator": "awarding_agency:department of the interior",
+          "title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:140A1627F0129",
+        "label": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+        "node_id": "award:usaspending:140A1627F0129",
+        "node_type": "award"
+      },
+      "value": "Department of the Interior",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3a5e19f30ea2662f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-97620dd6efe1cc50",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-34af8dafc66b1655"
+      ],
+      "first_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-34af8dafc66b1655",
+          "locator": "reported_amount:782586.5",
+          "title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:140A1627F0129",
+        "label": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+        "node_id": "award:usaspending:140A1627F0129",
+        "node_type": "award"
+      },
+      "value": 782586.5,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "f6f2897d8485f5e5"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-a0ec3f1ffb592a29",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2027-01-01",
+      "evidence_ids": [
+        "evidence-3766810e4e7159ca"
+      ],
+      "first_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:G9ZUNB3U1JK1",
+        "label": "CHICKASAW SERVICE SOLUTIONS, LLC",
+        "node_id": "recipient_or_contractor:uei:G9ZUNB3U1JK1",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-3766810e4e7159ca",
+          "locator": "reported_recipient:recipient_or_contractor:uei:G9ZUNB3U1JK1",
+          "title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:140A1627F0129",
+        "label": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+        "node_id": "award:usaspending:140A1627F0129",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8b08a06a9298d917"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-11da3dd4fa8f5278",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-18",
+      "evidence_ids": [
+        "evidence-ec18d723a86d53a4"
+      ],
+      "first_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ec18d723a86d53a4",
+          "locator": "opportunity_status:open",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "082697f14de22d20"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-75d2f5afca6e41ea",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-18",
+      "evidence_ids": [
+        "evidence-7a69596414235063"
+      ],
+      "first_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7a69596414235063",
+          "locator": "deadline:2026-12-07t23:59:00-05:00",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "2026-12-07T23:59:00-05:00",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9aa59291c0a80926"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-7a05fa18d8383018",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-18",
+      "evidence_ids": [
+        "evidence-a1237b0cc1aa7c28"
+      ],
+      "first_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a1237b0cc1aa7c28",
+          "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "24ee0e0102c1972e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
       "claim_id": "claim-33b8214d734b7799",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -2026,141 +2346,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-07ca81b0e15505a0",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-11-12",
-      "evidence_ids": [
-        "evidence-22e28d28de9f6ed1"
-      ],
-      "first_seen_at": "2026-11-13T04:30:52.691410+00:00",
-      "history": [],
-      "last_seen_at": "2026-11-13T04:30:52.691410+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-22e28d28de9f6ed1",
-          "locator": "opportunity_status:open",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "value": "open",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "94da036dd8544ac2"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-d4b2517c21ad658d",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-11-12",
-      "evidence_ids": [
-        "evidence-9d08b20669872b12"
-      ],
-      "first_seen_at": "2026-11-13T04:30:52.691410+00:00",
-      "history": [],
-      "last_seen_at": "2026-11-13T04:30:52.691410+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9d08b20669872b12",
-          "locator": "deadline:2026-12-07t23:59:00-05:00",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "value": "2026-12-07T23:59:00-05:00",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "1ab42642ff51d641"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-d7a022b924991fb8",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-11-12",
-      "evidence_ids": [
-        "evidence-2c4ac8c41cbec12f"
-      ],
-      "first_seen_at": "2026-11-13T04:30:52.691410+00:00",
-      "history": [],
-      "last_seen_at": "2026-11-13T04:30:52.691410+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2c4ac8c41cbec12f",
-          "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "value": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "8bdd53902b4ebcf5"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-eb9fd531a89c9f82",
       "confidence": "high",
@@ -2338,6 +2523,141 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "354b62aa8a79893e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-07ca81b0e15505a0",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-12",
+      "evidence_ids": [
+        "evidence-22e28d28de9f6ed1"
+      ],
+      "first_seen_at": "2026-11-13T04:30:52.691410+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-13T04:30:52.691410+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-22e28d28de9f6ed1",
+          "locator": "opportunity_status:open",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "94da036dd8544ac2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-d4b2517c21ad658d",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-12",
+      "evidence_ids": [
+        "evidence-9d08b20669872b12"
+      ],
+      "first_seen_at": "2026-11-13T04:30:52.691410+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-13T04:30:52.691410+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9d08b20669872b12",
+          "locator": "deadline:2026-12-07t23:59:00-05:00",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "2026-12-07T23:59:00-05:00",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1ab42642ff51d641"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-d7a022b924991fb8",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-12",
+      "evidence_ids": [
+        "evidence-2c4ac8c41cbec12f"
+      ],
+      "first_seen_at": "2026-11-13T04:30:52.691410+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-13T04:30:52.691410+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2c4ac8c41cbec12f",
+          "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8bdd53902b4ebcf5"
     },
     {
       "authority": "authoritative",
@@ -34763,191 +35083,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-7254c2da4472f745",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-6d52d991f42f4cbc"
-      ],
-      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-6d52d991f42f4cbc",
-          "locator": "opportunity_status:awarded",
-          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2549232",
-        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
-        "node_id": "award:usaspending:2549232",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "d26e014b591bdeac"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-9e743fb3dfe1e1ef",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-cc6d46dfd9df3b56"
-      ],
-      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-cc6d46dfd9df3b56",
-          "locator": "awarding_agency:national science foundation",
-          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2549232",
-        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
-        "node_id": "award:usaspending:2549232",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "cec32cbb57eaf889"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-db38c08948d717ee",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-ffbe4291a417dea3"
-      ],
-      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ffbe4291a417dea3",
-          "locator": "reported_amount:266667.0",
-          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2549232",
-        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
-        "node_id": "award:usaspending:2549232",
-        "node_type": "award"
-      },
-      "value": 266667.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "e64140f84b29a7ac"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-49ccb5dda652cf8f",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-952800926cdc53f2"
-      ],
-      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
-      "history": [],
-      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:FL6GV84CKN57",
-        "label": "YALE UNIV",
-        "node_id": "recipient_or_contractor:uei:FL6GV84CKN57",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-952800926cdc53f2",
-          "locator": "reported_recipient:recipient_or_contractor:uei:FL6GV84CKN57",
-          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2549232",
-        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
-        "node_id": "award:usaspending:2549232",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "72dc2bcb61e9d865"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-e129a366ba97663c",
       "confidence": "high",
@@ -35125,6 +35260,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "e244db9a0d899860"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-7254c2da4472f745",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-6d52d991f42f4cbc"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6d52d991f42f4cbc",
+          "locator": "opportunity_status:awarded",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549232",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+        "node_id": "award:usaspending:2549232",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d26e014b591bdeac"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-9e743fb3dfe1e1ef",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-cc6d46dfd9df3b56"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-cc6d46dfd9df3b56",
+          "locator": "awarding_agency:national science foundation",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549232",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+        "node_id": "award:usaspending:2549232",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "cec32cbb57eaf889"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-db38c08948d717ee",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-ffbe4291a417dea3"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ffbe4291a417dea3",
+          "locator": "reported_amount:266667.0",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549232",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+        "node_id": "award:usaspending:2549232",
+        "node_type": "award"
+      },
+      "value": 266667.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e64140f84b29a7ac"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-49ccb5dda652cf8f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-952800926cdc53f2"
+      ],
+      "first_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "history": [],
+      "last_seen_at": "2026-09-20T02:47:24.692142+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:FL6GV84CKN57",
+        "label": "YALE UNIV",
+        "node_id": "recipient_or_contractor:uei:FL6GV84CKN57",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-952800926cdc53f2",
+          "locator": "reported_recipient:recipient_or_contractor:uei:FL6GV84CKN57",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549232_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549232",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: ARMANI - AI-NATIVE RAN MANAGEABILITY AND INTELLIGENCE FOR NEXT GENERATION NETWORKS -NEXT-GENERATION WIRELESS NETWORKS, SUCH AS 5G/6G, REQUI...",
+        "node_id": "award:usaspending:2549232",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "72dc2bcb61e9d865"
     },
     {
       "authority": "authoritative",
@@ -232380,6 +232700,196 @@
     },
     {
       "authority": "analytical",
+      "basis": "Deterministic qualification score 39 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-78c27e89a3885b97",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +12",
+              "actionable rfi +6",
+              "closing_this_month +9",
+              "technology fit +12"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view"
+            ],
+            "points": 39
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
+            ],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No public risk penalty"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view"
+            ],
+            "points": 0
+          }
+        ],
+        "evidence_ids": [
+          "evidence-075bdcb08b78b6b5",
+          "evidence-27179ad3aaea8d8e",
+          "evidence-53d31f3edf18f094",
+          "evidence-7a69596414235063"
+        ],
+        "input_claim_hashes": {
+          "claim-75d2f5afca6e41ea": "9aa59291c0a80926"
+        },
+        "input_claim_ids": [
+          "claim-75d2f5afca6e41ea"
+        ],
+        "input_claim_versions": {
+          "claim-75d2f5afca6e41ea": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 39,
+        "requires_revalidation": false,
+        "source_urls": [
+          "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
+        ],
+        "trace_complete": true,
+        "trace_hash": "1d25e8f432d0c984",
+        "unresolved_input_claim_ids": []
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-75d2f5afca6e41ea"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-11-19",
+      "evidence_ids": [
+        "evidence-53d31f3edf18f094",
+        "evidence-27179ad3aaea8d8e",
+        "evidence-075bdcb08b78b6b5",
+        "evidence-075bdcb08b78b6b5",
+        "evidence-075bdcb08b78b6b5",
+        "evidence-075bdcb08b78b6b5",
+        "evidence-075bdcb08b78b6b5"
+      ],
+      "first_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-53d31f3edf18f094",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-27179ad3aaea8d8e",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "6d4e56b348fd280a"
+    },
+    {
+      "authority": "analytical",
       "basis": "Deterministic qualification score 68 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-e71fa04ddb76631b",
       "confidence": "medium",
@@ -232634,9 +233144,9 @@
       "first_seen_at": "2026-11-13T04:30:52.691410+00:00",
       "history": [],
       "last_seen_at": "2026-11-13T04:30:52.691410+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -257919,7 +258429,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -257966,7 +258476,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258013,7 +258523,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258060,7 +258570,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258107,7 +258617,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258154,7 +258664,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258201,7 +258711,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258248,7 +258758,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258295,7 +258805,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258342,7 +258852,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258389,7 +258899,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258436,7 +258946,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258483,7 +258993,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258530,7 +259040,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258577,7 +259087,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258624,7 +259134,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258671,7 +259181,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258718,7 +259228,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258770,7 +259280,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258822,7 +259332,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258874,7 +259384,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258926,7 +259436,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258978,7 +259488,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259030,7 +259540,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259082,7 +259592,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259134,7 +259644,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259186,7 +259696,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-18T05:28:20.697330+00:00",
+      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260861,7 +261371,7 @@
       "evidence_id": "evidence-075bdcb08b78b6b5",
       "locator": "qualification_gate",
       "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497",
+      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b",
       "verification_status": "source_reported"
     },
     {
@@ -270179,6 +270689,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-34af8dafc66b1655",
+      "locator": "reported_amount:782586.5",
+      "title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-34b08b3f40d0ac5f",
       "locator": "awarding_agency:department of commerce",
       "title": "PURPOSE:THE PURPOSE OF THIS GRANT IS TO SUPPORT THE PURCHASE AND INTEGRATION OF EQUIPMENT TO EXPAND THE AI/ML CAPABILITIESOF THE CENTER FOR ADVANCED MATERIALS & STEEL MANUFACTURIN...",
@@ -270794,6 +271314,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/409d0698a7ae48d9948373d539d082c8/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-3766810e4e7159ca",
+      "locator": "reported_recipient:recipient_or_contractor:uei:G9ZUNB3U1JK1",
+      "title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -276403,6 +276933,16 @@
       "locator": "set_aside:no set aside used",
       "title": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
       "url": "https://sam.gov/workspace/contract/opp/f34d767fd1684bf3a8e2c3c0f17e9959/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-53d31f3edf18f094",
+      "locator": "qualification_gate",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
       "verification_status": "source_reported"
     },
     {
@@ -284329,6 +284869,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-7a69596414235063",
+      "locator": "deadline:2026-12-07t23:59:00-05:00",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-7a73705c57f337ad",
       "locator": "awarding_agency:dept of defense.dept of the navy.navsup.navsup weapon systems support.navsup wss mechanicsburg.navsup weapon systems support mech",
       "title": "61--SENSOR POWER DRAWER, IN REPAIR/MODIFICATION OF",
@@ -292229,6 +292779,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-a1237b0cc1aa7c28",
+      "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-a1246c289c9d7b3f",
       "locator": "awarding_agency:department of homeland security",
       "title": "THIS TASK ORDER IS TO PROVIDE ARTIFICIAL INTELLIGENCE SUPPORT SERVICES TO THE OFFICE OF THE CHIEF INFORMATION OFFICER.",
@@ -294193,6 +294753,16 @@
       "locator": "opportunity_status:awarded",
       "title": "COLLABORATIVE RESEARCH: GROUP STRUCTURE, HYDRODYNAMICS, AND SENSING OF SQUIDS DURING COLLECTIVE SWIMMING -THIS STUDY FOCUSES ON UNDERSTANDING THE POTENTIAL HYDRODYNAMIC BENEFITS O...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2602819_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-aa64549ed8d95d93",
+      "locator": "opportunity_status:awarded",
+      "title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
       "verification_status": "source_reported"
     },
     {
@@ -307957,6 +308527,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ec18d723a86d53a4",
+      "locator": "opportunity_status:open",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "2b5a30c5a7e0ae2762649d968aac8f6c45170a12ddfd9bf9c79742d37d6fb305",
       "controlling_status": "not_established",
       "evidence_id": "evidence-ec1c6b53951da6d7",
@@ -311239,6 +311819,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-fb8e87d9eea662cb",
+      "locator": "awarding_agency:department of the interior",
+      "title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-fb8fded13676e88a",
       "locator": "qualification_gate",
       "title": "Advancing Global Health",
@@ -312139,16 +312729,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 5186,
-    "authoritative_claims": 4962,
+    "active_claims": 5194,
+    "authoritative_claims": 4969,
     "conflicted_claims": 38,
-    "derived_claims": 218,
-    "evidence_items": 5292,
-    "source_urls": 1421,
-    "subjects": 1059,
+    "derived_claims": 219,
+    "evidence_items": 5300,
+    "source_urls": 1424,
+    "subjects": 1060,
     "superseded_claims": 0,
-    "total_claims": 5213
+    "total_claims": 5221
   },
-  "updated_at": "2026-11-18T05:28:20.697330+00:00",
+  "updated_at": "2026-11-19T05:25:47.860457+00:00",
   "version": 1
 }

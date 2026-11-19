@@ -2,19 +2,21 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-11-18T05:28:20.697330+00:00_
+_Updated 2026-11-19T05:25:47.860457+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **0**
+- Actual or recent changes: **4**
 - Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **11**
 
 ## Priority timeline
 
-- **Upcoming event date** · NIMHD WEB APPLICATION CREATION, DESIGN AND SUPPORT TO NIMHD INFRASTRUCTURES, APPLICATION SERVER MAINTENANCE AND PRODUCTION ISSUE SUPPORT, IT STRATEGIC PLANNING, TECHNICAL… — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98027F00014_7529_47QTCA20D00A3_4732))
-  - The source date is in the future; Frontier Signal first observed it on 2026-11-18.
+- **Published today** · Post Quantum Cryptography (PQC) Readiness and Validation Status — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view))
+  - The source publication date is today or within the prior day.
+- **Upcoming event date** · CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450))
+  - The source date is in the future; Frontier Signal first observed it on 2026-11-19.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))
@@ -56,7 +58,7 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 
 - **2026-11-14** · Close the umbrella QBI 2026 announcement — overdue ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
 - **2026-11-24** · Submit the first annual Genesis Mission progress report — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
-- **2026-12-07** · Post Quantum Cryptography (PQC) Readiness and Validation Status — closing_this_month ([source](https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view))
+- **2026-12-07** · Post Quantum Cryptography (PQC) Readiness and Validation Status — closing_this_month ([source](https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view))
 - **2026-12-17** · The Genesis Mission: Transforming Science and Energy with AI — closing_this_month ([source](https://www.grants.gov/search-results-detail/361526))
 - **2026-12-19** · Establish a national quantum-computing assessment center — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
 - **2026-12-19** · Explore private-sector partnership models and commercial contribution plans — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))

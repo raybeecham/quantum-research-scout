@@ -4,15 +4,15 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-11-18 05:38 UTC_
+_Updated 2026-11-19 05:36 UTC_
 
 ## Organizations
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| NIST | ↗️ rising (1 vs 0) | 🔴 critical | active | 2025-06-12 | 2026-11-17 | 24 | 3 |
-| IBM | ↗️ rising (16 vs 3) | 🟠 high | active | 2026-06-23 | 2026-11-17 | 60 | 3 |
-| IonQ | ↘️ declining (2 vs 3) | 🟠 high | active | 2025-11-17 | 2026-11-17 | 48 | 14 |
+| NIST | ↗️ rising (2 vs 0) | 🔴 critical | active | 2025-06-12 | 2026-11-18 | 25 | 3 |
+| IBM | ↗️ rising (12 vs 7) | 🟠 high | active | 2026-06-23 | 2026-11-17 | 60 | 3 |
+| IonQ | ↘️ declining (1 vs 4) | 🟠 high | active | 2025-11-17 | 2026-11-17 | 48 | 14 |
 | Cisco | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-03-25 | 2026-10-22 | 33 | 13 |
 | QuSecure | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-07 | 2026-09-22 | 29 | 20 |
 | Keyfactor | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-06 | 2026-10-29 | 21 | 6 |
@@ -20,12 +20,12 @@ _Updated 2026-11-18 05:38 UTC_
 | QuEra | ➡️ stable (1 vs 1) | 🟠 high | active | 2025-08-20 | 2026-11-16 | 18 | 10 |
 | Cloudflare | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2026-06-23 | 2026-11-09 | 17 | 0 |
 | PQShield | ➡️ stable (0 vs 0) | 🟠 high | quiet | 2026-07-03 | 2026-10-23 | 15 | 0 |
-| Quantinuum | ↘️ declining (0 vs 2) | 🟠 high | active | 2026-06-22 | 2026-11-10 | 15 | 0 |
-| DigiCert | ↘️ declining (0 vs 2) | 🟠 high | active | 2026-08-03 | 2026-11-10 | 11 | 0 |
+| Quantinuum | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2026-06-22 | 2026-11-10 | 15 | 0 |
+| DigiCert | ↘️ declining (0 vs 2) | 🟠 high | quiet | 2026-08-03 | 2026-11-10 | 11 | 0 |
 | Atom Computing | ↗️ rising (4 vs 0) | 🟠 high | active | 2025-04-03 | 2026-11-14 | 8 | 4 |
-| D-Wave | ↘️ declining (0 vs 1) | 🟠 high | active | 2026-06-30 | 2026-11-10 | 7 | 0 |
+| D-Wave | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2026-06-30 | 2026-11-10 | 7 | 0 |
 | Accenture / Accenture Federal Services | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2025-03-31 | 2026-08-27 | 6 | 6 |
-| Google Quantum AI | ↘️ declining (0 vs 1) | 🟠 high | active | 2024-12-09 | 2026-11-10 | 6 | 2 |
+| Google Quantum AI | ↘️ declining (0 vs 1) | 🟠 high | quiet | 2024-12-09 | 2026-11-10 | 6 | 2 |
 | Thales | ➡️ stable (1 vs 1) | 🟠 high | active | 2026-08-04 | 2026-11-12 | 6 | 0 |
 | PQCA | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-27 | 2026-10-14 | 5 | 0 |
 | PsiQuantum | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-03-16 | 2026-09-02 | 5 | 4 |
@@ -54,12 +54,12 @@ _Updated 2026-11-18 05:38 UTC_
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| Quantum error correction | ↗️ rising (6 vs 2) | 🔴 critical | active | 2026-01-08 | 2026-11-17 | 56 | 2 |
+| Quantum error correction | ↗️ rising (8 vs 2) | 🔴 critical | active | 2026-01-08 | 2026-11-18 | 58 | 2 |
 | Crypto-agility | ↗️ rising (2 vs 0) | 🔴 critical | active | 2025-08-06 | 2026-11-12 | 42 | 24 |
-| Logical qubits | ↗️ rising (2 vs 0) | 🔴 critical | active | 2025-11-20 | 2026-11-14 | 38 | 6 |
+| Logical qubits | ↗️ rising (5 vs 0) | 🔴 critical | active | 2025-11-20 | 2026-11-18 | 41 | 6 |
 | ML-DSA | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2026-06-29 | 2026-10-26 | 10 | 3 |
 | ML-KEM | ➡️ stable (0 vs 0) | 🔴 critical | dormant | 2026-07-27 | 2026-10-14 | 7 | 5 |
-| Quantum key distribution | ↗️ rising (4 vs 0) | 🟠 high | active | 2026-06-29 | 2026-11-17 | 26 | 3 |
+| Quantum key distribution | ↗️ rising (5 vs 0) | 🟠 high | active | 2026-06-29 | 2026-11-18 | 27 | 3 |
 | Quantum networking | ↘️ declining (0 vs 3) | 🟠 high | quiet | 2026-07-16 | 2026-11-07 | 19 | 0 |
 | Hybrid TLS | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-10-08 | 2026-10-08 | 1 | 0 |
 | SLH-DSA | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-08-10 | 2026-08-10 | 1 | 1 |
@@ -80,7 +80,7 @@ _Updated 2026-11-18 05:38 UTC_
 | ISO/IEC | third-party | 0 | 4 |
 | Infleqtion | third-party | 0 | 32 |
 | Pasqal | third-party | 0 | 26 |
-| NIST | covered | 4 | 24 |
+| NIST | covered | 4 | 25 |
 | Accenture / Accenture Federal Services | covered | 2 | 6 |
 | Atom Computing | covered | 1 | 8 |
 | BSI Germany | covered | 1 | 0 |

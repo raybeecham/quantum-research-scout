@@ -140,8 +140,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 24,
-      "first_party_evidence_count": 3,
+      "evidence_count": 25,
+      "first_party_evidence_count": 4,
       "name": "NIST",
       "priority": "critical",
       "status": "covered",
@@ -744,8 +744,20 @@
         "National Institute of Standards and Technology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 21,
+      "current_evidence_count": 22,
       "evidence": [
+        {
+          "date": "2026-11-18",
+          "key": "https://www.nist.gov/news-events/news/2026/11/quantum-physics-can-verify-persons-location-nist-researchers-show",
+          "report": "2026-11/2026-11-18-digest.md",
+          "score": 100,
+          "source": "NIST Research News",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "Quantum Physics Can Verify a Person\u2019s Location, NIST Researchers Show",
+          "url": "https://www.nist.gov/news-events/news/2026/11/quantum-physics-can-verify-persons-location-nist-researchers-show"
+        },
         {
           "date": "2026-11-17",
           "key": "https://quantumzeitgeist.com/nist-partnership-quantum-warns-computers-encryption",
@@ -1071,15 +1083,15 @@
           "url": "https://www.nist.gov/blogs/cybersecurity-insights/impact-artificial-intelligence-cybersecurity-workforce"
         }
       ],
-      "evidence_count": 24,
+      "evidence_count": 25,
       "first_seen": "2025-06-12",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-11-17",
+      "latest_seen": "2026-11-18",
       "momentum": "rising",
       "name": "NIST",
       "prior_count": 0,
       "priority": "critical",
-      "recent_count": 1,
+      "recent_count": 2,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -1621,9 +1633,9 @@
       "latest_seen": "2026-11-17",
       "momentum": "rising",
       "name": "IBM",
-      "prior_count": 3,
+      "prior_count": 7,
       "priority": "high",
-      "recent_count": 16,
+      "recent_count": 12,
       "status": "active",
       "themes": [
         "AI Security",
@@ -2212,9 +2224,9 @@
       "latest_seen": "2026-11-17",
       "momentum": "declining",
       "name": "IonQ",
-      "prior_count": 3,
+      "prior_count": 4,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -5207,7 +5219,7 @@
       "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "QEC / Fault Tolerance",
@@ -5362,7 +5374,7 @@
       "prior_count": 2,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
       ],
@@ -5636,7 +5648,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -5932,7 +5944,7 @@
       "prior_count": 1,
       "priority": "high",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "AI Security",
         "QEC / Fault Tolerance",
@@ -8373,8 +8385,32 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 54,
+      "current_evidence_count": 56,
       "evidence": [
+        {
+          "date": "2026-11-18",
+          "key": "https://arxiv.org/abs/2611.23762",
+          "report": "2026-11/2026-11-18-digest.md",
+          "score": 96,
+          "source": "arXiv RSS quant-ph",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Addressable transversal CCZ gates on almost good quantum LDPC codes and nearly optimal magic state protocols",
+          "url": "https://arxiv.org/abs/2611.23762"
+        },
+        {
+          "date": "2026-11-18",
+          "key": "https://arxiv.org/abs/2611.23759",
+          "report": "2026-11/2026-11-18-digest.md",
+          "score": 61,
+          "source": "arXiv RSS quant-ph",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Parity Push Post-Selection with Soft Parity Constraints for Quantum LDPC Codes",
+          "url": "https://arxiv.org/abs/2611.23759"
+        },
         {
           "date": "2026-11-17",
           "key": "https://arxiv.org/abs/2611.21928",
@@ -8830,41 +8866,17 @@
           ],
           "title": "Riverlane and Unitary Foundation Launch \u2018Deltakit Community Fund\u2019 to Accelerate Open-Source Quantum Error Correction",
           "url": "https://thequantuminsider.com/2026/07/28/riverlane-unitary-foundation-deltakit-community-fund"
-        },
-        {
-          "date": "2026-07-25",
-          "key": "https://quantumzeitgeist.com/quantum-error-correction-bluequbit-15m",
-          "report": "2026-07/2026-07-25-digest.md",
-          "score": 84,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "BlueQubit Secures $1.5M DOE Grants for AI-Driven Quantum Error Correction",
-          "url": "https://quantumzeitgeist.com/quantum-error-correction-bluequbit-15m"
-        },
-        {
-          "date": "2026-07-22",
-          "key": "https://thequantuminsider.com/2026/07/22/rice-university-doe-quantum-error-correction-research",
-          "report": "2026-07/2026-07-22-digest.md",
-          "score": 99,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Rice joins Department of Energy\u2019s Quantum Science Center to Advance QEC Research",
-          "url": "https://thequantuminsider.com/2026/07/22/rice-university-doe-quantum-error-correction-research"
         }
       ],
-      "evidence_count": 56,
+      "evidence_count": 58,
       "first_seen": "2026-01-08",
       "historical_evidence_count": 2,
-      "latest_seen": "2026-11-17",
+      "latest_seen": "2026-11-18",
       "momentum": "rising",
       "name": "Quantum error correction",
       "prior_count": 2,
       "priority": "critical",
-      "recent_count": 6,
+      "recent_count": 8,
       "status": "active",
       "themes": [
         "AI Security",
@@ -9651,8 +9663,44 @@
         "fault-tolerant quantum"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 32,
+      "current_evidence_count": 35,
       "evidence": [
+        {
+          "date": "2026-11-18",
+          "key": "https://thequantuminsider.com/2026/11/18/alice-bobs-updated-roadmap-targets-200-logical-qubits-from-3600-physical-qubits-by-2030",
+          "report": "2026-11/2026-11-18-digest.md",
+          "score": 144,
+          "source": "The Quantum Insider",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Alice & Bob\u2019s Updated Roadmap Targets 200 Logical Qubits From 3,600 Physical Qubits by 2030",
+          "url": "https://thequantuminsider.com/2026/11/18/alice-bobs-updated-roadmap-targets-200-logical-qubits-from-3600-physical-qubits-by-2030"
+        },
+        {
+          "date": "2026-11-18",
+          "key": "https://quantumzeitgeist.com/eth-zurich-logical-qubits-teleported-physical",
+          "report": "2026-11/2026-11-18-digest.md",
+          "score": 122,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Logical qubits teleported with 41 physical qubits",
+          "url": "https://quantumzeitgeist.com/eth-zurich-logical-qubits-teleported-physical"
+        },
+        {
+          "date": "2026-11-18",
+          "key": "https://arxiv.org/abs/2611.23919",
+          "report": "2026-11/2026-11-18-digest.md",
+          "score": 93,
+          "source": "arXiv RSS quant-ph",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Fault-tolerant quantum processor with minimal external control",
+          "url": "https://arxiv.org/abs/2611.23919"
+        },
         {
           "date": "2026-11-14",
           "key": "https://quantumzeitgeist.com/atom-computing-fault-tolerant-100-million",
@@ -10156,41 +10204,17 @@
           ],
           "title": "IonQ | Breaking the decoding bottleneck: Fast and accurate software decoding for Quantum LDPC codes",
           "url": "https://ionq.com/blog/breaking-the-decoding-bottleneck-fast-and-accurate-software-decoding-for-quantum-ldpc-codes"
-        },
-        {
-          "alert_eligible": false,
-          "category": "QEC / Fault Tolerance",
-          "date": "2025-11-20",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:ionq_article_header",
-          "entities": [
-            "IonQ"
-          ],
-          "historical": true,
-          "key": "https://ionq.com/blog/demystifying-logical-qubits-and-fault-tolerance",
-          "observed_at": "2026-11-15T10:16:38.716048+00:00",
-          "published_at": "2025-11-20T00:00:00+00:00",
-          "score": 132,
-          "source": "IonQ Technical Blog",
-          "source_type": "watch",
-          "summary": "Read IonQ's analysis of logical qubits and fault tolerant quantum computing (FTQC). Understand the industry's defining challenge, why physical qubit quality is paramount, and IonQ's strategic foundation for scalable, error-corrected quantum computing.",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "IonQ | Demystifying Logical Qubits and Fault Tolerance",
-          "url": "https://ionq.com/blog/demystifying-logical-qubits-and-fault-tolerance"
         }
       ],
-      "evidence_count": 38,
+      "evidence_count": 41,
       "first_seen": "2025-11-20",
       "historical_evidence_count": 6,
-      "latest_seen": "2026-11-14",
+      "latest_seen": "2026-11-18",
       "momentum": "rising",
       "name": "Logical qubits",
       "prior_count": 0,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -10556,8 +10580,20 @@
       "case_sensitive_aliases": [
         "QKD"
       ],
-      "current_evidence_count": 23,
+      "current_evidence_count": 24,
       "evidence": [
+        {
+          "date": "2026-11-18",
+          "key": "https://thequantuminsider.com/2026/11/18/8000-km-quantum-safe-network-us-europe-demonstration",
+          "report": "2026-11/2026-11-18-digest.md",
+          "score": 67,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Hybrid QKD and PQC Network Connects Chicago and Europe Across 8,000 km",
+          "url": "https://thequantuminsider.com/2026/11/18/8000-km-quantum-safe-network-us-europe-demonstration"
+        },
         {
           "date": "2026-11-17",
           "key": "https://quantumzeitgeist.com/quantum-key-distribution-ionq-idemia-validate",
@@ -10907,15 +10943,15 @@
           "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-to-showcase-quantum-secure-communications-beyond-quantum-key-distribution-at-ecoc-2026"
         }
       ],
-      "evidence_count": 26,
+      "evidence_count": 27,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-11-17",
+      "latest_seen": "2026-11-18",
       "momentum": "rising",
       "name": "Quantum key distribution",
       "prior_count": 0,
       "priority": "high",
-      "recent_count": 4,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -11575,6 +11611,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-11-18T05:38:50.738579+00:00",
+  "updated_at": "2026-11-19T05:36:01.904335+00:00",
   "version": 2
 }
