@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-19 22:15 UTC_
+_Updated 2026-11-19 23:15 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -46,7 +46,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-10 | fresh | 🟢 healthy |
 | DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-10 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-19 | — | reference | 🟢 healthy |
-| Department of War Strategic Technology Releases | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-16 | fresh | 🟢 healthy |
+| Department of War Strategic Technology Releases | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-19 | fresh | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-19 | 2026-11-19 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-11-19 | 2026-11-05 | fresh | 🟢 healthy |
 | Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-11-19 | 2026-11-12 | fresh | 🟢 healthy |
