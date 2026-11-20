@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-11-19 05:25 UTC_
+_Updated 2026-11-20 05:12 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -16,8 +16,8 @@ USAspending records describe reported awards; Grants.gov and SAM.gov records des
 - Opportunity radar: **3 mission-linked**, **2 closing within 30 days**, **0 new since yesterday**
 - Mission-linked records: **21**
 - Missions with activity: **5 of 10**
-- Named recipients and contractors: **328**
-- Known reported award value: **$1.06B**
+- Named recipients and contractors: **329**
+- Known reported award value: **$1.07B**
 
 ## Opportunity Radar
 
@@ -109,7 +109,6 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | UEI NPU8ULVAAS23 | **46 · DEVELOPING** | Active Incumbent | Declining | 2 | $666.7K | Department of Defense, National Science Foundation | darpa-qbi | 2 |
 | LOUISIANA STATE UNIVERSITY | UEI ECQEYCHRNKJ4 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.9M | National Science Foundation | Not linked | 0 |
 | BROWN UNIVERSITY | UEI E3FDXZ6TBHW3 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.7M | National Science Foundation | Not linked | 0 |
-| UNIVERSITY OF ALABAMA | UEI RCNJEHZ83EV6 | **45 · DEVELOPING** | Emerging Entrant | New Entrant | 4 | $2.4M | National Science Foundation | Not linked | 0 |
 | INUTEQ, LLC | UEI NBEWZB8LQ8Z5 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $29.4M | National Aeronautics and Space Administration | Not linked | 0 |
 | THE UNIVERSITY OF IOWA | UEI Z1H9VJS8NG16 | **44 · DEVELOPING** | Emerging Entrant | New Entrant | 5 | $3.7M | Environmental Protection Agency, National Science Foundation | Not linked | 0 |
 | POST QUANTUM LABS LLC | UEI H53MXWJZPYU3 | **43 · DEVELOPING** | Established Incumbent | Declining | 5 | $140.0K | Department of Defense | Not linked | 0 |
@@ -122,6 +121,7 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE | UEI GS3YEVSS12N6 | **40 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.5M | Department of Energy, National Science Foundation | Not linked | 1 |
 | UNIVERSITY OF ILLINOIS | UEI Y8CWNJRCNN91 | **39 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.7M | National Science Foundation | Not linked | 0 |
 | UNIVERSITY OF TEXAS AT AUSTIN | UEI V6AFQPN18437 | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $5.7M | National Science Foundation | Not linked | 0 |
+| UNIVERSITY OF ALABAMA | UEI RCNJEHZ83EV6 | **38 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.1M | National Science Foundation | Not linked | 0 |
 | SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | UEI MMLKPW9JLX64 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $10.6M | Department of Commerce, Department of Homeland Security | Not linked | 0 |
 | KEAN UNIVERSITY | UEI SQ62WM5KNSV8 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.4M | National Aeronautics and Space Administration, National Science Foundation | Not linked | 0 |
 | V3GATE, LLC | UEI J4KHM5JY79E3 | **37 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $3.0M | Department of Justice, Department of Veterans Affairs, VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.241-NETWORK CONTRACT OFFICE 01 (36C241) | Not linked | 0 |

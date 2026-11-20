@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-11-19",
+  "as_of_date": "2026-11-20",
   "claims": [
     {
       "authority": "authoritative",
@@ -1838,6 +1838,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-46263a41104ed969",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-28",
+      "evidence_ids": [
+        "evidence-ddb6c6789a020f09"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-20T05:12:24.457646+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ddb6c6789a020f09",
+          "locator": "opportunity_status:awarded",
+          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89233126FNA400803",
+        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+        "node_id": "award:usaspending:89233126FNA400803",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4ad1251862272913"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-46c83b9968b1db7b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-28",
+      "evidence_ids": [
+        "evidence-ac12546ed45dc713"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-20T05:12:24.457646+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ac12546ed45dc713",
+          "locator": "awarding_agency:department of energy",
+          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89233126FNA400803",
+        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+        "node_id": "award:usaspending:89233126FNA400803",
+        "node_type": "award"
+      },
+      "value": "Department of Energy",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "16dfb63f9c75461f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-0be012d3ff20cfd6",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-28",
+      "evidence_ids": [
+        "evidence-2dd84c67d8af32a5"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-20T05:12:24.457646+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2dd84c67d8af32a5",
+          "locator": "reported_amount:5769619.0",
+          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89233126FNA400803",
+        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+        "node_id": "award:usaspending:89233126FNA400803",
+        "node_type": "award"
+      },
+      "value": 5769619.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "279c68f27691da4d"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-6b6f93d36efcffcd",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-07-28",
+      "evidence_ids": [
+        "evidence-91377444069f9f72"
+      ],
+      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-20T05:12:24.457646+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:KC3CH2MSK7Q3",
+        "label": "ANDURIL INDUSTRIES, INC.",
+        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-91377444069f9f72",
+          "locator": "reported_recipient:recipient_or_contractor:uei:KC3CH2MSK7Q3",
+          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89233126FNA400803",
+        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+        "node_id": "award:usaspending:89233126FNA400803",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "37c239300a0a0314"
     },
     {
       "authority": "authoritative",
@@ -81556,191 +81741,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-9baddbe2d70311bf",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-9bc884d7bb11a344"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9bc884d7bb11a344",
-          "locator": "opportunity_status:awarded",
-          "title": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2555491_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2555491",
-        "label": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
-        "node_id": "award:usaspending:2555491",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "333358423ecd9290"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-a4af35218d922d56",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-50ff7d6561e43304"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-50ff7d6561e43304",
-          "locator": "awarding_agency:national science foundation",
-          "title": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2555491_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2555491",
-        "label": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
-        "node_id": "award:usaspending:2555491",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "431690d5d3f0f962"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-c964f2443dc3870a",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-46183feb1d4a3846"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-46183feb1d4a3846",
-          "locator": "reported_amount:300000.0",
-          "title": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2555491_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2555491",
-        "label": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
-        "node_id": "award:usaspending:2555491",
-        "node_type": "award"
-      },
-      "value": 300000.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "558256ea231426db"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-7133923bad55c920",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-92aff768e157f286"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:RCNJEHZ83EV6",
-        "label": "UNIVERSITY OF ALABAMA",
-        "node_id": "recipient_or_contractor:uei:RCNJEHZ83EV6",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-92aff768e157f286",
-          "locator": "reported_recipient:recipient_or_contractor:uei:RCNJEHZ83EV6",
-          "title": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2555491_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2555491",
-        "label": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
-        "node_id": "award:usaspending:2555491",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "a9bddd4ae2a95524"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-3913515cac70dd4b",
       "confidence": "high",
@@ -82098,6 +82098,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "81b9ae5813e7e883"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-9baddbe2d70311bf",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-9bc884d7bb11a344"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9bc884d7bb11a344",
+          "locator": "opportunity_status:awarded",
+          "title": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2555491_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2555491",
+        "label": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
+        "node_id": "award:usaspending:2555491",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "333358423ecd9290"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-a4af35218d922d56",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-50ff7d6561e43304"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-50ff7d6561e43304",
+          "locator": "awarding_agency:national science foundation",
+          "title": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2555491_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2555491",
+        "label": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
+        "node_id": "award:usaspending:2555491",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "431690d5d3f0f962"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-c964f2443dc3870a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-46183feb1d4a3846"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-46183feb1d4a3846",
+          "locator": "reported_amount:300000.0",
+          "title": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2555491_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2555491",
+        "label": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
+        "node_id": "award:usaspending:2555491",
+        "node_type": "award"
+      },
+      "value": 300000.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "558256ea231426db"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-7133923bad55c920",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-92aff768e157f286"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:RCNJEHZ83EV6",
+        "label": "UNIVERSITY OF ALABAMA",
+        "node_id": "recipient_or_contractor:uei:RCNJEHZ83EV6",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-92aff768e157f286",
+          "locator": "reported_recipient:recipient_or_contractor:uei:RCNJEHZ83EV6",
+          "title": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2555491_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2555491",
+        "label": "COLLABORATIVE RESEARCH: SATC 2.0: RES: MODELING AND MITIGATING REFLECTIVE BACKSCATTER SIDE-CHANNEL ATTACKS (REBAC) IN EVERYDAY DEVICES -EVERYDAY ELECTRONICS, INCLUDING KEYBOARDS,...",
+        "node_id": "award:usaspending:2555491",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "a9bddd4ae2a95524"
     },
     {
       "authority": "authoritative",
@@ -142917,191 +143102,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "99be6c84dd488946"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-46263a41104ed969",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-28",
-      "evidence_ids": [
-        "evidence-ddb6c6789a020f09"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 1,
-      "object": null,
-      "observation_status": "not_observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ddb6c6789a020f09",
-          "locator": "opportunity_status:awarded",
-          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:89233126FNA400803",
-        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-        "node_id": "award:usaspending:89233126FNA400803",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "4ad1251862272913"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-46c83b9968b1db7b",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-28",
-      "evidence_ids": [
-        "evidence-ac12546ed45dc713"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 1,
-      "object": null,
-      "observation_status": "not_observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ac12546ed45dc713",
-          "locator": "awarding_agency:department of energy",
-          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:89233126FNA400803",
-        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-        "node_id": "award:usaspending:89233126FNA400803",
-        "node_type": "award"
-      },
-      "value": "Department of Energy",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "16dfb63f9c75461f"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-0be012d3ff20cfd6",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-28",
-      "evidence_ids": [
-        "evidence-2dd84c67d8af32a5"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 1,
-      "object": null,
-      "observation_status": "not_observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2dd84c67d8af32a5",
-          "locator": "reported_amount:5769619.0",
-          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:89233126FNA400803",
-        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-        "node_id": "award:usaspending:89233126FNA400803",
-        "node_type": "award"
-      },
-      "value": 5769619.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "279c68f27691da4d"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-6b6f93d36efcffcd",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-07-28",
-      "evidence_ids": [
-        "evidence-91377444069f9f72"
-      ],
-      "first_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-01T02:08:14.362509+00:00",
-      "missing_observations": 1,
-      "object": {
-        "identifier": "uei:KC3CH2MSK7Q3",
-        "label": "ANDURIL INDUSTRIES, INC.",
-        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "not_observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-91377444069f9f72",
-          "locator": "reported_recipient:recipient_or_contractor:uei:KC3CH2MSK7Q3",
-          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:89233126FNA400803",
-        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
-        "node_id": "award:usaspending:89233126FNA400803",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "37c239300a0a0314"
     },
     {
       "authority": "authoritative",
@@ -258429,7 +258429,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258476,7 +258476,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258523,7 +258523,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258570,7 +258570,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258617,7 +258617,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258664,7 +258664,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258711,7 +258711,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258758,7 +258758,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258805,7 +258805,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258852,7 +258852,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258899,7 +258899,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258946,7 +258946,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258993,7 +258993,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259040,7 +259040,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259087,7 +259087,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259134,7 +259134,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259181,7 +259181,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259228,7 +259228,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259280,7 +259280,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259332,7 +259332,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259384,7 +259384,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259436,7 +259436,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259488,7 +259488,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259540,7 +259540,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259592,7 +259592,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259644,7 +259644,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259696,7 +259696,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-19T05:25:47.860457+00:00",
+      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -269291,7 +269291,7 @@
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-2dd84c67d8af32a5",
       "locator": "reported_amount:5769619.0",
-      "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
+      "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
       "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
       "verification_status": "source_reported"
     },
@@ -289441,7 +289441,7 @@
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-91377444069f9f72",
       "locator": "reported_recipient:recipient_or_contractor:uei:KC3CH2MSK7Q3",
-      "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
+      "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
       "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
       "verification_status": "source_reported"
     },
@@ -295121,7 +295121,7 @@
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-ac12546ed45dc713",
       "locator": "awarding_agency:department of energy",
-      "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
+      "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
       "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
       "verification_status": "source_reported"
     },
@@ -305391,7 +305391,7 @@
       "controlling_status": "not_asserted",
       "evidence_id": "evidence-ddb6c6789a020f09",
       "locator": "opportunity_status:awarded",
-      "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION, TEST...",
+      "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
       "url": "https://www.usaspending.gov/award/CONT_AWD_89233126FNA400803_8900_89233126DNA000072_8900",
       "verification_status": "source_reported"
     },
@@ -312739,6 +312739,6 @@
     "superseded_claims": 0,
     "total_claims": 5221
   },
-  "updated_at": "2026-11-19T05:25:47.860457+00:00",
+  "updated_at": "2026-11-20T05:12:24.457646+00:00",
   "version": 1
 }

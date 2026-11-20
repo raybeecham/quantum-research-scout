@@ -1,573 +1,11 @@
 {
-  "added": [
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7a05fa18d8383018",
-      "confidence": "high",
-      "effective_date": "2026-11-18",
-      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "evidence_url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
-      "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a1237b0cc1aa7c28",
-          "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "published_today",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source publication date is today or within the prior day.",
-        "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "historical": false,
-        "label": "Published today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "primary_date": "2026-11-18",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-11-18"
-      },
-      "value": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-75d2f5afca6e41ea",
-      "confidence": "high",
-      "effective_date": "2026-11-18",
-      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "evidence_url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
-      "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "object": null,
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7a69596414235063",
-          "locator": "deadline:2026-12-07t23:59:00-05:00",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "published_today",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": "2026-12-07",
-        "event_date": null,
-        "explanation": "The source publication date is today or within the prior day.",
-        "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "historical": false,
-        "label": "Published today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "primary_date": "2026-11-18",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-11-18"
-      },
-      "value": "2026-12-07T23:59:00-05:00"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-11da3dd4fa8f5278",
-      "confidence": "high",
-      "effective_date": "2026-11-18",
-      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "evidence_url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
-      "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-ec18d723a86d53a4",
-          "locator": "opportunity_status:open",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "published_today",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source publication date is today or within the prior day.",
-        "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "historical": false,
-        "label": "Published today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "primary_date": "2026-11-18",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-11-18"
-      },
-      "value": "open"
-    },
-    {
-      "authority": "analytical",
-      "change_type": "added",
-      "claim_id": "claim-78c27e89a3885b97",
-      "confidence": "medium",
-      "effective_date": "2026-11-19",
-      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "evidence_url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
-      "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "object": null,
-      "predicate": "qualification_gate",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-53d31f3edf18f094",
-          "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-27179ad3aaea8d8e",
-          "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5",
-          "verification_status": "source_reported"
-        },
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-075bdcb08b78b6b5",
-          "locator": "qualification_gate",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "published_today",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source publication date is today or within the prior day.",
-        "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "historical": false,
-        "label": "Published today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "primary_date": "2026-11-18",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-11-18"
-      },
-      "value": "hold"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3dea901ed280b868",
-      "confidence": "high",
-      "effective_date": "2027-01-01",
-      "evidence_title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
-      "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fb8e87d9eea662cb",
-          "locator": "awarding_agency:department of the interior",
-          "title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:140A1627F0129",
-        "label": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-        "node_id": "award:usaspending:140A1627F0129",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2027-01-01",
-        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-19.",
-        "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "primary_date": "2027-01-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of the Interior"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-84c2a6edfa66a76c",
-      "confidence": "high",
-      "effective_date": "2027-01-01",
-      "evidence_title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
-      "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "object": null,
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-aa64549ed8d95d93",
-          "locator": "opportunity_status:awarded",
-          "title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:140A1627F0129",
-        "label": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-        "node_id": "award:usaspending:140A1627F0129",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2027-01-01",
-        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-19.",
-        "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "primary_date": "2027-01-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "awarded"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-97620dd6efe1cc50",
-      "confidence": "high",
-      "effective_date": "2027-01-01",
-      "evidence_title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
-      "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "object": null,
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-34af8dafc66b1655",
-          "locator": "reported_amount:782586.5",
-          "title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:140A1627F0129",
-        "label": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-        "node_id": "award:usaspending:140A1627F0129",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2027-01-01",
-        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-19.",
-        "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "primary_date": "2027-01-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": 782586.5
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-a0ec3f1ffb592a29",
-      "confidence": "high",
-      "effective_date": "2027-01-01",
-      "evidence_title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
-      "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "object": {
-        "identifier": "uei:G9ZUNB3U1JK1",
-        "label": "CHICKASAW SERVICE SOLUTIONS, LLC",
-        "node_id": "recipient_or_contractor:uei:G9ZUNB3U1JK1",
-        "node_type": "recipient_or_contractor"
-      },
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-3766810e4e7159ca",
-          "locator": "reported_recipient:recipient_or_contractor:uei:G9ZUNB3U1JK1",
-          "title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:140A1627F0129",
-        "label": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-        "node_id": "award:usaspending:140A1627F0129",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2027-01-01",
-        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-19.",
-        "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "primary_date": "2027-01-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": null
-    }
-  ],
+  "added": [],
   "changed": [],
-  "comparison_ended_at": "2026-11-19T05:25:47.860457+00:00",
-  "comparison_started_at": "2026-11-18T05:28:20.697330+00:00",
+  "comparison_ended_at": "2026-11-20T05:12:24.457646+00:00",
+  "comparison_started_at": "2026-11-19T05:25:47.860457+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-7a05fa18d8383018",
-      "claim_ids": [
-        "claim-11da3dd4fa8f5278",
-        "claim-75d2f5afca6e41ea",
-        "claim-78c27e89a3885b97",
-        "claim-7a05fa18d8383018"
-      ],
-      "confidence": "high",
-      "effective_date": "2026-11-18",
-      "evidence_title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "evidence_url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
-      "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "deadline",
-        "opportunity_status",
-        "qualification_gate"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a1237b0cc1aa7c28",
-          "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "temporal": {
-        "classification": "published_today",
-        "date_basis": "Source-reported posting/publication date",
-        "effective_date": null,
-        "event_date": null,
-        "explanation": "The source publication date is today or within the prior day.",
-        "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "historical": false,
-        "label": "Published today",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "primary_date": "2026-11-18",
-        "primary_date_role": "publication_date",
-        "publication_date": "2026-11-18"
-      },
-      "value": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-3dea901ed280b868",
-      "claim_ids": [
-        "claim-3dea901ed280b868",
-        "claim-84c2a6edfa66a76c",
-        "claim-97620dd6efe1cc50",
-        "claim-a0ec3f1ffb592a29"
-      ],
-      "confidence": "high",
-      "effective_date": "2027-01-01",
-      "evidence_title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-      "evidence_url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
-      "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "grouped_event_count": 4,
-      "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-      "object": null,
-      "predicate": "awarding_agency",
-      "predicates": [
-        "awarding_agency",
-        "opportunity_status",
-        "reported_amount",
-        "reported_recipient"
-      ],
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fb8e87d9eea662cb",
-          "locator": "awarding_agency:department of the interior",
-          "title": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "usaspending:140A1627F0129",
-        "label": "CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ",
-        "node_id": "award:usaspending:140A1627F0129",
-        "node_type": "award"
-      },
-      "temporal": {
-        "classification": "upcoming",
-        "date_basis": "USAspending action date",
-        "effective_date": null,
-        "event_date": "2027-01-01",
-        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-19.",
-        "first_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "historical": false,
-        "label": "Upcoming event date",
-        "last_changed_at": null,
-        "last_observed_at": "2026-11-19T05:25:47.860457+00:00",
-        "primary_date": "2027-01-01",
-        "primary_date_role": "event_date",
-        "publication_date": null
-      },
-      "value": "Department of the Interior"
-    },
     {
       "authority": "authoritative",
       "change_type": "resolved",
@@ -3012,15 +2450,13 @@
   ],
   "scope_note": "Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.",
   "summary": {
-    "actual_or_recent_changes": 4,
+    "actual_or_recent_changes": 0,
     "classifications": {
-      "published_today": 4,
-      "resolved": 27,
-      "upcoming": 4
+      "resolved": 27
     },
     "evidence_trace_changes": 0,
     "historical_discoveries": 0,
-    "material_events": 35,
+    "material_events": 27,
     "newly_observed_undated": 0,
     "upcoming": 11
   },
@@ -3028,7 +2464,7 @@
   "upcoming": [
     {
       "date": "2026-11-14",
-      "days_remaining": -5,
+      "days_remaining": -6,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -3037,7 +2473,7 @@
     },
     {
       "date": "2026-11-24",
-      "days_remaining": 5,
+      "days_remaining": 4,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Genesis Mission",
@@ -3046,7 +2482,7 @@
     },
     {
       "date": "2026-12-07",
-      "days_remaining": 18,
+      "days_remaining": 17,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
@@ -3055,7 +2491,7 @@
     },
     {
       "date": "2026-12-17",
-      "days_remaining": 28,
+      "days_remaining": 27,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "PAMS-SC",
@@ -3064,7 +2500,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 30,
+      "days_remaining": 29,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -3073,7 +2509,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 30,
+      "days_remaining": 29,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -3082,7 +2518,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 30,
+      "days_remaining": 29,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -3091,7 +2527,7 @@
     },
     {
       "date": "2026-12-31",
-      "days_remaining": 42,
+      "days_remaining": 41,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "Project Triad",
@@ -3100,7 +2536,7 @@
     },
     {
       "date": "2027-01-12",
-      "days_remaining": 54,
+      "days_remaining": 53,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -3109,7 +2545,7 @@
     },
     {
       "date": "2027-03-19",
-      "days_remaining": 120,
+      "days_remaining": 119,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -3118,7 +2554,7 @@
     },
     {
       "date": "2027-06-22",
-      "days_remaining": 215,
+      "days_remaining": 214,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -3126,6 +2562,6 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
     }
   ],
-  "updated_at": "2026-11-19T05:25:47.860457+00:00",
+  "updated_at": "2026-11-20T05:12:24.457646+00:00",
   "version": 1
 }

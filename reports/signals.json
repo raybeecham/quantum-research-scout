@@ -299,13 +299,31 @@
           "source": "arXiv RSS cs.CR",
           "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
           "url": "https://arxiv.org/abs/2611.24362"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://arxiv.org/abs/2611.25324",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 52,
+          "source": "arXiv RSS cs.CR",
+          "title": "Verified Netlist-to-RTL Recovery with LLM Agents",
+          "url": "https://arxiv.org/abs/2611.25324"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://arxiv.org/abs/2611.25339",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 60,
+          "source": "arXiv RSS cs.CR",
+          "title": "From FIPS to FPGA with LLM Agents: Measuring What Tests and Reviews Miss in Post-Quantum Cryptographic Hardware",
+          "url": "https://arxiv.org/abs/2611.25339"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-11-18",
-      "momentum": "stable",
+      "latest_seen": "2026-11-19",
+      "momentum": "rising",
       "organizations": [
         "arXiv RSS cs.CR",
         "Quantum Zeitgeist",
@@ -313,9 +331,9 @@
         "Quantum Computing Report",
         "Hugging Face Technical Blog"
       ],
-      "prior_count": 3,
-      "recent_count": 4,
-      "status": "watching"
+      "prior_count": 2,
+      "recent_count": 5,
+      "status": "actionable"
     },
     "PQC / Crypto Agility": {
       "confidence": "high",
@@ -3739,12 +3757,48 @@
           "source": "The Quantum Insider",
           "title": "SEALSQ Signs Letter of Intent to Acquire QuintessenceLabs",
           "url": "https://thequantuminsider.com/2026/11/18/sealsq-letter-of-intent-acquire-quintessencelabs"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://arxiv.org/abs/2611.25663",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 58,
+          "source": "arXiv RSS cs.CR",
+          "title": "Correctable Enrollment and One-Transaction Seed Proofs for Ethereum's Post-Quantum Transition",
+          "url": "https://arxiv.org/abs/2611.25663"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://thequantuminsider.com/2026/11/19/sealsq-loi-acquire-quintessencelabs",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 61,
+          "source": "The Quantum Insider",
+          "title": "SEALSQ Signs LOI to Acquire QuintessenceLabs",
+          "url": "https://thequantuminsider.com/2026/11/19/sealsq-loi-acquire-quintessencelabs"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://quantumcomputingreport.com/mastercard-launches-quantum-advisory-practice-with-qiz-security-and-releases-pqc-readiness-whitepaper",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 63,
+          "source": "Quantum Computing Report",
+          "title": "Mastercard Launches Quantum Advisory Practice with QIZ Security and Releases PQC Readiness Whitepaper",
+          "url": "https://quantumcomputingreport.com/mastercard-launches-quantum-advisory-practice-with-qiz-security-and-releases-pqc-readiness-whitepaper"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://arxiv.org/abs/2611.25479",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 72,
+          "source": "arXiv RSS cs.CR",
+          "title": "Side-Channel Analysis of the RP2350 Challenge 2",
+          "url": "https://arxiv.org/abs/2611.25479"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-11-18",
+      "latest_seen": "2026-11-19",
       "momentum": "declining",
       "organizations": [
         "The Quantum Insider",
@@ -3753,8 +3807,8 @@
         "Quantum Computing Report",
         "IACR ePrint"
       ],
-      "prior_count": 32,
-      "recent_count": 12,
+      "prior_count": 28,
+      "recent_count": 13,
       "status": "watching"
     },
     "QEC / Fault Tolerance": {
@@ -4884,12 +4938,48 @@
           "source": "The Quantum Insider",
           "title": "Alice & Bob\u2019s Updated Roadmap Targets 200 Logical Qubits From 3,600 Physical Qubits by 2030",
           "url": "https://thequantuminsider.com/2026/11/18/alice-bobs-updated-roadmap-targets-200-logical-qubits-from-3600-physical-qubits-by-2030"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://arxiv.org/abs/2611.25397",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 55,
+          "source": "arXiv RSS quant-ph",
+          "title": "Counterfactual attribution of surface-code failures under non-Pauli noise: dependence on trajectory pairing",
+          "url": "https://arxiv.org/abs/2611.25397"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://arxiv.org/abs/2611.25880",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 57,
+          "source": "arXiv RSS quant-ph",
+          "title": "Evolving Decoding Algorithms for Quantum Error Correction",
+          "url": "https://arxiv.org/abs/2611.25880"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://arxiv.org/abs/2611.25025",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 67,
+          "source": "arXiv RSS quant-ph",
+          "title": "The Clifford Hierarchy from Clifford Stabilizers in 2D",
+          "url": "https://arxiv.org/abs/2611.25025"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://arxiv.org/abs/2611.25095",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 80,
+          "source": "arXiv RSS quant-ph",
+          "title": "A measurement-free quantum error correction protocol for superconducting cavities",
+          "url": "https://arxiv.org/abs/2611.25095"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-11-18",
+      "latest_seen": "2026-11-19",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -4898,8 +4988,8 @@
         "QuantumNews.ai",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 5,
-      "recent_count": 18,
+      "prior_count": 2,
+      "recent_count": 22,
       "status": "actionable"
     },
     "Quantum Hardware": {
@@ -8711,12 +8801,30 @@
           "source": "arXiv RSS quant-ph",
           "title": "Fault-tolerant quantum processor with minimal external control",
           "url": "https://arxiv.org/abs/2611.23919"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://quantumcomputingreport.com/google-quantum-ai-demonstrates-measurement-contextuality-across-105-qubits-on-willow-processors",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 82,
+          "source": "Quantum Computing Report",
+          "title": "Google Quantum AI Demonstrates Measurement Contextuality Across 105 Qubits on Willow Processors",
+          "url": "https://quantumcomputingreport.com/google-quantum-ai-demonstrates-measurement-contextuality-across-105-qubits-on-willow-processors"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://arxiv.org/abs/2611.25740",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 106,
+          "source": "arXiv RSS quant-ph",
+          "title": "Parallel transversal entangling gates for fault-tolerant trapped-ion quantum computing",
+          "url": "https://arxiv.org/abs/2611.25740"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-11-18",
+      "latest_seen": "2026-11-19",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -8725,8 +8833,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 20,
-      "recent_count": 27,
+      "prior_count": 29,
+      "recent_count": 20,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -10441,13 +10549,31 @@
           "source": "Quantum Zeitgeist",
           "title": "Ciena connects US & Europe with quantum-safe network over 8,000 km",
           "url": "https://quantumzeitgeist.com/quantum-safe-network-ciena-connects-europe"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://quantumcomputingreport.com/memq-and-infleqtion-sign-mou-to-validate-quantum-networking-interoperability-for-distributed-neutral-atom-systems",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 85,
+          "source": "Quantum Computing Report",
+          "title": "memQ and Infleqtion Sign MoU to Validate Quantum Networking Interoperability for Distributed Neutral-Atom Systems",
+          "url": "https://quantumcomputingreport.com/memq-and-infleqtion-sign-mou-to-validate-quantum-networking-interoperability-for-distributed-neutral-atom-systems"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://thequantuminsider.com/2026/11/19/memq-infleqtion-mou-quantum-networking-interoperability",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 111,
+          "source": "The Quantum Insider",
+          "title": "memQ and Infleqtion Sign MoU to Advance Networked Quantum Computing",
+          "url": "https://thequantuminsider.com/2026/11/19/memq-infleqtion-mou-quantum-networking-interoperability"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-11-18",
-      "momentum": "stable",
+      "latest_seen": "2026-11-19",
+      "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -10455,9 +10581,9 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 11,
-      "recent_count": 10,
-      "status": "watching"
+      "prior_count": 8,
+      "recent_count": 12,
+      "status": "actionable"
     },
     "Quantum Sensing": {
       "confidence": "high",
@@ -12101,13 +12227,22 @@
           "source": "Quantum Computing Report",
           "title": "Unitary Foundation Releases 2026 Quantum Open Source Survey Covering SDK Adoption, Hybrid HPC Workflows, and AI Tooling",
           "url": "https://quantumcomputingreport.com/unitary-foundation-releases-2026-quantum-open-source-survey-covering-sdk-adoption-hybrid-hpc-workflows-and-ai-tooling"
+        },
+        {
+          "date": "2026-11-19",
+          "key": "https://arxiv.org/abs/2611.25470",
+          "report": "2026-11/2026-11-19-digest.md",
+          "score": 92,
+          "source": "arXiv RSS cs.CR",
+          "title": "ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents",
+          "url": "https://arxiv.org/abs/2611.25470"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-11-17",
-      "momentum": "rising",
+      "latest_seen": "2026-11-19",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -12115,9 +12250,9 @@
         "Quantum Computing Report",
         "Quantum Journal"
       ],
-      "prior_count": 4,
-      "recent_count": 6,
-      "status": "actionable"
+      "prior_count": 6,
+      "recent_count": 5,
+      "status": "watching"
     },
     "Standards / Government": {
       "confidence": "high",
@@ -12941,6 +13076,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-11-19T05:36:01.889754+00:00",
+  "updated_at": "2026-11-20T05:21:32.210830+00:00",
   "version": 1
 }

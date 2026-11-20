@@ -2,21 +2,17 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-11-19T05:25:47.860457+00:00_
+_Updated 2026-11-20T05:12:24.457646+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **4**
+- Actual or recent changes: **0**
 - Newly discovered historical evidence: **0**
 - Newly observed with no reliable source date: **0**
 - Upcoming dated events: **11**
 
 ## Priority timeline
 
-- **Published today** · Post Quantum Cryptography (PQC) Readiness and Validation Status — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view))
-  - The source publication date is today or within the prior day.
-- **Upcoming event date** · CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450))
-  - The source date is in the future; Frontier Signal first observed it on 2026-11-19.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

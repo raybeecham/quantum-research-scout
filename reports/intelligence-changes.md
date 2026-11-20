@@ -2,12 +2,12 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-11-19T05:25:47.860457+00:00_
+_Updated 2026-11-20T05:12:24.457646+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **35**
-- Added / changed / resolved: **8 / 0 / 27**
+- Material changes: **27**
+- Added / changed / resolved: **0 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **17**
 - Conflicts opened / resolved: **0 / 0**
@@ -18,14 +18,7 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- **CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450))
-- **CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ** — awarding agency: Department of the Interior ([evidence](https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450))
-- **CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ** — reported amount: 782586.5 ([evidence](https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450))
-- **CYBERSECURITY - RISK MANAGEMENT FRAMEWORK (RMF) SERVICES FOR OIT TASK ORDER INFORMATION TECHNOLOGY SUPPORT SERVICES (ITSS) IDIQ** — reported recipient: — ([evidence](https://www.usaspending.gov/award/CONT_AWD_140A1627F0129_1450_140A1624D0040_1450))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — opportunity status: open ([evidence](https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — deadline: 2026-12-07T23:59:00-05:00 ([evidence](https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — awarding agency: GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT ([evidence](https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view))
-- **Post Quantum Cryptography (PQC) Readiness and Validation Status** — qualification gate: hold ([evidence](https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view))
+- None.
 
 ## Superseded claims
 

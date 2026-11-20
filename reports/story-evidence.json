@@ -3147,6 +3147,209 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2611.25025": {
+      "captures": [
+        {
+          "excerpts": [
+            "The Bravyi-K\\\"onig theorem limits the constant-depth logical gates of 2D topological Pauli stabilizer codes to be in the Clifford group",
+            "Known qubit codes with Clifford stabilizers exceed it by only one level of the Clifford hierarchy, and this was conjectured to hold generally"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-19",
+              "report_date": "2026-11-19",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.25025"
+            }
+          ],
+          "title": "The Clifford Hierarchy from Clifford Stabilizers in 2D"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.25095": {
+      "captures": [
+        {
+          "excerpts": [
+            "The realization of large-scale quantum computation will require quantum error correction (QEC)",
+            "12, 191 (2021)] proposed a measurement-free error-correction protocol based on coherent control of photonic modes that corrects for photon loss",
+            "One way to reduce the demands placed on QEC is to correct dominant physical errors at a lower level before passing the remaining errors to an outer code"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-19",
+              "report_date": "2026-11-19",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.25095"
+            }
+          ],
+          "title": "A measurement-free quantum error correction protocol for superconducting cavities"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.25324": {
+      "captures": [
+        {
+          "excerpts": [
+            "Large language models (LLMs) can write and optimize RTL, but often fail to recover it from a whole netlist",
+            "Gate-level netlists circulate among IP integrators and foundries and can be extracted from chips",
+            "Reverse engineering them into readable register-transfer-level (RTL) code would help an adversary understand and modify a design, but remains difficult because word-level operations are scattered across many gates"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-19",
+              "report_date": "2026-11-19",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.25324"
+            }
+          ],
+          "title": "Verified Netlist-to-RTL Recovery with LLM Agents"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.25339": {
+      "captures": [
+        {
+          "excerpts": [
+            "We present our seven-stage verification-gated workflow, evolved during a post-quantum design port, in which a gate counts only if shown able to fail on negative controls and fault mutants, and reviewer agents audit...",
+            "As LLM agents increasingly generate RTL alongside the tests and reviews that validate it, self-generated evidence is a weak foundation for trustworthy hardware"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-19",
+              "report_date": "2026-11-19",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.25339"
+            }
+          ],
+          "title": "From FIPS to FPGA with LLM Agents: Measuring What Tests and Reviews Miss in Post-Quantum Cryptographic Hardware"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.25397": {
+      "captures": [
+        {
+          "excerpts": [
+            "Under Pauli noise in a stabilizer memory, attributing a quantum error-correction failure to the noise that caused it has a canonical answer; under non-Pauli noise the attribution depends on how trajectories are paired...",
+            "Under Pauli noise in a stabilizer memory, attributing a quantum error-correction failure to the noise that caused it has a canonical answer",
+            "under non-Pauli noise the attribution depends on how trajectories are paired with their counterfactuals"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-19",
+              "report_date": "2026-11-19",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.25397"
+            }
+          ],
+          "title": "Counterfactual attribution of surface-code failures under non-Pauli noise: dependence on trajectory pairing"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.25470": {
+      "captures": [
+        {
+          "excerpts": [
+            "Large language models (LLMs) are increasingly deployed as agents that translate user requests into sequences of local tool invocations",
+            "While prior cache-based side-channel attacks target the locally deployed models, they typically require the adversary to share model-related components or hardware resources with the victim's inference process"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-19",
+              "report_date": "2026-11-19",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.25470"
+            }
+          ],
+          "title": "ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.25479": {
+      "captures": [
+        {
+          "excerpts": [
+            "Bug bounty programs and community challenges have become an established mechanism to incentivize collective action to improve security",
+            "In essence, these can be considered as crowd-sourcing mechanisms where participants carry the risk twice over: performing the work in addition to having it officially accepted, which at times can be tied to..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-19",
+              "report_date": "2026-11-19",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.25479"
+            }
+          ],
+          "title": "Side-Channel Analysis of the RP2350 Challenge 2"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.25663": {
+      "captures": [
+        {
+          "excerpts": [
+            "A quantum computer running Shor's algorithm can extract the private key of every Ethereum account whose public key is published, and accounts exposed by their own transactions hold 54.6% of execution-layer ETH",
+            "As the first such machine may stay secret, a migration cannot wait for visible thefts, and once keys are extractable, legacy signatures no longer tell owners from attackers"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-19",
+              "report_date": "2026-11-19",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.25663"
+            }
+          ],
+          "title": "Correctable Enrollment and One-Transaction Seed Proofs for Ethereum's Post-Quantum Transition"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.25740": {
+      "captures": [
+        {
+          "excerpts": [
+            "Fault-tolerant quantum computing requires high-fidelity entangling gates that can be implemented efficiently across multiple qubit pairs",
+            "We present a scheme for simultaneous pairwise entangling operations, i.e., a transversal controlled-$Z$ gate, across neighboring wells in a double-well trapped-ion architecture"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-19",
+              "report_date": "2026-11-19",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.25740"
+            }
+          ],
+          "title": "Parallel transversal entangling gates for fault-tolerant trapped-ion quantum computing"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.25880": {
+      "captures": [
+        {
+          "excerpts": [
+            "We write several published belief-propagation (BP) decoders for quantum low-density parity-check (qLDPC) codes in a Domain-Specific Language (DSL), and search over it with grammatical evolution",
+            "Quantum computation entails robustness engineering: a noisy quantum state is measured continuously, and a classical algorithm (the decoder) must infer corrections that reliably remove the noise, fast enough to keep up"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-19",
+              "report_date": "2026-11-19",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.25880"
+            }
+          ],
+          "title": "Evolving Decoding Algorithms for Quantum Error Correction"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
