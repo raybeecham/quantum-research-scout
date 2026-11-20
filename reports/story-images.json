@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20T07:15:23.193379+00:00",
+  "updated_at": "2026-11-20T08:15:49.676808+00:00",
   "records": {
     "https://quantumcomputingreport.com/google-quantum-ai-demonstrates-measurement-contextuality-across-105-qubits-on-willow-processors": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-144.png",
@@ -53,6 +53,11 @@
     },
     "https://arxiv.org/abs/2611.25339": {
       "page_url": "https://arxiv.org/abs/2611.25339",
+      "status": "unavailable",
+      "fetched_at": "2026-11-20T05:22:27.495154+00:00"
+    },
+    "https://arxiv.org/abs/2611.25663": {
+      "page_url": "https://arxiv.org/abs/2611.25663",
       "status": "unavailable",
       "fetched_at": "2026-11-20T05:22:27.495154+00:00"
     },
@@ -151,11 +156,6 @@
     },
     "https://arxiv.org/abs/2611.23420": {
       "page_url": "https://arxiv.org/abs/2611.23420",
-      "status": "unavailable",
-      "fetched_at": "2026-11-20T05:22:27.495154+00:00"
-    },
-    "https://arxiv.org/abs/2611.25663": {
-      "page_url": "https://arxiv.org/abs/2611.25663",
       "status": "unavailable",
       "fetched_at": "2026-11-20T05:22:27.495154+00:00"
     },
@@ -848,6 +848,22 @@
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-11-13T12:15:40.314056+00:00",
+      "status": "ok"
+    },
+    "https://quantumzeitgeist.com/quantum-networking-memq-infleqtion-test-systems": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/memq-infleqtion-to-test-quantum-networking-between-systems.jpg",
+      "page_url": "https://quantumzeitgeist.com/quantum-networking-memq-infleqtion-test-systems",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-20T08:15:49.676808+00:00",
+      "status": "ok"
+    },
+    "https://quantumzeitgeist.com/ionq-quantum-computing-roadmap-office-science": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/quantum-computing-roadmap-signals-effort-error-1200x630.png",
+      "page_url": "https://quantumzeitgeist.com/ionq-quantum-computing-roadmap-office-science",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-20T08:15:49.676808+00:00",
       "status": "ok"
     }
   }
