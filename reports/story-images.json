@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20T23:16:15.105673+00:00",
+  "updated_at": "2026-11-21T00:16:03.756469+00:00",
   "records": {
     "https://thequantuminsider.com/2026/11/20/how-the-department-of-commerces-quantum-awards-work-and-what-companies-give-in-return": {
       "image_url": "https://thequantuminsider.com/wp-content/uploads/2026/10/tqi-share-1200x630-1.jpg",
@@ -74,6 +74,11 @@
     },
     "https://arxiv.org/abs/2611.25663": {
       "page_url": "https://arxiv.org/abs/2611.25663",
+      "status": "unavailable",
+      "fetched_at": "2026-11-20T05:22:27.495154+00:00"
+    },
+    "https://arxiv.org/abs/2611.25880": {
+      "page_url": "https://arxiv.org/abs/2611.25880",
       "status": "unavailable",
       "fetched_at": "2026-11-20T05:22:27.495154+00:00"
     },
@@ -235,11 +240,6 @@
       "page_url": "https://arxiv.org/abs/2611.23383",
       "status": "unavailable",
       "fetched_at": "2026-11-20T06:15:38.598674+00:00"
-    },
-    "https://arxiv.org/abs/2611.25880": {
-      "page_url": "https://arxiv.org/abs/2611.25880",
-      "status": "unavailable",
-      "fetched_at": "2026-11-20T05:22:27.495154+00:00"
     },
     "https://arxiv.org/abs/2611.25397": {
       "page_url": "https://arxiv.org/abs/2611.25397",
@@ -920,6 +920,14 @@
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-11-13T12:15:40.314056+00:00",
+      "status": "ok"
+    },
+    "https://quantumzeitgeist.com/quantinuum-random-position-checks-authenticate-quantum": {
+      "image_url": "https://quantumzeitgeist.com/wp-content/uploads/random-position-checks-could-authenticate-quantum-communications-1200x630.png",
+      "page_url": "https://quantumzeitgeist.com/quantinuum-random-position-checks-authenticate-quantum",
+      "publisher": "Quantum Zeitgeist",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-21T00:16:03.756469+00:00",
       "status": "ok"
     }
   }
