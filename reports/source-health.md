@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-21 06:16 UTC_
+_Updated 2026-11-21 07:15 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -25,7 +25,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv RSS cs.CR | arxiv_rss | 93% | 1 | 4 | 2026-11-21 | 2026-11-20 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 93% | 1 | 4 | 2026-11-21 | 2026-11-20 | fresh | 🟢 healthy |
 | Quantum Computing Report | rss | 95% | 1 | 0 | 2026-11-21 | 2026-11-21 | fresh | 🟢 healthy |
-| Quantum Journal | rss | 97% | 1 | 0 | 2026-11-21 | 2026-11-20 | fresh | 🔴 failing |
+| Quantum Journal | rss | 97% | 1 | 0 | 2026-11-21 | 2026-11-20 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-21 | 2026-11-20 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 9 | 2026-11-21 | 2026-11-20 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 5 | 2026-11-21 | 2024-03-12 | reference | 🟢 healthy |
@@ -134,7 +134,7 @@ RSS and API are measured separately. Standby means no API request was made; work
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **103** of **108**
+- Healthy sources: **104** of **108**
 - Partial-coverage sources: **0**
 - Critical sources failing: **0**
 

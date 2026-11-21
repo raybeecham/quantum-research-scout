@@ -5396,6 +5396,13 @@
               "sequence": 0,
               "source": "Quantum Journal",
               "url": "https://quantum-journal.org/papers/q-2026-11-20-2279"
+            },
+            {
+              "published_date": "2026-11-20",
+              "report_date": "2026-11-21",
+              "sequence": 0,
+              "source": "Quantum Journal",
+              "url": "https://quantum-journal.org/papers/q-2026-11-20-2279"
             }
           ],
           "title": "Symmetries, correlation functions, and entanglement of general quantum Motzkin spin-chains"
@@ -7317,6 +7324,13 @@
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/mastercard-launches-quantum-advisory-practice-with-qiz-security-and-releases-pqc-readiness-whitepaper"
+            },
+            {
+              "published_date": "2026-11-19",
+              "report_date": "2026-11-21",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/mastercard-launches-quantum-advisory-practice-with-qiz-security-and-releases-pqc-readiness-whitepaper"
             }
           ],
           "title": "Mastercard Launches Quantum Advisory Practice with QIZ Security and Releases PQC Readiness Whitepaper"
@@ -7342,6 +7356,13 @@
             {
               "published_date": "2026-11-19",
               "report_date": "2026-11-20",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/memq-and-infleqtion-sign-mou-to-validate-quantum-networking-interoperability-for-distributed-neutral-atom-systems"
+            },
+            {
+              "published_date": "2026-11-19",
+              "report_date": "2026-11-21",
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/memq-and-infleqtion-sign-mou-to-validate-quantum-networking-interoperability-for-distributed-neutral-atom-systems"
@@ -8397,6 +8418,27 @@
             }
           ],
           "title": "Researchers Demonstrate Fully Integrated Continuous-Variable QKD Over 100 km with Composable Finite-Size Security"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/researchers-introduce-qeclean-framework-to-formally-verify-quantum-error-correcting-codes-in-lean-4": {
+      "captures": [
+        {
+          "excerpts": [
+            "Researchers have developed QECLean, an open-source framework using Lean 4 to formally verify quantum error-correcting codes, addressing the difficulty of verifying complex, algorithmically discovered codes",
+            "It has successfully verified parameters for several significant QEC codes, including an IBM 360-qubit code and infinite planar code families",
+            "QECLean aims to validate AI-discovered codes and future quantum compilers by linking different mathematical representations within Lean's type system"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-19",
+              "report_date": "2026-11-21",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/researchers-introduce-qeclean-framework-to-formally-verify-quantum-error-correcting-codes-in-lean-4"
+            }
+          ],
+          "title": "Researchers Introduce QECLean Framework to Formally Verify Quantum Error-Correcting Codes in Lean 4"
         }
       ]
     },
