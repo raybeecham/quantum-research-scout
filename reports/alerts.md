@@ -4,11 +4,18 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-20 05:21 UTC_
+_Updated 2026-11-21 05:10 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 7 | 9 | 8 | 33 |
+| 50 | 3 | 10 | 9 | 31 |
+
+## 🔴 Conflict Opened: Post Quantum Cryptography (PQC) Readiness and Validation Status 🆕
+
+- Severity: **critical**
+- Status: **conflict-opened**
+- deadline · authority authoritative · ['2026-12-07t17:00:00-05:00', '2026-12-07t23:59:00-05:00']
+- [Open supporting view](intelligence-changes.md)
 
 ## 🔴 Critical theme: AI Security
 
@@ -35,7 +42,7 @@ _Updated 2026-11-20 05:21 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Hardware has critical strategic importance and stable momentum.
+- 🔴 Quantum Hardware has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Networking
@@ -63,17 +70,17 @@ _Updated 2026-11-20 05:21 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Standards / Government has critical strategic importance and stable momentum.
+- 🔴 Standards / Government has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Source failing: Department of War Strategic Technology News
+## 🔴 Source failing: Quantum Computing Patents 🆕
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 85.8% reliability with 9 warning day(s).
+- 🔴 90.4% reliability with 5 warning day(s).
 - [Open supporting view](source-health.md)
 
-## 🟠 Actionable signal: AI Security 🆕
+## 🟠 Actionable signal: AI Security
 
 - Severity: **high**
 - Status: **actionable**
@@ -87,7 +94,7 @@ _Updated 2026-11-20 05:21 UTC_
 - 🎯 QEC / Fault Tolerance is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Actionable signal: Quantum Networking 🆕
+## 🟠 Actionable signal: Quantum Networking
 
 - Severity: **high**
 - Status: **actionable**
@@ -101,7 +108,15 @@ _Updated 2026-11-20 05:21 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: AI Security 🆕
+## 🟠 Procurement amendment impact: Post Quantum Cryptography (PQC) Readiness and Validation Status 🆕
+
+- Severity: **high**
+- Status: **decision-revalidation-required**
+- Response deadline extended from 2026-12-07 to 2026-12-07. Prior qualification and bid/no-bid assumptions require analyst revalidation; no analyst decision was changed automatically.
+- [Open direct evidence](https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view)
+- [Open supporting view](procurement-intelligence.md)
+
+## 🟠 Rising momentum: AI Security
 
 - Severity: **high**
 - Status: **rising**
@@ -115,11 +130,11 @@ _Updated 2026-11-20 05:21 UTC_
 - ↗️ Recent evidence is 22 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Quantum Networking 🆕
+## 🟠 Rising momentum: Quantum Networking
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 12 versus 8 in the prior period.
+- ↗️ Recent evidence is 16 versus 6 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -148,13 +163,6 @@ _Updated 2026-11-20 05:21 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-26; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Department of War Strategic Technology News
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-10-23; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: ETSI Quantum Standards News
@@ -197,13 +205,6 @@ _Updated 2026-11-20 05:21 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-08; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Grants.gov · Golden Dome
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-08-27; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Grants.gov · Military AI Pace-Setting Projects
@@ -304,21 +305,21 @@ _Updated 2026-11-20 05:21 UTC_
 - The latest dated item is from 2026-11-02; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: PQCA Readiness Tracking 🆕
+## 🟡 Source stale: PQCA Readiness Tracking
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-11-04; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: PQShield 🆕
+## 🟡 Source stale: PQShield
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-11-04; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Post-Quantum Cryptography Patents 🆕
+## 🟡 Source stale: Post-Quantum Cryptography Patents
 
 - Severity: **medium**
 - Status: **stale**

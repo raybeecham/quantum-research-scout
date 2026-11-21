@@ -13,7 +13,7 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 1593,
+      "days_to_close": 1592,
       "deadline": "2031-04-01T23:59:00-04:00",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -196,7 +196,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 27,
+      "days_to_close": 26,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -300,7 +300,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 53,
+      "days_to_close": 52,
       "deadline": "01/12/2027",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -415,17 +415,17 @@
           "type": "secondary"
         }
       ],
-      "days_to_close": 17,
-      "deadline": "2026-12-07T23:59:00-05:00",
+      "days_to_close": 16,
+      "deadline": "2026-12-07T17:00:00-05:00",
       "decision_freshness": {
         "current_gate": "hold",
         "current_score": 39,
-        "evidence_url": "",
-        "impact_id": "impact:7287aa94fd34c367bb9a",
-        "note": "No unreviewed material amendment impact is currently identified.",
+        "evidence_url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
+        "impact_id": "impact:3323bb1d8d2b0e0a8475",
+        "note": "The latest amendment impact requires analyst revalidation. The tracker did not change an authorized bid/no-bid decision.",
         "previous_gate": "hold",
         "previous_score": 39,
-        "status": "current"
+        "status": "revalidation_required"
       },
       "decision_score": 39,
       "decision_trace": {
@@ -439,7 +439,7 @@
             ],
             "code": "opportunity_evidence",
             "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view"
+              "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view"
             ],
             "points": 39
           },
@@ -450,6 +450,7 @@
             "code": "document_evidence",
             "evidence_urls": [
               "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=92c1221a05ca49eb87cd904fc87d7d7b",
               "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b",
               "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497",
               "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7",
@@ -464,7 +465,7 @@
             ],
             "code": "deadline_and_evidence_risk",
             "evidence_urls": [
-              "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view"
+              "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view"
             ],
             "points": 0
           }
@@ -474,61 +475,92 @@
         "model_version": "2",
         "public_evidence_score": 39,
         "source_urls": [
-          "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
+          "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=92c1221a05ca49eb87cd904fc87d7d7b",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
         ],
-        "trace_hash": "762623ba2913204f"
+        "trace_hash": "0968b2031e5ce692"
       },
       "eligibility": [],
       "evaluation_criteria": [],
       "evidence_completeness": 0,
       "latest_amendment_impact": {
-        "after_snapshot_id": "snapshot:46cba8c9ee9b63f9ab83",
+        "after_snapshot_id": "snapshot:c681a4f4c4ace15d4059",
         "baseline_status": "compared",
-        "before_snapshot_id": "snapshot:bb86e649d0f7207a0ab2",
+        "before_snapshot_id": "snapshot:46cba8c9ee9b63f9ab83",
         "changes": [
           {
-            "after": null,
-            "before": null,
-            "category": "attachment",
-            "change_id": "change:8f9da5e031566e2d6bc7",
-            "change_type": "modified",
+            "after": {
+              "authority": "official_sam_metadata",
+              "category": "deadline",
+              "claim_id": "claim:1e1ee655bf6303b032b3",
+              "controlling_status": "analyst_verification_required",
+              "source": {
+                "locator": {
+                  "field": "deadline"
+                },
+                "opportunity_key": "sam_gov:1106202612072026",
+                "retrieved_at": "2026-11-21T05:05:06.630011+00:00",
+                "source_url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view"
+              },
+              "value": "2026-12-07T17:00:00-05:00"
+            },
+            "before": {
+              "authority": "official_sam_metadata",
+              "category": "deadline",
+              "claim_id": "claim:df54f707bade209121d8",
+              "controlling_status": "analyst_verification_required",
+              "source": {
+                "locator": {
+                  "field": "deadline"
+                },
+                "opportunity_key": "sam_gov:1106202612072026",
+                "retrieved_at": "2026-11-20T05:12:24.457646+00:00",
+                "source_url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view"
+              },
+              "value": "2026-12-07T23:59:00-05:00"
+            },
+            "category": "deadline",
+            "change_id": "change:1f22ea7d3c0c847f8d7c",
+            "change_type": "extended",
             "checklist_tags": [
-              "attachment",
-              "document",
-              "solicitation"
+              "calendar",
+              "deadline",
+              "review",
+              "schedule",
+              "submission"
             ],
             "decision_effects": [
-              "controlling document baseline requires analyst review"
+              "response calendar requires revalidation"
             ],
-            "match_confidence": null,
-            "materiality": "low",
-            "summary": "The set of tracked solicitation document versions changed.",
-            "supersession_basis": null
+            "match_confidence": 1.0,
+            "materiality": "high",
+            "summary": "Response deadline extended from 2026-12-07 to 2026-12-07.",
+            "supersession_basis": "official metadata revision"
           }
         ],
-        "detected_at": "2026-11-19T05:25:47.860457+00:00",
-        "detected_this_run": false,
-        "highest_materiality": "low",
+        "detected_at": "2026-11-21T05:05:06.630011+00:00",
+        "detected_this_run": true,
+        "highest_materiality": "high",
         "history_completeness": "tracker_observed",
-        "impact_id": "impact:7287aa94fd34c367bb9a",
-        "impact_score": 2,
-        "material_change_count": 0,
+        "impact_id": "impact:3323bb1d8d2b0e0a8475",
+        "impact_score": 15,
+        "material_change_count": 1,
         "recommended_checklist_updates": [
           {
-            "action": "Review the new official document and establish the controlling version.",
-            "category": "attachment",
+            "action": "Rebaseline the response calendar against the latest official deadline.",
+            "category": "deadline",
             "change_ids": [
-              "change:8f9da5e031566e2d6bc7"
+              "change:1f22ea7d3c0c847f8d7c"
             ]
           }
         ],
-        "requires_decision_revalidation": false,
+        "requires_decision_revalidation": true,
         "requires_manual_comparison": false
       },
       "likely_market_participants": [
@@ -629,6 +661,8 @@
       "record_type": "rfi",
       "relevant_patents": [],
       "required_actions": [
+        "Review the new amendment impact and revalidate the bid/no-bid decision; do not treat the prior decision as current",
+        "Rebaseline the response calendar against the latest official deadline.",
         "Confirm controlling requirements in the controlling solicitation",
         "Confirm evaluation criteria in the controlling solicitation",
         "Record an authorized bid/no-bid decision with owner and rationale"
@@ -636,12 +670,15 @@
       "requirements": [],
       "risks": [
         "Document evidence is incomplete; review the controlling files manually",
+        "A high amendment impact makes prior qualification assumptions stale",
+        "Response deadline extended from 2026-12-07 to 2026-12-07.",
         "Set-aside or eligibility status is not established in collected metadata"
       ],
       "set_aside": "",
       "source_urls": [
-        "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
+        "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
         "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=92c1221a05ca49eb87cd904fc87d7d7b",
         "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b",
         "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497",
         "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7",
@@ -660,18 +697,18 @@
         "Confirm eligibility and set-aside terms in the controlling solicitation",
         "Confirm submission instructions in the controlling solicitation"
       ],
-      "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view"
+      "url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view"
     }
   ],
   "scope_note": "Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.",
   "summary": {
     "brief_count": 4,
-    "decisions_revalidation_required": 1,
+    "decisions_revalidation_required": 2,
     "hold": 1,
     "priority_qualification": 0,
     "qualify": 2,
     "targeted_review": 1
   },
-  "updated_at": "2026-11-20T05:12:24.457646+00:00",
+  "updated_at": "2026-11-21T05:05:06.630011+00:00",
   "version": 1
 }

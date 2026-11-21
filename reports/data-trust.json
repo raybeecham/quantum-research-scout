@@ -7,9 +7,9 @@
       "scope": "Federal missions"
     },
     {
-      "acceptance_rate": 92.6,
+      "acceptance_rate": 92.4,
       "accepted": 500,
-      "quarantined": 40,
+      "quarantined": 41,
       "scope": "Federal funding"
     }
   ],
@@ -34,6 +34,51 @@
       "stage": "relationship admission",
       "title": "S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED\u2026",
       "url": "https://www.usaspending.gov/award/ASST_NON_2620285_049"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Golden Dome",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-11-20",
+      "key": "https://www.grants.gov/search-results-detail/364206",
+      "mission_id": "golden-dome",
+      "mission_name": "Golden Dome for America",
+      "scope": "Federal missions",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "mission evidence admission",
+      "title": "FY 2027 Build to Scale Notice of Funding Opportunity",
+      "url": "https://www.grants.gov/search-results-detail/364206"
+    },
+    {
+      "admission": {
+        "basis": "The search configuration supplied context that the returned record does not contain.",
+        "confidence": "low",
+        "reason_codes": [
+          "official_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 25,
+        "status": "quarantined"
+      },
+      "date": "2026-11-20",
+      "key": "grants_gov:EDA-B2S-2027",
+      "mission_id": null,
+      "mission_name": null,
+      "scope": "Federal funding",
+      "source": "Grants.gov \u00b7 Golden Dome",
+      "stage": "funding evidence admission",
+      "title": "FY 2027 Build to Scale Notice of Funding Opportunity",
+      "url": "https://www.grants.gov/search-results-detail/364206"
     },
     {
       "admission": {
@@ -2241,68 +2286,22 @@
       "stage": "mission evidence admission",
       "title": "Model-to-Clinic (M2C) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (UG3/UH3, Clinical Trial Optional)",
       "url": "https://www.grants.gov/search-results-detail/359666"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "AI Forge",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-30",
-      "key": "https://www.grants.gov/search-results-detail/359268",
-      "mission_id": "ai-forge",
-      "mission_name": "AI Forge",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 AI Forge",
-      "stage": "mission evidence admission",
-      "title": "Logistics Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U24 Clinical Trials Not Allowed)",
-      "url": "https://www.grants.gov/search-results-detail/359268"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "AI Forge",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-30",
-      "key": "https://www.grants.gov/search-results-detail/359271",
-      "mission_id": "ai-forge",
-      "mission_name": "AI Forge",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 AI Forge",
-      "stage": "mission evidence admission",
-      "title": "Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)",
-      "url": "https://www.grants.gov/search-results-detail/359271"
     }
   ],
   "reason_counts": [
     {
       "code": "query_metadata_only",
-      "count": 137,
+      "count": 138,
       "label": "Match appears only in collector query metadata"
     },
     {
       "code": "no_contextual_match",
-      "count": 137,
+      "count": 138,
       "label": "No relevant term in the evidence itself"
     },
     {
       "code": "official_source",
-      "count": 97,
+      "count": 98,
       "label": "Official government source"
     },
     {
@@ -2318,14 +2317,14 @@
   ],
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
-    "acceptance_rate": 79.5,
+    "acceptance_rate": 79.4,
     "accepted": 543,
-    "decisions": 683,
-    "funding_quarantine": 37,
+    "decisions": 684,
+    "funding_quarantine": 38,
     "mission_quarantine": 100,
-    "quarantined": 140,
+    "quarantined": 141,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-11-20T05:12:24.457646+00:00",
+  "updated_at": "2026-11-21T05:05:06.630011+00:00",
   "version": 1
 }

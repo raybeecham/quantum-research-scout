@@ -1,6 +1,276 @@
 {
-  "as_of_date": "2026-11-20",
+  "as_of_date": "2026-11-21",
   "claims": [
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-7dc53aaf2848d72d",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-20",
+      "evidence_ids": [
+        "evidence-e0eb86dae4fc1d42"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e0eb86dae4fc1d42",
+          "locator": "deadline:2026-12-07t17:00:00-05:00",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "conflicted",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "2026-12-07T17:00:00-05:00",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9dc933579967f7d4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-75d2f5afca6e41ea",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-18",
+      "evidence_ids": [
+        "evidence-7a69596414235063"
+      ],
+      "first_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-7a69596414235063",
+          "locator": "deadline:2026-12-07t23:59:00-05:00",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "conflicted",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "2026-12-07T23:59:00-05:00",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "9aa59291c0a80926"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-d4b2517c21ad658d",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-12",
+      "evidence_ids": [
+        "evidence-9d08b20669872b12"
+      ],
+      "first_seen_at": "2026-11-13T04:30:52.691410+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-13T04:30:52.691410+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9d08b20669872b12",
+          "locator": "deadline:2026-12-07t23:59:00-05:00",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "conflicted",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "2026-12-07T23:59:00-05:00",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1ab42642ff51d641"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-6db2f36fa307d515",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-10",
+      "evidence_ids": [
+        "evidence-620d4db7088bb036"
+      ],
+      "first_seen_at": "2026-11-11T04:03:38.341244+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-11T04:03:38.341244+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-620d4db7088bb036",
+          "locator": "deadline:2026-12-07t23:59:00-05:00",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/d168c9a2ace94efabe21990c977105c7/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "conflicted",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "2026-12-07T23:59:00-05:00",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "85372609aeba4340"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-c83b4246f91fc195",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-09",
+      "evidence_ids": [
+        "evidence-eebc31e2b779c024"
+      ],
+      "first_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-10T05:32:14.119303+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-eebc31e2b779c024",
+          "locator": "deadline:2026-12-07t23:59:00-05:00",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "conflicted",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "2026-12-07T23:59:00-05:00",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "87c0b39393a0aae5"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported close date in the federal record",
+      "claim_id": "claim-ac611233cb50f2ba",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-06",
+      "evidence_ids": [
+        "evidence-412858b7c6c5f36d"
+      ],
+      "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "deadline",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-412858b7c6c5f36d",
+          "locator": "deadline:2026-12-07t23:59:00-05:00",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "conflicted",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "2026-12-07T23:59:00-05:00",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "50fa18e3277ae0ee"
+    },
     {
       "authority": "authoritative",
       "basis": "Reported close date in the federal record",
@@ -1842,6 +2112,646 @@
     {
       "authority": "authoritative",
       "basis": "Reported status in the federal record",
+      "claim_id": "claim-09c9198c33200e1c",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-26",
+      "evidence_ids": [
+        "evidence-923888ef5825ea0c"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-923888ef5825ea0c",
+          "locator": "opportunity_status:awarded",
+          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89233127FNA400832_8900_89233126DNA000072_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89233127FNA400832",
+        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+        "node_id": "award:usaspending:89233127FNA400832",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "e659ca9b7dc2c7b1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-dda4aabd214588f2",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-26",
+      "evidence_ids": [
+        "evidence-05d94c38f5fbc7e4"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-05d94c38f5fbc7e4",
+          "locator": "awarding_agency:department of energy",
+          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89233127FNA400832_8900_89233126DNA000072_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89233127FNA400832",
+        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+        "node_id": "award:usaspending:89233127FNA400832",
+        "node_type": "award"
+      },
+      "value": "Department of Energy",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3f47bdbda9dfc51e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-c0b4c7e6afed7595",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-26",
+      "evidence_ids": [
+        "evidence-6b4c70869912c602"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-6b4c70869912c602",
+          "locator": "reported_amount:2691600.4",
+          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89233127FNA400832_8900_89233126DNA000072_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89233127FNA400832",
+        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+        "node_id": "award:usaspending:89233127FNA400832",
+        "node_type": "award"
+      },
+      "value": 2691600.4,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "48354cca9e070bff"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-f084d8aa34e61bfb",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-26",
+      "evidence_ids": [
+        "evidence-c5b9eb5b19274df2"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:KC3CH2MSK7Q3",
+        "label": "ANDURIL INDUSTRIES, INC.",
+        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-c5b9eb5b19274df2",
+          "locator": "reported_recipient:recipient_or_contractor:uei:KC3CH2MSK7Q3",
+          "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_89233127FNA400832_8900_89233126DNA000072_8900",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:89233127FNA400832",
+        "label": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+        "node_id": "award:usaspending:89233127FNA400832",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4ae4ccae8f8db890"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-dec6f73d751f3f36",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-19",
+      "evidence_ids": [
+        "evidence-0aed05fbdc9202d7"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0aed05fbdc9202d7",
+          "locator": "opportunity_status:awarded",
+          "title": "NHLBI: SUPPLY: NVISION POLARIS PARAHYDROGEN-INDUCED POLARIZER: N/A",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00131_7529_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98027P00131",
+        "label": "NHLBI: SUPPLY: NVISION POLARIS PARAHYDROGEN-INDUCED POLARIZER: N/A",
+        "node_id": "award:usaspending:75N98027P00131",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "28199c733e2bfd1f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-47980459bac9b6fc",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-19",
+      "evidence_ids": [
+        "evidence-54feb2b449023d4b"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-54feb2b449023d4b",
+          "locator": "awarding_agency:department of health and human services",
+          "title": "NHLBI: SUPPLY: NVISION POLARIS PARAHYDROGEN-INDUCED POLARIZER: N/A",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00131_7529_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98027P00131",
+        "label": "NHLBI: SUPPLY: NVISION POLARIS PARAHYDROGEN-INDUCED POLARIZER: N/A",
+        "node_id": "award:usaspending:75N98027P00131",
+        "node_type": "award"
+      },
+      "value": "Department of Health and Human Services",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "13fa4482a0277939"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-8e5b937f5fd77cf5",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-19",
+      "evidence_ids": [
+        "evidence-ed8e015ef611ad02"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ed8e015ef611ad02",
+          "locator": "reported_amount:349245.0",
+          "title": "NHLBI: SUPPLY: NVISION POLARIS PARAHYDROGEN-INDUCED POLARIZER: N/A",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00131_7529_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98027P00131",
+        "label": "NHLBI: SUPPLY: NVISION POLARIS PARAHYDROGEN-INDUCED POLARIZER: N/A",
+        "node_id": "award:usaspending:75N98027P00131",
+        "node_type": "award"
+      },
+      "value": 349245.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1d2af8032cc732f4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-4c3a525ad034588f",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-19",
+      "evidence_ids": [
+        "evidence-dec59d8d63ee5228"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:LQUTA2LDCN33",
+        "label": "NVISION QUANTUM TECHNOLOGIES NORTH AMERICA INC.",
+        "node_id": "recipient_or_contractor:uei:LQUTA2LDCN33",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-dec59d8d63ee5228",
+          "locator": "reported_recipient:recipient_or_contractor:uei:LQUTA2LDCN33",
+          "title": "NHLBI: SUPPLY: NVISION POLARIS PARAHYDROGEN-INDUCED POLARIZER: N/A",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00131_7529_-NONE-_-NONE-",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:75N98027P00131",
+        "label": "NHLBI: SUPPLY: NVISION POLARIS PARAHYDROGEN-INDUCED POLARIZER: N/A",
+        "node_id": "award:usaspending:75N98027P00131",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "bd9da697ae057852"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-63ad3b619e2e7a1e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-20",
+      "evidence_ids": [
+        "evidence-de9ad45ff4c65717"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-de9ad45ff4c65717",
+          "locator": "opportunity_status:open",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "open",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "b356dbbbe63c1dc4"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-76bd0c3c2d9bf079",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-20",
+      "evidence_ids": [
+        "evidence-d7ec09b9072263dc"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d7ec09b9072263dc",
+          "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4ddf666fe441f22f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-7f1324bf0bfd8d78",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-21",
+      "evidence_ids": [
+        "evidence-23cc367eacb38adb"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-23cc367eacb38adb",
+          "locator": "legal_business_name:university of california, los angeles",
+          "title": "University Of California, Los Angeles",
+          "url": "https://sam.gov/entity/RN64EPNH8JC6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:RN64EPNH8JC6",
+        "label": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+        "node_id": "recipient_or_contractor:uei:RN64EPNH8JC6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "University Of California, Los Angeles",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1a7f3a3a6be84299"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-5c45dcff7478352e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-21",
+      "evidence_ids": [
+        "evidence-53b8bae9f7a8b793"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-53b8bae9f7a8b793",
+          "locator": "uei:rn64epnh8jc6",
+          "title": "University Of California, Los Angeles",
+          "url": "https://sam.gov/entity/RN64EPNH8JC6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:RN64EPNH8JC6",
+        "label": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+        "node_id": "recipient_or_contractor:uei:RN64EPNH8JC6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "RN64EPNH8JC6",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "30ec81de8208665e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-6a6e7b209e7033b3",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-21",
+      "evidence_ids": [
+        "evidence-10fb9c027c3e1a56"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-10fb9c027c3e1a56",
+          "locator": "cage_code:4b557",
+          "title": "University Of California, Los Angeles",
+          "url": "https://sam.gov/entity/RN64EPNH8JC6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:RN64EPNH8JC6",
+        "label": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+        "node_id": "recipient_or_contractor:uei:RN64EPNH8JC6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "4B557",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "89f0b296b4d9f816"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-cf4de0c6ee4ce3f9",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-21",
+      "evidence_ids": [
+        "evidence-4c2078eb9f106eb0"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4c2078eb9f106eb0",
+          "locator": "registration_status:active",
+          "title": "University Of California, Los Angeles",
+          "url": "https://sam.gov/entity/RN64EPNH8JC6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:RN64EPNH8JC6",
+        "label": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+        "node_id": "recipient_or_contractor:uei:RN64EPNH8JC6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "5312483d39bb473e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
       "claim_id": "claim-46263a41104ed969",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -2226,9 +3136,9 @@
       "first_seen_at": "2026-11-19T05:25:47.860457+00:00",
       "history": [],
       "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "opportunity_status",
       "sources": [
         {
@@ -2256,51 +3166,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-75d2f5afca6e41ea",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-11-18",
-      "evidence_ids": [
-        "evidence-7a69596414235063"
-      ],
-      "first_seen_at": "2026-11-19T05:25:47.860457+00:00",
-      "history": [],
-      "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-7a69596414235063",
-          "locator": "deadline:2026-12-07t23:59:00-05:00",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "value": "2026-12-07T23:59:00-05:00",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "9aa59291c0a80926"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Reported awarding agency in the federal record",
       "claim_id": "claim-7a05fa18d8383018",
       "confidence": "high",
@@ -2316,9 +3181,9 @@
       "first_seen_at": "2026-11-19T05:25:47.860457+00:00",
       "history": [],
       "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "awarding_agency",
       "sources": [
         {
@@ -2753,51 +3618,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "94da036dd8544ac2"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-d4b2517c21ad658d",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-11-12",
-      "evidence_ids": [
-        "evidence-9d08b20669872b12"
-      ],
-      "first_seen_at": "2026-11-13T04:30:52.691410+00:00",
-      "history": [],
-      "last_seen_at": "2026-11-13T04:30:52.691410+00:00",
-      "missing_observations": 1,
-      "object": null,
-      "observation_status": "not_observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9d08b20669872b12",
-          "locator": "deadline:2026-12-07t23:59:00-05:00",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "value": "2026-12-07T23:59:00-05:00",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "1ab42642ff51d641"
     },
     {
       "authority": "authoritative",
@@ -3631,51 +4451,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-6db2f36fa307d515",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-11-10",
-      "evidence_ids": [
-        "evidence-620d4db7088bb036"
-      ],
-      "first_seen_at": "2026-11-11T04:03:38.341244+00:00",
-      "history": [],
-      "last_seen_at": "2026-11-11T04:03:38.341244+00:00",
-      "missing_observations": 1,
-      "object": null,
-      "observation_status": "not_observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-620d4db7088bb036",
-          "locator": "deadline:2026-12-07t23:59:00-05:00",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/d168c9a2ace94efabe21990c977105c7/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "value": "2026-12-07T23:59:00-05:00",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "85372609aeba4340"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Reported awarding agency in the federal record",
       "claim_id": "claim-fb1cc65f857f9ff1",
       "confidence": "high",
@@ -3951,51 +4726,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-c83b4246f91fc195",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-11-09",
-      "evidence_ids": [
-        "evidence-eebc31e2b779c024"
-      ],
-      "first_seen_at": "2026-11-10T05:32:14.119303+00:00",
-      "history": [],
-      "last_seen_at": "2026-11-10T05:32:14.119303+00:00",
-      "missing_observations": 1,
-      "object": null,
-      "observation_status": "not_observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-eebc31e2b779c024",
-          "locator": "deadline:2026-12-07t23:59:00-05:00",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "value": "2026-12-07T23:59:00-05:00",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "87c0b39393a0aae5"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Reported awarding agency in the federal record",
       "claim_id": "claim-8201093624d2eb82",
       "confidence": "high",
@@ -4083,51 +4813,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "385e368607e7659b"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported close date in the federal record",
-      "claim_id": "claim-ac611233cb50f2ba",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-11-06",
-      "evidence_ids": [
-        "evidence-412858b7c6c5f36d"
-      ],
-      "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
-      "history": [],
-      "last_seen_at": "2026-11-07T04:01:16.987059+00:00",
-      "missing_observations": 1,
-      "object": null,
-      "observation_status": "not_observed",
-      "predicate": "deadline",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-412858b7c6c5f36d",
-          "locator": "deadline:2026-12-07t23:59:00-05:00",
-          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-          "url": "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "sam_gov:1106202612072026",
-        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-        "node_id": "opportunity:sam_gov:1106202612072026",
-        "node_type": "opportunity"
-      },
-      "value": "2026-12-07T23:59:00-05:00",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "50fa18e3277ae0ee"
     },
     {
       "authority": "authoritative",
@@ -69942,376 +70627,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-b812875fff4ae4e9",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-fd6fcfab3ef82019"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-fd6fcfab3ef82019",
-          "locator": "opportunity_status:awarded",
-          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2549124",
-        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-        "node_id": "award:usaspending:2549124",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "8d7da9fea486f893"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-8edf0855b2cc3b55",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-da9fe5081e72d37b"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-da9fe5081e72d37b",
-          "locator": "awarding_agency:national science foundation",
-          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2549124",
-        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-        "node_id": "award:usaspending:2549124",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "8ece7d1d68047bad"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-55f19e7411f5219e",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-320f089806bfb5ac"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-320f089806bfb5ac",
-          "locator": "reported_amount:301666.0",
-          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2549124",
-        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-        "node_id": "award:usaspending:2549124",
-        "node_type": "award"
-      },
-      "value": 301666.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "094d308d30b1699e"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-4124da866ba4b621",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-86ea531792c55758"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:LMCJKRFW5R81",
-        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
-        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-86ea531792c55758",
-          "locator": "reported_recipient:recipient_or_contractor:uei:LMCJKRFW5R81",
-          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2549124",
-        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
-        "node_id": "award:usaspending:2549124",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "4127f13299b1a8f1"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-dbdc86c088124acd",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-af65a5b1a35ff44e"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-af65a5b1a35ff44e",
-          "locator": "opportunity_status:awarded",
-          "title": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2621991_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2621991",
-        "label": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
-        "node_id": "award:usaspending:2621991",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "4f8bc46cfda38f86"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-758b7e7cda0a69e0",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-004941b64f24e85d"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-004941b64f24e85d",
-          "locator": "awarding_agency:national science foundation",
-          "title": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2621991_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2621991",
-        "label": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
-        "node_id": "award:usaspending:2621991",
-        "node_type": "award"
-      },
-      "value": "National Science Foundation",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "990896eb9183079e"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-ba445dba213eea51",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-50eae2659dcc2077"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-50eae2659dcc2077",
-          "locator": "reported_amount:300461.0",
-          "title": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2621991_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2621991",
-        "label": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
-        "node_id": "award:usaspending:2621991",
-        "node_type": "award"
-      },
-      "value": 300461.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "669c0ba8b8830770"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-35fa38c5406e3056",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-01",
-      "evidence_ids": [
-        "evidence-0c1cbffd3ae2fca9"
-      ],
-      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:RD7MXJV7DKT9",
-        "label": "THE UNIVERSITY OF CENTRAL FLORIDA BOARD OF TRUSTEES",
-        "node_id": "recipient_or_contractor:uei:RD7MXJV7DKT9",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0c1cbffd3ae2fca9",
-          "locator": "reported_recipient:recipient_or_contractor:uei:RD7MXJV7DKT9",
-          "title": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
-          "url": "https://www.usaspending.gov/award/ASST_NON_2621991_049",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:2621991",
-        "label": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
-        "node_id": "award:usaspending:2621991",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "17aae6b8f0d7f519"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-90419d30d6d1263d",
       "confidence": "high",
@@ -70849,6 +71164,376 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "a9d7de0b4916dbb7"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-b812875fff4ae4e9",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-fd6fcfab3ef82019"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-fd6fcfab3ef82019",
+          "locator": "opportunity_status:awarded",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549124",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+        "node_id": "award:usaspending:2549124",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8d7da9fea486f893"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-8edf0855b2cc3b55",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-da9fe5081e72d37b"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-da9fe5081e72d37b",
+          "locator": "awarding_agency:national science foundation",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549124",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+        "node_id": "award:usaspending:2549124",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "8ece7d1d68047bad"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-55f19e7411f5219e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-320f089806bfb5ac"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-320f089806bfb5ac",
+          "locator": "reported_amount:301666.0",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549124",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+        "node_id": "award:usaspending:2549124",
+        "node_type": "award"
+      },
+      "value": 301666.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "094d308d30b1699e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-4124da866ba4b621",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-86ea531792c55758"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:LMCJKRFW5R81",
+        "label": "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+        "node_id": "recipient_or_contractor:uei:LMCJKRFW5R81",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-86ea531792c55758",
+          "locator": "reported_recipient:recipient_or_contractor:uei:LMCJKRFW5R81",
+          "title": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2549124_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2549124",
+        "label": "COLLABORATIVE RESEARCH: VINES: TRACK 1: FIELDAWARE: AI NATIVE HYBRID-FIELD NETWORKING FOR CONNECTED AUTONOMOUS SYSTEMS -CONNECTED AUTONOMOUS MOBILE SYSTEMS SUCH AS DRONES AND ROBO...",
+        "node_id": "award:usaspending:2549124",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4127f13299b1a8f1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-dbdc86c088124acd",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-af65a5b1a35ff44e"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-af65a5b1a35ff44e",
+          "locator": "opportunity_status:awarded",
+          "title": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2621991_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2621991",
+        "label": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
+        "node_id": "award:usaspending:2621991",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4f8bc46cfda38f86"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-758b7e7cda0a69e0",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-004941b64f24e85d"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-004941b64f24e85d",
+          "locator": "awarding_agency:national science foundation",
+          "title": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2621991_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2621991",
+        "label": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
+        "node_id": "award:usaspending:2621991",
+        "node_type": "award"
+      },
+      "value": "National Science Foundation",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "990896eb9183079e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-ba445dba213eea51",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-50eae2659dcc2077"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-50eae2659dcc2077",
+          "locator": "reported_amount:300461.0",
+          "title": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2621991_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2621991",
+        "label": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
+        "node_id": "award:usaspending:2621991",
+        "node_type": "award"
+      },
+      "value": 300461.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "669c0ba8b8830770"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-35fa38c5406e3056",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-01",
+      "evidence_ids": [
+        "evidence-0c1cbffd3ae2fca9"
+      ],
+      "first_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-29T05:05:39.790622+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:RD7MXJV7DKT9",
+        "label": "THE UNIVERSITY OF CENTRAL FLORIDA BOARD OF TRUSTEES",
+        "node_id": "recipient_or_contractor:uei:RD7MXJV7DKT9",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0c1cbffd3ae2fca9",
+          "locator": "reported_recipient:recipient_or_contractor:uei:RD7MXJV7DKT9",
+          "title": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
+          "url": "https://www.usaspending.gov/award/ASST_NON_2621991_049",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:2621991",
+        "label": "THEORETICAL FOUNDATIONS OF LONG-TERM REINFORCEMENT LEARNING UNDER UNCERTAINTY -REINFORCEMENT LEARNING HAS ACHIEVED REMARKABLE SUCCESS IN SIMULATED DECISION-MAKING TASKS, BUT DEPLO...",
+        "node_id": "award:usaspending:2621991",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "17aae6b8f0d7f519"
     },
     {
       "authority": "authoritative",
@@ -89729,6 +90414,186 @@
     {
       "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-d34e0671eace14da",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-24",
+      "evidence_ids": [
+        "evidence-a00ef449ce338c69"
+      ],
+      "first_seen_at": "2026-08-24T00:52:30.741253+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-24T00:52:30.741253+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-a00ef449ce338c69",
+          "locator": "legal_business_name:anduril industries, inc.",
+          "title": "ANDURIL INDUSTRIES, INC.",
+          "url": "https://sam.gov/entity/KC3CH2MSK7Q3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:KC3CH2MSK7Q3",
+        "label": "ANDURIL INDUSTRIES, INC.",
+        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "ANDURIL INDUSTRIES, INC.",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ab9dcd9e6bf9c6ae"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-02a5bccaea559129",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-24",
+      "evidence_ids": [
+        "evidence-59ad35aad4e5f104"
+      ],
+      "first_seen_at": "2026-08-24T00:52:30.741253+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-24T00:52:30.741253+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-59ad35aad4e5f104",
+          "locator": "uei:kc3ch2msk7q3",
+          "title": "ANDURIL INDUSTRIES, INC.",
+          "url": "https://sam.gov/entity/KC3CH2MSK7Q3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:KC3CH2MSK7Q3",
+        "label": "ANDURIL INDUSTRIES, INC.",
+        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "KC3CH2MSK7Q3",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "fb398cee82ef9008"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-3794d37c831ffd4e",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-24",
+      "evidence_ids": [
+        "evidence-727e6c4a75c971d3"
+      ],
+      "first_seen_at": "2026-08-24T00:52:30.741253+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-24T00:52:30.741253+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-727e6c4a75c971d3",
+          "locator": "cage_code:85ld7",
+          "title": "ANDURIL INDUSTRIES, INC.",
+          "url": "https://sam.gov/entity/KC3CH2MSK7Q3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:KC3CH2MSK7Q3",
+        "label": "ANDURIL INDUSTRIES, INC.",
+        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "85LD7",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c113e3127a9f7eeb"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-5107e5db7adc8f8a",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-24",
+      "evidence_ids": [
+        "evidence-654a573e12bb342f"
+      ],
+      "first_seen_at": "2026-08-24T00:52:30.741253+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-24T00:52:30.741253+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-654a573e12bb342f",
+          "locator": "registration_status:active",
+          "title": "ANDURIL INDUSTRIES, INC.",
+          "url": "https://sam.gov/entity/KC3CH2MSK7Q3/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:KC3CH2MSK7Q3",
+        "label": "ANDURIL INDUSTRIES, INC.",
+        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "fc3ed07334d15331"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-f28cdce5831f2c50",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -90085,186 +90950,6 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "b003c9a75479c34d"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity legal business name",
-      "claim_id": "claim-d34e0671eace14da",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-24",
-      "evidence_ids": [
-        "evidence-a00ef449ce338c69"
-      ],
-      "first_seen_at": "2026-08-24T00:52:30.741253+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-24T00:52:30.741253+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-a00ef449ce338c69",
-          "locator": "legal_business_name:anduril industries, inc.",
-          "title": "ANDURIL INDUSTRIES, INC.",
-          "url": "https://sam.gov/entity/KC3CH2MSK7Q3/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:KC3CH2MSK7Q3",
-        "label": "ANDURIL INDUSTRIES, INC.",
-        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "ANDURIL INDUSTRIES, INC.",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "ab9dcd9e6bf9c6ae"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity uei",
-      "claim_id": "claim-02a5bccaea559129",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-24",
-      "evidence_ids": [
-        "evidence-59ad35aad4e5f104"
-      ],
-      "first_seen_at": "2026-08-24T00:52:30.741253+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-24T00:52:30.741253+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-59ad35aad4e5f104",
-          "locator": "uei:kc3ch2msk7q3",
-          "title": "ANDURIL INDUSTRIES, INC.",
-          "url": "https://sam.gov/entity/KC3CH2MSK7Q3/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:KC3CH2MSK7Q3",
-        "label": "ANDURIL INDUSTRIES, INC.",
-        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "KC3CH2MSK7Q3",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "fb398cee82ef9008"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity cage code",
-      "claim_id": "claim-3794d37c831ffd4e",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-24",
-      "evidence_ids": [
-        "evidence-727e6c4a75c971d3"
-      ],
-      "first_seen_at": "2026-08-24T00:52:30.741253+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-24T00:52:30.741253+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-727e6c4a75c971d3",
-          "locator": "cage_code:85ld7",
-          "title": "ANDURIL INDUSTRIES, INC.",
-          "url": "https://sam.gov/entity/KC3CH2MSK7Q3/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:KC3CH2MSK7Q3",
-        "label": "ANDURIL INDUSTRIES, INC.",
-        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "85LD7",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "c113e3127a9f7eeb"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity registration status",
-      "claim_id": "claim-5107e5db7adc8f8a",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-24",
-      "evidence_ids": [
-        "evidence-654a573e12bb342f"
-      ],
-      "first_seen_at": "2026-08-24T00:52:30.741253+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-24T00:52:30.741253+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-654a573e12bb342f",
-          "locator": "registration_status:active",
-          "title": "ANDURIL INDUSTRIES, INC.",
-          "url": "https://sam.gov/entity/KC3CH2MSK7Q3/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:KC3CH2MSK7Q3",
-        "label": "ANDURIL INDUSTRIES, INC.",
-        "node_id": "recipient_or_contractor:uei:KC3CH2MSK7Q3",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "fc3ed07334d15331"
     },
     {
       "authority": "authoritative",
@@ -232701,6 +233386,211 @@
     {
       "authority": "analytical",
       "basis": "Deterministic qualification score 39 / 100 with 0 / 100 evidence completeness",
+      "claim_id": "claim-f31c8113145de543",
+      "confidence": "medium",
+      "controlling_status": "not_asserted",
+      "decision_trace": {
+        "components": [
+          {
+            "basis": [
+              "strategic significance +12",
+              "actionable rfi +6",
+              "closing_this_month +9",
+              "technology fit +12"
+            ],
+            "code": "opportunity_evidence",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view"
+            ],
+            "points": 39
+          },
+          {
+            "basis": [
+              "0 / 100 document evidence completeness"
+            ],
+            "code": "document_evidence",
+            "evidence_urls": [
+              "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=92c1221a05ca49eb87cd904fc87d7d7b",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5",
+              "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
+            ],
+            "points": 0
+          },
+          {
+            "basis": [
+              "No public risk penalty"
+            ],
+            "code": "deadline_and_evidence_risk",
+            "evidence_urls": [
+              "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view"
+            ],
+            "points": 0
+          }
+        ],
+        "evidence_ids": [
+          "evidence-075bdcb08b78b6b5",
+          "evidence-27179ad3aaea8d8e",
+          "evidence-96632c67335b9f50",
+          "evidence-e0eb86dae4fc1d42"
+        ],
+        "input_claim_hashes": {
+          "claim-7dc53aaf2848d72d": "9dc933579967f7d4"
+        },
+        "input_claim_ids": [
+          "claim-7dc53aaf2848d72d"
+        ],
+        "input_claim_versions": {
+          "claim-7dc53aaf2848d72d": 1
+        },
+        "model": {
+          "id": "opportunity_qualification",
+          "version": "1.0.0"
+        },
+        "model_id": "public-opportunity-qualification",
+        "model_version": "2",
+        "public_evidence_score": 39,
+        "requires_revalidation": true,
+        "source_urls": [
+          "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
+          "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=92c1221a05ca49eb87cd904fc87d7d7b",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5",
+          "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
+        ],
+        "trace_complete": true,
+        "trace_hash": "dfb8b599d5eca56c",
+        "unresolved_input_claim_ids": [
+          "claim-7dc53aaf2848d72d"
+        ]
+      },
+      "derivation": {
+        "input_claim_ids": [
+          "claim-7dc53aaf2848d72d"
+        ],
+        "rule": "procurement_intelligence._build_decision_briefs"
+      },
+      "effective_date": "2026-11-21",
+      "evidence_ids": [
+        "evidence-96632c67335b9f50",
+        "evidence-27179ad3aaea8d8e",
+        "evidence-075bdcb08b78b6b5",
+        "evidence-075bdcb08b78b6b5",
+        "evidence-075bdcb08b78b6b5",
+        "evidence-075bdcb08b78b6b5",
+        "evidence-075bdcb08b78b6b5",
+        "evidence-075bdcb08b78b6b5"
+      ],
+      "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "qualification_gate",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-96632c67335b9f50",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-27179ad3aaea8d8e",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=92c1221a05ca49eb87cd904fc87d7d7b",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5",
+          "verification_status": "source_reported"
+        },
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-075bdcb08b78b6b5",
+          "locator": "qualification_gate",
+          "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+          "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "sam_gov:1106202612072026",
+        "label": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+        "node_id": "opportunity:sam_gov:1106202612072026",
+        "node_type": "opportunity"
+      },
+      "value": "hold",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d895312a4da07e1c"
+    },
+    {
+      "authority": "analytical",
+      "basis": "Deterministic qualification score 39 / 100 with 0 / 100 evidence completeness",
       "claim_id": "claim-78c27e89a3885b97",
       "confidence": "medium",
       "controlling_status": "not_asserted",
@@ -232767,7 +233657,7 @@
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
         "public_evidence_score": 39,
-        "requires_revalidation": false,
+        "requires_revalidation": true,
         "source_urls": [
           "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view",
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
@@ -232778,8 +233668,10 @@
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
         ],
         "trace_complete": true,
-        "trace_hash": "1d25e8f432d0c984",
-        "unresolved_input_claim_ids": []
+        "trace_hash": "549e30e7d70817ff",
+        "unresolved_input_claim_ids": [
+          "claim-75d2f5afca6e41ea"
+        ]
       },
       "derivation": {
         "input_claim_ids": [
@@ -232800,9 +233692,9 @@
       "first_seen_at": "2026-11-19T05:25:47.860457+00:00",
       "history": [],
       "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
-      "missing_observations": 0,
+      "missing_observations": 1,
       "object": null,
-      "observation_status": "observed",
+      "observation_status": "not_observed",
       "predicate": "qualification_gate",
       "sources": [
         {
@@ -233113,7 +234005,7 @@
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
         "public_evidence_score": 39,
-        "requires_revalidation": false,
+        "requires_revalidation": true,
         "source_urls": [
           "https://sam.gov/workspace/contract/opp/4883121a70ef4cbd8b562e8d0a668497/view",
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
@@ -233123,8 +234015,10 @@
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
         ],
         "trace_complete": true,
-        "trace_hash": "e2c6b6e5f7b8e3d9",
-        "unresolved_input_claim_ids": []
+        "trace_hash": "210ae04801f1f841",
+        "unresolved_input_claim_ids": [
+          "claim-d4b2517c21ad658d"
+        ]
       },
       "derivation": {
         "input_claim_ids": [
@@ -233289,7 +234183,7 @@
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
         "public_evidence_score": 39,
-        "requires_revalidation": false,
+        "requires_revalidation": true,
         "source_urls": [
           "https://sam.gov/workspace/contract/opp/d168c9a2ace94efabe21990c977105c7/view",
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
@@ -233298,8 +234192,10 @@
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
         ],
         "trace_complete": true,
-        "trace_hash": "8d226f18d2f21240",
-        "unresolved_input_claim_ids": []
+        "trace_hash": "1b1e6dda1ff9c56f",
+        "unresolved_input_claim_ids": [
+          "claim-6db2f36fa307d515"
+        ]
       },
       "derivation": {
         "input_claim_ids": [
@@ -233452,7 +234348,7 @@
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
         "public_evidence_score": 39,
-        "requires_revalidation": false,
+        "requires_revalidation": true,
         "source_urls": [
           "https://sam.gov/workspace/contract/opp/d247265a2d5f49ef9b3c87f370016fd5/view",
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
@@ -233460,8 +234356,10 @@
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
         ],
         "trace_complete": true,
-        "trace_hash": "f3f65ab5ed6d80e8",
-        "unresolved_input_claim_ids": []
+        "trace_hash": "01bcbacc0b256794",
+        "unresolved_input_claim_ids": [
+          "claim-c83b4246f91fc195"
+        ]
       },
       "derivation": {
         "input_claim_ids": [
@@ -233602,15 +234500,17 @@
         "model_id": "public-opportunity-qualification",
         "model_version": "2",
         "public_evidence_score": 39,
-        "requires_revalidation": false,
+        "requires_revalidation": true,
         "source_urls": [
           "https://sam.gov/workspace/contract/opp/584d9822a413468ba6f859a7452c6710/view",
           "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
           "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710"
         ],
         "trace_complete": true,
-        "trace_hash": "9508fa9ff287ad3b",
-        "unresolved_input_claim_ids": []
+        "trace_hash": "fde58d4f4c7b3ebe",
+        "unresolved_input_claim_ids": [
+          "claim-ac611233cb50f2ba"
+        ]
       },
       "derivation": {
         "input_claim_ids": [
@@ -258429,7 +259329,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258476,7 +259376,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258523,7 +259423,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258570,7 +259470,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258617,7 +259517,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258664,7 +259564,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258711,7 +259611,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258758,7 +259658,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258805,7 +259705,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258852,7 +259752,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258899,7 +259799,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258946,7 +259846,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -258993,7 +259893,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259040,7 +259940,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259087,7 +259987,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259134,7 +260034,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259181,7 +260081,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259228,7 +260128,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259280,7 +260180,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259332,7 +260232,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259384,7 +260284,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259436,7 +260336,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259488,7 +260388,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259540,7 +260440,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259592,7 +260492,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259644,7 +260544,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259696,7 +260596,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-20T05:12:24.457646+00:00",
+      "retracted_at": "2026-11-21T05:05:06.630011+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260978,6 +261878,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-05d94c38f5fbc7e4",
+      "locator": "awarding_agency:department of energy",
+      "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_89233127FNA400832_8900_89233126DNA000072_8900",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-05e0ba83151655bf",
       "locator": "reported_amount:19383.84",
       "title": "DELL HPC ONSITE SERVICES",
@@ -261371,7 +262281,7 @@
       "evidence_id": "evidence-075bdcb08b78b6b5",
       "locator": "qualification_gate",
       "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b",
+      "url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=92c1221a05ca49eb87cd904fc87d7d7b",
       "verification_status": "source_reported"
     },
     {
@@ -262192,6 +263102,16 @@
       "locator": "set_aside:small business set aside - total",
       "title": "16--SENSOR,ANTI-LOCK BR",
       "url": "https://sam.gov/workspace/contract/opp/55512f77b7fa4808936799f827cbae10/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0aed05fbdc9202d7",
+      "locator": "opportunity_status:awarded",
+      "title": "NHLBI: SUPPLY: NVISION POLARIS PARAHYDROGEN-INDUCED POLARIZER: N/A",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00131_7529_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -263572,6 +264492,16 @@
       "locator": "awarding_agency:national science foundation",
       "title": "CAREER: POST-QUANTUM SECURITY AND IDENTITY FOUNDATIONS FOR ADAPTIVE 6G INFRASTRUCTURE -TODAY, WIRELESS NETWORKS PROTECT PERSONAL INFORMATION USING SECRET CODES CALLED ENCRYPTION....",
       "url": "https://www.usaspending.gov/award/ASST_NON_2542642_049/",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-10fb9c027c3e1a56",
+      "locator": "cage_code:4b557",
+      "title": "University Of California, Los Angeles",
+      "url": "https://sam.gov/entity/RN64EPNH8JC6/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -267052,6 +267982,16 @@
       "locator": "opportunity_status:awarded",
       "title": "INTEGRATED EXPERIMENTAL AND COMPUTATIONAL APPROACH TO UNVEIL MECHANISMS OF DEFORMATION IN FIBROUS BIOLOGICAL MATERIALS -HUMAN TISSUES ARE COMPOSED OF FIBERS THAT DEFORM IN RESPONS...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2619212_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-23cc367eacb38adb",
+      "locator": "legal_business_name:university of california, los angeles",
+      "title": "University Of California, Los Angeles",
+      "url": "https://sam.gov/entity/RN64EPNH8JC6/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -275467,6 +276407,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-4c2078eb9f106eb0",
+      "locator": "registration_status:active",
+      "title": "University Of California, Los Angeles",
+      "url": "https://sam.gov/entity/RN64EPNH8JC6/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "5943867ddbc38a82ae98d35a5743440995b35e4f5721dbae7319052efff6428e",
       "controlling_status": "not_established",
       "evidence_id": "evidence-4c2181430b8ffd41",
@@ -276929,6 +277879,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-53b8bae9f7a8b793",
+      "locator": "uei:rn64epnh8jc6",
+      "title": "University Of California, Los Angeles",
+      "url": "https://sam.gov/entity/RN64EPNH8JC6/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-53c43f09d62f4bce",
       "locator": "set_aside:no set aside used",
       "title": "Quantum Network pluggable 4-channel superconducting nanowire single-photon detector system",
@@ -277264,6 +278224,16 @@
       "title": "download",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2795a5f4a3f94f349c46fff7ea924a99/download",
       "verification_status": "analyst_verification_required"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-54feb2b449023d4b",
+      "locator": "awarding_agency:department of health and human services",
+      "title": "NHLBI: SUPPLY: NVISION POLARIS PARAHYDROGEN-INDUCED POLARIZER: N/A",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00131_7529_-NONE-_-NONE-",
+      "verification_status": "source_reported"
     },
     {
       "authority": "authoritative",
@@ -281693,6 +282663,16 @@
       "locator": "opportunity_status:awarded",
       "title": "HPCMP SECURITY ENTERPRISE SOFTWARE DEVELOPMENT (TASK ORDER 01) UNDER CONTRACT W912HZ26DA003 FOR SMART",
       "url": "https://www.usaspending.gov/award/CONT_AWD_W912HZ26FA089_9700_W912HZ26DA003_9700",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-6b4c70869912c602",
+      "locator": "reported_amount:2691600.4",
+      "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_89233127FNA400832_8900_89233126DNA000072_8900",
       "verification_status": "source_reported"
     },
     {
@@ -289647,6 +290627,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-923888ef5825ea0c",
+      "locator": "opportunity_status:awarded",
+      "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_89233127FNA400832_8900_89233126DNA000072_8900",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "110a271d84d10ad40641b16378bbbde7e2472c09d2a5b3916ac8e38e767c6284",
       "controlling_status": "not_established",
       "evidence_id": "evidence-923e49851c478b67",
@@ -290553,6 +291543,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:UER4AJLUB8D5",
       "title": "THE UNITED STATES DEPARTMENT OF AGRICULTURE (USDA), OFFICE OF THE CHIEF INFORMATION OFFICER (OCIO), CYBERSECURITY AND PRIVACY OPERATIONS CENTER (CPOC) REQUIRES THE RENEWAL OF RED...",
       "url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0226_1205_NNG15SD26B_8000",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-96632c67335b9f50",
+      "locator": "qualification_gate",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
       "verification_status": "source_reported"
     },
     {
@@ -300269,6 +301269,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-c5b9eb5b19274df2",
+      "locator": "reported_recipient:recipient_or_contractor:uei:KC3CH2MSK7Q3",
+      "title": "THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,\u2026",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_89233127FNA400832_8900_89233126DNA000072_8900",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-c5bc14a13a180bd5",
       "locator": "reported_amount:119168.0",
       "title": "ENTERPRISE APPLICATIONS SPECIALIZED CYBERSECURITY TRAINING AND CERTIFICATION SERVICES - TASK ORDER #10 FOR OFFICE OF CYBERSECURITY AND CRITICAL INFRASTRUCTURE PROTECTION (OCCIP).",
@@ -304159,6 +305169,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d7ec09b9072263dc",
+      "locator": "awarding_agency:general services administration.federal acquisition service.fc acquisition solutions dev/idv acq management",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-d7f3a08c41284995",
       "locator": "reported_recipient:recipient_or_contractor:uei:HD1WMN6945W6",
       "title": "COLLABORATIVE RESEARCH: UNIFIED MODELING OF GRID-DATA CENTER POWER ELECTRONICS INTERACTIONS FOR RELIABLE AND STABLE POWER SYSTEMS -ARTIFICIAL INTELLIGENCE, CLOUD COMPUTING, AND LA...",
@@ -305519,6 +306539,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-de9ad45ff4c65717",
+      "locator": "opportunity_status:open",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-dea46a5e3f806cc1",
       "locator": "qualification_gate",
       "title": "Autonomous Mower Maintenance Service",
@@ -305563,6 +306593,16 @@
       "locator": "opportunity_status:awarded",
       "title": "BLS IS FUNDING THIS WORK TO TEST A SUPPLEMENT TO THE CURRENT POPULATION SURVEY (CPS) ON THE TOPIC OF ARTIFICIAL INTELLIGENCE (AI).",
       "url": "https://www.usaspending.gov/award/CONT_AWD_1605C526F00023_1605_1605C522A0004_1605",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-dec59d8d63ee5228",
+      "locator": "reported_recipient:recipient_or_contractor:uei:LQUTA2LDCN33",
+      "title": "NHLBI: SUPPLY: NVISION POLARIS PARAHYDROGEN-INDUCED POLARIZER: N/A",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00131_7529_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -306113,6 +307153,16 @@
       "locator": "cage_code:00062",
       "title": "MARINE ELECTRIC SYSTEMS INC",
       "url": "https://sam.gov/entity/U43WP4FHDJY3/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-e0eb86dae4fc1d42",
+      "locator": "deadline:2026-12-07t17:00:00-05:00",
+      "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
+      "url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view",
       "verification_status": "source_reported"
     },
     {
@@ -308803,6 +309853,16 @@
       "locator": "opportunity_status:awarded",
       "title": "TASK ORDER FOR ENTERPRISE WIDE ARTIFICIAL INTELLIGENCE ENGINEERING SERVICES",
       "url": "https://www.usaspending.gov/award/CONT_AWD_1605C326F00072_1605_47QTCA22D00BE_4732",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ed8e015ef611ad02",
+      "locator": "reported_amount:349245.0",
+      "title": "NHLBI: SUPPLY: NVISION POLARIS PARAHYDROGEN-INDUCED POLARIZER: N/A",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_75N98027P00131_7529_-NONE-_-NONE-",
       "verification_status": "source_reported"
     },
     {
@@ -312729,16 +313789,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 5194,
-    "authoritative_claims": 4969,
-    "conflicted_claims": 38,
-    "derived_claims": 219,
-    "evidence_items": 5300,
-    "source_urls": 1424,
-    "subjects": 1060,
+    "active_claims": 5210,
+    "authoritative_claims": 4984,
+    "conflicted_claims": 44,
+    "derived_claims": 220,
+    "evidence_items": 5316,
+    "source_urls": 1429,
+    "subjects": 1063,
     "superseded_claims": 0,
-    "total_claims": 5221
+    "total_claims": 5237
   },
-  "updated_at": "2026-11-20T05:12:24.457646+00:00",
+  "updated_at": "2026-11-21T05:05:06.630011+00:00",
   "version": 1
 }

@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-20 05:21 UTC_
+_Updated 2026-11-21 05:10 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
@@ -12,12 +12,12 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 |---|---|---|---|---|---|---|---:|
 | AI Security | ↗️ rising (5 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-11-19 | 35 |
 | QEC / Fault Tolerance | ↗️ rising (22 vs 2) | 🔴 critical | high | 🎯 actionable | 2026-06-23 | 2026-11-19 | 129 |
-| Quantum Networking | ↗️ rising (12 vs 8) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-11-19 | 192 |
+| Quantum Networking | ↗️ rising (16 vs 6) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-11-20 | 197 |
 | Quantum Sensing | ↗️ rising (1 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-11-14 | 56 |
-| PQC / Crypto Agility | ↘️ declining (13 vs 28) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-11-19 | 384 |
-| Quantum Hardware | ➡️ stable (20 vs 29) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-19 | 425 |
+| PQC / Crypto Agility | ↘️ declining (14 vs 22) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-11-20 | 386 |
+| Quantum Hardware | ↘️ declining (19 vs 33) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-20 | 429 |
 | Quantum Software / Tooling | ➡️ stable (5 vs 6) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-19 | 125 |
-| Standards / Government | ➡️ stable (5 vs 7) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-11-18 | 89 |
+| Standards / Government | ↘️ declining (3 vs 9) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-11-20 | 90 |
 
 ## AI Security
 
@@ -46,11 +46,11 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
-  - 2026-11-19 — [memQ and Infleqtion Sign MoU to Advance Networked Quantum Computing](https://thequantuminsider.com/2026/11/19/memq-infleqtion-mou-quantum-networking-interoperability) (The Quantum Insider, score 111)
-  - 2026-11-19 — [memQ and Infleqtion Sign MoU to Validate Quantum Networking Interoperability for Distributed Neutral-Atom Systems](https://quantumcomputingreport.com/memq-and-infleqtion-sign-mou-to-validate-quantum-networking-interoperability-for-distributed-neutral-atom-systems) (Quantum Computing Report, score 85)
-  - 2026-11-18 — [Ciena connects US & Europe with quantum-safe network over 8,000 km](https://quantumzeitgeist.com/quantum-safe-network-ciena-connects-europe) (Quantum Zeitgeist, score 103)
-  - 2026-11-18 — [Non-identical photonic memories may still form a high-fidelity quantum network](https://quantumzeitgeist.com/copenhagen-non-identical-alliance-photonic-memories) (Quantum Zeitgeist, score 70)
-  - 2026-11-18 — [Hybrid QKD and PQC Network Connects Chicago and Europe Across 8,000 km](https://thequantuminsider.com/2026/11/18/8000-km-quantum-safe-network-us-europe-demonstration) (The Quantum Insider, score 67)
+  - 2026-11-20 — [International Consortium Demonstrates 8,000-km Hybrid QKD and Post-Quantum Network Linking Europe and the U.S. at SC26](https://quantumcomputingreport.com/international-consortium-demonstrates-8000-km-hybrid-qkd-and-post-quantum-network-linking-europe-and-the-u-s-at-sc26) (Quantum Computing Report, score 126)
+  - 2026-11-20 — [Random position checks could authenticate quantum communications](https://quantumzeitgeist.com/quantinuum-random-position-checks-authenticate-quantum) (Quantum Zeitgeist, score 55)
+  - 2026-11-20 — [Simple error codes may be enough for long-distance quantum networks](https://quantumzeitgeist.com/leung-nielsen-error-codes-quantum-networks) (Quantum Zeitgeist, score 45)
+  - 2026-11-20 — [KT and LG Electronics Demonstrate Quantum Secure Direct Communication](https://thequantuminsider.com/2026/11/20/kt-lg-electronics-quantum-secure-direct-communication) (The Quantum Insider, score 33)
+  - 2026-11-20 — [Symmetries, correlation functions, and entanglement of general quantum Motzkin spin-chains](https://quantum-journal.org/papers/q-2026-11-20-2279) (Quantum Journal, score 27)
 
 ## Quantum Sensing
 
@@ -68,22 +68,22 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, IACR ePrint
 - Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
 - Recent supporting evidence:
+  - 2026-11-20 — [Splendor Labs’ blockchain offers quantum-resistant security.](https://quantumzeitgeist.com/quantum-resistant-security-splendor-labs-blockchain) (Quantum Zeitgeist, score 128)
+  - 2026-11-20 — [SEALSQ Signs Letter of Intent to Acquire Australian Quantum Cybersecurity Firm QuintessenceLabs](https://quantumcomputingreport.com/sealsq-signs-letter-of-intent-to-acquire-australian-quantum-cybersecurity-firm-quintessencelabs) (Quantum Computing Report, score 47)
   - 2026-11-19 — [Side-Channel Analysis of the RP2350 Challenge 2](https://arxiv.org/abs/2611.25479) (arXiv RSS cs.CR, score 72)
   - 2026-11-19 — [Mastercard Launches Quantum Advisory Practice with QIZ Security and Releases PQC Readiness Whitepaper](https://quantumcomputingreport.com/mastercard-launches-quantum-advisory-practice-with-qiz-security-and-releases-pqc-readiness-whitepaper) (Quantum Computing Report, score 63)
   - 2026-11-19 — [SEALSQ Signs LOI to Acquire QuintessenceLabs](https://thequantuminsider.com/2026/11/19/sealsq-loi-acquire-quintessencelabs) (The Quantum Insider, score 61)
-  - 2026-11-19 — [Correctable Enrollment and One-Transaction Seed Proofs for Ethereum's Post-Quantum Transition](https://arxiv.org/abs/2611.25663) (arXiv RSS cs.CR, score 58)
-  - 2026-11-18 — [SEALSQ Signs Letter of Intent to Acquire QuintessenceLabs](https://thequantuminsider.com/2026/11/18/sealsq-letter-of-intent-acquire-quintessencelabs) (The Quantum Insider, score 61)
 
 ## Quantum Hardware
 
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-11-20 — [Infleqtion’s Sqale entangles 30 logical qubits with 80 Atoms](https://quantumzeitgeist.com/infleqtion-sqale-entangles-logical-qubits-atoms) (Quantum Zeitgeist, score 71)
+  - 2026-11-20 — [French National Quantum Strategy Backs €14M ($16M USD) Qubit Control 2030 Consortium to Scale Cryogenic Photonic Interconnects](https://quantumcomputingreport.com/french-national-quantum-strategy-backs-e14m-16m-usd-qubit-control-2030-consortium-to-scale-cryogenic-photonic-interconnects) (Quantum Computing Report, score 50)
+  - 2026-11-20 — [Quantum X Labs achieves high accuracy in radiation simulation](https://quantumzeitgeist.com/quantum-x-radiation-simulation-labs-high) (Quantum Zeitgeist, score 40)
+  - 2026-11-20 — [Aalborg University Orders ConScience Plug’N’Teach Superconducting Quantum Computer for Hands-On Engineering Training](https://quantumcomputingreport.com/aalborg-university-orders-conscience-plugnteach-superconducting-quantum-computer-for-hands-on-engineering-training) (Quantum Computing Report, score 30)
   - 2026-11-19 — [Parallel transversal entangling gates for fault-tolerant trapped-ion quantum computing](https://arxiv.org/abs/2611.25740) (arXiv RSS quant-ph, score 106)
-  - 2026-11-19 — [Google Quantum AI Demonstrates Measurement Contextuality Across 105 Qubits on Willow Processors](https://quantumcomputingreport.com/google-quantum-ai-demonstrates-measurement-contextuality-across-105-qubits-on-willow-processors) (Quantum Computing Report, score 82)
-  - 2026-11-18 — [Fault-tolerant quantum processor with minimal external control](https://arxiv.org/abs/2611.23919) (arXiv RSS quant-ph, score 93)
-  - 2026-11-18 — [High-rate low-distance color codes](https://arxiv.org/abs/2611.23420) (arXiv RSS quant-ph, score 76)
-  - 2026-11-18 — [Prism reduces routing SWAPs by 30.8% and depth by 10.1%.](https://quantumzeitgeist.com/prism-reduces-routing-swaps-30-8-depth) (Quantum Zeitgeist, score 63)
 
 ## Quantum Software / Tooling
 
@@ -101,8 +101,8 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: The Quantum Insider, QuantumNews.ai, USAspending · Quantum Technologies, Quantum Zeitgeist, USAspending · Advanced Computing
 - Recommended follow-up: Monitor deadlines, procurement language, final standards, and implementation guidance.
 - Recent supporting evidence:
+  - 2026-11-20 — [How the Department of Commerce’s Quantum Awards Work and What Companies Give in Return](https://thequantuminsider.com/2026/11/20/how-the-department-of-commerces-quantum-awards-work-and-what-companies-give-in-return) (The Quantum Insider, score 100)
   - 2026-11-18 — [Quantum Physics Can Verify a Person’s Location, NIST Researchers Show](https://www.nist.gov/news-events/news/2026/11/quantum-physics-can-verify-persons-location-nist-researchers-show) (NIST Research News, score 100)
   - 2026-11-16 — [QuEra Computing says government is now quantum’s key partner](https://quantumzeitgeist.com/quera-computing-partnership-government-quantum) (Quantum Zeitgeist, score 100)
   - 2026-11-13 — [U.S. Quantum Ambitions Face a Supply Chain Test, Policy Analysts Warn](https://thequantuminsider.com/2026/11/13/u-s-quantum-ambitions-face-a-supply-chain-test-policy-analysts-warn) (The Quantum Insider, score 23)
   - 2026-11-12 — [Haiqu Appoints Kortny Rolston-Duce to Lead Ecosystem Development and Marketing](https://thequantuminsider.com/2026/11/12/haiqu-appoints-kortny-rolston-duce-ecosystem-development-marketing) (The Quantum Insider, score 100)
-  - 2026-11-12 — [Kipu Quantum Launches Rimay Quantum Feature Extraction in IBM Quantum Functions Catalog](https://quantumcomputingreport.com/kipu-quantum-launches-rimay-quantum-feature-extraction-in-ibm-quantum-functions-catalog) (Quantum Computing Report, score 23)

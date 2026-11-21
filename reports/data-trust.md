@@ -1,25 +1,25 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-11-20T05:12:24.457646+00:00_
+_Updated 2026-11-21T05:05:06.630011+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
 - Accepted evidence: **543**
-- Quarantined evidence or relationships: **140**
-- Acceptance rate: **79.5%**
+- Quarantined evidence or relationships: **141**
+- Acceptance rate: **79.4%**
 
 ## Admission Results
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
 | Federal missions | 43 | 100 | 30.1% |
-| Federal funding | 500 | 40 | 92.6% |
+| Federal funding | 500 | 41 | 92.4% |
 
 ## Quarantine Reasons
 
-- **Match appears only in collector query metadata**: 137
-- **No relevant term in the evidence itself**: 137
-- **Official government source**: 97
+- **Match appears only in collector query metadata**: 138
+- **No relevant term in the evidence itself**: 138
+- **Official government source**: 98
 - **Source is not an official .gov or .mil domain**: 40
 - **Agency and technology inference only**: 3
 
@@ -31,6 +31,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [FY 2027 Build to Scale Notice of Funding Opportunity](https://www.grants.gov/search-results-detail/364206)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
+
+### [FY 2027 Build to Scale Notice of Funding Opportunity](https://www.grants.gov/search-results-detail/364206)
+
+- Scope: Federal funding
+- Stage: funding evidence admission
+- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 25
 
 ### [Atom Computing Finalizes $100 Million U.S. Department of Commerce R&D Agreement for Fault-Tolerant Quantum Systems](https://quantumcomputingreport.com/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-agreement-for-fault-tolerant-quantum-systems)
 
@@ -705,20 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [Model-to-Clinic (M2C) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (UG3/UH3, Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359666)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Logistics Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U24 Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/359268)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/359271)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

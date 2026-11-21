@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Missions](federal-missions.md) · [Patent Intelligence](patents.md)
 
-_Updated 2026-11-20 05:12 UTC_
+_Updated 2026-11-21 05:05 UTC_
 
 Official federal awards and opportunities admitted through explicit mission-name or in-scope technology evidence. Weak query and agency/domain inferences are quarantined.
 
@@ -28,7 +28,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | 1 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | 12/17/2026 | Genesis Mission | quantum | **76 · HIGH PRIORITY** | Qualify fit, identify partners, and prepare the response. |
 | 2 | [Genesis Mission Graduate Fellowship Pilot](https://www.grants.gov/search-results-detail/364033) | GRANT_OPPORTUNITY | 01/12/2027 | Genesis Mission | General | **65 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
 | 3 | [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view) | PROCUREMENT_OPPORTUNITY | 2031-04-01T23:59:00-04:00 | Golden Dome for America | General | **63 · HIGH PRIORITY** | Review technical fit, eligibility, and submission requirements. |
-| 4 | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view) | RFI | 2026-12-07T23:59:00-05:00 | Not linked | quantum, post-quantum cryptography, cybersecurity | **39 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
+| 4 | [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view) | RFI | 2026-12-07T17:00:00-05:00 | Not linked | quantum, post-quantum cryptography, cybersecurity | **39 · MONITOR** | Qualify fit, identify partners, and prepare the response. |
 
 ## Mission Funding Portfolios
 
@@ -52,7 +52,7 @@ Open grants, BAAs, RFIs, and procurement notices ranked by mission fit, deadline
 | [The Genesis Mission: Transforming Science and Energy with AI](https://www.grants.gov/search-results-detail/361526) | GRANT_OPPORTUNITY | PAMS-SC | 12/17/2026 | Genesis Mission (high) | **54 · NOTABLE** |
 | [Genesis Mission Graduate Fellowship Pilot](https://www.grants.gov/search-results-detail/364033) | GRANT_OPPORTUNITY | PAMS-SC | 01/12/2027 | Genesis Mission (high) | **49 · NOTABLE** |
 | [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view) | PROCUREMENT_OPPORTUNITY | DEPT OF DEFENSE.IMMEDIATE OFFICE OF THE SECRETARY OF DEFENSE.DIRECTOR OF GOLDEN DOME | 2031-04-01T23:59:00-04:00 | Golden Dome for America (high) | **47 · NOTABLE** |
-| [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view) | RFI | GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT | 2026-12-07T23:59:00-05:00 | Not linked | **27 · MONITOR** |
+| [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view) | RFI | GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT | 2026-12-07T17:00:00-05:00 | Not linked | **27 · MONITOR** |
 
 ## Awards and Funding Announcements
 
@@ -133,8 +133,8 @@ Momentum compares collected awards in the latest 365 days with the preceding 365
 | ACCENTURE FEDERAL SERVICES LLC | UEI C47BNA8GM833 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $28.7M | Department of Energy, General Services Administration | Not linked | 0 |
 | DELOITTE & TOUCHE LLP | UEI F9KSDU7L9VP6 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $2.8M | Department of the Treasury, Social Security Administration | Not linked | 0 |
 | NORTH CAROLINA STATE UNIVERSITY | UEI U3NVH931QJJ3 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.2M | National Science Foundation | Not linked | 0 |
-| THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK | UEI LMCJKRFW5R81 | **33 · DEVELOPING** | Emerging Entrant | New Entrant | 3 | $1.1M | National Science Foundation | Not linked | 0 |
 | GENERAL ELECTRIC COMPANY | Name-resolved | **32 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $48.5M | DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK | Not linked | 0 |
+| DUKE UNIVERSITY | UEI TP7EK8DZV6N5 | **31 · DEVELOPING** | Emerging Entrant | New Entrant | 2 | $3.4M | National Science Foundation | Not linked | 0 |
 
 ## Recipient and Contractor Patent Connections
 

@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Document Intelligence](procurement-intelligence.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-11-20T05:12:24.457646+00:00_
+_Updated 2026-11-21T05:05:06.630011+00:00_
 
 Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.
 
@@ -10,7 +10,7 @@ Provisional opportunity qualification based on collected public evidence. Organi
 - Qualify: **2**
 - Targeted review: **1**
 - Hold: **1**
-- Decision revalidation required: **1**
+- Decision revalidation required: **2**
 
 ## [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view)
 
@@ -99,19 +99,23 @@ Score and evidence trace:
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._
 
-## [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view)
+## [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view)
 
-**HOLD · 39 / 100** · Evidence 0 / 100 · Deadline 2026-12-07T23:59:00-05:00
+**HOLD · 39 / 100** · Evidence 0 / 100 · Deadline 2026-12-07T17:00:00-05:00
 
 Agency: GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT
 
 Recommended actions:
+- Review the new amendment impact and revalidate the bid/no-bid decision; do not treat the prior decision as current
+- Rebaseline the response calendar against the latest official deadline.
 - Confirm controlling requirements in the controlling solicitation
 - Confirm evaluation criteria in the controlling solicitation
 - Record an authorized bid/no-bid decision with owner and rationale
 
 Risks:
 - Document evidence is incomplete; review the controlling files manually
+- A high amendment impact makes prior qualification assumptions stale
+- Response deadline extended from 2026-12-07 to 2026-12-07.
 - Set-aside or eligibility status is not established in collected metadata
 
 Unknowns:
@@ -120,10 +124,15 @@ Unknowns:
 - Confirm eligibility and set-aside terms in the controlling solicitation
 - Confirm submission instructions in the controlling solicitation
 
+**Decision freshness: REVALIDATION REQUIRED**
+
+The latest amendment impact requires analyst revalidation. The tracker did not change an authorized bid/no-bid decision.
+[Open amendment evidence](https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view)
+
 Score and evidence trace:
-- **opportunity evidence +39** — strategic significance +12; actionable rfi +6; closing_this_month +9; technology fit +12 · [evidence 1](https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view)
-- **document evidence +0** — 0 / 100 document evidence completeness · [evidence 1](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download) · [evidence 2](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b) · [evidence 3](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497) · [evidence 4](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7) · [evidence 5](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5) · [evidence 6](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710)
-- **deadline and evidence risk +0** — No public risk penalty · [evidence 1](https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view)
-- Trace hash: `762623ba2913204f` · model `public-opportunity-qualification@2`
+- **opportunity evidence +39** — strategic significance +12; actionable rfi +6; closing_this_month +9; technology fit +12 · [evidence 1](https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view)
+- **document evidence +0** — 0 / 100 document evidence completeness · [evidence 1](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download) · [evidence 2](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=92c1221a05ca49eb87cd904fc87d7d7b) · [evidence 3](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b) · [evidence 4](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497) · [evidence 5](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7) · [evidence 6](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d247265a2d5f49ef9b3c87f370016fd5) · [evidence 7](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584d9822a413468ba6f859a7452c6710)
+- **deadline and evidence risk +0** — No public risk penalty · [evidence 1](https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view)
+- Trace hash: `0968b2031e5ce692` · model `public-opportunity-qualification@2`
 
 _This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches._

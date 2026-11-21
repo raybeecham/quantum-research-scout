@@ -24,8 +24,8 @@
       ],
       "current_snapshot": {
         "document_version_ids": [
-          "version:373acd799c97e9d96e79",
-          "version:a6a9d4c9624d68afd745"
+          "version:a6a9d4c9624d68afd745",
+          "version:dc54265ea704d2f93219"
         ],
         "evidence_units": [],
         "history_completeness": "tracker_observed",
@@ -40,25 +40,25 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:1106202612072026",
-              "retrieved_at": "2026-11-20T05:12:24.457646+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view"
+              "retrieved_at": "2026-11-21T05:05:06.630011+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view"
             },
             "value": "Yes"
           },
           "deadline": {
             "authority": "official_sam_metadata",
             "category": "deadline",
-            "claim_id": "claim:df54f707bade209121d8",
+            "claim_id": "claim:1e1ee655bf6303b032b3",
             "controlling_status": "analyst_verification_required",
             "source": {
               "locator": {
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:1106202612072026",
-              "retrieved_at": "2026-11-20T05:12:24.457646+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view"
+              "retrieved_at": "2026-11-21T05:05:06.630011+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view"
             },
-            "value": "2026-12-07T23:59:00-05:00"
+            "value": "2026-12-07T17:00:00-05:00"
           },
           "status": {
             "authority": "official_sam_metadata",
@@ -70,17 +70,17 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:1106202612072026",
-              "retrieved_at": "2026-11-20T05:12:24.457646+00:00",
-              "source_url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view"
+              "retrieved_at": "2026-11-21T05:05:06.630011+00:00",
+              "source_url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-11-20T05:12:24.457646+00:00",
-        "snapshot_id": "snapshot:46cba8c9ee9b63f9ab83"
+        "observed_at": "2026-11-21T05:05:06.630011+00:00",
+        "snapshot_id": "snapshot:c681a4f4c4ace15d4059"
       },
-      "days_to_close": 17,
-      "deadline": "2026-12-07T23:59:00-05:00",
+      "days_to_close": 16,
+      "deadline": "2026-12-07T17:00:00-05:00",
       "deadline_mentions": [],
       "deliverables": [],
       "document_completeness_score": 0,
@@ -88,7 +88,7 @@
         {
           "active": true,
           "byte_count": 12769,
-          "cache_status": "fresh",
+          "cache_status": "refreshed",
           "content_type": "application/octet-stream",
           "current_version_id": "version:a6a9d4c9624d68afd745",
           "deadline_mentions": [],
@@ -99,7 +99,7 @@
           "emails": [],
           "evaluation_criteria": [],
           "extraction_status": "no_text",
-          "fetched_at": "2026-11-19T05:25:47.860457+00:00",
+          "fetched_at": "2026-11-21T05:05:06.630011+00:00",
           "format": "xlsx",
           "is_amendment": false,
           "is_changed": false,
@@ -117,7 +117,7 @@
               "document_role": "attachment",
               "evidence_units": [],
               "first_seen_at": "2026-11-07T04:01:16.987059+00:00",
-              "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
+              "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
               "version_id": "version:a6a9d4c9624d68afd745"
             }
           ]
@@ -125,7 +125,44 @@
         {
           "active": true,
           "byte_count": 4445,
-          "cache_status": "fresh",
+          "cache_status": "refreshed",
+          "content_type": "application/hal+json",
+          "current_version_id": "version:dc54265ea704d2f93219",
+          "deadline_mentions": [],
+          "deliverables": [],
+          "document_id": "document:3b5c920863beca30e734",
+          "document_role": "attachment",
+          "eligibility": [],
+          "emails": [],
+          "evaluation_criteria": [],
+          "extraction_status": "no_text",
+          "fetched_at": "2026-11-21T05:05:06.630011+00:00",
+          "format": "application/hal+json",
+          "is_amendment": false,
+          "is_changed": false,
+          "name": "noticedesc",
+          "new_amendment": false,
+          "phones": [],
+          "requirements": [],
+          "sha256": "5c80d634695fdb69a23a899a4304c7a3c37555688c3cfd25184e60f8fbb2650b",
+          "source_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=92c1221a05ca49eb87cd904fc87d7d7b",
+          "submission_instructions": [],
+          "unsupported_format": true,
+          "versions": [
+            {
+              "content_sha256": "5c80d634695fdb69a23a899a4304c7a3c37555688c3cfd25184e60f8fbb2650b",
+              "document_role": "attachment",
+              "evidence_units": [],
+              "first_seen_at": "2026-11-21T05:05:06.630011+00:00",
+              "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
+              "version_id": "version:dc54265ea704d2f93219"
+            }
+          ]
+        },
+        {
+          "active": false,
+          "byte_count": 4445,
+          "cache_status": "retired",
           "content_type": "application/hal+json",
           "current_version_id": "version:373acd799c97e9d96e79",
           "deadline_mentions": [],
@@ -144,6 +181,7 @@
           "new_amendment": false,
           "phones": [],
           "requirements": [],
+          "retired_at": "2026-11-21T05:05:06.630011+00:00",
           "sha256": "5c80d634695fdb69a23a899a4304c7a3c37555688c3cfd25184e60f8fbb2650b",
           "source_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b",
           "submission_instructions": [],
@@ -316,47 +354,77 @@
       "emails": [],
       "evaluation_criteria": [],
       "latest_amendment_impact": {
-        "after_snapshot_id": "snapshot:46cba8c9ee9b63f9ab83",
+        "after_snapshot_id": "snapshot:c681a4f4c4ace15d4059",
         "baseline_status": "compared",
-        "before_snapshot_id": "snapshot:bb86e649d0f7207a0ab2",
+        "before_snapshot_id": "snapshot:46cba8c9ee9b63f9ab83",
         "changes": [
           {
-            "after": null,
-            "before": null,
-            "category": "attachment",
-            "change_id": "change:8f9da5e031566e2d6bc7",
-            "change_type": "modified",
+            "after": {
+              "authority": "official_sam_metadata",
+              "category": "deadline",
+              "claim_id": "claim:1e1ee655bf6303b032b3",
+              "controlling_status": "analyst_verification_required",
+              "source": {
+                "locator": {
+                  "field": "deadline"
+                },
+                "opportunity_key": "sam_gov:1106202612072026",
+                "retrieved_at": "2026-11-21T05:05:06.630011+00:00",
+                "source_url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view"
+              },
+              "value": "2026-12-07T17:00:00-05:00"
+            },
+            "before": {
+              "authority": "official_sam_metadata",
+              "category": "deadline",
+              "claim_id": "claim:df54f707bade209121d8",
+              "controlling_status": "analyst_verification_required",
+              "source": {
+                "locator": {
+                  "field": "deadline"
+                },
+                "opportunity_key": "sam_gov:1106202612072026",
+                "retrieved_at": "2026-11-20T05:12:24.457646+00:00",
+                "source_url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view"
+              },
+              "value": "2026-12-07T23:59:00-05:00"
+            },
+            "category": "deadline",
+            "change_id": "change:1f22ea7d3c0c847f8d7c",
+            "change_type": "extended",
             "checklist_tags": [
-              "attachment",
-              "document",
-              "solicitation"
+              "calendar",
+              "deadline",
+              "review",
+              "schedule",
+              "submission"
             ],
             "decision_effects": [
-              "controlling document baseline requires analyst review"
+              "response calendar requires revalidation"
             ],
-            "match_confidence": null,
-            "materiality": "low",
-            "summary": "The set of tracked solicitation document versions changed.",
-            "supersession_basis": null
+            "match_confidence": 1.0,
+            "materiality": "high",
+            "summary": "Response deadline extended from 2026-12-07 to 2026-12-07.",
+            "supersession_basis": "official metadata revision"
           }
         ],
-        "detected_at": "2026-11-19T05:25:47.860457+00:00",
-        "detected_this_run": false,
-        "highest_materiality": "low",
+        "detected_at": "2026-11-21T05:05:06.630011+00:00",
+        "detected_this_run": true,
+        "highest_materiality": "high",
         "history_completeness": "tracker_observed",
-        "impact_id": "impact:7287aa94fd34c367bb9a",
-        "impact_score": 2,
-        "material_change_count": 0,
+        "impact_id": "impact:3323bb1d8d2b0e0a8475",
+        "impact_score": 15,
+        "material_change_count": 1,
         "recommended_checklist_updates": [
           {
-            "action": "Review the new official document and establish the controlling version.",
-            "category": "attachment",
+            "action": "Rebaseline the response calendar against the latest official deadline.",
+            "category": "deadline",
             "change_ids": [
-              "change:8f9da5e031566e2d6bc7"
+              "change:1f22ea7d3c0c847f8d7c"
             ]
           }
         ],
-        "requires_decision_revalidation": false,
+        "requires_decision_revalidation": true,
         "requires_manual_comparison": false
       },
       "mission_links": [],
@@ -597,11 +665,69 @@
           },
           "observed_at": "2026-11-18T05:28:20.697330+00:00",
           "snapshot_id": "snapshot:bb86e649d0f7207a0ab2"
+        },
+        {
+          "document_version_ids": [
+            "version:373acd799c97e9d96e79",
+            "version:a6a9d4c9624d68afd745"
+          ],
+          "evidence_claim_ids": [],
+          "history_completeness": "tracker_observed",
+          "metadata": {
+            "active": {
+              "authority": "official_sam_metadata",
+              "category": "status",
+              "claim_id": "claim:a44706e3095c27ede300",
+              "controlling_status": "analyst_verification_required",
+              "source": {
+                "locator": {
+                  "field": "active"
+                },
+                "opportunity_key": "sam_gov:1106202612072026",
+                "retrieved_at": "2026-11-20T05:12:24.457646+00:00",
+                "source_url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view"
+              },
+              "value": "Yes"
+            },
+            "deadline": {
+              "authority": "official_sam_metadata",
+              "category": "deadline",
+              "claim_id": "claim:df54f707bade209121d8",
+              "controlling_status": "analyst_verification_required",
+              "source": {
+                "locator": {
+                  "field": "deadline"
+                },
+                "opportunity_key": "sam_gov:1106202612072026",
+                "retrieved_at": "2026-11-20T05:12:24.457646+00:00",
+                "source_url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view"
+              },
+              "value": "2026-12-07T23:59:00-05:00"
+            },
+            "status": {
+              "authority": "official_sam_metadata",
+              "category": "status",
+              "claim_id": "claim:2ecd6c3922c84cdd9dd4",
+              "controlling_status": "analyst_verification_required",
+              "source": {
+                "locator": {
+                  "field": "status"
+                },
+                "opportunity_key": "sam_gov:1106202612072026",
+                "retrieved_at": "2026-11-20T05:12:24.457646+00:00",
+                "source_url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view"
+              },
+              "value": "open"
+            }
+          },
+          "observed_at": "2026-11-20T05:12:24.457646+00:00",
+          "snapshot_id": "snapshot:46cba8c9ee9b63f9ab83"
         }
       ],
       "solicitation_number": null,
       "source_urls": [
         "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download",
+        "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=92c1221a05ca49eb87cd904fc87d7d7b",
         "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0d44ad049e474ea389e3661dca75413b",
         "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4883121a70ef4cbd8b562e8d0a668497",
         "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d168c9a2ace94efabe21990c977105c7",
@@ -616,7 +742,7 @@
         "cybersecurity"
       ],
       "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-      "url": "https://sam.gov/workspace/contract/opp/0d44ad049e474ea389e3661dca75413b/view"
+      "url": "https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view"
     },
     {
       "active": "Yes",
@@ -1612,7 +1738,7 @@
                 "field": "active"
               },
               "opportunity_key": "sam_gov:HQ0202-26-S-0001",
-              "retrieved_at": "2026-11-20T05:12:24.457646+00:00",
+              "retrieved_at": "2026-11-21T05:05:06.630011+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
             },
             "value": "Yes"
@@ -1627,7 +1753,7 @@
                 "field": "deadline"
               },
               "opportunity_key": "sam_gov:HQ0202-26-S-0001",
-              "retrieved_at": "2026-11-20T05:12:24.457646+00:00",
+              "retrieved_at": "2026-11-21T05:05:06.630011+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
             },
             "value": "2031-04-01T23:59:00-04:00"
@@ -1642,7 +1768,7 @@
                 "field": "set_aside"
               },
               "opportunity_key": "sam_gov:HQ0202-26-S-0001",
-              "retrieved_at": "2026-11-20T05:12:24.457646+00:00",
+              "retrieved_at": "2026-11-21T05:05:06.630011+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
             },
             "value": "No Set aside used"
@@ -1657,16 +1783,16 @@
                 "field": "status"
               },
               "opportunity_key": "sam_gov:HQ0202-26-S-0001",
-              "retrieved_at": "2026-11-20T05:12:24.457646+00:00",
+              "retrieved_at": "2026-11-21T05:05:06.630011+00:00",
               "source_url": "https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view"
             },
             "value": "open"
           }
         },
-        "observed_at": "2026-11-20T05:12:24.457646+00:00",
+        "observed_at": "2026-11-21T05:05:06.630011+00:00",
         "snapshot_id": "snapshot:253c2371821b36951b27"
       },
-      "days_to_close": 1593,
+      "days_to_close": 1592,
       "deadline": "2031-04-01T23:59:00-04:00",
       "deadline_mentions": [],
       "deliverables": [
@@ -1686,7 +1812,7 @@
         {
           "active": true,
           "byte_count": 346272,
-          "cache_status": "fresh",
+          "cache_status": "refreshed",
           "characters_extracted": 21520,
           "content_type": "application/octet-stream",
           "current_version_id": "version:c92d71634023dead76cb",
@@ -1718,7 +1844,7 @@
             "ria, add additional criteria necessary to support specific program objectives, and/or adjust the relative importance of evaluation factors. In all cases, the Government will clearly identify the evaluation criteria and their relative order of importance in the applicable RPP and will evaluate\u2026"
           ],
           "extraction_status": "extracted",
-          "fetched_at": "2026-11-19T05:25:47.860457+00:00",
+          "fetched_at": "2026-11-21T05:05:06.630011+00:00",
           "format": "pdf",
           "is_amendment": true,
           "is_changed": false,
@@ -2313,7 +2439,7 @@
                 }
               ],
               "first_seen_at": "2026-11-06T06:54:48.602420+00:00",
-              "last_seen_at": "2026-11-19T05:25:47.860457+00:00",
+              "last_seen_at": "2026-11-21T05:05:06.630011+00:00",
               "version_id": "version:c92d71634023dead76cb"
             }
           ]
@@ -2321,7 +2447,7 @@
         {
           "active": true,
           "byte_count": 217013,
-          "cache_status": "refreshed",
+          "cache_status": "fresh",
           "characters_extracted": 17396,
           "content_type": "application/octet-stream",
           "current_version_id": "version:de29a7e752bb9327fd9f",
@@ -2788,7 +2914,7 @@
         {
           "active": true,
           "byte_count": 3440,
-          "cache_status": "refreshed",
+          "cache_status": "fresh",
           "content_type": "application/hal+json",
           "current_version_id": "version:91db374496ef9f52b09d",
           "deadline_mentions": [],
@@ -2978,14 +3104,14 @@
   "summary": {
     "changed_documents": 0,
     "critical_amendment_impacts": 0,
-    "decisions_revalidation_required": 1,
+    "decisions_revalidation_required": 2,
     "documents_discovered": 5,
     "documents_extracted": 2,
-    "downloads_remaining": 1,
-    "material_amendment_impacts": 0,
+    "downloads_remaining": 0,
+    "material_amendment_impacts": 1,
     "new_amendments": 0,
     "opportunities_reviewed": 2
   },
-  "updated_at": "2026-11-20T05:12:24.457646+00:00",
+  "updated_at": "2026-11-21T05:05:06.630011+00:00",
   "version": 2
 }
