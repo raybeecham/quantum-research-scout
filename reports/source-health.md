@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-21 03:15 UTC_
+_Updated 2026-11-21 04:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -14,7 +14,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
-| Google Quantum AI | watch | 55% | 10 | 0 | 2026-11-21 | 2026-10-15 | fresh | 🟢 healthy |
+| Google Quantum AI | watch | 56% | 10 | 0 | 2026-11-21 | 2026-10-15 | fresh | 🟢 healthy |
 | Department of War Strategic Technology News | watch | 84% | 9 | 0 | 2026-11-21 | 2026-11-20 | fresh | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 96% | 5 | 0 | 2026-11-21 | 2026-09-24 | stale | 🟢 healthy |
 | White House Science and Technology Missions | watch | 95% | 5 | 0 | 2026-11-21 | 2026-09-29 | stale | 🟢 healthy |
