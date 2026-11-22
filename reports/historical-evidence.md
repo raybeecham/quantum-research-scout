@@ -4,22 +4,24 @@
 
 [Entity Watch](entity-watch.md) · [Readiness Scorecards](readiness.md) · [Report Index](README.md)
 
-_Updated 2026-11-15 10:16 UTC_
+_Updated 2026-11-22 10:36 UTC_
 
 This bounded ledger retains up to **730 days** of official-source history. Backfilled records enrich profiles but never create retroactive alerts.
 
-- Evidence: **131** (111 dated; 20 undated)
-- Last run: **130 accepted** from 333 collected
+- Evidence: **130** (111 dated; 19 undated)
+- Last run: **129 accepted** from 335 collected
 - Source warnings: **1**
 
 | Date | Date basis | Confidence | Source | Evidence | Score |
 |---|---|---|---|---|---:|
+| 2026-11-18 | published | high | NIST Research News | [Quantum Physics Can Verify a Person’s Location, NIST Researchers Show](https://www.nist.gov/news-events/news/2026/11/quantum-physics-can-verify-persons-location-nist-researchers-show) | 100 |
+| 2026-11-16 | published | high | IBM Research Quantum and Cryptography | [IBM, AMD advance quantum error correction decoding at scale](https://research.ibm.com/blog/pelagos?utm_medium=rss&utm_source=rss) | 91 |
 | 2026-11-12 | published | high | Fortanix Quantum Security | [Roadmap for Post-Quantum Cryptography (PQC) Migration](https://www.fortanix.com/blog/practical-roadmap-for-post-quantum-cryptography-pqc-migration) | 116 |
 | 2026-11-12 | published | high | IETF Post-Quantum Updates | [Post-Quantum Authentication: Lessons from Prague](http://www.ietf.org/blog/iab-pq-workshop-impressions/) | 50 |
 | 2026-11-12 | published | high | IBM Research Quantum and Cryptography | [What is a spin qubit?](https://research.ibm.com/blog/spin-qubits-explained?utm_medium=rss&utm_source=rss) | 33 |
 | 2026-11-11 | published | high | Palo Alto Networks LIVEcommunity Blogs | [DIY AI Security: A First Look at the Custom App-ID Signature Generator](https://live.paloaltonetworks.com/t5/community-blogs/diy-ai-security-a-first-look-at-the-custom-app-id-signature/ba-p/1266827) | 29 |
 | 2026-11-11 | unknown | high | IonQ Technical Blog | [IonQ \| The “Prove It” Stage: What DARPA’s Stage C Means for IonQ](https://ionq.com/blog/the-prove-it-stage-what-darpas-stage-c-means-for-ionq) | 28 |
-| 2026-11-10 | unknown | high | QuEra Press Releases | [Press Releases November 10, 2026 Harvard, Anthropic, and QuEra Breakthrough Research Uniquely Shows AI Can Reduce the Resources Quantum Applications Need, Significantly Accelerating the Era of Useful Quantum Computing](https://www.quera.com/press-releases/harvard-anthropic-and-quera-breakthrough-research-uniquely-shows-ai-can-reduce-the-resources-quantum-applications-need-significantly-accelerating-the-era-of-useful-quantum-computing) | 63 |
+| 2026-11-10 | unknown | high | QuEra Press Releases | [AI Reduces Quantum Resource Needs: Harvard, Anthropic, QuEra](https://www.quera.com/press-releases/harvard-anthropic-and-quera-breakthrough-research-uniquely-shows-ai-can-reduce-the-resources-quantum-applications-need-significantly-accelerating-the-era-of-useful-quantum-computing) | 63 |
 | 2026-11-06 | published | high | Palo Alto Networks LIVEcommunity Blogs | [From Managing Trust to Issuing It: Next-Gen CA in NGTS](https://live.paloaltonetworks.com/t5/community-blogs/from-managing-trust-to-issuing-it-next-gen-ca-in-ngts/ba-p/1267907) | 34 |
 | 2026-11-03 | published | high | Palo Alto Networks LIVEcommunity Blogs | [Delivering More Value to CyberArk Machine Identity SaaS Customers with NGTS](https://live.paloaltonetworks.com/t5/community-blogs/delivering-more-value-to-cyberark-machine-identity-saas/ba-p/1267315) | 26 |
 | 2026-11-02 | published | high | Palo Alto Networks LIVEcommunity Blogs | [From Visibility to Installation: AI Agents for End-to-End Certificate Lifecycle Management in NGTS](https://live.paloaltonetworks.com/t5/community-blogs/from-visibility-to-installation-ai-agents-for-end-to-end/ba-p/1267323) | 18 |
@@ -36,12 +38,10 @@ This bounded ledger retains up to **730 days** of official-source history. Backf
 | 2026-10-22 | published | high | IBM Research Quantum and Cryptography | [Qiskit SDK v2.6 release summary](https://research.ibm.com/blog/qiskit-2-6-release-summary?utm_medium=rss&utm_source=rss) | 42 |
 | 2026-10-19 | published | high | Palo Alto Networks LIVEcommunity Blogs | [Crypto Agility Starts at the CA: Accelerating Certificate Authority Support in NGTS](https://live.paloaltonetworks.com/t5/community-blogs/crypto-agility-starts-at-the-ca-accelerating-certificate/ba-p/1266445) | 45 |
 | 2026-10-15 | published | high | Cisco Quantum-Safe Updates | [The Quantum Security Transition: A Policy Agenda for Post-Quantum Readiness in Asia Pacific](https://blogs.cisco.com/gov/the-quantum-security-transition-a-policy-agenda-for-post-quantum-readiness-in-asia-pacific) | 50 |
-| 2026-10-15 | unknown | high | QuEra Press Releases | [Press Releases October 15, 2026 Terra Quantum Joins the QuEra Quantum Alliance, Adding Software and Algorithms Expertise](https://www.quera.com/press-releases/terra-quantum-joins-the-quera-quantum-alliance-adding-software-and-algorithms-expertise) | 37 |
+| 2026-10-15 | unknown | high | QuEra Press Releases | [Terra Quantum Joins the QuEra Quantum Alliance](https://www.quera.com/press-releases/terra-quantum-joins-the-quera-quantum-alliance-adding-software-and-algorithms-expertise) | 37 |
 | 2026-10-14 | published | high | Cisco Quantum-Safe Updates | [Cryptography Rarely Fails Because of the Math](https://blogs.cisco.com/security/last-mile-of-trust-post-quantum-cryptography-open-source) | 42 |
-| 2026-10-09 | published | high | Palo Alto Networks LIVEcommunity Blogs | [Spark User Summit: Prisma SD-WAN and Post-Quantum Cryptography](https://live.paloaltonetworks.com/t5/community-blogs/spark-user-summit-prisma-sd-wan-and-post-quantum-cryptography/ba-p/1265624) | 50 |
 | 2026-10-08 | published | high | Fortanix Quantum Security | [How to Prepare for Post-Quantum Cryptography](https://www.fortanix.com/blog/how-to-prepare-for-post-quantum-cryptography-pqc) | 62 |
 | 2026-10-08 | published | high | Palo Alto Networks LIVEcommunity Blogs | [Securing Transport: Introducing DNS over TLS (DoT) Support for Advanced DNS Security Resolver (ADNSR)](https://live.paloaltonetworks.com/t5/community-blogs/securing-transport-introducing-dns-over-tls-dot-support-for/ba-p/1265870) | 34 |
-| 2026-10-08 | published | high | Palo Alto Networks LIVEcommunity Blogs | [Finding What You Need, Faster: Meet the New AI-Powered Search and Copilot Navigation in Strata Cloud Manager!](https://live.paloaltonetworks.com/t5/community-blogs/finding-what-you-need-faster-meet-the-new-ai-powered-search-and/ba-p/1265869) | 12 |
 | 2026-10-05 | published | high | Fortanix Quantum Security | [A Guide to Post-Quantum Cryptography (PQC) Readiness](https://www.fortanix.com/blog/post-quantum-cryptography-pqc-readiness-guide) | 139 |
 | 2026-09-30 | published | high | Fortanix Quantum Security | [What is a Cryptographic Inventory?](https://www.fortanix.com/blog/what-is-a-cryptographic-inventory) | 43 |
 | 2026-09-29 | unknown | high | Booz Allen Quantum and PQC | [4 Ways Booz Allen Is Advancing Quantum Technology](https://www.boozallen.com/insights/fast-tracking-results/advancing-quantum-technology.html) | 100 |
@@ -117,4 +117,4 @@ This bounded ledger retains up to **730 days** of official-source history. Backf
 
 ## Collection Warnings
 
-- **Department of War Strategic Technology News**: All discovery methods failed: RSS returned no matching entries; HTML discovery failed: Failed to fetch https://www.war.gov/News/News-Stories/: 403 Client Error: Forbidden for url: https://www.war.gov/News/News-Stories/
+- **ENISA Cryptography and PQC**: Partial coverage: 1 article pages could not be read; their link titles are available but article metadata is unverified.
