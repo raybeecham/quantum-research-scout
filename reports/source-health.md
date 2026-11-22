@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-22 18:15 UTC_
+_Updated 2026-11-22 19:15 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -25,7 +25,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv RSS cs.CR | arxiv_rss | 94% | 1 | 4 | 2026-11-22 | 2026-11-20 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 94% | 1 | 4 | 2026-11-22 | 2026-11-20 | fresh | 🟢 healthy |
 | Quantum Computing Report | rss | 95% | 1 | 0 | 2026-11-22 | 2026-11-21 | fresh | 🟢 healthy |
-| Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-22 | 2026-11-21 | fresh | 🔴 failing |
+| Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-22 | 2026-11-22 | fresh | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 8 | 2026-11-22 | 2026-11-20 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 6 | 2026-11-22 | 2024-03-12 | reference | 🟠 partial |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-22 | 2026-11-17 | fresh | 🟢 healthy |
@@ -66,7 +66,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Grants.gov · Quantum Technologies | grant_opportunity | 100% | 0 | 0 | 2026-11-22 | 2026-10-28 | stale | 🟢 healthy |
 | Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-11-22 | — | unknown | 🟢 healthy |
 | Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-22 | 2026-11-20 | fresh | 🟢 healthy |
-| IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-22 | 2026-11-19 | fresh | 🟢 healthy |
+| IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-22 | 2026-11-20 | fresh | 🟢 healthy |
 | IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-22 | 2026-11-16 | fresh | 🟢 healthy |
 | IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-22 | 2026-11-16 | fresh | 🟢 healthy |
 | IETF PQUIP | watch | 100% | 0 | 0 | 2026-11-22 | — | reference | 🟢 healthy |
@@ -134,7 +134,7 @@ RSS and API are measured separately. Standby means no API request was made; work
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **103** of **108**
+- Healthy sources: **104** of **108**
 - Partial-coverage sources: **1**
 - Critical sources failing: **0**
 - Partial coverage: ENISA Cryptography and PQC
