@@ -565,7 +565,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 18,
+      "evidence_count": 23,
       "first_party_evidence_count": 10,
       "name": "QuEra",
       "priority": "high",
@@ -1633,7 +1633,7 @@
       "latest_seen": "2026-11-17",
       "momentum": "declining",
       "name": "IBM",
-      "prior_count": 14,
+      "prior_count": 13,
       "priority": "high",
       "recent_count": 4,
       "status": "active",
@@ -2224,7 +2224,7 @@
       "latest_seen": "2026-11-17",
       "momentum": "declining",
       "name": "IonQ",
-      "prior_count": 4,
+      "prior_count": 3,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -3431,6 +3431,429 @@
       "type": "company"
     },
     {
+      "aliases": [
+        "QuEra Computing"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 13,
+      "evidence": [
+        {
+          "date": "2026-11-21",
+          "key": "https://quantumcomputingreport.com/harvard-quera-and-caltech-design-single-shot-magic-state-factories-for-quantum-ldpc-codes-with-10-40x-lower-overhead",
+          "report": "2026-11/2026-11-21-digest.md",
+          "score": 104,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Harvard, QuEra, and Caltech Design Single-Shot Magic State Factories for Quantum LDPC Codes with 10\u201340x Lower Overhead",
+          "url": "https://quantumcomputingreport.com/harvard-quera-and-caltech-design-single-shot-magic-state-factories-for-quantum-ldpc-codes-with-10-40x-lower-overhead"
+        },
+        {
+          "date": "2026-11-21",
+          "key": "https://quantumcomputingreport.com/quera-computing-and-nvidia-introduce-ppvm-open-source-digital-twin-simulation-framework-for-quantum-processors",
+          "report": "2026-11/2026-11-21-digest.md",
+          "score": 104,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "QuEra Computing and NVIDIA Introduce PPVM Open-Source Digital-Twin Simulation Framework for Quantum Processors",
+          "url": "https://quantumcomputingreport.com/quera-computing-and-nvidia-introduce-ppvm-open-source-digital-twin-simulation-framework-for-quantum-processors"
+        },
+        {
+          "date": "2026-11-21",
+          "key": "https://quantumcomputingreport.com/quera-harvard-and-umd-researchers-develop-polynomial-time-classical-benchmarking-for-non-clifford-fault-tolerant-circuits",
+          "report": "2026-11/2026-11-21-digest.md",
+          "score": 71,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QuEra, Harvard, and UMD Researchers Develop Polynomial-Time Classical Benchmarking for Non-Clifford Fault-Tolerant Circuits",
+          "url": "https://quantumcomputingreport.com/quera-harvard-and-umd-researchers-develop-polynomial-time-classical-benchmarking-for-non-clifford-fault-tolerant-circuits"
+        },
+        {
+          "date": "2026-11-21",
+          "key": "https://quantumcomputingreport.com/university-of-california-quera-and-collaborators-introduce-multi-agent-llm-compiler-qubrio-for-neutral-atom-processors",
+          "report": "2026-11/2026-11-21-digest.md",
+          "score": 70,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "University of California, San Diego, QuEra, and Collaborators Introduce Multi-Agent LLM Compiler Qubrio for Neutral-Atom Processors",
+          "url": "https://quantumcomputingreport.com/university-of-california-quera-and-collaborators-introduce-multi-agent-llm-compiler-qubrio-for-neutral-atom-processors"
+        },
+        {
+          "date": "2026-11-21",
+          "key": "https://quantumcomputingreport.com/university-of-innsbruck-parityqc-and-quera-turn-rydberg-array-embeddings-into-intrinsic-error-correcting-codes",
+          "report": "2026-11/2026-11-21-digest.md",
+          "score": 55,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "University of Innsbruck, ParityQC, and QuEra Turn Rydberg Array Embeddings into Intrinsic Error-Correcting Codes",
+          "url": "https://quantumcomputingreport.com/university-of-innsbruck-parityqc-and-quera-turn-rydberg-array-embeddings-into-intrinsic-error-correcting-codes"
+        },
+        {
+          "date": "2026-11-16",
+          "key": "https://quantumzeitgeist.com/quera-computing-partnership-government-quantum",
+          "report": "2026-11/2026-11-16-digest.md",
+          "score": 100,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "QuEra Computing says government is now quantum\u2019s key partner",
+          "url": "https://quantumzeitgeist.com/quera-computing-partnership-government-quantum"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2026-11-10",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:inner_details-text",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/harvard-anthropic-and-quera-breakthrough-research-uniquely-shows-ai-can-reduce-the-resources-quantum-applications-need-significantly-accelerating-the-era-of-useful-quantum-computing",
+          "observed_at": "2026-11-15T10:16:38.716048+00:00",
+          "published_at": "2026-11-10T00:00:00+00:00",
+          "score": 63,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "AI-designed circuits achieved up to a 39-fold reduction in a combined gate-and-qubit resource metric, helping near-term fault-tolerant systems tackle more\u2026",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Press Releases November 10, 2026 Harvard, Anthropic, and QuEra Breakthrough Research Uniquely Shows AI Can Reduce the Resources Quantum Applications Need, Significantly Accelerating the Era of Useful Quantum Computing",
+          "url": "https://www.quera.com/press-releases/harvard-anthropic-and-quera-breakthrough-research-uniquely-shows-ai-can-reduce-the-resources-quantum-applications-need-significantly-accelerating-the-era-of-useful-quantum-computing"
+        },
+        {
+          "date": "2026-10-17",
+          "key": "https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 97,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "Harvard, Anthropic, and QuEra Use LLMs to Discover Quantum Circuits with Up to 9,100x Lower Resource Costs",
+          "url": "https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs"
+        },
+        {
+          "date": "2026-10-17",
+          "key": "https://quantumcomputingreport.com/kipu-quantum-demonstrates-neutral-atom-quantum-feature-extraction-for-molecular-toxicity-classification-on-quera-hardware",
+          "report": "2026-10/2026-10-17-digest.md",
+          "score": 66,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Kipu Quantum Demonstrates Neutral-Atom Quantum Feature Extraction for Molecular Toxicity Classification on QuEra Hardware",
+          "url": "https://quantumcomputingreport.com/kipu-quantum-demonstrates-neutral-atom-quantum-feature-extraction-for-molecular-toxicity-classification-on-quera-hardware"
+        },
+        {
+          "date": "2026-10-16",
+          "key": "https://thequantuminsider.com/2026/10/16/quera-three-teams-doe-quantum-chemistry-program",
+          "report": "2026-10/2026-10-16-digest.md",
+          "score": 42,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QuEra Scientists Named Co-Principal Investigators on Three of Nine Teams in DOE\u2019s Quantum Chemistry Program",
+          "url": "https://thequantuminsider.com/2026/10/16/quera-three-teams-doe-quantum-chemistry-program"
+        },
+        {
+          "date": "2026-10-16",
+          "key": "https://thequantuminsider.com/2026/10/16/terra-quantum-quera-quantum-alliance",
+          "report": "2026-10/2026-10-16-digest.md",
+          "score": 42,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Terra Quantum Joins QuEra Quantum Alliance",
+          "url": "https://thequantuminsider.com/2026/10/16/terra-quantum-quera-quantum-alliance"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2026-10-15",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:inner_details-text",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/terra-quantum-joins-the-quera-quantum-alliance-adding-software-and-algorithms-expertise",
+          "observed_at": "2026-11-15T10:16:38.716048+00:00",
+          "published_at": "2026-10-15T00:00:00+00:00",
+          "score": 37,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "Terra Quantum, a global leader in the development of quantum technologies and their industrial application, the leader in neutral-atom quantum computing, today\u2026",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Press Releases October 15, 2026 Terra Quantum Joins the QuEra Quantum Alliance, Adding Software and Algorithms Expertise",
+          "url": "https://www.quera.com/press-releases/terra-quantum-joins-the-quera-quantum-alliance-adding-software-and-algorithms-expertise"
+        },
+        {
+          "date": "2026-09-22",
+          "key": "https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc",
+          "report": "2026-09/2026-09-22-digest.md",
+          "score": 94,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QuEra and HPE Partner on Fault-Tolerant Quantum Computing for HPC",
+          "url": "https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2026-09-22",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:inner_details-text",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/quera-computing-collaborates-with-hpe-to-bring-fault-tolerant-quantum-computing-to-on-premises-hpc-environments",
+          "observed_at": "2026-11-15T10:16:38.716048+00:00",
+          "published_at": "2026-09-22T00:00:00+00:00",
+          "score": 89,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "QuEra and HPE will integrate neutral-atom fault-tolerant quantum computers with HPE Cray supercomputers for on-premises HPC sites.",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QuEra and HPE Bring Fault-Tolerant Quantum to On-Prem HPC",
+          "url": "https://www.quera.com/press-releases/quera-computing-collaborates-with-hpe-to-bring-fault-tolerant-quantum-computing-to-on-premises-hpc-environments"
+        },
+        {
+          "date": "2026-08-12",
+          "key": "https://thequantuminsider.com/2026/08/12/zapata-quantum-quera-quantum-application-development",
+          "report": "2026-08/2026-08-12-digest.md",
+          "score": 44,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Zapata Quantum and QuEra Partner on Quantum Application Development",
+          "url": "https://thequantuminsider.com/2026/08/12/zapata-quantum-quera-quantum-application-development"
+        },
+        {
+          "date": "2026-07-22",
+          "key": "https://quantumzeitgeist.com/university-college-london-quantum-thermodynamic-sampling",
+          "report": "2026-07/2026-07-22-digest.md",
+          "score": 47,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "QuEra\u2019s 78-Site Graphene System Validates Quantum Thermodynamic Sampling",
+          "url": "https://quantumzeitgeist.com/university-college-london-quantum-thermodynamic-sampling"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Software / Tooling",
+          "date": "2026-04-02",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:inner_details-text",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/quera-launches-open-source-package-to-simulate-logical-quantum-circuits-at-scale",
+          "observed_at": "2026-11-15T10:16:38.716048+00:00",
+          "published_at": "2026-04-02T00:00:00+00:00",
+          "score": 44,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "QuEra open-sources Tsim, a GPU-accelerated, STIM-compatible simulator for non-Clifford circuits with 80+ qubits for QEC researchers.",
+          "themes": [
+            "Quantum Software / Tooling"
+          ],
+          "title": "QuEra Launches Tsim, Open-Source Logical Circuit Simulator",
+          "url": "https://www.quera.com/press-releases/quera-launches-open-source-package-to-simulate-logical-quantum-circuits-at-scale"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-11-17",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:inner_details-text",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/quera-to-showcase-quantum-classical-integration-at-sc25",
+          "observed_at": "2026-11-15T10:16:38.716048+00:00",
+          "published_at": "2025-11-17T00:00:00+00:00",
+          "score": 37,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "At SC25, QuEra and Dell showcase a prototype linking Dell HPC and the Dell Quantum Intelligent Orchestrator to a neutral-atom system.",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QuEra and Dell Show Quantum-Classical Integration at SC25",
+          "url": "https://www.quera.com/press-releases/quera-to-showcase-quantum-classical-integration-at-sc25"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-11-13",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:inner_details-text",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/sdt-joins-quera-alliance-to-advance-neutral-atom-quantum-computing",
+          "observed_at": "2026-11-15T10:16:38.716048+00:00",
+          "published_at": "2025-11-13T00:00:00+00:00",
+          "score": 41,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "South Korea's SDT Inc. joins the QuEra Quantum Alliance, a global program to commercialize and expand neutral-atom quantum computing.",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "SDT Joins QuEra Quantum Alliance to Advance Neutral Atoms",
+          "url": "https://www.quera.com/press-releases/sdt-joins-quera-alliance-to-advance-neutral-atom-quantum-computing"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-10-20",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:inner_details-text",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/quera-selected-for-nedo-post-5g-information-and-communication-systems-infrastructure-enhancement-r-d-project",
+          "observed_at": "2026-11-15T10:16:38.716048+00:00",
+          "published_at": "2025-10-20T00:00:00+00:00",
+          "score": 37,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "QuEra joins Japan\u2019s NEDO initiative to advance neutral-atom quantum hardware and manufacturing for post-5G systems.",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "QuEra Selected for NEDO Post-5G Infrastructure R&D",
+          "url": "https://www.quera.com/press-releases/quera-selected-for-nedo-post-5g-information-and-communication-systems-infrastructure-enhancement-r-d-project"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Standards / Policy",
+          "date": "2025-09-30",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:inner_details-text",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/bcg-x-and-quera-computing-join-forces-to-accelerate-quantum-value-for-enterprises-and-government-innovators",
+          "observed_at": "2026-11-15T10:16:38.716048+00:00",
+          "published_at": "2025-09-30T00:00:00+00:00",
+          "score": 100,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "BCG X AI Science Institute joins QuEra\u2019s Quantum Alliance to accelerate enterprise and government quantum use-cases.",
+          "themes": [
+            "Standards / Government"
+          ],
+          "title": "BCG X & QuEra Computing Forge Quantum Partnership",
+          "url": "https://www.quera.com/press-releases/bcg-x-and-quera-computing-join-forces-to-accelerate-quantum-value-for-enterprises-and-government-innovators"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-09-30",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:inner_details-text",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/icsc-and-quera-computing-launch-partnership-to-give-italian-researchers-premium-cloud-access-to-world-leading-neutral-atom-quantum-computer",
+          "observed_at": "2026-11-15T10:16:38.716048+00:00",
+          "published_at": "2025-09-30T00:00:00+00:00",
+          "score": 50,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "Italian researchers gain cloud access to QuEra\u2019s 256-qubit neutral-atom system with mentorship and national support.",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "ICSC & QuEra Computing Launch Partnership",
+          "url": "https://www.quera.com/press-releases/icsc-and-quera-computing-launch-partnership-to-give-italian-researchers-premium-cloud-access-to-world-leading-neutral-atom-quantum-computer"
+        },
+        {
+          "alert_eligible": false,
+          "category": "Quantum Hardware",
+          "date": "2025-08-20",
+          "date_confidence": "high",
+          "date_kind": "unknown",
+          "date_source": "explicit_metadata:inner_details-text",
+          "entities": [
+            "QuEra"
+          ],
+          "historical": true,
+          "key": "https://www.quera.com/press-releases/quera-computing-and-deloitte-form-alliance-to-accelerate-enterprise-adoption-of-neutral-atom-quantum-computing",
+          "observed_at": "2026-11-15T10:16:38.716048+00:00",
+          "published_at": "2025-08-20T00:00:00+00:00",
+          "score": 37,
+          "source": "QuEra Press Releases",
+          "source_type": "watch",
+          "summary": "QuEra and Deloitte form an alliance to drive enterprise adoption of neutral-atom quantum computing and deliver real business value.",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Algorithmiq Joins QuEra Alliance For Quantum Healthcare",
+          "url": "https://www.quera.com/press-releases/quera-computing-and-deloitte-form-alliance-to-accelerate-enterprise-adoption-of-neutral-atom-quantum-computing"
+        }
+      ],
+      "evidence_count": 23,
+      "first_seen": "2025-08-20",
+      "historical_evidence_count": 10,
+      "latest_seen": "2026-11-21",
+      "momentum": "rising",
+      "name": "QuEra",
+      "prior_count": 1,
+      "priority": "high",
+      "recent_count": 6,
+      "status": "active",
+      "themes": [
+        "AI Security",
+        "QEC / Fault Tolerance",
+        "Quantum Hardware",
+        "Quantum Software / Tooling",
+        "Standards / Government"
+      ],
+      "type": "company"
+    },
+    {
       "aliases": [],
       "case_sensitive_aliases": [],
       "current_evidence_count": 15,
@@ -4230,368 +4653,6 @@
       "status": "quiet",
       "themes": [
         "PQC / Crypto Agility"
-      ],
-      "type": "company"
-    },
-    {
-      "aliases": [
-        "QuEra Computing"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 8,
-      "evidence": [
-        {
-          "date": "2026-11-16",
-          "key": "https://quantumzeitgeist.com/quera-computing-partnership-government-quantum",
-          "report": "2026-11/2026-11-16-digest.md",
-          "score": 100,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Standards / Government"
-          ],
-          "title": "QuEra Computing says government is now quantum\u2019s key partner",
-          "url": "https://quantumzeitgeist.com/quera-computing-partnership-government-quantum"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2026-11-10",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:inner_details-text",
-          "entities": [
-            "QuEra"
-          ],
-          "historical": true,
-          "key": "https://www.quera.com/press-releases/harvard-anthropic-and-quera-breakthrough-research-uniquely-shows-ai-can-reduce-the-resources-quantum-applications-need-significantly-accelerating-the-era-of-useful-quantum-computing",
-          "observed_at": "2026-11-15T10:16:38.716048+00:00",
-          "published_at": "2026-11-10T00:00:00+00:00",
-          "score": 63,
-          "source": "QuEra Press Releases",
-          "source_type": "watch",
-          "summary": "AI-designed circuits achieved up to a 39-fold reduction in a combined gate-and-qubit resource metric, helping near-term fault-tolerant systems tackle more\u2026",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Press Releases November 10, 2026 Harvard, Anthropic, and QuEra Breakthrough Research Uniquely Shows AI Can Reduce the Resources Quantum Applications Need, Significantly Accelerating the Era of Useful Quantum Computing",
-          "url": "https://www.quera.com/press-releases/harvard-anthropic-and-quera-breakthrough-research-uniquely-shows-ai-can-reduce-the-resources-quantum-applications-need-significantly-accelerating-the-era-of-useful-quantum-computing"
-        },
-        {
-          "date": "2026-10-17",
-          "key": "https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs",
-          "report": "2026-10/2026-10-17-digest.md",
-          "score": 97,
-          "source": "Quantum Computing Report",
-          "themes": [
-            "AI Security"
-          ],
-          "title": "Harvard, Anthropic, and QuEra Use LLMs to Discover Quantum Circuits with Up to 9,100x Lower Resource Costs",
-          "url": "https://quantumcomputingreport.com/harvard-anthropic-and-quera-use-llms-to-discover-quantum-circuits-with-up-to-9100x-lower-resource-costs"
-        },
-        {
-          "date": "2026-10-17",
-          "key": "https://quantumcomputingreport.com/kipu-quantum-demonstrates-neutral-atom-quantum-feature-extraction-for-molecular-toxicity-classification-on-quera-hardware",
-          "report": "2026-10/2026-10-17-digest.md",
-          "score": 66,
-          "source": "Quantum Computing Report",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Kipu Quantum Demonstrates Neutral-Atom Quantum Feature Extraction for Molecular Toxicity Classification on QuEra Hardware",
-          "url": "https://quantumcomputingreport.com/kipu-quantum-demonstrates-neutral-atom-quantum-feature-extraction-for-molecular-toxicity-classification-on-quera-hardware"
-        },
-        {
-          "date": "2026-10-16",
-          "key": "https://thequantuminsider.com/2026/10/16/quera-three-teams-doe-quantum-chemistry-program",
-          "report": "2026-10/2026-10-16-digest.md",
-          "score": 42,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "QuEra Scientists Named Co-Principal Investigators on Three of Nine Teams in DOE\u2019s Quantum Chemistry Program",
-          "url": "https://thequantuminsider.com/2026/10/16/quera-three-teams-doe-quantum-chemistry-program"
-        },
-        {
-          "date": "2026-10-16",
-          "key": "https://thequantuminsider.com/2026/10/16/terra-quantum-quera-quantum-alliance",
-          "report": "2026-10/2026-10-16-digest.md",
-          "score": 42,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Terra Quantum Joins QuEra Quantum Alliance",
-          "url": "https://thequantuminsider.com/2026/10/16/terra-quantum-quera-quantum-alliance"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2026-10-15",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:inner_details-text",
-          "entities": [
-            "QuEra"
-          ],
-          "historical": true,
-          "key": "https://www.quera.com/press-releases/terra-quantum-joins-the-quera-quantum-alliance-adding-software-and-algorithms-expertise",
-          "observed_at": "2026-11-15T10:16:38.716048+00:00",
-          "published_at": "2026-10-15T00:00:00+00:00",
-          "score": 37,
-          "source": "QuEra Press Releases",
-          "source_type": "watch",
-          "summary": "Terra Quantum, a global leader in the development of quantum technologies and their industrial application, the leader in neutral-atom quantum computing, today\u2026",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Press Releases October 15, 2026 Terra Quantum Joins the QuEra Quantum Alliance, Adding Software and Algorithms Expertise",
-          "url": "https://www.quera.com/press-releases/terra-quantum-joins-the-quera-quantum-alliance-adding-software-and-algorithms-expertise"
-        },
-        {
-          "date": "2026-09-22",
-          "key": "https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc",
-          "report": "2026-09/2026-09-22-digest.md",
-          "score": 94,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "QuEra and HPE Partner on Fault-Tolerant Quantum Computing for HPC",
-          "url": "https://thequantuminsider.com/2026/09/22/quera-hpe-fault-tolerant-quantum-computing-hpc"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2026-09-22",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:inner_details-text",
-          "entities": [
-            "QuEra"
-          ],
-          "historical": true,
-          "key": "https://www.quera.com/press-releases/quera-computing-collaborates-with-hpe-to-bring-fault-tolerant-quantum-computing-to-on-premises-hpc-environments",
-          "observed_at": "2026-11-15T10:16:38.716048+00:00",
-          "published_at": "2026-09-22T00:00:00+00:00",
-          "score": 89,
-          "source": "QuEra Press Releases",
-          "source_type": "watch",
-          "summary": "QuEra and HPE will integrate neutral-atom fault-tolerant quantum computers with HPE Cray supercomputers for on-premises HPC sites.",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "QuEra and HPE Bring Fault-Tolerant Quantum to On-Prem HPC",
-          "url": "https://www.quera.com/press-releases/quera-computing-collaborates-with-hpe-to-bring-fault-tolerant-quantum-computing-to-on-premises-hpc-environments"
-        },
-        {
-          "date": "2026-08-12",
-          "key": "https://thequantuminsider.com/2026/08/12/zapata-quantum-quera-quantum-application-development",
-          "report": "2026-08/2026-08-12-digest.md",
-          "score": 44,
-          "source": "The Quantum Insider",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Zapata Quantum and QuEra Partner on Quantum Application Development",
-          "url": "https://thequantuminsider.com/2026/08/12/zapata-quantum-quera-quantum-application-development"
-        },
-        {
-          "date": "2026-07-22",
-          "key": "https://quantumzeitgeist.com/university-college-london-quantum-thermodynamic-sampling",
-          "report": "2026-07/2026-07-22-digest.md",
-          "score": 47,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "QuEra\u2019s 78-Site Graphene System Validates Quantum Thermodynamic Sampling",
-          "url": "https://quantumzeitgeist.com/university-college-london-quantum-thermodynamic-sampling"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Software / Tooling",
-          "date": "2026-04-02",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:inner_details-text",
-          "entities": [
-            "QuEra"
-          ],
-          "historical": true,
-          "key": "https://www.quera.com/press-releases/quera-launches-open-source-package-to-simulate-logical-quantum-circuits-at-scale",
-          "observed_at": "2026-11-15T10:16:38.716048+00:00",
-          "published_at": "2026-04-02T00:00:00+00:00",
-          "score": 44,
-          "source": "QuEra Press Releases",
-          "source_type": "watch",
-          "summary": "QuEra open-sources Tsim, a GPU-accelerated, STIM-compatible simulator for non-Clifford circuits with 80+ qubits for QEC researchers.",
-          "themes": [
-            "Quantum Software / Tooling"
-          ],
-          "title": "QuEra Launches Tsim, Open-Source Logical Circuit Simulator",
-          "url": "https://www.quera.com/press-releases/quera-launches-open-source-package-to-simulate-logical-quantum-circuits-at-scale"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2025-11-17",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:inner_details-text",
-          "entities": [
-            "QuEra"
-          ],
-          "historical": true,
-          "key": "https://www.quera.com/press-releases/quera-to-showcase-quantum-classical-integration-at-sc25",
-          "observed_at": "2026-11-15T10:16:38.716048+00:00",
-          "published_at": "2025-11-17T00:00:00+00:00",
-          "score": 37,
-          "source": "QuEra Press Releases",
-          "source_type": "watch",
-          "summary": "At SC25, QuEra and Dell showcase a prototype linking Dell HPC and the Dell Quantum Intelligent Orchestrator to a neutral-atom system.",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "QuEra and Dell Show Quantum-Classical Integration at SC25",
-          "url": "https://www.quera.com/press-releases/quera-to-showcase-quantum-classical-integration-at-sc25"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2025-11-13",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:inner_details-text",
-          "entities": [
-            "QuEra"
-          ],
-          "historical": true,
-          "key": "https://www.quera.com/press-releases/sdt-joins-quera-alliance-to-advance-neutral-atom-quantum-computing",
-          "observed_at": "2026-11-15T10:16:38.716048+00:00",
-          "published_at": "2025-11-13T00:00:00+00:00",
-          "score": 41,
-          "source": "QuEra Press Releases",
-          "source_type": "watch",
-          "summary": "South Korea's SDT Inc. joins the QuEra Quantum Alliance, a global program to commercialize and expand neutral-atom quantum computing.",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "SDT Joins QuEra Quantum Alliance to Advance Neutral Atoms",
-          "url": "https://www.quera.com/press-releases/sdt-joins-quera-alliance-to-advance-neutral-atom-quantum-computing"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2025-10-20",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:inner_details-text",
-          "entities": [
-            "QuEra"
-          ],
-          "historical": true,
-          "key": "https://www.quera.com/press-releases/quera-selected-for-nedo-post-5g-information-and-communication-systems-infrastructure-enhancement-r-d-project",
-          "observed_at": "2026-11-15T10:16:38.716048+00:00",
-          "published_at": "2025-10-20T00:00:00+00:00",
-          "score": 37,
-          "source": "QuEra Press Releases",
-          "source_type": "watch",
-          "summary": "QuEra joins Japan\u2019s NEDO initiative to advance neutral-atom quantum hardware and manufacturing for post-5G systems.",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "QuEra Selected for NEDO Post-5G Infrastructure R&D",
-          "url": "https://www.quera.com/press-releases/quera-selected-for-nedo-post-5g-information-and-communication-systems-infrastructure-enhancement-r-d-project"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Standards / Policy",
-          "date": "2025-09-30",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:inner_details-text",
-          "entities": [
-            "QuEra"
-          ],
-          "historical": true,
-          "key": "https://www.quera.com/press-releases/bcg-x-and-quera-computing-join-forces-to-accelerate-quantum-value-for-enterprises-and-government-innovators",
-          "observed_at": "2026-11-15T10:16:38.716048+00:00",
-          "published_at": "2025-09-30T00:00:00+00:00",
-          "score": 100,
-          "source": "QuEra Press Releases",
-          "source_type": "watch",
-          "summary": "BCG X AI Science Institute joins QuEra\u2019s Quantum Alliance to accelerate enterprise and government quantum use-cases.",
-          "themes": [
-            "Standards / Government"
-          ],
-          "title": "BCG X & QuEra Computing Forge Quantum Partnership",
-          "url": "https://www.quera.com/press-releases/bcg-x-and-quera-computing-join-forces-to-accelerate-quantum-value-for-enterprises-and-government-innovators"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2025-09-30",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:inner_details-text",
-          "entities": [
-            "QuEra"
-          ],
-          "historical": true,
-          "key": "https://www.quera.com/press-releases/icsc-and-quera-computing-launch-partnership-to-give-italian-researchers-premium-cloud-access-to-world-leading-neutral-atom-quantum-computer",
-          "observed_at": "2026-11-15T10:16:38.716048+00:00",
-          "published_at": "2025-09-30T00:00:00+00:00",
-          "score": 50,
-          "source": "QuEra Press Releases",
-          "source_type": "watch",
-          "summary": "Italian researchers gain cloud access to QuEra\u2019s 256-qubit neutral-atom system with mentorship and national support.",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "ICSC & QuEra Computing Launch Partnership",
-          "url": "https://www.quera.com/press-releases/icsc-and-quera-computing-launch-partnership-to-give-italian-researchers-premium-cloud-access-to-world-leading-neutral-atom-quantum-computer"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2025-08-20",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:inner_details-text",
-          "entities": [
-            "QuEra"
-          ],
-          "historical": true,
-          "key": "https://www.quera.com/press-releases/quera-computing-and-deloitte-form-alliance-to-accelerate-enterprise-adoption-of-neutral-atom-quantum-computing",
-          "observed_at": "2026-11-15T10:16:38.716048+00:00",
-          "published_at": "2025-08-20T00:00:00+00:00",
-          "score": 37,
-          "source": "QuEra Press Releases",
-          "source_type": "watch",
-          "summary": "QuEra and Deloitte form an alliance to drive enterprise adoption of neutral-atom quantum computing and deliver real business value.",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "Algorithmiq Joins QuEra Alliance For Quantum Healthcare",
-          "url": "https://www.quera.com/press-releases/quera-computing-and-deloitte-form-alliance-to-accelerate-enterprise-adoption-of-neutral-atom-quantum-computing"
-        }
-      ],
-      "evidence_count": 18,
-      "first_seen": "2025-08-20",
-      "historical_evidence_count": 10,
-      "latest_seen": "2026-11-16",
-      "momentum": "stable",
-      "name": "QuEra",
-      "prior_count": 1,
-      "priority": "high",
-      "recent_count": 1,
-      "status": "active",
-      "themes": [
-        "AI Security",
-        "Quantum Hardware",
-        "Quantum Software / Tooling",
-        "Standards / Government"
       ],
       "type": "company"
     },
@@ -5534,11 +5595,11 @@
       "first_seen": "2025-04-03",
       "historical_evidence_count": 4,
       "latest_seen": "2026-11-14",
-      "momentum": "stable",
+      "momentum": "declining",
       "name": "Atom Computing",
-      "prior_count": 2,
+      "prior_count": 4,
       "priority": "high",
-      "recent_count": 2,
+      "recent_count": 0,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -8189,7 +8250,7 @@
       "prior_count": 1,
       "priority": "medium",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "PQC / Crypto Agility",
         "QEC / Fault Tolerance",
@@ -8310,7 +8371,7 @@
       "prior_count": 2,
       "priority": "medium",
       "recent_count": 0,
-      "status": "active",
+      "status": "quiet",
       "themes": [
         "QEC / Fault Tolerance",
         "Quantum Hardware",
@@ -8433,8 +8494,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 58,
+      "current_evidence_count": 59,
       "evidence": [
+        {
+          "date": "2026-11-21",
+          "key": "https://quantumcomputingreport.com/harvard-quera-and-caltech-design-single-shot-magic-state-factories-for-quantum-ldpc-codes-with-10-40x-lower-overhead",
+          "report": "2026-11/2026-11-21-digest.md",
+          "score": 104,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Harvard, QuEra, and Caltech Design Single-Shot Magic State Factories for Quantum LDPC Codes with 10\u201340x Lower Overhead",
+          "url": "https://quantumcomputingreport.com/harvard-quera-and-caltech-design-single-shot-magic-state-factories-for-quantum-ldpc-codes-with-10-40x-lower-overhead"
+        },
         {
           "date": "2026-11-19",
           "key": "https://arxiv.org/abs/2611.25095",
@@ -8902,29 +8975,17 @@
           ],
           "title": "IonQ Quantum LDPC Codes Unlock 3\u00d7 Faster Joint Logical Measurements",
           "url": "https://quantumzeitgeist.com/viterbi-quantum-ldpc-codes-clinr-unlock"
-        },
-        {
-          "date": "2026-08-05",
-          "key": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing",
-          "report": "2026-08/2026-08-05-digest.md",
-          "score": 91,
-          "source": "The Quantum Insider",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "D-Wave Publishes Research on Dual-Rail Qubit Gate for Quantum Error Correction",
-          "url": "https://thequantuminsider.com/2026/08/05/d-wave-hardware-breakthrough-quantum-error-correction-fault-tolerant-computing"
         }
       ],
-      "evidence_count": 60,
+      "evidence_count": 61,
       "first_seen": "2026-01-08",
       "historical_evidence_count": 2,
-      "latest_seen": "2026-11-19",
+      "latest_seen": "2026-11-21",
       "momentum": "rising",
       "name": "Quantum error correction",
       "prior_count": 2,
       "priority": "critical",
-      "recent_count": 9,
+      "recent_count": 10,
       "status": "active",
       "themes": [
         "AI Security",
@@ -10248,9 +10309,9 @@
       "latest_seen": "2026-11-20",
       "momentum": "rising",
       "name": "Logical qubits",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "critical",
-      "recent_count": 5,
+      "recent_count": 4,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -10616,8 +10677,32 @@
       "case_sensitive_aliases": [
         "QKD"
       ],
-      "current_evidence_count": 25,
+      "current_evidence_count": 27,
       "evidence": [
+        {
+          "date": "2026-11-21",
+          "key": "https://quantumzeitgeist.com/arxiv-quantum-key-distribution-gain-6db",
+          "report": "2026-11/2026-11-21-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Quantum key distribution could gain 6dB from multiple antennas",
+          "url": "https://quantumzeitgeist.com/arxiv-quantum-key-distribution-gain-6db"
+        },
+        {
+          "date": "2026-11-21",
+          "key": "https://quantumzeitgeist.com/shanghai-jiao-integrated-cv-qkd-29-3kbps",
+          "report": "2026-11/2026-11-21-digest.md",
+          "score": 37,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Researchers achieve 29.3kbps key rate at 100km using integrated CV-QKD",
+          "url": "https://quantumzeitgeist.com/shanghai-jiao-integrated-cv-qkd-29-3kbps"
+        },
         {
           "date": "2026-11-20",
           "key": "https://quantumcomputingreport.com/international-consortium-demonstrates-8000-km-hybrid-qkd-and-post-quantum-network-linking-europe-and-the-u-s-at-sc26",
@@ -10991,15 +11076,15 @@
           "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-to-showcase-quantum-secure-communications-beyond-quantum-key-distribution-at-ecoc-2026"
         }
       ],
-      "evidence_count": 28,
+      "evidence_count": 30,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-11-20",
+      "latest_seen": "2026-11-21",
       "momentum": "rising",
       "name": "Quantum key distribution",
       "prior_count": 1,
       "priority": "high",
-      "recent_count": 5,
+      "recent_count": 7,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -11261,9 +11346,9 @@
       "first_seen": "2026-07-16",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-19",
-      "momentum": "stable",
+      "momentum": "rising",
       "name": "Quantum networking",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -11362,8 +11447,20 @@
         "quantum metrology"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 16,
+      "current_evidence_count": 17,
       "evidence": [
+        {
+          "date": "2026-11-21",
+          "key": "https://quantumzeitgeist.com/penn-state-quantum-sensing-work-delta",
+          "report": "2026-11/2026-11-21-digest.md",
+          "score": 45,
+          "source": "Quantum Zeitgeist",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Delta Gold expands quantum sensing work at Penn State, Toronto",
+          "url": "https://quantumzeitgeist.com/penn-state-quantum-sensing-work-delta"
+        },
         {
           "date": "2026-09-03",
           "key": "https://quantumnews.ai/networking/economic-and-technical-impacts-of-quantum-sensing-in-maritime-navigation",
@@ -11581,16 +11678,16 @@
           "url": "https://www.lockheedmartin.com/en-us/news/features/2026/the-quantum-opportunity-beyond-computing.html"
         }
       ],
-      "evidence_count": 17,
+      "evidence_count": 18,
       "first_seen": "2026-06-24",
       "historical_evidence_count": 1,
-      "latest_seen": "2026-09-03",
-      "momentum": "stable",
+      "latest_seen": "2026-11-21",
+      "momentum": "rising",
       "name": "Quantum sensing",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 0,
-      "status": "dormant",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "Quantum Hardware",
         "Quantum Networking",
@@ -11671,6 +11768,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-11-21T05:10:19.184511+00:00",
+  "updated_at": "2026-11-22T04:34:46.557076+00:00",
   "version": 2
 }

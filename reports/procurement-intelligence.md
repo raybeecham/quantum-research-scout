@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Decision Briefs](bid-no-bid.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-11-21T05:05:06.630011+00:00_
+_Updated 2026-11-22T04:30:12.838176+00:00_
 
 Bounded extraction of public procurement attachments and descriptions linked by SAM.gov. Raw files and full document text are not retained. Version history is tracker-observed from the date collection begins and may not include earlier official revisions.
 
@@ -10,7 +10,7 @@ Bounded extraction of public procurement attachments and descriptions linked by 
 - Documents extracted: **2** / **5** discovered
 - Changed documents: **0**
 - New amendments: **0**
-- Material amendment impacts this run: **1**
+- Material amendment impacts this run: **0**
 - Decisions requiring revalidation: **2**
 
 ## [Post Quantum Cryptography (PQC) Readiness and Validation Status](https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view)
@@ -19,16 +19,6 @@ Evidence completeness: **0 / 100** · Deadline: **2026-12-07T17:00:00-05:00**
 
 - [download](https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6cac125fe9334435bbd487895df35b21/download) — no_text
 - [noticedesc](https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=92c1221a05ca49eb87cd904fc87d7d7b) — no_text
-
-### Changes since the previous tracker snapshot
-
-**HIGH · 1 change(s) · decision revalidation required**
-
-_Version history is tracker-observed and may not include revisions published before monitoring began._
-
-| Impact | Change | Before | After | Evidence |
-|---|---|---|---|---|
-| HIGH | Response deadline extended from 2026-12-07 to 2026-12-07. | 2026-12-07T23:59:00-05:00 | 2026-12-07T17:00:00-05:00 | [Open](https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view) |
 
 ## [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view)
 

@@ -63,7 +63,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.82,
-      "last_evaluated_at": "2026-11-21T05:05:06.630011+00:00",
+      "last_evaluated_at": "2026-11-22T04:30:12.838176+00:00",
       "outcome": null,
       "probability": 0.82,
       "probability_factors": [
@@ -99,7 +99,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-02-19?",
+      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-02-20?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:ai-forge:2026-Q4",
       "resolution_rule": {
@@ -212,7 +212,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.62,
-      "last_evaluated_at": "2026-11-21T05:05:06.630011+00:00",
+      "last_evaluated_at": "2026-11-22T04:30:12.838176+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -249,7 +249,7 @@
           "reason": "Evidence factors changed"
         }
       ],
-      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-02-19?",
+      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-02-20?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:golden-dome:2026-Q4",
       "resolution_rule": {
@@ -260,139 +260,6 @@
       "status": "active",
       "subject": "Golden Dome for America",
       "subject_id": "golden-dome",
-      "triggers": [
-        {
-          "direction": "confirming",
-          "indicator": "Additional linked federal opportunity",
-          "status": "not_observed"
-        },
-        {
-          "direction": "disconfirming",
-          "indicator": "Mission delay, rescope, or funding withdrawal",
-          "status": "not_observed"
-        }
-      ]
-    },
-    {
-      "baseline_record_keys": [
-        "mission_tracker:https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
-      ],
-      "baseline_update_urls": [],
-      "confirming_indicators": [
-        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
-        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
-        "An official funding or program update announces a new competitive workstream."
-      ],
-      "created_at": "2026-08-23T00:54:11.501661+00:00",
-      "disconfirming_indicators": [
-        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
-        "The horizon closes with no additional linked opportunity.",
-        "Execution moves entirely through existing vehicles without a new public notice."
-      ],
-      "dossier": {
-        "announced_funding_value": 0.0,
-        "award_count": 0,
-        "known_award_value": 0.0,
-        "lead_agencies": [
-          "Defense Advanced Research Projects Agency",
-          "National Science Foundation"
-        ],
-        "mission_status": "active",
-        "next_milestone": {
-          "id": "ai-forge-forum",
-          "source_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
-          "target_date": "2026-09-22",
-          "timing": "overdue",
-          "title": "Launch the AI Forge university-industry-government forum"
-        },
-        "official_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
-        "open_opportunities": 0,
-        "priority": "critical",
-        "recipients_and_contractors": [],
-        "record_count": 1,
-        "related_patent_count": 8,
-        "related_patents": [
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "Governance of AI-Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19690658/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "Stateful pretrained transformers in a generative response engine",
-            "url": "https://patents.google.com/patent/US12400074B1/en"
-          }
-        ]
-      },
-      "evidence": [
-        {
-          "authority": "authoritative",
-          "date": null,
-          "role": "official mission",
-          "title": "AI Forge",
-          "url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
-        }
-      ],
-      "forecast_id": "forecast-7688ed42dd53c8a5",
-      "forecast_type": "mission_opportunity_release",
-      "horizon_end": "2026-11-21",
-      "impact": "critical",
-      "initial_probability": 0.46,
-      "last_evaluated_at": "2026-11-21T05:05:06.630011+00:00",
-      "outcome": null,
-      "probability": 0.46,
-      "probability_factors": [
-        {
-          "factor": "base rate",
-          "points": 0.28
-        },
-        {
-          "factor": "critical mission priority",
-          "points": 0.1
-        },
-        {
-          "factor": "near-term mission milestone",
-          "points": 0.08
-        }
-      ],
-      "probability_history": [
-        {
-          "at": "2026-08-23T00:54:11.501661+00:00",
-          "probability": 0.46,
-          "reason": "Forecast opened"
-        }
-      ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-29?",
-      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
-      "registry_key": "mission_opportunity_release:ai-forge:2026-Q3",
-      "resolution_rule": {
-        "kind": "new_linked_opportunity",
-        "negative": "No qualifying record appears by the horizon end.",
-        "positive": "A new linked opportunity record appears after forecast creation."
-      },
-      "status": "active",
-      "subject": "AI Forge",
-      "subject_id": "ai-forge",
       "triggers": [
         {
           "direction": "confirming",
@@ -497,7 +364,7 @@
       "horizon_end": "2026-12-17",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-11-21T05:05:06.630011+00:00",
+      "last_evaluated_at": "2026-11-22T04:30:12.838176+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -636,7 +503,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-11-21T05:05:06.630011+00:00",
+      "last_evaluated_at": "2026-11-22T04:30:12.838176+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -766,7 +633,7 @@
       "horizon_end": "2027-01-07",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-11-21T05:05:06.630011+00:00",
+      "last_evaluated_at": "2026-11-22T04:30:12.838176+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -821,11 +688,11 @@
     }
   ],
   "calibration": {
-    "accuracy_rate": 0.333,
+    "accuracy_rate": 0.4,
     "bins": [
       {
-        "count": 5,
-        "mean_probability": 0.536,
+        "count": 6,
+        "mean_probability": 0.523,
         "observed_rate": 0.0,
         "range": "40\u201360%"
       },
@@ -843,8 +710,8 @@
       }
     ],
     "label": "Needs calibration",
-    "mean_brier_score": 0.255,
-    "resolved_count": 9
+    "mean_brier_score": 0.2507,
+    "resolved_count": 10
   },
   "forecasts": [
     {
@@ -910,7 +777,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.82,
-      "last_evaluated_at": "2026-11-21T05:05:06.630011+00:00",
+      "last_evaluated_at": "2026-11-22T04:30:12.838176+00:00",
       "outcome": null,
       "probability": 0.82,
       "probability_factors": [
@@ -946,7 +813,7 @@
           "reason": "Forecast opened"
         }
       ],
-      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-02-19?",
+      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-02-20?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:ai-forge:2026-Q4",
       "resolution_rule": {
@@ -1059,7 +926,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.62,
-      "last_evaluated_at": "2026-11-21T05:05:06.630011+00:00",
+      "last_evaluated_at": "2026-11-22T04:30:12.838176+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -1096,7 +963,7 @@
           "reason": "Evidence factors changed"
         }
       ],
-      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-02-19?",
+      "question": "Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-02-20?",
       "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
       "registry_key": "mission_opportunity_release:golden-dome:2026-Q4",
       "resolution_rule": {
@@ -1107,139 +974,6 @@
       "status": "active",
       "subject": "Golden Dome for America",
       "subject_id": "golden-dome",
-      "triggers": [
-        {
-          "direction": "confirming",
-          "indicator": "Additional linked federal opportunity",
-          "status": "not_observed"
-        },
-        {
-          "direction": "disconfirming",
-          "indicator": "Mission delay, rescope, or funding withdrawal",
-          "status": "not_observed"
-        }
-      ]
-    },
-    {
-      "baseline_record_keys": [
-        "mission_tracker:https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
-      ],
-      "baseline_update_urls": [],
-      "confirming_indicators": [
-        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
-        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
-        "An official funding or program update announces a new competitive workstream."
-      ],
-      "created_at": "2026-08-23T00:54:11.501661+00:00",
-      "disconfirming_indicators": [
-        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
-        "The horizon closes with no additional linked opportunity.",
-        "Execution moves entirely through existing vehicles without a new public notice."
-      ],
-      "dossier": {
-        "announced_funding_value": 0.0,
-        "award_count": 0,
-        "known_award_value": 0.0,
-        "lead_agencies": [
-          "Defense Advanced Research Projects Agency",
-          "National Science Foundation"
-        ],
-        "mission_status": "active",
-        "next_milestone": {
-          "id": "ai-forge-forum",
-          "source_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
-          "target_date": "2026-09-22",
-          "timing": "overdue",
-          "title": "Launch the AI Forge university-industry-government forum"
-        },
-        "official_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
-        "open_opportunities": 0,
-        "priority": "critical",
-        "recipients_and_contractors": [],
-        "record_count": 1,
-        "related_patent_count": 8,
-        "related_patents": [
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "Governance of AI-Directed Tiered Post Quantum Protection of Multimodal Data",
-            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19690658/application-data"
-          },
-          {
-            "relationship_basis": "analytical domain overlap: artificial intelligence",
-            "relationship_confidence": "low",
-            "title": "Stateful pretrained transformers in a generative response engine",
-            "url": "https://patents.google.com/patent/US12400074B1/en"
-          }
-        ]
-      },
-      "evidence": [
-        {
-          "authority": "authoritative",
-          "date": null,
-          "role": "official mission",
-          "title": "AI Forge",
-          "url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
-        }
-      ],
-      "forecast_id": "forecast-7688ed42dd53c8a5",
-      "forecast_type": "mission_opportunity_release",
-      "horizon_end": "2026-11-21",
-      "impact": "critical",
-      "initial_probability": 0.46,
-      "last_evaluated_at": "2026-11-21T05:05:06.630011+00:00",
-      "outcome": null,
-      "probability": 0.46,
-      "probability_factors": [
-        {
-          "factor": "base rate",
-          "points": 0.28
-        },
-        {
-          "factor": "critical mission priority",
-          "points": 0.1
-        },
-        {
-          "factor": "near-term mission milestone",
-          "points": 0.08
-        }
-      ],
-      "probability_history": [
-        {
-          "at": "2026-08-23T00:54:11.501661+00:00",
-          "probability": 0.46,
-          "reason": "Forecast opened"
-        }
-      ],
-      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-29?",
-      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
-      "registry_key": "mission_opportunity_release:ai-forge:2026-Q3",
-      "resolution_rule": {
-        "kind": "new_linked_opportunity",
-        "negative": "No qualifying record appears by the horizon end.",
-        "positive": "A new linked opportunity record appears after forecast creation."
-      },
-      "status": "active",
-      "subject": "AI Forge",
-      "subject_id": "ai-forge",
       "triggers": [
         {
           "direction": "confirming",
@@ -1344,7 +1078,7 @@
       "horizon_end": "2026-12-17",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-11-21T05:05:06.630011+00:00",
+      "last_evaluated_at": "2026-11-22T04:30:12.838176+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -1483,7 +1217,7 @@
       "horizon_end": "2026-12-30",
       "impact": "critical",
       "initial_probability": 0.46,
-      "last_evaluated_at": "2026-11-21T05:05:06.630011+00:00",
+      "last_evaluated_at": "2026-11-22T04:30:12.838176+00:00",
       "outcome": null,
       "probability": 0.46,
       "probability_factors": [
@@ -1613,7 +1347,7 @@
       "horizon_end": "2027-01-07",
       "impact": "critical",
       "initial_probability": 0.7,
-      "last_evaluated_at": "2026-11-21T05:05:06.630011+00:00",
+      "last_evaluated_at": "2026-11-22T04:30:12.838176+00:00",
       "outcome": null,
       "probability": 0.7,
       "probability_factors": [
@@ -1663,6 +1397,147 @@
           "direction": "disconfirming",
           "indicator": "Delay, cancellation, or rescope",
           "status": "not_observed"
+        }
+      ]
+    },
+    {
+      "baseline_record_keys": [
+        "mission_tracker:https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
+      ],
+      "baseline_update_urls": [],
+      "brier_score": 0.2116,
+      "closing_probability": 0.46,
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-08-23T00:54:11.501661+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "Defense Advanced Research Projects Agency",
+          "National Science Foundation"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "ai-forge-forum",
+          "source_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+          "target_date": "2026-09-22",
+          "timing": "overdue",
+          "title": "Launch the AI Forge university-industry-government forum"
+        },
+        "official_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 1,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Governance of AI-Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19690658/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Stateful pretrained transformers in a generative response engine",
+            "url": "https://patents.google.com/patent/US12400074B1/en"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "AI Forge",
+          "url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
+        }
+      ],
+      "forecast_id": "forecast-7688ed42dd53c8a5",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-11-21",
+      "impact": "critical",
+      "initial_probability": 0.46,
+      "last_evaluated_at": "2026-11-22T04:30:12.838176+00:00",
+      "outcome": false,
+      "outcome_evidence": null,
+      "probability": 0.46,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "near-term mission milestone",
+          "points": 0.08
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-08-23T00:54:11.501661+00:00",
+          "probability": 0.46,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-29?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:ai-forge:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "resolved_at": "2026-11-22T04:30:12.838176+00:00",
+      "status": "resolved",
+      "subject": "AI Forge",
+      "subject_id": "ai-forge",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Additional linked federal opportunity",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "evidence": {
+            "date": "2026-11-22",
+            "title": "Forecast horizon passed without qualifying evidence"
+          },
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "observed"
         }
       ]
     },
@@ -3773,6 +3648,147 @@
   "method_note": "Probabilities use bounded, published heuristics from mission priority, recent official activity, funding, awards, open opportunities, and milestone timing. Forecasts retain their probability history and are scored with the Brier rule after resolution. If supporting linkage is corrected, the forecast is withdrawn transparently and is not included in calibration.",
   "resolved_forecasts": [
     {
+      "baseline_record_keys": [
+        "mission_tracker:https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
+      ],
+      "baseline_update_urls": [],
+      "brier_score": 0.2116,
+      "closing_probability": 0.46,
+      "confirming_indicators": [
+        "A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.",
+        "A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.",
+        "An official funding or program update announces a new competitive workstream."
+      ],
+      "created_at": "2026-08-23T00:54:11.501661+00:00",
+      "disconfirming_indicators": [
+        "The mission or related program is delayed, rescoped, or funding is withdrawn.",
+        "The horizon closes with no additional linked opportunity.",
+        "Execution moves entirely through existing vehicles without a new public notice."
+      ],
+      "dossier": {
+        "announced_funding_value": 0.0,
+        "award_count": 0,
+        "known_award_value": 0.0,
+        "lead_agencies": [
+          "Defense Advanced Research Projects Agency",
+          "National Science Foundation"
+        ],
+        "mission_status": "active",
+        "next_milestone": {
+          "id": "ai-forge-forum",
+          "source_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+          "target_date": "2026-09-22",
+          "timing": "overdue",
+          "title": "Launch the AI Forge university-industry-government forum"
+        },
+        "official_url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security",
+        "open_opportunities": 0,
+        "priority": "critical",
+        "recipients_and_contractors": [],
+        "record_count": 1,
+        "related_patent_count": 8,
+        "related_patents": [
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19388135/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Systems and Methods for AI Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19366133/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Governance of AI-Directed Tiered Post Quantum Protection of Multimodal Data",
+            "url": "https://data.uspto.gov/patent-file-wrapper/search/details/19690658/application-data"
+          },
+          {
+            "relationship_basis": "analytical domain overlap: artificial intelligence",
+            "relationship_confidence": "low",
+            "title": "Stateful pretrained transformers in a generative response engine",
+            "url": "https://patents.google.com/patent/US12400074B1/en"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "authority": "authoritative",
+          "date": null,
+          "role": "official mission",
+          "title": "AI Forge",
+          "url": "https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security"
+        }
+      ],
+      "forecast_id": "forecast-7688ed42dd53c8a5",
+      "forecast_type": "mission_opportunity_release",
+      "horizon_end": "2026-11-21",
+      "impact": "critical",
+      "initial_probability": 0.46,
+      "last_evaluated_at": "2026-11-22T04:30:12.838176+00:00",
+      "outcome": false,
+      "outcome_evidence": null,
+      "probability": 0.46,
+      "probability_factors": [
+        {
+          "factor": "base rate",
+          "points": 0.28
+        },
+        {
+          "factor": "critical mission priority",
+          "points": 0.1
+        },
+        {
+          "factor": "near-term mission milestone",
+          "points": 0.08
+        }
+      ],
+      "probability_history": [
+        {
+          "at": "2026-08-23T00:54:11.501661+00:00",
+          "probability": 0.46,
+          "reason": "Forecast opened"
+        }
+      ],
+      "question": "Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-29?",
+      "rationale": "The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.",
+      "registry_key": "mission_opportunity_release:ai-forge:2026-Q3",
+      "resolution_rule": {
+        "kind": "new_linked_opportunity",
+        "negative": "No qualifying record appears by the horizon end.",
+        "positive": "A new linked opportunity record appears after forecast creation."
+      },
+      "resolved_at": "2026-11-22T04:30:12.838176+00:00",
+      "status": "resolved",
+      "subject": "AI Forge",
+      "subject_id": "ai-forge",
+      "triggers": [
+        {
+          "direction": "confirming",
+          "indicator": "Additional linked federal opportunity",
+          "status": "not_observed"
+        },
+        {
+          "direction": "disconfirming",
+          "evidence": {
+            "date": "2026-11-22",
+            "title": "Forecast horizon passed without qualifying evidence"
+          },
+          "indicator": "Mission delay, rescope, or funding withdrawal",
+          "status": "observed"
+        }
+      ]
+    },
+    {
       "baseline_record_keys": [],
       "baseline_update_urls": [],
       "brier_score": 0.3844,
@@ -5258,19 +5274,19 @@
   ],
   "scope_note": "Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.",
   "summary": {
-    "accuracy_rate": 0.333,
-    "active": 6,
+    "accuracy_rate": 0.4,
+    "active": 5,
     "calibration_label": "Needs calibration",
-    "due_within_30_days": 2,
+    "due_within_30_days": 1,
     "invalidated": 2,
-    "mean_brier_score": 0.255,
+    "mean_brier_score": 0.2507,
     "observed_triggers": 0,
-    "resolved": 9
+    "resolved": 10
   },
   "temporal_context": {
-    "comparison_started_at": "2026-11-20T05:12:24.457646+00:00",
+    "comparison_started_at": "2026-11-21T05:05:06.630011+00:00",
     "historical_discoveries": 0
   },
-  "updated_at": "2026-11-21T05:05:06.630011+00:00",
+  "updated_at": "2026-11-22T04:30:12.838176+00:00",
   "version": 1
 }

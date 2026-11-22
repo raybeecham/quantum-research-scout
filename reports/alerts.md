@@ -4,18 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-21 05:10 UTC_
+_Updated 2026-11-22 04:34 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 3 | 10 | 9 | 31 |
-
-## 🔴 Conflict Opened: Post Quantum Cryptography (PQC) Readiness and Validation Status 🆕
-
-- Severity: **critical**
-- Status: **conflict-opened**
-- deadline · authority authoritative · ['2026-12-07t17:00:00-05:00', '2026-12-07t23:59:00-05:00']
-- [Open supporting view](intelligence-changes.md)
+| 50 | 3 | 8 | 8 | 34 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -63,7 +56,7 @@ _Updated 2026-11-21 05:10 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Software / Tooling has critical strategic importance and stable momentum.
+- 🔴 Quantum Software / Tooling has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Standards / Government
@@ -72,13 +65,6 @@ _Updated 2026-11-21 05:10 UTC_
 - Status: **critical**
 - 🔴 Standards / Government has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
-
-## 🔴 Source failing: Quantum Computing Patents 🆕
-
-- Severity: **critical**
-- Status: **failing**
-- 🔴 90.4% reliability with 5 warning day(s).
-- [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
 
@@ -108,33 +94,25 @@ _Updated 2026-11-21 05:10 UTC_
 - 🎯 Quantum Sensing is actionable with high confidence.
 - [Open supporting view](signals.md)
 
-## 🟠 Procurement amendment impact: Post Quantum Cryptography (PQC) Readiness and Validation Status 🆕
-
-- Severity: **high**
-- Status: **decision-revalidation-required**
-- Response deadline extended from 2026-12-07 to 2026-12-07. Prior qualification and bid/no-bid assumptions require analyst revalidation; no analyst decision was changed automatically.
-- [Open direct evidence](https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view)
-- [Open supporting view](procurement-intelligence.md)
-
 ## 🟠 Rising momentum: AI Security
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 5 versus 2 in the prior period.
+- ↗️ Recent evidence is 6 versus 2 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 22 versus 2 in the prior period.
+- ↗️ Recent evidence is 18 versus 7 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Networking
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 16 versus 6 in the prior period.
+- ↗️ Recent evidence is 19 versus 5 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -355,6 +333,27 @@ _Updated 2026-11-21 05:10 UTC_
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: USAspending · Autonomy and Sensing
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-11-01; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · Genesis Mission 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · Golden Dome 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-04-01; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · Post-Quantum Cybersecurity 🆕
 
 - Severity: **medium**
 - Status: **stale**

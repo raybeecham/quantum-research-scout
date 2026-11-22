@@ -2,27 +2,17 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-11-21T05:05:06.630011+00:00_
+_Updated 2026-11-22T04:30:12.838176+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
-- Actual or recent changes: **9**
+- Actual or recent changes: **0**
 - Newly discovered historical evidence: **0**
-- Newly observed with no reliable source date: **4**
+- Newly observed with no reliable source date: **0**
 - Upcoming dated events: **11**
 
 ## Priority timeline
 
-- **Conflict opened since prior run** · Post Quantum Cryptography (PQC) Readiness and Validation Status — deadline
-  - A new unresolved disagreement appeared in the claim ledger comparison.
-- **Published today** · Post Quantum Cryptography (PQC) Readiness and Validation Status — awarding agency ([evidence](https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view))
-  - The source publication date is today or within the prior day.
-- **Occurred 2 days ago** · NHLBI: SUPPLY: NVISION POLARIS PARAHYDROGEN-INDUCED POLARIZER: N/A — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_75N98027P00131_7529_-NONE-_-NONE-))
-  - A recent source-reported event was newly incorporated into the ledger.
-- **Upcoming event date** · THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,… — awarding agency ([evidence](https://www.usaspending.gov/award/CONT_AWD_89233127FNA400832_8900_89233126DNA000072_8900))
-  - The source date is in the future; Frontier Signal first observed it on 2026-11-21.
-- **Newly observed · event date unknown** · UNIVERSITY OF CALIFORNIA, LOS ANGELES — cage code ([evidence](https://sam.gov/entity/RN64EPNH8JC6/coreData))
-  - Frontier Signal observed the assertion during this comparison, but the source does not provide a reliable event or publication date.
 - **Resolved since prior run** · DOW Combat Readiness – Medical Research Program Translational Research Award — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362961))
   - The assertion moved out of the active set after comparison.
 - **Resolved since prior run** · F26AS00085 Aquatic Invasive Species Interjurisdictional Grants to the Great Lakes States and Tribes - Fiscal Year 2026 Great Lakes Restoration Initiative — awarding agency ([evidence](https://www.grants.gov/search-results-detail/362498))

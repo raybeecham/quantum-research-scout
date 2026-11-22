@@ -2,13 +2,13 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-11-21T05:05:06.630011+00:00_
+_Updated 2026-11-22T04:30:12.838176+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
-- Active forecasts: **6**
-- Due within 30 days: **2**
-- Resolved forecasts: **9**
+- Active forecasts: **5**
+- Due within 30 days: **1**
+- Resolved forecasts: **10**
 - Withdrawn without scoring: **2**
 - Calibration: **Needs calibration**
 
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 82% · AI Forge
 
-Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-02-19?
+Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-02-20?
 
 **Horizon:** 2026-12-30
 
@@ -41,7 +41,7 @@ Will Frontier Signal observe an additional federal solicitation, grant opportuni
 
 ### 70% · Golden Dome for America
 
-Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-02-19?
+Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-02-20?
 
 **Horizon:** 2026-12-30
 
@@ -51,30 +51,6 @@ Will Frontier Signal observe an additional federal solicitation, grant opportuni
 
 - [Golden Dome for America Commercial Solutions Opening](https://sam.gov/workspace/contract/opp/6150c7f02584434a9ea90adeb8260b15/view) — official funding announcement · 2026-11-04
 - [Golden Dome for America](https://www.whitehouse.gov/presidential-actions/2025/01/the-iron-dome-for-america/) — official mission · date not reported
-
-**Confirming indicators**
-
-- A new SAM.gov, Grants.gov, or official agency notice names the mission or a configured alias.
-- A draft solicitation, RFI, BAA, or funding-opportunity announcement appears.
-- An official funding or program update announces a new competitive workstream.
-
-**Disconfirming indicators**
-
-- The mission or related program is delayed, rescoped, or funding is withdrawn.
-- The horizon closes with no additional linked opportunity.
-- Execution moves entirely through existing vehicles without a new public notice.
-
-### 46% · AI Forge
-
-Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-29?
-
-**Horizon:** 2026-11-21
-
-**Why:** The hypothesis tests whether visible mission execution converts into another competitive or market-shaping federal opportunity during the forecast horizon.
-
-**Evidence**
-
-- [AI Forge](https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security) — official mission · date not reported
 
 **Confirming indicators**
 
@@ -162,6 +138,7 @@ Will authoritative evidence confirm “Advance selected NSF NQVL projects from d
 
 ## Resolved and scored
 
+- **Did not occur** · Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2026-12-29? · closing probability 46% · Brier 0.2116
 - **Did not occur** · Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2026-12-29? · closing probability 62% · Brier 0.3844
 - **Occurred** · Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2027-01-07? · closing probability 86% · Brier 0.0196
 - **Occurred** · Will Scout observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Genesis Mission by 2026-12-29? · closing probability 86% · Brier 0.0196
