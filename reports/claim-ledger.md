@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-11-22T10:36:11.213444+00:00_
+_Updated 2026-11-23T05:05:46.876844+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **5210**
-- Authoritative claims: **4984**
+- Active claims: **5214**
+- Authoritative claims: **4988**
 - Analytical claims: **220**
 - Conflicted claims: **44**
-- Evidence items / URLs: **5316 / 1429**
+- Evidence items / URLs: **5320 / 1430**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -58,6 +58,10 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | SOLIEL LLC | legal business name | SOLIEL LLC | authoritative / high | [SOLIEL LLC](https://sam.gov/entity/JXYLN4KMJ3Y5/coreData) |
+| active | SOLIEL LLC | uei | JXYLN4KMJ3Y5 | authoritative / high | [SOLIEL LLC](https://sam.gov/entity/JXYLN4KMJ3Y5/coreData) |
+| active | SOLIEL LLC | cage code | 45CF5 | authoritative / high | [SOLIEL LLC](https://sam.gov/entity/JXYLN4KMJ3Y5/coreData) |
+| active | SOLIEL LLC | registration status | Active | authoritative / high | [SOLIEL LLC](https://sam.gov/entity/JXYLN4KMJ3Y5/coreData) |
 | active | THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,… | opportunity status | awarded | authoritative / high | [THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,…](https://www.usaspending.gov/award/CONT_AWD_89233127FNA400832_8900_89233126DNA000072_8900) |
 | active | THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,… | awarding agency | Department of Energy | authoritative / high | [THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,…](https://www.usaspending.gov/award/CONT_AWD_89233127FNA400832_8900_89233126DNA000072_8900) |
 | active | THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,… | reported amount | 2691600.4 | authoritative / high | [THE TASK ORDER INCLUDES THE BASE YEAR TO INCLUDE OPERATIONS AND SUSTAINMENT. THE EFFORT SUPPORTS DEFENSE NUCLEAR SECURITY (DNS/NA-70) IN THE DESIGN, DEVELOPMENT, INTEGRATION,…](https://www.usaspending.gov/award/CONT_AWD_89233127FNA400832_8900_89233126DNA000072_8900) |
@@ -260,10 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | 70B04C26F00001201 CTO/TECHNOLOGY ROADMAP FOR ARTIFICIAL INTELLIGENCE AND NEXT-GENERATION COMPUTING (TRAIN-C) AND CSPD/TRADE IT MODERNIZATION PROJECTS. | reported amount | 14175438.63 | authoritative / high | [70B04C26F00001201 CTO/TECHNOLOGY ROADMAP FOR ARTIFICIAL INTELLIGENCE AND NEXT-GENERATION COMPUTING (TRAIN-C) AND CSPD/TRADE IT MODERNIZATION PROJECTS.](https://www.usaspending.gov/award/CONT_AWD_70B04C26F00001201_7014_47QREA21D0001_4732) |
 | active | 70B04C26F00001201 CTO/TECHNOLOGY ROADMAP FOR ARTIFICIAL INTELLIGENCE AND NEXT-GENERATION COMPUTING (TRAIN-C) AND CSPD/TRADE IT MODERNIZATION PROJECTS. | reported recipient | BOOZ ALLEN HAMILTON INC | authoritative / high | [70B04C26F00001201 CTO/TECHNOLOGY ROADMAP FOR ARTIFICIAL INTELLIGENCE AND NEXT-GENERATION COMPUTING (TRAIN-C) AND CSPD/TRADE IT MODERNIZATION PROJECTS.](https://www.usaspending.gov/award/CONT_AWD_70B04C26F00001201_7014_47QREA21D0001_4732) |
 | active | POST-QUANTUM CRYPTOGRAPHY AND FEDERAL IDENTITY MANAGEMENT SUPPORT SERVICES | opportunity status | awarded | authoritative / high | [POST-QUANTUM CRYPTOGRAPHY AND FEDERAL IDENTITY MANAGEMENT SUPPORT SERVICES](https://www.usaspending.gov/award/CONT_AWD_47QACB26C0005_4732_-NONE-_-NONE-) |
-| active | POST-QUANTUM CRYPTOGRAPHY AND FEDERAL IDENTITY MANAGEMENT SUPPORT SERVICES | awarding agency | General Services Administration | authoritative / high | [POST-QUANTUM CRYPTOGRAPHY AND FEDERAL IDENTITY MANAGEMENT SUPPORT SERVICES](https://www.usaspending.gov/award/CONT_AWD_47QACB26C0005_4732_-NONE-_-NONE-) |
-| active | POST-QUANTUM CRYPTOGRAPHY AND FEDERAL IDENTITY MANAGEMENT SUPPORT SERVICES | reported amount | 1300000.15 | authoritative / high | [POST-QUANTUM CRYPTOGRAPHY AND FEDERAL IDENTITY MANAGEMENT SUPPORT SERVICES](https://www.usaspending.gov/award/CONT_AWD_47QACB26C0005_4732_-NONE-_-NONE-) |
-| active | POST-QUANTUM CRYPTOGRAPHY AND FEDERAL IDENTITY MANAGEMENT SUPPORT SERVICES | reported recipient | SCALAR LLC | authoritative / high | [POST-QUANTUM CRYPTOGRAPHY AND FEDERAL IDENTITY MANAGEMENT SUPPORT SERVICES](https://www.usaspending.gov/award/CONT_AWD_47QACB26C0005_4732_-NONE-_-NONE-) |
-| active | THIS REQUIREMENT WORKSPACE SUPPORTS THE ACQUISITION OF IT MODERNIZATION SERVICES FOR ORI, INCLUDING LEGACY SYSTEM MODERNIZATION, CLOUD MIGRATION, CYBERSECURITY, DATA MIGRATION, AN... | opportunity status | awarded | authoritative / high | [THIS REQUIREMENT WORKSPACE SUPPORTS THE ACQUISITION OF IT MODERNIZATION SERVICES FOR ORI, INCLUDING LEGACY SYSTEM MODERNIZATION, CLOUD MIGRATION, CYBERSECURITY, DATA MIGRATION, AN...](https://www.usaspending.gov/award/CONT_AWD_7571MN26F80168_7571_NNG15SC98B_8000) |
 
 ## Method
 

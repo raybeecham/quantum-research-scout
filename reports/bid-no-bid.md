@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Document Intelligence](procurement-intelligence.md) · [Federal Funding](federal-funding.md)
 
-_Updated 2026-11-22T10:36:11.213444+00:00_
+_Updated 2026-11-23T05:05:46.876844+00:00_
 
 Provisional opportunity qualification based on collected public evidence. Organization-specific capability details remain local and are not included in this public report. Pricing, conflicts, and approval authority must be confirmed before a bid/no-bid decision.
 
@@ -110,7 +110,7 @@ Recommended actions:
 - Rebaseline the response calendar against the latest official deadline.
 - Confirm controlling requirements in the controlling solicitation
 - Confirm evaluation criteria in the controlling solicitation
-- Record an authorized bid/no-bid decision with owner and rationale
+- Confirm response calendar, internal reviews, and submission lead time
 
 Risks:
 - Document evidence is incomplete; review the controlling files manually

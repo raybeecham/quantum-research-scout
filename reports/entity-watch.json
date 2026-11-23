@@ -10664,8 +10664,20 @@
       "case_sensitive_aliases": [
         "QKD"
       ],
-      "current_evidence_count": 27,
+      "current_evidence_count": 28,
       "evidence": [
+        {
+          "date": "2026-11-22",
+          "key": "https://arxiv.org/abs/2611.26925",
+          "report": "2026-11/2026-11-22-digest.md",
+          "score": 45,
+          "source": "arXiv RSS quant-ph",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "Benchmarking Quantum Key Distribution Hardware Across Operating Conditions",
+          "url": "https://arxiv.org/abs/2611.26925"
+        },
         {
           "date": "2026-11-21",
           "key": "https://quantumzeitgeist.com/arxiv-quantum-key-distribution-gain-6db",
@@ -11063,13 +11075,13 @@
           "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-to-showcase-quantum-secure-communications-beyond-quantum-key-distribution-at-ecoc-2026"
         }
       ],
-      "evidence_count": 30,
+      "evidence_count": 31,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-11-21",
+      "latest_seen": "2026-11-22",
       "momentum": "rising",
       "name": "Quantum key distribution",
-      "prior_count": 1,
+      "prior_count": 2,
       "priority": "high",
       "recent_count": 7,
       "status": "active",
@@ -11755,6 +11767,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-11-22T10:36:11.213444+00:00",
+  "updated_at": "2026-11-23T05:13:40.892297+00:00",
   "version": 2
 }

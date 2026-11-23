@@ -5601,12 +5601,11 @@
       "business_types": [
         "Business or Organization",
         "For Profit Organization",
-        "Foreign Owned",
-        "Manufacturer of Goods"
+        "Foreign Owned"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "23386",
-      "checked_at": "2026-10-24T02:49:00.911271+00:00",
+      "checked_at": "2026-11-23T05:05:46.876844+00:00",
       "contractor_name": "THALES DEFENSE & SECURITY INC",
       "contractor_score": 30,
       "dba_name": "THALES COMMUNICATIONS INC",
@@ -5620,55 +5619,7 @@
       "legal_business_name": "THALES DEFENSE & SECURITY INC",
       "naics": [
         {
-          "code": "333310",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "334220",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "334290",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "334511",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "335910",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "335999",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "336413",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "513210",
-          "name": null,
-          "primary": null,
-          "small_business": null
-        },
-        {
-          "code": "517111",
+          "code": "541330",
           "name": null,
           "primary": null,
           "small_business": null
@@ -5680,13 +5631,13 @@
           "small_business": null
         },
         {
-          "code": "541511",
+          "code": "335910",
           "name": null,
           "primary": null,
           "small_business": null
         },
         {
-          "code": "541512",
+          "code": "517111",
           "name": null,
           "primary": null,
           "small_business": null
@@ -5698,7 +5649,67 @@
           "small_business": null
         },
         {
+          "code": "541715",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541330",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541330",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "336413",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
           "code": "611420",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541511",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541715",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "335999",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541715",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "334511",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "541512",
           "name": null,
           "primary": null,
           "small_business": null
@@ -5708,9 +5719,33 @@
           "name": null,
           "primary": null,
           "small_business": null
+        },
+        {
+          "code": "334220",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "333310",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "334290",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        },
+        {
+          "code": "513210",
+          "name": null,
+          "primary": null,
+          "small_business": null
         }
       ],
-      "organization_structure": "Manufacturer of Goods",
+      "organization_structure": "Foreign Owned",
       "psc": [
         {
           "code": null,
@@ -5718,7 +5753,7 @@
         }
       ],
       "purpose_of_registration": "All Awards",
-      "registration_expiration_date": "2026-11-04",
+      "registration_expiration_date": "2027-10-14",
       "registration_status": "Active",
       "resolution_basis": "exact normalized legal-name match",
       "resolution_confidence": "high",
@@ -9399,6 +9434,62 @@
     },
     {
       "aliases": [
+        "SOLIEL LLC"
+      ],
+      "business_types": [
+        "Asian-Pacific American Owned",
+        "Business or Organization",
+        "For Profit Organization",
+        "Limited Liability Company",
+        "Minority-Owned Business",
+        "Women-Owned Business",
+        "Women-Owned Small Business"
+      ],
+      "cache_status": "refreshed",
+      "cage_code": "45CF5",
+      "checked_at": "2026-11-23T05:05:46.876844+00:00",
+      "contractor_name": "SOLIEL LLC",
+      "contractor_score": 26,
+      "dba_name": null,
+      "entity_structure": "Corporate Entity (Not Tax Exempt)",
+      "exclusion_status": "N",
+      "identity_id": "name:soliel",
+      "immediate_parent": {
+        "name": null,
+        "uei": null
+      },
+      "legal_business_name": "SOLIEL LLC",
+      "naics": [
+        {
+          "code": "541512",
+          "name": null,
+          "primary": null,
+          "small_business": null
+        }
+      ],
+      "organization_structure": "Limited Liability Company",
+      "psc": [
+        {
+          "code": null,
+          "name": null
+        }
+      ],
+      "purpose_of_registration": "All Awards",
+      "registration_expiration_date": "2027-09-30",
+      "registration_status": "Active",
+      "resolution_basis": "exact normalized legal-name match",
+      "resolution_confidence": "high",
+      "resolution_status": "resolved",
+      "sba_business_types": [],
+      "source_url": "https://sam.gov/entity/JXYLN4KMJ3Y5/coreData",
+      "uei": "JXYLN4KMJ3Y5",
+      "ultimate_parent": {
+        "name": null,
+        "uei": null
+      }
+    },
+    {
+      "aliases": [
         "PRIDE MOBILITY PRODUCTS CORPORATION"
       ],
       "business_types": [
@@ -9661,9 +9752,9 @@
         "Women-Owned Business",
         "Women-Owned Small Business"
       ],
-      "cache_status": "fresh",
+      "cache_status": "refreshed",
       "cage_code": "0ABU8",
-      "checked_at": "2026-10-24T02:49:00.911271+00:00",
+      "checked_at": "2026-11-23T05:05:46.876844+00:00",
       "contractor_name": "DSD LABORATORIES INC",
       "contractor_score": 26,
       "dba_name": null,
@@ -12893,19 +12984,6 @@
     },
     {
       "aliases": [
-        "SOLIEL LLC"
-      ],
-      "cache_status": "run_budget_exhausted",
-      "checked_at": null,
-      "contractor_name": "SOLIEL LLC",
-      "contractor_score": 26,
-      "identity_id": "name:soliel",
-      "resolution_basis": "Queued for a future bounded enrichment batch",
-      "resolution_confidence": "unknown",
-      "resolution_status": "pending"
-    },
-    {
-      "aliases": [
         "REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE"
       ],
       "cache_status": "retained",
@@ -14171,15 +14249,15 @@
   "summary": {
     "ambiguous": 8,
     "api_key_configured": true,
-    "name_only": 124,
-    "newly_resolved": 0,
+    "name_only": 123,
+    "newly_resolved": 1,
     "no_match": 1,
-    "pending": 115,
+    "pending": 114,
     "queries_remaining": 0,
-    "resolved": 104,
+    "resolved": 105,
     "tracked_contractors": 75,
-    "uei_coverage_percent": 138.7
+    "uei_coverage_percent": 140.0
   },
-  "updated_at": "2026-11-22T10:36:11.213444+00:00",
+  "updated_at": "2026-11-23T05:05:46.876844+00:00",
   "version": 1
 }

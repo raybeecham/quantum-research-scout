@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-11-22 10:36 UTC_
+_Updated 2026-11-23 05:13 UTC_
 
 ## Organizations
 
@@ -59,7 +59,7 @@ _Updated 2026-11-22 10:36 UTC_
 | Crypto-agility | ↘️ declining (0 vs 2) | 🔴 critical | quiet | 2025-08-06 | 2026-11-12 | 42 | 24 |
 | ML-DSA | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2026-06-29 | 2026-10-26 | 10 | 3 |
 | ML-KEM | ➡️ stable (0 vs 0) | 🔴 critical | dormant | 2026-07-27 | 2026-10-14 | 7 | 5 |
-| Quantum key distribution | ↗️ rising (7 vs 1) | 🟠 high | active | 2026-06-29 | 2026-11-21 | 30 | 3 |
+| Quantum key distribution | ↗️ rising (7 vs 2) | 🟠 high | active | 2026-06-29 | 2026-11-22 | 31 | 3 |
 | Quantum networking | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-07-16 | 2026-11-19 | 20 | 0 |
 | Hybrid TLS | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-10-08 | 2026-10-08 | 1 | 0 |
 | SLH-DSA | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-08-10 | 2026-08-10 | 1 | 1 |

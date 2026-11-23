@@ -2,12 +2,12 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-11-22T10:36:11.213444+00:00_
+_Updated 2026-11-23T05:05:46.876844+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **27**
-- Added / changed / resolved: **0 / 0 / 27**
+- Material changes: **31**
+- Added / changed / resolved: **4 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **18**
 - Conflicts opened / resolved: **0 / 0**
@@ -18,7 +18,10 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- None.
+- **SOLIEL LLC** — legal business name: SOLIEL LLC ([evidence](https://sam.gov/entity/JXYLN4KMJ3Y5/coreData))
+- **SOLIEL LLC** — uei: JXYLN4KMJ3Y5 ([evidence](https://sam.gov/entity/JXYLN4KMJ3Y5/coreData))
+- **SOLIEL LLC** — cage code: 45CF5 ([evidence](https://sam.gov/entity/JXYLN4KMJ3Y5/coreData))
+- **SOLIEL LLC** — registration status: Active ([evidence](https://sam.gov/entity/JXYLN4KMJ3Y5/coreData))
 
 ## Superseded claims
 

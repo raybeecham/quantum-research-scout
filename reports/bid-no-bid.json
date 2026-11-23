@@ -13,7 +13,7 @@
           "type": "primary"
         }
       ],
-      "days_to_close": 1591,
+      "days_to_close": 1590,
       "deadline": "2031-04-01T23:59:00-04:00",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -196,7 +196,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 25,
+      "days_to_close": 24,
       "deadline": "12/17/2026",
       "decision_freshness": {
         "current_gate": "qualify",
@@ -300,7 +300,7 @@
       "amount": null,
       "analytical_caveat": "This is a provisional qualification gate, not an authorized bid/no-bid decision. Market participants and teaming candidates are analytical matches.",
       "contacts": [],
-      "days_to_close": 51,
+      "days_to_close": 50,
       "deadline": "01/12/2027",
       "decision_freshness": {
         "current_gate": "targeted review",
@@ -415,7 +415,7 @@
           "type": "secondary"
         }
       ],
-      "days_to_close": 15,
+      "days_to_close": 14,
       "deadline": "2026-12-07T17:00:00-05:00",
       "decision_freshness": {
         "current_gate": "hold",
@@ -665,7 +665,7 @@
         "Rebaseline the response calendar against the latest official deadline.",
         "Confirm controlling requirements in the controlling solicitation",
         "Confirm evaluation criteria in the controlling solicitation",
-        "Record an authorized bid/no-bid decision with owner and rationale"
+        "Confirm response calendar, internal reviews, and submission lead time"
       ],
       "requirements": [],
       "risks": [
@@ -709,6 +709,6 @@
     "qualify": 2,
     "targeted_review": 1
   },
-  "updated_at": "2026-11-22T10:36:11.213444+00:00",
+  "updated_at": "2026-11-23T05:05:46.876844+00:00",
   "version": 1
 }

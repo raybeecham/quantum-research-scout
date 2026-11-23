@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-11-22",
+  "as_of_date": "2026-11-23",
   "claims": [
     {
       "authority": "authoritative",
@@ -2108,6 +2108,186 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-4fa0d6b6c711b15d",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-23",
+      "evidence_ids": [
+        "evidence-2f741a85d7b564d3"
+      ],
+      "first_seen_at": "2026-11-23T05:05:46.876844+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-23T05:05:46.876844+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-2f741a85d7b564d3",
+          "locator": "legal_business_name:soliel llc",
+          "title": "SOLIEL LLC",
+          "url": "https://sam.gov/entity/JXYLN4KMJ3Y5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "name:soliel",
+        "label": "SOLIEL LLC",
+        "node_id": "recipient_or_contractor:name:soliel",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "SOLIEL LLC",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d5460981eddf98a3"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-278d0b673aad7c91",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-23",
+      "evidence_ids": [
+        "evidence-5f8bebbded030718"
+      ],
+      "first_seen_at": "2026-11-23T05:05:46.876844+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-23T05:05:46.876844+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-5f8bebbded030718",
+          "locator": "uei:jxyln4kmj3y5",
+          "title": "SOLIEL LLC",
+          "url": "https://sam.gov/entity/JXYLN4KMJ3Y5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "name:soliel",
+        "label": "SOLIEL LLC",
+        "node_id": "recipient_or_contractor:name:soliel",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "JXYLN4KMJ3Y5",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ec000bf73c5e3adc"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-695a8ca2cac6d132",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-23",
+      "evidence_ids": [
+        "evidence-0d14bf94ddd35e11"
+      ],
+      "first_seen_at": "2026-11-23T05:05:46.876844+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-23T05:05:46.876844+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0d14bf94ddd35e11",
+          "locator": "cage_code:45cf5",
+          "title": "SOLIEL LLC",
+          "url": "https://sam.gov/entity/JXYLN4KMJ3Y5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "name:soliel",
+        "label": "SOLIEL LLC",
+        "node_id": "recipient_or_contractor:name:soliel",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "45CF5",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "b25f694a16d43052"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-f7b655b119023f24",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-11-23",
+      "evidence_ids": [
+        "evidence-4bd25b3397d39cce"
+      ],
+      "first_seen_at": "2026-11-23T05:05:46.876844+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-23T05:05:46.876844+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-4bd25b3397d39cce",
+          "locator": "registration_status:active",
+          "title": "SOLIEL LLC",
+          "url": "https://sam.gov/entity/JXYLN4KMJ3Y5/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "name:soliel",
+        "label": "SOLIEL LLC",
+        "node_id": "recipient_or_contractor:name:soliel",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "4d437c00a40cfa46"
     },
     {
       "authority": "authoritative",
@@ -259329,7 +259509,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259376,7 +259556,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259423,7 +259603,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259470,7 +259650,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259517,7 +259697,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259564,7 +259744,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259611,7 +259791,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259658,7 +259838,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259705,7 +259885,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259752,7 +259932,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259799,7 +259979,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259846,7 +260026,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259893,7 +260073,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259940,7 +260120,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259987,7 +260167,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260034,7 +260214,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260081,7 +260261,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260128,7 +260308,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260180,7 +260360,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260232,7 +260412,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260284,7 +260464,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260336,7 +260516,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260388,7 +260568,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260440,7 +260620,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260492,7 +260672,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260544,7 +260724,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260596,7 +260776,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-22T10:36:11.213444+00:00",
+      "retracted_at": "2026-11-23T05:05:46.876844+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -263572,6 +263752,16 @@
       "locator": "qualification_gate",
       "title": "7A--Machine Learning Assisted Electronic Monitoring",
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/697abeb08a694916b1f38c1d59147ee9/download",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-0d14bf94ddd35e11",
+      "locator": "cage_code:45cf5",
+      "title": "SOLIEL LLC",
+      "url": "https://sam.gov/entity/JXYLN4KMJ3Y5/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -270509,6 +270699,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-2f741a85d7b564d3",
+      "locator": "legal_business_name:soliel llc",
+      "title": "SOLIEL LLC",
+      "url": "https://sam.gov/entity/JXYLN4KMJ3Y5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-2f81a8d21766a627",
       "locator": "deadline:2026-09-21t16:30:00-04:00",
       "title": "28--BLADE,COMPRESSOR,AI",
@@ -276369,6 +276569,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-4bd25b3397d39cce",
+      "locator": "registration_status:active",
+      "title": "SOLIEL LLC",
+      "url": "https://sam.gov/entity/JXYLN4KMJ3Y5/coreData",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-4bd3eaeb4551bdf2",
       "locator": "awarding_agency:department of commerce",
       "title": "PURPOSE: THE PURPOSE OF THIS PROJECT IS TO ESTABLISH THE ANDERSON COLLEGE CENTER FOR CYBER SECURITY DEFENSE (CCSD) AT REGIS UNIVERSITY. THE CENTER WILL SERVE AS A FULLY EQUIPPED A...",
@@ -280383,6 +280593,16 @@
       "locator": "opportunity_status:awarded",
       "title": "I-CORPS: TRANSLATION POTENTIAL OF QUANTUM-ARTIFICIAL INTELLIGENCE (AI) IN ENERGY AND INFRASTRUCTURE SECURITY AND RESILIENCE -THIS I-CORPS PROJECT IS BASED ON THE DEVELOPMENT OF A...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2632169_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-5f8bebbded030718",
+      "locator": "uei:jxyln4kmj3y5",
+      "title": "SOLIEL LLC",
+      "url": "https://sam.gov/entity/JXYLN4KMJ3Y5/coreData",
       "verification_status": "source_reported"
     },
     {
@@ -313789,16 +314009,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 5210,
-    "authoritative_claims": 4984,
+    "active_claims": 5214,
+    "authoritative_claims": 4988,
     "conflicted_claims": 44,
     "derived_claims": 220,
-    "evidence_items": 5316,
-    "source_urls": 1429,
-    "subjects": 1063,
+    "evidence_items": 5320,
+    "source_urls": 1430,
+    "subjects": 1064,
     "superseded_claims": 0,
-    "total_claims": 5237
+    "total_claims": 5241
   },
-  "updated_at": "2026-11-22T10:36:11.213444+00:00",
+  "updated_at": "2026-11-23T05:05:46.876844+00:00",
   "version": 1
 }
