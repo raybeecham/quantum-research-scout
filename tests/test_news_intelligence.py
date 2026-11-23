@@ -7,7 +7,7 @@ from pathlib import Path
 import pytest
 
 from pqc_quantum_research_agent.news_intelligence import (
-    _matching_preprint_crosspost,
+    _preprint_crosspost_basis,
     build_news_intelligence,
     enrich_news_story,
 )
@@ -965,7 +965,51 @@ def test_preprint_crosspost_matching_rejects_conflicting_excerpts():
 def test_preprint_crosspost_matching_requires_excerpts():
     one, two = preprint_crossposts()
     one["key_points"] = []
-    assert not _matching_preprint_crosspost(one, two)
+    assert not _preprint_crosspost_basis(one, two)
+
+
+def test_reviewed_pcc_crosspost_merges_only_the_exact_versionless_urls():
+    # Synthetic excerpts and dates verify source-specific presentation and matching.
+    title = "PCC: Proof-Carrying Credentials for Enhanced Anonymity and Post-Quantum Delegation"
+    arxiv = story(
+        title,
+        "https://arxiv.org/abs/2611.27250",
+        source="arXiv",
+        source_kind="preprint",
+        date="2026-09-27",
+        key_points=["This arXiv abstract summarizes anonymous delegation."],
+    )
+    iacr = story(
+        title,
+        "https://eprint.iacr.org/2026/2992",
+        source="IACR ePrint",
+        source_kind="preprint",
+        date="2026-09-28",
+        key_points=["This IACR ePrint abstract instead describes proof-carrying state."],
+    )
+    for items in [(arxiv, iacr), (iacr, arxiv)]:
+        result = build(*items)
+        assert len(result["stories"]) == 1
+        assert len(result["accounts"]) == 2
+        representative = result["stories"][0]
+        assert {row["url"] for row in representative["related"]} == {arxiv["url"], iacr["url"]} - {
+            representative["url"]
+        }
+        assert {
+            row["url"]: (row["source"], row["date"], row["excerpts"])
+            for row in representative["news_event"]["accounts"]
+        } == {row["url"]: (row["source"], row["date"], row["key_points"]) for row in items}
+        assert "Reviewed arXiv and IACR" in representative["news_event"]["basis"][0]
+        assert "not independent corroboration" in representative["news_event"]["basis"][0]
+
+    for other_url in [
+        "https://arxiv.org/abs/2611.27250v2",
+        "https://arxiv.org/abs/2611.27251",
+        "https://arxiv.org/abs/2611.27250?revision=2",
+    ]:
+        assert len(build({**arxiv, "url": other_url}, iacr)["stories"]) == 2
+    assert len(build({**arxiv, "title": title + " Follow-up"}, iacr)["stories"]) == 2
+    assert len(build(arxiv, {**iacr, "url": "https://eprint.iacr.org/2026/2993"})["stories"]) == 2
 
 
 def test_headline_only_has_no_invented_excerpt():

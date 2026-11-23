@@ -1310,10 +1310,8 @@ def _event_features(item, registry, names, identifiers):
 
 
 def _event_match(left, right, left_features, right_features):
-    if _matching_preprint_crosspost(left, right):
-        return [
-            "Matching title, confirmed publication date and collected excerpts across arXiv and IACR ePrint; likely cross-posted manuscript, not independent corroboration."
-        ]
+    if basis := _preprint_crosspost_basis(left, right):
+        return [basis]
     if _near_duplicate(left, right):
         return [
             "Near-identical headlines on the same confirmed publication date, with matching quantities and no conflicting headline wording."
@@ -1365,32 +1363,57 @@ def _event_match(left, right, left_features, right_features):
     ]
 
 
-def _matching_preprint_crosspost(left, right):
-    """Group narrowly evidenced cross-posts, never title-only or version matches."""
+# Exact, reviewed repository pairs for cross-posts with separately worded
+# abstracts. Both PCC records give the same four authors, method, and benchmark
+# values. The ePrint mirror provides the source evidence if its origin is down:
+# https://eprint.iacr.asia/2026/2992
+_REVIEWED_PREPRINT_CROSSPOSTS = {
+    frozenset(
+        {"https://arxiv.org/abs/2611.27250", "https://eprint.iacr.org/2026/2992"}
+    ): "PCC: Proof-Carrying Credentials for Enhanced Anonymity and Post-Quantum Delegation",
+}
+
+
+def _preprint_crosspost_basis(left, right):
+    """Require reviewed repository IDs or substantial identical captured evidence."""
     if any(row.get("source_kind") != "preprint" for row in (left, right)):
-        return False
-    if not _published(left) or _published(left) != _published(right):
-        return False
+        return ""
     urls = [urlsplit(row["url"]) for row in (left, right)]
     if {url.hostname for url in urls} != {"arxiv.org", "eprint.iacr.org"}:
-        return False
+        return ""
     for url in urls:
         pattern = r"/abs/\d{4}\.\d{4,5}" if url.hostname == "arxiv.org" else r"/\d{4}/\d+"
         if not re.fullmatch(pattern, url.path) or url.query or url.fragment:
-            return False
+            return ""
 
     def normalize(text):
         return " ".join(str(text or "").split()).casefold()
 
-    if not normalize(left.get("title")) or normalize(left.get("title")) != normalize(
-        right.get("title")
-    ):
-        return False
+    title = normalize(left.get("title"))
+    if not title or title != normalize(right.get("title")):
+        return ""
+    reviewed_title = _REVIEWED_PREPRINT_CROSSPOSTS.get(
+        frozenset(row["url"] for row in (left, right))
+    )
+    if reviewed_title and title == normalize(reviewed_title):
+        return (
+            "Reviewed arXiv and IACR ePrint records share the manuscript's title, authors, "
+            "method and reported benchmark values. These are two postings of one work, "
+            "not independent corroboration; excerpts and dates remain source-specific."
+        )
+
+    if not _published(left) or _published(left) != _published(right):
+        return ""
     excerpts = [[normalize(text) for text in row.get("key_points", [])] for row in (left, right)]
     shorter, longer = sorted(excerpts, key=len)
     # Require substantial matching evidence, allowing one feed to truncate its
-    # excerpt list. Any differing captured sentence keeps the records separate.
-    return len(shorter) >= 2 and sum(map(len, shorter)) >= 200 and shorter == longer[: len(shorter)]
+    # excerpt list. Any differing captured sentence keeps unreviewed records separate.
+    if len(shorter) >= 2 and sum(map(len, shorter)) >= 200 and shorter == longer[: len(shorter)]:
+        return (
+            "Matching title, confirmed publication date and collected excerpts across arXiv "
+            "and IACR ePrint; likely cross-posted manuscript, not independent corroboration."
+        )
+    return ""
 
 
 def _group_events(candidates, entities, missions, standards):
