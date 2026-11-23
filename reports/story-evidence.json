@@ -3444,6 +3444,13 @@
               "sequence": 0,
               "source": "arXiv RSS cs.CR",
               "url": "https://arxiv.org/abs/2611.26436"
+            },
+            {
+              "published_date": "2026-11-22",
+              "report_date": "2026-11-23",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.26436"
             }
           ],
           "title": "When lies look like noise: certifying untrusted entanglement swapping"
@@ -3502,6 +3509,13 @@
             {
               "published_date": "2026-11-22",
               "report_date": "2026-11-22",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.26941"
+            },
+            {
+              "published_date": "2026-11-22",
+              "report_date": "2026-11-23",
               "sequence": 0,
               "source": "arXiv RSS cs.CR",
               "url": "https://arxiv.org/abs/2611.26941"
@@ -3565,9 +3579,36 @@
               "sequence": 0,
               "source": "arXiv RSS cs.CR",
               "url": "https://arxiv.org/abs/2611.27735"
+            },
+            {
+              "published_date": "2026-11-22",
+              "report_date": "2026-11-23",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.27735"
             }
           ],
           "title": "Post-Quantum Migration in Brownfield 5G Core Networks: Verified Hybrid Key Establishment, Performance, and Rollback"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.27909": {
+      "captures": [
+        {
+          "excerpts": [
+            "Encrypted voice communication systems commonly protect call content but expose significant metadata, including the network identities of both parties, call timing, and traffic patterns",
+            "Simultaneously, advances in quantum computing threaten the asymmetric primitives underlying conventional key exchange, creating a harvest-now, decrypt-later risk for long-lived sensitive communications"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-22",
+              "report_date": "2026-11-23",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.27909"
+            }
+          ],
+          "title": "Metadata-Private Voice Communication over Tor using Post-Quantum Key Encapsulation"
         }
       ]
     },
@@ -4913,6 +4954,47 @@
             }
           ],
           "title": "HIT: Single-Pass Inference for Single-Trace NTT Side-Channel Attacks"
+        }
+      ]
+    },
+    "https://eprint.iacr.org/2026/2981": {
+      "captures": [
+        {
+          "excerpts": [
+            "Authentication in vehicular networks must hide the sender and still allow an authority to identify it when needed",
+            "Schemes in which a vehicle derives its own pseudonyms avoid authority contact after registration, but known constructions rest on assumptions that quantum computers break",
+            "We present L-SUPA, a lattice-based scheme of this kind"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-21",
+              "report_date": "2026-11-23",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2981"
+            }
+          ],
+          "title": "Post-Quantum Self-Updatable Pseudonyms for Conditional Privacy-Preserving Authentication in VANETs From Lattice-Based Credentials"
+        }
+      ]
+    },
+    "https://eprint.iacr.org/2026/2992": {
+      "captures": [
+        {
+          "excerpts": [
+            "Delegatable Anonymous Credentials (DACs) let an authority be delegated through a chain of intermediaries and later exercised anonymously, as in DeFi credit delegation",
+            "Because presentation is the operation a holder repeats at every use, its cost is what matters in practice; yet existing DACs build this presentation from the delegation chain itself"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-22",
+              "report_date": "2026-11-23",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/2992"
+            }
+          ],
+          "title": "PCC: Proof-Carrying Credentials for Enhanced Anonymity and Post-Quantum Delegation"
         }
       ]
     },
@@ -6709,6 +6791,13 @@
             {
               "published_date": "2026-11-21",
               "report_date": "2026-11-22",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/harvard-quera-and-caltech-design-single-shot-magic-state-factories-for-quantum-ldpc-codes-with-10-40x-lower-overhead"
+            },
+            {
+              "published_date": "2026-11-21",
+              "report_date": "2026-11-23",
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/harvard-quera-and-caltech-design-single-shot-magic-state-factories-for-quantum-ldpc-codes-with-10-40x-lower-overhead"
@@ -8512,6 +8601,13 @@
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/quera-computing-and-nvidia-introduce-ppvm-open-source-digital-twin-simulation-framework-for-quantum-processors"
+            },
+            {
+              "published_date": "2026-11-21",
+              "report_date": "2026-11-23",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/quera-computing-and-nvidia-introduce-ppvm-open-source-digital-twin-simulation-framework-for-quantum-processors"
             }
           ],
           "title": "QuEra Computing and NVIDIA Introduce PPVM Open-Source Digital-Twin Simulation Framework for Quantum Processors"
@@ -8554,6 +8650,13 @@
               "published_date": "2026-11-21",
               "report_date": "2026-11-22",
               "sequence": 1,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/quera-harvard-and-umd-researchers-develop-polynomial-time-classical-benchmarking-for-non-clifford-fault-tolerant-circuits"
+            },
+            {
+              "published_date": "2026-11-21",
+              "report_date": "2026-11-23",
+              "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/quera-harvard-and-umd-researchers-develop-polynomial-time-classical-benchmarking-for-non-clifford-fault-tolerant-circuits"
             }
@@ -9356,6 +9459,13 @@
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/university-of-california-quera-and-collaborators-introduce-multi-agent-llm-compiler-qubrio-for-neutral-atom-processors"
+            },
+            {
+              "published_date": "2026-11-21",
+              "report_date": "2026-11-23",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/university-of-california-quera-and-collaborators-introduce-multi-agent-llm-compiler-qubrio-for-neutral-atom-processors"
             }
           ],
           "title": "University of California, San Diego, QuEra, and Collaborators Introduce Multi-Agent LLM Compiler Qubrio for Neutral-Atom Processors"
@@ -9862,6 +9972,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/arxiv-quantum-key-distribution-gain-6db"
+            },
+            {
+              "published_date": "2026-11-21",
+              "report_date": "2026-11-23",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/arxiv-quantum-key-distribution-gain-6db"
             }
           ],
           "title": "Quantum key distribution could gain 6dB from multiple antennas"
@@ -10328,6 +10445,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/doe-quantum-classical-computing-need-integrated"
+            },
+            {
+              "published_date": "2026-11-21",
+              "report_date": "2026-11-23",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/doe-quantum-classical-computing-need-integrated"
             }
           ],
           "title": "Quantum and classical computing need integrated testing, DOE says"
@@ -10372,6 +10496,13 @@
             {
               "published_date": "2026-11-21",
               "report_date": "2026-11-22",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/edinburgh-cut-protocol-guarantee-quantum-entanglement"
+            },
+            {
+              "published_date": "2026-11-21",
+              "report_date": "2026-11-23",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/edinburgh-cut-protocol-guarantee-quantum-entanglement"
