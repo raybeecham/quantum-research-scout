@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-23T06:15:14.355347+00:00",
+  "updated_at": "2026-11-23T07:15:34.922904+00:00",
   "records": {
     "https://quantumcomputingreport.com/quera-harvard-and-umd-researchers-develop-polynomial-time-classical-benchmarking-for-non-clifford-fault-tolerant-circuits": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-174.png",
@@ -23,10 +23,31 @@
       "status": "unavailable",
       "fetched_at": "2026-11-23T05:14:20.339474+00:00"
     },
+    "https://eprint.iacr.org/2026/2992": {
+      "image_url": "https://eprint.iacr.org/img/iacrlogo.png",
+      "page_url": "https://eprint.iacr.org/2026/2992",
+      "publisher": "IACR ePrint",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-23T06:15:14.355347+00:00",
+      "status": "ok"
+    },
+    "https://eprint.iacr.org/2026/2981": {
+      "image_url": "https://eprint.iacr.org/img/iacrlogo.png",
+      "page_url": "https://eprint.iacr.org/2026/2981",
+      "publisher": "IACR ePrint",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-23T06:15:14.355347+00:00",
+      "status": "ok"
+    },
     "https://arxiv.org/abs/2611.26436": {
       "page_url": "https://arxiv.org/abs/2611.26436",
       "status": "unavailable",
       "fetched_at": "2026-11-23T05:14:20.339474+00:00"
+    },
+    "https://arxiv.org/abs/2611.27909": {
+      "page_url": "https://arxiv.org/abs/2611.27909",
+      "status": "unavailable",
+      "fetched_at": "2026-11-23T06:15:14.355347+00:00"
     },
     "https://quantumcomputingreport.com/harvard-quera-and-caltech-design-single-shot-magic-state-factories-for-quantum-ldpc-codes-with-10-40x-lower-overhead": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-173.png",
@@ -58,6 +79,14 @@
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-11-21T22:15:34.284836+00:00",
+      "status": "ok"
+    },
+    "https://quantumcomputingreport.com/university-of-innsbruck-parityqc-and-quera-turn-rydberg-array-embeddings-into-intrinsic-error-correcting-codes": {
+      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-170.png",
+      "page_url": "https://quantumcomputingreport.com/university-of-innsbruck-parityqc-and-quera-turn-rydberg-array-embeddings-into-intrinsic-error-correcting-codes",
+      "publisher": "Quantum Computing Report",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-21T09:15:22.404441+00:00",
       "status": "ok"
     },
     "https://quantumzeitgeist.com/arxiv-quantum-key-distribution-gain-6db": {
@@ -141,14 +170,6 @@
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-11-20T21:16:14.843268+00:00",
-      "status": "ok"
-    },
-    "https://quantumcomputingreport.com/university-of-innsbruck-parityqc-and-quera-turn-rydberg-array-embeddings-into-intrinsic-error-correcting-codes": {
-      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-170.png",
-      "page_url": "https://quantumcomputingreport.com/university-of-innsbruck-parityqc-and-quera-turn-rydberg-array-embeddings-into-intrinsic-error-correcting-codes",
-      "publisher": "Quantum Computing Report",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-21T09:15:22.404441+00:00",
       "status": "ok"
     },
     "https://quantumzeitgeist.com/quantinuum-random-position-checks-authenticate-quantum": {
@@ -817,27 +838,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-11-16T11:15:54.273789+00:00",
       "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2992": {
-      "image_url": "https://eprint.iacr.org/img/iacrlogo.png",
-      "page_url": "https://eprint.iacr.org/2026/2992",
-      "publisher": "IACR ePrint",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-23T06:15:14.355347+00:00",
-      "status": "ok"
-    },
-    "https://eprint.iacr.org/2026/2981": {
-      "image_url": "https://eprint.iacr.org/img/iacrlogo.png",
-      "page_url": "https://eprint.iacr.org/2026/2981",
-      "publisher": "IACR ePrint",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-23T06:15:14.355347+00:00",
-      "status": "ok"
-    },
-    "https://arxiv.org/abs/2611.27909": {
-      "page_url": "https://arxiv.org/abs/2611.27909",
-      "fetched_at": "2026-11-23T06:15:14.355347+00:00",
-      "status": "unavailable"
     }
   }
 }
