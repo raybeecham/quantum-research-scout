@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-23 21:15 UTC_
+_Updated 2026-11-23 22:15 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -35,7 +35,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-23 | 2026-11-13 | fresh | 🟢 healthy |
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-11-23 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-11-23 | 2026-09-29 | stale | 🟢 healthy |
-| CISA Cybersecurity Advisories | rss | 96% | 0 | 0 | 2026-11-23 | 2026-11-20 | fresh | 🟢 healthy |
+| CISA Cybersecurity Advisories | rss | 96% | 0 | 0 | 2026-11-23 | 2026-11-23 | fresh | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 99% | 0 | 0 | 2026-11-23 | 2026-10-26 | stale | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-23 | 2026-11-12 | fresh | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-23 | 2026-11-23 | fresh | 🟢 healthy |
@@ -43,7 +43,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-23 | 2026-11-19 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-23 | 2026-11-16 | fresh | 🟢 healthy |
 | DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-23 | 2026-11-10 | fresh | 🟢 healthy |
-| DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-23 | 2026-11-10 | fresh | 🟢 healthy |
+| DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-23 | 2026-11-10 | fresh | 🔴 failing |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-23 | — | reference | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 100% | 0 | 0 | 2026-11-23 | 2026-11-19 | fresh | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-23 | 2026-11-23 | fresh | 🟢 healthy |
@@ -134,7 +134,7 @@ RSS and API are measured separately. Standby means no API request was made; work
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **102** of **108**
+- Healthy sources: **101** of **108**
 - Partial-coverage sources: **3**
 - Critical sources failing: **0**
 - Partial coverage: ENISA Cryptography and PQC, arXiv RSS cs.CR, arXiv RSS quant-ph
