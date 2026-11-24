@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-24 04:15 UTC_
+_Updated 2026-11-24 05:15 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -22,8 +22,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Computing Patents | patent | 91% | 4 | 0 | 2026-11-23 | 2026-11-19 | fresh | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 96% | 2 | 0 | 2026-11-24 | 2026-09-24 | stale | 🟢 healthy |
 | White House Science and Technology Missions | watch | 95% | 2 | 0 | 2026-11-24 | 2026-09-29 | stale | 🟢 healthy |
-| arXiv RSS cs.CR | arxiv_rss | 94% | 1 | 5 | 2026-11-24 | 2026-11-23 | fresh | 🟠 partial |
-| arXiv RSS quant-ph | arxiv_rss | 94% | 1 | 5 | 2026-11-24 | 2026-11-23 | fresh | 🟠 partial |
+| arXiv RSS cs.CR | arxiv_rss | 94% | 1 | 5 | 2026-11-24 | 2026-11-23 | fresh | 🟢 healthy |
+| arXiv RSS quant-ph | arxiv_rss | 94% | 1 | 5 | 2026-11-24 | 2026-11-23 | fresh | 🟢 healthy |
 | Quantum Computing Report | rss | 95% | 1 | 0 | 2026-11-24 | 2026-11-21 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-24 | 2026-11-23 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 7 | 2026-11-23 | 2024-03-12 | reference | 🟠 partial |
@@ -134,10 +134,10 @@ RSS and API are measured separately. Standby means no API request was made; work
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **101** of **108**
-- Partial-coverage sources: **3**
+- Healthy sources: **103** of **108**
+- Partial-coverage sources: **1**
 - Critical sources failing: **0**
-- Partial coverage: ENISA Cryptography and PQC, arXiv RSS cs.CR, arXiv RSS quant-ph
+- Partial coverage: ENISA Cryptography and PQC
 
 ## Disabled Sources
 
