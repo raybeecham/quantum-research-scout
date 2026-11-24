@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-24 02:15 UTC_
+_Updated 2026-11-24 03:15 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -29,7 +29,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | ENISA Cryptography and PQC | watch | 100% | 0 | 7 | 2026-11-23 | 2024-03-12 | reference | 🟠 partial |
 | SAM.gov Opportunities | procurement | 98% | 0 | 7 | 2026-11-23 | 2026-11-20 | fresh | 🟢 healthy |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-24 | 2026-11-17 | fresh | 🟢 healthy |
-| AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-24 | 2026-11-23 | fresh | 🟢 healthy |
+| AWS Security Blog | rss | 100% | 0 | 0 | 2026-11-24 | 2026-11-24 | fresh | 🟢 healthy |
 | Accenture Federal Services Quantum Readiness | watch | 100% | 0 | 0 | 2026-11-23 | 2026-08-04 | reference | 🟢 healthy |
 | Accenture Quantum and PQC News | watch | 100% | 0 | 0 | 2026-11-24 | 2025-10-20 | stale | 🟢 healthy |
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-24 | 2026-11-13 | fresh | 🟢 healthy |
