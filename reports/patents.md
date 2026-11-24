@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-23T05:05:46.876844+00:00_
+_Updated 2026-11-24T07:52:51.225595+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -14,10 +14,10 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Curated notable patents: **2**
 - Automated recent discoveries: **248**
 - Published in the last 30 days: **43**
-- Unique named assignees: **139**
+- Unique named assignees: **138**
 - Patent families: **294**
 - Applications / grants: **241 / 9**
-- Known legal status: **222 of 250**
+- Known legal status: **221 of 250**
 - Publications with citation evidence: **0**
 
 ## Highest-Significance Patent Families
@@ -263,13 +263,11 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [METHODS AND APPARATUS FOR QUANTUM-SAFE SUBSCRIPTION IDENTIFIER PROTECTION](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2026027343/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | INTERDIGITAL PATENT HOLDINGS, INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [METHOD FOR OPTIMIZING AN EXECUTION OF A GENERATION OF A CRYSTALS-DILITHIUM POST-QUANTUM SIGNATURE](https://data.uspto.gov/patent-file-wrapper/search/details/19157393/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | THALES DIS FRANCE SAS | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [AI-DRIVEN CROSS-CHANNEL FINANCIAL FRAUD DETECTION SYSTEM WITH QUANTUM-RESISTANT ENCRYPTION AND BLOCKCHAIN INTEGRATION](https://data.uspto.gov/patent-file-wrapper/search/details/PCTUS2025043982/application-data)<br><small>Publication number unavailable</small> | Application · Unknown | CYBERSMARTS.AI LLC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
-| [SECURITY PROOF OF QUANTUM COMMUNICATION PROTOCOLS](https://data.uspto.gov/patent-file-wrapper/search/details/19521019/application-data)<br><small>Publication number unavailable</small> | Application · Pending | JoS QUANTUM GmbH, Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUBIT INITIALISATION METHOD AND DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19497230/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Diraq Pty Ltd | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM STATE CODING DEVICE, METHOD, AND SOFTWARE-DEFINED QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19480652/application-data)<br><small>Publication number unavailable</small> | Application · Pending | CHINA ACADEMY OF ELECTRONICS AND INFORMATION TECHNOLOGY OF CETC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM STATE CODING DEVICE, METHOD, AND SOFTWARE-DEFINED QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19480725/application-data)<br><small>Publication number unavailable</small> | Application · Pending | CHINA ACADEMY OF ELECTRONICS AND INFORMATION TECHNOLOGY OF CETC | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM DIALOGUE METHOD AND DEVICE IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19500156/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **60 · HIGH** |
-| [ML BASED SECURITY PROOF OF QUANTUM COMMUNICATION PROTOCOLS](https://data.uspto.gov/patent-file-wrapper/search/details/19521624/application-data)<br><small>Publication number unavailable</small> | Application · Pending | JoS QUANTUM GmbH, Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [Large-scale multi-qubit trapped-ion gates](https://data.uspto.gov/patent-file-wrapper/search/details/19489905/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Quantum Art Ltd., YEDA RESEARCH AND DEVELOPMENT CO. LTD. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [DEVICE AND METHOD FOR UPDATING NETWORK INFORMATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147505/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [DEVICE AND METHOD FOR CARRYING OUT LINK SET CONFIGURATION-BASED QUANTUM RESOURCE ALLOCATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147275/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
@@ -310,3 +308,5 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [LARGE LANGUAGE MODEL UPDATE METHOD, ELECTRONIC DEVICE, AND STORAGE MEDIUM](https://data.uspto.gov/patent-file-wrapper/search/details/19700044/application-data)<br><small>US20260340384A1</small> | Application · Pending | BEIJING BAIDU NETCOM SCIENCE TECHNOLOGY CO., LTD. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [GENERATING CONVERSATIONAL OUTPUT USING A LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19737873/application-data)<br><small>US20260341270A1</small> | Application · Pending | Capital One Services, LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [PROVIDING LARGE LANGUAGE MODEL EMBEDDINGS USING SUBJECT MATTER CLUSTERS](https://data.uspto.gov/patent-file-wrapper/search/details/19728636/application-data)<br><small>US20260329972A1</small> | Application · Pending | Constructor Education and Research Genossenschaft, Constructor Technology AG | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
+| [METHOD FOR TRAINING QUESTION ANSWERING LARGE LANGUAGE MODEL, METHOD FOR ANSWERING QUESTIONS, AND ELECTRONIC DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19713214/application-data)<br><small>US20260330265A1</small> | Application · Pending | BEIJING BAIDU NETCOM SCIENCE TECHNOLOGY CO., LTD. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
+| [GENERATING STRUCTURED DATA FROM UNSTRUCTURED DATA USING A LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19722507/application-data)<br><small>US20260329817A1</small> | Application · Unknown | Aravo Solutions, Inc. | 5 member(s) · 0 citation(s) | **57 · NOTABLE** |

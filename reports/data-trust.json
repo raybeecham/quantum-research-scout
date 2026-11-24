@@ -1,8 +1,8 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 30.1,
-      "accepted": 43,
+      "acceptance_rate": 30.6,
+      "accepted": 44,
       "quarantined": 100,
       "scope": "Federal missions"
     },
@@ -34,6 +34,29 @@
       "stage": "relationship admission",
       "title": "S-STEM: FUTURE STEM PROFESSIONALS IN ARTIFICIAL INTELLIGENCE, ROBOTICS, QUANTUM SCIENCE, AND BIOTECHNOLOGY -THIS PROJECT WILL CONTRIBUTE TO THE NATIONAL NEED FOR WELL-EDUCATED\u2026",
       "url": "https://www.usaspending.gov/award/ASST_NON_2620285_049"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-11-24",
+      "key": "https://www.quera.com/press-releases/quera-computing-joins-harvard-led-12-million-doe-project-to-design-ai-driven-error-correction-for-fault-tolerant-quantum-computing",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "QuEra Press Releases",
+      "stage": "mission evidence admission",
+      "title": "Press Releases November 23, 2026 QuEra Computing Joins Harvard-Led, $12 Million DOE Project to Design AI-Driven Error Correction for Fault-Tolerant Quantum Computing",
+      "url": "https://www.quera.com/press-releases/quera-computing-joins-harvard-led-12-million-doe-project-to-design-ai-driven-error-correction-for-fault-tolerant-quantum-computing"
     },
     {
       "admission": {
@@ -2263,29 +2286,6 @@
       "stage": "mission evidence admission",
       "title": "PRIMED-AI: Data-to-Model Academic-Industrial Partnerships (D2M-AIP) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (UG3/UH3 Clinical Trial Optional)",
       "url": "https://www.grants.gov/search-results-detail/359270"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Military AI Pace-Setting Projects",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-30",
-      "key": "https://www.grants.gov/search-results-detail/359666",
-      "mission_id": "military-ai-pace-setting-projects",
-      "mission_name": "Military AI Pace-Setting Projects",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
-      "stage": "mission evidence admission",
-      "title": "Model-to-Clinic (M2C) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (UG3/UH3, Clinical Trial Optional)",
-      "url": "https://www.grants.gov/search-results-detail/359666"
     }
   ],
   "reason_counts": [
@@ -2301,12 +2301,12 @@
     },
     {
       "code": "official_source",
-      "count": 98,
+      "count": 97,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 40,
+      "count": 41,
       "label": "Source is not an official .gov or .mil domain"
     },
     {
@@ -2318,13 +2318,13 @@
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
     "acceptance_rate": 79.4,
-    "accepted": 543,
-    "decisions": 684,
+    "accepted": 544,
+    "decisions": 685,
     "funding_quarantine": 38,
     "mission_quarantine": 100,
     "quarantined": 141,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-11-23T05:05:46.876844+00:00",
+  "updated_at": "2026-11-24T07:52:51.225595+00:00",
   "version": 1
 }

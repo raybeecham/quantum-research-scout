@@ -298,133 +298,12 @@
       ]
     }
   ],
-  "added": [
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-4fa0d6b6c711b15d",
-      "confidence": "high",
-      "effective_date": "2026-11-23",
-      "first_observed_at": "2026-11-23T05:05:46.876844+00:00",
-      "last_observed_at": "2026-11-23T05:05:46.876844+00:00",
-      "object": null,
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-2f741a85d7b564d3",
-          "locator": "legal_business_name:soliel llc",
-          "title": "SOLIEL LLC",
-          "url": "https://sam.gov/entity/JXYLN4KMJ3Y5/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "name:soliel",
-        "label": "SOLIEL LLC",
-        "node_id": "recipient_or_contractor:name:soliel",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "SOLIEL LLC"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-278d0b673aad7c91",
-      "confidence": "high",
-      "effective_date": "2026-11-23",
-      "first_observed_at": "2026-11-23T05:05:46.876844+00:00",
-      "last_observed_at": "2026-11-23T05:05:46.876844+00:00",
-      "object": null,
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-5f8bebbded030718",
-          "locator": "uei:jxyln4kmj3y5",
-          "title": "SOLIEL LLC",
-          "url": "https://sam.gov/entity/JXYLN4KMJ3Y5/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "name:soliel",
-        "label": "SOLIEL LLC",
-        "node_id": "recipient_or_contractor:name:soliel",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "JXYLN4KMJ3Y5"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-695a8ca2cac6d132",
-      "confidence": "high",
-      "effective_date": "2026-11-23",
-      "first_observed_at": "2026-11-23T05:05:46.876844+00:00",
-      "last_observed_at": "2026-11-23T05:05:46.876844+00:00",
-      "object": null,
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0d14bf94ddd35e11",
-          "locator": "cage_code:45cf5",
-          "title": "SOLIEL LLC",
-          "url": "https://sam.gov/entity/JXYLN4KMJ3Y5/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "name:soliel",
-        "label": "SOLIEL LLC",
-        "node_id": "recipient_or_contractor:name:soliel",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "45CF5"
-    },
-    {
-      "authority": "authoritative",
-      "change_type": "added",
-      "claim_id": "claim-f7b655b119023f24",
-      "confidence": "high",
-      "effective_date": "2026-11-23",
-      "first_observed_at": "2026-11-23T05:05:46.876844+00:00",
-      "last_observed_at": "2026-11-23T05:05:46.876844+00:00",
-      "object": null,
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-4bd25b3397d39cce",
-          "locator": "registration_status:active",
-          "title": "SOLIEL LLC",
-          "url": "https://sam.gov/entity/JXYLN4KMJ3Y5/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "subject": {
-        "identifier": "name:soliel",
-        "label": "SOLIEL LLC",
-        "node_id": "recipient_or_contractor:name:soliel",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active"
-    }
-  ],
+  "added": [],
   "baseline_initialized": false,
   "changed": [],
   "comparison_basis": "prior_successful_ledger_build",
-  "comparison_ended_at": "2026-11-23T05:05:46.876844+00:00",
-  "comparison_started_at": "2026-11-22T10:36:11.213444+00:00",
+  "comparison_ended_at": "2026-11-24T07:52:51.225595+00:00",
+  "comparison_started_at": "2026-11-23T05:05:46.876844+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "conflicts": [],
@@ -1340,19 +1219,19 @@
     }
   ],
   "scope_note": "Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.",
-  "since": "2026-11-22T10:36:11.213444+00:00",
+  "since": "2026-11-23T05:05:46.876844+00:00",
   "summary": {
     "active_claims": 5214,
-    "added": 4,
+    "added": 0,
     "changed": 0,
     "conflicts": 18,
     "conflicts_opened": 0,
     "conflicts_resolved": 0,
-    "material_changes": 31,
+    "material_changes": 27,
     "resolved": 27,
     "superseded": 0
   },
   "superseded": [],
-  "updated_at": "2026-11-23T05:05:46.876844+00:00",
+  "updated_at": "2026-11-24T07:52:51.225595+00:00",
   "version": 1
 }

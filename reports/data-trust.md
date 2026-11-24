@@ -1,10 +1,10 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-11-23T05:05:46.876844+00:00_
+_Updated 2026-11-24T07:52:51.225595+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **543**
+- Accepted evidence: **544**
 - Quarantined evidence or relationships: **141**
 - Acceptance rate: **79.4%**
 
@@ -12,15 +12,15 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 43 | 100 | 30.1% |
+| Federal missions | 44 | 100 | 30.6% |
 | Federal funding | 500 | 41 | 92.4% |
 
 ## Quarantine Reasons
 
 - **Match appears only in collector query metadata**: 138
 - **No relevant term in the evidence itself**: 138
-- **Official government source**: 98
-- **Source is not an official .gov or .mil domain**: 40
+- **Official government source**: 97
+- **Source is not an official .gov or .mil domain**: 41
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -31,6 +31,13 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Stage: relationship admission
 - Reason: Agency and technology inference only
 - Admission score: 65
+
+### [Press Releases November 23, 2026 QuEra Computing Joins Harvard-Led, $12 Million DOE Project to Design AI-Driven Error Correction for Fault-Tolerant Quantum Computing](https://www.quera.com/press-releases/quera-computing-joins-harvard-led-12-million-doe-project-to-design-ai-driven-error-correction-for-fault-tolerant-quantum-computing)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
 
 ### [FY 2027 Build to Scale Notice of Funding Opportunity](https://www.grants.gov/search-results-detail/364206)
 
@@ -712,13 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [PRIMED-AI: Data-to-Model Academic-Industrial Partnerships (D2M-AIP) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (UG3/UH3 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359270)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Model-to-Clinic (M2C) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (UG3/UH3, Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359666)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-23 05:13 UTC_
+_Updated 2026-11-24 07:58 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 0 | 8 | 8 | 34 |
+| 50 | 1 | 9 | 8 | 33 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -35,7 +35,7 @@ _Updated 2026-11-23 05:13 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Hardware has critical strategic importance and declining momentum.
+- 🔴 Quantum Hardware has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Networking
@@ -65,6 +65,13 @@ _Updated 2026-11-23 05:13 UTC_
 - Status: **critical**
 - 🔴 Standards / Government has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
+
+## 🔴 Source failing: DOE Office of Science Updates 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 98.4% reliability with 1 warning day(s).
+- [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
 
@@ -98,21 +105,21 @@ _Updated 2026-11-23 05:13 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 7 versus 2 in the prior period.
+- ↗️ Recent evidence is 7 versus 3 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: QEC / Fault Tolerance
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 19 versus 7 in the prior period.
+- ↗️ Recent evidence is 18 versus 8 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Networking
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 22 versus 6 in the prior period.
+- ↗️ Recent evidence is 22 versus 7 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -351,11 +358,4 @@ _Updated 2026-11-23 05:13 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-04-01; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Post-Quantum Cybersecurity
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-11-01; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
