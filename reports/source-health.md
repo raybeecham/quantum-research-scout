@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-24 18:15 UTC_
+_Updated 2026-11-24 19:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -24,7 +24,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv RSS quant-ph | arxiv_rss | 94% | 1 | 5 | 2026-11-24 | 2026-11-24 | fresh | 🟠 partial |
 | DOE Office of Science Updates | watch | 97% | 1 | 0 | 2026-11-24 | 2026-11-10 | fresh | 🔴 failing |
 | ETSI Quantum Standards News | watch | 96% | 1 | 0 | 2026-11-24 | 2026-09-24 | stale | 🟢 healthy |
-| Quantum Computing Report | rss | 95% | 1 | 0 | 2026-11-24 | 2026-11-21 | fresh | 🟢 healthy |
+| Quantum Computing Report | rss | 95% | 1 | 0 | 2026-11-24 | 2026-11-24 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-24 | 2026-11-24 | fresh | 🟢 healthy |
 | White House Science and Technology Missions | watch | 95% | 1 | 0 | 2026-11-24 | 2026-09-29 | stale | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 7 | 2026-11-24 | 2024-03-12 | reference | 🟢 healthy |
@@ -92,7 +92,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | PQCA Blog and News | rss | 100% | 0 | 0 | 2026-11-24 | 2026-11-02 | stale | 🟢 healthy |
 | PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-11-24 | 2026-11-04 | stale | 🟢 healthy |
 | PQShield | rss | 100% | 0 | 0 | 2026-11-24 | 2026-11-04 | stale | 🟢 healthy |
-| Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-24 | 2026-11-23 | fresh | 🟢 healthy |
+| Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-24 | 2026-11-24 | fresh | 🟢 healthy |
 | Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-11-24 | 2026-11-05 | stale | 🟢 healthy |
 | PsiQuantum News | watch | 100% | 0 | 0 | 2026-11-24 | 2026-11-12 | fresh | 🟢 healthy |
 | QCi Press Releases | watch | 100% | 0 | 0 | 2026-11-24 | 2026-11-17 | fresh | 🟢 healthy |
