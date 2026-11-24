@@ -5220,6 +5220,27 @@
         }
       ]
     },
+    "https://eprint.iacr.org/2026/3001": {
+      "captures": [
+        {
+          "excerpts": [
+            "This work studies such subversions in Post-Quantum Cryptography (PQC) through the lens of public-key representation",
+            "Kleptographic subversions of cryptographic implementations, through Algorithm Substitution Attacks (ASAs), threaten the trust assumptions of black-box cryptosystems",
+            "We formalize key-generation subversion with explicit public-key representations, distinguishing seed-compressed interfaces from expanded-key interfaces"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-23",
+              "report_date": "2026-11-24",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/3001"
+            }
+          ],
+          "title": "Representation-Aware Kleptographic Attacks on Post-Quantum Cryptography"
+        }
+      ]
+    },
     "https://huggingface.co/blog/allenai/novelty-bench": {
       "captures": [
         {
