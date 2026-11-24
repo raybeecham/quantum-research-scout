@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-24 20:15 UTC_
+_Updated 2026-11-24 21:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -22,7 +22,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Computing Patents | patent | 91% | 4 | 0 | 2026-11-24 | 2026-11-19 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 94% | 1 | 5 | 2026-11-24 | 2026-11-24 | fresh | 🟠 partial |
 | arXiv RSS quant-ph | arxiv_rss | 94% | 1 | 5 | 2026-11-24 | 2026-11-24 | fresh | 🟠 partial |
-| DOE Office of Science Updates | watch | 97% | 1 | 0 | 2026-11-24 | 2026-11-10 | fresh | 🔴 failing |
+| DOE Office of Science Updates | watch | 97% | 1 | 0 | 2026-11-24 | 2026-11-10 | fresh | 🟢 healthy |
 | ETSI Quantum Standards News | watch | 96% | 1 | 0 | 2026-11-24 | 2026-09-24 | stale | 🟢 healthy |
 | Quantum Computing Report | rss | 96% | 1 | 0 | 2026-11-24 | 2026-11-24 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-24 | 2026-11-24 | fresh | 🟢 healthy |
@@ -134,7 +134,7 @@ RSS and API are measured separately. Standby means no API request was made; work
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **102** of **108**
+- Healthy sources: **103** of **108**
 - Partial-coverage sources: **2**
 - Critical sources failing: **0**
 - Partial coverage: arXiv RSS cs.CR, arXiv RSS quant-ph
