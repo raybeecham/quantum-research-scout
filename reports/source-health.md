@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-24 00:15 UTC_
+_Updated 2026-11-24 01:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -14,8 +14,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 
 | Source | Type | Success rate | Failure days | Advisory days | Last checked | Latest item | Freshness | Status |
 |---|---|---:|---:|---:|---|---|---|---|
-| Google Quantum AI | watch | 59% | 10 | 0 | 2026-11-24 | 2026-10-15 | fresh | 🟢 healthy |
-| Department of War Strategic Technology News | watch | 85% | 6 | 0 | 2026-11-24 | 2026-11-20 | fresh | 🟢 healthy |
+| Google Quantum AI | watch | 60% | 10 | 0 | 2026-11-24 | 2026-10-15 | fresh | 🟢 healthy |
+| Department of War Strategic Technology News | watch | 86% | 6 | 0 | 2026-11-24 | 2026-11-20 | fresh | 🟢 healthy |
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 61% | 5 | 0 | 2026-11-10 | 2026-10-28 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 61% | 5 | 0 | 2026-11-10 | 2026-10-29 | standby | ⚪ standby |
 | arXiv Quantum Networking and Sensing | arxiv | 62% | 5 | 0 | 2026-11-10 | 2026-10-29 | standby | ⚪ standby |
@@ -43,7 +43,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-23 | 2026-11-19 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-24 | 2026-11-16 | fresh | 🟢 healthy |
 | DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-24 | 2026-11-10 | fresh | 🟢 healthy |
-| DOE Office of Science Updates | watch | 100% | 0 | 0 | 2026-11-24 | 2026-11-10 | fresh | 🔴 failing |
+| DOE Office of Science Updates | watch | 99% | 0 | 0 | 2026-11-24 | 2026-11-10 | fresh | 🔴 failing |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-23 | — | reference | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 100% | 0 | 0 | 2026-11-24 | 2026-11-19 | fresh | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-24 | 2026-11-23 | fresh | 🟢 healthy |
