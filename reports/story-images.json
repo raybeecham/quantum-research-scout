@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T08:15:28.301699+00:00",
+  "updated_at": "2026-11-25T09:19:22.684741+00:00",
   "records": {
     "https://quantumzeitgeist.com/totm-labs-partnership-aires-quantum-security": {
       "image_url": "https://quantumzeitgeist.com/wp-content/uploads/totm-labs-partners-with-aires-for-quantum-safe-1200x630.png",
@@ -67,6 +67,11 @@
       "status": "unavailable",
       "fetched_at": "2026-11-25T06:15:18.378279+00:00"
     },
+    "https://arxiv.org/abs/2611.32024": {
+      "page_url": "https://arxiv.org/abs/2611.32024",
+      "status": "unavailable",
+      "fetched_at": "2026-11-25T06:34:26.130122+00:00"
+    },
     "https://quantumcomputingreport.com/idemia-secure-transactions-and-ionq-validate-qkd-interoperability-with-idemia-sphere-cybersecurity-platform": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-180.png",
       "page_url": "https://quantumcomputingreport.com/idemia-secure-transactions-and-ionq-validate-qkd-interoperability-with-idemia-sphere-cybersecurity-platform",
@@ -97,6 +102,14 @@
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-11-24T21:16:05.555797+00:00",
+      "status": "ok"
+    },
+    "https://quantumcomputingreport.com/harvard-quera-nvidia-anthropic-and-three-national-labs-secure-12-million-doe-award-for-ai-driven-quantum-error-correction": {
+      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-178.png",
+      "page_url": "https://quantumcomputingreport.com/harvard-quera-nvidia-anthropic-and-three-national-labs-secure-12-million-doe-award-for-ai-driven-quantum-error-correction",
+      "publisher": "Quantum Computing Report",
+      "provenance": "og:image",
+      "fetched_at": "2026-11-24T22:16:06.613164+00:00",
       "status": "ok"
     },
     "https://quantumzeitgeist.com/pennsylvania-spin-qubits-maintain-rotation-angle": {
@@ -160,31 +173,6 @@
       "fetched_at": "2026-11-24T05:15:30.323739+00:00",
       "status": "ok"
     },
-    "https://arxiv.org/abs/2611.28427": {
-      "page_url": "https://arxiv.org/abs/2611.28427",
-      "status": "unavailable",
-      "fetched_at": "2026-11-24T09:16:00.037016+00:00"
-    },
-    "https://arxiv.org/abs/2611.29430": {
-      "page_url": "https://arxiv.org/abs/2611.29430",
-      "status": "unavailable",
-      "fetched_at": "2026-11-24T09:16:00.037016+00:00"
-    },
-    "https://arxiv.org/abs/2611.28687": {
-      "page_url": "https://arxiv.org/abs/2611.28687",
-      "status": "unavailable",
-      "fetched_at": "2026-11-24T09:16:00.037016+00:00"
-    },
-    "https://arxiv.org/abs/2611.28325": {
-      "page_url": "https://arxiv.org/abs/2611.28325",
-      "status": "unavailable",
-      "fetched_at": "2026-11-24T09:16:00.037016+00:00"
-    },
-    "https://arxiv.org/abs/2611.28219": {
-      "page_url": "https://arxiv.org/abs/2611.28219",
-      "status": "unavailable",
-      "fetched_at": "2026-11-24T09:16:00.037016+00:00"
-    },
     "https://eprint.iacr.org/2026/2992": {
       "image_url": "https://eprint.iacr.org/img/iacrlogo.png",
       "page_url": "https://eprint.iacr.org/2026/2992",
@@ -192,16 +180,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-11-23T06:15:14.355347+00:00",
       "status": "ok"
-    },
-    "https://arxiv.org/abs/2611.28353": {
-      "page_url": "https://arxiv.org/abs/2611.28353",
-      "status": "unavailable",
-      "fetched_at": "2026-11-24T09:16:00.037016+00:00"
-    },
-    "https://arxiv.org/abs/2611.32024": {
-      "page_url": "https://arxiv.org/abs/2611.32024",
-      "status": "unavailable",
-      "fetched_at": "2026-11-25T06:34:26.130122+00:00"
     },
     "https://eprint.iacr.org/2026/2988": {
       "image_url": "https://eprint.iacr.org/img/iacrlogo.png",
@@ -225,14 +203,6 @@
       "publisher": "Quantum Zeitgeist",
       "provenance": "og:image",
       "fetched_at": "2026-11-24T04:15:58.715987+00:00",
-      "status": "ok"
-    },
-    "https://quantumcomputingreport.com/harvard-quera-nvidia-anthropic-and-three-national-labs-secure-12-million-doe-award-for-ai-driven-quantum-error-correction": {
-      "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-178.png",
-      "page_url": "https://quantumcomputingreport.com/harvard-quera-nvidia-anthropic-and-three-national-labs-secure-12-million-doe-award-for-ai-driven-quantum-error-correction",
-      "publisher": "Quantum Computing Report",
-      "provenance": "og:image",
-      "fetched_at": "2026-11-24T22:16:06.613164+00:00",
       "status": "ok"
     },
     "https://quantumzeitgeist.com/exequantum-sleex-partnership-quantum-safe-migration": {
@@ -311,11 +281,6 @@
       "provenance": "og:image",
       "fetched_at": "2026-11-25T05:15:38.211220+00:00",
       "status": "ok"
-    },
-    "https://arxiv.org/abs/2611.29217": {
-      "page_url": "https://arxiv.org/abs/2611.29217",
-      "status": "unavailable",
-      "fetched_at": "2026-11-24T09:16:00.037016+00:00"
     },
     "https://quantumcomputingreport.com/quera-harvard-and-umd-researchers-develop-polynomial-time-classical-benchmarking-for-non-clifford-fault-tolerant-circuits": {
       "image_url": "https://quantumcomputingreport.com/wp-content/uploads/2026/11/image-174.png",
@@ -652,31 +617,6 @@
       "fetched_at": "2026-11-19T13:15:42.475422+00:00",
       "status": "ok"
     },
-    "https://arxiv.org/abs/2611.25740": {
-      "page_url": "https://arxiv.org/abs/2611.25740",
-      "status": "unavailable",
-      "fetched_at": "2026-11-24T09:16:00.037016+00:00"
-    },
-    "https://arxiv.org/abs/2611.25470": {
-      "page_url": "https://arxiv.org/abs/2611.25470",
-      "status": "unavailable",
-      "fetched_at": "2026-11-24T09:16:00.037016+00:00"
-    },
-    "https://arxiv.org/abs/2611.25095": {
-      "page_url": "https://arxiv.org/abs/2611.25095",
-      "status": "unavailable",
-      "fetched_at": "2026-11-24T09:16:00.037016+00:00"
-    },
-    "https://arxiv.org/abs/2611.25479": {
-      "page_url": "https://arxiv.org/abs/2611.25479",
-      "status": "unavailable",
-      "fetched_at": "2026-11-24T09:16:00.037016+00:00"
-    },
-    "https://arxiv.org/abs/2611.25025": {
-      "page_url": "https://arxiv.org/abs/2611.25025",
-      "status": "unavailable",
-      "fetched_at": "2026-11-24T09:16:00.037016+00:00"
-    },
     "https://arxiv.org/abs/2611.25339": {
       "page_url": "https://arxiv.org/abs/2611.25339",
       "status": "unavailable",
@@ -877,6 +817,66 @@
       "page_url": "https://arxiv.org/abs/2611.23759",
       "status": "unavailable",
       "fetched_at": "2026-11-24T10:15:39.859771+00:00"
+    },
+    "https://arxiv.org/abs/2611.28427": {
+      "page_url": "https://arxiv.org/abs/2611.28427",
+      "fetched_at": "2026-11-25T09:19:22.684741+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.29430": {
+      "page_url": "https://arxiv.org/abs/2611.29430",
+      "fetched_at": "2026-11-25T09:19:22.684741+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.28687": {
+      "page_url": "https://arxiv.org/abs/2611.28687",
+      "fetched_at": "2026-11-25T09:19:22.684741+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.28325": {
+      "page_url": "https://arxiv.org/abs/2611.28325",
+      "fetched_at": "2026-11-25T09:19:22.684741+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.28219": {
+      "page_url": "https://arxiv.org/abs/2611.28219",
+      "fetched_at": "2026-11-25T09:19:22.684741+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.28353": {
+      "page_url": "https://arxiv.org/abs/2611.28353",
+      "fetched_at": "2026-11-25T09:19:22.684741+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.29217": {
+      "page_url": "https://arxiv.org/abs/2611.29217",
+      "fetched_at": "2026-11-25T09:19:22.684741+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.25740": {
+      "page_url": "https://arxiv.org/abs/2611.25740",
+      "fetched_at": "2026-11-25T09:19:22.684741+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.25470": {
+      "page_url": "https://arxiv.org/abs/2611.25470",
+      "fetched_at": "2026-11-25T09:19:22.684741+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.25095": {
+      "page_url": "https://arxiv.org/abs/2611.25095",
+      "fetched_at": "2026-11-25T09:19:22.684741+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.25479": {
+      "page_url": "https://arxiv.org/abs/2611.25479",
+      "fetched_at": "2026-11-25T09:19:22.684741+00:00",
+      "status": "unavailable"
+    },
+    "https://arxiv.org/abs/2611.25025": {
+      "page_url": "https://arxiv.org/abs/2611.25025",
+      "fetched_at": "2026-11-25T09:19:22.684741+00:00",
+      "status": "unavailable"
     }
   }
 }
