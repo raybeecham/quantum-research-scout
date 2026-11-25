@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-25 17:45 UTC_
+_Updated 2026-11-25 18:45 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -22,7 +22,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Quantum Computing Patents | patent | 91% | 4 | 0 | 2026-11-25 | 2026-11-19 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 94% | 1 | 6 | 2026-11-25 | 2026-11-25 | fresh | 🟠 partial |
 | arXiv RSS quant-ph | arxiv_rss | 94% | 1 | 6 | 2026-11-25 | 2026-11-25 | fresh | 🟠 partial |
-| DOE Office of Science Updates | watch | 97% | 1 | 0 | 2026-11-25 | 2026-11-10 | fresh | 🟢 healthy |
+| DOE Office of Science Updates | watch | 97% | 1 | 0 | 2026-11-25 | 2026-11-10 | stale | 🟢 healthy |
 | Quantum Computing Report | rss | 96% | 1 | 0 | 2026-11-25 | 2026-11-24 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-25 | 2026-11-25 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 7 | 2026-11-25 | 2024-03-12 | reference | 🟢 healthy |
@@ -41,7 +41,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-25 | 2026-11-06 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-25 | 2026-11-19 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-25 | 2026-11-16 | fresh | 🟢 healthy |
-| DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-25 | 2026-11-10 | fresh | 🟢 healthy |
+| DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-25 | 2026-11-10 | stale | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-25 | — | reference | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 100% | 0 | 0 | 2026-11-25 | 2026-11-19 | fresh | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-25 | 2026-11-23 | fresh | 🟢 healthy |
