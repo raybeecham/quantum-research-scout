@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-25 09:18 UTC_
+_Updated 2026-11-25 10:15 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -120,7 +120,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | USAspending · Quantum Genesis | federal_award | 100% | 0 | 0 | 2026-11-25 | — | unknown | 🟢 healthy |
 | USAspending · Quantum Technologies | federal_award | 100% | 0 | 0 | 2026-11-25 | 2026-11-19 | fresh | 🟢 healthy |
 | USAspending · QuantumEAGLe | federal_award | 100% | 0 | 0 | 2026-11-25 | — | unknown | 🟢 healthy |
-| White House Science and Technology Missions | watch | 95% | 0 | 0 | 2026-11-25 | 2026-09-29 | stale | 🟢 healthy |
+| White House Science and Technology Missions | watch | 96% | 0 | 0 | 2026-11-25 | 2026-09-29 | stale | 🟢 healthy |
 | Wiz Post-Quantum Security | watch | 100% | 0 | 0 | 2026-11-25 | 2026-07-21 | stale | 🟢 healthy |
 
 ## arXiv API Backup
