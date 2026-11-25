@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-25 21:45 UTC_
+_Updated 2026-11-25 22:45 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -67,7 +67,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-25 | 2026-11-25 | fresh | 🟢 healthy |
 | IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-25 | 2026-11-23 | fresh | 🟢 healthy |
 | IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-25 | 2026-11-24 | fresh | 🟢 healthy |
-| IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-25 | 2026-11-24 | fresh | 🔴 failing |
+| IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-25 | 2026-11-24 | fresh | 🟢 healthy |
 | IETF PQUIP | watch | 100% | 0 | 0 | 2026-11-25 | — | reference | 🟢 healthy |
 | IETF Post-Quantum Updates | watch | 100% | 0 | 0 | 2026-11-25 | 2026-11-12 | fresh | 🟢 healthy |
 | InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-11-25 | 2026-11-09 | fresh | 🟢 healthy |
@@ -134,7 +134,7 @@ RSS and API are measured separately. Standby means no API request was made; work
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **102** of **108**
+- Healthy sources: **103** of **108**
 - Partial-coverage sources: **2**
 - Critical sources failing: **0**
 - Partial coverage: arXiv RSS cs.CR, arXiv RSS quant-ph
