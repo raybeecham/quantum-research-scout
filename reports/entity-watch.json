@@ -109,7 +109,7 @@
     {
       "active_sources": [],
       "disabled_sources": [],
-      "evidence_count": 26,
+      "evidence_count": 27,
       "first_party_evidence_count": 0,
       "name": "Pasqal",
       "priority": "medium",
@@ -426,7 +426,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 48,
+      "evidence_count": 49,
       "first_party_evidence_count": 10,
       "name": "IonQ",
       "priority": "high",
@@ -565,7 +565,7 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 24,
+      "evidence_count": 25,
       "first_party_evidence_count": 10,
       "name": "QuEra",
       "priority": "high",
@@ -645,8 +645,8 @@
         }
       ],
       "disabled_sources": [],
-      "evidence_count": 6,
-      "first_party_evidence_count": 4,
+      "evidence_count": 7,
+      "first_party_evidence_count": 5,
       "name": "Thales",
       "priority": "high",
       "status": "covered",
@@ -1087,11 +1087,11 @@
       "first_seen": "2025-06-12",
       "historical_evidence_count": 3,
       "latest_seen": "2026-11-18",
-      "momentum": "rising",
+      "momentum": "stable",
       "name": "NIST",
-      "prior_count": 0,
+      "prior_count": 1,
       "priority": "critical",
-      "recent_count": 2,
+      "recent_count": 1,
       "status": "active",
       "themes": [
         "PQC / Crypto Agility",
@@ -1635,8 +1635,8 @@
       "name": "IBM",
       "prior_count": 17,
       "priority": "high",
-      "recent_count": 1,
-      "status": "active",
+      "recent_count": 0,
+      "status": "quiet",
       "themes": [
         "AI Security",
         "PQC / Crypto Agility",
@@ -1651,8 +1651,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 34,
+      "current_evidence_count": 35,
       "evidence": [
+        {
+          "date": "2026-11-24",
+          "key": "https://quantumcomputingreport.com/idemia-secure-transactions-and-ionq-validate-qkd-interoperability-with-idemia-sphere-cybersecurity-platform",
+          "report": "2026-11/2026-11-24-digest.md",
+          "score": 107,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "IDEMIA Secure Transactions and IonQ Validate QKD Interoperability with IDEMIA Sphere Cybersecurity Platform",
+          "url": "https://quantumcomputingreport.com/idemia-secure-transactions-and-ionq-validate-qkd-interoperability-with-idemia-sphere-cybersecurity-platform"
+        },
         {
           "date": "2026-11-17",
           "key": "https://quantumzeitgeist.com/quantum-key-distribution-ionq-idemia-validate",
@@ -2204,24 +2216,12 @@
           ],
           "title": "IonQ Completes Acquisition of SkyWater Technology, Establishing Vertically Integrated Quantum Platform",
           "url": "https://quantumcomputingreport.com/ionq-completes-acquisition-of-skywater-technology-establishing-vertically-integrated-quantum-platform"
-        },
-        {
-          "date": "2026-07-31",
-          "key": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal",
-          "report": "2026-07/2026-07-31-digest.md",
-          "score": 27,
-          "source": "Quantum Zeitgeist",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IonQ\u2019s SkyWater Deal Secures U.S. Quantum Chip Supply",
-          "url": "https://quantumzeitgeist.com/ionq-chip-supply-us-skywater-deal"
         }
       ],
-      "evidence_count": 48,
+      "evidence_count": 49,
       "first_seen": "2025-11-17",
       "historical_evidence_count": 14,
-      "latest_seen": "2026-11-17",
+      "latest_seen": "2026-11-24",
       "momentum": "declining",
       "name": "IonQ",
       "prior_count": 2,
@@ -3435,8 +3435,20 @@
         "QuEra Computing"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 14,
+      "current_evidence_count": 15,
       "evidence": [
+        {
+          "date": "2026-11-24",
+          "key": "https://quantumcomputingreport.com/harvard-quera-nvidia-anthropic-and-three-national-labs-secure-12-million-doe-award-for-ai-driven-quantum-error-correction",
+          "report": "2026-11/2026-11-24-digest.md",
+          "score": 67,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Harvard, QuEra, NVIDIA, Anthropic, and Three National Labs Secure $12 Million DOE Award for AI-Driven Quantum Error Correction",
+          "url": "https://quantumcomputingreport.com/harvard-quera-nvidia-anthropic-and-three-national-labs-secure-12-million-doe-award-for-ai-driven-quantum-error-correction"
+        },
         {
           "date": "2026-11-23",
           "key": "https://thequantuminsider.com/2026/11/23/quera-12-million-doe-ai-quantum-error-correction",
@@ -3846,15 +3858,15 @@
           "url": "https://www.quera.com/press-releases/quera-computing-and-deloitte-form-alliance-to-accelerate-enterprise-adoption-of-neutral-atom-quantum-computing"
         }
       ],
-      "evidence_count": 24,
+      "evidence_count": 25,
       "first_seen": "2025-08-20",
       "historical_evidence_count": 10,
-      "latest_seen": "2026-11-23",
+      "latest_seen": "2026-11-24",
       "momentum": "rising",
       "name": "QuEra",
-      "prior_count": 2,
+      "prior_count": 1,
       "priority": "high",
-      "recent_count": 6,
+      "recent_count": 7,
       "status": "active",
       "themes": [
         "AI Security",
@@ -5287,9 +5299,9 @@
       "first_seen": "2026-06-22",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-10",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "Quantinuum",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5442,9 +5454,9 @@
       "first_seen": "2026-08-03",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-10",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "DigiCert",
-      "prior_count": 2,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5716,9 +5728,9 @@
       "first_seen": "2026-06-30",
       "historical_evidence_count": 0,
       "latest_seen": "2026-11-10",
-      "momentum": "declining",
+      "momentum": "stable",
       "name": "D-Wave",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 0,
       "status": "quiet",
@@ -5851,9 +5863,9 @@
       "first_seen": "2024-12-09",
       "historical_evidence_count": 2,
       "latest_seen": "2026-11-19",
-      "momentum": "stable",
+      "momentum": "rising",
       "name": "Google Quantum AI",
-      "prior_count": 1,
+      "prior_count": 0,
       "priority": "high",
       "recent_count": 1,
       "status": "active",
@@ -5862,6 +5874,114 @@
         "QEC / Fault Tolerance",
         "Quantum Hardware",
         "Quantum Software / Tooling"
+      ],
+      "type": "company"
+    },
+    {
+      "aliases": [
+        "Thales Group"
+      ],
+      "case_sensitive_aliases": [],
+      "current_evidence_count": 7,
+      "evidence": [
+        {
+          "date": "2026-11-24",
+          "key": "https://cpl.thalesgroup.com/blog/data-security/building-an-evidence-based-quantum-safe-migration-plan",
+          "report": "2026-11/2026-11-24-digest.md",
+          "score": 78,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Quantum-Safe Migration Planning: Singapore CSA & MAS Guidance | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/data-security/building-an-evidence-based-quantum-safe-migration-plan"
+        },
+        {
+          "date": "2026-11-12",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/crypto-agility-cost-of-security-updates",
+          "report": "2026-11/2026-11-12-digest.md",
+          "score": 45,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Crypto Agility: Cut the Cost of Security Updates | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/crypto-agility-cost-of-security-updates"
+        },
+        {
+          "date": "2026-11-10",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix",
+          "report": "2026-11/2026-11-10-digest.md",
+          "score": 50,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Secure AI Connectivity with Post-Quantum Encryption | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix"
+        },
+        {
+          "date": "2026-10-29",
+          "key": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
+          "report": "2026-10/2026-10-29-digest.md",
+          "score": 29,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "AI Security"
+          ],
+          "title": "Agentic AI Security Risks in Manufacturing | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
+        },
+        {
+          "date": "2026-10-19",
+          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
+          "report": "2026-10/2026-10-19-digest.md",
+          "score": 67,
+          "source": "Thales Cybersecurity Blog",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
+        },
+        {
+          "date": "2026-08-05",
+          "key": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption",
+          "report": "2026-08/2026-08-05-digest.md",
+          "score": 64,
+          "source": "QuantumNews.ai",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
+          "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
+        },
+        {
+          "date": "2026-08-04",
+          "key": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing",
+          "report": "2026-08/2026-08-04-digest.md",
+          "score": 89,
+          "source": "The Quantum Insider",
+          "themes": [
+            "PQC / Crypto Agility"
+          ],
+          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
+          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
+        }
+      ],
+      "evidence_count": 7,
+      "first_seen": "2026-08-04",
+      "historical_evidence_count": 0,
+      "latest_seen": "2026-11-24",
+      "momentum": "stable",
+      "name": "Thales",
+      "prior_count": 1,
+      "priority": "high",
+      "recent_count": 1,
+      "status": "active",
+      "themes": [
+        "AI Security",
+        "PQC / Crypto Agility"
       ],
       "type": "company"
     },
@@ -6037,102 +6157,6 @@
         "Standards / Government"
       ],
       "type": "consulting"
-    },
-    {
-      "aliases": [
-        "Thales Group"
-      ],
-      "case_sensitive_aliases": [],
-      "current_evidence_count": 6,
-      "evidence": [
-        {
-          "date": "2026-11-12",
-          "key": "https://cpl.thalesgroup.com/blog/encryption/crypto-agility-cost-of-security-updates",
-          "report": "2026-11/2026-11-12-digest.md",
-          "score": 45,
-          "source": "Thales Cybersecurity Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Crypto Agility: Cut the Cost of Security Updates | Thales",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/crypto-agility-cost-of-security-updates"
-        },
-        {
-          "date": "2026-11-10",
-          "key": "https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix",
-          "report": "2026-11/2026-11-10-digest.md",
-          "score": 50,
-          "source": "Thales Cybersecurity Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Secure AI Connectivity with Post-Quantum Encryption | Thales",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix"
-        },
-        {
-          "date": "2026-10-29",
-          "key": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report",
-          "report": "2026-10/2026-10-29-digest.md",
-          "score": 29,
-          "source": "Thales Cybersecurity Blog",
-          "themes": [
-            "AI Security"
-          ],
-          "title": "Agentic AI Security Risks in Manufacturing | Thales",
-          "url": "https://cpl.thalesgroup.com/blog/data-security/manufacturing-cybersecurity-agentic-ai-2026-data-threat-report"
-        },
-        {
-          "date": "2026-10-19",
-          "key": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks",
-          "report": "2026-10/2026-10-19-digest.md",
-          "score": 67,
-          "source": "Thales Cybersecurity Blog",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "HKMA Quantum Preparedness: What Hong Kong Banks Should Do Next",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/hkma-quantum-preparedness-index-hong-kong-banks"
-        },
-        {
-          "date": "2026-08-05",
-          "key": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption",
-          "report": "2026-08/2026-08-05-digest.md",
-          "score": 64,
-          "source": "QuantumNews.ai",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
-          "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
-        },
-        {
-          "date": "2026-08-04",
-          "key": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing",
-          "report": "2026-08/2026-08-04-digest.md",
-          "score": 89,
-          "source": "The Quantum Insider",
-          "themes": [
-            "PQC / Crypto Agility"
-          ],
-          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
-          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
-        }
-      ],
-      "evidence_count": 6,
-      "first_seen": "2026-08-04",
-      "historical_evidence_count": 0,
-      "latest_seen": "2026-11-12",
-      "momentum": "declining",
-      "name": "Thales",
-      "prior_count": 2,
-      "priority": "high",
-      "recent_count": 0,
-      "status": "quiet",
-      "themes": [
-        "AI Security",
-        "PQC / Crypto Agility"
-      ],
-      "type": "company"
     },
     {
       "aliases": [
@@ -7719,8 +7743,20 @@
     {
       "aliases": [],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 26,
+      "current_evidence_count": 27,
       "evidence": [
+        {
+          "date": "2026-11-24",
+          "key": "https://thequantuminsider.com/2026/11/24/pasqal-leads-european-defence-fund-project-fault-tolerant-quantum-computing",
+          "report": "2026-11/2026-11-24-digest.md",
+          "score": 87,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal Leads European Defence Fund Project on Fault-Tolerant Quantum Computing",
+          "url": "https://thequantuminsider.com/2026/11/24/pasqal-leads-european-defence-fund-project-fault-tolerant-quantum-computing"
+        },
         {
           "date": "2026-11-06",
           "key": "https://thequantuminsider.com/2026/11/06/pasqal-q3-revenue-decline-services-growth",
@@ -8034,16 +8070,16 @@
           "url": "https://thequantuminsider.com/2026/06/29/pasqal-appoints-stephane-rougeot-chief-financial-officer"
         }
       ],
-      "evidence_count": 26,
+      "evidence_count": 27,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 0,
-      "latest_seen": "2026-11-06",
-      "momentum": "stable",
+      "latest_seen": "2026-11-24",
+      "momentum": "rising",
       "name": "Pasqal",
       "prior_count": 0,
       "priority": "medium",
-      "recent_count": 0,
-      "status": "quiet",
+      "recent_count": 1,
+      "status": "active",
       "themes": [
         "PQC / Crypto Agility",
         "Quantum Hardware",
@@ -8494,8 +8530,20 @@
         "quantum LDPC"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 60,
+      "current_evidence_count": 61,
       "evidence": [
+        {
+          "date": "2026-11-24",
+          "key": "https://quantumcomputingreport.com/harvard-quera-nvidia-anthropic-and-three-national-labs-secure-12-million-doe-award-for-ai-driven-quantum-error-correction",
+          "report": "2026-11/2026-11-24-digest.md",
+          "score": 67,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "QEC / Fault Tolerance"
+          ],
+          "title": "Harvard, QuEra, NVIDIA, Anthropic, and Three National Labs Secure $12 Million DOE Award for AI-Driven Quantum Error Correction",
+          "url": "https://quantumcomputingreport.com/harvard-quera-nvidia-anthropic-and-three-national-labs-secure-12-million-doe-award-for-ai-driven-quantum-error-correction"
+        },
         {
           "date": "2026-11-23",
           "key": "https://thequantuminsider.com/2026/11/23/quera-12-million-doe-ai-quantum-error-correction",
@@ -8975,29 +9023,17 @@
           ],
           "title": "Researchers Speed Quantum Error Correction by up to 42 Times",
           "url": "https://quantumzeitgeist.com/quantum-error-correction-qldpc-codes-speedup-neutral-atoms"
-        },
-        {
-          "date": "2026-08-12",
-          "key": "https://thequantuminsider.com/2026/08/12/alice-bob-partners-europe-first-doctoral-network-quantum-error-correction",
-          "report": "2026-08/2026-08-12-digest.md",
-          "score": 109,
-          "source": "The Quantum Insider",
-          "themes": [
-            "QEC / Fault Tolerance"
-          ],
-          "title": "Alice & Bob Joins European Quantum Error Correction Doctoral Network",
-          "url": "https://thequantuminsider.com/2026/08/12/alice-bob-partners-europe-first-doctoral-network-quantum-error-correction"
         }
       ],
-      "evidence_count": 63,
+      "evidence_count": 64,
       "first_seen": "2026-01-08",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-11-23",
-      "momentum": "rising",
+      "latest_seen": "2026-11-24",
+      "momentum": "stable",
       "name": "Quantum error correction",
-      "prior_count": 5,
+      "prior_count": 7,
       "priority": "critical",
-      "recent_count": 9,
+      "recent_count": 7,
       "status": "active",
       "themes": [
         "AI Security",
@@ -9013,8 +9049,20 @@
         "fault-tolerant quantum"
       ],
       "case_sensitive_aliases": [],
-      "current_evidence_count": 36,
+      "current_evidence_count": 37,
       "evidence": [
+        {
+          "date": "2026-11-24",
+          "key": "https://thequantuminsider.com/2026/11/24/pasqal-leads-european-defence-fund-project-fault-tolerant-quantum-computing",
+          "report": "2026-11/2026-11-24-digest.md",
+          "score": 87,
+          "source": "The Quantum Insider",
+          "themes": [
+            "Quantum Hardware"
+          ],
+          "title": "Pasqal Leads European Defence Fund Project on Fault-Tolerant Quantum Computing",
+          "url": "https://thequantuminsider.com/2026/11/24/pasqal-leads-european-defence-fund-project-fault-tolerant-quantum-computing"
+        },
         {
           "date": "2026-11-20",
           "key": "https://quantumzeitgeist.com/infleqtion-sqale-entangles-logical-qubits-atoms",
@@ -9518,41 +9566,17 @@
           ],
           "title": "Researchers Demonstrate Logical Qubit Operations with Low Error Rates of 0.03",
           "url": "https://quantumzeitgeist.com/logical-qubits-error-correction"
-        },
-        {
-          "alert_eligible": false,
-          "category": "Quantum Hardware",
-          "date": "2026-04-22",
-          "date_confidence": "high",
-          "date_kind": "unknown",
-          "date_source": "explicit_metadata:ionq_article_header",
-          "entities": [
-            "IonQ"
-          ],
-          "historical": true,
-          "key": "https://ionq.com/blog/blueprint-for-fault-tolerant-trapped-ion-quantum-computing-the-walking-cat-architecture",
-          "observed_at": "2026-11-22T10:36:11.213444+00:00",
-          "published_at": "2026-04-22T00:00:00+00:00",
-          "score": 94,
-          "source": "IonQ Technical Blog",
-          "source_type": "watch",
-          "summary": "IonQ researchers introduce the walking cat architecture, a complete fault-tolerant quantum computing blueprint built on trapped ions and modern error-correction codes.",
-          "themes": [
-            "Quantum Hardware"
-          ],
-          "title": "IonQ | Blueprint for Fault-Tolerant Trapped-Ion Quantum Computing: The Walking Cat Architecture",
-          "url": "https://ionq.com/blog/blueprint-for-fault-tolerant-trapped-ion-quantum-computing-the-walking-cat-architecture"
         }
       ],
-      "evidence_count": 43,
+      "evidence_count": 44,
       "first_seen": "2025-11-20",
       "historical_evidence_count": 7,
-      "latest_seen": "2026-11-20",
-      "momentum": "stable",
+      "latest_seen": "2026-11-24",
+      "momentum": "rising",
       "name": "Logical qubits",
       "prior_count": 3,
       "priority": "critical",
-      "recent_count": 4,
+      "recent_count": 5,
       "status": "active",
       "themes": [
         "QEC / Fault Tolerance",
@@ -10689,8 +10713,20 @@
       "case_sensitive_aliases": [
         "QKD"
       ],
-      "current_evidence_count": 29,
+      "current_evidence_count": 30,
       "evidence": [
+        {
+          "date": "2026-11-24",
+          "key": "https://quantumcomputingreport.com/idemia-secure-transactions-and-ionq-validate-qkd-interoperability-with-idemia-sphere-cybersecurity-platform",
+          "report": "2026-11/2026-11-24-digest.md",
+          "score": 107,
+          "source": "Quantum Computing Report",
+          "themes": [
+            "Quantum Networking"
+          ],
+          "title": "IDEMIA Secure Transactions and IonQ Validate QKD Interoperability with IDEMIA Sphere Cybersecurity Platform",
+          "url": "https://quantumcomputingreport.com/idemia-secure-transactions-and-ionq-validate-qkd-interoperability-with-idemia-sphere-cybersecurity-platform"
+        },
         {
           "date": "2026-11-23",
           "key": "https://quantumzeitgeist.com/toshiba-quantum-noise-normalised-key-rate",
@@ -11112,13 +11148,13 @@
           "url": "https://quantumcomputinginc.com/news/press-releases/2026/quantum-computing-inc.-to-showcase-quantum-secure-communications-beyond-quantum-key-distribution-at-ecoc-2026"
         }
       ],
-      "evidence_count": 32,
+      "evidence_count": 33,
       "first_seen": "2026-06-29",
       "historical_evidence_count": 3,
-      "latest_seen": "2026-11-23",
+      "latest_seen": "2026-11-24",
       "momentum": "rising",
       "name": "Quantum key distribution",
-      "prior_count": 3,
+      "prior_count": 4,
       "priority": "high",
       "recent_count": 7,
       "status": "active",
@@ -11804,6 +11840,6 @@
       "type": "technology"
     }
   ],
-  "updated_at": "2026-11-24T07:58:30.667960+00:00",
+  "updated_at": "2026-11-25T06:33:45.459069+00:00",
   "version": 2
 }

@@ -1246,6 +1246,81 @@
       "type": "government"
     },
     {
+      "confidence": "high",
+      "evidence_count": 4,
+      "historical_evidence_count": 0,
+      "latest_evidence_at": "2026-11-24",
+      "name": "Thales",
+      "priority": "high",
+      "source_count": 3,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": "2026-11-24",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "migration plan"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "Thales Cybersecurity Blog",
+          "title": "Quantum-Safe Migration Planning: Singapore CSA & MAS Guidance | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/data-security/building-an-evidence-based-quantum-safe-migration-plan"
+        },
+        {
+          "date": "2026-08-04",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "readiness"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "The Quantum Insider",
+          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
+          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
+        },
+        {
+          "date": "2026-11-10",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Thales Cybersecurity Blog",
+          "title": "Secure AI Connectivity with Post-Quantum Encryption | Thales",
+          "url": "https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix"
+        },
+        {
+          "date": "2026-08-05",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuantumNews.ai",
+          "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
+          "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
+        }
+      ],
+      "type": "company"
+    },
+    {
       "confidence": "medium",
       "evidence_count": 3,
       "historical_evidence_count": 2,
@@ -1349,66 +1424,6 @@
         }
       ],
       "type": "government"
-    },
-    {
-      "confidence": "medium",
-      "evidence_count": 3,
-      "historical_evidence_count": 0,
-      "latest_evidence_at": "2026-11-10",
-      "name": "Thales",
-      "priority": "high",
-      "source_count": 3,
-      "stage": "planning",
-      "stage_label": "Planning",
-      "stage_rank": 3,
-      "supporting_evidence": [
-        {
-          "date": "2026-08-04",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "readiness"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "The Quantum Insider",
-          "title": "Thales Launches Luna 8 Hardware Security Module for Post-Quantum Cryptography Readiness",
-          "url": "https://thequantuminsider.com/2026/08/04/thales-cryptographic-security-ai-post-quantum-computing"
-        },
-        {
-          "date": "2026-11-10",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Thales Cybersecurity Blog",
-          "title": "Secure AI Connectivity with Post-Quantum Encryption | Thales",
-          "url": "https://cpl.thalesgroup.com/blog/encryption/building-trust-ai-sovereignty-quantum-thales-equinix"
-        },
-        {
-          "date": "2026-08-05",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "QuantumNews.ai",
-          "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
-          "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
-        }
-      ],
-      "type": "company"
     },
     {
       "confidence": "medium",
@@ -2245,6 +2260,6 @@
     "not_assessed": 20,
     "organizations": 43
   },
-  "updated_at": "2026-11-24T07:58:31.696157+00:00",
+  "updated_at": "2026-11-25T06:33:46.365283+00:00",
   "version": 1
 }

@@ -4,7 +4,7 @@
 
 [Entity Watch](entity-watch.md) · [Historical Evidence](historical-evidence.md) · [Standards Timeline](standards-timeline.md)
 
-_Updated 2026-11-24 07:58 UTC_
+_Updated 2026-11-25 06:33 UTC_
 
 Public evidence indicates observed activity, not an audit of an organization's internal cryptographic posture.
 
@@ -22,9 +22,9 @@ Assessed **23 of 43** configured organizations.
 | DigiCert | Planning | high | 6 | 4 | 0 | 2026-09-25 |
 | Keyfactor | Planning | high | 14 | 3 | 6 | 2026-10-29 |
 | NIST | Planning | high | 13 | 6 | 1 | 2026-10-28 |
+| Thales | Planning | high | 4 | 3 | 0 | 2026-11-24 |
 | AWS | Planning | medium | 3 | 2 | 2 | 2026-07-14 |
 | CISA | Planning | medium | 2 | 1 | 0 | 2026-11-05 |
-| Thales | Planning | medium | 3 | 3 | 0 | 2026-11-10 |
 | PQCA | Inventory | medium | 2 | 1 | 0 | 2026-10-07 |
 | Deloitte | Inventory | low | 1 | 1 | 1 | Unknown |
 | Cloudflare | Awareness | high | 11 | 4 | 0 | 2026-11-09 |

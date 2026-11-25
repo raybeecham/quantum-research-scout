@@ -1,10 +1,10 @@
 # Data Trust and Evidence Admission
 
-_Updated 2026-11-24T07:52:51.225595+00:00_
+_Updated 2026-11-25T06:26:25.985745+00:00_
 
 Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.
 
-- Accepted evidence: **544**
+- Accepted evidence: **545**
 - Quarantined evidence or relationships: **141**
 - Acceptance rate: **79.4%**
 
@@ -12,15 +12,15 @@ Evidence must pass a deterministic admission gate before it can influence missio
 
 | Scope | Accepted | Quarantined | Acceptance rate |
 |---|---:|---:|---:|
-| Federal missions | 44 | 100 | 30.6% |
+| Federal missions | 45 | 100 | 31.0% |
 | Federal funding | 500 | 41 | 92.4% |
 
 ## Quarantine Reasons
 
 - **Match appears only in collector query metadata**: 138
 - **No relevant term in the evidence itself**: 138
-- **Official government source**: 97
-- **Source is not an official .gov or .mil domain**: 41
+- **Official government source**: 95
+- **Source is not an official .gov or .mil domain**: 43
 - **Agency and technology inference only**: 3
 
 ## Quarantined Evidence
@@ -33,6 +33,20 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 65
 
 ### [Press Releases November 23, 2026 QuEra Computing Joins Harvard-Led, $12 Million DOE Project to Design AI-Driven Error Correction for Fault-Tolerant Quantum Computing](https://www.quera.com/press-releases/quera-computing-joins-harvard-led-12-million-doe-project-to-design-ai-driven-error-correction-for-fault-tolerant-quantum-computing)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [Celebrating the Genesis Mission's First Anniversary | IBM Quantum Computing Blog](https://www.ibm.com/quantum/blog/genesis-first-anniversary)
+
+- Scope: Federal missions
+- Stage: mission evidence admission
+- Reason: Source is not an official .gov or .mil domain, Match appears only in collector query metadata, No relevant term in the evidence itself
+- Admission score: 10
+
+### [Celebrating the Genesis Mission's First Anniversary](https://research.ibm.com/blog/genesis-first-anniversary)
 
 - Scope: Federal missions
 - Stage: mission evidence admission
@@ -705,20 +719,6 @@ Evidence must pass a deterministic admission gate before it can influence missio
 - Admission score: 25
 
 ### [FAIR HOUSING INITIATIVES PROGRAM PRIVATE ENFORCEMENT INITIATIVE](https://www.grants.gov/search-results-detail/362827)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)](https://www.grants.gov/search-results-detail/359269)
-
-- Scope: Federal missions
-- Stage: mission evidence admission
-- Reason: Official government source, Match appears only in collector query metadata, No relevant term in the evidence itself
-- Admission score: 25
-
-### [PRIMED-AI: Data-to-Model Academic-Industrial Partnerships (D2M-AIP) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (UG3/UH3 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/359270)
 
 - Scope: Federal missions
 - Stage: mission evidence admission

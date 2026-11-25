@@ -1,8 +1,8 @@
 {
   "collector_metrics": [
     {
-      "acceptance_rate": 30.6,
-      "accepted": 44,
+      "acceptance_rate": 31.0,
+      "accepted": 45,
       "quarantined": 100,
       "scope": "Federal missions"
     },
@@ -48,7 +48,7 @@
         "score": 10,
         "status": "quarantined"
       },
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "key": "https://www.quera.com/press-releases/quera-computing-joins-harvard-led-12-million-doe-project-to-design-ai-driven-error-correction-for-fault-tolerant-quantum-computing",
       "mission_id": "genesis-mission",
       "mission_name": "Genesis Mission",
@@ -57,6 +57,52 @@
       "stage": "mission evidence admission",
       "title": "Press Releases November 23, 2026 QuEra Computing Joins Harvard-Led, $12 Million DOE Project to Design AI-Driven Error Correction for Fault-Tolerant Quantum Computing",
       "url": "https://www.quera.com/press-releases/quera-computing-joins-harvard-led-12-million-doe-project-to-design-ai-driven-error-correction-for-fault-tolerant-quantum-computing"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-11-24",
+      "key": "https://www.ibm.com/quantum/blog/genesis-first-anniversary",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "IBM Quantum Blog",
+      "stage": "mission evidence admission",
+      "title": "Celebrating the Genesis Mission's First Anniversary | IBM Quantum Computing Blog",
+      "url": "https://www.ibm.com/quantum/blog/genesis-first-anniversary"
+    },
+    {
+      "admission": {
+        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
+        "confidence": "low",
+        "matched_alias": "Genesis Mission",
+        "reason_codes": [
+          "non_government_source",
+          "query_metadata_only",
+          "no_contextual_match"
+        ],
+        "score": 10,
+        "status": "quarantined"
+      },
+      "date": "2026-11-24",
+      "key": "https://research.ibm.com/blog/genesis-first-anniversary",
+      "mission_id": "genesis-mission",
+      "mission_name": "Genesis Mission",
+      "scope": "Federal missions",
+      "source": "IBM Research Quantum and Cryptography",
+      "stage": "mission evidence admission",
+      "title": "Celebrating the Genesis Mission's First Anniversary",
+      "url": "https://research.ibm.com/blog/genesis-first-anniversary"
     },
     {
       "admission": {
@@ -2240,52 +2286,6 @@
       "stage": "mission evidence admission",
       "title": "FAIR HOUSING INITIATIVES PROGRAM PRIVATE ENFORCEMENT INITIATIVE",
       "url": "https://www.grants.gov/search-results-detail/362827"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Quantum Genesis",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-30",
-      "key": "https://www.grants.gov/search-results-detail/359269",
-      "mission_id": "quantum-genesis",
-      "mission_name": "Quantum Genesis",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Quantum Genesis",
-      "stage": "mission evidence admission",
-      "title": "Validation Center for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U54 Clinical Trials Not Allowed)",
-      "url": "https://www.grants.gov/search-results-detail/359269"
-    },
-    {
-      "admission": {
-        "basis": "The collector query names the mission, but the evidence title, summary, and URL do not.",
-        "confidence": "low",
-        "matched_alias": "Military AI Pace-Setting Projects",
-        "reason_codes": [
-          "official_source",
-          "query_metadata_only",
-          "no_contextual_match"
-        ],
-        "score": 25,
-        "status": "quarantined"
-      },
-      "date": "2026-06-30",
-      "key": "https://www.grants.gov/search-results-detail/359270",
-      "mission_id": "military-ai-pace-setting-projects",
-      "mission_name": "Military AI Pace-Setting Projects",
-      "scope": "Federal missions",
-      "source": "Grants.gov \u00b7 Military AI Pace-Setting Projects",
-      "stage": "mission evidence admission",
-      "title": "PRIMED-AI: Data-to-Model Academic-Industrial Partnerships (D2M-AIP) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (UG3/UH3 Clinical Trial Optional)",
-      "url": "https://www.grants.gov/search-results-detail/359270"
     }
   ],
   "reason_counts": [
@@ -2301,12 +2301,12 @@
     },
     {
       "code": "official_source",
-      "count": 97,
+      "count": 95,
       "label": "Official government source"
     },
     {
       "code": "non_government_source",
-      "count": 41,
+      "count": 43,
       "label": "Source is not an official .gov or .mil domain"
     },
     {
@@ -2318,13 +2318,13 @@
   "scope_note": "Evidence must pass a deterministic admission gate before it can influence mission, funding, claim, relationship, or forecast intelligence.",
   "summary": {
     "acceptance_rate": 79.4,
-    "accepted": 544,
-    "decisions": 685,
+    "accepted": 545,
+    "decisions": 686,
     "funding_quarantine": 38,
     "mission_quarantine": 100,
     "quarantined": 141,
     "relationship_quarantine": 3
   },
-  "updated_at": "2026-11-24T07:52:51.225595+00:00",
+  "updated_at": "2026-11-25T06:26:25.985745+00:00",
   "version": 1
 }

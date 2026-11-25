@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-11-24T07:52:51.225595+00:00_
+_Updated 2026-11-25T06:26:25.985745+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 
@@ -53,7 +53,7 @@ Dates are assigned explicit roles. Event, publication, effective, and observatio
 ## Upcoming
 
 - **2026-11-14** · Close the umbrella QBI 2026 announcement — overdue ([source](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative))
-- **2026-11-24** · Submit the first annual Genesis Mission progress report — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
+- **2026-11-24** · Submit the first annual Genesis Mission progress report — awaiting_confirmation ([source](https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/))
 - **2026-12-07** · Post Quantum Cryptography (PQC) Readiness and Validation Status — closing_this_month ([source](https://sam.gov/workspace/contract/opp/92c1221a05ca49eb87cd904fc87d7d7b/view))
 - **2026-12-17** · The Genesis Mission: Transforming Science and Energy with AI — closing_this_month ([source](https://www.grants.gov/search-results-detail/361526))
 - **2026-12-19** · Establish a national quantum-computing assessment center — due_soon ([source](https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/))
