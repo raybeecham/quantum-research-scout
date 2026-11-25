@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-25 01:18 UTC_
+_Updated 2026-11-25 02:16 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -43,7 +43,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Cloudflare Post-Quantum Blog | rss | 100% | 0 | 0 | 2026-11-25 | 2026-11-06 | fresh | 🟢 healthy |
 | Cybersecurity and Cryptography Patents | patent | 100% | 0 | 0 | 2026-11-24 | 2026-11-19 | fresh | 🟢 healthy |
 | DARPA Strategic Technology Missions | watch | 100% | 0 | 0 | 2026-11-25 | 2026-11-16 | fresh | 🟢 healthy |
-| DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-25 | 2026-11-10 | fresh | 🟠 partial |
+| DOE Federal Science Missions | watch | 100% | 0 | 0 | 2026-11-25 | 2026-11-10 | fresh | 🟢 healthy |
 | Deloitte Quantum Cyber Readiness | watch | 100% | 0 | 0 | 2026-11-24 | — | reference | 🟢 healthy |
 | Department of War Strategic Technology Releases | watch | 100% | 0 | 0 | 2026-11-25 | 2026-11-19 | fresh | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-25 | 2026-11-23 | fresh | 🟢 healthy |
@@ -134,10 +134,10 @@ RSS and API are measured separately. Standby means no API request was made; work
 ## Operational Coverage
 
 - Coverage status: **WATCH**
-- Healthy sources: **102** of **108**
-- Partial-coverage sources: **3**
+- Healthy sources: **103** of **108**
+- Partial-coverage sources: **2**
 - Critical sources failing: **0**
-- Partial coverage: DOE Federal Science Missions, arXiv RSS cs.CR, arXiv RSS quant-ph
+- Partial coverage: arXiv RSS cs.CR, arXiv RSS quant-ph
 
 ## Disabled Sources
 
