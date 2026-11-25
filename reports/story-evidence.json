@@ -3754,6 +3754,107 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2611.31534": {
+      "captures": [
+        {
+          "excerpts": [
+            "We report the experimental demonstration of a high-fidelity oscillating magnetic gradient entangling gate on the axial stretch mode of a two-ion crystal in a micro-fabricated surface Paul trap, therefore allowing..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-24",
+              "report_date": "2026-11-25",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.31534"
+            }
+          ],
+          "title": "All-electronic geometric phase gate on Doppler-cooled trapped ions using an axial mode"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.31585": {
+      "captures": [
+        {
+          "excerpts": [
+            "Most resource estimates for breaking secp256k1 with Shor's algorithm describe one long run per attempt, and the spacetime volume of that run, its peak number of logical qubits times its Toffoli count, sets its logical...",
+            "Eker{\\aa}'s tradeoff shrinks each run by using more runs, but how far it can shrink the largest run, and at what circuit cost, has not been determined"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-24",
+              "report_date": "2026-11-25",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.31585"
+            }
+          ],
+          "title": "How Small Can a Single Shor Run Be? Limits and Constructions for secp256k1"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.31607": {
+      "captures": [
+        {
+          "excerpts": [
+            "On neutral-atom and trapped-ion machines, a transversal gate needs only one syndrome round, so a logical gate takes up to d times less time than with lattice surgery",
+            "However, transversal gates make decoding harder, because a transversal CNOT copies errors between two blocks of physical qubits, so a decoder must read all blocks of a circuit together",
+            "Algorithmic decoders for such circuits gain accuracy at the cost of speed"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-24",
+              "report_date": "2026-11-25",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.31607"
+            }
+          ],
+          "title": "Neural Decoding of Logical Clifford Circuits with Transversal Gates"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.32126": {
+      "captures": [
+        {
+          "excerpts": [
+            "Entanglement-assisted quantum codes protect quantum information with entangled pairs shared in advance, and the entanglement-assisted quantum Singleton bound of Brun, Devetak and Hsieh is the standard estimate of...",
+            "Codes that violate it at large distance are known"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-24",
+              "report_date": "2026-11-25",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.32126"
+            }
+          ],
+          "title": "Validity and maximum violation of the entanglement-assisted quantum Singleton bound for linear stabilizer codes"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.32652": {
+      "captures": [
+        {
+          "excerpts": [
+            "Complex out-of-order processors are difficult to evaluate for power side-channel leakage before tapeout",
+            "A single FPGA often lacks sufficient capacity, whereas conventional CAD-based analysis is too slow to support the large numbers of traces required by practical attacks",
+            "Multi-FPGA emulation provides greater capacity, but existing partitioning schemes are not security-aware and thus results in poor attack performance"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-24",
+              "report_date": "2026-11-25",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.32652"
+            }
+          ],
+          "title": "Power Side-Channel Evaluation using Multi-FPGA Systems"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
@@ -4127,6 +4228,13 @@
             {
               "published_date": "2026-11-24",
               "report_date": "2026-11-24",
+              "sequence": 0,
+              "source": "Thales Cybersecurity Blog",
+              "url": "https://cpl.thalesgroup.com/blog/data-security/building-an-evidence-based-quantum-safe-migration-plan"
+            },
+            {
+              "published_date": "2026-11-24",
+              "report_date": "2026-11-25",
               "sequence": 0,
               "source": "Thales Cybersecurity Blog",
               "url": "https://cpl.thalesgroup.com/blog/data-security/building-an-evidence-based-quantum-safe-migration-plan"
@@ -5251,6 +5359,13 @@
             {
               "published_date": "2026-11-23",
               "report_date": "2026-11-24",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/3001"
+            },
+            {
+              "published_date": "2026-11-23",
+              "report_date": "2026-11-25",
               "sequence": 0,
               "source": "IACR ePrint",
               "url": "https://eprint.iacr.org/2026/3001"
@@ -7624,6 +7739,13 @@
             {
               "published_date": "2026-11-24",
               "report_date": "2026-11-24",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/idemia-secure-transactions-and-ionq-validate-qkd-interoperability-with-idemia-sphere-cybersecurity-platform"
+            },
+            {
+              "published_date": "2026-11-24",
+              "report_date": "2026-11-25",
               "sequence": 0,
               "source": "Quantum Computing Report",
               "url": "https://quantumcomputingreport.com/idemia-secure-transactions-and-ionq-validate-qkd-interoperability-with-idemia-sphere-cybersecurity-platform"
@@ -12737,6 +12859,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/neutral-atom-quantum-error-fund-pasqal"
+            },
+            {
+              "published_date": "2026-11-24",
+              "report_date": "2026-11-25",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/neutral-atom-quantum-error-fund-pasqal"
             }
           ],
           "title": "ParityQC, Pasqal and Thales win European defence fund for quantum"
@@ -12954,6 +13083,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/pennsylvania-spin-qubits-maintain-rotation-angle"
+            },
+            {
+              "published_date": "2026-11-24",
+              "report_date": "2026-11-25",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/pennsylvania-spin-qubits-maintain-rotation-angle"
             }
           ],
           "title": "Spin qubits maintain rotation angle to 0.3 degrees for ten days"
@@ -12970,6 +13106,13 @@
             {
               "published_date": "2026-11-24",
               "report_date": "2026-11-24",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/perimeter-institute-topological-qubits-hold-partial"
+            },
+            {
+              "published_date": "2026-11-24",
+              "report_date": "2026-11-25",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/perimeter-institute-topological-qubits-hold-partial"
@@ -15323,6 +15466,13 @@
             {
               "published_date": "2026-11-24",
               "report_date": "2026-11-24",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/totm-labs-partnership-aires-quantum-security"
+            },
+            {
+              "published_date": "2026-11-24",
+              "report_date": "2026-11-25",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/totm-labs-partnership-aires-quantum-security"
@@ -20036,6 +20186,13 @@
               "sequence": 0,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/11/23/quera-12-million-doe-ai-quantum-error-correction"
+            },
+            {
+              "published_date": "2026-11-23",
+              "report_date": "2026-11-25",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/23/quera-12-million-doe-ai-quantum-error-correction"
             }
           ],
           "title": "QuEra Joins $12 Million DOE Project on AI-Designed Quantum Error Correction"
@@ -20078,6 +20235,22 @@
             {
               "published_date": "2026-11-24",
               "report_date": "2026-11-24",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/24/pasqal-leads-european-defence-fund-project-fault-tolerant-quantum-computing"
+            }
+          ],
+          "title": "Pasqal Leads European Defence Fund Project on Fault-Tolerant Quantum Computing"
+        },
+        {
+          "excerpts": [
+            "Pasqal today announced the public launch of CoPaNA (Concatenated Parity codes on Neutral Atoms), a three-year research project selected under the European Defence Fund (EDF) 2025 call and coordinated by Pasqal",
+            "Validity and maximum violation of the entanglement-assisted quantum Singleton bound for linear stabilizer codes — already featured in Strategic Signals. [Open item](https://arxiv.org/abs/2611.32126)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-24",
+              "report_date": "2026-11-25",
               "sequence": 0,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/11/24/pasqal-leads-european-defence-fund-project-fault-tolerant-quantum-computing"
