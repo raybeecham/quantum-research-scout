@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-26 13:51 UTC_
+_Updated 2026-11-26 22:58 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -24,7 +24,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv RSS quant-ph | arxiv_rss | 94% | 1 | 7 | 2026-11-26 | 2026-11-26 | fresh | 🟠 partial |
 | DOE Office of Science Updates | watch | 97% | 1 | 0 | 2026-11-26 | 2026-11-10 | stale | 🟢 healthy |
 | Quantum Computing Report | rss | 96% | 1 | 0 | 2026-11-26 | 2026-11-26 | fresh | 🟢 healthy |
-| Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-26 | 2026-11-25 | fresh | 🟢 healthy |
+| Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-26 | 2026-11-26 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 7 | 2026-11-26 | 2024-03-12 | reference | 🟢 healthy |
 | SAM.gov Opportunities | procurement | 98% | 0 | 6 | 2026-11-26 | 2026-11-25 | fresh | 🟢 healthy |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-17 | fresh | 🟢 healthy |
@@ -90,7 +90,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | OpenSSL Library Releases | rss | 100% | 0 | 0 | 2026-11-26 | 2026-10-23 | fresh | 🟢 healthy |
 | PQCA Blog and News | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-02 | stale | 🟢 healthy |
 | PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-04 | stale | 🟢 healthy |
-| PQShield | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-04 | stale | 🟢 healthy |
+| PQShield | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-24 | fresh | 🟢 healthy |
 | Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-26 | 2026-11-26 | fresh | 🟢 healthy |
 | Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-11-26 | 2026-11-05 | stale | 🟢 healthy |
 | PsiQuantum News | watch | 100% | 0 | 0 | 2026-11-26 | 2026-11-12 | fresh | 🟢 healthy |
