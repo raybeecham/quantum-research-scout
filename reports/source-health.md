@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-26 04:45 UTC_
+_Updated 2026-11-26 05:45 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -20,8 +20,8 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv Quantum Networking and Sensing | arxiv | 62% | 5 | 0 | 2026-11-10 | 2026-10-29 | standby | ⚪ standby |
 | Department of War Strategic Technology News | watch | 86% | 4 | 0 | 2026-11-26 | 2026-11-20 | fresh | 🟢 healthy |
 | Quantum Computing Patents | patent | 91% | 4 | 0 | 2026-11-25 | 2026-11-19 | fresh | 🟢 healthy |
-| arXiv RSS cs.CR | arxiv_rss | 94% | 1 | 6 | 2026-11-26 | 2026-11-25 | fresh | 🟠 partial |
-| arXiv RSS quant-ph | arxiv_rss | 94% | 1 | 6 | 2026-11-26 | 2026-11-25 | fresh | 🟠 partial |
+| arXiv RSS cs.CR | arxiv_rss | 94% | 1 | 6 | 2026-11-26 | 2026-11-26 | fresh | 🟠 partial |
+| arXiv RSS quant-ph | arxiv_rss | 94% | 1 | 6 | 2026-11-26 | 2026-11-26 | fresh | 🟠 partial |
 | DOE Office of Science Updates | watch | 97% | 1 | 0 | 2026-11-26 | 2026-11-10 | stale | 🟢 healthy |
 | Quantum Computing Report | rss | 96% | 1 | 0 | 2026-11-26 | 2026-11-26 | fresh | 🟢 healthy |
 | Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-26 | 2026-11-25 | fresh | 🟢 healthy |
@@ -64,7 +64,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Grants.gov · Quantum Genesis | grant_opportunity | 100% | 0 | 0 | 2026-11-25 | 2026-06-30 | stale | 🟢 healthy |
 | Grants.gov · Quantum Technologies | grant_opportunity | 100% | 0 | 0 | 2026-11-25 | 2026-10-28 | stale | 🟢 healthy |
 | Grants.gov · QuantumEAGLe | grant_opportunity | 100% | 0 | 0 | 2026-11-25 | — | unknown | 🟢 healthy |
-| Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-25 | fresh | 🟢 healthy |
+| Hugging Face Technical Blog | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-26 | fresh | 🟢 healthy |
 | IACR ePrint | iacr_eprint | 100% | 0 | 0 | 2026-11-26 | 2026-11-24 | fresh | 🟢 healthy |
 | IBM Quantum Blog | url | 100% | 0 | 0 | 2026-11-26 | 2026-11-24 | fresh | 🟢 healthy |
 | IBM Research Quantum and Cryptography | watch | 100% | 0 | 0 | 2026-11-26 | 2026-11-24 | fresh | 🟢 healthy |

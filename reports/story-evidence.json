@@ -3944,6 +3944,127 @@
         }
       ]
     },
+    "https://arxiv.org/abs/2611.33337": {
+      "captures": [
+        {
+          "excerpts": [
+            "They are also capable of preserving more logical qubits than corresponding schemes in which the same syndrome-extraction measurements are performed without being distributed over time",
+            "Dynamical codes, including Floquet codes, can capture time-dependent phenomena in quantum error correction circuits that are absent from static stabilizer or subsystem codes, such as detecting regions and error..."
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-25",
+              "report_date": "2026-11-25",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.33337"
+            }
+          ],
+          "title": "Using a static spacetime subsystem code to calculate Floquet code distance"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.33509": {
+      "captures": [
+        {
+          "excerpts": [
+            "In this paper, we used Nemotron 3.5 Lightning, a large language model (LLM), in a coding-agent loop to optimize the structure and rotation-synthesis precision of product formulas (PFs) for quantum phase estimation (QPE)",
+            "Quantum chemistry calculations on a fault-tolerant quantum computer usually require many $\\text{T}$ gates",
+            "This cost depends on the simulation method and how precisely its rotations are implemented"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-25",
+              "report_date": "2026-11-25",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.33509"
+            }
+          ],
+          "title": "Reducing T gates in product formulas with agent loops"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.33590": {
+      "captures": [
+        {
+          "excerpts": [
+            "Fault-tolerant quantum computing (FTQC) requires a large number of physical qubits to encode logical qubits with sufficiently low error rates",
+            "Silicon spin qubits are a promising platform because of their small footprint, compatibility with semiconductor manufacturing technologies, and demonstrated high-fidelity operations"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-25",
+              "report_date": "2026-11-25",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.33590"
+            }
+          ],
+          "title": "A scalable dense silicon qubit architecture with logical operations"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.33665": {
+      "captures": [
+        {
+          "excerpts": [
+            "Real-time decoding of the surface code is essential for fault-tolerant quantum computing, and scaling the decoder to large code distances in hardware remains a challenge",
+            "The locality of Union-Find (UF) decoding makes it a leading candidate for such a decoder in distributed hardware"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-25",
+              "report_date": "2026-11-25",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.33665"
+            }
+          ],
+          "title": "Amatlas: A 2D Array Architecture for Union-Find Decoding Without Global Coordination"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.33666": {
+      "captures": [
+        {
+          "excerpts": [
+            "Since then, several rounds of proposals and revisions have occurred resulting in the 2022 announcement that three signature schemes - CRYSTALS-Dilithium, FALCON, and SPHINCS+ - would be standardized",
+            "In 2016, the National Institute of Standards and Technology (NIST) announced their invitation for proposals of public key encryption and signature schemes that are resistant to attacks by quantum computers"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-25",
+              "report_date": "2026-11-25",
+              "sequence": 0,
+              "source": "arXiv RSS cs.CR",
+              "url": "https://arxiv.org/abs/2611.33666"
+            }
+          ],
+          "title": "Bounding the security of the FALCON signature scheme in the quantum random oracle model"
+        }
+      ]
+    },
+    "https://arxiv.org/abs/2611.33854": {
+      "captures": [
+        {
+          "excerpts": [
+            "The distribution of the qubit energy-relaxation time (T1) in a superconducting quantum processor affects its logical error rates",
+            "However, reports on qubit fabrication quality focus on the median or best-case T1 from measurements that are not reproducible due to resonant coupling to two-level system (TLS) defects whose frequencies fluctuate in time"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-25",
+              "report_date": "2026-11-25",
+              "sequence": 0,
+              "source": "arXiv RSS quant-ph",
+              "url": "https://arxiv.org/abs/2611.33854"
+            }
+          ],
+          "title": "Reproducible distributions of energy-relaxation times in superconducting qubits from broadband SWAP spectroscopy"
+        }
+      ]
+    },
     "https://aws.amazon.com/blogs/quantum-computing/combating-quantum-noise-with-aws-university-of-washington-capstone-project": {
       "captures": [
         {
@@ -4084,6 +4205,21 @@
               "published_date": "2026-11-25",
               "report_date": "2026-11-25",
               "sequence": 0,
+              "source": "AWS Security Blog",
+              "url": "https://aws.amazon.com/blogs/security/make-post-quantum-cryptography-updates-routine-with-aws-lc"
+            }
+          ],
+          "title": "Make post-quantum cryptography updates routine with AWS-LC"
+        },
+        {
+          "excerpts": [
+            "As your organization plans upgrades to post-quantum cryptography (PQC), you should also think about cryptographic agility to more easily update algorithms used to protect your data"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-25",
+              "report_date": "2026-11-25",
+              "sequence": 1,
               "source": "AWS Security Blog",
               "url": "https://aws.amazon.com/blogs/security/make-post-quantum-cryptography-updates-routine-with-aws-lc"
             }
