@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-26 06:45 UTC_
+_Updated 2026-11-26 13:51 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -79,7 +79,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Lockheed Martin Quantum Technology | watch | 100% | 0 | 0 | 2026-11-26 | 2026-07-14 | stale | 🟢 healthy |
 | Microsoft Quantum Blog | watch | 100% | 0 | 0 | 2026-11-26 | 2026-09-22 | stale | 🟢 healthy |
 | NCSC UK Guidance | rss | 100% | 0 | 0 | 2026-11-26 | 2026-10-15 | stale | 🟢 healthy |
-| NCSC UK News | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-11 | fresh | 🟢 healthy |
+| NCSC UK News | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-11 | stale | 🟢 healthy |
 | NCSC UK Reports | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-03 | fresh | 🟢 healthy |
 | NIST CSRC News | url | 100% | 0 | 0 | 2026-11-26 | 2026-11-18 | fresh | 🟢 healthy |
 | NIST Cybersecurity Insights | watch | 100% | 0 | 0 | 2026-11-26 | 2026-10-27 | stale | 🟢 healthy |
@@ -91,7 +91,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | PQCA Blog and News | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-02 | stale | 🟢 healthy |
 | PQCA Readiness Tracking | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-04 | stale | 🟢 healthy |
 | PQShield | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-04 | stale | 🟢 healthy |
-| Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-26 | 2026-11-24 | fresh | 🟢 healthy |
+| Palo Alto Networks LIVEcommunity Blogs | watch | 100% | 0 | 0 | 2026-11-26 | 2026-11-26 | fresh | 🟢 healthy |
 | Post-Quantum Cryptography Patents | patent | 99% | 0 | 0 | 2026-11-26 | 2026-11-05 | stale | 🟢 healthy |
 | PsiQuantum News | watch | 100% | 0 | 0 | 2026-11-26 | 2026-11-12 | fresh | 🟢 healthy |
 | QCi Press Releases | watch | 100% | 0 | 0 | 2026-11-26 | 2026-11-17 | fresh | 🟢 healthy |
@@ -103,7 +103,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | SandboxAQ Blog | url | 100% | 0 | 0 | 2026-11-26 | 2026-10-08 | stale | 🟢 healthy |
 | Strategic AI Systems Patents | patent | 99% | 0 | 0 | 2026-11-26 | 2026-11-19 | fresh | 🟢 healthy |
 | Thales Cybersecurity Blog | url | 100% | 0 | 0 | 2026-11-26 | 2026-11-25 | fresh | 🟢 healthy |
-| The Quantum Insider | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-25 | fresh | 🟢 healthy |
+| The Quantum Insider | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-26 | fresh | 🟢 healthy |
 | Trail of Bits Cryptography | rss | 100% | 0 | 0 | 2026-11-26 | 2026-11-03 | fresh | 🟢 healthy |
 | USAspending · AI Forge | federal_award | 100% | 0 | 0 | 2026-11-26 | 2026-09-28 | stale | 🟢 healthy |
 | USAspending · Advanced Computing | federal_award | 100% | 0 | 0 | 2026-11-26 | 2026-11-16 | fresh | 🟢 healthy |
