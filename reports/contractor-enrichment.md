@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Pursuit Workspace](pursuits.md)
 
-_Updated 2026-11-25T06:26:25.985745+00:00_
+_Updated 2026-11-26T06:18:51.359249+00:00_
 
 Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evidence. Name searches resolve only on an exact normalized legal-name or alias match.
 
@@ -27,7 +27,6 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | UNIVERSITY OF MARYLAND, COLLEGE PARK | [UNIVERSITY OF MARYLAND, COLLEGE PARK](https://sam.gov/entity/NPU8ULVAAS23/coreData) | NPU8ULVAAS23 | 0UB92 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | [GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.](https://sam.gov/entity/SMNWM6HN79X5/coreData) | SMNWM6HN79X5 | 07MU1 | Active | Business or Organization, For Profit Organization |
 | DELOITTE CONSULTING LLP | [DELOITTE CONSULTING LLP](https://sam.gov/entity/CKV2L9GZKJK3/coreData) | CKV2L9GZKJK3 | 1TTG5 | Active | Business or Organization, For Profit Organization |
-| UNIVERSITY OF ALABAMA | [UNIVERSITY OF ALABAMA](https://sam.gov/entity/RCNJEHZ83EV6/coreData) | RCNJEHZ83EV6 | 77223 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | LOUISIANA STATE UNIVERSITY | [LOUISIANA STATE UNIVERSITY](https://sam.gov/entity/ECQEYCHRNKJ4/coreData) | ECQEYCHRNKJ4 | 4L859 | Active | 1862 Land Grant College, 1890 Land Grant College, Educational Institution |
 | BROWN UNIVERSITY | [BROWN UNIVERSITY](https://sam.gov/entity/E3FDXZ6TBHW3/coreData) | E3FDXZ6TBHW3 | 23242 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | THE UNIVERSITY OF IOWA | [THE UNIVERSITY OF IOWA](https://sam.gov/entity/Z1H9VJS8NG16/coreData) | Z1H9VJS8NG16 | 2D354 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
@@ -40,6 +39,7 @@ Public SAM.gov entity-registration, business-type, NAICS, PSC, and hierarchy evi
 | FOUR POINTS TECHNOLOGY, L.L.C. | [FOUR POINTS TECHNOLOGY, L.L.C.](https://sam.gov/entity/H1KHJPJH9R51/coreData) | H1KHJPJH9R51 | 1YS78 | Active | Business or Organization, For Profit Organization, Limited Liability Company |
 | UNIVERSITY OF ILLINOIS | [UNIVERSITY OF ILLINOIS](https://sam.gov/entity/Y8CWNJRCNN91/coreData) | Y8CWNJRCNN91 | 4B808 | Active | 1862 Land Grant College, Educational Institution, State Controlled Institution of Higher Learning |
 | UNIVERSITY OF TEXAS AT AUSTIN | [University of Texas at Austin](https://sam.gov/entity/V6AFQPN18437/coreData) | V6AFQPN18437 | 9B981 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
+| UNIVERSITY OF ALABAMA | [UNIVERSITY OF ALABAMA](https://sam.gov/entity/RCNJEHZ83EV6/coreData) | RCNJEHZ83EV6 | 77223 | Active | Business or Organization, Educational Institution, Non-Profit Organization |
 | UNIVERSITY OF UTAH | [UNIVERSITY OF UTAH](https://sam.gov/entity/LL8GLEVH6MG3/coreData) | LL8GLEVH6MG3 | 3T624 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | UNIVERSITY OF OKLAHOMA | [UNIVERSITY OF OKLAHOMA](https://sam.gov/entity/EVTSTTLCEWS5/coreData) | EVTSTTLCEWS5 | 3G168 | Active | Educational Institution, State Controlled Institution of Higher Learning, U.S. State Government |
 | SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | [SCIENCE APPLICATIONS INTERNATIONAL CORPORATION](https://sam.gov/entity/MMLKPW9JLX64/coreData) | MMLKPW9JLX64 | 6XWA8 | Active | Business or Organization, For Profit Organization |

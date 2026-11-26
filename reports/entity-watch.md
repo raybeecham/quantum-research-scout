@@ -4,15 +4,15 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Alerts](alerts.md)
 
-_Updated 2026-11-25 06:33 UTC_
+_Updated 2026-11-26 06:25 UTC_
 
 ## Organizations
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| NIST | ➡️ stable (1 vs 1) | 🔴 critical | active | 2025-06-12 | 2026-11-18 | 25 | 3 |
-| IBM | ↘️ declining (0 vs 17) | 🟠 high | quiet | 2026-06-23 | 2026-11-17 | 61 | 4 |
-| IonQ | ↘️ declining (1 vs 2) | 🟠 high | active | 2025-11-17 | 2026-11-24 | 49 | 14 |
+| NIST | ↘️ declining (0 vs 2) | 🔴 critical | quiet | 2025-06-12 | 2026-11-18 | 25 | 3 |
+| IBM | ↘️ declining (0 vs 13) | 🟠 high | quiet | 2026-06-23 | 2026-11-17 | 61 | 4 |
+| IonQ | ➡️ stable (1 vs 1) | 🟠 high | active | 2025-11-17 | 2026-11-24 | 49 | 14 |
 | Cisco | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-03-25 | 2026-10-22 | 33 | 13 |
 | QuSecure | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-07 | 2026-09-22 | 29 | 20 |
 | QuEra | ↗️ rising (7 vs 1) | 🟠 high | active | 2025-08-20 | 2026-11-24 | 25 | 10 |
@@ -43,7 +43,7 @@ _Updated 2026-11-25 06:33 UTC_
 | Open Quantum Safe | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-07-27 | 2026-07-27 | 1 | 0 |
 | Infleqtion | ↗️ rising (3 vs 0) | 🟡 medium | active | 2026-06-22 | 2026-11-20 | 35 | 0 |
 | Pasqal | ↗️ rising (1 vs 0) | 🟡 medium | active | 2026-06-29 | 2026-11-24 | 27 | 0 |
-| AWS | ➡️ stable (1 vs 1) | 🟡 medium | active | 2026-06-24 | 2026-11-23 | 12 | 3 |
+| AWS | ↗️ rising (2 vs 1) | 🟡 medium | active | 2026-06-24 | 2026-11-25 | 13 | 3 |
 | Rigetti | ↘️ declining (0 vs 2) | 🟡 medium | quiet | 2026-07-29 | 2026-11-13 | 8 | 0 |
 | Intel Quantum | ➡️ stable (0 vs 0) | 🟡 medium | documented | Unknown | Unknown | 2 | 2 |
 | Entrust | ➡️ stable (0 vs 0) | 🟡 medium | dormant | 2026-09-15 | 2026-09-15 | 1 | 0 |
@@ -54,12 +54,12 @@ _Updated 2026-11-25 06:33 UTC_
 
 | Watch item | Momentum | Priority | Status | First seen | Latest seen | Evidence | Historical |
 |---|---|---|---|---|---|---:|---:|
-| Quantum error correction | ➡️ stable (7 vs 7) | 🔴 critical | active | 2026-01-08 | 2026-11-24 | 64 | 3 |
-| Logical qubits | ↗️ rising (5 vs 3) | 🔴 critical | active | 2025-11-20 | 2026-11-24 | 44 | 7 |
+| Quantum error correction | ↘️ declining (6 vs 9) | 🔴 critical | active | 2026-01-08 | 2026-11-25 | 65 | 3 |
+| Logical qubits | ↘️ declining (2 vs 6) | 🔴 critical | active | 2025-11-20 | 2026-11-24 | 44 | 7 |
 | Crypto-agility | ↘️ declining (0 vs 2) | 🔴 critical | quiet | 2025-08-06 | 2026-11-12 | 42 | 24 |
-| ML-DSA | ➡️ stable (0 vs 0) | 🔴 critical | quiet | 2026-06-29 | 2026-10-26 | 10 | 3 |
+| ML-DSA | ➡️ stable (0 vs 0) | 🔴 critical | dormant | 2026-06-29 | 2026-10-26 | 10 | 3 |
 | ML-KEM | ➡️ stable (0 vs 0) | 🔴 critical | dormant | 2026-07-27 | 2026-10-14 | 7 | 5 |
-| Quantum key distribution | ↗️ rising (7 vs 4) | 🟠 high | active | 2026-06-29 | 2026-11-24 | 33 | 3 |
+| Quantum key distribution | ➡️ stable (7 vs 5) | 🟠 high | active | 2026-06-29 | 2026-11-25 | 34 | 3 |
 | Quantum networking | ↗️ rising (1 vs 0) | 🟠 high | active | 2026-07-16 | 2026-11-19 | 20 | 0 |
 | Hybrid TLS | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-10-08 | 2026-10-08 | 1 | 0 |
 | SLH-DSA | ➡️ stable (0 vs 0) | 🟠 high | dormant | 2026-08-10 | 2026-08-10 | 1 | 1 |
@@ -112,5 +112,5 @@ _Updated 2026-11-25 06:33 UTC_
 | Thales | covered | 1 | 7 |
 | UK NCSC | covered | 3 | 0 |
 | Wiz | covered | 1 | 4 |
-| AWS | covered | 2 | 12 |
+| AWS | covered | 2 | 13 |
 | Intel Quantum | covered | 1 | 2 |

@@ -353,12 +353,21 @@
           "source": "arXiv RSS cs.CR",
           "title": "Leaks by Installments: Cross-Session Answer Disclosure in LLM Tutors and a Ledger-Based Defense",
           "url": "https://arxiv.org/abs/2611.31429"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://arxiv.org/abs/2611.33509",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 81,
+          "source": "arXiv RSS quant-ph",
+          "title": "Reducing T gates in product formulas with agent loops",
+          "url": "https://arxiv.org/abs/2611.33509"
         }
       ],
       "first_seen": "2026-07-01",
       "follow_up": "Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.",
       "importance": "critical",
-      "latest_seen": "2026-11-24",
+      "latest_seen": "2026-11-25",
       "momentum": "rising",
       "organizations": [
         "arXiv RSS cs.CR",
@@ -367,7 +376,7 @@
         "Quantum Computing Report",
         "Hugging Face Technical Blog"
       ],
-      "prior_count": 3,
+      "prior_count": 4,
       "recent_count": 7,
       "status": "actionable"
     },
@@ -3946,13 +3955,49 @@
           "source": "Quantum Zeitgeist",
           "title": "Artix-7 FPGA hosts a coprocessor for post-quantum QR-Unbalanced Oil",
           "url": "https://quantumzeitgeist.com/artix-7-fpga-hosts-coprocessor-post"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://aws.amazon.com/blogs/security/make-post-quantum-cryptography-updates-routine-with-aws-lc",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 67,
+          "source": "AWS Security Blog",
+          "title": "Make post-quantum cryptography updates routine with AWS-LC",
+          "url": "https://aws.amazon.com/blogs/security/make-post-quantum-cryptography-updates-routine-with-aws-lc"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://arxiv.org/abs/2611.33854",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 74,
+          "source": "arXiv RSS quant-ph",
+          "title": "Reproducible distributions of energy-relaxation times in superconducting qubits from broadband SWAP spectroscopy",
+          "url": "https://arxiv.org/abs/2611.33854"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://quantumzeitgeist.com/ccn-quantum-safe-migration-spain-deadline",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 93,
+          "source": "Quantum Zeitgeist",
+          "title": "Spain sets 2035 deadline for medium-risk quantum-safe migration From CCN",
+          "url": "https://quantumzeitgeist.com/ccn-quantum-safe-migration-spain-deadline"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://arxiv.org/abs/2611.33666",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 96,
+          "source": "arXiv RSS cs.CR",
+          "title": "Bounding the security of the FALCON signature scheme in the quantum random oracle model",
+          "url": "https://arxiv.org/abs/2611.33666"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-11-24",
-      "momentum": "stable",
+      "latest_seen": "2026-11-25",
+      "momentum": "rising",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
@@ -3960,9 +4005,9 @@
         "Quantum Computing Report",
         "IACR ePrint"
       ],
-      "prior_count": 15,
-      "recent_count": 18,
-      "status": "watching"
+      "prior_count": 12,
+      "recent_count": 21,
+      "status": "actionable"
     },
     "QEC / Fault Tolerance": {
       "confidence": "high",
@@ -5172,12 +5217,57 @@
           "source": "arXiv RSS quant-ph",
           "title": "Validity and maximum violation of the entanglement-assisted quantum Singleton bound for linear stabilizer codes",
           "url": "https://arxiv.org/abs/2611.32126"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://arxiv.org/abs/2611.33337",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 90,
+          "source": "arXiv RSS quant-ph",
+          "title": "Using a static spacetime subsystem code to calculate Floquet code distance",
+          "url": "https://arxiv.org/abs/2611.33337"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://arxiv.org/abs/2611.33665",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 98,
+          "source": "arXiv RSS quant-ph",
+          "title": "Amatlas: A 2D Array Architecture for Union-Find Decoding Without Global Coordination",
+          "url": "https://arxiv.org/abs/2611.33665"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://quantumcomputingreport.com/riverlane-and-nature-research-intelligence-release-2026-quantum-error-correction-report-highlighting-shift-to-full-stack-engineering",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 104,
+          "source": "Quantum Computing Report",
+          "title": "Riverlane and Nature Research Intelligence Release 2026 Quantum Error Correction Report Highlighting Shift to Full-Stack Engineering",
+          "url": "https://quantumcomputingreport.com/riverlane-and-nature-research-intelligence-release-2026-quantum-error-correction-report-highlighting-shift-to-full-stack-engineering"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://quantumzeitgeist.com/riverlane-quantum-error-correction-codes-cut",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 114,
+          "source": "Quantum Zeitgeist",
+          "title": "New quantum codes cut qubit count for error correction by a third",
+          "url": "https://quantumzeitgeist.com/riverlane-quantum-error-correction-codes-cut"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://arxiv.org/abs/2611.33590",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 143,
+          "source": "arXiv RSS quant-ph",
+          "title": "A scalable dense silicon qubit architecture with logical operations",
+          "url": "https://arxiv.org/abs/2611.33590"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-11-24",
+      "latest_seen": "2026-11-25",
       "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
@@ -5186,8 +5276,8 @@
         "arXiv RSS quant-ph",
         "QuantumNews.ai"
       ],
-      "prior_count": 14,
-      "recent_count": 13,
+      "prior_count": 18,
+      "recent_count": 14,
       "status": "watching"
     },
     "Quantum Hardware": {
@@ -9170,12 +9260,30 @@
           "source": "The Quantum Insider",
           "title": "Pasqal Leads European Defence Fund Project on Fault-Tolerant Quantum Computing",
           "url": "https://thequantuminsider.com/2026/11/24/pasqal-leads-european-defence-fund-project-fault-tolerant-quantum-computing"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://quantumzeitgeist.com/eindhoven-technology-qubit-parity-coherent-oscillations",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 72,
+          "source": "Quantum Zeitgeist",
+          "title": "Coherent oscillations prove a qubit\u2019s parity can be controlled",
+          "url": "https://quantumzeitgeist.com/eindhoven-technology-qubit-parity-coherent-oscillations"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://quantumcomputingreport.com/university-of-sussex-and-universal-quantum-demonstrate-laser-free-axial-mode-entangling-gate-on-doppler-cooled-trapped-ions",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 80,
+          "source": "Quantum Computing Report",
+          "title": "University of Sussex and Universal Quantum Demonstrate Laser-Free Axial-Mode Entangling Gate on Doppler-Cooled Trapped Ions",
+          "url": "https://quantumcomputingreport.com/university-of-sussex-and-universal-quantum-demonstrate-laser-free-axial-mode-entangling-gate-on-doppler-cooled-trapped-ions"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-11-24",
+      "latest_seen": "2026-11-25",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -9184,8 +9292,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 31,
-      "recent_count": 23,
+      "prior_count": 27,
+      "recent_count": 21,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -11062,12 +11170,21 @@
           "source": "Quantum Computing Report",
           "title": "IDEMIA Secure Transactions and IonQ Validate QKD Interoperability with IDEMIA Sphere Cybersecurity Platform",
           "url": "https://quantumcomputingreport.com/idemia-secure-transactions-and-ionq-validate-qkd-interoperability-with-idemia-sphere-cybersecurity-platform"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://thequantuminsider.com/2026/11/25/guest-post-after-deepminds-rsa-results-the-case-for-qkd-on-critical-links",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 61,
+          "source": "The Quantum Insider",
+          "title": "Guest Post: After DeepMind\u2019s RSA Results, The Case For QKD on Critical Links",
+          "url": "https://thequantuminsider.com/2026/11/25/guest-post-after-deepminds-rsa-results-the-case-for-qkd-on-critical-links"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.",
       "importance": "critical",
-      "latest_seen": "2026-11-24",
+      "latest_seen": "2026-11-25",
       "momentum": "rising",
       "organizations": [
         "Quantum Zeitgeist",
@@ -11076,8 +11193,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 8,
-      "recent_count": 21,
+      "prior_count": 10,
+      "recent_count": 19,
       "status": "actionable"
     },
     "Quantum Sensing": {
@@ -12749,13 +12866,31 @@
           "source": "Quantum Zeitgeist",
           "title": "WISeQey Launches WISeTrust.com, Framework for Digital Trust",
           "url": "https://quantumzeitgeist.com/wiseqey-wisetrustcom-framework-digital-trust"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://arxiv.org/abs/2611.34229",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 57,
+          "source": "arXiv RSS cs.CR",
+          "title": "Evaluating Post-Quantum and Hybrid Signatures for Blockchains: Performance, Storage and Ledger Growth",
+          "url": "https://arxiv.org/abs/2611.34229"
+        },
+        {
+          "date": "2026-11-25",
+          "key": "https://quantumcomputingreport.com/zapata-quantum-and-university-of-maryland-launch-forshor-ai-formal-verification-challenge-for-ai-assisted-quantum-algorithm-design",
+          "report": "2026-11/2026-11-25-digest.md",
+          "score": 67,
+          "source": "Quantum Computing Report",
+          "title": "Zapata Quantum and University of Maryland Launch ForShor.ai Formal Verification Challenge for AI-Assisted Quantum Algorithm Design",
+          "url": "https://quantumcomputingreport.com/zapata-quantum-and-university-of-maryland-launch-forshor-ai-formal-verification-challenge-for-ai-assisted-quantum-algorithm-design"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Look for reproducible benchmarks, hardware targets, adoption, and production use.",
       "importance": "critical",
-      "latest_seen": "2026-11-23",
-      "momentum": "declining",
+      "latest_seen": "2026-11-25",
+      "momentum": "stable",
       "organizations": [
         "Quantum Zeitgeist",
         "The Quantum Insider",
@@ -12763,8 +12898,8 @@
         "Quantum Computing Report",
         "Quantum Journal"
       ],
-      "prior_count": 6,
-      "recent_count": 4,
+      "prior_count": 4,
+      "recent_count": 5,
       "status": "watching"
     },
     "Standards / Government": {
@@ -13598,6 +13733,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-11-25T06:33:45.445940+00:00",
+  "updated_at": "2026-11-26T06:25:55.697520+00:00",
   "version": 1
 }

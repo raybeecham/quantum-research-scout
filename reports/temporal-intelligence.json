@@ -1,11 +1,265 @@
 {
-  "added": [],
+  "added": [
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-af747594cf5a4de1",
+      "confidence": "high",
+      "effective_date": "2026-12-01",
+      "evidence_title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+      "first_observed_at": "2026-11-26T06:18:51.359249+00:00",
+      "last_observed_at": "2026-11-26T06:18:51.359249+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-95a62d0353d24e8a",
+          "locator": "awarding_agency:department of defense",
+          "title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+          "url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:N000142712090",
+        "label": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+        "node_id": "award:usaspending:N000142712090",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "upcoming",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-12-01",
+        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-26.",
+        "first_observed_at": "2026-11-26T06:18:51.359249+00:00",
+        "historical": false,
+        "label": "Upcoming event date",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-26T06:18:51.359249+00:00",
+        "primary_date": "2026-12-01",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": "Department of Defense"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-21381294cfc94bb0",
+      "confidence": "high",
+      "effective_date": "2026-12-01",
+      "evidence_title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+      "first_observed_at": "2026-11-26T06:18:51.359249+00:00",
+      "last_observed_at": "2026-11-26T06:18:51.359249+00:00",
+      "object": null,
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ca1c4e3573232959",
+          "locator": "opportunity_status:awarded",
+          "title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+          "url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:N000142712090",
+        "label": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+        "node_id": "award:usaspending:N000142712090",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "upcoming",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-12-01",
+        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-26.",
+        "first_observed_at": "2026-11-26T06:18:51.359249+00:00",
+        "historical": false,
+        "label": "Upcoming event date",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-26T06:18:51.359249+00:00",
+        "primary_date": "2026-12-01",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": "awarded"
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-d866a43d276d0343",
+      "confidence": "high",
+      "effective_date": "2026-12-01",
+      "evidence_title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+      "first_observed_at": "2026-11-26T06:18:51.359249+00:00",
+      "last_observed_at": "2026-11-26T06:18:51.359249+00:00",
+      "object": null,
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d95722cbfc9e8353",
+          "locator": "reported_amount:79750.0",
+          "title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+          "url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:N000142712090",
+        "label": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+        "node_id": "award:usaspending:N000142712090",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "upcoming",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-12-01",
+        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-26.",
+        "first_observed_at": "2026-11-26T06:18:51.359249+00:00",
+        "historical": false,
+        "label": "Upcoming event date",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-26T06:18:51.359249+00:00",
+        "primary_date": "2026-12-01",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": 79750.0
+    },
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-24428382cf677182",
+      "confidence": "high",
+      "effective_date": "2026-12-01",
+      "evidence_title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+      "first_observed_at": "2026-11-26T06:18:51.359249+00:00",
+      "last_observed_at": "2026-11-26T06:18:51.359249+00:00",
+      "object": {
+        "identifier": "uei:EDVFACFTUNR3",
+        "label": "NATIONAL TSING HUA UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:EDVFACFTUNR3",
+        "node_type": "recipient_or_contractor"
+      },
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1fd2b16f383688a4",
+          "locator": "reported_recipient:recipient_or_contractor:uei:EDVFACFTUNR3",
+          "title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+          "url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:N000142712090",
+        "label": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+        "node_id": "award:usaspending:N000142712090",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "upcoming",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-12-01",
+        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-26.",
+        "first_observed_at": "2026-11-26T06:18:51.359249+00:00",
+        "historical": false,
+        "label": "Upcoming event date",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-26T06:18:51.359249+00:00",
+        "primary_date": "2026-12-01",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": null
+    }
+  ],
   "changed": [],
-  "comparison_ended_at": "2026-11-25T06:26:25.985745+00:00",
-  "comparison_started_at": "2026-11-24T07:52:51.225595+00:00",
+  "comparison_ended_at": "2026-11-26T06:18:51.359249+00:00",
+  "comparison_started_at": "2026-11-25T06:26:25.985745+00:00",
   "conflict_opened": [],
   "conflict_resolved": [],
   "priority_events": [
+    {
+      "authority": "authoritative",
+      "change_type": "added",
+      "claim_id": "claim-af747594cf5a4de1",
+      "claim_ids": [
+        "claim-21381294cfc94bb0",
+        "claim-24428382cf677182",
+        "claim-af747594cf5a4de1",
+        "claim-d866a43d276d0343"
+      ],
+      "confidence": "high",
+      "effective_date": "2026-12-01",
+      "evidence_title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+      "evidence_url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+      "first_observed_at": "2026-11-26T06:18:51.359249+00:00",
+      "grouped_event_count": 4,
+      "last_observed_at": "2026-11-26T06:18:51.359249+00:00",
+      "object": null,
+      "predicate": "awarding_agency",
+      "predicates": [
+        "awarding_agency",
+        "opportunity_status",
+        "reported_amount",
+        "reported_recipient"
+      ],
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-95a62d0353d24e8a",
+          "locator": "awarding_agency:department of defense",
+          "title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+          "url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+          "verification_status": "source_reported"
+        }
+      ],
+      "subject": {
+        "identifier": "usaspending:N000142712090",
+        "label": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+        "node_id": "award:usaspending:N000142712090",
+        "node_type": "award"
+      },
+      "temporal": {
+        "classification": "upcoming",
+        "date_basis": "USAspending action date",
+        "effective_date": null,
+        "event_date": "2026-12-01",
+        "explanation": "The source date is in the future; Frontier Signal first observed it on 2026-11-26.",
+        "first_observed_at": "2026-11-26T06:18:51.359249+00:00",
+        "historical": false,
+        "label": "Upcoming event date",
+        "last_changed_at": null,
+        "last_observed_at": "2026-11-26T06:18:51.359249+00:00",
+        "primary_date": "2026-12-01",
+        "primary_date_role": "event_date",
+        "publication_date": null
+      },
+      "value": "Department of Defense"
+    },
     {
       "authority": "authoritative",
       "change_type": "resolved",
@@ -2452,11 +2706,12 @@
   "summary": {
     "actual_or_recent_changes": 0,
     "classifications": {
-      "resolved": 27
+      "resolved": 27,
+      "upcoming": 4
     },
     "evidence_trace_changes": 0,
     "historical_discoveries": 0,
-    "material_events": 27,
+    "material_events": 31,
     "newly_observed_undated": 0,
     "upcoming": 11
   },
@@ -2464,7 +2719,7 @@
   "upcoming": [
     {
       "date": "2026-11-14",
-      "days_remaining": -11,
+      "days_remaining": -12,
       "kind": "mission_milestone",
       "status": "overdue",
       "subject": "DARPA Quantum Benchmarking Initiative",
@@ -2473,7 +2728,7 @@
     },
     {
       "date": "2026-11-24",
-      "days_remaining": -1,
+      "days_remaining": -2,
       "kind": "mission_milestone",
       "status": "awaiting_confirmation",
       "subject": "Genesis Mission",
@@ -2482,7 +2737,7 @@
     },
     {
       "date": "2026-12-07",
-      "days_remaining": 12,
+      "days_remaining": 11,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.FC ACQUISITION SOLUTIONS DEV/IDV ACQ MANAGEMENT",
@@ -2491,7 +2746,7 @@
     },
     {
       "date": "2026-12-17",
-      "days_remaining": 22,
+      "days_remaining": 21,
       "kind": "opportunity_deadline",
       "status": "closing_this_month",
       "subject": "PAMS-SC",
@@ -2500,7 +2755,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 24,
+      "days_remaining": 23,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2509,7 +2764,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 24,
+      "days_remaining": 23,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "QC-ADDS",
@@ -2518,7 +2773,7 @@
     },
     {
       "date": "2026-12-19",
-      "days_remaining": 24,
+      "days_remaining": 23,
       "kind": "mission_milestone",
       "status": "due_soon",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2527,7 +2782,7 @@
     },
     {
       "date": "2026-12-31",
-      "days_remaining": 36,
+      "days_remaining": 35,
       "kind": "mission_milestone",
       "status": "estimated",
       "subject": "Project Triad",
@@ -2536,7 +2791,7 @@
     },
     {
       "date": "2027-01-12",
-      "days_remaining": 48,
+      "days_remaining": 47,
       "kind": "opportunity_deadline",
       "status": "open_window",
       "subject": "PAMS-SC",
@@ -2545,7 +2800,7 @@
     },
     {
       "date": "2027-03-19",
-      "days_remaining": 114,
+      "days_remaining": 113,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "Federal Post-Quantum Cryptography Transition",
@@ -2554,7 +2809,7 @@
     },
     {
       "date": "2027-06-22",
-      "days_remaining": 209,
+      "days_remaining": 208,
       "kind": "mission_milestone",
       "status": "upcoming",
       "subject": "QC-ADDS",
@@ -2562,6 +2817,6 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/"
     }
   ],
-  "updated_at": "2026-11-25T06:26:25.985745+00:00",
+  "updated_at": "2026-11-26T06:18:51.359249+00:00",
   "version": 1
 }

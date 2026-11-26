@@ -4,13 +4,13 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-25 06:33 UTC_
+_Updated 2026-11-26 06:25 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 4 | 9 | 7 | 34 |
+| 50 | 4 | 9 | 9 | 32 |
 
-## 🔴 Contract: QuEra 🆕
+## 🔴 Contract: QuEra
 
 - Severity: **critical**
 - Status: **contract**
@@ -29,7 +29,7 @@ _Updated 2026-11-25 06:33 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 PQC / Crypto Agility has critical strategic importance and stable momentum.
+- 🔴 PQC / Crypto Agility has critical strategic importance and rising momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: QEC / Fault Tolerance
@@ -64,7 +64,7 @@ _Updated 2026-11-25 06:33 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Software / Tooling has critical strategic importance and declining momentum.
+- 🔴 Quantum Software / Tooling has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Standards / Government
@@ -79,6 +79,13 @@ _Updated 2026-11-25 06:33 UTC_
 - Severity: **high**
 - Status: **actionable**
 - 🎯 AI Security is actionable with high confidence.
+- [Open supporting view](signals.md)
+
+## 🟠 Actionable signal: PQC / Crypto Agility 🆕
+
+- Severity: **high**
+- Status: **actionable**
+- 🎯 PQC / Crypto Agility is actionable with high confidence.
 - [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: Quantum Networking
@@ -99,14 +106,21 @@ _Updated 2026-11-25 06:33 UTC_
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 7 versus 3 in the prior period.
+- ↗️ Recent evidence is 7 versus 4 in the prior period.
+- [Open supporting view](signals.md)
+
+## 🟠 Rising momentum: PQC / Crypto Agility 🆕
+
+- Severity: **high**
+- Status: **rising**
+- ↗️ Recent evidence is 21 versus 12 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Networking
 
 - Severity: **high**
 - Status: **rising**
-- ↗️ Recent evidence is 21 versus 8 in the prior period.
+- ↗️ Recent evidence is 19 versus 10 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Sensing
@@ -116,7 +130,7 @@ _Updated 2026-11-25 06:33 UTC_
 - ↗️ Recent evidence is 1 versus 0 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Standard: Thales 🆕
+## 🟠 Standard: Thales
 
 - Severity: **high**
 - Status: **standard**
@@ -143,6 +157,20 @@ _Updated 2026-11-25 06:33 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-26; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: DOE Federal Science Missions 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-11-10; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: DOE Office of Science Updates 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-11-10; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: ETSI Quantum Standards News
@@ -306,7 +334,7 @@ _Updated 2026-11-25 06:33 UTC_
 - The latest dated item is from 2026-11-05; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: QuEra Press Releases 🆕
+## 🟡 Source stale: QuEra Press Releases
 
 - Severity: **medium**
 - Status: **stale**
@@ -320,7 +348,7 @@ _Updated 2026-11-25 06:33 UTC_
 - The latest dated item is from 2026-09-22; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Quantinuum News 🆕
+## 🟡 Source stale: Quantinuum News
 
 - Severity: **medium**
 - Status: **stale**
@@ -332,32 +360,4 @@ _Updated 2026-11-25 06:33 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-08; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · AI Forge
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-09-28; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Artificial Intelligence
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-10-01; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Autonomy and Sensing
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-11-01; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: USAspending · Genesis Mission
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

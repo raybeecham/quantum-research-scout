@@ -2,12 +2,12 @@
 
 [Report Index](README.md) · [Claim Ledger](claim-ledger.md)
 
-_Updated 2026-11-25T06:26:25.985745+00:00_
+_Updated 2026-11-26T06:18:51.359249+00:00_
 
 Material claim-level changes observed since the prior ledger build. The initial build establishes a baseline and does not label every existing claim as new.
 
-- Material changes: **27**
-- Added / changed / resolved: **0 / 0 / 27**
+- Material changes: **31**
+- Added / changed / resolved: **4 / 0 / 27**
 - Newly superseded: **0**
 - Active conflicts: **18**
 - Conflicts opened / resolved: **0 / 0**
@@ -18,7 +18,10 @@ Material claim-level changes observed since the prior ledger build. The initial 
 
 ## New claims
 
-- None.
+- **QUANTUM SENSING WITH NON-GAUSSIAN STATES** — opportunity status: awarded ([evidence](https://www.usaspending.gov/award/ASST_NON_N000142712090_097))
+- **QUANTUM SENSING WITH NON-GAUSSIAN STATES** — awarding agency: Department of Defense ([evidence](https://www.usaspending.gov/award/ASST_NON_N000142712090_097))
+- **QUANTUM SENSING WITH NON-GAUSSIAN STATES** — reported amount: 79750.0 ([evidence](https://www.usaspending.gov/award/ASST_NON_N000142712090_097))
+- **QUANTUM SENSING WITH NON-GAUSSIAN STATES** — reported recipient: — ([evidence](https://www.usaspending.gov/award/ASST_NON_N000142712090_097))
 
 ## Superseded claims
 

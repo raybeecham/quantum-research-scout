@@ -656,6 +656,81 @@
     {
       "confidence": "high",
       "evidence_count": 4,
+      "historical_evidence_count": 2,
+      "latest_evidence_at": "2026-11-25",
+      "name": "AWS",
+      "priority": "medium",
+      "source_count": 3,
+      "stage": "planning",
+      "stage_label": "Planning",
+      "stage_rank": 3,
+      "supporting_evidence": [
+        {
+          "date": "2026-07-14",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "crypto-agility"
+          ],
+          "observed_stage": "planning",
+          "observed_stage_label": "Planning",
+          "rank": 3,
+          "source": "QuSecure Press Releases",
+          "title": "QuSecure QuProtect R3 Listed in AWS \"ICMP\" for the U.S. Federal Government",
+          "url": "https://www.qusecure.com/quprotect-r3-aws-icmp-us-federal-government/"
+        },
+        {
+          "date": "2026-11-25",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "AWS Security Blog",
+          "title": "Make post-quantum cryptography updates routine with AWS-LC",
+          "url": "https://aws.amazon.com/blogs/security/make-post-quantum-cryptography-updates-routine-with-aws-lc"
+        },
+        {
+          "date": "2026-07-14",
+          "date_confidence": "high",
+          "date_kind": "published",
+          "historical": true,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "QuSecure Press Releases",
+          "title": "QuSecure Featured in Quantum Computing Report: QuProtect R3 Listed in AWS ICMP Post-Quantum Cryptography",
+          "url": "https://www.qusecure.com/quantum-computing-report-aws-icmp-quprotect-r3/"
+        },
+        {
+          "date": "2026-07-01",
+          "date_confidence": "unknown",
+          "date_kind": "unknown",
+          "historical": false,
+          "matched_patterns": [
+            "post-quantum"
+          ],
+          "observed_stage": "awareness",
+          "observed_stage_label": "Awareness",
+          "rank": 1,
+          "source": "Quantum Zeitgeist",
+          "title": "AWS Builds for Quantum Computing & Post-Quantum Security Mandates",
+          "url": "https://quantumzeitgeist.com/quantum-computing-security-aws-post"
+        }
+      ],
+      "type": "company"
+    },
+    {
+      "confidence": "high",
+      "evidence_count": 4,
       "historical_evidence_count": 4,
       "latest_evidence_at": "2026-08-27",
       "name": "Accenture / Accenture Federal Services",
@@ -1316,66 +1391,6 @@
           "source": "QuantumNews.ai",
           "title": "Thales Introduces Luna 8 Hardware Security Module for Post-Quantum Encryption",
           "url": "https://quantumcomputingreport.com/thales-introduces-luna-8-hardware-security-module-for-post-quantum-encryption"
-        }
-      ],
-      "type": "company"
-    },
-    {
-      "confidence": "medium",
-      "evidence_count": 3,
-      "historical_evidence_count": 2,
-      "latest_evidence_at": "2026-07-14",
-      "name": "AWS",
-      "priority": "medium",
-      "source_count": 2,
-      "stage": "planning",
-      "stage_label": "Planning",
-      "stage_rank": 3,
-      "supporting_evidence": [
-        {
-          "date": "2026-07-14",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "crypto-agility"
-          ],
-          "observed_stage": "planning",
-          "observed_stage_label": "Planning",
-          "rank": 3,
-          "source": "QuSecure Press Releases",
-          "title": "QuSecure QuProtect R3 Listed in AWS \"ICMP\" for the U.S. Federal Government",
-          "url": "https://www.qusecure.com/quprotect-r3-aws-icmp-us-federal-government/"
-        },
-        {
-          "date": "2026-07-14",
-          "date_confidence": "high",
-          "date_kind": "published",
-          "historical": true,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "QuSecure Press Releases",
-          "title": "QuSecure Featured in Quantum Computing Report: QuProtect R3 Listed in AWS ICMP Post-Quantum Cryptography",
-          "url": "https://www.qusecure.com/quantum-computing-report-aws-icmp-quprotect-r3/"
-        },
-        {
-          "date": "2026-07-01",
-          "date_confidence": "unknown",
-          "date_kind": "unknown",
-          "historical": false,
-          "matched_patterns": [
-            "post-quantum"
-          ],
-          "observed_stage": "awareness",
-          "observed_stage_label": "Awareness",
-          "rank": 1,
-          "source": "Quantum Zeitgeist",
-          "title": "AWS Builds for Quantum Computing & Post-Quantum Security Mandates",
-          "url": "https://quantumzeitgeist.com/quantum-computing-security-aws-post"
         }
       ],
       "type": "company"
@@ -2260,6 +2275,6 @@
     "not_assessed": 20,
     "organizations": 43
   },
-  "updated_at": "2026-11-25T06:33:46.365283+00:00",
+  "updated_at": "2026-11-26T06:25:56.417108+00:00",
   "version": 1
 }

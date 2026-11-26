@@ -4,19 +4,19 @@
 
 [Report Index](README.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-25 06:33 UTC_
+_Updated 2026-11-26 06:25 UTC_
 
 Signals are deduplicated across retained reports and preserved in `signals.json` as the durable evidence ledger.
 
 | Signal | Momentum | Importance | Confidence | Status | First seen | Latest seen | Evidence |
 |---|---|---|---|---|---|---|---:|
-| AI Security | ↗️ rising (7 vs 3) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-11-24 | 39 |
-| Quantum Networking | ↗️ rising (21 vs 8) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-11-24 | 208 |
+| AI Security | ↗️ rising (7 vs 4) | 🔴 critical | high | 🎯 actionable | 2026-07-01 | 2026-11-25 | 40 |
+| PQC / Crypto Agility | ↗️ rising (21 vs 12) | 🔴 critical | high | 🎯 actionable | 2026-06-21 | 2026-11-25 | 401 |
+| Quantum Networking | ↗️ rising (19 vs 10) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-11-25 | 209 |
 | Quantum Sensing | ↗️ rising (1 vs 0) | 🔴 critical | high | 🎯 actionable | 2026-06-22 | 2026-11-14 | 56 |
-| PQC / Crypto Agility | ➡️ stable (18 vs 15) | 🔴 critical | high | 👁️ watching | 2026-06-21 | 2026-11-24 | 397 |
-| QEC / Fault Tolerance | ➡️ stable (13 vs 14) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-11-24 | 134 |
-| Quantum Hardware | ➡️ stable (23 vs 31) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-24 | 442 |
-| Quantum Software / Tooling | ↘️ declining (4 vs 6) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-23 | 127 |
+| QEC / Fault Tolerance | ➡️ stable (14 vs 18) | 🔴 critical | high | 👁️ watching | 2026-06-23 | 2026-11-25 | 139 |
+| Quantum Hardware | ➡️ stable (21 vs 27) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-25 | 444 |
+| Quantum Software / Tooling | ➡️ stable (5 vs 4) | 🔴 critical | high | 👁️ watching | 2026-06-22 | 2026-11-25 | 129 |
 | Standards / Government | ↘️ declining (3 vs 9) | 🔴 critical | high | 👁️ watching | 2026-07-21 | 2026-11-20 | 90 |
 
 ## AI Security
@@ -24,22 +24,33 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
 - Organizations/sources: arXiv RSS cs.CR, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, Hugging Face Technical Blog
 - Recommended follow-up: Track demonstrated attack paths, mitigations, evaluations, and operational deployment guidance.
 - Recent supporting evidence:
+  - 2026-11-25 — [Reducing T gates in product formulas with agent loops](https://arxiv.org/abs/2611.33509) (arXiv RSS quant-ph, score 81)
   - 2026-11-24 — [Leaks by Installments: Cross-Session Answer Disclosure in LLM Tutors and a Ledger-Based Defense](https://arxiv.org/abs/2611.31429) (arXiv RSS cs.CR, score 52)
   - 2026-11-23 — [Introducing API and AI security on AWS, from discovery to protection](https://aws.amazon.com/blogs/security/introducing-api-and-ai-security-on-aws-from-discovery-to-protection) (AWS Security Blog, score 56)
   - 2026-11-22 — [Extracting Next Generation Access Control Policies from Natural Language Using LLMs: An Intermediate-Representation Approach with Back-Translation Verification](https://arxiv.org/abs/2611.26941) (arXiv RSS cs.CR, score 85)
   - 2026-11-21 — [University of California, San Diego, QuEra, and Collaborators Introduce Multi-Agent LLM Compiler Qubrio for Neutral-Atom Processors](https://quantumcomputingreport.com/university-of-california-quera-and-collaborators-introduce-multi-agent-llm-compiler-qubrio-for-neutral-atom-processors) (Quantum Computing Report, score 70)
-  - 2026-11-19 — [From FIPS to FPGA with LLM Agents: Measuring What Tests and Reviews Miss in Post-Quantum Cryptographic Hardware](https://arxiv.org/abs/2611.25339) (arXiv RSS cs.CR, score 60)
+
+## PQC / Crypto Agility
+
+- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, IACR ePrint
+- Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
+- Recent supporting evidence:
+  - 2026-11-25 — [Bounding the security of the FALCON signature scheme in the quantum random oracle model](https://arxiv.org/abs/2611.33666) (arXiv RSS cs.CR, score 96)
+  - 2026-11-25 — [Spain sets 2035 deadline for medium-risk quantum-safe migration From CCN](https://quantumzeitgeist.com/ccn-quantum-safe-migration-spain-deadline) (Quantum Zeitgeist, score 93)
+  - 2026-11-25 — [Reproducible distributions of energy-relaxation times in superconducting qubits from broadband SWAP spectroscopy](https://arxiv.org/abs/2611.33854) (arXiv RSS quant-ph, score 74)
+  - 2026-11-25 — [Make post-quantum cryptography updates routine with AWS-LC](https://aws.amazon.com/blogs/security/make-post-quantum-cryptography-updates-routine-with-aws-lc) (AWS Security Blog, score 67)
+  - 2026-11-24 — [Artix-7 FPGA hosts a coprocessor for post-quantum QR-Unbalanced Oil](https://quantumzeitgeist.com/artix-7-fpga-hosts-coprocessor-post) (Quantum Zeitgeist, score 88)
 
 ## Quantum Networking
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Watch for measured entanglement distance, fidelity, repeater progress, and deployed links.
 - Recent supporting evidence:
+  - 2026-11-25 — [Guest Post: After DeepMind’s RSA Results, The Case For QKD on Critical Links](https://thequantuminsider.com/2026/11/25/guest-post-after-deepminds-rsa-results-the-case-for-qkd-on-critical-links) (The Quantum Insider, score 61)
   - 2026-11-24 — [IDEMIA Secure Transactions and IonQ Validate QKD Interoperability with IDEMIA Sphere Cybersecurity Platform](https://quantumcomputingreport.com/idemia-secure-transactions-and-ionq-validate-qkd-interoperability-with-idemia-sphere-cybersecurity-platform) (Quantum Computing Report, score 107)
   - 2026-11-23 — [Noise-normalised key rate isolates QKD equipment from fibre loss](https://quantumzeitgeist.com/toshiba-quantum-noise-normalised-key-rate) (Quantum Zeitgeist, score 37)
   - 2026-11-23 — [Three parties share a quantum secret using only light and fibre optics](https://quantumzeitgeist.com/aliro-technologies-three-parties-share-quantum) (Quantum Zeitgeist, score 33)
   - 2026-11-22 — [When lies look like noise: certifying untrusted entanglement swapping](https://arxiv.org/abs/2611.26436) (arXiv RSS cs.CR, score 72)
-  - 2026-11-22 — [Benchmarking Quantum Key Distribution Hardware Across Operating Conditions](https://arxiv.org/abs/2611.26925) (arXiv RSS quant-ph, score 45)
 
 ## Quantum Sensing
 
@@ -52,49 +63,38 @@ Signals are deduplicated across retained reports and preserved in `signals.json`
   - 2026-10-15 — [Dirac Labs joins Wisconsin Security Research Consortium](https://thequantuminsider.com/2026/10/15/dirac-labs-joins-wisconsin-security-research-consortium) (The Quantum Insider, score 100)
   - 2026-10-13 — [Infleqtion Receives £9 Million to Develop Quantum RF Sensing System](https://thequantuminsider.com/2026/10/13/infleqtion-9-million-quantum-rf-sensing-system) (The Quantum Insider, score 41)
 
-## PQC / Crypto Agility
-
-- Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, IACR ePrint
-- Recommended follow-up: Validate standards alignment and look for concrete migration, inventory, and deployment evidence.
-- Recent supporting evidence:
-  - 2026-11-24 — [Artix-7 FPGA hosts a coprocessor for post-quantum QR-Unbalanced Oil](https://quantumzeitgeist.com/artix-7-fpga-hosts-coprocessor-post) (Quantum Zeitgeist, score 88)
-  - 2026-11-24 — [Quantum-Safe Migration Planning: Singapore CSA & MAS Guidance | Thales](https://cpl.thalesgroup.com/blog/data-security/building-an-evidence-based-quantum-safe-migration-plan) (Thales Cybersecurity Blog, score 78)
-  - 2026-11-24 — [Power Side-Channel Evaluation using Multi-FPGA Systems](https://arxiv.org/abs/2611.32652) (arXiv RSS cs.CR, score 72)
-  - 2026-11-24 — [SEALSQ Expands Quantum Highway Network Across the U.S. and Europe](https://thequantuminsider.com/2026/11/24/sealsq-expands-quantum-highway-network-across-the-u-s-and-europe) (The Quantum Insider, score 61)
-  - 2026-11-24 — [APQKE-DR: Entropy-Failure Analysis of a Post-Quantum-Initialized Ratcheted Channel](https://arxiv.org/abs/2611.32024) (arXiv RSS cs.CR, score 58)
-
 ## QEC / Fault Tolerance
 
 - Organizations/sources: Quantum Zeitgeist, Quantum Computing Report, The Quantum Insider, arXiv RSS quant-ph, QuantumNews.ai
 - Recommended follow-up: Track logical error rates, code overhead, decoder performance, and hardware demonstrations.
 - Recent supporting evidence:
-  - 2026-11-24 — [Validity and maximum violation of the entanglement-assisted quantum Singleton bound for linear stabilizer codes](https://arxiv.org/abs/2611.32126) (arXiv RSS quant-ph, score 83)
-  - 2026-11-24 — [Harvard, QuEra, NVIDIA, Anthropic, and Three National Labs Secure $12 Million DOE Award for AI-Driven Quantum Error Correction](https://quantumcomputingreport.com/harvard-quera-nvidia-anthropic-and-three-national-labs-secure-12-million-doe-award-for-ai-driven-quantum-error-correction) (Quantum Computing Report, score 67)
-  - 2026-11-23 — [QuEra Joins $12 Million DOE Project on AI-Designed Quantum Error Correction](https://thequantuminsider.com/2026/11/23/quera-12-million-doe-ai-quantum-error-correction) (The Quantum Insider, score 91)
-  - 2026-11-22 — [Symplectic Matroids, Stabilizer Codes, and Quantum Secret-Sharing](https://arxiv.org/abs/2611.27300) (arXiv RSS quant-ph, score 70)
-  - 2026-11-21 — [Harvard, QuEra, and Caltech Design Single-Shot Magic State Factories for Quantum LDPC Codes with 10–40x Lower Overhead](https://quantumcomputingreport.com/harvard-quera-and-caltech-design-single-shot-magic-state-factories-for-quantum-ldpc-codes-with-10-40x-lower-overhead) (Quantum Computing Report, score 104)
+  - 2026-11-25 — [A scalable dense silicon qubit architecture with logical operations](https://arxiv.org/abs/2611.33590) (arXiv RSS quant-ph, score 143)
+  - 2026-11-25 — [New quantum codes cut qubit count for error correction by a third](https://quantumzeitgeist.com/riverlane-quantum-error-correction-codes-cut) (Quantum Zeitgeist, score 114)
+  - 2026-11-25 — [Riverlane and Nature Research Intelligence Release 2026 Quantum Error Correction Report Highlighting Shift to Full-Stack Engineering](https://quantumcomputingreport.com/riverlane-and-nature-research-intelligence-release-2026-quantum-error-correction-report-highlighting-shift-to-full-stack-engineering) (Quantum Computing Report, score 104)
+  - 2026-11-25 — [Amatlas: A 2D Array Architecture for Union-Find Decoding Without Global Coordination](https://arxiv.org/abs/2611.33665) (arXiv RSS quant-ph, score 98)
+  - 2026-11-25 — [Using a static spacetime subsystem code to calculate Floquet code distance](https://arxiv.org/abs/2611.33337) (arXiv RSS quant-ph, score 90)
 
 ## Quantum Hardware
 
 - Organizations/sources: The Quantum Insider, Quantum Zeitgeist, QuantumNews.ai, Quantum Computing Report, arXiv RSS quant-ph
 - Recommended follow-up: Compare scaling claims with error rates, manufacturability, integration, and delivered systems.
 - Recent supporting evidence:
+  - 2026-11-25 — [University of Sussex and Universal Quantum Demonstrate Laser-Free Axial-Mode Entangling Gate on Doppler-Cooled Trapped Ions](https://quantumcomputingreport.com/university-of-sussex-and-universal-quantum-demonstrate-laser-free-axial-mode-entangling-gate-on-doppler-cooled-trapped-ions) (Quantum Computing Report, score 80)
+  - 2026-11-25 — [Coherent oscillations prove a qubit’s parity can be controlled](https://quantumzeitgeist.com/eindhoven-technology-qubit-parity-coherent-oscillations) (Quantum Zeitgeist, score 72)
   - 2026-11-24 — [Pasqal Leads European Defence Fund Project on Fault-Tolerant Quantum Computing](https://thequantuminsider.com/2026/11/24/pasqal-leads-european-defence-fund-project-fault-tolerant-quantum-computing) (The Quantum Insider, score 87)
   - 2026-11-24 — [All-electronic geometric phase gate on Doppler-cooled trapped ions using an axial mode](https://arxiv.org/abs/2611.31534) (arXiv RSS quant-ph, score 81)
   - 2026-11-24 — [Neural Decoding of Logical Clifford Circuits with Transversal Gates](https://arxiv.org/abs/2611.31607) (arXiv RSS quant-ph, score 76)
-  - 2026-11-24 — [How Small Can a Single Shor Run Be? Limits and Constructions for secp256k1](https://arxiv.org/abs/2611.31585) (arXiv RSS quant-ph, score 66)
-  - 2026-11-24 — [Quantum Art Appoints Mark Solomon and Tal Inbar to Business Development Roles](https://thequantuminsider.com/2026/11/24/quantum-art-appoints-mark-solomon-tal-inbar-business-development) (The Quantum Insider, score 59)
 
 ## Quantum Software / Tooling
 
 - Organizations/sources: Quantum Zeitgeist, The Quantum Insider, QuantumNews.ai, Quantum Computing Report, Quantum Journal
 - Recommended follow-up: Look for reproducible benchmarks, hardware targets, adoption, and production use.
 - Recent supporting evidence:
+  - 2026-11-25 — [Zapata Quantum and University of Maryland Launch ForShor.ai Formal Verification Challenge for AI-Assisted Quantum Algorithm Design](https://quantumcomputingreport.com/zapata-quantum-and-university-of-maryland-launch-forshor-ai-formal-verification-challenge-for-ai-assisted-quantum-algorithm-design) (Quantum Computing Report, score 67)
+  - 2026-11-25 — [Evaluating Post-Quantum and Hybrid Signatures for Blockchains: Performance, Storage and Ledger Growth](https://arxiv.org/abs/2611.34229) (arXiv RSS cs.CR, score 57)
   - 2026-11-23 — [WISeQey Launches WISeTrust.com, Framework for Digital Trust](https://quantumzeitgeist.com/wiseqey-wisetrustcom-framework-digital-trust) (Quantum Zeitgeist, score 48)
   - 2026-11-21 — [QuEra Computing and NVIDIA Introduce PPVM Open-Source Digital-Twin Simulation Framework for Quantum Processors](https://quantumcomputingreport.com/quera-computing-and-nvidia-introduce-ppvm-open-source-digital-twin-simulation-framework-for-quantum-processors) (Quantum Computing Report, score 104)
   - 2026-11-19 — [ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents](https://arxiv.org/abs/2611.25470) (arXiv RSS cs.CR, score 92)
-  - 2026-11-17 — [Unitary Foundation Releases 2026 Quantum Open Source Survey Covering SDK Adoption, Hybrid HPC Workflows, and AI Tooling](https://quantumcomputingreport.com/unitary-foundation-releases-2026-quantum-open-source-survey-covering-sdk-adoption-hybrid-hpc-workflows-and-ai-tooling) (Quantum Computing Report, score 67)
-  - 2026-11-16 — [Alice & Bob Details QRMI and Slurm 26.11 Hierarchical Resource Integration for Cat-Qubit Systems at SC26](https://quantumcomputingreport.com/alice-bob-details-qrmi-and-slurm-26-11-hierarchical-resource-integration-for-cat-qubit-systems-at-sc26) (Quantum Computing Report, score 37)
 
 ## Standards / Government
 

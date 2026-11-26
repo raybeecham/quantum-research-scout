@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-11-25",
+  "as_of_date": "2026-11-26",
   "claims": [
     {
       "authority": "authoritative",
@@ -2108,6 +2108,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "c65ad3ca9b787ab1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-21381294cfc94bb0",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-12-01",
+      "evidence_ids": [
+        "evidence-ca1c4e3573232959"
+      ],
+      "first_seen_at": "2026-11-26T06:18:51.359249+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-26T06:18:51.359249+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-ca1c4e3573232959",
+          "locator": "opportunity_status:awarded",
+          "title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+          "url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:N000142712090",
+        "label": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+        "node_id": "award:usaspending:N000142712090",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "198aa043471e831e"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-af747594cf5a4de1",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-12-01",
+      "evidence_ids": [
+        "evidence-95a62d0353d24e8a"
+      ],
+      "first_seen_at": "2026-11-26T06:18:51.359249+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-26T06:18:51.359249+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-95a62d0353d24e8a",
+          "locator": "awarding_agency:department of defense",
+          "title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+          "url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:N000142712090",
+        "label": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+        "node_id": "award:usaspending:N000142712090",
+        "node_type": "award"
+      },
+      "value": "Department of Defense",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "7dea95e3c7a694e1"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-d866a43d276d0343",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-12-01",
+      "evidence_ids": [
+        "evidence-d95722cbfc9e8353"
+      ],
+      "first_seen_at": "2026-11-26T06:18:51.359249+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-26T06:18:51.359249+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d95722cbfc9e8353",
+          "locator": "reported_amount:79750.0",
+          "title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+          "url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:N000142712090",
+        "label": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+        "node_id": "award:usaspending:N000142712090",
+        "node_type": "award"
+      },
+      "value": 79750.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "70b44620eb462771"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-24428382cf677182",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-12-01",
+      "evidence_ids": [
+        "evidence-1fd2b16f383688a4"
+      ],
+      "first_seen_at": "2026-11-26T06:18:51.359249+00:00",
+      "history": [],
+      "last_seen_at": "2026-11-26T06:18:51.359249+00:00",
+      "missing_observations": 0,
+      "object": {
+        "identifier": "uei:EDVFACFTUNR3",
+        "label": "NATIONAL TSING HUA UNIVERSITY",
+        "node_id": "recipient_or_contractor:uei:EDVFACFTUNR3",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-1fd2b16f383688a4",
+          "locator": "reported_recipient:recipient_or_contractor:uei:EDVFACFTUNR3",
+          "title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+          "url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:N000142712090",
+        "label": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+        "node_id": "award:usaspending:N000142712090",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "d53f6f236692894f"
     },
     {
       "authority": "authoritative",
@@ -82607,186 +82792,6 @@
     {
       "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
-      "claim_id": "claim-3913515cac70dd4b",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-27",
-      "evidence_ids": [
-        "evidence-989feb605a188f61"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "legal_business_name",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-989feb605a188f61",
-          "locator": "legal_business_name:university of alabama",
-          "title": "UNIVERSITY OF ALABAMA",
-          "url": "https://sam.gov/entity/RCNJEHZ83EV6/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:RCNJEHZ83EV6",
-        "label": "UNIVERSITY OF ALABAMA",
-        "node_id": "recipient_or_contractor:uei:RCNJEHZ83EV6",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "UNIVERSITY OF ALABAMA",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "a75bbdd0fa46552f"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity uei",
-      "claim_id": "claim-19cec29c040eccf3",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-27",
-      "evidence_ids": [
-        "evidence-0e44506b14960b6d"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "uei",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-0e44506b14960b6d",
-          "locator": "uei:rcnjehz83ev6",
-          "title": "UNIVERSITY OF ALABAMA",
-          "url": "https://sam.gov/entity/RCNJEHZ83EV6/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:RCNJEHZ83EV6",
-        "label": "UNIVERSITY OF ALABAMA",
-        "node_id": "recipient_or_contractor:uei:RCNJEHZ83EV6",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "RCNJEHZ83EV6",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "3c0d796365853eeb"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity cage code",
-      "claim_id": "claim-dc2dc5b93d7a4ac3",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-27",
-      "evidence_ids": [
-        "evidence-d58720843c2c6fb8"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "cage_code",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-d58720843c2c6fb8",
-          "locator": "cage_code:77223",
-          "title": "UNIVERSITY OF ALABAMA",
-          "url": "https://sam.gov/entity/RCNJEHZ83EV6/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:RCNJEHZ83EV6",
-        "label": "UNIVERSITY OF ALABAMA",
-        "node_id": "recipient_or_contractor:uei:RCNJEHZ83EV6",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "77223",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "79e24051257c726f"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity registration status",
-      "claim_id": "claim-bc4e05f0de212481",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-08-27",
-      "evidence_ids": [
-        "evidence-86a0a7e7f0a38913"
-      ],
-      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "registration_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-86a0a7e7f0a38913",
-          "locator": "registration_status:active",
-          "title": "UNIVERSITY OF ALABAMA",
-          "url": "https://sam.gov/entity/RCNJEHZ83EV6/coreData",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "uei:RCNJEHZ83EV6",
-        "label": "UNIVERSITY OF ALABAMA",
-        "node_id": "recipient_or_contractor:uei:RCNJEHZ83EV6",
-        "node_type": "recipient_or_contractor"
-      },
-      "value": "Active",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "a79f67a64487d41f"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-577a2553ace8f7cf",
       "confidence": "high",
       "controlling_status": "not_asserted",
@@ -82963,6 +82968,186 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "81b9ae5813e7e883"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity legal business name",
+      "claim_id": "claim-3913515cac70dd4b",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-27",
+      "evidence_ids": [
+        "evidence-989feb605a188f61"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "legal_business_name",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-989feb605a188f61",
+          "locator": "legal_business_name:university of alabama",
+          "title": "UNIVERSITY OF ALABAMA",
+          "url": "https://sam.gov/entity/RCNJEHZ83EV6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:RCNJEHZ83EV6",
+        "label": "UNIVERSITY OF ALABAMA",
+        "node_id": "recipient_or_contractor:uei:RCNJEHZ83EV6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "UNIVERSITY OF ALABAMA",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "a75bbdd0fa46552f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity uei",
+      "claim_id": "claim-19cec29c040eccf3",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-27",
+      "evidence_ids": [
+        "evidence-0e44506b14960b6d"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "uei",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-0e44506b14960b6d",
+          "locator": "uei:rcnjehz83ev6",
+          "title": "UNIVERSITY OF ALABAMA",
+          "url": "https://sam.gov/entity/RCNJEHZ83EV6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:RCNJEHZ83EV6",
+        "label": "UNIVERSITY OF ALABAMA",
+        "node_id": "recipient_or_contractor:uei:RCNJEHZ83EV6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "RCNJEHZ83EV6",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "3c0d796365853eeb"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity cage code",
+      "claim_id": "claim-dc2dc5b93d7a4ac3",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-27",
+      "evidence_ids": [
+        "evidence-d58720843c2c6fb8"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "cage_code",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-d58720843c2c6fb8",
+          "locator": "cage_code:77223",
+          "title": "UNIVERSITY OF ALABAMA",
+          "url": "https://sam.gov/entity/RCNJEHZ83EV6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:RCNJEHZ83EV6",
+        "label": "UNIVERSITY OF ALABAMA",
+        "node_id": "recipient_or_contractor:uei:RCNJEHZ83EV6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "77223",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "79e24051257c726f"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Public SAM.gov entity registration status",
+      "claim_id": "claim-bc4e05f0de212481",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-08-27",
+      "evidence_ids": [
+        "evidence-86a0a7e7f0a38913"
+      ],
+      "first_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-27T06:34:37.114174+00:00",
+      "missing_observations": 0,
+      "object": null,
+      "observation_status": "observed",
+      "predicate": "registration_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-86a0a7e7f0a38913",
+          "locator": "registration_status:active",
+          "title": "UNIVERSITY OF ALABAMA",
+          "url": "https://sam.gov/entity/RCNJEHZ83EV6/coreData",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "uei:RCNJEHZ83EV6",
+        "label": "UNIVERSITY OF ALABAMA",
+        "node_id": "recipient_or_contractor:uei:RCNJEHZ83EV6",
+        "node_type": "recipient_or_contractor"
+      },
+      "value": "Active",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "a79f67a64487d41f"
     },
     {
       "authority": "authoritative",
@@ -128058,191 +128243,6 @@
     },
     {
       "authority": "authoritative",
-      "basis": "Reported status in the federal record",
-      "claim_id": "claim-bfcc332faa74d157",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-15",
-      "evidence_ids": [
-        "evidence-f51fe4654e15696c"
-      ],
-      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "opportunity_status",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-f51fe4654e15696c",
-          "locator": "opportunity_status:awarded",
-          "title": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:1333ND26FNB670176",
-        "label": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
-        "node_id": "award:usaspending:1333ND26FNB670176",
-        "node_type": "award"
-      },
-      "value": "awarded",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "cdad33bc59112e91"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported awarding agency in the federal record",
-      "claim_id": "claim-daa9b8b392c00cd0",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-15",
-      "evidence_ids": [
-        "evidence-bc1120dc7c42c1be"
-      ],
-      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "awarding_agency",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-bc1120dc7c42c1be",
-          "locator": "awarding_agency:department of commerce",
-          "title": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:1333ND26FNB670176",
-        "label": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
-        "node_id": "award:usaspending:1333ND26FNB670176",
-        "node_type": "award"
-      },
-      "value": "Department of Commerce",
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "c1dd040a4f2674b3"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported amount in the federal record",
-      "claim_id": "claim-a230f1a977334602",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-15",
-      "evidence_ids": [
-        "evidence-e7875fb5b62ddd6e"
-      ],
-      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "missing_observations": 0,
-      "object": null,
-      "observation_status": "observed",
-      "predicate": "reported_amount",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-e7875fb5b62ddd6e",
-          "locator": "reported_amount:156760.0",
-          "title": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:1333ND26FNB670176",
-        "label": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
-        "node_id": "award:usaspending:1333ND26FNB670176",
-        "node_type": "award"
-      },
-      "value": 156760.0,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "ac971f04972ed6fe"
-    },
-    {
-      "authority": "authoritative",
-      "basis": "Reported recipient or awardee in the federal record",
-      "claim_id": "claim-6f35d93a294d2f59",
-      "confidence": "high",
-      "controlling_status": "not_asserted",
-      "derivation": {
-        "input_claim_ids": [],
-        "rule": "direct-source assertion"
-      },
-      "effective_date": "2026-10-15",
-      "evidence_ids": [
-        "evidence-9a19ac44ffdab3e4"
-      ],
-      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "history": [],
-      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
-      "missing_observations": 0,
-      "object": {
-        "identifier": "uei:C4HKEB7DRCR8",
-        "label": "IZUM INC",
-        "node_id": "recipient_or_contractor:uei:C4HKEB7DRCR8",
-        "node_type": "recipient_or_contractor"
-      },
-      "observation_status": "observed",
-      "predicate": "reported_recipient",
-      "sources": [
-        {
-          "authority": "authoritative",
-          "content_hash": null,
-          "controlling_status": "not_asserted",
-          "evidence_id": "evidence-9a19ac44ffdab3e4",
-          "locator": "reported_recipient:recipient_or_contractor:uei:C4HKEB7DRCR8",
-          "title": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
-          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732",
-          "verification_status": "source_reported"
-        }
-      ],
-      "status": "active",
-      "subject": {
-        "identifier": "usaspending:1333ND26FNB670176",
-        "label": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
-        "node_id": "award:usaspending:1333ND26FNB670176",
-        "node_type": "award"
-      },
-      "value": null,
-      "verification_status": "source_reported",
-      "version": 1,
-      "version_hash": "1a290d0ad4a4d10c"
-    },
-    {
-      "authority": "authoritative",
       "basis": "Public SAM.gov entity legal business name",
       "claim_id": "claim-e83e96a6629e1e3c",
       "confidence": "high",
@@ -128780,6 +128780,191 @@
       "verification_status": "source_reported",
       "version": 1,
       "version_hash": "683922e33421cfb2"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported status in the federal record",
+      "claim_id": "claim-bfcc332faa74d157",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-15",
+      "evidence_ids": [
+        "evidence-f51fe4654e15696c"
+      ],
+      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "opportunity_status",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-f51fe4654e15696c",
+          "locator": "opportunity_status:awarded",
+          "title": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1333ND26FNB670176",
+        "label": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
+        "node_id": "award:usaspending:1333ND26FNB670176",
+        "node_type": "award"
+      },
+      "value": "awarded",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "cdad33bc59112e91"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported awarding agency in the federal record",
+      "claim_id": "claim-daa9b8b392c00cd0",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-15",
+      "evidence_ids": [
+        "evidence-bc1120dc7c42c1be"
+      ],
+      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "awarding_agency",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-bc1120dc7c42c1be",
+          "locator": "awarding_agency:department of commerce",
+          "title": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1333ND26FNB670176",
+        "label": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
+        "node_id": "award:usaspending:1333ND26FNB670176",
+        "node_type": "award"
+      },
+      "value": "Department of Commerce",
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "c1dd040a4f2674b3"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported amount in the federal record",
+      "claim_id": "claim-a230f1a977334602",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-15",
+      "evidence_ids": [
+        "evidence-e7875fb5b62ddd6e"
+      ],
+      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "missing_observations": 1,
+      "object": null,
+      "observation_status": "not_observed",
+      "predicate": "reported_amount",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-e7875fb5b62ddd6e",
+          "locator": "reported_amount:156760.0",
+          "title": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1333ND26FNB670176",
+        "label": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
+        "node_id": "award:usaspending:1333ND26FNB670176",
+        "node_type": "award"
+      },
+      "value": 156760.0,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "ac971f04972ed6fe"
+    },
+    {
+      "authority": "authoritative",
+      "basis": "Reported recipient or awardee in the federal record",
+      "claim_id": "claim-6f35d93a294d2f59",
+      "confidence": "high",
+      "controlling_status": "not_asserted",
+      "derivation": {
+        "input_claim_ids": [],
+        "rule": "direct-source assertion"
+      },
+      "effective_date": "2026-10-15",
+      "evidence_ids": [
+        "evidence-9a19ac44ffdab3e4"
+      ],
+      "first_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "history": [],
+      "last_seen_at": "2026-08-07T02:18:23.710417+00:00",
+      "missing_observations": 1,
+      "object": {
+        "identifier": "uei:C4HKEB7DRCR8",
+        "label": "IZUM INC",
+        "node_id": "recipient_or_contractor:uei:C4HKEB7DRCR8",
+        "node_type": "recipient_or_contractor"
+      },
+      "observation_status": "not_observed",
+      "predicate": "reported_recipient",
+      "sources": [
+        {
+          "authority": "authoritative",
+          "content_hash": null,
+          "controlling_status": "not_asserted",
+          "evidence_id": "evidence-9a19ac44ffdab3e4",
+          "locator": "reported_recipient:recipient_or_contractor:uei:C4HKEB7DRCR8",
+          "title": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
+          "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB670176_1341_47QTCA25D0044_4732",
+          "verification_status": "source_reported"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "identifier": "usaspending:1333ND26FNB670176",
+        "label": "OU67-26-165-NEW QUANTUM NETWORKING METROLOGY SUPPORT",
+        "node_id": "award:usaspending:1333ND26FNB670176",
+        "node_type": "award"
+      },
+      "value": null,
+      "verification_status": "source_reported",
+      "version": 1,
+      "version_hash": "1a290d0ad4a4d10c"
     },
     {
       "authority": "authoritative",
@@ -259509,7 +259694,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259556,7 +259741,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259603,7 +259788,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259650,7 +259835,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259697,7 +259882,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259744,7 +259929,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259791,7 +259976,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259838,7 +260023,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259885,7 +260070,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259932,7 +260117,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -259979,7 +260164,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260026,7 +260211,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260073,7 +260258,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260120,7 +260305,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260167,7 +260352,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260214,7 +260399,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260261,7 +260446,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "opportunity_status",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260308,7 +260493,7 @@
       "object": null,
       "observation_status": "retracted",
       "predicate": "awarding_agency",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260360,7 +260545,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260412,7 +260597,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260464,7 +260649,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260516,7 +260701,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260568,7 +260753,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260620,7 +260805,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260672,7 +260857,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260724,7 +260909,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -260776,7 +260961,7 @@
       },
       "observation_status": "retracted",
       "predicate": "executes_through",
-      "retracted_at": "2026-11-25T06:26:25.985745+00:00",
+      "retracted_at": "2026-11-26T06:18:51.359249+00:00",
       "retraction_reason": "The deterministically derived mission-tracker record is no longer present after upstream evidence validation.",
       "sources": [
         {
@@ -267412,6 +267597,16 @@
       "locator": "reported_recipient:recipient_or_contractor:uei:V6AFQPN18437",
       "title": "CAREER: CO-DESIGNING COMPILERS AND ARCHITECTURES FOR HIGH-PERFORMANCE AND SCALABLE FAULT-TOLERANT QUANTUM COMPUTING -QUANTUM COMPUTERS HAVE THE POTENTIAL TO ACCELERATE IMPORTANT A...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2544323_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-1fd2b16f383688a4",
+      "locator": "reported_recipient:recipient_or_contractor:uei:EDVFACFTUNR3",
+      "title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+      "url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
       "verification_status": "source_reported"
     },
     {
@@ -291609,6 +291804,16 @@
       "authority": "authoritative",
       "content_hash": null,
       "controlling_status": "not_asserted",
+      "evidence_id": "evidence-95a62d0353d24e8a",
+      "locator": "awarding_agency:department of defense",
+      "title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+      "url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
       "evidence_id": "evidence-95af324e6cebba1e",
       "locator": "awarding_agency:hhs-nih11",
       "title": "The NIA Genetics of Alzheimer's Disease Data Storage Site (NIAGADS)",
@@ -302397,6 +302602,16 @@
     },
     {
       "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-ca1c4e3573232959",
+      "locator": "opportunity_status:awarded",
+      "title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+      "url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
       "content_hash": "c941f8588cd9718ae06bd859032d84d9eb9c409dcf21a6ba95035d883a8c52eb",
       "controlling_status": "not_established",
       "evidence_id": "evidence-ca1d8f1a1db53a9c",
@@ -305753,6 +305968,16 @@
       "locator": "reported_amount:190000.0",
       "title": "POSTDOCTORAL FELLOWSHIP: MSPRF: HOMOTOPY INVARIANTS OF ORBIFOLDS -THIS AWARD IS MADE AS PART OF THE FY 2026 MATHEMATICAL SCIENCES POSTDOCTORAL RESEARCH FELLOWSHIPS PROGRAM. EACH O...",
       "url": "https://www.usaspending.gov/award/ASST_NON_2602364_049",
+      "verification_status": "source_reported"
+    },
+    {
+      "authority": "authoritative",
+      "content_hash": null,
+      "controlling_status": "not_asserted",
+      "evidence_id": "evidence-d95722cbfc9e8353",
+      "locator": "reported_amount:79750.0",
+      "title": "QUANTUM SENSING WITH NON-GAUSSIAN STATES",
+      "url": "https://www.usaspending.gov/award/ASST_NON_N000142712090_097",
       "verification_status": "source_reported"
     },
     {
@@ -314009,16 +314234,16 @@
   "method_note": "Authoritative identifies official provenance for the asserted field; it does not by itself establish that an extracted attachment is the controlling solicitation. Procurement excerpts remain analyst-verification-required until controlling effect is established. Primary means an official organization source. Analytical and analyst claims are labeled and never promoted merely because they score highly.",
   "scope_note": "Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.",
   "summary": {
-    "active_claims": 5214,
-    "authoritative_claims": 4988,
+    "active_claims": 5218,
+    "authoritative_claims": 4992,
     "conflicted_claims": 44,
     "derived_claims": 220,
-    "evidence_items": 5320,
-    "source_urls": 1430,
-    "subjects": 1064,
+    "evidence_items": 5324,
+    "source_urls": 1431,
+    "subjects": 1065,
     "superseded_claims": 0,
-    "total_claims": 5241
+    "total_claims": 5245
   },
-  "updated_at": "2026-11-25T06:26:25.985745+00:00",
+  "updated_at": "2026-11-26T06:18:51.359249+00:00",
   "version": 1
 }

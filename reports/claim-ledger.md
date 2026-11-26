@@ -2,15 +2,15 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Decision Briefs](bid-no-bid.md)
 
-_Updated 2026-11-25T06:26:25.985745+00:00_
+_Updated 2026-11-26T06:18:51.359249+00:00_
 
 Versioned public-evidence and analytical claims. Every relationship and decision claim retains its basis, confidence, source authority, and derivation inputs.
 
-- Active claims: **5214**
-- Authoritative claims: **4988**
+- Active claims: **5218**
+- Authoritative claims: **4992**
 - Analytical claims: **220**
 - Conflicted claims: **44**
-- Evidence items / URLs: **5320 / 1430**
+- Evidence items / URLs: **5324 / 1431**
 
 | Status | Subject | Claim | Value / object | Authority | Evidence |
 |---|---|---|---|---|---|
@@ -58,6 +58,10 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | conflicted | 16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF | deadline | 2026-09-18T00:00:00-04:00 | authoritative / high | [16--EXCITER,CTRL SCB,AI, IN REPAIR/MODIFICATION OF](https://sam.gov/workspace/contract/opp/cbbf6b02d35b40ed8dc0086ae38b825e/view) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363422) |
 | conflicted | Pax Silica Artificial Intelligence Assistance Project | opportunity status | open | authoritative / high | [Pax Silica Artificial Intelligence Assistance Project](https://www.grants.gov/search-results-detail/363312) |
+| active | QUANTUM SENSING WITH NON-GAUSSIAN STATES | opportunity status | awarded | authoritative / high | [QUANTUM SENSING WITH NON-GAUSSIAN STATES](https://www.usaspending.gov/award/ASST_NON_N000142712090_097) |
+| active | QUANTUM SENSING WITH NON-GAUSSIAN STATES | awarding agency | Department of Defense | authoritative / high | [QUANTUM SENSING WITH NON-GAUSSIAN STATES](https://www.usaspending.gov/award/ASST_NON_N000142712090_097) |
+| active | QUANTUM SENSING WITH NON-GAUSSIAN STATES | reported amount | 79750.0 | authoritative / high | [QUANTUM SENSING WITH NON-GAUSSIAN STATES](https://www.usaspending.gov/award/ASST_NON_N000142712090_097) |
+| active | QUANTUM SENSING WITH NON-GAUSSIAN STATES | reported recipient | NATIONAL TSING HUA UNIVERSITY | authoritative / high | [QUANTUM SENSING WITH NON-GAUSSIAN STATES](https://www.usaspending.gov/award/ASST_NON_N000142712090_097) |
 | active | SOLIEL LLC | legal business name | SOLIEL LLC | authoritative / high | [SOLIEL LLC](https://sam.gov/entity/JXYLN4KMJ3Y5/coreData) |
 | active | SOLIEL LLC | uei | JXYLN4KMJ3Y5 | authoritative / high | [SOLIEL LLC](https://sam.gov/entity/JXYLN4KMJ3Y5/coreData) |
 | active | SOLIEL LLC | cage code | 45CF5 | authoritative / high | [SOLIEL LLC](https://sam.gov/entity/JXYLN4KMJ3Y5/coreData) |
@@ -260,10 +264,6 @@ Versioned public-evidence and analytical claims. Every relationship and decision
 | active | ICF INCORPORATED, L.L.C. | cage code | 5M571 | authoritative / high | [ICF INCORPORATED, L.L.C.](https://sam.gov/entity/QHBLBNKKV4U3/coreData) |
 | active | ICF INCORPORATED, L.L.C. | registration status | Active | authoritative / high | [ICF INCORPORATED, L.L.C.](https://sam.gov/entity/QHBLBNKKV4U3/coreData) |
 | active | 70B04C26F00001201 CTO/TECHNOLOGY ROADMAP FOR ARTIFICIAL INTELLIGENCE AND NEXT-GENERATION COMPUTING (TRAIN-C) AND CSPD/TRADE IT MODERNIZATION PROJECTS. | opportunity status | awarded | authoritative / high | [70B04C26F00001201 CTO/TECHNOLOGY ROADMAP FOR ARTIFICIAL INTELLIGENCE AND NEXT-GENERATION COMPUTING (TRAIN-C) AND CSPD/TRADE IT MODERNIZATION PROJECTS.](https://www.usaspending.gov/award/CONT_AWD_70B04C26F00001201_7014_47QREA21D0001_4732) |
-| active | 70B04C26F00001201 CTO/TECHNOLOGY ROADMAP FOR ARTIFICIAL INTELLIGENCE AND NEXT-GENERATION COMPUTING (TRAIN-C) AND CSPD/TRADE IT MODERNIZATION PROJECTS. | awarding agency | Department of Homeland Security | authoritative / high | [70B04C26F00001201 CTO/TECHNOLOGY ROADMAP FOR ARTIFICIAL INTELLIGENCE AND NEXT-GENERATION COMPUTING (TRAIN-C) AND CSPD/TRADE IT MODERNIZATION PROJECTS.](https://www.usaspending.gov/award/CONT_AWD_70B04C26F00001201_7014_47QREA21D0001_4732) |
-| active | 70B04C26F00001201 CTO/TECHNOLOGY ROADMAP FOR ARTIFICIAL INTELLIGENCE AND NEXT-GENERATION COMPUTING (TRAIN-C) AND CSPD/TRADE IT MODERNIZATION PROJECTS. | reported amount | 14175438.63 | authoritative / high | [70B04C26F00001201 CTO/TECHNOLOGY ROADMAP FOR ARTIFICIAL INTELLIGENCE AND NEXT-GENERATION COMPUTING (TRAIN-C) AND CSPD/TRADE IT MODERNIZATION PROJECTS.](https://www.usaspending.gov/award/CONT_AWD_70B04C26F00001201_7014_47QREA21D0001_4732) |
-| active | 70B04C26F00001201 CTO/TECHNOLOGY ROADMAP FOR ARTIFICIAL INTELLIGENCE AND NEXT-GENERATION COMPUTING (TRAIN-C) AND CSPD/TRADE IT MODERNIZATION PROJECTS. | reported recipient | BOOZ ALLEN HAMILTON INC | authoritative / high | [70B04C26F00001201 CTO/TECHNOLOGY ROADMAP FOR ARTIFICIAL INTELLIGENCE AND NEXT-GENERATION COMPUTING (TRAIN-C) AND CSPD/TRADE IT MODERNIZATION PROJECTS.](https://www.usaspending.gov/award/CONT_AWD_70B04C26F00001201_7014_47QREA21D0001_4732) |
-| active | POST-QUANTUM CRYPTOGRAPHY AND FEDERAL IDENTITY MANAGEMENT SUPPORT SERVICES | opportunity status | awarded | authoritative / high | [POST-QUANTUM CRYPTOGRAPHY AND FEDERAL IDENTITY MANAGEMENT SUPPORT SERVICES](https://www.usaspending.gov/award/CONT_AWD_47QACB26C0005_4732_-NONE-_-NONE-) |
 
 ## Method
 
