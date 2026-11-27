@@ -4,11 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-26 06:25 UTC_
+_Updated 2026-11-27 06:13 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 4 | 9 | 9 | 32 |
+| 50 | 4 | 10 | 7 | 33 |
 
 ## 🔴 Contract: QuEra
 
@@ -29,14 +29,14 @@ _Updated 2026-11-26 06:25 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 PQC / Crypto Agility has critical strategic importance and rising momentum.
+- 🔴 PQC / Crypto Agility has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: QEC / Fault Tolerance
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 QEC / Fault Tolerance has critical strategic importance and stable momentum.
+- 🔴 QEC / Fault Tolerance has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Hardware
@@ -74,18 +74,18 @@ _Updated 2026-11-26 06:25 UTC_
 - 🔴 Standards / Government has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
+## 🔴 Source failing: Quantum Computing Patents 🆕
+
+- Severity: **critical**
+- Status: **failing**
+- 🔴 90.1% reliability with 5 warning day(s).
+- [Open supporting view](source-health.md)
+
 ## 🟠 Actionable signal: AI Security
 
 - Severity: **high**
 - Status: **actionable**
 - 🎯 AI Security is actionable with high confidence.
-- [Open supporting view](signals.md)
-
-## 🟠 Actionable signal: PQC / Crypto Agility 🆕
-
-- Severity: **high**
-- Status: **actionable**
-- 🎯 PQC / Crypto Agility is actionable with high confidence.
 - [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: Quantum Networking
@@ -107,13 +107,6 @@ _Updated 2026-11-26 06:25 UTC_
 - Severity: **high**
 - Status: **rising**
 - ↗️ Recent evidence is 7 versus 4 in the prior period.
-- [Open supporting view](signals.md)
-
-## 🟠 Rising momentum: PQC / Crypto Agility 🆕
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 21 versus 12 in the prior period.
 - [Open supporting view](signals.md)
 
 ## 🟠 Rising momentum: Quantum Networking
@@ -159,14 +152,14 @@ _Updated 2026-11-26 06:25 UTC_
 - The latest dated item is from 2026-10-26; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: DOE Federal Science Missions 🆕
+## 🟡 Source stale: DOE Federal Science Missions
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-11-10; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: DOE Office of Science Updates 🆕
+## 🟡 Source stale: DOE Office of Science Updates
 
 - Severity: **medium**
 - Status: **stale**
@@ -178,6 +171,13 @@ _Updated 2026-11-26 06:25 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-24; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: Fortanix Quantum Security 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-11-12; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
 ## 🟡 Source stale: Grants.gov · AI Forge
@@ -285,6 +285,13 @@ _Updated 2026-11-26 06:25 UTC_
 - The latest dated item is from 2026-10-15; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: NCSC UK News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-11-11; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: NIST Cybersecurity Insights
 
 - Severity: **medium**
@@ -320,20 +327,6 @@ _Updated 2026-11-26 06:25 UTC_
 - The latest dated item is from 2026-11-04; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: PQShield
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-11-04; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
-## 🟡 Source stale: Post-Quantum Cryptography Patents
-
-- Severity: **medium**
-- Status: **stale**
-- The latest dated item is from 2026-11-05; collection may be healthy but the content stream is stale.
-- [Open supporting view](source-health.md)
-
 ## 🟡 Source stale: QuEra Press Releases
 
 - Severity: **medium**
@@ -360,4 +353,11 @@ _Updated 2026-11-26 06:25 UTC_
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-10-08; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · AI Forge 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-09-28; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

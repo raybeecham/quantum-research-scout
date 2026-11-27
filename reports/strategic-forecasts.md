@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [Temporal Intelligence](temporal-intelligence.md) · [Federal Missions](federal-missions.md)
 
-_Updated 2026-11-26T06:18:51.359249+00:00_
+_Updated 2026-11-27T06:07:44.684826+00:00_
 
 Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed question, horizon, probability, evidence, confirming and disconfirming indicators, and a machine-checkable resolution rule.
 
@@ -16,7 +16,7 @@ Forecasts are transparent analytical hypotheses, not facts. Each one has a fixed
 
 ### 82% · AI Forge
 
-Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-02-24?
+Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to AI Forge by 2027-02-25?
 
 **Horizon:** 2026-12-30
 
@@ -41,7 +41,7 @@ Will Frontier Signal observe an additional federal solicitation, grant opportuni
 
 ### 70% · Golden Dome for America
 
-Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-02-24?
+Will Frontier Signal observe an additional federal solicitation, grant opportunity, BAA, or RFI explicitly linked to Golden Dome for America by 2027-02-25?
 
 **Horizon:** 2026-12-30
 

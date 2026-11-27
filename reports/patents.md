@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-26T06:18:51.359249+00:00_
+_Updated 2026-11-27T06:07:44.684826+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -14,8 +14,8 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Curated notable patents: **2**
 - Automated recent discoveries: **248**
 - Published in the last 30 days: **43**
-- Unique named assignees: **138**
-- Patent families: **296**
+- Unique named assignees: **137**
+- Patent families: **298**
 - Applications / grants: **241 / 9**
 - Known legal status: **221 of 250**
 - Publications with citation evidence: **0**
@@ -70,6 +70,7 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY](https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data)<br><small>US20260088983A1</small> | Application · Pending | ARRIS Enterprises LLC | 2 member(s) · 0 citation(s) | **76 · HIGH** |
 | [METHOD AND SYSTEM FOR SECURING POST-QUANTUM BLOCKCHAINS](https://data.uspto.gov/patent-file-wrapper/search/details/19404287/application-data)<br><small>12640949</small> | Grant · Granted | King Fahd University of Petroleum and Minerals | 1 member(s) · 0 citation(s) | **75 · HIGH** |
 | [POST-QUANTUM VERIFIABLE JOINT-WATERMARKING FOR MULTIPARTY ARTIFICIAL INTELLIGENCE MODELS](https://data.uspto.gov/patent-file-wrapper/search/details/19360921/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Circle Internet Group, Inc. | 2 member(s) · 0 citation(s) | **74 · HIGH** |
+| [METHOD FOR DATA COMMUNICATION AND COMPUTER PROGRAM FOR POST-QUANTUM CRYPTOGRAPHIC PROXYING](https://data.uspto.gov/patent-file-wrapper/search/details/19682568/application-data)<br><small>US20260379652A1</small> | Application · Pending | SEQURE SpA | 1 member(s) · 0 citation(s) | **73 · HIGH** |
 | [QUANTUM-RESISTANT ATTESTED KEY AND MODEL LIFECYCLE MANAGEMENT SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19714456/application-data)<br><small>US20260352451A1</small> | Application · Pending | Not listed | 2 member(s) · 0 citation(s) | **73 · HIGH** |
 | [METHOD AND SYSTEM FOR STRATEGIZING NETWORK MIGRATION IN ADAPTATION TO POST QUANTUM CRYPTOGRAPHY](https://data.uspto.gov/patent-file-wrapper/search/details/19568917/application-data)<br><small>US20260352463A1</small> | Application · Pending | Tata Consultancy Services Limited | 1 member(s) · 0 citation(s) | **73 · HIGH** |
 | [AI-ORCHESTRATED DIRECTED ELECTROMAGNETIC WIRELESS POWER INFRASTRUCTURE WITH POST-QUANTUM BLOCKCHAIN-AUTHENTICATED DEVICE AUTHORIZATION](https://data.uspto.gov/patent-file-wrapper/search/details/19741315/application-data)<br><small>US20260352030A1</small> | Application · Pending | VOICE LIFE HOLDINGS Limited | 1 member(s) · 0 citation(s) | **73 · HIGH** |
@@ -201,6 +202,8 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [ZERO-TRUST MULTI-AGENT GOVERNANCE FRAMEWORK FOR CLINICAL ARTIFICIAL INTELLIGENCE](https://data.uspto.gov/patent-file-wrapper/search/details/19455879/application-data)<br><small>US20260154580A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **62 · HIGH** |
 | [SYSTEM AND METHOD FOR INTELLIGENT CYBERSECURITY ANALYSIS USING ARTIFICIAL INTELLIGENCE](https://data.uspto.gov/patent-file-wrapper/search/details/19457312/application-data)<br><small>US20260156144A1</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **62 · HIGH** |
 | [AUTHENTICATION METHOD USING PRE-SHARED SYMMETRIC KEY FOR LOCATION SELECTION OF AUTHENTICATION INFORMATION IN QUANTUM COMMUNICATION SYSTEM, AND APPARATUS THEREFOR](https://data.uspto.gov/patent-file-wrapper/search/details/19136577/application-data)<br><small>US20260205207A1</small> | Application · Unknown | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
+| [MALWARE DETECTION AND SCREENING SYSTEMS](https://data.uspto.gov/patent-file-wrapper/search/details/19757757/application-data)<br><small>US20260379918A1</small> | Application · Pending | Truist Bank | 1 member(s) · 0 citation(s) | **61 · HIGH** |
+| [AUTONOMOUS NETWORK SECURITY SCALING](https://data.uspto.gov/patent-file-wrapper/search/details/19751643/application-data)<br><small>US20260379835A1</small> | Application · Pending | Level 3 Communications, LLC | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [TECHNIQUES FOR CYBERSECURITY INSPECTION OF MULTIPLE LAYER VIRTUAL WORKLOADS](https://data.uspto.gov/patent-file-wrapper/search/details/19750635/application-data)<br><small>US20260368319A1</small> | Application · Pending | Wiz, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [SYSTEMS AND METHODS FOR AUTOMATED DETECTION OF CYBERSECURITY THREATS ACROSS DIGITAL PLATFORMS](https://data.uspto.gov/patent-file-wrapper/search/details/19754576/application-data)<br><small>US20260370667A1</small> | Application · Pending | Permiso Security Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
 | [SYSTEM AND METHOD FOR CYBERSECURITY TOXIC COMBINATION PRECOGNITION](https://data.uspto.gov/patent-file-wrapper/search/details/19748926/application-data)<br><small>US20260370666A1</small> | Application · Pending | Wiz, Inc. | 1 member(s) · 0 citation(s) | **61 · HIGH** |
@@ -302,11 +305,8 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [METHOD FOR MEASURING AN OBSERVABLE ON A QUANTUM COMPUTING DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19456147/application-data)<br><small>US20260228588A1</small> | Application · Unknown | QEDMA Quantum Computing LTD. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [DIAGNOSIS AND TREATMENT RECOMMENDATION USING QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19427214/application-data)<br><small>US20260128171A1</small> | Application · Unknown | Optum Services (Ireland) Limited | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [Robots Self-Directed by Quantum Computing and Classical Algorithms for Autonomous Physical Procedures in Medical, Dental, Cosmetic, Dermatology, Ophthalmology, and Veterinary Applications.](https://data.uspto.gov/patent-file-wrapper/search/details/19532226/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Not listed | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
+| [DYNAMIC AND PRECISE WEBSITE CATEGORIZATION USING A LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19735227/application-data)<br><small>US20260377462A1</small> | Application · Pending | Palo Alto Networks, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [GENERATING STRUCTURED DATA FROM UNSTRUCTURED DATA USING A LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19752310/application-data)<br><small>US20260368144A1</small> | Application · Unknown | Aravo Solutions, Inc. | 5 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [GENERATING STRUCTURED DATA FROM UNSTRUCTURED DATA USING A LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19752323/application-data)<br><small>US20260368145A1</small> | Application · Unknown | Aravo Solutions, Inc. | 5 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [SEGMENTED AND COMPRESSED CONVERSATION HISTORY FOR LARGE LANGUAGE MODEL (LLM) DRIVEN AGENTS](https://data.uspto.gov/patent-file-wrapper/search/details/19741680/application-data)<br><small>US20260350073A1</small> | Application · Pending | Salesforce, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
 | [MULTIMODAL LARGE LANGUAGE MODEL TRAINING METHOD, RELEVANCE CALCULATION AND LABEL GENERATION METHOD](https://data.uspto.gov/patent-file-wrapper/search/details/19707207/application-data)<br><small>US20260350476A1</small> | Application · Pending | Hangzhou Alibaba International Internet Industry Co., Ltd. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
-| [GENERATING MULTI-MODAL RESPONSE(S) THROUGH UTILIZATION OF LARGE LANGUAGE MODEL(S)](https://data.uspto.gov/patent-file-wrapper/search/details/19739614/application-data)<br><small>US20260350323A1</small> | Application · Pending | GOOGLE LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
-| [EVALUATING THE PERFORMANCE OF A LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19735118/application-data)<br><small>US20260349980A1</small> | Application · Pending | Palo Alto Networks, Inc. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
-| [LARGE LANGUAGE MODEL UPDATE METHOD, ELECTRONIC DEVICE, AND STORAGE MEDIUM](https://data.uspto.gov/patent-file-wrapper/search/details/19700044/application-data)<br><small>US20260340384A1</small> | Application · Pending | BEIJING BAIDU NETCOM SCIENCE TECHNOLOGY CO., LTD. | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |
-| [GENERATING CONVERSATIONAL OUTPUT USING A LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19737873/application-data)<br><small>US20260341270A1</small> | Application · Pending | Capital One Services, LLC | 1 member(s) · 0 citation(s) | **57 · NOTABLE** |

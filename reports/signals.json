@@ -3991,13 +3991,31 @@
           "source": "arXiv RSS cs.CR",
           "title": "Bounding the security of the FALCON signature scheme in the quantum random oracle model",
           "url": "https://arxiv.org/abs/2611.33666"
+        },
+        {
+          "date": "2026-11-26",
+          "key": "https://thequantuminsider.com/2026/11/26/european-quantum-community-reacts-to-new-quantum-strategy",
+          "report": "2026-11/2026-11-26-digest.md",
+          "score": 47,
+          "source": "The Quantum Insider",
+          "title": "European Quantum Community Reacts to New Quantum Strategy",
+          "url": "https://thequantuminsider.com/2026/11/26/european-quantum-community-reacts-to-new-quantum-strategy"
+        },
+        {
+          "date": "2026-11-26",
+          "key": "https://quantumzeitgeist.com/microsoft-quantum-secardeo-post-first-automated",
+          "report": "2026-11/2026-11-26-digest.md",
+          "score": 55,
+          "source": "Quantum Zeitgeist",
+          "title": "Secardeo launches first automated post-quantum Outlook solution",
+          "url": "https://quantumzeitgeist.com/microsoft-quantum-secardeo-post-first-automated"
         }
       ],
       "first_seen": "2026-06-21",
       "follow_up": "Validate standards alignment and look for concrete migration, inventory, and deployment evidence.",
       "importance": "critical",
-      "latest_seen": "2026-11-25",
-      "momentum": "rising",
+      "latest_seen": "2026-11-26",
+      "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
         "Quantum Zeitgeist",
@@ -4005,9 +4023,9 @@
         "Quantum Computing Report",
         "IACR ePrint"
       ],
-      "prior_count": 12,
-      "recent_count": 21,
-      "status": "actionable"
+      "prior_count": 13,
+      "recent_count": 19,
+      "status": "watching"
     },
     "QEC / Fault Tolerance": {
       "confidence": "high",
@@ -5262,13 +5280,31 @@
           "source": "arXiv RSS quant-ph",
           "title": "A scalable dense silicon qubit architecture with logical operations",
           "url": "https://arxiv.org/abs/2611.33590"
+        },
+        {
+          "date": "2026-11-26",
+          "key": "https://quantumzeitgeist.com/minnesota-twin-rtx-5090-gpu-120x",
+          "report": "2026-11/2026-11-26-digest.md",
+          "score": 45,
+          "source": "Quantum Zeitgeist",
+          "title": "RTX 5090 GPU achieves 120x faster quantum decoding of bicycle codes",
+          "url": "https://quantumzeitgeist.com/minnesota-twin-rtx-5090-gpu-120x"
+        },
+        {
+          "date": "2026-11-26",
+          "key": "https://quantumzeitgeist.com/arxiv-silicon-qubit-architecture-tadokoro-kodera",
+          "report": "2026-11/2026-11-26-digest.md",
+          "score": 87,
+          "source": "Quantum Zeitgeist",
+          "title": "Tadokoro and Kodera propose a dense silicon qubit architecture for FTQC",
+          "url": "https://quantumzeitgeist.com/arxiv-silicon-qubit-architecture-tadokoro-kodera"
         }
       ],
       "first_seen": "2026-06-23",
       "follow_up": "Track logical error rates, code overhead, decoder performance, and hardware demonstrations.",
       "importance": "critical",
-      "latest_seen": "2026-11-25",
-      "momentum": "stable",
+      "latest_seen": "2026-11-26",
+      "momentum": "declining",
       "organizations": [
         "Quantum Zeitgeist",
         "Quantum Computing Report",
@@ -5276,8 +5312,8 @@
         "arXiv RSS quant-ph",
         "QuantumNews.ai"
       ],
-      "prior_count": 18,
-      "recent_count": 14,
+      "prior_count": 22,
+      "recent_count": 12,
       "status": "watching"
     },
     "Quantum Hardware": {
@@ -9278,12 +9314,39 @@
           "source": "Quantum Computing Report",
           "title": "University of Sussex and Universal Quantum Demonstrate Laser-Free Axial-Mode Entangling Gate on Doppler-Cooled Trapped Ions",
           "url": "https://quantumcomputingreport.com/university-of-sussex-and-universal-quantum-demonstrate-laser-free-axial-mode-entangling-gate-on-doppler-cooled-trapped-ions"
+        },
+        {
+          "date": "2026-11-26",
+          "key": "https://quantumzeitgeist.com/planqc-sap-partnership-quantum-computing",
+          "report": "2026-11/2026-11-26-digest.md",
+          "score": 35,
+          "source": "Quantum Zeitgeist",
+          "title": "Planqc and SAP expand quantum computing partnership",
+          "url": "https://quantumzeitgeist.com/planqc-sap-partnership-quantum-computing"
+        },
+        {
+          "date": "2026-11-26",
+          "key": "https://thequantuminsider.com/2026/11/26/sap-and-planqc-expand-quantum-computing-partnership-plan-hardware-tests-in-2027",
+          "report": "2026-11/2026-11-26-digest.md",
+          "score": 35,
+          "source": "The Quantum Insider",
+          "title": "SAP and planqc Expand Quantum Computing Partnership, Plan Hardware Tests in 2027",
+          "url": "https://thequantuminsider.com/2026/11/26/sap-and-planqc-expand-quantum-computing-partnership-plan-hardware-tests-in-2027"
+        },
+        {
+          "date": "2026-11-26",
+          "key": "https://quantumzeitgeist.com/aws-quantum-superconducting-qubit-distributions-stay",
+          "report": "2026-11/2026-11-26-digest.md",
+          "score": 48,
+          "source": "Quantum Zeitgeist",
+          "title": "Superconducting qubit distributions stay stable for over a year",
+          "url": "https://quantumzeitgeist.com/aws-quantum-superconducting-qubit-distributions-stay"
         }
       ],
       "first_seen": "2026-06-22",
       "follow_up": "Compare scaling claims with error rates, manufacturability, integration, and delivered systems.",
       "importance": "critical",
-      "latest_seen": "2026-11-25",
+      "latest_seen": "2026-11-26",
       "momentum": "stable",
       "organizations": [
         "The Quantum Insider",
@@ -9292,8 +9355,8 @@
         "Quantum Computing Report",
         "arXiv RSS quant-ph"
       ],
-      "prior_count": 27,
-      "recent_count": 21,
+      "prior_count": 20,
+      "recent_count": 22,
       "status": "watching"
     },
     "Quantum Networking": {
@@ -13733,6 +13796,6 @@
       "status": "watching"
     }
   },
-  "updated_at": "2026-11-26T06:25:55.697520+00:00",
+  "updated_at": "2026-11-27T06:13:06.687523+00:00",
   "version": 1
 }
