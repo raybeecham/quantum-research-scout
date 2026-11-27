@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-27 14:59 UTC_
+_Updated 2026-11-27 23:25 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -24,7 +24,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv RSS quant-ph | arxiv_rss | 94% | 1 | 7 | 2026-11-27 | 2026-11-26 | fresh | 🟢 healthy |
 | DOE Office of Science Updates | watch | 97% | 1 | 0 | 2026-11-27 | 2026-11-10 | stale | 🟢 healthy |
 | Quantum Computing Report | rss | 96% | 1 | 0 | 2026-11-27 | 2026-11-27 | fresh | 🟢 healthy |
-| Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-27 | 2026-11-26 | fresh | 🟢 healthy |
+| Quantum Zeitgeist | rss | 99% | 1 | 0 | 2026-11-27 | 2026-11-27 | fresh | 🟢 healthy |
 | ENISA Cryptography and PQC | watch | 100% | 0 | 8 | 2026-11-27 | 2024-03-12 | reference | 🟠 partial |
 | SAM.gov Opportunities | procurement | 98% | 0 | 5 | 2026-11-27 | 2026-11-25 | fresh | 🟢 healthy |
 | AWS Quantum Technologies Blog | rss | 100% | 0 | 0 | 2026-11-27 | 2026-11-17 | fresh | 🟢 healthy |
@@ -34,7 +34,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Atom Computing News and Research | watch | 100% | 0 | 0 | 2026-11-27 | 2026-11-13 | fresh | 🟢 healthy |
 | BSI Germany Quantum-Safe Guidance | watch | 100% | 0 | 0 | 2026-11-27 | 2026-10-21 | reference | 🟢 healthy |
 | Booz Allen Quantum and PQC | watch | 100% | 0 | 0 | 2026-11-27 | 2026-09-29 | stale | 🟢 healthy |
-| CISA Cybersecurity Advisories | rss | 97% | 0 | 0 | 2026-11-27 | 2026-11-25 | fresh | 🟢 healthy |
+| CISA Cybersecurity Advisories | rss | 97% | 0 | 0 | 2026-11-27 | 2026-11-27 | fresh | 🟢 healthy |
 | Cisco Quantum-Safe Updates | watch | 99% | 0 | 0 | 2026-11-27 | 2026-10-26 | stale | 🟢 healthy |
 | Cloud and Edge Infrastructure Patents | patent | 100% | 0 | 0 | 2026-11-27 | 2026-11-26 | fresh | 🟢 healthy |
 | Cloudflare Blog | rss | 100% | 0 | 0 | 2026-11-27 | 2026-11-25 | fresh | 🟢 healthy |
@@ -46,7 +46,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | Department of War Strategic Technology Releases | watch | 100% | 0 | 0 | 2026-11-27 | 2026-11-19 | fresh | 🟢 healthy |
 | DigiCert Blog | rss | 100% | 0 | 0 | 2026-11-27 | 2026-11-23 | fresh | 🟢 healthy |
 | Distributed Sensing and Smart Dust Patents | patent | 99% | 0 | 0 | 2026-11-27 | 2026-11-19 | fresh | 🟢 healthy |
-| ETSI Quantum Standards News | watch | 97% | 0 | 0 | 2026-11-27 | 2026-09-24 | stale | 🔴 failing |
+| ETSI Quantum Standards News | watch | 96% | 0 | 0 | 2026-11-27 | 2026-09-24 | stale | 🔴 failing |
 | Fortanix Quantum Security | watch | 100% | 0 | 0 | 2026-11-27 | 2026-11-12 | stale | 🟢 healthy |
 | Google Security Blog | rss | 100% | 0 | 0 | 2026-11-27 | 2026-11-19 | fresh | 🟢 healthy |
 | Grants.gov · AI Forge | grant_opportunity | 100% | 0 | 0 | 2026-11-27 | 2026-07-22 | stale | 🟢 healthy |

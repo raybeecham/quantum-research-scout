@@ -5777,6 +5777,22 @@
             }
           ],
           "title": "Exploring Redundant PMNS Arithmetic for Side-Channel Leakage Reduction in ML-DSA"
+        },
+        {
+          "excerpts": [
+            "Polynomial Modular Number Systems (PMNS) have been proposed as an efficient alternative to classical modular arithmetic, with applications to elliptic curve cryptography",
+            "While existing work has focused on large-prime arithmetic, lattice-based cryptography operates over small moduli, a regime in which PMNS has not yet been studied"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-26",
+              "report_date": "2026-11-27",
+              "sequence": 1,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/3060"
+            }
+          ],
+          "title": "Exploring Redundant PMNS Arithmetic for Side-Channel Leakage Reduction in ML-DSA"
         }
       ]
     },
@@ -7020,6 +7036,26 @@
             }
           ],
           "title": "Classiq Launches Fault Tolerance Engine for Hardware-Aware Quantum Application Synthesis"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/classiq-updates-qmod-compiler-to-synthesize-2048-bit-shors-algorithm-in-under-10-seconds": {
+      "captures": [
+        {
+          "excerpts": [
+            "The improvement addresses a bottleneck in quantum software by preserving classical control structures during synthesis and enabling symbolic indexing of quantum qubit arrays",
+            "Classiq has upgraded its Qmod quantum programming language and compiler, allowing the Shor's algorithm for a 2048-bit RSA-scale integer to compile in under ten seconds"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-25",
+              "report_date": "2026-11-27",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/classiq-updates-qmod-compiler-to-synthesize-2048-bit-shors-algorithm-in-under-10-seconds"
+            }
+          ],
+          "title": "Classiq Updates Qmod Compiler to Synthesize 2048-Bit Shor’s Algorithm in Under 10 Seconds"
         }
       ]
     },
@@ -11391,6 +11427,27 @@
         }
       ]
     },
+    "https://quantumzeitgeist.com/cdn-providers-post-quantum-key-exchange": {
+      "captures": [
+        {
+          "excerpts": [
+            "On 27 November 2026, 68.7% of the 319 UK organisations measured negotiated ML-KEM on their public site, a post-quantum key exchange, placing the UK 7th of 40 countries",
+            "77.5% of the 40 UK banks measured negotiate ML-KEM, second to the United States at 84.9%",
+            "Exact Post-Quantum Security Analysis of Ascon Authenticated Encryption under Nonce Misuse — already featured in Strategic Signals. [Open item](https://eprint.iacr.org/2026/3076)"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-27",
+              "report_date": "2026-11-27",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/cdn-providers-post-quantum-key-exchange"
+            }
+          ],
+          "title": "Banks lead UK firms in adopting post-quantum key exchange"
+        }
+      ]
+    },
     "https://quantumzeitgeist.com/circuit-qed-qubit-links-two-waveguides": {
       "captures": [
         {
@@ -11849,6 +11906,26 @@
             }
           ],
           "title": "Logical qubits teleported with 41 physical qubits"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/ethereum-counter-quantum-threats-hash-signatures": {
+      "captures": [
+        {
+          "excerpts": [
+            "The Ethereum Foundation made this post-quantum transition a top priority, with target dates ranging from 2027 to 2029",
+            "Ethereum core developers want to retire the cryptography that secures the network today and replace it with hash-based signatures, countering future quantum and AI threats"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-27",
+              "report_date": "2026-11-27",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/ethereum-counter-quantum-threats-hash-signatures"
+            }
+          ],
+          "title": "Ethereum to Counter Quantum and AI Threats with Hash Signatures"
         }
       ]
     },
@@ -21235,6 +21312,26 @@
             }
           ],
           "title": "Ethereum Plans Shift to Hash-Based Signatures for Post-Quantum Security"
+        }
+      ]
+    },
+    "https://thequantuminsider.com/2026/11/27/quantum-computing-101-can-a-cat-be-alive-and-dead-at-the-same-time": {
+      "captures": [
+        {
+          "excerpts": [
+            "What is a qubit, why do quantum computers need to be colder than outer space, and what will they really be able to do?",
+            "A plain-English guide to quantum computing, from Schrödinger’s cat to post-quantum cryptography"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-27",
+              "report_date": "2026-11-27",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/27/quantum-computing-101-can-a-cat-be-alive-and-dead-at-the-same-time"
+            }
+          ],
+          "title": "Quantum Computing 101: Can a Cat be Alive and Dead at The Same Time?"
         }
       ]
     },
