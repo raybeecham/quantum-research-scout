@@ -5853,6 +5853,13 @@
               "sequence": 0,
               "source": "IACR ePrint",
               "url": "https://eprint.iacr.org/2026/3076"
+            },
+            {
+              "published_date": "2026-11-26",
+              "report_date": "2026-11-28",
+              "sequence": 0,
+              "source": "IACR ePrint",
+              "url": "https://eprint.iacr.org/2026/3076"
             }
           ],
           "title": "Exact Post-Quantum Security Analysis of Ascon Authenticated Encryption under Nonce Misuse"
@@ -6540,6 +6547,13 @@
               "sequence": 0,
               "source": "Quantum Journal",
               "url": "https://quantum-journal.org/papers/q-2026-11-27-2286"
+            },
+            {
+              "published_date": "2026-11-27",
+              "report_date": "2026-11-28",
+              "sequence": 0,
+              "source": "Quantum Journal",
+              "url": "https://quantum-journal.org/papers/q-2026-11-27-2286"
             }
           ],
           "title": "Decoding Multimode Gottesman-Kitaev-Preskill Codes with Noisy Auxiliary States"
@@ -6556,6 +6570,13 @@
             {
               "published_date": "2026-11-27",
               "report_date": "2026-11-27",
+              "sequence": 0,
+              "source": "Quantum Journal",
+              "url": "https://quantum-journal.org/papers/q-2026-11-27-2289"
+            },
+            {
+              "published_date": "2026-11-27",
+              "report_date": "2026-11-28",
               "sequence": 0,
               "source": "Quantum Journal",
               "url": "https://quantum-journal.org/papers/q-2026-11-27-2289"
@@ -6583,6 +6604,27 @@
             }
           ],
           "title": "Aalborg University Orders ConScience Plug’N’Teach Superconducting Quantum Computer for Hands-On Engineering Training"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/algorithmiq-and-ibm-quantum-execute-40-qubit-discrete-time-quantum-walks-on-biological-networks": {
+      "captures": [
+        {
+          "excerpts": [
+            "Algorithmiq and IBM Quantum have successfully executed 40-qubit discrete-time quantum walks (DTQWs) on irregular protein-protein interaction networks, overcoming limitations of conventional dense encodings",
+            "They used a sparse single-excitation encoding and novel gate operations to significantly reduce circuit depth",
+            "This advancement was applied to a biomedical case study, where quantum walks helped prioritize an asthma risk gene more effectively than classical methods"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-27",
+              "report_date": "2026-11-28",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/algorithmiq-and-ibm-quantum-execute-40-qubit-discrete-time-quantum-walks-on-biological-networks"
+            }
+          ],
+          "title": "Algorithmiq and IBM Quantum Execute 40-Qubit Discrete-Time Quantum Walks on Biological Networks"
         }
       ]
     },
@@ -9790,6 +9832,47 @@
         }
       ]
     },
+    "https://quantumcomputingreport.com/qutech-demonstrates-weight-four-stabilizer-parity-checks-in-a-silicon-spin-shuttling-processor": {
+      "captures": [
+        {
+          "excerpts": [
+            "Researchers at QuTech have demonstrated significant advancements in quantum computing, showcasing weight-four X- and Z-type quantum error-correction parity checks and five-qubit Greenberger-Horne-Zeilinger (GHZ)...",
+            "Their work highlights the successful use of coherent electron shuttling for remote tuning and multi-qubit operations, with an error analysis pointing to two-qubit exchange pulses as the primary source of residual error"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-27",
+              "report_date": "2026-11-28",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/qutech-demonstrates-weight-four-stabilizer-parity-checks-in-a-silicon-spin-shuttling-processor"
+            }
+          ],
+          "title": "QuTech Demonstrates Weight-Four Stabilizer Parity Checks in a Silicon Spin-Shuttling Processor"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/qutech-launches-quantum-systems-integration-unit-to-build-open-architecture-superconducting-systems": {
+      "captures": [
+        {
+          "excerpts": [
+            "QuTech has launched a new Quantum Systems Integration Unit to build open-architecture superconducting quantum computers using a European supply chain",
+            "This initiative builds on QuTech's Quantum Inspire platform and incorporates recent research from the DiCarlo Lab to advance quantum error correction",
+            "The unit aims to standardize modular system interfaces and integrate various hardware and software components, with a planned commercial spinout in 2028"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-27",
+              "report_date": "2026-11-28",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/qutech-launches-quantum-systems-integration-unit-to-build-open-architecture-superconducting-systems"
+            }
+          ],
+          "title": "QuTech Launches Quantum Systems Integration Unit to Build Open-Architecture Superconducting Systems"
+        }
+      ]
+    },
     "https://quantumcomputingreport.com/researchers-demonstrate-fully-integrated-continuous-variable-qkd-over-100-km-with-composable-finite-size-security": {
       "captures": [
         {
@@ -9829,6 +9912,27 @@
             }
           ],
           "title": "Researchers Introduce QECLean Framework to Formally Verify Quantum Error-Correcting Codes in Lean 4"
+        }
+      ]
+    },
+    "https://quantumcomputingreport.com/researchers-propose-fault-tolerant-quantum-processor-architecture-controlled-by-20-or-fewer-external-wires": {
+      "captures": [
+        {
+          "excerpts": [
+            "Researchers have proposed a new fault-tolerant quantum processor architecture that uses 20 or fewer external wires, a significant reduction from current designs",
+            "This design features a fixed, clocked planar array where quantum data flows through hard-wired operation tiles",
+            "This advancement could lead to more scalable and robust quantum computers"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-27",
+              "report_date": "2026-11-28",
+              "sequence": 0,
+              "source": "Quantum Computing Report",
+              "url": "https://quantumcomputingreport.com/researchers-propose-fault-tolerant-quantum-processor-architecture-controlled-by-20-or-fewer-external-wires"
+            }
+          ],
+          "title": "Researchers Propose Fault-Tolerant Quantum Processor Architecture Controlled by 20 or Fewer External Wires"
         }
       ]
     },
@@ -11498,6 +11602,13 @@
             {
               "published_date": "2026-11-27",
               "report_date": "2026-11-27",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/cdn-providers-post-quantum-key-exchange"
+            },
+            {
+              "published_date": "2026-11-27",
+              "report_date": "2026-11-28",
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/cdn-providers-post-quantum-key-exchange"
@@ -14677,6 +14788,13 @@
               "sequence": 0,
               "source": "Quantum Zeitgeist",
               "url": "https://quantumzeitgeist.com/quantum-communication-hamming-distance-privacy-protocols"
+            },
+            {
+              "published_date": "2026-11-27",
+              "report_date": "2026-11-28",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/quantum-communication-hamming-distance-privacy-protocols"
             }
           ],
           "title": "Quantum Communication Matches Classical Accuracy with Negligible Error in Privacy Protocols"
@@ -16644,6 +16762,26 @@
             }
           ],
           "title": "Unitary Foundation wins NSF award to build open quantum software"
+        }
+      ]
+    },
+    "https://quantumzeitgeist.com/universite-sherbrooke-quantum-error-correction-gains": {
+      "captures": [
+        {
+          "excerpts": [
+            "In order to achieve fault-tolerant quantum computing, quantum error correction schemes protect logical information from decoherence, and a promising method is the multimode Gottesman-Kitaev-Preskill (GKP) encoding",
+            "This work focuses on decoding measurements from Steane-type quantum error correction protocols for multimode GKP codes, proposing a decoder that tracks correlations between errors on different modes"
+          ],
+          "observations": [
+            {
+              "published_date": "2026-11-27",
+              "report_date": "2026-11-28",
+              "sequence": 0,
+              "source": "Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/universite-sherbrooke-quantum-error-correction-gains"
+            }
+          ],
+          "title": "Quantum error correction gains from tracking helper state errors"
         }
       ]
     },
@@ -21448,6 +21586,13 @@
               "sequence": 0,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/11/26/sap-and-planqc-expand-quantum-computing-partnership-plan-hardware-tests-in-2027"
+            },
+            {
+              "published_date": "2026-11-26",
+              "report_date": "2026-11-28",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/26/sap-and-planqc-expand-quantum-computing-partnership-plan-hardware-tests-in-2027"
             }
           ],
           "title": "SAP and planqc Expand Quantum Computing Partnership, Plan Hardware Tests in 2027"
@@ -21506,6 +21651,13 @@
               "sequence": 0,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/11/27/ethereum-shift-hash-based-signatures-post-quantum-security"
+            },
+            {
+              "published_date": "2026-11-27",
+              "report_date": "2026-11-28",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/27/ethereum-shift-hash-based-signatures-post-quantum-security"
             }
           ],
           "title": "Ethereum Plans Shift to Hash-Based Signatures for Post-Quantum Security"
@@ -21523,6 +21675,13 @@
             {
               "published_date": "2026-11-27",
               "report_date": "2026-11-27",
+              "sequence": 0,
+              "source": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/11/27/quantum-computing-101-can-a-cat-be-alive-and-dead-at-the-same-time"
+            },
+            {
+              "published_date": "2026-11-27",
+              "report_date": "2026-11-28",
               "sequence": 0,
               "source": "The Quantum Insider",
               "url": "https://thequantuminsider.com/2026/11/27/quantum-computing-101-can-a-cat-be-alive-and-dead-at-the-same-time"

@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-28 05:52 UTC_
+_Updated 2026-11-28 14:09 UTC_
 
 Rolling health is inferred from **28** retained daily report(s). A successful attempt means no source failure was recorded; advisory coverage limits are tracked separately.
 
@@ -19,7 +19,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | arXiv PQC and Quantum-Safe Cryptography | arxiv | 61% | 5 | 0 | 2026-11-10 | 2026-10-28 | standby | ⚪ standby |
 | arXiv Quantum Computing | arxiv | 61% | 5 | 0 | 2026-11-10 | 2026-10-29 | standby | ⚪ standby |
 | arXiv Quantum Networking and Sensing | arxiv | 62% | 5 | 0 | 2026-11-10 | 2026-10-29 | standby | ⚪ standby |
-| Department of War Strategic Technology News | watch | 86% | 4 | 0 | 2026-11-28 | 2026-11-20 | fresh | 🟢 healthy |
+| Department of War Strategic Technology News | watch | 87% | 4 | 0 | 2026-11-28 | 2026-11-20 | fresh | 🟢 healthy |
 | arXiv RSS cs.CR | arxiv_rss | 94% | 1 | 7 | 2026-11-28 | 2026-11-26 | fresh | 🟢 healthy |
 | arXiv RSS quant-ph | arxiv_rss | 94% | 1 | 7 | 2026-11-28 | 2026-11-26 | fresh | 🟢 healthy |
 | DOE Office of Science Updates | watch | 97% | 1 | 0 | 2026-11-28 | 2026-11-10 | stale | 🟢 healthy |
@@ -70,7 +70,7 @@ Weekend arXiv feeds with no entries are counted as expected idle days, not failu
 | IETF Post-Quantum Updates | watch | 100% | 0 | 0 | 2026-11-28 | 2026-11-12 | fresh | 🟢 healthy |
 | InfoQ Quantum Computing | rss | 100% | 0 | 0 | 2026-11-28 | 2026-11-09 | fresh | 🟢 healthy |
 | Intel Quantum Research | watch | 100% | 0 | 0 | 2026-11-28 | — | reference | 🟢 healthy |
-| IonQ News | rss | 100% | 0 | 0 | 2026-11-28 | 2026-11-13 | fresh | 🟢 healthy |
+| IonQ News | rss | 100% | 0 | 0 | 2026-11-28 | 2026-11-13 | stale | 🟢 healthy |
 | IonQ Technical Blog | watch | 100% | 0 | 0 | 2026-11-28 | 2026-11-23 | fresh | 🟢 healthy |
 | Keyfactor Quantum and Crypto-Agility | watch | 100% | 0 | 0 | 2026-11-28 | 2026-10-29 | stale | 🟢 healthy |
 | Kubernetes Blog | rss | 100% | 0 | 0 | 2026-11-28 | 2026-11-23 | fresh | 🟢 healthy |
