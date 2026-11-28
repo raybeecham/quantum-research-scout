@@ -4,7 +4,7 @@
 
 [Report Index](README.md) · [Federal Funding](federal-funding.md) · [Signal Tracker](signals.md)
 
-_Updated 2026-11-27T06:07:44.684826+00:00_
+_Updated 2026-11-28T05:49:28.633052+00:00_
 
 Patent publications are early intelligence indicators, not proof of implementation, validity, deployment, commercial readiness, infringement, or freedom to operate.
 
@@ -13,9 +13,9 @@ Patent publications are early intelligence indicators, not proof of implementati
 - Tracked publications: **250**
 - Curated notable patents: **2**
 - Automated recent discoveries: **248**
-- Published in the last 30 days: **43**
-- Unique named assignees: **137**
-- Patent families: **298**
+- Published in the last 30 days: **45**
+- Unique named assignees: **138**
+- Patent families: **301**
 - Applications / grants: **241 / 9**
 - Known legal status: **221 of 250**
 - Publications with citation evidence: **0**
@@ -34,6 +34,7 @@ Family grouping uses provider family identifiers, parent/priority applications, 
 | [METHOD AND APPARATUS FOR PROTECTING CRYPTOGRAPHIC KEYS IN THE PROCESS OF MIGRATION TO POST-QUANTUM CRYPTOGRAPHY](https://data.uspto.gov/patent-file-wrapper/search/details/19336026/application-data)<br><small>US20260088983A1</small> | ARRIS Enterprises LLC | 2 / 0 | 0 | **76 · HIGH** |
 | [METHOD AND SYSTEM FOR SECURING POST-QUANTUM BLOCKCHAINS](https://data.uspto.gov/patent-file-wrapper/search/details/19404287/application-data)<br><small>12640949</small> | King Fahd University of Petroleum and Minerals | 0 / 1 | 0 | **75 · HIGH** |
 | [QUANTUM-RESISTANT ATTESTED KEY AND MODEL LIFECYCLE MANAGEMENT SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19714456/application-data)<br><small>US20260352451A1</small> | Not listed | 2 / 0 | 0 | **73 · HIGH** |
+| [METHOD FOR DATA COMMUNICATION AND COMPUTER PROGRAM FOR POST-QUANTUM CRYPTOGRAPHIC PROXYING](https://data.uspto.gov/patent-file-wrapper/search/details/19682568/application-data)<br><small>US20260379652A1</small> | SEQURE SpA | 1 / 0 | 0 | **73 · HIGH** |
 | [METHOD AND SYSTEM FOR STRATEGIZING NETWORK MIGRATION IN ADAPTATION TO POST QUANTUM CRYPTOGRAPHY](https://data.uspto.gov/patent-file-wrapper/search/details/19568917/application-data)<br><small>US20260352463A1</small> | Tata Consultancy Services Limited | 1 / 0 | 0 | **73 · HIGH** |
 | [AI-ORCHESTRATED DIRECTED ELECTROMAGNETIC WIRELESS POWER INFRASTRUCTURE WITH POST-QUANTUM BLOCKCHAIN-AUTHENTICATED DEVICE AUTHORIZATION](https://data.uspto.gov/patent-file-wrapper/search/details/19741315/application-data)<br><small>US20260352030A1</small> | VOICE LIFE HOLDINGS Limited | 1 / 0 | 0 | **73 · HIGH** |
 | [METHOD AND APPARATUS FOR POST-QUANTUM CRYPTOGRAPHY COMMUNICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19714581/application-data)<br><small>US20260342591A1</small> | HUAWEI TECHNOLOGIES CO., LTD. | 1 / 0 | 0 | **73 · HIGH** |
@@ -45,7 +46,6 @@ Family grouping uses provider family identifiers, parent/priority applications, 
 | [METHOD FOR OPTIMIZING AN EXECUTION OF A GENERATION OF A CRYSTALS-DILITHIUM POST-QUANTUM SIGNATURE](https://data.uspto.gov/patent-file-wrapper/search/details/19157393/application-data)<br><small>US20260222228A1</small> | THALES DIS FRANCE SAS | 1 / 0 | 0 | **73 · HIGH** |
 | [METHOD, APPARATUS, AND SYSTEM FOR POST-QUANTUM ELECTRONIC SIGNATURE BASED ON INFINITE HASH FUNCTION](https://data.uspto.gov/patent-file-wrapper/search/details/19539954/application-data)<br><small>US20260189404A1</small> | Industry-Academic Cooperation Foundation, Dankook University | 1 / 0 | 0 | **73 · HIGH** |
 | [ESTIMATION OF EFFORTS IN MIGRATING APPLICATIONS TO POST QUANTUM CRYPTOGRAPHY (PQC) STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19405497/application-data)<br><small>US20260178743A1</small> | Tata Consultancy Services Limited | 1 / 0 | 0 | **73 · HIGH** |
-| [QUANTUM-SAFE STORAGE SECURITY AT-REST AND UNDER-OPERATION WITH EXTENDED DETECTION RESPONSE](https://data.uspto.gov/patent-file-wrapper/search/details/19329507/application-data)<br><small>US20260163909A1</small> | Peter Chacko | 1 / 0 | 0 | **73 · HIGH** |
 
 ## Notable Patent Watchlist
 
@@ -162,6 +162,8 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [APPARATUS FOR GENERATING GROUP VELOCITY DISPERSION AND QUANTUM COMMUNICATION SYSTEM USING THE SAME](https://data.uspto.gov/patent-file-wrapper/search/details/19264727/application-data)<br><small>US20260063508A1</small> | Application · Pending | POSTECH RESEARCH AND BUSINESS DEVELOPMENT FOUNDATION | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [METHOD, CONTROL PROGRAM, COMPUTER-READABLE DATA CARRIER, CONTROL UNIT, QUANTUM DEVICE, QUANTUM NETWORK, APPARATUS, AND QUANTUM COMPUTING ARRANGEMENT FOR ESTABLISHING A QUANTUM COMMUNICATION CHANNEL](https://data.uspto.gov/patent-file-wrapper/search/details/19289705/application-data)<br><small>US20260051959A1</small> | Application · Pending | Airbus SAS | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [Denoising Qubit Calibration Data with Deep Learning](https://data.uspto.gov/patent-file-wrapper/search/details/19695955/application-data)<br><small>US20260289378A1</small> | Application · Pending | Google LLC | 1 member(s) · 0 citation(s) | **65 · HIGH** |
+| [QUANTUM COMPUTING RESISTANT VEHICLE TO EVERYTHING COMMUNICATION](https://data.uspto.gov/patent-file-wrapper/search/details/19759122/application-data)<br><small>US20260377553A1</small> | Application · Pending | INTEGRITY Security Services LLC | 1 member(s) · 0 citation(s) | **65 · HIGH** |
+| [HIGH THERMAL CONDUCTIVITY COLD PLATE WITH FINS FOR A SEMICONDUCTOR, OPTICAL, ELECTRONIC, OR QUANTUM COMPUTING DEVICE](https://data.uspto.gov/patent-file-wrapper/search/details/19677046/application-data)<br><small>US20260380736A1</small> | Application · Pending | II-VI Delaware, Inc. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [Processing Signals Associated with a Quantum Computing System](https://data.uspto.gov/patent-file-wrapper/search/details/19669255/application-data)<br><small>US20260359699A1</small> | Application · Pending | Qblox Holding B.V. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [QUANTUM COMPUTING DEVICE FOR PHYSICS INSPIRED EXTRAPOLATION AND ERROR MITIGATION BY RESTRICTED EVOLUTION AND METHOD THEREOF](https://data.uspto.gov/patent-file-wrapper/search/details/19659731/application-data)<br><small>US20260350456A1</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
 | [QUANTUM COMPUTING DEVICE FOR INVERSE NOISE CHARACTERIZATION AND ERROR MITIGATION BY RESTRICTED EVOLUTION AND METHOD THEREOF](https://data.uspto.gov/patent-file-wrapper/search/details/19658207/application-data)<br><small>US20260340474A1</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **65 · HIGH** |
@@ -273,12 +275,10 @@ The rolling two-year discovery ledger is populated by the USPTO Open Data Portal
 | [QUANTUM COMMUNICATION OF DATA USING A DISTRIBUTED ENTANGLEMENT STATE](https://data.uspto.gov/patent-file-wrapper/search/details/19491890/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Bundesdruckerei GmbH | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [Large-scale multi-qubit trapped-ion gates](https://data.uspto.gov/patent-file-wrapper/search/details/19489905/application-data)<br><small>Publication number unavailable</small> | Application · Pending | Quantum Art Ltd., YEDA RESEARCH AND DEVELOPMENT CO. LTD. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [DEVICE AND METHOD FOR UPDATING NETWORK INFORMATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147505/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
-| [DEVICE AND METHOD FOR DETERMINING PATH OF ENTANGLEMENT ROUTING IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19505598/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [DEVICE AND METHOD FOR CARRYING OUT LINK SET CONFIGURATION-BASED QUANTUM RESOURCE ALLOCATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19147275/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [APPARATUS AND METHOD FOR PERFORMING QUANTUM STATE MODULATION ON BASIS OF QUANTUM SECURE DIRECT COMMUNICATION IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19128044/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [APPARATUS AND METHOD FOR PERFORMING ENTANGLEMENT DISTILLATION PROTOCOL BY USING BIDIRECTIONAL QECCS AND QPA AS ADAPTIVE MODE IN QUANTUM COMMUNICATION SYSTEM](https://data.uspto.gov/patent-file-wrapper/search/details/19501247/application-data)<br><small>Publication number unavailable</small> | Application · Pending | LG ELECTRONICS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [JOINT MODULAR MULTIPLICATIVE INVERSE OPERATIONS FOR ACTIVE VOLUME QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19489704/application-data)<br><small>Publication number unavailable</small> | Application · Pending | PsiQuantum, Corp. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
-| [INFORMATION PROCESSING PROGRAM FOR QUANTUM COMPUTING, INFORMATION PROCESSING DEVICE FOR QUANTUM COMPUTING, INFORMATION PROCESSING METHOD FOR QUANTUM COMPUTING, AND INFORMATION PROCESSING SYSTEM FOR QUANTUM COMPUTING](https://data.uspto.gov/patent-file-wrapper/search/details/19521857/application-data)<br><small>Publication number unavailable</small> | Application · Pending | QUNASYS INC. | 1 member(s) · 0 citation(s) | **60 · HIGH** |
 | [LARGE LANGUAGE MODEL RESPONSE OPTIMIZATION FOR DATA PIPELINE GENERATION](https://data.uspto.gov/patent-file-wrapper/search/details/19723600/application-data)<br><small>US20260329885A1</small> | Application · Pending | Palantir Technologies Inc. | 2 member(s) · 0 citation(s) | **60 · HIGH** |
 | [LARGE LANGUAGE MODEL RESPONSE OPTIMIZATION FOR DATA PIPELINE GENERATION](https://data.uspto.gov/patent-file-wrapper/search/details/19723658/application-data)<br><small>US20260329886A1</small> | Application · Pending | Palantir Technologies Inc. | 2 member(s) · 0 citation(s) | **60 · HIGH** |
 | [SYSTEM AND METHOD FOR SYNTHETIC QUERY GENERATION AND RETRIEVAL USING A LARGE LANGUAGE MODEL](https://data.uspto.gov/patent-file-wrapper/search/details/19636007/application-data)<br><small>US20260300247A1</small> | Application · Pending | The Toronto-Dominion Bank | 2 member(s) · 0 citation(s) | **60 · HIGH** |

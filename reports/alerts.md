@@ -4,19 +4,11 @@
 
 [Report Index](README.md) · [Signal Tracker](signals.md) · [Source Health](source-health.md)
 
-_Updated 2026-11-27 06:13 UTC_
+_Updated 2026-11-28 05:52 UTC_
 
 | Active alerts | New this run | Critical | High | Medium |
 |---:|---:|---:|---:|---:|
-| 50 | 4 | 10 | 7 | 33 |
-
-## 🔴 Contract: QuEra
-
-- Severity: **critical**
-- Status: **contract**
-- QuEra matched a contract event: Harvard, QuEra, NVIDIA, Anthropic, and Three National Labs Secure $12 Million DOE Award for AI-Driven Quantum Error Correction
-- [Open direct evidence](https://quantumcomputingreport.com/harvard-quera-nvidia-anthropic-and-three-national-labs-secure-12-million-doe-award-for-ai-driven-quantum-error-correction)
-- [Open supporting view](entity-watch.md)
+| 50 | 5 | 9 | 4 | 37 |
 
 ## 🔴 Critical theme: AI Security
 
@@ -36,7 +28,7 @@ _Updated 2026-11-27 06:13 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 QEC / Fault Tolerance has critical strategic importance and declining momentum.
+- 🔴 QEC / Fault Tolerance has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Hardware
@@ -50,7 +42,7 @@ _Updated 2026-11-27 06:13 UTC_
 
 - Severity: **critical**
 - Status: **critical**
-- 🔴 Quantum Networking has critical strategic importance and rising momentum.
+- 🔴 Quantum Networking has critical strategic importance and stable momentum.
 - [Open supporting view](signals.md)
 
 ## 🔴 Critical theme: Quantum Sensing
@@ -74,11 +66,11 @@ _Updated 2026-11-27 06:13 UTC_
 - 🔴 Standards / Government has critical strategic importance and declining momentum.
 - [Open supporting view](signals.md)
 
-## 🔴 Source failing: Quantum Computing Patents 🆕
+## 🔴 Source failing: ETSI Quantum Standards News 🆕
 
 - Severity: **critical**
 - Status: **failing**
-- 🔴 90.1% reliability with 5 warning day(s).
+- 🔴 96.2% reliability with 1 warning day(s).
 - [Open supporting view](source-health.md)
 
 ## 🟠 Actionable signal: AI Security
@@ -86,13 +78,6 @@ _Updated 2026-11-27 06:13 UTC_
 - Severity: **high**
 - Status: **actionable**
 - 🎯 AI Security is actionable with high confidence.
-- [Open supporting view](signals.md)
-
-## 🟠 Actionable signal: Quantum Networking
-
-- Severity: **high**
-- Status: **actionable**
-- 🎯 Quantum Networking is actionable with high confidence.
 - [Open supporting view](signals.md)
 
 ## 🟠 Actionable signal: Quantum Sensing
@@ -109,27 +94,12 @@ _Updated 2026-11-27 06:13 UTC_
 - ↗️ Recent evidence is 7 versus 4 in the prior period.
 - [Open supporting view](signals.md)
 
-## 🟠 Rising momentum: Quantum Networking
-
-- Severity: **high**
-- Status: **rising**
-- ↗️ Recent evidence is 19 versus 10 in the prior period.
-- [Open supporting view](signals.md)
-
 ## 🟠 Rising momentum: Quantum Sensing
 
 - Severity: **high**
 - Status: **rising**
 - ↗️ Recent evidence is 1 versus 0 in the prior period.
 - [Open supporting view](signals.md)
-
-## 🟠 Standard: Thales
-
-- Severity: **high**
-- Status: **standard**
-- Thales matched a standard event: Quantum-Safe Migration Planning: Singapore CSA & MAS Guidance | Thales
-- [Open direct evidence](https://cpl.thalesgroup.com/blog/data-security/building-an-evidence-based-quantum-safe-migration-plan)
-- [Open supporting view](entity-watch.md)
 
 ## 🟡 Source stale: Accenture Quantum and PQC News
 
@@ -173,7 +143,7 @@ _Updated 2026-11-27 06:13 UTC_
 - The latest dated item is from 2026-09-24; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: Fortanix Quantum Security 🆕
+## 🟡 Source stale: Fortanix Quantum Security
 
 - Severity: **medium**
 - Status: **stale**
@@ -285,7 +255,7 @@ _Updated 2026-11-27 06:13 UTC_
 - The latest dated item is from 2026-10-15; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: NCSC UK News 🆕
+## 🟡 Source stale: NCSC UK News
 
 - Severity: **medium**
 - Status: **stale**
@@ -327,6 +297,13 @@ _Updated 2026-11-27 06:13 UTC_
 - The latest dated item is from 2026-11-04; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
+## 🟡 Source stale: PsiQuantum News 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-11-12; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
 ## 🟡 Source stale: QuEra Press Releases
 
 - Severity: **medium**
@@ -355,9 +332,30 @@ _Updated 2026-11-27 06:13 UTC_
 - The latest dated item is from 2026-10-08; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)
 
-## 🟡 Source stale: USAspending · AI Forge 🆕
+## 🟡 Source stale: USAspending · AI Forge
 
 - Severity: **medium**
 - Status: **stale**
 - The latest dated item is from 2026-09-28; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · Artificial Intelligence 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-10-01; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · Genesis Mission 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-05-19; collection may be healthy but the content stream is stale.
+- [Open supporting view](source-health.md)
+
+## 🟡 Source stale: USAspending · Golden Dome 🆕
+
+- Severity: **medium**
+- Status: **stale**
+- The latest dated item is from 2026-04-01; collection may be healthy but the content stream is stale.
 - [Open supporting view](source-health.md)

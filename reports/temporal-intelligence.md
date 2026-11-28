@@ -2,7 +2,7 @@
 
 [Report Index](README.md) · [What Changed](intelligence-changes.md) · [Strategic Forecasts](strategic-forecasts.md)
 
-_Updated 2026-11-27T06:07:44.684826+00:00_
+_Updated 2026-11-28T05:49:28.633052+00:00_
 
 Dates are assigned explicit roles. Event, publication, effective, and observation times are not treated as interchangeable; newly discovered historical evidence is labeled separately from a newly occurring event.
 

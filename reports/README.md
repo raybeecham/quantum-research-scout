@@ -2,7 +2,7 @@
 
 > **Frontier Signal** · Intelligence archive and operational dashboard
 
-_Updated 2026-11-27 22:29 UTC_
+_Updated 2026-11-28 05:52 UTC_
 
 [Latest Reports](#latest-reports) · [Intelligence Tracking](#intelligence-tracking) · [Current Themes](#current-high-priority-themes) · [Archive](#archive-summary)
 
@@ -10,7 +10,7 @@ _Updated 2026-11-27 22:29 UTC_
 
 ## Latest Reports
 
-- Daily: [2026-11-26-digest](2026-11/2026-11-26-digest.md)
+- Daily: [2026-11-27-digest](2026-11/2026-11-27-digest.md)
 - Weekly: [2026-11-23_to_2026-11-27-weekly](weekly/2026/2026-11-23_to_2026-11-27-weekly.md)
 - Monthly: [2026-10-monthly](monthly/2026/2026-10-monthly.md)
 
